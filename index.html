@@ -2057,13 +2057,20 @@ async function cargarDevocionalSemana(year, week) {
         if (!dia.musica_url && musicaRaiz) dia.musica_url = musicaRaiz;
         DEVOCIONALES[fecha] = dia;
       });
-      // Guardar datos de serie/temporada globalmente
-      window.SERIE_DATA = {
-        temporada:       data.temporada       || '',
-        serie_titulo:    data.serie_titulo    || data.serie || '',
-        serie_subtitulo: data.serie_subtitulo || '',
-        blog:            data.blog            || null,
-      };
+      // Solo sobrescribir SERIE_DATA si esta semana es más reciente que la ya cargada
+      // (evita que semanas anteriores borren blog/serie_titulo de la semana actual)
+      const semanaActual = (year * 100) + week;
+      const semanaPrevia = window.SERIE_DATA ? ((window.SERIE_DATA._year||0) * 100 + (window.SERIE_DATA._week||0)) : 0;
+      if (semanaActual >= semanaPrevia) {
+        window.SERIE_DATA = {
+          temporada:       data.temporada       || '',
+          serie_titulo:    data.serie_titulo    || data.serie || '',
+          serie_subtitulo: data.serie_subtitulo || '',
+          blog:            data.blog            || null,
+          _year: year,
+          _week: week,
+        };
+      }
     }
     SEMANA_CARGADA = key;
     console.log(`[STARS] Devocional ${filename} cargado OK — ${Object.keys(data.dias||{}).length} días`);
@@ -2718,7 +2725,20 @@ function dskToggleCapLibro(nombre,hdr){
 function dskFiltrarCaps(q){ _dskCapBloqueAbierto=-1; _dskCapLibroAbierto=''; dskRenderCaps(q); }
 
 /* ── Abrir capítulo en workspace ── */
-function dskAbrirCap(key){
+async function dskAbrirCap(key){
+  // Si el estudio no está cacheado, cargarlo primero (igual que abrirCapitulo en mobile)
+  if(!ESTUDIOS_CAPS[key]){
+    dskWsShow('Cargando\u2026', `
+      <div style="text-align:center;padding:60px 20px;color:var(--white3)">
+        <div style="width:24px;height:24px;border:2px solid var(--gold);border-top-color:transparent;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 16px"></div>
+        <div style="font-size:13px">Cargando estudio\u2026</div>
+      </div>
+    `);
+    const partes = key.split('_');
+    const cap = partes[partes.length - 1];
+    const libro = partes.slice(0, -1).join(' ');
+    await cargarEstudio(libro, parseInt(cap));
+  }
   const estudio = ESTUDIOS_CAPS[key];
   if(estudio){
     _ecapKey = key; // ← compartido con el modal mobile
@@ -2733,7 +2753,7 @@ function dskAbrirCap(key){
     dskWsShow(estudio.titulo, `
       <div style="position:sticky;top:0;background:var(--black);padding:0 0 16px;z-index:1">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
-          <div style="font-size:10px;color:var(--white3)">The Message · LHSCOL</div>
+          <div style="font-size:10px;color:var(--white3)">The Message \u00b7 LHSCOL</div>
           <div style="font-size:10px;color:var(--gold);font-weight:600" id="dsk-cap-pct">${pctInicial}%</div>
         </div>
         <div style="height:3px;background:var(--black4);border-radius:99px;overflow:hidden;margin-bottom:12px">
@@ -2744,8 +2764,7 @@ function dskAbrirCap(key){
       <div id="dsk-cap-body">${bodyHtml}</div>
     `);
   } else {
-    const dato = CAPITULOS_DISPONIBLES[key];
-    if(dato) window.open(dato.url,'_blank');
+    if(typeof showToast === 'function') showToast('Estudio no disponible a\u00fan');
   }
 }
 
@@ -5037,7 +5056,7 @@ function filtrarCapitulos(){
   <!-- Topbar -->
   <div id="dsk-top">
     <div id="dsk-brand" style="display:flex;align-items:center;gap:10px">
-      <svg style="width:28px;height:28px;animation:starsPulse 3.5s ease-in-out infinite;flex-shrink:0" viewBox="0 0 200 200" fill="none"><circle cx="100" cy="100" r="98" fill="rgba(201,168,76,0.08)"/><g stroke="#c9a84c" stroke-width="2.5" stroke-linecap="round" fill="none"><path d="M100 18C104 18 108 22 110 30L118 58C108 52 92 52 82 58L90 30C92 22 96 18 100 18Z" fill="rgba(201,168,76,0.06)"/><path d="M164 68C167 72 166 77 162 82L142 102C140 90 132 80 122 74L148 62C155 58 161 64 164 68Z" fill="rgba(201,168,76,0.06)"/><path d="M140 158C136 162 131 162 126 158L108 138C119 136 128 128 132 118L148 140C152 148 144 154 140 158Z" fill="rgba(201,168,76,0.06)"/><path d="M60 158C56 154 56 148 60 140L76 118C80 128 89 136 100 138L82 158C77 163 64 162 60 158Z" fill="rgba(201,168,76,0.06)"/><path d="M36 68C39 64 45 58 52 62L78 74C68 80 60 90 58 102L38 82C34 77 33 72 36 68Z" fill="rgba(201,168,76,0.06)"/><circle cx="100" cy="100" r="4" fill="#c9a84c" stroke="none"/></g></svg>
+      <img src="logo.png" alt="STARS logo" style="width:28px;height:28px;object-fit:contain;animation:starsPulse 3.5s ease-in-out infinite;flex-shrink:0">
       <span>S · T · A · R · S &nbsp;·&nbsp; LHSCOL</span>
     </div>
     <div id="dsk-top-right">
