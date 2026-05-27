@@ -1,13 +1,14 @@
 /* ══════════════════════════════════════════════
-   S.T.A.R.S. · Service Worker v3
-   Shell: Cache-first
+   S.T.A.R.S. · Service Worker v4
+   Shell: Network-first (actualización automática)
    JSON dinámicos: Network-first (sin cache agresivo)
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v3';
+const CACHE_NAME = 'stars-v4';
 const SHELL_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
+  '/logo.png',
   '/icons/icon-192.png',
   '/icons/icon-512.png'
 ];
@@ -20,7 +21,7 @@ self.addEventListener('install', e => {
   );
 });
 
-// ACTIVATE — eliminar caches viejos
+// ACTIVATE — eliminar caches viejos y tomar control inmediato
 self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys()
@@ -38,7 +39,7 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // ── JSONs dinámicos → NETWORK FIRST, cache solo como fallback offline ──
+  // ── JSONs dinámicos → NETWORK FIRST ──
   if (
     url.pathname.startsWith('/devocionales/') ||
     url.pathname.startsWith('/estudios/')
@@ -47,37 +48,38 @@ self.addEventListener('fetch', e => {
       fetch(e.request.clone(), { cache: 'no-store' })
         .then(res => {
           if (res && res.status === 200) {
-            // Guardar copia fresca en cache (para offline)
             const clone = res.clone();
             caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
           }
           return res;
         })
-        .catch(() => {
-          // Sin internet → servir desde cache si existe
-          return caches.match(e.request).then(cached => {
-            if (cached) return cached;
-            // Respuesta vacía de emergencia
-            return new Response(JSON.stringify({ error: 'offline' }), {
+        .catch(() =>
+          caches.match(e.request).then(cached =>
+            cached || new Response(JSON.stringify({ error: 'offline' }), {
               headers: { 'Content-Type': 'application/json' }
-            });
-          });
-        })
+            })
+          )
+        )
     );
     return;
   }
 
-  // ── Shell (HTML, manifest, iconos) → CACHE FIRST ──
+  // ── Shell (HTML, manifest, iconos, logo) → NETWORK FIRST con fallback ──
+  // Siempre intenta red primero; si falla (offline) sirve cache
   e.respondWith(
-    caches.match(e.request).then(cached => {
-      if (cached) return cached;
-      return fetch(e.request).then(res => {
+    fetch(e.request.clone())
+      .then(res => {
         if (res && res.status === 200 && res.type !== 'opaque') {
           const clone = res.clone();
           caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
         }
         return res;
-      });
-    })
+      })
+      .catch(() => caches.match(e.request))
   );
+});
+
+// MENSAJE desde la app → forzar actualización
+self.addEventListener('message', e => {
+  if (e.data === 'SKIP_WAITING') self.skipWaiting();
 });

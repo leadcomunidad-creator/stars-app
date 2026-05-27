@@ -7,14 +7,14 @@
 <meta name="theme-color" content="#0a0a0a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="S.T.A.R.S.">
+<meta name="apple-mobile-web-app-title" content="S·T·A·R·S">
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icons/icon-192.png">
 <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png">
 <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="application-name" content="S.T.A.R.S.">
-<title>S.T.A.R.S. — LHSCOL</title>
+<meta name="application-name" content="S·T·A·R·S">
+<title>S·T·A·R·S</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -1204,7 +1204,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 /* ── Pills STARS rediseñadas ── */
 .stars-pills-row {
   display:flex;
-  gap:8px;
+  gap:6px;
   padding:0 16px 18px;
   overflow-x:auto;
   -webkit-overflow-scrolling:touch;
@@ -1215,8 +1215,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   background:var(--black3);
   border:1.5px solid var(--gold-border);
   border-radius:14px;
-  padding:12px 10px;
-  min-width:78px;
+  padding:12px 8px;
+  flex:1;
+  min-width:0;
   text-align:center;
   flex-shrink:0;
   display:flex;
@@ -1251,9 +1252,236 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   line-height:1.3;
 }
 
+
+/* ── LOGIN SCREEN ── */
+#login-screen{
+  position:fixed;inset:0;z-index:9999;
+  background:#0a0a0a;
+  display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  gap:0;
+}
+.login-logo{width:80px;height:80px;margin-bottom:24px;animation:starsPulse 3.5s ease-in-out infinite}
+.login-titulo{font-family:'Outfit',sans-serif;font-size:22px;font-weight:300;color:var(--gold);letter-spacing:0.42em;text-transform:uppercase;opacity:0.9;margin-bottom:6px}
+.login-sub{font-size:10px;color:var(--white3);letter-spacing:0.22em;text-transform:uppercase;opacity:0.5;margin-bottom:48px}
+.login-btn{display:flex;align-items:center;gap:12px;background:#fff;color:#1a1a1a;border:none;border-radius:12px;padding:14px 24px;font-family:'Outfit',sans-serif;font-size:15px;font-weight:500;cursor:pointer;transition:opacity 0.2s;letter-spacing:0.01em}
+.login-btn:active{opacity:0.85}
+.login-btn svg{width:20px;height:20px;flex-shrink:0}
+.login-frase{font-size:11px;color:var(--white3);opacity:0.35;margin-top:32px;letter-spacing:0.08em;text-align:center;line-height:1.6;padding:0 40px}
+#login-error{font-size:12px;color:#f87171;margin-top:16px;text-align:center}
+/* ── USER BADGE ── */
+.user-badge{display:flex;align-items:center;gap:8px;padding:6px 12px;background:var(--black3);border:1px solid var(--gold-border);border-radius:20px;cursor:pointer}
+.user-badge img{width:24px;height:24px;border-radius:50%;display:none}
+.user-badge span{font-size:11px;color:var(--white3);letter-spacing:0.04em}
 </style>
+
+<!-- Firebase -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
+  import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut }
+    from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
+  import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField }
+    from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyAqS3sMT0tsOm2G5eINckrLGA-1Qj4u6Y8",
+    authDomain: "stars-plus.firebaseapp.com",
+    projectId: "stars-plus",
+    storageBucket: "stars-plus.firebasestorage.app",
+    messagingSenderId: "138459401399",
+    appId: "1:138459401399:web:aaee2ce217192390ae5132"
+  };
+
+  const app   = initializeApp(firebaseConfig);
+  const auth  = getAuth(app);
+  const db    = getFirestore(app);
+  const provider = new GoogleAuthProvider();
+
+  // ── Ref del usuario actual ──
+  let _uid = null;
+  let _userData = {};
+  let _unsubscribe = null;
+
+  function userRef(){ return doc(db, 'usuarios', _uid); }
+
+  // ── Guardar dato en Firestore (merge) ──
+  async function fbSet(data){
+    if(!_uid) return;
+    try { await setDoc(userRef(), data, {merge:true}); } catch(e){ console.error('fbSet',e); }
+  }
+
+  // ── Leer un campo del cache local ──
+  function fbGet(campo, defVal=''){
+    if(_userData[campo] !== undefined) return _userData[campo];
+    return defVal;
+  }
+
+  // ── Exponer API global para que el resto del código la use ──
+  window.FB = {
+    // Pasos
+    setPaso: (fecha, idx) => {
+      const key = 'pasos_' + fecha;
+      const pasos = fbGet(key, {});
+      pasos[idx] = '1';
+      _userData[key] = pasos;
+      fbSet({[key]: pasos});
+    },
+    getPaso: (fecha, idx) => {
+      const pasos = fbGet('pasos_' + fecha, {});
+      return pasos[idx] === '1';
+    },
+    // Reflexión diaria
+    setReflexion: (fecha, texto) => {
+      const key = 'reflexion_' + fecha;
+      _userData[key] = texto;
+      fbSet({[key]: texto});
+    },
+    getReflexion: (fecha) => fbGet('reflexion_' + fecha, ''),
+    // Sembrar diaria
+    setSembrar: (fecha, texto) => {
+      const key = 'sembrar_' + fecha;
+      _userData[key] = texto;
+      fbSet({[key]: texto});
+    },
+    getSembrar: (fecha) => fbGet('sembrar_' + fecha, ''),
+    // Reflexión estudio profundo
+    setReflexionEstudio: (capKey, pregIdx, texto) => {
+      const key = 'estudio_' + capKey + '_' + pregIdx;
+      _userData[key] = texto;
+      fbSet({[key]: texto});
+    },
+    getReflexionEstudio: (capKey, pregIdx) => fbGet('estudio_' + capKey + '_' + pregIdx, ''),
+    // Tracker capítulos
+    setCap: (libro, cap) => {
+      const key = 'cap_' + libro.replace(/\s/g,'_') + '_' + cap;
+      _userData[key] = '1';
+      fbSet({[key]: '1'});
+    },
+    removeCap: (libro, cap) => {
+      const key = 'cap_' + libro.replace(/\s/g,'_') + '_' + cap;
+      delete _userData[key];
+      fbSet({[key]: deleteField()});
+    },
+    isCap: (libro, cap) => {
+      const key = 'cap_' + libro.replace(/\s/g,'_') + '_' + cap;
+      return fbGet(key, '') === '1';
+    },
+    // Racha (calcula desde los datos en cache)
+    calcularRacha: () => {
+      const hoy = new Date();
+      let racha = 0;
+      for(let i=0; i<365; i++){
+        const d = new Date(hoy);
+        d.setDate(hoy.getDate() - i);
+        const fecha = d.toISOString().slice(0,10).replace(/-/g,'');
+        const pasos = fbGet('pasos_' + fecha, {});
+        let completo = true;
+        for(let s=0; s<5; s++){
+          if(pasos[s] !== '1'){ completo = false; break; }
+        }
+        if(completo) racha++;
+        else if(i > 0) break;
+      }
+      return Math.max(racha, 1);
+    },
+    uid: () => _uid,
+    datos: () => _userData,
+  };
+
+  // ── Login con Google ──
+  window.loginConGoogle = async function(){
+    try {
+      await signInWithPopup(auth, provider);
+    } catch(e){
+      console.error('Login error', e);
+      document.getElementById('login-error').textContent = 'Error al iniciar sesión. Intenta de nuevo.';
+    }
+  };
+
+  // ── Bypass solo en localhost (pruebas locales) ──
+  window.loginLocalhost = function(){
+    _uid = 'local-test-uid';
+    _userData = {};
+    const nameEl = document.getElementById('user-name');
+    if(nameEl) nameEl.textContent = 'Usuario Local';
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('app-root').style.display = 'block';
+    window._appIniciada = false;
+    if(typeof window._initApp === 'function') window._initApp();
+  };
+
+  window.cerrarSesion = async function(){
+    if(_unsubscribe) _unsubscribe();
+    await signOut(auth);
+    _uid = null;
+    _userData = {};
+    location.reload();
+  };
+
+  // ── Auth state ──
+  onAuthStateChanged(auth, async (user) => {
+    if(user){
+      _uid = user.uid;
+      // Mostrar nombre/foto
+      const nameEl = document.getElementById('user-name');
+      const photoEl = document.getElementById('user-photo');
+      if(nameEl) nameEl.textContent = user.displayName || user.email;
+      if(photoEl && user.photoURL){ photoEl.src = user.photoURL; photoEl.style.display='block'; }
+      // Cargar datos del usuario desde Firestore
+      try {
+        const snap = await getDoc(userRef());
+        _userData = snap.exists() ? snap.data() : {};
+      } catch(e){ _userData = {}; }
+      // Escuchar cambios en tiempo real (sync entre dispositivos)
+      _unsubscribe = onSnapshot(userRef(), (snap) => {
+        if(snap.exists()){
+          _userData = snap.data();
+          // Refrescar UI si la app ya está cargada
+          if(window._appIniciada){
+            if(typeof initSteps === 'function') initSteps();
+            if(typeof updateTracker === 'function') updateTracker();
+            if(typeof calcularRacha === 'function'){
+              const el = document.getElementById('streak-n');
+              if(el) el.textContent = window.FB.calcularRacha();
+            }
+          }
+        }
+      });
+      // Ocultar pantalla de login, mostrar app
+      document.getElementById('login-screen').style.display = 'none';
+      document.getElementById('app-root').style.display = 'block';
+      window._appIniciada = false;
+      // Inicializar app
+      if(typeof window._initApp === 'function') window._initApp();
+    } else {
+      // Mostrar pantalla de login
+      document.getElementById('login-screen').style.display = 'flex';
+      document.getElementById('app-root').style.display = 'none';
+    }
+  });
+</script>
 </head>
 <body>
+<!-- PANTALLA LOGIN -->
+<div id="login-screen" style="display:none">
+  <img class="login-logo" src="logo.png" alt="STARS">
+  <div class="login-titulo">S · T · A · R · S</div>
+  <div class="login-sub">The Message · LHSCOL</div>
+  <button class="login-btn" onclick="loginConGoogle()">
+    <svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.34-8.16 2.34-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/><path fill="none" d="M0 0h48v48H0z"/></svg>
+    Continuar con Google
+  </button>
+  <div class="login-frase">Mayor que mi realidad es Su Verdad</div>
+  <div id="login-error"></div>
+  <script>
+    if(location.hostname === 'localhost' || location.hostname === '127.0.0.1'){
+      document.write('<button onclick="loginLocalhost()" style="margin-top:12px;background:transparent;border:1px solid rgba(255,255,255,0.15);color:rgba(255,255,255,0.4);font-size:11px;padding:8px 20px;border-radius:20px;cursor:pointer;font-family:inherit;letter-spacing:0.05em">⚙ Entrar sin cuenta (solo pruebas)</button>');
+    }
+  </script>
+</div>
+
+<!-- APP -->
+<div id="app-root" style="display:none">
 <div class="app">
 
   <!-- ═══════════════ VISTA HOY ═══════════════ -->
@@ -1450,7 +1678,41 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       <div class="stars-header-unified">
         <img class="stars-logo-img" src="logo.png" alt="STARS logo">
         <div class="brand-name">S · T · A · R · S</div>
-        <div class="brand-sub">THE MESSAGE &nbsp;·&nbsp; LHSCOL</div>
+        <div class="brand-sub">THE MESSAGE · LHSCOL</div>
+      </div>
+
+      <!-- Pills S.T.A.R.S. — minutos del método completo -->
+      <div class="stars-pills-row">
+        <div class="stars-pill">
+          <div class="stars-pill-letter">S</div>
+          <div class="stars-pill-name">SILENCIO</div>
+          <div class="stars-pill-time">5 min</div>
+          <div class="stars-pill-desc">Para el corazón.<br>Oración breve.</div>
+        </div>
+        <div class="stars-pill">
+          <div class="stars-pill-letter">T</div>
+          <div class="stars-pill-name">TEXTO</div>
+          <div class="stars-pill-time">15 min</div>
+          <div class="stars-pill-desc">MSG + NBLA en<br>paralelo.</div>
+        </div>
+        <div class="stars-pill">
+          <div class="stars-pill-letter">A</div>
+          <div class="stars-pill-name">ANÁLISIS</div>
+          <div class="stars-pill-time">20 min</div>
+          <div class="stars-pill-desc">10 secciones<br>con IA.</div>
+        </div>
+        <div class="stars-pill">
+          <div class="stars-pill-letter">R</div>
+          <div class="stars-pill-name">REFLEXIÓN</div>
+          <div class="stars-pill-time">10 min</div>
+          <div class="stars-pill-desc">Diario: Dios<br>· Yo · Haré.</div>
+        </div>
+        <div class="stars-pill">
+          <div class="stars-pill-letter">S</div>
+          <div class="stars-pill-name">SEMBRAR</div>
+          <div class="stars-pill-time">10 min</div>
+          <div class="stars-pill-desc">Archivo de<br>predicación.</div>
+        </div>
       </div>
 
     <div class="estudiar-tabs">
@@ -1686,7 +1948,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       </div>
       <div class="tf-bar-wrap"><div class="tf-bar-fill" id="tf-bar" style="width:0%"></div></div>
       <div style="padding:0 16px 12px">
-        <div style="font-size:10px;color:var(--white3);line-height:1.5">Toca un capítulo para marcarlo como leído. El progreso se guarda automáticamente.</div>
+        <div style="font-size:10px;color:var(--white3);line-height:1.5">El progreso se marca automáticamente al completar las 10 secciones del estudio de cada capítulo.</div>
       </div>
       <div style="padding:0 14px" id="tcap-container"></div>
     </div>
@@ -2141,7 +2403,24 @@ async function initContenido() {
   initPasoDiario();
   setTimeout(()=>initCapitulos(), 50);
   if(window.innerWidth>=1024) initDesktop();
-  
+
+  // ── Giro de tablet: detectar cambio de orientación y tamaño ──
+  let _desktopActivo = window.innerWidth >= 1024;
+  const _checkOrientation = () => {
+    setTimeout(() => {
+      const ahora = window.innerWidth >= 1024;
+      if(ahora && !_desktopActivo){
+        _desktopActivo = true;
+        initDesktop();
+      } else if(!ahora && _desktopActivo){
+        _desktopActivo = false;
+        window.location.reload();
+      }
+    }, 300);
+  };
+  window.addEventListener('resize', _checkOrientation);
+  if(screen.orientation) screen.orientation.addEventListener('change', _checkOrientation);
+
   // Renderizar tarjeta de serie/temporada
   renderSerieCard();
 
@@ -2240,15 +2519,16 @@ function dateToKey(d){
 }
 
 function calcularRacha(){
+  if(window.FB) return window.FB.calcularRacha();
   let racha = 0;
   const hoy = new Date();
   for(let i=0; i<365; i++){
     const d = new Date(hoy);
     d.setDate(hoy.getDate() - i);
-    const key = dateToKey(d);   // ← hora local, no UTC
+    const key = dateToKey(d);
     let completado = true;
     for(let s=0; s<5; s++){
-      if(localStorage.getItem('stars_paso_'+key+'_'+s)!=='1'){completado=false;break;}
+      if(!(window.FB ? window.FB.getPaso(key,s) : localStorage.getItem('stars_paso_'+key+'_'+s)==='1')){completado=false;break;}
     }
     if(completado) racha++;
     else if(i>0) break;
@@ -2259,17 +2539,37 @@ function calcularRacha(){
 window.addEventListener('DOMContentLoaded',()=>{
   // Registrar Service Worker (PWA)
   if('serviceWorker' in navigator){
-    navigator.serviceWorker.register('/sw.js').catch(e=>console.log('SW:',e));
+    navigator.serviceWorker.register('/sw.js').then(reg => {
+      // Cuando hay un nuevo SW esperando → recargar automáticamente
+      reg.addEventListener('updatefound', () => {
+        const newWorker = reg.installing;
+        newWorker.addEventListener('statechange', () => {
+          if(newWorker.state === 'installed' && navigator.serviceWorker.controller){
+            // Hay versión nueva lista → activar y recargar
+            newWorker.postMessage('SKIP_WAITING');
+          }
+        });
+      });
+      // Cuando el SW nuevo toma control → recargar la página
+      let refreshing = false;
+      navigator.serviceWorker.addEventListener('controllerchange', () => {
+        if(!refreshing){
+          refreshing = true;
+          window.location.reload();
+        }
+      });
+    }).catch(e => console.log('SW:', e));
   }
-  // Init base inmediata (no requiere JSON)
+});
+
+window._initApp = function(){
+  window._appIniciada = true;
   initFecha(); initWeek(); initBloques(); initTracker();
   initSteps(); updateTracker(); initDiario();
   renderTrackerEstudio();
   document.getElementById('streak-n').textContent = calcularRacha();
-  // initPasoDiario e initCapitulos se llaman dentro de initContenido
-  // DESPUÉS del await — así el devocional ya está cargado cuando se renderiza
   initContenido();
-});
+};
 
 /* ═══════════════════════════════════════════
    DESKTOP SHELL JS
@@ -2358,7 +2658,7 @@ function initDesktop(){
       {l:'S2',n:'Sembrar',s:'Práctica del día',ws:'sembrar'},
     ];
     pasosEl.innerHTML = PASOS.map((p,i)=>{
-      const done = localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
+      const done = window.FB ? window.FB.getPaso(key,i) : localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
       return `<div class="dsk-hoy-item" onclick="dskWsPaso(${i})" data-ws="${p.ws}">
         <div class="dsk-hoy-badge${i===0?' gold':''}${done?' done':''}">${p.l==='S2'?'S':p.l}</div>
         <div class="dsk-hoy-info">
@@ -2407,14 +2707,14 @@ function initDesktop(){
 
   // Diario — cargar texto de hoy
   const da = document.getElementById('dsk-d-area');
-  if(da) da.value = localStorage.getItem('dsk_dia_'+getTodayKey())||'';
+  if(da) da.value = window.FB ? window.FB.getReflexion(getTodayKey()) : localStorage.getItem('stars_reflexion_'+getTodayKey())||'';
 }
 
 /* ── Workspace: pasos STARS ── */
 function dskMarcarPaso(idx){
   const key = getTodayKey();
-  const done = localStorage.getItem('stars_paso_'+key+'_'+idx)==='1';
-  localStorage.setItem('stars_paso_'+key+'_'+idx, done?'0':'1');
+  const done = window.FB ? window.FB.getPaso(key,idx) : localStorage.getItem('stars_paso_'+key+'_'+idx)==='1';
+  if(window.FB){ if(!done) window.FB.setPaso(key,idx); } else localStorage.setItem('stars_paso_'+key+'_'+idx, done?'0':'1');
   // Actualizar badge en el panel
   const items = document.querySelectorAll('#dsk-pasos .dsk-hoy-item');
   if(items[idx]){
@@ -2452,7 +2752,7 @@ function dskShowPasoCompletado(){
 function dskBtnConfirmar(idx){
   if(idx === 0) return ''; // Silencio: se completa con el timer, no con botón
   const key = getTodayKey();
-  const done = localStorage.getItem('stars_paso_'+key+'_'+idx)==='1';
+  const done = window.FB ? window.FB.getPaso(key,idx) : localStorage.getItem('stars_paso_'+key+'_'+idx)==='1';
   return `<button id="dsk-confirmar-${idx}" onclick="dskMarcarPaso(${idx})"
     style="margin-top:20px;padding:10px 20px;border-radius:20px;font-size:12px;font-weight:700;
     font-family:'Outfit',sans-serif;cursor:pointer;letter-spacing:0.06em;transition:all 0.2s;
@@ -2464,6 +2764,12 @@ function dskBtnConfirmar(idx){
 }
 
 function dskWsPaso(idx){
+  // Bloqueo secuencial — igual que mobile
+  if(!pasoDesbloqueado(idx)){
+    showToast('Completa el paso anterior primero');
+    return;
+  }
+
   const devo = getDevoHoy();
   if(!devo) return;
 
@@ -2474,7 +2780,15 @@ function dskWsPaso(idx){
 
   if(idx===0){ // Silencio
     const key0 = getTodayKey();
-    const done0 = localStorage.getItem('stars_paso_'+key0+'_0')==='1';
+    const done0 = window.FB ? window.FB.getPaso(key0,0) : localStorage.getItem('stars_paso_'+key0+'_0')==='1';
+    const timerM = Math.floor(_dskTimerSecs/60);
+    const timerS = _dskTimerSecs%60;
+    const timerLabel = done0 ? '✓' : (timerM+':'+(timerS<10?'0':'')+timerS);
+    const timerOffset = done0 ? 0 : 264*(_dskTimerSecs/300);
+    const timerStroke = done0 ? 'var(--green2)' : 'var(--gold)';
+    const btnLabel = done0 ? '✓ Silencio completado' : (_dskTimerRunning ? 'Corriendo…' : (_dskTimerSecs < 300 ? 'Reanudar' : 'Iniciar silencio'));
+    const btnOpacity = (_dskTimerRunning || done0) ? '0.5' : '1';
+    const btnCursor = (_dskTimerRunning || done0) ? 'default' : 'pointer';
     html = `<div>
       <div style="font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Silencio · 5 min</div>
       <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${devo.oracion}\u201D</div>
@@ -2486,12 +2800,12 @@ function dskWsPaso(idx){
         <div style="display:inline-flex;flex-direction:column;align-items:center;gap:12px">
           <svg viewBox="0 0 100 100" width="120" height="120">
             <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="4"/>
-            <circle id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="var(--gold)" stroke-width="4"
-              stroke-dasharray="264" stroke-dashoffset="0"
+            <circle id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="${timerStroke}" stroke-width="4"
+              stroke-dasharray="264" stroke-dashoffset="${timerOffset}"
               stroke-linecap="round" transform="rotate(-90 50 50)" style="transition:stroke-dashoffset 1s linear"/>
-            <text id="dsk-timer-label" x="50" y="57" text-anchor="middle" font-size="18" font-family="Outfit,sans-serif" fill="white" font-weight="300">5:00</text>
+            <text id="dsk-timer-label" x="50" y="57" text-anchor="middle" font-size="18" font-family="Outfit,sans-serif" fill="white" font-weight="300">${timerLabel}</text>
           </svg>
-          <button id="dsk-timer-btn" onclick="dskIniciarTimer()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:12px;font-weight:700;font-family:'Outfit',sans-serif;padding:10px 24px;border-radius:20px;cursor:pointer;letter-spacing:0.06em">Iniciar silencio</button>
+          <button id="dsk-timer-btn" onclick="dskIniciarTimer()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:12px;font-weight:700;font-family:'Outfit',sans-serif;padding:10px 24px;border-radius:20px;cursor:${btnCursor};letter-spacing:0.06em;opacity:${btnOpacity}">${btnLabel}</button>
         </div>
       </div>
       ${dskBtnConfirmar(0)}
@@ -2515,14 +2829,14 @@ function dskWsPaso(idx){
     html = `<div>
       <div style="font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">R — Reflexión</div>
       <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">❓ ${devo.reflexion}</div>
-      <textarea id="dsk-ref-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:220px;line-height:1.7" placeholder="Tu respuesta…" oninput="localStorage.setItem('stars_reflexion_'+getTodayKey(),this.value)">${localStorage.getItem('stars_reflexion_'+getTodayKey())||''}</textarea>
+      <textarea id="dsk-ref-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:220px;line-height:1.7" placeholder="Tu respuesta…" oninput="if(window.FB)window.FB.setReflexion(getTodayKey(),this.value);else localStorage.setItem('stars_reflexion_'+getTodayKey(),this.value)">${window.FB?window.FB.getReflexion(getTodayKey()):localStorage.getItem('stars_reflexion_'+getTodayKey())||''}</textarea>
       ${dskBtnConfirmar(3)}
     </div>`;
   } else if(idx===4){ // Sembrar
     html = `<div>
       <div style="font-size:9px;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Sembrar · Práctica del día</div>
       <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">🛠️ <strong style="color:var(--white)">Práctica:</strong> ${devo.sembrar}</div>
-      <textarea id="dsk-sem-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.7" placeholder="Cómo lo vas a aplicar hoy…" oninput="localStorage.setItem('stars_sembrar_'+getTodayKey(),this.value)">${localStorage.getItem('stars_sembrar_'+getTodayKey())||''}</textarea>
+      <textarea id="dsk-sem-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.7" placeholder="Cómo lo vas a aplicar hoy…" oninput="if(window.FB)window.FB.setSembrar(getTodayKey(),this.value);else localStorage.setItem('stars_sembrar_'+getTodayKey(),this.value)">${window.FB?window.FB.getSembrar(getTodayKey()):localStorage.getItem('stars_sembrar_'+getTodayKey())||''}</textarea>
       ${dskBtnConfirmar(4)}
     </div>`;
   }
@@ -2539,22 +2853,18 @@ let _dskTimerRunning = false;
 function dskIniciarTimer(){
   if(_dskTimerRunning) return;
   _dskTimerRunning = true;
-  _dskTimerSecs = 300;
+  // NO resetear si ya había tiempo transcurrido (usuario volvió al paso)
+  if(_dskTimerSecs >= 300) _dskTimerSecs = 300;
   const btn = document.getElementById('dsk-timer-btn');
   if(btn){ btn.textContent = 'Corriendo…'; btn.style.opacity='0.5'; btn.style.cursor='default'; }
-  // NO abrir YouTube automáticamente — el usuario puede usar el botón "Abrir ↗"
-  // Desbloquear AudioContext
   try{ getAudioCtx(); }catch(e){}
   _dskTimerInterval = setInterval(()=>{
     _dskTimerSecs--;
-    const m = Math.floor(_dskTimerSecs/60);
-    const s = _dskTimerSecs%60;
-    const lbl = document.getElementById('dsk-timer-label');
-    const fill = document.getElementById('dsk-timer-fill');
-    if(lbl) lbl.textContent = m+':'+(s<10?'0':'')+s;
-    if(fill) fill.setAttribute('stroke-dashoffset', 264*(_dskTimerSecs/300));
+    _dskActualizarTimerUI();
     if(_dskTimerSecs<=0){
       clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false;
+      const lbl = document.getElementById('dsk-timer-label');
+      const fill = document.getElementById('dsk-timer-fill');
       if(lbl) lbl.textContent='✓';
       if(fill) fill.setAttribute('stroke','var(--green2)');
       marcarPaso(0);
@@ -2562,6 +2872,18 @@ function dskIniciarTimer(){
       tocarPitidoFinal();
     }
   },1000);
+}
+
+function _dskActualizarTimerUI(){
+  const m = Math.floor(_dskTimerSecs/60);
+  const s = _dskTimerSecs%60;
+  const lbl = document.getElementById('dsk-timer-label');
+  const fill = document.getElementById('dsk-timer-fill');
+  if(lbl) lbl.textContent = m+':'+(s<10?'0':'')+s;
+  if(fill) fill.setAttribute('stroke-dashoffset', 264*(_dskTimerSecs/300));
+  // Actualizar botón si el timer sigue corriendo
+  const btn = document.getElementById('dsk-timer-btn');
+  if(btn && _dskTimerRunning){ btn.textContent='Corriendo…'; btn.style.opacity='0.5'; btn.style.cursor='default'; }
 }
 
 /* ── Workspace: frase ── */
@@ -2587,66 +2909,80 @@ function dskWs(tipo){
 
 /* ── Workspace: tracker ── */
 function dskWsTracker(){
-  // Usar el componente tcap-container del móvil — mismo render
   dskWsShow('Tracker · Capítulos leídos',
     '<div id="dsk-tcap-ws" style="padding:0 0 20px"></div>'
   );
-  // Dar tiempo al DOM y luego renderizar
   setTimeout(()=>{
     const container = document.getElementById('dsk-tcap-ws');
     if(!container) return;
-    // Generar el mismo HTML que renderTrackerCaps pero en este container
     let capsLeidas=0, capsTotales=0;
     BLOQUES.forEach(b=>b.libros.forEach(l=>{
       capsTotales+=l.c;
       for(let i=1;i<=l.c;i++) if(isCapLeido(l.n,i)) capsLeidas++;
     }));
     const pct = capsTotales>0?Math.round(capsLeidas/capsTotales*100):0;
-    // Stats header
-    container.innerHTML = `<div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.07)">
-      <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px">
-        <div style="font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:300;color:var(--white);line-height:1">${capsLeidas.toLocaleString()}</div>
-        <div>
-          <div style="font-size:12px;color:var(--white3)">caps leídas de ${capsTotales.toLocaleString()}</div>
-          <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);font-weight:300">${pct}%</div>
+    container.innerHTML = `
+      <div style="margin-bottom:20px;padding-bottom:16px;border-bottom:1px solid rgba(255,255,255,0.07)">
+        <div style="display:flex;align-items:baseline;gap:12px;margin-bottom:12px">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:48px;font-weight:300;color:var(--white);line-height:1">${capsLeidas.toLocaleString()}</div>
+          <div>
+            <div style="font-size:12px;color:var(--white3)">caps leídas de ${capsTotales.toLocaleString()}</div>
+            <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);font-weight:300">${pct}%</div>
+          </div>
+        </div>
+        <div style="height:2px;background:var(--black5);border-radius:99px;overflow:hidden">
+          <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px"></div>
         </div>
       </div>
-      <div style="height:2px;background:var(--black5);border-radius:99px;overflow:hidden">
-        <div style="height:100%;width:${pct}%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px"></div>
-      </div>
-    </div>
-    <div id="dsk-tcap-inner"></div>`;
-    // Reusar el render del tracker móvil apuntando al nuevo contenedor
-    const _origContainer = document.getElementById('tcap-container');
-    const tempDiv = document.getElementById('dsk-tcap-inner');
-    // Renderizar bloques
+      <div id="dsk-tcap-inner"></div>`;
+
+    const inner = document.getElementById('dsk-tcap-inner');
+    // Generar bloques con el mismo diseño que mobile
     BLOQUES.forEach(b=>{
       let capsB=0, leidasB=0;
       b.libros.forEach(l=>{ capsB+=l.c; for(let i=1;i<=l.c;i++) if(isCapLeido(l.n,i)) leidasB++; });
       const pctB = capsB>0?Math.round(leidasB/capsB*100):0;
       const bloq = document.createElement('div');
       bloq.className='tcap-bloque';
+
       const librosHTML = b.libros.map(l=>{
         let leidasL=0; for(let i=1;i<=l.c;i++) if(isCapLeido(l.n,i)) leidasL++;
         const chkClass = leidasL===l.c&&l.c>0?'done':leidasL>0?'partial':'';
+        // Botones solo visuales, sin onclick
         const capsHTML = Array.from({length:l.c},(_,i)=>{
           const cap=i+1; const leido=isCapLeido(l.n,cap);
-          return `<div class="tcap-cap-btn${leido?' leido':''}" onclick="toggleCap('${l.n.replace(/'/g,"\'")}',${cap},this)">${cap}</div>`;
+          return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
         }).join('');
+        const wrapId = 'dsk-tcap-caps-'+l.n.replace(/\s/g,'-');
         return `<div class="tcap-libro">
-          <div class="tcap-libro-hdr" data-tcap-libro="${l.n}" data-tcap-total="${l.c}" onclick="toggleTcapLibro('${l.n.replace(/'/g,"\'")}',this)">
-            <div class="tcap-libro-left"><div class="tcap-libro-chk ${chkClass}"></div><div class="tcap-libro-name">${l.n}</div></div>
-            <div class="tcap-libro-stats"><span class="tcap-libro-pct" style="color:${leidasL===l.c&&l.c>0?'var(--green2)':leidasL>0?'var(--gold)':'var(--white3)'}">${leidasL}/${l.c}</span><span class="tcap-libro-chev">›</span></div>
+          <div class="tcap-libro-hdr" data-tcap-libro="${l.n}" data-tcap-total="${l.c}"
+               onclick="const w=document.getElementById('${wrapId}');w.classList.toggle('open');this.classList.toggle('open-libro')">
+            <div class="tcap-libro-left">
+              <div class="tcap-libro-chk ${chkClass}"></div>
+              <div class="tcap-libro-name">${l.n}</div>
+            </div>
+            <div class="tcap-libro-stats">
+              <span class="tcap-libro-pct" style="color:${leidasL===l.c&&l.c>0?'var(--green2)':leidasL>0?'var(--gold)':'var(--white3)'}">${leidasL}/${l.c}</span>
+              <span class="tcap-libro-chev">›</span>
+            </div>
           </div>
-          <div class="tcap-caps-wrap" id="dsk-tcap-caps-${l.n.replace(/\s/g,'-')}">${capsHTML}</div>
+          <div class="tcap-caps-wrap" id="${wrapId}">${capsHTML}</div>
         </div>`;
       }).join('');
-      bloq.innerHTML=`<div class="tcap-bloque-hdr" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
-        <div class="tcap-bloque-num${leidasB===capsB&&capsB>0?' complete':''}">${b.num}</div>
-        <div class="tcap-bloque-info"><div class="tcap-bloque-name">${b.name}</div><div class="tcap-bloque-prog">${leidasB} de ${capsB} caps · ${pctB}%</div><div class="tcap-bloque-bar"><div class="tcap-bloque-bar-fill" style="width:${pctB}%"></div></div></div>
-        <div class="tcap-bloque-chev">›</div></div>
-        <div class="tcap-libros-wrap">${librosHTML}</div>`;
-      tempDiv.appendChild(bloq);
+
+      const bId = 'dsk-tcap-libros-'+b.num;
+      bloq.innerHTML=`
+        <div class="tcap-bloque-hdr" onclick="const el=document.getElementById('${bId}');this.classList.toggle('open');el.classList.toggle('open')">
+          <div class="tcap-bloque-num${leidasB===capsB&&capsB>0?' complete':''}">${b.num}</div>
+          <div class="tcap-bloque-info">
+            <div class="tcap-bloque-name">${b.name}</div>
+            <div class="tcap-bloque-prog">${leidasB} de ${capsB} caps · ${pctB}%</div>
+            <div class="tcap-bloque-bar"><div class="tcap-bloque-bar-fill" style="width:${pctB}%"></div></div>
+          </div>
+          <div class="tcap-bloque-chev">›</div>
+        </div>
+        <div class="tcap-libros-wrap" id="${bId}">${librosHTML}</div>`;
+      inner.appendChild(bloq);
     });
   }, 50);
 }
@@ -2749,7 +3085,10 @@ async function dskAbrirCap(key){
     const bodyHtml = estudio.secciones.map((s,i)=>
       `<div class="dsk-cap-sec${i===0?' cap-sec-active':''}" style="display:${i===0?'block':'none'}">${s.html}</div>`
     ).join('');
-    const pctInicial = Math.round(((_ecapMaxSec[key]+1)/estudio.secciones.length)*100);
+    const total = estudio.secciones.length;
+    const pctInicial = _ecapMaxSec[key] > 0
+      ? Math.round((_ecapMaxSec[key] / (total - 1)) * 100)
+      : 0;
     dskWsShow(estudio.titulo, `
       <div style="position:sticky;top:0;background:var(--black);padding:0 0 16px;z-index:1">
         <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
@@ -2757,7 +3096,7 @@ async function dskAbrirCap(key){
           <div style="font-size:10px;color:var(--gold);font-weight:600" id="dsk-cap-pct">${pctInicial}%</div>
         </div>
         <div style="height:3px;background:var(--black4);border-radius:99px;overflow:hidden;margin-bottom:12px">
-          <div id="dsk-ecap-progress" style="height:100%;width:${pctInicial}%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px;transition:width 0.4s"></div>
+        <div id="dsk-ecap-progress" style="height:100%;width:${pctInicial}%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px;transition:width 0.4s"></div>
         </div>
         <div style="display:flex;gap:6px;flex-wrap:wrap" id="dsk-cap-nav">${navHtml}</div>
       </div>
@@ -2785,7 +3124,7 @@ function dskCapSec(btn, idx){
     _ecapMaxSec[_ecapKey] = idx;
   }
   const total = ESTUDIOS_CAPS[_ecapKey]?.secciones?.length || 10;
-  const pct = Math.round(((_ecapMaxSec[_ecapKey]+1)/total)*100);
+  const pct = total > 1 ? Math.round((_ecapMaxSec[_ecapKey] / (total - 1)) * 100) : 100;
   const bar = document.getElementById('dsk-ecap-progress');
   if(bar) bar.style.width = pct+'%';
   const pctEl = document.getElementById('dsk-cap-pct');
@@ -2905,7 +3244,7 @@ function movilPostProcesarReflexion(key, secIdx){
   preguntas.forEach((card, i) => {
     if(card.querySelector('textarea')) return;
     const storageKey = 'stars_reflexion_estudio_' + key + '_' + i;
-    const saved = localStorage.getItem(storageKey) || '';
+    const saved = window.FB ? window.FB.getReflexionEstudio(key, i) : (localStorage.getItem(storageKey) || '');
     const textarea = document.createElement('textarea');
     textarea.style.cssText = 'width:100%;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:7px;padding:9px 11px;font-size:13px;color:var(--white);font-family:Outfit,sans-serif;resize:vertical;min-height:80px;line-height:1.65;margin-top:8px;display:block;box-sizing:border-box';
     textarea.placeholder = 'Tu respuesta…';
@@ -2937,14 +3276,12 @@ function dskPostProcesarReflexion(key, secIdx){
   preguntas.forEach((card, i) => {
     if(card.querySelector('textarea')) return; // ya tiene textarea
     const storageKey = 'stars_reflexion_estudio_' + key + '_' + i;
-    const saved = localStorage.getItem(storageKey) || '';
+    const saved = window.FB ? window.FB.getReflexionEstudio(key, i) : (localStorage.getItem(storageKey) || '');
     const textarea = document.createElement('textarea');
     textarea.style.cssText = 'width:100%;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:7px;padding:9px 11px;font-size:13px;color:var(--white);font-family:Outfit,sans-serif;resize:vertical;min-height:80px;line-height:1.65;margin-top:8px;display:block';
     textarea.placeholder = 'Tu respuesta…';
     textarea.value = saved;
     textarea.addEventListener('input', ()=> {
-      localStorage.setItem(storageKey, textarea.value);
-      // Guardar también para el historial del diario
       guardarReflexionEstudio(key, i, textarea.value);
     });
     // Botón guardar
@@ -2952,7 +3289,6 @@ function dskPostProcesarReflexion(key, secIdx){
     saveBtn.textContent = '✓ Guardar respuesta';
     saveBtn.style.cssText = 'margin-top:6px;padding:7px 16px;border-radius:16px;font-size:11px;font-weight:700;font-family:Outfit,sans-serif;cursor:pointer;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);transition:all 0.2s;display:block';
     saveBtn.onclick = ()=>{
-      localStorage.setItem(storageKey, textarea.value);
       guardarReflexionEstudio(key, i, textarea.value);
       saveBtn.textContent = '✓ Guardado';
       saveBtn.style.background = 'var(--green-dim)';
@@ -2966,6 +3302,8 @@ function dskPostProcesarReflexion(key, secIdx){
 }
 
 function guardarReflexionEstudio(capKey, pregIdx, texto){
+  if(window.FB) window.FB.setReflexionEstudio(capKey, pregIdx, texto);
+  else localStorage.setItem('stars_reflexion_estudio_'+capKey+'_'+pregIdx, texto);
   // Guardar en formato que el historial pueda leer
   const hKey = 'stars_ref_estudio_' + capKey;
   let data = {};
@@ -2992,7 +3330,7 @@ function dskDiarioTab(tab, btn){
           <div style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Pregunta de reflexión de hoy</div>
           <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.75;color:var(--white2)">❓ ${devo.reflexion}</div>
           <div style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Tu respuesta</div>
-          <textarea id="dsk-ws-reflexion" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.75" placeholder="Escribe tu reflexión aquí…" oninput="localStorage.setItem('dsk_dia_'+getTodayKey(),this.value)">${localStorage.getItem('dsk_dia_'+getTodayKey())||''}</textarea>
+          <textarea id="dsk-ws-reflexion" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.75" placeholder="Escribe tu reflexión aquí…" oninput="if(window.FB)window.FB.setReflexion(getTodayKey(),this.value);else localStorage.setItem('stars_reflexion_'+getTodayKey(),this.value)">${window.FB?window.FB.getReflexion(getTodayKey()):localStorage.getItem('stars_reflexion_'+getTodayKey())||''}</textarea>
           <button onclick="dskGuardarDesdeWs()" style="margin-top:12px;padding:10px 24px;border-radius:20px;font-size:12px;font-weight:700;font-family:'Outfit',sans-serif;cursor:pointer;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold)">Guardar reflexión →</button>
         </div>`);
     }
@@ -3002,7 +3340,8 @@ function dskDiarioTab(tab, btn){
 function dskGuardarDesdeWs(){
   const area = document.getElementById('dsk-ws-reflexion');
   if(!area || !area.value.trim()){ showToast('Escribe algo primero'); return; }
-  localStorage.setItem('dsk_dia_'+getTodayKey(), area.value);
+  if(window.FB) window.FB.setReflexion(getTodayKey(), area.value);
+  else localStorage.setItem('stars_reflexion_'+getTodayKey(), area.value);
   showToast('✓ Reflexión guardada');
 }
 
@@ -3126,8 +3465,7 @@ function dskEliminarEntrada(id){
   // Paso diario
   if(typeof id === 'string' && id.startsWith('paso_')){
     const fecha = id.replace('paso_','');
-    localStorage.removeItem('stars_reflexion_'+fecha);
-    localStorage.removeItem('stars_sembrar_'+fecha);
+    if(!window.FB){ localStorage.removeItem('stars_reflexion_'+fecha); localStorage.removeItem('stars_sembrar_'+fecha); }
     dskWsEmpty();
     dskRenderHistorial();
     showToast('Reflexión eliminada');
@@ -3196,7 +3534,7 @@ function getDayOfWeek(date){
 function isDayComplete(dateKey){
   // Un día está completo si sus 5 pasos están marcados
   for(let i=0;i<5;i++){
-    if(localStorage.getItem('stars_paso_'+dateKey+'_'+i)!=='1') return false;
+    if(!(window.FB ? window.FB.getPaso(dateKey,i) : localStorage.getItem('stars_paso_'+dateKey+'_'+i)==='1')) return false;
   }
   return true;
 }
@@ -3247,8 +3585,8 @@ function initWeek(){
 let timerInterval=null;
 let timerRunning=false;
 
-function stepKey(i){return 'stars_paso_'+getTodayKey()+'_'+i}
-function isStepDone(i){return localStorage.getItem(stepKey(i))==='1'}
+function stepKey(i){return getTodayKey()+'_'+i}
+function isStepDone(i){return window.FB ? window.FB.getPaso(getTodayKey(), i) : localStorage.getItem('stars_paso_'+stepKey(i))==='1'}
 
 function initSteps(){
   for(let i=0;i<5;i++){
@@ -3278,7 +3616,8 @@ function updatePasoPct(){
 }
 
 function marcarPaso(i){
-  localStorage.setItem(stepKey(i),'1');
+  if(window.FB) window.FB.setPaso(getTodayKey(), i);
+  else localStorage.setItem('stars_paso_'+getTodayKey()+'_'+i,'1');
   document.getElementById('sc-'+i).classList.add('done');
   document.getElementById('si-'+i).classList.add('done');
   updatePasoPct();
@@ -3341,7 +3680,7 @@ function dskActualizarBadgesPasos(){
   const key = getTodayKey();
   const items = document.querySelectorAll('#dsk-pasos .dsk-hoy-item');
   items.forEach((item, i) => {
-    const done = localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
+    const done = window.FB ? window.FB.getPaso(key,i) : localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
     const badge = item.querySelector('.dsk-hoy-badge');
     const dot   = item.querySelector('.dsk-hoy-dot');
     if(badge) badge.classList.toggle('done', done);
@@ -3401,7 +3740,7 @@ function pasoDesbloqueado(idx){
   if(idx === 0) return true; // Silencio siempre disponible
   const key = getTodayKey();
   // Cada paso requiere que el anterior esté completado
-  return localStorage.getItem('stars_paso_'+key+'_'+(idx-1)) === '1';
+  return window.FB ? window.FB.getPaso(key, idx-1) : localStorage.getItem('stars_paso_'+key+'_'+(idx-1)) === '1';
 }
 
 function abrirPasoSiDesbloqueado(idx){
@@ -3444,7 +3783,10 @@ function iniciarTimer(){
 /* Reflexión */
 function guardarReflexionYCerrar(){
   const txt=document.getElementById('reflexion-respuesta').value.trim();
-  if(txt) localStorage.setItem('stars_reflexion_'+getTodayKey(),txt);
+  if(txt){
+    if(window.FB) window.FB.setReflexion(getTodayKey(), txt);
+    else localStorage.setItem('stars_reflexion_'+getTodayKey(),txt); /* fallback */
+  }
   marcarPaso(3);
   cerrarModal(3);
 }
@@ -3452,7 +3794,7 @@ function guardarReflexionYCerrar(){
 /* Sembrar */
 function guardarSembrarYCerrar(){
   const txt=document.getElementById('sembrar-respuesta').value.trim();
-  if(txt) localStorage.setItem('stars_sembrar_'+getTodayKey(),txt);
+  if(txt){ if(window.FB) window.FB.setSembrar(getTodayKey(),txt); else localStorage.setItem('stars_sembrar_'+getTodayKey(),txt); }
   marcarPaso(4);
   cerrarModal(4);
 }
@@ -3700,15 +4042,17 @@ const LIBROS_COMPLETOS = [
 
 function initBloques(){
   const c=document.getElementById('bloques-list');
-  BLOQUES.forEach(b=>{
-    const d=document.createElement('div'); d.className='bloque-item';
-    d.innerHTML=`<div class="bloque-num-badge">${b.num}</div><div class="bloque-name">${b.name}</div><div class="bloque-libros">${b.sub}</div><div class="bloque-desc">${b.desc}</div>`;
-    c.appendChild(d);
-  });
+  if(c && c.children.length === 0){
+    BLOQUES.forEach(b=>{
+      const d=document.createElement('div'); d.className='bloque-item';
+      d.innerHTML=`<div class="bloque-num-badge">${b.num}</div><div class="bloque-name">${b.name}</div><div class="bloque-libros">${b.sub}</div><div class="bloque-desc">${b.desc}</div>`;
+      c.appendChild(d);
+    });
+  }
 
   // Tabla completa de libros
   const lc = document.getElementById('libros-completos-list');
-  if(!lc) return;
+  if(!lc || lc.innerHTML) return;
   let html = '<div style="font-size:10px;color:var(--white3);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px">Los 66 libros · orden de estudio</div>';
   LIBROS_COMPLETOS.forEach((l,i)=>{
     html += `<div style="display:flex;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.04);align-items:flex-start">
@@ -3978,7 +4322,7 @@ function initDashboard(){
     const NOMBRES = ['Silencio','Texto','Análisis','Reflexión','Sembrar'];
     const key = getTodayKey();
     stepsList.innerHTML = LETRAS.map((l,i) => {
-      const done = localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
+      const done = window.FB ? window.FB.getPaso(key,i) : localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
       return `<div class="db-step-row" onclick="navTo('hoy')">
         <div class="db-step-letter${done?' done':''}">${l}</div>
         <div class="db-step-name">${NOMBRES[i]}</div>
@@ -4029,12 +4373,13 @@ function initDashboard(){
   const area = document.getElementById('db-diario-area');
   if(area){
     const hoy = getTodayKey();
-    area.value = localStorage.getItem('stars_db_diario_'+hoy) || '';
+    area.value = window.FB ? window.FB.getReflexion(hoy) : localStorage.getItem('stars_reflexion_'+hoy)||'';
   }
 }
 
 function db_guardarDiario(val){
-  localStorage.setItem('stars_db_diario_'+getTodayKey(), val);
+  if(window.FB) window.FB.setReflexion(getTodayKey(), val);
+  else localStorage.setItem('stars_reflexion_'+getTodayKey(), val);
 }
 
 function db_abrirFrase(){
@@ -4078,14 +4423,23 @@ function db_abrirDiario(){ navTo('diario'); }
 const _navToOriginal = typeof navTo !== 'undefined' ? navTo : null;
 // Key por capítulo: stars_cap_LIBRO_N
 function capKey(libro, cap){ return 'stars_cap_'+libro.replace(/\s/g,'_')+'_'+cap; }
-function isCapLeido(libro, cap){ return localStorage.getItem(capKey(libro,cap))==='1'; }
+function isCapLeido(libro, cap){ return window.FB ? window.FB.isCap(libro,cap) : localStorage.getItem(capKey(libro,cap))==='1'; }
 function toggleCap(libro, cap, el){
-  // Solo se puede marcar, no desmarcar manualmente
-  if(isCapLeido(libro, cap)) return;
-  localStorage.setItem(capKey(libro,cap), '1');
-  el.classList.add('leido');
+  const yaLeido = isCapLeido(libro, cap);
+  if(yaLeido){
+    // Desmarcar
+    if(window.FB) window.FB.removeCap(libro, cap);
+    else localStorage.removeItem(capKey(libro, cap));
+    el.classList.remove('leido');
+  } else {
+    // Marcar
+    if(window.FB) window.FB.setCap(libro, cap);
+    else localStorage.setItem(capKey(libro, cap), '1');
+    el.classList.add('leido');
+  }
   _actualizarConteoLibro(libro);
   updateTracker();
+  renderTrackerCaps();
 }
 
 function _capsLeidosLibro(libro, totalCaps){
@@ -4148,7 +4502,7 @@ function renderTrackerCaps(){
       const capsHTML = Array.from({length:l.c},(_,i)=>{
         const cap=i+1;
         const leido=isCapLeido(l.n,cap);
-        return `<div class="tcap-cap-btn${leido?' leido':''}" onclick="toggleCap('${l.n.replace(/'/g,"\\'")}',${cap},this)" title="${l.n} ${cap}">${cap}</div>`;
+        return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
       }).join('');
 
       return `<div class="tcap-libro">
@@ -4224,6 +4578,13 @@ function updateTracker(){
    ['tf-leidos',leidos66],['tf-faltan',66-leidos66],['tf-caps',capsLeidas.toLocaleString()],
    ['te-leidos',leidos66],['te-faltan',66-leidos66],['te-caps',capsLeidas.toLocaleString()]
   ].forEach(([id,val])=>{const e=document.getElementById(id);if(e)e.textContent=val;});
+  // Refrescar mini-tracker desktop
+  const dskN=document.getElementById('dsk-tr-n');
+  const dskP=document.getElementById('dsk-tr-pct');
+  const dskB=document.getElementById('dsk-tr-bar');
+  if(dskN) dskN.textContent=capsLeidas.toLocaleString();
+  if(dskP) dskP.textContent=pct+'%';
+  if(dskB) dskB.style.width=pct+'%';
 }
 
 function renderTrackerEstudio(){
@@ -4321,8 +4682,8 @@ function getPasoDiarioEntries(){
     const d = new Date();
     d.setDate(d.getDate() - i);
     const key = d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
-    const reflexion = localStorage.getItem('stars_reflexion_'+key);
-    const sembrar = localStorage.getItem('stars_sembrar_'+key);
+    const reflexion = window.FB ? window.FB.getReflexion(key) : localStorage.getItem('stars_reflexion_'+key);
+    const sembrar = window.FB ? window.FB.getSembrar(key) : localStorage.getItem('stars_sembrar_'+key);
     if(reflexion || sembrar){
       const devo = DEVOCIONALES[key];
       entries.push({
@@ -4432,8 +4793,7 @@ function eliminarEntradaProf(id, e){
 
 function eliminarPasoDiario(fecha){
   if(!confirm('¿Eliminar la reflexión y práctica de este día?')) return;
-  localStorage.removeItem('stars_reflexion_'+fecha);
-  localStorage.removeItem('stars_sembrar_'+fecha);
+  if(!window.FB){ localStorage.removeItem('stars_reflexion_'+fecha); localStorage.removeItem('stars_sembrar_'+fecha); }
   renderHistorial();
   showToast('Reflexión eliminada');
 }
@@ -4465,6 +4825,45 @@ function showToast(msg){
 ══════════════════════════════════════ */
 let calMes = new Date().getMonth();
 let calAnio = new Date().getFullYear();
+
+// ── Pull to Refresh ──
+(function(){
+  let startY = 0, pulling = false, indicator = null;
+  function getInd(){
+    if(!indicator){
+      indicator = document.createElement('div');
+      indicator.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;display:flex;align-items:center;justify-content:center;height:0;overflow:hidden;transition:height 0.15s;background:rgba(10,10,10,0.97);pointer-events:none';
+      indicator.innerHTML = '<div style="font-size:11px;color:#c9a84c;letter-spacing:0.14em;text-transform:uppercase">↓ Suelta para actualizar</div>';
+      document.body.prepend(indicator);
+    }
+    return indicator;
+  }
+  document.addEventListener('touchstart', e => {
+    const active = document.querySelector('.view.active');
+    const scrollable = active?.querySelector('[id^="scroll"]') || active;
+    if(scrollable && scrollable.scrollTop === 0){
+      startY = e.touches[0].clientY;
+      pulling = true;
+    }
+  }, {passive:true});
+  document.addEventListener('touchmove', e => {
+    if(!pulling) return;
+    const dy = e.touches[0].clientY - startY;
+    if(dy > 8 && dy < 100) getInd().style.height = Math.min(dy * 0.55, 46) + 'px';
+  }, {passive:true});
+  document.addEventListener('touchend', e => {
+    if(!pulling) return;
+    pulling = false;
+    const dy = e.changedTouches[0].clientY - startY;
+    const ind = getInd();
+    if(dy > 62){
+      ind.querySelector('div').textContent = 'Actualizando…';
+      setTimeout(() => window.location.reload(), 350);
+    } else {
+      ind.style.height = '0';
+    }
+  }, {passive:true});
+})();
 
 function abrirBlog(){
   const modal = document.getElementById('blog-modal');
@@ -4521,7 +4920,7 @@ function abrirCalendario(){
     const k = anioActual+'-'+String(mesActual+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
     let completo = true;
     for(let s=0;s<5;s++){
-      if(localStorage.getItem('stars_paso_'+k+'_'+s)!=='1'){completo=false;break;}
+      if(!(window.FB ? window.FB.getPaso(k,s) : localStorage.getItem('stars_paso_'+k+'_'+s)==='1')){completo=false;break;}
     }
     if(completo) diasMes++;
   }
@@ -4549,7 +4948,7 @@ function cambiarMes(delta){
 function diaCompletado(yyyy,mm,dd){
   const key = yyyy+'-'+String(mm+1).padStart(2,'0')+'-'+String(dd).padStart(2,'0');
   for(let s=0;s<5;s++){
-    if(localStorage.getItem('stars_paso_'+key+'_'+s)!=='1') return false;
+    if(!(window.FB ? window.FB.getPaso(key,s) : localStorage.getItem('stars_paso_'+key+'_'+s)==='1')) return false;
   }
   return true;
 }
@@ -4992,45 +5391,33 @@ function irSeccion(idx){
 }
 
 function actualizarProgressCap(maxIdx, total){
-  const pct = Math.round(((maxIdx+1)/total)*100);
+  // maxIdx es el índice de la sección más avanzada visitada (0-based)
+  // La barra empieza en 0 y llega a 100% al completar la última
+  const pct = total > 1 ? Math.round((maxIdx / (total - 1)) * 100) : 100;
   const bar = document.getElementById('ecap-progress');
   if(bar) bar.style.width = pct + '%';
 }
 
 function marcarCapituloLeido(key){
-  // key ej: "Génesis_1" → marcar todos los caps del libro como leídos
-  // O usar una clave especial de "estudio completado"
-  const stored = localStorage.getItem('stars_estudio_' + key);
+  const stored = window.FB ? window.FB.isCap('estudio', key) : localStorage.getItem('stars_estudio_' + key);
   if(stored === '1') return; // ya marcado
-  localStorage.setItem('stars_estudio_' + key, '1');
 
-  // Extraer libro y capítulo del key
+  // Guardar que este estudio fue completado
+  if(window.FB) window.FB.setCap('estudio', key);
+  else localStorage.setItem('stars_estudio_' + key, '1');
+
+  // Extraer libro y capítulo del key (formato: "Libro_cap")
   const partes = key.split('_');
   const cap = parseInt(partes[partes.length-1]);
   const libro = partes.slice(0, -1).join(' ');
 
-  // Marcar el capítulo en el tracker
   if(!isNaN(cap) && libro) {
-    const capKey2 = 'stars_cap_' + libro.replace(/\s/g,'_') + '_' + cap;
-    localStorage.setItem(capKey2, '1');
+    // Marcar usando FB si está disponible, sino localStorage
+    if(window.FB) window.FB.setCap(libro, cap);
+    else localStorage.setItem(capKey(libro, cap), '1');
     updateTracker();
     renderTrackerCaps();
-    // Actualizar también el desktop
-    if(typeof initDesktop === 'function' && window.innerWidth >= 1024) {
-      const tn = document.getElementById('dsk-tr-n');
-      const tp = document.getElementById('dsk-tr-pct');
-      const tb = document.getElementById('dsk-tr-bar');
-      let capsLeidas=0, capsTotales=0;
-      BLOQUES.forEach(b=>b.libros.forEach(l=>{
-        capsTotales+=l.c;
-        for(let i=1;i<=l.c;i++) if(isCapLeido(l.n,i)) capsLeidas++;
-      }));
-      const pct = capsTotales>0?Math.round(capsLeidas/capsTotales*100):0;
-      if(tn) tn.textContent=capsLeidas.toLocaleString();
-      if(tp) tp.textContent=pct+'%';
-      if(tb) tb.style.width=pct+'%';
-    }
-    showToast('✓ ' + libro + ' ' + cap + ' marcado como leído');
+    showToast('✓ ' + libro + ' ' + cap + ' completado');
   }
 }
 
@@ -5039,14 +5426,11 @@ function cerrarEstudioCap(){
   document.body.style.overflow = '';
 }
 
-
-
 function filtrarCapitulos(){
   const q=document.getElementById("cap-search")||{value:""};
   renderCapitulos(q.value||"");
 }
 </script>
-
 
 <!-- ═══════════════════════════════════════════
      DESKTOP SHELL — two-panel layout
@@ -5205,5 +5589,6 @@ function filtrarCapitulos(){
   </div><!-- /dsk-body -->
 </div><!-- /dsk -->
 
+</div></div>
 </body>
 </html>
