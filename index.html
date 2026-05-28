@@ -64,7 +64,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .streak-label{font-size:10px;color:var(--white3);letter-spacing:0.06em}
 
 /* ── DATE ── */
-.date-bar{padding:0 20px 20px}
+.date-bar{padding:0 20px 14px}
 .date-txt{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);margin-bottom:4px}
 .date-title{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--white);line-height:1.3}
 
@@ -574,29 +574,62 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 
 /* ══ FRASE PARA HOY ══ */
 .frase-card{
-  margin:0 20px 16px;
-  background:#111110;
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:8px;
-  overflow:hidden;
+  display:none; /* shown via JS when frase exists */
+  margin-bottom:12px;
+  border-radius:var(--radius-sm);
   cursor:pointer;
-  transition:border-color 0.15s,transform 0.15s;
+  overflow:hidden;
   position:relative;
+  background:linear-gradient(135deg,#0e0c07 0%,#0a0a08 60%,#0b0d09 100%);
+  border:1px solid rgba(201,168,76,0.18);
+  transition:border-color 0.2s,transform 0.15s;
 }
-.frase-card:active{transform:scale(0.985)}
-.frase-card-inner{padding:13px 16px}
-.frase-card-tag{display:none}
+.frase-card:active{transform:scale(0.985);border-color:rgba(201,168,76,0.35)}
+/* línea dorada superior */
+.frase-card::before{
+  content:'';
+  position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(201,168,76,0.5),transparent);
+}
+/* ícono de imagen/guardar — esquina inferior derecha */
+.frase-card::after{
+  content:'99';
+  position:absolute;bottom:10px;right:13px;
+  font-size:14px;
+  color:rgba(201,168,76,0.22);
+  line-height:1;
+  pointer-events:none;
+}
+.frase-card-inner{padding:18px 18px 22px}
+.frase-card-tag{
+  display:block;
+  font-size:8px;
+  letter-spacing:0.2em;
+  text-transform:uppercase;
+  color:rgba(201,168,76,0.45);
+  margin-bottom:10px;
+  font-weight:600;
+}
 .frase-texto{
   font-family:'Cormorant Garamond',serif;
-  font-size:14px;
-  color:rgba(245,240,232,0.78);
+  font-size:17px;
+  color:rgba(245,240,232,0.82);
   line-height:1.7;
   font-style:italic;
   margin:0;
+  display:block;
 }
-.frase-texto::before{content:'«'}
-.frase-texto::after{content:'»'}
-.frase-ref{display:none}
+.frase-texto::before{content:'“';color:rgba(201,168,76,0.6);margin-right:2px}
+.frase-texto::after{content:'”';color:rgba(201,168,76,0.6);margin-left:2px}
+.frase-ref{
+  display:block;
+  font-size:9px;
+  letter-spacing:0.13em;
+  text-transform:uppercase;
+  color:var(--white3);
+  opacity:0.4;
+  margin-top:8px;
+}
 .frase-actions{display:none}
 
 /* ══ FRASE FULLSCREEN MODAL ══ */
@@ -1372,8 +1405,21 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
       const hoy = new Date();
+
+      // Verificar si hoy está completo
+      const fechaHoy = hoy.toISOString().slice(0,10).replace(/-/g,'');
+      const pasosHoy = fbGet('pasos_' + fechaHoy, {});
+      let hoyCompleto = true;
+      for(let s=0; s<5; s++){
+        if(pasosHoy[s] !== '1'){ hoyCompleto = false; break; }
+      }
+
+      // Si hoy no está completo, empezar a contar desde ayer
+      // para no romper la racha en curso
+      const inicio = hoyCompleto ? 0 : 1;
       let racha = 0;
-      for(let i=0; i<365; i++){
+
+      for(let i=inicio; i<365; i++){
         const d = new Date(hoy);
         d.setDate(hoy.getDate() - i);
         const fecha = d.toISOString().slice(0,10).replace(/-/g,'');
@@ -1383,9 +1429,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
           if(pasos[s] !== '1'){ completo = false; break; }
         }
         if(completo) racha++;
-        else if(i > 0) break;
+        else break;
       }
-      return Math.max(racha, 1);
+      return racha;
     },
     uid: () => _uid,
     datos: () => _userData,
@@ -1559,20 +1605,12 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
         <div class="date-title" id="hoy-titulo"></div>
       </div>
 
-      <!-- Frase para hoy — debajo de la fecha -->
-      <div id="frase-card" class="frase-card" style="display:none" onclick="abrirFrasePantalla()">
-        <div class="frase-card-inner">
-          <div class="frase-texto" id="frase-texto"></div>
-          <div class="frase-ref" id="frase-ref"></div>
-        </div>
-      </div>
-
       <!-- Semana + racha en la misma fila -->
-      <div style="display:flex;align-items:center;padding:0 20px 22px;gap:8px">
+      <div style="display:flex;align-items:center;padding:0 20px 16px;gap:8px">
         <div class="week-row" id="week-row" style="padding:0;flex:1;overflow-x:auto"></div>
         <div class="streak-pill" onclick="abrirCalendario()" style="cursor:pointer;flex-shrink:0;margin-left:4px">
           <span class="streak-icon">⭐</span>
-          <span class="streak-n" id="streak-n">1</span>
+          <span class="streak-n" id="streak-n">0</span>
           <span class="streak-label">días</span>
         </div>
       </div>
@@ -1654,7 +1692,6 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
         <div style="font-size:9px;padding:3px 8px;border-radius:20px;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#a78bfa;letter-spacing:0.06em;white-space:nowrap">+ Profundizar</div>
       </div>
 
-      <!-- Frase para hoy — movida debajo del date-bar -->
 
       <div style="margin:4px 20px 20px">
         <div style="background:var(--gold-dim);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:16px">
@@ -2153,6 +2190,13 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     <div class="modal-body">
       <div class="sembrar-practica">🛠️ <strong>Práctica:</strong> Escribe tu reclamo honestamente sin adornos religiosos, y debajo anota: «Este reclamo revela que mi <em>nous</em> interpreta esta situación como [tu miedo], pero la Verdad del Padre aquí es [su promesa]», permitiendo que este ejercicio inicie el reemplazo de tu filtro mental hoy mismo.</div>
       <textarea class="sembrar-area" id="sembrar-respuesta" placeholder="Escribe tu ejercicio aquí..."></textarea>
+      <div id="frase-card" class="frase-card" onclick="abrirFrasePantalla()">
+        <div class="frase-card-inner">
+          <div class="frase-card-tag">Frase para hoy · toca para verla en pantalla completa</div>
+          <div class="frase-texto" id="frase-texto"></div>
+          <div class="frase-ref" id="frase-ref"></div>
+        </div>
+      </div>
       <button class="done-btn show" onclick="guardarSembrarYCerrar()">✓ Completar el día</button>
     </div>
   </div>
@@ -2521,20 +2565,32 @@ function dateToKey(d){
 
 function calcularRacha(){
   if(window.FB) return window.FB.calcularRacha();
-  let racha = 0;
+
   const hoy = new Date();
-  for(let i=0; i<365; i++){
+
+  // Verificar si hoy está completo
+  const keyHoy = dateToKey(hoy);
+  let hoyCompleto = true;
+  for(let s=0; s<5; s++){
+    if(localStorage.getItem('stars_paso_'+keyHoy+'_'+s) !== '1'){ hoyCompleto = false; break; }
+  }
+
+  // Si hoy no está completo, empezar desde ayer para no romper la racha
+  const inicio = hoyCompleto ? 0 : 1;
+  let racha = 0;
+
+  for(let i=inicio; i<365; i++){
     const d = new Date(hoy);
     d.setDate(hoy.getDate() - i);
     const key = dateToKey(d);
     let completado = true;
     for(let s=0; s<5; s++){
-      if(!(window.FB ? window.FB.getPaso(key,s) : localStorage.getItem('stars_paso_'+key+'_'+s)==='1')){completado=false;break;}
+      if(localStorage.getItem('stars_paso_'+key+'_'+s) !== '1'){ completado = false; break; }
     }
     if(completado) racha++;
-    else if(i>0) break;
+    else break;
   }
-  return Math.max(racha, 1);
+  return racha;
 }
 
 window.addEventListener('DOMContentLoaded',()=>{
@@ -4835,39 +4891,104 @@ let calAnio = new Date().getFullYear();
 
 // ── Pull to Refresh ──
 (function(){
-  let startY = 0, pulling = false, indicator = null;
+  const THRESHOLD   = 120;  // px necesarios para activar el reload
+  const MAX_HEIGHT  =  58;  // altura máxima del indicador en px
+  const MIN_DOWN_PX =  18;  // mínimo desplazamiento para considerar que es un gesto hacia abajo
+
+  let startY = 0, startX = 0, pulling = false, activated = false;
+  let indicator = null;
+
   function getInd(){
     if(!indicator){
       indicator = document.createElement('div');
-      indicator.style.cssText = 'position:fixed;top:0;left:0;right:0;z-index:9999;display:flex;align-items:center;justify-content:center;height:0;overflow:hidden;transition:height 0.15s;background:rgba(10,10,10,0.97);pointer-events:none';
-      indicator.innerHTML = '<div style="font-size:11px;color:#c9a84c;letter-spacing:0.14em;text-transform:uppercase">↓ Suelta para actualizar</div>';
+      indicator.style.cssText = [
+        'position:fixed;top:0;left:0;right:0;z-index:9999',
+        'display:flex;align-items:center;justify-content:center;gap:8px',
+        'height:0;overflow:hidden',
+        'transition:height 0.18s ease',
+        'background:rgba(10,10,10,0.97);pointer-events:none',
+      ].join(';');
+      indicator.innerHTML =
+        '<div id="ptr-arc" style="width:18px;height:18px;border-radius:50%;border:2px solid rgba(201,168,76,0.25);border-top-color:#c9a84c;transition:transform 0.1s"></div>' +
+        '<div id="ptr-txt" style="font-size:10px;color:#c9a84c;letter-spacing:0.14em;text-transform:uppercase">Baja para actualizar</div>';
       document.body.prepend(indicator);
     }
     return indicator;
   }
-  document.addEventListener('touchstart', e => {
+
+  function isScrolledToTop(el){
+    return !el || el.scrollTop <= 2;
+  }
+
+  function getActiveScrollable(){
     const active = document.querySelector('.view.active');
-    const scrollable = active?.querySelector('[id^="scroll"]') || active;
-    if(scrollable && scrollable.scrollTop === 0){
-      startY = e.touches[0].clientY;
+    if(!active) return null;
+    return isScrolledToTop(active) ? active : null;
+  }
+
+  function isInsideModal(){
+    return !!document.querySelector('.modal.open');
+  }
+
+  document.addEventListener('touchstart', e => {
+    if(isInsideModal()) return;
+    const scrollable = getActiveScrollable();
+    if(!scrollable) return;
+    startY = e.touches[0].clientY;
+    startX = e.touches[0].clientX;
+    pulling   = false;
+    activated = false;
+  }, {passive:true});
+
+  document.addEventListener('touchmove', e => {
+    if(startY === 0) return;
+    const dy = e.touches[0].clientY - startY;
+    const dx = Math.abs(e.touches[0].clientX - startX);
+
+    if(!pulling && dx > dy * 0.8) return;
+
+    if(!pulling && dy > MIN_DOWN_PX){
+      const scrollable = getActiveScrollable();
+      if(!scrollable) return;
       pulling = true;
     }
-  }, {passive:true});
-  document.addEventListener('touchmove', e => {
+
     if(!pulling) return;
-    const dy = e.touches[0].clientY - startY;
-    if(dy > 8 && dy < 100) getInd().style.height = Math.min(dy * 0.55, 46) + 'px';
+
+    const h = Math.min(dy * 0.45, MAX_HEIGHT);
+    const ind = getInd();
+    ind.style.height = h + 'px';
+
+    const arc = document.getElementById('ptr-arc');
+    const txt = document.getElementById('ptr-txt');
+    const progress = Math.min(dy / THRESHOLD, 1);
+    if(arc) arc.style.transform = `rotate(${progress * 540}deg)`;
+    if(txt){
+      if(dy >= THRESHOLD && !activated){
+        activated = true;
+        txt.textContent = '✓ Suelta para actualizar';
+        txt.style.color = '#e8c97a';
+      } else if(dy < THRESHOLD){
+        activated = false;
+        txt.textContent = 'Baja para actualizar';
+        txt.style.color = '#c9a84c';
+      }
+    }
   }, {passive:true});
+
   document.addEventListener('touchend', e => {
-    if(!pulling) return;
+    if(!pulling){ startY = 0; return; }
     pulling = false;
     const dy = e.changedTouches[0].clientY - startY;
+    startY = 0;
     const ind = getInd();
-    if(dy > 62){
-      ind.querySelector('div').textContent = 'Actualizando…';
-      setTimeout(() => window.location.reload(), 350);
+    if(dy >= THRESHOLD){
+      const txt = document.getElementById('ptr-txt');
+      if(txt) txt.textContent = 'Actualizando…';
+      setTimeout(() => window.location.reload(), 400);
     } else {
       ind.style.height = '0';
+      activated = false;
     }
   }, {passive:true});
 })();
