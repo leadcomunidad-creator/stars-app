@@ -164,7 +164,11 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .reflexion-area::placeholder{color:var(--white3)}
 
 /* ── SEMBRAR MODAL ── */
-.sembrar-practica{font-size:14px;color:var(--white2);line-height:1.7;margin-bottom:16px;font-style:italic;border-left:2px solid var(--gold);padding-left:14px}
+.sembrar-practica{font-size:13px;color:var(--white3);line-height:1.7;margin-bottom:16px;font-style:italic;border-left:2px solid var(--gold-border);padding-left:14px}
+.oracion-cierre-card{background:rgba(201,168,76,0.04);border:1px solid rgba(201,168,76,0.15);border-radius:var(--radius-sm);padding:18px 18px 20px;margin-bottom:14px;position:relative}
+.oracion-cierre-card::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.4),transparent)}
+.oracion-cierre-label{font-size:8px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:12px;font-weight:600}
+.oracion-cierre-texto{font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--white);line-height:1.8;font-style:italic;opacity:0.88}
 .sembrar-area{width:100%;background:var(--black4);border:1px solid var(--black5);border-radius:var(--radius-sm);color:var(--white);font-size:14px;font-family:'Outfit',sans-serif;padding:14px;resize:none;min-height:100px;line-height:1.6;outline:none;transition:border-color 0.2s;margin-bottom:12px}
 .sembrar-area:focus{border-color:var(--green-border)}
 .sembrar-area::placeholder{color:var(--white3)}
@@ -1193,7 +1197,6 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   gap:8px;
 }
 .serie-card:active{background:var(--black4);border-color:var(--gold)}
-.serie-card-arrow{font-size:14px;color:var(--gold);opacity:0.5;flex-shrink:0}
 
 /* ── BLOG MODAL ── */
 #blog-modal{position:fixed;inset:0;z-index:300;display:none;flex-direction:column}
@@ -1202,7 +1205,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .blog-sheet{position:relative;margin-top:auto;background:var(--black2);border-radius:20px 20px 0 0;max-height:92vh;display:flex;flex-direction:column;overflow:hidden}
 .blog-header{padding:20px 20px 14px;border-bottom:1px solid rgba(201,168,76,0.10);flex-shrink:0}
 .blog-header-meta{font-size:9px;color:var(--gold);letter-spacing:0.16em;text-transform:uppercase;opacity:0.7;margin-bottom:6px}
-.blog-header-title{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--white);font-weight:500;line-height:1.25}
+.blog-header-title{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--white);font-weight:500;line-height:1.3;opacity:0.75}
 .blog-header-sub{font-size:9px;color:var(--white3);letter-spacing:0.14em;text-transform:uppercase;margin-top:5px;opacity:0.5}
 .blog-close{position:absolute;top:18px;right:16px;width:30px;height:30px;border-radius:50%;background:var(--black4);border:none;color:var(--white3);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center}
 .blog-body{overflow-y:auto;padding:24px 20px 48px;flex:1}
@@ -1226,11 +1229,12 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 }
 .serie-titulo {
   font-family:'Cormorant Garamond',serif;
-  font-size:20px;
+  font-size:15px;
   color:var(--white);
   font-weight:500;
-  line-height:1.2;
+  line-height:1.3;
   margin-bottom:3px;
+  opacity:0.85;
 }
 .serie-subtitulo {
   font-size:10px;
@@ -1490,8 +1494,11 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof calcularRacha === 'function'){
-              const el = document.getElementById('streak-n');
-              if(el) el.textContent = window.FB.calcularRacha();
+              const r = window.FB.calcularRacha();
+              ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+                const el = document.getElementById(id);
+                if(el) el.textContent = r;
+              });
             }
           }
         }
@@ -1579,7 +1586,8 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 
       <!-- Tarjeta serie/temporada -->
       <div class="serie-card" id="serie-card" style="display:none" onclick="abrirBlog()">
-        <div>
+        <div style="flex:1;min-width:0">
+          <div style="font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:4px">Lee el mensaje de la semana</div>
           <div class="serie-temporada" id="serie-temporada"></div>
           <div class="serie-titulo" id="serie-titulo"></div>
           <div class="serie-subtitulo" id="serie-subtitulo" style="display:none"></div>
@@ -1591,7 +1599,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
         <div class="blog-backdrop" onclick="cerrarBlog()"></div>
         <div class="blog-sheet">
           <div class="blog-header">
-            <div class="blog-header-meta" id="blog-meta"></div>
+            <div class="blog-header-meta" id="blog-meta">Lee el mensaje de la semana</div>
             <div class="blog-header-title" id="blog-titulo-modal"></div>
             <div class="blog-header-sub" id="blog-sub-modal"></div>
             <button class="blog-close" onclick="cerrarBlog()">×</button>
@@ -1693,11 +1701,16 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       </div>
 
 
-      <div style="margin:4px 20px 20px">
-        <div style="background:var(--gold-dim);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:16px">
-          <div style="font-size:9px;color:var(--gold);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:10px;font-weight:600">Eugene Peterson · The Message</div>
-          <div style="font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--white);line-height:1.75;font-style:italic">"Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios."</div>
-        </div>
+      <div style="margin:36px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:16px;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic">“Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.”</div>
+        <div style="font-size:8px;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px">Eugene Peterson · The Message</div>
+      </div>
+
+      <!-- Footer -->
+      <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+      <div style="padding:0 20px 36px;text-align:center">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px">S · T · A · R · S</div>
+        <div style="font-size:7.5px;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
       </div>
 
     </div>
@@ -2188,8 +2201,11 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       <button class="modal-close" onclick="guardarSembrarYCerrar()">×</button>
     </div>
     <div class="modal-body">
-      <div class="sembrar-practica">🛠️ <strong>Práctica:</strong> Escribe tu reclamo honestamente sin adornos religiosos, y debajo anota: «Este reclamo revela que mi <em>nous</em> interpreta esta situación como [tu miedo], pero la Verdad del Padre aquí es [su promesa]», permitiendo que este ejercicio inicie el reemplazo de tu filtro mental hoy mismo.</div>
-      <textarea class="sembrar-area" id="sembrar-respuesta" placeholder="Escribe tu ejercicio aquí..."></textarea>
+      <div class="sembrar-practica" id="sembrar-practica-txt"></div>
+      <div class="oracion-cierre-card">
+        <div class="oracion-cierre-label">Oración de cierre</div>
+        <div class="oracion-cierre-texto" id="oracion-cierre-texto"></div>
+      </div>
       <div id="frase-card" class="frase-card" onclick="abrirFrasePantalla()">
         <div class="frase-card-inner">
           <div class="frase-card-tag">Frase para hoy · toca para verla en pantalla completa</div>
@@ -2538,8 +2554,10 @@ function initPasoDiario(){
   const refEl = document.querySelector('.reflexion-pregunta');
   if(refEl) refEl.innerHTML = '❓ ' + d.reflexion;
   // Modal Sembrar
-  const semEl = document.querySelector('.sembrar-practica');
+  const semEl = document.getElementById('sembrar-practica-txt');
   if(semEl) semEl.innerHTML = '🛠️ <strong>Práctica:</strong> ' + d.sembrar;
+  const orCierreEl = document.getElementById('oracion-cierre-texto');
+  if(orCierreEl) orCierreEl.textContent = d.oracion_cierre || '';
   // Música de fondo — mostrar hint si hay URL configurada
   const musicaHint = document.getElementById('musica-hint');
   if(musicaHint) musicaHint.style.display = d.musica_url ? 'block' : 'none';
@@ -3852,8 +3870,6 @@ function guardarReflexionYCerrar(){
 
 /* Sembrar */
 function guardarSembrarYCerrar(){
-  const txt=document.getElementById('sembrar-respuesta').value.trim();
-  if(txt){ if(window.FB) window.FB.setSembrar(getTodayKey(),txt); else localStorage.setItem('stars_sembrar_'+getTodayKey(),txt); }
   marcarPaso(4);
   cerrarModal(4);
 }
@@ -5625,9 +5641,9 @@ function filtrarCapitulos(){
             </div>
           </div>
           <!-- Frase Peterson -->
-          <div style="margin:0 16px 16px;background:var(--gold-dim);border:1px solid var(--gold-border);border-radius:10px;padding:14px 16px">
-            <div style="font-size:8px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.7;margin-bottom:8px;font-weight:600">Eugene Peterson · The Message</div>
-            <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:var(--white);line-height:1.7;font-style:italic">"Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios."</div>
+          <div style="margin:0 16px 20px;padding-left:14px;border-left:1px solid rgba(201,168,76,0.18)">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:14px;color:rgba(245,240,232,0.32);line-height:1.8;font-style:italic">“Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.”</div>
+            <div style="font-size:7px;color:rgba(201,168,76,0.28);letter-spacing:0.16em;text-transform:uppercase;margin-top:6px">Eugene Peterson · The Message</div>
           </div>
         </div>
 
