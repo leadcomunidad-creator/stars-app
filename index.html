@@ -202,8 +202,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .view.active{display:block}
 
 /* ── ESTUDIAR VIEW ── */
-.estudiar-tabs{display:flex;border-bottom:1px solid rgba(255,255,255,0.07);padding:0 20px;margin-bottom:20px}
-.etab{padding:14px 0;margin-right:24px;font-size:13px;font-weight:500;color:var(--white3);border-bottom:2px solid transparent;cursor:pointer;transition:all 0.2s;letter-spacing:0.02em}
+.estudiar-tabs{display:flex;border-bottom:1px solid rgba(255,255,255,0.07);padding:0 16px;margin-bottom:20px;overflow-x:auto;scrollbar-width:none}
+.estudiar-tabs::-webkit-scrollbar{display:none}
+.etab{padding:14px 0;margin-right:18px;font-size:12px;font-weight:500;color:var(--white3);border-bottom:2px solid transparent;cursor:pointer;transition:all 0.2s;letter-spacing:0.02em;white-space:nowrap;flex-shrink:0}
 .etab.active{color:var(--gold);border-bottom-color:var(--gold)}
 .epanel{display:none;padding:0 20px}
 .epanel.active{display:block}
@@ -1761,27 +1762,12 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     <div class="estudiar-tabs">
       <div class="etab active" onclick="switchEtab('capitulos',this)">Por Capítulo</div>
       <div class="etab" onclick="switchEtab('hoy-estudio',this)">Por Versículo</div>
-      <div class="etab" onclick="switchEtab('metodo-orden',this)">Método &amp; Orden</div>
+      <div class="etab" onclick="switchEtab('tracker-tab',this)">Tracker</div>
+      <div class="etab" onclick="switchEtab('metodo-orden',this)">Método</div>
     </div>
 
     <!-- Panel: Por Capítulo -->
     <div class="epanel active" id="epanel-capitulos" style="overflow-y:auto;flex:1;padding-bottom:20px">
-
-      <!-- Tracker integrado -->
-      <div class="tracker-mini" style="margin:12px 20px 16px;padding:14px 18px">
-        <div class="tracker-mini-top" style="margin-bottom:8px">
-          <div class="tracker-mini-title" style="font-size:13px">Biblia completa · S.T.A.R.S.</div>
-          <div class="tracker-mini-pct" id="tm-pct">0%</div>
-        </div>
-        <div class="tracker-mini-bar" style="margin-bottom:10px">
-          <div class="tracker-mini-fill" id="tm-bar" style="width:0%"></div>
-        </div>
-        <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-bottom:12px">
-          <div class="tms"><div class="tms-label">Caps leídos</div><div class="tms-val" id="tm-leidos">0</div></div>
-          <div class="tms"><div class="tms-label">Total caps</div><div class="tms-val" id="tm-caps">1189</div></div>
-        </div>
-        <button class="tracker-open-btn" onclick="navTo('tracker')">Ver tracker completo →</button>
-      </div>
 
       <!-- Paso Profundo label -->
       <div style="margin:0 20px 10px;display:flex;align-items:center;gap:8px">
@@ -1828,7 +1814,42 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       </div>
     </div>
 
-    <!-- Panel: Método & Orden (fusionado) -->
+    <!-- Panel: Tracker -->
+    <div class="epanel" id="epanel-tracker-tab" style="overflow-y:auto;flex:1;padding-bottom:20px">
+      <div class="tracker-mini" style="margin:16px 20px;padding:20px 20px">
+        <!-- Título -->
+        <div style="margin-bottom:14px">
+          <div style="font-size:8px;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:5px;font-weight:600">S · T · A · R · S</div>
+          <div style="font-size:15px;font-weight:500;color:var(--white);line-height:1.2">The Message Completa</div>
+        </div>
+        <!-- Porcentaje + barra -->
+        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px">
+          <div style="font-family:'Cormorant Garamond',serif;font-size:36px;color:var(--gold);line-height:1" id="tm-pct">0%</div>
+          <div style="font-size:10px;color:var(--white3);letter-spacing:0.08em">completado</div>
+        </div>
+        <div class="tracker-mini-bar" style="margin-bottom:16px;height:4px">
+          <div class="tracker-mini-fill" id="tm-bar" style="width:0%"></div>
+        </div>
+        <!-- Stats grid 3 columnas -->
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px">
+          <div class="tms">
+            <div class="tms-label">Capítulos<br>leídos</div>
+            <div class="tms-val" id="tm-leidos">0</div>
+          </div>
+          <div class="tms">
+            <div class="tms-label">Total<br>capítulos</div>
+            <div class="tms-val" id="tm-caps">1,189</div>
+          </div>
+          <div class="tms">
+            <div class="tms-label">Capítulos<br>restantes</div>
+            <div class="tms-val" id="tm-restantes">1,189</div>
+          </div>
+        </div>
+        <button class="tracker-open-btn" onclick="navTo('tracker')">Ver tracker completo →</button>
+      </div>
+    </div>
+
+    <!-- Panel: Método -->
     <div class="epanel" id="epanel-metodo-orden" style="overflow-y:auto;flex:1;padding-bottom:20px">
 
       <!-- ─ STARS ─ -->
@@ -2057,6 +2078,108 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     </div>
   </div>
 
+  <!-- ═══════════════ VIEW MÚSICA ═══════════════ -->
+  <div class="view" id="view-musica">
+    <!-- Header -->
+    <div class="app-header" style="padding-bottom:10px">
+      <div class="brand-group">
+        <div class="brand-name">Música</div>
+        <div class="brand-sub">Listas de reproducción · S·T·A·R·S</div>
+      </div>
+    </div>
+
+    <!-- Etiqueta sección -->
+    <div class="sec-label" style="margin-bottom:14px">Playlists disponibles</div>
+
+    <!-- Tarjetas de playlists -->
+    <div style="padding:0 20px;display:flex;flex-direction:column;gap:12px">
+
+      <!-- Word -->
+      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=wLc4lyBpFs03aLUr','_blank','noopener')"
+           style="background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
+           onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
+           ontouchstart="this.style.background='rgba(201,168,76,0.08)'" ontouchend="this.style.background='var(--black3)'">
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent)"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:600;color:var(--gold);letter-spacing:0.04em;line-height:1;margin-bottom:8px">Word</div>
+        <div style="font-size:12px;color:var(--white3);line-height:1.5">Para escuchar la Palabra — canciones que acompañan la lectura y el estudio bíblico.</div>
+      </div>
+
+      <!-- Spirit -->
+      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=49HRCf35LoPyRrDU','_blank','noopener')"
+           style="background:var(--black3);border:1px solid rgba(139,92,246,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
+           onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
+           ontouchstart="this.style.background='rgba(139,92,246,0.08)'" ontouchend="this.style.background='var(--black3)'">
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(139,92,246,0.8),transparent)"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:#a78bfa;font-weight:700;opacity:0.75">Playlist · YouTube Music</div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#a78bfa;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:600;color:#a78bfa;letter-spacing:0.04em;line-height:1;margin-bottom:8px">Spirit</div>
+        <div style="font-size:12px;color:var(--white3);line-height:1.5">Para meditar y orar — música que crea atmósfera de encuentro con Dios.</div>
+      </div>
+
+      <!-- Music -->
+      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=OwQ5PJJ40R-VPc4D','_blank','noopener')"
+           style="background:var(--black3);border:1px solid rgba(20,184,166,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
+           onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
+           ontouchstart="this.style.background='rgba(20,184,166,0.08)'" ontouchend="this.style.background='var(--black3)'">
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(20,184,166,0.8),transparent)"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:#2dd4bf;font-weight:700;opacity:0.75">Playlist · YouTube Music</div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#2dd4bf;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:600;color:#2dd4bf;letter-spacing:0.04em;line-height:1;margin-bottom:8px">Music</div>
+        <div style="font-size:12px;color:var(--white3);line-height:1.5">Para disfrutar — música instrumental y vocal para cualquier momento del día.</div>
+      </div>
+
+      <!-- Work -->
+      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=CZEzvEcN8OAJht7-','_blank','noopener')"
+           style="background:var(--black3);border:1px solid rgba(201,168,76,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
+           onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
+           ontouchstart="this.style.background='rgba(201,168,76,0.08)'" ontouchend="this.style.background='var(--black3)'">
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(201,168,76,0.8),transparent)"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:600;color:var(--gold);letter-spacing:0.04em;line-height:1;margin-bottom:8px">Work</div>
+        <div style="font-size:12px;color:var(--white3);line-height:1.5">Para enfocarse — lo que suena mientras se estudia, predica o trabaja.</div>
+      </div>
+
+      <!-- Happy -->
+      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=dUh9-FkM5NAodNlM','_blank','noopener')"
+           style="background:var(--black3);border:1px solid rgba(251,146,60,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
+           onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
+           ontouchstart="this.style.background='rgba(251,146,60,0.08)'" ontouchend="this.style.background='var(--black3)'">
+        <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(251,146,60,0.8),transparent)"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+          <div style="font-size:9px;letter-spacing:0.22em;text-transform:uppercase;color:#fb923c;font-weight:700;opacity:0.75">Playlist · YouTube Music</div>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fb923c;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:600;color:#fb923c;letter-spacing:0.04em;line-height:1;margin-bottom:8px">Happy</div>
+        <div style="font-size:12px;color:var(--white3);line-height:1.5">Para celebrar — canciones alegres, con energía y gratitud.</div>
+      </div>
+
+    </div>
+
+    <!-- Versículo al pie -->
+    <div style="margin:36px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:16px;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic">"Que la Palabra de Jesús —el Mensaje— tenga libre acceso por toda la casa. Denle mucho espacio en sus vidas. Instrúyanse y diríjanse unos a otros usando el buen sentido común. ¡Y canten, cántenle al Padre con todo el corazón!"</div>
+      <div style="font-size:8px;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px">Colosenses 3:16 · MSG</div>
+    </div>
+
+    <!-- Pie de página -->
+    <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+    <div style="padding:0 20px 36px;text-align:center">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:13px;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px">S · T · A · R · S</div>
+      <div style="font-size:7.5px;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
+    </div>
+  </div>
+
   <!-- ═══════════════ BOTTOM NAV ═══════════════ -->
   <nav class="bottom-nav" id="main-nav">
     <div class="nav-item active" id="nav-hoy" onclick="navTo('hoy')">
@@ -2071,7 +2194,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
       <span class="nav-label">Diario</span>
     </div>
-    <div class="nav-item" id="nav-musica" onclick="mostrarProntoMusica()">
+    <div class="nav-item" id="nav-musica" onclick="navTo('musica')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
       <span class="nav-label">Música</span>
     </div>
@@ -2095,14 +2218,14 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     <div class="modal-body">
       <div class="oracion-text">"Señor, aquieta mi mente antes de que abra tu Palabra. No vengo a aprender solamente — vengo a encontrarme contigo. Habla. Estoy aquí."</div>
       <div class="oracion-firma">— Oración de apertura · El Paso Diario</div>
-      <div class="timer-ring">
+      <div class="timer-ring" id="timer-ring-tap" onclick="iniciarTimer()" style="cursor:pointer" title="Tocar para iniciar">
         <svg width="100" height="100" viewBox="0 0 100 100">
           <circle class="timer-ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
           <circle class="timer-ring-fill" id="timer-fill" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="264"/>
         </svg>
         <div class="timer-label" id="timer-label">5:00</div>
       </div>
-      <button class="timer-btn" id="timer-start-btn" onclick="iniciarTimer()">Iniciar tiempo de silencio</button>
+      <div id="timer-hint" style="text-align:center;font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.4;margin:-8px 0 12px">Toca el círculo para iniciar</div>
       <!-- Música disponible — se muestra solo si el devo tiene musica_url -->
       <div id="musica-hint" style="display:none;margin-bottom:12px">
         <div style="display:flex;align-items:center;justify-content:space-between;background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:10px 14px">
@@ -2809,12 +2932,6 @@ function dskMarcarPaso(idx){
   }
   if(!done){ dskShowPasoCompletado(); }
   showToast(done ? 'Paso desmarcado' : '✓ Paso completado');
-  // Actualizar contador de racha inmediatamente
-  const r = calcularRacha();
-  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
-    const el = document.getElementById(id);
-    if(el) el.textContent = r;
-  });
 }
 
 function dskShowPasoCompletado(){
@@ -3704,12 +3821,6 @@ function marcarPaso(i){
   document.getElementById('sc-'+i).classList.add('done');
   document.getElementById('si-'+i).classList.add('done');
   updatePasoPct();
-  // Actualizar contador de racha inmediatamente
-  const r = calcularRacha();
-  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
-    const el = document.getElementById(id);
-    if(el) el.textContent = r;
-  });
 }
 
 function abrirPaso(i){
@@ -3736,21 +3847,13 @@ function abrirPaso(i){
   // Si ya terminó y vuelve a abrir, mostrar el botón de completar
   if(i===0 && timerSecs<=0 && !timerRunning){
     document.getElementById('modal-done-0').classList.add('show');
-    document.getElementById('timer-start-btn').style.display='none';
   }
 }
 
 function cerrarModal(i){
   document.getElementById('modal-'+i).classList.remove('open');
   document.body.style.overflow='';
-  // NO pausar el timer al cerrar el modal de Silencio — solo pausar visualmente
-  if(i===0 && timerInterval){
-    // Guardar posición actual, no resetear
-    clearInterval(timerInterval);
-    timerInterval=null;
-    // timerRunning queda true y timerSecs queda donde estaba
-    // Al reabrir se puede reanudar
-  }
+  // El timer de silencio sigue corriendo aunque se cierre el modal
 }
 
 function cerrarModalConMarca(i){
@@ -3844,10 +3947,12 @@ function abrirPasoSiDesbloqueado(idx){
 let timerSecs=300;
 function iniciarTimer(){
   if(timerRunning) return;
-  // Desbloquear AudioContext con gesto del usuario (requerido por browsers)
   try { getAudioCtx(); } catch(e){}
   timerRunning=true;
-  document.getElementById('timer-start-btn').style.display='none';
+  const hint=document.getElementById('timer-hint');
+  if(hint) hint.style.display='none';
+  const ring=document.getElementById('timer-ring-tap');
+  if(ring) ring.style.cursor='default';
   if(timerSecs<=0) timerSecs=300;
   const fill=document.getElementById('timer-fill');
   const label=document.getElementById('timer-label');
@@ -3856,11 +3961,11 @@ function iniciarTimer(){
     timerSecs--;
     const m=Math.floor(timerSecs/60);
     const s=timerSecs%60;
-    label.textContent=m+':'+(s<10?'0':'')+s;
-    fill.style.strokeDashoffset=total*(timerSecs/300);
+    if(label) label.textContent=m+':'+(s<10?'0':'')+s;
+    if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
     if(timerSecs<=0){
       clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-      label.textContent='✓';
+      if(label) label.textContent='✓';
       document.getElementById('modal-done-0').classList.add('show');
       marcarPaso(0);
       if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
@@ -3895,10 +4000,8 @@ function switchTexto(v,btn){
 }
 
 /* ══════════ NAV ══════════ */
-const VIEWS=['hoy','estudiar','diario','tracker'];
-function mostrarProntoMusica(){
-  showToast('🎵 Música · Próximamente');
-}
+const VIEWS=['hoy','estudiar','diario','tracker','musica'];
+function mostrarProntoMusica(){ navTo('musica'); }
 
 function navTo(v){
   VIEWS.forEach(id=>{
@@ -3912,7 +4015,7 @@ function navTo(v){
       const el=document.getElementById(id); if(el) el.textContent=racha;
     });
   }catch(err){}
-  ['hoy','estudiar','diario'].forEach(id=>{
+  ['hoy','estudiar','diario','musica'].forEach(id=>{
     const nav=document.getElementById('nav-'+id);
     if(nav) nav.classList.toggle('active',id===v||(v==='tracker'&&id==='estudiar'));
   });
@@ -4573,6 +4676,7 @@ function renderTrackerCaps(){
   // Mini tracker en vista Hoy
   const tmLeidos=document.getElementById('tm-leidos'); if(tmLeidos) tmLeidos.textContent=capsLeidas.toLocaleString();
   const tmCaps=document.getElementById('tm-caps'); if(tmCaps) tmCaps.textContent=capsTotales.toLocaleString();
+  const tmRest=document.getElementById('tm-restantes'); if(tmRest) tmRest.textContent=(capsTotales-capsLeidas).toLocaleString();
 
   BLOQUES.forEach(b=>{
     let capsB=0, leidasB=0;
@@ -5022,8 +5126,6 @@ let calAnio = new Date().getFullYear();
 })();
 
 function abrirBlog(){
-  window.open('https://mayorquemirealidad.netlify.app/', '_blank');
-  return;
   const modal = document.getElementById('blog-modal');
   if(!modal) return;
   const blog = window.SERIE_DATA && window.SERIE_DATA.blog;
