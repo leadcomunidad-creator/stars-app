@@ -2809,6 +2809,12 @@ function dskMarcarPaso(idx){
   }
   if(!done){ dskShowPasoCompletado(); }
   showToast(done ? 'Paso desmarcado' : '✓ Paso completado');
+  // Actualizar contador de racha inmediatamente
+  const r = calcularRacha();
+  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.textContent = r;
+  });
 }
 
 function dskShowPasoCompletado(){
@@ -3698,6 +3704,12 @@ function marcarPaso(i){
   document.getElementById('sc-'+i).classList.add('done');
   document.getElementById('si-'+i).classList.add('done');
   updatePasoPct();
+  // Actualizar contador de racha inmediatamente
+  const r = calcularRacha();
+  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.textContent = r;
+  });
 }
 
 function abrirPaso(i){
@@ -5010,6 +5022,8 @@ let calAnio = new Date().getFullYear();
 })();
 
 function abrirBlog(){
+  window.open('https://mayorquemirealidad.netlify.app/', '_blank');
+  return;
   const modal = document.getElementById('blog-modal');
   if(!modal) return;
   const blog = window.SERIE_DATA && window.SERIE_DATA.blog;
