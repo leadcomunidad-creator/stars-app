@@ -1202,23 +1202,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 /* ── BLOG MODAL ── */
 #blog-modal{position:fixed;inset:0;z-index:300;display:none;flex-direction:column}
 #blog-modal.open{display:flex}
-.blog-backdrop{position:absolute;inset:0;background:rgba(0,0,0,0.7)}
-.blog-sheet{position:relative;margin-top:auto;background:var(--black2);border-radius:20px 20px 0 0;max-height:92vh;display:flex;flex-direction:column;overflow:hidden}
-.blog-header{padding:20px 20px 14px;border-bottom:1px solid rgba(201,168,76,0.10);flex-shrink:0}
-.blog-header-meta{font-size:9px;color:var(--gold);letter-spacing:0.16em;text-transform:uppercase;opacity:0.7;margin-bottom:6px}
-.blog-header-title{font-family:'Cormorant Garamond',serif;font-size:15px;color:var(--white);font-weight:500;line-height:1.3;opacity:0.75}
-.blog-header-sub{font-size:9px;color:var(--white3);letter-spacing:0.14em;text-transform:uppercase;margin-top:5px;opacity:0.5}
-.blog-close{position:absolute;top:18px;right:16px;width:30px;height:30px;border-radius:50%;background:var(--black4);border:none;color:var(--white3);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center}
-.blog-body{overflow-y:auto;padding:24px 20px 48px;flex:1}
 .blog-body p{font-size:15px;color:var(--white2);line-height:1.75;margin-bottom:16px}
-.blog-h2{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);font-weight:500;line-height:1.25;margin:28px 0 12px}
-.blog-quote{background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:14px 16px;margin:16px 0;font-family:'Cormorant Garamond',serif;font-size:16px;color:var(--gold);font-style:italic;line-height:1.6}
-.blog-versiculo{font-style:italic;color:var(--white3);font-size:14px;line-height:1.65;margin:12px 0 16px;padding-left:14px;border-left:2px solid var(--gold-border)}
-.blog-lista{margin:12px 0 16px;padding-left:0;list-style:none}
 .blog-lista li{font-size:14px;color:var(--white2);line-height:1.7;margin-bottom:10px;padding-left:16px;position:relative}
 .blog-lista li::before{content:'·';position:absolute;left:0;color:var(--gold)}
-.blog-divider{border:none;border-top:1px solid rgba(201,168,76,0.10);margin:24px 0}
-.blog-footer{font-size:9px;color:var(--white3);letter-spacing:0.14em;text-transform:uppercase;text-align:center;margin-top:24px;opacity:0.4;line-height:1.8}
 .serie-temporada {
   font-size:9px;
   font-weight:700;
@@ -1409,26 +1395,26 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
-      const hoy = new Date();
-
-      // Verificar si hoy está completo
-      const fechaHoy = hoy.toISOString().slice(0,10).replace(/-/g,'');
-      const pasosHoy = fbGet('pasos_' + fechaHoy, {});
+      const hoy = window.ADMIN_DATE || new Date();
+      const toKey = d => {
+        const yyyy = d.getFullYear();
+        const mm = String(d.getMonth()+1).padStart(2,'0');
+        const dd = String(d.getDate()).padStart(2,'0');
+        return yyyy+'-'+mm+'-'+dd;
+      };
+      const keyHoy = toKey(hoy);
+      const pasosHoy = fbGet('pasos_' + keyHoy, {});
       let hoyCompleto = true;
       for(let s=0; s<5; s++){
         if(pasosHoy[s] !== '1'){ hoyCompleto = false; break; }
       }
-
-      // Si hoy no está completo, empezar a contar desde ayer
-      // para no romper la racha en curso
       const inicio = hoyCompleto ? 0 : 1;
       let racha = 0;
-
       for(let i=inicio; i<365; i++){
         const d = new Date(hoy);
         d.setDate(hoy.getDate() - i);
-        const fecha = d.toISOString().slice(0,10).replace(/-/g,'');
-        const pasos = fbGet('pasos_' + fecha, {});
+        const key = toKey(d);
+        const pasos = fbGet('pasos_' + key, {});
         let completo = true;
         for(let s=0; s<5; s++){
           if(pasos[s] !== '1'){ completo = false; break; }
@@ -1494,9 +1480,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
           if(window._appIniciada){
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
-            if(typeof calcularRacha === 'function'){
-              const r = window.FB.calcularRacha();
-              ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+            if(typeof updateRachaUI === 'function'){
+              updateRachaUI();
+              ['streak-n'].forEach(id=>{ // ya manejado por updateRachaUI
                 const el = document.getElementById(id);
                 if(el) el.textContent = r;
               });
@@ -1539,6 +1525,110 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 
 <!-- APP -->
 <div id="app-root" style="display:none">
+
+<!-- ═══════════════════ ADMIN VÍA URL ═══════════════════ -->
+<div id="admin-panel" style="display:none;
+  position:fixed;top:0;left:0;right:0;z-index:9999;
+  background:#1a0800;border-bottom:2px solid #c9a84c;
+  padding:8px 16px;display:none;align-items:center;gap:10px;flex-wrap:wrap;
+  font-family:'Outfit',sans-serif;font-size:13px;
+">
+  <span style="color:#c9a84c;font-weight:700;letter-spacing:0.1em;font-size:11px;">⚙ ADMIN</span>
+  <label style="color:#f5f0e8;display:flex;align-items:center;gap:5px;">
+    Año
+    <input id="admin-year" type="number" value="2026" min="2024" max="2030"
+      style="width:62px;background:#2a1200;border:1px solid #c9a84c55;color:#f5f0e8;border-radius:6px;padding:3px 7px;font-family:inherit;font-size:13px;">
+  </label>
+  <label style="color:#f5f0e8;display:flex;align-items:center;gap:5px;">
+    Semana
+    <input id="admin-week" type="number" value="" min="1" max="53" placeholder="auto"
+      style="width:58px;background:#2a1200;border:1px solid #c9a84c55;color:#f5f0e8;border-radius:6px;padding:3px 7px;font-family:inherit;font-size:13px;">
+  </label>
+  <label style="color:#f5f0e8;display:flex;align-items:center;gap:5px;">
+    Día
+    <select id="admin-day"
+      style="background:#2a1200;border:1px solid #c9a84c55;color:#f5f0e8;border-radius:6px;padding:3px 7px;font-family:inherit;font-size:13px;">
+      <option value="1">Lun</option>
+      <option value="2">Mar</option>
+      <option value="3">Mié</option>
+      <option value="4">Jue</option>
+      <option value="5">Vie</option>
+      <option value="6">Sáb</option>
+      <option value="0">Dom</option>
+    </select>
+  </label>
+  <button onclick="adminCargar()" style="
+    background:#c9a84c;color:#0a0a0a;border:none;border-radius:8px;
+    padding:5px 16px;font-weight:700;font-family:inherit;font-size:13px;cursor:pointer;
+  ">Cargar</button>
+  <span id="admin-status" style="color:#c9a84c;font-size:11px;opacity:0.8;"></span>
+  <span style="margin-left:auto;color:#3a2010;font-size:10px;letter-spacing:0.08em;">MODO ADMINISTRADOR</span>
+</div>
+<div id="admin-spacer" style="display:none;height:46px"></div>
+
+<script>
+(function(){
+  const params = new URLSearchParams(window.location.search);
+  if(params.get('admin') === 'STARS2026'){
+    window.ADMIN_MODE = true;
+    // Mostrar panel
+    const panel = document.getElementById('admin-panel');
+    const spacer = document.getElementById('admin-spacer');
+    if(panel)  { panel.style.display  = 'flex'; }
+    if(spacer) { spacer.style.display = 'block'; }
+  }
+})();
+
+function adminCargar(){
+  if(!window.ADMIN_MODE) return;
+  const y  = parseInt(document.getElementById('admin-year').value);
+  const w  = parseInt(document.getElementById('admin-week').value);
+  const dw = parseInt(document.getElementById('admin-day').value);
+  if(!y || y < 2024){ alert('Año inválido'); return; }
+  if(!w || w < 1 || w > 53){ alert('Semana inválida (1-53)'); return; }
+
+  // Fecha local (no UTC) para evitar bug de timezone
+  const jan4 = new Date(y, 0, 4);
+  const lunes = new Date(y, 0, 4);
+  lunes.setDate(jan4.getDate() - ((jan4.getDay() || 7) - 1) + (w - 1) * 7);
+  const offset = dw === 0 ? 6 : dw - 1;
+  const adminDate = new Date(lunes);
+  adminDate.setDate(lunes.getDate() + offset);
+
+  window.ADMIN_YEAR = y;
+  window.ADMIN_WEEK = w;
+  window.ADMIN_DATE = adminDate;
+
+  window.SEMANA_CARGADA = null;
+  window.DEVOCIONALES   = {};
+  window.SERIE_DATA     = null;
+
+  const dateStr = `${adminDate.getFullYear()}-${String(adminDate.getMonth()+1).padStart(2,'0')}-${String(adminDate.getDate()).padStart(2,'0')}`;
+  document.getElementById('admin-status').textContent = 'Cargando... ' + dateStr;
+
+  if(typeof window._initApp === 'function'){
+    window._initApp();
+    setTimeout(()=>{
+      document.getElementById('admin-status').textContent = '✓ ' + dateStr + ' · S' + w;
+    }, 1500);
+  }
+}
+
+window.addEventListener('DOMContentLoaded', ()=>{
+  if(!window.ADMIN_MODE) return;
+  const now = new Date();
+  document.getElementById('admin-year').value = now.getFullYear();
+  const d = new Date(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()));
+  const dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+  const week = Math.ceil((((d - yearStart) / 86400000) + 1)/7);
+  document.getElementById('admin-week').value = week;
+  document.getElementById('admin-day').value = now.getDay();
+  document.getElementById('admin-status').textContent = 'Semana actual: ' + week;
+});
+</script>
+<!-- ═══════════════════════════════════════════ -->
 <div class="app">
 
   <!-- ═══════════════ VISTA HOY ═══════════════ -->
@@ -1591,23 +1681,10 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
           <div style="font-size:8px;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:4px">Lee el mensaje de la semana</div>
           <div class="serie-temporada" id="serie-temporada"></div>
           <div class="serie-titulo" id="serie-titulo"></div>
-          <div class="serie-subtitulo" id="serie-subtitulo" style="display:none"></div>
         </div>
       </div>
 
-      <!-- BLOG MODAL -->
-      <div id="blog-modal">
-        <div class="blog-backdrop" onclick="cerrarBlog()"></div>
-        <div class="blog-sheet">
-          <div class="blog-header">
-            <div class="blog-header-meta" id="blog-meta">Lee el mensaje de la semana</div>
-            <div class="blog-header-title" id="blog-titulo-modal"></div>
-            <div class="blog-header-sub" id="blog-sub-modal"></div>
-            <button class="blog-close" onclick="cerrarBlog()">×</button>
-          </div>
-          <div class="blog-body" id="blog-body"></div>
-        </div>
-      </div>
+
 
       <div class="date-bar">
         <div class="date-txt" id="hoy-fecha"></div>
@@ -2020,61 +2097,21 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 
   <!-- ═══════════════ VISTA DIARIO ═══════════════ -->
   <div class="view" id="view-diario">
-      <div class="stars-header-unified">
-        <img class="stars-logo-img" src="logo.png" alt="STARS logo">
-        <div class="brand-name">S · T · A · R · S</div>
-        <div class="brand-sub">THE MESSAGE &nbsp;·&nbsp; LHSCOL</div>
-      </div>
-      <div style="padding:0 20px;margin-bottom:8px">
-        <div style="font-size:11px;color:var(--white3)" id="diario-count-label">Tu cuaderno personal de estudio</div>
-      </div>
-
-    <div class="diario-tabs" style="display:none">
-      <button class="dtab active" id="dtab-nueva" onclick="switchDtab('nueva')">✍️ Nueva</button>
-      <button class="dtab" id="dtab-hist" onclick="switchDtab('hist')">📚 Historial</button>
+    <div class="stars-header-unified">
+      <img class="stars-logo-img" src="logo.png" alt="STARS logo">
+      <div class="brand-name">S · T · A · R · S</div>
+      <div class="brand-sub">THE MESSAGE &nbsp;·&nbsp; LHSCOL</div>
     </div>
-    <div class="dpanel" id="dpanel-nueva" style="overflow-y:auto;flex:1;padding-bottom:20px">
-      <div class="d-card">
-        <div class="d-card-header">
-          <div class="d-label">Capítulo de hoy</div>
-          <input class="d-libro-input" id="d-libro" placeholder="Ej: Génesis 1"/>
-        </div>
-        <div class="d-pregunta">
-          <div class="d-preg-num">Pregunta 1 de 3</div>
-          <div class="d-preg-txt">¿Qué me dice este texto sobre Dios?</div>
-          <textarea class="d-textarea" id="d-r1" placeholder="Escribe tu respuesta..."></textarea>
-        </div>
-        <div class="d-pregunta">
-          <div class="d-preg-num">Pregunta 2 de 3</div>
-          <div class="d-preg-txt">¿Qué me dice este texto sobre mí?</div>
-          <textarea class="d-textarea" id="d-r2" placeholder="Sé específico, no general..."></textarea>
-        </div>
-        <div class="d-pregunta" style="border-bottom:none">
-          <div class="d-preg-num">Pregunta 3 de 3</div>
-          <div class="d-preg-txt">¿Qué voy a hacer diferente hoy?</div>
-          <textarea class="d-textarea" id="d-r3" placeholder="Una acción concreta..."></textarea>
-        </div>
+    <div style="padding:32px 24px;display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center">
+      <span style="font-size:48px">📓</span>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold);line-height:1.4">Tu diario es tuyo</div>
+      <div style="font-size:14px;color:var(--white3);line-height:1.7;max-width:300px">
+        Para proteger tu privacidad, las notas y reflexiones no se guardan en la app.<br><br>
+        Usa tu cuaderno físico o tu app de notas favorita — ese es tu espacio personal, sin límites.
       </div>
-      <div class="d-card">
-        <div class="d-sembrar">
-          <div class="d-sem-label">🌱 <span class="d-sem-badge">Sembrar</span> Ideas para predicar</div>
-          <div style="font-size:12px;color:var(--white3);margin-bottom:10px;line-height:1.5">Captura algo de este capítulo que podría convertirse en prédica, ilustración o punto de enseñanza.</div>
-          <div class="d-sem-chips">
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Ilustración')">💡 Ilustración</button>
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Texto ancla')">📌 Texto ancla</button>
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Serie posible')">📚 Serie posible</button>
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Frase')">✨ Frase poderosa</button>
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Teología')">Teología</button>
-            <button class="d-sem-chip" onclick="toggleDTag(this,'Aplicación')">Aplicación</button>
-          </div>
-          <textarea class="d-textarea" id="d-sembrar" placeholder="Ideas para predicación..." style="min-height:65px"></textarea>
-        </div>
+      <div style="margin-top:8px;padding:14px 20px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:12px;font-size:12px;color:var(--white3);line-height:1.6">
+        💡 <strong style="color:var(--gold)">Sugerencia:</strong> Usa Apple Notes, Google Keep, Notion o un cuaderno físico para escribir tus respuestas del paso R y las preguntas de reflexión del estudio.
       </div>
-      <button class="d-guardar" onclick="guardarDiario()">Guardar entrada →</button>
-    </div>
-    <div class="dpanel active" id="dpanel-hist" style="overflow-y:auto;flex:1;padding-bottom:20px">
-      <input class="hist-search" id="hist-search" placeholder="Buscar por libro o contenido..." oninput="renderHistorial()">
-      <div id="hist-list"></div>
     </div>
   </div>
 
@@ -2307,9 +2344,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
       <button class="modal-close" onclick="guardarReflexionYCerrar()">×</button>
     </div>
     <div class="modal-body">
-      <div class="reflexion-pregunta">❓ ¿Qué estructura mental específica y qué miedos profundos revela el reclamo más honesto y silencioso que le has hecho al Padre durante tu tormenta actual?</div>
-      <textarea class="reflexion-area" id="reflexion-respuesta" placeholder="Escribe con honestidad, sin adornos religiosos..."></textarea>
-      <button class="done-btn show" onclick="guardarReflexionYCerrar()" style="margin-top:12px">✓ Guardar reflexión</button>
+      <div class="reflexion-pregunta" id="reflexion-pregunta-txt"></div>
+      <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px"><span style="font-size:20px">📓</span><span style="font-size:13px;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span></div>
+      <button class="done-btn show" onclick="guardarReflexionYCerrar()" style="margin-top:16px">✓ Listo</button>
     </div>
   </div>
 </div>
@@ -2512,7 +2549,7 @@ async function cargarDevocionalSemana(year, week) {
           temporada:       data.temporada       || '',
           serie_titulo:    data.serie_titulo    || data.serie || '',
           serie_subtitulo: data.serie_subtitulo || '',
-          blog:            data.blog            || null,
+          blog_url:        data.blog_url        || null,
           _year: year,
           _week: week,
         };
@@ -2572,12 +2609,10 @@ async function cargarIndiceCapitulos() {
 // Inicialización del contenido
 async function initContenido() {
   const now = new Date();
-  const year = now.getFullYear();
-  const week = getISOWeek(now);
+  const year = window.ADMIN_YEAR || now.getFullYear();
+  const week = window.ADMIN_WEEK || getISOWeek(now);
   
-  // Cargar devocional de esta semana
   const cargado = await cargarDevocionalSemana(year, week);
-  // También intentar la semana pasada por si es inicio de semana
   if (week > 1) await cargarDevocionalSemana(year, week - 1);
   
   // Cargar índice de estudios
@@ -2623,10 +2658,9 @@ function renderSerieCard(){
   const subEl  = document.getElementById('serie-subtitulo');
   if(!card) return;
 
-  if(window.SERIE_DATA && window.SERIE_DATA.serie_titulo){
+  if(window.SERIE_DATA && window.SERIE_DATA.serie_titulo && window.SERIE_DATA.blog_url){
     if(tempEl) tempEl.textContent = (window.SERIE_DATA.temporada || '').toUpperCase();
     if(titEl)  titEl.textContent  = window.SERIE_DATA.serie_titulo || '';
-    if(subEl)  subEl.textContent  = window.SERIE_DATA.serie_subtitulo || '';
     card.style.display = 'block';
   } else {
     card.style.display = 'none';
@@ -2765,7 +2799,7 @@ window._initApp = function(){
   initFecha(); initWeek(); initBloques(); initTracker();
   initSteps(); updateTracker(); initDiario();
   renderTrackerEstudio();
-  document.getElementById('streak-n').textContent = calcularRacha();
+  updateRachaUI();
   initContenido();
 };
 
@@ -2829,8 +2863,7 @@ function initDesktop(){
   if(fEl) fEl.textContent = new Date().toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).toUpperCase();
 
   // Racha
-  const rEl = document.getElementById('dsk-racha-n');
-  if(rEl) rEl.textContent = calcularRacha();
+  updateRachaUI();
   // Badges pasos — estado actual
   dskActualizarBadgesPasos();
 
@@ -2992,7 +3025,7 @@ function dskWsPaso(idx){
       <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${devo.oracion}\u201D</div>
       ${devo.musica_url?`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--black4);border:1px solid var(--gold-border);border-radius:8px;padding:10px 14px;margin-bottom:16px">
         <div style="display:flex;align-items:center;gap:8px"><span>🎵</span><div><div style="font-size:11px;font-weight:600;color:var(--gold)">Música sugerida</div><div style="font-size:10px;color:var(--white3)">YouTube · Esta semana</div></div></div>
-        <button onclick="window.open('${devo.musica_url}','_blank')" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:11px;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
+        <button onclick="window.location.href='${devo.musica_url}'" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:11px;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
       </div>`:''}
       <div style="text-align:center;margin-bottom:16px">
         <div style="display:inline-flex;flex-direction:column;align-items:center;gap:12px">
@@ -3438,80 +3471,34 @@ function movilPostProcesarReflexion(key, secIdx){
   if(secIdx !== 8) return;
   const body = document.getElementById('ecap-body');
   if(!body) return;
-  const preguntas = body.querySelectorAll('[style*="background:var(--black4)"][style*="border-radius:8px"]');
-  preguntas.forEach((card, i) => {
-    if(card.querySelector('textarea')) return;
-    const storageKey = 'stars_reflexion_estudio_' + key + '_' + i;
-    const saved = window.FB ? window.FB.getReflexionEstudio(key, i) : (localStorage.getItem(storageKey) || '');
-    const textarea = document.createElement('textarea');
-    textarea.style.cssText = 'width:100%;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:7px;padding:9px 11px;font-size:13px;color:var(--white);font-family:Outfit,sans-serif;resize:vertical;min-height:80px;line-height:1.65;margin-top:8px;display:block;box-sizing:border-box';
-    textarea.placeholder = 'Tu respuesta…';
-    textarea.value = saved;
-    textarea.addEventListener('input', ()=>guardarReflexionEstudio(key, i, textarea.value));
-    // Botón guardar mobile
-    const saveBtn = document.createElement('button');
-    saveBtn.textContent = '✓ Guardar respuesta';
-    saveBtn.style.cssText = 'margin-top:6px;padding:7px 16px;border-radius:16px;font-size:11px;font-weight:700;font-family:Outfit,sans-serif;cursor:pointer;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);display:block';
-    saveBtn.onclick = ()=>{
-      guardarReflexionEstudio(key, i, textarea.value);
-      saveBtn.textContent = '✓ Guardado';
-      saveBtn.style.background = 'var(--green-dim)';
-      saveBtn.style.borderColor = 'var(--green-border)';
-      saveBtn.style.color = 'var(--green2)';
-      setTimeout(()=>{saveBtn.textContent='✓ Guardar respuesta';saveBtn.style.background='var(--gold-dim)';saveBtn.style.borderColor='var(--gold-border)';saveBtn.style.color='var(--gold)';},2000);
-    };
-    card.appendChild(textarea);
-    card.appendChild(saveBtn);
-  });
+  // Eliminar textareas existentes si los hay
+  body.querySelectorAll('textarea').forEach(t => t.remove());
+  // Agregar nota única al final de la sección si no existe
+  if(!body.querySelector('.nota-cuaderno')){
+    const nota = document.createElement('div');
+    nota.className = 'nota-cuaderno';
+    nota.style.cssText = 'margin-top:16px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px';
+    nota.innerHTML = '<span style="font-size:20px">📓</span><span style="font-size:13px;color:var(--white3);line-height:1.55">Escribe tus respuestas en tu cuaderno o app de notas — tu espacio personal, sin límites.</span>';
+    body.appendChild(nota);
+  }
 }
 
 /* ── Post-procesar sección Reflexión — agregar textarea por pregunta ── */
 function dskPostProcesarReflexion(key, secIdx){
-  if(secIdx !== 8) return; // Solo sección 9 (idx 8)
+  if(secIdx !== 8) return;
   const body = document.getElementById('dsk-cap-body');
   if(!body) return;
-  const preguntas = body.querySelectorAll('[style*="background:var(--black4)"][style*="border-radius:8px"]');
-  preguntas.forEach((card, i) => {
-    if(card.querySelector('textarea')) return; // ya tiene textarea
-    const storageKey = 'stars_reflexion_estudio_' + key + '_' + i;
-    const saved = window.FB ? window.FB.getReflexionEstudio(key, i) : (localStorage.getItem(storageKey) || '');
-    const textarea = document.createElement('textarea');
-    textarea.style.cssText = 'width:100%;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:7px;padding:9px 11px;font-size:13px;color:var(--white);font-family:Outfit,sans-serif;resize:vertical;min-height:80px;line-height:1.65;margin-top:8px;display:block';
-    textarea.placeholder = 'Tu respuesta…';
-    textarea.value = saved;
-    textarea.addEventListener('input', ()=> {
-      guardarReflexionEstudio(key, i, textarea.value);
-    });
-    // Botón guardar
-    const saveBtn = document.createElement('button');
-    saveBtn.textContent = '✓ Guardar respuesta';
-    saveBtn.style.cssText = 'margin-top:6px;padding:7px 16px;border-radius:16px;font-size:11px;font-weight:700;font-family:Outfit,sans-serif;cursor:pointer;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);transition:all 0.2s;display:block';
-    saveBtn.onclick = ()=>{
-      guardarReflexionEstudio(key, i, textarea.value);
-      saveBtn.textContent = '✓ Guardado';
-      saveBtn.style.background = 'var(--green-dim)';
-      saveBtn.style.borderColor = 'var(--green-border)';
-      saveBtn.style.color = 'var(--green2)';
-      setTimeout(()=>{saveBtn.textContent='✓ Guardar respuesta';saveBtn.style.background='var(--gold-dim)';saveBtn.style.borderColor='var(--gold-border)';saveBtn.style.color='var(--gold)';},2000);
-    };
-    card.appendChild(textarea);
-    card.appendChild(saveBtn);
-  });
+  body.querySelectorAll('textarea').forEach(t => t.remove());
+  if(!body.querySelector('.nota-cuaderno')){
+    const nota = document.createElement('div');
+    nota.className = 'nota-cuaderno';
+    nota.style.cssText = 'margin-top:16px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px';
+    nota.innerHTML = '<span style="font-size:20px">📓</span><span style="font-size:13px;color:var(--white3);line-height:1.55">Escribe tus respuestas en tu cuaderno o app de notas — tu espacio personal, sin límites.</span>';
+    body.appendChild(nota);
+  }
 }
 
-function guardarReflexionEstudio(capKey, pregIdx, texto){
-  if(window.FB) window.FB.setReflexionEstudio(capKey, pregIdx, texto);
-  else localStorage.setItem('stars_reflexion_estudio_'+capKey+'_'+pregIdx, texto);
-  // Guardar en formato que el historial pueda leer
-  const hKey = 'stars_ref_estudio_' + capKey;
-  let data = {};
-  try { data = JSON.parse(localStorage.getItem(hKey)||'{}'); } catch(e){}
-  data[pregIdx] = texto;
-  data._cap = capKey;
-  data._fecha = getTodayKey();
-  data._fechaDisplay = new Date().toLocaleDateString('es-CO',{day:'numeric',month:'long',year:'numeric'});
-  localStorage.setItem(hKey, JSON.stringify(data));
-}
+function guardarReflexionEstudio(){}
 
 /* ── Diario tabs ── */
 function dskDiarioTab(tab, btn){
@@ -3528,20 +3515,13 @@ function dskDiarioTab(tab, btn){
           <div style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Pregunta de reflexión de hoy</div>
           <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.75;color:var(--white2)">❓ ${devo.reflexion}</div>
           <div style="font-size:9px;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Tu respuesta</div>
-          <textarea id="dsk-ws-reflexion" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:14px;font-size:14px;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.75" placeholder="Escribe tu reflexión aquí…" oninput="if(window.FB)window.FB.setReflexion(getTodayKey(),this.value);else localStorage.setItem('stars_reflexion_'+getTodayKey(),this.value)">${window.FB?window.FB.getReflexion(getTodayKey()):localStorage.getItem('stars_reflexion_'+getTodayKey())||''}</textarea>
-          <button onclick="dskGuardarDesdeWs()" style="margin-top:12px;padding:10px 24px;border-radius:20px;font-size:12px;font-weight:700;font-family:'Outfit',sans-serif;cursor:pointer;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold)">Guardar reflexión →</button>
+          <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px"><span style="font-size:20px">📓</span><span style="font-size:13px;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span></div>
         </div>`);
     }
   }
 }
 
-function dskGuardarDesdeWs(){
-  const area = document.getElementById('dsk-ws-reflexion');
-  if(!area || !area.value.trim()){ showToast('Escribe algo primero'); return; }
-  if(window.FB) window.FB.setReflexion(getTodayKey(), area.value);
-  else localStorage.setItem('stars_reflexion_'+getTodayKey(), area.value);
-  showToast('✓ Reflexión guardada');
-}
+function dskGuardarDesdeWs(){}
 
 let _dskFiltroActual = 'todos';
 
@@ -3708,7 +3688,7 @@ function dsk_descargar(){
 
 /* ══════════ FECHA ══════════ */
 function initFecha(){
-  const d=new Date();
+  const d=window.ADMIN_DATE || new Date();
   const dias=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
   const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
   document.getElementById('hoy-fecha').textContent=`${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
@@ -3719,7 +3699,7 @@ function initFecha(){
 }
 
 /* ══════════ WEEK ══════════ */
-function getTodayKey(){ return dateToKey(new Date()); }
+function getTodayKey(){ return dateToKey(window.ADMIN_DATE || new Date()); }
 function getDateKey(date){
   // Devuelve "YYYY-MM-DD" para cualquier fecha
   return date.toISOString().slice(0,10);
@@ -3740,8 +3720,7 @@ function isDayComplete(dateKey){
 }
 
 function getWeekDates(){
-  // Devuelve array de 7 fechas (lunes a domingo) de la semana actual
-  const today = new Date();
+  const today = window.ADMIN_DATE || new Date();
   const todayIdx = getDayOfWeek(today);
   const dates = [];
   for(let i=0;i<7;i++){
@@ -3756,7 +3735,7 @@ function initWeek(){
   const row=document.getElementById('week-row');
   row.innerHTML='';
   const labels=['L','M','X','J','V','S','D'];
-  const today = new Date();
+  const today = window.ADMIN_DATE || new Date();
   const todayIdx = getDayOfWeek(today);
   const weekDates = getWeekDates();
 
@@ -3798,19 +3777,23 @@ function initSteps(){
   updatePasoPct();
 }
 
+function updateRachaUI(){
+  const r = calcularRacha();
+  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+    const el = document.getElementById(id);
+    if(el) el.textContent = r;
+  });
+  return r;
+}
+
 function updatePasoPct(){
   let done=0; for(let i=0;i<5;i++) if(isStepDone(i)) done++;
   const pct=Math.round(done/5*100);
   document.getElementById('pd-pct').textContent=pct+'%';
   document.getElementById('pd-bar').style.width=pct+'%';
-  // Actualizar dots de la semana al completar
   if(pct===100){
-    // Re-renderizar toda la fila para reflejar el día completado
     initWeek();
-    // Actualizar racha
-    const rachaVal = calcularRacha();
-    const streakEl = document.getElementById('streak-n');
-    if(streakEl) streakEl.textContent = rachaVal;
+    updateRachaUI();
     showToast('¡Día completado! ⭐ Racha actualizada');
   }
 }
@@ -3826,6 +3809,11 @@ function marcarPaso(i){
 function abrirPaso(i){
   document.getElementById('modal-'+i).classList.add('open');
   document.body.style.overflow='hidden';
+  // En modo admin: mostrar botón completar inmediatamente sin esperar timer
+  if(i===0 && window.ADMIN_MODE){
+    document.getElementById('modal-done-0').classList.add('show');
+    return;
+  }
   // Si es el modal de silencio y el timer estaba corriendo, reanudarlo
   if(i===0 && timerRunning && !timerInterval && timerSecs > 0){
     const fill=document.getElementById('timer-fill');
@@ -3922,16 +3910,16 @@ function tocarPitidoFinal(){
 function abrirMusicaSilencio(){
   const devo = getDevoHoy();
   if(!devo?.musica_url) return;
-  try { window.open(devo.musica_url, '_blank', 'noopener'); }
+  try { window.location.href = devo.musica_url; }
   catch(e){}
 }
 
 
 /* ══ DESBLOQUEO SECUENCIAL DE PASOS ══ */
 function pasoDesbloqueado(idx){
-  if(idx === 0) return true; // Silencio siempre disponible
+  if(window.ADMIN_MODE) return true;
+  if(idx === 0) return true;
   const key = getTodayKey();
-  // Cada paso requiere que el anterior esté completado
   return window.FB ? window.FB.getPaso(key, idx-1) : localStorage.getItem('stars_paso_'+key+'_'+(idx-1)) === '1';
 }
 
@@ -3976,13 +3964,9 @@ function iniciarTimer(){
 
 /* Reflexión */
 function guardarReflexionYCerrar(){
-  const txt=document.getElementById('reflexion-respuesta').value.trim();
-  if(txt){
-    if(window.FB) window.FB.setReflexion(getTodayKey(), txt);
-    else localStorage.setItem('stars_reflexion_'+getTodayKey(),txt); /* fallback */
-  }
   marcarPaso(3);
   cerrarModal(3);
+  if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
 }
 
 /* Sembrar */
@@ -4010,9 +3994,9 @@ function navTo(v){
     if(view && id===v) view.scrollTop=0;
   });
   try{
-    const racha=calcularRacha();
-    ['streak-n','streak-n-est','streak-n-dia'].forEach(id=>{
-      const el=document.getElementById(id); if(el) el.textContent=racha;
+    updateRachaUI();
+    ['streak-n'].forEach(id=>{
+      const el=document.getElementById(id); if(el) {}  // ya manejado
     });
   }catch(err){}
   ['hoy','estudiar','diario','musica'].forEach(id=>{
@@ -4117,50 +4101,10 @@ REGLA ESTRICTA: NUNCA uses "Peterson dice". Usa "La versión enfatiza...", "El t
 No agregues introducciones, saludos ni conclusiones fuera de esta estructura.`;
 
 async function generarAnalisis(){
-  const ref = document.getElementById('estudiar-cap').value.trim();
-  if(!ref) return;
-  const result  = document.getElementById('analisis-result');
+  const result = document.getElementById('analisis-result');
   const content = document.getElementById('ar-content');
-  const status  = document.getElementById('ar-status');
-  const spinner = document.getElementById('ar-spinner');
-
-  result.style.display = 'block';
-  spinner.style.display = 'block';
-  status.textContent = 'Analizando versículo…';
-  content.innerHTML = '';
-
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: PROMPT_VERSICULO,
-        messages: [{ role: 'user', content: ref }]
-      })
-    });
-    const data = await res.json();
-    const text = data.content?.[0]?.text || '';
-    if(!text) throw new Error('Sin respuesta');
-
-    spinner.style.display = 'none';
-    status.textContent = 'Análisis completo ✓';
-
-    // Renderizar markdown básico con estilo
-    const html = text
-      .replace(/\*\*(.+?)\*\*/g, '<strong style="color:var(--gold);letter-spacing:0.04em">$1</strong>')
-      .replace(/^#{1,3}\s+(.+)$/gm, '<div style="color:var(--gold);font-weight:600;margin:14px 0 4px;letter-spacing:0.04em">$1</div>')
-      .replace(/\|/g, '<span style="color:var(--white3);margin:0 6px">·</span>')
-      .replace(/\n\n/g, '<br><br>')
-      .replace(/\n/g, '<br>');
-    content.innerHTML = html;
-
-  } catch(e) {
-    spinner.style.display = 'none';
-    status.textContent = 'Error de conexión';
-    content.innerHTML = '<div style="color:var(--white3);font-size:13px;text-align:center;padding:20px 0">No se pudo conectar.<br>Verifica tu conexión e intenta de nuevo.</div>';
-  }
+  if(result) result.style.display = 'block';
+  if(content) content.innerHTML = '<div style="text-align:center;padding:48px 24px;color:var(--gold);font-family:\'Cormorant Garamond\',serif;font-size:22px;opacity:0.7">Próximamente</div>';
 }
 
 /* ══════════ BLOQUES LIST ══════════ */
@@ -4489,8 +4433,7 @@ function initDashboard(){
   }
 
   // Racha
-  const rachaEl = document.getElementById('db-racha-n');
-  if(rachaEl) rachaEl.textContent = calcularRacha();
+  updateRachaUI();
 
   // Hero — frase del día
   const heroFrase = document.getElementById('db-hero-frase');
@@ -5126,69 +5069,49 @@ let calAnio = new Date().getFullYear();
 })();
 
 function abrirBlog(){
-  const modal = document.getElementById('blog-modal');
-  if(!modal) return;
-  const blog = window.SERIE_DATA && window.SERIE_DATA.blog;
-  if(!blog) return;
-  // Header
-  const meta = document.getElementById('blog-meta');
-  const tit  = document.getElementById('blog-titulo-modal');
-  const sub  = document.getElementById('blog-sub-modal');
-  if(meta) meta.textContent = (window.SERIE_DATA.temporada||'') + ' · ' + (window.SERIE_DATA.serie_subtitulo||'');
-  if(tit)  tit.textContent  = blog.titulo || '';
-  if(sub)  sub.textContent  = (window.SERIE_DATA.organizacion||'LHSCOL') + ' · ' + (window.SERIE_DATA.temporada||'');
-  // Body
-  const body = document.getElementById('blog-body');
-  if(body && blog.secciones){
-    let html = '';
-    blog.secciones.forEach(sec => {
-      if(sec.tipo === 'h2')      html += `<div class="blog-h2">${sec.texto}</div>`;
-      else if(sec.tipo === 'p')  html += `<p>${sec.texto}</p>`;
-      else if(sec.tipo === 'quote') html += `<div class="blog-quote">${sec.texto}</div>`;
-      else if(sec.tipo === 'versiculo') html += `<div class="blog-versiculo">${sec.texto}</div>`;
-      else if(sec.tipo === 'lista'){
-        html += `<ul class="blog-lista">`;
-        sec.items.forEach(it => { html += `<li><strong>${it.titulo}</strong> ${it.texto}</li>`; });
-        html += `</ul>`;
-      }
-      else if(sec.tipo === 'divider') html += `<hr class="blog-divider">`;
-      else if(sec.tipo === 'footer')  html += `<div class="blog-footer">${sec.texto}</div>`;
-    });
-    body.innerHTML = html;
+  if(window.SERIE_DATA && window.SERIE_DATA.blog_url){
+    window.open(window.SERIE_DATA.blog_url, '_blank', 'noopener');
   }
-  modal.classList.add('open');
-  document.body.style.overflow='hidden';
 }
-function cerrarBlog(){
-  const modal = document.getElementById('blog-modal');
-  if(modal) modal.classList.remove('open');
-  document.body.style.overflow='';
+
+function generarNumSorteo(seed){
+  // Genera número de sorteo determinístico basado en uid + mes
+  const base = (seed || '0000').split('').reduce((a,c)=>a+c.charCodeAt(0),0);
+  return String((base * 7919) % 9000 + 1000); // 4 dígitos
 }
 
 function abrirCalendario(){
-  calMes = new Date().getMonth();
-  calAnio = new Date().getFullYear();
+  const ahora = window.ADMIN_DATE || new Date();
+  calMes = ahora.getMonth();
+  calAnio = ahora.getFullYear();
   renderCalendario();
-  document.getElementById('cal-racha-num').textContent = calcularRacha();
-  // Número de sorteo = días completados en el MES CALENDARIO actual
-  const ahora = new Date();
-  const mesActual = ahora.getMonth();
-  const anioActual = ahora.getFullYear();
-  const diasEnMesActual = new Date(anioActual, mesActual+1, 0).getDate();
-  let diasMes = 0;
-  for(let d=1; d<=diasEnMesActual; d++){
-    const k = anioActual+'-'+String(mesActual+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
-    let completo = true;
-    for(let s=0;s<5;s++){
-      if(!(window.FB ? window.FB.getPaso(k,s) : localStorage.getItem('stars_paso_'+k+'_'+s)==='1')){completo=false;break;}
-    }
-    if(completo) diasMes++;
+  updateRachaUI();
+
+  // ── Calcular sorteo: solo si el mes anterior está completo ──
+  const mesAnterior = calMes === 0 ? 11 : calMes - 1;
+  const anioAnterior = calMes === 0 ? calAnio - 1 : calAnio;
+  const diasEnMesAnt = new Date(anioAnterior, mesAnterior+1, 0).getDate();
+  let mesAntCompleto = true;
+  for(let d=1; d<=diasEnMesAnt; d++){
+    const k = anioAnterior+'-'+String(mesAnterior+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
+    if(!isDayComplete(k)){ mesAntCompleto=false; break; }
   }
+
   const mesesNombres=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-  document.getElementById('cal-sorteo-num').textContent = diasMes > 0 ? diasMes : '--';
-  // Actualizar label del sorteo con el mes actual
+  const sorteoEl  = document.getElementById('cal-sorteo-num');
   const sorteoDesc = document.getElementById('cal-sorteo-desc');
-  if(sorteoDesc) sorteoDesc.textContent = 'Días completados en '+mesesNombres[mesActual];
+
+  if(mesAntCompleto && diasEnMesAnt > 0){
+    // Generar número único basado en uid + mes anterior
+    const seed = (window.FB ? window.FB.uid() : 'local') + anioAnterior + mesAnterior;
+    const num = generarNumSorteo(seed);
+    if(sorteoEl)  sorteoEl.textContent  = num;
+    if(sorteoDesc) sorteoDesc.textContent = '🎉 Número de sorteo — ' + mesesNombres[mesAnterior];
+  } else {
+    if(sorteoEl)  sorteoEl.textContent  = '--';
+    if(sorteoDesc) sorteoDesc.textContent = 'Completa todos los días del mes para participar';
+  }
+
   document.getElementById('cal-modal').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -5298,8 +5221,8 @@ function renderCalendario(){
       el.className='cal-day'+(esHoy?' today':'');
     }
 
-    // Al tocar un día pasado con devocional
-    if(!esFuturo){
+    // Solo permitir ver días pasados (no marcar)
+    if(!esFuturo && !esHoy){
       el.onclick=()=>verDiaAnterior(calAnio,calMes,d);
     }
     grid.appendChild(el);
