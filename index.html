@@ -2831,16 +2831,11 @@ function dskTab(tab){
 
 /* ── Workspace ── */
 function dskWsEmpty(){
-  // Detener el timer de silencio si estaba corriendo al salir
-  if(_dskTimerInterval){ clearInterval(_dskTimerInterval); _dskTimerInterval=null; }
-  _dskTimerRunning = false;
   document.getElementById('dsk-ws-empty').style.display = 'flex';
   document.getElementById('dsk-ws-inner').style.display = 'none';
   document.getElementById('dsk-ws-title').textContent = 'Espacio de trabajo';
 }
 function dskWsShow(titulo, html){
-  // Detener timer de silencio si se está cambiando a otra sección
-  if(_dskTimerInterval){ clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false; }
   document.getElementById('dsk-ws-empty').style.display = 'none';
   const inner = document.getElementById('dsk-ws-inner');
   inner.style.display = 'block';
@@ -3025,7 +3020,7 @@ function dskWsPaso(idx){
       <div style="font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${devo.oracion}\u201D</div>
       ${devo.musica_url?`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--black4);border:1px solid var(--gold-border);border-radius:8px;padding:10px 14px;margin-bottom:16px">
         <div style="display:flex;align-items:center;gap:8px"><span>🎵</span><div><div style="font-size:11px;font-weight:600;color:var(--gold)">Música sugerida</div><div style="font-size:10px;color:var(--white3)">YouTube · Esta semana</div></div></div>
-        <button onclick="window.location.href='${devo.musica_url}'" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:11px;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
+        <button onclick="window.open('${devo.musica_url}','_blank','noopener')" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:11px;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
       </div>`:''}
       <div style="text-align:center;margin-bottom:16px">
         <div style="display:inline-flex;flex-direction:column;align-items:center;gap:12px">
@@ -3080,29 +3075,36 @@ function dskWsPaso(idx){
 let _dskTimerInterval = null;
 let _dskTimerSecs = 300;
 let _dskTimerRunning = false;
+let _dskTimerStartedAt = null;
+let _dskTimerSecsAtStart = 300;
+
+function _dskTimerTick(){
+  if(!_dskTimerRunning) return;
+  const elapsed = Math.floor((Date.now() - _dskTimerStartedAt) / 1000);
+  _dskTimerSecs = Math.max(0, _dskTimerSecsAtStart - elapsed);
+  _dskActualizarTimerUI();
+  if(_dskTimerSecs<=0){
+    clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false;
+    const lbl = document.getElementById('dsk-timer-label');
+    const fill = document.getElementById('dsk-timer-fill');
+    if(lbl) lbl.textContent='✓';
+    if(fill) fill.setAttribute('stroke','var(--green2)');
+    marcarPaso(0);
+    dskActualizarBadgesPasos();
+    tocarPitidoFinal();
+  }
+}
 
 function dskIniciarTimer(){
   if(_dskTimerRunning) return;
   _dskTimerRunning = true;
-  // NO resetear si ya había tiempo transcurrido (usuario volvió al paso)
   if(_dskTimerSecs >= 300) _dskTimerSecs = 300;
+  _dskTimerStartedAt = Date.now();
+  _dskTimerSecsAtStart = _dskTimerSecs;
   const btn = document.getElementById('dsk-timer-btn');
   if(btn){ btn.textContent = 'Corriendo…'; btn.style.opacity='0.5'; btn.style.cursor='default'; }
   try{ getAudioCtx(); }catch(e){}
-  _dskTimerInterval = setInterval(()=>{
-    _dskTimerSecs--;
-    _dskActualizarTimerUI();
-    if(_dskTimerSecs<=0){
-      clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false;
-      const lbl = document.getElementById('dsk-timer-label');
-      const fill = document.getElementById('dsk-timer-fill');
-      if(lbl) lbl.textContent='✓';
-      if(fill) fill.setAttribute('stroke','var(--green2)');
-      marcarPaso(0);
-      dskActualizarBadgesPasos();
-      tocarPitidoFinal();
-    }
-  },1000);
+  _dskTimerInterval = setInterval(_dskTimerTick, 500);
 }
 
 function _dskActualizarTimerUI(){
@@ -3816,21 +3818,7 @@ function abrirPaso(i){
   }
   // Si es el modal de silencio y el timer estaba corriendo, reanudarlo
   if(i===0 && timerRunning && !timerInterval && timerSecs > 0){
-    const fill=document.getElementById('timer-fill');
-    const label=document.getElementById('timer-label');
-    const total=264;
-    timerInterval=setInterval(()=>{
-      timerSecs--;
-      const m=Math.floor(timerSecs/60);
-      const s=timerSecs%60;
-      label.textContent=m+':'+(s<10?'0':'')+s;
-      if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
-      if(timerSecs<=0){
-        clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-        label.textContent='✓';
-        document.getElementById('modal-done-0').classList.add('show');
-      }
-    },1000);
+    timerInterval=setInterval(_timerTick, 500);
   }
   // Si ya terminó y vuelve a abrir, mostrar el botón de completar
   if(i===0 && timerSecs<=0 && !timerRunning){
@@ -3910,7 +3898,7 @@ function tocarPitidoFinal(){
 function abrirMusicaSilencio(){
   const devo = getDevoHoy();
   if(!devo?.musica_url) return;
-  try { window.location.href = devo.musica_url; }
+  try { window.open(devo.musica_url, '_blank', 'noopener'); }
   catch(e){}
 }
 
@@ -3933,6 +3921,30 @@ function abrirPasoSiDesbloqueado(idx){
 
 /* Timer Silencio */
 let timerSecs=300;
+let timerStartedAt=null;   // timestamp de cuando se inició
+let timerSecsAtStart=300;  // segundos que quedaban al iniciar
+
+function _timerTick(){
+  if(!timerRunning) return;
+  const elapsed = Math.floor((Date.now() - timerStartedAt) / 1000);
+  timerSecs = Math.max(0, timerSecsAtStart - elapsed);
+  const fill=document.getElementById('timer-fill');
+  const label=document.getElementById('timer-label');
+  const total=264;
+  const m=Math.floor(timerSecs/60);
+  const s=timerSecs%60;
+  if(label) label.textContent=m+':'+(s<10?'0':'')+s;
+  if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
+  if(timerSecs<=0){
+    clearInterval(timerInterval);timerInterval=null;timerRunning=false;
+    if(label) label.textContent='✓';
+    document.getElementById('modal-done-0').classList.add('show');
+    marcarPaso(0);
+    if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
+    tocarPitidoFinal();
+  }
+}
+
 function iniciarTimer(){
   if(timerRunning) return;
   try { getAudioCtx(); } catch(e){}
@@ -3942,25 +3954,30 @@ function iniciarTimer(){
   const ring=document.getElementById('timer-ring-tap');
   if(ring) ring.style.cursor='default';
   if(timerSecs<=0) timerSecs=300;
-  const fill=document.getElementById('timer-fill');
-  const label=document.getElementById('timer-label');
-  const total=264;
-  timerInterval=setInterval(()=>{
-    timerSecs--;
-    const m=Math.floor(timerSecs/60);
-    const s=timerSecs%60;
-    if(label) label.textContent=m+':'+(s<10?'0':'')+s;
-    if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
-    if(timerSecs<=0){
+  timerStartedAt=Date.now();
+  timerSecsAtStart=timerSecs;
+  timerInterval=setInterval(_timerTick, 500);
+}
+
+// Cuando la pantalla vuelve a ser visible, recalcular con tiempo real
+document.addEventListener('visibilitychange', ()=>{
+  if(!document.hidden && timerRunning){
+    const elapsed = Math.floor((Date.now() - timerStartedAt) / 1000);
+    timerSecs = Math.max(0, timerSecsAtStart - elapsed);
+    if(timerSecs <= 0){
       clearInterval(timerInterval);timerInterval=null;timerRunning=false;
+      const label=document.getElementById('timer-label');
+      const fill=document.getElementById('timer-fill');
       if(label) label.textContent='✓';
-      document.getElementById('modal-done-0').classList.add('show');
+      if(fill) fill.style.strokeDashoffset=0;
+      const doneBtn=document.getElementById('modal-done-0');
+      if(doneBtn) doneBtn.classList.add('show');
       marcarPaso(0);
       if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
       tocarPitidoFinal();
     }
-  },1000);
-}
+  }
+});
 
 /* Reflexión */
 function guardarReflexionYCerrar(){
