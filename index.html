@@ -956,7 +956,7 @@ body.modo-dia .bottom-nav{
 
   /* ── Panel izquierdo ── */
   #dsk-left{
-    width:300px; flex-shrink:0;
+    width:420px; flex-shrink:0;
     display:flex; flex-direction:column;
     border-right:1px solid rgba(255,255,255,0.06);
     overflow:hidden;
@@ -1427,6 +1427,16 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
 .cfg-font-btn:nth-child(3){font-size:0.875rem}
 .cfg-font-btn:nth-child(4){font-size:1.0rem}
 .cfg-font-btn:nth-child(5){font-size:1.125rem}
+
+/* ── Pills compactas en desktop ── */
+@media(min-width:1024px){
+  .stars-pills-row{ padding:12px 16px 12px; gap:5px; }
+  .stars-pill{ padding:8px 5px; border-radius:10px; }
+  .stars-pill-letter{ font-size:1.375rem; }
+  .stars-pill-name{ font-size:0.4375rem; letter-spacing:0.07em; }
+  .stars-pill-time{ font-size:0.4375rem; }
+  .stars-pill-desc{ font-size:0.375rem; }
+}
 </style>
 
 <!-- Firebase -->
@@ -2351,16 +2361,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <!-- ═══════════════ BOTTOM NAV ═══════════════ -->
   <nav class="bottom-nav" id="main-nav">
     <div class="nav-item active" id="nav-hoy" onclick="navTo('hoy')">
-      <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg></div>
+      <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></svg></div>
       <span class="nav-label">Hoy</span>
     </div>
     <div class="nav-item" id="nav-estudiar" onclick="navTo('estudiar')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg></div>
       <span class="nav-label">Estudio</span>
     </div>
-    <div class="nav-item" id="nav-diario" onclick="navTo('diario')">
-      <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
-      <span class="nav-label">Diario</span>
+    <div class="nav-item" id="nav-lhscol" onclick="window.open('https://lhscolweb.netlify.app/','_blank')">
+      <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg></div>
+      <span class="nav-label">LHSCOL</span>
     </div>
     <div class="nav-item" id="nav-musica" onclick="navTo('musica')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
@@ -2854,8 +2864,16 @@ function renderSerieCard(){
     if(tempEl) tempEl.textContent = (window.SERIE_DATA.temporada || '').toUpperCase();
     if(titEl)  titEl.textContent  = window.SERIE_DATA.serie_titulo || '';
     card.style.display = 'block';
+    const dCard=document.getElementById('dsk-serie-card');
+    const dTemp=document.getElementById('dsk-serie-temporada');
+    const dTit =document.getElementById('dsk-serie-titulo');
+    if(dCard){ dCard.style.display='block'; }
+    if(dTemp) dTemp.textContent=(window.SERIE_DATA.temporada||'').toUpperCase();
+    if(dTit)  dTit.textContent=window.SERIE_DATA.serie_titulo||'';
   } else {
     card.style.display = 'none';
+    const dCard=document.getElementById('dsk-serie-card');
+    if(dCard) dCard.style.display='none';
   }
 }
 
@@ -2877,6 +2895,7 @@ function initPasoDiario(){
   }
   // Header card
   document.getElementById('pd-titulo').textContent = d.titulo;
+  const dDt=document.getElementById('dsk-pd-titulo'); if(dDt) dDt.textContent=d.titulo;
   document.getElementById('pd-versiculo').textContent = d.versiculo;
   // Tag del paso
   const tagEl = document.getElementById('pd-tag');
@@ -3005,7 +3024,11 @@ let _dskFontSize = 15;
 function dskFontChange(delta){
   _dskFontSize = Math.max(12, Math.min(22, _dskFontSize + delta));
   const inner = document.getElementById('dsk-ws-inner');
-  if(inner) inner.style.fontSize = _dskFontSize + 'px';
+  if(inner){
+    // zoom en el inner del workspace escala absolutamente todo (px, rem, SVGs)
+    const scale = _dskFontSize / 15;
+    inner.style.zoom = scale;
+  }
   const lbl = document.getElementById('dsk-font-size-label');
   if(lbl) lbl.textContent = _dskFontSize;
 }
@@ -3016,9 +3039,8 @@ function dskTab(tab){
   document.querySelectorAll('.dsk-section').forEach(s=>s.classList.remove('active'));
   const sec = document.getElementById('dsk-sec-'+tab);
   if(sec) sec.classList.add('active');
-  // Workspace vacío al cambiar tab — excepto diario que muestra reflexión
-  if(tab!=='diario') dskWsEmpty();
-  else dskDiarioTab('nueva', document.querySelector('.dsk-dtab'));
+  // Workspace vacío al cambiar tab
+  dskWsEmpty();
 }
 
 /* ── Workspace ── */
@@ -3031,7 +3053,7 @@ function dskWsShow(titulo, html){
   document.getElementById('dsk-ws-empty').style.display = 'none';
   const inner = document.getElementById('dsk-ws-inner');
   inner.style.display = 'block';
-  inner.style.fontSize = _dskFontSize + 'px';
+  inner.style.zoom = _dskFontSize / 15;
   inner.innerHTML = html;
   inner.scrollTop = 0;
   document.getElementById('dsk-ws-title').textContent = titulo;
@@ -3885,7 +3907,10 @@ function initFecha(){
   const d=window.ADMIN_DATE || new Date();
   const dias=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
   const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-  document.getElementById('hoy-fecha').textContent=`${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+  const fechaTxt = `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
+  document.getElementById('hoy-fecha').textContent = fechaTxt;
+  const dskF = document.getElementById('dsk-hoy-fecha');
+  if(dskF) dskF.textContent = fechaTxt;
   const titles=['La Palabra te transforma','Tu historia es resistencia','El Padre ya está buscándote','Ninguna tormenta tiene la última palabra','La fe se ejercita aquí','Raíces profundas, fruto duradero','Silencio antes que palabras'];
   // hoy-titulo oculto
   const tituloEl = document.getElementById('hoy-titulo');
@@ -3928,6 +3953,8 @@ function getWeekDates(){
 function initWeek(){
   const row=document.getElementById('week-row');
   row.innerHTML='';
+  const dskRow=document.getElementById('dsk-week-row');
+  if(dskRow) dskRow.innerHTML='';
   const labels=['L','M','X','J','V','S','D'];
   const today = window.ADMIN_DATE || new Date();
   const todayIdx = getDayOfWeek(today);
@@ -3951,6 +3978,7 @@ function initWeek(){
     const lbl=document.createElement('div'); lbl.className='wday-label'; lbl.textContent=labels[i];
     d.appendChild(lbl); d.appendChild(dot);
     row.appendChild(d);
+    if(dskRow){ const d2=d.cloneNode(true); dskRow.appendChild(d2); }
   }
 }
 
@@ -3966,6 +3994,10 @@ function initSteps(){
     if(isStepDone(i)){
       document.getElementById('sc-'+i).classList.add('done');
       document.getElementById('si-'+i).classList.add('done');
+      const dscSc=document.getElementById('dsk-sc-'+i);
+      const dscSi=document.getElementById('dsk-si-'+i);
+      if(dscSc) dscSc.classList.add('done');
+      if(dscSi) dscSi.classList.add('done');
     }
   }
   updatePasoPct();
@@ -3973,7 +4005,7 @@ function initSteps(){
 
 function updateRachaUI(){
   const r = calcularRacha();
-  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','cal-racha-num'].forEach(id=>{
+  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','dsk-streak-n','cal-racha-num'].forEach(id=>{
     const el = document.getElementById(id);
     if(el) el.textContent = r;
   });
@@ -3985,6 +4017,8 @@ function updatePasoPct(){
   const pct=Math.round(done/5*100);
   document.getElementById('pd-pct').textContent=pct+'%';
   document.getElementById('pd-bar').style.width=pct+'%';
+  const dEl=document.getElementById('dsk-pd-pct'); if(dEl) dEl.textContent=pct+'%';
+  const dBar=document.getElementById('dsk-pd-bar'); if(dBar) dBar.style.width=pct+'%';
   if(pct===100){
     initWeek();
     updateRachaUI();
@@ -3994,6 +4028,10 @@ function updatePasoPct(){
 
 function marcarPaso(i){
   if(window.FB) window.FB.setPaso(getTodayKey(), i);
+  const dscSc=document.getElementById('dsk-sc-'+i);
+  const dscSi=document.getElementById('dsk-si-'+i);
+  if(dscSc) dscSc.classList.add('done');
+  if(dscSi) dscSi.classList.add('done');
   else localStorage.setItem('stars_paso_'+getTodayKey()+'_'+i,'1');
   document.getElementById('sc-'+i).classList.add('done');
   document.getElementById('si-'+i).classList.add('done');
@@ -5954,6 +5992,7 @@ function filtrarCapitulos(){
     <div id="dsk-top-right">
       <div id="dsk-fecha"></div>
       <div id="dsk-racha" onclick="abrirCalendario()">⭐ <span id="dsk-racha-n">1</span> <span style="font-weight:400;opacity:0.7">días</span></div>
+      <div onclick="abrirConfig()" title="Configuración" style="display:flex;align-items:center;gap:6px;padding:5px 12px;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:16px;cursor:pointer;font-size:0.6875rem;color:var(--white3);transition:all 0.15s" onmouseenter="this.style.borderColor='var(--gold-border)';this.style.color='var(--gold)'" onmouseleave="this.style.borderColor='rgba(255,255,255,0.08)';this.style.color='var(--white3)'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Config</div>
     </div>
   </div>
 
@@ -5966,7 +6005,7 @@ function filtrarCapitulos(){
       <div id="dsk-tabs">
         <div class="dsk-tab active" data-tab="hoy" onclick="dskTab('hoy')">Hoy</div>
         <div class="dsk-tab" data-tab="estudio" onclick="dskTab('estudio')">Estudio</div>
-        <div class="dsk-tab" data-tab="diario" onclick="dskTab('diario')">Diario</div>
+        <div class="dsk-tab" data-tab="musica" onclick="dskTab('musica')">Música</div>
       </div>
 
       <!-- Panel scroll -->
@@ -5974,25 +6013,93 @@ function filtrarCapitulos(){
 
         <!-- ── HOY ── -->
         <div class="dsk-section active" id="dsk-sec-hoy">
-          <!-- Card devocional mini -->
-          <div style="padding:14px 16px 0">
-            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:6px;font-weight:600">Paso Diario · S.T.A.R.S.</div>
-            <div style="font-size:0.875rem;font-weight:700;color:var(--white);line-height:1.4" id="dsk-devo-titulo">—</div>
-            <div style="font-size:0.625rem;color:var(--white3);margin-top:2px" id="dsk-devo-ver"></div>
+
+          <!-- Pills S.T.A.R.S. -->
+          <div class="stars-pills-row" style="padding-top:14px">
+            <div class="stars-pill"><div class="stars-pill-letter">S</div><div class="stars-pill-name">SILENCIO</div><div class="stars-pill-time">5 min</div><div class="stars-pill-desc">Para el corazón.<br>Oración breve.</div></div>
+            <div class="stars-pill"><div class="stars-pill-letter">T</div><div class="stars-pill-name">TEXTO</div><div class="stars-pill-time">3 min</div><div class="stars-pill-desc">MSG + NBLA en<br>paralelo.</div></div>
+            <div class="stars-pill"><div class="stars-pill-letter">A</div><div class="stars-pill-name">ANÁLISIS</div><div class="stars-pill-time">3 min</div><div class="stars-pill-desc">Desarrollo del<br>texto.</div></div>
+            <div class="stars-pill"><div class="stars-pill-letter">R</div><div class="stars-pill-name">REFLEXIÓN</div><div class="stars-pill-time">2 min</div><div class="stars-pill-desc">Pregunta de<br>aplicación.</div></div>
+            <div class="stars-pill"><div class="stars-pill-letter">S</div><div class="stars-pill-name">SIEMBRA</div><div class="stars-pill-time">2 min</div><div class="stars-pill-desc">Práctica<br>concreta.</div></div>
           </div>
-          <!-- Pasos -->
-          <div id="dsk-pasos" style="margin-top:8px"></div>
-          <!-- Profundizar — encima de la frase -->
-          <div id="dsk-profundizar-wrap" style="display:block;padding:0 16px 12px">
-            <div style="display:flex;align-items:center;justify-content:space-between;background:var(--black3);border:1px solid rgba(139,92,246,0.2);border-radius:10px;padding:11px 14px;cursor:pointer" onclick="dskWs('exegetico')">
-              <div>
-                <div style="font-size:0.5rem;letter-spacing:0.14em;text-transform:uppercase;color:#a78bfa;opacity:0.8;margin-bottom:3px;font-weight:600">Profundizar · Estudio Exegético</div>
-                <div style="font-size:0.75rem;font-weight:600;color:var(--white)" id="dsk-prof-titulo">Estudio exegético</div>
-              </div>
-              <div style="background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#a78bfa;font-size:0.625rem;font-weight:700;padding:5px 10px;border-radius:12px;white-space:nowrap">+ Profundizar</div>
+
+          <!-- Serie/temporada -->
+          <div class="serie-card" id="dsk-serie-card" style="display:none;margin:0 20px 12px" onclick="abrirBlog()">
+            <div style="flex:1;min-width:0">
+              <div style="font-size:0.5rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:4px">Lee el mensaje de la semana</div>
+              <div class="serie-temporada" id="dsk-serie-temporada"></div>
+              <div class="serie-titulo" id="dsk-serie-titulo"></div>
             </div>
           </div>
-          <!-- Frase mini — debajo de profundizar -->
+
+          <!-- Fecha + semana + racha -->
+          <div style="padding:0 20px 4px">
+            <div id="dsk-hoy-fecha" style="font-size:0.625rem;color:var(--white3);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px"></div>
+          </div>
+          <div style="display:flex;align-items:center;padding:0 20px 16px;gap:8px">
+            <div class="week-row" id="dsk-week-row" style="padding:0;flex:1;overflow-x:auto"></div>
+            <div class="streak-pill" onclick="abrirCalendario()" style="cursor:pointer;flex-shrink:0;margin-left:4px">
+              <span class="streak-icon">⭐</span>
+              <span class="streak-n" id="dsk-streak-n">0</span>
+              <span class="streak-label">días</span>
+            </div>
+          </div>
+
+          <!-- Paso diario — tarjeta igual a mobile -->
+          <div class="sec-label" style="padding:0 20px;margin-bottom:8px">El Paso Diario</div>
+          <div class="paso-card">
+            <div class="paso-header">
+              <div class="paso-icon-box">⭐</div>
+              <div class="paso-meta">
+                <div class="paso-tag">Paso Diario · S.T.A.R.S.</div>
+                <div class="paso-titulo" id="dsk-pd-titulo">—</div>
+              </div>
+              <div class="paso-progress-wrap">
+                <div class="paso-pct" id="dsk-pd-pct">0%</div>
+                <div class="paso-pct-label">completo</div>
+              </div>
+            </div>
+            <div class="paso-bar-bg"><div class="paso-bar-fill" id="dsk-pd-bar" style="width:0%"></div></div>
+            <div class="stars-list">
+              <div class="star-step" onclick="abrirPaso(0)">
+                <div class="step-icon-box" id="dsk-si-0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
+                <div class="step-body"><div class="step-letter">S — Silencio</div><div class="step-name">Preparar el corazón</div><div class="step-sub">Oración guiada · 5 min</div></div>
+                <div class="step-circle" id="dsk-sc-0"></div>
+              </div>
+              <div class="star-step" onclick="abrirPasoSiDesbloqueado(1)">
+                <div class="step-icon-box" id="dsk-si-1"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
+                <div class="step-body"><div class="step-letter">T — Texto</div><div class="step-name">Lectura del pasaje</div><div class="step-sub">MSG + NBLA en paralelo</div></div>
+                <div class="step-circle" id="dsk-sc-1"></div>
+              </div>
+              <div class="star-step" onclick="abrirPasoSiDesbloqueado(2)">
+                <div class="step-icon-box" id="dsk-si-2"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="8" y1="11" x2="14" y2="11"/><line x1="11" y1="8" x2="11" y2="14"/></svg></div>
+                <div class="step-body"><div class="step-letter">A — Análisis</div><div class="step-name">Profundidad del texto</div><div class="step-sub">Reflexión pastoral · leer</div></div>
+                <div class="step-circle" id="dsk-sc-2"></div>
+              </div>
+              <div class="star-step" onclick="abrirPasoSiDesbloqueado(3)">
+                <div class="step-icon-box" id="dsk-si-3"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+                <div class="step-body"><div class="step-letter">R — Reflexión</div><div class="step-name">Pregunta personal</div><div class="step-sub">Escribe tu respuesta</div></div>
+                <div class="step-circle" id="dsk-sc-3"></div>
+              </div>
+              <div class="star-step" onclick="abrirPasoSiDesbloqueado(4)">
+                <div class="step-icon-box" id="dsk-si-4"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M12 12C12 8 9 5 5 5c0 4 2.5 7 7 7"/><path d="M12 12c0-4 3-7 7-7 0 4-2.5 7-7 7"/></svg></div>
+                <div class="step-body"><div class="step-letter">S — Sembrar</div><div class="step-name">Práctica del día</div><div class="step-sub">Ejercicio para hoy</div></div>
+                <div class="step-circle" id="dsk-sc-4"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profundizar -->
+          <div id="dsk-profundizar-wrap" style="margin:8px 18px 4px;display:flex;align-items:center;gap:10px;background:var(--black3);border:1px solid rgba(139,92,246,0.25);border-radius:var(--radius-sm);padding:12px 16px;cursor:pointer;transition:all 0.2s" onclick="abrirExegetico()" onmouseenter="this.style.borderColor='rgba(139,92,246,0.5)'" onmouseleave="this.style.borderColor='rgba(139,92,246,0.25)'">
+            <div style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0"></div>
+            <div style="flex:1">
+              <div style="font-size:0.8125rem;font-weight:500;color:var(--white)">Profundizar · Estudio exegético</div>
+              <div style="font-size:0.625rem;color:var(--white3)" id="dsk-prof-titulo">Análisis del versículo · Notas de The Message · Opcional</div>
+            </div>
+            <div style="font-size:0.5625rem;padding:3px 8px;border-radius:20px;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#a78bfa;white-space:nowrap">+ Profundizar</div>
+          </div>
+
+          <!-- Frase mini -->
           <div id="dsk-frase-mini-wrap" style="display:none">
             <div class="dsk-frase-mini" onclick="dskWs('frase')">
               <div class="dsk-frase-mini-tag">Frase para hoy</div>
@@ -6004,13 +6111,18 @@ function filtrarCapitulos(){
               </div>
             </div>
           </div>
+
           <!-- Frase Peterson -->
-          <div style="margin:0 16px 20px;padding-left:14px;border-left:1px solid rgba(201,168,76,0.18)">
-            <div style="font-family:'Cormorant Garamond',serif;font-size:0.875rem;color:rgba(245,240,232,0.32);line-height:1.8;font-style:italic">“Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.”</div>
-            <div style="font-size:0.4375rem;color:rgba(201,168,76,0.28);letter-spacing:0.16em;text-transform:uppercase;margin-top:6px">Eugene Peterson · The Message</div>
+          <div style="margin:36px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:1rem;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic" class="stars-footer-quote">"Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios."</div>
+            <div style="font-size:0.5rem;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px" class="stars-footer-brand">Eugene Peterson · The Message</div>
+          </div>
+          <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+          <div style="padding:0 20px 36px;text-align:center">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:0.8125rem;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px" class="stars-footer-brand">S · T · A · R · S</div>
+            <div style="font-size:0.46875rem;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase" class="stars-footer-lema">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
           </div>
         </div>
-
         <!-- ── ESTUDIO ── -->
         <div class="dsk-section" id="dsk-sec-estudio">
           <!-- Header Paso Profundo -->
@@ -6042,33 +6154,42 @@ function filtrarCapitulos(){
         </div>
 
         <!-- ── DIARIO ── -->
-        <div class="dsk-section" id="dsk-sec-diario">
-          <div style="padding:14px 16px 8px">
-            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Reflexión · Diario</div>
-            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Tu reflexión de hoy</div>
+        <div class="dsk-section" id="dsk-sec-musica">
+          <div style="padding:14px 16px 10px">
+            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Música · S.T.A.R.S.</div>
+            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Playlists disponibles</div>
           </div>
-          <!-- Tabs -->
-          <div class="dsk-diario-tabs">
-            <div class="dsk-dtab active" onclick="dskDiarioTab('nueva',this)">Hoy</div>
-            <div class="dsk-dtab" onclick="dskDiarioTab('historial',this)">Historial</div>
-          </div>
-          <!-- Diario es solo consulta — la reflexión se hace en Paso Diario (HOY) y en Estudio (Reflexión) -->
-          <div id="dsk-d-nueva" style="padding:12px 16px">
-            <div style="background:var(--black4);border-radius:9px;padding:12px 14px;font-size:0.75rem;color:var(--white3);line-height:1.65">
-              Las reflexiones del <strong style="color:var(--gold)">Paso Diario</strong> se escriben en la pestaña <strong style="color:var(--gold)">HOY</strong> → sección R (Reflexión).<br><br>
-              Las reflexiones del <strong style="color:#a78bfa">Estudio exegético</strong> se escriben en <strong style="color:#a78bfa">Estudio</strong> → sección 9 (Reflexión) de cada capítulo.<br><br>
-              Aquí puedes consultar el historial de todas tus reflexiones.
+          <div style="padding:0 16px;display:flex;flex-direction:column;gap:10px;padding-bottom:28px">
+            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=wLc4lyBpFs03aLUr','_blank','noopener')" style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+              <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent)"></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:4px">Word</div>
+              <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para escuchar la Palabra — canciones que acompañan la lectura y el estudio bíblico.</div>
             </div>
-            <button onclick="dskDiarioTab('historial', document.querySelectorAll('.dsk-dtab')[1])" style="margin-top:10px;width:100%;background:var(--black3);border:1px solid rgba(255,255,255,0.08);color:var(--white3);font-size:0.6875rem;font-weight:600;padding:9px;border-radius:8px;cursor:pointer;font-family:'Outfit',sans-serif">Ver historial →</button>
-          </div>
-          <!-- Historial con filtros -->
-          <div id="dsk-d-historial" style="display:none">
-            <div style="display:flex;gap:4px;padding:8px 16px;flex-wrap:wrap">
-              <button class="dsk-filtro active" onclick="dskFiltrarHist('todos',this)">Todos</button>
-              <button class="dsk-filtro" onclick="dskFiltrarHist('paso_diario',this)">Paso Diario</button>
-              <button class="dsk-filtro" onclick="dskFiltrarHist('paso_profundo',this)">Paso Profundo</button>
+            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=49HRCf35LoPyRrDU','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(139,92,246,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+              <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(139,92,246,0.8),transparent)"></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#a78bfa;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#a78bfa;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#a78bfa;line-height:1;margin-bottom:4px">Spirit</div>
+              <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para meditar y orar — música que crea atmósfera de encuentro con Dios.</div>
             </div>
-            <div id="dsk-hist-lista"></div>
+            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=OwQ5PJJ40R-VPc4D','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(20,184,166,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+              <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(20,184,166,0.8),transparent)"></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#2dd4bf;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#2dd4bf;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#2dd4bf;line-height:1;margin-bottom:4px">Music</div>
+              <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para disfrutar — música instrumental y vocal para cualquier momento del día.</div>
+            </div>
+            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=CZEzvEcN8OAJht7-','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(201,168,76,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+              <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(201,168,76,0.8),transparent)"></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:4px">Work</div>
+              <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para enfocarse — lo que suena mientras se estudia, predica o trabaja.</div>
+            </div>
+            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=dUh9-FkM5NAodNlM','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(251,146,60,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+              <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(251,146,60,0.8),transparent)"></div>
+              <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#fb923c;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fb923c;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
+              <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#fb923c;line-height:1;margin-bottom:4px">Happy</div>
+              <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para celebrar — canciones alegres, con energía y gratitud.</div>
+            </div>
           </div>
         </div>
 
