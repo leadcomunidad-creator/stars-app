@@ -192,7 +192,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   display:none;
   position:absolute;
   top:0;left:0;right:0;
-  bottom:68px;
+  bottom:4.25rem;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
   padding:0 0 20px;
@@ -419,7 +419,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   display:flex;
   align-items:center;
   justify-content:space-around;
-  padding:10px 0 env(safe-area-inset-bottom, 16px);
+  padding:0.625rem 0 env(safe-area-inset-bottom, 1rem);
   z-index:500;
   max-width:430px;
   margin:0 auto;
@@ -5163,6 +5163,24 @@ function eliminarEntrada(id, e){
 
 /* ══════════ TOAST ══════════ */
 
+/* ══════════ ADMIN: COMPLETAR PASOS EN DÍAS PASADOS ══════════ */
+function adminMarcarPaso(fecha, idx, btnEl){
+  if(window.FB){
+    window.FB.setPaso(fecha, idx);
+  } else {
+    localStorage.setItem('stars_paso_'+fecha+'_'+idx, '1');
+  }
+  // Actualizar visual del botón
+  btnEl.textContent = '✓ ' + btnEl.dataset.n;
+  btnEl.style.background = 'var(--green-dim)';
+  btnEl.style.borderColor = 'var(--green-border)';
+  btnEl.style.color = 'var(--green2)';
+  // Refrescar racha e interfaz
+  if(typeof updateRachaUI === 'function') updateRachaUI();
+  if(typeof initWeek === 'function') initWeek();
+  if(typeof renderCalMes === 'function') renderCalMes();
+}
+
 /* ══════════ CONFIGURACIÓN ══════════ */
 
 // Tamaños disponibles
@@ -5540,19 +5558,13 @@ function verDiaAnterior(anio, mes, dia){
       const NOMBRES = ['Silencio','Texto','Análisis','Reflexión','Sembrar'];
       const btns = NOMBRES.map((n,i) => {
         const done = window.FB ? window.FB.getPaso(key,i) : localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
-        return '<button onclick="(function(btn){' +
-          'if(window.FB) window.FB.setPaso(\''+key+'\','+i+');' +
-          'else localStorage.setItem(\'stars_paso_'+key+'_'+i+'\',\'1\');' +
-          'btn.textContent=\'✓ \'+btn.dataset.n;' +
-          'btn.style.background=\'var(--green-dim)\';btn.style.borderColor=\'var(--green-border)\';btn.style.color=\'var(--green2)\';' +
-          'if(typeof updateRachaUI===\'function\') updateRachaUI();' +
-          'if(typeof initWeek===\'function\') initWeek();' +
-          '})(this)" data-n="'+n+'"' +
+        const bg  = done ? 'var(--green-dim)'   : 'var(--gold-dim)';
+        const bc  = done ? 'var(--green-border)' : 'var(--gold-border)';
+        const col = done ? 'var(--green2)'       : 'var(--gold)';
+        return '<button onclick="adminMarcarPaso(\''+key+'\','+i+',this)" data-n="'+n+'"' +
           ' style="flex:1;padding:7px 4px;border-radius:8px;font-size:0.625rem;font-weight:700;' +
           'font-family:Outfit,sans-serif;cursor:pointer;transition:all 0.2s;' +
-          'background:'+(done?'var(--green-dim)':'var(--gold-dim)')+';' +
-          'border:1px solid '+(done?'var(--green-border)':'var(--gold-border)')+';' +
-          'color:'+(done?'var(--green2)':'var(--gold)')+'">'+
+          'background:'+bg+';border:1px solid '+bc+';color:'+col+'">' +
           (done?'✓ '+n:n)+'</button>';
       }).join('');
       return '<div style="margin-bottom:16px">' +
