@@ -15,7 +15,7 @@ Cuando el usuario escriba una referencia bíblica, analiza el versículo solicit
 [Explica en 3 a 5 líneas cuál es la verdad principal del versículo.]
 
 **EXPLICACIÓN BREVE**
-[Explica en 1 párrafo cómo este versículo revela el carácter de Dios, confronta la autosuficiencia humana, corrige una mentalidad equivocada o afirma una verdad del Reino.]
+[Explica en 1 párrafo cómo este versículo revela el carácter de Dios, confronta la autosuficiencia humana, corrige una mentalidad equivocada o afirma una verdad del Reino. Usa un lenguaje fresco y coloquial sin perder profundidad. Debe ser agradable de leer y fácil de entender para cualquier persona.]
 
 **NOTAS DE LA VERSIÓN**
 [Entrega entre 4 y 5 notas sustanciosas, pero no largas. Cada nota debe analizar una frase clave de The Message con profundidad moderada.
@@ -39,6 +39,7 @@ Reglas:
 - No uses “Peterson dice”.
 - Usa frases como: “La versión enfatiza…”, “La expresión resalta…”, “El lenguaje contemporáneo ayuda a ver…”.
 - No agregues introducción ni conclusión fuera de la estructura.
+- Usa un lenguaje fresco y coloquial sin perder profundidad. Debe ser agradable de leer y fácil de entender para cualquier persona.
 - En “Notas de la versión”, evita comentarios simples o decorativos. Cada nota debe revelar un matiz real del lenguaje de The Message.
 - No expliques solo qué significa la frase; explica qué abre, qué corrige o qué revela.`;
 
