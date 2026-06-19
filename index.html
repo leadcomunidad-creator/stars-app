@@ -333,6 +333,85 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .ar-status{font-size:0.75rem;color:var(--white3)}
 .ar-content{font-size:0.8125rem;color:var(--white2);line-height:1.75}
 
+/* Ficha premium de estudio — resultado de "Analizar versículo" */
+/* Mobile-first: columna única, tarjetas que respiran bien */
+.ar-ficha{display:flex;flex-direction:column;gap:14px}
+.ar-block{background:var(--black2);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:18px 18px;animation:arFadeIn 0.35s ease both;min-width:0;overflow-wrap:break-word}
+@keyframes arFadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.ar-block-title{display:flex;align-items:center;gap:8px;font-size:0.6875rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px}
+.ar-block-title::before{content:'';width:5px;height:5px;border-radius:50%;background:var(--gold);flex-shrink:0;box-shadow:0 0 0 3px var(--gold-dim)}
+.ar-block-body{font-size:0.875rem;color:var(--white2);line-height:1.85;letter-spacing:0.005em}
+.ar-block-body strong{color:var(--gold2)}
+
+/* Bloque VERSÍCULO — referencia destacada */
+.ar-block.ar-ref{background:var(--gold-dim);border-color:var(--gold-border)}
+.ar-block.ar-ref .ar-block-body{font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--gold2);font-weight:600;letter-spacing:0.01em;line-height:1.5}
+
+/* Bloque de texto bíblico (inglés/español) */
+.ar-block.ar-texto .ar-block-body{font-style:italic;color:var(--white2)}
+
+/* Notas de la versión — ítems separados, no párrafo */
+.ar-notes-list{display:flex;flex-direction:column;gap:11px}
+.ar-note{background:var(--black3);border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:13px 14px;min-width:0}
+.ar-note-en{font-size:0.78125rem;color:var(--gold);font-weight:600;font-style:italic;margin-bottom:5px;line-height:1.5;overflow-wrap:break-word}
+.ar-note-es{font-size:0.8125rem;color:var(--white);font-weight:600;margin-bottom:7px;line-height:1.5}
+.ar-note-analisis{font-size:0.8125rem;color:var(--white2);line-height:1.8}
+
+/* Bloque "Para meditar" — cierre contemplativo */
+.ar-block.ar-meditar{background:linear-gradient(180deg,var(--gold-dim),rgba(0,0,0,0));border-color:var(--gold-border);text-align:center}
+.ar-block.ar-meditar .ar-block-title{justify-content:center}
+.ar-block.ar-meditar .ar-block-title::before{display:none}
+.ar-block.ar-meditar .ar-block-body{font-family:'Cormorant Garamond',serif;font-size:1rem;color:var(--white);font-style:italic;line-height:1.7}
+
+@media (max-width:480px){
+  .ar-block{padding:16px 16px;border-radius:12px}
+  .ar-block-body{font-size:0.84375rem;line-height:1.85}
+  .ar-block.ar-ref .ar-block-body{font-size:1.0625rem}
+}
+
+/* ── Desktop / tablet ancho: aprovechar el espacio disponible ── */
+/* .dsk-ws-inner--wide se añade solo al mostrar el análisis de versículo (ver dskAnalizarVer),
+   ampliando el max-width base de 680px sin afectar las demás vistas del workspace. */
+.dsk-ws-inner.dsk-ws-inner--wide{
+  max-width:1100px;
+}
+.ar-ficha--wide{
+  background:var(--black2);
+  border:1px solid rgba(255,255,255,0.08);
+  border-radius:18px;
+  padding:24px 26px 26px;
+  display:block;
+}
+.ar-ficha--wide .ar-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:16px;
+}
+.ar-ficha--wide .ar-block{
+  background:var(--black3);
+  margin-bottom:16px;
+}
+.ar-ficha--wide .ar-grid .ar-block{margin-bottom:0}
+.ar-ficha--wide .ar-block.ar-full{grid-column:1 / -1}
+.ar-ficha--wide .ar-block:last-child{margin-bottom:0}
+.ar-ficha--wide .ar-notes-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+@media (min-width:900px){
+  .ar-ficha--wide{padding:32px 36px 36px}
+  .ar-ficha--wide .ar-block-body{font-size:0.90625rem;line-height:1.9}
+  .ar-ficha--wide .ar-block.ar-ref .ar-block-body{font-size:1.25rem}
+  .ar-ficha--wide .ar-block.ar-meditar .ar-block-body{font-size:1.125rem}
+}
+@media (max-width:899px){
+  /* Por debajo de 900px el workspace desktop ya es estrecho: la ficha cae a 1 columna */
+  .ar-ficha--wide{padding:20px 20px 22px}
+  .ar-ficha--wide .ar-grid,
+  .ar-ficha--wide .ar-notes-list{grid-template-columns:1fr}
+}
+
 /* ── TRACKER FULL ── */
 .tracker-full-header{padding:44px 20px 16px;display:flex;align-items:center;gap:12px}
 .back-btn{background:none;border:none;color:var(--gold);font-size:0.875rem;font-family:'Outfit',sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px}
@@ -3049,12 +3128,15 @@ function dskTab(tab){
 /* ── Workspace ── */
 function dskWsEmpty(){
   document.getElementById('dsk-ws-empty').style.display = 'flex';
-  document.getElementById('dsk-ws-inner').style.display = 'none';
+  const innerEl = document.getElementById('dsk-ws-inner');
+  innerEl.style.display = 'none';
+  innerEl.classList.remove('dsk-ws-inner--wide');
   document.getElementById('dsk-ws-title').textContent = 'Espacio de trabajo';
 }
 function dskWsShow(titulo, html){
   document.getElementById('dsk-ws-empty').style.display = 'none';
   const inner = document.getElementById('dsk-ws-inner');
+  inner.classList.remove('dsk-ws-inner--wide');
   inner.style.display = 'block';
   inner.style.zoom = _dskFontSize / 15;
   inner.innerHTML = html;
@@ -3681,6 +3763,8 @@ function dskAnalizarVer(){
       </div>
     </div>
     <style>@keyframes spin{to{transform:rotate(360deg)}}</style>`);
+  // Ampliar el workspace para la ficha de estudio (aprovechar mejor el espacio en desktop)
+  document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
   // Poblar input de la vista móvil y llamar al generador
   const inp = document.getElementById('estudiar-cap');
   if(inp) inp.value = val;
@@ -3693,7 +3777,7 @@ async function dskGenerarVersiculo(ref){
     const text = await pedirAnalisisVersiculo(ref);
     const el = document.getElementById('dsk-ver-result');
     if(el && text){
-      el.innerHTML = formatearAnalisisHTML(text);
+      el.innerHTML = formatearAnalisisFichaHTML(text, {wide:true});
     }
   }catch(e){
     const el=document.getElementById('dsk-ver-result');
@@ -4387,7 +4471,7 @@ async function generarAnalisis(){
 
   try{
     const text = await pedirAnalisisVersiculo(ref);
-    if(content) content.innerHTML = formatearAnalisisHTML(text);
+    if(content) content.innerHTML = formatearAnalisisFichaHTML(text);
     if(status) status.textContent = 'Análisis listo';
   }catch(e){
     if(content) content.innerHTML = '<div style="color:var(--white3)">'+escaparHTML(e.message || 'No se pudo generar el análisis.')+'</div>';
@@ -4429,6 +4513,139 @@ function formatearAnalisisHTML(text){
     .replace(/\|/g,'<span style="color:var(--white3);margin:0 6px">·</span>')
     .replace(/\n\n/g,'<br><br>')
     .replace(/\n/g,'<br>');
+}
+
+/* ══════════ FICHA PREMIUM — render visual del análisis de versículo ══════════ */
+// Solo afecta la presentación visual del resultado en #ar-content (vista "Por Versículo").
+// No modifica el prompt, la función de Netlify, ni formatearAnalisisHTML (usada por desktop/dsk-ver-result).
+const AR_TITULOS = {
+  'VERSÍCULO': 'Versículo',
+  'VERSICULO': 'Versículo',
+  'TEXTO EN INGLÉS': 'Texto base · inglés',
+  'TEXTO EN INGLES': 'Texto base · inglés',
+  'TEXTO EN ESPAÑOL': 'Texto base · español',
+  'TEXTO EN ESPANOL': 'Texto base · español',
+  'TEXTO BASE': 'Texto base',
+  'SENTIDO CENTRAL': 'Sentido central',
+  'EXPLICACIÓN BREVE': 'Explicación breve',
+  'EXPLICACION BREVE': 'Explicación breve',
+  'NOTAS DE LA VERSIÓN': 'Notas de la versión',
+  'NOTAS DE LA VERSION': 'Notas de la versión',
+  'PARA MEDITAR': 'Para meditar'
+};
+
+function arInlineFmt(str){
+  return escaparHTML(str).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+}
+
+function formatearAnalisisFichaHTML(text, opts){
+  const wide = !!(opts && opts.wide);
+  const raw = String(text || '').replace(/\r\n/g,'\n').trim();
+  if(!raw) return '';
+
+  // Detecta encabezados tipo **TÍTULO** y separa el texto en secciones
+  const headerRe = /\*\*([^*]+)\*\*/g;
+  const secciones = [];
+  let match, lastIndex = 0, lastTitulo = null;
+  while((match = headerRe.exec(raw)) !== null){
+    const tituloCandidato = match[1].trim().toUpperCase();
+    if(AR_TITULOS[tituloCandidato] !== undefined){
+      if(lastTitulo !== null){
+        secciones.push({titulo:lastTitulo, cuerpo:raw.slice(lastIndex, match.index).trim()});
+      }
+      lastTitulo = tituloCandidato;
+      lastIndex = headerRe.lastIndex;
+    }
+  }
+  if(lastTitulo !== null){
+    secciones.push({titulo:lastTitulo, cuerpo:raw.slice(lastIndex).trim()});
+  }
+
+  const wrapClass = wide ? 'ar-ficha ar-ficha--wide' : 'ar-ficha';
+
+  // Si no se reconoció ninguna sección, usar el formateo simple como respaldo
+  if(secciones.length === 0){
+    return '<div class="'+wrapClass+'"><div class="ar-block"><div class="ar-block-body">'+formatearAnalisisHTML(raw)+'</div></div></div>';
+  }
+
+  // Construye el HTML de cada bloque individual (sin envoltorio de ficha)
+  function bloqueHTML(sec){
+    const label = AR_TITULOS[sec.titulo] || sec.titulo;
+
+    if(sec.titulo === 'NOTAS DE LA VERSIÓN' || sec.titulo === 'NOTAS DE LA VERSION'){
+      const lineas = sec.cuerpo.split('\n').map(l => l.trim()).filter(Boolean);
+      let itemsHtml = '';
+      lineas.forEach(linea => {
+        const limpia = linea.replace(/^[-•\d.)\s]+/,'').trim();
+        if(!limpia) return;
+        const partes = limpia.split('|').map(p => p.trim());
+        if(partes.length >= 3){
+          itemsHtml += '<div class="ar-note">'
+            + '<div class="ar-note-en">"'+arInlineFmt(partes[0])+'"</div>'
+            + '<div class="ar-note-es">'+arInlineFmt(partes[1])+'</div>'
+            + '<div class="ar-note-analisis">'+arInlineFmt(partes.slice(2).join(' | '))+'</div>'
+            + '</div>';
+        }else if(partes.length === 2){
+          itemsHtml += '<div class="ar-note">'
+            + '<div class="ar-note-es">'+arInlineFmt(partes[0])+'</div>'
+            + '<div class="ar-note-analisis">'+arInlineFmt(partes[1])+'</div>'
+            + '</div>';
+        }else{
+          itemsHtml += '<div class="ar-note"><div class="ar-note-analisis">'+arInlineFmt(limpia)+'</div></div>';
+        }
+      });
+      return '<div class="ar-block ar-notas ar-full">'
+        + '<div class="ar-block-title">'+escaparHTML(label)+'</div>'
+        + '<div class="ar-notes-list">'+itemsHtml+'</div>'
+        + '</div>';
+    }
+
+    const esTexto = sec.titulo.indexOf('TEXTO') === 0;
+    const esRef = (sec.titulo === 'VERSÍCULO' || sec.titulo === 'VERSICULO');
+    const esMeditar = (sec.titulo === 'PARA MEDITAR');
+    // En modo wide, Explicación y Meditar ocupan el ancho completo de la ficha;
+    // Versículo y Texto (corto) se agrupan en grid de 2 columnas.
+    const esCorto = esRef || esTexto;
+    const claseFull = (wide && !esCorto) ? ' ar-full' : '';
+    const claseExtra = (esRef ? ' ar-ref' : (esTexto ? ' ar-texto' : (esMeditar ? ' ar-meditar' : ''))) + claseFull;
+
+    const cuerpoHtml = arInlineFmt(sec.cuerpo).replace(/\n\n/g,'<br><br>').replace(/\n/g,'<br>');
+
+    return '<div class="ar-block'+claseExtra+'">'
+      + '<div class="ar-block-title">'+escaparHTML(label)+'</div>'
+      + '<div class="ar-block-body">'+cuerpoHtml+'</div>'
+      + '</div>';
+  }
+
+  if(!wide){
+    let html = '<div class="'+wrapClass+'">';
+    secciones.forEach(sec => { html += bloqueHTML(sec); });
+    html += '</div>';
+    return html;
+  }
+
+  // Modo wide: agrupa los bloques cortos (Versículo, Texto EN, Texto ES) en un grid de 2 columnas;
+  // Explicación, Notas y Meditar quedan a ancho completo, en orden natural.
+  let html = '<div class="'+wrapClass+'">';
+  let i = 0;
+  while(i < secciones.length){
+    const sec = secciones[i];
+    const esTexto = sec.titulo.indexOf('TEXTO') === 0;
+    const esRef = (sec.titulo === 'VERSÍCULO' || sec.titulo === 'VERSICULO');
+    if(esRef || esTexto){
+      let grupoHtml = '';
+      while(i < secciones.length && (secciones[i].titulo === 'VERSÍCULO' || secciones[i].titulo === 'VERSICULO' || secciones[i].titulo.indexOf('TEXTO') === 0)){
+        grupoHtml += bloqueHTML(secciones[i]);
+        i++;
+      }
+      html += '<div class="ar-grid">'+grupoHtml+'</div>';
+    }else{
+      html += bloqueHTML(sec);
+      i++;
+    }
+  }
+  html += '</div>';
+  return html;
 }
 
 /* ══════════ BLOQUES LIST ══════════ */
