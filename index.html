@@ -929,6 +929,11 @@ body.modo-dia .bottom-nav{
     position:fixed; inset:0; z-index:50;
     background:var(--black); font-family:'Outfit',sans-serif;
   }
+  body.admin-mode #dsk{
+    top:var(--admin-bar-h,46px);
+    bottom:0;
+    height:calc(100vh - var(--admin-bar-h,46px));
+  }
 
   /* ── Topbar ── */
   #dsk-top{
@@ -1573,6 +1578,7 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
     if(nameEl) nameEl.textContent = 'Usuario Local';
     document.getElementById('login-screen').style.display = 'none';
     document.getElementById('app-root').style.display = 'block';
+    if(typeof window.syncAdminHeight === 'function') window.syncAdminHeight();
     window._appIniciada = false;
     if(typeof window._initApp === 'function') window._initApp();
   };
@@ -1624,6 +1630,7 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
       // Ocultar pantalla de login, mostrar app
       document.getElementById('login-screen').style.display = 'none';
       document.getElementById('app-root').style.display = 'block';
+      if(typeof window.syncAdminHeight === 'function') window.syncAdminHeight();
       window._appIniciada = false;
       // Inicializar app
       if(typeof window._initApp === 'function') window._initApp();
@@ -1702,11 +1709,17 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
   const params = new URLSearchParams(window.location.search);
   if(params.get('admin') === 'STARS2026'){
     window.ADMIN_MODE = true;
+    document.body.classList.add('admin-mode');
     // Mostrar panel
     const panel = document.getElementById('admin-panel');
     const spacer = document.getElementById('admin-spacer');
     if(panel)  { panel.style.display  = 'flex'; }
     if(spacer) { spacer.style.display = 'block'; }
+    window.syncAdminHeight = () => {
+      if(panel) document.documentElement.style.setProperty('--admin-bar-h', (panel.offsetHeight || 46) + 'px');
+    };
+    window.syncAdminHeight();
+    window.addEventListener('resize', window.syncAdminHeight);
   }
 })();
 
@@ -3151,6 +3164,10 @@ function dskMarcarPaso(idx){
     if(badge){ badge.classList.toggle('done',!done); }
     if(dot)  { dot.classList.toggle('done',!done); }
   }
+  const dscSc = document.getElementById('dsk-sc-'+idx);
+  const dscSi = document.getElementById('dsk-si-'+idx);
+  if(dscSc) dscSc.classList.toggle('done', !done);
+  if(dscSi) dscSi.classList.toggle('done', !done);
   // Actualizar botón en el workspace
   const btn = document.getElementById('dsk-confirmar-'+idx);
   if(btn){
@@ -4044,6 +4061,10 @@ function marcarPaso(i){
 }
 
 function abrirPaso(i){
+  if(isDesktop()){
+    dskWsPaso(i);
+    return;
+  }
   document.getElementById('modal-'+i).classList.add('open');
   document.body.style.overflow='hidden';
   // En modo admin: mostrar botón completar inmediatamente sin esperar timer
@@ -6130,8 +6151,41 @@ function filtrarCapitulos(){
         </div>
         <!-- ── ESTUDIO ── -->
         <div class="dsk-section" id="dsk-sec-estudio">
+          <!-- Pills S.T.A.R.S. — mismo look que mobile -->
+          <div class="stars-pills-row" style="padding-top:14px">
+            <div class="stars-pill">
+              <div class="stars-pill-letter">S</div>
+              <div class="stars-pill-name">SILENCIO</div>
+              <div class="stars-pill-time">5 min</div>
+              <div class="stars-pill-desc">Para el corazón.<br>Oración breve.</div>
+            </div>
+            <div class="stars-pill">
+              <div class="stars-pill-letter">T</div>
+              <div class="stars-pill-name">TEXTO</div>
+              <div class="stars-pill-time">15 min</div>
+              <div class="stars-pill-desc">MSG + NBLA en<br>paralelo.</div>
+            </div>
+            <div class="stars-pill">
+              <div class="stars-pill-letter">A</div>
+              <div class="stars-pill-name">ANÁLISIS</div>
+              <div class="stars-pill-time">20 min</div>
+              <div class="stars-pill-desc">10 secciones<br>con IA.</div>
+            </div>
+            <div class="stars-pill">
+              <div class="stars-pill-letter">R</div>
+              <div class="stars-pill-name">REFLEXIÓN</div>
+              <div class="stars-pill-time">10 min</div>
+              <div class="stars-pill-desc">Diario: Dios<br>· Yo · Haré.</div>
+            </div>
+            <div class="stars-pill">
+              <div class="stars-pill-letter">S</div>
+              <div class="stars-pill-name">SEMBRAR</div>
+              <div class="stars-pill-time">10 min</div>
+              <div class="stars-pill-desc">Archivo de<br>predicación.</div>
+            </div>
+          </div>
           <!-- Header Paso Profundo -->
-          <div style="padding:14px 16px 10px">
+          <div style="padding:0 16px 10px">
             <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Paso Profundo · S.T.A.R.S.</div>
             <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por capítulo</div>
           </div>
