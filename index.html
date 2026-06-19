@@ -1048,16 +1048,6 @@ body.modo-dia .bottom-nav{
     white-space:nowrap;
   }
 
-  /* Buscador en estudio */
-  #dsk-cap-search{
-    margin:12px 16px 8px; width:calc(100% - 32px);
-    background:var(--black4); border:1px solid rgba(255,255,255,0.08);
-    border-radius:8px; padding:8px 12px; font-size:0.75rem;
-    color:var(--white); font-family:'Outfit',sans-serif;
-  }
-  #dsk-cap-search::placeholder{ color:var(--white3); opacity:0.5; }
-  #dsk-cap-search:focus{ outline:none; border-color:var(--gold-border); }
-
   /* ── DIARIO panel ── */
   .dsk-diario-header{ padding:16px 20px 10px; }
   .dsk-diario-tabs{ display:flex; gap:0; border-bottom:1px solid rgba(255,255,255,0.06); }
@@ -3140,10 +3130,8 @@ function initDesktop(){
   const tp=document.getElementById('dsk-tr-pct'); if(tp) tp.textContent=pct+'%';
   const tb=document.getElementById('dsk-tr-bar'); if(tb) tb.style.width=pct+'%';
 
-  // Capítulos
-  dskRenderCaps('');
-  // Bloques de estudio
-  dskRenderBloques();
+  // Capítulos — stats + grilla, mismo look que mobile
+  dskInitCapitulos();
 
   // Diario — cargar texto de hoy
   const da = document.getElementById('dsk-d-area');
@@ -3436,6 +3424,18 @@ function dskWsTracker(){
 
 /* ── Capítulos en panel estudio ── */
 let _dskCapBloqueAbierto=-1, _dskCapLibroAbierto='';
+function dskInitCapitulos(){
+  const total=LIBROS_CAPS.reduce((a,b)=>a+b.libros.reduce((c,d)=>c+d.caps,0),0);
+  const disponibles=Object.keys(CAPITULOS_DISPONIBLES).length;
+  const nuevos=Object.values(CAPITULOS_DISPONIBLES).filter(v=>esNuevo(v.fecha)).length;
+  const d1=document.getElementById('dsk-cap-total-disp');
+  const d2=document.getElementById('dsk-cap-total-lib');
+  const d3=document.getElementById('dsk-cap-nuevos');
+  if(d1)d1.textContent=disponibles;
+  if(d2)d2.textContent=total;
+  if(d3)d3.textContent=nuevos;
+  dskRenderCaps('');
+}
 function dskRenderCaps(q){
   const el = document.getElementById('dsk-caps-list');
   if(!el) return;
@@ -3449,61 +3449,66 @@ function dskRenderCaps(q){
     bloque.libros.forEach(l=>{for(let c=1;c<=l.caps;c++){if(CAPITULOS_DISPONIBLES[getCapKey(l.n,c)])dispBloque++;}});
     const isOpenB=_dskCapBloqueAbierto===bloque.bloque||query;
     const bloqueEl=document.createElement('div');
-    bloqueEl.style.cssText='border-bottom:1px solid rgba(255,255,255,0.05)';
+    bloqueEl.className='cap-bloque';
 
     const librosHTML=librosFiltrados.map(libro=>{
-      let dispLib=0;
-      for(let c=1;c<=libro.caps;c++){if(CAPITULOS_DISPONIBLES[getCapKey(libro.n,c)])dispLib++;}
+      let dispLib=0, nuevoLib=false;
+      for(let c=1;c<=libro.caps;c++){
+        const k=getCapKey(libro.n,c);
+        if(CAPITULOS_DISPONIBLES[k]){dispLib++;if(esNuevo(CAPITULOS_DISPONIBLES[k].fecha))nuevoLib=true;}
+      }
       const isOpenL=_dskCapLibroAbierto===libro.n||query;
       const gridId='dsk-cap-grid-'+libro.n.replace(/\s/g,'-');
       const capsHTML=Array.from({length:libro.caps},(_,i)=>{
         const cap=i+1; const k=getCapKey(libro.n,cap); const dato=CAPITULOS_DISPONIBLES[k];
-        if(dato) return `<div onclick="dskAbrirCap('${k}')" style="width:28px;height:28px;border-radius:6px;background:rgba(58,153,98,0.15);border:1px solid rgba(58,153,98,0.3);display:flex;align-items:center;justify-content:center;font-size:0.6875rem;color:var(--green2);font-weight:600;cursor:pointer" title="${libro.n} ${cap}">${cap}</div>`;
-        return `<div style="width:28px;height:28px;border-radius:6px;background:var(--black4);border:1px solid rgba(255,255,255,0.05);display:flex;align-items:center;justify-content:center;font-size:0.6875rem;color:var(--white3)" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
+        if(dato){
+          const isNew=esNuevo(dato.fecha);
+          return `<div class="cap-cap-btn disponible${isNew?' nuevo':''}" onclick="dskAbrirCap('${k}')" title="${libro.n} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+        }
+        return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join('');
-      return `<div style="border-top:1px solid rgba(255,255,255,0.04)">
-        <div onclick="dskToggleCapLibro('${libro.n.replace(/'/g,"\\'")}',this)" style="display:flex;align-items:center;justify-content:space-between;padding:8px 20px 8px 32px;cursor:pointer;transition:background 0.12s" onmouseenter="this.style.background='rgba(255,255,255,0.02)'" onmouseleave="this.style.background='transparent'">
-          <span style="font-size:0.6875rem;font-weight:600;color:var(--white2)">${libro.n}</span>
+      return `<div>
+        <div class="cap-libro-hdr${isOpenL?' open-libro':''}" onclick="dskToggleCapLibro('${libro.n.replace(/'/g,"\\'")}',this)">
+          <div><span class="cap-libro-name">${libro.n}</span>${nuevoLib?"<span style='font-size:0.5rem;background:var(--gold);color:var(--black);padding:1px 5px;border-radius:4px;margin-left:6px;font-weight:700'>NUEVO</span>":''}</div>
           <div style="display:flex;align-items:center;gap:8px">
-            ${dispLib>0?`<span style="font-size:0.5625rem;color:var(--green2);font-weight:600">${dispLib}/${libro.caps}</span>`:`<span style="font-size:0.5625rem;color:var(--white3)">${libro.caps} caps</span>`}
-            <span style="color:var(--white3);font-size:0.875rem;transition:transform 0.2s" id="dsk-caplibchev-${libro.n.replace(/\s/g,'-')}">${isOpenL?'↓':'›'}</span>
+            <span class="cap-libro-stats">${dispLib>0?dispLib+'/'+libro.caps+' disp.':libro.caps+' caps'}</span>
+            <span class="cap-libro-chev">›</span>
           </div>
         </div>
-        <div id="${gridId}" style="display:${isOpenL?'flex':'none'};flex-wrap:wrap;gap:4px;padding:0 20px 10px 32px">${capsHTML}</div>
+        <div class="cap-caps-grid${isOpenL?' open':''}" id="${gridId}">${capsHTML}</div>
       </div>`;
     }).join('');
 
     bloqueEl.innerHTML=`
-      <div onclick="dskToggleCapBloque(${bloque.bloque},this)" style="display:flex;align-items:center;gap:10px;padding:10px 16px;cursor:pointer;transition:background 0.12s" onmouseenter="this.style.background='rgba(255,255,255,0.03)'" onmouseleave="this.style.background='transparent'">
-        <div style="width:22px;height:22px;border-radius:6px;background:var(--gold-dim);border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;font-size:0.625rem;font-weight:700;color:var(--gold);flex-shrink:0">${bloque.bloque}</div>
-        <div style="flex:1;min-width:0">
-          <div style="font-size:0.6875rem;font-weight:600;color:var(--white)">${bloque.nombre}</div>
-          <div style="font-size:0.5625rem;color:var(--white3);margin-top:1px">${bloque.sub}</div>
+      <div class="cap-bloque-hdr${isOpenB?' open':''}" onclick="dskToggleCapBloque(${bloque.bloque},this)">
+        <div class="cap-bloque-num">${bloque.bloque}</div>
+        <div class="cap-bloque-info">
+          <div class="cap-bloque-name">${bloque.nombre}</div>
+          <div class="cap-bloque-sub">${bloque.sub}</div>
         </div>
-        ${dispBloque>0?`<span style="font-size:0.5625rem;color:var(--green2);font-weight:600;flex-shrink:0">${dispBloque} est.</span>`:''}
-        <span style="color:var(--white3);font-size:0.875rem;flex-shrink:0;transition:transform 0.2s" id="dsk-capbchev-${bloque.bloque}">${isOpenB?'↓':'›'}</span>
+        <div class="cap-bloque-count">${dispBloque>0?"<span style='color:var(--green2)'>"+dispBloque+" disp.</span> ":''} ${librosFiltrados.length} libros</div>
+        <div class="cap-bloque-chev">›</div>
       </div>
-      <div id="dsk-cap-libros-${bloque.bloque}" style="display:${isOpenB?'block':'none'}">${librosHTML}</div>`;
+      <div class="cap-libros${isOpenB?' open':''}" id="dsk-cap-libros-${bloque.bloque}">${librosHTML}</div>`;
     el.appendChild(bloqueEl);
   });
 }
 function dskToggleCapBloque(num,hdr){
   const body=document.getElementById('dsk-cap-libros-'+num);
-  const chev=document.getElementById('dsk-capbchev-'+num);
-  const isOpen=body&&body.style.display!=='none';
-  document.querySelectorAll('[id^="dsk-cap-libros-"]').forEach(e=>e.style.display='none');
-  document.querySelectorAll('[id^="dsk-capbchev-"]').forEach(e=>{if(e)e.textContent='›';});
-  if(!isOpen&&body){body.style.display='block';if(chev)chev.textContent='↓';_dskCapBloqueAbierto=num;}
+  const isOpen=body&&body.classList.contains('open');
+  document.querySelectorAll('#dsk-caps-list .cap-libros').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('#dsk-caps-list .cap-bloque-hdr').forEach(e=>e.classList.remove('open'));
+  if(!isOpen&&body){body.classList.add('open');hdr.classList.add('open');_dskCapBloqueAbierto=num;}
   else _dskCapBloqueAbierto=-1;
 }
 function dskToggleCapLibro(nombre,hdr){
   const gridId='dsk-cap-grid-'+nombre.replace(/\s/g,'-');
   const grid=document.getElementById(gridId); if(!grid) return;
-  const chevId='dsk-caplibchev-'+nombre.replace(/\s/g,'-');
-  const chev=document.getElementById(chevId);
-  const isOpen=grid.style.display!=='none';
-  if(isOpen){grid.style.display='none';if(chev)chev.textContent='›';_dskCapLibroAbierto='';}
-  else{grid.style.display='flex';if(chev)chev.textContent='↓';_dskCapLibroAbierto=nombre;}
+  const isOpen=grid.classList.contains('open');
+  document.querySelectorAll('#dsk-caps-list .cap-caps-grid').forEach(e=>e.classList.remove('open'));
+  document.querySelectorAll('#dsk-caps-list .cap-libro-hdr').forEach(e=>e.classList.remove('open-libro'));
+  if(!isOpen){grid.classList.add('open');hdr.classList.add('open-libro');_dskCapLibroAbierto=nombre;}
+  else _dskCapLibroAbierto='';
 }
 function dskFiltrarCaps(q){ _dskCapBloqueAbierto=-1; _dskCapLibroAbierto=''; dskRenderCaps(q); }
 
@@ -5833,8 +5838,8 @@ function renderCapitulos(query){
 function toggleCapBloque(num,hdr){
   const el=document.getElementById("cap-libros-"+num);
   const isOpen=el&&el.classList.contains("open");
-  document.querySelectorAll(".cap-libros").forEach(e=>e.classList.remove("open"));
-  document.querySelectorAll(".cap-bloque-hdr").forEach(e=>e.classList.remove("open"));
+  document.querySelectorAll("#cap-bloques-container .cap-libros").forEach(e=>e.classList.remove("open"));
+  document.querySelectorAll("#cap-bloques-container .cap-bloque-hdr").forEach(e=>e.classList.remove("open"));
   if(!isOpen&&el){el.classList.add("open");hdr.classList.add("open");capBloqueAbierto=num;}
   else capBloqueAbierto=-1;
 }
@@ -5844,8 +5849,8 @@ function toggleCapLibro(nombre,hdr){
   const grid=document.getElementById(gridId);
   if(!grid) return;
   const isOpen=grid.classList.contains("open");
-  document.querySelectorAll(".cap-caps-grid").forEach(e=>e.classList.remove("open"));
-  document.querySelectorAll(".cap-libro-hdr").forEach(e=>e.classList.remove("open-libro"));
+  document.querySelectorAll("#cap-bloques-container .cap-caps-grid").forEach(e=>e.classList.remove("open"));
+  document.querySelectorAll("#cap-bloques-container .cap-libro-hdr").forEach(e=>e.classList.remove("open-libro"));
   if(!isOpen){grid.classList.add("open");hdr.classList.add("open-libro");capLibroAbierto=nombre;}
   else capLibroAbierto="";
 }
@@ -6142,9 +6147,17 @@ function filtrarCapitulos(){
             </div>
             <div style="font-size:0.625rem;color:var(--gold);margin-top:8px;font-weight:600">Ver tracker completo →</div>
           </div>
-          <!-- 10 bloques de estudio -->
-          <div style="margin:0 16px 8px;font-size:0.5rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.5;font-weight:600">Bloques sugeridos</div>
-          <div id="dsk-bloques-list" style="margin:0 0 8px"></div>
+          <!-- Stats + búsqueda — mismo look que mobile -->
+          <div style="padding:0 16px">
+            <div class="cap-stats-row">
+              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-total-disp">0</div><div class="cap-stat-label">Disponibles</div></div>
+              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-total-lib">0</div><div class="cap-stat-label">Total capítulos</div></div>
+              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-nuevos">0</div><div class="cap-stat-label">Esta semana</div></div>
+            </div>
+            <input class="cap-search" id="dsk-cap-search" placeholder="Buscar libro..." oninput="dskFiltrarCaps(this.value)">
+          </div>
+          <!-- 10 bloques de estudio — bloque › libro › grilla de capítulos -->
+          <div id="dsk-caps-list" style="margin:0 0 8px;padding:0 16px"></div>
           <!-- Separador versículo -->
           <div style="margin:4px 16px 8px;font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--white3);opacity:0.4;font-weight:600;padding-top:12px;border-top:1px solid rgba(255,255,255,0.05)">Por versículo · IA</div>
           <div style="padding:0 16px 16px;display:flex;gap:6px">
