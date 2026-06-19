@@ -3274,14 +3274,25 @@ function dskWsPaso(idx){
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">R — Reflexión</div>
       <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">❓ ${devo.reflexion}</div>
-      <textarea id="dsk-ref-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:0.875rem;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:220px;line-height:1.7" placeholder="Tu respuesta…" oninput="if(window.FB)window.FB.setReflexion(getTodayKey(),this.value);else localStorage.setItem('stars_reflexion_'+getTodayKey(),this.value)">${window.FB?window.FB.getReflexion(getTodayKey()):localStorage.getItem('stars_reflexion_'+getTodayKey())||''}</textarea>
+      <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px">
+        <span style="font-size:1.25rem">📓</span>
+        <span style="font-size:0.8125rem;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span>
+      </div>
       ${dskBtnConfirmar(3)}
     </div>`;
   } else if(idx===4){ // Sembrar
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Sembrar · Práctica del día</div>
       <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">🛠️ <strong style="color:var(--white)">Práctica:</strong> ${devo.sembrar}</div>
-      <textarea id="dsk-sem-area" style="width:100%;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:9px;padding:12px 14px;font-size:0.875rem;color:var(--white);font-family:'Outfit',sans-serif;resize:vertical;min-height:200px;line-height:1.7" placeholder="Cómo lo vas a aplicar hoy…" oninput="if(window.FB)window.FB.setSembrar(getTodayKey(),this.value);else localStorage.setItem('stars_sembrar_'+getTodayKey(),this.value)">${window.FB?window.FB.getSembrar(getTodayKey()):localStorage.getItem('stars_sembrar_'+getTodayKey())||''}</textarea>
+      ${devo.oracion_cierre ? `<div style="background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.18);border-radius:10px;padding:16px;margin-bottom:16px">
+        <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.65;margin-bottom:8px;font-weight:600">Oración de cierre</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.0rem;color:var(--white2);line-height:1.65;font-style:italic">“${devo.oracion_cierre}”</div>
+      </div>` : ''}
+      ${devo.frase ? `<div style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:18px;margin-bottom:16px;cursor:pointer" onclick="dskWs('frase')">
+        <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:10px">Frase para hoy · toca para verla</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.55;font-style:italic">“${devo.frase}”</div>
+        <div style="font-size:0.625rem;color:var(--white3);margin-top:10px">${devo.versiculo}</div>
+      </div>` : ''}
       ${dskBtnConfirmar(4)}
     </div>`;
   }
@@ -3660,8 +3671,9 @@ function dskExpandirBloque(num, el){
 function dskAnalizarVer(){
   const val = document.getElementById('dsk-ver-input')?.value?.trim();
   if(!val) return;
+  const valSeguro = escaparHTML(val);
   dskWsShow('Análisis · '+val, `
-    <div style="margin-bottom:16px;font-size:0.75rem;color:var(--white3)">Analizando <strong style="color:var(--gold)">${val}</strong> con The Message…</div>
+    <div style="margin-bottom:16px;font-size:0.75rem;color:var(--white3)">Analizando <strong style="color:var(--gold)">${valSeguro}</strong> con The Message…</div>
     <div id="dsk-ver-result" style="color:var(--white2);line-height:1.8">
       <div style="display:flex;align-items:center;gap:10px;color:var(--white3)">
         <div style="width:16px;height:16px;border:2px solid var(--gold);border-top-color:transparent;border-radius:50%;animation:spin 0.8s linear infinite"></div>
@@ -3678,27 +3690,14 @@ function dskAnalizarVer(){
 
 async function dskGenerarVersiculo(ref){
   try{
-    const res = await fetch('https://api.anthropic.com/v1/messages',{
-      method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({
-        model:'claude-sonnet-4-20250514', max_tokens:1000,
-        system: PROMPT_VERSICULO,
-        messages:[{role:'user',content:ref}]
-      })
-    });
-    const data = await res.json();
-    const text = data.content?.[0]?.text||'';
+    const text = await pedirAnalisisVersiculo(ref);
     const el = document.getElementById('dsk-ver-result');
     if(el && text){
-      el.innerHTML = text
-        .replace(/\*\*(.+?)\*\*/g,'<strong style="color:var(--gold)">$1</strong>')
-        .replace(/\|/g,'<span style="color:var(--white3);margin:0 6px">·</span>')
-        .replace(/\n\n/g,'<br><br>').replace(/\n/g,'<br>');
+      el.innerHTML = formatearAnalisisHTML(text);
     }
   }catch(e){
     const el=document.getElementById('dsk-ver-result');
-    if(el) el.innerHTML='<div style="color:var(--white3)">Error de conexión. Intenta de nuevo.</div>';
+    if(el) el.innerHTML='<div style="color:var(--white3)">'+escaparHTML(e.message || 'Error de conexión. Intenta de nuevo.')+'</div>';
   }
 }
 
@@ -4376,8 +4375,60 @@ No agregues introducciones, saludos ni conclusiones fuera de esta estructura.`;
 async function generarAnalisis(){
   const result = document.getElementById('analisis-result');
   const content = document.getElementById('ar-content');
+  const spinner = document.getElementById('ar-spinner');
+  const status = document.getElementById('ar-status');
+  const ref = document.getElementById('estudiar-cap')?.value?.trim();
+  if(!ref) return;
+
   if(result) result.style.display = 'block';
-  if(content) content.innerHTML = '<div style="text-align:center;padding:48px 24px;color:var(--gold);font-family:\'Cormorant Garamond\',serif;font-size:1.375rem;opacity:0.7">Próximamente</div>';
+  if(spinner) spinner.style.display = 'block';
+  if(status) status.textContent = 'Analizando versículo…';
+  if(content) content.innerHTML = '';
+
+  try{
+    const text = await pedirAnalisisVersiculo(ref);
+    if(content) content.innerHTML = formatearAnalisisHTML(text);
+    if(status) status.textContent = 'Análisis listo';
+  }catch(e){
+    if(content) content.innerHTML = '<div style="color:var(--white3)">'+escaparHTML(e.message || 'No se pudo generar el análisis.')+'</div>';
+    if(status) status.textContent = 'No se pudo generar';
+  }finally{
+    if(spinner) spinner.style.display = 'none';
+  }
+}
+
+async function pedirAnalisisVersiculo(ref){
+  const res = await fetch('/.netlify/functions/analizar-versiculo', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({ref})
+  });
+  const data = await res.json().catch(() => ({}));
+  if(!res.ok){
+    throw new Error(data.error || 'No se pudo generar el análisis.');
+  }
+  if(!data.text){
+    throw new Error('La respuesta llegó vacía.');
+  }
+  return data.text;
+}
+
+function escaparHTML(text){
+  return String(text || '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;',
+    '<':'&lt;',
+    '>':'&gt;',
+    '"':'&quot;',
+    "'":'&#039;'
+  }[ch]));
+}
+
+function formatearAnalisisHTML(text){
+  return escaparHTML(text)
+    .replace(/\*\*(.+?)\*\*/g,'<strong style="color:var(--gold)">$1</strong>')
+    .replace(/\|/g,'<span style="color:var(--white3);margin:0 6px">·</span>')
+    .replace(/\n\n/g,'<br><br>')
+    .replace(/\n/g,'<br>');
 }
 
 /* ══════════ BLOQUES LIST ══════════ */

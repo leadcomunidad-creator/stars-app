@@ -39,6 +39,12 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
+  // Las funciones serverless reciben POST; no se deben guardar en cache.
+  if (e.request.method !== 'GET') {
+    e.respondWith(fetch(e.request));
+    return;
+  }
+
   // ── JSONs dinámicos → NETWORK FIRST ──
   if (
     url.pathname.startsWith('/devocionales/') ||
