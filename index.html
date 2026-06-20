@@ -1403,6 +1403,53 @@ body.modo-dia {
   --green-border:rgba(30,122,69,0.32);
 }
 body.modo-dia { background:var(--black); color:var(--white); }
+
+/* ══════════ TEMAS DE COLOR · TEMPORADA 2026 ══════════ */
+/* Cada tema redefine solo --black*, --gold*, --white* (paleta de marca). */
+
+/* ── Temporada · Azul claro ── */
+body.tema-azul {
+  --black:#06070d; --black2:#0b0e16; --black3:#141a26; --black4:#1c2433; --black5:#283242;
+  --gold:#B8D1FF; --gold2:#d6e4ff; --gold3:#eef3ff;
+  --gold-dim:rgba(184,209,255,0.13); --gold-border:rgba(184,209,255,0.28);
+  --white:#f3f6fc; --white2:#c2cbdc; --white3:#707c91;
+}
+body.tema-azul.modo-dia {
+  --black:#eef3ff; --black2:#e2eaff; --black3:#d2deff; --black4:#bfceff; --black5:#a8bbf2;
+  --gold:#0056F1; --gold2:#003ea8; --gold3:#002d7a;
+  --gold-dim:rgba(0,86,241,0.12); --gold-border:rgba(0,86,241,0.3);
+  --white:#0a1530; --white2:#1c2c52; --white3:#48507a;
+}
+
+/* ── Temporada · Durazno ── */
+body.tema-durazno {
+  --black:#0c0907; --black2:#13100c; --black3:#1f1a14; --black4:#2b241b; --black5:#382f23;
+  --gold:#F2C5A1; --gold2:#f7d8bd; --gold3:#fbe8d8;
+  --gold-dim:rgba(242,197,161,0.13); --gold-border:rgba(242,197,161,0.28);
+  --white:#f9f1ea; --white2:#d6c4b3; --white3:#8a7868;
+}
+body.tema-durazno.modo-dia {
+  --black:#fbf0e6; --black2:#f5e4d3; --black3:#ecd5bb; --black4:#e0c2a0; --black5:#cdaa84;
+  --gold:#a85a2e; --gold2:#8a4720; --gold3:#6c3618;
+  --gold-dim:rgba(168,90,46,0.13); --gold-border:rgba(168,90,46,0.32);
+  --white:#2e1c0e; --white2:#43301d; --white3:#73583e;
+}
+
+/* ── Temporada · Contraste (azul + magenta) ── */
+body.tema-contraste {
+  --black:#08070b; --black2:#0e0c13; --black3:#181420; --black4:#221d2c; --black5:#2e2738;
+  --gold:#B8D1FF; --gold2:#d6e4ff; --gold3:#eef3ff;
+  --gold-dim:rgba(204,23,110,0.14); --gold-border:rgba(204,23,110,0.32);
+  --white:#f6f3fa; --white2:#c9c1d6; --white3:#7c7489;
+}
+body.tema-contraste.modo-dia {
+  --black:#f7eef3; --black2:#f0e0e9; --black3:#e6cdde; --black4:#d8b6cd; --black5:#c89cb8;
+  --gold:#0056F1; --gold2:#003ea8; --gold3:#002d7a;
+  --gold-dim:rgba(204,23,110,0.13); --gold-border:rgba(204,23,110,0.34);
+  --white:#250f1c; --white2:#3a1c2c; --white3:#6b4358;
+}
+
+
 /* Textos hardcodeados con rgba oscuros — invertir en modo día */
 body.modo-dia .frase-texto{ color:rgba(26,18,8,0.78) !important; }
 body.modo-dia .frase-card{
@@ -1502,15 +1549,16 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
 .cfg-font-btn:nth-child(4){font-size:1.0rem}
 .cfg-font-btn:nth-child(5){font-size:1.125rem}
 
-/* ── Pills compactas en desktop ── */
-@media(min-width:1024px){
-  .stars-pills-row{ padding:12px 16px 12px; gap:5px; }
-  .stars-pill{ padding:8px 5px; border-radius:10px; }
-  .stars-pill-letter{ font-size:1.375rem; }
-  .stars-pill-name{ font-size:0.4375rem; letter-spacing:0.07em; }
-  .stars-pill-time{ font-size:0.4375rem; }
-  .stars-pill-desc{ font-size:0.375rem; }
+.cfg-tema-row{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.cfg-tema-btn{
+  display:flex;align-items:center;gap:7px;padding:7px 12px 7px 7px;border-radius:20px;
+  background:var(--black4);border:1px solid rgba(255,255,255,0.08);
+  color:var(--white3);font-family:'Outfit',sans-serif;font-size:0.6875rem;font-weight:500;
+  cursor:pointer;transition:all 0.18s;
 }
+.cfg-tema-btn.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--white)}
+.cfg-tema-dot{width:18px;height:18px;border-radius:50%;flex-shrink:0;border:1px solid rgba(255,255,255,0.15)}
+
 </style>
 
 <!-- Firebase -->
@@ -2751,6 +2799,32 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <button id="cfg-font-md" class="cfg-font-btn active" onclick="event.stopPropagation();_aplicarFontSize(2)">A</button>
           <button id="cfg-font-lg" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(3)">A</button>
           <button id="cfg-font-xl" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(4)">A</button>
+        </div>
+      </div>
+      <!-- Tema de color -->
+      <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
+        <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div class="config-row-icon">🎨</div>
+            <div>
+              <div class="config-row-label">Tema de color</div>
+              <div class="config-row-sub">Paletas de temporada 2026</div>
+            </div>
+          </div>
+        </div>
+        <div class="cfg-tema-row" id="cfg-tema-row">
+          <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')">
+            <span class="cfg-tema-dot" style="background:#c9a84c"></span>Dorado clásico
+          </button>
+          <button class="cfg-tema-btn" data-tema="azul" onclick="event.stopPropagation();_aplicarTema('azul')">
+            <span class="cfg-tema-dot" style="background:#B8D1FF"></span>Azul claro
+          </button>
+          <button class="cfg-tema-btn" data-tema="durazno" onclick="event.stopPropagation();_aplicarTema('durazno')">
+            <span class="cfg-tema-dot" style="background:#F2C5A1"></span>Durazno
+          </button>
+          <button class="cfg-tema-btn" data-tema="contraste" onclick="event.stopPropagation();_aplicarTema('contraste')">
+            <span class="cfg-tema-dot" style="background:#CC176E"></span>Contraste
+          </button>
         </div>
       </div>
       <!-- Cerrar sesión -->
@@ -5542,12 +5616,32 @@ function _actualizarFontUI(){
   });
 }
 
+// Temas de color disponibles — clases body.tema-X (ver CSS)
+const TEMAS = ['dorado','azul','durazno','contraste'];
+let _currentTema = 'dorado';
+
+function _aplicarTema(id){
+  if(TEMAS.indexOf(id) === -1) return;
+  TEMAS.forEach(t => document.body.classList.remove('tema-'+t));
+  if(id !== 'dorado') document.body.classList.add('tema-'+id); // dorado = sin clase (default)
+  _currentTema = id;
+  localStorage.setItem('stars_tema', id);
+  _actualizarTemaUI();
+}
+
+function _actualizarTemaUI(){
+  document.querySelectorAll('.cfg-tema-btn').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.tema === _currentTema);
+  });
+}
+
 function abrirConfig(){
   const esDia = document.body.classList.contains('modo-dia');
   const toggle = document.getElementById('config-toggle-modo');
   if(toggle) toggle.checked = esDia;
   _actualizarConfigModoUI(esDia);
   _actualizarFontUI();
+  _actualizarTemaUI();
   document.getElementById('config-modal').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -5582,6 +5676,11 @@ function _actualizarConfigModoUI(esDia){
   const savedFont = parseInt(localStorage.getItem('stars_font'));
   if(!isNaN(savedFont) && savedFont >= 0 && savedFont < FONT_SIZES.length){
     _aplicarFontSize(savedFont);
+  }
+  const savedTema = localStorage.getItem('stars_tema');
+  if(savedTema && TEMAS.indexOf(savedTema) !== -1){
+    _currentTema = savedTema;
+    if(savedTema !== 'dorado') document.body.classList.add('tema-'+savedTema);
   }
 })();
 
@@ -6384,13 +6483,15 @@ function filtrarCapitulos(){
           </div>
 
           <!-- Profundizar -->
-          <div id="dsk-profundizar-wrap" style="margin:8px 18px 4px;display:flex;align-items:center;gap:10px;background:var(--black3);border:1px solid rgba(139,92,246,0.25);border-radius:var(--radius-sm);padding:12px 16px;cursor:pointer;transition:all 0.2s" onclick="abrirExegetico()" onmouseenter="this.style.borderColor='rgba(139,92,246,0.5)'" onmouseleave="this.style.borderColor='rgba(139,92,246,0.25)'">
-            <div style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0"></div>
-            <div style="flex:1">
-              <div style="font-size:0.8125rem;font-weight:500;color:var(--white)">Profundizar · Estudio exegético</div>
-              <div style="font-size:0.625rem;color:var(--white3)" id="dsk-prof-titulo">Análisis del versículo · Notas de The Message · Opcional</div>
+          <div id="dsk-profundizar-wrap" style="margin:8px 18px 4px;display:flex;flex-direction:column;gap:10px;background:var(--black3);border:1px solid rgba(139,92,246,0.25);border-radius:var(--radius-sm);padding:12px 16px;cursor:pointer;transition:all 0.2s" onclick="abrirExegetico()" onmouseenter="this.style.borderColor='rgba(139,92,246,0.5)'" onmouseleave="this.style.borderColor='rgba(139,92,246,0.25)'">
+            <div style="display:flex;align-items:flex-start;gap:10px">
+              <div style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0;margin-top:5px"></div>
+              <div style="flex:1;min-width:0">
+                <div style="font-size:0.8125rem;font-weight:500;color:var(--white)">Profundizar · Estudio exegético</div>
+                <div style="font-size:0.625rem;color:var(--white3);margin-top:2px;line-height:1.45" id="dsk-prof-titulo">Análisis del versículo · Notas de The Message · Opcional</div>
+              </div>
             </div>
-            <div style="font-size:0.5625rem;padding:3px 8px;border-radius:20px;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#a78bfa;white-space:nowrap">+ Profundizar</div>
+            <div style="align-self:flex-start;margin-left:18px;font-size:0.5625rem;padding:4px 10px;border-radius:20px;background:rgba(139,92,246,0.15);border:1px solid rgba(139,92,246,0.3);color:#a78bfa;letter-spacing:0.04em;white-space:nowrap">+ Profundizar</div>
           </div>
 
           <!-- Frase mini -->
@@ -6455,6 +6556,16 @@ function filtrarCapitulos(){
           <!-- Header Paso Profundo -->
           <div style="padding:0 16px 10px">
             <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Paso Profundo · S.T.A.R.S.</div>
+            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por versículo</div>
+          </div>
+          <!-- Por versículo · IA -->
+          <div style="padding:0 16px 16px;display:flex;gap:6px">
+            <input id="dsk-ver-input" style="flex:1;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 11px;font-size:0.75rem;color:var(--white);font-family:'Outfit',sans-serif" placeholder="Ej: Génesis 1:3" onkeydown="if(event.key==='Enter')dskAnalizarVer()"/>
+            <button onclick="dskAnalizarVer()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:700;padding:0 12px;border-radius:8px;cursor:pointer;font-family:'Outfit',sans-serif;white-space:nowrap">→</button>
+          </div>
+          <!-- Separador capítulo -->
+          <div style="margin:4px 16px 10px;padding-top:16px;border-top:1px solid rgba(255,255,255,0.05)">
+            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Paso Profundo · S.T.A.R.S.</div>
             <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por capítulo</div>
           </div>
           <!-- Mini tracker -->
@@ -6480,12 +6591,6 @@ function filtrarCapitulos(){
           </div>
           <!-- 10 bloques de estudio — bloque › libro › grilla de capítulos -->
           <div id="dsk-caps-list" style="margin:0 0 8px;padding:0 16px"></div>
-          <!-- Separador versículo -->
-          <div style="margin:4px 16px 8px;font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--white3);opacity:0.4;font-weight:600;padding-top:12px;border-top:1px solid rgba(255,255,255,0.05)">Por versículo · IA</div>
-          <div style="padding:0 16px 16px;display:flex;gap:6px">
-            <input id="dsk-ver-input" style="flex:1;background:var(--black4);border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:8px 11px;font-size:0.75rem;color:var(--white);font-family:'Outfit',sans-serif" placeholder="Ej: Génesis 1:3" onkeydown="if(event.key==='Enter')dskAnalizarVer()"/>
-            <button onclick="dskAnalizarVer()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:700;padding:0 12px;border-radius:8px;cursor:pointer;font-family:'Outfit',sans-serif;white-space:nowrap">→</button>
-          </div>
         </div>
 
         <!-- ── DIARIO ── -->
