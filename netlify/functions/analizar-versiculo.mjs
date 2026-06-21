@@ -1,5 +1,10 @@
 const MODEL = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite';
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const FIREBASE_API_KEY = process.env.FIREBASE_API_KEY || 'AIzaSyAqS3sMT0tsOm2G5eINckrLGA-1Qj4u6Y8';
+const FIREBASE_PROJECT_ID = process.env.FIREBASE_PROJECT_ID || 'stars-plus';
+const AI_DAILY_LIMIT = Number.parseInt(process.env.AI_DAILY_LIMIT || '20', 10);
+const AI_MINUTE_LIMIT = Number.parseInt(process.env.AI_MINUTE_LIMIT || '5', 10);
+const AI_LIMIT_TIMEZONE = process.env.AI_LIMIT_TIMEZONE || 'America/Bogota';
 
 const PROMPT_VERSICULO = `Eres un asistente especializado en estudio bíblico, con enfoque en la versión The Message de Eugene Peterson. Respondes siempre en español, con tono claro, profundo, sobrio y pastoral, sin frases genéricas.
 
@@ -56,6 +61,130 @@ function limpiarReferencia(ref) {
   return String(ref || '').replace(/\s+/g, ' ').trim();
 }
 
+async function validarUsuario(req) {
+  const auth = req.headers.get('authorization') || '';
+  const token = auth.startsWith('Bearer ') ? auth.slice(7).trim() : '';
+  if (!token) return null;
+
+  let res;
+  try {
+    res = await fetch(`https://identitytoolkit.googleapis.com/v1/accounts:lookup?key=${encodeURIComponent(FIREBASE_API_KEY)}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ idToken: token })
+    });
+  } catch {
+    return null;
+  }
+
+  if (!res.ok) return null;
+  const data = await res.json();
+  const user = data?.users?.[0] || null;
+  return user ? { user, token } : null;
+}
+
+function partesFechaZona(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: AI_LIMIT_TIMEZONE,
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23'
+  }).formatToParts(date).reduce((acc, part) => {
+    if (part.type !== 'literal') acc[part.type] = part.value;
+    return acc;
+  }, {});
+
+  return {
+    day: `${parts.year}${parts.month}${parts.day}`,
+    minute: `${parts.year}${parts.month}${parts.day}${parts.hour}${parts.minute}`
+  };
+}
+
+function firestoreNumber(fields, name) {
+  const value = fields?.[name];
+  if (!value) return 0;
+  return Number(value.integerValue ?? value.doubleValue ?? 0) || 0;
+}
+
+async function verificarCupoIA(authData) {
+  const uid = authData.user.localId;
+  if (!uid) return { ok: false, status: 401, error: 'No se pudo validar el usuario.' };
+
+  const now = new Date();
+  const stamp = partesFechaZona(now);
+  const dailyField = `iaUso_${stamp.day}`;
+  const minuteField = `iaUsoMin_${stamp.minute}`;
+  const docUrl = `https://firestore.googleapis.com/v1/projects/${encodeURIComponent(FIREBASE_PROJECT_ID)}/databases/(default)/documents/usuarios/${encodeURIComponent(uid)}`;
+  const headers = {
+    Authorization: `Bearer ${authData.token}`,
+    'Content-Type': 'application/json'
+  };
+
+  let fields = {};
+  try {
+    const readRes = await fetch(docUrl, { headers });
+    if (readRes.ok) {
+      const data = await readRes.json();
+      fields = data.fields || {};
+    } else if (readRes.status !== 404) {
+      return { ok: false, status: 503, error: 'No se pudo validar tu cupo de análisis.' };
+    }
+  } catch {
+    return { ok: false, status: 503, error: 'No se pudo validar tu cupo de análisis.' };
+  }
+
+  const dailyCount = firestoreNumber(fields, dailyField);
+  const minuteCount = firestoreNumber(fields, minuteField);
+
+  if (dailyCount >= AI_DAILY_LIMIT) {
+    return {
+      ok: false,
+      status: 429,
+      error: `Llegaste al límite diario de ${AI_DAILY_LIMIT} análisis. Intenta mañana.`
+    };
+  }
+
+  if (minuteCount >= AI_MINUTE_LIMIT) {
+    return {
+      ok: false,
+      status: 429,
+      error: 'Estás haciendo solicitudes muy rápido. Espera un minuto e intenta de nuevo.'
+    };
+  }
+
+  const updateUrl = `${docUrl}?updateMask.fieldPaths=${dailyField}&updateMask.fieldPaths=${minuteField}&updateMask.fieldPaths=iaUsoUltima`;
+  const updateBody = {
+    fields: {
+      [dailyField]: { integerValue: String(dailyCount + 1) },
+      [minuteField]: { integerValue: String(minuteCount + 1) },
+      iaUsoUltima: { timestampValue: now.toISOString() }
+    }
+  };
+
+  try {
+    const writeRes = await fetch(updateUrl, {
+      method: 'PATCH',
+      headers,
+      body: JSON.stringify(updateBody)
+    });
+
+    if (!writeRes.ok) {
+      return { ok: false, status: 503, error: 'No se pudo registrar tu uso de IA.' };
+    }
+  } catch {
+    return { ok: false, status: 503, error: 'No se pudo registrar tu uso de IA.' };
+  }
+
+  return {
+    ok: true,
+    dailyRemaining: Math.max(0, AI_DAILY_LIMIT - dailyCount - 1),
+    minuteRemaining: Math.max(0, AI_MINUTE_LIMIT - minuteCount - 1)
+  };
+}
+
 export default async function handler(req) {
   if (req.method !== 'POST') {
     return json({ error: 'Método no permitido.' }, 405);
@@ -63,6 +192,11 @@ export default async function handler(req) {
 
   if (!GEMINI_API_KEY) {
     return json({ error: 'Falta configurar GEMINI_API_KEY en Netlify.' }, 500);
+  }
+
+  const authData = await validarUsuario(req);
+  if (!authData) {
+    return json({ error: 'Inicia sesión para usar el análisis de versículos.' }, 401);
   }
 
   let body;
@@ -75,6 +209,11 @@ export default async function handler(req) {
   const ref = limpiarReferencia(body.ref);
   if (!ref || ref.length > 80) {
     return json({ error: 'Escribe una referencia bíblica válida.' }, 400);
+  }
+
+  const cupo = await verificarCupoIA(authData);
+  if (!cupo.ok) {
+    return json({ error: cupo.error }, cupo.status);
   }
 
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent`;
@@ -119,7 +258,14 @@ export default async function handler(req) {
       return json({ error: 'Gemini respondió sin texto.' }, 502);
     }
 
-    return json({ text, model: MODEL });
+    return json({
+      text,
+      model: MODEL,
+      usage: {
+        dailyRemaining: cupo.dailyRemaining,
+        minuteRemaining: cupo.minuteRemaining
+      }
+    });
   } catch {
     return json({ error: 'No se pudo conectar con Gemini.' }, 502);
   }
