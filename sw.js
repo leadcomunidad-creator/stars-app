@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════
-   S.T.A.R.S. · Service Worker v4
+   S.T.A.R.S. · Service Worker v5
    Shell: Network-first (actualización automática)
    JSON dinámicos: Network-first (sin cache agresivo)
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v4';
+const CACHE_NAME = 'stars-v5';
 const SHELL_FILES = [
   '/',
   '/index.html',
@@ -53,7 +53,8 @@ self.addEventListener('fetch', e => {
     e.respondWith(
       fetch(e.request.clone(), { cache: 'no-store' })
         .then(res => {
-          if (res && res.status === 200) {
+          const contentType = res.headers.get('content-type') || '';
+          if (res && res.status === 200 && contentType.includes('application/json')) {
             const clone = res.clone();
             caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
           }

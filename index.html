@@ -1685,6 +1685,7 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
     },
     uid: () => _uid,
     datos: () => _userData,
+    getIdToken: async () => auth.currentUser ? auth.currentUser.getIdToken() : '',
   };
 
   // ── Login con Google ──
@@ -1722,9 +1723,10 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
   onAuthStateChanged(auth, async (user) => {
     if(user){
       _uid = user.uid;
-      // Bypass completo para el correo autorizado
+      // Admin solo para el correo autorizado.
       if(user.email === 'juaneduardomejia@gmail.com'){
-        window.ADMIN_MODE = true;
+        if(typeof window.activarAdminMode === 'function') window.activarAdminMode();
+        else window.ADMIN_MODE = true;
       }
       // Mostrar nombre/foto
       const nameEl = document.getElementById('user-name');
@@ -1744,13 +1746,7 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
           if(window._appIniciada){
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
-            if(typeof updateRachaUI === 'function'){
-              updateRachaUI();
-              ['streak-n'].forEach(id=>{ // ya manejado por updateRachaUI
-                const el = document.getElementById(id);
-                if(el) el.textContent = r;
-              });
-            }
+            if(typeof updateRachaUI === 'function') updateRachaUI();
           }
         }
       });
@@ -1833,11 +1829,9 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
 
 <script>
 (function(){
-  const params = new URLSearchParams(window.location.search);
-  if(params.get('admin') === 'STARS2026'){
+  window.activarAdminMode = function(){
     window.ADMIN_MODE = true;
     document.body.classList.add('admin-mode');
-    // Mostrar panel
     const panel = document.getElementById('admin-panel');
     const spacer = document.getElementById('admin-spacer');
     if(panel)  { panel.style.display  = 'flex'; }
@@ -1847,7 +1841,12 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
     };
     window.syncAdminHeight();
     window.addEventListener('resize', window.syncAdminHeight);
-  }
+  };
+
+  const params = new URLSearchParams(window.location.search);
+  const host = window.location.hostname;
+  const isLocal = host === 'localhost' || host === '127.0.0.1' || host === '';
+  if(isLocal && params.get('admin') === 'STARS2026') window.activarAdminMode();
 })();
 
 function adminCargar(){
@@ -1870,9 +1869,9 @@ function adminCargar(){
   window.ADMIN_WEEK = w;
   window.ADMIN_DATE = adminDate;
 
-  window.SEMANA_CARGADA = null;
-  window.DEVOCIONALES   = {};
-  window.SERIE_DATA     = null;
+  SEMANA_CARGADA = null;
+  DEVOCIONALES   = {};
+  window.SERIE_DATA = null;
 
   const dateStr = `${adminDate.getFullYear()}-${String(adminDate.getMonth()+1).padStart(2,'0')}-${String(adminDate.getDate()).padStart(2,'0')}`;
   document.getElementById('admin-status').textContent = 'Cargando... ' + dateStr;
@@ -2889,6 +2888,9 @@ async function cargarDevocionalSemana(year, week) {
   try {
     const res = await fetch(`/devocionales/${filename}`, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (!res.headers.get('content-type')?.includes('application/json')) {
+      throw new Error(`Respuesta no JSON — /devocionales/${filename}`);
+    }
     const data = await res.json();
     // Merge los días del devocional semanal en DEVOCIONALES
     if (data.dias) {
@@ -2936,6 +2938,9 @@ async function cargarEstudio(libro, cap) {
   try {
     const res = await fetch(`/estudios/${filename}`, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status} — /estudios/${filename}`);
+    if (!res.headers.get('content-type')?.includes('application/json')) {
+      throw new Error(`Respuesta no JSON — /estudios/${filename}`);
+    }
     const data = await res.json();
     ESTUDIOS_CAPS[capKey] = data;
     // Registrar en CAPITULOS_DISPONIBLES
@@ -2955,6 +2960,7 @@ async function cargarIndiceCapitulos() {
   try {
     const res = await fetch('/estudios/indice.json', { cache: 'no-store' });
     if (!res.ok) throw new Error('no index');
+    if (!res.headers.get('content-type')?.includes('application/json')) throw new Error('index no JSON');
     const data = await res.json();
     // data = { "Génesis_1": { fecha: "2026-05-12" }, ... }
     Object.assign(CAPITULOS_DISPONIBLES, data);
@@ -3072,14 +3078,14 @@ function initPasoDiario(){
   // Modal Análisis
   const bloques = document.querySelectorAll('#modal-2 .analisis-block');
   d.analisis.forEach((txt, i) => {
-    if(bloques[i]) bloques[i].querySelector('p').innerHTML = txt;
+    if(bloques[i]) bloques[i].querySelector('p').innerHTML = sanearHTMLPermitido(txt);
   });
   // Modal Reflexión
   const refEl = document.querySelector('.reflexion-pregunta');
-  if(refEl) refEl.innerHTML = '❓ ' + d.reflexion;
+  if(refEl) refEl.innerHTML = '❓ ' + sanearHTMLPermitido(d.reflexion);
   // Modal Sembrar
   const semEl = document.getElementById('sembrar-practica-txt');
-  if(semEl) semEl.innerHTML = '🛠️ <strong>Práctica:</strong> ' + d.sembrar;
+  if(semEl) semEl.innerHTML = '🛠️ <strong>Práctica:</strong> ' + sanearHTMLPermitido(d.sembrar);
   const orCierreEl = document.getElementById('oracion-cierre-texto');
   if(orCierreEl) orCierreEl.textContent = d.oracion_cierre || '';
   // Música de fondo — mostrar hint si hay URL configurada
@@ -3373,6 +3379,7 @@ function dskWsPaso(idx){
 
   const devo = getDevoHoy();
   if(!devo) return;
+  const musicaUrl = urlExternaSegura(devo.musica_url);
 
   document.querySelectorAll('.dsk-hoy-item').forEach((el,i)=>el.classList.toggle('active-item',i===idx));
 
@@ -3392,10 +3399,10 @@ function dskWsPaso(idx){
     const btnCursor = (_dskTimerRunning || done0) ? 'default' : 'pointer';
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Silencio · 5 min</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${devo.oracion}\u201D</div>
-      ${devo.musica_url?`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--black4);border:1px solid var(--gold-border);border-radius:8px;padding:10px 14px;margin-bottom:16px">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${escaparHTML(devo.oracion)}\u201D</div>
+      ${musicaUrl?`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--black4);border:1px solid var(--gold-border);border-radius:8px;padding:10px 14px;margin-bottom:16px">
         <div style="display:flex;align-items:center;gap:8px"><span>🎵</span><div><div style="font-size:0.6875rem;font-weight:600;color:var(--gold)">Música sugerida</div><div style="font-size:0.625rem;color:var(--white3)">YouTube · Esta semana</div></div></div>
-        <button onclick="window.open('${devo.musica_url}','_blank','noopener')" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
+        <button data-url="${escaparHTML(musicaUrl)}" onclick="window.open(this.dataset.url,'_blank','noopener')" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
       </div>`:''}
       <div style="text-align:center;margin-bottom:16px">
         <div style="display:inline-flex;flex-direction:column;align-items:center;gap:12px">
@@ -3414,22 +3421,22 @@ function dskWsPaso(idx){
   } else if(idx===1){ // Texto
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">T — Texto · The Message</div>
-      <div style="font-size:0.625rem;color:var(--gold);margin-bottom:6px;font-weight:600">${devo.texto_msg.ref}</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.75;font-style:italic;margin-bottom:24px">${devo.texto_msg.cuerpo}</div>
-      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:6px;font-weight:600">${devo.texto_ntv.ref}</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.0625rem;color:var(--white2);line-height:1.75;font-style:italic;border-left:1px solid rgba(255,255,255,0.1);padding-left:16px">${devo.texto_ntv.cuerpo}</div>
+      <div style="font-size:0.625rem;color:var(--gold);margin-bottom:6px;font-weight:600">${escaparHTML(devo.texto_msg.ref)}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.75;font-style:italic;margin-bottom:24px">${escaparHTML(devo.texto_msg.cuerpo)}</div>
+      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:6px;font-weight:600">${escaparHTML(devo.texto_ntv.ref)}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.0625rem;color:var(--white2);line-height:1.75;font-style:italic;border-left:1px solid rgba(255,255,255,0.1);padding-left:16px">${escaparHTML(devo.texto_ntv.cuerpo)}</div>
       ${dskBtnConfirmar(1)}
     </div>`;
   } else if(idx===2){ // Análisis
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:16px;font-weight:600">A — Análisis · Profundidad del texto</div>
-      ${devo.analisis.map((p,i)=>`<p style="margin:0 0 16px;line-height:1.85;color:var(--white2)">${p}</p>`).join('')}
+      ${devo.analisis.map((p,i)=>`<p style="margin:0 0 16px;line-height:1.85;color:var(--white2)">${sanearHTMLPermitido(p)}</p>`).join('')}
       ${dskBtnConfirmar(2)}
     </div>`;
   } else if(idx===3){ // Reflexión
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">R — Reflexión</div>
-      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">❓ ${devo.reflexion}</div>
+      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">❓ ${sanearHTMLPermitido(devo.reflexion)}</div>
       <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px">
         <span style="font-size:1.25rem">📓</span>
         <span style="font-size:0.8125rem;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span>
@@ -3439,15 +3446,15 @@ function dskWsPaso(idx){
   } else if(idx===4){ // Sembrar
     html = `<div>
       <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Sembrar · Práctica del día</div>
-      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">🛠️ <strong style="color:var(--white)">Práctica:</strong> ${devo.sembrar}</div>
+      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">🛠️ <strong style="color:var(--white)">Práctica:</strong> ${sanearHTMLPermitido(devo.sembrar)}</div>
       ${devo.oracion_cierre ? `<div style="background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.18);border-radius:10px;padding:16px;margin-bottom:16px">
         <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.65;margin-bottom:8px;font-weight:600">Oración de cierre</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:1.0rem;color:var(--white2);line-height:1.65;font-style:italic">“${devo.oracion_cierre}”</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.0rem;color:var(--white2);line-height:1.65;font-style:italic">“${escaparHTML(devo.oracion_cierre)}”</div>
       </div>` : ''}
       ${devo.frase ? `<div style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:18px;margin-bottom:16px;cursor:pointer" onclick="dskWs('frase')">
         <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:10px">Frase para hoy · toca para verla</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.55;font-style:italic">“${devo.frase}”</div>
-        <div style="font-size:0.625rem;color:var(--white3);margin-top:10px">${devo.versiculo}</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.55;font-style:italic">“${escaparHTML(devo.frase)}”</div>
+        <div style="font-size:0.625rem;color:var(--white3);margin-top:10px">${escaparHTML(devo.versiculo)}</div>
       </div>` : ''}
       ${dskBtnConfirmar(4)}
     </div>`;
@@ -3512,8 +3519,8 @@ function dskWs(tipo){
     dskWsShow('Frase para hoy', `
       <div style="text-align:center;padding:40px 20px">
         <div style="font-size:0.5625rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:24px">Frase para hoy</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:clamp(24px,2.8vw,38px);color:var(--white);line-height:1.5;font-style:italic;font-weight:300;margin-bottom:16px">\u201C${devo.frase}\u201D</div>
-        <div style="font-size:0.625rem;color:var(--white3);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:32px">${devo.versiculo}</div>
+        <div style="font-family:'Cormorant Garamond',serif;font-size:clamp(24px,2.8vw,38px);color:var(--white);line-height:1.5;font-style:italic;font-weight:300;margin-bottom:16px">\u201C${escaparHTML(devo.frase)}\u201D</div>
+        <div style="font-size:0.625rem;color:var(--white3);letter-spacing:0.14em;text-transform:uppercase;margin-bottom:32px">${escaparHTML(devo.versiculo)}</div>
         <div style="display:flex;gap:10px;justify-content:center">
           <button class="ds-btn ds-btn-gold" onclick="dsk_verFrase()" style="display:inline-flex;align-items:center;gap:7px;font-family:'Outfit',sans-serif;font-size:0.6875rem;font-weight:600;letter-spacing:0.06em;border-radius:20px;padding:9px 20px;cursor:pointer;transition:all 0.2s;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold)">⛶ Pantalla completa</button>
           <button class="ds-btn ds-btn-ghost" onclick="dsk_descargar()" style="display:inline-flex;align-items:center;gap:7px;font-family:'Outfit',sans-serif;font-size:0.6875rem;font-weight:600;letter-spacing:0.06em;border-radius:20px;padding:9px 20px;cursor:pointer;transition:all 0.2s;background:none;border:1px solid rgba(255,255,255,0.1);color:rgba(255,255,255,0.45)">↓ Descargar 9:16</button>
@@ -3716,10 +3723,10 @@ async function dskAbrirCap(key){
     _ecapKey = key; // ← compartido con el modal mobile
     if(!_ecapMaxSec[key]) _ecapMaxSec[key] = 0;
     const navHtml = estudio.secciones.map((s,i)=>
-      `<button onclick="dskCapSec(this,${i})" style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${s.nav}</button>`
+      `<button onclick="dskCapSec(this,${i})" style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${escaparHTML(s.nav)}</button>`
     ).join('');
     const bodyHtml = estudio.secciones.map((s,i)=>
-      `<div class="dsk-cap-sec${i===0?' cap-sec-active':''}" style="display:${i===0?'block':'none'}">${s.html}</div>`
+      `<div class="dsk-cap-sec${i===0?' cap-sec-active':''}" style="display:${i===0?'block':'none'}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
     const total = estudio.secciones.length;
     const pctInicial = _ecapMaxSec[key] > 0
@@ -3908,7 +3915,7 @@ function dskDiarioTab(tab, btn){
       dskWsShow('Reflexión · Paso 9 del estudio', `
         <div style="margin-bottom:20px">
           <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Pregunta de reflexión de hoy</div>
-          <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.75;color:var(--white2)">❓ ${devo.reflexion}</div>
+          <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.75;color:var(--white2)">❓ ${sanearHTMLPermitido(devo.reflexion)}</div>
           <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:8px;font-weight:600">Tu respuesta</div>
           <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px"><span style="font-size:1.25rem">📓</span><span style="font-size:0.8125rem;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span></div>
         </div>`);
@@ -4556,9 +4563,15 @@ async function generarAnalisis(){
 }
 
 async function pedirAnalisisVersiculo(ref){
+  const headers = {'Content-Type': 'application/json'};
+  if(window.FB && typeof window.FB.getIdToken === 'function'){
+    const token = await window.FB.getIdToken();
+    if(token) headers.Authorization = 'Bearer ' + token;
+  }
+
   const res = await fetch('/.netlify/functions/analizar-versiculo', {
     method: 'POST',
-    headers: {'Content-Type': 'application/json'},
+    headers,
     body: JSON.stringify({ref})
   });
   const data = await res.json().catch(() => ({}));
@@ -4579,6 +4592,49 @@ function escaparHTML(text){
     '"':'&quot;',
     "'":'&#039;'
   }[ch]));
+}
+
+function jsStringAttr(value){
+  return escaparHTML(JSON.stringify(String(value || '')));
+}
+
+function sanearHTMLPermitido(html){
+  const tpl = document.createElement('template');
+  tpl.innerHTML = String(html || '');
+  const bloqueados = new Set(['script','style','iframe','object','embed','link','meta','base','form']);
+
+  function limpiar(node){
+    if(node.nodeType === 1){
+      const tag = node.tagName.toLowerCase();
+      if(bloqueados.has(tag)){
+        node.remove();
+        return;
+      }
+      Array.from(node.attributes).forEach(attr => {
+        const nombre = attr.name.toLowerCase();
+        const valor = String(attr.value || '').trim();
+        if(nombre.startsWith('on') || nombre === 'srcdoc' || nombre === 'style'){
+          node.removeAttribute(attr.name);
+          return;
+        }
+        if((nombre === 'href' || nombre === 'src') && /^(javascript|data):/i.test(valor)){
+          node.removeAttribute(attr.name);
+        }
+      });
+    }
+    Array.from(node.childNodes).forEach(limpiar);
+  }
+
+  Array.from(tpl.content.childNodes).forEach(limpiar);
+  return tpl.innerHTML;
+}
+
+function urlExternaSegura(url){
+  try{
+    const parsed = new URL(String(url || ''), window.location.origin);
+    if(parsed.protocol === 'https:' || parsed.protocol === 'http:') return parsed.href;
+  }catch(e){}
+  return '';
 }
 
 function formatearAnalisisHTML(text){
@@ -5114,8 +5170,9 @@ function initDashboard(){
       const d = CAPITULOS_DISPONIBLES[k];
       const nombre = k.replace('_',' ');
       const tieneEstudio = !!ESTUDIOS_CAPS[k];
-      return `<div class="db-cap-row" onclick="${tieneEstudio?`abrirCapitulo('${k}')`:`window.open('${d.url}','_blank')`}">
-        <span class="db-cap-name">${nombre}</span>
+      const url = urlExternaSegura(d.url);
+      return `<div class="db-cap-row" ${tieneEstudio?`onclick="abrirCapitulo(${jsStringAttr(k)})"`:(url?`data-url="${escaparHTML(url)}" onclick="window.open(this.dataset.url,'_blank','noopener')"`:'')}>
+        <span class="db-cap-name">${escaparHTML(nombre)}</span>
         ${tieneEstudio?'<span class="db-cap-new">Disponible</span>':''}
       </div>`;
     }).join('');
@@ -5698,11 +5755,26 @@ let calAnio = new Date().getFullYear();
 // ── Pull to Refresh ──
 (function(){
   const THRESHOLD   = 120;  // px necesarios para activar el reload
+  const DESKTOP_THRESHOLD = 220;
   const MAX_HEIGHT  =  58;  // altura máxima del indicador en px
   const MIN_DOWN_PX =  18;  // mínimo desplazamiento para considerar que es un gesto hacia abajo
+  const DESKTOP_MIN_DOWN_PX = 48;
+  const DESKTOP_START_ZONE = 110;
 
   let startY = 0, startX = 0, pulling = false, activated = false;
   let indicator = null;
+
+  function isDesktopRefresh(){
+    return window.innerWidth >= 1024;
+  }
+
+  function getThreshold(){
+    return isDesktopRefresh() ? DESKTOP_THRESHOLD : THRESHOLD;
+  }
+
+  function getMinDownPx(){
+    return isDesktopRefresh() ? DESKTOP_MIN_DOWN_PX : MIN_DOWN_PX;
+  }
 
   function getInd(){
     if(!indicator){
@@ -5738,6 +5810,8 @@ let calAnio = new Date().getFullYear();
 
   document.addEventListener('touchstart', e => {
     if(isInsideModal()) return;
+    if(e.touches.length !== 1) return;
+    if(isDesktopRefresh() && e.touches[0].clientY > DESKTOP_START_ZONE) return;
     const scrollable = getActiveScrollable();
     if(!scrollable) return;
     startY = e.touches[0].clientY;
@@ -5750,10 +5824,12 @@ let calAnio = new Date().getFullYear();
     if(startY === 0) return;
     const dy = e.touches[0].clientY - startY;
     const dx = Math.abs(e.touches[0].clientX - startX);
+    const threshold = getThreshold();
 
+    if(dy <= 0) return;
     if(!pulling && dx > dy * 0.8) return;
 
-    if(!pulling && dy > MIN_DOWN_PX){
+    if(!pulling && dy > getMinDownPx()){
       const scrollable = getActiveScrollable();
       if(!scrollable) return;
       pulling = true;
@@ -5767,14 +5843,14 @@ let calAnio = new Date().getFullYear();
 
     const arc = document.getElementById('ptr-arc');
     const txt = document.getElementById('ptr-txt');
-    const progress = Math.min(dy / THRESHOLD, 1);
+    const progress = Math.min(dy / threshold, 1);
     if(arc) arc.style.transform = `rotate(${progress * 540}deg)`;
     if(txt){
-      if(dy >= THRESHOLD && !activated){
+      if(dy >= threshold && !activated){
         activated = true;
         txt.textContent = '✓ Suelta para actualizar';
         txt.style.color = '#e8c97a';
-      } else if(dy < THRESHOLD){
+      } else if(dy < threshold){
         activated = false;
         txt.textContent = 'Baja para actualizar';
         txt.style.color = '#c9a84c';
@@ -5788,7 +5864,7 @@ let calAnio = new Date().getFullYear();
     const dy = e.changedTouches[0].clientY - startY;
     startY = 0;
     const ind = getInd();
-    if(dy >= THRESHOLD){
+    if(dy >= getThreshold()){
       const txt = document.getElementById('ptr-txt');
       if(txt) txt.textContent = 'Actualizando…';
       setTimeout(() => window.location.reload(), 400);
@@ -6005,21 +6081,21 @@ function verDiaAnterior(anio, mes, dia){
     })() : '';
     content.innerHTML = adminRachaHTML + `
       <div style="font-size:0.5625rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px">${fechaDisplay} · Lectura</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold);margin-bottom:4px;line-height:1.3">${devo.titulo}</div>
-      <div style="font-size:0.75rem;color:var(--white3);margin-bottom:16px">${devo.versiculo}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold);margin-bottom:4px;line-height:1.3">${escaparHTML(devo.titulo)}</div>
+      <div style="font-size:0.75rem;color:var(--white3);margin-bottom:16px">${escaparHTML(devo.versiculo)}</div>
       <div style="height:1px;background:rgba(255,255,255,0.06);margin-bottom:16px"></div>
       <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Oración de silencio</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">"${devo.oracion}"</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">"${escaparHTML(devo.oracion)}"</div>
       <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">El texto</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white);line-height:1.7;font-style:italic;margin-bottom:4px;border-left:2px solid var(--gold-border);padding-left:12px">${devo.texto_msg.cuerpo}</div>
-      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:16px">${devo.texto_msg.ref}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white);line-height:1.7;font-style:italic;margin-bottom:4px;border-left:2px solid var(--gold-border);padding-left:12px">${escaparHTML(devo.texto_msg.cuerpo)}</div>
+      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:16px">${escaparHTML(devo.texto_msg.ref)}</div>
       <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Análisis</div>
-      ${devo.analisis.map(p=>'<div style="font-size:0.8125rem;color:var(--white2);line-height:1.75;margin-bottom:12px">'+p+'</div>').join('')}
+      ${devo.analisis.map(p=>'<div style="font-size:0.8125rem;color:var(--white2);line-height:1.75;margin-bottom:12px">'+sanearHTMLPermitido(p)+'</div>').join('')}
       <div style="height:1px;background:rgba(255,255,255,0.06);margin:16px 0"></div>
       <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Pregunta de reflexión</div>
-      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">${devo.reflexion}</div>
+      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">${sanearHTMLPermitido(devo.reflexion)}</div>
       <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Práctica</div>
-      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic">${devo.sembrar}</div>
+      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic">${sanearHTMLPermitido(devo.sembrar)}</div>
     `;
     const titleEl = document.getElementById('exeg-modal-title');
     if(titleEl) titleEl.textContent = 'Paso Diario';
@@ -6055,21 +6131,21 @@ function abrirExegetico(){
     </div>`;
   } else {
     content.innerHTML = `
-      <div class="exeg-versiculo">${d.titulo||''}</div>
+      <div class="exeg-versiculo">${escaparHTML(d.titulo||'')}</div>
       <div style="font-size:0.625rem;color:var(--white3);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:6px;margin-top:12px">Texto original · The Message (English)</div>
-      <div class="exeg-texto-en">${d.texto_en}</div>
+      <div class="exeg-texto-en">${escaparHTML(d.texto_en)}</div>
       <div style="font-size:0.625rem;color:var(--white3);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:6px">Traducción al español</div>
-      <div class="exeg-texto-es">${d.texto_es}</div>
+      <div class="exeg-texto-es">${escaparHTML(d.texto_es)}</div>
       ${d.explicacion_breve ? `
       <div class="exeg-section-title">Explicación breve</div>
-      <div class="exeg-explicacion">${d.explicacion_breve}</div>
+      <div class="exeg-explicacion">${sanearHTMLPermitido(d.explicacion_breve)}</div>
       ` : ''}
       <div class="exeg-section-title">Notas de la versión · Eugene Peterson</div>
       ${(d.notas||[]).map((n,i)=>`
         <div class="exeg-nota">
-          <div class="exeg-nota-frase">Nota ${i+1} &nbsp;·&nbsp; "${n.frase_en||n.frase}"</div>
-          <div class="exeg-nota-trad">→ ${n.traduccion}</div>
-          <div class="exeg-nota-analisis">${n.analisis}</div>
+          <div class="exeg-nota-frase">Nota ${i+1} &nbsp;·&nbsp; "${escaparHTML(n.frase_en||n.frase)}"</div>
+          <div class="exeg-nota-trad">→ ${escaparHTML(n.traduccion)}</div>
+          <div class="exeg-nota-analisis">${sanearHTMLPermitido(n.analisis)}</div>
         </div>
       `).join('')}
       <div style="margin-top:16px;padding:12px 14px;background:var(--black3);border-radius:var(--radius-sm);border:1px solid rgba(255,255,255,0.05)">
@@ -6191,7 +6267,7 @@ function renderCapitulos(query){
         const dato=CAPITULOS_DISPONIBLES[k];
         if(dato){
           const isNew=esNuevo(dato.fecha);
-          return `<div class="cap-cap-btn disponible${isNew?" nuevo":""}" onclick="abrirCapitulo('${k}')" title="${libro.n} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+          return `<div class="cap-cap-btn disponible${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join("");
@@ -6285,13 +6361,13 @@ async function abrirCapitulo(key){
     // Nav
     const nav = document.getElementById('ecap-nav');
     nav.innerHTML = estudio.secciones.map((s,i) =>
-      `<button class="estudio-cap-navbtn${i===0?' active':''}" onclick="irSeccion(${i})">${s.nav}</button>`
+      `<button class="estudio-cap-navbtn${i===0?' active':''}" onclick="irSeccion(${i})">${escaparHTML(s.nav)}</button>`
     ).join('');
 
     // Body
     const body = document.getElementById('ecap-body');
     body.innerHTML = estudio.secciones.map((s,i) =>
-      `<div class="estudio-sec${i===0?' active':''}" id="ecap-sec-${i}">${s.html}</div>`
+      `<div class="estudio-sec${i===0?' active':''}" id="ecap-sec-${i}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
 
     actualizarProgressCap(0, estudio.secciones.length);
