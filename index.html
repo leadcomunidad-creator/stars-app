@@ -380,24 +380,23 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   border:1px solid rgba(255,255,255,0.08);
   border-radius:18px;
   padding:24px 26px 26px;
-  display:block;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
 }
 .ar-ficha--wide .ar-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:16px;
+  gap:10px;
 }
 .ar-ficha--wide .ar-block{
   background:var(--black3);
-  margin-bottom:16px;
 }
-.ar-ficha--wide .ar-grid .ar-block{margin-bottom:0}
 .ar-ficha--wide .ar-block.ar-full{grid-column:1 / -1}
-.ar-ficha--wide .ar-block:last-child{margin-bottom:0}
 .ar-ficha--wide .ar-notes-list{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:12px;
+  gap:10px;
 }
 @media (min-width:900px){
   .ar-ficha--wide{padding:32px 36px 36px}
