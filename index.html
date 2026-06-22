@@ -1559,6 +1559,23 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
 .cfg-tema-btn.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--white)}
 .cfg-tema-dot{width:18px;height:18px;border-radius:50%;flex-shrink:0;border:1px solid rgba(255,255,255,0.15)}
 
+/* Ajuste mobile: la barra admin no debe cubrir botones ni encabezados internos */
+body.admin-mode .app{
+  height:calc(100dvh - var(--admin-bar-h,46px));
+}
+body.admin-mode .modal,
+body.admin-mode .cal-modal,
+body.admin-mode .exeg-modal,
+body.admin-mode .frase-modal,
+body.admin-mode .frase-estudio-modal,
+body.admin-mode .estudio-cap-modal,
+body.admin-mode #blog-modal,
+body.admin-mode .config-modal{
+  top:var(--admin-bar-h,46px);
+  bottom:0;
+  height:auto;
+}
+
 </style>
 
 <!-- Firebase -->
@@ -1837,9 +1854,14 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
     if(panel)  { panel.style.display  = 'flex'; }
     if(spacer) { spacer.style.display = 'block'; }
     window.syncAdminHeight = () => {
-      if(panel) document.documentElement.style.setProperty('--admin-bar-h', (panel.offsetHeight || 46) + 'px');
+      if(!panel) return;
+      const h = panel.offsetHeight || 46;
+      document.documentElement.style.setProperty('--admin-bar-h', h + 'px');
+      if(spacer) spacer.style.height = h + 'px';
     };
     window.syncAdminHeight();
+    requestAnimationFrame(window.syncAdminHeight);
+    setTimeout(window.syncAdminHeight, 250);
     window.addEventListener('resize', window.syncAdminHeight);
   };
 
@@ -3370,6 +3392,69 @@ function dskBtnConfirmar(idx){
   </button>`;
 }
 
+// Version final de desktop: marcar es una accion de una sola via.
+function dskMarcarPaso(idx){
+  const key = getTodayKey();
+  if(isPasoDone(key, idx)){
+    dskActualizarBadgesPasos();
+    showToast('Ese paso ya estaba completado');
+    return;
+  }
+
+  const completadoAhora = marcarPaso(idx, {notificarDia:false});
+  initWeek();
+  updateRachaUI();
+  dskActualizarBadgesPasos();
+
+  const btn = document.getElementById('dsk-confirmar-'+idx);
+  if(btn){
+    btn.disabled = true;
+    btn.textContent = '✓ Completado';
+    btn.style.background = 'var(--green-dim)';
+    btn.style.borderColor = 'var(--green-border)';
+    btn.style.color = 'var(--green2)';
+    btn.style.cursor = 'default';
+    btn.style.opacity = '0.75';
+  }
+  if(completadoAhora) dskShowPasoCompletado();
+}
+
+function dskBtnConfirmar(idx){
+  if(idx === 0 && !window.ADMIN_MODE) return '';
+  const key = getTodayKey();
+  const done = isPasoDone(key,idx);
+  const action = done ? '' : 'onclick="dskMarcarPaso('+idx+')"';
+  return `<button id="dsk-confirmar-${idx}" ${done?'disabled':''} ${action}
+    style="margin-top:20px;padding:10px 20px;border-radius:20px;font-size:0.75rem;font-weight:700;
+    font-family:'Outfit',sans-serif;cursor:${done?'default':'pointer'};letter-spacing:0.06em;transition:all 0.2s;
+    opacity:${done?'0.75':'1'};
+    background:${done?'var(--green-dim)':'var(--gold-dim)'};
+    border:1px solid ${done?'var(--green-border)':'var(--gold-border)'};
+    color:${done?'var(--green2)':'var(--gold)'}">
+    ${done?'✓ Completado':'Marcar como completado'}
+  </button>`;
+}
+
+function dskActualizarBadgesPasos(){
+  const key = getTodayKey();
+  for(let i=0;i<5;i++){
+    const done = isPasoDone(key,i);
+    pintarPasoDone(i, done);
+
+    const btn = document.getElementById('dsk-confirmar-'+i);
+    if(btn){
+      btn.disabled = done;
+      btn.textContent = done ? '✓ Completado' : 'Marcar como completado';
+      btn.style.background = done ? 'var(--green-dim)' : 'var(--gold-dim)';
+      btn.style.borderColor = done ? 'var(--green-border)' : 'var(--gold-border)';
+      btn.style.color = done ? 'var(--green2)' : 'var(--gold)';
+      btn.style.cursor = done ? 'default' : 'pointer';
+      btn.style.opacity = done ? '0.75' : '1';
+    }
+  }
+  updatePasoPct(false);
+}
+
 function dskWsPaso(idx){
   // Bloqueo secuencial — igual que mobile
   if(!pasoDesbloqueado(idx)){
@@ -4173,20 +4258,28 @@ let timerInterval=null;
 let timerRunning=false;
 
 function stepKey(i){return getTodayKey()+'_'+i}
-function isStepDone(i){return window.FB ? window.FB.getPaso(getTodayKey(), i) : localStorage.getItem('stars_paso_'+stepKey(i))==='1'}
+function isPasoDone(fecha, i){
+  return window.FB ? window.FB.getPaso(fecha, i) : localStorage.getItem('stars_paso_'+fecha+'_'+i)==='1';
+}
+function guardarPasoDone(fecha, i){
+  if(window.FB) window.FB.setPaso(fecha, i);
+  else localStorage.setItem('stars_paso_'+fecha+'_'+i,'1');
+}
+function isStepDone(i){return isPasoDone(getTodayKey(), i)}
+function pintarPasoDone(i, done=true){
+  ['sc-','si-','dsk-sc-','dsk-si-'].forEach(prefix=>{
+    const el = document.getElementById(prefix+i);
+    if(el) el.classList.toggle('done', done);
+  });
+}
 
 function initSteps(){
   for(let i=0;i<5;i++){
     if(isStepDone(i)){
-      document.getElementById('sc-'+i).classList.add('done');
-      document.getElementById('si-'+i).classList.add('done');
-      const dscSc=document.getElementById('dsk-sc-'+i);
-      const dscSi=document.getElementById('dsk-si-'+i);
-      if(dscSc) dscSc.classList.add('done');
-      if(dscSi) dscSi.classList.add('done');
+      pintarPasoDone(i, true);
     }
   }
-  updatePasoPct();
+  updatePasoPct(false);
 }
 
 function updateRachaUI(){
@@ -4198,30 +4291,27 @@ function updateRachaUI(){
   return r;
 }
 
-function updatePasoPct(){
+function updatePasoPct(notificarDia=false){
   let done=0; for(let i=0;i<5;i++) if(isStepDone(i)) done++;
   const pct=Math.round(done/5*100);
   document.getElementById('pd-pct').textContent=pct+'%';
   document.getElementById('pd-bar').style.width=pct+'%';
   const dEl=document.getElementById('dsk-pd-pct'); if(dEl) dEl.textContent=pct+'%';
   const dBar=document.getElementById('dsk-pd-bar'); if(dBar) dBar.style.width=pct+'%';
-  if(pct===100){
+  if(notificarDia && pct===100){
     initWeek();
     updateRachaUI();
     showToast('¡Día completado! ⭐ Racha actualizada');
   }
 }
 
-function marcarPaso(i){
-  if(window.FB) window.FB.setPaso(getTodayKey(), i);
-  const dscSc=document.getElementById('dsk-sc-'+i);
-  const dscSi=document.getElementById('dsk-si-'+i);
-  if(dscSc) dscSc.classList.add('done');
-  if(dscSi) dscSi.classList.add('done');
-  else localStorage.setItem('stars_paso_'+getTodayKey()+'_'+i,'1');
-  document.getElementById('sc-'+i).classList.add('done');
-  document.getElementById('si-'+i).classList.add('done');
-  updatePasoPct();
+function marcarPaso(i, opts={}){
+  const fecha = getTodayKey();
+  const yaEstaba = isPasoDone(fecha, i);
+  if(!yaEstaba) guardarPasoDone(fecha, i);
+  pintarPasoDone(i, true);
+  updatePasoPct(!yaEstaba && opts.notificarDia !== false);
+  return !yaEstaba;
 }
 
 function abrirPaso(i){
@@ -4285,6 +4375,27 @@ function dskActualizarBadgesPasos(){
 }
 
 /* ══════════ AUDIO — WEB AUDIO API ══════════ */
+// Version activa: sincroniza desktop desde el estado guardado real.
+function dskActualizarBadgesPasos(){
+  const key = getTodayKey();
+  for(let i=0;i<5;i++){
+    const done = isPasoDone(key,i);
+    pintarPasoDone(i, done);
+
+    const btn = document.getElementById('dsk-confirmar-'+i);
+    if(btn){
+      btn.disabled = done;
+      btn.textContent = done ? '✓ Completado' : 'Marcar como completado';
+      btn.style.background = done ? 'var(--green-dim)' : 'var(--gold-dim)';
+      btn.style.borderColor = done ? 'var(--green-border)' : 'var(--gold-border)';
+      btn.style.color = done ? 'var(--green2)' : 'var(--gold)';
+      btn.style.cursor = done ? 'default' : 'pointer';
+      btn.style.opacity = done ? '0.75' : '1';
+    }
+  }
+  updatePasoPct(false);
+}
+
 let _audioCtx = null;
 function getAudioCtx(){
   if(!_audioCtx) _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
