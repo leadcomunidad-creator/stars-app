@@ -369,6 +369,83 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   .ar-block.ar-ref .ar-block-body{font-size:1.0625rem}
 }
 
+/* ══════════════════════════════════════════════════════════════
+   ESTUDIO POR CAPÍTULO — estilo del HTML que viene del JSON
+   El JSON solo usa 4 piezas semánticas: p, h4, blockquote y
+   div.tarjeta. Ninguna trae "style" inline — todo el aspecto
+   visual (colores, fondos, tamaños) se controla aquí, en .estudio-sec-body.
+   Cambiar algo aquí cambia automáticamente las 1.189 secciones,
+   sin tocar ningún JSON. Usa solo var(--...) para que funcione
+   igual en los 4 temas de color × 2 modos (noche/día) y se escale
+   bien con A-/A+.
+   ══════════════════════════════════════════════════════════════ */
+
+/* Pieza 2 — subtítulo dorado en mayúsculas (antes <strong style="display:block...">) */
+.estudio-sec-body h4{
+  font-family:'Outfit',sans-serif;
+  font-size:0.75rem;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  color:var(--gold);
+  font-weight:700;
+  margin:0 0 8px;
+}
+.estudio-sec-body h4:not(:first-child){ margin-top:18px; }
+
+/* Pieza 3 — tarjeta destacada (antes <div style="background:var(--black4)...">) */
+.estudio-sec-body .tarjeta{
+  background:var(--black4);
+  border-radius:8px;
+  padding:14px;
+  margin-bottom:14px;
+}
+.estudio-sec-body .tarjeta:last-child{ margin-bottom:0; }
+.estudio-sec-body .tarjeta > p:last-child{ margin-bottom:0; }
+
+/* Variante de tarjeta para preguntas de reflexión: número + texto */
+.estudio-sec-body .tarjeta.pregunta{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+.estudio-sec-body .tarjeta.pregunta .pregunta-num{
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background:var(--gold-dim);
+  border:1px solid var(--gold-border);
+  color:var(--gold);
+  font-size:0.6875rem;
+  font-weight:700;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-shrink:0;
+  font-family:'Outfit',sans-serif;
+}
+.estudio-sec-body .tarjeta.pregunta .pregunta-texto{
+  color:var(--white2);
+  line-height:1.75;
+  font-size:0.8125rem;
+}
+
+/* Pieza 4 — cita bíblica, variante dentro de tarjeta (Joyas: versículo + traducción) */
+.estudio-sec-body .tarjeta blockquote{
+  margin:0 0 8px;
+  font-size:0.875rem;
+}
+.estudio-sec-body .tarjeta .traduccion{
+  font-size:0.6875rem;
+  color:var(--gold);
+  font-weight:600;
+  margin:0 0 4px;
+}
+
+@media (max-width:480px){
+  .estudio-sec-body .tarjeta{padding:12px 14px}
+}
+.dsk-ws-inner.dsk-ws-inner--wide .estudio-sec-body .tarjeta{padding:18px 20px}
+
 /* ── Desktop / tablet ancho: aprovechar el espacio disponible ── */
 /* .dsk-ws-inner--wide se añade solo al mostrar el análisis de versículo (ver dskAnalizarVer),
    ampliando el max-width base de 680px sin afectar las demás vistas del workspace. */
@@ -4718,10 +4795,71 @@ function jsStringAttr(value){
   return escaparHTML(JSON.stringify(String(value || '')));
 }
 
+/* ── Delegación de clic para "Una frase para llevar" (sección 10 del estudio) ──
+   El JSON ya NO trae onclick inline (se elimina por seguridad en sanearHTMLPermitido).
+   En su lugar trae data-frase y data-ref en el propio div.estudio-frase-tap.
+   Un solo listener en document cubre tanto el estudio desktop como el mobile. */
+document.addEventListener('click', function(e){
+  const tap = e.target.closest('.estudio-frase-tap');
+  if(!tap) return;
+  const frase = tap.getAttribute('data-frase') || '';
+  const ref = tap.getAttribute('data-ref') || '';
+  if(frase && typeof abrirFraseEstudio === 'function') abrirFraseEstudio(frase, ref);
+});
+
 function sanearHTMLPermitido(html){
   const tpl = document.createElement('template');
   tpl.innerHTML = String(html || '');
   const bloqueados = new Set(['script','style','iframe','object','embed','link','meta','base','form']);
+
+  /* ── Compatibilidad con JSON antiguos de la sección "Frase para llevar" ──
+     Los JSON viejos traen onclick="abrirFraseEstudio('texto','ref')" en
+     .estudio-frase-tap. El onclick se elimina siempre por seguridad (igual
+     que cualquier "on*"), pero antes de eliminarlo se reconoce ESTA firma
+     exacta — nada se ejecuta, solo se extraen los dos textos con una
+     expresión regular — y se guardan como data-frase/data-ref, que es el
+     formato que ya lee el listener delegado más abajo. Así los JSON viejos
+     siguen funcionando sin tocarlos. */
+  function extraerFraseLegado(onclickVal){
+    const m = /^abrirFraseEstudio\(\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'\s*\)$/.exec(String(onclickVal||'').trim());
+    if(!m) return null;
+    const unescape = s => s.replace(/\\'/g, "'").replace(/\\\\/g, '\\');
+    return { frase: unescape(m[1]), ref: unescape(m[2]) };
+  }
+
+  /* Propiedades CSS visuales permitidas en "style" inline. Cubre el diseño
+     que el JSON ya trae armado (fondos, tarjetas, citas, subtítulos) sin
+     abrir la puerta a nada ejecutable: ninguna de estas propiedades puede
+     cargar recursos externos ni ejecutar código. */
+  const propiedadesPermitidas = new Set([
+    'color','background','background-color','border','border-color',
+    'border-left','border-right','border-top','border-bottom',
+    'border-radius','padding','margin',
+    'padding-top','padding-bottom','padding-left','padding-right',
+    'margin-top','margin-bottom','margin-left','margin-right',
+    'font-family','font-size','font-style','font-weight','font-variant',
+    'line-height','letter-spacing','text-align','text-transform',
+    'display','flex-direction','align-items','justify-content','gap',
+    'white-space','overflow-wrap','word-break'
+  ]);
+
+  function sanearStyle(valor){
+    return String(valor || '')
+      .split(';')
+      .map(decl => decl.trim())
+      .filter(Boolean)
+      .filter(decl => {
+        const idx = decl.indexOf(':');
+        if(idx === -1) return false;
+        const prop = decl.slice(0, idx).trim().toLowerCase();
+        const val = decl.slice(idx + 1).trim();
+        if(!propiedadesPermitidas.has(prop)) return false;
+        // Ninguna propiedad permitida arriba necesita url()/expression() legítimamente.
+        if(/url\(|expression\(|javascript:/i.test(val)) return false;
+        return true;
+      })
+      .join('; ');
+  }
 
   function limpiar(node){
     if(node.nodeType === 1){
@@ -4730,17 +4868,31 @@ function sanearHTMLPermitido(html){
         node.remove();
         return;
       }
+      const onclickOriginal = node.getAttribute && node.getAttribute('onclick');
       Array.from(node.attributes).forEach(attr => {
         const nombre = attr.name.toLowerCase();
         const valor = String(attr.value || '').trim();
-        if(nombre.startsWith('on') || nombre === 'srcdoc' || nombre === 'style'){
+        if(nombre.startsWith('on') || nombre === 'srcdoc'){
           node.removeAttribute(attr.name);
+          return;
+        }
+        if(nombre === 'style'){
+          const limpio = sanearStyle(valor);
+          if(limpio) node.setAttribute('style', limpio);
+          else node.removeAttribute('style');
           return;
         }
         if((nombre === 'href' || nombre === 'src') && /^(javascript|data):/i.test(valor)){
           node.removeAttribute(attr.name);
         }
       });
+      if(onclickOriginal){
+        const datos = extraerFraseLegado(onclickOriginal);
+        if(datos){
+          node.setAttribute('data-frase', datos.frase);
+          node.setAttribute('data-ref', datos.ref);
+        }
+      }
     }
     Array.from(node.childNodes).forEach(limpiar);
   }
