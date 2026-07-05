@@ -998,6 +998,37 @@ body.modo-dia .bottom-nav{
   padding:6px 4px 10px;
 }
 .cap-caps-grid.open{display:grid}
+
+/* ══ INTRODUCCIÓN AL LIBRO — tarjeta de entrada en el listado ══ */
+/* ══ INTRODUCCIÓN AL LIBRO — celda del grid, mismo tamaño que un capítulo ══ */
+.cap-cap-btn.intro-libro{
+  background:var(--gold-dim);border-color:var(--gold-border);
+  color:var(--gold);cursor:pointer;font-size:0.5rem;letter-spacing:0.04em;
+}
+.cap-cap-btn.intro-libro:hover{background:rgba(201,168,76,0.22);transform:scale(1.05)}
+
+/* ══ MODAL INTRODUCCIÓN AL LIBRO — gemelo de estudio-cap-modal ══ */
+.intro-libro-modal{position:fixed;inset:0;z-index:500;display:none;flex-direction:column;background:var(--black)}
+.intro-libro-modal.open{display:flex}
+.intro-libro-body{flex:1;overflow-y:auto;padding:24px 20px 40px}
+.intro-libro-sec{display:none}
+.intro-libro-sec.active{display:block}
+
+.intro-recursos{background:var(--black3);border:1px solid rgba(255,255,255,0.06);border-radius:var(--radius-sm);padding:14px 16px;margin-top:24px}
+.intro-recursos-label{font-size:0.625rem;color:var(--gold);font-weight:700;letter-spacing:0.06em;margin-bottom:8px;text-transform:uppercase}
+.intro-recurso-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.06);text-decoration:none}
+.intro-recurso-item:last-child{border-bottom:none}
+.intro-recurso-icon{width:32px;height:32px;border-radius:7px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:0.875rem}
+.intro-recurso-icon.bibleproject{background:rgba(232,201,122,0.12);color:var(--gold2)}
+.intro-recurso-icon.rightnow{background:var(--green-dim);color:var(--green2)}
+.intro-recurso-icon.lectura{background:var(--gold-dim);color:var(--gold)}
+.intro-recurso-text{flex:1;min-width:0}
+.intro-recurso-titulo{font-size:0.75rem;color:var(--white);font-weight:500}
+.intro-recurso-detalle{font-size:0.625rem;color:var(--white3);margin-top:1px}
+.intro-recurso-go{font-size:0.75rem;color:var(--white3);flex-shrink:0}
+.intro-recurso-nota{font-size:0.625rem;color:var(--white3);line-height:1.6;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,0.06)}
+.intro-recurso-nota a{color:var(--gold);text-decoration:none}
+.intro-recurso-nota a:hover{text-decoration:underline}
 .cap-cap-btn{
   aspect-ratio:1;border-radius:8px;
   display:flex;flex-direction:column;align-items:center;justify-content:center;
@@ -2856,6 +2887,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <div class="estudio-cap-body" id="ecap-body"></div>
 </div>
 
+<!-- ══ MODAL INTRODUCCIÓN AL LIBRO — gemelo del modal de estudio por capítulo ══ -->
+<div class="intro-libro-modal" id="intro-libro-modal">
+  <div class="estudio-cap-topbar">
+    <button class="estudio-cap-back" onclick="cerrarIntroLibro()">←</button>
+    <div style="flex:1;min-width:0">
+      <div class="estudio-cap-titulo" id="il-titulo"></div>
+      <div class="estudio-cap-subtitulo">Introducción · S.T.A.R.S. · LHSCOL</div>
+    </div>
+  </div>
+  <div class="estudio-cap-nav" id="il-nav"></div>
+  <div class="intro-libro-body" id="il-body"></div>
+</div>
+
 
 
 <div class="toast" id="toast"></div>
@@ -3083,8 +3127,8 @@ async function initContenido() {
   const cargado = await cargarDevocionalSemana(year, week);
   if (week > 1) await cargarDevocionalSemana(year, week - 1);
   
-  // Cargar índice de estudios
-  await cargarIndiceCapitulos();
+  // Cargar índice de estudios y de introducciones a libros (en paralelo)
+  await Promise.all([cargarIndiceCapitulos(), cargarIndiceIntros()]);
   
   // Renderizar UI DESPUÉS de que los datos estén listos
   initPasoDiario();
@@ -3825,6 +3869,9 @@ function dskRenderCaps(q){
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join('');
+      const dskIntroBtn = INTROS_DISPONIBLES.has(libro.n)
+        ? `<div class="cap-cap-btn intro-libro" onclick="dskAbrirIntroLibro(${jsStringAttr(libro.n)})" title="Introducción a ${escaparHTML(libro.n)}">INTRO</div>`
+        : '';
       return `<div>
         <div class="cap-libro-hdr${isOpenL?' open-libro':''}" onclick="dskToggleCapLibro('${libro.n.replace(/'/g,"\\'")}',this)">
           <div><span class="cap-libro-name">${libro.n}</span>${nuevoLib?"<span style='font-size:0.5rem;background:var(--gold);color:var(--black);padding:1px 5px;border-radius:4px;margin-left:6px;font-weight:700'>NUEVO</span>":''}</div>
@@ -3833,7 +3880,7 @@ function dskRenderCaps(q){
             <span class="cap-libro-chev">›</span>
           </div>
         </div>
-        <div class="cap-caps-grid${isOpenL?' open':''}" id="${gridId}">${capsHTML}</div>
+        <div class="cap-caps-grid${isOpenL?' open':''}" id="${gridId}">${dskIntroBtn}${capsHTML}</div>
       </div>`;
     }).join('');
 
@@ -6450,6 +6497,13 @@ function cerrarExegetico(){
 /* CAPITULOS_DISPONIBLES se carga dinámicamente desde /estudios/indice.json */
 /* La variable está declarada arriba en el bloque de datos dinámicos */
 
+/* ══════════ LINK DEL COLLEGE LHSCOL ══════════
+   Fuente única para el link de suscripción a RightNow Media vía LHSCOL.
+   Si el link cambia, se edita SOLO AQUÍ — los JSON de introducción de
+   libro nunca llevan la URL escrita, solo la marca "college_link",
+   así que esto se propaga automáticamente a los 66 libros. */
+const COLLEGE_LHSCOL_URL = "https://collegelhscol.netlify.app/";
+
 const LIBROS_CAPS = [
   {bloque:1,nombre:"Fundamentos",sub:"Quién es Dios. El Evangelio.",libros:[
     {n:"Génesis",caps:50},{n:"Juan",caps:21},{n:"Romanos",caps:16},
@@ -6555,6 +6609,9 @@ function renderCapitulos(query){
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join("");
 
+      const introBtn = INTROS_DISPONIBLES.has(libro.n)
+        ? `<div class="cap-cap-btn intro-libro" onclick="abrirIntroLibro(${jsStringAttr(libro.n)})" title="Introducción a ${escaparHTML(libro.n)}">INTRO</div>`
+        : '';
       return `<div>
         <div class="cap-libro-hdr${isOpenL?" open-libro":""}" onclick="toggleCapLibro('${libro.n}',this)">
           <div><span class="cap-libro-name">${libro.n}</span>${nuevoLib?"<span style='font-size:0.5rem;background:var(--gold);color:var(--black);padding:1px 5px;border-radius:4px;margin-left:6px;font-weight:700'>NUEVO</span>":""}</div>
@@ -6563,7 +6620,7 @@ function renderCapitulos(query){
             <span class="cap-libro-chev">›</span>
           </div>
         </div>
-        <div class="cap-caps-grid${isOpenL?" open":""}" id="${gridId}">${capsHTML}</div>
+        <div class="cap-caps-grid${isOpenL?" open":""}" id="${gridId}">${introBtn}${capsHTML}</div>
       </div>`;
     }).join("");
 
@@ -6727,6 +6784,201 @@ function cerrarEstudioCap(){
 function filtrarCapitulos(){
   const q=document.getElementById("cap-search")||{value:""};
   renderCapitulos(q.value||"");
+}
+
+/* ══════════════════════════════════════════════════════════════
+   INTRODUCCIÓN AL LIBRO — funciones paralelas a cargarEstudio
+   ══════════════════════════════════════════════════════════════ */
+
+// Cache en memoria: {Genesis: {…datos del JSON…}, Exodo: {…}, …}
+const INTROS_LIBROS = {};
+
+// Índice de libros que ya tienen intro disponible: Set de nombres
+let INTROS_DISPONIBLES = new Set();
+
+// Cargar el índice de intros una sola vez al iniciar la app
+async function cargarIndiceIntros(){
+  try {
+    const r = await fetch('estudios/intros/indice.json');
+    if(!r.ok) return;
+    const data = await r.json();
+    // El índice es un array de strings con los nombres de los libros disponibles
+    // Ejemplo: ["Génesis", "Éxodo", "Juan"]
+    if(Array.isArray(data)) data.forEach(n => INTROS_DISPONIBLES.add(n));
+  } catch(e){ /* Si el archivo no existe aún, INTROS_DISPONIBLES queda vacío — sin problema */ }
+}
+
+// Cargar la intro de un libro específico desde /estudios/intros/{slug}.json
+async function cargarIntroLibro(libro){
+  if(INTROS_LIBROS[libro]) return; // ya en cache
+  try {
+    // Slug: "Génesis" → "genesis", "1 Samuel" → "1-samuel"
+    const slug = libro.toLowerCase()
+      .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+      .replace(/\s+/g,'-');
+    const r = await fetch(`estudios/intros/${slug}.json`);
+    if(!r.ok) return;
+    INTROS_LIBROS[libro] = await r.json();
+  } catch(e){ /* intro no disponible */ }
+}
+
+// Construir el HTML de la sección Recursos (se usa en móvil y desktop)
+function buildRecursosHTML(recursos){
+  if(!recursos || !recursos.length) return '';
+  const iconMap = {
+    bibleproject: { cls:'bibleproject', ico:'▶' },
+    rightnow:     { cls:'rightnow',     ico:'📺' },
+    lectura:      { cls:'lectura',      ico:'📖' }
+  };
+  const items = recursos.map(rec => {
+    const m = iconMap[rec.tipo] || { cls:'lectura', ico:'📖' };
+    // Nota del College si aplica
+    const notaHTML = rec.nota === 'college_link'
+      ? `<div class="intro-recurso-nota">Para ver el video completo debes suscribirte al College de LHSCOL para tener acceso a este contenido. <a href="${COLLEGE_LHSCOL_URL}" target="_blank" rel="noopener">Más información aquí.</a></div>`
+      : '';
+    return `
+      <a class="intro-recurso-item" href="${escaparHTML(rec.url)}" target="_blank" rel="noopener">
+        <div class="intro-recurso-icon ${m.cls}">${m.ico}</div>
+        <div class="intro-recurso-text">
+          <div class="intro-recurso-titulo">${escaparHTML(rec.fuente)} — ${escaparHTML(rec.titulo)}</div>
+          <div class="intro-recurso-detalle">${escaparHTML(rec.detalle)}</div>
+        </div>
+        <span class="intro-recurso-go">↗</span>
+      </a>${notaHTML}`;
+  }).join('');
+  return `<div class="intro-recursos">
+    <div class="intro-recursos-label">Recursos recomendados</div>
+    ${items}
+  </div>`;
+}
+
+// ── MÓVIL: abrir el modal de introducción ──
+async function abrirIntroLibro(libro){
+  const modal  = document.getElementById('intro-libro-modal');
+  const titulo = document.getElementById('il-titulo');
+  const nav    = document.getElementById('il-nav');
+  const body   = document.getElementById('il-body');
+
+  // Mostrar spinner mientras carga
+  titulo.textContent = 'Cargando…';
+  nav.innerHTML = '';
+  body.innerHTML = `
+    <div style="text-align:center;padding:60px 20px;color:var(--white3)">
+      <div style="width:24px;height:24px;border:2px solid var(--gold);border-top-color:transparent;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 16px"></div>
+      <div style="font-size:0.8125rem">Cargando introducción…</div>
+    </div>`;
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+
+  await cargarIntroLibro(libro);
+  const intro = INTROS_LIBROS[libro];
+
+  if(!intro){
+    titulo.textContent = libro;
+    body.innerHTML = `<div style="padding:40px 20px;text-align:center;color:var(--white3);font-size:0.8125rem">La introducción a este libro estará disponible próximamente.</div>`;
+    return;
+  }
+
+  titulo.textContent = 'Introducción a ' + intro.libro;
+
+  // Construir tabs de navegación
+  const secciones = intro.secciones || [];
+  nav.innerHTML = secciones.map((s,i) =>
+    `<button onclick="ilSec(this,${i})"
+      style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">
+      ${escaparHTML(s.nav)}
+    </button>`
+  ).join('');
+
+  // Construir secciones de contenido (la última tab lleva los recursos)
+  const recursosHTML = buildRecursosHTML(intro.recursos);
+  body.innerHTML = secciones.map((s,i) => `
+    <div class="intro-libro-sec${i===0?' active':''}" id="il-sec-${i}">
+      <div style="font-size:0.5625rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.7;margin-bottom:10px;font-weight:600">${escaparHTML(s.nav)}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--white);line-height:1.4;margin-bottom:16px;font-style:italic">${escaparHTML(s.titulo)}</div>
+      <div class="estudio-sec-body">${sanearHTMLPermitido(s.html)}</div>
+      ${i === secciones.length - 1 ? recursosHTML : ''}
+    </div>`
+  ).join('');
+}
+
+// Cambiar sección activa en móvil
+function ilSec(btn, idx){
+  const nav  = document.getElementById('il-nav');
+  const body = document.getElementById('il-body');
+  if(!nav || !body) return;
+  nav.querySelectorAll('button').forEach((b,i)=>{
+    b.style.background   = i===idx ? 'var(--gold-dim)'    : 'var(--black4)';
+    b.style.borderColor  = i===idx ? 'var(--gold-border)' : 'rgba(255,255,255,0.07)';
+    b.style.color        = i===idx ? 'var(--gold)'        : 'var(--white3)';
+  });
+  body.querySelectorAll('.intro-libro-sec').forEach((s,i)=>{
+    s.classList.toggle('active', i===idx);
+  });
+  body.scrollTop = 0;
+}
+
+// Cerrar modal de introducción
+function cerrarIntroLibro(){
+  document.getElementById('intro-libro-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// ── DESKTOP: abrir la intro en el workspace (usa dskWsShow igual que dskAbrirCap) ──
+async function dskAbrirIntroLibro(libro){
+  dskWsShow('Cargando…', `
+    <div style="text-align:center;padding:60px 20px;color:var(--white3)">
+      <div style="width:24px;height:24px;border:2px solid var(--gold);border-top-color:transparent;border-radius:50%;animation:spin 0.8s linear infinite;margin:0 auto 16px"></div>
+      <div style="font-size:0.8125rem">Cargando introducción…</div>
+    </div>`);
+
+  await cargarIntroLibro(libro);
+  const intro = INTROS_LIBROS[libro];
+
+  if(!intro){
+    dskWsShow('Introducción a ' + libro, `
+      <div style="padding:40px 20px;text-align:center;color:var(--white3);font-size:0.8125rem">La introducción a este libro estará disponible próximamente.</div>`);
+    return;
+  }
+
+  const secciones = intro.secciones || [];
+  const recursosHTML = buildRecursosHTML(intro.recursos);
+
+  const navHtml = secciones.map((s,i)=>
+    `<button onclick="dskIlSec(this,${i})"
+      style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">
+      ${escaparHTML(s.nav)}
+    </button>`
+  ).join('');
+
+  const bodyHtml = secciones.map((s,i)=>`
+    <div class="dsk-il-sec${i===0?' active':''}" id="dsk-il-sec-${i}" style="display:${i===0?'block':'none'}">
+      <div style="font-size:0.5625rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.7;margin-bottom:10px;font-weight:600">${escaparHTML(s.nav)}</div>
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--white);line-height:1.4;margin-bottom:16px;font-style:italic">${escaparHTML(s.titulo)}</div>
+      <div class="estudio-sec-body">${sanearHTMLPermitido(s.html)}</div>
+      ${i === secciones.length - 1 ? recursosHTML : ''}
+    </div>`
+  ).join('');
+
+  dskWsShow('Introducción a ' + intro.libro, `
+    <div style="position:sticky;top:0;background:var(--black);padding:0 0 14px;z-index:1">
+      <div style="display:flex;gap:6px;flex-wrap:wrap" id="dsk-il-nav">${navHtml}</div>
+    </div>
+    <div id="dsk-il-body">${bodyHtml}</div>`);
+}
+
+// Cambiar sección activa en desktop
+function dskIlSec(btn, idx){
+  const nav  = document.getElementById('dsk-il-nav');
+  const body = document.getElementById('dsk-il-body');
+  if(!nav || !body) return;
+  nav.querySelectorAll('button').forEach((b,i)=>{
+    b.style.background  = i===idx ? 'var(--gold-dim)'    : 'var(--black4)';
+    b.style.borderColor = i===idx ? 'var(--gold-border)' : 'rgba(255,255,255,0.07)';
+    b.style.color       = i===idx ? 'var(--gold)'        : 'var(--white3)';
+  });
+  body.querySelectorAll('[id^="dsk-il-sec-"]').forEach((s,i)=>{s.style.display = i===idx ? 'block' : 'none';});
+  document.getElementById('dsk-ws-content').scrollTop = 0;
 }
 </script>
 
