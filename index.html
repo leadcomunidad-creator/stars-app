@@ -914,6 +914,15 @@ body.modo-dia .bottom-nav{
   background:var(--green-dim);border-color:var(--green-border);
   color:var(--green2);
 }
+.tcap-cap-btn.parcial{
+  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  color:var(--gold);
+}
+.tcap-cap-btn.parcial::after{
+  content:'';
+  position:absolute;bottom:7px;left:50%;transform:translateX(-50%);
+  width:5px;height:5px;border-radius:50%;background:var(--gold);
+}
 .tcap-cap-btn.leido:hover{background:rgba(74,157,111,0.3)}
 .tcap-cap-btn:not(.leido):hover{border-color:var(--gold-border);color:var(--gold)}
 /* ══ MODAL ESTUDIO CAPÍTULO ══ */
@@ -931,6 +940,8 @@ body.modo-dia .bottom-nav{
 .estudio-cap-navbtn{background:var(--black3);border:1px solid rgba(255,255,255,0.07);color:var(--white3);font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:20px;cursor:pointer;white-space:nowrap;transition:all 0.15s;flex-shrink:0}
 .estudio-cap-navbtn:hover{border-color:var(--gold-border);color:var(--gold)}
 .estudio-cap-navbtn.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--gold)}
+.estudio-cap-navbtn.leida{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
+.estudio-cap-navbtn.leida.active{background:rgba(74,157,111,0.26);border-color:var(--green2);color:var(--white)}
 .estudio-cap-body{flex:1;overflow-y:auto;padding:24px 20px 40px}
 .estudio-sec{display:none}
 .estudio-sec.active{display:block}
@@ -1042,6 +1053,20 @@ body.modo-dia .bottom-nav{
   background:var(--green-dim);border-color:var(--green-border);
   color:var(--green2);cursor:pointer;
 }
+.cap-cap-btn.disponible.parcial{
+  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  color:var(--gold);
+}
+.cap-cap-btn.disponible.leido{
+  background:var(--green-dim);border-color:var(--green-border);
+  color:var(--green2);
+}
+.cap-cap-btn.disponible.parcial::before,
+.cap-cap-btn.disponible.leido::before{
+  position:absolute;left:6px;top:5px;font-size:0.5rem;font-weight:800;
+}
+.cap-cap-btn.disponible.parcial::before{content:'•';color:var(--gold)}
+.cap-cap-btn.disponible.leido::before{content:'✓';color:var(--green2)}
 .cap-cap-btn.disponible:hover{background:rgba(74,157,111,0.25);transform:scale(1.05)}
 .cap-cap-btn.nuevo::after{
   content:'NEW';position:absolute;top:-5px;right:-5px;
@@ -1323,7 +1348,7 @@ body.modo-dia .bottom-nav{
 
   /* Toast centrado en desktop para confirmaciones de paso */
   .toast-paso{
-    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(0.9);
+    position:fixed; top:auto; bottom:28px; left:calc(420px + (100vw - 420px) / 2); transform:translateX(-50%) translateY(12px) scale(0.96);
     background:var(--green-dim); border:1px solid var(--green-border);
     color:var(--green2); font-size:0.9375rem; font-weight:700;
     font-family:'Outfit',sans-serif; padding:16px 32px;
@@ -1331,7 +1356,7 @@ body.modo-dia .bottom-nav{
     opacity:0; transition:all 0.25s; letter-spacing:0.06em;
     text-align:center;
   }
-  .toast-paso.show{ opacity:1; transform:translate(-50%,-50%) scale(1); }
+  .toast-paso.show{ opacity:1; transform:translateX(-50%) translateY(0) scale(1); }
 
 }
 
@@ -3677,6 +3702,7 @@ function dskWsPaso(idx){
 
 /* ── Timer silencio desktop ── */
 let _dskTimerInterval = null;
+let _dskTimerFinishTimeout = null;
 let _dskTimerSecs = 300;
 let _dskTimerRunning = false;
 let _dskTimerStartedAt = null;
@@ -3688,17 +3714,26 @@ function _dskTimerTick(){
   _dskTimerSecs = Math.max(0, _dskTimerSecsAtStart - elapsed);
   _dskActualizarTimerUI();
   if(_dskTimerSecs<=0){
-    clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false;
-    const lbl = document.getElementById('dsk-timer-label');
-    const fill = document.getElementById('dsk-timer-fill');
-    if(lbl) lbl.textContent='✓';
-    if(fill) fill.setAttribute('stroke','var(--green2)');
-    marcarPaso(0);
-    dskActualizarBadgesPasos();
-    tocarPitidoFinal();
+    finalizarTimerDesktop();
   }
 }
 
+function finalizarTimerDesktop(){
+  if(!_dskTimerRunning && _dskTimerSecs<=0) return;
+  clearInterval(_dskTimerInterval); _dskTimerInterval=null;
+  clearTimeout(_dskTimerFinishTimeout); _dskTimerFinishTimeout=null;
+  _dskTimerSecs = 0;
+  _dskTimerRunning=false;
+  const lbl = document.getElementById('dsk-timer-label');
+  const fill = document.getElementById('dsk-timer-fill');
+  const btn = document.getElementById('dsk-timer-btn');
+  if(lbl) lbl.textContent='✓';
+  if(fill){ fill.setAttribute('stroke','var(--green2)'); fill.setAttribute('stroke-dashoffset',0); }
+  if(btn){ btn.textContent='Finalizado'; btn.style.opacity='0.75'; btn.style.cursor='default'; }
+  marcarPaso(0);
+  dskActualizarBadgesPasos();
+  avisarTimerFinalizado();
+}
 function dskIniciarTimer(){
   if(_dskTimerRunning) return;
   _dskTimerRunning = true;
@@ -3708,7 +3743,10 @@ function dskIniciarTimer(){
   const btn = document.getElementById('dsk-timer-btn');
   if(btn){ btn.textContent = 'Corriendo…'; btn.style.opacity='0.5'; btn.style.cursor='default'; }
   try{ getAudioCtx(); }catch(e){}
+  prepararAvisoTimer();
   _dskTimerInterval = setInterval(_dskTimerTick, 500);
+  clearTimeout(_dskTimerFinishTimeout);
+  _dskTimerFinishTimeout = setTimeout(finalizarTimerDesktop, (_dskTimerSecs + 1) * 1000);
 }
 
 function _dskActualizarTimerUI(){
@@ -3788,7 +3826,8 @@ function dskWsTracker(){
         // Botones solo visuales, sin onclick
         const capsHTML = Array.from({length:l.c},(_,i)=>{
           const cap=i+1; const leido=isCapLeido(l.n,cap);
-          return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
+          const estado = leido ? 'leido' : getEstudioEstado(l.n, cap);
+          return `<div class="tcap-cap-btn${estado?' '+estado:''}" title="${l.n} ${cap}">${cap}</div>`;
         }).join('');
         const wrapId = 'dsk-tcap-caps-'+l.n.replace(/\s/g,'-');
         return `<div class="tcap-libro">
@@ -3865,6 +3904,7 @@ function dskRenderCaps(q){
         const cap=i+1; const k=getCapKey(libro.n,cap); const dato=CAPITULOS_DISPONIBLES[k];
         if(dato){
           const isNew=esNuevo(dato.fecha);
+          const estado=getEstudioEstado(libro.n,cap);
           return `<div class="cap-cap-btn disponible${isNew?' nuevo':''}" onclick="dskAbrirCap('${k}')" title="${libro.n} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
@@ -3897,6 +3937,7 @@ function dskRenderCaps(q){
       <div class="cap-libros${isOpenB?' open':''}" id="dsk-cap-libros-${bloque.bloque}">${librosHTML}</div>`;
     el.appendChild(bloqueEl);
   });
+  decorarCapitulosProgreso(el);
 }
 function dskToggleCapBloque(num,hdr){
   const body=document.getElementById('dsk-cap-libros-'+num);
@@ -3935,16 +3976,18 @@ async function dskAbrirCap(key){
   const estudio = ESTUDIOS_CAPS[key];
   if(estudio){
     _ecapKey = key; // ← compartido con el modal mobile
-    if(!_ecapMaxSec[key]) _ecapMaxSec[key] = 0;
+    _ecapMaxSec[key] = getEstudioMaxSec(key);
+    const maxSec = _ecapMaxSec[key];
+    const secInicial = maxSec;
     const navHtml = estudio.secciones.map((s,i)=>
-      `<button onclick="dskCapSec(this,${i})" style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${escaparHTML(s.nav)}</button>`
+      `<button class="${i<=maxSec?'leida':''}" onclick="dskCapSec(this,${i})" style="background:${i===secInicial?'var(--gold-dim)':i<=maxSec?'var(--green-dim)':'var(--black4)'};border:1px solid ${i===secInicial?'var(--gold-border)':i<=maxSec?'var(--green-border)':'rgba(255,255,255,0.07)'};color:${i===secInicial?'var(--gold)':i<=maxSec?'var(--green2)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${escaparHTML(s.nav)}</button>`
     ).join('');
     const bodyHtml = estudio.secciones.map((s,i)=>
-      `<div class="dsk-cap-sec${i===0?' cap-sec-active':''}" style="display:${i===0?'block':'none'}">${sanearHTMLPermitido(s.html)}</div>`
+      `<div class="dsk-cap-sec${i===secInicial?' cap-sec-active':''}" style="display:${i===secInicial?'block':'none'}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
     const total = estudio.secciones.length;
-    const pctInicial = _ecapMaxSec[key] > 0
-      ? Math.round((_ecapMaxSec[key] / (total - 1)) * 100)
+    const pctInicial = maxSec > 0
+      ? Math.round((maxSec / (total - 1)) * 100)
       : 0;
     dskWsShow(estudio.titulo, `
       <div style="position:sticky;top:0;background:var(--black);padding:0 0 16px;z-index:1">
@@ -3968,20 +4011,19 @@ function dskCapSec(btn, idx){
   const nav = document.getElementById('dsk-cap-nav');
   const body = document.getElementById('dsk-cap-body');
   if(!nav||!body) return;
+  const total = ESTUDIOS_CAPS[_ecapKey]?.secciones?.length || 10;
+  const maxSec = setEstudioMaxSec(_ecapKey, idx);
   nav.querySelectorAll('button').forEach((b,i)=>{
-    b.style.background = i===idx?'var(--gold-dim)':'var(--black4)';
-    b.style.borderColor = i===idx?'var(--gold-border)':'rgba(255,255,255,0.07)';
-    b.style.color = i===idx?'var(--gold)':'var(--white3)';
+    b.classList.toggle('leida', i<=maxSec);
+    b.style.background = i===idx?'var(--gold-dim)':i<=maxSec?'var(--green-dim)':'var(--black4)';
+    b.style.borderColor = i===idx?'var(--gold-border)':i<=maxSec?'var(--green-border)':'rgba(255,255,255,0.07)';
+    b.style.color = i===idx?'var(--gold)':i<=maxSec?'var(--green2)':'var(--white3)';
   });
   body.querySelectorAll('[class^="dsk-cap-sec"]').forEach((s,i)=>{s.style.display=i===idx?'block':'none';});
   document.getElementById('dsk-ws-content').scrollTop=0;
   setTimeout(()=>dskPostProcesarReflexion(_ecapKey, idx), 50);
   // Actualizar barra de progreso — solo avanza
-  if(!_ecapMaxSec[_ecapKey] || idx > _ecapMaxSec[_ecapKey]){
-    _ecapMaxSec[_ecapKey] = idx;
-  }
-  const total = ESTUDIOS_CAPS[_ecapKey]?.secciones?.length || 10;
-  const pct = total > 1 ? Math.round((_ecapMaxSec[_ecapKey] / (total - 1)) * 100) : 100;
+  const pct = total > 1 ? Math.round((maxSec / (total - 1)) * 100) : 100;
   const bar = document.getElementById('dsk-ecap-progress');
   if(bar) bar.style.width = pct+'%';
   const pctEl = document.getElementById('dsk-cap-pct');
@@ -4462,6 +4504,8 @@ function abrirPaso(i){
   // Si es el modal de silencio y el timer estaba corriendo, reanudarlo
   if(i===0 && timerRunning && !timerInterval && timerSecs > 0){
     timerInterval=setInterval(_timerTick, 500);
+    clearTimeout(timerFinishTimeout);
+    timerFinishTimeout=setTimeout(finalizarTimerMobile, (timerSecs + 1) * 1000);
   }
   // Si ya terminó y vuelve a abrir, mostrar el botón de completar
   if(i===0 && timerSecs<=0 && !timerRunning){
@@ -4559,6 +4603,27 @@ function tocarPitidoFinal(){
 }
 
 // Abrir música de fondo (YouTube/Spotify) en pestaña nueva al iniciar el silencio
+function prepararAvisoTimer(){
+  try{
+    if('Notification' in window && Notification.permission === 'default'){
+      Notification.requestPermission().catch(()=>{});
+    }
+  }catch(e){}
+}
+
+function avisarTimerFinalizado(){
+  tocarPitidoFinal();
+  try{ if(navigator.vibrate) navigator.vibrate([180,80,180]); }catch(e){}
+  try{
+    if('Notification' in window && Notification.permission === 'granted'){
+      new Notification('S.T.A.R.S. · Silencio finalizado', {
+        body: 'El tiempo de silencio se cumplió.',
+        silent: false
+      });
+    }
+  }catch(e){}
+}
+
 function abrirMusicaSilencio(){
   const devo = getDevoHoy();
   if(!devo?.musica_url) return;
@@ -4585,6 +4650,7 @@ function abrirPasoSiDesbloqueado(idx){
 
 /* Timer Silencio */
 let timerSecs=300;
+let timerFinishTimeout=null;
 let timerStartedAt=null;   // timestamp de cuando se inició
 let timerSecsAtStart=300;  // segundos que quedaban al iniciar
 
@@ -4600,18 +4666,32 @@ function _timerTick(){
   if(label) label.textContent=m+':'+(s<10?'0':'')+s;
   if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
   if(timerSecs<=0){
-    clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-    if(label) label.textContent='✓';
-    document.getElementById('modal-done-0').classList.add('show');
-    marcarPaso(0);
-    if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
-    tocarPitidoFinal();
+    finalizarTimerMobile();
   }
 }
 
+function finalizarTimerMobile(){
+  if(!timerRunning && timerSecs<=0) return;
+  clearInterval(timerInterval); timerInterval=null;
+  clearTimeout(timerFinishTimeout); timerFinishTimeout=null;
+  timerSecs=0;
+  timerRunning=false;
+  const label=document.getElementById('timer-label');
+  const fill=document.getElementById('timer-fill');
+  const hint=document.getElementById('timer-hint');
+  if(label) label.textContent='✓';
+  if(fill) fill.style.strokeDashoffset=0;
+  if(hint){ hint.textContent='Finalizado'; hint.style.display='block'; hint.style.opacity='0.75'; }
+  const doneBtn=document.getElementById('modal-done-0');
+  if(doneBtn) doneBtn.classList.add('show');
+  marcarPaso(0);
+  if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
+  avisarTimerFinalizado();
+}
 function iniciarTimer(){
   if(timerRunning) return;
   try { getAudioCtx(); } catch(e){}
+  prepararAvisoTimer();
   timerRunning=true;
   const hint=document.getElementById('timer-hint');
   if(hint) hint.style.display='none';
@@ -4621,6 +4701,8 @@ function iniciarTimer(){
   timerStartedAt=Date.now();
   timerSecsAtStart=timerSecs;
   timerInterval=setInterval(_timerTick, 500);
+  clearTimeout(timerFinishTimeout);
+  timerFinishTimeout=setTimeout(finalizarTimerMobile, (timerSecs + 1) * 1000);
 }
 
 // Cuando la pantalla vuelve a ser visible, recalcular con tiempo real
@@ -4629,16 +4711,7 @@ document.addEventListener('visibilitychange', ()=>{
     const elapsed = Math.floor((Date.now() - timerStartedAt) / 1000);
     timerSecs = Math.max(0, timerSecsAtStart - elapsed);
     if(timerSecs <= 0){
-      clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-      const label=document.getElementById('timer-label');
-      const fill=document.getElementById('timer-fill');
-      if(label) label.textContent='✓';
-      if(fill) fill.style.strokeDashoffset=0;
-      const doneBtn=document.getElementById('modal-done-0');
-      if(doneBtn) doneBtn.classList.add('show');
-      marcarPaso(0);
-      if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
-      tocarPitidoFinal();
+      finalizarTimerMobile();
     }
   }
 });
@@ -5552,6 +5625,38 @@ const _navToOriginal = typeof navTo !== 'undefined' ? navTo : null;
 // Key por capítulo: stars_cap_LIBRO_N
 function capKey(libro, cap){ return 'stars_cap_'+libro.replace(/\s/g,'_')+'_'+cap; }
 function isCapLeido(libro, cap){ return window.FB ? window.FB.isCap(libro,cap) : localStorage.getItem(capKey(libro,cap))==='1'; }
+function estudioProgressKey(key){ return 'stars_estudio_progress_' + String(key||'').replace(/\s+/g,'_'); }
+function getEstudioMaxSec(key){
+  const stored = parseInt(localStorage.getItem(estudioProgressKey(key)) || '0', 10);
+  const mem = _ecapMaxSec[key] || 0;
+  const partes = String(key||'').split('_');
+  const cap = parseInt(partes[partes.length-1], 10);
+  const libro = partes.slice(0, -1).join(' ');
+  const completo = localStorage.getItem('stars_estudio_' + key)==='1' || (!isNaN(cap) && libro && isCapLeido(libro, cap));
+  return Math.max(isNaN(stored) ? 0 : stored, mem, completo ? 9 : 0);
+}
+function setEstudioMaxSec(key, idx){
+  const safeIdx = Math.max(0, parseInt(idx, 10) || 0);
+  const next = Math.max(getEstudioMaxSec(key), safeIdx);
+  _ecapMaxSec[key] = next;
+  localStorage.setItem(estudioProgressKey(key), String(next));
+  return next;
+}
+function getEstudioEstado(libro, cap){
+  const key = String(libro||'').replace(/\s/g,'_') + '_' + cap;
+  if(isCapLeido(libro, cap)) return 'leido';
+  return getEstudioMaxSec(key) > 0 ? 'parcial' : '';
+}
+function decorarCapitulosProgreso(root=document){
+  root.querySelectorAll('.cap-cap-btn.disponible[title]').forEach(btn=>{
+    const title = btn.getAttribute('title') || '';
+    const m = title.match(/^(.+)\s+(\d+)$/);
+    if(!m) return;
+    btn.classList.remove('parcial','leido');
+    const estado = getEstudioEstado(m[1], parseInt(m[2],10));
+    if(estado) btn.classList.add(estado);
+  });
+}
 function toggleCap(libro, cap, el){
   const yaLeido = isCapLeido(libro, cap);
   if(yaLeido){
@@ -5631,7 +5736,8 @@ function renderTrackerCaps(){
       const capsHTML = Array.from({length:l.c},(_,i)=>{
         const cap=i+1;
         const leido=isCapLeido(l.n,cap);
-        return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
+        const estado = leido ? 'leido' : getEstudioEstado(l.n, cap);
+        return `<div class="tcap-cap-btn${estado?' '+estado:''}" title="${l.n} ${cap}">${cap}</div>`;
       }).join('');
 
       return `<div class="tcap-libro">
@@ -6604,7 +6710,8 @@ function renderCapitulos(query){
         const dato=CAPITULOS_DISPONIBLES[k];
         if(dato){
           const isNew=esNuevo(dato.fecha);
-          return `<div class="cap-cap-btn disponible${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+          const estado=getEstudioEstado(libro.n,cap);
+          return `<div class="cap-cap-btn disponible${estado?' '+estado:''}${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join("");
@@ -6637,6 +6744,7 @@ function renderCapitulos(query){
       <div class="cap-libros${isOpenB?" open":""}" id="cap-libros-${bloque.bloque}">${librosHTML}</div>`;
     container.appendChild(bloqueEl);
   });
+  decorarCapitulosProgreso(container);
 }
 
 function toggleCapBloque(num,hdr){
@@ -6691,8 +6799,9 @@ async function abrirCapitulo(key){
   const estudio = ESTUDIOS_CAPS[key];
 
   if(estudio){
-    _ecapSecActual = 0;
     _ecapKey = key;
+    _ecapMaxSec[key] = getEstudioMaxSec(key);
+    _ecapSecActual = _ecapMaxSec[key];
 
     document.getElementById('ecap-titulo').textContent = estudio.titulo;
 
@@ -6701,16 +6810,16 @@ async function abrirCapitulo(key){
     // Nav
     const nav = document.getElementById('ecap-nav');
     nav.innerHTML = estudio.secciones.map((s,i) =>
-      `<button class="estudio-cap-navbtn${i===0?' active':''}" onclick="irSeccion(${i})">${escaparHTML(s.nav)}</button>`
+      `<button class="estudio-cap-navbtn${i===_ecapSecActual?' active':''}${i<=_ecapMaxSec[key]?' leida':''}" onclick="irSeccion(${i})">${escaparHTML(s.nav)}</button>`
     ).join('');
 
     // Body
     const body = document.getElementById('ecap-body');
     body.innerHTML = estudio.secciones.map((s,i) =>
-      `<div class="estudio-sec${i===0?' active':''}" id="ecap-sec-${i}">${sanearHTMLPermitido(s.html)}</div>`
+      `<div class="estudio-sec${i===_ecapSecActual?' active':''}" id="ecap-sec-${i}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
 
-    actualizarProgressCap(0, estudio.secciones.length);
+    actualizarProgressCap(_ecapMaxSec[key], estudio.secciones.length);
     document.getElementById('estudio-cap-modal').classList.add('open');
     document.body.style.overflow = 'hidden';
   } else {
@@ -6726,18 +6835,19 @@ function irSeccion(idx){
   if(!estudio) return;
   const total = estudio.secciones.length;
 
+  const maxSec = setEstudioMaxSec(_ecapKey, idx);
   document.querySelectorAll('.estudio-sec').forEach((s,i) => s.classList.toggle('active', i===idx));
-  document.querySelectorAll('.estudio-cap-navbtn').forEach((b,i) => b.classList.toggle('active', i===idx));
+  document.querySelectorAll('.estudio-cap-navbtn').forEach((b,i) => {
+    b.classList.toggle('active', i===idx);
+    b.classList.toggle('leida', i<=maxSec);
+  });
 
   document.getElementById('ecap-body').scrollTop = 0;
   _ecapSecActual = idx;
   setTimeout(()=>movilPostProcesarReflexion(_ecapKey, idx), 50);
 
   // Solo avanza — nunca retrocede
-  if(!_ecapMaxSec[_ecapKey] || idx > _ecapMaxSec[_ecapKey]) {
-    _ecapMaxSec[_ecapKey] = idx;
-  }
-  actualizarProgressCap(_ecapMaxSec[_ecapKey], total);
+  actualizarProgressCap(maxSec, total);
 
   // Al llegar a la última sección (Frase) — marcar el capítulo como leído
   if(idx === total - 1) {
@@ -6757,6 +6867,9 @@ function marcarCapituloLeido(key){
   const stored = window.FB ? window.FB.isCap('estudio', key) : localStorage.getItem('stars_estudio_' + key);
   if(stored === '1') return; // ya marcado
 
+  const total = ESTUDIOS_CAPS[key]?.secciones?.length || 10;
+  setEstudioMaxSec(key, Math.max(0, total - 1));
+
   // Guardar que este estudio fue completado
   if(window.FB) window.FB.setCap('estudio', key);
   else localStorage.setItem('stars_estudio_' + key, '1');
@@ -6772,6 +6885,8 @@ function marcarCapituloLeido(key){
     else localStorage.setItem(capKey(libro, cap), '1');
     updateTracker();
     renderTrackerCaps();
+    if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
+    if(typeof dskRenderCaps === 'function') dskRenderCaps(document.getElementById('dsk-cap-search')?.value || '');
     showToast('✓ ' + libro + ' ' + cap + ' completado');
   }
 }
@@ -7010,6 +7125,7 @@ function dskIlSec(btn, idx){
         <div class="dsk-tab active" data-tab="hoy" onclick="dskTab('hoy')">Hoy</div>
         <div class="dsk-tab" data-tab="estudio" onclick="dskTab('estudio')">Estudio</div>
         <div class="dsk-tab" data-tab="musica" onclick="dskTab('musica')">Música</div>
+        <div class="dsk-tab" data-tab="lhscol" onclick="window.open('https://lhscolweb.netlify.app/','_blank','noopener')">LHSCOL</div>
       </div>
 
       <!-- Panel scroll -->
