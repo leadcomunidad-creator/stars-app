@@ -1829,6 +1829,19 @@ body.admin-mode .tracker-full-header{
       const key = 'cap_' + libro.replace(/\s/g,'_') + '_' + cap;
       return fbGet(key, '') === '1';
     },
+    // Progreso parcial de estudios por capítulo (separador de libro)
+    setEstudioProgress: (capKey, idx) => {
+      const key = 'estudio_progress_' + String(capKey||'').replace(/\s+/g,'_');
+      const safeIdx = Math.max(0, parseInt(idx, 10) || 0);
+      const current = parseInt(fbGet(key, '0'), 10) || 0;
+      const next = Math.max(current, safeIdx);
+      _userData[key] = String(next);
+      fbSet({[key]: String(next)});
+    },
+    getEstudioProgress: (capKey) => {
+      const key = 'estudio_progress_' + String(capKey||'').replace(/\s+/g,'_');
+      return parseInt(fbGet(key, '0'), 10) || 0;
+    },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
       const hoy = window.ADMIN_DATE || new Date();
@@ -1924,6 +1937,8 @@ body.admin-mode .tracker-full-header{
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof updateRachaUI === 'function') updateRachaUI();
+            if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
+            if(typeof dskRenderCaps === 'function') dskRenderCaps(document.getElementById('dsk-cap-search')?.value || '');
           }
         }
       });
@@ -5665,22 +5680,36 @@ function db_abrirDiario(){ navTo('diario'); }
 const _navToOriginal = typeof navTo !== 'undefined' ? navTo : null;
 // Key por capítulo: stars_cap_LIBRO_N
 function capKey(libro, cap){ return 'stars_cap_'+libro.replace(/\s/g,'_')+'_'+cap; }
-function isCapLeido(libro, cap){ return window.FB ? window.FB.isCap(libro,cap) : localStorage.getItem(capKey(libro,cap))==='1'; }
+function isCapLeido(libro, cap){
+  const localDone = localStorage.getItem(capKey(libro,cap)) === '1';
+  if(!window.FB) return localDone;
+  const cloudDone = window.FB.isCap(libro, cap);
+  if(localDone && !cloudDone) window.FB.setCap(libro, cap);
+  return cloudDone || localDone;
+}
 function estudioProgressKey(key){ return 'stars_estudio_progress_' + String(key||'').replace(/\s+/g,'_'); }
 function getEstudioMaxSec(key){
   const stored = parseInt(localStorage.getItem(estudioProgressKey(key)) || '0', 10);
+  const cloud = window.FB ? window.FB.getEstudioProgress(key) : 0;
   const mem = _ecapMaxSec[key] || 0;
   const partes = String(key||'').split('_');
   const cap = parseInt(partes[partes.length-1], 10);
   const libro = partes.slice(0, -1).join(' ');
   const completo = localStorage.getItem('stars_estudio_' + key)==='1' || (!isNaN(cap) && libro && isCapLeido(libro, cap));
-  return Math.max(isNaN(stored) ? 0 : stored, mem, completo ? 9 : 0);
+  const max = Math.max(isNaN(stored) ? 0 : stored, cloud, mem, completo ? 9 : 0);
+  if(window.FB && max > cloud) window.FB.setEstudioProgress(key, max);
+  if(window.FB && completo){
+    window.FB.setCap('estudio', key);
+    if(!isNaN(cap) && libro) window.FB.setCap(libro, cap);
+  }
+  return max;
 }
 function setEstudioMaxSec(key, idx){
   const safeIdx = Math.max(0, parseInt(idx, 10) || 0);
   const next = Math.max(getEstudioMaxSec(key), safeIdx);
   _ecapMaxSec[key] = next;
   localStorage.setItem(estudioProgressKey(key), String(next));
+  if(window.FB) window.FB.setEstudioProgress(key, next);
   return next;
 }
 function getEstudioEstado(libro, cap){
