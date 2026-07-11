@@ -353,6 +353,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 /* Notas de la versión — ítems separados, no párrafo */
 .ar-notes-list{display:flex;flex-direction:column;gap:11px}
 .ar-note{background:var(--black3);border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:13px 14px;min-width:0}
+.ar-note-ref{font-size:0.6875rem;color:var(--white3);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:5px;line-height:1.4}
 .ar-note-en{font-size:0.78125rem;color:var(--gold);font-weight:600;font-style:italic;margin-bottom:5px;line-height:1.5;overflow-wrap:break-word}
 .ar-note-es{font-size:0.8125rem;color:var(--white);font-weight:600;margin-bottom:7px;line-height:1.5}
 .ar-note-analisis{font-size:0.8125rem;color:var(--white2);line-height:1.8}
@@ -466,6 +467,16 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   grid-template-columns:1fr 1fr;
   gap:10px;
 }
+.ar-ficha--wide .ar-compare{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.ar-ficha--wide .ar-grid-texts{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
 .ar-ficha--wide .ar-block{
   background:var(--black3);
 }
@@ -485,6 +496,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   /* Por debajo de 900px el workspace desktop ya es estrecho: la ficha cae a 1 columna */
   .ar-ficha--wide{padding:20px 20px 22px}
   .ar-ficha--wide .ar-grid,
+  .ar-ficha--wide .ar-grid-texts,
   .ar-ficha--wide .ar-notes-list{grid-template-columns:1fr}
 }
 
@@ -5106,6 +5118,8 @@ const AR_TITULOS = {
   'SENTIDO CENTRAL': 'Sentido central',
   'EXPLICACIÓN BREVE': 'Explicación breve',
   'EXPLICACION BREVE': 'Explicación breve',
+  'EXPLICACIÓN': 'Explicación',
+  'EXPLICACION': 'Explicación',
   'NOTAS DE LA VERSIÓN': 'Notas de la versión',
   'NOTAS DE LA VERSION': 'Notas de la versión',
   'PARA MEDITAR': 'Para meditar'
@@ -5156,7 +5170,14 @@ function formatearAnalisisFichaHTML(text, opts){
         const limpia = linea.replace(/^[-•\d.)\s]+/,'').trim();
         if(!limpia) return;
         const partes = limpia.split('|').map(p => p.trim());
-        if(partes.length >= 3){
+        if(partes.length >= 4){
+          itemsHtml += '<div class="ar-note">'
+            + '<div class="ar-note-ref">'+arInlineFmt(partes[0])+'</div>'
+            + '<div class="ar-note-en">"'+arInlineFmt(partes[1])+'"</div>'
+            + '<div class="ar-note-es">'+arInlineFmt(partes[2])+'</div>'
+            + '<div class="ar-note-analisis">'+arInlineFmt(partes.slice(3).join(' | '))+'</div>'
+            + '</div>';
+        }else if(partes.length >= 3){
           itemsHtml += '<div class="ar-note">'
             + '<div class="ar-note-en">"'+arInlineFmt(partes[0])+'"</div>'
             + '<div class="ar-note-es">'+arInlineFmt(partes[1])+'</div>'
@@ -5210,12 +5231,19 @@ function formatearAnalisisFichaHTML(text, opts){
     const esTexto = sec.titulo.indexOf('TEXTO') === 0;
     const esRef = (sec.titulo === 'VERSÍCULO' || sec.titulo === 'VERSICULO');
     if(esRef || esTexto){
-      let grupoHtml = '';
+      let refHtml = '';
+      let textosHtml = '';
       while(i < secciones.length && (secciones[i].titulo === 'VERSÍCULO' || secciones[i].titulo === 'VERSICULO' || secciones[i].titulo.indexOf('TEXTO') === 0)){
-        grupoHtml += bloqueHTML(secciones[i]);
+        if(secciones[i].titulo === 'VERSÍCULO' || secciones[i].titulo === 'VERSICULO'){
+          refHtml += bloqueHTML(secciones[i]);
+        }else{
+          textosHtml += bloqueHTML(secciones[i]);
+        }
         i++;
       }
-      html += '<div class="ar-grid">'+grupoHtml+'</div>';
+      html += '<div class="ar-compare">'+refHtml;
+      if(textosHtml) html += '<div class="ar-grid-texts">'+textosHtml+'</div>';
+      html += '</div>';
     }else{
       html += bloqueHTML(sec);
       i++;
