@@ -19,13 +19,13 @@
 [[headers]]
   for = "/devocionales/*"
   [headers.values]
-    Cache-Control = "public, max-age=3600"
+    Cache-Control = "no-cache"
     Access-Control-Allow-Origin = "*"
 
 [[headers]]
   for = "/estudios/*"
   [headers.values]
-    Cache-Control = "public, max-age=86400"
+    Cache-Control = "no-cache"
     Access-Control-Allow-Origin = "*"
 
 [[redirects]]
