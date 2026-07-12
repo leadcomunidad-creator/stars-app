@@ -7,14 +7,14 @@
 <meta name="theme-color" content="#0a0a0a">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="S·T·A·R·S">
+<meta name="apple-mobile-web-app-title" content="S · T · A · R · S">
 <link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/icons/icon-192.png">
-<link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png">
-<link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png">
+<link rel="icon" type="image/png" sizes="675x675" href="/icons/stars-favicon.png">
+<link rel="shortcut icon" type="image/png" href="/icons/stars-favicon.png">
+<link rel="apple-touch-icon" href="/icons/stars-favicon.png">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="application-name" content="S·T·A·R·S">
-<title>S.T.A.R.S. — LHSCOL</title>
+<meta name="application-name" content="S · T · A · R · S">
+<title>S · T · A · R · S</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -192,7 +192,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   display:none;
   position:absolute;
   top:0;left:0;right:0;
-  bottom:4.25rem;
+  bottom:5rem;
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
   padding:0 0 20px;
@@ -353,6 +353,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 /* Notas de la versión — ítems separados, no párrafo */
 .ar-notes-list{display:flex;flex-direction:column;gap:11px}
 .ar-note{background:var(--black3);border:1px solid rgba(255,255,255,0.05);border-radius:10px;padding:13px 14px;min-width:0}
+.ar-note-ref{font-size:0.6875rem;color:var(--white3);font-weight:700;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:5px;line-height:1.4}
 .ar-note-en{font-size:0.78125rem;color:var(--gold);font-weight:600;font-style:italic;margin-bottom:5px;line-height:1.5;overflow-wrap:break-word}
 .ar-note-es{font-size:0.8125rem;color:var(--white);font-weight:600;margin-bottom:7px;line-height:1.5}
 .ar-note-analisis{font-size:0.8125rem;color:var(--white2);line-height:1.8}
@@ -466,6 +467,16 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   grid-template-columns:1fr 1fr;
   gap:10px;
 }
+.ar-ficha--wide .ar-compare{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.ar-ficha--wide .ar-grid-texts{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+}
 .ar-ficha--wide .ar-block{
   background:var(--black3);
 }
@@ -485,6 +496,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   /* Por debajo de 900px el workspace desktop ya es estrecho: la ficha cae a 1 columna */
   .ar-ficha--wide{padding:20px 20px 22px}
   .ar-ficha--wide .ar-grid,
+  .ar-ficha--wide .ar-grid-texts,
   .ar-ficha--wide .ar-notes-list{grid-template-columns:1fr}
 }
 
@@ -574,7 +586,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
   display:flex;
   align-items:center;
   justify-content:space-around;
-  padding:0.625rem 0 env(safe-area-inset-bottom, 1rem);
+  padding:0.625rem 0 calc(0.875rem + env(safe-area-inset-bottom, 0px));
   z-index:500;
   max-width:430px;
   margin:0 auto;
@@ -696,7 +708,7 @@ body.modo-dia .bottom-nav{
 .frase-estudio-bg{position:absolute;inset:0;background:#000}
 .frase-estudio-screen{
   position:relative;z-index:1;
-  width:min(100vw,430px);height:100vh;
+  width:min(100vw,430px);height:100%;
   display:flex;flex-direction:column;
   align-items:center;justify-content:center;
   padding:48px 40px;
@@ -805,7 +817,7 @@ body.modo-dia .bottom-nav{
 .frase-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,0.95)}
 .frase-screen{
   position:relative;z-index:1;
-  width:min(100vw,430px);height:100vh;
+  width:min(100vw,430px);height:100%;
   background:linear-gradient(160deg,#0d0b05 0%,#0a0a0a 40%,#0a0c0a 100%);
   display:flex;flex-direction:column;align-items:center;justify-content:center;
   padding:48px 36px;
@@ -914,6 +926,15 @@ body.modo-dia .bottom-nav{
   background:var(--green-dim);border-color:var(--green-border);
   color:var(--green2);
 }
+.tcap-cap-btn.parcial{
+  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  color:var(--gold);
+}
+.tcap-cap-btn.parcial::after{
+  content:'';
+  position:absolute;bottom:7px;left:50%;transform:translateX(-50%);
+  width:5px;height:5px;border-radius:50%;background:var(--gold);
+}
 .tcap-cap-btn.leido:hover{background:rgba(74,157,111,0.3)}
 .tcap-cap-btn:not(.leido):hover{border-color:var(--gold-border);color:var(--gold)}
 /* ══ MODAL ESTUDIO CAPÍTULO ══ */
@@ -931,6 +952,8 @@ body.modo-dia .bottom-nav{
 .estudio-cap-navbtn{background:var(--black3);border:1px solid rgba(255,255,255,0.07);color:var(--white3);font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:20px;cursor:pointer;white-space:nowrap;transition:all 0.15s;flex-shrink:0}
 .estudio-cap-navbtn:hover{border-color:var(--gold-border);color:var(--gold)}
 .estudio-cap-navbtn.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--gold)}
+.estudio-cap-navbtn.leida{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
+.estudio-cap-navbtn.leida.active{background:rgba(74,157,111,0.26);border-color:var(--green2);color:var(--white)}
 .estudio-cap-body{flex:1;overflow-y:auto;padding:24px 20px 40px}
 .estudio-sec{display:none}
 .estudio-sec.active{display:block}
@@ -1042,6 +1065,20 @@ body.modo-dia .bottom-nav{
   background:var(--green-dim);border-color:var(--green-border);
   color:var(--green2);cursor:pointer;
 }
+.cap-cap-btn.disponible.parcial{
+  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  color:var(--gold);
+}
+.cap-cap-btn.disponible.leido{
+  background:var(--green-dim);border-color:var(--green-border);
+  color:var(--green2);
+}
+.cap-cap-btn.disponible.parcial::before,
+.cap-cap-btn.disponible.leido::before{
+  position:absolute;left:6px;top:5px;font-size:0.5rem;font-weight:800;
+}
+.cap-cap-btn.disponible.parcial::before{content:'•';color:var(--gold)}
+.cap-cap-btn.disponible.leido::before{content:'✓';color:var(--green2)}
 .cap-cap-btn.disponible:hover{background:rgba(74,157,111,0.25);transform:scale(1.05)}
 .cap-cap-btn.nuevo::after{
   content:'NEW';position:absolute;top:-5px;right:-5px;
@@ -1123,16 +1160,38 @@ body.modo-dia .bottom-nav{
 
   /* ── Topbar ── */
   #dsk-top{
-    display:flex; align-items:center; justify-content:space-between;
-    padding:0 32px; height:52px; flex-shrink:0;
+    display:grid; grid-template-columns:1fr auto 1fr; align-items:center;
+    padding:0 20px; height:74px; flex-shrink:0; gap:18px;
     border-bottom:1px solid rgba(255,255,255,0.06);
   }
   #dsk-brand{
-    font-size:0.6875rem; font-weight:300; letter-spacing:0.32em;
+    justify-self:center; display:flex; flex-direction:column; align-items:center; gap:4px;
+    font-size:0.5625rem; font-weight:300; letter-spacing:0.26em;
     color:var(--gold); opacity:0.7; text-transform:uppercase;
   }
-  #dsk-top-right{ display:flex; align-items:center; gap:16px; }
-  #dsk-fecha{ font-size:0.625rem; color:var(--white3); letter-spacing:0.08em; text-transform:uppercase; }
+  #dsk-brand img{ width:44px; height:44px; object-fit:contain; animation:starsPulse 3.5s ease-in-out infinite; }
+  #dsk-brand span{ white-space:nowrap; }
+  #dsk-nav-top{ display:flex; align-items:center; justify-self:start; gap:12px; min-width:0; }
+  .dsk-nav-btn{
+    width:64px; height:54px; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px;
+    background:transparent; border:0; border-radius:0; padding:0 6px;
+    color:var(--white3); cursor:pointer; transition:all 0.16s; font-family:'Outfit',sans-serif;
+  }
+  .dsk-nav-btn svg{ width:22px; height:22px; stroke:currentColor; }
+  .dsk-nav-btn span{ font-size:0.5625rem; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; }
+  .dsk-nav-btn:hover{ color:var(--white2); }
+  .dsk-nav-btn.active{ color:var(--gold); }
+  #dsk-top-right{ display:flex; align-items:center; justify-content:flex-end; gap:16px; min-width:0; }
+  #dsk-date-week{display:flex;flex-direction:column;align-items:flex-end;gap:5px;min-width:0}
+  #dsk-fecha{ font-size:0.5625rem; color:var(--white3); letter-spacing:0.08em; text-transform:uppercase; white-space:nowrap; }
+  #dsk-week-row-top{
+    padding:0; gap:5px; flex-shrink:0; overflow:visible;
+  }
+  #dsk-week-row-top .wday{ gap:0; }
+  #dsk-week-row-top .wday-label{ display:none; }
+  #dsk-week-row-top .wday-dot{
+    width:24px; height:24px; font-size:0.5625rem; border-width:1px;
+  }
   #dsk-racha{
     display:flex; align-items:center; gap:5px;
     background:var(--gold-dim); border:1px solid var(--gold-border);
@@ -1155,7 +1214,7 @@ body.modo-dia .bottom-nav{
 
   /* Tab switcher */
   #dsk-tabs{
-    display:flex; border-bottom:1px solid rgba(255,255,255,0.06);
+    display:none; border-bottom:1px solid rgba(255,255,255,0.06);
     flex-shrink:0;
   }
   .dsk-tab{
@@ -1323,7 +1382,7 @@ body.modo-dia .bottom-nav{
 
   /* Toast centrado en desktop para confirmaciones de paso */
   .toast-paso{
-    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(0.9);
+    position:fixed; top:auto; bottom:28px; left:calc(420px + (100vw - 420px) / 2); transform:translateX(-50%) translateY(12px) scale(0.96);
     background:var(--green-dim); border:1px solid var(--green-border);
     color:var(--green2); font-size:0.9375rem; font-weight:700;
     font-family:'Outfit',sans-serif; padding:16px 32px;
@@ -1331,7 +1390,7 @@ body.modo-dia .bottom-nav{
     opacity:0; transition:all 0.25s; letter-spacing:0.06em;
     text-align:center;
   }
-  .toast-paso.show{ opacity:1; transform:translate(-50%,-50%) scale(1); }
+  .toast-paso.show{ opacity:1; transform:translateX(-50%) translateY(0) scale(1); }
 
 }
 
@@ -1477,8 +1536,7 @@ body.modo-dia .bottom-nav{
   gap:0;
 }
 .login-logo{width:80px;height:80px;margin-bottom:24px;animation:starsPulse 3.5s ease-in-out infinite}
-.login-titulo{font-family:'Outfit',sans-serif;font-size:1.375rem;font-weight:300;color:var(--gold);letter-spacing:0.42em;text-transform:uppercase;opacity:0.9;margin-bottom:6px}
-.login-sub{font-size:0.625rem;color:var(--white3);letter-spacing:0.22em;text-transform:uppercase;opacity:0.5;margin-bottom:48px}
+.login-titulo{font-family:'Outfit',sans-serif;font-size:1.375rem;font-weight:300;color:var(--gold);letter-spacing:0.42em;text-transform:uppercase;opacity:0.9;margin-bottom:48px}
 .login-btn{display:flex;align-items:center;gap:12px;background:#fff;color:#1a1a1a;border:none;border-radius:12px;padding:14px 24px;font-family:'Outfit',sans-serif;font-size:0.9375rem;font-weight:500;cursor:pointer;transition:opacity 0.2s;letter-spacing:0.01em}
 .login-btn:active{opacity:0.85}
 .login-btn svg{width:20px;height:20px;flex-shrink:0}
@@ -1693,6 +1751,7 @@ body.admin-mode .tracker-full-header{
 
 <!-- Firebase -->
 <script type="module">
+  document.title = 'S · T · A · R · S';
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
   import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
@@ -1781,6 +1840,19 @@ body.admin-mode .tracker-full-header{
     isCap: (libro, cap) => {
       const key = 'cap_' + libro.replace(/\s/g,'_') + '_' + cap;
       return fbGet(key, '') === '1';
+    },
+    // Progreso parcial de estudios por capítulo (separador de libro)
+    setEstudioProgress: (capKey, idx) => {
+      const key = 'estudio_progress_' + String(capKey||'').replace(/\s+/g,'_');
+      const safeIdx = Math.max(0, parseInt(idx, 10) || 0);
+      const current = parseInt(fbGet(key, '0'), 10) || 0;
+      const next = Math.max(current, safeIdx);
+      _userData[key] = String(next);
+      fbSet({[key]: String(next)});
+    },
+    getEstudioProgress: (capKey) => {
+      const key = 'estudio_progress_' + String(capKey||'').replace(/\s+/g,'_');
+      return parseInt(fbGet(key, '0'), 10) || 0;
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -1877,6 +1949,8 @@ body.admin-mode .tracker-full-header{
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof updateRachaUI === 'function') updateRachaUI();
+            if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
+            if(typeof dskRenderCaps === 'function') dskRenderCaps(document.getElementById('dsk-cap-search')?.value || '');
           }
         }
       });
@@ -1900,7 +1974,6 @@ body.admin-mode .tracker-full-header{
 <div id="login-screen" style="display:none">
   <img class="login-logo" src="logo.png" alt="STARS">
   <div class="login-titulo">S · T · A · R · S</div>
-  <div class="login-sub">The Message · LHSCOL</div>
   <button class="login-btn" onclick="loginConGoogle()">
     <svg viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.18 1.48-4.97 2.34-8.16 2.34-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/><path fill="none" d="M0 0h48v48H0z"/></svg>
     Continuar con Google
@@ -2043,7 +2116,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div class="stars-header-unified">
         <img class="stars-logo-img" src="logo.png" alt="STARS logo">
         <div class="brand-name">S · T · A · R · S</div>
-        <div class="brand-sub">THE MESSAGE · LHSCOL</div>
       </div>
 
       <!-- Pills S.T.A.R.S. rediseñadas -->
@@ -2080,6 +2152,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </div>
       </div>
 
+      <div style="margin:0 20px 10px;display:flex;align-items:center;gap:8px">
+        <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+        <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.6;font-weight:600">Paso Diario</div>
+        <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+      </div>
+
       <!-- Tarjeta serie/temporada -->
       <div class="serie-card" id="serie-card" style="display:none" onclick="abrirBlog()">
         <div style="flex:1;min-width:0">
@@ -2105,8 +2183,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <span class="streak-label">días</span>
         </div>
       </div>
-
-      <div class="sec-label">El Paso Diario</div>
 
       <div class="paso-card">
         <div class="paso-header">
@@ -2204,7 +2280,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div class="stars-header-unified">
         <img class="stars-logo-img" src="logo.png" alt="STARS logo">
         <div class="brand-name">S · T · A · R · S</div>
-        <div class="brand-sub">THE MESSAGE · LHSCOL</div>
       </div>
 
       <!-- Pills S.T.A.R.S. — minutos del método completo -->
@@ -2241,6 +2316,13 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </div>
       </div>
 
+    <!-- Paso Profundo label -->
+    <div style="margin:0 20px 10px;display:flex;align-items:center;gap:8px">
+      <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+      <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.6;font-weight:600">Paso Profundo</div>
+      <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+    </div>
+
     <div class="estudiar-tabs">
       <div class="etab active" onclick="switchEtab('capitulos',this)">Por Capítulo</div>
       <div class="etab" onclick="switchEtab('hoy-estudio',this)">Por Versículo</div>
@@ -2250,13 +2332,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     <!-- Panel: Por Capítulo -->
     <div class="epanel active" id="epanel-capitulos" style="overflow-y:auto;flex:1;padding-bottom:20px">
-
-      <!-- Paso Profundo label -->
-      <div style="margin:0 20px 10px;display:flex;align-items:center;gap:8px">
-        <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
-        <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.6;font-weight:600">Paso Profundo</div>
-        <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
-      </div>
 
       <!-- Stats capítulos disponibles -->
       <div class="cap-stats-row">
@@ -2477,6 +2552,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div style="margin-top:16px;padding:0 20px 20px" id="libros-completos-list"></div>
 
     </div>
+
+    <div style="margin:28px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:1.0rem;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic" class="stars-footer-quote">"Cuando tus palabras aparecieron, las comí — me las tragué enteras. ¡Qué banquete! ¡Qué delicia sentí al ser tuyo, oh Dios, Dios-de-los-Ejércitos-Celestiales!"</div>
+      <div style="font-size:0.5rem;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px" class="stars-footer-brand">Jeremías 15:16 · MSG</div>
+    </div>
+
+    <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+    <div style="padding:0 20px 36px;text-align:center">
+      <div style="font-family:'Cormorant Garamond',serif;font-size:0.8125rem;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px" class="stars-footer-brand">S · T · A · R · S</div>
+      <div style="font-size:7.5px;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase" class="stars-footer-lema">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
+    </div>
   </div>
 
   <!-- ═══════════════ VISTA TRACKER STANDALONE ═══════════════ -->
@@ -2505,7 +2591,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div class="stars-header-unified">
       <img class="stars-logo-img" src="logo.png" alt="STARS logo">
       <div class="brand-name">S · T · A · R · S</div>
-      <div class="brand-sub">THE MESSAGE &nbsp;·&nbsp; LHSCOL</div>
     </div>
     <div style="padding:32px 24px;display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center">
       <span style="font-size:3.0rem">📓</span>
@@ -3345,10 +3430,17 @@ function dskFontChange(delta){
 
 /* ── Tabs del panel izquierdo ── */
 function dskTab(tab){
-  document.querySelectorAll('.dsk-tab').forEach(t=>t.classList.toggle('active', t.dataset.tab===tab));
+  document.querySelectorAll('.dsk-tab,.dsk-nav-btn').forEach(t=>t.classList.toggle('active', t.dataset.tab===tab));
   document.querySelectorAll('.dsk-section').forEach(s=>s.classList.remove('active'));
   const sec = document.getElementById('dsk-sec-'+tab);
   if(sec) sec.classList.add('active');
+  if(tab==='config'){
+    const esDia = document.body.classList.contains('modo-dia');
+    document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
+    _actualizarConfigModoUI(esDia);
+    _actualizarFontUI();
+    _actualizarTemaUI();
+  }
   // Workspace vacío al cambiar tab
   dskWsEmpty();
 }
@@ -3677,6 +3769,7 @@ function dskWsPaso(idx){
 
 /* ── Timer silencio desktop ── */
 let _dskTimerInterval = null;
+let _dskTimerFinishTimeout = null;
 let _dskTimerSecs = 300;
 let _dskTimerRunning = false;
 let _dskTimerStartedAt = null;
@@ -3688,17 +3781,26 @@ function _dskTimerTick(){
   _dskTimerSecs = Math.max(0, _dskTimerSecsAtStart - elapsed);
   _dskActualizarTimerUI();
   if(_dskTimerSecs<=0){
-    clearInterval(_dskTimerInterval); _dskTimerInterval=null; _dskTimerRunning=false;
-    const lbl = document.getElementById('dsk-timer-label');
-    const fill = document.getElementById('dsk-timer-fill');
-    if(lbl) lbl.textContent='✓';
-    if(fill) fill.setAttribute('stroke','var(--green2)');
-    marcarPaso(0);
-    dskActualizarBadgesPasos();
-    tocarPitidoFinal();
+    finalizarTimerDesktop();
   }
 }
 
+function finalizarTimerDesktop(){
+  if(!_dskTimerRunning && _dskTimerSecs<=0) return;
+  clearInterval(_dskTimerInterval); _dskTimerInterval=null;
+  clearTimeout(_dskTimerFinishTimeout); _dskTimerFinishTimeout=null;
+  _dskTimerSecs = 0;
+  _dskTimerRunning=false;
+  const lbl = document.getElementById('dsk-timer-label');
+  const fill = document.getElementById('dsk-timer-fill');
+  const btn = document.getElementById('dsk-timer-btn');
+  if(lbl) lbl.textContent='✓';
+  if(fill){ fill.setAttribute('stroke','var(--green2)'); fill.setAttribute('stroke-dashoffset',0); }
+  if(btn){ btn.textContent='Finalizado'; btn.style.opacity='0.75'; btn.style.cursor='default'; }
+  marcarPaso(0);
+  dskActualizarBadgesPasos();
+  avisarTimerFinalizado();
+}
 function dskIniciarTimer(){
   if(_dskTimerRunning) return;
   _dskTimerRunning = true;
@@ -3708,7 +3810,10 @@ function dskIniciarTimer(){
   const btn = document.getElementById('dsk-timer-btn');
   if(btn){ btn.textContent = 'Corriendo…'; btn.style.opacity='0.5'; btn.style.cursor='default'; }
   try{ getAudioCtx(); }catch(e){}
+  prepararAvisoTimer();
   _dskTimerInterval = setInterval(_dskTimerTick, 500);
+  clearTimeout(_dskTimerFinishTimeout);
+  _dskTimerFinishTimeout = setTimeout(finalizarTimerDesktop, (_dskTimerSecs + 1) * 1000);
 }
 
 function _dskActualizarTimerUI(){
@@ -3788,7 +3893,8 @@ function dskWsTracker(){
         // Botones solo visuales, sin onclick
         const capsHTML = Array.from({length:l.c},(_,i)=>{
           const cap=i+1; const leido=isCapLeido(l.n,cap);
-          return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
+          const estado = leido ? 'leido' : getEstudioEstado(l.n, cap);
+          return `<div class="tcap-cap-btn${estado?' '+estado:''}" title="${l.n} ${cap}">${cap}</div>`;
         }).join('');
         const wrapId = 'dsk-tcap-caps-'+l.n.replace(/\s/g,'-');
         return `<div class="tcap-libro">
@@ -3865,6 +3971,7 @@ function dskRenderCaps(q){
         const cap=i+1; const k=getCapKey(libro.n,cap); const dato=CAPITULOS_DISPONIBLES[k];
         if(dato){
           const isNew=esNuevo(dato.fecha);
+          const estado=getEstudioEstado(libro.n,cap);
           return `<div class="cap-cap-btn disponible${isNew?' nuevo':''}" onclick="dskAbrirCap('${k}')" title="${libro.n} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
@@ -3897,6 +4004,7 @@ function dskRenderCaps(q){
       <div class="cap-libros${isOpenB?' open':''}" id="dsk-cap-libros-${bloque.bloque}">${librosHTML}</div>`;
     el.appendChild(bloqueEl);
   });
+  decorarCapitulosProgreso(el);
 }
 function dskToggleCapBloque(num,hdr){
   const body=document.getElementById('dsk-cap-libros-'+num);
@@ -3935,16 +4043,18 @@ async function dskAbrirCap(key){
   const estudio = ESTUDIOS_CAPS[key];
   if(estudio){
     _ecapKey = key; // ← compartido con el modal mobile
-    if(!_ecapMaxSec[key]) _ecapMaxSec[key] = 0;
+    _ecapMaxSec[key] = getEstudioMaxSec(key);
+    const maxSec = _ecapMaxSec[key];
+    const secInicial = maxSec;
     const navHtml = estudio.secciones.map((s,i)=>
-      `<button onclick="dskCapSec(this,${i})" style="background:${i===0?'var(--gold-dim)':'var(--black4)'};border:1px solid ${i===0?'var(--gold-border)':'rgba(255,255,255,0.07)'};color:${i===0?'var(--gold)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${escaparHTML(s.nav)}</button>`
+      `<button class="${i<=maxSec?'leida':''}" onclick="dskCapSec(this,${i})" style="background:${i===secInicial?'var(--gold-dim)':i<=maxSec?'var(--green-dim)':'var(--black4)'};border:1px solid ${i===secInicial?'var(--gold-border)':i<=maxSec?'var(--green-border)':'rgba(255,255,255,0.07)'};color:${i===secInicial?'var(--gold)':i<=maxSec?'var(--green2)':'var(--white3)'};font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:5px 12px;border-radius:16px;cursor:pointer;white-space:nowrap;transition:all 0.15s">${escaparHTML(s.nav)}</button>`
     ).join('');
     const bodyHtml = estudio.secciones.map((s,i)=>
-      `<div class="dsk-cap-sec${i===0?' cap-sec-active':''}" style="display:${i===0?'block':'none'}">${sanearHTMLPermitido(s.html)}</div>`
+      `<div class="dsk-cap-sec${i===secInicial?' cap-sec-active':''}" style="display:${i===secInicial?'block':'none'}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
     const total = estudio.secciones.length;
-    const pctInicial = _ecapMaxSec[key] > 0
-      ? Math.round((_ecapMaxSec[key] / (total - 1)) * 100)
+    const pctInicial = maxSec > 0
+      ? Math.round((maxSec / (total - 1)) * 100)
       : 0;
     dskWsShow(estudio.titulo, `
       <div style="position:sticky;top:0;background:var(--black);padding:0 0 16px;z-index:1">
@@ -3968,20 +4078,19 @@ function dskCapSec(btn, idx){
   const nav = document.getElementById('dsk-cap-nav');
   const body = document.getElementById('dsk-cap-body');
   if(!nav||!body) return;
+  const total = ESTUDIOS_CAPS[_ecapKey]?.secciones?.length || 10;
+  const maxSec = setEstudioMaxSec(_ecapKey, idx);
   nav.querySelectorAll('button').forEach((b,i)=>{
-    b.style.background = i===idx?'var(--gold-dim)':'var(--black4)';
-    b.style.borderColor = i===idx?'var(--gold-border)':'rgba(255,255,255,0.07)';
-    b.style.color = i===idx?'var(--gold)':'var(--white3)';
+    b.classList.toggle('leida', i<=maxSec);
+    b.style.background = i===idx?'var(--gold-dim)':i<=maxSec?'var(--green-dim)':'var(--black4)';
+    b.style.borderColor = i===idx?'var(--gold-border)':i<=maxSec?'var(--green-border)':'rgba(255,255,255,0.07)';
+    b.style.color = i===idx?'var(--gold)':i<=maxSec?'var(--green2)':'var(--white3)';
   });
   body.querySelectorAll('[class^="dsk-cap-sec"]').forEach((s,i)=>{s.style.display=i===idx?'block':'none';});
   document.getElementById('dsk-ws-content').scrollTop=0;
   setTimeout(()=>dskPostProcesarReflexion(_ecapKey, idx), 50);
   // Actualizar barra de progreso — solo avanza
-  if(!_ecapMaxSec[_ecapKey] || idx > _ecapMaxSec[_ecapKey]){
-    _ecapMaxSec[_ecapKey] = idx;
-  }
-  const total = ESTUDIOS_CAPS[_ecapKey]?.secciones?.length || 10;
-  const pct = total > 1 ? Math.round((_ecapMaxSec[_ecapKey] / (total - 1)) * 100) : 100;
+  const pct = total > 1 ? Math.round((maxSec / (total - 1)) * 100) : 100;
   const bar = document.getElementById('dsk-ecap-progress');
   if(bar) bar.style.width = pct+'%';
   const pctEl = document.getElementById('dsk-cap-pct');
@@ -4357,8 +4466,8 @@ function getWeekDates(){
 function initWeek(){
   const row=document.getElementById('week-row');
   row.innerHTML='';
-  const dskRow=document.getElementById('dsk-week-row');
-  if(dskRow) dskRow.innerHTML='';
+  const dskRows=[...document.querySelectorAll('#dsk-week-row,#dsk-week-row-top')];
+  dskRows.forEach(r=>r.innerHTML='');
   const labels=['L','M','X','J','V','S','D'];
   const today = window.ADMIN_DATE || new Date();
   const todayIdx = getDayOfWeek(today);
@@ -4382,7 +4491,7 @@ function initWeek(){
     const lbl=document.createElement('div'); lbl.className='wday-label'; lbl.textContent=labels[i];
     d.appendChild(lbl); d.appendChild(dot);
     row.appendChild(d);
-    if(dskRow){ const d2=d.cloneNode(true); dskRow.appendChild(d2); }
+    dskRows.forEach(r=>r.appendChild(d.cloneNode(true)));
   }
 }
 
@@ -4417,7 +4526,7 @@ function initSteps(){
 
 function updateRachaUI(){
   const r = calcularRacha();
-  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','dsk-streak-n','cal-racha-num'].forEach(id=>{
+  ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','dsk-streak-n','cal-racha-num','dsk-cal-racha-num'].forEach(id=>{
     const el = document.getElementById(id);
     if(el) el.textContent = r;
   });
@@ -4462,6 +4571,8 @@ function abrirPaso(i){
   // Si es el modal de silencio y el timer estaba corriendo, reanudarlo
   if(i===0 && timerRunning && !timerInterval && timerSecs > 0){
     timerInterval=setInterval(_timerTick, 500);
+    clearTimeout(timerFinishTimeout);
+    timerFinishTimeout=setTimeout(finalizarTimerMobile, (timerSecs + 1) * 1000);
   }
   // Si ya terminó y vuelve a abrir, mostrar el botón de completar
   if(i===0 && timerSecs<=0 && !timerRunning){
@@ -4559,6 +4670,27 @@ function tocarPitidoFinal(){
 }
 
 // Abrir música de fondo (YouTube/Spotify) en pestaña nueva al iniciar el silencio
+function prepararAvisoTimer(){
+  try{
+    if('Notification' in window && Notification.permission === 'default'){
+      Notification.requestPermission().catch(()=>{});
+    }
+  }catch(e){}
+}
+
+function avisarTimerFinalizado(){
+  tocarPitidoFinal();
+  try{ if(navigator.vibrate) navigator.vibrate([180,80,180]); }catch(e){}
+  try{
+    if('Notification' in window && Notification.permission === 'granted'){
+      new Notification('S.T.A.R.S. · Silencio finalizado', {
+        body: 'El tiempo de silencio se cumplió.',
+        silent: false
+      });
+    }
+  }catch(e){}
+}
+
 function abrirMusicaSilencio(){
   const devo = getDevoHoy();
   if(!devo?.musica_url) return;
@@ -4585,6 +4717,7 @@ function abrirPasoSiDesbloqueado(idx){
 
 /* Timer Silencio */
 let timerSecs=300;
+let timerFinishTimeout=null;
 let timerStartedAt=null;   // timestamp de cuando se inició
 let timerSecsAtStart=300;  // segundos que quedaban al iniciar
 
@@ -4600,18 +4733,32 @@ function _timerTick(){
   if(label) label.textContent=m+':'+(s<10?'0':'')+s;
   if(fill) fill.style.strokeDashoffset=total*(timerSecs/300);
   if(timerSecs<=0){
-    clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-    if(label) label.textContent='✓';
-    document.getElementById('modal-done-0').classList.add('show');
-    marcarPaso(0);
-    if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
-    tocarPitidoFinal();
+    finalizarTimerMobile();
   }
 }
 
+function finalizarTimerMobile(){
+  if(!timerRunning && timerSecs<=0) return;
+  clearInterval(timerInterval); timerInterval=null;
+  clearTimeout(timerFinishTimeout); timerFinishTimeout=null;
+  timerSecs=0;
+  timerRunning=false;
+  const label=document.getElementById('timer-label');
+  const fill=document.getElementById('timer-fill');
+  const hint=document.getElementById('timer-hint');
+  if(label) label.textContent='✓';
+  if(fill) fill.style.strokeDashoffset=0;
+  if(hint){ hint.textContent='Finalizado'; hint.style.display='block'; hint.style.opacity='0.75'; }
+  const doneBtn=document.getElementById('modal-done-0');
+  if(doneBtn) doneBtn.classList.add('show');
+  marcarPaso(0);
+  if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
+  avisarTimerFinalizado();
+}
 function iniciarTimer(){
   if(timerRunning) return;
   try { getAudioCtx(); } catch(e){}
+  prepararAvisoTimer();
   timerRunning=true;
   const hint=document.getElementById('timer-hint');
   if(hint) hint.style.display='none';
@@ -4621,6 +4768,8 @@ function iniciarTimer(){
   timerStartedAt=Date.now();
   timerSecsAtStart=timerSecs;
   timerInterval=setInterval(_timerTick, 500);
+  clearTimeout(timerFinishTimeout);
+  timerFinishTimeout=setTimeout(finalizarTimerMobile, (timerSecs + 1) * 1000);
 }
 
 // Cuando la pantalla vuelve a ser visible, recalcular con tiempo real
@@ -4629,16 +4778,7 @@ document.addEventListener('visibilitychange', ()=>{
     const elapsed = Math.floor((Date.now() - timerStartedAt) / 1000);
     timerSecs = Math.max(0, timerSecsAtStart - elapsed);
     if(timerSecs <= 0){
-      clearInterval(timerInterval);timerInterval=null;timerRunning=false;
-      const label=document.getElementById('timer-label');
-      const fill=document.getElementById('timer-fill');
-      if(label) label.textContent='✓';
-      if(fill) fill.style.strokeDashoffset=0;
-      const doneBtn=document.getElementById('modal-done-0');
-      if(doneBtn) doneBtn.classList.add('show');
-      marcarPaso(0);
-      if(window.innerWidth >= 1024) dskActualizarBadgesPasos();
-      tocarPitidoFinal();
+      finalizarTimerMobile();
     }
   }
 });
@@ -4978,6 +5118,8 @@ const AR_TITULOS = {
   'SENTIDO CENTRAL': 'Sentido central',
   'EXPLICACIÓN BREVE': 'Explicación breve',
   'EXPLICACION BREVE': 'Explicación breve',
+  'EXPLICACIÓN': 'Explicación',
+  'EXPLICACION': 'Explicación',
   'NOTAS DE LA VERSIÓN': 'Notas de la versión',
   'NOTAS DE LA VERSION': 'Notas de la versión',
   'PARA MEDITAR': 'Para meditar'
@@ -5028,7 +5170,14 @@ function formatearAnalisisFichaHTML(text, opts){
         const limpia = linea.replace(/^[-•\d.)\s]+/,'').trim();
         if(!limpia) return;
         const partes = limpia.split('|').map(p => p.trim());
-        if(partes.length >= 3){
+        if(partes.length >= 4){
+          itemsHtml += '<div class="ar-note">'
+            + '<div class="ar-note-ref">'+arInlineFmt(partes[0])+'</div>'
+            + '<div class="ar-note-en">"'+arInlineFmt(partes[1])+'"</div>'
+            + '<div class="ar-note-es">'+arInlineFmt(partes[2])+'</div>'
+            + '<div class="ar-note-analisis">'+arInlineFmt(partes.slice(3).join(' | '))+'</div>'
+            + '</div>';
+        }else if(partes.length >= 3){
           itemsHtml += '<div class="ar-note">'
             + '<div class="ar-note-en">"'+arInlineFmt(partes[0])+'"</div>'
             + '<div class="ar-note-es">'+arInlineFmt(partes[1])+'</div>'
@@ -5082,12 +5231,19 @@ function formatearAnalisisFichaHTML(text, opts){
     const esTexto = sec.titulo.indexOf('TEXTO') === 0;
     const esRef = (sec.titulo === 'VERSÍCULO' || sec.titulo === 'VERSICULO');
     if(esRef || esTexto){
-      let grupoHtml = '';
+      let refHtml = '';
+      let textosHtml = '';
       while(i < secciones.length && (secciones[i].titulo === 'VERSÍCULO' || secciones[i].titulo === 'VERSICULO' || secciones[i].titulo.indexOf('TEXTO') === 0)){
-        grupoHtml += bloqueHTML(secciones[i]);
+        if(secciones[i].titulo === 'VERSÍCULO' || secciones[i].titulo === 'VERSICULO'){
+          refHtml += bloqueHTML(secciones[i]);
+        }else{
+          textosHtml += bloqueHTML(secciones[i]);
+        }
         i++;
       }
-      html += '<div class="ar-grid">'+grupoHtml+'</div>';
+      html += '<div class="ar-compare">'+refHtml;
+      if(textosHtml) html += '<div class="ar-grid-texts">'+textosHtml+'</div>';
+      html += '</div>';
     }else{
       html += bloqueHTML(sec);
       i++;
@@ -5551,7 +5707,53 @@ function db_abrirDiario(){ navTo('diario'); }
 const _navToOriginal = typeof navTo !== 'undefined' ? navTo : null;
 // Key por capítulo: stars_cap_LIBRO_N
 function capKey(libro, cap){ return 'stars_cap_'+libro.replace(/\s/g,'_')+'_'+cap; }
-function isCapLeido(libro, cap){ return window.FB ? window.FB.isCap(libro,cap) : localStorage.getItem(capKey(libro,cap))==='1'; }
+function isCapLeido(libro, cap){
+  const localDone = localStorage.getItem(capKey(libro,cap)) === '1';
+  if(!window.FB) return localDone;
+  const cloudDone = window.FB.isCap(libro, cap);
+  if(localDone && !cloudDone) window.FB.setCap(libro, cap);
+  return cloudDone || localDone;
+}
+function estudioProgressKey(key){ return 'stars_estudio_progress_' + String(key||'').replace(/\s+/g,'_'); }
+function getEstudioMaxSec(key){
+  const stored = parseInt(localStorage.getItem(estudioProgressKey(key)) || '0', 10);
+  const cloud = window.FB ? window.FB.getEstudioProgress(key) : 0;
+  const mem = _ecapMaxSec[key] || 0;
+  const partes = String(key||'').split('_');
+  const cap = parseInt(partes[partes.length-1], 10);
+  const libro = partes.slice(0, -1).join(' ');
+  const completo = localStorage.getItem('stars_estudio_' + key)==='1' || (!isNaN(cap) && libro && isCapLeido(libro, cap));
+  const max = Math.max(isNaN(stored) ? 0 : stored, cloud, mem, completo ? 9 : 0);
+  if(window.FB && max > cloud) window.FB.setEstudioProgress(key, max);
+  if(window.FB && completo){
+    window.FB.setCap('estudio', key);
+    if(!isNaN(cap) && libro) window.FB.setCap(libro, cap);
+  }
+  return max;
+}
+function setEstudioMaxSec(key, idx){
+  const safeIdx = Math.max(0, parseInt(idx, 10) || 0);
+  const next = Math.max(getEstudioMaxSec(key), safeIdx);
+  _ecapMaxSec[key] = next;
+  localStorage.setItem(estudioProgressKey(key), String(next));
+  if(window.FB) window.FB.setEstudioProgress(key, next);
+  return next;
+}
+function getEstudioEstado(libro, cap){
+  const key = String(libro||'').replace(/\s/g,'_') + '_' + cap;
+  if(isCapLeido(libro, cap)) return 'leido';
+  return getEstudioMaxSec(key) > 0 ? 'parcial' : '';
+}
+function decorarCapitulosProgreso(root=document){
+  root.querySelectorAll('.cap-cap-btn.disponible[title]').forEach(btn=>{
+    const title = btn.getAttribute('title') || '';
+    const m = title.match(/^(.+)\s+(\d+)$/);
+    if(!m) return;
+    btn.classList.remove('parcial','leido');
+    const estado = getEstudioEstado(m[1], parseInt(m[2],10));
+    if(estado) btn.classList.add(estado);
+  });
+}
 function toggleCap(libro, cap, el){
   const yaLeido = isCapLeido(libro, cap);
   if(yaLeido){
@@ -5631,7 +5833,8 @@ function renderTrackerCaps(){
       const capsHTML = Array.from({length:l.c},(_,i)=>{
         const cap=i+1;
         const leido=isCapLeido(l.n,cap);
-        return `<div class="tcap-cap-btn${leido?' leido':''}" title="${l.n} ${cap}">${cap}</div>`;
+        const estado = leido ? 'leido' : getEstudioEstado(l.n, cap);
+        return `<div class="tcap-cap-btn${estado?' '+estado:''}" title="${l.n} ${cap}">${cap}</div>`;
       }).join('');
 
       return `<div class="tcap-libro">
@@ -5987,8 +6190,9 @@ function _aplicarFontSize(idx){
 
 function _actualizarFontUI(){
   FONT_SIZES.forEach((f,i)=>{
-    const btn = document.getElementById('cfg-font-'+f.key);
-    if(btn) btn.classList.toggle('active', i === _currentFontIdx);
+    document.querySelectorAll('#cfg-font-'+f.key+', #dsk-cfg-font-'+f.key).forEach(btn=>{
+      btn.classList.toggle('active', i === _currentFontIdx);
+    });
   });
 }
 
@@ -6012,9 +6216,12 @@ function _actualizarTemaUI(){
 }
 
 function abrirConfig(){
+  if(typeof isDesktop === 'function' && isDesktop()){
+    dskTab('config');
+    return;
+  }
   const esDia = document.body.classList.contains('modo-dia');
-  const toggle = document.getElementById('config-toggle-modo');
-  if(toggle) toggle.checked = esDia;
+  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
   _actualizarConfigModoUI(esDia);
   _actualizarFontUI();
   _actualizarTemaUI();
@@ -6029,19 +6236,15 @@ function cerrarConfig(){
 
 function toggleModo(){
   const esDia = document.body.classList.toggle('modo-dia');
-  const toggle = document.getElementById('config-toggle-modo');
-  if(toggle) toggle.checked = esDia;
+  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
   _actualizarConfigModoUI(esDia);
   localStorage.setItem('stars_modo', esDia ? 'dia' : 'noche');
 }
 
 function _actualizarConfigModoUI(esDia){
-  const icon  = document.getElementById('config-modo-icon');
-  const label = document.getElementById('config-modo-label');
-  const sub   = document.getElementById('config-modo-sub');
-  if(icon)  icon.textContent  = esDia ? '☀️' : '🌙';
-  if(label) label.textContent = esDia ? 'Modo día'   : 'Modo noche';
-  if(sub)   sub.textContent   = esDia ? 'Fondo claro activo' : 'Fondo oscuro activo';
+  document.querySelectorAll('#config-modo-icon,#dsk-config-modo-icon').forEach(icon=>{ icon.textContent = esDia ? '☀️' : '🌙'; });
+  document.querySelectorAll('#config-modo-label,#dsk-config-modo-label').forEach(label=>{ label.textContent = esDia ? 'Modo día' : 'Modo noche'; });
+  document.querySelectorAll('#config-modo-sub,#dsk-config-modo-sub').forEach(sub=>{ sub.textContent = esDia ? 'Fondo claro activo' : 'Fondo oscuro activo'; });
 }
 
 // Aplicar preferencias guardadas al cargar
@@ -6203,17 +6406,44 @@ function abrirBlog(){
 function generarNumSorteo(seed){
   // Genera número de sorteo determinístico basado en uid + mes
   const base = (seed || '0000').split('').reduce((a,c)=>a+c.charCodeAt(0),0);
-  return String((base * 7919) % 9000 + 1000); // 4 dígitos
+  return String((base * 7919) % 100).padStart(2,'0'); // 00-99
 }
 
-function abrirCalendario(){
-  const ahora = window.ADMIN_DATE || new Date();
-  calMes = ahora.getMonth();
-  calAnio = ahora.getFullYear();
-  renderCalendario();
-  updateRachaUI();
+let _calTargetPrefix = 'cal';
 
-  // ── Calcular sorteo: solo si el mes anterior está completo ──
+function calendarioHTML(prefix){
+  return `
+    <div style="max-width:620px;margin:0 auto">
+      <div class="cal-racha-info" style="margin:0 0 14px">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:18px">
+          <div>
+            <div class="cal-racha-num" id="${prefix}-racha-num">0</div>
+            <div class="cal-racha-label">días consecutivos</div>
+          </div>
+          <div style="text-align:right">
+            <div style="font-size:0.625rem;color:var(--white3);margin-bottom:4px">Tu número de sorteo</div>
+            <div class="cal-sorteo-num" id="${prefix}-sorteo-num">--</div>
+            <div style="font-size:0.5625rem;color:var(--white3)" id="${prefix}-sorteo-desc">Días completados este mes</div>
+          </div>
+        </div>
+      </div>
+      <div class="cal-legend" style="padding:0 0 12px">
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--green2)"></div>Día completado</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Semana completa</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#8b5cf6"></div>Mes completo</div>
+      </div>
+      <div class="cal-nav" style="padding:0 0 12px">
+        <button class="cal-nav-btn" onclick="cambiarMes(-1)">‹</button>
+        <div class="cal-month-label" id="${prefix}-month-label"></div>
+        <button class="cal-nav-btn" onclick="cambiarMes(1)">›</button>
+      </div>
+      <div class="cal-body" style="padding:0">
+        <div class="cal-grid" id="${prefix}-grid"></div>
+      </div>
+    </div>`;
+}
+
+function actualizarSorteoCalendario(prefix='cal'){
   const mesAnterior = calMes === 0 ? 11 : calMes - 1;
   const anioAnterior = calMes === 0 ? calAnio - 1 : calAnio;
   const diasEnMesAnt = new Date(anioAnterior, mesAnterior+1, 0).getDate();
@@ -6224,11 +6454,10 @@ function abrirCalendario(){
   }
 
   const mesesNombres=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-  const sorteoEl  = document.getElementById('cal-sorteo-num');
-  const sorteoDesc = document.getElementById('cal-sorteo-desc');
+  const sorteoEl  = document.getElementById(prefix+'-sorteo-num');
+  const sorteoDesc = document.getElementById(prefix+'-sorteo-desc');
 
   if(mesAntCompleto && diasEnMesAnt > 0){
-    // Generar número único basado en uid + mes anterior
     const seed = (window.FB ? window.FB.uid() : 'local') + anioAnterior + mesAnterior;
     const num = generarNumSorteo(seed);
     if(sorteoEl)  sorteoEl.textContent  = num;
@@ -6237,7 +6466,27 @@ function abrirCalendario(){
     if(sorteoEl)  sorteoEl.textContent  = '--';
     if(sorteoDesc) sorteoDesc.textContent = 'Completa todos los días del mes para participar';
   }
+}
 
+function abrirCalendario(){
+  const ahora = window.ADMIN_DATE || new Date();
+  calMes = ahora.getMonth();
+  calAnio = ahora.getFullYear();
+
+  if(typeof isDesktop === 'function' && isDesktop()){
+    _calTargetPrefix = 'dsk-cal';
+    dskWsShow('Racha de estudio', calendarioHTML(_calTargetPrefix));
+    document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
+    renderCalendario(_calTargetPrefix);
+    updateRachaUI();
+    actualizarSorteoCalendario(_calTargetPrefix);
+    return;
+  }
+
+  _calTargetPrefix = 'cal';
+  renderCalendario(_calTargetPrefix);
+  updateRachaUI();
+  actualizarSorteoCalendario(_calTargetPrefix);
   document.getElementById('cal-modal').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -6251,7 +6500,8 @@ function cambiarMes(delta){
   calMes += delta;
   if(calMes > 11){calMes=0;calAnio++;}
   if(calMes < 0){calMes=11;calAnio--;}
-  renderCalendario();
+  renderCalendario(_calTargetPrefix);
+  actualizarSorteoCalendario(_calTargetPrefix);
 }
 
 function diaCompletado(yyyy,mm,dd){
@@ -6262,9 +6512,10 @@ function diaCompletado(yyyy,mm,dd){
   return true;
 }
 
-function renderCalendario(){
+function renderCalendario(prefix='cal'){
   const meses = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
-  document.getElementById('cal-month-label').textContent = meses[calMes]+' '+calAnio;
+  const monthLabel = document.getElementById(prefix+'-month-label');
+  if(monthLabel) monthLabel.textContent = meses[calMes]+' '+calAnio;
 
   const hoy = new Date();
   const primerDia = new Date(calAnio, calMes, 1);
@@ -6274,7 +6525,8 @@ function renderCalendario(){
   let startDay = primerDia.getDay() - 1;
   if(startDay < 0) startDay = 6;
 
-  const grid = document.getElementById('cal-grid');
+  const grid = document.getElementById(prefix+'-grid');
+  if(!grid) return;
   grid.innerHTML = '';
 
   // Labels días
@@ -6298,19 +6550,23 @@ function renderCalendario(){
     diasCompletos.push(diaCompletado(calAnio,calMes,d));
   }
 
-  // Semanas completas (L-D)
+  // Semanas completas (L-D), respetando los bordes del mes:
+  // si el mes inicia o termina a mitad de semana, esa semana "recortada"
+  // se evalúa solo con los días que existen dentro del mes.
   const semanasCompletas = new Set();
-  for(let d=1;d<=diasEnMes;d++){
-    const fecha = new Date(calAnio,calMes,d);
-    const diaSemana = fecha.getDay()===0?6:fecha.getDay()-1; // L=0
-    if(diaSemana===0){ // Inicio de semana lunes
-      let semanaOk = true;
-      for(let s=0;s<7;s++){
-        const dd = d+s;
-        if(dd>diasEnMes){semanaOk=false;break;}
-        if(!diasCompletos[dd-1]){semanaOk=false;break;}
+  {
+    let d = 1;
+    while(d <= diasEnMes){
+      const fecha = new Date(calAnio,calMes,d);
+      const diaSemana = fecha.getDay()===0?6:fecha.getDay()-1; // L=0..D=6
+      let finSegmento = d + (6 - diaSemana);
+      if(finSegmento > diasEnMes) finSegmento = diasEnMes;
+      let segmentoOk = true;
+      for(let dd=d; dd<=finSegmento; dd++){
+        if(!diasCompletos[dd-1]){ segmentoOk = false; break; }
       }
-      if(semanaOk) for(let s=0;s<7;s++) semanasCompletas.add(d+s);
+      if(segmentoOk) for(let dd=d; dd<=finSegmento; dd++) semanasCompletas.add(dd);
+      d = finSegmento + 1;
     }
   }
 
@@ -6604,7 +6860,8 @@ function renderCapitulos(query){
         const dato=CAPITULOS_DISPONIBLES[k];
         if(dato){
           const isNew=esNuevo(dato.fecha);
-          return `<div class="cap-cap-btn disponible${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+          const estado=getEstudioEstado(libro.n,cap);
+          return `<div class="cap-cap-btn disponible${estado?' '+estado:''}${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join("");
@@ -6637,6 +6894,7 @@ function renderCapitulos(query){
       <div class="cap-libros${isOpenB?" open":""}" id="cap-libros-${bloque.bloque}">${librosHTML}</div>`;
     container.appendChild(bloqueEl);
   });
+  decorarCapitulosProgreso(container);
 }
 
 function toggleCapBloque(num,hdr){
@@ -6691,8 +6949,9 @@ async function abrirCapitulo(key){
   const estudio = ESTUDIOS_CAPS[key];
 
   if(estudio){
-    _ecapSecActual = 0;
     _ecapKey = key;
+    _ecapMaxSec[key] = getEstudioMaxSec(key);
+    _ecapSecActual = _ecapMaxSec[key];
 
     document.getElementById('ecap-titulo').textContent = estudio.titulo;
 
@@ -6701,16 +6960,16 @@ async function abrirCapitulo(key){
     // Nav
     const nav = document.getElementById('ecap-nav');
     nav.innerHTML = estudio.secciones.map((s,i) =>
-      `<button class="estudio-cap-navbtn${i===0?' active':''}" onclick="irSeccion(${i})">${escaparHTML(s.nav)}</button>`
+      `<button class="estudio-cap-navbtn${i===_ecapSecActual?' active':''}${i<=_ecapMaxSec[key]?' leida':''}" onclick="irSeccion(${i})">${escaparHTML(s.nav)}</button>`
     ).join('');
 
     // Body
     const body = document.getElementById('ecap-body');
     body.innerHTML = estudio.secciones.map((s,i) =>
-      `<div class="estudio-sec${i===0?' active':''}" id="ecap-sec-${i}">${sanearHTMLPermitido(s.html)}</div>`
+      `<div class="estudio-sec${i===_ecapSecActual?' active':''}" id="ecap-sec-${i}">${sanearHTMLPermitido(s.html)}</div>`
     ).join('');
 
-    actualizarProgressCap(0, estudio.secciones.length);
+    actualizarProgressCap(_ecapMaxSec[key], estudio.secciones.length);
     document.getElementById('estudio-cap-modal').classList.add('open');
     document.body.style.overflow = 'hidden';
   } else {
@@ -6726,18 +6985,19 @@ function irSeccion(idx){
   if(!estudio) return;
   const total = estudio.secciones.length;
 
+  const maxSec = setEstudioMaxSec(_ecapKey, idx);
   document.querySelectorAll('.estudio-sec').forEach((s,i) => s.classList.toggle('active', i===idx));
-  document.querySelectorAll('.estudio-cap-navbtn').forEach((b,i) => b.classList.toggle('active', i===idx));
+  document.querySelectorAll('.estudio-cap-navbtn').forEach((b,i) => {
+    b.classList.toggle('active', i===idx);
+    b.classList.toggle('leida', i<=maxSec);
+  });
 
   document.getElementById('ecap-body').scrollTop = 0;
   _ecapSecActual = idx;
   setTimeout(()=>movilPostProcesarReflexion(_ecapKey, idx), 50);
 
   // Solo avanza — nunca retrocede
-  if(!_ecapMaxSec[_ecapKey] || idx > _ecapMaxSec[_ecapKey]) {
-    _ecapMaxSec[_ecapKey] = idx;
-  }
-  actualizarProgressCap(_ecapMaxSec[_ecapKey], total);
+  actualizarProgressCap(maxSec, total);
 
   // Al llegar a la última sección (Frase) — marcar el capítulo como leído
   if(idx === total - 1) {
@@ -6757,6 +7017,9 @@ function marcarCapituloLeido(key){
   const stored = window.FB ? window.FB.isCap('estudio', key) : localStorage.getItem('stars_estudio_' + key);
   if(stored === '1') return; // ya marcado
 
+  const total = ESTUDIOS_CAPS[key]?.secciones?.length || 10;
+  setEstudioMaxSec(key, Math.max(0, total - 1));
+
   // Guardar que este estudio fue completado
   if(window.FB) window.FB.setCap('estudio', key);
   else localStorage.setItem('stars_estudio_' + key, '1');
@@ -6772,6 +7035,8 @@ function marcarCapituloLeido(key){
     else localStorage.setItem(capKey(libro, cap), '1');
     updateTracker();
     renderTrackerCaps();
+    if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
+    if(typeof dskRenderCaps === 'function') dskRenderCaps(document.getElementById('dsk-cap-search')?.value || '');
     showToast('✓ ' + libro + ' ' + cap + ' completado');
   }
 }
@@ -6989,14 +7254,38 @@ function dskIlSec(btn, idx){
 
   <!-- Topbar -->
   <div id="dsk-top">
-    <div id="dsk-brand" style="display:flex;align-items:center;gap:10px">
-      <img src="logo.png" alt="STARS logo" style="width:28px;height:28px;object-fit:contain;animation:starsPulse 3.5s ease-in-out infinite;flex-shrink:0">
-      <span>S · T · A · R · S &nbsp;·&nbsp; LHSCOL</span>
+    <div id="dsk-nav-top">
+      <button class="dsk-nav-btn active" data-tab="hoy" onclick="dskTab('hoy')" title="Hoy">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></svg>
+        <span>Hoy</span>
+      </button>
+      <button class="dsk-nav-btn" data-tab="estudio" onclick="dskTab('estudio')" title="Estudio">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg>
+        <span>Estudio</span>
+      </button>
+      <button class="dsk-nav-btn" data-tab="lhscol" onclick="window.open('https://lhscolweb.netlify.app/','_blank','noopener')" title="LHSCOL">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg>
+        <span>LHSCOL</span>
+      </button>
+      <button class="dsk-nav-btn" data-tab="musica" onclick="dskTab('musica')" title="Música">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg>
+        <span>Música</span>
+      </button>
+      <button class="dsk-nav-btn" data-tab="config" onclick="dskTab('config')" title="Config">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+        <span>Config</span>
+      </button>
+    </div>
+    <div id="dsk-brand">
+      <img src="logo.png" alt="STARS logo">
+      <span>S · T · A · R · S</span>
     </div>
     <div id="dsk-top-right">
-      <div id="dsk-fecha"></div>
+      <div id="dsk-date-week">
+        <div class="week-row" id="dsk-week-row-top"></div>
+        <div id="dsk-fecha"></div>
+      </div>
       <div id="dsk-racha" onclick="abrirCalendario()">⭐ <span id="dsk-racha-n">1</span> <span style="font-weight:400;opacity:0.7">días</span></div>
-      <div onclick="abrirConfig()" title="Configuración" style="display:flex;align-items:center;gap:6px;padding:5px 12px;background:var(--black3);border:1px solid rgba(255,255,255,0.08);border-radius:16px;cursor:pointer;font-size:0.6875rem;color:var(--white3);transition:all 0.15s" onmouseenter="this.style.borderColor='var(--gold-border)';this.style.color='var(--gold)'" onmouseleave="this.style.borderColor='rgba(255,255,255,0.08)';this.style.color='var(--white3)'"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Config</div>
     </div>
   </div>
 
@@ -7010,6 +7299,7 @@ function dskIlSec(btn, idx){
         <div class="dsk-tab active" data-tab="hoy" onclick="dskTab('hoy')">Hoy</div>
         <div class="dsk-tab" data-tab="estudio" onclick="dskTab('estudio')">Estudio</div>
         <div class="dsk-tab" data-tab="musica" onclick="dskTab('musica')">Música</div>
+        <div class="dsk-tab" data-tab="lhscol" onclick="window.open('https://lhscolweb.netlify.app/','_blank','noopener')">LHSCOL</div>
       </div>
 
       <!-- Panel scroll -->
@@ -7027,6 +7317,12 @@ function dskIlSec(btn, idx){
             <div class="stars-pill"><div class="stars-pill-letter">S</div><div class="stars-pill-name">SIEMBRA</div><div class="stars-pill-time">2 min</div><div class="stars-pill-desc">Práctica<br>concreta.</div></div>
           </div>
 
+          <div style="margin:0 20px 10px;display:flex;align-items:center;gap:8px">
+            <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+            <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.6;font-weight:600">Paso Diario</div>
+            <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+          </div>
+
           <!-- Serie/temporada -->
           <div class="serie-card" id="dsk-serie-card" style="display:none;margin:0 20px 12px" onclick="abrirBlog()">
             <div style="flex:1;min-width:0">
@@ -7036,21 +7332,7 @@ function dskIlSec(btn, idx){
             </div>
           </div>
 
-          <!-- Fecha + semana + racha -->
-          <div style="padding:0 20px 4px">
-            <div id="dsk-hoy-fecha" style="font-size:0.625rem;color:var(--white3);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px"></div>
-          </div>
-          <div style="display:flex;align-items:center;padding:0 20px 16px;gap:8px">
-            <div class="week-row" id="dsk-week-row" style="padding:0;flex:1;overflow-x:auto"></div>
-            <div class="streak-pill" onclick="abrirCalendario()" style="cursor:pointer;flex-shrink:0;margin-left:4px">
-              <span class="streak-icon">⭐</span>
-              <span class="streak-n" id="dsk-streak-n">0</span>
-              <span class="streak-label">días</span>
-            </div>
-          </div>
-
           <!-- Paso diario — tarjeta igual a mobile -->
-          <div class="sec-label" style="padding:0 20px;margin-bottom:8px">El Paso Diario</div>
           <div class="paso-card">
             <div class="paso-header">
               <div class="paso-icon-box">⭐</div>
@@ -7164,9 +7446,13 @@ function dskIlSec(btn, idx){
               <div class="stars-pill-desc">Archivo de<br>predicación.</div>
             </div>
           </div>
-          <!-- Header Paso Profundo -->
+          <!-- Paso Profundo label -->
+          <div style="margin:0 16px 10px;display:flex;align-items:center;gap:8px">
+            <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+            <div style="font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.6;font-weight:600">Paso Profundo</div>
+            <div style="height:1px;flex:1;background:rgba(255,255,255,0.07)"></div>
+          </div>
           <div style="padding:0 16px 10px">
-            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Paso Profundo · S.T.A.R.S.</div>
             <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por versículo</div>
           </div>
           <!-- Por versículo · IA -->
@@ -7201,6 +7487,15 @@ function dskIlSec(btn, idx){
           </div>
           <!-- 10 bloques de estudio — bloque › libro › grilla de capítulos -->
           <div id="dsk-caps-list" style="margin:0 0 8px;padding:0 16px"></div>
+          <div style="margin:28px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:1rem;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic" class="stars-footer-quote">"Cuando tus palabras aparecieron, las comí — me las tragué enteras. ¡Qué banquete! ¡Qué delicia sentí al ser tuyo, oh Dios, Dios-de-los-Ejércitos-Celestiales!"</div>
+            <div style="font-size:0.5rem;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px" class="stars-footer-brand">Jeremías 15:16 · MSG</div>
+          </div>
+          <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+          <div style="padding:0 20px 36px;text-align:center">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:0.8125rem;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px" class="stars-footer-brand">S · T · A · R · S</div>
+            <div style="font-size:0.46875rem;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase" class="stars-footer-lema">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
+          </div>
         </div>
 
         <!-- ── DIARIO ── -->
@@ -7239,6 +7534,98 @@ function dskIlSec(btn, idx){
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#fb923c;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fb923c;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#fb923c;line-height:1;margin-bottom:4px">Happy</div>
               <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para celebrar — canciones alegres, con energía y gratitud.</div>
+            </div>
+          </div>
+          <div style="margin:8px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:1rem;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic" class="stars-footer-quote">"Que la Palabra de Jesús —el Mensaje— tenga libre acceso por toda la casa. Denle mucho espacio en sus vidas. Instrúyanse y diríjanse unos a otros usando el buen sentido común. ¡Y canten, cántenle al Padre con todo el corazón!"</div>
+            <div style="font-size:0.5rem;color:rgba(201,168,76,0.3);letter-spacing:0.16em;text-transform:uppercase;margin-top:8px" class="stars-footer-brand">Colosenses 3:16 · MSG</div>
+          </div>
+          <div style="margin:12px 20px 20px;height:1px;background:linear-gradient(90deg,transparent,rgba(201,168,76,0.18),transparent)"></div>
+          <div style="padding:0 20px 36px;text-align:center">
+            <div style="font-family:'Cormorant Garamond',serif;font-size:0.8125rem;color:rgba(201,168,76,0.35);letter-spacing:0.22em;text-transform:uppercase;margin-bottom:6px" class="stars-footer-brand">S · T · A · R · S</div>
+            <div style="font-size:0.46875rem;color:rgba(245,240,232,0.18);letter-spacing:0.18em;text-transform:uppercase" class="stars-footer-lema">Mayor que mi realidad es su verdad · LHSCOL · 2026</div>
+          </div>
+        </div>
+
+        <!-- ── CONFIG ── -->
+        <div class="dsk-section" id="dsk-sec-config">
+          <div style="padding:14px 20px 10px">
+            <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:4px;font-weight:600">Ajustes · S.T.A.R.S.</div>
+            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Configuración</div>
+          </div>
+
+          <div style="margin:0 12px 16px;background:var(--black3);border:1px solid rgba(255,255,255,0.07);border-radius:12px;overflow:hidden">
+            <div class="config-row" onclick="toggleModo()">
+              <div class="config-row-left">
+                <div class="config-row-icon" id="dsk-config-modo-icon">🌙</div>
+                <div>
+                  <div class="config-row-label" id="dsk-config-modo-label">Modo noche</div>
+                  <div class="config-row-sub" id="dsk-config-modo-sub">Fondo oscuro activo</div>
+                </div>
+              </div>
+              <label class="config-toggle" onclick="event.stopPropagation()">
+                <input type="checkbox" id="dsk-config-toggle-modo" onchange="toggleModo()">
+                <div class="config-toggle-track"></div>
+                <div class="config-toggle-thumb"></div>
+              </label>
+            </div>
+
+            <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
+              <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
+                <div style="display:flex;align-items:center;gap:12px">
+                  <div class="config-row-icon">Aa</div>
+                  <div>
+                    <div class="config-row-label">Tamaño de letra</div>
+                    <div class="config-row-sub">Afecta toda la app</div>
+                  </div>
+                </div>
+              </div>
+              <div class="cfg-font-row" style="width:100%;margin-top:12px">
+                <button id="dsk-cfg-font-xs" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(0)">A</button>
+                <button id="dsk-cfg-font-sm" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(1)">A</button>
+                <button id="dsk-cfg-font-md" class="cfg-font-btn active" onclick="event.stopPropagation();_aplicarFontSize(2)">A</button>
+                <button id="dsk-cfg-font-lg" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(3)">A</button>
+                <button id="dsk-cfg-font-xl" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(4)">A</button>
+              </div>
+            </div>
+
+            <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
+              <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
+                <div style="display:flex;align-items:center;gap:12px">
+                  <div class="config-row-icon">🎨</div>
+                  <div>
+                    <div class="config-row-label">Tema de color</div>
+                    <div class="config-row-sub">Paletas de temporada 2026</div>
+                  </div>
+                </div>
+              </div>
+              <div class="cfg-tema-row">
+                <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')">
+                  <span class="cfg-tema-dot" style="background:#c9a84c"></span>Dorado clásico
+                </button>
+                <button class="cfg-tema-btn" data-tema="azul" onclick="event.stopPropagation();_aplicarTema('azul')">
+                  <span class="cfg-tema-dot" style="background:#B8D1FF"></span>Azul claro
+                </button>
+                <button class="cfg-tema-btn" data-tema="durazno" onclick="event.stopPropagation();_aplicarTema('durazno')">
+                  <span class="cfg-tema-dot" style="background:#F2C5A1"></span>Durazno
+                </button>
+                <button class="cfg-tema-btn" data-tema="contraste" onclick="event.stopPropagation();_aplicarTema('contraste')">
+                  <span class="cfg-tema-dot" style="background:#CC176E"></span>Contraste
+                </button>
+              </div>
+            </div>
+
+            <div class="config-row" onclick="cerrarSesion()">
+              <div class="config-row-left">
+                <div class="config-row-icon red">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f87171" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+                </div>
+                <div>
+                  <div class="config-row-label" style="color:#f87171">Cerrar sesión</div>
+                  <div class="config-row-sub">Salir de la cuenta</div>
+                </div>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4"><polyline points="9 18 15 12 9 6"/></svg>
             </div>
           </div>
         </div>
