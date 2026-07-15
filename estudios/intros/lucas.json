@@ -1,50 +1,424 @@
 {
+  "schemaVersion": 2,
   "libro": "Lucas",
-  "fecha": "2026-07-03",
-  "secciones": [
+  "slug": "lucas",
+  "fecha": "2026-07-14",
+  "portada": {
+    "kicker": "S · T · A · R · S",
+    "titulo": "Lucas",
+    "subtitulo": "Jesús y quienes estaban al margen",
+    "cita": "“Porque el Hijo del Hombre vino a buscar y a salvar lo que se había perdido.”",
+    "referencia": "Lucas 19:10",
+    "metadatos": [
+      "24 capítulos"
+    ]
+  },
+  "bloques": [
     {
-      "nav": "Panorama",
-      "titulo": "El Evangelio de los marginados",
-      "html": "<p>De los cuatro evangelios, Lucas es el más cuidadosamente investigado y el más amplio en su alcance. Es también el que más atención presta a quienes la sociedad de su época consideraba \"de segunda\": mujeres, pobres, samaritanos, cobradores de impuestos, pastores, pecadores públicos. Lucas escribe para mostrar que la gracia de Jesús no tiene fronteras — llega exactamente a quienes el mundo religioso de la época solía dejar afuera.</p><blockquote>\"Porque el Hijo del Hombre vino a buscar y a salvar lo que se había perdido.\" — Lucas 19:10</blockquote><p>Esa frase, dicha después del encuentro de Jesús con Zaqueo — un cobrador de impuestos despreciado por su propio pueblo — resume el corazón de todo el evangelio. Lucas no escribe sobre un Mesías que llega solo para los correctos y respetables; escribe sobre un Salvador que busca activamente a quienes se sienten, o son considerados, fuera del alcance de Dios.</p><p>El libro se estructura siguiendo un arco geográfico y narrativo amplio:</p><p><strong>Nacimiento e infancia (capítulos 1–2).</strong> Lucas es el único evangelio que narra con detalle el nacimiento de Juan el Bautista y de Jesús desde la perspectiva de María, incluyendo el hermoso cántico del Magníficat (1:46-55), donde ella celebra a un Dios que \"derribó a los poderosos de sus tronos, y exaltó a los humildes\" — un tema que va a repetirse constantemente en el resto del libro.</p><p><strong>Ministerio en Galilea (capítulos 3–9).</strong> Jesús comienza su ministerio público, enseña, sana, llama a sus discípulos y comienza a chocar con los líderes religiosos precisamente por su cercanía con \"pecadores\" y personas marginadas.</p><p><strong>El camino a Jerusalén (capítulos 9–19).</strong> Esta es la sección más extensa y distintiva de Lucas — un largo viaje narrativo hacia Jerusalén, lleno de enseñanzas, parábolas y encuentros que no aparecen en los otros evangelios. Aquí están algunas de las historias más queridas de toda la Biblia: el buen samaritano (10:25-37), el hijo pródigo (15:11-32), el fariseo y el publicano (18:9-14), Zaqueo (19:1-10). Todas comparten un mismo hilo: la gracia de Dios alcanza a quien menos se lo espera, y a menudo es rechazada precisamente por quienes se consideran ya cercanos a Dios.</p><p><strong>Semana final, muerte y resurrección (capítulos 19–24).</strong> Como los demás evangelios, Lucas culmina con la entrada de Jesús a Jerusalén, la Última Cena, su arresto, crucifixión y resurrección — pero con detalles únicos, como el encuentro con los dos discípulos en el camino a Emaús (24:13-35), una de las escenas más entrañables de todo el Nuevo Testamento sobre reconocer a Jesús resucitado.</p><p>Lucas es también el primero de una obra en dos partes: escribió después el libro de Hechos, continuando la historia de cómo el mensaje de Jesús se expandió desde Jerusalén hasta los confines del mundo conocido, a través de la iglesia naciente.</p>"
+      "tipo": "editorial",
+      "titulo": "Antes de leer Lucas",
+      "descripcion": "Una orientación para comprender qué encontrarás en este libro.",
+      "parrafos": [
+        "Lucas presenta un relato cuidadosamente investigado y ordenado para mostrar con claridad quién es Jesús, qué hizo y por qué Su llegada cambia la historia.",
+        "No reúne historias aisladas. Construye un recorrido que comienza con los anuncios del nacimiento, avanza por el ministerio de Jesús, se dirige intencionalmente hacia Jerusalén y culmina con Su muerte y resurrección. Después, la historia continúa en Hechos.",
+        "A lo largo de Lucas verás a Jesús acercarse a quienes otros dejaban al margen: pobres, mujeres, extranjeros, pecadores, enfermos y personas consideradas indignas. Lucas revela una gracia que no tiene fronteras y un Salvador que busca activamente a quienes estaban perdidos."
+      ],
+      "definicionesTitulo": "Qué hace particular a Lucas",
+      "definiciones": [
+        {
+          "titulo": "Una salvación abierta a todos",
+          "texto": "Lucas muestra que la obra de Jesús nace dentro de la historia de Israel y se abre hacia todas las naciones. Desde los cánticos de los primeros capítulos hasta el envío final, la salvación se presenta como una buena noticia destinada a alcanzar a toda persona."
+        },
+        {
+          "titulo": "Atención a quienes otros ignoraban",
+          "texto": "Mujeres, pobres, extranjeros, samaritanos, cobradores de impuestos y personas señaladas como pecadoras ocupan un lugar central. No aparecen como figuras secundarias: sus encuentros con Jesús revelan quién es Él y cómo actúa la gracia de Dios."
+        },
+        {
+          "titulo": "El Espíritu y la oración",
+          "texto": "El Espíritu Santo participa activamente desde el inicio del relato, y Jesús aparece orando en momentos decisivos. Lucas permite observar que la misión de Jesús no se separa de la presencia del Espíritu ni de una vida de comunión con el Padre."
+        },
+        {
+          "titulo": "Mesas, encuentros y restauración",
+          "texto": "Muchas escenas importantes ocurren alrededor de una comida. Allí Jesús recibe a personas rechazadas, confronta prejuicios, enseña sobre el Reino y convierte la mesa en un lugar de gracia, verdad y restauración."
+        },
+        {
+          "titulo": "Gozo cuando lo perdido es encontrado",
+          "texto": "La alabanza, la celebración y la alegría recorren todo el libro. En Lucas, la salvación no aparece solo como perdón: también es regreso, restauración, comunidad y fiesta."
+        },
+        {
+          "titulo": "El orden esperado es invertido",
+          "texto": "Los humildes son exaltados, los últimos son recibidos y quienes parecen estar cerca de Dios descubren que también necesitan gracia. Lucas muestra una y otra vez que el Reino transforma la manera habitual de medir el valor, el poder y la cercanía con Dios."
+        }
+      ],
+      "fraseAncla": "Lucas no solo cuenta lo que Jesús hizo. Invita a observar a quién buscó, cómo trató a las personas y qué revela todo eso acerca del corazón de Dios."
     },
     {
-      "nav": "Contexto",
-      "titulo": "Quién, cuándo y por qué",
-      "html": "<p><strong>¿Quién lo escribió?</strong></p><p>La tradición cristiana más temprana, desde el siglo II, atribuye este evangelio a <strong>Lucas</strong>, médico y compañero de viaje del apóstol Pablo (mencionado en Colosenses 4:14, 2 Timoteo 4:11, y Filemón 1:24). Lucas no fue testigo ocular directo del ministerio de Jesús — él mismo lo aclara en su prólogo, explicando que investigó \"con diligencia todas las cosas desde su origen\" a partir de testimonios de quienes sí lo fueron (1:1-4). Es, en este sentido, el evangelio más parecido a una investigación histórica cuidadosa en su método.</p><p><strong>¿Cuándo se escribió?</strong></p><p>La mayoría de los eruditos ubican la escritura de Lucas entre los años 60 y 80 d.C., probablemente antes de la destrucción del templo de Jerusalén en el año 70. Lucas escribió su evangelio como la primera parte de una obra que continúa directamente en el libro de Hechos, dirigidos ambos a la misma persona: \"excelentísimo Teófilo\" (Lucas 1:3, Hechos 1:1) — probablemente un funcionario romano de alto rango, posiblemente el patrocinador que financió la investigación y difusión de la obra.</p><p><strong>¿Para quién se escribió?</strong></p><p>Principalmente para una audiencia gentil (no judía), lo cual explica por qué Lucas explica costumbres judías con más detalle que Mateo, y por qué traza la genealogía de Jesús hasta Adán (3:23-38) — representando a toda la humanidad, no solo al pueblo de Israel como hace Mateo al remontarse solo hasta Abraham. Lucas quiere mostrar que Jesús es el Salvador de todas las naciones, no solo de un pueblo particular.</p><p><strong>¿Por qué importa hoy?</strong></p><p>Porque Lucas confronta directamente cualquier idea de que hay personas \"demasiado lejos\" del alcance de la gracia de Dios. Si alguna vez te has sentido excluido, indigno o \"no suficientemente bueno\" para acercarte a Dios, Lucas es el evangelio que más claramente te muestra lo contrario: Jesús busca activamente a quienes se sienten perdidos, y celebra su regreso con más alegría que por noventa y nueve que nunca se extraviaron (15:7).</p>"
+      "tipo": "contexto",
+      "titulo": "Conoce el contexto",
+      "descripcion": "Autor, propósito, audiencia y claves que te ayudarán a leer mejor.",
+      "definicionesTitulo": "Quién, para quién y por qué",
+      "definiciones": [
+        {
+          "titulo": "Autor",
+          "texto": "La tradición cristiana temprana atribuye esta obra a Lucas, médico y compañero de viaje del apóstol Pablo (Colosenses 4:14; 2 Timoteo 4:11; Filemón 1:24). En el prólogo, el autor se presenta como alguien que recibió lo transmitido por los testigos oculares, investigó cuidadosamente los hechos y decidió escribirlos de manera ordenada (1:1–4). Esto ayuda a leer Lucas como un relato intencional: cada escena ha sido seleccionada y ubicada para dar claridad y certeza acerca de Jesús."
+        },
+        {
+          "titulo": "Destinatario",
+          "texto": "Lucas dirige su relato al “excelentísimo Teófilo” (1:3). Su identidad exacta no se conoce, pero la forma en que Lucas se dirige a él muestra que era el destinatario inicial de esta obra cuidadosamente investigada. El propósito declarado es que conozca la certeza de las enseñanzas que había recibido (1:4)."
+        },
+        {
+          "titulo": "Fecha aproximada",
+          "texto": "La fecha exacta no puede establecerse con certeza. Las propuestas académicas suelen ubicar la obra en la segunda mitad del siglo I. Más importante que fijar un año preciso es reconocer que Lucas escribe para dar fundamento y claridad a comunidades que ya habían recibido el mensaje acerca de Jesús."
+        },
+        {
+          "titulo": "Audiencia",
+          "texto": "El relato parece pensar especialmente en lectores no judíos. Lucas explica algunos elementos del mundo judío, sitúa los acontecimientos dentro de la historia más amplia y lleva la genealogía de Jesús hasta Adán (3:23–38), no solo hasta Abraham. Esa decisión amplía el horizonte: Jesús pertenece a la historia de Israel, pero Su obra alcanza a toda la humanidad."
+        },
+        {
+          "titulo": "Propósito",
+          "texto": "Lucas escribe para ofrecer certeza: quiere mostrar de manera ordenada quién es Jesús, qué hizo y cómo Su obra cumple el propósito de Dios. Por eso combina acontecimientos, enseñanzas, parábolas, encuentros y largos movimientos narrativos. No busca solo informar; busca que el lector comprenda el sentido de la historia."
+        },
+        {
+          "titulo": "Lucas y Hechos",
+          "texto": "Lucas y Hechos forman una sola historia en dos partes. Lucas narra lo que Jesús comenzó a hacer y enseñar; Hechos muestra cómo esa obra continúa por medio del Espíritu Santo y de la comunidad de Sus discípulos. El movimiento completo va desde Israel y Jerusalén hacia las naciones. Leer Lucas con Hechos en mente permite reconocer que la resurrección no es el final del relato, sino el comienzo de una misión que se expande."
+        },
+        {
+          "titulo": "Por qué importa hoy",
+          "texto": "Lucas confronta cualquier idea de que hay personas demasiado lejos del alcance de la gracia de Dios. Presenta dignidad para quienes habían sido ignorados, restauración para quienes cargaban culpa, regreso para quienes estaban perdidos y celebración cuando alguien es encontrado. También confronta a quienes se sienten seguros por su posición, mérito o religiosidad: todos necesitan recibir la gracia y aprender a vivir bajo los valores del Reino."
+        }
+      ],
+      "detallesTitulo": "Claves de lectura",
+      "detalles": [
+        {
+          "titulo": "Las tres parábolas de Lucas 15 son una sola unidad",
+          "texto": "La oveja perdida, la moneda perdida y los dos hijos no son historias aisladas. Jesús las cuenta como respuesta directa a quienes criticaban que recibiera a “pecadores” y comiera con ellos (15:1–2). Las tres escenas repiten un movimiento: algo valioso se pierde, es buscado o esperado, es encontrado y provoca celebración. Leídas juntas revelan el corazón de Dios y también exponen la dificultad de algunos para alegrarse cuando la gracia alcanza a otros."
+        },
+        {
+          "titulo": "El Magníficat de María anticipa grandes temas del libro",
+          "texto": "El cántico de María (1:46–55), desde el primer capítulo, ya contiene la semilla teológica de mucho de lo que aparecerá después: Dios mira a los humildes, derriba falsas seguridades, llena a los hambrientos y recuerda Su misericordia. Al terminar Lucas, vale la pena volver a este cántico y reconocer cuántas escenas desarrollan esa misma inversión del orden esperado."
+        },
+        {
+          "titulo": "Lucas tiene una atención particular a la oración",
+          "texto": "Lucas muestra a Jesús orando en momentos clave: en Su bautismo (3:21), antes de elegir a los doce (6:12), antes de preguntar quién dicen que es Él (9:18), en la transfiguración (9:28–29), antes de enseñar sobre la oración (11:1) y en Getsemaní (22:39–46). La oración no es un detalle devocional añadido: acompaña la identidad, las decisiones y la misión de Jesús."
+        },
+        {
+          "titulo": "El camino a Jerusalén organiza el centro del libro",
+          "texto": "Desde 9:51, Jesús “afirma Su rostro” para ir a Jerusalén. La extensa sección de los capítulos 9–19 no busca ofrecer una cronología detallada, sino formar al lector mientras el relato avanza hacia la cruz. Allí se concentran muchas parábolas y enseñanzas sobre el discipulado, la oración, las posesiones, el prójimo, la gracia y el Reino. La pregunta que acompaña el camino es: ¿qué significa seguir realmente a Jesús?"
+        },
+        {
+          "titulo": "El camino a Emaús enseña a leer toda la Escritura",
+          "texto": "En Lucas 24:13–35, Jesús resucitado camina con dos discípulos que no lo reconocen y les explica lo que las Escrituras decían acerca del Mesías, comenzando por Moisés y los profetas. La escena muestra que la cruz y la resurrección no son accidentes desconectados, sino el cumplimiento de la historia bíblica. Emaús invita a releer toda la Escritura a la luz de Jesús."
+        },
+        {
+          "titulo": "Las mesas revelan aceptación, conflicto y gracia",
+          "texto": "En Lucas, Jesús come con cobradores de impuestos, recibe a una mujer señalada como pecadora, visita casas, enseña durante comidas y cuenta historias sobre banquetes. La mesa se convierte en un lugar donde se hace visible quién es recibido, quién se resiste a recibir a otros y cómo el Reino redefine la hospitalidad. Observa quién invita, quién entra, quién queda afuera y qué revela cada comida acerca del corazón de Dios."
+        },
+        {
+          "titulo": "La inversión de expectativas atraviesa todo Lucas",
+          "texto": "Los humildes son exaltados, los hambrientos son llenados, los últimos son invitados y quienes parecen estar seguros descubren que también necesitan gracia. Esta inversión no es un simple cambio social: expresa los valores del Reino. Lucas confronta las formas humanas de medir importancia, pureza, poder y cercanía con Dios."
+        },
+        {
+          "titulo": "La riqueza y las posesiones revelan el corazón",
+          "texto": "Lucas presta atención especial al dinero, la generosidad y el uso de las posesiones. Juan el Bautista llama a compartir (3:10–14); Jesús advierte contra la avaricia (12:13–34), narra historias sobre administradores, ricos y pobres (16:1–31), confronta al dirigente rico (18:18–30) y muestra la transformación de Zaqueo (19:1–10). La pregunta no es solo cuánto posee una persona, sino en qué confía y cómo sus bienes participan de la justicia, la compasión y el Reino."
+        }
+      ]
     },
     {
-      "nav": "Claves de lectura",
-      "titulo": "Antes de empezar a leer",
-      "html": "<p><strong>1. Presta atención a quién está presente en cada escena</strong></p><p>Lucas menciona constantemente a personas que los otros evangelios pasan por alto: mujeres (María, Isabel, Ana la profetisa, las mujeres que sostenían el ministerio de Jesús económicamente en 8:1-3), pastores (considerados de baja reputación social en su época), samaritanos (despreciados por los judíos), y pecadores públicos. Cada vez que aparece alguien inesperado en la escena, pregúntate qué está mostrando Lucas sobre el alcance de la gracia de Jesús.</p><p><strong>2. Las tres parábolas del capítulo 15 forman una sola unidad — léelas juntas</strong></p><p>La oveja perdida, la moneda perdida y el hijo pródigo no son historias aisladas — Jesús las cuenta seguidas, como respuesta directa a los fariseos que criticaban que él comiera con \"pecadores\" (15:1-2). Las tres comparten el mismo mensaje central: algo valioso se pierde, se busca con dedicación, se encuentra, y hay una celebración desbordante — un retrato del corazón de Dios hacia cualquiera que se siente perdido.</p><p><strong>3. El Magníficat de María (1:46-55) anticipa el tema central de todo el libro</strong></p><p>El cántico de María, apenas en el segundo capítulo, ya contiene la semilla teológica de todo lo que viene después: un Dios que invierte el orden esperado del mundo, exaltando a los humildes y llenando de bienes a los hambrientos, mientras envía vacíos a los ricos. Vuelve a leer este pasaje después de terminar el libro completo — vas a notar cuántas historias posteriores son ejemplos concretos de esta misma inversión.</p><p><strong>4. Lucas tiene una atención particular a la oración</strong></p><p>Más que cualquier otro evangelio, Lucas muestra a Jesús orando en momentos clave: antes de elegir a los doce discípulos (6:12), en su transfiguración (9:28-29), antes de enseñar el Padrenuestro (11:1), en Getsemaní (22:39-46). Si quieres aprender el ritmo de vida devocional de Jesús mismo, Lucas es el evangelio donde más claramente se puede observar.</p><p><strong>5. El camino a Jerusalén (capítulos 9–19) no sigue un orden estrictamente cronológico</strong></p><p>Esta larga sección está organizada más temáticamente que cronológicamente — Lucas agrupa enseñanzas y parábolas alrededor del tema del viaje hacia la cruz, sin necesariamente presentarlas en el orden exacto en que ocurrieron. No te preocupes por reconstruir una cronología perfecta; en cambio, deja que el peso acumulativo de las enseñanzas te vaya preparando, igual que a los discípulos originales, para lo que espera en Jerusalén.</p><p><strong>6. El camino a Emaús (24:13-35) es la clave de lectura de todo el Antiguo Testamento</strong></p><p>Cuando Jesús resucitado camina con dos discípulos que no lo reconocen, les explica las Escrituras \"comenzando desde Moisés, y siguiendo por todos los profetas\" (24:27) mostrándoles cómo todo el Antiguo Testamento apuntaba hacia él. Este pasaje es, en cierto sentido, una invitación a releer Génesis, Éxodo, los Salmos y los profetas — todo lo que ya hemos estudiado — con nuevos ojos: buscando a Jesús en cada página.</p>"
+      "tipo": "observacion",
+      "titulo": "Mientras lees, presta atención a…",
+      "descripcion": "Diez hilos que vale la pena observar a lo largo de Lucas.",
+      "items": [
+        {
+          "titulo": "Jesús y quienes estaban al margen",
+          "texto": "Observa cómo Jesús se acerca a personas excluidas, despreciadas o consideradas indignas. Mujeres, pobres, enfermos, samaritanos, extranjeros, cobradores de impuestos y personas señaladas como pecadoras aparecen en escenas que revelan el alcance de la gracia y cuestionan las fronteras creadas por la sociedad y la religión."
+        },
+        {
+          "titulo": "La oración",
+          "texto": "Lucas muestra a Jesús orando en momentos decisivos de Su identidad, Sus decisiones y Su misión. Presta atención no solo a lo que Jesús enseña sobre la oración, sino también a cuándo ora, por qué se aparta y cómo la oración sostiene Su camino hacia la cruz."
+        },
+        {
+          "titulo": "La obra del Espíritu Santo",
+          "texto": "Desde los primeros capítulos, el Espíritu participa activamente en la historia. Observa cómo llena, guía, unge, da palabras y prepara la continuidad de la misión que luego se desarrollará en Hechos."
+        },
+        {
+          "titulo": "El Reino de Dios",
+          "texto": "Presta atención a cómo Jesús anuncia, explica y manifiesta el Reino. Sus enseñanzas, sanidades, comidas, parábolas y confrontaciones muestran una realidad que ya está irrumpiendo y que transforma la manera de ver a Dios, a las personas, al poder y a la vida."
+        },
+        {
+          "titulo": "El camino hacia Jerusalén",
+          "texto": "Desde Lucas 9:51, el relato avanza intencionalmente hacia Jerusalén, la cruz y la resurrección. El viaje no es solo geográfico: es el espacio donde Jesús forma a Sus discípulos y redefine qué significa seguirlo."
+        },
+        {
+          "titulo": "Las mesas y los encuentros",
+          "texto": "Muchas escenas importantes suceden alrededor de una comida. Observa quién invita a Jesús, con quién decide comer, quién critica esas relaciones y qué sucede en la mesa. Allí aparecen aceptación, conflicto, perdón, hospitalidad, confrontación y restauración."
+        },
+        {
+          "titulo": "El gozo y la celebración",
+          "texto": "Desde los anuncios y cánticos de los primeros capítulos hasta las parábolas de lo perdido y la alegría final de los discípulos, la salvación produce alabanza, gozo y fiesta. Observa cuándo aparece la alegría y qué acción de Dios la provoca."
+        },
+        {
+          "titulo": "El dinero y las posesiones",
+          "texto": "Lucas relaciona riqueza, generosidad, justicia, confianza y discipulado. Observa cómo las posesiones revelan las prioridades del corazón, cómo Jesús confronta la avaricia y cómo la gracia produce una nueva manera de compartir."
+        },
+        {
+          "titulo": "La inversión del orden esperado",
+          "texto": "Dios levanta a los humildes, recibe a los excluidos, confronta la autosuficiencia y redefine quién está cerca. Pregúntate en cada escena quién parecía importante al comienzo, quién termina comprendiendo la gracia y qué valores del Reino quedan al descubierto."
+        },
+        {
+          "titulo": "El costo de seguir a Jesús",
+          "texto": "Lucas no presenta el discipulado como admiración distante. Seguir a Jesús implica una decisión que reorganiza prioridades, posesiones, relaciones, seguridad y manera de vivir. Observa qué dejan los discípulos, qué temen perder y qué reciben al caminar con Él."
+        }
+      ]
     },
     {
-      "nav": "Recursos",
-      "titulo": "Para ir más lejos",
-      "html": "<p>Estos recursos te ayudarán a profundizar en el panorama del Evangelio de Lucas antes o después de recorrer cada capítulo en el Paso Profundo. Son puertas de entrada complementarias, no destinos finales — el texto bíblico siempre tiene la última palabra, y estos materiales solo buscan iluminarlo mejor.</p>"
+      "tipo": "recorrido",
+      "titulo": "El recorrido del libro",
+      "descripcion": "Los grandes movimientos que organizan la historia.",
+      "items": [
+        {
+          "marcador": "1–2",
+          "rango": "Lucas 1–2",
+          "titulo": "Nacimiento y preparación",
+          "queOcurre": "Los anuncios, los nacimientos de Juan y Jesús, los cánticos, los pastores y la presentación en el templo sitúan la llegada de Jesús dentro de las promesas de Dios a Israel.",
+          "escenas": "Zacarías e Isabel; el anuncio a María; el Magníficat; los pastores; Simeón y Ana.",
+          "pregunta": "¿Qué revela la llegada de Jesús sobre la fidelidad de Dios y sobre las personas a quienes Él decide incluir?"
+        },
+        {
+          "marcador": "3–9",
+          "rango": "Lucas 3–9",
+          "titulo": "Ministerio en Galilea",
+          "queOcurre": "Jesús es bautizado, anuncia Su misión, llama discípulos, enseña, sana, perdona y demuestra la llegada del Reino con autoridad y compasión.",
+          "escenas": "el bautismo; la sinagoga de Nazaret; la pesca y el llamado de Pedro; el paralítico; el sermón del llano; la mujer que unge a Jesús; la multiplicación de los panes.",
+          "pregunta": "¿Qué clase de autoridad tiene Jesús y para quiénes trae buenas noticias?"
+        },
+        {
+          "marcador": "9–19",
+          "rango": "Lucas 9–19",
+          "titulo": "El camino hacia Jerusalén",
+          "queOcurre": "Jesús avanza hacia Jerusalén mientras enseña qué significa vivir bajo el Reino y seguirlo realmente. El viaje forma a los discípulos y confronta sus ideas sobre poder, prójimo, oración, dinero, gracia y grandeza.",
+          "escenas": "el buen samaritano; Marta y María; la enseñanza sobre la oración; el rico insensato; las parábolas de Lucas 15; el fariseo y el cobrador de impuestos; Zaqueo.",
+          "pregunta": "¿Qué significa realmente seguir a Jesús?"
+        },
+        {
+          "marcador": "19–23",
+          "rango": "Lucas 19–23",
+          "titulo": "Jerusalén, la cruz y la muerte",
+          "queOcurre": "Jesús entra en Jerusalén, enseña en el templo, comparte la última cena, es arrestado, juzgado y crucificado. El Rey revela Su Reino no mediante la fuerza, sino por medio de la fidelidad, el servicio, el perdón y la entrega.",
+          "escenas": "la entrada en Jerusalén; el templo; la última cena; Getsemaní; Pedro; los juicios; el criminal junto a Jesús; la cruz.",
+          "pregunta": "¿Cómo revela Jesús el carácter del Reino precisamente en Su entrega y en la cruz?"
+        },
+        {
+          "marcador": "24",
+          "rango": "Lucas 24",
+          "titulo": "La resurrección",
+          "queOcurre": "La tumba está vacía, Jesús se acerca a discípulos confundidos, abre las Escrituras, comparte la mesa y los envía como testigos. La resurrección transforma la comprensión del pasado y abre la misión futura.",
+          "escenas": "las mujeres en la tumba; el camino a Emaús; el reconocimiento al partir el pan; Jesús con Sus discípulos; la promesa del poder de lo alto.",
+          "pregunta": "¿Cómo cambia la resurrección la manera de leer las Escrituras, comprender a Jesús y participar en Su misión?"
+        }
+      ]
+    },
+    {
+      "tipo": "temas",
+      "titulo": "Grandes temas de Lucas",
+      "descripcion": "Las verdades principales que atraviesan todo el libro.",
+      "items": [
+        {
+          "titulo": "Salvación para todos",
+          "queSignifica": "Jesús es presentado como el Salvador cuya obra nace dentro de Israel y se extiende hacia toda la humanidad. La gracia de Dios no queda limitada por origen, reputación, condición social o pasado.",
+          "dondeObservarlo": "Lucas 2:30–32; 3:6; 4:24–27; 7:1–10; 10:25–37; 24:47.",
+          "porQueImporta": "Nadie puede reclamar la gracia como posesión exclusiva ni considerar a otra persona fuera de su alcance. La comunidad de Jesús aprende a recibir a quienes Dios está llamando."
+        },
+        {
+          "titulo": "Compasión y restauración",
+          "queSignifica": "Jesús ve a las personas en su necesidad completa. Su compasión no es lástima distante: se acerca, toca, sana, perdona, devuelve dignidad y reintegra a la comunidad.",
+          "dondeObservarlo": "Lucas 5:12–26; 7:11–17, 36–50; 8:43–48; 13:10–17; 17:11–19; 19:1–10.",
+          "porQueImporta": "La restauración de Dios alcanza cuerpo, historia, relaciones e identidad. Seguir a Jesús implica aprender a mirar y tratar a las personas con esa misma compasión."
+        },
+        {
+          "titulo": "El Espíritu Santo",
+          "queSignifica": "El Espíritu llena, guía, unge y capacita. La misión de Jesús se desarrolla en el poder del Espíritu y prepara la continuidad que se verá en Hechos.",
+          "dondeObservarlo": "Lucas 1:35, 41, 67; 2:25–27; 3:21–22; 4:1, 14, 18; 10:21; 11:13; 24:49.",
+          "porQueImporta": "La vida del Reino no depende solo de esfuerzo humano. La presencia y la obra del Espíritu son esenciales para comprender a Jesús y participar en Su misión."
+        },
+        {
+          "titulo": "La oración",
+          "queSignifica": "La oración atraviesa la vida de Jesús y la formación de Sus discípulos. Aparece en momentos de identidad, decisión, revelación, conflicto y entrega.",
+          "dondeObservarlo": "Lucas 3:21; 5:16; 6:12; 9:18, 28–29; 10:21; 11:1–13; 18:1–14; 22:39–46.",
+          "porQueImporta": "Lucas muestra que la oración no es una actividad aislada, sino una forma de vivir en confianza, dependencia y comunión con el Padre."
+        },
+        {
+          "titulo": "El Reino de Dios",
+          "queSignifica": "El Reino es el gobierno de Dios haciéndose presente en la misión de Jesús. Se anuncia con palabras y se hace visible en sanidades, liberación, perdón, nuevas relaciones y una manera distinta de vivir.",
+          "dondeObservarlo": "Lucas 4:18–19, 43; 6:20–49; 8:1; 9:1–2; 11:2, 20; 13:18–21; 17:20–21.",
+          "porQueImporta": "Seguir a Jesús no consiste solo en aceptar ideas religiosas, sino en aprender a vivir bajo la voluntad, los valores y la realidad de Dios."
+        },
+        {
+          "titulo": "Gozo y celebración",
+          "queSignifica": "El gozo aparece cuando Dios cumple Sus promesas, cuando la salvación llega, cuando lo perdido es encontrado y cuando los discípulos reconocen la obra de Jesús.",
+          "dondeObservarlo": "Lucas 1:14, 44, 46–55; 2:10–20; 10:17–21; 15:1–32; 19:6; 24:41, 52–53.",
+          "porQueImporta": "La gracia no produce indiferencia. La respuesta adecuada a la restauración de Dios incluye gratitud, alabanza, comunidad y celebración."
+        },
+        {
+          "titulo": "Mesa y hospitalidad",
+          "queSignifica": "Las comidas son espacios donde Jesús recibe a quienes otros rechazan, confronta la exclusión, enseña sobre el Reino y muestra una nueva comunidad.",
+          "dondeObservarlo": "Lucas 5:27–32; 7:36–50; 10:38–42; 11:37–54; 14:1–24; 19:1–10; 22:14–20; 24:28–35.",
+          "porQueImporta": "La hospitalidad revela a quién consideramos digno de cercanía. En Lucas, la mesa se convierte en una señal concreta de la gracia y en una prueba de nuestras fronteras."
+        },
+        {
+          "titulo": "Riqueza y generosidad",
+          "queSignifica": "El dinero y las posesiones exponen aquello en lo que una persona confía. Lucas conecta la riqueza con responsabilidad, justicia, generosidad y disposición a participar en el Reino.",
+          "dondeObservarlo": "Lucas 3:10–14; 6:20–26; 8:1–3; 12:13–34; 16:1–31; 18:18–30; 19:1–10; 21:1–4.",
+          "porQueImporta": "La transformación espiritual también alcanza la manera de poseer, compartir y usar los recursos. La generosidad es una expresión visible de confianza en Dios y amor al prójimo."
+        },
+        {
+          "titulo": "El costo del discipulado",
+          "queSignifica": "Seguir a Jesús implica responder a Su llamado con toda la vida. El discipulado reorganiza identidad, prioridades, seguridad, posesiones y relaciones.",
+          "dondeObservarlo": "Lucas 5:1–11, 27–28; 9:23–26, 57–62; 14:25–33; 18:18–30.",
+          "porQueImporta": "Jesús no busca admiradores ocasionales, sino discípulos que confían en Él por encima de aquello que antes definía su seguridad."
+        },
+        {
+          "titulo": "Cumplimiento de las Escrituras",
+          "queSignifica": "Lucas presenta a Jesús dentro de la historia y las promesas de Israel. Su misión, sufrimiento, muerte y resurrección cumplen el propósito de Dios anunciado en las Escrituras.",
+          "dondeObservarlo": "Lucas 1:46–55, 68–79; 2:25–38; 4:16–21; 7:18–23; 18:31–33; 22:37; 24:25–27, 44–47.",
+          "porQueImporta": "Jesús no puede comprenderse como una figura aislada. Él da continuidad y cumplimiento a la gran historia bíblica y enseña a leerla desde la cruz y la resurrección."
+        },
+        {
+          "titulo": "Jesús y las naciones",
+          "queSignifica": "La historia comienza dentro de Israel, pero desde temprano apunta hacia un alcance universal. Personas extranjeras y ejemplos tomados de otras naciones anticipan la misión que continuará en Hechos.",
+          "dondeObservarlo": "Lucas 2:30–32; 3:6; 4:24–27; 7:1–10; 10:25–37; 17:11–19; 24:47.",
+          "porQueImporta": "El pueblo de Jesús no se define por nacionalidad, origen o privilegio, sino por recibir Su gracia y participar en Su misión hacia todos."
+        },
+        {
+          "titulo": "La inversión del orden esperado",
+          "queSignifica": "Lucas muestra que el Reino confronta las jerarquías humanas: los humildes son levantados, los últimos son invitados, los autosuficientes son cuestionados y quienes reconocen su necesidad reciben gracia.",
+          "dondeObservarlo": "Lucas 1:46–55; 6:20–26; 7:36–50; 14:7–14; 16:19–31; 18:9–14.",
+          "porQueImporta": "Dios no evalúa como nosotros. El Reino obliga a revisar nuestras ideas sobre éxito, importancia, mérito, pureza y cercanía con Dios."
+        }
+      ],
+      "sintesis": {
+        "titulo": "Lucas en una mirada",
+        "texto": "Lucas presenta a Jesús como el Salvador enviado por Dios para buscar a quienes estaban perdidos, restaurar a quienes habían sido dejados al margen y formar una nueva comunidad que vive bajo los valores del Reino. La historia comienza dentro de Israel, avanza hacia Jerusalén y continúa en Hechos hasta alcanzar a las naciones. A lo largo del camino, la oración, el Espíritu Santo, la mesa, la generosidad, el gozo y la inversión de expectativas revelan cómo es el corazón de Dios y qué significa seguir a Jesús."
+      },
+      "fraseAncla": "Una gracia que no tiene fronteras, y un Salvador que busca activamente a quienes estaban perdidos."
+    },
+    {
+      "tipo": "recursos",
+      "titulo": "Para comprender mejor",
+      "descripcion": "Recursos seleccionados para profundizar cuando lo desees.",
+      "introduccion": "Estos recursos fueron seleccionados para ayudarte a observar la estructura, los temas y el desarrollo de Lucas. La Escritura continúa siendo el centro."
     }
   ],
-  "recursos": [
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen del Evangelio de Lucas (Parte 1)",
-      "detalle": "Video · Nacimiento, infancia y ministerio en Galilea",
-      "url": "https://youtu.be/bPzhlL9zKmg"
+  "recursos": {
+    "poster": {
+      "fuente": "Proyecto Biblia",
+      "titulo": "Mapa visual de Lucas",
+      "descripcion": "Mapa visual de la estructura y los grandes movimientos",
+      "preview": "estudios/intros/assets/lucas/lucas-poster-preview.jpg",
+      "full": "estudios/intros/assets/lucas/lucas-poster-full.jpg",
+      "alt": "Mapa visual del relato de Lucas"
     },
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen del Evangelio de Lucas (Parte 2)",
-      "detalle": "Video · El camino a Jerusalén, muerte y resurrección",
-      "url": "https://youtu.be/CxiSs-SHTuI"
-    },
-    {
-      "tipo": "rightnow",
-      "fuente": "RightNow Media en Español",
-      "titulo": "Lucas · Tráiler de la serie",
-      "detalle": "Video · Para ver la serie completa, suscríbete al College",
-      "url": "https://youtu.be/FgeSFZ09dNQ",
-      "nota": "college_link"
-    }
-  ]
+    "videos": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Panorama de Lucas",
+        "descripcion": "Una visión general de la estructura, los grandes movimientos y el propósito del libro.",
+        "items": [
+          {
+            "etiqueta": "Parte 1",
+            "titulo": "Nacimiento, infancia y ministerio en Galilea",
+            "youtubeId": "bPzhlL9zKmg"
+          },
+          {
+            "etiqueta": "Parte 2",
+            "titulo": "El camino hacia Jerusalén, la muerte y la resurrección",
+            "youtubeId": "CxiSs-SHTuI"
+          }
+        ]
+      }
+    ],
+    "miniseries": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Recorre la historia de Lucas",
+        "descripcion": "Una miniserie que desarrolla los grandes movimientos del libro, episodio por episodio.",
+        "etiqueta": "Miniserie de 5 episodios",
+        "items": [
+          {
+            "episodio": "Episodio 1",
+            "rango": "Lucas 1–2",
+            "titulo": "El nacimiento de Jesús",
+            "descripcion": "Los anuncios, el nacimiento de Juan, el nacimiento de Jesús y la llegada del Salvador dentro de la historia de Israel.",
+            "youtubeId": "DTL5QW6Ez7s"
+          },
+          {
+            "episodio": "Episodio 2",
+            "rango": "Lucas 3–9",
+            "titulo": "El bautismo y la misión de Jesús",
+            "descripcion": "El inicio del ministerio de Jesús, Su anuncio de buenas noticias y la formación de una nueva comunidad alrededor del Reino.",
+            "youtubeId": "OfZRqfWs1lg"
+          },
+          {
+            "episodio": "Episodio 3",
+            "rango": "Lucas 9–19",
+            "titulo": "Cómo seguir a Jesús y la parábola del hijo pródigo",
+            "descripcion": "El camino hacia Jerusalén, el costo de seguir a Jesús y las parábolas que revelan el corazón de Dios hacia quienes estaban perdidos.",
+            "youtubeId": "sm8-GQl9P6w"
+          },
+          {
+            "episodio": "Episodio 4",
+            "rango": "Lucas 19–23",
+            "titulo": "La crucifixión de Jesús",
+            "descripcion": "La llegada a Jerusalén, el conflicto final, la entrega de Jesús y Su muerte en la cruz.",
+            "youtubeId": "KBE2nLYyCdc"
+          },
+          {
+            "episodio": "Episodio 5",
+            "rango": "Lucas 24",
+            "titulo": "La resurrección de Jesús",
+            "descripcion": "La tumba vacía, el camino a Emaús y el comienzo de una nueva comprensión de las Escrituras.",
+            "youtubeId": "WHlHoQy3bVk"
+          }
+        ]
+      }
+    ],
+    "rightnow": [
+      {
+        "fuente": "RightNow Media en Español",
+        "titulo": "Lucas",
+        "descripcion": "Una serie audiovisual para continuar profundizando en Lucas.",
+        "trailer": {
+          "etiqueta": "Tráiler",
+          "titulo": "Lucas · Serie RightNow Media",
+          "youtubeId": "FgeSFZ09dNQ"
+        },
+        "acceso": {
+          "label": "Ver en RightNow Media",
+          "url": null,
+          "estado": "proximamente",
+          "abrirEnNuevaPestana": true
+        },
+        "nota": "La serie completa forma parte del College, del cual S · T · A · R · S es la experiencia de Diseño. Cómo se habilita exactamente el acceso a la serie completa está pendiente de definición."
+      }
+    ],
+    "recomendaciones": [
+      {
+        "tipo": "libro",
+        "estado": "Propuesta editorial · pendiente de aprobación",
+        "lomo": "LUCAS",
+        "titulo": "Lucas para todos",
+        "fuente": "N.T. Wright · Serie “El Nuevo Testamento para todos”",
+        "descripcion": "Un comentario capítulo por capítulo pensado para lectores sin formación académica: claro, pastoral y accesible, sin perder profundidad teológica. Desarrolla con especial cuidado el tema de la gracia hacia los marginados y el camino hacia Jerusalén — los dos ejes centrales de este libro. Útil como lectura de apoyo para quien quiera profundizar más allá del Paso Profundo."
+      }
+    ]
+  },
+  "cierre": {
+    "eyebrow": "Ya conoces el contexto",
+    "titulo": "Ahora entra al texto",
+    "texto": "Ya conoces el contexto, los grandes temas y el recorrido de Lucas. Ahora deja que el texto hable.",
+    "firma": "La introducción orienta. La Escritura permanece en el centro."
+  },
+  "config": {
+    "acordeonInicial": null,
+    "mostrarHiloDorado": true
+  }
 }
