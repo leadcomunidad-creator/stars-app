@@ -1,50 +1,428 @@
 {
+  "schemaVersion": 2,
   "libro": "Romanos",
-  "fecha": "2026-06-29",
-  "secciones": [
+  "slug": "romanos",
+  "fecha": "2026-07-16",
+  "portada": {
+    "kicker": "S · T · A · R · S",
+    "titulo": "Romanos",
+    "subtitulo": "El evangelio que forma una nueva humanidad",
+    "cita": "“Porque no me avergüenzo del evangelio, pues es el poder de Dios para la salvación de todo el que cree, del judío primeramente y también del griego.”",
+    "referencia": "Romanos 1:16",
+    "metadatos": [
+      "16 capítulos"
+    ]
+  },
+  "bloques": [
     {
-      "nav": "Panorama",
-      "titulo": "El evangelio explicado de principio a fin",
-      "html": "<p>Si Génesis es el libro de los comienzos y Juan es la presentación de quién es Jesús, Romanos es el libro donde alguien se sienta a explicarte, con calma y con orden, exactamente qué significa todo eso para tu vida. No es una historia narrada como Génesis, ni un relato biográfico como Juan — es una carta. Una carta larga, densa, cuidadosamente argumentada, escrita por el apóstol Pablo a una iglesia que ni siquiera había fundado él mismo, en la ciudad más poderosa del mundo conocido en ese momento: Roma.</p><blockquote>\"Porque no me avergüenzo del evangelio, pues es poder de Dios para salvación de todo aquel que cree.\" — Romanos 1:16</blockquote><p>Esa frase, al comienzo de la carta, funciona casi como un título para todo el libro. Pablo no escribe Romanos para resolver un conflicto puntual como hace en otras cartas (Gálatas, Corintios). Escribe para presentar, de forma sistemática y ordenada, el contenido completo del evangelio — qué es, por qué es necesario, cómo funciona, y qué cambia en la vida de quien lo recibe.</p><p>La carta se mueve en cuatro grandes movimientos:</p><p><strong>El problema universal (capítulos 1–3).</strong> Antes de hablar de la solución, Pablo expone el problema con una honestidad incómoda: tanto los gentiles (que tenían la creación como testigo de Dios) como los judíos (que tenían la Ley) han fallado igualmente. Nadie tiene con qué jactarse. \"Por cuanto todos pecaron, y están destituidos de la gloria de Dios\" (3:23). Es un diagnóstico universal, sin excepciones.</p><p><strong>La solución de Dios (capítulos 4–8).</strong> Aquí está el corazón teológico de la carta. Pablo explica la justificación por fe — cómo una persona puede ser declarada justa ante Dios no por sus propios méritos, sino por la fe en lo que Jesús hizo en la cruz. Usa a Abraham como ejemplo (justificado por fe siglos antes de la Ley), explica la paz que resulta de esa justificación, la batalla interna entre el pecado y el deseo de obedecer a Dios (capítulo 7), y culmina en el capítulo 8 — posiblemente el capítulo más amado de toda la carta — con la seguridad de que nada puede separarnos del amor de Dios en Cristo Jesús.</p><p><strong>El plan de Dios para Israel y las naciones (capítulos 9–11).</strong> Pablo, profundamente conmovido por su propio pueblo judío, aborda una pregunta difícil: si el evangelio es verdadero, ¿qué pasó con las promesas hechas a Israel? Estos tres capítulos exploran la soberanía de Dios, la fidelidad de sus promesas y la inclusión de judíos y gentiles en una sola familia.</p><p><strong>La vida que resulta del evangelio (capítulos 12–16).</strong> La última sección de la carta es intensamente práctica: cómo vivir en comunidad, cómo amar al prójimo, cómo someterse a las autoridades, cómo recibir a quienes piensan distinto en temas secundarios, y finalmente una larga lista de saludos personales que muestra el corazón pastoral y relacional de Pablo, no solo su intelecto teológico.</p><p>Leer Romanos es, en cierto sentido, recibir el mapa completo del evangelio: de dónde venimos, qué se rompió, cómo se arregló, y hacia dónde vamos ahora.</p>"
+      "tipo": "editorial",
+      "titulo": "Antes de leer Romanos",
+      "descripcion": "Una orientación para seguir el argumento de la carta sin perder de vista el evangelio.",
+      "parrafos": [
+        "Romanos es una carta escrita para una comunidad real. No es un tratado desconectado de la vida, aunque contiene uno de los desarrollos más amplios y cuidadosamente construidos del evangelio en el Nuevo Testamento. Pablo escribe a creyentes de Roma que no había fundado personalmente, pero con quienes esperaba encontrarse, fortalecerse mutuamente y avanzar en su misión hacia nuevos territorios.",
+        "La carta responde a una pregunta que atraviesa toda la Escritura: ¿cómo está Dios haciendo justicia, cumpliendo Sus promesas y formando una familia nueva por medio de Jesucristo? Pablo comienza mostrando que toda la humanidad está atrapada bajo el poder del pecado. Después anuncia que Dios ha actuado en Jesús, ofrece justicia como regalo, crea una nueva humanidad, da Su Espíritu y forma una comunidad donde judíos y gentiles aprenden a recibir al otro.",
+        "Romanos no separa doctrina y vida. Los primeros capítulos explican lo que Dios ha hecho; los últimos muestran la clase de personas y comunidades que nacen de esa misericordia. El evangelio transforma la relación con Dios, la identidad, el cuerpo, la mente, las relaciones, el uso de los dones, la manera de enfrentar diferencias y la participación en la misión."
+      ],
+      "definicionesTitulo": "Qué hace particular a Romanos",
+      "definiciones": [
+        {
+          "titulo": "Una carta con una visión amplia del evangelio",
+          "texto": "Pablo presenta el evangelio desde el problema universal del pecado hasta la vida transformada de una comunidad reconciliada. La carta conecta creación, Abraham, Israel, la Ley, Jesús, el Espíritu, la iglesia y la misión hacia las naciones."
+        },
+        {
+          "titulo": "La justicia de Dios como hilo central",
+          "texto": "Romanos muestra que Dios es fiel a Su carácter y a Sus promesas. Su justicia no consiste solo en juzgar el mal; también se revela al rescatar, justificar, reconciliar y crear una familia donde nadie puede jactarse por origen, mérito o desempeño."
+        },
+        {
+          "titulo": "Un diagnóstico que alcanza a todos",
+          "texto": "Pablo no permite que un grupo se declare moralmente superior al otro. Gentiles y judíos, quienes tenían la Ley y quienes no la tenían, quedan igualmente necesitados de la gracia. El evangelio comienza donde termina la autosuficiencia."
+        },
+        {
+          "titulo": "La fe como confianza en la obra de Dios",
+          "texto": "Abraham ocupa un lugar central porque muestra que la relación correcta con Dios siempre ha dependido de confiar en Su promesa. La fe no es una obra adicional ni un logro religioso; es recibir lo que Dios hace y descansar en Su fidelidad."
+        },
+        {
+          "titulo": "Una nueva humanidad en Cristo",
+          "texto": "La comparación entre Adán y Cristo muestra que el evangelio no solo perdona individuos aislados. Dios inaugura una humanidad nueva. Quienes están unidos a Cristo participan de Su muerte y resurrección y reciben una nueva identidad."
+        },
+        {
+          "titulo": "La vida en el Espíritu",
+          "texto": "Romanos 8 presenta al Espíritu como quien libera, habita, guía, da testimonio de la adopción, sostiene la oración y mantiene viva la esperanza. La vida cristiana no depende únicamente de saber lo correcto, sino de la presencia activa de Dios."
+        },
+        {
+          "titulo": "Una familia formada por la misericordia",
+          "texto": "Romanos 9–11 y 12–15 muestran que el evangelio crea una comunidad donde judíos y gentiles, fuertes y débiles, personas con historias y convicciones diferentes, aprenden a vivir como un solo pueblo sin despreciarse ni juzgarse."
+        }
+      ],
+      "fraseAncla": "Romanos anuncia que el evangelio no solo cambia nuestra posición delante de Dios; crea una nueva humanidad que aprende a vivir por la fe, en el Espíritu y bajo la misericordia."
     },
     {
-      "nav": "Contexto",
-      "titulo": "Quién, cuándo y por qué",
-      "html": "<p><strong>¿Quién lo escribió?</strong></p><p>El apóstol <strong>Pablo</strong>, antes conocido como Saulo de Tarso, un fariseo estudioso de la Ley que perseguía activamente a los cristianos hasta que tuvo un encuentro radical con Jesús resucitado en el camino a Damasco (Hechos 9). Esa transformación lo convirtió en el misionero más influyente del cristianismo primitivo, fundador de iglesias en toda Asia Menor y Grecia, y autor de buena parte del Nuevo Testamento. Romanos es, casi con certeza, la carta más cuidadosamente elaborada de todas las que escribió — se nota que la pensó, la estructuró y la pulió con un cuidado especial.</p><p><strong>¿Cuándo se escribió?</strong></p><p>La mayoría de los eruditos ubican la escritura de Romanos alrededor del año 57 d.C., probablemente desde la ciudad de Corinto, hacia el final del tercer viaje misionero de Pablo, justo antes de viajar a Jerusalén para entregar una ofrenda de las iglesias gentiles a los creyentes judíos necesitados.</p><p><strong>¿Para quién se escribió?</strong></p><p>Para la iglesia en Roma — una comunidad que Pablo no había fundado ni visitado todavía, pero que conocía por reputación y de la que tenía amigos cercanos (ver los saludos personales del capítulo 16). Esta iglesia romana estaba compuesta tanto por creyentes judíos como gentiles, y entre ellos existía una tensión real: ¿qué lugar ocupa la Ley de Moisés ahora que Jesús ha venido? ¿Son los gentiles cristianos de \"segunda categoría\"? ¿Pueden los judíos cristianos seguir ciertas costumbres sin perder el evangelio de vista? Pablo escribe, en parte, para sanar esa fractura mostrando que el evangelio crea una sola familia nueva, sin jerarquías étnicas.</p><p><strong>¿Por qué importa hoy?</strong></p><p>Porque Romanos sigue siendo, dos mil años después, el tratado más completo sobre cómo una persona puede tener una relación correcta con Dios. Martín Lutero, al leer Romanos, experimentó la transformación que encendió la Reforma protestante. Juan Wesley sintió su corazón \"extrañamente cálido\" escuchando una lectura del prefacio de Lutero a Romanos. Este libro ha cambiado vidas e iglesias enteras a lo largo de la historia, porque responde la pregunta más urgente de cualquier ser humano: ¿cómo puedo estar bien con Dios?</p>"
+      "tipo": "contexto",
+      "titulo": "Conoce el contexto",
+      "descripcion": "Autor, audiencia, propósito y claves históricas para comprender mejor la carta.",
+      "definicionesTitulo": "Quién, para quién y por qué",
+      "definiciones": [
+        {
+          "titulo": "Autor",
+          "texto": "La carta identifica a Pablo como su autor. Él se presenta como siervo de Cristo Jesús, llamado a ser apóstol y apartado para el evangelio de Dios. Romanos 16:22 también menciona a Tercio, quien escribió materialmente la carta como secretario mientras Pablo dictaba o guiaba su redacción."
+        },
+        {
+          "titulo": "Fecha y lugar aproximados",
+          "texto": "Romanos suele ubicarse hacia mediados de la década de los cincuenta del siglo I, probablemente durante la estadía de Pablo en Corinto o sus alrededores. La carta parece escrita al final de una extensa etapa misionera en el Mediterráneo oriental, cuando Pablo se preparaba para viajar a Jerusalén."
+        },
+        {
+          "titulo": "Destinatarios",
+          "texto": "La carta está dirigida a creyentes en Roma. No parece tratarse de una sola congregación reunida en un edificio, sino de varias comunidades domésticas conectadas entre sí. Los saludos del capítulo 16 muestran una red diversa de hombres y mujeres que servían, enseñaban, hospedaban y trabajaban por el evangelio."
+        },
+        {
+          "titulo": "Una comunidad judía y gentil",
+          "texto": "La iglesia romana incluía creyentes de origen judío y gentil. Las tensiones sobre la Ley, la circuncisión, los alimentos, los días especiales y la identidad del pueblo de Dios ayudan a explicar muchos de los argumentos de la carta. Pablo no busca que un grupo absorba al otro, sino que ambos reconozcan que dependen de la misma gracia."
+        },
+        {
+          "titulo": "Propósito pastoral",
+          "texto": "Pablo quiere fortalecer la unidad de la comunidad alrededor del evangelio. Explica por qué nadie puede jactarse, cómo Dios justifica por la fe, qué lugar ocupan Israel y las naciones, y cómo deben recibirse quienes tienen convicciones diferentes en asuntos secundarios."
+        },
+        {
+          "titulo": "Propósito misionero",
+          "texto": "Pablo también espera que Roma se convierta en una base de apoyo para llevar el evangelio hacia España. Por eso presenta su mensaje, su ministerio y su visión de una iglesia unida. La teología de Romanos está orientada hacia la misión."
+        },
+        {
+          "titulo": "La colecta para Jerusalén",
+          "texto": "Antes de viajar a Roma, Pablo se dirigía a Jerusalén con una ayuda económica reunida entre iglesias gentiles para creyentes judíos necesitados. Esa acción concreta expresaba uno de los grandes temas de la carta: las naciones han recibido bendición espiritual de Israel y ahora responden con solidaridad material."
+        },
+        {
+          "titulo": "Febe y la entrega de la carta",
+          "texto": "Romanos 16 recomienda a Febe, servidora de la iglesia en Cencrea y protectora de muchos. Con frecuencia se considera que pudo haber llevado la carta a Roma. Su mención permite ver que la transmisión del evangelio dependía de una red real de colaboradores, hospitalidad y confianza."
+        },
+        {
+          "titulo": "Por qué importa hoy",
+          "texto": "Romanos confronta tanto la culpa como el orgullo religioso. Anuncia que la gracia es suficiente para el que reconoce su necesidad y que nadie puede usar la fe para sentirse superior. También muestra que una comprensión correcta del evangelio debe producir una comunidad reconciliada, generosa, humilde y abierta a la misión."
+        }
+      ],
+      "detallesTitulo": "Claves de lectura",
+      "detalles": [
+        {
+          "titulo": "Lee Romanos como una carta, no como una colección de frases",
+          "texto": "Aunque contiene versículos muy conocidos, cada afirmación forma parte de un argumento mayor. Conviene observar cómo Pablo conecta las ideas con expresiones como “porque”, “pero ahora”, “por tanto”, “así también” y “¿qué diremos entonces?”."
+        },
+        {
+          "titulo": "Romanos 1:16–17 presenta la tesis",
+          "texto": "El evangelio es el poder de Dios para salvación y en él se revela la justicia de Dios. Todo lo que sigue desarrolla esas afirmaciones: quién necesita salvación, cómo actúa Dios, qué significa vivir por la fe y cómo el evangelio alcanza a judíos y gentiles."
+        },
+        {
+          "titulo": "El diagnóstico de Romanos 1–3 alcanza también al que juzga",
+          "texto": "Romanos 1 puede leerse como una descripción de “los otros”, pero Romanos 2 gira la mirada hacia quien condena mientras practica lo mismo. Pablo conduce a todos hacia la misma conclusión: nadie queda fuera de la necesidad de gracia."
+        },
+        {
+          "titulo": "“Justificación” pertenece al lenguaje del tribunal",
+          "texto": "Ser justificado significa recibir de Dios un veredicto favorable que no se obtiene por obras, mérito o identidad étnica. Es un regalo basado en la obra de Jesús y recibido por la fe. De ese veredicto nacen paz, reconciliación y esperanza."
+        },
+        {
+          "titulo": "Abraham conecta el evangelio con toda la historia bíblica",
+          "texto": "Pablo no presenta la fe como una novedad desconectada de Israel. Abraham creyó la promesa antes de recibir la circuncisión y antes de que existiera la Ley de Moisés. Por eso puede ser padre de todos los que creen."
+        },
+        {
+          "titulo": "La unión con Cristo organiza Romanos 5–8",
+          "texto": "Pablo no solo habla de lo que Jesús hizo “por nosotros”, sino de lo que sucede al estar “en Cristo”. Su muerte y resurrección se convierten en el nuevo marco de identidad del creyente. El bautismo representa el paso de la vieja humanidad a una vida nueva."
+        },
+        {
+          "titulo": "Romanos 7 debe leerse dentro del movimiento hacia Romanos 8",
+          "texto": "El capítulo muestra la incapacidad del ser humano bajo el poder del pecado y los límites de la Ley para producir vida. No debe aislarse de la respuesta que sigue: la liberación en Cristo y la vida por el Espíritu."
+        },
+        {
+          "titulo": "Romanos 8 es clímax, no evasión",
+          "texto": "La seguridad de no condenación y del amor inseparable de Dios aparece después de una reflexión seria sobre sufrimiento, debilidad y esperanza. La confianza cristiana no niega el dolor; descansa en que Dios está llevando Su propósito hacia la restauración."
+        },
+        {
+          "titulo": "Romanos 9–11 forma parte del argumento central",
+          "texto": "Estos capítulos responden a la pregunta por la fidelidad de Dios a Israel. Pablo habla con dolor, esperanza y reverencia. La inclusión de los gentiles no significa arrogancia ni reemplazo orgulloso; debe producir humildad y gratitud."
+        },
+        {
+          "titulo": "El “por tanto” de Romanos 12 conecta evangelio y vida",
+          "texto": "La entrega del cuerpo, la renovación de la mente, el servicio, el amor y la hospitalidad son respuesta a las misericordias explicadas en los primeros once capítulos. La obediencia cristiana no compra la gracia; nace de haberla recibido."
+        },
+        {
+          "titulo": "“Fuertes” y “débiles” no son categorías para despreciar",
+          "texto": "En Romanos 14–15, Pablo aborda diferencias reales sobre alimentos y días especiales. No pide uniformidad artificial. Pide que cada persona actúe delante del Señor, que nadie juzgue al otro y que los fuertes renuncien a usar su libertad de manera destructiva."
+        },
+        {
+          "titulo": "Los saludos finales son parte de la teología de Romanos",
+          "texto": "Romanos 16 muestra cómo se ve la nueva familia descrita en la carta: mujeres y hombres, judíos y gentiles, personas con distintos trasfondos y funciones, vinculadas por servicio, afecto, hospitalidad y misión."
+        }
+      ]
     },
     {
-      "nav": "Claves de lectura",
-      "titulo": "Antes de empezar a leer",
-      "html": "<p><strong>1. Es argumento, no narrativa — léelo con lápiz en mano</strong></p><p>A diferencia de Génesis o Juan, Romanos no cuenta una historia con personajes y eventos. Es un razonamiento teológico construido paso a paso, donde cada capítulo se apoya en el anterior. Pablo usa conectores lógicos constantemente: \"por lo tanto\", \"porque\", \"así que\", \"de manera que\". Vale la pena leerlo más lento que un relato narrativo, casi como quien sigue el argumento de un buen maestro en una clase importante.</p><p><strong>2. Entiende bien tres palabras clave antes de avanzar</strong></p><p>\"Justicia\" (o \"justificación\") no significa simplemente \"ser una buena persona\" — es un término legal que describe el veredicto de Dios declarando a alguien justo ante Él. \"Fe\" no es solo creer datos sobre Dios, sino confiar y entregarse a Él de manera personal. \"Gracia\" es el favor inmerecido de Dios — algo que se recibe, no algo que se gana. Si entiendes bien estas tres palabras, el resto de la carta se vuelve mucho más claro.</p><p><strong>3. El problema (capítulos 1–3) es incómodo a propósito</strong></p><p>Pablo no suaviza el diagnóstico: tanto el que nunca tuvo la Biblia como el que la estudió toda su vida están igualmente perdidos sin Cristo. No leas estos capítulos buscando excepciones para ti mismo. Déjate incluir en el \"todos\" de Romanos 3:23 — es precisamente ese reconocimiento honesto lo que hace que la solución de los capítulos siguientes resulte tan buena noticia.</p><p><strong>4. El capítulo 8 merece ser leído completo, varias veces</strong></p><p>Si solo tuvieras tiempo para leer un capítulo de toda la carta, que sea el 8. Comienza con \"ninguna condenación hay para los que están en Cristo Jesús\" y termina con la afirmación de que nada — ni muerte, ni vida, ni ángeles, ni principados, ni lo presente, ni lo por venir, ni poderes, ni lo alto, ni lo profundo, ni ninguna otra cosa creada — nos podrá separar del amor de Dios. Es, para muchos cristianos a lo largo de la historia, el capítulo más consolador de toda la Biblia.</p><p><strong>5. Los capítulos 9–11 no son un paréntesis — son el corazón pastoral de Pablo</strong></p><p>A veces se leen rápido o se omiten porque tratan un tema más complejo (el lugar de Israel en el plan de Dios), pero revelan algo precioso: Pablo, a pesar de su profunda teología, nunca pierde de vista a las personas reales detrás de las ideas. Está dispuesto a sufrir él mismo por la salvación de su pueblo (9:3). La teología nunca debe separarse del amor genuino por las personas.</p><p><strong>6. La aplicación práctica (capítulos 12–16) no es un anexo opcional</strong></p><p>Pablo no termina su argumento teológico y lo deja ahí — inmediatamente pregunta: ¿y ahora cómo vivimos? \"Presenten sus cuerpos en sacrificio vivo\" (12:1) es la bisagra que conecta toda la doctrina de los primeros once capítulos con la vida cotidiana: el amor genuino, la sumisión a la autoridad, la paciencia con quienes piensan distinto en temas secundarios. La teología de Romanos siempre apunta hacia una vida transformada, no solo hacia ideas correctas.</p>"
+      "tipo": "observacion",
+      "titulo": "Mientras lees, presta atención a…",
+      "descripcion": "Doce hilos que vale la pena seguir a lo largo de Romanos.",
+      "items": [
+        {
+          "titulo": "El evangelio",
+          "texto": "Observa cómo Pablo define el evangelio, qué anuncia acerca de Jesús y qué efectos produce. No es solo información sobre salvación individual; es la noticia de que Dios ha actuado con poder, ha cumplido Sus promesas y está formando un pueblo nuevo."
+        },
+        {
+          "titulo": "La justicia de Dios",
+          "texto": "Presta atención a cada uso de justicia, justo y justificar. Pregúntate cuándo describe el carácter fiel de Dios, cuándo habla de Su acción salvadora y cuándo se refiere al nuevo estado que recibe quien cree."
+        },
+        {
+          "titulo": "El pecado como poder",
+          "texto": "Romanos presenta el pecado no solo como una suma de errores, sino como una fuerza que esclaviza, engaña y produce muerte. Esto explica por qué la solución de Dios requiere más que educación moral o fuerza de voluntad."
+        },
+        {
+          "titulo": "Fe y fidelidad",
+          "texto": "Observa cómo la fe se conecta con Abraham, con la promesa, con Jesucristo y con la obediencia. La fe recibe el regalo de Dios, pero también crea una vida orientada por la confianza."
+        },
+        {
+          "titulo": "La Ley",
+          "texto": "Pablo habla de la Ley de distintas maneras. Puede describirla como buena, santa y espiritual, y al mismo tiempo mostrar que no puede liberar a una humanidad dominada por el pecado. Evita reducir cada aparición de “ley” a una sola idea."
+        },
+        {
+          "titulo": "Adán y Cristo",
+          "texto": "Romanos 5 contrasta dos humanidades. En Adán aparecen pecado, condenación y muerte; en Cristo, gracia, justicia y vida. Este contraste amplía el evangelio desde la experiencia individual hasta la renovación de la humanidad."
+        },
+        {
+          "titulo": "El cuerpo",
+          "texto": "Romanos habla del cuerpo como lugar donde el pecado busca gobernar, pero también como instrumento de justicia, templo de obediencia y sacrificio vivo. La transformación espiritual incluye la vida física y cotidiana."
+        },
+        {
+          "titulo": "El Espíritu",
+          "texto": "Observa cómo el Espíritu se relaciona con libertad, vida, adopción, oración, esperanza y formación del carácter. La vida cristiana no es una nueva Ley aplicada con más esfuerzo, sino vida sostenida por la presencia de Dios."
+        },
+        {
+          "titulo": "Israel y las naciones",
+          "texto": "Presta atención a cómo Pablo honra las promesas hechas a Israel, celebra la inclusión de las naciones y rechaza la arrogancia gentil. La misericordia de Dios crea una historia compartida, no una competencia por superioridad."
+        },
+        {
+          "titulo": "Misericordia",
+          "texto": "La misericordia conecta Romanos 9–11 con Romanos 12. Todos dependen de ella. Nadie entra por derecho propio. La vida entregada, humilde y servicial es respuesta a la misericordia recibida."
+        },
+        {
+          "titulo": "Unidad en medio de diferencias",
+          "texto": "Romanos no imagina una comunidad donde todos piensan igual en cada asunto. Enseña a vivir sin desprecio, a escuchar la conciencia del otro, a limitar la libertad por amor y a buscar aquello que edifica la paz."
+        },
+        {
+          "titulo": "Misión y colaboración",
+          "texto": "Desde el llamado de Pablo hasta los saludos finales, la carta está orientada hacia las naciones. Observa nombres, viajes, ofrendas, iglesias domésticas y colaboradores. El evangelio se extiende mediante comunidades que comparten recursos, relaciones y propósito."
+        }
+      ]
     },
     {
-      "nav": "Recursos",
-      "titulo": "Para ir más lejos",
-      "html": "<p>Estos recursos te ayudarán a profundizar en el panorama de Romanos antes o después de recorrer cada capítulo en el Paso Profundo. Son puertas de entrada complementarias, no destinos finales — el texto bíblico siempre tiene la última palabra, y estos materiales solo buscan iluminarlo mejor.</p>"
+      "tipo": "recorrido",
+      "titulo": "El recorrido del libro",
+      "descripcion": "Siete movimientos que permiten seguir el argumento completo de Romanos.",
+      "items": [
+        {
+          "marcador": "1:1–17",
+          "rango": "Romanos 1:1–17",
+          "titulo": "El evangelio y la justicia de Dios",
+          "queOcurre": "Pablo se presenta, anuncia el evangelio prometido en las Escrituras, expresa su deseo de visitar Roma y formula la tesis de la carta: el evangelio es poder de Dios para salvación y revela Su justicia.",
+          "escenas": "Jesús, descendiente de David y declarado Hijo de Dios con poder; la obediencia de la fe; el deseo de fortalecerse mutuamente; la salvación para judíos y gentiles.",
+          "pregunta": "¿Qué afirma Pablo que Dios está revelando y realizando por medio del evangelio?"
+        },
+        {
+          "marcador": "1:18–3:20",
+          "rango": "Romanos 1:18–3:20",
+          "titulo": "Toda la humanidad bajo el pecado",
+          "queOcurre": "Pablo describe la distorsión humana, confronta al que juzga y muestra que ni la conciencia, ni la posesión de la Ley ni la identidad religiosa pueden producir una justicia propia suficiente.",
+          "escenas": "La creación como testimonio; la idolatría; el juicio imparcial de Dios; la circuncisión del corazón; la conclusión de que todos están bajo pecado.",
+          "pregunta": "¿De qué formas distintas intenta el ser humano justificarse y por qué todas fracasan?"
+        },
+        {
+          "marcador": "3:21–4:25",
+          "rango": "Romanos 3:21–4:25",
+          "titulo": "Justificados por la fe",
+          "queOcurre": "Aparece el gran “pero ahora”: Dios revela Su justicia aparte de las obras de la Ley, por medio de Jesucristo. Abraham muestra que la promesa se recibe por fe y que la nueva familia no depende de una marca étnica.",
+          "escenas": "La justicia de Dios manifestada; la redención en Cristo; la exclusión de la jactancia; Abraham y David; la promesa recibida por fe.",
+          "pregunta": "¿Qué recibe quien cree y por qué ya no hay espacio para la superioridad religiosa?"
+        },
+        {
+          "marcador": "5–8",
+          "rango": "Romanos 5–8",
+          "titulo": "Nueva vida en Cristo y en el Espíritu",
+          "queOcurre": "Pablo desarrolla las consecuencias de la justificación: paz, esperanza, reconciliación, una nueva identidad en Cristo, libertad del dominio del pecado y vida en el Espíritu. La sección culmina con adopción, esperanza en medio del sufrimiento y seguridad en el amor de Dios.",
+          "escenas": "Adán y Cristo; bautismo y nueva vida; esclavitud y libertad; el conflicto con el pecado; no condenación; adopción; la creación que gime; nada puede separar del amor de Dios.",
+          "pregunta": "¿Qué cambia cuando una persona ya no se define por Adán, el pecado o la condenación, sino por Cristo y el Espíritu?"
+        },
+        {
+          "marcador": "9–11",
+          "rango": "Romanos 9–11",
+          "titulo": "Israel, las naciones y la misericordia",
+          "queOcurre": "Pablo expresa su dolor por Israel y reflexiona sobre la elección, la promesa, la responsabilidad humana y la expansión del evangelio entre las naciones. Advierte a los gentiles contra la arrogancia y concluye adorando la sabiduría de Dios.",
+          "escenas": "La angustia de Pablo; hijos de la promesa; el alfarero y el barro; Cristo como meta de la Ley; el remanente; el olivo; misericordia para todos; doxología.",
+          "pregunta": "¿Cómo mantiene Pablo juntas la fidelidad de Dios, la responsabilidad humana, la esperanza para Israel y la inclusión de las naciones?"
+        },
+        {
+          "marcador": "12:1–15:13",
+          "rango": "Romanos 12:1–15:13",
+          "titulo": "Una comunidad transformada",
+          "queOcurre": "La misericordia recibida se convierte en una vida entregada. Pablo habla de renovación de la mente, dones, amor sincero, relación con autoridades, cuidado del prójimo y convivencia entre personas con convicciones diferentes.",
+          "escenas": "Sacrificio vivo; un solo cuerpo con muchos dones; vencer el mal con el bien; amor al prójimo; fuertes y débiles; recibir al otro como Cristo recibió.",
+          "pregunta": "¿Cómo se vuelve visible el evangelio en el cuerpo, la mente, las relaciones y las diferencias dentro de la comunidad?"
+        },
+        {
+          "marcador": "15:14–16:27",
+          "rango": "Romanos 15:14–16:27",
+          "titulo": "Misión, colaboradores y gloria a Dios",
+          "queOcurre": "Pablo explica su ministerio entre las naciones, sus planes de viaje, la colecta para Jerusalén y su deseo de llegar a España. Después recomienda a Febe y saluda una extensa red de colaboradores.",
+          "escenas": "El ministerio de Pablo; Jerusalén, Roma y España; la ofrenda; Febe; Prisca y Aquila; iglesias en casas; advertencia final; doxología.",
+          "pregunta": "¿Qué revela el final de Romanos sobre la manera concreta en que el evangelio avanza?"
+        }
+      ]
+    },
+    {
+      "tipo": "temas",
+      "titulo": "Grandes temas de Romanos",
+      "descripcion": "Las verdades principales que atraviesan toda la carta.",
+      "items": [
+        {
+          "titulo": "EL EVANGELIO",
+          "queSignifica": "El evangelio es la noticia de que Dios ha cumplido Sus promesas por medio de Jesús, el Mesías crucificado y resucitado. Es poder de Dios para salvar, crear una nueva humanidad y llevar Su nombre a todas las naciones.",
+          "dondeObservarlo": "Romanos 1:1–17; 2:16; 10:8–17; 15:14–21; 16:25–27.",
+          "porQueImporta": "La fe cristiana comienza con lo que Dios ha hecho, no con lo que el ser humano intenta alcanzar. La iglesia vive, enseña y participa en la misión desde esa noticia."
+        },
+        {
+          "titulo": "LA JUSTICIA DE DIOS",
+          "queSignifica": "La justicia de Dios revela Su fidelidad, Su juicio verdadero y Su acción salvadora. Dios permanece justo mientras justifica a quienes confían en Jesús.",
+          "dondeObservarlo": "Romanos 1:16–17; 2:1–16; 3:21–26; 9:14–18; 10:1–4.",
+          "porQueImporta": "La salvación no depende de que Dios ignore el mal, sino de que actúe fielmente contra el pecado y a favor de quienes no podían rescatarse a sí mismos."
+        },
+        {
+          "titulo": "EL PECADO UNIVERSAL",
+          "queSignifica": "El pecado alcanza a toda la humanidad, distorsiona la adoración, corrompe las relaciones y utiliza incluso cosas buenas para producir muerte. Nadie puede construir una defensa propia delante de Dios.",
+          "dondeObservarlo": "Romanos 1:18–32; 2:1–29; 3:9–20, 23; 5:12–21; 7:7–25.",
+          "porQueImporta": "El evangelio elimina tanto la desesperación como la superioridad moral. Todos necesitan gracia y nadie puede excluir a otro por sentirse más digno."
+        },
+        {
+          "titulo": "JUSTIFICACIÓN POR LA FE",
+          "queSignifica": "Dios declara justos a quienes confían en Jesucristo. Este veredicto es regalo de gracia, no recompensa por obras, herencia cultural o desempeño religioso.",
+          "dondeObservarlo": "Romanos 3:21–31; 4:1–25; 5:1–11; 8:30–34.",
+          "porQueImporta": "La relación con Dios descansa en Su obra y no en una evaluación interminable del propio mérito. De allí nacen paz, seguridad y humildad."
+        },
+        {
+          "titulo": "GRACIA Y NUEVA HUMANIDAD",
+          "queSignifica": "La gracia de Dios supera el alcance del pecado. En Cristo comienza una humanidad nueva, reconciliada con Dios y destinada a la vida.",
+          "dondeObservarlo": "Romanos 5:12–21; 6:1–14; 8:1–4; 12:3–8.",
+          "porQueImporta": "La salvación no consiste únicamente en reparar errores del pasado. Significa recibir una identidad nueva y participar en la vida del Cristo resucitado."
+        },
+        {
+          "titulo": "UNIÓN CON CRISTO",
+          "queSignifica": "Quienes creen están vinculados con la muerte y resurrección de Jesús. Ya no pertenecen al antiguo dominio del pecado, sino a una vida donde pueden ofrecerse a Dios.",
+          "dondeObservarlo": "Romanos 6:1–11; 7:1–6; 8:1, 10–11; 12:5.",
+          "porQueImporta": "La transformación no se sostiene solo en imitar externamente a Jesús, sino en participar de Su vida y aprender a vivir desde una nueva pertenencia."
+        },
+        {
+          "titulo": "LA LEY Y EL ESPÍRITU",
+          "queSignifica": "La Ley revela el bien y expone el pecado, pero no puede liberar a quien está esclavizado. El Espíritu realiza lo que el esfuerzo humano no podía producir: vida, libertad, obediencia y comunión con Dios.",
+          "dondeObservarlo": "Romanos 2:12–29; 3:19–31; 7:1–25; 8:1–17; 13:8–10.",
+          "porQueImporta": "La vida cristiana no es legalismo mejorado. Es una vida guiada por el Espíritu que cumple el propósito de la Ley mediante el amor."
+        },
+        {
+          "titulo": "ADOPCIÓN, ESPERANZA Y GLORIA",
+          "queSignifica": "El Espíritu confirma que los creyentes son hijos de Dios. Aun en medio del sufrimiento, esperan la redención del cuerpo y la renovación de la creación.",
+          "dondeObservarlo": "Romanos 5:1–5; 8:14–30; 12:12; 15:4, 13.",
+          "porQueImporta": "La esperanza cristiana no niega el dolor presente. Lo sitúa dentro de la promesa de que Dios llevará a Su familia y a la creación hacia la libertad."
+        },
+        {
+          "titulo": "ISRAEL Y LAS NACIONES",
+          "queSignifica": "El evangelio cumple las promesas hechas a Israel y abre la bendición a las naciones. Pablo rechaza tanto la exclusión gentil como la arrogancia de quienes olvidan que han sido injertados por gracia.",
+          "dondeObservarlo": "Romanos 1:16; 3:29–30; 4:9–17; 9:1–11:36; 15:7–12.",
+          "porQueImporta": "La iglesia no puede comprender su identidad sin la historia de Israel ni usar la gracia para despreciar a otros. La misericordia forma un pueblo humilde y agradecido."
+        },
+        {
+          "titulo": "LA RENOVACIÓN DE LA MENTE Y LA VIDA ENTREGADA",
+          "queSignifica": "La respuesta al evangelio incluye presentar el cuerpo a Dios y permitir que la mente sea transformada. La adoración se vuelve una manera completa de vivir.",
+          "dondeObservarlo": "Romanos 6:12–14; 8:5–8; 12:1–2; 13:11–14.",
+          "porQueImporta": "La gracia no produce pasividad. Reordena pensamientos, hábitos, decisiones y el uso del cuerpo para que toda la vida responda a Dios."
+        },
+        {
+          "titulo": "UN SOLO CUERPO MARCADO POR EL AMOR",
+          "queSignifica": "La comunidad cristiana reúne distintos dones, historias y convicciones. Su madurez se mide por amor sincero, servicio, hospitalidad, paciencia, paz y cuidado de los más vulnerables.",
+          "dondeObservarlo": "Romanos 12:3–21; 13:8–10; 14:1–15:13; 16:1–16.",
+          "porQueImporta": "Una iglesia doctrinalmente informada pero incapaz de recibir al otro contradice el evangelio que confiesa. La verdad se vuelve visible en relaciones reconciliadas."
+        },
+        {
+          "titulo": "MISIÓN Y COLABORACIÓN",
+          "queSignifica": "Pablo entiende su ministerio como participación en la misión de Dios hacia las naciones. Esa misión requiere oración, generosidad, envío, hospitalidad y una amplia red de colaboradores.",
+          "dondeObservarlo": "Romanos 1:5, 8–15; 10:13–17; 15:14–33; 16:1–27.",
+          "porQueImporta": "El evangelio no termina en la experiencia privada. Forma personas y comunidades que trabajan juntas para que otros escuchen, crean y entren en la nueva familia de Dios."
+        }
+      ],
+      "sintesis": "Romanos presenta el evangelio como la acción fiel de Dios para rescatar a una humanidad bajo el pecado, justificar por la fe, crear una nueva humanidad en Cristo y dar vida por medio del Espíritu. La misma misericordia que reconcilia con Dios también forma una comunidad donde judíos y gentiles, fuertes y débiles, personas con diferentes dones y convicciones, aprenden a recibirse mutuamente. La carta comienza anunciando el poder del evangelio y termina mostrando una red de personas que participan juntas en su avance hacia las naciones.",
+      "fraseAncla": "El evangelio nos recibe sin mérito, nos une a Cristo y nos forma como una familia que vive para la gloria de Dios y el bien de los demás."
+    },
+    {
+      "tipo": "recursos",
+      "titulo": "Para comprender mejor",
+      "descripcion": "Recursos seleccionados para profundizar cuando lo desees.",
+      "introduccion": "Estos recursos deben ayudar a observar la estructura, el argumento y el propósito pastoral de Romanos. La Escritura continúa siendo el centro."
     }
   ],
-  "recursos": [
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen de Romanos (Parte 1)",
-      "detalle": "Video · Capítulos 1 al 4 — el problema universal y la justificación",
-      "url": "https://youtu.be/0tco1rQGC1o"
+  "recursos": {
+    "poster": {
+      "fuente": "Proyecto Biblia",
+      "titulo": "Mapa visual completo de Romanos",
+      "descripcion": "Póster panorámico oficial en español que presenta el recorrido completo de Romanos, desde los capítulos 1–4 hasta los capítulos 5–16.",
+      "preview": "estudios/intros/assets/romanos/romanos-poster-preview.jpg",
+      "full": "estudios/intros/assets/romanos/romanos-poster-full.jpg",
+      "alt": "Mapa visual completo de Romanos"
     },
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen de Romanos (Parte 2)",
-      "detalle": "Video · Capítulos 5 al 16 — la nueva familia y la vida en el Espíritu",
-      "url": "https://youtu.be/ZqScL0dHLsM"
-    },
-    {
-      "tipo": "rightnow",
-      "fuente": "RightNow Media en Español",
-      "titulo": "Romanos · Tráiler de la serie",
-      "detalle": "Video · Para ver la serie completa, suscríbete al College",
-      "url": "https://youtu.be/GOec7XEl5QI",
-      "nota": "college_link"
-    }
-  ]
+    "videos": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Panorama de Romanos",
+        "descripcion": "Dos videos que presentan el argumento completo de Romanos, desde el problema universal del pecado hasta la vida transformada por el evangelio.",
+        "items": [
+          {
+            "etiqueta": "Parte 1",
+            "titulo": "Romanos 1–4 · Pecado, justicia y justificación",
+            "youtubeId": "0tco1rQGC1o"
+          },
+          {
+            "etiqueta": "Parte 2",
+            "titulo": "Romanos 5–16 · Nueva humanidad, Espíritu y misión",
+            "youtubeId": "ZqScL0dHLsM"
+          }
+        ]
+      }
+    ],
+    "miniseries": [],
+    "rightnow": [
+      {
+        "fuente": "RightNow Media",
+        "titulo": "El libro de Romanos con J.D. Greear",
+        "descripcion": "Serie audiovisual filmada en Roma que recorre la carta y muestra cómo la gracia de Dios transforma la relación con Él, con nosotros mismos y con los demás.",
+        "trailer": {
+          "etiqueta": "Tráiler",
+          "titulo": "El libro de Romanos: Parte 1 con J.D. Greear",
+          "youtubeId": "GOec7XEl5QI"
+        },
+        "acceso": {
+          "label": "Ver en RightNow Media",
+          "url": null,
+          "estado": "proximamente",
+          "abrirEnNuevaPestana": true
+        }
+      }
+    ],
+    "recomendaciones": [
+      {
+        "tipo": "libro",
+        "estado": "Lectura recomendada",
+        "lomo": "ROMANOS",
+        "titulo": "El mensaje de Romanos",
+        "fuente": "John Stott",
+        "descripcion": "Exposición bíblica amplia, clara y pastoral que sigue el argumento completo de Romanos y conecta sus grandes doctrinas con la vida contemporánea. Ayuda a comprender la justicia de Dios, la justificación por la fe, la vida en el Espíritu, el lugar de Israel y la formación de una comunidad transformada por el evangelio."
+      }
+    ]
+  },
+  "cierre": {
+    "eyebrow": "Ya conoces el contexto",
+    "titulo": "Ahora entra al texto",
+    "texto": "Ya conoces el argumento, los grandes movimientos y los temas centrales de Romanos. Ahora recorre la carta con paciencia, sigue cada conexión y permite que el evangelio transforme tu manera de ver a Dios, a ti mismo y a los demás.",
+    "firma": "La introducción orienta. La Escritura permanece en el centro."
+  },
+  "config": {
+    "acordeonInicial": null,
+    "mostrarHiloDorado": true
+  }
 }

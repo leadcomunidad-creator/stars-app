@@ -974,6 +974,62 @@ body.modo-dia .bottom-nav{
 .estudio-progress-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--green2));transition:width 0.3s;border-radius:99px}
 
 /* ══ CAPÍTULOS ══ */
+/* ==== ESTUDIOS V2 - renderer compartido ==== */
+.dsk-ws-inner.dsk-ws-inner--wide:has(> .est-v2-root){max-width:1212px;padding-left:16px;padding-right:16px}
+.est-v2-root{--est-v2-bg:var(--black,#0a0906);--est-v2-panel:var(--black3,#19150d);--est-v2-panel2:var(--black4,#201a10);--est-v2-line:color-mix(in srgb,var(--gold,#c9a84c) 16%,transparent);--est-v2-line2:var(--gold-border,rgba(201,168,76,.30));--est-v2-accent:var(--gold,#c9a84c);--est-v2-accent2:var(--gold2,#e8c97a);--est-v2-dim:var(--gold-dim,rgba(201,168,76,.12));--est-v2-ink:var(--white,#f2ead9);--est-v2-soft:var(--white2,#cabf9f);--est-v2-mute:var(--white3,#8a7f64);--est-v2-frame-max:920px;--est-v2-frame-gutter:clamp(20px,4cqw,48px);width:100%;background:var(--est-v2-bg);color:var(--est-v2-ink);font-family:'Cormorant Garamond',Georgia,serif;border:1px solid var(--est-v2-line);overflow:hidden;container-type:inline-size;container-name:estudio-v2}
+.est-v2-root *{box-sizing:border-box}
+.est-v2-root button{font-family:inherit;cursor:pointer;background:none;border:none;color:inherit}
+.est-v2-root[data-context="desktop"]{max-width:1180px;margin:0 auto}
+.est-v2-head{padding:40px 24px 26px;text-align:center;position:relative;background:radial-gradient(700px 380px at 85% -10%,var(--est-v2-dim),transparent 65%),linear-gradient(180deg,var(--black2,#111) 0%,var(--est-v2-bg) 100%);border-bottom:1px solid var(--est-v2-line)}
+.est-v2-brand{font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--est-v2-accent2);margin-bottom:14px}
+.est-v2-title{font-size:clamp(30px,6vw,44px);font-weight:600;margin:0 0 6px;line-height:1.05}
+.est-v2-sub{font-family:'Outfit',sans-serif;font-size:12.5px;color:var(--est-v2-mute);letter-spacing:.06em}
+.est-v2-progress-wrap{padding:22px 24px 18px;border-bottom:1px solid var(--est-v2-line);font-family:'Outfit',sans-serif}
+.est-v2-progress-top{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:40px;flex-wrap:wrap}
+.est-v2-progress-label{font-size:12.5px;color:var(--est-v2-soft);letter-spacing:.02em}
+.est-v2-progress-label strong{color:var(--est-v2-ink);font-weight:600}
+.est-v2-progress-state{font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;color:var(--est-v2-accent2);border:1px solid currentColor;border-radius:20px;padding:3px 10px;white-space:nowrap}
+.est-v2-track{position:relative;height:24px;display:flex;align-items:center}
+.est-v2-track-line{position:absolute;left:0;right:0;top:50%;height:1px;background:var(--est-v2-line2);transform:translateY(-50%)}
+.est-v2-dots{position:relative;display:flex;justify-content:space-between;width:100%}
+.est-v2-dot-wrap{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;min-width:0;height:24px;padding:0;margin:0}
+.est-v2-dot{width:8px;height:8px;border-radius:50%;background:var(--est-v2-bg);border:1.5px solid var(--est-v2-line2);transition:all .25s ease;z-index:1}
+.est-v2-dot-wrap.is-visited .est-v2-dot{background:var(--est-v2-accent);border-color:var(--est-v2-accent)}
+.est-v2-dot-wrap.is-last .est-v2-dot{width:11px;height:11px}
+.est-v2-dot-wrap.is-current .est-v2-dot{background:var(--est-v2-ink);border-color:var(--est-v2-ink);box-shadow:0 0 0 4px var(--est-v2-dim)}
+.est-v2-marker{position:absolute;top:-31px;left:50%;transform:translateX(-50%);width:14px;height:30px;pointer-events:none;z-index:2}
+.est-v2-marker svg{display:block;overflow:visible}
+.est-v2-nav{padding:12px 16px 16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,104px),1fr));gap:8px;width:100%;overflow:visible;border-bottom:1px solid var(--est-v2-line)}
+.est-v2-nav::-webkit-scrollbar{display:none}
+.est-v2-nav button{min-width:0;width:100%;min-height:40px;font-family:'Outfit',sans-serif;font-size:11.5px;line-height:1.25;letter-spacing:.03em;padding:8px 10px;border-radius:20px;border:1px solid var(--est-v2-line2);color:var(--est-v2-mute);display:flex;align-items:center;justify-content:center;gap:7px;white-space:normal;overflow-wrap:anywhere;text-align:center;transition:all .2s ease}
+.est-v2-nav button.is-visited{color:var(--est-v2-soft)}
+.est-v2-nav button.is-active{background:var(--est-v2-dim);border-color:var(--est-v2-line2);color:var(--est-v2-ink)}
+.est-v2-nav-num{font-size:10px;opacity:.7;flex:0 0 auto;white-space:nowrap}
+.est-v2-nav button.is-visited .est-v2-nav-num{color:var(--est-v2-accent)}
+.est-v2-nav button.is-active .est-v2-nav-num{color:var(--est-v2-accent2)}
+.est-v2-stage{min-height:320px}
+.est-v2-footer{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:18px 24px;border-top:1px solid var(--est-v2-line);font-family:'Outfit',sans-serif;background:linear-gradient(180deg,transparent,rgba(255,255,255,.012))}
+.est-v2-footer button{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--est-v2-soft);border:1px solid var(--est-v2-line2);padding:10px 16px;border-radius:3px;display:flex;align-items:center;justify-content:center;gap:8px;min-height:42px}
+.est-v2-footer button:disabled{opacity:.42;cursor:not-allowed}
+.est-v2-footer .est-v2-primary{background:var(--est-v2-accent);border-color:var(--est-v2-accent);color:var(--est-v2-bg);font-weight:700;min-width:168px}
+.est-v2-footer .est-v2-primary.is-done{background:var(--est-v2-dim);border-color:var(--est-v2-line2);color:var(--est-v2-accent2)}
+.est-v2-footer-center{text-align:center;min-width:0}
+.est-v2-footer-count{font-size:11px;color:var(--est-v2-mute);letter-spacing:.08em;display:block}
+.est-v2-footer-hint{font-size:10.5px;color:var(--est-v2-mute);margin-top:4px;display:block;line-height:1.35}
+.est-v2-verse-blocks{padding:48px 24px 56px}.est-v2-verse-col{max-width:560px;margin:0 auto}.est-v2-eyebrow{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--est-v2-accent);text-align:center;margin-bottom:30px}.est-v2-verse{margin-bottom:26px}.est-v2-range{display:inline-block;font-family:'Outfit',sans-serif;font-size:11px;font-weight:600;letter-spacing:.06em;color:var(--est-v2-bg);background:var(--est-v2-accent);padding:2px 8px;border-radius:10px;margin-bottom:10px}.est-v2-verse-text{font-size:19px;line-height:1.9;font-style:italic;color:var(--est-v2-ink)}
+.est-v2-paragraphs{padding:48px 24px 56px}.est-v2-paragraph-col{max-width:620px;margin:0 auto}.est-v2-lede{font-size:20px;line-height:1.7;color:var(--est-v2-ink);margin:0 0 20px}.est-v2-p{font-size:16.5px;line-height:1.8;color:var(--est-v2-soft);margin:0 0 18px}
+.est-v2-timeline-section{padding:48px 24px 40px}.est-v2-timeline-col{max-width:640px;margin:0 auto}.est-v2-timeline{position:relative}.est-v2-timeline:before{content:"";position:absolute;left:15px;top:6px;bottom:6px;width:1px;background:linear-gradient(to bottom,transparent,var(--est-v2-line2) 4%,var(--est-v2-line2) 96%,transparent)}.est-v2-stop{position:relative;display:grid;grid-template-columns:32px minmax(0,1fr);column-gap:18px;align-items:start;padding:0 0 34px}.est-v2-stop-num{position:relative;grid-column:1;grid-row:1;width:30px;height:30px;border-radius:50%;border:1px solid var(--est-v2-accent);display:flex;align-items:center;justify-content:center;color:var(--est-v2-accent);font-family:'Outfit',sans-serif;font-size:10px;background:var(--est-v2-bg);z-index:1}.est-v2-stop-content{grid-column:2;min-width:0}.est-v2-stop-range{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--est-v2-accent);margin-bottom:6px}.est-v2-stop-title{color:var(--est-v2-ink);font-family:'Outfit',sans-serif;font-size:15px;display:block;margin-bottom:6px;font-weight:600;line-height:1.4}.est-v2-stop-text{font-size:15.5px;line-height:1.75;color:var(--est-v2-soft)}.est-v2-anchor{margin-top:6px;border-left:2px solid var(--est-v2-accent);padding:14px 0 14px 18px;font-style:italic;color:var(--est-v2-ink);font-size:17px;line-height:1.7}
+.est-v2-ideas{padding:0}.est-v2-idea-item{border-bottom:1px solid var(--est-v2-line)}.est-v2-idea-btn{width:100%;display:flex;align-items:center;gap:14px;padding:20px 24px;text-align:left}.est-v2-idea-num{font-family:'Outfit',sans-serif;font-size:11px;color:var(--est-v2-accent);min-width:22px;flex:0 0 auto}.est-v2-idea-copy{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}.est-v2-idea-kicker{font-family:'Outfit',sans-serif;font-size:9.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--est-v2-accent)}.est-v2-idea-preview{font-size:14.5px;color:var(--est-v2-ink);font-family:'Outfit',sans-serif;line-height:1.4}.est-v2-plus{font-size:22px;font-weight:300;color:var(--est-v2-accent);transition:transform .3s ease;flex:0 0 auto}.est-v2-idea-item.is-open .est-v2-plus,.est-v2-connection-item.is-open .est-v2-plus{transform:rotate(45deg)}.est-v2-acc-body{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s cubic-bezier(.4,0,.2,1)}.est-v2-idea-item.is-open .est-v2-acc-body,.est-v2-connection-item.is-open .est-v2-acc-body{grid-template-rows:1fr}.est-v2-acc-inner{overflow:hidden;min-height:0}.est-v2-idea-body{padding:0 24px 24px 56px;font-size:15px;line-height:1.8;color:var(--est-v2-soft)}.est-v2-idea-body .est-v2-p,.est-v2-connection-body .est-v2-p{font-size:inherit;line-height:inherit}
+.est-v2-lexical{padding:44px 20px 56px}.est-v2-lex-grid{display:grid;grid-template-columns:1fr;gap:16px;max-width:720px;margin:0 auto}.est-v2-lex-card{background:var(--est-v2-panel);border:1px solid var(--est-v2-line);border-left:2px solid var(--est-v2-accent);border-radius:4px;padding:20px}.est-v2-lex-range{font-family:'Outfit',sans-serif;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--est-v2-accent);margin-bottom:10px}.est-v2-lex-original{font-style:italic;color:var(--est-v2-mute);font-size:14.5px;line-height:1.6;margin-bottom:10px}.est-v2-lex-translation{font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;color:var(--est-v2-accent2);margin-bottom:10px}.est-v2-lex-explanation{font-size:14.5px;line-height:1.75;color:var(--est-v2-soft)}
+.est-v2-connections{padding:44px 20px 56px}.est-v2-connection-col{max-width:700px;margin:0 auto;display:grid;gap:12px}.est-v2-connection-item{background:linear-gradient(135deg,var(--est-v2-panel2),var(--est-v2-panel));border:1px solid var(--est-v2-line);border-radius:6px;overflow:hidden;position:relative}.est-v2-connection-item:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--est-v2-accent)}.est-v2-connection-btn{width:100%;display:flex;align-items:center;gap:14px;padding:18px 20px 18px 22px;text-align:left}.est-v2-connection-badge{font-family:'Outfit',sans-serif;font-size:9.5px;letter-spacing:.11em;text-transform:uppercase;color:var(--est-v2-accent);border:1px solid var(--est-v2-line2);background:var(--est-v2-dim);padding:4px 8px;border-radius:20px;flex:0 0 auto}.est-v2-connection-preview{font-family:'Outfit',sans-serif;font-size:13.5px;line-height:1.45;color:var(--est-v2-ink);flex:1}.est-v2-connection-body{padding:0 22px 20px;font-size:15px;line-height:1.82;color:var(--est-v2-soft)}
+.est-v2-narrative{padding:48px 24px 56px}.est-v2-narrative-col{max-width:540px;margin:0 auto}.est-v2-narrative-p{font-size:17.5px;line-height:1.85;color:var(--est-v2-soft);margin:0 0 20px}.est-v2-narrative-anchor{margin-top:30px;background:var(--est-v2-panel);border-left:2px solid var(--est-v2-accent);border-radius:4px;padding:22px 24px;font-style:italic;color:var(--est-v2-ink);font-size:16.5px;line-height:1.85}
+.est-v2-teaching{padding:44px 20px 56px}.est-v2-teaching-col{max-width:680px;margin:0 auto;display:flex;flex-direction:column;gap:22px}.est-v2-teaching-block{background:var(--est-v2-panel);border:1px solid var(--est-v2-line);border-radius:6px;padding:22px}.est-v2-teaching-title{font-size:17px;font-weight:600;color:var(--est-v2-ink);margin:0 0 14px;line-height:1.35;font-family:'Outfit',sans-serif}.est-v2-teaching-p{font-size:14.5px;line-height:1.8;color:var(--est-v2-soft);margin:0 0 10px}
+.est-v2-questions{padding:44px 20px 56px}.est-v2-question-col{max-width:560px;margin:0 auto}.est-v2-question-toggle-row{display:flex;justify-content:center;margin-bottom:30px}.est-v2-question-toggle{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--est-v2-soft);border:1px solid var(--est-v2-line2)!important;padding:9px 16px;border-radius:20px}.est-v2-question-single{text-align:center}.est-v2-question-dots{display:flex;justify-content:center;gap:8px;margin-bottom:26px;flex-wrap:wrap}.est-v2-question-dot{width:7px;height:7px;border-radius:50%;background:var(--est-v2-panel2);transition:all .2s ease}.est-v2-question-dot.is-active{background:var(--est-v2-accent);width:20px;border-radius:4px}.est-v2-question-label{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--est-v2-accent);margin-bottom:16px}.est-v2-question-text{font-size:18px;line-height:1.75;color:var(--est-v2-ink);font-style:italic;margin-bottom:30px}.est-v2-question-controls{display:flex;justify-content:center;gap:14px;font-family:'Outfit',sans-serif}.est-v2-question-nav{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--est-v2-soft);border:1px solid var(--est-v2-line2)!important;padding:9px 18px;border-radius:3px}.est-v2-question-nav:disabled{opacity:.3}.est-v2-question-all{display:flex;flex-direction:column;gap:14px}.est-v2-question-all-item{background:var(--est-v2-panel2);border-radius:6px;padding:16px 18px;text-align:left}.est-v2-question-all-item .est-v2-question-text{font-size:15.5px;margin-bottom:0}.est-v2-question-note{margin-top:32px;padding-top:22px;border-top:1px solid var(--est-v2-line);font-family:'Outfit',sans-serif;font-size:11.5px;color:var(--est-v2-mute);line-height:1.6;text-align:center}
+.est-v2-closing{padding:56px 24px 60px;text-align:center}.est-v2-closing-eyebrow{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--est-v2-accent);margin-bottom:26px}.est-v2-quote{font-size:26px;line-height:1.5;font-style:italic;color:var(--est-v2-ink);max-width:520px;margin:0 auto 16px}.est-v2-ref{font-family:'Outfit',sans-serif;font-size:12px;letter-spacing:.08em;color:var(--est-v2-accent);text-transform:uppercase;margin-bottom:40px}.est-v2-reflection{max-width:560px;margin:0 auto 40px;font-size:15.5px;line-height:1.85;color:var(--est-v2-soft);text-align:left}.est-v2-download-label{font-family:'Outfit',sans-serif;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--est-v2-accent);margin-bottom:16px}.est-v2-image-styles,.est-v2-image-formats{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}.est-v2-image-styles{margin-bottom:16px}.est-v2-image-formats{margin-bottom:26px}.est-v2-image-style{font-family:'Outfit',sans-serif;font-size:11.5px;letter-spacing:.04em;padding:9px 16px;border-radius:20px;border:1px solid var(--est-v2-line2)!important;color:var(--est-v2-soft)}.est-v2-image-format{font-family:'Outfit',sans-serif;font-size:11.5px;padding:8px 14px;border-radius:3px;border:1px solid var(--est-v2-line2)!important;color:var(--est-v2-soft)}.est-v2-image-style.is-active,.est-v2-image-format.is-active{background:var(--est-v2-dim);border-color:var(--est-v2-line2);color:var(--est-v2-accent2)}.est-v2-canvas-wrap{width:min(240px,72vw);max-width:240px;margin:0 auto 22px;border:1px solid var(--est-v2-line2);border-radius:6px;overflow:hidden;background:var(--est-v2-panel)}.est-v2-canvas{width:100%;display:block}.est-v2-download{display:inline-block;background:var(--est-v2-accent);color:var(--est-v2-bg);font-family:'Outfit',sans-serif;font-weight:600;font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;padding:14px 30px;border-radius:3px;text-decoration:none}
+@container estudio-v2 (min-width:760px){.est-v2-nav{overflow-x:visible;flex-wrap:wrap;justify-content:center;padding:14px 24px 20px}.est-v2-verse-blocks{padding:64px 40px 72px}.est-v2-paragraphs{padding:64px 64px 72px}.est-v2-timeline-section{padding:64px 42px 56px}.est-v2-stop{grid-template-columns:34px minmax(0,1fr);column-gap:22px}.est-v2-stop-num{width:31px;height:31px}.est-v2-idea-btn{padding:22px 48px}.est-v2-idea-body{padding:0 48px 26px 80px}.est-v2-lexical{padding:60px 48px 72px}.est-v2-connections{padding:58px 42px 70px}.est-v2-connection-btn{padding:20px 24px 20px 26px}.est-v2-connection-body{padding:0 26px 24px}.est-v2-narrative{padding:68px 60px 76px}.est-v2-teaching{padding:60px 48px 72px}.est-v2-questions{padding:64px 48px 76px}.est-v2-closing{padding:76px 40px}}
+.est-v2-stage>section{width:100%;max-width:var(--est-v2-frame-max);margin-inline:auto;padding-left:var(--est-v2-frame-gutter);padding-right:var(--est-v2-frame-gutter)}
+@media(max-width:620px){.est-v2-root{border-left:0;border-right:0}.est-v2-footer{grid-template-columns:1fr 1fr;padding:16px;gap:10px}.est-v2-footer-center{grid-column:1/-1;grid-row:1}.est-v2-footer button{width:100%;padding:10px 12px}.est-v2-footer .est-v2-primary{min-width:0}.est-v2-progress-wrap{padding-left:18px;padding-right:18px}.est-v2-progress-top{margin-bottom:38px}.est-v2-nav{padding-left:16px;padding-right:16px}}
+
 .cap-bloque{margin-bottom:12px}
 .cap-bloque-hdr{
   display:flex;align-items:center;gap:10px;
@@ -4114,6 +4170,7 @@ function dskFiltrarCaps(q){ _dskCapBloqueAbierto=-1; _dskCapLibroAbierto=''; dsk
 
 /* ── Abrir capítulo en workspace ── */
 async function dskAbrirCap(key){
+  if(await abrirEstudioV2SiAplica(key, 'desktop')) return;
   // Si el estudio no está cacheado, cargarlo primero (igual que abrirCapitulo en mobile)
   if(!ESTUDIOS_CAPS[key]){
     dskWsShow('Cargando\u2026', `
@@ -7016,7 +7073,430 @@ function toggleCapLibro(nombre,hdr){
 let _ecapSecActual = 0;
 let _ecapKey = '';
 
+const ESTUDIO_V2_LUCAS_KEY = 'Lucas_15';
+const ESTUDIO_V2_LUCAS_URL = '/estudios/v2/lucas15_estudio_v2.json';
+const estudioV2Memoria = { lucas15: null, estados: {} };
+
+function estudioV2EsLucas15(key){
+  return key === ESTUDIO_V2_LUCAS_KEY;
+}
+
+async function cargarEstudioV2(key){
+  if(!estudioV2EsLucas15(key)) return null;
+  if(estudioV2Memoria.lucas15) return estudioV2Memoria.lucas15;
+  const res = await fetch(ESTUDIO_V2_LUCAS_URL, { cache: 'no-store' });
+  if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + ESTUDIO_V2_LUCAS_URL);
+  const data = await res.json();
+  validarEstudioV2Lucas15(data);
+  estudioV2Memoria.lucas15 = data;
+  return data;
+}
+
+function validarEstudioV2Lucas15(data){
+  if(!data || data.schemaVersion !== '1.0.0') throw new Error('schemaVersion V2 invalido');
+  if(!data.meta || data.meta.studyId !== 'lucas-15') throw new Error('studyId V2 invalido');
+  if(!Array.isArray(data.sections) || data.sections.length !== 10) throw new Error('Lucas 15 V2 debe tener 10 secciones');
+  const ids = new Set();
+  data.sections.forEach((sec, idx) => {
+    if(sec.order !== idx + 1) throw new Error('Orden V2 invalido en seccion ' + (idx + 1));
+    if(!sec.id || ids.has(sec.id)) throw new Error('ID V2 duplicado o vacio: ' + (sec.id || '(vacio)'));
+    ids.add(sec.id);
+  });
+}
+
+async function abrirEstudioV2SiAplica(key, contexto){
+  if(!estudioV2EsLucas15(key)) return false;
+  try{
+    const estudio = await cargarEstudioV2(key);
+    renderEstudioV2(estudio, { key, contexto });
+    return true;
+  }catch(e){
+    console.warn('[STARS] Lucas 15 V2 no disponible, usando V1:', e.message);
+    return false;
+  }
+}
+
+function estudioV2Estado(contexto, key){
+  const id = contexto + ':' + key;
+  if(!estudioV2Memoria.estados[id]){
+    estudioV2Memoria.estados[id] = { actual:1, recorridas:[], abiertos:{}, preguntas:{}, imagen:{ estilo:'clasico', formato:'9:16' } };
+  }
+  return estudioV2Memoria.estados[id];
+}
+
+function estudioV2Esc(valor){
+  return String(valor == null ? '' : valor).replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[ch]));
+}
+
+function estudioV2RenderRuns(runs){
+  if(!Array.isArray(runs)) return '';
+  return runs.map(run => {
+    const text = estudioV2Esc(run && run.text);
+    if(run && run.emphasis === 'strong') return '<strong>' + text + '</strong>';
+    if(run && run.emphasis === 'em') return '<em>' + text + '</em>';
+    return text;
+  }).join('');
+}
+
+function estudioV2ParrafoHtml(item, idx){
+  const body = item && Array.isArray(item.runs) ? estudioV2RenderRuns(item.runs) : estudioV2Esc(item && item.text != null ? item.text : item);
+  return '<p class="' + (idx === 0 ? 'est-v2-lede' : 'est-v2-p') + '">' + body + '</p>';
+}
+
+function estudioV2PrimerTexto(item){
+  if(!item) return '';
+  if(typeof item === 'string') return item;
+  if(item.text) return item.text;
+  if(Array.isArray(item.runs)) return item.runs.map(r => r.text || '').join('');
+  if(Array.isArray(item.paragraphs)) return item.paragraphs[0] || '';
+  return item.title || item.heading || item.reference || '';
+}
+
+function estudioV2RenderSeccion(sec, estado){
+  const c = sec.content || {};
+  if(sec.type === 'verseBlocks'){
+    return '<section class="est-v2-verse-blocks"><div class="est-v2-verse-col"><div class="est-v2-eyebrow">Lucas 15 &middot; ' + estudioV2Esc(sec.label) + '</div>' +
+      (c.blocks || []).map(block => '<div class="est-v2-verse"><span class="est-v2-range">' + estudioV2Esc(block.range) + '</span><div class="est-v2-verse-text">' + estudioV2Esc(block.text) + '</div></div>').join('') +
+      '</div></section>';
+  }
+  if(sec.type === 'editorialParagraphs'){
+    return '<section class="est-v2-paragraphs"><div class="est-v2-paragraph-col">' + (c.paragraphs || []).map(estudioV2ParrafoHtml).join('') + '</div></section>';
+  }
+  if(sec.type === 'timeline'){
+    const stops = (c.stops || []).map((stop, i) => '<div class="est-v2-stop"><div class="est-v2-stop-num">' + (i + 1) + '</div><div class="est-v2-stop-content"><div class="est-v2-stop-range">Vers&iacute;culos ' + estudioV2Esc(stop.range) + '</div><div class="est-v2-stop-title">' + estudioV2Esc(stop.title) + '</div><div class="est-v2-stop-text">' + estudioV2Esc(stop.text) + '</div></div></div>').join('');
+    const closing = (c.closing || []).map(t => '<div class="est-v2-anchor">' + estudioV2Esc(t) + '</div>').join('');
+    return '<section class="est-v2-timeline-section"><div class="est-v2-timeline-col"><div class="est-v2-timeline">' + stops + '</div>' + closing + '</div></section>';
+  }
+  if(sec.type === 'ideaAccordion'){
+    return estudioV2RenderIdeas(sec, estado);
+  }
+  if(sec.type === 'lexicalCards'){
+    return '<section class="est-v2-lexical"><div class="est-v2-lex-grid">' + (c.cards || []).map(card => '<article class="est-v2-lex-card"><div class="est-v2-lex-range">vv. ' + estudioV2Esc(card.range) + '</div><div class="est-v2-lex-original">&ldquo;' + estudioV2Esc(card.original) + '&rdquo;</div><div class="est-v2-lex-translation">' + estudioV2Esc(card.translation) + '</div><div class="est-v2-lex-explanation">' + estudioV2Esc(card.explanation) + '</div></article>').join('') + '</div></section>';
+  }
+  if(sec.type === 'connectionAccordion'){
+    return estudioV2RenderConexiones(sec, estado);
+  }
+  if(sec.type === 'narrativeWithAnchor'){
+    return '<section class="est-v2-narrative"><div class="est-v2-narrative-col">' + (c.paragraphs || []).map(t => '<p class="est-v2-narrative-p">' + estudioV2Esc(t) + '</p>').join('') + '<div class="est-v2-narrative-anchor">' + estudioV2Esc(c.anchor) + '</div></div></section>';
+  }
+  if(sec.type === 'teachingBlocks'){
+    return '<section class="est-v2-teaching"><div class="est-v2-teaching-col">' + (c.blocks || []).map(block => '<article class="est-v2-teaching-block"><div class="est-v2-teaching-title">' + estudioV2Esc(block.heading) + '</div>' + (block.paragraphs || []).map(t => '<p class="est-v2-teaching-p">' + estudioV2Esc(t) + '</p>').join('') + '</article>').join('') + '</div></section>';
+  }
+  if(sec.type === 'reflectionQuestions'){
+    return estudioV2RenderPreguntas(sec, estado);
+  }
+  if(sec.type === 'closingQuote'){
+    const imagen = estado.imagen || { estilo:'clasico', formato:'9:16' };
+    return '<section class="est-v2-closing"><div class="est-v2-closing-eyebrow">' + estudioV2Esc(sec.label) + '</div><div class="est-v2-quote">&ldquo;' + estudioV2Esc(c.quote) + '&rdquo;</div><div class="est-v2-ref">' + estudioV2Esc(c.reference) + '</div>' + (c.reflection || []).map(t => '<div class="est-v2-reflection">' + estudioV2Esc(t) + '</div>').join('') + '<div class="est-v2-download-label">Imagen descargable</div><div class="est-v2-image-styles">' + [['clasico','Cl&aacute;sica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op => '<button class="est-v2-image-style ' + (imagen.estilo === op[0] ? 'is-active' : '') + '" data-est-v2-image-style="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-image-formats">' + [['9:16','Historia 9:16'],['1:1','Cuadrado 1:1']].map(op => '<button class="est-v2-image-format ' + (imagen.formato === op[0] ? 'is-active' : '') + '" data-est-v2-image-format="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div><a class="est-v2-download" download="frase-stars-lucas-15.png" href="#">Descargar imagen PNG</a></section>';
+  }
+  return '<section class="est-v2-paragraphs"><div class="est-v2-paragraph-col"><p class="est-v2-p">Secci&oacute;n V2 no reconocida.</p></div></section>';
+}
+
+function estudioV2Resumen(texto, maximo){
+  const plain = estudioV2PrimerTexto(texto);
+  if(plain.length <= maximo) return plain;
+  const corte = plain.slice(0, maximo);
+  const espacio = corte.lastIndexOf(' ');
+  return corte.slice(0, espacio > 40 ? espacio : maximo) + '\u2026';
+}
+
+function estudioV2RenderIdeas(sec, estado){
+  const items = (sec.content && sec.content.items) || [];
+  const open = estado.abiertos[sec.id];
+  return '<section class="est-v2-ideas">' + items.map((item, i) => {
+    const isOpen = open === i;
+    return '<div class="est-v2-idea-item ' + (isOpen ? 'is-open' : '') + '"><button class="est-v2-idea-btn" data-est-v2-toggle="' + estudioV2Esc(sec.id + ':' + i) + '"><span class="est-v2-idea-num">' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-copy"><span class="est-v2-idea-kicker">Idea ' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-preview">' + estudioV2Esc(estudioV2Resumen(item, 78)) + '</span></span><span class="est-v2-plus">+</span></button><div class="est-v2-acc-body"><div class="est-v2-acc-inner"><div class="est-v2-idea-body">' + (item.paragraphs || []).map(t => '<p class="est-v2-p">' + estudioV2Esc(t) + '</p>').join('') + '</div></div></div></div>';
+  }).join('') + '</section>';
+}
+
+function estudioV2RenderConexiones(sec, estado){
+  const items = (sec.content && sec.content.items) || [];
+  const open = estado.abiertos[sec.id];
+  return '<section class="est-v2-connections"><div class="est-v2-connection-col">' + items.map((item, i) => {
+    const isOpen = open === i;
+    const heading = item.reference || item.title || ('Conexión ' + String(i + 1).padStart(2,'0'));
+    return '<div class="est-v2-connection-item ' + (isOpen ? 'is-open' : '') + '"><button class="est-v2-connection-btn" data-est-v2-toggle="' + estudioV2Esc(sec.id + ':' + i) + '"><span class="est-v2-connection-badge">' + estudioV2Esc(heading) + '</span><span class="est-v2-connection-preview">' + estudioV2Esc(estudioV2Resumen(item, 96)) + '</span><span class="est-v2-plus">+</span></button><div class="est-v2-acc-body"><div class="est-v2-acc-inner"><div class="est-v2-connection-body">' + (item.paragraphs || []).map(t => '<p class="est-v2-p">' + estudioV2Esc(t) + '</p>').join('') + '</div></div></div></div>';
+  }).join('') + '</div></section>';
+}
+
+function estudioV2RenderPreguntas(sec, estado){
+  const preguntas = (sec.content && sec.content.questions) || [];
+  if(!estado.preguntas[sec.id]) estado.preguntas[sec.id] = { modo:'una', indice:0 };
+  const ui = estado.preguntas[sec.id];
+  ui.indice = Math.max(0, Math.min(ui.indice, Math.max(0, preguntas.length - 1)));
+  let contenido = '';
+  if(ui.modo === 'todas'){
+    contenido = '<div class="est-v2-question-all">' + preguntas.map(q => '<article class="est-v2-question-all-item"><div class="est-v2-question-label">' + estudioV2Esc(q.label) + '</div><div class="est-v2-question-text">' + estudioV2Esc(q.text) + '</div></article>').join('') + '</div>';
+  }else if(preguntas.length){
+    const q = preguntas[ui.indice];
+    contenido = '<div class="est-v2-question-single"><div class="est-v2-question-dots">' + preguntas.map((_, i) => '<span class="est-v2-question-dot ' + (i === ui.indice ? 'is-active' : '') + '"></span>').join('') + '</div><div class="est-v2-question-label">' + estudioV2Esc(q.label) + ' &middot; Pregunta ' + (ui.indice + 1) + ' de ' + preguntas.length + '</div><div class="est-v2-question-text">' + estudioV2Esc(q.text) + '</div><div class="est-v2-question-controls"><button class="est-v2-question-nav" data-est-v2-question-prev="' + estudioV2Esc(sec.id) + '" ' + (ui.indice === 0 ? 'disabled' : '') + '>Anterior</button><button class="est-v2-question-nav" data-est-v2-question-next="' + estudioV2Esc(sec.id) + '" ' + (ui.indice === preguntas.length - 1 ? 'disabled' : '') + '>Siguiente</button></div></div>';
+  }
+  return '<section class="est-v2-questions"><div class="est-v2-question-col"><div class="est-v2-question-toggle-row"><button class="est-v2-question-toggle" data-est-v2-question-mode="' + estudioV2Esc(sec.id + ':' + (ui.modo === 'una' ? 'todas' : 'una')) + '">' + (ui.modo === 'una' ? 'Ver todas las preguntas' : 'Ver una por una') + '</button></div>' + contenido + '<div class="est-v2-question-note">Escribe tu respuesta en tu cuaderno o en tu app de notas antes de continuar.</div></div></section>';
+}
+
+function renderEstudioV2(estudio, contexto){
+  const estado = estudioV2Estado(contexto.contexto, contexto.key);
+  const secciones = estudio.sections.slice().sort((a,b) => a.order - b.order);
+  const actual = secciones.find(s => s.order === estado.actual) || secciones[0];
+  const total = secciones.length;
+  const progreso = Math.round((estado.recorridas.length / total) * 100);
+  const completado = estado.recorridas.length === total;
+  const rootHtml = '<div class="est-v2-root" data-context="' + estudioV2Esc(contexto.contexto) + '" data-key="' + estudioV2Esc(contexto.key) + '">' +
+    estudioV2Header() + estudioV2Progreso(secciones, estado, progreso, completado) + estudioV2Nav(secciones, estado) +
+    '<div class="est-v2-stage">' + estudioV2RenderSeccion(actual, estado) + '</div>' + estudioV2Footer(total, estado, completado) + '</div>';
+
+  if(contexto.contexto === 'desktop'){
+    dskWsShow('Lucas 15', rootHtml);
+    document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
+    const scroller = document.getElementById('dsk-ws-content');
+    if(scroller) scroller.scrollTop = 0;
+    estudioV2Bind(document.getElementById('dsk-ws-inner'), estudio, contexto);
+  }else{
+    document.getElementById('ecap-titulo').textContent = 'Lucas 15';
+    const nav = document.getElementById('ecap-nav');
+    if(nav) nav.innerHTML = '';
+    const progress = document.getElementById('ecap-progress');
+    if(progress) progress.style.width = progreso + '%';
+    const body = document.getElementById('ecap-body');
+    body.innerHTML = rootHtml;
+    document.getElementById('estudio-cap-modal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    estudioV2Bind(body, estudio, contexto);
+  }
+  if(actual.type === 'closingQuote') setTimeout(() => estudioV2DibujarFrase(contexto), 0);
+}
+
+function estudioV2Header(){
+  return '<header class="est-v2-head"><div class="est-v2-brand">S &middot; T &middot; A &middot; R &middot; S</div><h2 class="est-v2-title">Lucas 15</h2><div class="est-v2-sub">Estudio profundo &middot; 10 estaciones</div></header>';
+}
+
+function estudioV2Progreso(secciones, estado, progreso, completado){
+  const frase = completado ? '<strong>Recorrido completo</strong>' : '<strong>Est&aacute;s aqu&iacute;</strong> &middot; Estaci&oacute;n ' + estado.actual + ' de ' + secciones.length;
+  return '<div class="est-v2-progress-wrap"><div class="est-v2-progress-top"><div class="est-v2-progress-label">' + frase + '</div><div class="est-v2-progress-state">' + (completado ? 'COMPLETADO' : (progreso ? 'EN RECORRIDO' : 'NO LE&Iacute;DO')) + ' &middot; ' + progreso + '%</div></div><div class="est-v2-track"><div class="est-v2-track-line"></div><div class="est-v2-dots">' +
+    secciones.map((sec, idx) => '<button class="est-v2-dot-wrap ' + (estado.recorridas.indexOf(sec.order) !== -1 ? 'is-visited ' : '') + (estado.actual === sec.order ? 'is-current ' : '') + (idx === secciones.length - 1 ? 'is-last' : '') + '" data-est-v2-go="' + sec.order + '" aria-label="Estaci&oacute;n ' + sec.order + '">' + (estado.actual === sec.order ? '<span class="est-v2-marker"><svg width="14" height="30" viewBox="0 0 14 30" aria-hidden="true"><path d="M0 0 H14 V24 L7 30 L0 24 Z" fill="var(--est-v2-accent)"></path></svg></span>' : '') + '<span class="est-v2-dot"></span></button>').join('') +
+    '</div></div></div>';
+}
+
+function estudioV2Nav(secciones, estado){
+  return '<nav class="est-v2-nav">' + secciones.map(sec => '<button class="' + (estado.actual === sec.order ? 'is-active ' : '') + (estado.recorridas.indexOf(sec.order) !== -1 ? 'is-visited' : '') + '" data-est-v2-go="' + sec.order + '"><span class="est-v2-nav-num">' + String(sec.order).padStart(2,'0') + '</span>' + estudioV2Esc(sec.label) + '</button>').join('') + '</nav>';
+}
+
+function estudioV2Footer(total, estado, completado){
+  const recorrida = estado.recorridas.indexOf(estado.actual) !== -1;
+  const ultimo = estado.actual === total;
+  const primary = completado ? 'Estudio completado &#10003;' : (recorrida && !ultimo ? 'Continuar &rarr;' : (ultimo ? 'Finalizar estudio' : 'Marcar recorrida y continuar &rarr;'));
+  return '<footer class="est-v2-footer"><button data-est-v2-prev ' + (estado.actual === 1 ? 'disabled' : '') + '>&larr; Anterior</button><div class="est-v2-footer-center"><span class="est-v2-footer-count">Estaci&oacute;n ' + estado.actual + ' de ' + total + '</span><span class="est-v2-footer-hint">Explorar no modifica el avance. El bot&oacute;n confirma la lectura.</span></div><button class="est-v2-primary ' + (completado ? 'is-done' : '') + '" data-est-v2-complete ' + (completado ? 'disabled' : '') + '>' + primary + '</button></footer>';
+}
+
+function estudioV2Bind(host, estudio, contexto){
+  const root = host && host.querySelector('.est-v2-root');
+  if(!root || root.dataset.bound === '1') return;
+  root.dataset.bound = '1';
+  root.addEventListener('click', ev => {
+    const go = ev.target.closest('[data-est-v2-go]');
+    const prev = ev.target.closest('[data-est-v2-prev]');
+    const complete = ev.target.closest('[data-est-v2-complete]');
+    const toggle = ev.target.closest('[data-est-v2-toggle]');
+    const questionMode = ev.target.closest('[data-est-v2-question-mode]');
+    const questionPrev = ev.target.closest('[data-est-v2-question-prev]');
+    const questionNext = ev.target.closest('[data-est-v2-question-next]');
+    const imageStyle = ev.target.closest('[data-est-v2-image-style]');
+    const imageFormat = ev.target.closest('[data-est-v2-image-format]');
+    const estado = estudioV2Estado(contexto.contexto, contexto.key);
+    if(go){ estado.actual = parseInt(go.getAttribute('data-est-v2-go'), 10); renderEstudioV2(estudio, contexto); return; }
+    if(prev){ estado.actual = Math.max(1, estado.actual - 1); renderEstudioV2(estudio, contexto); return; }
+    if(complete){
+      if(estado.recorridas.indexOf(estado.actual) === -1) estado.recorridas.push(estado.actual);
+      estado.recorridas.sort((a,b) => a - b);
+      if(estado.actual < estudio.sections.length) estado.actual += 1;
+      renderEstudioV2(estudio, contexto);
+      return;
+    }
+    if(toggle){
+      const parts = toggle.getAttribute('data-est-v2-toggle').split(':');
+      const idx = parseInt(parts[1], 10);
+      estado.abiertos[parts[0]] = estado.abiertos[parts[0]] === idx ? null : idx;
+      renderEstudioV2(estudio, contexto);
+      return;
+    }
+    if(questionMode){
+      const parts = questionMode.getAttribute('data-est-v2-question-mode').split(':');
+      if(!estado.preguntas[parts[0]]) estado.preguntas[parts[0]] = { modo:'una', indice:0 };
+      estado.preguntas[parts[0]].modo = parts[1];
+      renderEstudioV2(estudio, contexto);
+      return;
+    }
+    if(questionPrev || questionNext){
+      const control = questionPrev || questionNext;
+      const sectionId = control.getAttribute(questionPrev ? 'data-est-v2-question-prev' : 'data-est-v2-question-next');
+      const section = estudio.sections.find(sec => sec.id === sectionId);
+      if(!estado.preguntas[sectionId]) estado.preguntas[sectionId] = { modo:'una', indice:0 };
+      const delta = questionPrev ? -1 : 1;
+      const maximo = Math.max(0, ((section && section.content && section.content.questions) || []).length - 1);
+      estado.preguntas[sectionId].indice = Math.max(0, Math.min(maximo, estado.preguntas[sectionId].indice + delta));
+      renderEstudioV2(estudio, contexto);
+      return;
+    }
+    if(imageStyle || imageFormat){
+      if(!estado.imagen) estado.imagen = { estilo:'clasico', formato:'9:16' };
+      if(imageStyle) estado.imagen.estilo = imageStyle.getAttribute('data-est-v2-image-style');
+      if(imageFormat) estado.imagen.formato = imageFormat.getAttribute('data-est-v2-image-format');
+      renderEstudioV2(estudio, contexto);
+      return;
+    }
+  });
+}
+
+function estudioV2ColorVar(nombre, fallback){
+  const bodyValue = getComputedStyle(document.body).getPropertyValue(nombre).trim();
+  const rootValue = getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
+  return bodyValue || rootValue || fallback;
+}
+
+function estudioV2DibujarFrase(contexto){
+  try{
+    const estado = estudioV2Estado(contexto.contexto, contexto.key);
+    const host = contexto.contexto === 'desktop' ? document.getElementById('dsk-ws-inner') : document.getElementById('ecap-body');
+    const root = host && host.querySelector('.est-v2-root');
+    const canvas = root && root.querySelector('.est-v2-canvas');
+    if(!canvas || !estudioV2Memoria.lucas15) return;
+    const sec = estudioV2Memoria.lucas15.sections.find(s => s.type === 'closingQuote');
+    if(!sec) return;
+    const ctx = canvas.getContext('2d');
+    if(!ctx) return;
+    const imagen = estado.imagen || { estilo:'clasico', formato:'9:16' };
+    const W = 1080, H = imagen.formato === '1:1' ? 1080 : 1920;
+    canvas.width = W; canvas.height = H;
+    const paleta = {
+      fondo:estudioV2ColorVar('--black', '#0a0a0a'),
+      fondo2:estudioV2ColorVar('--black2', '#111111'),
+      acento:estudioV2ColorVar('--gold', '#c9a84c'),
+      acento2:estudioV2ColorVar('--gold2', '#e8c97a'),
+      tinta:estudioV2ColorVar('--white', '#f5f0e8'),
+      suave:estudioV2ColorVar('--white2', '#cabf9f')
+    };
+    const frase = String(sec.content.quote || '').replace(/^["'«“”]+|["'»“”]+$/g,'').trim();
+    if(imagen.estilo === 'editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,sec.content.reference);
+    else if(imagen.estilo === 'contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,sec.content.reference);
+    else estudioV2PintarClasica(ctx,W,H,paleta,frase,sec.content.reference);
+    const link = root.querySelector('.est-v2-download');
+    if(link) link.href = canvas.toDataURL('image/png');
+  }catch(e){
+    console.warn('[STARS] No se pudo dibujar frase V2:', e.message);
+  }
+}
+
+function estudioV2ColorAlpha(color, alpha){
+  const value = String(color || '').trim();
+  const hex = value.match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if(hex){
+    let raw = hex[1];
+    if(raw.length === 3) raw = raw.split('').map(ch => ch + ch).join('');
+    return 'rgba(' + parseInt(raw.slice(0,2),16) + ',' + parseInt(raw.slice(2,4),16) + ',' + parseInt(raw.slice(4,6),16) + ',' + alpha + ')';
+  }
+  const rgb = value.match(/rgba?\(([^)]+)\)/i);
+  if(rgb){
+    const parts = rgb[1].split(',').slice(0,3).map(part => parseFloat(part));
+    return 'rgba(' + parts[0] + ',' + parts[1] + ',' + parts[2] + ',' + alpha + ')';
+  }
+  return value;
+}
+
+function estudioV2FondoCanvas(ctx,W,H,paleta){
+  const grad = ctx.createLinearGradient(0,0,W,H);
+  grad.addColorStop(0,paleta.fondo2);
+  grad.addColorStop(1,paleta.fondo);
+  ctx.fillStyle = grad;
+  ctx.fillRect(0,0,W,H);
+}
+
+function estudioV2PintarClasica(ctx,W,H,paleta,frase,referencia){
+  estudioV2FondoCanvas(ctx,W,H,paleta);
+  const vertical = H > W;
+  const cx = W / 2;
+  ctx.fillStyle = paleta.acento;
+  ctx.fillRect(0,0,W,5);
+  ctx.fillRect(0,H-5,W,5);
+  ctx.textAlign = 'center';
+  ctx.fillStyle = estudioV2ColorAlpha(paleta.acento2,.75);
+  ctx.font = '400 30px Outfit, sans-serif';
+  ctx.fillText('S · T · A · R · S',cx,vertical ? 190 : 130);
+  ctx.fillStyle = estudioV2ColorAlpha(paleta.suave,.5);
+  ctx.font = '300 19px Outfit, sans-serif';
+  ctx.fillText('L H S C O L',cx,vertical ? 242 : 174);
+  ctx.strokeStyle = estudioV2ColorAlpha(paleta.acento,.6);
+  ctx.beginPath();ctx.moveTo(cx-130,vertical?286:212);ctx.lineTo(cx+130,vertical?286:212);ctx.stroke();
+  const size = vertical ? 62 : 50;
+  ctx.fillStyle = paleta.tinta;
+  ctx.font = 'italic 600 ' + size + 'px Georgia, serif';
+  const lines = estudioV2WrapCanvas(ctx,'“' + frase + '”',W-(vertical?200:160));
+  const lineH = size * 1.32;
+  const mid = vertical ? H*.5 : H*.52;
+  let y = mid - (lines.length * lineH)/2 + lineH/2;
+  lines.forEach(line => {ctx.fillText(line,cx,y);y += lineH;});
+  ctx.fillStyle = paleta.acento2;
+  ctx.font = '500 26px Outfit, sans-serif';
+  ctx.fillText(String(referencia || '').toUpperCase(),cx,mid+(lines.length*lineH)/2+(vertical?84:60));
+  ctx.fillStyle = estudioV2ColorAlpha(paleta.suave,.55);
+  ctx.font = '300 22px Outfit, sans-serif';
+  ctx.fillText('@lhscol',cx,H-(vertical?150:88));
+  ctx.font = '300 17px Outfit, sans-serif';
+  ctx.fillText('S · T · A · R · S · LHSCOL',cx,H-(vertical?102:52));
+}
+
+function estudioV2PintarEditorial(ctx,W,H,paleta,frase,referencia){
+  estudioV2FondoCanvas(ctx,W,H,paleta);
+  const left = W*.11, right = W*.11, content = W-left-right;
+  const rule = ctx.createLinearGradient(0,H*.10,0,H*.90);
+  rule.addColorStop(0,estudioV2ColorAlpha(paleta.acento,0));
+  rule.addColorStop(.5,estudioV2ColorAlpha(paleta.acento,.7));
+  rule.addColorStop(1,estudioV2ColorAlpha(paleta.acento,0));
+  ctx.fillStyle=rule;ctx.fillRect(left,H*.10,2,H*.80);
+  ctx.textAlign='left';ctx.fillStyle=paleta.acento2;ctx.font='600 21px Outfit, sans-serif';ctx.fillText('S·T·A·R·S',left+26,H*.145);
+  ctx.fillStyle=estudioV2ColorAlpha(paleta.suave,.55);ctx.font='300 15px Outfit, sans-serif';ctx.fillText('LHSCOL',left+26,H*.145+26);
+  ctx.textAlign='right';ctx.fillStyle=paleta.acento2;ctx.font='500 20px Outfit, sans-serif';ctx.fillText(String(referencia || '').toUpperCase(),W-right,H*.145);
+  ctx.textAlign='left';
+  const size=H>W?58:44;
+  ctx.fillStyle=paleta.tinta;ctx.font='italic 500 '+size+'px Georgia, serif';
+  const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',content-26);
+  const lineH=size*1.28, start=H*.34;
+  lines.forEach((line,i)=>ctx.fillText(line,left+26,start+i*lineH));
+  ctx.strokeStyle=paleta.acento;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(left+26,start+lines.length*lineH+20);ctx.lineTo(left+66,start+lines.length*lineH+20);ctx.stroke();
+  ctx.textAlign='right';ctx.fillStyle=estudioV2ColorAlpha(paleta.suave,.55);ctx.font='300 18px Outfit, sans-serif';ctx.fillText('@lhscol',W-right,H*.92);
+  ctx.font='300 14px Outfit, sans-serif';ctx.fillText('S · T · A · R · S',W-right,H*.92+24);
+}
+
+function estudioV2PintarContemplativa(ctx,W,H,paleta,frase,referencia){
+  estudioV2FondoCanvas(ctx,W,H,paleta);
+  const cx=W/2;
+  ctx.textAlign='center';ctx.strokeStyle=estudioV2ColorAlpha(paleta.acento,.65);ctx.lineWidth=1.4;ctx.beginPath();ctx.arc(cx,H*.24,10,0,Math.PI*2);ctx.stroke();
+  ctx.fillStyle=estudioV2ColorAlpha(paleta.suave,.5);ctx.font='300 16px Outfit, sans-serif';ctx.fillText('S · T · A · R · S',cx,H*.24+46);
+  const size=H>W?34:30;
+  ctx.fillStyle=paleta.tinta;ctx.font='italic 400 '+size+'px Georgia, serif';
+  const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',W*.62);
+  const lineH=size*1.5, total=lines.length*lineH, start=H*.72-total/2+lineH/2;
+  lines.forEach((line,i)=>ctx.fillText(line,cx,start+i*lineH));
+  ctx.fillStyle=paleta.acento2;ctx.font='400 14px Outfit, sans-serif';ctx.fillText(String(referencia || '').toUpperCase(),cx,start+total+34);
+  ctx.fillStyle=estudioV2ColorAlpha(paleta.suave,.4);ctx.font='300 12.5px Outfit, sans-serif';ctx.fillText('LHSCOL',cx,H-H*.06);
+}
+
+function estudioV2WrapCanvas(ctx, text, maxWidth){
+  const words = String(text || '').split(/\s+/);
+  const lines = [];
+  let line = '';
+  words.forEach(word => {
+    const test = line ? line + ' ' + word : word;
+    if(ctx.measureText(test).width > maxWidth && line){ lines.push(line); line = word; }
+    else line = test;
+  });
+  if(line) lines.push(line);
+  return lines;
+}
+
 async function abrirCapitulo(key){
+  if(await abrirEstudioV2SiAplica(key, 'mobile')) return;
   const dato = CAPITULOS_DISPONIBLES[key];
   
   // Intentar cargar el estudio si no está en caché

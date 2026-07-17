@@ -1,50 +1,476 @@
 {
+  "schemaVersion": 2,
   "libro": "Éxodo",
-  "fecha": "2026-06-29",
-  "secciones": [
+  "slug": "exodo",
+  "fecha": "2026-07-15",
+  "portada": {
+    "kicker": "S · T · A · R · S",
+    "titulo": "Éxodo",
+    "subtitulo": "El Dios que libera para habitar en medio de Su pueblo",
+    "cita": "“Yo estaré contigo.”",
+    "referencia": "Éxodo 3:12",
+    "metadatos": [
+      "40 capítulos"
+    ]
+  },
+  "bloques": [
     {
-      "nav": "Panorama",
-      "titulo": "De esclavos a pueblo de Dios",
-      "html": "<p>Génesis termina con una familia de setenta personas instalándose en Egipto para sobrevivir una hambruna. Éxodo abre cuatrocientos años después: esa familia se ha convertido en un pueblo numeroso, esclavizado, oprimido y aparentemente olvidado. El libro entero responde una pregunta urgente: ¿sigue Dios siendo fiel a la promesa que le hizo a Abraham, incluso después de cuatro siglos de silencio aparente?</p><blockquote>\"Yo soy el que soy.\" — Éxodo 3:14</blockquote><p>La respuesta llega a través de tres grandes movimientos que estructuran todo el libro, y que su propio enfoque resume con precisión: <strong>liberación, ley y presencia</strong>.</p><p><strong>Liberación (capítulos 1–18).</strong> Dios levanta a Moisés — un hombre que huyó de Egipto cuarenta años antes después de matar a un egipcio, ahora un pastor de ovejas en el desierto — y lo envía de regreso con un mensaje que sacude todo el orden establecido: \"Deja ir a mi pueblo\". Las diez plagas no son solo demostraciones de poder; son un juicio deliberado contra los dioses falsos de Egipto, uno por uno. La Pascua marca el rescate definitivo, y el cruce del Mar Rojo es el momento bisagra: Israel deja de ser un pueblo esclavo y se convierte en un pueblo libre, salvado por la mano de Dios y no por su propia fuerza.</p><p><strong>Ley (capítulos 19–24).</strong> Libre no es lo mismo que sin rumbo. En el monte Sinaí, Dios le da a Israel los Diez Mandamientos y un cuerpo de leyes que va a darle forma a su identidad como nación. Esto no es una carga arbitraria — es la manera en que un pueblo recién liberado de la esclavitud aprende a vivir en libertad real, en justicia y en relación correcta con Dios y entre ellos mismos. La ley es, en el fondo, un regalo de orden para un pueblo que solo conocía el caos de la opresión.</p><p><strong>Presencia (capítulos 25–40).</strong> La última gran sección del libro está dedicada casi en su totalidad a los planos detallados del tabernáculo — la tienda santa donde Dios mismo va a habitar en medio de su pueblo. Puede parecer una sección árida a primera vista (capítulos enteros de medidas, materiales y muebles), pero su mensaje es extraordinario: el Dios que creó el universo, el mismo que partió el mar, elige acampar literalmente en medio de un pueblo de antiguos esclavos. El libro termina con la gloria de Dios llenando el tabernáculo (40:34-38) — la respuesta final a la pregunta que abrió el libro: Dios no abandonó a su pueblo. Vino a vivir con ellos.</p><p>Este patrón — esclavitud, rescate, ley y presencia de Dios habitando entre su pueblo — es el molde sobre el cual se entiende todo el resto de la Biblia, incluyendo el evangelio mismo: Jesús, llamado \"el Cordero de Dios\" en clara alusión al cordero pascual, vino precisamente para liberarnos del pecado y para que Dios habite, ahora por su Espíritu, dentro de cada persona que cree.</p>"
+      "tipo": "editorial",
+      "titulo": "Antes de leer Éxodo",
+      "descripcion": "Una orientación para comprender el libro donde Dios rescata, forma y acompaña a Su pueblo.",
+      "parrafos": [
+        "Éxodo retoma la historia donde Génesis la dejó. La familia de Jacob llegó a Egipto buscando alimento y fue preservada durante la hambruna. Con el paso de las generaciones, aquella familia se convirtió en un pueblo numeroso. Sin embargo, el lugar que alguna vez representó refugio terminó convirtiéndose en una tierra de opresión.",
+        "El libro comienza con un faraón que no reconoce a José, teme el crecimiento de Israel y responde mediante control, trabajo forzado y violencia. Frente a ese poder aparece una verdad decisiva: Dios ve la aflicción, escucha el clamor, recuerda Su pacto y actúa.",
+        "Éxodo no cuenta solamente la salida de un grupo de esclavos. Narra cómo Dios revela Su nombre, confronta el poder de Egipto, rescata a Israel, lo conduce por el desierto, establece un pacto y decide habitar en medio de Su pueblo.",
+        "La liberación es el comienzo, no el final. Israel debe aprender una nueva identidad después de generaciones de esclavitud. Debe descubrir quién es el Dios que lo rescató, cómo se vive en relación con Él y qué significa convertirse en una comunidad distinta dentro del mundo.",
+        "El libro avanza desde los hornos de ladrillos hasta la gloria que llena el tabernáculo. Entre ambos extremos aparecen la Pascua, el mar, el desierto, el monte Sinaí, los mandamientos, el becerro de oro, la intercesión de Moisés y la renovación del pacto.",
+        "Éxodo revela a un Dios que no permanece distante frente al sufrimiento. Él desciende, libera, guía, habla, corrige, perdona y permanece. Su propósito no es únicamente sacar a Su pueblo de Egipto. También debe formar en él una nueva manera de pensar y vivir, para que refleje Su carácter y aprenda a caminar bajo Su presencia."
+      ],
+      "definicionesTitulo": "Qué hace particular a Éxodo",
+      "definiciones": [
+        {
+          "titulo": "Dios ve, escucha, recuerda y actúa",
+          "texto": "El comienzo del libro presenta un pueblo oprimido y un Dios que parece silencioso. Sin embargo, Éxodo 2 muestra que Dios ha visto, escuchado y recordado Su pacto. Su memoria no significa que hubiera olvidado, sino que ha llegado el momento de actuar de acuerdo con Su promesa. La liberación comienza en el carácter fiel de Dios, no en la capacidad de Israel para rescatarse."
+        },
+        {
+          "titulo": "Dios revela Su nombre",
+          "texto": "En la zarza ardiente, Moisés pregunta quién lo envía. La respuesta de Dios no entrega una simple etiqueta. Revela Su existencia, libertad, fidelidad y presencia. El Dios de Abraham, Isaac y Jacob no es una idea heredada del pasado: es el Dios vivo que estará con Moisés y cumplirá Su palabra."
+        },
+        {
+          "titulo": "La liberación confronta poderes reales",
+          "texto": "Faraón representa un poder que utiliza miedo, producción y violencia para reducir personas a recursos. Dios confronta ese sistema, expone sus límites y demuestra que ningún poder humano tiene autoridad final sobre aquellos a quienes Él llama Su pueblo."
+        },
+        {
+          "titulo": "La Pascua redefine la memoria",
+          "texto": "Antes de salir de Egipto, Israel recibe una comida, una señal y una historia que deberá recordar de generación en generación. La Pascua convierte la liberación en memoria compartida. El pueblo no debe olvidar quién lo rescató ni confundir la libertad con un logro propio."
+        },
+        {
+          "titulo": "La ley llega después del rescate",
+          "texto": "Dios no entrega los mandamientos para que Israel pueda merecer la liberación. Primero rescata; después enseña cómo vive un pueblo libre. Libre no es lo mismo que sin rumbo. La obediencia nace dentro de una relación de pacto, y la ley forma una comunidad llamada a reflejar justicia, fidelidad, compasión y adoración."
+        },
+        {
+          "titulo": "El destino de la liberación es la presencia",
+          "texto": "El libro dedica muchos capítulos al tabernáculo porque la meta de Éxodo no es solamente abandonar Egipto. Dios desea habitar en medio de Su pueblo. La presencia que se manifestó en la zarza, acompañó a Israel en la nube y descendió sobre el Sinaí termina llenando el santuario levantado en el centro del campamento."
+        }
+      ],
+      "fraseAncla": "Éxodo comienza con un pueblo esclavizado bajo el dominio de Faraón y termina con un pueblo libre bajo la presencia de Dios."
     },
     {
-      "nav": "Contexto",
-      "titulo": "Quién, cuándo y por qué",
-      "html": "<p><strong>¿Quién lo escribió?</strong></p><p>Al igual que Génesis, la tradición judía y cristiana atribuye Éxodo a <strong>Moisés</strong>, quien vivió personalmente buena parte de los eventos narrados: el llamado en la zarza ardiente, la confrontación con Faraón, las plagas, el cruce del mar y la entrega de la ley en el Sinaí. Es, en este sentido, un testigo directo de gran parte de lo que escribe — no solo un compilador de tradiciones antiguas como en Génesis, sino alguien que vivió la liberación en carne propia.</p><p><strong>¿Cuándo ocurrieron los eventos y cuándo se escribió el libro?</strong></p><p>La mayoría de los eruditos conservadores ubican el éxodo de Egipto alrededor del siglo XV o XIII a.C. (existe debate académico sobre la fecha exacta), durante el reinado de un faraón no identificado por nombre en el texto bíblico. El libro habría sido compilado y escrito poco después, durante los cuarenta años de peregrinaje en el desierto, como parte del mismo proceso de formación de la Torá que incluye también Génesis, Levítico, Números y Deuteronomio.</p><p><strong>¿Para quién se escribió?</strong></p><p>Para el propio pueblo de Israel que estaba viviendo o acababa de vivir estos eventos — una generación que necesitaba un registro escrito de quién era el Dios que los había rescatado, qué esperaba de ellos como pueblo, y cómo debían organizarse para vivir en relación con Él. Es, en cierto sentido, el documento fundacional de la identidad nacional y espiritual de Israel: aquí nace su calendario religioso (la Pascua), su código legal (los Diez Mandamientos) y su sistema de adoración (el tabernáculo).</p><p><strong>¿Por qué importa hoy?</strong></p><p>Porque Éxodo establece, de manera definitiva, el patrón que Dios sigue usando para rescatar a su pueblo a lo largo de toda la historia bíblica: ve la opresión, escucha el clamor, interviene con poder, libera, y luego elige habitar en medio de los liberados. Si alguna vez te has sentido esclavizado por algo — un patrón destructivo, una circunstancia que parece no tener salida, un pasado del que no logras escapar — Éxodo te recuerda que el Dios que partió el Mar Rojo sigue siendo el mismo, y que la libertad que Él ofrece no es solo escapar de algo, sino ser llevado a una relación íntima con Él.</p>"
+      "tipo": "contexto",
+      "titulo": "Conoce el contexto",
+      "descripcion": "Origen, propósito, estructura y claves que te ayudarán a leer mejor.",
+      "definicionesTitulo": "Quién, para quién y por qué",
+      "definiciones": [
+        {
+          "titulo": "Nombre del libro",
+          "texto": "El nombre Éxodo proviene de una palabra griega que significa salida. Describe el gran movimiento de Israel fuera de Egipto, pero el libro abarca mucho más que ese acontecimiento. En la tradición hebrea recibe su nombre de sus primeras palabras: “Estos son los nombres”. Ese comienzo conecta directamente con Génesis y recuerda que la historia continúa mediante la familia de Jacob."
+        },
+        {
+          "titulo": "Lugar dentro de la Torá",
+          "texto": "Éxodo es el segundo libro de la Torá o Pentateuco. Retoma las promesas de Génesis y muestra el comienzo de su desarrollo nacional. La familia de Abraham se ha multiplicado, pero todavía no vive en la tierra prometida. Antes de avanzar hacia ella, Israel debe ser liberado, constituido como pueblo del pacto y aprender a vivir con la presencia de Dios."
+        },
+        {
+          "titulo": "Autoría y tradición",
+          "texto": "La tradición judía y cristiana ha recibido Éxodo como parte de la Torá asociada a Moisés. Moisés es el personaje humano central del libro y participa directamente en la mayoría de sus acontecimientos. El propio relato también presenta momentos en los que escribe palabras e instrucciones recibidas de Dios. La forma final del libro preserva la memoria de la liberación, el pacto y la presencia como fundamento de la identidad de Israel."
+        },
+        {
+          "titulo": "Marco histórico",
+          "texto": "Éxodo se desarrolla en el contexto del antiguo Egipto y del mundo del segundo milenio antes de Cristo. Existen diferentes propuestas acerca de la fecha exacta de los acontecimientos y de la identidad del faraón. El libro no concentra su atención en nombrar al gobernante, sino en revelar quién es el Señor y quién posee la autoridad final sobre Su pueblo y sobre la creación."
+        },
+        {
+          "titulo": "Audiencia",
+          "texto": "Éxodo forma la memoria de Israel. Enseña a un pueblo liberado de dónde viene, quién lo rescató, a quién pertenece y cómo debe vivir. Sus relatos, mandamientos y prácticas no son piezas aisladas: construyen una identidad común alrededor de la fidelidad de Dios, la experiencia del rescate y la vocación de representar Su carácter."
+        },
+        {
+          "titulo": "Propósito",
+          "texto": "El libro muestra cómo Dios cumple Su promesa a los antepasados, rescata a Israel de la esclavitud, establece un pacto y decide habitar en medio del pueblo. También enseña que la libertad necesita formación. Un pueblo que sale de Egipto debe aprender a dejar atrás las lógicas de miedo, idolatría, injusticia y desconfianza que marcaron su vida."
+        },
+        {
+          "titulo": "Estructura principal",
+          "texto": "Éxodo puede observarse mediante tres grandes movimientos. En los capítulos 1–18, Dios libera a Israel de Egipto y lo conduce hasta el monte Sinaí. En los capítulos 19–24, establece el pacto y entrega instrucciones para la vida de la comunidad. En los capítulos 25–40, revela el diseño del tabernáculo, enfrenta la ruptura provocada por el becerro de oro, renueva el pacto y llena el santuario con Su gloria."
+        },
+        {
+          "titulo": "Por qué importa hoy",
+          "texto": "Éxodo revela que Dios toma en serio la opresión, escucha el clamor y actúa a favor de quienes no pueden liberarse por sí mismos. También muestra que la libertad bíblica no consiste únicamente en escapar de una condición, sino en pertenecer a Dios, aprender Su camino y vivir bajo Su presencia. El libro confronta las formas de poder que deshumanizan, las idolatrías que reemplazan a Dios y la tendencia a regresar mentalmente a aquello de lo que ya fuimos liberados."
+        }
+      ],
+      "detallesTitulo": "Claves de lectura",
+      "detalles": [
+        {
+          "titulo": "Lee Éxodo como continuación de Génesis",
+          "texto": "La primera página retoma los nombres de los hijos de Jacob. El crecimiento de Israel cumple parcialmente la promesa dada a Abraham, pero la opresión parece amenazar el futuro. El libro pregunta si Dios continuará siendo fiel a la promesa cuando las circunstancias parecen contradecirla."
+        },
+        {
+          "titulo": "Observa los verbos que describen la respuesta de Dios",
+          "texto": "Dios escucha, recuerda, ve y conoce. Después desciende, llama, envía y libera. La acción de Dios nace de Su fidelidad al pacto y de Su compasión frente al sufrimiento. No actúa porque Israel haya demostrado fortaleza o mérito."
+        },
+        {
+          "titulo": "Faraón es más que un antagonista individual",
+          "texto": "Faraón encarna una forma de poder que teme perder el control, convierte personas en mano de obra y responde a la vulnerabilidad con más violencia. Observa cómo sus decisiones producen un sistema entero de opresión y cómo Dios desmantela la pretensión de poder absoluto."
+        },
+        {
+          "titulo": "El endurecimiento del corazón requiere lectura cuidadosa",
+          "texto": "El relato afirma en diferentes momentos que Faraón endurece su corazón, que su corazón se endurece y que Dios endurece su corazón. La narración presenta una responsabilidad humana real y, al mismo tiempo, la autoridad soberana de Dios sobre un rey que persiste en resistir la verdad. No reduzcas el tema a una fórmula simple; sigue la progresión completa del relato."
+        },
+        {
+          "titulo": "Las plagas revelan quién gobierna",
+          "texto": "Las plagas no son espectáculos aislados. Confrontan la autoridad de Faraón, exponen la impotencia de los poderes de Egipto y muestran que el Señor gobierna sobre las aguas, la tierra, los animales, la luz, la vida y la historia. El propósito repetido es que Egipto, Israel y las generaciones futuras sepan quién es el Señor."
+        },
+        {
+          "titulo": "La Pascua debe leerse como memoria de rescate",
+          "texto": "Éxodo 12 une juicio, protección, comida, familia y memoria. Israel recibe instrucciones para recordar la noche en que Dios lo sacó de Egipto. Para los seguidores de Jesús, la Pascua también prepara el lenguaje con el que el Nuevo Testamento comprende Su muerte, pero primero debe ser leída dentro de la historia concreta de la liberación de Israel."
+        },
+        {
+          "titulo": "El cruce del mar no es una victoria militar de Israel",
+          "texto": "El pueblo llega al mar sin una estrategia propia y con el ejército egipcio detrás. Dios abre un camino donde no lo había. La escena enseña que la liberación depende de Su acción. El cántico del capítulo 15 interpreta el acontecimiento como una victoria del Señor y establece un lenguaje de adoración que continuará resonando en toda la Escritura."
+        },
+        {
+          "titulo": "El desierto revela y forma",
+          "texto": "Después de salir de Egipto, Israel enfrenta hambre, sed, cansancio, amenaza y desorientación. El desierto no demuestra que Dios los haya abandonado. Se convierte en un lugar donde el pueblo aprende a confiar diariamente, recibe provisión y descubre cuánta mentalidad de esclavitud todavía permanece dentro de él."
+        },
+        {
+          "titulo": "La ley comienza con una declaración de gracia",
+          "texto": "Antes de entregar los mandamientos, Dios recuerda: “Yo soy el Señor tu Dios, que te saqué de la tierra de Egipto”. La obediencia se entiende desde el rescate ya recibido. Israel no cumple la ley para convertirse en pueblo de Dios; aprende a obedecer porque Dios ya lo ha llamado Su pueblo."
+        },
+        {
+          "titulo": "El pacto tiene una vocación hacia el mundo",
+          "texto": "Israel es llamado reino de sacerdotes y nación santa. La elección no significa aislamiento orgulloso ni privilegio sin responsabilidad. El pueblo debe vivir de una manera que refleje el carácter de Dios y haga visible Su justicia y Su presencia entre las naciones."
+        },
+        {
+          "titulo": "El tabernáculo no es una interrupción técnica",
+          "texto": "Los detalles de materiales, medidas, muebles, vestiduras y rituales expresan orden, santidad, belleza y propósito. El tabernáculo representa la decisión de Dios de habitar en medio del pueblo. Sus imágenes también recuerdan el jardín de Génesis: un espacio donde cielo y tierra, Dios y humanidad, vuelven a encontrarse."
+        },
+        {
+          "titulo": "El becerro de oro ocurre en el centro de las instrucciones sobre la presencia",
+          "texto": "Mientras Dios entrega el diseño del lugar donde habitará con Israel, el pueblo fabrica una imagen para controlar y representar a Dios según sus propios términos. El contraste revela que la idolatría no consiste solo en abandonar a Dios, sino también en intentar reducirlo a algo manejable."
+        },
+        {
+          "titulo": "Moisés aparece como mediador e intercesor",
+          "texto": "Moisés recibe el llamado, comunica la palabra, sube al monte, intercede por el pueblo y pide conocer más profundamente la presencia y el carácter de Dios. No es presentado como un héroe impecable, sino como un siervo formado a través de dudas, obediencia, confrontación y relación con Dios."
+        },
+        {
+          "titulo": "Éxodo 34 revela el carácter de Dios",
+          "texto": "Después de la ruptura del pacto, Dios se revela como compasivo, clemente, paciente, abundante en fidelidad y dispuesto a perdonar, sin tratar el mal como algo insignificante. Esta declaración se convierte en una de las descripciones más importantes de Dios en toda la Biblia y será repetida muchas veces en los libros posteriores."
+        },
+        {
+          "titulo": "El final resuelve una tensión y abre otra",
+          "texto": "La gloria de Dios llena el tabernáculo. La presencia está en medio del pueblo, pero Moisés no puede entrar. El libro termina celebrando que Dios habita con Israel y, al mismo tiempo, dejando abierta la pregunta de cómo puede un pueblo imperfecto vivir cerca de un Dios santo. Levítico continuará esa respuesta."
+        }
+      ]
     },
     {
-      "nav": "Claves de lectura",
-      "titulo": "Antes de empezar a leer",
-      "html": "<p><strong>1. El nombre de Dios en el capítulo 3 lo cambia todo</strong></p><p>Cuando Moisés le pregunta a Dios cuál es su nombre, la respuesta es \"Yo soy el que soy\" (YHWH, a veces traducido como Yahvé o Jehová). No es un nombre cualquiera entre muchos — es una declaración de existencia eterna, de absoluta independencia y de presencia constante. Cuando más adelante, en el Evangelio de Juan, Jesús dice repetidamente \"Yo soy\", está reclamando deliberadamente este mismo nombre para sí mismo. Lo que aprendes aquí sobre el carácter de Dios es la base de cómo vas a entender a Jesús después.</p><p><strong>2. Las plagas son un juicio teológico, no solo desastres naturales</strong></p><p>Cada una de las diez plagas confronta directamente a una deidad específica que los egipcios adoraban: el Nilo (que ellos veneraban como dios) se convierte en sangre, el sol (otro dios egipcio importante) se oscurece durante la novena plaga. Dios no está simplemente castigando a Egipto — está demostrando públicamente, plaga tras plaga, que Él es el único Dios verdadero y que los ídolos de Egipto no tienen poder real alguno.</p><p><strong>3. La Pascua es el evento más importante de todo el libro — no te apresures a pasarla</strong></p><p>El capítulo 12, donde se instituye la Pascua, merece lectura lenta. Un cordero sin defecto muere en lugar de cada primogénito; su sangre, puesta en los marcos de las puertas, hace que el juicio \"pase de largo\". Este patrón de sustitución — algo inocente muere en lugar de quien merecía morir — es quizás la imagen más importante de todo el Antiguo Testamento para entender lo que después haría Jesús en la cruz, llamado precisamente \"nuestra Pascua\" (1 Corintios 5:7).</p><p><strong>4. La ley no es legalismo — es la gramática de una relación</strong></p><p>Es fácil leer los capítulos de mandamientos y leyes (especialmente del 20 en adelante) como una lista fría de reglas. Pero recuerda el orden: Dios primero rescata, después da la ley. Israel no obedece para ser salvado — Israel obedece porque ya fue salvado. La ley es la manera práctica en que un pueblo libre aprende a vivir como pueblo de Dios, no la condición para ganarse su favor.</p><p><strong>5. El becerro de oro (capítulo 32) es una advertencia, no solo una anécdota</strong></p><p>Mientras Moisés está en la montaña recibiendo instrucciones sobre cómo adorar correctamente a Dios, el pueblo al pie de la montaña ya está fabricando un ídolo. Es uno de los contrastes más dolorosos de toda la Escritura, y es profundamente humano: la inclinación a reemplazar a Dios por algo visible y manejable está siempre presente, incluso (especialmente) después de haber experimentado su poder de manera clara.</p><p><strong>6. No te pierdas en los detalles del tabernáculo — busca el mensaje detrás</strong></p><p>Los últimos capítulos del libro (25–40) describen con gran detalle el tabernáculo, sus materiales y sus muebles. Puede sentirse técnico y repetitivo, pero el mensaje central es sencillo y hermoso: Dios quiere habitar literalmente en medio de su pueblo. Cuando llegues a estos capítulos, no te enfoques tanto en las medidas — enfócate en lo que significa que el Dios infinito elija un lugar concreto para vivir entre personas comunes.</p>"
+      "tipo": "observacion",
+      "titulo": "Mientras lees, presta atención a…",
+      "descripcion": "Diez hilos que vale la pena seguir a lo largo de Éxodo.",
+      "items": [
+        {
+          "titulo": "La fidelidad de Dios a Su pacto",
+          "texto": "La historia avanza porque Dios recuerda la promesa dada a Abraham, Isaac y Jacob. Observa cómo esa fidelidad sostiene a Israel cuando el pueblo parece no tener poder, dirección ni futuro."
+        },
+        {
+          "titulo": "Ver, escuchar, recordar y conocer",
+          "texto": "Sigue las expresiones que describen la atención de Dios frente al sufrimiento. El clamor de Israel no desaparece en el silencio. Dios conoce la realidad de Su pueblo y actúa dentro de la historia."
+        },
+        {
+          "titulo": "El nombre y la presencia de Dios",
+          "texto": "Desde la zarza ardiente hasta el tabernáculo, Dios revela quién es y promete estar con Su pueblo. Observa cómo la presencia aparece en el fuego, la nube, el monte, la tienda de reunión y la gloria que llena el santuario."
+        },
+        {
+          "titulo": "La confrontación entre dos formas de gobierno",
+          "texto": "Faraón gobierna mediante miedo, acumulación, trabajo forzado y muerte. Dios libera, provee, establece justicia y forma una comunidad. Compara lo que cada reino produce en la vida de las personas."
+        },
+        {
+          "titulo": "El corazón de Faraón",
+          "texto": "Presta atención a cada referencia al corazón de Faraón. Observa la resistencia progresiva, las confesiones momentáneas, los cambios superficiales y la persistencia en recuperar el control aun después de experimentar las consecuencias."
+        },
+        {
+          "titulo": "Señales, memoria y celebración",
+          "texto": "La Pascua, los panes sin levadura, la consagración de los primogénitos y los relatos repetidos a los hijos convierten la liberación en memoria viva. Observa cómo Dios protege al pueblo del olvido mediante prácticas concretas."
+        },
+        {
+          "titulo": "El agua, el alimento y la provisión",
+          "texto": "El Nilo, el mar, las aguas amargas, el agua de la roca, el maná y las codornices muestran que Dios gobierna sobre aquello que sostiene la vida. También revelan la dificultad del pueblo para confiar cuando la provisión no aparece de la manera esperada."
+        },
+        {
+          "titulo": "La queja y la nostalgia por Egipto",
+          "texto": "Israel sale físicamente de Egipto con rapidez, pero aprender a vivir como pueblo libre toma tiempo. Observa cuántas veces el miedo transforma el pasado en una falsa seguridad y lleva al pueblo a preferir una esclavitud conocida antes que una libertad que exige confianza."
+        },
+        {
+          "titulo": "Santidad, justicia y vida comunitaria",
+          "texto": "Los mandamientos no se limitan a actos de adoración. Incluyen relaciones, trabajo, descanso, propiedad, responsabilidad, protección de personas vulnerables y reparación del daño. Observa cómo la vida con Dios afecta la manera de tratar a otros."
+        },
+        {
+          "titulo": "Gloria, belleza y presencia",
+          "texto": "Los materiales, colores, diseños y habilidades relacionadas con el tabernáculo muestran que la presencia de Dios no está separada de la belleza, el trabajo creativo y la excelencia. Sigue el movimiento de la gloria desde el monte hasta el centro del campamento."
+        }
+      ]
     },
     {
-      "nav": "Recursos",
-      "titulo": "Para ir más lejos",
-      "html": "<p>Estos recursos te ayudarán a profundizar en el panorama de Éxodo antes o después de recorrer cada capítulo en el Paso Profundo. Son puertas de entrada complementarias, no destinos finales — el texto bíblico siempre tiene la última palabra, y estos materiales solo buscan iluminarlo mejor.</p>"
+      "tipo": "recorrido",
+      "titulo": "El recorrido del libro",
+      "descripcion": "Los grandes movimientos que organizan la historia de Éxodo.",
+      "items": [
+        {
+          "marcador": "01",
+          "rango": "Éxodo 1–6",
+          "titulo": "Opresión, Llamado Y Promesa",
+          "queOcurre": "Israel se multiplica en Egipto, pero un nuevo faraón interpreta su crecimiento como amenaza. La opresión aumenta mediante trabajo forzado, violencia y un intento de destruir a los niños hebreos. Moisés nace bajo esa amenaza, es preservado, crece en la casa de Faraón, huye al desierto y es llamado por Dios desde una zarza que arde sin consumirse.",
+          "escenas": "Las parteras hebreas; el decreto contra los niños; el nacimiento de Moisés; la huida a Madián; el clamor de Israel; la zarza ardiente; la revelación del nombre de Dios; las objeciones de Moisés; el regreso a Egipto; la primera confrontación con Faraón.",
+          "pregunta": "¿Qué revela la respuesta de Dios acerca de Su carácter cuando el sufrimiento parece prolongarse y el poder opresor parece tener la última palabra?"
+        },
+        {
+          "marcador": "02",
+          "rango": "Éxodo 7–15",
+          "titulo": "Confrontación, Pascua Y Liberación",
+          "queOcurre": "Dios confronta a Faraón mediante señales y plagas que revelan Su autoridad sobre Egipto y sobre la creación. Faraón se resiste repetidamente. La Pascua marca la noche decisiva del rescate, Israel sale de Egipto y llega al mar. Cuando no parece existir salida, Dios abre un camino y derrota al ejército que intenta recuperar a los esclavos liberados.",
+          "escenas": "La vara de Aarón; el Nilo convertido en sangre; las plagas; la oscuridad; la Pascua; la salida de Egipto; la columna de nube y fuego; el cruce del mar; el cántico de Moisés y Miriam.",
+          "pregunta": "¿Qué aprende Israel acerca de quién es Dios y de quién posee la autoridad final sobre su vida y su futuro?"
+        },
+        {
+          "marcador": "03",
+          "rango": "Éxodo 16–18",
+          "titulo": "El Desierto Y El Aprendizaje De La Confianza",
+          "queOcurre": "El pueblo entra al desierto y enfrenta hambre, sed y amenaza. Dios provee maná, codornices y agua. Israel debe aprender a depender diariamente de una provisión que no puede acumular ni controlar. También aparecen la guerra contra Amalec y el consejo de Jetro sobre liderazgo compartido.",
+          "escenas": "La queja por alimento; el maná; el sábado; el agua de la roca; la batalla contra Amalec; Aarón y Hur sosteniendo las manos de Moisés; la visita de Jetro; la distribución de responsabilidades.",
+          "pregunta": "¿Qué hábitos de esclavitud, temor y autosuficiencia deben ser transformados para que un pueblo liberado aprenda a vivir confiando en Dios?"
+        },
+        {
+          "marcador": "04",
+          "rango": "Éxodo 19–24",
+          "titulo": "El Pacto Y La Formación De Un Pueblo",
+          "queOcurre": "Israel llega al monte Sinaí. Dios declara que el pueblo será Su especial tesoro, un reino de sacerdotes y una nación santa. Entrega los Diez Mandamientos y otras instrucciones que organizan la adoración, la justicia y la vida comunitaria. El pacto es confirmado mediante sacrificio, sangre y una comida en la presencia de Dios.",
+          "escenas": "La llegada al Sinaí; la preparación del pueblo; el monte cubierto de nube y fuego; los Diez Mandamientos; las instrucciones sobre justicia y responsabilidad; el libro del pacto; la sangre del pacto; la comida de los líderes ante Dios.",
+          "pregunta": "¿Cómo se ve una libertad que no consiste en hacer cualquier cosa, sino en aprender a vivir dentro de una relación de pacto con Dios y con otros?"
+        },
+        {
+          "marcador": "05",
+          "rango": "Éxodo 25–31",
+          "titulo": "El Diseño De La Presencia",
+          "queOcurre": "Dios entrega instrucciones detalladas para construir el tabernáculo, preparar sus muebles, consagrar a los sacerdotes y organizar la adoración. El santuario será el lugar donde Dios habite en medio de Israel. La sabiduría artística y el trabajo humano son incorporados dentro de ese propósito.",
+          "escenas": "La ofrenda para el santuario; el arca del pacto; la mesa; el candelabro; la tienda; el altar; el atrio; las vestiduras sacerdotales; la consagración; Bezalel y Aholiab; el sábado.",
+          "pregunta": "¿Qué comunica el diseño del tabernáculo acerca del deseo de Dios de habitar con Su pueblo y acerca de la manera en que Su santidad ordena la vida?"
+        },
+        {
+          "marcador": "06",
+          "rango": "Éxodo 32–34",
+          "titulo": "Ruptura, Intercesión Y Renovación",
+          "queOcurre": "Mientras Moisés permanece en el monte, el pueblo fabrica un becerro de oro y rompe el pacto recién establecido. Moisés intercede, las tablas son quebradas y la relación entra en crisis. En medio de esa ruptura, Dios revela Su carácter, renueva el pacto y promete continuar acompañando al pueblo.",
+          "escenas": "El becerro de oro; la celebración desordenada; la intercesión de Moisés; las tablas quebradas; la tienda de reunión; la petición de Moisés por la presencia; la revelación del carácter de Dios; las nuevas tablas; el rostro resplandeciente de Moisés.",
+          "pregunta": "¿Cómo puede continuar la relación después de una traición tan profunda, y qué revela la renovación del pacto acerca de la justicia, la misericordia y la fidelidad de Dios?"
+        },
+        {
+          "marcador": "07",
+          "rango": "Éxodo 35–40",
+          "titulo": "Obediencia, Tabernáculo Y Gloria",
+          "queOcurre": "El pueblo responde con generosidad, los artesanos construyen el tabernáculo y cada elemento es preparado según las instrucciones recibidas. Moisés inspecciona y bendice el trabajo. Finalmente, la nube cubre la tienda y la gloria del Señor llena el santuario. La presencia de Dios queda en el centro de la vida y del camino de Israel.",
+          "escenas": "La ofrenda voluntaria; Bezalel y Aholiab; la construcción de la tienda y sus muebles; las vestiduras sacerdotales; la inspección de Moisés; el levantamiento del tabernáculo; la nube y la gloria; la guía durante las jornadas.",
+          "pregunta": "¿Qué cambia cuando la presencia de Dios deja de ser una experiencia ocasional y pasa a ocupar el centro de la vida de una comunidad?"
+        }
+      ]
+    },
+    {
+      "tipo": "temas",
+      "titulo": "Grandes temas de Éxodo",
+      "descripcion": "Las verdades principales que atraviesan todo el libro.",
+      "items": [
+        {
+          "titulo": "El Dios Que Ve, Escucha Y Conoce",
+          "queSignifica": "Dios no es indiferente al sufrimiento de Israel. Ve la opresión, escucha el clamor, recuerda Su pacto y conoce el dolor del pueblo. Su respuesta revela compasión y fidelidad.",
+          "dondeObservarlo": "Éxodo 2:23–25; 3:7–10; 6:2–8.",
+          "porQueImporta": "El silencio aparente no significa ausencia. Dios conoce realidades que otros ignoran y actúa de acuerdo con Su carácter y Su promesa, aunque Su tiempo no siempre coincida con las expectativas humanas."
+        },
+        {
+          "titulo": "El Nombre De Dios",
+          "queSignifica": "En la zarza ardiente, Dios se revela como el Dios de Abraham, Isaac y Jacob y declara Su nombre a Moisés. Su identidad está unida a Su existencia, libertad, fidelidad y presencia activa.",
+          "dondeObservarlo": "Éxodo 3:1–15; 6:2–8; 33:18–23; 34:5–7.",
+          "porQueImporta": "La esperanza de Israel no depende de una idea religiosa, sino de quién es Dios. Conocer Su nombre implica aprender Su carácter y confiar en que Él será fiel a Su palabra."
+        },
+        {
+          "titulo": "Liberación",
+          "queSignifica": "Dios rescata a Israel de una esclavitud real y de un sistema que amenazaba su vida y su futuro. La liberación incluye juicio sobre el opresor, protección, salida, camino y una nueva pertenencia.",
+          "dondeObservarlo": "Éxodo 3:7–10; 6:6–8; 12:29–42; 14:10–31; 15:1–21.",
+          "porQueImporta": "La libertad bíblica no es solo dejar atrás aquello que oprime. Es ser llevado hacia una relación con Dios, una identidad renovada y una forma distinta de vivir."
+        },
+        {
+          "titulo": "La Confrontación Con Faraón",
+          "queSignifica": "Faraón representa un poder que se considera dueño de las personas y se resiste a reconocer cualquier autoridad superior. Su gobierno se sostiene mediante miedo, producción, control y violencia.",
+          "dondeObservarlo": "Éxodo 1:8–22; 5:1–23; 7:1–13; 8:15, 32; 9:34–35; 14:5–9.",
+          "porQueImporta": "Éxodo confronta toda pretensión de poder absoluto. Ningún gobernante, sistema o estructura posee autoridad final sobre la dignidad, la adoración y el destino de las personas."
+        },
+        {
+          "titulo": "La Pascua Y La Memoria Del Rescate",
+          "queSignifica": "La Pascua establece una comida y una celebración para recordar la noche en que Dios protegió a Israel y lo sacó de Egipto. Cada generación deberá recibir la historia como parte de su propia identidad.",
+          "dondeObservarlo": "Éxodo 12:1–32; 12:43–13:16.",
+          "porQueImporta": "La libertad necesita memoria. Cuando un pueblo olvida quién lo rescató, puede convertir la gracia en autosuficiencia o regresar mentalmente a la esclavitud. Recordar forma identidad y gratitud."
+        },
+        {
+          "titulo": "El Mar Y El Camino Imposible",
+          "queSignifica": "Israel queda atrapado entre el ejército egipcio y el mar. Dios abre una ruta donde el pueblo no podía producirla y transforma el lugar de amenaza en escenario de liberación.",
+          "dondeObservarlo": "Éxodo 13:17–22; 14:1–31; 15:1–21.",
+          "porQueImporta": "La salvación no nace de la fuerza ni de la estrategia de Israel. El cruce del mar revela que Dios puede abrir futuro en situaciones donde las posibilidades humanas parecen agotadas."
+        },
+        {
+          "titulo": "El Desierto Y La Formación",
+          "queSignifica": "El desierto expone temores, deseos, quejas y nostalgias. También se convierte en lugar de provisión, aprendizaje y dependencia. Dios forma a un pueblo que todavía piensa muchas veces como esclavo.",
+          "dondeObservarlo": "Éxodo 15:22–27; 16:1–36; 17:1–16; 18:1–27.",
+          "porQueImporta": "Salir de una esclavitud puede ocurrir en un momento; aprender a vivir en libertad requiere tiempo. La formación transforma hábitos, expectativas y maneras de interpretar la realidad."
+        },
+        {
+          "titulo": "Pacto Y Pertenencia",
+          "queSignifica": "Dios declara que Israel será Su especial tesoro, un reino de sacerdotes y una nación santa. El pacto establece una relación de pertenencia, vocación y responsabilidad.",
+          "dondeObservarlo": "Éxodo 19:1–8; 20:1–21; 24:1–11; 34:10–28.",
+          "porQueImporta": "La elección no es una recompensa por superioridad. Es una gracia que llama a representar el carácter de Dios y a vivir para el bien de otros."
+        },
+        {
+          "titulo": "La Ley Como Formación Para La Libertad",
+          "queSignifica": "Los mandamientos enseñan cómo amar a Dios, ordenar la adoración, proteger relaciones y construir una comunidad justa. La ley llega después del rescate y dentro de una relación de pacto.",
+          "dondeObservarlo": "Éxodo 20:1–17; 20:22–23:33.",
+          "porQueImporta": "La gracia no produce una vida sin dirección. Dios libera al pueblo de un sistema injusto y después le enseña a no reproducir las mismas lógicas de abuso, explotación e indiferencia."
+        },
+        {
+          "titulo": "Justicia Y Cuidado Del Vulnerable",
+          "queSignifica": "Las instrucciones del pacto incluyen responsabilidad frente al daño, protección del extranjero, cuidado de viudas y huérfanos, límites a la explotación y consideración por quienes viven en necesidad.",
+          "dondeObservarlo": "Éxodo 21:1–23:13.",
+          "porQueImporta": "La adoración y la justicia no pueden separarse. La relación con Dios debe transformar la manera en que una comunidad utiliza el poder, administra recursos y trata a quienes tienen menos protección."
+        },
+        {
+          "titulo": "Santidad Y Presencia",
+          "queSignifica": "Dios desea habitar en medio de Israel, pero Su presencia no puede ser tratada como algo común ni controlable. El tabernáculo, los sacerdotes y las instrucciones de adoración enseñan que acercarse a Dios implica reverencia, orden y consagración.",
+          "dondeObservarlo": "Éxodo 19:10–25; 25:1–9; 29:42–46; 33:12–23; 40:34–38.",
+          "porQueImporta": "La cercanía de Dios no elimina Su santidad. Él se aproxima por gracia y, al mismo tiempo, forma a Su pueblo para vivir de una manera coherente con Su presencia."
+        },
+        {
+          "titulo": "El Tabernáculo Como Lugar De Encuentro",
+          "queSignifica": "El tabernáculo es una tienda ubicada en medio del campamento donde Dios manifiesta Su presencia. Sus diseños, materiales y símbolos expresan belleza, orden, vida y santidad.",
+          "dondeObservarlo": "Éxodo 25:1–31:18; 35:4–40:33.",
+          "porQueImporta": "La meta del rescate es comunión. Dios no libera desde la distancia para después abandonar al pueblo; decide habitar en medio de su vida cotidiana y acompañar su camino."
+        },
+        {
+          "titulo": "Idolatría",
+          "queSignifica": "El becerro de oro muestra la tendencia humana a reemplazar al Dios vivo por una imagen visible, controlable y adaptada a las propias expectativas. El pueblo intenta asegurar una presencia que pueda manejar.",
+          "dondeObservarlo": "Éxodo 20:1–6; 32:1–35; 34:12–17.",
+          "porQueImporta": "La idolatría no siempre consiste en negar a Dios. También aparece cuando intentamos reducirlo a nuestros deseos, usarlo para legitimar decisiones o fabricar una versión de Él que nunca confronte nuestro corazón."
+        },
+        {
+          "titulo": "Intercesión Y Mediación",
+          "queSignifica": "Moisés se coloca entre Dios y el pueblo. Comunica la palabra, enfrenta el pecado, ruega por misericordia y pide que la presencia de Dios continúe acompañando a Israel.",
+          "dondeObservarlo": "Éxodo 17:8–16; 19:3–8; 24:12–18; 32:7–14; 32:30–35; 33:12–17.",
+          "porQueImporta": "La intercesión toma en serio tanto la santidad de Dios como la fragilidad humana. Moisés anticipa la necesidad de una mediación más profunda dentro de la historia bíblica."
+        },
+        {
+          "titulo": "El Carácter De Dios",
+          "queSignifica": "Dios se revela como compasivo, clemente, paciente, abundante en amor fiel y dispuesto a perdonar, sin ignorar la gravedad del mal. Misericordia y justicia pertenecen al mismo carácter.",
+          "dondeObservarlo": "Éxodo 3:7–8; 6:2–8; 32:11–14; 33:18–23; 34:5–7.",
+          "porQueImporta": "La esperanza después del fracaso depende de quién es Dios. Su misericordia no trivializa el pecado y Su justicia no cancela Su fidelidad al pacto."
+        },
+        {
+          "titulo": "Gloria Y Guía",
+          "queSignifica": "La gloria de Dios se manifiesta en fuego, nube, monte y tabernáculo. La misma presencia que revela Su santidad también guía al pueblo durante el camino.",
+          "dondeObservarlo": "Éxodo 13:21–22; 16:10; 19:16–20; 24:15–18; 33:7–23; 40:34–38.",
+          "porQueImporta": "La presencia de Dios no es solo una experiencia intensa. Es dirección para la jornada. Israel debe aprender a detenerse y avanzar de acuerdo con la guía de Aquel que habita en medio de ellos."
+        },
+        {
+          "titulo": "Trabajo, Sabiduría Y Belleza",
+          "queSignifica": "Dios llena de sabiduría a Bezalel, Aholiab y otros artesanos para diseñar y construir el tabernáculo. La creatividad, la habilidad y el trabajo cuidadoso participan en la adoración.",
+          "dondeObservarlo": "Éxodo 28:1–5; 31:1–11; 35:30–36:7; 39:1–43.",
+          "porQueImporta": "El trabajo creativo no es periférico a la vida espiritual. La habilidad humana puede ser formada y ofrecida para servir a la comunidad y hacer visible belleza, orden y significado."
+        }
+      ],
+      "sintesis": {
+        "titulo": "Éxodo en una mirada",
+        "texto": "Éxodo comienza con los descendientes de Jacob convertidos en un pueblo numeroso y esclavizado bajo el poder de Egipto. Dios ve su aflicción, escucha su clamor, recuerda Su pacto y llama a Moisés para conducir la liberación. Mediante señales, plagas, la Pascua y el cruce del mar, Dios confronta a Faraón y rescata a Israel. Sin embargo, salir de Egipto es solo el comienzo. En el desierto, el pueblo debe aprender a confiar en la provisión de Dios y dejar atrás formas de pensar moldeadas por la esclavitud. En el monte Sinaí, Dios establece un pacto y llama a Israel a ser un reino de sacerdotes y una nación santa. Los mandamientos enseñan cómo vivir en relación con Dios y cómo construir una comunidad marcada por justicia, responsabilidad y cuidado. Las instrucciones del tabernáculo revelan el destino de la liberación: Dios desea habitar en medio de Su pueblo. El becerro de oro muestra la profundidad de la infidelidad humana, pero la intercesión de Moisés y la renovación del pacto revelan la misericordia y la fidelidad de Dios. El libro termina con la gloria llenando el tabernáculo y guiando las jornadas de Israel. Dios ha llevado a un pueblo esclavizado hasta una nueva realidad de pacto y presencia. Sin embargo, permanece abierta la pregunta de cómo personas imperfectas pueden vivir cerca de un Dios santo. Para los seguidores de Jesús, Éxodo ofrece el lenguaje fundamental del rescate, la Pascua, el camino por las aguas, el pacto, la presencia y la mediación. El Nuevo Testamento presenta a Jesús dentro de esta gran historia como Aquel que trae una liberación más profunda y hace posible que Dios habite en Su pueblo por medio del Espíritu."
+      },
+      "fraseAncla": "Dios no libera a Su pueblo únicamente para sacarlo de la esclavitud, sino para enseñarle a vivir en libertad y habitar en medio de él."
+    },
+    {
+      "tipo": "recursos",
+      "titulo": "Para comprender mejor",
+      "descripcion": "Recursos seleccionados para observar la estructura y profundizar cuando lo desees.",
+      "introduccion": "Estos recursos pueden ayudar a reconocer los grandes movimientos, conexiones y temas de Éxodo. No reemplazan la lectura del libro ni definen por sí solos su interpretación. Funcionan como acompañamiento para regresar al texto con mejores preguntas y una visión más clara del conjunto."
     }
   ],
-  "recursos": [
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen de Éxodo (Parte 1)",
-      "detalle": "Video · Capítulos 1 al 18 — la liberación de Egipto",
-      "url": "https://youtu.be/y9pED55wMM4"
+  "recursos": {
+    "poster": {
+      "fuente": "Proyecto Biblia",
+      "titulo": "Éxodo · Póster visual",
+      "descripcion": "La liberación de Egipto, el pacto en el Sinaí y la presencia de Dios en medio de Su pueblo.",
+      "preview": "estudios/intros/assets/exodo/exodo-poster-preview.jpg",
+      "full": "estudios/intros/assets/exodo/exodo-poster-full.jpg",
+      "alt": "Póster visual del libro de Éxodo"
     },
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen de Éxodo (Parte 2)",
-      "detalle": "Video · Capítulos 19 al 40 — la ley y la presencia de Dios",
-      "url": "https://youtu.be/U2lUpubEMDI"
-    },
-    {
-      "tipo": "rightnow",
-      "fuente": "RightNow Media en Español",
-      "titulo": "Éxodo · Tráiler de la serie",
-      "detalle": "Video · Para ver la serie completa, suscríbete al College",
-      "url": "https://youtu.be/BXnTCK_oQxQ",
-      "nota": "college_link"
-    }
-  ]
+    "videos": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Panorama de Éxodo",
+        "descripcion": "Dos videos para observar la estructura y los grandes movimientos del libro.",
+        "items": [
+          {
+            "etiqueta": "Éxodo 1–18",
+            "titulo": "La liberación de Egipto",
+            "youtubeId": "y9pED55wMM4"
+          },
+          {
+            "etiqueta": "Éxodo 19–40",
+            "titulo": "El pacto y la presencia de Dios",
+            "youtubeId": "U2lUpubEMDI"
+          }
+        ]
+      }
+    ],
+    "miniseries": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "El camino del éxodo",
+        "descripcion": "Un recorrido temático por el patrón del éxodo a lo largo de la historia bíblica: salir de la esclavitud, atravesar un proceso de transformación y avanzar hacia la vida nueva que Dios ofrece.",
+        "etiqueta": "Serie temática · 1 episodio",
+        "items": [
+          {
+            "episodio": "Episodio 1",
+            "rango": "De la esclavitud a la vida nueva",
+            "titulo": "El camino del éxodo",
+            "descripcion": "El éxodo de Israel fue el comienzo de un patrón que vuelve a aparecer a través de la Escritura. Este video muestra cómo Dios conduce de la opresión hacia la libertad, a través del camino de transformación, y cómo ese movimiento encuentra una expresión más profunda en Jesús.",
+            "youtubeId": "KMzpU0HEKdE"
+          }
+        ]
+      }
+    ],
+    "rightnow": [
+      {
+        "fuente": "RightNow Media en Español",
+        "titulo": "Éxodo",
+        "descripcion": "Serie complementaria para profundizar en el libro.",
+        "trailer": {
+          "etiqueta": "Tráiler",
+          "titulo": "Éxodo · Serie RightNow Media",
+          "youtubeId": "BXnTCK_oQxQ"
+        },
+        "acceso": {
+          "label": "Ver en RightNow Media",
+          "url": null,
+          "estado": "proximamente",
+          "abrirEnNuevaPestana": true
+        }
+      }
+    ],
+    "recomendaciones": [
+      {
+        "tipo": "libro",
+        "estado": "Lectura recomendada",
+        "lomo": "ÉXODO",
+        "titulo": "El libro del Éxodo: Comentario crítico y teológico",
+        "fuente": "Brevard S. Childs",
+        "descripcion": "Un comentario amplio y exigente que estudia Éxodo desde su contexto histórico, su forma literaria y su función teológica dentro del canon. Childs presta atención al desarrollo del texto, a sus grandes temas y a la manera en que el libro continúa hablando a la comunidad de fe. Es una obra de referencia para quienes desean profundizar más allá de una introducción general."
+      }
+    ]
+  },
+  "cierre": {
+    "eyebrow": "YA VISTE EL CAMINO DE LA LIBERTAD",
+    "titulo": "Ahora entra a la historia",
+    "texto": "Ya conoces la opresión, el rescate, el pacto y la presencia que atraviesan Éxodo. Ahora recorre cada capítulo y observa cómo Dios forma a un pueblo que debe aprender a vivir en la libertad que recibió.",
+    "firma": "La introducción orienta. La Escritura permanece en el centro."
+  },
+  "config": {
+    "acordeonInicial": null,
+    "mostrarHiloDorado": true
+  }
 }

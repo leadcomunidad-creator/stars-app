@@ -1,50 +1,407 @@
 {
+  "schemaVersion": 2,
   "libro": "Juan",
-  "fecha": "2026-06-29",
-  "secciones": [
+  "slug": "juan",
+  "fecha": "2026-07-16",
+  "portada": {
+    "kicker": "S · T · A · R · S",
+    "titulo": "Juan",
+    "subtitulo": "Jesús, el Hijo que revela al Padre",
+    "cita": "“Pero estas se han escrito para que ustedes crean que Jesús es el Cristo, el Hijo de Dios…”",
+    "referencia": "Juan 20:31",
+    "metadatos": [
+      "21 capítulos"
+    ]
+  },
+  "bloques": [
     {
-      "nav": "Panorama",
-      "titulo": "El Evangelio más teológico",
-      "html": "<p>De los cuatro evangelios, Juan es el más distinto. Mateo, Marcos y Lucas (llamados los \"evangelios sinópticos\") comparten una estructura narrativa muy similar entre sí — cuentan en buena parte las mismas historias, en orden parecido. Juan toma un camino diferente: escribe más tarde, escribe distinto, y escribe con un propósito que él mismo deja completamente explícito al final de su libro.</p><blockquote>\"Pero éstas se han escrito para que ustedes crean que Jesús es el Cristo, el Hijo de Dios, y para que al creer, tengan vida en su nombre.\" — Juan 20:31</blockquote><p>Ese versículo es la llave que abre todo el libro. Juan no escribió una biografía neutral ni un registro cronológico exhaustivo de cada cosa que Jesús hizo. Escribió un argumento teológico cuidadosamente construido, con un objetivo claro: que el lector llegue a creer quién es realmente Jesús, y que al creer, reciba vida.</p><p><strong>La estructura del libro tiene dos grandes movimientos:</strong></p><p><strong>El Libro de las Señales (capítulos 1 al 12).</strong> Juan selecciona siete milagros — él los llama \"señales\", no simples actos de poder, sino actos que señalan algo más profundo sobre quién es Jesús. Convertir el agua en vino, sanar al hijo de un oficial, sanar a un paralítico, multiplicar los panes, caminar sobre el agua, sanar a un ciego de nacimiento, y resucitar a Lázaro. Cada señal provoca una reacción: algunos creen, otros se confunden, otros se enfurecen. Junto a las señales, Jesús hace siete declaraciones \"Yo soy\" — \"Yo soy el pan de vida\", \"Yo soy la luz del mundo\", \"Yo soy la puerta\", \"Yo soy el buen pastor\", \"Yo soy la resurrección y la vida\", \"Yo soy el camino, la verdad y la vida\", \"Yo soy la vid verdadera\" — cada una resonando deliberadamente con el nombre que Dios le dio a Moisés en la zarza ardiente: \"YO SOY\" (Éxodo 3:14).</p><p><strong>El Libro de la Gloria (capítulos 13 al 21).</strong> Aquí el ritmo cambia por completo. Jesús se retira con sus discípulos más cercanos, lava sus pies, les enseña en un discurso largo y profundamente íntimo (capítulos 13–17), y luego camina deliberadamente hacia su arresto, juicio, crucifixión y resurrección. Juan llama a la cruz \"la hora\" de Jesús — el momento culminante hacia el que apuntaba todo el libro. Lo que parecía ser su derrota es, en realidad, su exaltación.</p><p>Hay algo más que necesitas ver desde el primer capítulo: Juan abre su evangelio con una clarísima alusión a Génesis 1. \"En el principio era el Verbo\" — las mismas tres primeras palabras de toda la Biblia hebrea. No es coincidencia. Juan está diciendo, sin rodeos, que la llegada de Jesús es una nueva creación. Donde Génesis comienza con la luz separándose de las tinieblas, Juan comienza con la Luz verdadera entrando al mundo. Leer Juan es, en cierto sentido, leer el segundo \"En el principio\" de la Biblia — y esta vez, ese principio tiene rostro humano.</p>"
+      "tipo": "editorial",
+      "titulo": "Antes de leer Juan",
+      "descripcion": "Una orientación para comprender qué encontrarás en este Evangelio.",
+      "parrafos": [
+        "Juan presenta a Jesús desde una perspectiva distinta a la de Mateo, Marcos y Lucas. No intenta registrar cada acontecimiento de Su ministerio ni ofrecer una biografía exhaustiva. Selecciona señales, encuentros, discursos y testimonios para conducir al lector hacia una pregunta central: ¿quién es realmente Jesús?",
+        "El propósito del libro aparece expresado con claridad cerca del final: estas cosas fueron escritas para que el lector crea que Jesús es el Cristo, el Hijo de Dios, y para que, al creer, tenga vida en Su nombre. Por eso cada escena cumple una función. Las señales revelan, las palabras explican, los personajes responden y el conflicto obliga a tomar una posición.",
+        "Juan comienza antes del nacimiento de Jesús. Abre con “En el principio” y presenta a Jesús como la Palabra eterna que estaba con Dios y era Dios, la Palabra por medio de quien todo fue creado y que se hizo carne para habitar entre nosotros. Desde el primer capítulo, el Evangelio anuncia que en Jesús Dios se ha acercado, ha mostrado Su gloria y ha dado a conocer al Padre."
+      ],
+      "definicionesTitulo": "Qué hace particular a Juan",
+      "definiciones": [
+        {
+          "titulo": "Un propósito declarado",
+          "texto": "Juan explica por qué escribió. Su objetivo no es entregar información neutral, sino presentar un testimonio que conduzca a la fe y a la vida. El lector no permanece como observador distante: debe responder a lo que el texto revela acerca de Jesús."
+        },
+        {
+          "titulo": "Jesús como la Palabra hecha carne",
+          "texto": "El prólogo de Juan conecta a Jesús con la creación, la luz, la vida y la presencia de Dios. Jesús no aparece solamente como un maestro enviado por Dios. Él es la Palabra eterna que entra en la historia humana y hace visible al Dios que nadie ha visto."
+        },
+        {
+          "titulo": "Señales que revelan identidad",
+          "texto": "Juan utiliza la palabra “señales” para describir obras que muestran algo más profundo que el milagro mismo. El agua convertida en vino, la multiplicación de los panes, la sanidad del ciego y la resurrección de Lázaro no solo resuelven una necesidad: revelan quién es Jesús y provocan una respuesta."
+        },
+        {
+          "titulo": "Declaraciones que revelan quién es Jesús",
+          "texto": "A lo largo del libro, Jesús se presenta mediante siete declaraciones figurativas ampliamente reconocidas: “Yo soy el pan de vida”, “la luz del mundo”, “la puerta”, “el buen pastor”, “la resurrección y la vida”, “el camino, la verdad y la vida” y “la vid verdadera”. Estas declaraciones conectan Su identidad con la historia de Israel y con las necesidades más profundas de la humanidad."
+        },
+        {
+          "titulo": "Conversaciones que van de lo visible a lo profundo",
+          "texto": "Nicodemo piensa en un nacimiento físico, la mujer samaritana en agua de un pozo y los discípulos en alimento material. Jesús utiliza esas conversaciones para revelar realidades espirituales. Los malentendidos son parte del método narrativo de Juan: permiten que una verdad más profunda salga a la luz."
+        },
+        {
+          "titulo": "Una relación única entre el Padre y el Hijo",
+          "texto": "Jesús habla constantemente del Padre: viene de Él, hace Su voluntad, comunica Sus palabras, realiza Sus obras y lo da a conocer. Comprender a Jesús en Juan implica observar esta comunión y reconocer que quien ve al Hijo conoce cómo es el Padre."
+        },
+        {
+          "titulo": "La cruz como la hora de la gloria",
+          "texto": "Desde el comienzo, el relato avanza hacia “la hora” de Jesús. La cruz no aparece como un accidente ni como una derrota inesperada. Es el momento en que Su amor, obediencia y entrega revelan con mayor profundidad la gloria de Dios."
+        }
+      ],
+      "fraseAncla": "Juan no solo presenta lo que Jesús hizo. Revela quién es Él y qué clase de vida comienza cuando creemos."
     },
     {
-      "nav": "Contexto",
-      "titulo": "Quién, cuándo y por qué",
-      "html": "<p><strong>¿Quién lo escribió?</strong></p><p>La tradición cristiana más temprana atribuye este evangelio al apóstol <strong>Juan, hijo de Zebedeo</strong>, uno de los doce discípulos originales de Jesús, hermano de Santiago y parte del círculo más cercano a Jesús junto con Pedro. El propio libro se refiere a su autor de forma indirecta como \"el discípulo a quien Jesús amaba\" (Juan 13:23, 19:26, 21:20), una manera humilde de identificarse sin nombrarse directamente. Algunos eruditos han propuesto que pudo tratarse de un \"Juan el anciano\" distinto, pero la evidencia histórica más antigua y consistente sigue apuntando al apóstol Juan.</p><p><strong>¿Cuándo se escribió?</strong></p><p>La mayoría de los estudiosos ubican la escritura de este evangelio hacia el final del siglo I, probablemente entre los años 85 y 95 d.C., desde la ciudad de Éfeso, donde la tradición sitúa a Juan en su vejez. Esto significa que escribió varias décadas después de los eventos que narra, y también después de que los otros tres evangelios ya circulaban ampliamente — lo cual explica por qué eligió un enfoque tan distinto: no necesitaba repetir lo que ya estaba contado, sino profundizar teológicamente en quién es Jesús.</p><p><strong>¿Para quién se escribió?</strong></p><p>A diferencia de Mateo, que escribe pensando en una audiencia judía, Juan parece escribir para una audiencia más amplia, posiblemente mixta entre judíos y gentiles, en un contexto donde ya existían comunidades cristianas establecidas que necesitaban fundamentos teológicos sólidos frente a las primeras controversias sobre la verdadera identidad de Jesús — si era plenamente Dios, plenamente hombre, o ambas cosas a la vez. Por eso Juan insiste tanto, desde el primer versículo, en la plena divinidad de Jesús: \"el Verbo era Dios\" (1:1), y al mismo tiempo en su plena humanidad: \"el Verbo se hizo carne\" (1:14).</p><p><strong>¿Por qué importa hoy?</strong></p><p>Porque la pregunta central de Juan sigue siendo la pregunta central de cualquier persona que se acerca a la fe cristiana: ¿quién es Jesús, realmente? No un buen maestro únicamente, no solo un profeta más, no una figura histórica lejana — sino Dios mismo hecho carne, que vino a vivir entre nosotros, a morir por nosotros y a ofrecer vida eterna a quien cree en Él. Juan no te deja en la neutralidad cómoda de admirar a Jesús desde lejos. Te obliga a decidir quién crees que es.</p>"
+      "tipo": "contexto",
+      "titulo": "Conoce el contexto",
+      "descripcion": "Autor, propósito, audiencia y claves que te ayudarán a leer mejor.",
+      "definicionesTitulo": "Quién, para quién y por qué",
+      "definiciones": [
+        {
+          "titulo": "Autor",
+          "texto": "La tradición cristiana temprana atribuye este Evangelio al apóstol Juan, hijo de Zebedeo y uno de los doce discípulos de Jesús. El libro no identifica directamente a su autor por nombre, pero vincula su testimonio con “el discípulo a quien Jesús amaba” y afirma que ese discípulo dio testimonio de estas cosas (21:20–24). Por eso esta introducción conserva la atribución tradicional con la cautela que el propio texto exige."
+        },
+        {
+          "titulo": "Fecha aproximada",
+          "texto": "La fecha exacta no puede establecerse con certeza. Con frecuencia se ubica la composición final del Evangelio hacia las últimas décadas del siglo I. Más importante que fijar un año preciso es reconocer que Juan ofrece una reflexión madura y cuidadosamente organizada acerca de la identidad de Jesús."
+        },
+        {
+          "titulo": "Audiencia",
+          "texto": "El Evangelio conserva profundas raíces judías: fiestas, Escrituras, símbolos del templo, figuras como Moisés y Abraham, y expectativas mesiánicas atraviesan todo el libro. Al mismo tiempo, explica algunos términos y costumbres, lo que sugiere que también piensa en lectores que no conocían de cerca ese mundo. Su invitación final es amplia: creer en Jesús y recibir vida."
+        },
+        {
+          "titulo": "Propósito",
+          "texto": "Juan declara su propósito en 20:30–31. Seleccionó determinadas señales y testimonios para que el lector reconozca a Jesús como el Cristo y el Hijo de Dios. La fe, en este Evangelio, no es solamente aceptar una afirmación: es confiar en Jesús, recibir la vida que Él ofrece y permanecer en relación con Él."
+        },
+        {
+          "titulo": "Relación con los otros Evangelios",
+          "texto": "Juan comparte con Mateo, Marcos y Lucas la historia central de Jesús, pero organiza gran parte del material de manera diferente y conserva discursos, encuentros y señales que no aparecen en los otros tres. No debe leerse como una corrección de los demás Evangelios, sino como un testimonio complementario con énfasis propios."
+        },
+        {
+          "titulo": "Testimonio y memoria",
+          "texto": "El lenguaje del testimonio aparece desde el comienzo con Juan el Bautista y continúa mediante las obras de Jesús, las Escrituras, el Padre, el Espíritu, los discípulos y el propio narrador. Juan presenta la fe como una respuesta a un testimonio acumulativo y coherente acerca de Jesús."
+        },
+        {
+          "titulo": "Por qué importa hoy",
+          "texto": "Juan lleva al lector a la pregunta decisiva de la fe cristiana: ¿quién es Jesús? No permite reducirlo a un maestro admirable, un ejemplo moral o una figura religiosa del pasado. Lo presenta como la Palabra hecha carne, el Hijo que revela al Padre y la fuente de una vida que comienza ahora y se extiende hacia la eternidad."
+        }
+      ],
+      "detallesTitulo": "Claves de lectura",
+      "detalles": [
+        {
+          "titulo": "El prólogo funciona como una ventana para leer todo el libro",
+          "texto": "Juan 1:1–18 presenta desde el inicio los grandes temas del Evangelio: Palabra, creación, vida, luz, testimonio, rechazo, fe, nacer de Dios, encarnación, gloria, gracia, verdad y revelación del Padre. Muchas escenas posteriores desarrollan esas ideas iniciales."
+        },
+        {
+          "titulo": "Las señales exigen una respuesta",
+          "texto": "Las señales nunca quedan aisladas como demostraciones de poder. Algunas personas creen, otras buscan más pruebas, otras interpretan superficialmente y otras se oponen. Pregúntate siempre qué revela la señal y cómo responden quienes la observan."
+        },
+        {
+          "titulo": "Los malentendidos abren la puerta a una revelación más profunda",
+          "texto": "Nicodemo, la mujer samaritana, la multitud y los discípulos suelen interpretar las palabras de Jesús de manera literal o limitada. Jesús parte de esa confusión para llevar la conversación hacia una realidad espiritual más profunda."
+        },
+        {
+          "titulo": "Las fiestas de Israel ayudan a comprender a Jesús",
+          "texto": "Pascua, Tabernáculos y Dedicación forman parte del escenario teológico del libro. Juan presenta a Jesús en relación con el templo, el agua, la luz, el pan, el pastor y otras imágenes vinculadas con la historia y la esperanza de Israel."
+        },
+        {
+          "titulo": "La palabra “creer” describe una relación de confianza",
+          "texto": "Juan utiliza repetidamente el verbo creer. No se limita a aceptar datos correctos sobre Jesús. Implica recibir Su testimonio, acudir a Él, confiar en Su identidad y permanecer en la vida que ofrece."
+        },
+        {
+          "titulo": "La vida eterna comienza en el presente",
+          "texto": "En Juan, la vida eterna no aparece solamente como una promesa para después de la muerte. Es una nueva clase de vida que comienza al conocer al Padre y a Jesucristo, participar de Su comunión y pasar de muerte a vida."
+        },
+        {
+          "titulo": "La “hora” organiza el movimiento hacia la cruz",
+          "texto": "Al principio, la hora de Jesús todavía no ha llegado. Más adelante, Jesús anuncia que ha llegado. Esta hora reúne Su muerte, glorificación, regreso al Padre y victoria. Observar esta progresión ayuda a comprender la cruz desde la perspectiva de Juan."
+        },
+        {
+          "titulo": "Permanecer es una palabra central del discipulado",
+          "texto": "En los capítulos 13–17, Jesús enseña a Sus discípulos a permanecer en Él, en Su amor y en Su palabra. El discipulado no se sostiene por cercanía física, entusiasmo momentáneo o esfuerzo independiente, sino por una relación continua con Jesús."
+        },
+        {
+          "titulo": "El Espíritu continúa la presencia y la obra de Jesús",
+          "texto": "Jesús promete al Consolador, el Espíritu de verdad, quien enseñará, recordará Sus palabras, dará testimonio de Él y guiará a los discípulos. La partida de Jesús no significa abandono: el Espíritu sostendrá a la comunidad y hará presente la obra de Jesús entre ellos."
+        },
+        {
+          "titulo": "Juan 21 no es un apéndice sin importancia",
+          "texto": "El encuentro junto al mar muestra a Jesús resucitado restaurando a Pedro, renovando su llamado y corrigiendo comparaciones entre discípulos. El Evangelio termina con gracia, misión y una invitación personal: “Tú, sígueme”."
+        }
+      ]
     },
     {
-      "nav": "Claves de lectura",
-      "titulo": "Antes de empezar a leer",
-      "html": "<p><strong>1. Cada palabra está elegida con intención teológica</strong></p><p>Juan escribe con un vocabulario aparentemente sencillo, pero cargado de significado profundo. Palabras como \"luz\", \"vida\", \"verdad\", \"permanecer\", \"creer\", \"conocer\" y \"glorificar\" aparecen una y otra vez, formando una red de significado que se va construyendo capítulo tras capítulo. Cuando veas una de estas palabras repetirse, detente: Juan te está señalando algo importante.</p><p><strong>2. Las señales no son solo milagros — son sermones con manos</strong></p><p>Cada uno de los siete milagros que Juan selecciona tiene un mensaje detrás. Convertir agua en vino en una boda apunta a la abundancia del Reino. Multiplicar los panes apunta a que Jesús mismo es el verdadero pan que sacia. Sanar a un ciego de nacimiento apunta a que Jesús es la luz que da vista espiritual. No leas las señales solo como pruebas de poder — pregúntate qué están revelando sobre la identidad y misión de Jesús.</p><p><strong>3. Los \"Yo soy\" son una declaración de divinidad, no solo una frase bonita</strong></p><p>Cuando Jesús dice \"Yo soy\", está usando deliberadamente el nombre con el que Dios se identificó ante Moisés en la zarza ardiente. Para los oyentes judíos originales, esto no era ambiguo — era una afirmación clara y audaz de divinidad. Por eso, en varios momentos, esta frase provoca que algunos quieran apedrearlo (Juan 8:58-59) o que los soldados caigan al suelo cuando la escuchan en el huerto (Juan 18:6). No es casualidad ni coincidencia literaria — es el punto central del libro.</p><p><strong>4. El discurso del aposento alto (capítulos 13–17) merece tiempo extra</strong></p><p>Estos cinco capítulos son probablemente el momento más íntimo y pastoral de todo el evangelio: Jesús lava los pies de sus discípulos, promete el Espíritu Santo, enseña sobre la vid y los pámpanos, y hace una oración profundamente conmovedora por sus seguidores presentes y futuros — es decir, por ti también. No los leas rápido. Son palabras de despedida de alguien que sabe que va a morir, dirigidas a las personas que más ama.</p><p><strong>5. La cruz en Juan no es derrota — es exaltación</strong></p><p>Juan usa repetidamente la palabra \"glorificar\" para referirse a la crucifixión de Jesús (Juan 12:23, 17:1). Esto puede sonar extraño a primera vista — ¿cómo puede una ejecución brutal ser \"gloria\"? Pero para Juan, la cruz es precisamente el momento donde se revela con mayor claridad el amor de Dios: \"Nadie tiene amor más grande que éste, que uno ponga su vida por sus amigos\" (15:13). Lo que el mundo ve como fracaso, Juan lo presenta como el punto más alto de toda la historia.</p><p><strong>6. Lee con The Message para sentir la intimidad del lenguaje</strong></p><p>The Message tiene una particular sensibilidad para capturar el tono contemplativo y personal de Juan, especialmente en pasajes como el discurso del aposento alto. Su lenguaje cercano ayuda a que estas palabras, escritas hace casi dos mil años, se sientan dirigidas directamente a ti — que es exactamente la intención original de Juan.</p>"
+      "tipo": "observacion",
+      "titulo": "Mientras lees, presta atención a…",
+      "descripcion": "Diez hilos que vale la pena observar a lo largo de Juan.",
+      "items": [
+        {
+          "titulo": "La Palabra, la creación y la nueva creación",
+          "texto": "Observa cómo Juan comienza con el lenguaje de Génesis y continúa usando imágenes de vida, luz, nacimiento, agua, aliento y jardín. El Evangelio presenta la llegada, muerte y resurrección de Jesús como el comienzo de una humanidad renovada."
+        },
+        {
+          "titulo": "Las señales",
+          "texto": "Presta atención a lo que ocurre antes y después de cada señal. Más allá del resultado visible, identifica qué aspecto de Jesús queda revelado y qué respuesta produce en los personajes."
+        },
+        {
+          "titulo": "Creer y no creer",
+          "texto": "Juan muestra diferentes formas de fe: inicial, superficial, temerosa, creciente y perseverante. También presenta resistencia, incredulidad y rechazo. Observa qué lleva a las personas hacia Jesús y qué las hace retroceder."
+        },
+        {
+          "titulo": "Las declaraciones “Yo soy”",
+          "texto": "Cada declaración conecta la identidad de Jesús con una necesidad humana y con la historia de Dios con Israel. Observa qué afirma Jesús acerca de sí mismo y qué tipo de relación invita a tener con Él."
+        },
+        {
+          "titulo": "El Padre y el Hijo",
+          "texto": "Presta atención a la unidad entre Jesús y el Padre. Jesús no actúa de forma independiente: revela al Padre, cumple Su voluntad y hace visibles Sus obras. El amor entre el Padre y el Hijo sostiene la misión."
+        },
+        {
+          "titulo": "Los testigos",
+          "texto": "Juan el Bautista, las obras, las Escrituras, el Padre, el Espíritu, los discípulos y las personas transformadas dan testimonio de Jesús. Observa cómo estos testimonios se acumulan y conducen hacia la confesión final de Tomás."
+        },
+        {
+          "titulo": "Luz y oscuridad",
+          "texto": "La luz revela, guía y da vida; la oscuridad aparece asociada con incomprensión, temor y rechazo. Observa cuándo ocurren las escenas, qué personajes se acercan a la luz y cuáles prefieren permanecer ocultos."
+        },
+        {
+          "titulo": "Vida y vida eterna",
+          "texto": "Jesús no solo promete existencia futura. Él comunica una vida nueva: abundante, reconciliada con Dios y sostenida por Su presencia. Observa cómo esta vida se relaciona con creer, conocer, comer, beber, escuchar y permanecer."
+        },
+        {
+          "titulo": "La hora, la gloria y la cruz",
+          "texto": "El relato avanza hacia la hora de Jesús. Observa cómo Juan redefine la gloria: no como dominio humano, sino como el amor de Dios revelado en la entrega del Hijo."
+        },
+        {
+          "titulo": "Permanecer, amar y dar fruto",
+          "texto": "En la última noche, Jesús prepara a Sus discípulos para vivir sin Su presencia física. Permanecer en Él, amar como Él amó, recibir al Espíritu y dar fruto forman el núcleo de la vida de la comunidad después de la resurrección."
+        }
+      ]
     },
     {
-      "nav": "Recursos",
-      "titulo": "Para ir más lejos",
-      "html": "<p>Estos recursos te ayudarán a profundizar en el panorama del Evangelio de Juan antes o después de recorrer cada capítulo en el Paso Profundo. Son puertas de entrada complementarias, no destinos finales — el texto bíblico siempre tiene la última palabra, y estos materiales solo buscan iluminarlo mejor.</p>"
+      "tipo": "recorrido",
+      "titulo": "El recorrido del libro",
+      "descripcion": "Los grandes movimientos que organizan el Evangelio.",
+      "items": [
+        {
+          "marcador": "1:1–18",
+          "rango": "Juan 1:1–18",
+          "titulo": "La Palabra se hizo carne",
+          "queOcurre": "El prólogo presenta a Jesús como la Palabra eterna, creadora y divina que entra en la historia humana. En Él llegan la vida, la luz, la gracia y la revelación plena del Padre.",
+          "escenas": "La Palabra en el principio; la luz en las tinieblas; el testimonio de Juan; la Palabra hecha carne; la gloria del Hijo.",
+          "pregunta": "¿Qué afirma Juan acerca de Jesús antes de narrar una sola señal?"
+        },
+        {
+          "marcador": "1–4",
+          "rango": "Juan 1:19–4:54",
+          "titulo": "Primeros testigos y primeras señales",
+          "queOcurre": "Juan el Bautista señala a Jesús, los primeros discípulos comienzan a seguirlo y las primeras señales revelan Su gloria. Jesús conversa con Nicodemo y con una mujer samaritana, mostrando que la vida que ofrece alcanza fronteras religiosas, sociales y personales.",
+          "escenas": "El Cordero de Dios; el llamado de los primeros discípulos; las bodas de Caná; el templo; Nicodemo; la mujer samaritana; la sanidad del hijo de un oficial.",
+          "pregunta": "¿Cómo conduce Jesús a personas muy distintas desde una comprensión limitada hacia una revelación más profunda?"
+        },
+        {
+          "marcador": "5–10",
+          "rango": "Juan 5–10",
+          "titulo": "Identidad, señales y conflicto creciente",
+          "queOcurre": "Jesús sana, alimenta, enseña durante las fiestas y presenta Su relación con el Padre. Sus señales y declaraciones producen fe en algunos y una oposición cada vez mayor en otros.",
+          "escenas": "El paralítico de Betesda; la alimentación de la multitud; Jesús sobre el mar; el pan de vida; el ciego de nacimiento; el buen pastor.",
+          "pregunta": "¿Por qué las mismas obras y palabras de Jesús conducen a unos hacia la fe y a otros hacia el rechazo?"
+        },
+        {
+          "marcador": "11–12",
+          "rango": "Juan 11–12",
+          "titulo": "Lázaro y el cierre del ministerio público",
+          "queOcurre": "Jesús resucita a Lázaro y revela que Él mismo es la resurrección y la vida. La señal intensifica la fe, pero también acelera la decisión de las autoridades de matarlo. Jesús entra en Jerusalén y anuncia que Su hora ha llegado.",
+          "escenas": "La muerte de Lázaro; “Yo soy la resurrección y la vida”; la tumba abierta; la decisión contra Jesús; la unción en Betania; la entrada en Jerusalén; el grano de trigo.",
+          "pregunta": "¿Cómo puede una señal que comunica vida conducir al mismo tiempo hacia la cruz?"
+        },
+        {
+          "marcador": "13–17",
+          "rango": "Juan 13–17",
+          "titulo": "La última noche con los discípulos",
+          "queOcurre": "Jesús lava los pies de Sus discípulos, anuncia Su partida, les entrega un mandamiento nuevo, promete al Espíritu, enseña sobre permanecer en Él y ora por ellos antes de la cruz.",
+          "escenas": "El lavamiento de los pies; el mandamiento nuevo; la casa del Padre; la vid verdadera; la promesa del Consolador; la oración de Jesús.",
+          "pregunta": "¿Cómo prepara Jesús a Su comunidad para permanecer fiel cuando ya no esté físicamente con ellos?"
+        },
+        {
+          "marcador": "18–20",
+          "rango": "Juan 18–20",
+          "titulo": "La cruz, la resurrección y la fe",
+          "queOcurre": "Jesús es arrestado, juzgado y crucificado. En la cruz completa Su obra; luego se levanta de la muerte, se presenta a Sus discípulos y conduce a Tomás desde la duda hacia una de las confesiones más claras del Evangelio.",
+          "escenas": "El arresto; Pedro y sus negaciones; Jesús ante Pilato; la crucifixión; “Consumado es”; María Magdalena; los discípulos reunidos; Tomás.",
+          "pregunta": "¿Qué revela la muerte y resurrección de Jesús acerca de Su identidad y del propósito completo del Evangelio?"
+        },
+        {
+          "marcador": "21",
+          "rango": "Juan 21",
+          "titulo": "Restauración y misión",
+          "queOcurre": "Jesús resucitado se encuentra con Sus discípulos junto al mar, provee alimento, restaura a Pedro y renueva su llamado a cuidar a otros y seguirlo.",
+          "escenas": "La pesca; el desayuno junto al mar; las tres preguntas a Pedro; “Apacienta mis ovejas”; “Tú, sígueme”.",
+          "pregunta": "¿Cómo transforma la gracia de Jesús el fracaso de Pedro en una nueva responsabilidad y una misión restaurada?"
+        }
+      ]
+    },
+    {
+      "tipo": "temas",
+      "titulo": "Grandes temas de Juan",
+      "descripcion": "Las verdades principales que atraviesan todo el Evangelio.",
+      "items": [
+        {
+          "titulo": "La Palabra Hecha Carne",
+          "queSignifica": "Jesús es la Palabra eterna que estaba con Dios, era Dios y entró en la historia humana. En Él, Dios no envía solamente información: se acerca personalmente y habita entre nosotros.",
+          "dondeObservarlo": "Juan 1:1–18; 8:58; 17:5, 24; 20:28.",
+          "porQueImporta": "La fe cristiana no comienza con una técnica espiritual ni con un sistema moral, sino con Dios acercándose a nosotros en Jesús."
+        },
+        {
+          "titulo": "Jesús Revela Al Padre",
+          "queSignifica": "Jesús hace visible el carácter, las obras y el amor del Padre. Él viene del Padre, habla Sus palabras, cumple Su voluntad y conduce a Sus discípulos hacia una relación con Él.",
+          "dondeObservarlo": "Juan 1:18; 5:19–23; 8:19; 10:30; 12:44–45; 14:6–11; 17:6.",
+          "porQueImporta": "Conocer a Jesús corrige nuestras imágenes distorsionadas de Dios. El Hijo muestra cómo es realmente el Padre."
+        },
+        {
+          "titulo": "Creer Y Recibir Vida",
+          "queSignifica": "Juan presenta la fe como confianza personal en Jesús. Quien cree recibe vida, pasa de muerte a vida y entra en una relación que no depende de mérito humano.",
+          "dondeObservarlo": "Juan 1:12–13; 3:14–18, 36; 5:24; 6:35–40; 11:25–27; 20:30–31.",
+          "porQueImporta": "La vida que Jesús ofrece no se compra ni se conquista. Se recibe al confiar en Él."
+        },
+        {
+          "titulo": "Las Señales",
+          "queSignifica": "Las obras de Jesús son señales que revelan Su gloria, autoridad e identidad. No son fines en sí mismas, sino invitaciones a mirar más allá del resultado visible.",
+          "dondeObservarlo": "Juan 2:1–11; 4:46–54; 5:1–18; 6:1–21; 9:1–41; 11:1–44; 20:30–31.",
+          "porQueImporta": "Es posible admirar una obra de Jesús sin comprender lo que revela. Juan invita a pasar del asombro a la fe."
+        },
+        {
+          "titulo": "Luz Y Verdad",
+          "queSignifica": "Jesús es la luz que entra en un mundo marcado por oscuridad, engaño y ceguera. Su verdad revela lo que somos, pero también abre un camino hacia la libertad.",
+          "dondeObservarlo": "Juan 1:4–9; 3:19–21; 8:12, 31–32; 9:1–41; 12:35–36, 46; 14:6.",
+          "porQueImporta": "La luz de Jesús no busca humillar, sino revelar, sanar y conducir a una vida verdadera."
+        },
+        {
+          "titulo": "Nuevo Nacimiento Y Nueva Creación",
+          "queSignifica": "Jesús habla de nacer de arriba, recibir agua viva y pasar de muerte a vida. El lenguaje de creación, jardín, aliento y comienzo permite reconocer un patrón de nueva creación: Su obra inaugura una humanidad renovada.",
+          "dondeObservarlo": "Juan 1:1–13; 3:1–8; 4:10–14; 5:24; 19:41; 20:1, 22.",
+          "porQueImporta": "Jesús no vino únicamente a mejorar la versión anterior de nuestra vida. Vino a dar una vida nueva nacida de Dios."
+        },
+        {
+          "titulo": "El Amor",
+          "queSignifica": "El amor nace en Dios, se hace visible en la entrega del Hijo y se convierte en la marca de quienes siguen a Jesús. Amar como Él amó implica servicio, entrega y una nueva forma de relacionarse.",
+          "dondeObservarlo": "Juan 3:16; 10:11; 13:1, 34–35; 15:9–13; 17:23–26.",
+          "porQueImporta": "La credibilidad de la comunidad de Jesús no depende solo de sus palabras, sino de que haga visible Su amor."
+        },
+        {
+          "titulo": "La Hora Y La Gloria",
+          "queSignifica": "La hora de Jesús reúne Su cruz, resurrección y regreso al Padre. Juan presenta Su entrega como el momento en que la gloria y el amor de Dios se revelan de manera culminante.",
+          "dondeObservarlo": "Juan 2:4; 7:30; 8:20; 12:23–33; 13:1, 31–32; 17:1–5; 19:30.",
+          "porQueImporta": "Dios redefine la gloria. Su grandeza no se manifiesta mediante dominación, sino mediante amor fiel y entrega voluntaria."
+        },
+        {
+          "titulo": "El Espíritu De Verdad",
+          "queSignifica": "El Espíritu hace presente la obra de Jesús en la comunidad. Enseña, recuerda, guía, convence y da testimonio del Hijo.",
+          "dondeObservarlo": "Juan 3:5–8; 7:37–39; 14:16–17, 26; 15:26; 16:7–15; 20:22.",
+          "porQueImporta": "Los discípulos no quedan solos ni dependen únicamente de su memoria y capacidad. El Espíritu continúa formando y guiando a la comunidad."
+        },
+        {
+          "titulo": "Permanecer En Jesús",
+          "queSignifica": "Permanecer es vivir en una relación continua con Jesús, recibir Su palabra, habitar en Su amor y permitir que Su vida produzca fruto.",
+          "dondeObservarlo": "Juan 6:56; 8:31; 14:23; 15:1–11; 15:16.",
+          "porQueImporta": "El fruto espiritual no nace de actividad desconectada, sino de comunión sostenida con Jesús."
+        },
+        {
+          "titulo": "Testimonio Y Misión",
+          "queSignifica": "Quienes reconocen a Jesús se convierten en testigos. Juan el Bautista señala al Cordero, la mujer samaritana llama a su pueblo, el ciego cuenta lo que sabe, María anuncia la resurrección y los discípulos son enviados.",
+          "dondeObservarlo": "Juan 1:6–8, 29–34; 4:28–30, 39–42; 9:24–33; 15:26–27; 20:17–18, 21.",
+          "porQueImporta": "La fe no termina en experiencia privada. Quien ha visto la obra de Jesús es enviado a dar testimonio de Él."
+        },
+        {
+          "titulo": "Resurrección, Restauración Y Seguimiento",
+          "queSignifica": "La resurrección confirma la identidad de Jesús y abre una nueva etapa para Sus discípulos. Jesús trae paz, vence el temor, restaura el fracaso y renueva el llamado.",
+          "dondeObservarlo": "Juan 20:1–29; 21:1–22.",
+          "porQueImporta": "El fracaso no tiene la última palabra. El Resucitado puede restaurar a Sus discípulos y volver a llamarlos a seguirlo."
+        }
+      ],
+      "sintesis": {
+        "titulo": "Juan en una mirada",
+        "texto": "Juan presenta a Jesús como la Palabra eterna que se hizo carne para revelar al Padre y comunicar vida. Mediante señales, testimonios, conversaciones y declaraciones, el Evangelio conduce al lector a reconocer que Jesús es el Cristo, el Hijo de Dios. El relato avanza hacia la cruz como la hora de Su gloria, culmina en la resurrección y termina con una comunidad restaurada, enviada y llamada a permanecer en Él."
+      },
+      "fraseAncla": "La vida que Juan anuncia no comienza cuando entendemos todo, sino cuando reconocemos quién es Jesús y confiamos en Él."
+    },
+    {
+      "tipo": "recursos",
+      "titulo": "Para comprender mejor",
+      "descripcion": "Recursos seleccionados para profundizar cuando lo desees.",
+      "introduccion": "Estos recursos ayudan a observar la estructura, los temas y el propósito del Evangelio de Juan. La Escritura continúa siendo el centro."
     }
   ],
-  "recursos": [
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen del Evangelio de Juan (Parte 1)",
-      "detalle": "Video · Capítulos 1 al 12 — el Libro de las Señales",
-      "url": "https://youtu.be/OU16-2Sg_CQ"
+  "recursos": {
+    "poster": {
+      "fuente": "Proyecto Biblia",
+      "titulo": "Mapa visual de Juan",
+      "descripcion": "Póster panorámico oficial que presenta el recorrido completo del Evangelio de Juan, desde el prólogo hasta el epílogo.",
+      "preview": "estudios/intros/assets/juan/juan-poster-preview.jpg",
+      "full": "estudios/intros/assets/juan/juan-poster-full.jpg",
+      "alt": "Mapa visual del Evangelio de Juan en dos movimientos"
     },
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Resumen del Evangelio de Juan (Parte 2)",
-      "detalle": "Video · Capítulos 13 al 21 — el Libro de la Gloria",
-      "url": "https://youtu.be/NUW1Frg8DA0"
-    },
-    {
-      "tipo": "rightnow",
-      "fuente": "RightNow Media en Español",
-      "titulo": "Juan · Tráiler de la serie",
-      "detalle": "Video · Para ver la serie completa, suscríbete al College",
-      "url": "https://youtu.be/gwpk21ffwLw",
-      "nota": "college_link"
-    }
-  ]
+    "videos": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Panorama de Juan",
+        "descripcion": "Dos videos que presentan la estructura, las señales, la cruz y la resurrección en el Evangelio de Juan.",
+        "items": [
+          {
+            "etiqueta": "Parte 1",
+            "titulo": "Juan 1–12 · Señales e identidad de Jesús",
+            "youtubeId": "OU16-2Sg_CQ"
+          },
+          {
+            "etiqueta": "Parte 2",
+            "titulo": "Juan 13–21 · Gloria, cruz y resurrección",
+            "youtubeId": "NUW1Frg8DA0"
+          }
+        ]
+      }
+    ],
+    "miniseries": [],
+    "rightnow": [
+      {
+        "fuente": "RightNow Media en Español",
+        "titulo": "El Evangelio de Juan: Parte 1 con Tony Evans",
+        "descripcion": "Serie audiovisual complementaria centrada en el Evangelio de Juan.",
+        "trailer": {
+          "etiqueta": "Tráiler",
+          "titulo": "El Evangelio de Juan: Parte 1 con Tony Evans",
+          "youtubeId": "gwpk21ffwLw"
+        },
+        "acceso": {
+          "label": "Ver en RightNow Media",
+          "url": null,
+          "estado": "proximamente",
+          "abrirEnNuevaPestana": true
+        }
+      }
+    ],
+    "recomendaciones": [
+      {
+        "tipo": "libro",
+        "estado": "Lectura recomendada",
+        "lomo": "JUAN",
+        "titulo": "Juan",
+        "fuente": "Timoteo Glasscock",
+        "descripcion": "Comentario expositivo claro, pastoral y accesible que recorre el Evangelio de Juan con atención a su estructura, sus señales, la identidad de Jesús y el llamado a creer. Es una lectura de apoyo para profundizar sin sustituir el encuentro directo con el texto bíblico."
+      }
+    ]
+  },
+  "cierre": {
+    "eyebrow": "Ya conoces el testimonio",
+    "titulo": "Ahora entra al texto",
+    "texto": "Ya conoces el propósito, las señales, los grandes temas y el recorrido de Juan. Ahora entra en cada capítulo y permite que el testimonio del Evangelio te conduzca a reconocer a Jesús, creer en Él y recibir la vida que ofrece.",
+    "firma": "La introducción orienta. La Escritura permanece en el centro."
+  },
+  "config": {
+    "acordeonInicial": null,
+    "mostrarHiloDorado": true
+  }
 }

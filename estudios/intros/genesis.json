@@ -1,50 +1,394 @@
 {
+  "schemaVersion": 2,
   "libro": "Génesis",
-  "fecha": "2026-06-29",
-  "secciones": [
+  "slug": "genesis",
+  "fecha": "2026-07-15",
+  "portada": {
+    "kicker": "S · T · A · R · S",
+    "titulo": "Génesis",
+    "subtitulo": "El Dios que crea y sostiene Su promesa",
+    "cita": "“Te bendeciré... y serás bendición.”",
+    "referencia": "Génesis 12:2",
+    "metadatos": [
+      "50 capítulos"
+    ]
+  },
+  "bloques": [
     {
-      "nav": "Panorama",
-      "titulo": "El libro de los comienzos",
-      "html": "<p>Génesis es el libro que lo inicia todo. No solo la Biblia — sino la historia de Dios con la humanidad, la historia del universo, y en cierta manera, la tuya propia.</p><p>Su nombre viene del griego <em>génesis</em>, que significa <strong>origen</strong> o <strong>nacimiento</strong>. Y eso es exactamente lo que es: el relato de los grandes comienzos. El comienzo del mundo, del ser humano, del pecado, de la promesa, del pueblo de Dios.</p><blockquote>\"En el principio creó Dios los cielos y la tierra.\" — Génesis 1:1</blockquote><p>El libro se divide en dos grandes movimientos:</p><p><strong>Los orígenes (capítulos 1–11):</strong> La creación, la caída, el diluvio y la torre de Babel. Son once capítulos que cubren un período inmenso de tiempo y responden las preguntas más profundas del corazón humano: ¿quién soy?, ¿de dónde vengo?, ¿por qué hay dolor y muerte?, ¿tiene sentido todo esto?</p><p><strong>Los patriarcas (capítulos 12–50):</strong> La historia de Abraham, Isaac, Jacob y José. Aquí Dios elige a una familia — imperfecta, complicada, llena de conflictos — para ser el canal de su bendición al mundo entero.</p><p>Leer Génesis es leer el primer capítulo de una historia que no termina sino en Apocalipsis: Dios decidido a restaurar lo que el pecado rompió.</p>"
+      "tipo": "editorial",
+      "titulo": "Antes de leer Génesis",
+      "descripcion": "Una orientación para comprender qué encontrarás en el primer libro de la Biblia.",
+      "parrafos": [
+        "Génesis abre la Biblia dirigiendo la mirada hacia Dios. Antes de que existan pueblos, familias, ciudades, conflictos o promesas, Dios ya está allí. Él habla, ordena, llena de vida y entrega a la humanidad un mundo bueno para habitar, cultivar y cuidar.",
+        "“En el principio creó Dios los cielos y la tierra.” — Génesis 1:1",
+        "El libro comienza con una visión amplia: la creación, el origen de la humanidad, la entrada del pecado, la violencia, el diluvio y la dispersión de las naciones. A partir del capítulo 12, la historia concentra su atención en una familia: Abraham, Sara, Isaac, Rebeca, Jacob, Lea, Raquel, José y sus hermanos. El propósito de Dios para toda la humanidad comienza a avanzar por medio de personas concretas, familias imperfectas y una promesa que atraviesa generaciones.",
+        "Génesis no presenta una colección de héroes sin fallas. Sus personajes creen y dudan, obedecen y se desvían, aman y compiten, esperan y buscan controlar los resultados. Sin embargo, la fidelidad de Dios continúa sosteniendo la historia. La esperanza del libro no descansa en la capacidad humana de hacerlo todo bien, sino en el Dios que permanece comprometido con Su propósito."
+      ],
+      "definicionesTitulo": "Qué hace particular a Génesis",
+      "definiciones": [
+        {
+          "titulo": "El comienzo de la gran historia bíblica",
+          "texto": "Génesis introduce las preguntas que acompañarán toda la Escritura: quién es Dios, quiénes somos, para qué fuimos creados, qué rompió la relación entre Dios y la humanidad y cómo comenzará la restauración. Muchos temas que aparecerán después tienen aquí su primera expresión. Génesis no es solo el comienzo de la Biblia. Abre una historia que continuará a través de toda la Escritura: el Dios creador comprometido con restaurar Su mundo y llevar Su bendición hasta las naciones."
+        },
+        {
+          "titulo": "Un mundo creado con propósito",
+          "texto": "La creación no surge como un accidente ni como el resultado de una lucha entre poderes rivales. Dios habla y el mundo responde. La vida recibe orden, límites, fecundidad y propósito. La repetición de que la creación es buena establece el diseño original desde el cual debe comprenderse todo lo que viene después."
+        },
+        {
+          "titulo": "La humanidad como imagen de Dios",
+          "texto": "El ser humano recibe una dignidad y una responsabilidad particulares. Ser imagen de Dios implica representar Su gobierno dentro de la creación, cuidar lo que Él ha hecho y desarrollar la vida bajo Su autoridad. La identidad humana nace de una relación y una vocación recibidas, no de la competencia ni del desempeño."
+        },
+        {
+          "titulo": "La ruptura se extiende",
+          "texto": "La desconfianza que aparece en el jardín pronto afecta la relación con Dios, con uno mismo, con otras personas y con la tierra. El conflicto entre Caín y Abel, la expansión de la violencia, el diluvio y Babel muestran que el pecado nunca permanece aislado: se convierte en una fuerza que altera familias, culturas y comunidades."
+        },
+        {
+          "titulo": "La promesa aparece en medio del fracaso",
+          "texto": "Dios no abandona Su propósito después de la rebelión humana. En medio del juicio conserva vida, establece pactos y abre futuro. Después de Babel, llama a Abraham y promete formar una familia por medio de la cual Su bendición alcanzará a todas las familias de la tierra."
+        },
+        {
+          "titulo": "Una familia imperfecta dentro de un propósito mayor",
+          "texto": "Abraham, Isaac, Jacob y los hijos de Jacob no son ejemplos de perfección. Sus historias contienen miedo, favoritismo, engaño, rivalidad, decisiones equivocadas y heridas familiares. Aun así, Dios continúa trabajando. La promesa avanza no porque las personas sean impecables, sino porque Dios es fiel."
+        }
+      ],
+      "fraseAncla": "Génesis comienza con un mundo creado por la palabra de Dios y termina con un ataúd en Egipto. Entre ambas escenas, la promesa permanece viva."
     },
     {
-      "nav": "Contexto",
-      "titulo": "Quién, cuándo y por qué",
-      "html": "<p><strong>¿Quién lo escribió?</strong></p><p>La tradición judía y cristiana ha atribuido Génesis a <strong>Moisés</strong>, quien también habría escrito Éxodo, Levítico, Números y Deuteronomio — el Pentateuco. Jesús mismo lo cita dando por sentada esta autoría (Marcos 10:6–8, Juan 5:46). Esto no significa que Moisés escribió todo de primera mano: es probable que utilizara fuentes, tradiciones orales y documentos anteriores que compiló bajo la guía del Espíritu.</p><p><strong>¿Cuándo?</strong></p><p>Si la autoría mosaica es correcta, Génesis fue escrito durante el siglo XIII a.C. aproximadamente, en el período del éxodo de Egipto. El pueblo de Israel, recién liberado, necesitaba entender quiénes eran, a quién servían y por qué Dios los había elegido.</p><p><strong>¿Para quién?</strong></p><p>Para el pueblo de Israel en primer lugar. Un pueblo que acababa de salir de cuatro siglos en Egipto, rodeados de mitologías donde los dioses eran caprichosos, violentos y necesitados de los humanos. Génesis viene a decir algo radicalmente diferente: hay un solo Dios, creó todo con intención, el ser humano es su imagen en la tierra, y Él tiene un plan de rescate que no va a abandonar.</p><p><strong>¿Por qué importa hoy?</strong></p><p>Porque las preguntas que responde Génesis no cambian. ¿Tiene valor mi vida? ¿Por qué existe el mal? ¿Puede Dios usar a personas fallidas? Cada generación necesita volver a este libro y escuchar sus respuestas.</p>"
+      "tipo": "contexto",
+      "titulo": "Conoce el contexto",
+      "descripcion": "Origen, propósito, estructura y claves que te ayudarán a leer mejor.",
+      "definicionesTitulo": "Quién, para quién y por qué",
+      "definiciones": [
+        {
+          "titulo": "Nombre del libro",
+          "texto": "El nombre Génesis proviene de una palabra griega relacionada con origen, nacimiento o comienzo. En la tradición hebrea el libro recibe su nombre de sus primeras palabras: En el principio. Ambos nombres reflejan su función: Génesis presenta el comienzo de la creación, de la humanidad, de las naciones y de la historia del pueblo que nacerá de la promesa dada a Abraham."
+        },
+        {
+          "titulo": "Lugar dentro de la Torá",
+          "texto": "Génesis es el primer libro de la Torá o Pentateuco. No funciona como una historia independiente. Prepara el camino para Éxodo, donde los descendientes de Jacob se han convertido en un pueblo numeroso que vive en Egipto. Las promesas, relaciones y conflictos iniciados en Génesis continúan desarrollándose en los libros siguientes."
+        },
+        {
+          "titulo": "Autoría y tradición",
+          "texto": "La tradición judía y cristiana ha recibido Génesis como parte de la Torá asociada a Moisés. El libro no identifica directamente a su autor dentro del relato. Su forma final reúne y organiza la historia de los orígenes y de los antepasados de Israel para enseñar quién es Dios, de dónde viene el pueblo y cuál es la promesa que da sentido a su historia."
+        },
+        {
+          "titulo": "Audiencia",
+          "texto": "Génesis ayudó a Israel a comprender su identidad. El pueblo no surgió por superioridad, poder militar o mérito propio. Su historia comenzó con el llamado de Dios a una familia y con una promesa recibida por gracia. El libro les recordaba que pertenecían al Dios creador y que habían sido llamados para participar en Su propósito de bendición."
+        },
+        {
+          "titulo": "Propósito",
+          "texto": "Génesis explica el origen del mundo tal como Dios quiso que fuera, la entrada del pecado y las consecuencias que se extendieron sobre la humanidad. También muestra el comienzo de la respuesta de Dios: una promesa que avanzará mediante Abraham y su descendencia hasta alcanzar a todas las naciones."
+        },
+        {
+          "titulo": "Estructura principal",
+          "texto": "El libro tiene dos grandes movimientos. Génesis 1–11 observa a la humanidad y a las naciones: creación, jardín, rebelión, violencia, diluvio y Babel. Génesis 12–50 concentra la historia en Abraham y su familia: promesa, pacto, espera, conflictos, desplazamientos y preservación. La mirada pasa del mundo entero a una familia porque Dios comienza a responder al problema de todas las naciones mediante una promesa destinada a bendecirlas."
+        },
+        {
+          "titulo": "Por qué importa hoy",
+          "texto": "Génesis ayuda a recuperar una visión más profunda de Dios, de la humanidad y de la vida. Afirma que el mundo tiene un Creador, que toda persona posee dignidad, que el pecado produce consecuencias reales y que Dios no abandona Su propósito cuando las personas fallan. También confronta la necesidad de controlar los resultados y enseña a vivir confiando en una promesa que muchas veces avanza lentamente."
+        }
+      ],
+      "detallesTitulo": "Claves de lectura",
+      "detalles": [
+        {
+          "titulo": "Génesis no fue escrito como un manual científico moderno",
+          "texto": "El propósito principal del relato es revelar quién creó, qué clase de mundo creó, qué lugar ocupa la humanidad y qué ocurrió con el diseño original. Sus preguntas son profundamente teológicas y formativas. Leerlo bien requiere escuchar las afirmaciones que el texto realmente hace, sin obligarlo a responder preguntas formuladas con categorías mucho más recientes."
+        },
+        {
+          "titulo": "El libro trabaja con dos escalas",
+          "texto": "Los primeros once capítulos observan el mundo, la humanidad y las naciones. A partir del capítulo 12, la historia sigue principalmente a una familia. El cambio de escala es intencional: la promesa dada a Abraham será la respuesta de Dios a la fractura que afecta a toda la humanidad."
+        },
+        {
+          "titulo": "“Estas son las generaciones” organiza el relato",
+          "texto": "La expresión que puede traducirse como “estas son las generaciones” o “esta es la historia de” aparece repetidamente y ayuda a ordenar el libro. Cada aparición abre una nueva etapa y muestra cómo una generación entrega la historia a la siguiente."
+        },
+        {
+          "titulo": "Las genealogías no son interrupciones",
+          "texto": "Las listas de nombres conectan promesas, familias y generaciones. Muestran continuidad, preservan memoria y recuerdan que el propósito de Dios avanza a través de personas reales. Algunas vidas reciben muchas páginas; otras aparecen únicamente mediante un nombre, pero todas participan del movimiento de la historia."
+        },
+        {
+          "titulo": "La imagen de Dios une dignidad y responsabilidad",
+          "texto": "Ser imagen de Dios no es una descripción de apariencia física ni una afirmación de autosuficiencia humana. Expresa una identidad recibida y una vocación: la humanidad representa a Dios dentro de la creación y debe ejercer responsabilidad bajo Su autoridad."
+        },
+        {
+          "titulo": "Bendición y maldición forman un contraste central",
+          "texto": "La bendición aparece desde la creación y continúa dentro de las promesas dadas a Noé, Abraham, Isaac y Jacob. La maldición expresa las consecuencias de separarse del diseño de Dios. El movimiento del libro muestra que Dios no permite que la maldición tenga la última palabra: Su propósito continúa orientado hacia la vida y la bendición."
+        },
+        {
+          "titulo": "Los patriarcas no son héroes idealizados",
+          "texto": "Génesis narra sus errores con honestidad. Abraham actúa algunas veces desde el miedo; Jacob engaña y también es engañado; los hijos de Jacob viven rivalidades profundas. El lector no debe justificar sus decisiones solo porque forman parte de la familia escogida. El centro del relato es la fidelidad de Dios trabajando en medio de personas que todavía necesitan ser transformadas."
+        },
+        {
+          "titulo": "La historia de José habla de providencia, no de éxito personal",
+          "texto": "José recibe sueños, enfrenta traición, esclavitud, falsas acusaciones y años de espera. Su ascenso en Egipto no es una fórmula para alcanzar éxito. La historia muestra cómo Dios puede preservar vida y dirigir Su propósito aun mediante circunstancias injustas, decisiones humanas equivocadas y procesos que ninguna persona podía controlar."
+        },
+        {
+          "titulo": "Génesis 3:15 introduce esperanza dentro del juicio",
+          "texto": "Después de la rebelión en el jardín, Dios anuncia que la serpiente y la descendencia de la mujer permanecerán en conflicto, pero el mal no tendrá la última palabra. La tradición cristiana ha reconocido en Génesis 3:15 una primera anticipación de la victoria que encuentra su plenitud en Jesús. Lee el pasaje dentro de su contexto inmediato y, al mismo tiempo, observa cómo esta esperanza continúa desarrollándose a lo largo de toda la Escritura."
+        },
+        {
+          "titulo": "Las historias de Génesis continúan resonando en toda la Biblia",
+          "texto": "El jardín, la imagen de Dios, la serpiente, la descendencia prometida, el sacrificio, el hermano rechazado, la salida de una tierra extranjera y la bendición para las naciones volverán a aparecer a lo largo de la Escritura. No fuerces cada detalle para convertirlo en símbolo, pero presta atención a cómo las semillas sembradas en Génesis continúan creciendo hasta encontrar su plenitud en Jesús."
+        }
+      ]
     },
     {
-      "nav": "Claves de lectura",
-      "titulo": "Antes de empezar a leer",
-      "html": "<p><strong>1. Es teología antes que ciencia</strong></p><p>Génesis no fue escrito para responder cómo surgió el universo en términos científicos, sino para responder <em>quién</em> lo creó y <em>por qué</em>. Leerlo como si fuera un manual de cosmología es perderle el punto. Léelo como lo que es: una declaración de fe profunda sobre Dios, el ser humano y la realidad.</p><p><strong>2. Los personajes son humanos de verdad</strong></p><p>Abraham mintió dos veces sobre Sara. Jacob fue un tramposo. José fue arrogante de joven. El texto no los idealiza — los muestra tal como son. Eso es una buena noticia para ti: Dios trabaja con personas rotas, no con personas perfectas.</p><p><strong>3. Busca los patrones que se repiten</strong></p><p>Génesis está lleno de patrones que reaparecen a lo largo de toda la Biblia: el jardín como lugar de presencia de Dios, el hermano traicionado que luego salva, el sacrificio que sustituye, la promesa que parece imposible pero se cumple. Son las semillas de todo lo que viene después, incluyendo a Jesús.</p><p><strong>4. La promesa lo sostiene todo</strong></p><p>Desde Génesis 3:15 hay una promesa en el corazón de la historia: alguien va a aplastar la cabeza de la serpiente. Todo lo que sigue en la Biblia es el desarrollo de esa promesa. Cuando leas Génesis, estás leyendo el primer capítulo del evangelio.</p><p><strong>5. Lee con The Message</strong></p><p>The Message captura la frescura y el peso de estos relatos con un lenguaje cercano y vivo. No reemplaza el estudio del texto, pero sí te permite sentir la historia como si la estuvieras escuchando por primera vez. Úsalo como puerta de entrada.</p>"
+      "tipo": "observacion",
+      "titulo": "Mientras lees, presta atención a…",
+      "descripcion": "Diez hilos que vale la pena seguir a lo largo de Génesis.",
+      "items": [
+        {
+          "titulo": "La palabra de Dios",
+          "texto": "La historia comienza con Dios hablando. Su palabra establece luz, orden, límites, vida y propósito. Más adelante, Dios vuelve a hablar mediante llamados, promesas, advertencias y pactos. Observa qué sucede cuando las personas confían en Su palabra y qué ocurre cuando permiten que otra voz redefina lo que Dios había dicho."
+        },
+        {
+          "titulo": "La bondad y el orden de la creación",
+          "texto": "La repetición de que la creación es buena muestra que la materia, el cuerpo, el trabajo, la vida y las relaciones forman parte del diseño de Dios. Presta atención a cómo el pecado distorsiona ese orden sin eliminar por completo la bondad con la que todo comenzó."
+        },
+        {
+          "titulo": "La imagen de Dios y la vocación humana",
+          "texto": "La humanidad recibe la tarea de llenar, cultivar y cuidar la tierra. Observa la diferencia entre ejercer responsabilidad bajo Dios y buscar poder independiente de Él. El jardín, las ciudades y Babel muestran distintas maneras de usar la capacidad humana."
+        },
+        {
+          "titulo": "La bendición y la maldición",
+          "texto": "Sigue cada aparición de la bendición. Dios bendice la creación, a la humanidad, a Noé y a la familia de Abraham. También observa cómo las consecuencias del pecado afectan la tierra, el trabajo, las relaciones y las comunidades. La historia avanza preguntando cómo llegará nuevamente la bendición a un mundo herido."
+        },
+        {
+          "titulo": "La descendencia y la promesa",
+          "texto": "La promesa de una descendencia atraviesa Génesis. Sin embargo, muchas veces parece estar en riesgo por esterilidad, edad avanzada, conflictos familiares, hambre o violencia. Observa cómo Dios sostiene el futuro incluso cuando las circunstancias parecen cerrarlo."
+        },
+        {
+          "titulo": "La tierra, los viajes y el exilio",
+          "texto": "Los personajes se desplazan constantemente. Adán y Eva salen del jardín; Caín se aleja; las naciones se dispersan; Abraham deja su tierra; Jacob huye y regresa; José es llevado a Egipto. Pregúntate qué significa estar dentro o fuera del lugar de promesa y cómo la presencia de Dios acompaña a las personas durante el camino."
+        },
+        {
+          "titulo": "Altares, pozos y lugares de encuentro",
+          "texto": "Los altares marcan momentos de adoración, memoria y respuesta. Los pozos se convierten en espacios de provisión, conflicto y encuentro. Algunos lugares reciben nuevos nombres después de una experiencia con Dios. Observa cómo el territorio se llena de memoria espiritual."
+        },
+        {
+          "titulo": "Los hermanos y el conflicto",
+          "texto": "Caín y Abel, Isaac e Ismael, Jacob y Esaú, José y sus hermanos muestran distintas formas de rivalidad, rechazo y reconciliación. La tensión entre hermanos atraviesa el libro porque revela lo que el pecado hace dentro de las relaciones más cercanas y cuánto necesita la humanidad aprender nuevamente a vivir como familia."
+        },
+        {
+          "titulo": "La espera y los comienzos imposibles",
+          "texto": "Sara, Rebeca y Raquel enfrentan largos períodos sin hijos. La promesa parece avanzar precisamente mediante situaciones donde el futuro no puede producirse por capacidad humana. Presta atención a las decisiones que nacen de la confianza y a las que surgen de la ansiedad por acelerar lo que Dios prometió."
+        },
+        {
+          "titulo": "La fidelidad de Dios detrás de la historia",
+          "texto": "Dios actúa de manera visible en algunos momentos y parece silencioso en otros. En la historia de José Su presencia no siempre aparece mediante milagros evidentes, pero el resultado final revela que nunca abandonó Su propósito. Observa cómo Dios preserva vida, abre caminos y transforma situaciones sin aprobar el mal que las personas hicieron."
+        }
+      ]
     },
     {
-      "nav": "Recursos",
-      "titulo": "Para ir más lejos",
-      "html": "<p>Estos recursos te ayudarán a profundizar en el libro de Génesis antes o después de cada capítulo. Son puertas de entrada, no destinos finales — el texto siempre tiene la última palabra.</p>"
+      "tipo": "recorrido",
+      "titulo": "El recorrido del libro",
+      "descripcion": "Los grandes movimientos que organizan la historia de Génesis.",
+      "items": [
+        {
+          "marcador": "01",
+          "rango": "Génesis 1–2",
+          "titulo": "Creación, humanidad y vocación",
+          "queOcurre": "Dios crea un mundo ordenado, abundante y lleno de vida. La humanidad es creada a Su imagen, recibe dignidad, responsabilidad y un lugar dentro de la creación. El jardín presenta una vida de comunión con Dios, relación, trabajo y confianza.",
+          "escenas": "La creación por medio de la palabra; la luz y las aguas; la tierra y los seres vivos; la humanidad como imagen de Dios; el jardín; la formación de la mujer; la vida compartida.",
+          "pregunta": "¿Qué revela el diseño original acerca de Dios, de la identidad humana y de la forma en que fuimos llamados a vivir?"
+        },
+        {
+          "marcador": "02",
+          "rango": "Génesis 3–11",
+          "titulo": "Rebelión, violencia y dispersión",
+          "queOcurre": "La humanidad desconfía de Dios y busca definir el bien y el mal por cuenta propia. La ruptura se extiende desde el jardín hacia la familia, la sociedad y las naciones. Caín mata a Abel, la violencia aumenta, llega el diluvio y Babel expresa el intento humano de construir seguridad y grandeza sin depender de Dios.",
+          "escenas": "La serpiente y el árbol; la salida del jardín; Caín y Abel; la expansión de la violencia; Noé y el arca; el pacto después del diluvio; la torre de Babel.",
+          "pregunta": "¿Cómo pasa la desconfianza hacia Dios de ser una decisión personal a convertirse en una realidad que afecta familias, culturas y comunidades?"
+        },
+        {
+          "marcador": "03",
+          "rango": "Génesis 12–25",
+          "titulo": "Abraham y el comienzo de la promesa",
+          "queOcurre": "Dios llama a Abraham a dejar su tierra y promete darle descendencia, una tierra y una misión de bendición para todas las familias. La espera será larga y estará llena de decisiones de fe, miedo, obediencia, impaciencia y aprendizaje.",
+          "escenas": "El llamado de Abraham; la llegada a Canaán; la separación de Lot; el pacto; Agar e Ismael; la señal de la circuncisión; la visita de los mensajeros; Sodoma; el nacimiento de Isaac; la entrega de Isaac; la muerte de Sara.",
+          "pregunta": "¿Qué significa confiar en una promesa cuando todavía no existen evidencias visibles de su cumplimiento?"
+        },
+        {
+          "marcador": "04",
+          "rango": "Génesis 25–36",
+          "titulo": "Isaac, Jacob y una familia en transformación",
+          "queOcurre": "La promesa continúa mediante Isaac y después mediante Jacob. Las rivalidades familiares, el favoritismo, el engaño y la lucha por la bendición producen heridas profundas. Jacob debe salir, aprender, ser confrontado y regresar. En el camino descubre que la bendición no puede obtenerse únicamente mediante control o astucia.",
+          "escenas": "El nacimiento de Jacob y Esaú; la primogenitura; la bendición obtenida mediante engaño; Betel; Jacob y Labán; Lea y Raquel; el regreso; la lucha junto al río; el encuentro con Esaú.",
+          "pregunta": "¿Qué debe cambiar dentro de Jacob para que deje de vivir únicamente mediante control, competencia y autoprotección?"
+        },
+        {
+          "marcador": "05",
+          "rango": "Génesis 37–50",
+          "titulo": "José, reconciliación y preservación",
+          "queOcurre": "El favoritismo y los celos llevan a los hermanos de José a venderlo. José llega a Egipto, atraviesa injusticia y años de espera, pero finalmente recibe una responsabilidad que permitirá preservar muchas vidas durante el hambre. La familia vuelve a encontrarse, enfrenta su pasado y llega a Egipto, donde la promesa continuará hacia la siguiente etapa.",
+          "escenas": "Los sueños de José; la cisterna; la venta; Judá y Tamar; la casa de Potifar; la prisión; los sueños del faraón; el hambre; los viajes de los hermanos; Benjamín; la revelación de José; el traslado de Jacob; las bendiciones finales.",
+          "pregunta": "¿Cómo puede Dios dirigir la historia hacia la preservación y la reconciliación sin llamar bueno al daño que las personas causaron?"
+        }
+      ]
+    },
+    {
+      "tipo": "temas",
+      "titulo": "Grandes temas de Génesis",
+      "descripcion": "Las verdades principales que atraviesan todo el libro.",
+      "items": [
+        {
+          "titulo": "Dios creador",
+          "queSignifica": "Dios existe antes de todo lo creado y no depende de ninguna fuerza externa. Él habla, separa, ordena, llena y bendice. La creación refleja intención, sabiduría y generosidad.",
+          "dondeObservarlo": "Génesis 1:1–2:3; 2:4–25.",
+          "porQueImporta": "La vida no es un accidente sin propósito. El mundo pertenece a Dios y debe ser recibido con gratitud, cuidado y responsabilidad. Comprender a Dios como Creador cambia la manera de ver el cuerpo, el trabajo, la naturaleza y la existencia."
+        },
+        {
+          "titulo": "La imagen de Dios y la vocación humana",
+          "queSignifica": "Toda persona recibe dignidad porque fue creada a imagen de Dios. La humanidad también recibe una tarea: representar el gobierno de Dios dentro de la creación, desarrollar la vida y cuidar lo que Él ha confiado.",
+          "dondeObservarlo": "Génesis 1:26–28; 2:15; 5:1–3; 9:1–7.",
+          "porQueImporta": "El valor humano no depende de capacidad, condición social, productividad o reconocimiento. Al mismo tiempo, la dignidad recibida incluye responsabilidad: vivir como imagen de Dios afecta la manera de trabajar, cuidar, crear y relacionarse."
+        },
+        {
+          "titulo": "La rebelión y la expansión del pecado",
+          "queSignifica": "El pecado comienza con la desconfianza hacia la palabra y la bondad de Dios. La humanidad busca autonomía y termina experimentando vergüenza, temor, acusación, violencia y separación. El problema se expande desde una decisión en el jardín hasta afectar familias, ciudades y naciones.",
+          "dondeObservarlo": "Génesis 3:1–24; 4:1–24; 6:1–8; 11:1–9.",
+          "porQueImporta": "El pecado no es solamente romper una regla. Es rechazar la confianza y el orden de Dios para vivir bajo una definición propia del bien y del mal. Sus consecuencias nunca permanecen únicamente dentro de una persona."
+        },
+        {
+          "titulo": "Juicio y misericordia",
+          "queSignifica": "Dios confronta el mal porque la creación y las personas importan. Sin embargo, Su juicio aparece acompañado por actos de cuidado y preservación: viste a Adán y Eva, protege la vida de Caín, muestra favor a Noé y establece un pacto después del diluvio.",
+          "dondeObservarlo": "Génesis 3:14–24; 4:9–16; 6:5–8; 8:20–22; 9:8–17.",
+          "porQueImporta": "La misericordia de Dios no consiste en ignorar el mal. Él lo toma en serio y, al mismo tiempo, abre caminos para que la vida continúe. Justicia y misericordia no aparecen como realidades opuestas dentro de Su carácter."
+        },
+        {
+          "titulo": "Bendición",
+          "queSignifica": "La bendición expresa vida, fecundidad, propósito y participación en el bien que Dios desea extender. Aparece desde la creación y se convierte en el centro del llamado de Abraham. Dios promete bendecir una familia para que, por medio de ella, Su bendición alcance a otras.",
+          "dondeObservarlo": "Génesis 1:22, 28; 9:1; 12:1–3; 22:17–18; 26:3–4; 28:13–15.",
+          "porQueImporta": "La bendición nunca debe reducirse a bienestar privado o acumulación personal. En Génesis, ser bendecido incluye convertirse en un medio de vida y bien para otros."
+        },
+        {
+          "titulo": "Pacto y promesa",
+          "queSignifica": "Dios se compromete libremente con Su creación y con la familia de Abraham. Sus pactos establecen futuro, relación y responsabilidad. La promesa incluye descendencia, tierra y bendición para las naciones.",
+          "dondeObservarlo": "Génesis 9:8–17; 12:1–3; 15:1–21; 17:1–22.",
+          "porQueImporta": "La historia bíblica avanza porque Dios decide comprometerse. La esperanza no depende primero de la estabilidad humana, sino del carácter del Dios que promete y permanece fiel."
+        },
+        {
+          "titulo": "Fe y espera",
+          "queSignifica": "Abraham responde al llamado de Dios sin conocer todos los detalles del camino. Sin embargo, la promesa tarda y la espera revela tanto confianza como temor. Génesis muestra que creer no elimina las preguntas ni convierte automáticamente a una persona en madura.",
+          "dondeObservarlo": "Génesis 12:1–9; 15:1–6; 16:1–16; 18:1–15; 21:1–7; 22:1–19.",
+          "porQueImporta": "Esperar expone aquello en lo que realmente confiamos. El intento de acelerar una promesa puede producir nuevas heridas. La fe aprende a obedecer aun cuando el cumplimiento todavía no es visible."
+        },
+        {
+          "titulo": "La fidelidad de Dios en medio de personas imperfectas",
+          "queSignifica": "Los personajes principales fallan repetidamente. Actúan desde el miedo, engañan, compiten, muestran favoritismo y toman decisiones que afectan a otros. Dios no aprueba esas acciones, pero tampoco abandona Su propósito.",
+          "dondeObservarlo": "Génesis 12:10–20; 16:1–16; 20:1–18; 27:1–46; 29:15–35; 30:1–24; 37:1–36.",
+          "porQueImporta": "La gracia no convierte el pecado en algo insignificante. Muestra que la fidelidad de Dios puede continuar formando, corrigiendo y sosteniendo a personas que todavía necesitan transformación."
+        },
+        {
+          "titulo": "Tierra, descendencia y presencia",
+          "queSignifica": "La promesa dada a Abraham contiene tres dimensiones que se repiten: una tierra, una descendencia y la presencia de Dios acompañando la historia. Estas promesas parecen estar constantemente amenazadas, pero Dios vuelve a confirmarlas.",
+          "dondeObservarlo": "Génesis 12:1–7; 13:14–17; 15:1–21; 17:1–8; 26:1–5; 28:10–17; 35:9–15.",
+          "porQueImporta": "La seguridad de los personajes no depende únicamente del lugar donde están ni de lo que poseen. La presencia y la palabra de Dios sostienen el futuro aun durante desplazamientos, conflictos y temporadas de incertidumbre."
+        },
+        {
+          "titulo": "Gracia que altera el orden esperado",
+          "queSignifica": "La historia no avanza siempre mediante el hijo mayor, la persona más fuerte o la elección culturalmente esperada. Isaac, Jacob, José y Judá muestran que Dios no queda limitado por los sistemas humanos de posición y privilegio.",
+          "dondeObservarlo": "Génesis 21:8–13; 25:21–34; 27:1–40; 37:1–11; 48:8–20; 49:8–12.",
+          "porQueImporta": "El propósito de Dios es recibido por gracia, no ganado por rango, fuerza o desempeño. Esto confronta la necesidad humana de convertir privilegios, posiciones o logros en una garantía de superioridad."
+        },
+        {
+          "titulo": "Familias heridas y reconciliación",
+          "queSignifica": "Muchas de las heridas de Génesis ocurren dentro de las familias: celos, favoritismo, competencia, engaño, abandono y violencia. Sin embargo, algunas relaciones también encuentran caminos de encuentro, perdón y restauración.",
+          "dondeObservarlo": "Génesis 4:1–16; 21:8–21; 27:1–45; 32:1–33:17; 37:1–36; 42:1–45:28; 50:15–21.",
+          "porQueImporta": "La elección de Dios no elimina automáticamente los patrones familiares dañinos. La transformación requiere verdad, responsabilidad, tiempo y una nueva manera de relacionarse."
+        },
+        {
+          "titulo": "Providencia y preservación",
+          "queSignifica": "La historia de José muestra a Dios obrando dentro de una cadena de acontecimientos que incluye decisiones injustas, sufrimiento y largos períodos de incertidumbre. Dios no origina el mal cometido por los hermanos, pero dirige la historia hacia la preservación de muchas vidas.",
+          "dondeObservarlo": "Génesis 37:1–36; 39:1–23; 41:1–57; 45:1–15; 50:15–21.",
+          "porQueImporta": "La providencia no significa que todo lo ocurrido fue bueno. Significa que el mal humano no tiene autoridad final para destruir el propósito de Dios. Él puede abrir futuro incluso dentro de una historia marcada por daño e injusticia."
+        },
+        {
+          "titulo": "Bendición para todas las familias",
+          "queSignifica": "La promesa a Abraham nunca tuvo como destino una sola familia aislada del resto del mundo. Dios elige una familia para convertirla en instrumento de bendición para las naciones. Desde el comienzo, el propósito es más amplio que el beneficio de quienes reciben la promesa.",
+          "dondeObservarlo": "Génesis 12:1–3; 18:17–19; 22:15–18; 26:2–5; 28:13–15.",
+          "porQueImporta": "La elección bíblica incluye vocación y responsabilidad. La historia que comienza con Abraham continuará avanzando hasta que la bendición de Dios alcance a personas de toda familia, pueblo y nación."
+        }
+      ],
+      "sintesis": {
+        "titulo": "Génesis en una mirada",
+        "texto": "Génesis presenta a Dios como Creador de un mundo bueno y a la humanidad como portadora de Su imagen y responsable de cuidar la creación. La desconfianza rompe la comunión y sus consecuencias se extienden hacia la violencia, la corrupción y la dispersión. Sin embargo, Dios no abandona Su propósito. Después de Babel llama a Abraham y establece una promesa de descendencia, tierra y bendición para todas las familias. La historia continúa mediante Abraham, Isaac, Jacob, José y una familia marcada por fe, temor, espera, rivalidad, engaño y reconciliación. La promesa sobrevive a cada amenaza porque depende primero de la fidelidad de Dios. Génesis termina en Egipto, lejos de la tierra prometida, pero con una familia preservada y un futuro que permanece abierto. Para los seguidores de Jesús, estas promesas no quedan encerradas en Génesis. El Nuevo Testamento presenta a Jesús como Aquel por medio de quien la bendición prometida a Abraham alcanza a las naciones y como el comienzo de la nueva creación que Dios está formando."
+      },
+      "fraseAncla": "La promesa sobrevive a cada fracaso humano porque su futuro depende primero de la fidelidad de Dios."
+    },
+    {
+      "tipo": "recursos",
+      "titulo": "Para comprender mejor",
+      "descripcion": "Recursos seleccionados para observar la estructura y profundizar cuando lo desees.",
+      "introduccion": "Estos recursos pueden ayudar a reconocer los grandes movimientos, conexiones y temas de Génesis. No reemplazan la lectura del libro ni definen por sí solos su interpretación. Funcionan como acompañamiento para regresar al texto con mejores preguntas y una visión más clara del conjunto."
     }
   ],
-  "recursos": [
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Génesis 1–11 · Video resumen",
-      "detalle": "Video · Panorama de los orígenes",
-      "url": "https://proyectobiblia.com/explore/book-overviews/genesis-1-11/"
+  "recursos": {
+    "poster": {
+      "fuente": "Proyecto Biblia",
+      "titulo": "Génesis · Póster visual",
+      "descripcion": "El movimiento completo del libro: Dios y el mundo; Dios y la familia de Abraham.",
+      "preview": "estudios/intros/assets/genesis/genesis-poster-preview.jpg",
+      "full": "estudios/intros/assets/genesis/genesis-poster-full.jpg",
+      "alt": "Póster visual del libro de Génesis"
     },
-    {
-      "tipo": "bibleproject",
-      "fuente": "BibleProject en Español",
-      "titulo": "Génesis 12–50 · Video resumen",
-      "detalle": "Video · La historia de los patriarcas",
-      "url": "https://proyectobiblia.com/explore/book-overviews/genesis-12-50/"
-    },
-    {
-      "tipo": "rightnow",
-      "fuente": "RightNow Media en Español",
-      "titulo": "Génesis · Tráiler de la serie",
-      "detalle": "Video · Para ver la serie completa, suscríbete al College",
-      "url": "https://youtu.be/EPpIh__P3IA",
-      "nota": "college_link"
-    }
-  ]
+    "videos": [
+      {
+        "fuente": "BibleProject en Español",
+        "titulo": "Panorama de Génesis",
+        "descripcion": "Dos videos para observar la estructura y los grandes movimientos del libro.",
+        "items": [
+          {
+            "etiqueta": "Génesis 1–11",
+            "titulo": "Dios y el mundo",
+            "youtubeId": "EIg-9xxZxzc"
+          },
+          {
+            "etiqueta": "Génesis 12–50",
+            "titulo": "Dios y la familia de Abraham",
+            "youtubeId": "MC8BqGu9B8A"
+          }
+        ]
+      }
+    ],
+    "miniseries": [],
+    "rightnow": [
+      {
+        "fuente": "RightNow Media en Español",
+        "titulo": "Génesis",
+        "descripcion": "Serie complementaria para profundizar en el libro.",
+        "trailer": {
+          "etiqueta": "Tráiler de la serie",
+          "titulo": "Génesis · Tráiler de la serie",
+          "youtubeId": "EPpIh__P3IA"
+        },
+        "acceso": {
+          "label": "VER EN RIGHTNOW MEDIA",
+          "url": null,
+          "estado": "proximamente",
+          "abrirEnNuevaPestana": true
+        }
+      }
+    ],
+    "recomendaciones": [
+      {
+        "tipo": "libro",
+        "estado": "Lectura recomendada",
+        "lomo": "GÉNESIS",
+        "titulo": "Génesis: Introducción y comentario",
+        "fuente": "Derek Kidner",
+        "descripcion": "Un comentario claro, conciso y profundo que recorre todo Génesis y ayuda a comprender sus grandes movimientos, sus tensiones y su teología sin perder de vista el texto bíblico. Kidner aborda con equilibrio temas como la creación, la caída, la promesa, los patriarcas y la fidelidad de Dios dentro de historias humanas reales."
+      }
+    ]
+  },
+  "cierre": {
+    "eyebrow": "YA VISTE EL COMIENZO",
+    "titulo": "Ahora entra a la historia",
+    "texto": "Ya conoces la estructura, las promesas y las tensiones que atraviesan Génesis. Ahora recorre cada capítulo y observa cómo el Dios creador continúa sosteniendo Su propósito dentro de historias humanas reales.",
+    "firma": "La introducción orienta. La Escritura permanece en el centro."
+  },
+  "config": {
+    "acordeonInicial": null,
+    "mostrarHiloDorado": true
+  }
 }

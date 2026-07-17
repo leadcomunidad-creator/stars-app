@@ -1,0 +1,772 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lhscol.local/schemas/estudios-v2.schema.json",
+  "title": "S.T.A.R.S. Estudios V2",
+  "description": "Contrato de contenido para un estudio bíblico de diez estaciones. No contiene estilos ni estado del usuario.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "meta",
+    "sections"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "studyId",
+        "bookId",
+        "book",
+        "chapter",
+        "sectionCount",
+        "source"
+      ],
+      "properties": {
+        "studyId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "bookId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "book": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chapter": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sectionCount": {
+          "const": 10
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "translation",
+            "heading",
+            "internalSignature",
+            "visibility"
+          ],
+          "properties": {
+            "translation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "heading": {
+              "type": "string",
+              "minLength": 1
+            },
+            "internalSignature": {
+              "type": "string",
+              "minLength": 1
+            },
+            "visibility": {
+              "const": "internal"
+            }
+          }
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "prefixItems": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "texto"
+            },
+            "order": {
+              "const": 1
+            },
+            "label": {
+              "const": "Texto del capítulo"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "verseBlocks"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "blocks"
+              ],
+              "properties": {
+                "blocks": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "range",
+                      "text"
+                    ],
+                    "properties": {
+                      "range": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "panorama"
+            },
+            "order": {
+              "const": 2
+            },
+            "label": {
+              "const": "Panorama"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "editorialParagraphs"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "paragraphs"
+              ],
+              "properties": {
+                "paragraphs": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/richParagraph"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "recorrido"
+            },
+            "order": {
+              "const": 3
+            },
+            "label": {
+              "const": "Recorrido"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "timeline"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "stops",
+                "closing"
+              ],
+              "properties": {
+                "stops": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "range",
+                      "title",
+                      "text"
+                    ],
+                    "properties": {
+                      "range": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "title": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                },
+                "closing": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "ideas"
+            },
+            "order": {
+              "const": 4
+            },
+            "label": {
+              "const": "Ideas clave"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "ideaAccordion"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "title",
+                      "paragraphs"
+                    ],
+                    "properties": {
+                      "title": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "minLength": 1
+                      },
+                      "paragraphs": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "joyas"
+            },
+            "order": {
+              "const": 5
+            },
+            "label": {
+              "const": "Joyas del texto"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "lexicalCards"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "cards"
+              ],
+              "properties": {
+                "cards": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "range",
+                      "original",
+                      "translation",
+                      "explanation"
+                    ],
+                    "properties": {
+                      "range": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "original": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "translation": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "explanation": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "conexiones"
+            },
+            "order": {
+              "const": 6
+            },
+            "label": {
+              "const": "Conexiones"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "connectionAccordion"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "items"
+              ],
+              "properties": {
+                "items": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "reference",
+                      "title",
+                      "paragraphs"
+                    ],
+                    "properties": {
+                      "reference": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "minLength": 1
+                      },
+                      "title": {
+                        "type": [
+                          "string",
+                          "null"
+                        ],
+                        "minLength": 1
+                      },
+                      "paragraphs": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "jesus"
+            },
+            "order": {
+              "const": 7
+            },
+            "label": {
+              "const": "Jesús en el capítulo"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "narrativeWithAnchor"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "paragraphs",
+                "anchor"
+              ],
+              "properties": {
+                "paragraphs": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "anchor": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "ensenar"
+            },
+            "order": {
+              "const": 8
+            },
+            "label": {
+              "const": "Para enseñar"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "teachingBlocks"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "blocks"
+              ],
+              "properties": {
+                "blocks": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "heading",
+                      "paragraphs"
+                    ],
+                    "properties": {
+                      "heading": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "paragraphs": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "responder"
+            },
+            "order": {
+              "const": 9
+            },
+            "label": {
+              "const": "Para responder"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "reflectionQuestions"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "questions"
+              ],
+              "properties": {
+                "questions": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label",
+                      "text"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "text": {
+                        "type": "string",
+                        "minLength": 1
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "id",
+            "order",
+            "label",
+            "sourceTitle",
+            "type",
+            "content"
+          ],
+          "properties": {
+            "id": {
+              "const": "llevar"
+            },
+            "order": {
+              "const": 10
+            },
+            "label": {
+              "const": "Para llevar"
+            },
+            "sourceTitle": {
+              "type": "string",
+              "minLength": 1
+            },
+            "type": {
+              "const": "closingQuote"
+            },
+            "content": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "quote",
+                "reference",
+                "reflection"
+              ],
+              "properties": {
+                "quote": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reference": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "reflection": {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "items": false
+    }
+  },
+  "$defs": {
+    "inlineRun": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "text"
+      ],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "emphasis": {
+          "enum": [
+            "strong",
+            "em"
+          ]
+        }
+      }
+    },
+    "richParagraph": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "text"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "runs"
+          ],
+          "properties": {
+            "runs": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/inlineRun"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
