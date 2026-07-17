@@ -159,7 +159,10 @@
               "const": 2
             },
             "label": {
-              "const": "Panorama"
+              "enum": [
+                "Contexto",
+                "Panorama"
+              ]
             },
             "sourceTitle": {
               "type": "string",
@@ -379,7 +382,7 @@
                     "properties": {
                       "range": {
                         "type": "string",
-                        "minLength": 1
+                        "pattern": "^[1-9]\\d*(?:-[1-9]\\d*)?$"
                       },
                       "original": {
                         "type": "string",

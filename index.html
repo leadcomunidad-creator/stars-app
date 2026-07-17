@@ -7073,29 +7073,42 @@ function toggleCapLibro(nombre,hdr){
 let _ecapSecActual = 0;
 let _ecapKey = '';
 
-const ESTUDIO_V2_LUCAS_KEY = 'Lucas_15';
-const ESTUDIO_V2_LUCAS_URL = '/estudios/v2/lucas15_estudio_v2.json';
-const estudioV2Memoria = { lucas15: null, estados: {} };
+const estudioV2Memoria = { estudios: {}, estados: {} };
 
-function estudioV2EsLucas15(key){
-  return key === ESTUDIO_V2_LUCAS_KEY;
+function estudioV2SlugLibro(libro){
+  return String(libro || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '');
+}
+
+function estudioV2DatosKey(key){
+  const parts = String(key || '').split('_');
+  const chapter = parseInt(parts.pop(), 10);
+  const book = parts.join(' ');
+  const slug = estudioV2SlugLibro(book);
+  if(slug !== 'lucas' || !Number.isInteger(chapter) || chapter < 1 || chapter > 24) return null;
+  return { book, chapter, slug, title: book + ' ' + chapter, url: '/estudios/v2/' + slug + chapter + '_estudio_v2.json' };
 }
 
 async function cargarEstudioV2(key){
-  if(!estudioV2EsLucas15(key)) return null;
-  if(estudioV2Memoria.lucas15) return estudioV2Memoria.lucas15;
-  const res = await fetch(ESTUDIO_V2_LUCAS_URL, { cache: 'no-store' });
-  if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + ESTUDIO_V2_LUCAS_URL);
+  const datos = estudioV2DatosKey(key);
+  if(!datos) return null;
+  if(estudioV2Memoria.estudios[key]) return estudioV2Memoria.estudios[key];
+  const res = await fetch(datos.url, { cache: 'no-store' });
+  if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + datos.url);
   const data = await res.json();
-  validarEstudioV2Lucas15(data);
-  estudioV2Memoria.lucas15 = data;
+  validarEstudioV2(data, datos);
+  estudioV2Memoria.estudios[key] = data;
   return data;
 }
 
-function validarEstudioV2Lucas15(data){
+function validarEstudioV2(data, datos){
   if(!data || data.schemaVersion !== '1.0.0') throw new Error('schemaVersion V2 invalido');
-  if(!data.meta || data.meta.studyId !== 'lucas-15') throw new Error('studyId V2 invalido');
-  if(!Array.isArray(data.sections) || data.sections.length !== 10) throw new Error('Lucas 15 V2 debe tener 10 secciones');
+  if(!data.meta || data.meta.studyId !== datos.slug + '-' + datos.chapter) throw new Error('studyId V2 invalido');
+  if(estudioV2SlugLibro(data.meta.book) !== datos.slug || data.meta.chapter !== datos.chapter) throw new Error('meta V2 invalido');
+  if(!Array.isArray(data.sections) || data.sections.length !== 10) throw new Error(datos.title + ' V2 debe tener 10 secciones');
   const ids = new Set();
   data.sections.forEach((sec, idx) => {
     if(sec.order !== idx + 1) throw new Error('Orden V2 invalido en seccion ' + (idx + 1));
@@ -7105,13 +7118,13 @@ function validarEstudioV2Lucas15(data){
 }
 
 async function abrirEstudioV2SiAplica(key, contexto){
-  if(!estudioV2EsLucas15(key)) return false;
+  if(!estudioV2DatosKey(key)) return false;
   try{
     const estudio = await cargarEstudioV2(key);
     renderEstudioV2(estudio, { key, contexto });
     return true;
   }catch(e){
-    console.warn('[STARS] Lucas 15 V2 no disponible, usando V1:', e.message);
+    console.warn('[STARS] Estudio V2 no disponible, usando V1:', e.message);
     return false;
   }
 }
@@ -7154,10 +7167,35 @@ function estudioV2PrimerTexto(item){
   return item.title || item.heading || item.reference || '';
 }
 
-function estudioV2RenderSeccion(sec, estado){
+function estudioV2LabelVisible(sec){
+  return sec && sec.id === 'panorama' && sec.order === 2 && sec.type === 'editorialParagraphs'
+    ? 'Contexto'
+    : sec.label;
+}
+
+function estudioV2RangoJoya(range){
+  if(typeof range === 'string'){
+    if(/^[1-9]\d*$/.test(range)) return 'v. ' + range;
+    if(/^[1-9]\d*-[1-9]\d*$/.test(range)) return 'vv. ' + range;
+  }
+  console.warn('[Estudios V2] Rango de Joya inválido:', range);
+  return String(range == null ? '' : range);
+}
+
+function estudioV2Titulo(estudio){
+  const meta = estudio && estudio.meta ? estudio.meta : {};
+  return (meta.book || '') + (meta.chapter ? ' ' + meta.chapter : '');
+}
+
+function estudioV2SlugEstudio(estudio){
+  const meta = estudio && estudio.meta ? estudio.meta : {};
+  return estudioV2SlugLibro(meta.book) + (meta.chapter || '');
+}
+
+function estudioV2RenderSeccion(sec, estado, estudio){
   const c = sec.content || {};
   if(sec.type === 'verseBlocks'){
-    return '<section class="est-v2-verse-blocks"><div class="est-v2-verse-col"><div class="est-v2-eyebrow">Lucas 15 &middot; ' + estudioV2Esc(sec.label) + '</div>' +
+    return '<section class="est-v2-verse-blocks"><div class="est-v2-verse-col"><div class="est-v2-eyebrow">' + estudioV2Esc(estudioV2Titulo(estudio)) + ' &middot; ' + estudioV2Esc(sec.label) + '</div>' +
       (c.blocks || []).map(block => '<div class="est-v2-verse"><span class="est-v2-range">' + estudioV2Esc(block.range) + '</span><div class="est-v2-verse-text">' + estudioV2Esc(block.text) + '</div></div>').join('') +
       '</div></section>';
   }
@@ -7173,7 +7211,7 @@ function estudioV2RenderSeccion(sec, estado){
     return estudioV2RenderIdeas(sec, estado);
   }
   if(sec.type === 'lexicalCards'){
-    return '<section class="est-v2-lexical"><div class="est-v2-lex-grid">' + (c.cards || []).map(card => '<article class="est-v2-lex-card"><div class="est-v2-lex-range">vv. ' + estudioV2Esc(card.range) + '</div><div class="est-v2-lex-original">&ldquo;' + estudioV2Esc(card.original) + '&rdquo;</div><div class="est-v2-lex-translation">' + estudioV2Esc(card.translation) + '</div><div class="est-v2-lex-explanation">' + estudioV2Esc(card.explanation) + '</div></article>').join('') + '</div></section>';
+    return '<section class="est-v2-lexical"><div class="est-v2-lex-grid">' + (c.cards || []).map(card => '<article class="est-v2-lex-card"><div class="est-v2-lex-range">' + estudioV2Esc(estudioV2RangoJoya(card.range)) + '</div><div class="est-v2-lex-original">&ldquo;' + estudioV2Esc(card.original) + '&rdquo;</div><div class="est-v2-lex-translation">' + estudioV2Esc(card.translation) + '</div><div class="est-v2-lex-explanation">' + estudioV2Esc(card.explanation) + '</div></article>').join('') + '</div></section>';
   }
   if(sec.type === 'connectionAccordion'){
     return estudioV2RenderConexiones(sec, estado);
@@ -7189,7 +7227,7 @@ function estudioV2RenderSeccion(sec, estado){
   }
   if(sec.type === 'closingQuote'){
     const imagen = estado.imagen || { estilo:'clasico', formato:'9:16' };
-    return '<section class="est-v2-closing"><div class="est-v2-closing-eyebrow">' + estudioV2Esc(sec.label) + '</div><div class="est-v2-quote">&ldquo;' + estudioV2Esc(c.quote) + '&rdquo;</div><div class="est-v2-ref">' + estudioV2Esc(c.reference) + '</div>' + (c.reflection || []).map(t => '<div class="est-v2-reflection">' + estudioV2Esc(t) + '</div>').join('') + '<div class="est-v2-download-label">Imagen descargable</div><div class="est-v2-image-styles">' + [['clasico','Cl&aacute;sica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op => '<button class="est-v2-image-style ' + (imagen.estilo === op[0] ? 'is-active' : '') + '" data-est-v2-image-style="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-image-formats">' + [['9:16','Historia 9:16'],['1:1','Cuadrado 1:1']].map(op => '<button class="est-v2-image-format ' + (imagen.formato === op[0] ? 'is-active' : '') + '" data-est-v2-image-format="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div><a class="est-v2-download" download="frase-stars-lucas-15.png" href="#">Descargar imagen PNG</a></section>';
+    return '<section class="est-v2-closing"><div class="est-v2-closing-eyebrow">' + estudioV2Esc(estudioV2LabelVisible(sec)) + '</div><div class="est-v2-quote">&ldquo;' + estudioV2Esc(c.quote) + '&rdquo;</div><div class="est-v2-ref">' + estudioV2Esc(c.reference) + '</div>' + (c.reflection || []).map(t => '<div class="est-v2-reflection">' + estudioV2Esc(t) + '</div>').join('') + '<div class="est-v2-download-label">Imagen descargable</div><div class="est-v2-image-styles">' + [['clasico','Cl&aacute;sica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op => '<button class="est-v2-image-style ' + (imagen.estilo === op[0] ? 'is-active' : '') + '" data-est-v2-image-style="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-image-formats">' + [['9:16','Historia 9:16'],['1:1','Cuadrado 1:1']].map(op => '<button class="est-v2-image-format ' + (imagen.formato === op[0] ? 'is-active' : '') + '" data-est-v2-image-format="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div><a class="est-v2-download" download="frase-stars-' + estudioV2Esc(estudioV2SlugEstudio(estudio)) + '.png" href="#">Descargar imagen PNG</a></section>';
   }
   return '<section class="est-v2-paragraphs"><div class="est-v2-paragraph-col"><p class="est-v2-p">Secci&oacute;n V2 no reconocida.</p></div></section>';
 }
@@ -7207,7 +7245,9 @@ function estudioV2RenderIdeas(sec, estado){
   const open = estado.abiertos[sec.id];
   return '<section class="est-v2-ideas">' + items.map((item, i) => {
     const isOpen = open === i;
-    return '<div class="est-v2-idea-item ' + (isOpen ? 'is-open' : '') + '"><button class="est-v2-idea-btn" data-est-v2-toggle="' + estudioV2Esc(sec.id + ':' + i) + '"><span class="est-v2-idea-num">' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-copy"><span class="est-v2-idea-kicker">Idea ' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-preview">' + estudioV2Esc(estudioV2Resumen(item, 78)) + '</span></span><span class="est-v2-plus">+</span></button><div class="est-v2-acc-body"><div class="est-v2-acc-inner"><div class="est-v2-idea-body">' + (item.paragraphs || []).map(t => '<p class="est-v2-p">' + estudioV2Esc(t) + '</p>').join('') + '</div></div></div></div>';
+    const title = typeof item.title === 'string' ? item.title.trim() : '';
+    const preview = title || estudioV2PrimerTexto({ paragraphs:item.paragraphs || [] });
+    return '<div class="est-v2-idea-item ' + (isOpen ? 'is-open' : '') + '"><button class="est-v2-idea-btn" data-est-v2-toggle="' + estudioV2Esc(sec.id + ':' + i) + '"><span class="est-v2-idea-num">' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-copy"><span class="est-v2-idea-kicker">Idea ' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-preview">' + estudioV2Esc(estudioV2Resumen(preview, 78)) + '</span></span><span class="est-v2-plus">+</span></button><div class="est-v2-acc-body"><div class="est-v2-acc-inner"><div class="est-v2-idea-body">' + (item.paragraphs || []).map(t => '<p class="est-v2-p">' + estudioV2Esc(t) + '</p>').join('') + '</div></div></div></div>';
   }).join('') + '</section>';
 }
 
@@ -7243,18 +7283,19 @@ function renderEstudioV2(estudio, contexto){
   const total = secciones.length;
   const progreso = Math.round((estado.recorridas.length / total) * 100);
   const completado = estado.recorridas.length === total;
+  const titulo = estudioV2Titulo(estudio);
   const rootHtml = '<div class="est-v2-root" data-context="' + estudioV2Esc(contexto.contexto) + '" data-key="' + estudioV2Esc(contexto.key) + '">' +
-    estudioV2Header() + estudioV2Progreso(secciones, estado, progreso, completado) + estudioV2Nav(secciones, estado) +
-    '<div class="est-v2-stage">' + estudioV2RenderSeccion(actual, estado) + '</div>' + estudioV2Footer(total, estado, completado) + '</div>';
+    estudioV2Header(estudio) + estudioV2Progreso(secciones, estado, progreso, completado) + estudioV2Nav(secciones, estado) +
+    '<div class="est-v2-stage">' + estudioV2RenderSeccion(actual, estado, estudio) + '</div>' + estudioV2Footer(total, estado, completado) + '</div>';
 
   if(contexto.contexto === 'desktop'){
-    dskWsShow('Lucas 15', rootHtml);
+    dskWsShow(titulo, rootHtml);
     document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
     const scroller = document.getElementById('dsk-ws-content');
     if(scroller) scroller.scrollTop = 0;
     estudioV2Bind(document.getElementById('dsk-ws-inner'), estudio, contexto);
   }else{
-    document.getElementById('ecap-titulo').textContent = 'Lucas 15';
+    document.getElementById('ecap-titulo').textContent = titulo;
     const nav = document.getElementById('ecap-nav');
     if(nav) nav.innerHTML = '';
     const progress = document.getElementById('ecap-progress');
@@ -7268,8 +7309,8 @@ function renderEstudioV2(estudio, contexto){
   if(actual.type === 'closingQuote') setTimeout(() => estudioV2DibujarFrase(contexto), 0);
 }
 
-function estudioV2Header(){
-  return '<header class="est-v2-head"><div class="est-v2-brand">S &middot; T &middot; A &middot; R &middot; S</div><h2 class="est-v2-title">Lucas 15</h2><div class="est-v2-sub">Estudio profundo &middot; 10 estaciones</div></header>';
+function estudioV2Header(estudio){
+  return '<header class="est-v2-head"><div class="est-v2-brand">S &middot; T &middot; A &middot; R &middot; S</div><h2 class="est-v2-title">' + estudioV2Esc(estudioV2Titulo(estudio)) + '</h2><div class="est-v2-sub">Estudio profundo &middot; 10 estaciones</div></header>';
 }
 
 function estudioV2Progreso(secciones, estado, progreso, completado){
@@ -7280,7 +7321,7 @@ function estudioV2Progreso(secciones, estado, progreso, completado){
 }
 
 function estudioV2Nav(secciones, estado){
-  return '<nav class="est-v2-nav">' + secciones.map(sec => '<button class="' + (estado.actual === sec.order ? 'is-active ' : '') + (estado.recorridas.indexOf(sec.order) !== -1 ? 'is-visited' : '') + '" data-est-v2-go="' + sec.order + '"><span class="est-v2-nav-num">' + String(sec.order).padStart(2,'0') + '</span>' + estudioV2Esc(sec.label) + '</button>').join('') + '</nav>';
+  return '<nav class="est-v2-nav">' + secciones.map(sec => '<button class="' + (estado.actual === sec.order ? 'is-active ' : '') + (estado.recorridas.indexOf(sec.order) !== -1 ? 'is-visited' : '') + '" data-est-v2-go="' + sec.order + '"><span class="est-v2-nav-num">' + String(sec.order).padStart(2,'0') + '</span>' + estudioV2Esc(estudioV2LabelVisible(sec)) + '</button>').join('') + '</nav>';
 }
 
 function estudioV2Footer(total, estado, completado){
@@ -7361,8 +7402,9 @@ function estudioV2DibujarFrase(contexto){
     const host = contexto.contexto === 'desktop' ? document.getElementById('dsk-ws-inner') : document.getElementById('ecap-body');
     const root = host && host.querySelector('.est-v2-root');
     const canvas = root && root.querySelector('.est-v2-canvas');
-    if(!canvas || !estudioV2Memoria.lucas15) return;
-    const sec = estudioV2Memoria.lucas15.sections.find(s => s.type === 'closingQuote');
+    const estudio = estudioV2Memoria.estudios[contexto.key];
+    if(!canvas || !estudio) return;
+    const sec = estudio.sections.find(s => s.type === 'closingQuote');
     if(!sec) return;
     const ctx = canvas.getContext('2d');
     if(!ctx) return;
