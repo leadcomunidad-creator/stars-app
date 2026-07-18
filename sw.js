@@ -1,17 +1,20 @@
 /* ══════════════════════════════════════════════
-   S.T.A.R.S. · Service Worker v6
+   S · T · A · R · S · Service Worker v7
    Shell: Network-first (actualización automática)
    JSON dinámicos: Network-first (sin cache agresivo)
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v6';
+const CACHE_NAME = 'stars-v7';
 const SHELL_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
   '/logo.png',
   '/icons/stars-favicon.png',
+  '/icons/apple-touch-icon.png',
   '/icons/icon-192.png',
-  '/icons/icon-512.png'
+  '/icons/icon-512.png',
+  '/icons/icon-maskable-192.png',
+  '/icons/icon-maskable-512.png'
 ];
 
 // INSTALL — precache del shell
