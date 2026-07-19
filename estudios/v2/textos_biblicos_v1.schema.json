@@ -1,0 +1,371 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://lhscol.local/schemas/textos-biblicos-v1.schema.json",
+  "title": "S.T.A.R.S. Textos bíblicos complementarios V1",
+  "description": "Contrato opcional y reutilizable para capas MSG y NBLA asociadas a un estudio V2. El complemento se activa de forma atómica: si el documento completo o sus validaciones cruzadas fallan, el renderer debe usar Texto y Joyas del estudio V2 actual.",
+  "$comment": "Validaciones cruzadas externas obligatorias: unicidad global de identificadores; unicidad y continuidad de órdenes dentro de cada colección; existencia real de versículos y cláusulas referenciadas; correspondencia entre studyId, libro, capítulo y el JSON V2; continuidad canónica; ausencia de versículos duplicados; reconstrucción literal de versículos divididos; fidelidad frente a las fuentes maestras; e integridad completa antes de activar el complemento.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "meta",
+    "sources",
+    "credits",
+    "msgBlocks",
+    "nblaVerses",
+    "jewels"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "1.0.0"
+    },
+    "meta": {
+      "$ref": "#/$defs/meta"
+    },
+    "sources": {
+      "$ref": "#/$defs/sources"
+    },
+    "credits": {
+      "description": "Créditos de las fuentes bíblicas, almacenados una sola vez para evitar duplicación por bloque.",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "msgBlocks": {
+      "description": "Bloques editoriales MSG en su orden original. Contienen MSG inglés y español, y solo referencias hacia el texto canónico NBLA.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/msgBlock"
+      }
+    },
+    "nblaVerses": {
+      "description": "Lista canónica NBLA. Cada versículo se representa una sola vez mediante texto completo o cláusulas literales.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/nblaVerse"
+      }
+    },
+    "jewels": {
+      "description": "Joyas editoriales con MSG inglés, MSG español, referencias NBLA y explicación. No duplican texto NBLA.",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/jewel"
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "identifier": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "positiveOrder": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "studyId",
+        "bookId",
+        "book",
+        "chapter"
+      ],
+      "properties": {
+        "studyId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "bookId": {
+          "$ref": "#/$defs/identifier"
+        },
+        "book": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "chapter": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "sources": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "msg",
+        "nbla"
+      ],
+      "properties": {
+        "msg": {
+          "$ref": "#/$defs/msgSource"
+        },
+        "nbla": {
+          "$ref": "#/$defs/nblaSource"
+        }
+      }
+    },
+    "msgSource": {
+      "description": "Identidad de MSG como fuente editorial bilingüe. La jerarquía visual se implementa en el renderer, no en los datos.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "originalLanguage",
+        "translatedLanguage",
+        "role"
+      ],
+      "properties": {
+        "id": {
+          "const": "msg"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "originalLanguage": {
+          "const": "en"
+        },
+        "translatedLanguage": {
+          "const": "es"
+        },
+        "role": {
+          "const": "editorial"
+        }
+      }
+    },
+    "nblaSource": {
+      "description": "Identidad de NBLA como texto bíblico canónico de referencia.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "name",
+        "language",
+        "role"
+      ],
+      "properties": {
+        "id": {
+          "const": "nbla"
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "language": {
+          "const": "es"
+        },
+        "role": {
+          "const": "canonical-reference"
+        }
+      }
+    },
+    "bilingualMsg": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "en",
+        "es"
+      ],
+      "properties": {
+        "en": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "es": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    },
+    "nblaReference": {
+      "description": "Referencia a un versículo NBLA completo o a una lista no vacía de sus cláusulas. fullVerse y clauseIds son alternativas excluyentes.",
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "verseId",
+            "fullVerse"
+          ],
+          "properties": {
+            "verseId": {
+              "$ref": "#/$defs/identifier"
+            },
+            "fullVerse": {
+              "const": true
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "verseId",
+            "clauseIds"
+          ],
+          "properties": {
+            "verseId": {
+              "$ref": "#/$defs/identifier"
+            },
+            "clauseIds": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": {
+                "$ref": "#/$defs/identifier"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "msgBlock": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "order",
+        "editorialRange",
+        "msg",
+        "nblaRefs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "order": {
+          "$ref": "#/$defs/positiveOrder"
+        },
+        "editorialRange": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "msg": {
+          "$ref": "#/$defs/bilingualMsg"
+        },
+        "nblaRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/nblaReference"
+          }
+        }
+      }
+    },
+    "clause": {
+      "description": "Fragmento literal de un versículo canónico dividido entre bloques editoriales. Su reconstrucción exacta se valida externamente.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "order",
+        "text"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "order": {
+          "$ref": "#/$defs/positiveOrder"
+        },
+        "text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "separatorBefore": {
+          "type": "string"
+        }
+      }
+    },
+    "nblaVerse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "number"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "text": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "clauses": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/clause"
+          }
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "text"
+          ],
+          "not": {
+            "required": [
+              "clauses"
+            ]
+          }
+        },
+        {
+          "required": [
+            "clauses"
+          ],
+          "not": {
+            "required": [
+              "text"
+            ]
+          }
+        }
+      ]
+    },
+    "jewel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "order",
+        "range",
+        "msg",
+        "nblaRefs",
+        "explanation"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/identifier"
+        },
+        "order": {
+          "$ref": "#/$defs/positiveOrder"
+        },
+        "range": {
+          "type": "string",
+          "pattern": "^[1-9]\\d*(?:-[1-9]\\d*)?$"
+        },
+        "msg": {
+          "$ref": "#/$defs/bilingualMsg"
+        },
+        "nblaRefs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/nblaReference"
+          }
+        },
+        "explanation": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    }
+  }
+}
