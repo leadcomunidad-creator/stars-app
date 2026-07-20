@@ -1,0 +1,712 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El arrepentimiento bíblico conduce a una reorientación real de la vida delante de Dios. La NBLA fija su contenido al nombrar el arrepentimiento y el perdón de los pecados; MSG vuelve visible su consecuencia mediante la expresión «cambio de vida». La frase no reduce el arrepentimiento a mejoramiento personal ni enseña que el cambio humano produzca el perdón: presenta la nueva dirección que nace de volver a Dios.",
+      "id": "lucas3-joya-01",
+      "msg": {
+        "en": "“a baptism of life-change”",
+        "es": "«un bautismo de cambio de vida»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-03b"
+          ],
+          "verseId": "lucas3-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-6"
+    },
+    {
+      "explanation": "Un rito externo no sustituye la transformación que corresponde al arrepentimiento verdadero. La NBLA fija el criterio mediante el fruto; MSG vuelve concreta la advertencia al contrastar la vida con la piel mojada. La imagen no desprecia el bautismo, sino su uso como cobertura religiosa cuando una persona se niega a cambiar de dirección.",
+      "id": "lucas3-joya-02",
+      "msg": {
+        "en": "“It’s your life that must change, not your skin.”",
+        "es": "«Lo que necesita cambiar es su vida, no solamente su piel»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-08b"
+          ],
+          "verseId": "lucas3-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-9"
+    },
+    {
+      "explanation": "La respuesta a Dios se hace visible en el fruto de una vida concreta. La NBLA protege el sentido al relacionar el fruto con el juicio de Dios; MSG concentra el examen en la vida que realmente se está viviendo. El texto no enseña salvación por desempeño: el fruto es evidencia de arrepentimiento, no el precio mediante el cual una persona compra el perdón.",
+      "id": "lucas3-joya-03",
+      "msg": {
+        "en": "“What counts is your life.”",
+        "es": "«Lo que cuenta es la vida que están viviendo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-09b"
+          ],
+          "verseId": "lucas3-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "7-9"
+    },
+    {
+      "explanation": "El liderazgo profético cumple su función cuando reconoce la superioridad absoluta de Jesús y dirige hacia Él toda atención. La NBLA fija la humildad de Juan mediante la imagen del siervo indigno; MSG la vuelve visible con la figura de alguien que trabaja detrás del escenario. La metáfora teatral no disminuye la misión de Juan ni convierte el ministerio en espectáculo: subraya que Cristo es el protagonista.",
+      "id": "lucas3-joya-04",
+      "msg": {
+        "en": "“a mere stagehand”",
+        "es": "«apenas alguien que trabaja detrás del escenario»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-16b"
+          ],
+          "verseId": "lucas3-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16-17"
+    },
+    {
+      "explanation": "La llegada del Mesías incluye una obra de purificación y juicio que separa lo verdadero de lo falso. La NBLA fija la imagen agrícola de la era, el trigo y la paja; MSG la traslada pastoralmente a una limpieza que alcanza toda la vida. La ampliación no permite reducir el juicio a una sensación interior ni afirmar que todo fuego bíblico significa únicamente renovación: el contexto conserva la advertencia de la paja que será quemada.",
+      "id": "lucas3-joya-05",
+      "msg": {
+        "en": "“He’s going to clean house”",
+        "es": "«Hará una limpieza completa»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-17a"
+          ],
+          "verseId": "lucas3-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    },
+    {
+      "explanation": "La misión pública de Jesús comienza desde su identidad filial y desde el deleite del Padre. La NBLA fija la declaración central: Jesús es el Hijo amado en quien el Padre se complace; MSG vuelve visible pastoralmente ese amor como una marca que lo identifica. La expansión no enseña que Jesús haya sido adoptado como Hijo en el bautismo ni que su identidad naciera en ese momento: la escena revela públicamente quién es.",
+      "id": "lucas3-joya-06",
+      "msg": {
+        "en": "“chosen and marked by my love”",
+        "es": "«elegido y marcado por mi amor»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas3-nbla-22b"
+          ],
+          "verseId": "lucas3-nbla-22"
+        }
+      ],
+      "order": 6,
+      "range": "21-22"
+    }
+  ],
+  "meta": {
+    "book": "Lucas",
+    "bookId": "lucas",
+    "chapter": 3,
+    "studyId": "lucas-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "lucas3-msg-01",
+      "msg": {
+        "en": "In the fifteenth year of the rule of Caesar Tiberius—it was while Pontius Pilate was governor of Judea; Herod, ruler of Galilee; his brother Philip, ruler of Iturea and Trachonitis; Lysanias, ruler of Abilene; during the Chief-Priesthood of Annas and Caiaphas—John, Zachariah’s son, out in the desert at the time, received a message from God. He went all through the country around the Jordan River preaching a baptism of life-change leading to forgiveness of sins, as described in the words of Isaiah the prophet:\nThunder in the desert!\n“Prepare God’s arrival!\nMake the road smooth and straight!\nEvery ditch will be filled in,\nEvery bump smoothed out, The detours straightened out,\nAll the ruts paved over.\nEveryone will be there to see\nThe parade of God’s salvation.”",
+        "es": "En el año quince del gobierno del emperador Tiberio —cuando Poncio Pilato gobernaba Judea; Herodes, Galilea; Felipe, hermano de Herodes, las regiones de Iturea y Traconite; y Lisanias, Abilinia; durante el liderazgo religioso de Anás y Caifás— Juan, hijo de Zacarías, que por entonces vivía en el desierto, recibió un mensaje de Dios. Recorrió toda la región alrededor del río Jordán anunciando un bautismo de cambio de vida que conducía al perdón de los pecados, tal como lo describió el profeta Isaías:\n\n«¡Trueno en el desierto!\n“¡Preparen la llegada de Dios!\n¡Alisen y enderecen el camino!\nCada zanja será rellenada,\ncada bache quedará nivelado,\nlos desvíos serán enderezados\ny todos los surcos serán pavimentados.\nTodos estarán allí para ver\nel desfile de la salvación de Dios”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "lucas3-msg-02",
+      "msg": {
+        "en": "When crowds of people came out for baptism because it was the popular thing to do, John exploded: “Brood of snakes! What do you think you’re doing slithering down here to the river? Do you think a little water on your snakeskins is going to deflect God’s judgment? It’s your life that must change, not your skin. And don’t think you can pull rank by claiming Abraham as ‘father.’ Being a child of Abraham is neither here nor there—children of Abraham are a dime a dozen. God can make children from stones if he wants. What counts is your life. Is it green and blossoming? Because if it’s deadwood, it goes on the fire.”",
+        "es": "Muchas personas comenzaron a acercarse para ser bautizadas porque aquello se había vuelto popular. Juan estalló: «¡Camada de serpientes! ¿Qué creen que están haciendo al venir deslizándose hasta el río? ¿Piensan que un poco de agua sobre su piel de serpiente puede desviarlas del juicio de Dios? Lo que necesita cambiar es su vida, no solamente su piel. Tampoco crean que pueden reclamar privilegios diciendo: “Abraham es nuestro padre”. Ser descendiente de Abraham no les concede ninguna ventaja especial; hijos de Abraham hay por montones. Dios puede sacar hijos de estas piedras si quiere. Lo que cuenta es la vida que están viviendo. ¿Está verde y floreciendo? Porque si está muerta, es leña seca y va al fuego»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10",
+      "id": "lucas3-msg-03",
+      "msg": {
+        "en": "The crowd asked him, “Then what are we supposed to do?”",
+        "es": "La multitud preguntó: «Entonces, ¿qué debemos hacer?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11",
+      "id": "lucas3-msg-04",
+      "msg": {
+        "en": "“If you have two coats, give one away,” he said. “Do the same with your food.”",
+        "es": "Juan respondió: «Si alguien tiene dos abrigos, que entregue uno a quien no tiene ninguno. Y hagan lo mismo con la comida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12",
+      "id": "lucas3-msg-05",
+      "msg": {
+        "en": "Tax men also came to be baptized and said, “Teacher, what should we do?”",
+        "es": "Algunos recaudadores de impuestos también llegaron para ser bautizados y preguntaron: «Maestro, ¿qué debemos hacer nosotros?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13",
+      "id": "lucas3-msg-06",
+      "msg": {
+        "en": "He told them, “No more extortion—collect only what is required by law.”",
+        "es": "Juan les contestó: «Se acabó la extorsión. No cobren más de lo que la ley exige»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14",
+      "id": "lucas3-msg-07",
+      "msg": {
+        "en": "Soldiers asked him, “And what should we do?”\nHe told them, “No shakedowns, no blackmail—and be content with your rations.”",
+        "es": "También unos soldados preguntaron: «¿Y nosotros qué debemos hacer?». Juan respondió: «Nada de hostigamiento ni chantaje; aprendan a estar satisfechos con sus raciones»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-14"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "15",
+      "id": "lucas3-msg-08",
+      "msg": {
+        "en": "The interest of the people by now was building. They were all beginning to wonder, “Could this John be the Messiah?”",
+        "es": "La expectativa entre la gente continuaba creciendo. Todos comenzaban a preguntarse: «¿Será Juan el Mesías?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "lucas3-msg-09",
+      "msg": {
+        "en": "But John intervened: “I’m baptizing you here in the river. The main character in this drama, to whom I’m a mere stagehand, will ignite the kingdom life, a fire, the Holy Spirit within you, changing you from the inside out. He’s going to clean house—make a clean sweep of your lives. He’ll place everything true in its proper place before God; everything false he’ll put out with the trash to be burned.”",
+        "es": "Juan intervino para aclararlo: «Yo los bautizo aquí, en el río, pero el personaje principal de este drama está por llegar. Frente a él, yo soy apenas alguien que trabaja detrás del escenario. Él encenderá la vida del Reino dentro de ustedes: un fuego, el Espíritu Santo, transformándolos desde lo más profundo. Hará una limpieza completa, barrerá sus vidas de un extremo al otro. Pondrá delante de Dios todo lo verdadero en el lugar que le corresponde y sacará todo lo falso con la basura para que sea quemado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-17"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "lucas3-msg-10",
+      "msg": {
+        "en": "There was a lot more of this—words that gave strength to the people, words that put heart in them. The Message! But Herod, the ruler, stung by John’s rebuke in the matter of Herodias, his brother Philip’s wife, capped his long string of evil deeds with this outrage: He put John in jail.",
+        "es": "Hubo mucho más de esto: palabras que fortalecían a la gente, palabras que les devolvían el ánimo. ¡El Mensaje! Pero Herodes, el gobernante, herido por la reprensión de Juan respecto de Herodías, la esposa de su hermano Felipe, coronó su larga lista de maldades con una nueva atrocidad: metió a Juan en la cárcel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-20"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "lucas3-msg-11",
+      "msg": {
+        "en": "After all the people were baptized, Jesus was baptized. As he was praying, the sky opened up and the Holy Spirit, like a dove descending, came down on him. And along with the Spirit, a voice: “You are my Son, chosen and marked by my love, pride of my life.”",
+        "es": "Después de que todo el pueblo fue bautizado, Jesús también recibió el bautismo. Mientras oraba, el cielo se abrió y el Espíritu Santo descendió sobre él como una paloma. Y junto con el Espíritu se escuchó una voz: «Tú eres mi Hijo, elegido y marcado por mi amor; eres el orgullo de mi vida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-22"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "23-38",
+      "id": "lucas3-msg-12",
+      "msg": {
+        "en": "When Jesus entered public life he was about thirty years old, the son (in public perception) of Joseph, who was—\nson of Heli,\nson of Matthat,\nson of Levi,\nson of Melki,\nson of Jannai,\nson of Joseph,\nson of Mattathias,\nson of Amos,\nson of Nahum,\nson of Esli,\nson of Naggai,\nson of Maath,\nson of Mattathias,\nson of Semein,\nson of Josech,\nson of Joda,\nson of Joanan,\nson of Rhesa,\nson of Zerubbabel,\nson of Shealtiel,\nson of Neri,\nson of Melchi,\nson of Addi,\nson of Cosam,\nson of Elmadam,\nson of Er,\nson of Joshua,\nson of Eliezer,\nson of Jorim,\nson of Matthat,\nson of Levi,\nson of Simeon,\nson of Judah,\nson of Joseph,\nson of Jonam,\nson of Eliakim,\nson of Melea,\nson of Menna,\nson of Mattatha,\nson of Nathan,\nson of David,\nson of Jesse,\nson of Obed,\nson of Boaz,\nson of Salmon,\nson of Nahshon,\nson of Amminadab,\nson of Admin,\nson of Arni,\nson of Hezron,\nson of Perez,\nson of Judah,\nson of Jacob,\nson of Isaac,\nson of Abraham,\nson of Terah,\nson of Nahor,\nson of Serug,\nson of Reu,\nson of Peleg,\nson of Eber,\nson of Shelah,\nson of Kenan,\nson of Arphaxad,\nson of Shem,\nson of Noah,\nson of Lamech,\nson of Methuselah,\nson of Enoch,\nson of Jared,\nson of Mahalaleel,\nson of Kenan,\nson of Enos,\nson of Seth,\nson of Adam,\nson of God.",
+        "es": "Cuando Jesús comenzó su vida pública tenía aproximadamente treinta años. La gente lo consideraba hijo de José.\n\nJosé era hijo de Elí;\nElí, hijo de Matat;\nMatat, hijo de Leví;\nLeví, hijo de Melqui;\nMelqui, hijo de Janai;\nJanai, hijo de José;\nJosé, hijo de Matatías;\nMatatías, hijo de Amós;\nAmós, hijo de Nahúm;\nNahúm, hijo de Esli;\nEsli, hijo de Nagai;\nNagai, hijo de Maat;\nMaat, hijo de Matatías;\nMatatías, hijo de Semei;\nSemei, hijo de Josec;\nJosec, hijo de Jodá;\nJodá, hijo de Joanán;\nJoanán, hijo de Resa;\nResa, hijo de Zorobabel;\nZorobabel, hijo de Salatiel;\nSalatiel, hijo de Neri;\nNeri, hijo de Melqui;\nMelqui, hijo de Adi;\nAdi, hijo de Cosam;\nCosam, hijo de Elmadam;\nElmadam, hijo de Er;\nEr, hijo de Josué;\nJosué, hijo de Eliezer;\nEliezer, hijo de Jorim;\nJorim, hijo de Matat;\nMatat, hijo de Leví;\nLeví, hijo de Simeón;\nSimeón, hijo de Judá;\nJudá, hijo de José;\nJosé, hijo de Jonán;\nJonán, hijo de Eliaquim;\nEliaquim, hijo de Melea;\nMelea, hijo de Mená;\nMená, hijo de Matata;\nMatata, hijo de Natán;\nNatán, hijo de David;\nDavid, hijo de Isaí;\nIsaí, hijo de Obed;\nObed, hijo de Booz;\nBooz, hijo de Salmón;\nSalmón, hijo de Naasón;\nNaasón, hijo de Aminadab;\nAminadab, hijo de Admin;\nAdmin, hijo de Arni;\nArni, hijo de Hezrón;\nHezrón, hijo de Fares;\nFares, hijo de Judá;\nJudá, hijo de Jacob;\nJacob, hijo de Isaac;\nIsaac, hijo de Abraham;\nAbraham, hijo de Taré;\nTaré, hijo de Nacor;\nNacor, hijo de Serug;\nSerug, hijo de Ragau;\nRagau, hijo de Peleg;\nPeleg, hijo de Heber;\nHeber, hijo de Sala;\nSala, hijo de Cainán;\nCainán, hijo de Arfaxad;\nArfaxad, hijo de Sem;\nSem, hijo de Noé;\nNoé, hijo de Lamec;\nLamec, hijo de Matusalén;\nMatusalén, hijo de Enoc;\nEnoc, hijo de Jared;\nJared, hijo de Mahalaleel;\nMahalaleel, hijo de Cainán;\nCainán, hijo de Enós;\nEnós, hijo de Set;\nSet, hijo de Adán;\ny Adán, hijo de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas3-nbla-38"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "lucas3-nbla-01",
+      "number": 1,
+      "text": "En el año quince del imperio de Tiberio César, siendo Poncio Pilato gobernador de Judea, y Herodes tetrarca de Galilea, y su hermano Felipe tetrarca de la región de Iturea y Traconite, y Lisanias tetrarca de Abilinia,"
+    },
+    {
+      "id": "lucas3-nbla-02",
+      "number": 2,
+      "text": "durante el sumo sacerdocio de Anás y Caifás, vino la palabra de Dios a Juan, hijo de Zacarías, en el desierto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-03a",
+          "order": 1,
+          "text": "Y Juan fue por toda la región alrededor del Jordán, predicando"
+        },
+        {
+          "id": "lucas3-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "un bautismo de arrepentimiento para el perdón de los pecados"
+        },
+        {
+          "id": "lucas3-nbla-03c",
+          "order": 3,
+          "text": ";"
+        }
+      ],
+      "id": "lucas3-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "lucas3-nbla-04",
+      "number": 4,
+      "text": "como está escrito en el libro de las palabras del profeta Isaías:\n«VOZ DEL QUE CLAMA EN EL DESIERTO:\n“PREPAREN EL CAMINO DEL SEÑOR,\nHAGAN DERECHAS SUS SENDAS."
+    },
+    {
+      "id": "lucas3-nbla-05",
+      "number": 5,
+      "text": "TODO VALLE SERÁ RELLENADO,\nY TODO MONTE Y COLLADO REBAJADO;\nLO TORCIDO SE HARA RECTO,\nY LAS SENDAS ÁSPERAS se volverán CAMINOS LLANOS;"
+    },
+    {
+      "id": "lucas3-nbla-06",
+      "number": 6,
+      "text": "Y TODA CARNE VERÁ LA SALVACIÓN DE DIOS”»."
+    },
+    {
+      "id": "lucas3-nbla-07",
+      "number": 7,
+      "text": "Por eso, Juan decía a las multitudes que acudían para que él las bautizara: «¡Camada de víboras! ¿Quién les enseñó a huir de la ira que vendrá?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-08a",
+          "order": 1,
+          "text": "Por tanto,"
+        },
+        {
+          "id": "lucas3-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "den frutos dignos de arrepentimiento"
+        },
+        {
+          "id": "lucas3-nbla-08c",
+          "order": 3,
+          "text": "; y no comiencen a decirse a ustedes mismos: “Tenemos a Abraham por padre”, porque les digo que Dios puede levantar hijos a Abraham de estas piedras."
+        }
+      ],
+      "id": "lucas3-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-09a",
+          "order": 1,
+          "text": "El hacha ya está puesta a la raíz de los árboles; por tanto,"
+        },
+        {
+          "id": "lucas3-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todo árbol que no da buen fruto es cortado y echado al fuego"
+        },
+        {
+          "id": "lucas3-nbla-09c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas3-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "lucas3-nbla-10",
+      "number": 10,
+      "text": "Y las multitudes le preguntaban: «¿Qué, pues, haremos?»."
+    },
+    {
+      "id": "lucas3-nbla-11",
+      "number": 11,
+      "text": "Juan les respondía: «El que tiene dos túnicas, comparta con el que no tiene; y el que tiene qué comer, haga lo mismo»."
+    },
+    {
+      "id": "lucas3-nbla-12",
+      "number": 12,
+      "text": "Vinieron también unos recaudadores de impuestos para ser bautizados, y le dijeron: «Maestro, ¿qué haremos?»."
+    },
+    {
+      "id": "lucas3-nbla-13",
+      "number": 13,
+      "text": "«No exijan más de lo que se les ha ordenado», les respondió Juan."
+    },
+    {
+      "id": "lucas3-nbla-14",
+      "number": 14,
+      "text": "También algunos soldados le preguntaban: «Y nosotros, ¿qué haremos?». «A nadie quiten dinero por la fuerza», les dijo, «ni a nadie acusen falsamente, y conténtense con su salario»."
+    },
+    {
+      "id": "lucas3-nbla-15",
+      "number": 15,
+      "text": "Como el pueblo estaba a la expectativa, y todos se preguntaban en sus corazones acerca de Juan, si no sería él el Cristo,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-16a",
+          "order": 1,
+          "text": "Juan les habló a todos: «Yo los bautizo con agua; pero viene Uno que es más poderoso que yo, a quien"
+        },
+        {
+          "id": "lucas3-nbla-16b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no soy digno de desatar la correa de Sus sandalias"
+        },
+        {
+          "id": "lucas3-nbla-16c",
+          "order": 3,
+          "text": ". Él los bautizará con el Espíritu Santo y fuego."
+        }
+      ],
+      "id": "lucas3-nbla-16",
+      "number": 16
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-17a",
+          "order": 1,
+          "text": "El bieldo está en Su mano para limpiar completamente Su era"
+        },
+        {
+          "id": "lucas3-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y recoger el trigo en Su granero; pero quemará la paja en un fuego que no se apaga»."
+        }
+      ],
+      "id": "lucas3-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "lucas3-nbla-18",
+      "number": 18,
+      "text": "Y también con muchas otras exhortaciones Juan anunciaba las buenas nuevas al pueblo."
+    },
+    {
+      "id": "lucas3-nbla-19",
+      "number": 19,
+      "text": "Pero Herodes el tetrarca, siendo reprendido por él por causa de Herodías, mujer de su hermano, y por todas las maldades que Herodes había hecho,"
+    },
+    {
+      "id": "lucas3-nbla-20",
+      "number": 20,
+      "text": "añadió además a todas ellas, esta: que encerró a Juan en la cárcel."
+    },
+    {
+      "id": "lucas3-nbla-21",
+      "number": 21,
+      "text": "Y aconteció que cuando todo el pueblo era bautizado, Jesús también fue bautizado; y mientras Él oraba, el cielo se abrió,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas3-nbla-22a",
+          "order": 1,
+          "text": "y el Espíritu Santo descendió sobre Él en forma corporal, como una paloma, y vino una voz del cielo, que decía: «"
+        },
+        {
+          "id": "lucas3-nbla-22b",
+          "order": 2,
+          "text": "Tú eres Mi Hijo amado, en Ti me he complacido"
+        },
+        {
+          "id": "lucas3-nbla-22c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas3-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "lucas3-nbla-23",
+      "number": 23,
+      "text": "Cuando Jesús comenzó Su ministerio, tenía unos treinta años, siendo, como se suponía, hijo de José, quien era hijo de Elí,"
+    },
+    {
+      "id": "lucas3-nbla-24",
+      "number": 24,
+      "text": "y Elí, de Matat; Matat, de Leví; Leví, de Melqui; Melqui, de Jana; Jana, de José;"
+    },
+    {
+      "id": "lucas3-nbla-25",
+      "number": 25,
+      "text": "José, de Matatías; Matatías, de Amós; Amós, de Nahúm; Nahúm, de Esli; Esli, de Nagai;"
+    },
+    {
+      "id": "lucas3-nbla-26",
+      "number": 26,
+      "text": "Nagai, de Maat; Maat, de Matatías; Matatías, de Semei; Semei, de José; José, de Judá;"
+    },
+    {
+      "id": "lucas3-nbla-27",
+      "number": 27,
+      "text": "Judá, de Joana; Joana, de Resa; Resa, de Zorobabel; Zorobabel, de Salatiel; Salatiel, de Neri;"
+    },
+    {
+      "id": "lucas3-nbla-28",
+      "number": 28,
+      "text": "Neri, de Melqui; Melqui, de Adi; Adi, de Cosam; Cosam, de Elmodam; Elmodam, de Er;"
+    },
+    {
+      "id": "lucas3-nbla-29",
+      "number": 29,
+      "text": "Er, de Josué; Josué, de Eliezer; Eliezer, de Jorim; Jorim, de Matat; Matat, de Leví;"
+    },
+    {
+      "id": "lucas3-nbla-30",
+      "number": 30,
+      "text": "Leví, de Simeón; Simeón, de Judá; Judá, de José; José, de Jonán; Jonán, de Eliaquim;"
+    },
+    {
+      "id": "lucas3-nbla-31",
+      "number": 31,
+      "text": "Eliaquim, de Melea; Melea, de Mainán; Mainán, de Matata; Matata, de Natán; Natán, de David;"
+    },
+    {
+      "id": "lucas3-nbla-32",
+      "number": 32,
+      "text": "David, de Isaí; Isaí, de Obed; Obed, de Booz; Booz, de Salmón; Salmón, de Naasón;"
+    },
+    {
+      "id": "lucas3-nbla-33",
+      "number": 33,
+      "text": "Naasón, de Aminadab; Aminadab, de Admín; Admín, de Aram; Aram, de Esrom; Esrom, de Fares; Fares, de Judá;"
+    },
+    {
+      "id": "lucas3-nbla-34",
+      "number": 34,
+      "text": "Judá, de Jacob; Jacob, de Isaac; Isaac, de Abraham; Abraham, de Taré; Taré, de Nacor;"
+    },
+    {
+      "id": "lucas3-nbla-35",
+      "number": 35,
+      "text": "Nacor, de Serug; Serug, de Ragau; Ragau, de Peleg; Peleg, de Heber; Heber, de Sala;"
+    },
+    {
+      "id": "lucas3-nbla-36",
+      "number": 36,
+      "text": "Sala, de Cainán; Cainán, de Arfaxad; Arfaxad, de Sem; Sem, de Noé; Noé, de Lamec;"
+    },
+    {
+      "id": "lucas3-nbla-37",
+      "number": 37,
+      "text": "Lamec, de Matusalén; Matusalén, de Enoc; Enoc, de Jared; Jared, de Mahalaleel; Mahalaleel, de Cainán;"
+    },
+    {
+      "id": "lucas3-nbla-38",
+      "number": 38,
+      "text": "Cainán, de Enós; Enós, de Set; Set, de Adán; y Adán, de Dios."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

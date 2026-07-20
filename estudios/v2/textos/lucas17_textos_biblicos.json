@@ -1,0 +1,780 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La gracia del Reino mantiene unidas la verdad y la restauración. La NBLA fija la secuencia de pecado, reprensión, arrepentimiento y perdón. MSG hace visible esa responsabilidad como una atención activa hacia un amigo que se desvía. La expresión no autoriza control, humillación ni encubrimiento de abuso; la corrección busca recuperar y el perdón responde a un arrepentimiento real.",
+      "id": "lucas17-joya-01",
+      "msg": {
+        "en": "\"Be alert. If you see your friend going wrong, correct him. If he responds, forgive him.\"",
+        "es": "\"Manténganse alerta. Si ven que su amigo va por mal camino, corríjanlo. Si responde, perdónenlo.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La eficacia de la fe depende de Dios, no de una sensación humana de grandeza. La NBLA conserva la comparación con un grano de mostaza y la autoridad de la palabra confiada. MSG vuelve visible la pequeñez mediante una semilla diminuta. La imagen no enseña que toda orden pronunciada con intensidad deba cumplirse; llama a obedecer a Jesús sin esperar sentir que poseemos una fe impresionante.",
+      "id": "lucas17-joya-02",
+      "msg": {
+        "en": "\"If you have a bare kernel of faith, say the size of a poppy seed\"",
+        "es": "\"Si tienen apenas un grano de fe, digamos del tamaño de una semilla de amapola\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-06b"
+          ],
+          "verseId": "lucas17-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6"
+    },
+    {
+      "explanation": "La obediencia no convierte a Dios en deudor del discípulo. La NBLA conserva la fuerza de una confesión que renuncia a reclamar mérito especial. MSG la expresa como una sobriedad sencilla después de cumplir la tarea. El pasaje no niega que Dios ame, recompense o valore a sus hijos; confronta la actitud que utiliza el servicio para exigir posición, reconocimiento o control sobre Dios.",
+      "id": "lucas17-joya-03",
+      "msg": {
+        "en": "\"The work is done. What we were told to do, we did.\"",
+        "es": "\"El trabajo está terminado. Hicimos lo que se nos dijo que hiciéramos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-10b"
+          ],
+          "verseId": "lucas17-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "7-10"
+    },
+    {
+      "explanation": "La restauración comienza con una apelación a la misericordia de Jesús. La NBLA y MSG coinciden en presentar a los diez hombres reconociendo su necesidad y la autoridad del Maestro. No ofrecen méritos ni procedimientos; claman desde la distancia. La fe bíblica no es autosuficiencia religiosa, sino una confianza que se acerca a Jesús porque sabe que no puede limpiarse a sí misma.",
+      "id": "lucas17-joya-04",
+      "msg": {
+        "en": "\"Jesus, Master, have mercy on us!\"",
+        "es": "\"¡Jesús, Maestro, ten misericordia de nosotros!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-13b"
+          ],
+          "verseId": "lucas17-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "11-13"
+    },
+    {
+      "explanation": "La gratitud convierte el don recibido en reconocimiento del Dador. La NBLA fija que el hombre vuelve glorificando a Dios en alta voz, y MSG hace audible la abundancia de su agradecimiento. La gratitud no completa una sanidad defectuosa ni compra una bendición adicional; revela que el samaritano comprendió que su restauración lo llamaba de regreso a los pies de Jesús.",
+      "id": "lucas17-joya-05",
+      "msg": {
+        "en": "\"came back, shouting his gratitude, glorifying God\"",
+        "es": "\"regresó dando gracias a gritos y glorificando a Dios\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-15b"
+          ],
+          "verseId": "lucas17-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "14-16"
+    },
+    {
+      "explanation": "El Reino está presente porque el Rey actúa en medio de ellos. La NBLA fija la ubicación relacional de la frase: el Reino está «entre ustedes», no reducido a una experiencia interior privada. MSG destaca que esa realidad ya ha comenzado. La presencia actual no elimina la futura revelación del Hijo del Hombre; permite vivir hoy bajo un gobierno que un día será manifestado plenamente.",
+      "id": "lucas17-joya-06",
+      "msg": {
+        "en": "\"God’s kingdom is already among you.\"",
+        "es": "\"El Reino de Dios ya está entre ustedes\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-21b"
+          ],
+          "verseId": "lucas17-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "20-21"
+    },
+    {
+      "explanation": "La vida verdadera no puede recibirse mientras la autopreservación gobierna todas las decisiones. La NBLA establece la paradoja: quien procura preservar su vida termina perdiéndola. MSG hace visible el problema como un aferrarse a la vida bajo términos propios. Jesús no glorifica la destrucción ni prohíbe cuidar la vida; llama a soltar el control absoluto para recibir la vida definida por el Reino.",
+      "id": "lucas17-joya-07",
+      "msg": {
+        "en": "\"If you grasp and cling to life on your terms, you’ll lose it\"",
+        "es": "\"Si se aferran a la vida bajo sus propios términos, la perderán\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-33a"
+          ],
+          "verseId": "lucas17-nbla-33"
+        }
+      ],
+      "order": 7,
+      "range": "31-33"
+    }
+  ],
+  "meta": {
+    "book": "Lucas",
+    "bookId": "lucas",
+    "chapter": 17,
+    "studyId": "lucas-17"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "lucas17-msg-01",
+      "msg": {
+        "en": "He said to his disciples, “Hard trials and temptations are bound to come, but too bad for whoever brings them on! Better to wear a millstone necklace and take a swim in the deep blue sea than give even one of these dear little ones a hard time!",
+        "es": "Jesús dijo a sus discípulos: «Las pruebas difíciles y las tentaciones inevitablemente llegarán, pero ¡pobre de quien las provoque! Más le valdría ponerse una piedra de molino como collar y darse un baño en alta mar que hacer tropezar siquiera a uno de estos pequeños queridos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "lucas17-msg-02",
+      "msg": {
+        "en": "“Be alert. If you see your friend going wrong, correct him. If he responds, forgive him. Even if it’s personal against you and repeated seven times through the day, and seven times he says, ‘I’m sorry, I won’t do it again,’ forgive him.”",
+        "es": "»Manténganse alerta. Si ven que su amigo va por mal camino, corríjanlo. Si responde, perdónenlo. Aunque lo haga contra ustedes siete veces en un mismo día y siete veces vuelva diciendo: “Lo siento; no lo haré de nuevo”, perdónenlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "lucas17-msg-03",
+      "msg": {
+        "en": "The apostles came up and said to the Master, “Give us more faith.”",
+        "es": "Los apóstoles se acercaron y dijeron al Maestro: «Danos más fe»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "lucas17-msg-04",
+      "msg": {
+        "en": "But the Master said, “You don’t need more faith. There is no ‘more’ or ‘less’ in faith. If you have a bare kernel of faith, say the size of a poppy seed, you could say to this sycamore tree, ‘Go jump in the lake,’ and it would do it.",
+        "es": "Pero el Maestro respondió: «No necesitan más fe. En la fe no existe un “más” o un “menos”. Si tienen apenas un grano de fe, digamos del tamaño de una semilla de amapola, podrían decirle a este sicómoro: “Ve y lánzate al lago”, y lo haría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-10",
+      "id": "lucas17-msg-05",
+      "msg": {
+        "en": "“Suppose one of you has a servant who comes in from plowing the field or tending the sheep. Would you take his coat, set the table, and say, ‘Sit down and eat’? Wouldn’t you be more likely to say, ‘Prepare dinner; change your clothes and wait table for me until I’ve finished my coffee; then go to the kitchen and have your supper’? Does the servant get special thanks for doing what’s expected of him? It’s the same with you. When you’ve done everything expected of you, be matter-of-fact and say, ‘The work is done. What we were told to do, we did.’”",
+        "es": "»Supongan que uno de ustedes tiene un siervo que regresa después de arar el campo o cuidar las ovejas. ¿Le quitarían el abrigo, pondrían la mesa y le dirían: “Siéntate a comer”? ¿No sería más probable que le dijeran: “Prepara la cena; cámbiate de ropa y atiéndeme a la mesa hasta que termine mi café; después ve a la cocina y cena tú”? ¿Recibe el siervo un agradecimiento especial por hacer lo que se esperaba de él? Lo mismo ocurre con ustedes. Cuando hayan hecho todo lo que se esperaba, tómenlo con naturalidad y digan: “El trabajo está terminado. Hicimos lo que se nos dijo que hiciéramos”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "lucas17-msg-06",
+      "msg": {
+        "en": "It happened that as he made his way toward Jerusalem, he crossed over the border between Samaria and Galilee. As he entered a village, ten men, all lepers, met him. They kept their distance but raised their voices, calling out, “Jesus, Master, have mercy on us!”",
+        "es": "Mientras Jesús avanzaba hacia Jerusalén, cruzó la frontera entre Samaria y Galilea. Al entrar en una aldea, salieron a su encuentro diez hombres, todos enfermos de lepra. Mantuvieron la distancia, pero levantaron la voz y gritaron: «¡Jesús, Maestro, ten misericordia de nosotros!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "lucas17-msg-07",
+      "msg": {
+        "en": "Taking a good look at them, he said, “Go, show yourselves to the priests.” They went, and while still on their way, became clean. One of them, when he realized that he was healed, turned around and came back, shouting his gratitude, glorifying God. He kneeled at Jesus’ feet, so grateful. He couldn’t thank him enough—and he was a Samaritan.",
+        "es": "Jesús los miró detenidamente y dijo: «Vayan y preséntense ante los sacerdotes». Ellos se pusieron en camino y, mientras todavía avanzaban, quedaron limpios. Uno de ellos, cuando comprendió que había sido sanado, dio la vuelta y regresó dando gracias a gritos y glorificando a Dios. Se arrodilló a los pies de Jesús, profundamente agradecido. No encontraba palabras suficientes para darle gracias; y era samaritano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-16"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "lucas17-msg-08",
+      "msg": {
+        "en": "Jesus said, “Were not ten healed? Where are the nine? Can none be found to come back and give glory to God except this outsider?” Then he said to him, “Get up. On your way. Your faith has healed and saved you.”",
+        "es": "Jesús dijo: «¿No fueron sanados los diez? ¿Dónde están los otros nueve? ¿No apareció ninguno para regresar y dar gloria a Dios, excepto este extranjero?». Después le dijo: «Ponte de pie y sigue tu camino. Tu fe te ha sanado y salvado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-19"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "lucas17-msg-09",
+      "msg": {
+        "en": "Jesus, grilled by the Pharisees on when the kingdom of God would come, answered, “The kingdom of God doesn’t come by counting the days on the calendar. Nor when someone says, ‘Look here!’ or, ‘There it is!’ And why? Because God’s kingdom is already among you.”",
+        "es": "Los fariseos presionaron a Jesús para que dijera cuándo llegaría el Reino de Dios. Él respondió: «El Reino de Dios no llega contando los días en el calendario. Tampoco aparecerá cuando alguien diga: “¡Miren aquí!” o “¡Allí está!”. ¿Y saben por qué? El Reino de Dios ya está entre ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-21"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "lucas17-msg-10",
+      "msg": {
+        "en": "He went on to say to his disciples, “The days are coming when you are going to be desperately homesick for just a glimpse of one of the days of the Son of Man, and you won’t see a thing. And they’ll say to you, ‘Look over there!’ or, ‘Look here!’ Don’t fall for any of that nonsense. The arrival of the Son of Man is not something you go out to see. He simply comes.",
+        "es": "Después dijo a sus discípulos: «Vendrán días en que sentirán una nostalgia desesperada por contemplar siquiera un destello de uno de los días del Hijo del Hombre, pero no verán nada. Les dirán: “¡Miren allá!” o “¡Miren aquí!”. No caigan en esa tontería. La llegada del Hijo del Hombre no es algo que tengan que salir a buscar. Él simplemente llega."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-23"
+        },
+        {
+          "clauseIds": [
+            "lucas17-nbla-24a"
+          ],
+          "verseId": "lucas17-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "lucas17-msg-11",
+      "msg": {
+        "en": "“You know how the whole sky lights up from a single flash of lightning? That’s how it will be on the Day of the Son of Man. But first it’s necessary that he suffer many things and be turned down by the people of today.",
+        "es": "»¿Saben cómo un solo relámpago ilumina todo el cielo? Así será el Día del Hijo del Hombre. Pero antes es necesario que sufra muchas cosas y sea rechazado por la gente de hoy."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas17-nbla-24b"
+          ],
+          "verseId": "lucas17-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-25"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "lucas17-msg-12",
+      "msg": {
+        "en": "“The time of the Son of Man will be just like the time of Noah—everyone carrying on as usual, having a good time right up to the day Noah boarded the ship. They suspected nothing until the flood hit and swept everything away.",
+        "es": "»El tiempo del Hijo del Hombre será como el tiempo de Noé: todos seguían como si nada, disfrutando de la vida, hasta el día en que Noé entró en el barco. No sospecharon nada hasta que llegó el diluvio y se los llevó a todos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "lucas17-msg-13",
+      "msg": {
+        "en": "“It was the same in the time of Lot—the people carrying on, having a good time, business as usual right up to the day Lot walked out of Sodom and a firestorm swept down and burned everything to a crisp. That’s how it will be—sudden, total—when the Son of Man is revealed.",
+        "es": "»Lo mismo ocurrió en tiempos de Lot: la gente seguía como si nada, divirtiéndose y ocupándose de sus asuntos como de costumbre, hasta el día en que Lot salió de Sodoma. Entonces cayó una tormenta de fuego y lo quemó todo hasta dejarlo carbonizado. Así será —repentino y total— cuando el Hijo del Hombre sea revelado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-30"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "31-33",
+      "id": "lucas17-msg-14",
+      "msg": {
+        "en": "“When the Day arrives and you’re out working in the yard, don’t run into the house to get anything. And if you’re out in the field, don’t go back and get your coat. Remember what happened to Lot’s wife! If you grasp and cling to life on your terms, you’ll lose it, but if you let that life go, you’ll get life on God’s terms.",
+        "es": "»Cuando llegue el Día, si están trabajando en el patio, no entren corriendo a la casa para recoger nada. Si están en el campo, no regresen por el abrigo. ¡Recuerden lo que le ocurrió a la esposa de Lot! Si se aferran a la vida bajo sus propios términos, la perderán; pero si sueltan esa vida, recibirán la vida bajo los términos de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-33"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "lucas17-msg-15",
+      "msg": {
+        "en": "“On that Day, two men will be in the same boat fishing—one taken, the other left. Two women will be working in the same kitchen—one taken, the other left.”",
+        "es": "»En ese Día, dos hombres estarán pescando en la misma barca: uno será tomado y el otro quedará. Dos mujeres estarán trabajando en la misma cocina: una será tomada y la otra quedará»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-36"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "37",
+      "id": "lucas17-msg-16",
+      "msg": {
+        "en": "Trying to take all this in, the disciples said, “Master, where?”\nHe told them, “Watch for the circling of the vultures. They’ll spot the corpse first. The action will begin around my dead body.”",
+        "es": "Tratando de asimilar todo aquello, los discípulos preguntaron: «Maestro, ¿dónde?». Él respondió: «Estén atentos al vuelo circular de los buitres. Ellos encontrarán primero el cadáver. La acción comenzará alrededor de mi cuerpo muerto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas17-nbla-37"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "lucas17-nbla-01",
+      "number": 1,
+      "text": "Jesús dijo a Sus discípulos: «Es inevitable que vengan tropiezos, pero ¡ay de aquel por quien vienen!"
+    },
+    {
+      "id": "lucas17-nbla-02",
+      "number": 2,
+      "text": "Mejor le sería si se le colgara una piedra de molino al cuello y fuera arrojado al mar, que hacer tropezar a uno de estos pequeños."
+    },
+    {
+      "id": "lucas17-nbla-03",
+      "number": 3,
+      "text": "¡Tengan cuidado! Si tu hermano peca, repréndelo; y si se arrepiente, perdónalo."
+    },
+    {
+      "id": "lucas17-nbla-04",
+      "number": 4,
+      "text": "Y si peca contra ti siete veces al día, y vuelve a ti siete veces, diciendo: “Me arrepiento”, perdónalo»."
+    },
+    {
+      "id": "lucas17-nbla-05",
+      "number": 5,
+      "text": "Los apóstoles dijeron al Señor: «¡Auméntanos la fe!»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-06a",
+          "order": 1,
+          "text": "Entonces el Señor dijo: «"
+        },
+        {
+          "id": "lucas17-nbla-06b",
+          "order": 2,
+          "text": "Si tuvieran fe como un grano de mostaza"
+        },
+        {
+          "id": "lucas17-nbla-06c",
+          "order": 3,
+          "text": ", dirían a este sicómoro: “Desarráigate y plántate en el mar”, y les obedecería."
+        }
+      ],
+      "id": "lucas17-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "lucas17-nbla-07",
+      "number": 7,
+      "text": "»¿Quién de ustedes tiene un siervo arando o pastoreando ovejas, y cuando regresa del campo, le dice: “Ven enseguida y siéntate a comer”?"
+    },
+    {
+      "id": "lucas17-nbla-08",
+      "number": 8,
+      "text": "¿No le dirá más bien: “Prepárame algo para cenar, y vístete adecuadamente, y sírveme hasta que haya comido y bebido; y después comerás y beberás tú”?"
+    },
+    {
+      "id": "lucas17-nbla-09",
+      "number": 9,
+      "text": "¿Acaso le da las gracias al siervo porque hizo lo que se le ordenó?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-10a",
+          "order": 1,
+          "text": "Así también ustedes, cuando hayan hecho todo lo que se les ha ordenado, digan: “"
+        },
+        {
+          "id": "lucas17-nbla-10b",
+          "order": 2,
+          "text": "Siervos inútiles somos; hemos hecho solo lo que debíamos haber hecho"
+        },
+        {
+          "id": "lucas17-nbla-10c",
+          "order": 3,
+          "text": "”»."
+        }
+      ],
+      "id": "lucas17-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "lucas17-nbla-11",
+      "number": 11,
+      "text": "Aconteció que mientras Jesús iba camino a Jerusalén, pasaba entre Samaria y Galilea,"
+    },
+    {
+      "id": "lucas17-nbla-12",
+      "number": 12,
+      "text": "y al entrar en cierta aldea, le salieron al encuentro diez hombres leprosos, que se pararon a distancia,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-13a",
+          "order": 1,
+          "text": "y gritaron: «"
+        },
+        {
+          "id": "lucas17-nbla-13b",
+          "order": 2,
+          "text": "¡Jesús, Maestro! ¡Ten misericordia de nosotros!"
+        },
+        {
+          "id": "lucas17-nbla-13c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas17-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "lucas17-nbla-14",
+      "number": 14,
+      "text": "Cuando Él los vio, les dijo: «Vayan y muéstrense a los sacerdotes». Y sucedió que mientras iban, quedaron limpios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-15a",
+          "order": 1,
+          "text": "Entonces uno de ellos, al ver que había sido sanado,"
+        },
+        {
+          "id": "lucas17-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "se volvió glorificando a Dios en alta voz"
+        },
+        {
+          "id": "lucas17-nbla-15c",
+          "order": 3,
+          "text": "."
+        }
+      ],
+      "id": "lucas17-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "lucas17-nbla-16",
+      "number": 16,
+      "text": "Cayó sobre su rostro a los pies de Jesús, y le dio gracias; y este era samaritano."
+    },
+    {
+      "id": "lucas17-nbla-17",
+      "number": 17,
+      "text": "Jesús le preguntó: «¿No fueron diez los que quedaron limpios? Y los otros nueve, ¿dónde están?"
+    },
+    {
+      "id": "lucas17-nbla-18",
+      "number": 18,
+      "text": "¿No hubo ninguno que regresara a dar gloria a Dios, excepto este extranjero?»."
+    },
+    {
+      "id": "lucas17-nbla-19",
+      "number": 19,
+      "text": "Entonces le dijo: «Levántate y vete; tu fe te ha sanado»."
+    },
+    {
+      "id": "lucas17-nbla-20",
+      "number": 20,
+      "text": "Habiendo preguntado los fariseos a Jesús cuándo vendría el reino de Dios, Él les respondió: «El reino de Dios no viene con señales visibles,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-21a",
+          "order": 1,
+          "text": "ni dirán: “¡Miren, aquí está!” o: “¡Allí está!”. Porque,"
+        },
+        {
+          "id": "lucas17-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el reino de Dios está entre ustedes"
+        },
+        {
+          "id": "lucas17-nbla-21c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas17-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "lucas17-nbla-22",
+      "number": 22,
+      "text": "Y a los discípulos les dijo: «Vendrán días cuando ustedes ansiarán ver uno de los días del Hijo del Hombre, y no lo verán."
+    },
+    {
+      "id": "lucas17-nbla-23",
+      "number": 23,
+      "text": "Y les dirán: “¡Miren allí! ¡Miren aquí!”. No vayan, ni corran tras ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-24a",
+          "order": 1,
+          "text": "Porque como el relámpago al fulgurar resplandece desde un extremo del cielo hasta el otro extremo del cielo,"
+        },
+        {
+          "id": "lucas17-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "así será el Hijo del Hombre en Su día."
+        }
+      ],
+      "id": "lucas17-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "lucas17-nbla-25",
+      "number": 25,
+      "text": "Pero primero es necesario que Él padezca mucho y sea rechazado por esta generación."
+    },
+    {
+      "id": "lucas17-nbla-26",
+      "number": 26,
+      "text": "»Tal como ocurrió en los días de Noé, así será también en los días del Hijo del Hombre."
+    },
+    {
+      "id": "lucas17-nbla-27",
+      "number": 27,
+      "text": "Comían, bebían, se casaban y se daban en casamiento, hasta el día en que Noé entró en el arca, y vino el diluvio y los destruyó a todos."
+    },
+    {
+      "id": "lucas17-nbla-28",
+      "number": 28,
+      "text": "»Fue lo mismo que ocurrió en los días de Lot: comían, bebían, compraban, vendían, plantaban, construían;"
+    },
+    {
+      "id": "lucas17-nbla-29",
+      "number": 29,
+      "text": "pero el día en que Lot salió de Sodoma, llovió fuego y azufre del cielo y los destruyó a todos."
+    },
+    {
+      "id": "lucas17-nbla-30",
+      "number": 30,
+      "text": "»Lo mismo acontecerá el día en que el Hijo del Hombre sea revelado."
+    },
+    {
+      "id": "lucas17-nbla-31",
+      "number": 31,
+      "text": "En ese día, el que esté en la azotea y tenga sus bienes en casa, no descienda a llevárselos; y de igual modo, el que esté en el campo no vuelva atrás."
+    },
+    {
+      "id": "lucas17-nbla-32",
+      "number": 32,
+      "text": "Acuérdense de la mujer de Lot."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas17-nbla-33a",
+          "order": 1,
+          "text": "Todo el que procure preservar su vida, la perderá"
+        },
+        {
+          "id": "lucas17-nbla-33b",
+          "order": 2,
+          "text": "; y todo el que la pierda, la conservará."
+        }
+      ],
+      "id": "lucas17-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "lucas17-nbla-34",
+      "number": 34,
+      "text": "Les digo que en aquella noche dos estarán en una cama; uno será tomado y el otro será dejado."
+    },
+    {
+      "id": "lucas17-nbla-35",
+      "number": 35,
+      "text": "Dos mujeres estarán moliendo en el mismo lugar; una será tomada y la otra será dejada."
+    },
+    {
+      "id": "lucas17-nbla-36",
+      "number": 36,
+      "text": "Dos estarán en el campo; uno será tomado y el otro será dejado»."
+    },
+    {
+      "id": "lucas17-nbla-37",
+      "number": 37,
+      "text": "Respondiendo ellos, le dijeron*: «¿Dónde, Señor?». Y Él les dijo: «Donde esté el cuerpo, allí también se juntarán los buitres»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

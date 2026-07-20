@@ -1,0 +1,853 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La misión del Hijo comienza bajo la dirección activa del Espíritu, incluso cuando esa dirección lo conduce a un lugar de prueba. La NBLA fija que Jesús fue llevado por el Espíritu; MSG vuelve visible el carácter inhóspito del escenario mediante «the wild». Esta verdad no convierte al Espíritu en autor de la tentación ni enseña que toda dificultad sea una prueba enviada directamente por Dios: el Diablo es quien tienta y Jesús permanece fiel bajo la conducción del Espíritu.",
+      "id": "lucas4-joya-01",
+      "msg": {
+        "en": "“was led by the Spirit into the wild”",
+        "es": "«El Espíritu lo condujo al desierto»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-01b"
+          ],
+          "verseId": "lucas4-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La adoración verdadera exige una lealtad exclusiva que gobierna tanto las acciones como el corazón. La NBLA fija el mandato de adorar y servir únicamente al Señor; MSG vuelve concreta esa exclusividad como un corazón indiviso. La ampliación no añade un segundo requisito separado del texto: expresa pastoralmente la totalidad interior implicada en servir solo a Dios.",
+      "id": "lucas4-joya-02",
+      "msg": {
+        "en": "“Serve him with absolute single-heartedness.”",
+        "es": "«Sírvelo con una lealtad absoluta y un corazón indiviso»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-08b"
+          ],
+          "verseId": "lucas4-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "La presencia y misión de Jesús inauguran el tiempo decisivo del favor y la restauración de Dios. La NBLA conserva la formulación profética del «año favorable del Señor»; MSG vuelve visible que ese favor no es una idea pasiva, sino la acción de Dios entrando en la historia. La expresión no autoriza a fijar un año cronológico ni a reducir la misión a prosperidad personal: el contexto la define mediante buenas noticias, libertad, visión y liberación.",
+      "id": "lucas4-joya-03",
+      "msg": {
+        "en": "“This is God’s year to act!”",
+        "es": "«¡Este es el año en que Dios actúa!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-19b"
+          ],
+          "verseId": "lucas4-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "16-21"
+    },
+    {
+      "explanation": "En Jesús, la promesa profética deja de ser únicamente una esperanza leída y entra en cumplimiento histórico. La NBLA fija la afirmación explícita de que la Escritura se ha cumplido «hoy»; MSG vuelve concreta esa realidad al describir la Escritura haciendo historia delante de quienes escuchan. La imagen no significa que cualquier lectura bíblica produzca automáticamente un acontecimiento: el cumplimiento depende de la persona y misión únicas de Jesús.",
+      "id": "lucas4-joya-04",
+      "msg": {
+        "en": "“You’ve just heard Scripture make history.”",
+        "es": "«Acaban de escuchar cómo la Escritura hizo historia»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-21b"
+          ],
+          "verseId": "lucas4-nbla-21"
+        }
+      ],
+      "order": 4,
+      "range": "16-21"
+    },
+    {
+      "explanation": "La palabra de Jesús posee autoridad efectiva sobre los poderes que oprimen y produce la libertad que anuncia. La NBLA fija que Él manda con autoridad y poder; MSG vuelve visible el asombro de la multitud ante palabras que generan un resultado real. El texto no convierte toda declaración humana en una orden soberana ni ofrece una fórmula verbal: señala la autoridad singular del Santo de Dios.",
+      "id": "lucas4-joya-05",
+      "msg": {
+        "en": "“Someone whose words make things happen?”",
+        "es": "«¿Alguien cuyas palabras hacen que las cosas sucedan?»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-36b"
+          ],
+          "verseId": "lucas4-nbla-36"
+        }
+      ],
+      "order": 5,
+      "range": "36-37"
+    },
+    {
+      "explanation": "La misión recibida del Padre gobierna la dirección de Jesús por encima de la aceptación o la presión de una comunidad. La NBLA fija la necesidad de anunciar el Reino en otras ciudades porque para eso fue enviado; MSG presenta esa comisión como el trabajo que determina sus decisiones. La frase no desprecia a las multitudes ni convierte todo cambio de lugar en obediencia: muestra que Jesús discierne su misión desde el envío de Dios, no desde la popularidad.",
+      "id": "lucas4-joya-06",
+      "msg": {
+        "en": "“this is the work God sent me to do”",
+        "es": "«Ese es el trabajo para el cual Dios me envió»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas4-nbla-43b"
+          ],
+          "verseId": "lucas4-nbla-43"
+        }
+      ],
+      "order": 6,
+      "range": "42-44"
+    }
+  ],
+  "meta": {
+    "book": "Lucas",
+    "bookId": "lucas",
+    "chapter": 4,
+    "studyId": "lucas-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "lucas4-msg-01",
+      "msg": {
+        "en": "Now Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wild. For forty wilderness days and nights he was tested by the Devil. He ate nothing during those days, and when the time was up he was hungry.",
+        "es": "Jesús salió del Jordán lleno del Espíritu Santo. El Espíritu lo condujo al desierto, donde durante cuarenta días y cuarenta noches fue puesto a prueba por el Diablo. No comió nada durante esos días y, cuando terminó ese tiempo, tuvo hambre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "lucas4-msg-02",
+      "msg": {
+        "en": "The Devil, playing on his hunger, gave the first test: “Since you’re God’s Son, command this stone to turn into a loaf of bread.”",
+        "es": "El Diablo aprovechó su hambre y lanzó la primera prueba: «Ya que eres el Hijo de Dios, ordena que esta piedra se convierta en una hogaza de pan»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "lucas4-msg-03",
+      "msg": {
+        "en": "Jesus answered by quoting Deuteronomy: “It takes more than bread to really live.”",
+        "es": "Jesús respondió recurriendo a las palabras de Deuteronomio: «Se necesita mucho más que pan para vivir de verdad»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "lucas4-msg-04",
+      "msg": {
+        "en": "For the second test he led him up and spread out all the kingdoms of the earth on display at once. Then the Devil said, “They’re yours in all their splendor to serve your pleasure. I’m in charge of them all and can turn them over to whomever I wish. Worship me and they’re yours, the whole works.”",
+        "es": "Para la segunda prueba, el Diablo lo llevó a un lugar alto y desplegó ante él, en un instante, todos los reinos de la tierra. Le dijo: «Son tuyos, con todo su esplendor, para satisfacer tus deseos. Yo estoy a cargo de todos ellos y puedo entregárselos a quien quiera. Adórame y serán tuyos: el paquete completo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "lucas4-msg-05",
+      "msg": {
+        "en": "Jesus refused, again backing his refusal with Deuteronomy: “Worship the Lord your God and only the Lord your God. Serve him with absolute single-heartedness.”",
+        "es": "Jesús se negó y volvió a respaldar su respuesta con Deuteronomio: «Adora al Señor tu Dios, y únicamente al Señor tu Dios. Sírvelo con una lealtad absoluta y un corazón indiviso»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "lucas4-msg-06",
+      "msg": {
+        "en": "For the third test the Devil took him to Jerusalem and put him on top of the Temple. He said, “If you are God’s Son, jump. It’s written, isn’t it, that ‘he has placed you in the care of angels to protect you; they will catch you; you won’t so much as stub your toe on a stone’?”",
+        "es": "En la tercera prueba, el Diablo llevó a Jesús hasta Jerusalén y lo colocó en la parte más alta del templo. Le dijo: «Si eres el Hijo de Dios, lánzate desde aquí. Está escrito, ¿no es cierto?, que Dios te ha puesto bajo el cuidado de sus ángeles para protegerte; ellos te sostendrán y ni siquiera te golpearás un dedo del pie contra una piedra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12",
+      "id": "lucas4-msg-07",
+      "msg": {
+        "en": "“Yes,” said Jesus, “and it’s also written, ‘Don’t you dare tempt the Lord your\nGod.’”",
+        "es": "Jesús respondió: «Sí, pero también está escrito: “No te atrevas a poner a prueba al Señor tu Dios”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "lucas4-msg-08",
+      "msg": {
+        "en": "That completed the testing. The Devil retreated temporarily, lying in wait for another opportunity.",
+        "es": "Con eso terminó la prueba. El Diablo se retiró temporalmente y quedó al acecho de otra oportunidad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "lucas4-msg-09",
+      "msg": {
+        "en": "Jesus returned to Galilee powerful in the Spirit. News that he was back spread through the countryside. He taught in their meeting places to everyone’s acclaim and pleasure.",
+        "es": "Jesús regresó a Galilea lleno del poder del Espíritu. La noticia de que había vuelto comenzó a extenderse por toda la región. Enseñaba en los lugares de reunión y todos lo recibían con admiración y alegría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-21",
+      "id": "lucas4-msg-10",
+      "msg": {
+        "en": "He came to Nazareth where he had been reared. As he always did on the Sabbath, he went to the meeting place. When he stood up to read, he was handed the scroll of the prophet Isaiah. Unrolling the scroll, he found the place where it was written,\nGod’s Spirit is on me;\nhe’s chosen me to preach the Message of good news to the poor,\nSent me to announce pardon to prisoners and\nrecovery of sight to the blind,\nTo set the burdened and battered free,\nto announce, “This is God’s year to act!”\nHe rolled up the scroll, handed it back to the assistant, and sat down. Every eye in the place was on him, intent. Then he started in, “You’ve just heard Scripture make history. It came true just now in this place.”",
+        "es": "Después llegó a Nazaret, el pueblo donde había crecido. Como era su costumbre, fue al lugar de reunión durante el sábado. Se puso de pie para leer y le entregaron el rollo del profeta Isaías. Jesús abrió el rollo y encontró el pasaje que decía:\n\n«El Espíritu de Dios está sobre mí;\nél me escogió para anunciar\nel Mensaje de buenas noticias a los pobres.\n\nMe envió a anunciar indulto\na los prisioneros\ny que los ciegos\nvolverán a ver;\n\na liberar a quienes están\ncargados y golpeados;\n\ny a declarar:\n“¡Este es el año\nen que Dios actúa!”».\n\nJesús enrolló el libro, se lo devolvió al asistente y se sentó. Todas las miradas permanecían fijas sobre él. Entonces comenzó a hablar: «Acaban de escuchar cómo la Escritura hizo historia. Se hizo realidad justo ahora, en este lugar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-21"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "22",
+      "id": "lucas4-msg-11",
+      "msg": {
+        "en": "All who were there, watching and listening, were surprised at how well he spoke. But they also said, “Isn’t this Joseph’s son, the one we’ve known since he was a youngster?”",
+        "es": "Todos observaban y escuchaban sorprendidos por lo bien que hablaba. Sin embargo, comenzaron a preguntarse: «¿No es este el hijo de José, el que conocemos desde que era un niño?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-22"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "23-27",
+      "id": "lucas4-msg-12",
+      "msg": {
+        "en": "He answered, “I suppose you’re going to quote the proverb, ‘Doctor, go heal yourself. Do here in your hometown what we heard you did in Capernaum.’ Well, let me tell you something: No prophet is ever welcomed in his hometown. Isn’t it a fact that there were many widows in Israel at the time of Elijah during that three and a half years of drought when famine devastated the land, but the only widow to whom Elijah was sent was in Sarepta in Sidon? And there were many lepers in Israel at the time of the prophet Elisha but the only one cleansed was Naaman the Syrian.”",
+        "es": "Jesús continuó: «Supongo que van a citarme el dicho: “Médico, cúrate a ti mismo. Haz aquí, en tu propio pueblo, lo que hemos oído que hiciste en Capernaúm”. Pero déjenme decirles algo: ningún profeta es bien recibido en su propio pueblo. ¿No es cierto que durante los días de Elías había muchas viudas en Israel? La sequía duró tres años y medio y una gran hambruna devastó toda la región. Sin embargo, la única viuda a quien Elías fue enviado vivía en Sarepta, en territorio de Sidón. También había muchas personas con lepra en Israel durante el tiempo del profeta Eliseo, pero la única persona que recibió limpieza fue Naamán, un sirio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "lucas4-msg-13",
+      "msg": {
+        "en": "That set everyone in the meeting place seething with anger. They threw him out, banishing him from the village, then took him to a mountain cliff at the edge of the village to throw him to his doom, but he gave them the slip and was on his way.",
+        "es": "Aquellas palabras hicieron hervir de ira a todos los que estaban reunidos. Se levantaron, expulsaron a Jesús del pueblo y lo llevaron hasta el borde de una montaña con la intención de arrojarlo al vacío. Pero Jesús se les escabulló y siguió su camino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-30"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "lucas4-msg-14",
+      "msg": {
+        "en": "He went down to Capernaum, a village in Galilee. He was teaching the people on the Sabbath. They were surprised and impressed—his teaching was so forthright, so confident, so authoritative, not the quibbling and quoting they were used to.",
+        "es": "Después descendió a Capernaúm, una población de Galilea. Allí enseñaba durante los sábados. La gente estaba sorprendida e impresionada. Su enseñanza era directa, segura y llena de autoridad, sin las discusiones quisquillosas ni las citas interminables a las que estaban acostumbrados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-32"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "33-34",
+      "id": "lucas4-msg-15",
+      "msg": {
+        "en": "In the meeting place that day there was a man demonically disturbed. He screamed, “Ho! What business do you have here with us, Jesus? Nazarene! I know what you’re up to. You’re the Holy One of God and you’ve come to destroy us!”",
+        "es": "Aquel día había en el lugar de reunión un hombre profundamente atormentado por un espíritu maligno. De repente gritó: «¡Eh! ¿Qué tienes que ver con nosotros, Jesús? ¡Nazareno! Sé lo que te propones. Tú eres el Santo de Dios y has venido a destruirnos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-34"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "35",
+      "id": "lucas4-msg-16",
+      "msg": {
+        "en": "Jesus shut him up: “Quiet! Get out of him!” The demonic spirit threw the man down in front of them all and left. The demon didn’t hurt him.",
+        "es": "Jesús lo hizo callar: «¡Silencio! Sal de él». El espíritu arrojó al hombre al suelo delante de todos y después salió sin causarle daño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-35"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "36-37",
+      "id": "lucas4-msg-17",
+      "msg": {
+        "en": "That set everyone back on their heels, whispering and wondering, “What’s going on here? Someone whose words make things happen? Someone who orders demonic spirits to get out and they go?” Jesus was the talk of the town.",
+        "es": "La escena dejó a todos sin aliento. Comenzaron a susurrar y a preguntarse unos a otros: «¿Qué está pasando aquí? ¿Alguien cuyas palabras hacen que las cosas sucedan? ¿Alguien que ordena a los espíritus malignos que salgan y ellos obedecen?». Jesús se convirtió en el tema de conversación de toda la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-37"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "38-39",
+      "id": "lucas4-msg-18",
+      "msg": {
+        "en": "He left the meeting place and went to Simon’s house. Simon’s mother-in-law was running a high fever and they asked him to do something for her. He stood over her, told the fever to leave—and it left. Before they knew it, she was up getting dinner for them.",
+        "es": "Al salir del lugar de reunión, Jesús fue a la casa de Simón. La suegra de Simón estaba postrada con una fiebre intensa y le pidieron que hiciera algo por ella. Jesús se quedó junto a ella, le ordenó a la fiebre que se marchara y esta desapareció. Antes de que se dieran cuenta, ella ya estaba de pie preparando la comida para todos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-39"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "40-41",
+      "id": "lucas4-msg-19",
+      "msg": {
+        "en": "When the sun went down, everyone who had anyone sick with some ailment or other brought them to him. One by one he placed his hands on them and healed them. Demons left in droves, screaming, “Son of God! You’re the Son of God!” But he shut them up, refusing to let them speak because they knew too much, knew him to be the Messiah.",
+        "es": "Cuando comenzó a caer el sol, todos los que tenían a alguien enfermo, con una dolencia u otra, lo llevaron hasta Jesús. Uno por uno, Él puso sus manos sobre ellos y los sanó. También salían demonios en masa, gritando: «¡Hijo de Dios! ¡Tú eres el Hijo de Dios!». Pero Jesús los hacía callar y se negaba a permitirles hablar, porque sabían demasiado: sabían que Él era el Mesías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-41"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "42-44",
+      "id": "lucas4-msg-20",
+      "msg": {
+        "en": "He left the next day for open country. But the crowds went looking and, when they found him, clung to him so he couldn’t go on. He told them, “Don’t you realize that there are yet other villages where I have to tell the Message of God’s kingdom, that this is the work God sent me to do?” Meanwhile he continued preaching in the meeting places of Galilee.",
+        "es": "Al día siguiente, Jesús salió hacia el campo abierto. Sin embargo, las multitudes comenzaron a buscarlo. Cuando finalmente lo encontraron, se aferraron a Él para impedir que siguiera adelante. Jesús les explicó: «¿No comprenden que todavía hay otras poblaciones donde debo anunciar el Mensaje del Reino de Dios? Ese es el trabajo para el cual Dios me envió». Mientras tanto, continuó anunciando el Mensaje en los lugares de reunión de Galilea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas4-nbla-44"
+        }
+      ],
+      "order": 20
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-01a",
+          "order": 1,
+          "text": "Jesús, lleno del Espíritu Santo, volvió del Jordán y"
+        },
+        {
+          "id": "lucas4-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "fue llevado por el Espíritu en el desierto"
+        }
+      ],
+      "id": "lucas4-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "lucas4-nbla-02",
+      "number": 2,
+      "text": "por cuarenta días, siendo tentado por el diablo. Y no comió nada durante esos días, pasados los cuales tuvo hambre."
+    },
+    {
+      "id": "lucas4-nbla-03",
+      "number": 3,
+      "text": "Entonces el diablo le dijo: «Si eres Hijo de Dios, dile a esta piedra que se convierta en pan»."
+    },
+    {
+      "id": "lucas4-nbla-04",
+      "number": 4,
+      "text": "Jesús le respondió: «Escrito está: “NO SOLO DE PAN VIVIRÁ EL HOMBRE”»."
+    },
+    {
+      "id": "lucas4-nbla-05",
+      "number": 5,
+      "text": "El diablo lo llevó a una altura, y le mostró en un instante todos los reinos del mundo."
+    },
+    {
+      "id": "lucas4-nbla-06",
+      "number": 6,
+      "text": "«Todo este dominio y su gloria te daré», le dijo el diablo; «pues a mí me ha sido entregado, y a quien quiero se lo doy."
+    },
+    {
+      "id": "lucas4-nbla-07",
+      "number": 7,
+      "text": "Por tanto, si te postras delante de mí, todo será Tuyo»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-08a",
+          "order": 1,
+          "text": "Jesús le respondió: «Escrito está: “"
+        },
+        {
+          "id": "lucas4-nbla-08b",
+          "order": 2,
+          "text": "AL SEÑOR TU DIOS ADORARÁS, Y A ÉL SOLO SERVIRÁS"
+        },
+        {
+          "id": "lucas4-nbla-08c",
+          "order": 3,
+          "text": "”»."
+        }
+      ],
+      "id": "lucas4-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "lucas4-nbla-09",
+      "number": 9,
+      "text": "Entonces el diablo lo llevó a Jerusalén y lo puso sobre el pináculo del templo, y le dijo: «Si eres Hijo de Dios, lánzate abajo desde aquí,"
+    },
+    {
+      "id": "lucas4-nbla-10",
+      "number": 10,
+      "text": "pues escrito está:\n“A SUS ÁNGELES TE ENCOMENDARÁ PARA QUE TE GUARDEN”,"
+    },
+    {
+      "id": "lucas4-nbla-11",
+      "number": 11,
+      "text": "y:\n“EN LAS MANOS TE LLEVARÁN,\nPARA QUE TU PIE NO TROPIECE EN PIEDRA”»."
+    },
+    {
+      "id": "lucas4-nbla-12",
+      "number": 12,
+      "text": "Jesús le respondió: «Se ha dicho: “NO TENTARÁS AL SEÑOR TU DIOS”»."
+    },
+    {
+      "id": "lucas4-nbla-13",
+      "number": 13,
+      "text": "Cuando el diablo hubo acabado toda tentación, se alejó de Él esperando un tiempo oportuno."
+    },
+    {
+      "id": "lucas4-nbla-14",
+      "number": 14,
+      "text": "Jesús regresó a Galilea en el poder del Espíritu, y las nuevas acerca de Él se divulgaron por toda aquella región."
+    },
+    {
+      "id": "lucas4-nbla-15",
+      "number": 15,
+      "text": "Y enseñaba en sus sinagogas, siendo alabado por todos."
+    },
+    {
+      "id": "lucas4-nbla-16",
+      "number": 16,
+      "text": "Jesús llegó a Nazaret, donde había sido criado, y según Su costumbre, entró en la sinagoga el día de reposo, y se levantó a leer."
+    },
+    {
+      "id": "lucas4-nbla-17",
+      "number": 17,
+      "text": "Le dieron el libro del profeta Isaías, y abriendo el libro, halló el lugar donde estaba escrito:"
+    },
+    {
+      "id": "lucas4-nbla-18",
+      "number": 18,
+      "text": "«EL ESPÍRITU DEL SEÑOR ESTÁ SOBRE MÍ,\nPORQUE ME HA UNGIDO PARA ANUNCIAR EL EVANGELIO A LOS POBRES.\nME HA ENVIADO PARA PROCLAMAR LIBERTAD A LOS CAUTIVOS,\nY LA RECUPERACIÓN DE LA VISTA A LOS CIEGOS;\nPARA PONER EN LIBERTAD A LOS OPRIMIDOS;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-19a",
+          "order": 1,
+          "text": "PARA PROCLAMAR"
+        },
+        {
+          "id": "lucas4-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "EL AÑO FAVORABLE DEL SEÑOR"
+        },
+        {
+          "id": "lucas4-nbla-19c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas4-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "lucas4-nbla-20",
+      "number": 20,
+      "text": "Cerrando el libro, lo devolvió al asistente y se sentó; y los ojos de todos en la sinagoga estaban fijos en Él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-21a",
+          "order": 1,
+          "text": "Y comenzó a decirles: «"
+        },
+        {
+          "id": "lucas4-nbla-21b",
+          "order": 2,
+          "text": "Hoy se ha cumplido esta Escritura que han oído"
+        },
+        {
+          "id": "lucas4-nbla-21c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas4-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "lucas4-nbla-22",
+      "number": 22,
+      "text": "Todos hablaban bien de Él y se maravillaban de las palabras llenas de gracia que salían de Su boca, y decían: «¿No es este el hijo de José?»."
+    },
+    {
+      "id": "lucas4-nbla-23",
+      "number": 23,
+      "text": "Entonces Él les dijo: «Sin duda me citarán este refrán: “Médico, cúrate a ti mismo; esto es, todo lo que oímos que se ha hecho en Capernaúm, hazlo también aquí en Tu tierra”»."
+    },
+    {
+      "id": "lucas4-nbla-24",
+      "number": 24,
+      "text": "Y Jesús añadió: «En verdad les digo, que ningún profeta es bien recibido en su propia tierra."
+    },
+    {
+      "id": "lucas4-nbla-25",
+      "number": 25,
+      "text": "Pero en verdad les digo, que muchas viudas había en Israel en los días de Elías, cuando el cielo fue cerrado por tres años y seis meses y cuando hubo gran hambre sobre toda la tierra;"
+    },
+    {
+      "id": "lucas4-nbla-26",
+      "number": 26,
+      "text": "sin embargo, a ninguna de ellas fue enviado Elías, sino a una mujer viuda en Sarepta, en la tierra de Sidón."
+    },
+    {
+      "id": "lucas4-nbla-27",
+      "number": 27,
+      "text": "Muchos leprosos había en Israel en tiempos del profeta Eliseo, pero ninguno de ellos fue limpiado, sino Naamán el sirio»."
+    },
+    {
+      "id": "lucas4-nbla-28",
+      "number": 28,
+      "text": "Y todos en la sinagoga se llenaron de ira cuando oyeron estas cosas,"
+    },
+    {
+      "id": "lucas4-nbla-29",
+      "number": 29,
+      "text": "y levantándose, echaron a Jesús fuera de la ciudad, y lo llevaron hasta la cumbre del monte sobre el cual estaba edificada su ciudad para tirar a Jesús desde allí."
+    },
+    {
+      "id": "lucas4-nbla-30",
+      "number": 30,
+      "text": "Pero Él, pasando por en medio de ellos, se fue."
+    },
+    {
+      "id": "lucas4-nbla-31",
+      "number": 31,
+      "text": "Jesús descendió a Capernaúm, ciudad de Galilea, y les enseñaba en los días de reposo."
+    },
+    {
+      "id": "lucas4-nbla-32",
+      "number": 32,
+      "text": "Todos se admiraban de Su enseñanza porque Su mensaje era con autoridad."
+    },
+    {
+      "id": "lucas4-nbla-33",
+      "number": 33,
+      "text": "Y había en la sinagoga un hombre poseído por el espíritu de un demonio inmundo, y gritó a gran voz:"
+    },
+    {
+      "id": "lucas4-nbla-34",
+      "number": 34,
+      "text": "«Déjanos. ¿Qué tienes que ver con nosotros, Jesús de Nazaret? ¿Has venido a destruirnos? Yo sé quién Tú eres: el Santo de Dios»."
+    },
+    {
+      "id": "lucas4-nbla-35",
+      "number": 35,
+      "text": "Jesús entonces lo reprendió, diciendo: «¡Cállate y sal de él!». Y después que el demonio lo derribó en medio de ellos, salió de él sin hacerle ningún daño."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-36a",
+          "order": 1,
+          "text": "Todos se quedaron asombrados, y discutían entre sí: «¿Qué mensaje es este? Porque"
+        },
+        {
+          "id": "lucas4-nbla-36b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "con autoridad y poder manda a los espíritus inmundos y salen"
+        },
+        {
+          "id": "lucas4-nbla-36c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas4-nbla-36",
+      "number": 36
+    },
+    {
+      "id": "lucas4-nbla-37",
+      "number": 37,
+      "text": "Y Su fama se divulgaba por todos los lugares de aquella región."
+    },
+    {
+      "id": "lucas4-nbla-38",
+      "number": 38,
+      "text": "Levantándose, Jesús salió de la sinagoga y entró en casa de Simón. La suegra de Simón se hallaba sufriendo con una fiebre muy alta, y le rogaron por ella."
+    },
+    {
+      "id": "lucas4-nbla-39",
+      "number": 39,
+      "text": "Inclinándose sobre ella, Jesús reprendió la fiebre y la fiebre la dejó; al instante ella se levantó y les servía."
+    },
+    {
+      "id": "lucas4-nbla-40",
+      "number": 40,
+      "text": "Al ponerse el sol, todos los que tenían enfermos de diversas enfermedades se los llevaban a Él; y poniendo las manos sobre cada uno de ellos, los sanaba."
+    },
+    {
+      "id": "lucas4-nbla-41",
+      "number": 41,
+      "text": "También de muchos salían demonios, gritando: «¡Tú eres el Hijo de Dios!». Pero, reprendiéndolos, no les permitía hablar, porque sabían que Él era el Cristo."
+    },
+    {
+      "id": "lucas4-nbla-42",
+      "number": 42,
+      "text": "Cuando se hizo de día, Jesús salió y se fue a un lugar solitario. Las multitudes lo buscaban, y llegaron adonde Él estaba y procuraban detener a Jesús para que no se separara de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas4-nbla-43a",
+          "order": 1,
+          "text": "Pero Él les dijo: «También a las otras ciudades debo anunciar las buenas nuevas del reino de Dios,"
+        },
+        {
+          "id": "lucas4-nbla-43b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque para esto Yo he sido enviado"
+        },
+        {
+          "id": "lucas4-nbla-43c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas4-nbla-43",
+      "number": 43
+    },
+    {
+      "id": "lucas4-nbla-44",
+      "number": 44,
+      "text": "Y predicaba en las sinagogas de los judíos."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -13,7 +13,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-02b"
+          ],
           "verseId": "lucas15-nbla-02"
         }
       ],
@@ -29,7 +31,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-07b"
+          ],
           "verseId": "lucas15-nbla-07"
         }
       ],
@@ -45,7 +49,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-08b"
+          ],
           "verseId": "lucas15-nbla-08"
         }
       ],
@@ -61,7 +67,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-17a"
+          ],
           "verseId": "lucas15-nbla-17"
         }
       ],
@@ -77,7 +85,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-20c"
+          ],
           "verseId": "lucas15-nbla-20"
         }
       ],
@@ -93,7 +103,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas15-nbla-32b"
+          ],
           "verseId": "lucas15-nbla-32"
         }
       ],
@@ -274,7 +286,9 @@
       "nblaRefs": [
         {
           "clauseIds": [
-            "lucas15-nbla-20b"
+            "lucas15-nbla-20b",
+            "lucas15-nbla-20c",
+            "lucas15-nbla-20d"
           ],
           "verseId": "lucas15-nbla-20"
         },
@@ -381,9 +395,25 @@
       "text": "Todos los recaudadores de impuestos y los pecadores se acercaban para oír a Jesús."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas15-nbla-02a",
+          "order": 1,
+          "text": "Y los fariseos y los escribas murmuraban: «"
+        },
+        {
+          "id": "lucas15-nbla-02b",
+          "order": 2,
+          "text": "Este recibe a los pecadores y come con ellos"
+        },
+        {
+          "id": "lucas15-nbla-02c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
       "id": "lucas15-nbla-02",
-      "number": 2,
-      "text": "Y los fariseos y los escribas murmuraban: «Este recibe a los pecadores y come con ellos»."
+      "number": 2
     },
     {
       "id": "lucas15-nbla-03",
@@ -406,14 +436,49 @@
       "text": "Cuando llega a su casa, reúne a los amigos y a los vecinos, diciéndoles: “Alégrense conmigo, porque he hallado mi oveja que se había perdido”."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas15-nbla-07a",
+          "order": 1,
+          "text": "Les digo que de la misma manera,"
+        },
+        {
+          "id": "lucas15-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "habrá más gozo en el cielo por un pecador que se arrepiente"
+        },
+        {
+          "id": "lucas15-nbla-07c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "que por noventa y nueve justos que no necesitan arrepentimiento."
+        }
+      ],
       "id": "lucas15-nbla-07",
-      "number": 7,
-      "text": "Les digo que de la misma manera, habrá más gozo en el cielo por un pecador que se arrepiente que por noventa y nueve justos que no necesitan arrepentimiento."
+      "number": 7
     },
     {
+      "clauses": [
+        {
+          "id": "lucas15-nbla-08a",
+          "order": 1,
+          "text": "»¿O qué mujer, si tiene diez monedas de plata y pierde una moneda, no enciende una lámpara y"
+        },
+        {
+          "id": "lucas15-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "barre la casa y busca con cuidado hasta hallarla"
+        },
+        {
+          "id": "lucas15-nbla-08c",
+          "order": 3,
+          "text": "?"
+        }
+      ],
       "id": "lucas15-nbla-08",
-      "number": 8,
-      "text": "»¿O qué mujer, si tiene diez monedas de plata y pierde una moneda, no enciende una lámpara y barre la casa y busca con cuidado hasta hallarla?"
+      "number": 8
     },
     {
       "id": "lucas15-nbla-09",
@@ -468,9 +533,20 @@
       "text": "Y deseaba llenarse el estómago de las algarrobas que comían los cerdos, pero nadie le daba nada."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas15-nbla-17a",
+          "order": 1,
+          "text": "Entonces, volviendo en sí"
+        },
+        {
+          "id": "lucas15-nbla-17b",
+          "order": 2,
+          "text": ", dijo: “¡Cuántos de los trabajadores de mi padre tienen pan de sobra, pero yo aquí perezco de hambre!"
+        }
+      ],
       "id": "lucas15-nbla-17",
-      "number": 17,
-      "text": "Entonces, volviendo en sí, dijo: “¡Cuántos de los trabajadores de mi padre tienen pan de sobra, pero yo aquí perezco de hambre!"
+      "number": 17
     },
     {
       "id": "lucas15-nbla-18",
@@ -493,7 +569,18 @@
           "id": "lucas15-nbla-20b",
           "order": 2,
           "separatorBefore": " ",
-          "text": "Cuando todavía estaba lejos, su padre lo vio y sintió compasión por él, y corrió, se echó sobre su cuello y lo besó."
+          "text": "Cuando todavía estaba lejos,"
+        },
+        {
+          "id": "lucas15-nbla-20c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "su padre lo vio y sintió compasión por él, y corrió, se echó sobre su cuello y lo besó"
+        },
+        {
+          "id": "lucas15-nbla-20d",
+          "order": 4,
+          "text": "."
         }
       ],
       "id": "lucas15-nbla-20",
@@ -555,9 +642,26 @@
       "text": "Y su padre le dijo: “Hijo mío, tú siempre has estado conmigo, y todo lo mío es tuyo."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas15-nbla-32a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "lucas15-nbla-32b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "era necesario hacer fiesta y regocijarnos"
+        },
+        {
+          "id": "lucas15-nbla-32c",
+          "order": 3,
+          "text": ", porque este, tu hermano, estaba muerto y ha vuelto a la vida; estaba perdido y ha sido hallado”»."
+        }
+      ],
       "id": "lucas15-nbla-32",
-      "number": 32,
-      "text": "Pero era necesario hacer fiesta y regocijarnos, porque este, tu hermano, estaba muerto y ha vuelto a la vida; estaba perdido y ha sido hallado”»."
+      "number": 32
     }
   ],
   "schemaVersion": "1.0.0",

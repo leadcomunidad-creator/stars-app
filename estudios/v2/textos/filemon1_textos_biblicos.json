@@ -29,7 +29,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "filemon1-nbla-09b"
+          ],
           "verseId": "filemon1-nbla-09"
         }
       ],
@@ -61,7 +63,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "filemon1-nbla-16a"
+          ],
           "verseId": "filemon1-nbla-16"
         }
       ],
@@ -274,7 +278,9 @@
           "verseId": "filemon1-nbla-24"
         },
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "filemon1-nbla-25a"
+          ],
           "verseId": "filemon1-nbla-25"
         }
       ],
@@ -323,9 +329,26 @@
       "text": "Por lo cual, aunque tengo mucha libertad en Cristo para mandarte hacer lo que conviene,"
     },
     {
+      "clauses": [
+        {
+          "id": "filemon1-nbla-09a",
+          "order": 1,
+          "text": "no obstante,"
+        },
+        {
+          "id": "filemon1-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "por causa del amor que te tengo, te hago un ruego"
+        },
+        {
+          "id": "filemon1-nbla-09c",
+          "order": 3,
+          "text": ", siendo como soy, Pablo, anciano, y ahora también prisionero de Cristo Jesús:"
+        }
+      ],
       "id": "filemon1-nbla-09",
-      "number": 9,
-      "text": "no obstante, por causa del amor que te tengo, te hago un ruego, siendo como soy, Pablo, anciano, y ahora también prisionero de Cristo Jesús:"
+      "number": 9
     },
     {
       "id": "filemon1-nbla-10",
@@ -358,9 +381,20 @@
       "text": "Porque quizá por esto se apartó de ti por algún tiempo, para que lo volvieras a recibir para siempre,"
     },
     {
+      "clauses": [
+        {
+          "id": "filemon1-nbla-16a",
+          "order": 1,
+          "text": "ya no como esclavo, sino como más que un esclavo, como un hermano amado"
+        },
+        {
+          "id": "filemon1-nbla-16b",
+          "order": 2,
+          "text": ", especialmente para mí, pero cuánto más para ti, tanto en la carne como en el Señor."
+        }
+      ],
       "id": "filemon1-nbla-16",
-      "number": 16,
-      "text": "ya no como esclavo, sino como más que un esclavo, como un hermano amado, especialmente para mí, pero cuánto más para ti, tanto en la carne como en el Señor."
+      "number": 16
     },
     {
       "id": "filemon1-nbla-17",
@@ -403,9 +437,21 @@
       "text": "también Marcos, Aristarco, Demas y Lucas, mis colaboradores."
     },
     {
+      "clauses": [
+        {
+          "id": "filemon1-nbla-25a",
+          "order": 1,
+          "text": "La gracia del Señor Jesucristo sea con el espíritu de ustedes."
+        },
+        {
+          "id": "filemon1-nbla-25b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "================================================================================\n# HEBREOS"
+        }
+      ],
       "id": "filemon1-nbla-25",
-      "number": 25,
-      "text": "La gracia del Señor Jesucristo sea con el espíritu de ustedes."
+      "number": 25
     }
   ],
   "schemaVersion": "1.0.0",

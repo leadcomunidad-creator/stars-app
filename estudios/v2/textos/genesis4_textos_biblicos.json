@@ -1,0 +1,620 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El pecado es presentado como un poder que busca gobernar la voluntad humana. La NBLA fija la imagen del pecado a la puerta y conserva la responsabilidad expresada en «tú debes dominarlo». MSG vuelve visible la amenaza mediante la figura de algo listo para saltar. La imagen no elimina la responsabilidad de Caín ni convierte el pecado en una excusa externa; intensifica la urgencia de responder a la advertencia de Dios.",
+      "id": "genesis4-joya-01",
+      "msg": {
+        "en": "“sin is lying in wait for you, ready to pounce;”",
+        "es": "«el pecado está agazapado, esperando saltar sobre ti;»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-07b"
+          ],
+          "verseId": "genesis4-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios exige responsabilidad por la vida del hermano. La NBLA y MSG conservan la misma pregunta y el vínculo familiar que Caín intenta borrar. Dios no pregunta porque carezca de información, sino porque confronta a Caín con la ausencia que su violencia produjo. La pregunta revela que ninguna expresión religiosa puede separar la relación con Dios de la manera en que tratamos a quienes llevan su imagen.",
+      "id": "genesis4-joya-02",
+      "msg": {
+        "en": "“Where is Abel your brother?”",
+        "es": "«¿Dónde está Abel, tu hermano?»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-09b"
+          ],
+          "verseId": "genesis4-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "9"
+    },
+    {
+      "explanation": "Caín rechaza con sarcasmo la responsabilidad fraterna. La NBLA preserva la palabra teológicamente decisiva: «guardián». MSG hace audible el desprecio de Caín al convertir su respuesta en una evasión cotidiana y mordaz. El lenguaje pastoral de MSG no debe reducir el peso del texto: la cuestión no es supervisar cada movimiento del hermano, sino reconocer que su vida nunca nos es moralmente indiferente.",
+      "id": "genesis4-joya-03",
+      "msg": {
+        "en": "“Am I his babysitter?”",
+        "es": "«¿Acaso soy su niñero?»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-09d"
+          ],
+          "verseId": "genesis4-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9"
+    },
+    {
+      "explanation": "Dios escucha el clamor de la víctima incluso cuando el agresor intenta ocultar lo ocurrido. La NBLA fija el lenguaje judicial y relacional del clamor dirigido a Dios. MSG conserva esa verdad y la expresa como una voz que sigue llamándolo. La sangre no posee una voz literal independiente; la imagen declara que la injusticia no queda muda ni olvidada delante del Juez de toda la tierra.",
+      "id": "genesis4-joya-04",
+      "msg": {
+        "en": "“The voice of your brother’s blood is calling to me from the ground.”",
+        "es": "«La voz de la sangre de tu hermano me llama desde la tierra»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-10b"
+          ],
+          "verseId": "genesis4-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10-12"
+    },
+    {
+      "explanation": "La justicia de Dios limita la expansión de la venganza. La NBLA precisa la función de la señal: impedir que Caín sea asesinado. MSG resume ese propósito con la palabra «protegerlo». El texto no identifica la forma física de la señal ni autoriza especulaciones acerca de ella; su peso teológico está en que Dios conserva el derecho de juzgar y frena la represalia humana aun sobre alguien culpable.",
+      "id": "genesis4-joya-05",
+      "msg": {
+        "en": "“GOD put a mark on Cain to protect him”",
+        "es": "«DIOS puso una marca sobre Caín para protegerlo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-15b"
+          ],
+          "verseId": "genesis4-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15"
+    },
+    {
+      "explanation": "La respuesta fiel a un mundo de violencia es volver a depender de Dios. La NBLA fija la expresión bíblica «invocar el nombre del SEÑOR». MSG despliega pastoralmente esa invocación como oración y adoración. Esa ampliación ayuda a comprender la acción, pero no debe convertirse en una descripción exhaustiva de una liturgia específica. El punto central es que una comunidad comienza a reconocer públicamente su necesidad de Dios.",
+      "id": "genesis4-joya-06",
+      "msg": {
+        "en": "“That’s when men and women began praying and worshiping in the name of GOD.”",
+        "es": "«Fue entonces cuando hombres y mujeres comenzaron a orar y adorar invocando el nombre de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis4-nbla-26b"
+          ],
+          "verseId": "genesis4-nbla-26"
+        }
+      ],
+      "order": 6,
+      "range": "25-26"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 4,
+    "studyId": "genesis-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis4-msg-01",
+      "msg": {
+        "en": "Adam slept with Eve his wife. She conceived and had Cain. She said, “I’ve gotten a man, with GOD’S help!”",
+        "es": "Adán se acostó con Eva, su esposa. Ella quedó embarazada y dio a luz a Caín. Dijo: «¡He tenido un hijo varón con la ayuda de DIOS!»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "genesis4-msg-02",
+      "msg": {
+        "en": "Then she had another baby, Abel. Abel was a herdsman and Cain a farmer.",
+        "es": "Después tuvo otro hijo, Abel. Abel cuidaba rebaños y Caín cultivaba la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "genesis4-msg-03",
+      "msg": {
+        "en": "Time passed. Cain brought an offering to GOD from the produce of his farm. Abel also brought an offering, but from the firstborn animals of his herd, choice cuts of meat. GOD liked Abel and his offering, but Cain and his offering didn’t get his approval. Cain lost his temper and went into a sulk.",
+        "es": "Pasó el tiempo. Caín llevó a DIOS una ofrenda del producto de su campo. Abel también llevó una ofrenda, pero escogió las primeras crías de su rebaño, los mejores cortes de carne. A DIOS le agradaron Abel y su ofrenda, pero Caín y su ofrenda no recibieron su aprobación. Caín perdió los estribos y se encerró en su mal humor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "genesis4-msg-04",
+      "msg": {
+        "en": "GOD spoke to Cain: “Why this tantrum? Why the sulking? If you do well, won’t you be accepted? And if you don’t do well, sin is lying in wait for you, ready to pounce; it’s out to get you, you’ve got to master it.”",
+        "es": "DIOS le dijo a Caín: «¿A qué viene ese berrinche? ¿Por qué estás enfurruñado? Si haces lo correcto, ¿no serás aceptado? Pero si no haces lo correcto, el pecado está agazapado, esperando saltar sobre ti; quiere atraparte, pero tú tienes que dominarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis4-msg-05",
+      "msg": {
+        "en": "Cain had words with his brother. They were out in the field; Cain came at Abel his brother and killed him.",
+        "es": "Caín discutió con su hermano. Estaban en el campo; Caín se lanzó contra Abel, su hermano, y lo mató."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "genesis4-msg-06",
+      "msg": {
+        "en": "GOD said to Cain, “Where is Abel your brother?” He said, “How should I know? Am I his babysitter?”",
+        "es": "DIOS le preguntó a Caín: «¿Dónde está Abel, tu hermano?». Él respondió: «¿Y yo qué sé? ¿Acaso soy su niñero?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-12",
+      "id": "genesis4-msg-07",
+      "msg": {
+        "en": "GOD said, “What have you done! The voice of your brother’s blood is calling to me from the ground. From now on you’ll get nothing but curses from this ground; you’ll be driven from this ground that has opened its arms to receive the blood of your murdered brother. You’ll farm this ground, but it will no longer give you its best. You’ll be a homeless wanderer on Earth.”",
+        "es": "DIOS dijo: «¡Qué has hecho! La voz de la sangre de tu hermano me llama desde la tierra. Desde ahora no recibirás de esta tierra más que maldición; serás expulsado de esta tierra que abrió los brazos para recibir la sangre de tu hermano asesinado. Cultivarás el suelo, pero ya no te dará lo mejor de sí. Serás un vagabundo sin hogar sobre la Tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "genesis4-msg-08",
+      "msg": {
+        "en": "Cain said to GOD, “My punishment is too much. I can’t take it! You’ve thrown me off the land and I can never again face you. I’m a homeless wanderer on Earth and whoever finds me will kill me.”",
+        "es": "Caín le dijo a DIOS: «Mi castigo es demasiado para mí. ¡No puedo soportarlo! Me has expulsado de la tierra y ya nunca podré presentarme ante ti. Seré un vagabundo sin hogar sobre la Tierra, y cualquiera que me encuentre me matará»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "genesis4-msg-09",
+      "msg": {
+        "en": "GOD told him, “No. Anyone who kills Cain will pay for it seven times over.” GOD put a mark on Cain to protect him so that no one who met him would kill him.",
+        "es": "DIOS le respondió: «No. El que mate a Caín lo pagará siete veces». DIOS puso una marca sobre Caín para protegerlo, de modo que nadie que lo encontrara lo matara."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16",
+      "id": "genesis4-msg-10",
+      "msg": {
+        "en": "Cain left the presence of GOD and lived in No-Man’s-Land, east of Eden.",
+        "es": "Caín salió de la presencia de DIOS y vivió en Tierra-de-Nadie, al este de Edén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-16"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "genesis4-msg-11",
+      "msg": {
+        "en": "Cain slept with his wife. She conceived and had Enoch. He then built a city and named it after his son, Enoch.\nEnoch had Irad,\nIrad had Mehujael,\nMehujael had Methushael,\nMethushael had Lamech.",
+        "es": "Caín se acostó con su esposa. Ella quedó embarazada y dio a luz a Enoc. Después Caín construyó una ciudad y le puso el nombre de su hijo, Enoc.\nEnoc tuvo a Irad,\nIrad tuvo a Mehujael,\nMehujael tuvo a Metusael,\nMetusael tuvo a Lamec."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-18"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "19-22",
+      "id": "genesis4-msg-12",
+      "msg": {
+        "en": "Lamech married two wives, Adah and Zillah. Adah gave birth to Jabal, the ancestor of all who live in tents and herd cattle. His brother’s name was Jubal, the ancestor of all who play the lyre and flute. Zillah gave birth to Tubal-Cain, who worked at the forge making bronze and iron tools. Tubal-Cain’s sister was Naamah.",
+        "es": "Lamec se casó con dos mujeres, Ada y Zila. Ada dio a luz a Jabal, antepasado de todos los que viven en tiendas y crían ganado. Su hermano se llamaba Jubal, antepasado de todos los que tocan la lira y la flauta. Zila dio a luz a Tubal Caín, quien trabajaba en la fragua fabricando herramientas de bronce y de hierro. La hermana de Tubal Caín se llamaba Naama."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "genesis4-msg-13",
+      "msg": {
+        "en": "Lamech said to his wives,\nAdah and Zillah, listen to me;\nyou wives of Lamech, hear me out:\nI killed a man for wounding me,\na young man who attacked me.\nIf Cain is avenged seven times,\nfor Lamech it’s seventy-seven!",
+        "es": "Lamec les dijo a sus esposas:\n«Ada y Zila, escúchenme;\nesposas de Lamec, presten atención:\nmaté a un hombre por haberme herido,\na un joven por haberme atacado.\nSi Caín es vengado siete veces,\n¡Lamec lo será setenta y siete!»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-24"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "genesis4-msg-14",
+      "msg": {
+        "en": "Adam slept with his wife again. She had a son whom she named Seth. She said, “God has given me another child in place of Abel whom Cain killed.” And then Seth had a son whom he named Enosh.\nThat’s when men and women began praying and worshiping in the name of GOD.",
+        "es": "Adán volvió a acostarse con su esposa. Ella tuvo un hijo y lo llamó Set. Dijo: «Dios me ha dado otro hijo en lugar de Abel, a quien Caín mató». Después Set tuvo un hijo y lo llamó Enós.\nFue entonces cuando hombres y mujeres comenzaron a orar y adorar invocando el nombre de DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis4-nbla-26"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis4-nbla-01",
+      "number": 1,
+      "text": "Y el hombre se unió a Eva, su mujer, y ella concibió y dio a luz a Caín, y dijo: «He adquirido varón con la ayuda del SEÑOR»."
+    },
+    {
+      "id": "genesis4-nbla-02",
+      "number": 2,
+      "text": "Después dio a luz a Abel su hermano. Y Abel fue pastor de ovejas y Caín fue labrador de la tierra."
+    },
+    {
+      "id": "genesis4-nbla-03",
+      "number": 3,
+      "text": "Al transcurrir el tiempo, Caín trajo al SEÑOR una ofrenda del fruto de la tierra."
+    },
+    {
+      "id": "genesis4-nbla-04",
+      "number": 4,
+      "text": "También Abel, por su parte, trajo de los primogénitos de sus ovejas y de la grasa de los mismos. El SEÑOR miró con agrado a Abel y su ofrenda,"
+    },
+    {
+      "id": "genesis4-nbla-05",
+      "number": 5,
+      "text": "pero no miró con agrado a Caín y su ofrenda. Caín se enojó mucho y su semblante se demudó."
+    },
+    {
+      "id": "genesis4-nbla-06",
+      "number": 6,
+      "text": "Entonces el SEÑOR dijo a Caín: «¿Por qué estás enojado, y por qué se ha demudado tu semblante?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis4-nbla-07a",
+          "order": 1,
+          "text": "Si haces bien, ¿no serás aceptado? Pero si no haces bien,"
+        },
+        {
+          "id": "genesis4-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el pecado yace a la puerta y te codicia, pero tú debes dominarlo"
+        },
+        {
+          "id": "genesis4-nbla-07c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis4-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "genesis4-nbla-08",
+      "number": 8,
+      "text": "Caín dijo a su hermano Abel: «Vayamos al campo». Y aconteció que cuando estaban en el campo, Caín se levantó contra su hermano Abel y lo mató."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis4-nbla-09a",
+          "order": 1,
+          "text": "Entonces el SEÑOR dijo a Caín: «"
+        },
+        {
+          "id": "genesis4-nbla-09b",
+          "order": 2,
+          "text": "¿Dónde está tu hermano Abel?"
+        },
+        {
+          "id": "genesis4-nbla-09c",
+          "order": 3,
+          "text": "». Y él respondió: «No sé."
+        },
+        {
+          "id": "genesis4-nbla-09d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "¿Soy yo acaso guardián de mi hermano?"
+        },
+        {
+          "id": "genesis4-nbla-09e",
+          "order": 5,
+          "text": "»."
+        }
+      ],
+      "id": "genesis4-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis4-nbla-10a",
+          "order": 1,
+          "text": "Y el SEÑOR le dijo: «¿Qué has hecho?"
+        },
+        {
+          "id": "genesis4-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "La voz de la sangre de tu hermano clama a Mí desde la tierra"
+        },
+        {
+          "id": "genesis4-nbla-10c",
+          "order": 3,
+          "text": "."
+        }
+      ],
+      "id": "genesis4-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "genesis4-nbla-11",
+      "number": 11,
+      "text": "Ahora pues, maldito eres de la tierra, que ha abierto su boca para recibir de tu mano la sangre de tu hermano."
+    },
+    {
+      "id": "genesis4-nbla-12",
+      "number": 12,
+      "text": "Cuando cultives el suelo, no te dará más su vigor. Vagabundo y errante serás en la tierra»."
+    },
+    {
+      "id": "genesis4-nbla-13",
+      "number": 13,
+      "text": "Y Caín dijo al SEÑOR: «Mi castigo es demasiado grande para soportarlo."
+    },
+    {
+      "id": "genesis4-nbla-14",
+      "number": 14,
+      "text": "Hoy me has arrojado de la superficie de la tierra, y de Tu presencia me esconderé, y seré vagabundo y errante en la tierra. Y sucederá que cualquiera que me halle me matará»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis4-nbla-15a",
+          "order": 1,
+          "text": "Entonces el SEÑOR le dijo: «No será así, pues cualquiera que mate a Caín, siete veces sufrirá venganza». Y"
+        },
+        {
+          "id": "genesis4-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR puso una señal sobre Caín, para que cualquiera que lo hallara no lo matara."
+        }
+      ],
+      "id": "genesis4-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "genesis4-nbla-16",
+      "number": 16,
+      "text": "Y salió Caín de la presencia del SEÑOR, y se estableció en la tierra de Nod, al oriente del Edén."
+    },
+    {
+      "id": "genesis4-nbla-17",
+      "number": 17,
+      "text": "Y conoció Caín a su mujer, y ella concibió y dio a luz a Enoc. Caín edificó una ciudad y la llamó Enoc, como el nombre de su hijo."
+    },
+    {
+      "id": "genesis4-nbla-18",
+      "number": 18,
+      "text": "A Enoc le nació Irad. Irad fue padre de Mehujael, Mehujael fue padre de Metusael, y Metusael fue padre de Lamec."
+    },
+    {
+      "id": "genesis4-nbla-19",
+      "number": 19,
+      "text": "Lamec tomó para sí dos mujeres. El nombre de una era Ada, y el nombre de la otra, Zila."
+    },
+    {
+      "id": "genesis4-nbla-20",
+      "number": 20,
+      "text": "Y Ada dio a luz a Jabal, el cual fue padre de los que habitan en tiendas y tienen ganado."
+    },
+    {
+      "id": "genesis4-nbla-21",
+      "number": 21,
+      "text": "Su hermano se llamaba Jubal, el cual fue padre de todos los que tocan la lira y la flauta."
+    },
+    {
+      "id": "genesis4-nbla-22",
+      "number": 22,
+      "text": "Zila a su vez dio a luz a Tubal Caín, forjador de todo utensilio de bronce y de hierro. Y la hermana de Tubal Caín era Naama."
+    },
+    {
+      "id": "genesis4-nbla-23",
+      "number": 23,
+      "text": "Lamec dijo a sus mujeres:\n«Ada y Zila, oigan mi voz;\nMujeres de Lamec,\nPresten oído a mis palabras,\nPues he dado muerte a un hombre por haberme herido,\nY a un muchacho por haberme pegado."
+    },
+    {
+      "id": "genesis4-nbla-24",
+      "number": 24,
+      "text": "Si siete veces es vengado Caín,\nEntonces Lamec lo será setenta veces siete»."
+    },
+    {
+      "id": "genesis4-nbla-25",
+      "number": 25,
+      "text": "Adán se unió otra vez a su mujer; y ella dio a luz un hijo y le puso por nombre Set, porque, dijo ella: «Dios me ha dado otro hijo en lugar de Abel, pues Caín lo mató»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis4-nbla-26a",
+          "order": 1,
+          "text": "A Set le nació también un hijo y le puso por nombre Enós."
+        },
+        {
+          "id": "genesis4-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Por ese tiempo comenzaron los hombres a invocar el nombre del SEÑOR"
+        },
+        {
+          "id": "genesis4-nbla-26c",
+          "order": 3,
+          "text": "."
+        }
+      ],
+      "id": "genesis4-nbla-26",
+      "number": 26
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

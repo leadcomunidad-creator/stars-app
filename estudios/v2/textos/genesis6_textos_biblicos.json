@@ -1,0 +1,502 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El mal humano hiere profundamente la creación amada por Dios y provoca una respuesta divina que incluye dolor real y juicio santo. La NBLA fija el sentido al hablar del pesar y de la tristeza en el corazón de Dios. MSG vuelve visible esa verdad mediante la imagen de un corazón quebrantado. La expresión comunica relación y dolor, pero no debe utilizarse para afirmar que Dios perdió conocimiento, control o sabiduría sobre su propósito.",
+      "id": "genesis6-joya-01",
+      "msg": {
+        "en": "\"it broke his heart.\"",
+        "es": "\"aquello le partió el corazón.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "5-7"
+    },
+    {
+      "explanation": "La preservación comienza con la gracia de Dios dentro de una generación corrompida. La NBLA protege el centro teológico: Noé halla gracia ante los ojos del Señor. MSG expresa pastoralmente que su vida contrasta con el ambiente que lo rodea. La diferencia de Noé no debe convertirse en autosalvación moral; el favor divino y una vida fiel aparecen unidos dentro del relato.",
+      "id": "genesis6-joya-02",
+      "msg": {
+        "en": "\"But Noah was different. GOD liked what he saw in Noah.\"",
+        "es": "\"Pero Noé era diferente. A DIOS le agradó lo que vio en Noé.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "La justicia de Noé nace de una vida orientada por la presencia de Dios. La NBLA añade el matiz de continuidad mediante «siempre andaba», mientras MSG conserva la imagen relacional y sencilla de caminar. El texto no describe una espiritualidad aislada de la realidad: esa comunión sostiene integridad, familia, trabajo y obediencia concreta dentro de una sociedad violenta.",
+      "id": "genesis6-joya-03",
+      "msg": {
+        "en": "\"Noah walked with God.\"",
+        "es": "\"Noé caminaba con Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis6-nbla-09b"
+          ],
+          "verseId": "genesis6-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La violencia revela el alcance social del pecado y explica la gravedad del juicio que se aproxima. La NBLA conserva la imagen de una tierra completamente llena; MSG la hace audible como una realidad presente en todas partes. La frase no autoriza a llamar juicio divino a cualquier desastre contemporáneo, pero sí declara que Dios ve y confronta las culturas que normalizan la destrucción de la vida.",
+      "id": "genesis6-joya-04",
+      "msg": {
+        "en": "\"there was violence everywhere.\"",
+        "es": "\"había violencia por todas partes.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis6-nbla-11b"
+          ],
+          "verseId": "genesis6-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11-12"
+    },
+    {
+      "explanation": "Dios introduce una promesa vinculante dentro del anuncio de juicio. La NBLA y MSG coinciden en que el pacto es iniciativa del propio Dios. Ese compromiso incluye a Noé, su familia y la preservación de los seres vivientes. La salvación bíblica no es improvisación frente a una crisis: nace de la fidelidad de Dios y crea una comunidad responsable por la vida confiada a su cuidado.",
+      "id": "genesis6-joya-05",
+      "msg": {
+        "en": "\"But I’m going to establish a covenant with you:\"",
+        "es": "\"Pero estableceré mi pacto contigo:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis6-nbla-18a"
+          ],
+          "verseId": "genesis6-nbla-18"
+        }
+      ],
+      "order": 5,
+      "range": "18-21"
+    },
+    {
+      "explanation": "La fe de Noé se expresa mediante obediencia completa antes de que el juicio anunciado sea visible. La NBLA refuerza deliberadamente la correspondencia entre mandato y acción; MSG lo comunica con una frase directa. No se trata de obediencia mecánica ni de mérito que compra el pacto, sino de confianza que organiza materiales, tiempo, familia, provisiones y trabajo alrededor de la palabra de Dios.",
+      "id": "genesis6-joya-06",
+      "msg": {
+        "en": "\"Noah did everything God commanded him to do.\"",
+        "es": "\"Noé hizo todo lo que Dios le mandó.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-22"
+        }
+      ],
+      "order": 6,
+      "range": "22"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 6,
+    "studyId": "genesis-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "genesis6-msg-01",
+      "msg": {
+        "en": "When the human race began to increase, with more and more daughters being born, the sons of God noticed that the daughters of men were beautiful. They looked them over and picked out wives for themselves.",
+        "es": "Cuando la raza humana comenzó a multiplicarse y nacían cada vez más hijas, los hijos de Dios se fijaron en que las hijas de los hombres eran hermosas. Las miraron detenidamente y escogieron esposas para sí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "genesis6-msg-02",
+      "msg": {
+        "en": "Then GOD said, “I’m not going to breathe life into men and women endlessly. Eventually they’re going to die; from now on they can expect a life span of 120 years.”",
+        "es": "Entonces DIOS dijo: «No seguiré dando aliento de vida a hombres y mujeres indefinidamente. Al final morirán; de ahora en adelante, su vida llegará hasta ciento veinte años»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "genesis6-msg-03",
+      "msg": {
+        "en": "This was back in the days (and also later) when there were giants in the land. The giants came from the union of the sons of God and the daughters of men. These were the mighty men of ancient lore, the famous ones.",
+        "es": "Esto ocurrió en los días en que había gigantes en la tierra —y también después—. Los gigantes surgieron de la unión de los hijos de Dios con las hijas de los hombres. Eran los poderosos de las antiguas historias, los hombres famosos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "genesis6-msg-04",
+      "msg": {
+        "en": "GOD saw that human evil was out of control. People thought evil, imagined evil—evil, evil, evil from morning to night. GOD was sorry that he had made the human race in the first place; it broke his heart. GOD said, “I’ll get rid of my ruined creation, make a clean sweep: people, animals, snakes and bugs, birds—the works. I’m sorry I made them.”",
+        "es": "DIOS vio que la maldad humana estaba fuera de control. La gente pensaba el mal e imaginaba el mal: mal, mal y más mal, desde la mañana hasta la noche. DIOS lamentó haber creado a la raza humana; aquello le partió el corazón. DIOS dijo: «Voy a borrar mi creación arruinada; haré una limpieza total: personas, animales, reptiles e insectos, aves... todo. Lamento haberlos creado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis6-msg-05",
+      "msg": {
+        "en": "But Noah was different. GOD liked what he saw in Noah.",
+        "es": "Pero Noé era diferente. A DIOS le agradó lo que vio en Noé."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "genesis6-msg-06",
+      "msg": {
+        "en": "This is the story of Noah: Noah was a good man, a man of integrity in his community. Noah walked with God. Noah had three sons: Shem, Ham, and Japheth.",
+        "es": "Esta es la historia de Noé: Noé era un hombre bueno, íntegro dentro de su comunidad. Noé caminaba con Dios. Noé tuvo tres hijos: Sem, Cam y Jafet."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "genesis6-msg-07",
+      "msg": {
+        "en": "As far as God was concerned, the Earth had become a sewer; there was violence everywhere. God took one look and saw how bad it was, everyone corrupt and corrupting—life itself corrupt to the core.",
+        "es": "A los ojos de Dios, la Tierra se había convertido en una cloaca; había violencia por todas partes. Dios observó y vio lo grave que era: todos estaban corrompidos y corrompiendo; la vida misma estaba podrida hasta el fondo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "genesis6-msg-08",
+      "msg": {
+        "en": "God said to Noah, “It’s all over. It’s the end of the human race. The violence is everywhere; I’m making a clean sweep.",
+        "es": "Dios le dijo a Noé: «Esto se acabó. Ha llegado el fin de la raza humana. La violencia está por todas partes; voy a borrarlo todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "genesis6-msg-09",
+      "msg": {
+        "en": "“Build yourself a ship from teakwood. Make rooms in it. Coat it with pitch inside and out. Make it 450 feet long, seventy-five feet wide, and forty-five feet high. Build a roof for it and put in a window eighteen inches from the top; put in a door on the side of the ship; and make three decks, lower, middle, and upper.",
+        "es": "»Constrúyete una embarcación de madera de teca. Hazle compartimentos y recúbrela con brea por dentro y por fuera. Hazla de ciento treinta y siete metros de largo, veintitrés metros de ancho y catorce metros de alto. Ponle un techo y una ventana a cuarenta y cinco centímetros de la parte superior. Coloca una puerta en uno de los costados y haz tres niveles: inferior, intermedio y superior."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17",
+      "id": "genesis6-msg-10",
+      "msg": {
+        "en": "“I’m going to bring a flood on the Earth that will destroy everything alive under Heaven. Total destruction.",
+        "es": "»Voy a traer un diluvio sobre la Tierra que destruirá todo ser viviente bajo el Cielo. Destrucción total."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-21",
+      "id": "genesis6-msg-11",
+      "msg": {
+        "en": "“But I’m going to establish a covenant with you: You’ll board the ship, and your sons, your wife and your sons’ wives will come on board with you. You are also to take two of each living creature, a male and a female, on board the ship, to preserve their lives with you: two of every species of bird, mammal, and reptile—two of everything so as to preserve their lives along with yours. Also get all the food you’ll need and store it up for you and them.”",
+        "es": "»Pero estableceré mi pacto contigo: entrarás en la embarcación junto con tus hijos, tu esposa y las esposas de tus hijos. También llevarás contigo dos ejemplares de cada ser viviente, macho y hembra, para conservarlos vivos: dos de cada especie de ave, mamífero y reptil; dos de todo, para preservar su vida junto con la tuya. Reúne además todo el alimento que necesitarás y almacénalo para ti y para ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22",
+      "id": "genesis6-msg-12",
+      "msg": {
+        "en": "Noah did everything God commanded him to do.",
+        "es": "Noé hizo todo lo que Dios le mandó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis6-nbla-22"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis6-nbla-01",
+      "number": 1,
+      "text": "Aconteció que cuando los hombres comenzaron a multiplicarse sobre la superficie de la tierra, y les nacieron hijas,"
+    },
+    {
+      "id": "genesis6-nbla-02",
+      "number": 2,
+      "text": "los hijos de Dios vieron que las hijas de los hombres eran hermosas, y tomaron para sí mujeres de entre todas las que les gustaban."
+    },
+    {
+      "id": "genesis6-nbla-03",
+      "number": 3,
+      "text": "Entonces el SEÑOR dijo: «Mi Espíritu no luchará para siempre con el hombre, porque ciertamente él es carne. Serán, pues, sus días 120 años»."
+    },
+    {
+      "id": "genesis6-nbla-04",
+      "number": 4,
+      "text": "Había gigantes en la tierra en aquellos días, y también después, cuando los hijos de Dios se unieron a las hijas de los hombres y ellas les dieron hijos. Estos son los héroes de la antigüedad, hombres de renombre."
+    },
+    {
+      "id": "genesis6-nbla-05",
+      "number": 5,
+      "text": "El SEÑOR vio que era mucha la maldad de los hombres en la tierra, y que toda intención de los pensamientos de su corazón era solo hacer siempre el mal."
+    },
+    {
+      "id": "genesis6-nbla-06",
+      "number": 6,
+      "text": "Y al SEÑOR le pesó haber hecho al hombre en la tierra, y sintió tristeza en Su corazón."
+    },
+    {
+      "id": "genesis6-nbla-07",
+      "number": 7,
+      "text": "Entonces el SEÑOR dijo: «Borraré de la superficie de la tierra al hombre que he creado, desde el hombre hasta el ganado, los reptiles y las aves del cielo, porque me pesa haberlos hecho»."
+    },
+    {
+      "id": "genesis6-nbla-08",
+      "number": 8,
+      "text": "Pero Noé halló gracia ante los ojos del SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis6-nbla-09a",
+          "order": 1,
+          "text": "Estas son las generaciones de Noé. Noé era un hombre justo, perfecto entre sus contemporáneos."
+        },
+        {
+          "id": "genesis6-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Noé siempre andaba con Dios."
+        }
+      ],
+      "id": "genesis6-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "genesis6-nbla-10",
+      "number": 10,
+      "text": "Noé engendró tres hijos: Sem, Cam y Jafet."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis6-nbla-11a",
+          "order": 1,
+          "text": "Pero la tierra se había corrompido delante de Dios, y"
+        },
+        {
+          "id": "genesis6-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "estaba la tierra llena de violencia."
+        }
+      ],
+      "id": "genesis6-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "genesis6-nbla-12",
+      "number": 12,
+      "text": "Dios miró a la tierra, y vio que estaba corrompida, porque toda carne había corrompido su camino sobre la tierra."
+    },
+    {
+      "id": "genesis6-nbla-13",
+      "number": 13,
+      "text": "Entonces Dios dijo a Noé: «He decidido poner fin a toda carne, porque la tierra está llena de violencia por causa de ellos; por eso voy a destruirlos junto con la tierra."
+    },
+    {
+      "id": "genesis6-nbla-14",
+      "number": 14,
+      "text": "Hazte un arca de madera de ciprés. Harás el arca con compartimientos, y la cubrirás con brea por dentro y por fuera."
+    },
+    {
+      "id": "genesis6-nbla-15",
+      "number": 15,
+      "text": "De esta manera la harás: de 300 codos (135 metros) la longitud del arca, de 50 codos (22.5 metros) su anchura y de 30 codos (13.5 metros) su altura."
+    },
+    {
+      "id": "genesis6-nbla-16",
+      "number": 16,
+      "text": "Le harás una ventana que terminará a un codo (45 centímetros) del techo, y pondrás la puerta en su costado. Harás el arca de tres pisos."
+    },
+    {
+      "id": "genesis6-nbla-17",
+      "number": 17,
+      "text": "»Entonces Yo traeré un diluvio sobre la tierra, para destruir toda carne en que hay aliento de vida debajo del cielo. Todo lo que hay en la tierra perecerá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis6-nbla-18a",
+          "order": 1,
+          "text": "Pero estableceré Mi pacto contigo."
+        },
+        {
+          "id": "genesis6-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Entrarás en el arca tú, y contigo tus hijos, tu mujer y las mujeres de tus hijos."
+        }
+      ],
+      "id": "genesis6-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "genesis6-nbla-19",
+      "number": 19,
+      "text": "»Y de todo ser viviente, de toda carne, meterás dos de cada especie en el arca, para preservarles la vida contigo; macho y hembra serán."
+    },
+    {
+      "id": "genesis6-nbla-20",
+      "number": 20,
+      "text": "De las aves según su especie, de los animales según su especie y de todo reptil de la tierra según su especie, dos de cada especie vendrán a ti para que les preserves la vida."
+    },
+    {
+      "id": "genesis6-nbla-21",
+      "number": 21,
+      "text": "»Y tú, toma para ti de todo alimento que se come, y almacénalo, y será alimento para ti y para ellos»."
+    },
+    {
+      "id": "genesis6-nbla-22",
+      "number": 22,
+      "text": "Así lo hizo Noé; conforme a todo lo que Dios le había mandado, así lo hizo."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

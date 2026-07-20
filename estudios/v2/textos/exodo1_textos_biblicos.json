@@ -8,16 +8,14 @@
       "explanation": "La bendición creadora de Dios continúa actuando en Israel aun después de la muerte de José y de su generación. La NBLA fija el sentido mediante la acumulación de verbos de fecundidad, multiplicación y fortalecimiento; MSG vuelve visible esa abundancia con la imagen de una «explosión demográfica». La imagen comunica la magnitud del crecimiento, pero la conclusión teológica descansa en la continuidad de la bendición bíblica, no en la expresión particular de MSG.",
       "id": "exodo1-joya-01",
       "msg": {
-        "en": "“They were very prolific—a population explosion in their own right.”",
+        "en": "“They were very prolific—a population explosion in their own right—”",
         "es": "«Eran extraordinariamente fecundos; vivieron una verdadera explosión demográfica»."
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-06"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "exodo1-nbla-07a"
+          ],
           "verseId": "exodo1-nbla-07"
         }
       ],
@@ -33,16 +31,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "exodo1-nbla-08b"
+          ],
           "verseId": "exodo1-nbla-08"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-09"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-10"
         }
       ],
       "order": 2,
@@ -57,19 +49,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-11"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-12"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-13"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "exodo1-nbla-14b"
+          ],
           "verseId": "exodo1-nbla-14"
         }
       ],
@@ -80,17 +62,15 @@
       "explanation": "El temor de Dios coloca un límite moral a la obediencia exigida por el rey. La NBLA fija el núcleo teológico con la expresión «temían a Dios»; MSG muestra pastoralmente la fuerza de esa reverencia: era demasiado grande para permitir que la orden de Faraón gobernara su conciencia. El pasaje elogia su negativa a matar y su preservación de la vida, no una actitud general de desacato ante cualquier autoridad.",
       "id": "exodo1-joya-04",
       "msg": {
-        "en": "“far too much respect for God.”",
+        "en": "“far too much respect for God”",
         "es": "«respetaban demasiado a Dios»."
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "exodo1-nbla-17b"
+          ],
           "verseId": "exodo1-nbla-17"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-18"
         }
       ],
       "order": 4,
@@ -105,12 +85,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "exodo1-nbla-20a"
+          ],
           "verseId": "exodo1-nbla-20"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "exodo1-nbla-21"
         }
       ],
       "order": 5,
@@ -344,14 +322,42 @@
       "text": "Y murió José, y todos sus hermanos, y toda aquella generación."
     },
     {
+      "clauses": [
+        {
+          "id": "exodo1-nbla-07a",
+          "order": 1,
+          "text": "Pero los israelitas tuvieron muchos hijos y aumentaron mucho, y se multiplicaron y llegaron a ser poderosos en gran manera"
+        },
+        {
+          "id": "exodo1-nbla-07b",
+          "order": 2,
+          "text": ", y el país se llenó de ellos."
+        }
+      ],
       "id": "exodo1-nbla-07",
-      "number": 7,
-      "text": "Pero los israelitas tuvieron muchos hijos y aumentaron mucho, y se multiplicaron y llegaron a ser poderosos en gran manera, y el país se llenó de ellos."
+      "number": 7
     },
     {
+      "clauses": [
+        {
+          "id": "exodo1-nbla-08a",
+          "order": 1,
+          "text": "Se levantó sobre Egipto"
+        },
+        {
+          "id": "exodo1-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "un nuevo rey que no había conocido a José"
+        },
+        {
+          "id": "exodo1-nbla-08c",
+          "order": 3,
+          "text": ","
+        }
+      ],
       "id": "exodo1-nbla-08",
-      "number": 8,
-      "text": "Se levantó sobre Egipto un nuevo rey que no había conocido a José,"
+      "number": 8
     },
     {
       "id": "exodo1-nbla-09",
@@ -379,9 +385,26 @@
       "text": "Los egipcios, pues, obligaron a los israelitas a trabajar duramente,"
     },
     {
+      "clauses": [
+        {
+          "id": "exodo1-nbla-14a",
+          "order": 1,
+          "text": "y les amargaron la vida con dura servidumbre en hacer barro y ladrillos y en toda clase de trabajo del campo."
+        },
+        {
+          "id": "exodo1-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Todos sus trabajos se los imponían con rigor"
+        },
+        {
+          "id": "exodo1-nbla-14c",
+          "order": 3,
+          "text": "."
+        }
+      ],
       "id": "exodo1-nbla-14",
-      "number": 14,
-      "text": "y les amargaron la vida con dura servidumbre en hacer barro y ladrillos y en toda clase de trabajo del campo. Todos sus trabajos se los imponían con rigor."
+      "number": 14
     },
     {
       "id": "exodo1-nbla-15",
@@ -394,9 +417,26 @@
       "text": "y les dijo: «Cuando estén asistiendo a las hebreas a dar a luz, y las vean sobre el lecho del parto, si es un hijo, le darán muerte, pero si es una hija, entonces vivirá»."
     },
     {
+      "clauses": [
+        {
+          "id": "exodo1-nbla-17a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "exodo1-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "las parteras temían a Dios"
+        },
+        {
+          "id": "exodo1-nbla-17c",
+          "order": 3,
+          "text": ", y no hicieron como el rey de Egipto les había mandado, sino que dejaron con vida a los niños."
+        }
+      ],
       "id": "exodo1-nbla-17",
-      "number": 17,
-      "text": "Pero las parteras temían a Dios, y no hicieron como el rey de Egipto les había mandado, sino que dejaron con vida a los niños."
+      "number": 17
     },
     {
       "id": "exodo1-nbla-18",
@@ -409,9 +449,20 @@
       "text": "Las parteras respondieron a Faraón: «Porque las mujeres hebreas no son como las egipcias, pues son robustas y dan a luz antes que la partera llegue a ellas»."
     },
     {
+      "clauses": [
+        {
+          "id": "exodo1-nbla-20a",
+          "order": 1,
+          "text": "Dios favoreció a las parteras"
+        },
+        {
+          "id": "exodo1-nbla-20b",
+          "order": 2,
+          "text": "; y el pueblo se multiplicó y llegó a ser muy poderoso."
+        }
+      ],
       "id": "exodo1-nbla-20",
-      "number": 20,
-      "text": "Dios favoreció a las parteras; y el pueblo se multiplicó y llegó a ser muy poderoso."
+      "number": 20
     },
     {
       "id": "exodo1-nbla-21",

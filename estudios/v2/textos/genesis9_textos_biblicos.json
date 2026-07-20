@@ -1,0 +1,617 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La autoridad humana sobre los animales continúa siendo una responsabilidad delegada por Dios. NBLA establece que las criaturas son entregadas en manos humanas; MSG vuelve explícito el peso moral de esa entrega. El miedo animal y el permiso alimentario no convierten la creación en propiedad absoluta: el dominio sigue estando bajo la autoridad del Creador.",
+      "id": "genesis9-joya-01",
+      "msg": {
+        "en": "“You’re responsible for them.”",
+        "es": "«Ustedes son responsables de ellas.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-02b"
+          ],
+          "verseId": "genesis9-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "Toda vida humana conserva una dignidad derivada de Dios. NBLA fija la razón literal por la que la sangre humana no puede tratarse con ligereza; MSG expresa pastoralmente que la imagen implica representar la naturaleza del Creador. Esa expansión debe mantenerse dentro del límite del texto: los seres humanos reflejan a Dios, pero no son divinos.",
+      "id": "genesis9-joya-02",
+      "msg": {
+        "en": "“Because God made humans in his image reflecting God’s very nature.”",
+        "es": "«porque Dios hizo a los seres humanos a su imagen, reflejando la propia naturaleza de Dios.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-06b"
+          ],
+          "verseId": "genesis9-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "5-7"
+    },
+    {
+      "explanation": "La vocación humana está orientada hacia la fecundidad y el florecimiento, no hacia la multiplicación de la violencia. NBLA conserva el mandato de poblar y multiplicarse; MSG vuelve visible la intención positiva de llenar el mundo de vida. El llamado no promete abundancia material individual, sino una participación responsable en la continuidad de la vida creada.",
+      "id": "genesis9-joya-03",
+      "msg": {
+        "en": "“lavish life on the Earth, live bountifully!”",
+        "es": "«para derramar vida abundantemente sobre la Tierra y vivir con plenitud»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-07b"
+          ],
+          "verseId": "genesis9-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios toma la iniciativa y vincula su fidelidad al futuro de la creación. NBLA establece con precisión que el pacto procede de Dios; MSG conserva la cercanía de una declaración directa. La promesa no significa que nunca habrá juicio ni sufrimiento, sino que no volverá a ocurrir un diluvio destinado a destruir toda la Tierra.",
+      "id": "genesis9-joya-04",
+      "msg": {
+        "en": "“I’m setting up my covenant with you”",
+        "es": "«Estoy estableciendo mi pacto con ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-09b"
+          ],
+          "verseId": "genesis9-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "8-11"
+    },
+    {
+      "explanation": "Dios ofrece una señal visible de su compromiso con la Tierra y sus criaturas. NBLA conserva la expresión «Mi arco», mientras MSG identifica la imagen observable como arcoíris. La señal no funciona como amuleto ni garantiza ausencia de tormentas; recuerda que las nubes ya no anuncian la destrucción total del mundo mediante un diluvio.",
+      "id": "genesis9-joya-05",
+      "msg": {
+        "en": "“I’m putting my rainbow in the clouds”",
+        "es": "«Pongo mi arcoíris en las nubes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-13"
+        }
+      ],
+      "order": 5,
+      "range": "12-16"
+    },
+    {
+      "explanation": "Sem y Jafet responden a la vulnerabilidad de Noé protegiendo su dignidad sin negar su estado. NBLA fija la acción cuidadosa de cubrirlo sin mirar; MSG conserva la fuerza visual de caminar de espaldas. El texto no enseña a encubrir abusos o pecados que deben ser confrontados, sino a no convertir la fragilidad ajena en entretenimiento, humillación o ventaja.",
+      "id": "genesis9-joya-06",
+      "msg": {
+        "en": "“walked backward and covered their father’s nakedness”",
+        "es": "«caminaron de espaldas y cubrieron la desnudez de su padre.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-23b"
+          ],
+          "verseId": "genesis9-nbla-23"
+        }
+      ],
+      "order": 6,
+      "range": "20-23"
+    },
+    {
+      "explanation": "El pacto preserva el mundo, pero no elimina todavía la mortalidad humana. Noé vivió muchos años, sobrevivió al diluvio y recibió promesas, pero terminó bajo la misma sentencia de muerte que atraviesa la genealogía de Adán. La estabilidad de la creación mantiene abierta la esperanza; no constituye todavía la victoria final sobre la muerte.",
+      "id": "genesis9-joya-07",
+      "msg": {
+        "en": "“And he died.”",
+        "es": "«Y murió.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis9-nbla-29b"
+          ],
+          "verseId": "genesis9-nbla-29"
+        }
+      ],
+      "order": 7,
+      "range": "28-29"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 9,
+    "studyId": "genesis-9"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "genesis9-msg-01",
+      "msg": {
+        "en": "God blessed Noah and his sons: He said, “Prosper! Reproduce! Fill the Earth! Every living creature—birds, animals, fish—will fall under your spell and be afraid of you. You’re responsible for them. All living creatures are yours for food; just as I gave you the plants, now I give you everything else. Except for meat with its lifeblood still in it—don’t eat that.",
+        "es": "Dios bendijo a Noé y a sus hijos. Les dijo: «¡Prosperen! ¡Reprodúzcanse! ¡Llenen la Tierra! Toda criatura viviente —aves, animales y peces— quedará bajo su dominio y les tendrá miedo. Ustedes son responsables de ellas. Todos los seres vivos les servirán de alimento; así como les di las plantas, ahora les doy todo lo demás. Pero no coman carne que todavía conserve su sangre vital."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5",
+      "id": "genesis9-msg-02",
+      "msg": {
+        "en": "“But your own lifeblood I will avenge; I will avenge it against both animals and other humans.",
+        "es": "»Pero vengaré su propia sangre vital; la vengaré tanto de los animales como de otros seres humanos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "genesis9-msg-03",
+      "msg": {
+        "en": "Whoever sheds human blood,\nby humans let his blood be shed,\nBecause God made humans in his image\nreflecting God’s very nature.\nYou’re here to bear fruit, reproduce,\nlavish life on the Earth, live bountifully!”",
+        "es": "Quien derrame sangre humana,\npor seres humanos verá derramada su propia sangre,\nporque Dios hizo a los seres humanos a su imagen,\nreflejando la propia naturaleza de Dios.\nUstedes están aquí para dar fruto y reproducirse,\npara derramar vida abundantemente sobre la Tierra y vivir con plenitud»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-11",
+      "id": "genesis9-msg-04",
+      "msg": {
+        "en": "Then God spoke to Noah and his sons: “I’m setting up my covenant with you including your children who will come after you, along with everything alive around you—birds, farm animals, wild animals—that came out of the ship with you. I’m setting up my covenant with you that never again will everything living be destroyed by floodwaters; no, never again will a flood destroy the Earth.”",
+        "es": "Entonces Dios les habló a Noé y a sus hijos: «Estoy estableciendo mi pacto con ustedes, incluyendo a los hijos que vendrán después, y con todo ser viviente que los rodea —aves, animales domésticos y animales salvajes—, todos los que salieron con ustedes de la embarcación. Estoy estableciendo mi pacto con ustedes: nunca más todo ser viviente será destruido por las aguas de un diluvio; nunca más un diluvio destruirá la Tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-16",
+      "id": "genesis9-msg-05",
+      "msg": {
+        "en": "God continued, “This is the sign of the covenant I am making between me and you and everything living around you and everyone living after you. I’m putting my rainbow in the clouds, a sign of the covenant between me and the Earth. From now on, when I form a cloud over the Earth and the rainbow appears in the cloud, I’ll remember my covenant between me and you and everything living, that never again will floodwaters destroy all life. When the rainbow appears in the cloud, I’ll see it and remember the eternal covenant between God and everything living, every last living creature on Earth.”",
+        "es": "Dios continuó: «Esta es la señal del pacto que hago entre ustedes y yo, con todo ser viviente que los rodea y con todos los que vivirán después de ustedes. Pongo mi arcoíris en las nubes como señal del pacto entre la Tierra y yo. De ahora en adelante, cuando forme nubes sobre la Tierra y el arcoíris aparezca en ellas, recordaré mi pacto con ustedes y con todo ser viviente: las aguas del diluvio nunca más destruirán toda vida. Cuando aparezca el arcoíris en las nubes, lo miraré y recordaré el pacto eterno entre Dios y todo ser viviente, hasta la última criatura que vive sobre la Tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17",
+      "id": "genesis9-msg-06",
+      "msg": {
+        "en": "And God said, “This is the sign of the covenant that I’ve set up between me and everything living on the Earth.”",
+        "es": "Y Dios dijo: «Esta es la señal del pacto que he establecido entre mí y todo ser viviente sobre la Tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "genesis9-msg-07",
+      "msg": {
+        "en": "The sons of Noah who came out of the ship were Shem, Ham, and Japheth. Ham was the father of Canaan. These are the three sons of Noah; from these three the whole Earth was populated.",
+        "es": "Los hijos de Noé que salieron de la embarcación fueron Sem, Cam y Jafet. Cam fue el padre de Canaán. Estos fueron los tres hijos de Noé; de ellos se pobló toda la Tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "genesis9-msg-08",
+      "msg": {
+        "en": "Noah, a farmer, was the first to plant a vineyard. He drank from its wine, got drunk and passed out, naked in his tent. Ham, the father of Canaan, saw that his father was naked and told his two brothers who were outside the tent. Shem and Japheth took a cloak, held it between them from their shoulders, walked backward and covered their father’s nakedness, keeping their faces turned away so they did not see their father’s exposed body.",
+        "es": "Noé, que era agricultor, fue el primero en plantar un viñedo. Bebió de su vino, se embriagó, perdió el conocimiento y quedó desnudo dentro de su tienda. Cam, padre de Canaán, vio a su padre desnudo y fue a contárselo a sus dos hermanos, que estaban afuera. Sem y Jafet tomaron un manto, lo sostuvieron entre ambos sobre sus hombros, caminaron de espaldas y cubrieron la desnudez de su padre. Mantuvieron el rostro vuelto para no ver el cuerpo expuesto de su padre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-23"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "genesis9-msg-09",
+      "msg": {
+        "en": "When Noah woke up with his hangover, he learned what his youngest son had done. He said,\nCursed be Canaan! A slave of slaves,\na slave to his brothers!\nBlessed be GOD, the God of Shem,\nbut Canaan shall be his slave.\nGod prosper Japheth,\nliving spaciously in the tents of Shem.\nBut Canaan shall be his slave.",
+        "es": "Cuando Noé despertó con resaca y supo lo que su hijo menor había hecho, dijo:\n«¡Maldito sea Canaán! Será esclavo de esclavos,\nesclavo de sus hermanos.\nBendito sea DIOS, el Dios de Sem,\ny Canaán será su esclavo.\nQue Dios haga prosperar a Jafet,\ny le dé amplio lugar en las tiendas de Sem.\nPero Canaán será su esclavo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-27"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "genesis9-msg-10",
+      "msg": {
+        "en": "Noah lived another 350 years following the flood. He lived a total of 950 years. And he died.",
+        "es": "Después del diluvio, Noé vivió otros trescientos cincuenta años. Vivió en total novecientos cincuenta años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis9-nbla-29"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis9-nbla-01",
+      "number": 1,
+      "text": "Y Dios bendijo a Noé y a sus hijos, y les dijo: «Sean fecundos y multiplíquense, y llenen la tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-02a",
+          "order": 1,
+          "text": "El temor y el terror de ustedes estarán sobre todos los animales de la tierra, sobre todas las aves del cielo, en todo lo que se arrastra sobre el suelo, y en todos los peces del mar."
+        },
+        {
+          "id": "genesis9-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "En su mano son todos entregados."
+        }
+      ],
+      "id": "genesis9-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "genesis9-nbla-03",
+      "number": 3,
+      "text": "Todo lo que se mueve y tiene vida les será para alimento. Todo lo doy a ustedes como les di la hierba verde."
+    },
+    {
+      "id": "genesis9-nbla-04",
+      "number": 4,
+      "text": "Pero carne con su vida, es decir, con su sangre, no comerán."
+    },
+    {
+      "id": "genesis9-nbla-05",
+      "number": 5,
+      "text": "»De la sangre de ustedes, de la vida de ustedes, ciertamente pediré cuenta: a cualquier animal, y a cualquier hombre, pediré cuenta; de cada hombre pediré cuenta de la vida de un ser humano."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-06a",
+          "order": 1,
+          "text": "El que derrame sangre de hombre,\nPor el hombre su sangre será derramada,"
+        },
+        {
+          "id": "genesis9-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque a imagen de Dios\nHizo Él al hombre."
+        }
+      ],
+      "id": "genesis9-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-07a",
+          "order": 1,
+          "text": "En cuanto a ustedes, sean fecundos y multiplíquense."
+        },
+        {
+          "id": "genesis9-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pueblen en abundancia la tierra y multiplíquense en ella"
+        },
+        {
+          "id": "genesis9-nbla-07c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis9-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "genesis9-nbla-08",
+      "number": 8,
+      "text": "Entonces Dios habló a Noé y a sus hijos que estaban con él y les dijo:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-09a",
+          "order": 1,
+          "text": "«Miren,"
+        },
+        {
+          "id": "genesis9-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Yo establezco Mi pacto con ustedes"
+        },
+        {
+          "id": "genesis9-nbla-09c",
+          "order": 3,
+          "text": ", y con su descendencia después de ustedes,"
+        }
+      ],
+      "id": "genesis9-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "genesis9-nbla-10",
+      "number": 10,
+      "text": "y con todo ser viviente que está con ustedes: aves, ganados y todos los animales de la tierra que están con ustedes, todos los que han salido del arca, todos los animales de la tierra."
+    },
+    {
+      "id": "genesis9-nbla-11",
+      "number": 11,
+      "text": "Yo establezco Mi pacto con ustedes, y nunca más volverá a ser exterminada toda carne por las aguas del diluvio, ni habrá más diluvio para destruir la tierra»."
+    },
+    {
+      "id": "genesis9-nbla-12",
+      "number": 12,
+      "text": "También dijo Dios: «Esta es la señal del pacto que Yo hago con ustedes y todo ser viviente que está con ustedes, por todas las generaciones:"
+    },
+    {
+      "id": "genesis9-nbla-13",
+      "number": 13,
+      "text": "Pongo Mi arco en las nubes y será por señal de Mi pacto con la tierra."
+    },
+    {
+      "id": "genesis9-nbla-14",
+      "number": 14,
+      "text": "»Y acontecerá que cuando haga venir nubes sobre la tierra, se verá el arco en las nubes,"
+    },
+    {
+      "id": "genesis9-nbla-15",
+      "number": 15,
+      "text": "y me acordaré de Mi pacto, con ustedes y con todo ser viviente de toda carne. Nunca más se convertirán las aguas en diluvio para destruir toda carne."
+    },
+    {
+      "id": "genesis9-nbla-16",
+      "number": 16,
+      "text": "Cuando el arco esté en las nubes, lo miraré para acordarme del pacto eterno entre Dios y todo ser viviente de toda carne que está sobre la tierra»."
+    },
+    {
+      "id": "genesis9-nbla-17",
+      "number": 17,
+      "text": "Y dijo Dios a Noé: «Esta es la señal del pacto que Yo he establecido con toda carne que está sobre la tierra»."
+    },
+    {
+      "id": "genesis9-nbla-18",
+      "number": 18,
+      "text": "Los hijos de Noé que salieron del arca fueron Sem, Cam y Jafet. Cam fue el padre de Canaán."
+    },
+    {
+      "id": "genesis9-nbla-19",
+      "number": 19,
+      "text": "Estos tres fueron los hijos de Noé, y de ellos se pobló toda la tierra."
+    },
+    {
+      "id": "genesis9-nbla-20",
+      "number": 20,
+      "text": "Noé comenzó a labrar la tierra, y plantó una viña."
+    },
+    {
+      "id": "genesis9-nbla-21",
+      "number": 21,
+      "text": "Bebió el vino y se embriagó, y se desnudó en medio de su tienda."
+    },
+    {
+      "id": "genesis9-nbla-22",
+      "number": 22,
+      "text": "Cam, padre de Canaán, vio la desnudez de su padre y se lo contó a sus dos hermanos que estaban afuera."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-23a",
+          "order": 1,
+          "text": "Entonces Sem y Jafet tomaron un manto, lo pusieron sobre sus hombros, y"
+        },
+        {
+          "id": "genesis9-nbla-23b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "caminando hacia atrás cubrieron la desnudez de su padre."
+        },
+        {
+          "id": "genesis9-nbla-23c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Como sus rostros estaban vueltos, no vieron la desnudez de su padre."
+        }
+      ],
+      "id": "genesis9-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "genesis9-nbla-24",
+      "number": 24,
+      "text": "Cuando Noé despertó de su embriaguez, y supo lo que su hijo menor le había hecho,"
+    },
+    {
+      "id": "genesis9-nbla-25",
+      "number": 25,
+      "text": "dijo:\n«Maldito sea Canaán;\nSiervo de siervos\nSerá para sus hermanos»."
+    },
+    {
+      "id": "genesis9-nbla-26",
+      "number": 26,
+      "text": "Dijo también:\n«Bendito sea el SEÑOR,\nEl Dios de Sem;\nY sea Canaán su siervo."
+    },
+    {
+      "id": "genesis9-nbla-27",
+      "number": 27,
+      "text": "Engrandezca Dios a Jafet,\nY habite en las tiendas de Sem;\nY sea Canaán su siervo»."
+    },
+    {
+      "id": "genesis9-nbla-28",
+      "number": 28,
+      "text": "Noé vivió 350 años después del diluvio."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis9-nbla-29a",
+          "order": 1,
+          "text": "El total de los días de Noé fue de 950 años,"
+        },
+        {
+          "id": "genesis9-nbla-29b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y murió."
+        }
+      ],
+      "id": "genesis9-nbla-29",
+      "number": 29
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

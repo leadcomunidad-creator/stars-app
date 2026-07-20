@@ -13,15 +13,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-15"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-16"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-17b"
+          ],
           "verseId": "lucas1-nbla-17"
         }
       ],
@@ -37,11 +31,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-19"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-20b"
+          ],
           "verseId": "lucas1-nbla-20"
         }
       ],
@@ -57,24 +49,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-29"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-30b"
+          ],
           "verseId": "lucas1-nbla-30"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-31"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-32"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-33"
         }
       ],
       "order": 3,
@@ -89,16 +67,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-36"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-37a"
+          ],
           "verseId": "lucas1-nbla-37"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-38"
         }
       ],
       "order": 4,
@@ -113,31 +85,9 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-39"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-40"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-41"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-42"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-43"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-44"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-45a"
+          ],
           "verseId": "lucas1-nbla-45"
         }
       ],
@@ -153,56 +103,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-67"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-68"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-69"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-70"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-71"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-72"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-73"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-74"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-75"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-76"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-77"
-        },
-        {
-          "fullVerse": true,
+          "clauseIds": [
+            "lucas1-nbla-78b"
+          ],
           "verseId": "lucas1-nbla-78"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "lucas1-nbla-79"
         }
       ],
       "order": 6,
@@ -903,9 +807,26 @@
       "text": "y hará volver a muchos de los israelitas al Señor su Dios."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-17a",
+          "order": 1,
+          "text": "Él irá delante del Señor en el espíritu y poder de Elías PARA HACER VOLVER LOS CORAZONES DE LOS PADRES A LOS HIJOS, y a los desobedientes a la actitud de los justos,"
+        },
+        {
+          "id": "lucas1-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "a fin de preparar para el Señor un pueblo bien dispuesto"
+        },
+        {
+          "id": "lucas1-nbla-17c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
       "id": "lucas1-nbla-17",
-      "number": 17,
-      "text": "Él irá delante del Señor en el espíritu y poder de Elías PARA HACER VOLVER LOS CORAZONES DE LOS PADRES A LOS HIJOS, y a los desobedientes a la actitud de los justos, a fin de preparar para el Señor un pueblo bien dispuesto»."
+      "number": 17
     },
     {
       "id": "lucas1-nbla-18",
@@ -918,9 +839,26 @@
       "text": "El ángel le respondió: «Yo soy Gabriel, que estoy en la presencia de Dios, y he sido enviado para hablarte y anunciarte estas buenas nuevas."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-20a",
+          "order": 1,
+          "text": "Así que te quedarás mudo, y no podrás hablar hasta el día en que todo esto acontezca, por cuanto no creíste mis palabras,"
+        },
+        {
+          "id": "lucas1-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "las cuales se cumplirán a su debido tiempo"
+        },
+        {
+          "id": "lucas1-nbla-20c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
       "id": "lucas1-nbla-20",
-      "number": 20,
-      "text": "Así que te quedarás mudo, y no podrás hablar hasta el día en que todo esto acontezca, por cuanto no creíste mis palabras, las cuales se cumplirán a su debido tiempo»."
+      "number": 20
     },
     {
       "id": "lucas1-nbla-21",
@@ -968,9 +906,26 @@
       "text": "Ella se turbó mucho por estas palabras, y se preguntaba qué clase de saludo sería este."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-30a",
+          "order": 1,
+          "text": "Y el ángel le dijo: «No temas, María, porque"
+        },
+        {
+          "id": "lucas1-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "has hallado gracia delante de Dios"
+        },
+        {
+          "id": "lucas1-nbla-30c",
+          "order": 3,
+          "text": "."
+        }
+      ],
       "id": "lucas1-nbla-30",
-      "number": 30,
-      "text": "Y el ángel le dijo: «No temas, María, porque has hallado gracia delante de Dios."
+      "number": 30
     },
     {
       "id": "lucas1-nbla-31",
@@ -1003,9 +958,20 @@
       "text": "Tu parienta Elisabet en su vejez también ha concebido un hijo; y este es el sexto mes para ella, la que llamaban estéril."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-37a",
+          "order": 1,
+          "text": "Porque ninguna cosa será imposible para Dios"
+        },
+        {
+          "id": "lucas1-nbla-37b",
+          "order": 2,
+          "text": "»."
+        }
+      ],
       "id": "lucas1-nbla-37",
-      "number": 37,
-      "text": "Porque ninguna cosa será imposible para Dios»."
+      "number": 37
     },
     {
       "id": "lucas1-nbla-38",
@@ -1043,9 +1009,20 @@
       "text": "Porque apenas la voz de tu saludo llegó a mis oídos, la criatura saltó de gozo en mi vientre."
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-45a",
+          "order": 1,
+          "text": "Y bienaventurada la que creyó que tendrá cumplimiento lo que le fue dicho de parte del Señor"
+        },
+        {
+          "id": "lucas1-nbla-45b",
+          "order": 2,
+          "text": "»."
+        }
+      ],
       "id": "lucas1-nbla-45",
-      "number": 45,
-      "text": "Y bienaventurada la que creyó que tendrá cumplimiento lo que le fue dicho de parte del Señor»."
+      "number": 45
     },
     {
       "id": "lucas1-nbla-46",
@@ -1208,9 +1185,26 @@
       "text": "Para dar a Su pueblo el conocimiento de la salvación\nPor el perdón de sus pecados,"
     },
     {
+      "clauses": [
+        {
+          "id": "lucas1-nbla-78a",
+          "order": 1,
+          "text": "Por la entrañable misericordia de nuestro Dios,"
+        },
+        {
+          "id": "lucas1-nbla-78b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Con que la Aurora nos visitará desde lo alto"
+        },
+        {
+          "id": "lucas1-nbla-78c",
+          "order": 3,
+          "text": ","
+        }
+      ],
       "id": "lucas1-nbla-78",
-      "number": 78,
-      "text": "Por la entrañable misericordia de nuestro Dios,\nCon que la Aurora nos visitará desde lo alto,"
+      "number": 78
     },
     {
       "id": "lucas1-nbla-79",

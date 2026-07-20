@@ -15,10 +15,6 @@
         {
           "fullVerse": true,
           "verseId": "juan1-nbla-01"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-02"
         }
       ],
       "order": 1,
@@ -32,10 +28,6 @@
         "es": "\"La Luz-Vida resplandeció en la oscuridad; la oscuridad no pudo apagarla.\""
       },
       "nblaRefs": [
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-03"
-        },
         {
           "fullVerse": true,
           "verseId": "juan1-nbla-04"
@@ -75,14 +67,6 @@
         {
           "fullVerse": true,
           "verseId": "juan1-nbla-16"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-17"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-18"
         }
       ],
       "order": 4,
@@ -92,12 +76,14 @@
       "explanation": "La misión de Juan consiste en preparar el camino del Señor y dirigir la atención hacia otro. La NBLA fija su identidad como «la voz del que clama» y conserva la cita de Isaías; MSG vuelve audible la urgencia del testimonio con la imagen de un trueno. «Trueno» es una intensificación expresiva y no una equivalencia léxica independiente sobre la cual construir doctrina.",
       "id": "juan1-joya-05",
       "msg": {
-        "en": "\"I’m thunder in the desert.\"",
-        "es": "\"Soy trueno en el desierto.\""
+        "en": "\"I’m thunder in the desert:\"",
+        "es": "\"Soy trueno en el desierto:\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "juan1-nbla-23b"
+          ],
           "verseId": "juan1-nbla-23"
         }
       ],
@@ -113,16 +99,10 @@
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "juan1-nbla-29b"
+          ],
           "verseId": "juan1-nbla-29"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-30"
-        },
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-31"
         }
       ],
       "order": 6,
@@ -133,11 +113,13 @@
       "id": "juan1-joya-07",
       "msg": {
         "en": "\"Come along and see for yourself.\"",
-        "es": "\"Vengan y vean por ustedes mismos.\""
+        "es": "\"Vengan y vean por ustedes mismos\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "juan1-nbla-39b"
+          ],
           "verseId": "juan1-nbla-39"
         }
       ],
@@ -755,9 +737,25 @@
       "text": "Entonces le preguntaron: «¿Quién eres? Ya que tenemos que dar respuesta a los que nos enviaron. ¿Qué dices de ti mismo?»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-23a",
+          "order": 1,
+          "text": "Juan les respondió: «"
+        },
+        {
+          "id": "juan1-nbla-23b",
+          "order": 2,
+          "text": "Yo soy LA VOZ DEL QUE CLAMA EN EL DESIERTO: “ENDERECEN EL CAMINO DEL SEÑOR”, como dijo el profeta Isaías"
+        },
+        {
+          "id": "juan1-nbla-23c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
       "id": "juan1-nbla-23",
-      "number": 23,
-      "text": "Juan les respondió: «Yo soy LA VOZ DEL QUE CLAMA EN EL DESIERTO: “ENDERECEN EL CAMINO DEL SEÑOR”, como dijo el profeta Isaías»."
+      "number": 23
     },
     {
       "id": "juan1-nbla-24",
@@ -785,9 +783,20 @@
       "text": "Estas cosas sucedieron en Betania, al otro lado del Jordán, donde Juan estaba bautizando."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-29a",
+          "order": 1,
+          "text": "Al día siguiente Juan vio* a Jesús que venía hacia él, y dijo*: «"
+        },
+        {
+          "id": "juan1-nbla-29b",
+          "order": 2,
+          "text": "Ahí está el Cordero de Dios que quita el pecado del mundo."
+        }
+      ],
       "id": "juan1-nbla-29",
-      "number": 29,
-      "text": "Al día siguiente Juan vio* a Jesús que venía hacia él, y dijo*: «Ahí está el Cordero de Dios que quita el pecado del mundo."
+      "number": 29
     },
     {
       "id": "juan1-nbla-30",
@@ -835,9 +844,25 @@
       "text": "Jesús se volvió, y viendo que lo seguían, les dijo*: «¿Qué buscan?». Y ellos le dijeron: «Rabí (que traducido quiere decir Maestro), ¿dónde te hospedas?»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-39a",
+          "order": 1,
+          "text": "«"
+        },
+        {
+          "id": "juan1-nbla-39b",
+          "order": 2,
+          "text": "Vengan y verán"
+        },
+        {
+          "id": "juan1-nbla-39c",
+          "order": 3,
+          "text": "», les dijo* Jesús. Entonces fueron y vieron dónde se hospedaba; y se quedaron con Él aquel día, porque eran como las cuatro de la tarde."
+        }
+      ],
       "id": "juan1-nbla-39",
-      "number": 39,
-      "text": "«Vengan y verán», les dijo* Jesús. Entonces fueron y vieron dónde se hospedaba; y se quedaron con Él aquel día, porque eran como las cuatro de la tarde."
+      "number": 39
     },
     {
       "id": "juan1-nbla-40",

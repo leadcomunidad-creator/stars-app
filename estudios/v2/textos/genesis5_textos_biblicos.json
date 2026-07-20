@@ -1,0 +1,649 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La dignidad humana sigue anclada en el acto creador de Dios, incluso después de la caída. La NBLA fija la afirmación de que la humanidad fue hecha a semejanza divina; MSG hace visible la cercanía relacional de esa semejanza. La expresión no significa que los seres humanos sean dioses, sino que fueron creados para representar y reflejar al Creador.",
+      "id": "genesis5-joya-01",
+      "msg": {
+        "en": "“he made it godlike, with a nature akin to God.”",
+        "es": "«la hizo semejante a Dios, con una naturaleza afín a la de Dios.»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-01b"
+          ],
+          "verseId": "genesis5-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La vida humana se transmite dentro de una continuidad real entre generaciones. La NBLA conserva el lenguaje de semejanza e imagen que enlaza a Set con Adán; MSG lo vuelve cercano al describir un hijo profundamente parecido a su padre. El punto no es negar la imagen de Dios, sino mostrar que ahora esa dignidad es llevada por descendientes que comparten también la mortalidad de Adán.",
+      "id": "genesis5-joya-02",
+      "msg": {
+        "en": "“he had a son who was just like him, his very spirit and image,”",
+        "es": "«tuvo un hijo muy parecido a él, con su mismo espíritu y su misma imagen,»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-03b"
+          ],
+          "verseId": "genesis5-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3-5"
+    },
+    {
+      "explanation": "La muerte es la consecuencia que marca la historia humana fuera de Edén. La coincidencia exacta de ambas versiones conserva la crudeza del estribillo. No hay elaboración ni suavización: cada vida, por extensa que sea, llega al límite anunciado por Dios. La repetición convierte la genealogía en una meditación sobre la mortalidad.",
+      "id": "genesis5-joya-03",
+      "msg": {
+        "en": "“And he died.”",
+        "es": "«Y murió»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-05b"
+          ],
+          "verseId": "genesis5-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "3-5"
+    },
+    {
+      "explanation": "La comunión con Dios define la singularidad de Enoc. La NBLA fija la expresión bíblica «anduvo con Dios»; MSG hace visible su carácter sostenido, no momentáneo. No se trata de una experiencia aislada, sino de una orientación estable de la vida. La imagen invita a comprender la fe como un camino diario en la presencia y dirección de Dios.",
+      "id": "genesis5-joya-04",
+      "msg": {
+        "en": "“Enoch walked steadily with God.”",
+        "es": "«Enoc caminó con Dios de manera constante»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-22a"
+          ],
+          "verseId": "genesis5-nbla-22"
+        }
+      ],
+      "order": 4,
+      "range": "21-23"
+    },
+    {
+      "explanation": "Dios conserva autoridad plena sobre la vida y la muerte. La NBLA establece la causa: Dios se llevó a Enoc; MSG subraya la sorpresa narrativa de su ausencia. El texto no autoriza especulaciones detalladas sobre cómo ocurrió, pero sí rompe el patrón de la genealogía y deja una señal de que la muerte no tiene dominio absoluto frente al Dios de la vida.",
+      "id": "genesis5-joya-05",
+      "msg": {
+        "en": "“one day he was simply gone: God took him.”",
+        "es": "«Y un día, sencillamente desapareció: Dios se lo llevó»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-24b"
+          ],
+          "verseId": "genesis5-nbla-24"
+        }
+      ],
+      "order": 5,
+      "range": "24"
+    },
+    {
+      "explanation": "La humanidad vive cansada bajo las consecuencias de la caída y anhela descanso. La NBLA conserva la relación entre el nombre de Noé, el descanso y la tierra maldecida; MSG vuelve palpable el agotamiento mediante la idea de recibir un respiro. La esperanza de Lamec es real, aunque el capítulo todavía no explica su alcance ni permite identificar a Noé como la solución final del problema humano.",
+      "id": "genesis5-joya-06",
+      "msg": {
+        "en": "“This one will give us a break from the hard work of farming the ground that GOD cursed.”",
+        "es": "«Este nos dará un respiro del duro trabajo de cultivar la tierra que DIOS maldijo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis5-nbla-29b"
+          ],
+          "verseId": "genesis5-nbla-29"
+        }
+      ],
+      "order": 6,
+      "range": "28-31"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 5,
+    "studyId": "genesis-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "genesis5-msg-01",
+      "msg": {
+        "en": "This is the family tree of the human race: When God created the human race, he made it godlike, with a nature akin to God. He created both male and female and blessed them, the whole human race.",
+        "es": "Este es el árbol genealógico de la raza humana: cuando Dios creó a la humanidad, la hizo semejante a Dios, con una naturaleza afín a la de Dios. Creó al hombre y a la mujer y bendijo a toda la raza humana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "genesis5-msg-02",
+      "msg": {
+        "en": "When Adam was 130 years old, he had a son who was just like him, his very spirit and image, and named him Seth. After the birth of Seth, Adam lived another 800 years, having more sons and daughters. Adam lived a total of 930 years. And he died.",
+        "es": "Cuando Adán tenía 130 años, tuvo un hijo muy parecido a él, con su mismo espíritu y su misma imagen, y lo llamó Set. Después del nacimiento de Set, Adán vivió otros 800 años y tuvo más hijos e hijas. Adán vivió en total 930 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "genesis5-msg-03",
+      "msg": {
+        "en": "When Seth was 105 years old, he had Enosh. After Seth had Enosh, he lived another 807 years, having more sons and daughters. Seth lived a total of 912 years. And he died.",
+        "es": "Cuando Set tenía 105 años, tuvo a Enós. Después del nacimiento de Enós, Set vivió otros 807 años y tuvo más hijos e hijas. Set vivió en total 912 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "genesis5-msg-04",
+      "msg": {
+        "en": "When Enosh was ninety years old, he had Kenan. After he had Kenan, he lived another 815 years, having more sons and daughters. Enosh lived a total of 905 years. And he died.",
+        "es": "Cuando Enós tenía noventa años, tuvo a Cainán. Después de tener a Cainán, vivió otros 815 años y tuvo más hijos e hijas. Enós vivió en total 905 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "genesis5-msg-05",
+      "msg": {
+        "en": "When Kenan was seventy years old, he had Mahalalel. After he had Mahalalel, he lived another 840 years, having more sons and daughters. Kenan lived a total of 910 years. And he died.",
+        "es": "Cuando Cainán tenía setenta años, tuvo a Mahalaleel. Después de tener a Mahalaleel, vivió otros 840 años y tuvo más hijos e hijas. Cainán vivió en total 910 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-17",
+      "id": "genesis5-msg-06",
+      "msg": {
+        "en": "When Mahalalel was sixty-five years old, he had Jared. After he had Jared, he lived another 830 years, having more sons and daughters. Mahalalel lived a total of 895 years. And he died.",
+        "es": "Cuando Mahalaleel tenía sesenta y cinco años, tuvo a Jared. Después de tener a Jared, vivió otros 830 años y tuvo más hijos e hijas. Mahalaleel vivió en total 895 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "genesis5-msg-07",
+      "msg": {
+        "en": "When Jared was 162 years old, he had Enoch. After he had Enoch, he lived another 800 years, having more sons and daughters. Jared lived a total of 962 years. And he died.",
+        "es": "Cuando Jared tenía 162 años, tuvo a Enoc. Después de tener a Enoc, vivió otros 800 años y tuvo más hijos e hijas. Jared vivió en total 962 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-20"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "genesis5-msg-08",
+      "msg": {
+        "en": "When Enoch was sixty-five years old, he had Methuselah. Enoch walked steadily with God. After he had Methuselah, he lived another 300 years, having more sons and daughters. Enoch lived a total of 365 years.",
+        "es": "Cuando Enoc tenía sesenta y cinco años, tuvo a Matusalén. Enoc caminó con Dios de manera constante. Después de tener a Matusalén, vivió otros 300 años y tuvo más hijos e hijas. Enoc vivió en total 365 años."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-23"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "24",
+      "id": "genesis5-msg-09",
+      "msg": {
+        "en": "Enoch walked steadily with God. And then one day he was simply gone: God took him.",
+        "es": "Enoc caminó con Dios de manera constante. Y un día, sencillamente desapareció: Dios se lo llevó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-24"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "genesis5-msg-10",
+      "msg": {
+        "en": "When Methuselah was 187 years old, he had Lamech. After he had Lamech, he lived another 782 years. Methuselah lived a total of 969 years. And he died.",
+        "es": "Cuando Matusalén tenía 187 años, tuvo a Lamec. Después de tener a Lamec, vivió otros 782 años. Matusalén vivió en total 969 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-27"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "genesis5-msg-11",
+      "msg": {
+        "en": "When Lamech was 182 years old, he had a son. He named him Noah, saying, “This one will give us a break from the hard work of farming the ground that GOD cursed.” After Lamech had Noah, he lived another 595 years, having more sons and daughters. Lamech lived a total of 777 years. And he died.",
+        "es": "Cuando Lamec tenía 182 años, tuvo un hijo. Lo llamó Noé y dijo: «Este nos dará un respiro del duro trabajo de cultivar la tierra que DIOS maldijo». Después del nacimiento de Noé, Lamec vivió otros 595 años y tuvo más hijos e hijas. Lamec vivió en total 777 años. Y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-31"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "32",
+      "id": "genesis5-msg-12",
+      "msg": {
+        "en": "When Noah was 500 years old, he had Shem, Ham, and Japheth.",
+        "es": "Cuando Noé tenía 500 años, tuvo a Sem, Cam y Jafet."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis5-nbla-32"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-01a",
+          "order": 1,
+          "text": "Este es el libro de las generaciones de Adán."
+        },
+        {
+          "id": "genesis5-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El día que Dios creó al hombre, a semejanza de Dios lo hizo"
+        },
+        {
+          "id": "genesis5-nbla-01c",
+          "order": 3,
+          "text": "."
+        }
+      ],
+      "id": "genesis5-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "genesis5-nbla-02",
+      "number": 2,
+      "text": "Varón y hembra los creó. Los bendijo, y los llamó Adán el día en que fueron creados."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-03a",
+          "order": 1,
+          "text": "Cuando Adán había vivido 130 años,"
+        },
+        {
+          "id": "genesis5-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "engendró un hijo a su semejanza, conforme a su imagen,"
+        },
+        {
+          "id": "genesis5-nbla-03c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y le puso por nombre Set."
+        }
+      ],
+      "id": "genesis5-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "genesis5-nbla-04",
+      "number": 4,
+      "text": "Y los días de Adán después de haber engendrado a Set fueron 800 años, y tuvo otros hijos e hijas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-05a",
+          "order": 1,
+          "text": "El total de los días que Adán vivió fue de 930 años,"
+        },
+        {
+          "id": "genesis5-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y murió."
+        }
+      ],
+      "id": "genesis5-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "genesis5-nbla-06",
+      "number": 6,
+      "text": "Set vivió 105 años, y fue padre de Enós."
+    },
+    {
+      "id": "genesis5-nbla-07",
+      "number": 7,
+      "text": "Y vivió Set 807 años después de haber engendrado a Enós, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-08",
+      "number": 8,
+      "text": "El total de los días de Set fue de 912 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-09",
+      "number": 9,
+      "text": "Enós vivió 90 años, y fue padre de Cainán."
+    },
+    {
+      "id": "genesis5-nbla-10",
+      "number": 10,
+      "text": "Y vivió Enós 815 años después de haber engendrado a Cainán, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-11",
+      "number": 11,
+      "text": "El total de los días de Enós fue de 905 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-12",
+      "number": 12,
+      "text": "Cainán vivió 70 años, y fue padre de Mahalaleel."
+    },
+    {
+      "id": "genesis5-nbla-13",
+      "number": 13,
+      "text": "Y vivió Cainán 840 años después de haber engendrado a Mahalaleel, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-14",
+      "number": 14,
+      "text": "El total de los días de Cainán fue de 910 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-15",
+      "number": 15,
+      "text": "Mahalaleel vivió 65 años, y fue padre de Jared."
+    },
+    {
+      "id": "genesis5-nbla-16",
+      "number": 16,
+      "text": "Y vivió Mahalaleel 830 años después de haber engendrado a Jared, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-17",
+      "number": 17,
+      "text": "El total de los días de Mahalaleel fue de 895 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-18",
+      "number": 18,
+      "text": "Jared vivió 162 años, y fue padre de Enoc."
+    },
+    {
+      "id": "genesis5-nbla-19",
+      "number": 19,
+      "text": "Y vivió Jared 800 años después de haber engendrado a Enoc, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-20",
+      "number": 20,
+      "text": "El total de los días de Jared fue de 962 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-21",
+      "number": 21,
+      "text": "Enoc vivió 65 años, y fue padre de Matusalén."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-22a",
+          "order": 1,
+          "text": "Enoc anduvo con Dios"
+        },
+        {
+          "id": "genesis5-nbla-22b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "300 años después de haber engendrado a Matusalén, y tuvo otros hijos e hijas."
+        }
+      ],
+      "id": "genesis5-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "genesis5-nbla-23",
+      "number": 23,
+      "text": "El total de los días de Enoc fue de 365 años."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-24a",
+          "order": 1,
+          "text": "Y Enoc anduvo con Dios,"
+        },
+        {
+          "id": "genesis5-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y desapareció porque Dios se lo llevó."
+        }
+      ],
+      "id": "genesis5-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "genesis5-nbla-25",
+      "number": 25,
+      "text": "Matusalén vivió 187 años, y fue padre de Lamec."
+    },
+    {
+      "id": "genesis5-nbla-26",
+      "number": 26,
+      "text": "Y vivió Matusalén 782 años después de haber engendrado a Lamec, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-27",
+      "number": 27,
+      "text": "El total de los días de Matusalén fue de 969 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-28",
+      "number": 28,
+      "text": "Lamec vivió 182 años, y tuvo un hijo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis5-nbla-29a",
+          "order": 1,
+          "text": "Y le puso por nombre Noé, diciendo: «"
+        },
+        {
+          "id": "genesis5-nbla-29b",
+          "order": 2,
+          "text": "Este nos dará descanso de nuestra labor y del trabajo de nuestras manos, por causa de la tierra que el SEÑOR ha maldecido"
+        },
+        {
+          "id": "genesis5-nbla-29c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis5-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "genesis5-nbla-30",
+      "number": 30,
+      "text": "Y vivió Lamec 595 años después de haber engendrado a Noé, y tuvo otros hijos e hijas."
+    },
+    {
+      "id": "genesis5-nbla-31",
+      "number": 31,
+      "text": "El total de los días de Lamec fue de 777 años, y murió."
+    },
+    {
+      "id": "genesis5-nbla-32",
+      "number": 32,
+      "text": "Noé tenía 500 años, y fue padre de Sem, de Cam y de Jafet."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

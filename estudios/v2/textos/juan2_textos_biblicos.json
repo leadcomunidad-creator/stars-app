@@ -1,0 +1,612 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La misión de Jesús está gobernada por la hora del Padre y no por la presión humana. La NBLA fija el lenguaje teológico de «Mi hora», que el evangelio desarrollará hasta la cruz y la glorificación. MSG vuelve esa tensión más inmediata con «mi momento», pero la expresión no debe reducirse a una cuestión de conveniencia personal o agenda.",
+      "id": "juan2-joya-01",
+      "msg": {
+        "en": "\"This isn’t my time.\"",
+        "es": "\"Todavía no ha llegado mi momento.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-04b"
+          ],
+          "verseId": "juan2-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4"
+    },
+    {
+      "explanation": "La respuesta adecuada a Jesús es obedecer su palabra aun antes de comprender el resultado. La NBLA confirma con precisión que la autoridad recae en lo que Él diga, y MSG conserva la fuerza directa y práctica de la instrucción. La frase expresa confianza en Jesús; no enseña que María controle su acción ni determine su hora.",
+      "id": "juan2-joya-02",
+      "msg": {
+        "en": "\"Whatever he tells you, do it.\"",
+        "es": "\"Hagan todo lo que él les diga\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-05b"
+          ],
+          "verseId": "juan2-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5"
+    },
+    {
+      "explanation": "La señal revela la calidad inesperada y generosa de la provisión de Jesús. La NBLA fija el contraste textual entre el vino bueno y el inferior; MSG vuelve visible el asombro del encargado ante lo que ha sucedido. Esta abundancia apunta a la restauración mesiánica, pero no autoriza una doctrina de prosperidad material ni la promesa de que Jesús satisfará cualquier deseo inmediato.",
+      "id": "juan2-joya-03",
+      "msg": {
+        "en": "\"But you’ve saved the best till now!\"",
+        "es": "\"¡Pero tú has guardado lo mejor hasta ahora!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-10b"
+          ],
+          "verseId": "juan2-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La primera señal manifiesta la gloria de Jesús y conduce a sus discípulos hacia la fe. La NBLA fija la afirmación central: Jesús manifestó Su gloria. MSG la presenta como un «primer destello», haciendo visible que Caná abre una revelación progresiva que alcanzará su clímax en la cruz y la resurrección; la expresión no significa que la gloria de Jesús fuera incompleta en sí misma.",
+      "id": "juan2-joya-04",
+      "msg": {
+        "en": "\"the first glimpse of his glory\"",
+        "es": "\"el primer destello de su gloria\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-11b"
+          ],
+          "verseId": "juan2-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11"
+    },
+    {
+      "explanation": "Jesús ejerce autoridad sobre el Templo porque es el Hijo y la casa pertenece a su Padre. La NBLA fija esa relación filial y limita la interpretación al propósito santo del Templo. MSG vuelve concreta la profanación mediante la imagen de un «centro comercial», pero esa ampliación pastoral no debe convertirse por sí sola en una acusación histórica de usura ni en autorización para la violencia religiosa.",
+      "id": "juan2-joya-05",
+      "msg": {
+        "en": "\"my Father’s house\"",
+        "es": "\"la casa de mi Padre\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-16b"
+          ],
+          "verseId": "juan2-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16"
+    },
+    {
+      "explanation": "Jesús conoce el corazón humano y distingue entre la reacción ante una señal y una fe verdaderamente confiable. La NBLA fija el contraste al afirmar que muchos creyeron, pero Jesús no se confiaba a ellos; MSG vuelve visible el juego relacional entre confiar y ser digno de confianza. El texto no niega toda respuesta de fe, pero sí impide identificar entusiasmo, asombro o interés religioso con una entrega madura y perseverante.",
+      "id": "juan2-joya-06",
+      "msg": {
+        "en": "\"Jesus didn’t entrust his life to them.\"",
+        "es": "\"Jesús no les confió la suya.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan2-nbla-24b"
+          ],
+          "verseId": "juan2-nbla-24"
+        }
+      ],
+      "order": 6,
+      "range": "23-25"
+    }
+  ],
+  "meta": {
+    "book": "Juan",
+    "bookId": "juan",
+    "chapter": 2,
+    "studyId": "juan-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "juan2-msg-01",
+      "msg": {
+        "en": "Three days later there was a wedding in the village of Cana in Galilee. Jesus’ mother was there. Jesus and his disciples were guests also. When they started running low on wine at the wedding banquet, Jesus’ mother told him, “They’re just about out of wine.”",
+        "es": "Tres días después hubo una boda en el pueblo de Caná, en Galilea. La madre de Jesús estaba allí. Jesús y sus discípulos también habían sido invitados. Cuando el vino comenzó a escasear en el banquete de bodas, la madre de Jesús le dijo: «Ya casi no les queda vino»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "juan2-msg-02",
+      "msg": {
+        "en": "Jesus said, “Is that any of our business, Mother—yours or mine? This isn’t my time. Don’t push me.”",
+        "es": "Jesús respondió: «¿Y eso es asunto nuestro, madre —tuyo o mío—? Todavía no ha llegado mi momento. No me presiones»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "juan2-msg-03",
+      "msg": {
+        "en": "She went ahead anyway, telling the servants, “Whatever he tells you, do it.”",
+        "es": "Ella siguió adelante de todos modos y les dijo a los sirvientes: «Hagan todo lo que él les diga»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "juan2-msg-04",
+      "msg": {
+        "en": "Six stoneware water pots were there, used by the Jews for ritual washings. Each held twenty to thirty gallons. Jesus ordered the servants, “Fill the pots with water.” And they filled them to the brim.",
+        "es": "Había allí seis tinajas de piedra, usadas por los judíos para los lavamientos rituales. Cada una tenía capacidad para veinte o treinta galones. Jesús les ordenó a los sirvientes: «Llenen las tinajas de agua». Y ellos las llenaron hasta el borde."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "juan2-msg-05",
+      "msg": {
+        "en": "“Now fill your pitchers and take them to the host,” Jesus said, and they did.",
+        "es": "«Ahora llenen sus jarras y llévenselas al encargado del banquete», dijo Jesús. Y así lo hicieron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "juan2-msg-06",
+      "msg": {
+        "en": "When the host tasted the water that had become wine (he didn’t know what had just happened but the servants, of course, knew), he called out to the bridegroom, “Everybody I know begins with their finest wines and after the guests have had their fill brings in the cheap stuff. But you’ve saved the best till now!”",
+        "es": "Cuando el encargado probó el agua convertida en vino —él no sabía qué había sucedido, aunque los sirvientes, por supuesto, sí lo sabían— llamó al novio y le dijo: «Todos los que conozco sirven primero sus mejores vinos y, después de que los invitados han bebido hasta quedar satisfechos, sacan el vino barato. ¡Pero tú has guardado lo mejor hasta ahora!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11",
+      "id": "juan2-msg-07",
+      "msg": {
+        "en": "This act in Cana of Galilee was the first sign Jesus gave, the first glimpse of his glory. And his disciples believed in him.",
+        "es": "Este acto en Caná de Galilea fue la primera señal que Jesús dio, el primer destello de su gloria. Y sus discípulos creyeron en él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12",
+      "id": "juan2-msg-08",
+      "msg": {
+        "en": "After this he went down to Capernaum along with his mother, brothers, and disciples, and stayed several days.",
+        "es": "Después de esto bajó a Capernaúm con su madre, sus hermanos y sus discípulos, y se quedaron allí varios días."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "juan2-msg-09",
+      "msg": {
+        "en": "When the Passover Feast, celebrated each spring by the Jews, was about to take place, Jesus traveled up to Jerusalem. He found the Temple teeming with people selling cattle and sheep and doves. The loan sharks were also there in full strength.",
+        "es": "Cuando estaba por celebrarse la fiesta de la Pascua, que los judíos celebran cada primavera, Jesús subió a Jerusalén. Encontró el Templo rebosante de gente que vendía ganado, ovejas y palomas. Los usureros también estaban allí en masa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-14"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "15-17",
+      "id": "juan2-msg-10",
+      "msg": {
+        "en": "Jesus put together a whip out of strips of leather and chased them out of the Temple, stampeding the sheep and cattle, upending the tables of the loan sharks, spilling coins left and right. He told the dove merchants, “Get your things out of here! Stop turning my Father’s house into a shopping mall!” That’s when his disciples remembered the Scripture, “Zeal for your house consumes me.”",
+        "es": "Jesús armó un látigo con tiras de cuero y los expulsó del Templo, haciendo salir en estampida ovejas y ganado, volcando las mesas de los usureros y esparciendo monedas por todas partes. A los vendedores de palomas les dijo: «¡Saquen todo esto de aquí! ¡Dejen de convertir la casa de mi Padre en un centro comercial!». Entonces sus discípulos recordaron la Escritura: «El celo por tu casa me consume»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "juan2-msg-11",
+      "msg": {
+        "en": "But the Jews were upset. They asked, “What credentials can you present to justify this?” Jesus answered, “Tear down this Temple and in three days I’ll put it back together.”",
+        "es": "Pero los judíos estaban molestos. Le preguntaron: «¿Qué credenciales puedes presentar para justificar esto?». Jesús respondió: «Derriben este Templo y en tres días lo levantaré de nuevo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20-22",
+      "id": "juan2-msg-12",
+      "msg": {
+        "en": "They were indignant: “It took forty-six years to build this Temple, and you’re going to rebuild it in three days?” But Jesus was talking about his body as the Temple. Later, after he was raised from the dead, his disciples remembered he had said this. They then put two and two together and believed both what was written in Scripture and what Jesus had said.",
+        "es": "Ellos se indignaron: «¡Se necesitaron cuarenta y seis años para construir este Templo, y tú vas a reconstruirlo en tres días?». Pero Jesús hablaba de su cuerpo como el Templo. Más tarde, después de que fue levantado de entre los muertos, sus discípulos recordaron que había dicho esto. Entonces ataron cabos y creyeron tanto lo escrito en la Escritura como lo que Jesús había dicho."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23-25",
+      "id": "juan2-msg-13",
+      "msg": {
+        "en": "During the time he was in Jerusalem, those days of the Passover Feast, many people noticed the signs he was displaying and, seeing they pointed straight to God, entrusted their lives to him. But Jesus didn’t entrust his life to them. He knew them inside and out, knew how untrustworthy they were. He didn’t need any help in seeing right through them.",
+        "es": "Durante los días de la fiesta de Pascua en Jerusalén, muchas personas vieron las señales que hacía y, al comprender que apuntaban directamente a Dios, le confiaron sus vidas. Pero Jesús no les confió la suya. Los conocía por dentro y por fuera; sabía lo poco confiables que eran. No necesitaba ayuda para ver a través de ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan2-nbla-25"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "juan2-nbla-01",
+      "number": 1,
+      "text": "Al tercer día se celebró una boda en Caná de Galilea, y estaba allí la madre de Jesús;"
+    },
+    {
+      "id": "juan2-nbla-02",
+      "number": 2,
+      "text": "y también Jesús fue invitado a la boda, con Sus discípulos."
+    },
+    {
+      "id": "juan2-nbla-03",
+      "number": 3,
+      "text": "Cuando se acabó el vino, la madre de Jesús le dijo*: «No tienen vino»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-04a",
+          "order": 1,
+          "text": "Y Jesús le dijo*: «Mujer, ¿qué nos interesa esto a ti y a Mí?"
+        },
+        {
+          "id": "juan2-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Todavía no ha llegado Mi hora"
+        },
+        {
+          "id": "juan2-nbla-04c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan2-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-05a",
+          "order": 1,
+          "text": "Su madre dijo* a los que servían: «"
+        },
+        {
+          "id": "juan2-nbla-05b",
+          "order": 2,
+          "text": "Hagan todo lo que Él les diga"
+        },
+        {
+          "id": "juan2-nbla-05c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan2-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "juan2-nbla-06",
+      "number": 6,
+      "text": "Y había allí seis tinajas de piedra, puestas para ser usadas en el rito de la purificación de los judíos; en cada una cabían dos o tres cántaros."
+    },
+    {
+      "id": "juan2-nbla-07",
+      "number": 7,
+      "text": "Jesús les dijo*: «Llenen de agua las tinajas». Y las llenaron hasta el borde."
+    },
+    {
+      "id": "juan2-nbla-08",
+      "number": 8,
+      "text": "Entonces les dijo*: «Saquen ahora un poco y llévenlo al mayordomo». Y se lo llevaron."
+    },
+    {
+      "id": "juan2-nbla-09",
+      "number": 9,
+      "text": "El mayordomo probó el agua convertida en vino, sin saber de dónde era, pero los que servían, que habían sacado el agua, lo sabían. Entonces el mayordomo llamó* al novio,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-10a",
+          "order": 1,
+          "text": "y le dijo*: «Todo hombre sirve primero el vino bueno, y cuando ya han tomado bastante, entonces el inferior;"
+        },
+        {
+          "id": "juan2-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pero tú has guardado hasta ahora el vino bueno"
+        },
+        {
+          "id": "juan2-nbla-10c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan2-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-11a",
+          "order": 1,
+          "text": "Este principio de Sus señales hizo Jesús en Caná de Galilea, y"
+        },
+        {
+          "id": "juan2-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "manifestó Su gloria"
+        },
+        {
+          "id": "juan2-nbla-11c",
+          "order": 3,
+          "text": ", y Sus discípulos creyeron en Él."
+        }
+      ],
+      "id": "juan2-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "juan2-nbla-12",
+      "number": 12,
+      "text": "Después de esto Jesús bajó a Capernaúm con Su madre, Sus hermanos y Sus discípulos; pero no se quedaron allí muchos días."
+    },
+    {
+      "id": "juan2-nbla-13",
+      "number": 13,
+      "text": "La Pascua de los judíos estaba cerca, y Jesús subió a Jerusalén."
+    },
+    {
+      "id": "juan2-nbla-14",
+      "number": 14,
+      "text": "En el templo encontró a los que vendían bueyes, ovejas y palomas, y a los que cambiaban dinero allí sentados."
+    },
+    {
+      "id": "juan2-nbla-15",
+      "number": 15,
+      "text": "Y haciendo un látigo de cuerdas, echó a todos fuera del templo, con las ovejas y los bueyes; desparramó las monedas de los que cambiaban el dinero y volcó las mesas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-16a",
+          "order": 1,
+          "text": "A los que vendían palomas les dijo: «Quiten esto de aquí; no hagan de"
+        },
+        {
+          "id": "juan2-nbla-16b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la casa de Mi Padre"
+        },
+        {
+          "id": "juan2-nbla-16c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "una casa de comercio»."
+        }
+      ],
+      "id": "juan2-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "juan2-nbla-17",
+      "number": 17,
+      "text": "Sus discípulos se acordaron de que estaba escrito: «EL CELO POR TU CASA ME CONSUMIRÁ»."
+    },
+    {
+      "id": "juan2-nbla-18",
+      "number": 18,
+      "text": "Entonces los judíos le dijeron: «Ya que haces estas cosas, ¿qué señal nos muestras?»."
+    },
+    {
+      "id": "juan2-nbla-19",
+      "number": 19,
+      "text": "Jesús les respondió: «Destruyan este templo, y en tres días lo levantaré»."
+    },
+    {
+      "id": "juan2-nbla-20",
+      "number": 20,
+      "text": "Entonces los judíos dijeron: «En cuarenta y seis años fue edificado este templo, ¿y Tú lo levantarás en tres días?»."
+    },
+    {
+      "id": "juan2-nbla-21",
+      "number": 21,
+      "text": "Pero Él hablaba del templo de Su cuerpo."
+    },
+    {
+      "id": "juan2-nbla-22",
+      "number": 22,
+      "text": "Por eso, cuando resucitó de los muertos, Sus discípulos se acordaron de que había dicho esto; y creyeron en la Escritura y en la palabra que Jesús había hablado."
+    },
+    {
+      "id": "juan2-nbla-23",
+      "number": 23,
+      "text": "Cuando Jesús estaba en Jerusalén durante la fiesta de la Pascua, muchos creyeron en Su nombre al ver las señales que hacía."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan2-nbla-24a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "juan2-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Jesús, en cambio, no se confiaba en ellos"
+        },
+        {
+          "id": "juan2-nbla-24c",
+          "order": 3,
+          "text": ", porque los conocía a todos,"
+        }
+      ],
+      "id": "juan2-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "juan2-nbla-25",
+      "number": 25,
+      "text": "y no tenía necesidad de que nadie le diera testimonio del hombre, porque Él conocía lo que había en el interior del hombre."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

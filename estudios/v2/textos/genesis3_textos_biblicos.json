@@ -1,0 +1,626 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La tentación comienza deformando la confianza en la palabra y el carácter de Dios. La NBLA fija con precisión la exageración de la serpiente: presenta una prohibición total donde Dios había dado una libertad amplia con un solo límite. MSG hace audible el tono de una aparente solicitud de aclaración que ya contiene sospecha. El límite interpretativo es claro: el problema no está en hacer preguntas, sino en usar una pregunta para alterar lo que Dios realmente dijo.",
+      "id": "genesis3-joya-01",
+      "msg": {
+        "en": "\"Do I understand that God told you not to eat from any tree in the garden?\"",
+        "es": "\"¿Entiendo bien que Dios les dijo que no comieran de ningún árbol del jardín?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis3-nbla-01b"
+          ],
+          "verseId": "genesis3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La desobediencia se presenta falsamente como acceso a una realidad superior que Dios estaría ocultando. La NBLA fija el contenido concreto de la promesa: ojos abiertos y conocimiento del bien y del mal. MSG vuelve visible la insinuación pastoral de la serpiente: Dios no sería plenamente confiable y romper su palabra permitiría descubrir la verdad. El relato limita esa promesa mostrando su ironía: los ojos se abren, pero la primera realidad que perciben es su vergüenza.",
+      "id": "genesis3-joya-02",
+      "msg": {
+        "en": "\"you’ll see what’s really going on.\"",
+        "es": "\"verán lo que realmente está pasando\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis3-nbla-05a"
+          ],
+          "verseId": "genesis3-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La vergüenza impulsa a los seres humanos a fabricar por sí mismos una cobertura inmediata para su vulnerabilidad. La NBLA identifica el acto concreto: cosen hojas y se hacen delantales. MSG vuelve visible el carácter provisional de esa solución al llamarla «ropa improvisada». El límite teológico consiste en no convertir la expresión en una doctrina independiente sobre toda forma de autoprotección; aquí comunica pastoralmente la insuficiencia de una cobertura humana frente a una ruptura más profunda.",
+      "id": "genesis3-joya-03",
+      "msg": {
+        "en": "\"makeshift clothes\"",
+        "es": "\"ropa improvisada\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "Dios toma la iniciativa de llamar al ser humano que se esconde sin minimizar la verdad de lo ocurrido. La NBLA y MSG conservan la misma pregunta breve y directa. MSG permite escucharla con toda su fuerza relacional dentro de la escena: Dios convoca al Hombre a salir del escondite y responder. El límite interpretativo es no atribuir la pregunta a falta de información divina; su función narrativa es confrontar la ubicación espiritual y relacional producida por la desobediencia.",
+      "id": "genesis3-joya-04",
+      "msg": {
+        "en": "\"Where are you?\"",
+        "es": "\"¿Dónde estás?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis3-nbla-09b"
+          ],
+          "verseId": "genesis3-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "9"
+    },
+    {
+      "explanation": "Dios establece que el mal no tendrá una convivencia pacífica ni una victoria definitiva sobre la humanidad. La NBLA fija el sentido mediante la enemistad entre la serpiente y la mujer, y entre sus descendencias. MSG hace visible esa enemistad con el lenguaje de un conflicto abierto: «Declaro la guerra». El límite es mantener la imagen dentro del arco bíblico: Génesis anuncia una lucha y una herida futura, mientras su cumplimiento cristológico pleno se desarrolla posteriormente en la Escritura.",
+      "id": "genesis3-joya-05",
+      "msg": {
+        "en": "\"I’m declaring war\"",
+        "es": "\"Declaro la guerra\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis3-nbla-15a"
+          ],
+          "verseId": "genesis3-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "14-15"
+    },
+    {
+      "explanation": "La criatura humana no posee vida autónoma y, separada de la fuente de vida, vuelve al suelo del cual fue formada. La NBLA fija esta verdad con la formulación «polvo eres, y al polvo volverás». MSG la despliega como el recorrido completo de la mortalidad humana y confronta pastoralmente la autosuficiencia. El límite consiste en no reducir a la persona a mera materia: Génesis 2 ya mostró que el mismo Dios que forma del polvo también comunica el aliento de vida.",
+      "id": "genesis3-joya-06",
+      "msg": {
+        "en": "\"you started out as dirt, you’ll end up dirt\"",
+        "es": "\"Comenzaste siendo polvo y terminarás siendo polvo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis3-nbla-19b"
+          ],
+          "verseId": "genesis3-nbla-19"
+        }
+      ],
+      "order": 6,
+      "range": "17-19"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 3,
+    "studyId": "genesis-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis3-msg-01",
+      "msg": {
+        "en": "The serpent was clever, more clever than any wild animal GOD had made. He spoke to the Woman: “Do I understand that God told you not to eat from any tree in the garden?”",
+        "es": "La serpiente era astuta, más astuta que cualquier animal salvaje que Dios había hecho. Le habló a la Mujer: «¿Entiendo bien que Dios les dijo que no comieran de ningún árbol del jardín?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "genesis3-msg-02",
+      "msg": {
+        "en": "The Woman said to the serpent, “Not at all. We can eat from the trees in the garden. It’s only about the tree in the middle of the garden that God said, ‘Don’t eat from it; don’t even touch it or you’ll die.’”",
+        "es": "La Mujer le respondió a la serpiente: «Para nada. Podemos comer de los árboles del jardín. Solo se trata del árbol que está en medio del jardín. Dios dijo: “No coman de él; ni siquiera lo toquen o morirán”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "genesis3-msg-03",
+      "msg": {
+        "en": "The serpent told the Woman, “You won’t die. God knows that the moment you eat from that tree, you’ll see what’s really going on. You’ll be just like God, knowing everything, ranging all the way from good to evil.”",
+        "es": "La serpiente le dijo a la Mujer: «No morirán. Dios sabe que, en el momento en que coman de ese árbol, verán lo que realmente está pasando. Serán como Dios, conociéndolo todo, desde el bien hasta el mal»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "genesis3-msg-04",
+      "msg": {
+        "en": "When the Woman saw that the tree looked like good eating and realized what she would get out of it—she’d know everything!—she took and ate the fruit and then gave some to her husband, and he ate.",
+        "es": "Cuando la Mujer vio que el árbol parecía bueno para comer y comprendió lo que obtendría de él —¡lo sabría todo!—, tomó del fruto y comió. Luego le dio un poco a su esposo, y él también comió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "genesis3-msg-05",
+      "msg": {
+        "en": "Immediately the two of them did “see what’s really going on”—saw themselves naked! They sewed fig leaves together as makeshift clothes for themselves.",
+        "es": "De inmediato, los dos sí «vieron lo que realmente estaba pasando»: ¡se vieron desnudos! Cosieron hojas de higuera y se hicieron ropa improvisada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis3-msg-06",
+      "msg": {
+        "en": "When they heard the sound of GOD strolling in the garden in the evening breeze, the Man and his Wife hid in the trees of the garden, hid from GOD.",
+        "es": "Cuando oyeron el sonido de Dios paseando por el jardín con la brisa de la tarde, el Hombre y su Esposa se escondieron entre los árboles del jardín; se escondieron de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9",
+      "id": "genesis3-msg-07",
+      "msg": {
+        "en": "GOD called to the Man: “Where are you?”",
+        "es": "Dios llamó al Hombre: «¿Dónde estás?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10",
+      "id": "genesis3-msg-08",
+      "msg": {
+        "en": "He said, “I heard you in the garden and I was afraid because I was naked. And I hid.”",
+        "es": "Él respondió: «Te oí en el jardín y tuve miedo porque estaba desnudo. Por eso me escondí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-10"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "11",
+      "id": "genesis3-msg-09",
+      "msg": {
+        "en": "GOD said, “Who told you you were naked? Did you eat from that tree I told you not to eat from?”",
+        "es": "Dios dijo: «¿Quién te dijo que estabas desnudo? ¿Comiste del árbol del que te ordené que no comieras?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-11"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "12",
+      "id": "genesis3-msg-10",
+      "msg": {
+        "en": "The Man said, “The Woman you gave me as a companion, she gave me fruit from the tree, and, yes, I ate it.”\nGOD said to the Woman, “What is this that you’ve done?”",
+        "es": "El Hombre respondió: «La Mujer que me diste como compañera me dio fruto del árbol y, sí, comí».\n\nEntonces Dios le preguntó a la Mujer: «¿Qué es esto que has hecho?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-12"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "13",
+      "id": "genesis3-msg-11",
+      "msg": {
+        "en": "“The serpent seduced me,” she said, “and I ate.”",
+        "es": "«La serpiente me sedujo —respondió ella—, y comí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-13"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "genesis3-msg-12",
+      "msg": {
+        "en": "GOD told the serpent:\n“Because you’ve done this, you’re cursed,\ncursed beyond all cattle and wild animals,\nCursed to slink on your belly\nand eat dirt all your life.\nI’m declaring war between you and the Woman,\nbetween your offspring and hers.\nHe’ll wound your head,\nyou’ll wound his heel.”",
+        "es": "Dios le dijo a la serpiente:\n\n«Por haber hecho esto, quedas maldita,\nmaldita más que todo el ganado\ny todos los animales salvajes.\n\nTe arrastrarás sobre tu vientre\ny comerás tierra durante toda tu vida.\n\nDeclaro la guerra entre tú y la Mujer,\nentre tu descendencia y la suya.\n\nÉl te herirá en la cabeza;\ntú lo herirás en el talón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-15"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "16",
+      "id": "genesis3-msg-13",
+      "msg": {
+        "en": "He told the Woman:\n“I’ll multiply your pains in childbirth;\nyou’ll give birth to your babies in pain.\nYou’ll want to please your husband,\nbut he’ll lord it over you.”",
+        "es": "A la Mujer le dijo:\n\n«Multiplicaré tus dolores al dar a luz;\ntendrás a tus bebés con dolor.\n\nQuerrás complacer a tu esposo,\npero él se enseñoreará de ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-16"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "genesis3-msg-14",
+      "msg": {
+        "en": "He told the Man:\n“Because you listened to your wife\nand ate from the tree\nThat I commanded you not to eat from,\n‘Don’t eat from this tree,’\nThe very ground is cursed because of you;\ngetting food from the ground\nWill be as painful as having babies is for your wife;\nyou’ll be working in pain all your life long.\nThe ground will sprout thorns and weeds,\nyou’ll get your food the hard way,\nPlanting and tilling and harvesting,\nsweating in the fields from dawn to dusk,\nUntil you return to that ground yourself, dead and buried;\nyou started out as dirt, you’ll end up dirt.”",
+        "es": "Al Hombre le dijo:\n\n«Por haber escuchado a tu esposa\ny haber comido del árbol\ndel cual te ordené:\n“No comas de este árbol”,\n\nla tierra queda maldita por tu causa.\n\nObtener alimento de ella\nserá tan doloroso como dar a luz.\n\nTrabajarás con dolor durante toda tu vida.\n\nLa tierra producirá espinos y maleza;\nconseguirás tu alimento por el camino difícil:\nplantando, cultivando y cosechando,\nsudando en los campos desde el amanecer hasta el anochecer,\n\nhasta que tú mismo regreses a la tierra,\nmuerto y sepultado.\n\nComenzaste siendo polvo y terminarás siendo polvo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-19"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "20",
+      "id": "genesis3-msg-15",
+      "msg": {
+        "en": "The Man, known as Adam, named his wife Eve because she was the mother of all the living.",
+        "es": "El Hombre, conocido como Adán, llamó Eva a su esposa porque ella era la madre de todos los vivientes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-20"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "21",
+      "id": "genesis3-msg-16",
+      "msg": {
+        "en": "GOD made leather clothing for Adam and his wife and dressed them.",
+        "es": "Dios hizo ropa de cuero para Adán y su esposa, y los vistió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-21"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "22",
+      "id": "genesis3-msg-17",
+      "msg": {
+        "en": "GOD said, “The Man has become like one of us, capable of knowing everything, ranging from good to evil. What if he now should reach out and take fruit from the Tree-of-Life and eat, and live forever? Never—this cannot happen!”",
+        "es": "Dios dijo: «El Hombre se ha vuelto como uno de nosotros, capaz de conocerlo todo, desde el bien hasta el mal. ¿Qué pasaría si ahora extendiera la mano, tomara fruto del Árbol-de-la-Vida, comiera y viviera para siempre? No. Esto no puede suceder»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-22"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "genesis3-msg-18",
+      "msg": {
+        "en": "So GOD expelled them from the Garden of Eden and sent them to work the ground, the same dirt out of which they’d been made. He threw them out of the garden and stationed angel-cherubim and a revolving sword of fire east of it, guarding the path to the Tree-of-Life.",
+        "es": "Entonces Dios los expulsó del Jardín de Edén y los envió a trabajar la tierra, el mismo polvo del que habían sido formados. Los echó del jardín y puso ángeles querubines al oriente, junto con una espada de fuego que giraba continuamente, para custodiar el camino hacia el Árbol-de-la-Vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis3-nbla-24"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "genesis3-nbla-01a",
+          "order": 1,
+          "text": "La serpiente era más astuta que cualquiera de los animales del campo que el SEÑOR Dios había hecho. Y dijo a la mujer: «"
+        },
+        {
+          "id": "genesis3-nbla-01b",
+          "order": 2,
+          "text": "¿Conque Dios les ha dicho: “No comerán de ningún árbol del huerto”?"
+        },
+        {
+          "id": "genesis3-nbla-01c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis3-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "genesis3-nbla-02",
+      "number": 2,
+      "text": "La mujer respondió a la serpiente: «Del fruto de los árboles del huerto podemos comer;"
+    },
+    {
+      "id": "genesis3-nbla-03",
+      "number": 3,
+      "text": "pero del fruto del árbol que está en medio del huerto, Dios ha dicho: “No comerán de él, ni lo tocarán, para que no mueran”»."
+    },
+    {
+      "id": "genesis3-nbla-04",
+      "number": 4,
+      "text": "Y la serpiente dijo a la mujer: «Ciertamente no morirán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis3-nbla-05a",
+          "order": 1,
+          "text": "Pues Dios sabe que el día que de él coman, se les abrirán los ojos y ustedes serán como Dios, conociendo el bien y el mal"
+        },
+        {
+          "id": "genesis3-nbla-05b",
+          "order": 2,
+          "text": "»."
+        }
+      ],
+      "id": "genesis3-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "genesis3-nbla-06",
+      "number": 6,
+      "text": "Cuando la mujer vio que el árbol era bueno para comer, y que era agradable a los ojos, y que el árbol era deseable para alcanzar sabiduría, tomó de su fruto y comió. También dio a su marido que estaba con ella, y él comió."
+    },
+    {
+      "id": "genesis3-nbla-07",
+      "number": 7,
+      "text": "Entonces fueron abiertos los ojos de ambos, y conocieron que estaban desnudos; y cosieron hojas de higuera y se hicieron delantales."
+    },
+    {
+      "id": "genesis3-nbla-08",
+      "number": 8,
+      "text": "Y oyeron al SEÑOR Dios que se paseaba en el huerto al fresco del día. Entonces el hombre y su mujer se escondieron de la presencia del SEÑOR Dios entre los árboles del huerto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis3-nbla-09a",
+          "order": 1,
+          "text": "Pero el SEÑOR Dios llamó al hombre y le dijo: «"
+        },
+        {
+          "id": "genesis3-nbla-09b",
+          "order": 2,
+          "text": "¿Dónde estás?"
+        },
+        {
+          "id": "genesis3-nbla-09c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis3-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "genesis3-nbla-10",
+      "number": 10,
+      "text": "Y él respondió: «Te oí en el huerto, tuve miedo porque estaba desnudo, y me escondí»."
+    },
+    {
+      "id": "genesis3-nbla-11",
+      "number": 11,
+      "text": "«¿Quién te ha hecho saber que estabas desnudo?», le preguntó Dios. «¿Has comido del árbol del cual Yo te mandé que no comieras?»."
+    },
+    {
+      "id": "genesis3-nbla-12",
+      "number": 12,
+      "text": "El hombre respondió: «La mujer que Tú me diste por compañera me dio del árbol, y yo comí»."
+    },
+    {
+      "id": "genesis3-nbla-13",
+      "number": 13,
+      "text": "Entonces el SEÑOR Dios dijo a la mujer: «¿Qué es esto que has hecho?». «La serpiente me engañó, y yo comí», respondió la mujer."
+    },
+    {
+      "id": "genesis3-nbla-14",
+      "number": 14,
+      "text": "Y el SEÑOR Dios dijo a la serpiente:\n«Por cuanto has hecho esto,\nMaldita serás más que todos los animales,\nY más que todas las bestias del campo.\nSobre tu vientre andarás,\nY polvo comerás\nTodos los días de tu vida."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis3-nbla-15a",
+          "order": 1,
+          "text": "Pondré enemistad"
+        },
+        {
+          "id": "genesis3-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Entre tú y la mujer,\nY entre tu simiente y su simiente;\nÉl te herirá en la cabeza,\nY tú lo herirás en el talón»."
+        }
+      ],
+      "id": "genesis3-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "genesis3-nbla-16",
+      "number": 16,
+      "text": "A la mujer dijo:\n«En gran manera multiplicaré\nTu dolor en el parto,\nCon dolor darás a luz los hijos.\nCon todo, tu deseo será para tu marido,\nY él tendrá dominio sobre ti»."
+    },
+    {
+      "id": "genesis3-nbla-17",
+      "number": 17,
+      "text": "Entonces el SEÑOR dijo a Adán: «Por cuanto has escuchado la voz de tu mujer y has comido del árbol del cual te ordené, diciendo: “No comerás de él”,\nMaldita será la tierra por tu causa;\nCon trabajo comerás de ella\nTodos los días de tu vida."
+    },
+    {
+      "id": "genesis3-nbla-18",
+      "number": 18,
+      "text": "Espinos y cardos te producirá,\nY comerás de las plantas del campo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis3-nbla-19a",
+          "order": 1,
+          "text": "Con el sudor de tu rostro\nComerás el pan\nHasta que vuelvas a la tierra,\nPorque de ella fuiste tomado;\nPues polvo eres,"
+        },
+        {
+          "id": "genesis3-nbla-19b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y al polvo volverás"
+        },
+        {
+          "id": "genesis3-nbla-19c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "genesis3-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "genesis3-nbla-20",
+      "number": 20,
+      "text": "El hombre le puso por nombre Eva a su mujer, porque ella era la madre de todos los vivientes."
+    },
+    {
+      "id": "genesis3-nbla-21",
+      "number": 21,
+      "text": "El SEÑOR Dios hizo vestiduras de piel para Adán y su mujer, y los vistió."
+    },
+    {
+      "id": "genesis3-nbla-22",
+      "number": 22,
+      "text": "Entonces el SEÑOR Dios dijo: «Ahora el hombre ha venido a ser como uno de Nosotros, conociendo ellos el bien y el mal. Cuidado ahora, no vaya a extender su mano y tome también del árbol de la vida, y coma y viva para siempre»."
+    },
+    {
+      "id": "genesis3-nbla-23",
+      "number": 23,
+      "text": "Y el SEÑOR Dios lo echó del huerto del Edén, para que labrara la tierra de la cual fue tomado."
+    },
+    {
+      "id": "genesis3-nbla-24",
+      "number": 24,
+      "text": "Expulsó, pues, al hombre; y al oriente del huerto del Edén puso querubines, y una espada encendida que giraba en todas direcciones para guardar el camino del árbol de la vida."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

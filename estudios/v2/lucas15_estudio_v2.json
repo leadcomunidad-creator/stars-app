@@ -8,8 +8,8 @@
     "sectionCount": 10,
     "source": {
       "translation": "The Message",
-      "heading": "Lucas 15 — The Message",
-      "internalSignature": "S.T.A.R.S. · The Message · LHSCOL 2026",
+      "heading": "Lucas 15 — MSG + NBLA",
+      "internalSignature": "S.T.A.R.S. · MSG + NBLA · LHSCOL 2026",
       "visibility": "internal"
     }
   },
@@ -18,7 +18,7 @@
       "id": "texto",
       "order": 1,
       "label": "Texto del capítulo",
-      "sourceTitle": "TEXTO MSG EN ESPAÑOL",
+      "sourceTitle": "TEXTO DEL CAPÍTULO — MSG / NBLA",
       "type": "verseBlocks",
       "content": {
         "blocks": [
@@ -32,7 +32,7 @@
           },
           {
             "range": "8-10",
-            "text": "—O imaginen a una mujer que tiene diez monedas y pierde una. ¿No encendería una lámpara y registraría toda la casa, buscando en cada rincón y cada grieta hasta encontrarla? Y cuando la encuentra, pueden estar seguros de que llama a sus amigas y vecinas: “¡Celebren conmigo! ¡Encontré la moneda que había perdido!”. Pueden contar con esto: esa es la clase de fiesta que los ángeles de Dios celebran cada vez que una persona perdida vuelve su vida hacia Dios."
+            "text": "—O imaginen a una mujer que tiene diez monedas y pierde una. ¿No encendería una lámpara y revisaría la casa de arriba abajo, buscando en cada rincón y cada grieta hasta encontrarla? Y cuando la encuentra, pueden estar seguros de que llama a sus amigas y vecinas: “¡Celebren conmigo! ¡Encontré la moneda que había perdido!”. Pueden contar con esto: esa es la clase de fiesta que los ángeles de Dios celebran cada vez que una persona perdida vuelve su vida hacia Dios."
           },
           {
             "range": "11-12",
@@ -40,7 +40,7 @@
           },
           {
             "range": "12-16",
-            "text": "Así que el padre repartió sus bienes entre los dos. Poco tiempo después, el hijo menor empacó todo y se marchó a un país lejano. Allí vivió sin freno, entregado al derroche, y desperdició cuanto tenía. Cuando se le acabó todo el dinero, una fuerte hambruna golpeó aquella región y comenzó a sentir la necesidad. Consiguió trabajo con un ciudadano del lugar, quien lo envió a sus campos a alimentar cerdos. Tenía tanta hambre que habría comido hasta las mazorcas mezcladas con el alimento de los animales, pero nadie le daba nada."
+            "text": "Así que el padre repartió sus bienes entre los dos. Poco tiempo después, el hijo menor empacó todo y se marchó a un país lejano. Allí vivió sin freno, entregado al derroche, y desperdició cuanto tenía. Cuando se le acabó todo el dinero, una fuerte hambruna golpeó aquella región y comenzó a pasar necesidad. Consiguió trabajo con un ciudadano del lugar, quien lo envió a sus campos a alimentar cerdos. Tenía tanta hambre que se habría comido hasta las mazorcas del alimento de los cerdos, pero nadie le daba nada."
           },
           {
             "range": "17-20",
@@ -52,11 +52,11 @@
           },
           {
             "range": "22-24",
-            "text": "Pero el padre no estaba atendiendo a aquel discurso. Ya estaba llamando a los sirvientes: —¡Rápido! Traigan ropa limpia y vístanlo. Pónganle el anillo de la familia en el dedo y sandalias en los pies. Luego traigan la ternera premiada y ásenla. ¡Vamos a celebrar! ¡Vamos a pasarla maravillosamente! Mi hijo está aquí: lo dábamos por muerto y ahora está vivo; lo dábamos por perdido y ahora lo hemos encontrado. Y comenzaron la celebración."
+            "text": "Pero el padre no estaba atendiendo a aquel discurso. Ya estaba llamando a los sirvientes: —¡Rápido! Traigan ropa limpia y vístanlo. Pónganle el anillo de la familia en el dedo y sandalias en los pies. Luego traigan la ternera engordada con grano y ásenla. ¡Vamos a celebrar! ¡Vamos a pasarla de maravilla! Mi hijo está aquí: lo dábamos por muerto y ahora está vivo; lo dábamos por perdido y ahora lo hemos encontrado. Y comenzaron a pasarla de maravilla."
           },
           {
             "range": "25-27",
-            "text": "Mientras todo esto ocurría, el hijo mayor estaba trabajando en el campo. Al terminar la jornada regresó a casa y, mientras se acercaba, escuchó música y gente bailando. Llamó a uno de los sirvientes y le preguntó qué estaba sucediendo. El muchacho respondió: —Tu hermano regresó. Tu padre mandó preparar un banquete —¡carne asada!— porque lo recibió sano y salvo."
+            "text": "Mientras todo esto ocurría, el hijo mayor estaba trabajando en el campo. Al terminar la jornada regresó a casa y, mientras se acercaba, escuchó música y gente bailando. Llamó a uno de los criados de la casa y le preguntó qué estaba sucediendo. El muchacho respondió: —Tu hermano regresó. Tu padre mandó preparar un banquete —¡carne asada!— porque lo recibió sano y salvo."
           },
           {
             "range": "28-30",
@@ -64,7 +64,7 @@
           },
           {
             "range": "31-32",
-            "text": "El padre respondió: —Hijo, no entiendes. Tú estás conmigo todo el tiempo, y todo lo que tengo es tuyo. Pero este es un momento maravilloso, y teníamos que celebrar. Este hermano tuyo estaba muerto y ha vuelto a la vida; estaba perdido y lo hemos encontrado."
+            "text": "El padre respondió: —Hijo, no entiendes. Tú estás conmigo todo el tiempo, y todo lo que tengo es tuyo. Pero este es un momento maravilloso. Teníamos que celebrar. Este hermano tuyo estaba muerto y ha vuelto a la vida; estaba perdido y lo hemos encontrado."
           }
         ]
       }
@@ -72,7 +72,7 @@
     {
       "id": "panorama",
       "order": 2,
-      "label": "Panorama",
+      "label": "Contexto",
       "sourceTitle": "ORIENTACIÓN GENERAL",
       "type": "editorialParagraphs",
       "content": {
@@ -90,32 +90,7 @@
             "text": "El final permanece abierto porque Jesús dirige la última invitación a los fariseos y estudiosos de la Ley. El padre sale de la casa para recibir al hijo menor y vuelve a salir para buscar al mayor. El relato termina antes de revelar si el hermano entra a la fiesta. La pregunta deja de ser qué hará el padre —su misericordia ya quedó clara— y pasa a ser qué harán quienes se consideran fieles: ¿aceptarán que la gracia restaure a quienes juzgaban indignos y compartirán la alegría de Dios?"
           },
           {
-            "runs": [
-              {
-                "text": "Como recurso complementario, el video "
-              },
-              {
-                "text": "El hijo pródigo: Lucas 9-19",
-                "emphasis": "strong"
-              },
-              {
-                "text": ", de BibleProject, ayuda a ubicar el capítulo dentro del largo viaje de Jesús hacia Jerusalén y del conflicto creciente con los líderes religiosos. El libro "
-              },
-              {
-                "text": "The Gospel of Luke",
-                "emphasis": "strong"
-              },
-              {
-                "text": ", de Joel B. Green, desarrolla con profundidad el contexto social, narrativo y teológico del Evangelio. También resulta útil "
-              },
-              {
-                "text": "Luke",
-                "emphasis": "strong"
-              },
-              {
-                "text": ", de Fred B. Craddock, especialmente por su enfoque pastoral y su atención a la manera en que las historias de Jesús confrontan a la comunidad que las escucha."
-              }
-            ]
+            "text": "Como recurso complementario, el video El hijo pródigo: Lucas 9-19, de BibleProject, ayuda a ubicar el capítulo dentro del largo viaje de Jesús hacia Jerusalén y del conflicto creciente con los líderes religiosos. El libro The Gospel of Luke, de Joel B. Green, desarrolla con profundidad el contexto social, narrativo y teológico del Evangelio. También resulta útil Luke, de Fred B. Craddock, especialmente por su enfoque pastoral y su atención a la manera en que las historias de Jesús confrontan a la comunidad que las escucha."
           }
         ]
       }
@@ -173,44 +148,29 @@
       "content": {
         "items": [
           {
-            "title": null,
+            "title": "DIOS TOMA LA INICIATIVA FRENTE A LA PÉRDIDA",
             "paragraphs": [
               "Lucas 15 revela a Dios como aquel que no se vuelve indiferente frente a la pérdida. El pastor busca, la mujer examina toda la casa y el padre sale al encuentro de sus dos hijos. Aunque las imágenes son distintas, todas comunican iniciativa. Dios no trata a las personas como piezas reemplazables. Lo perdido continúa teniendo valor porque pertenece a alguien que lo ama. La gracia comienza en el corazón de Dios antes de convertirse en respuesta humana."
             ]
           },
           {
-            "title": null,
+            "title": "LA RESTAURACIÓN DESPIERTA LA ALEGRÍA DE DIOS",
             "paragraphs": [
               "La alegría ocupa un lugar central en la teología del capítulo. Cada historia termina con una celebración o con una invitación a celebrarla. Jesús no describe el arrepentimiento únicamente como la cancelación de una culpa; lo presenta como el regreso de alguien cuya vida importa profundamente. El cielo no recibe a la persona restaurada con sospecha, frialdad ni una prueba interminable. Se alegra. La salvación introduce al ser humano en la alegría de Dios."
             ]
           },
           {
-            "title": null,
+            "title": "EL HIJO MENOR: PECADO, ARREPENTIMIENTO Y RESTAURACIÓN POR GRACIA",
             "paragraphs": [
-              "La historia del hijo menor muestra que el pecado no consiste solamente en romper reglas. Su deseo fundamental es tener los bienes del padre sin vivir en relación con él. La distancia geográfica expresa una ruptura anterior del corazón. El pecado promete libertad, pero termina reduciendo al hijo: pierde recursos, dignidad, comunidad y capacidad de sostenerse. Sin embargo, su fracaso no elimina su identidad a los ojos del padre. Él regresa pensando como trabajador, pero es recibido como hijo."
-            ]
-          },
-          {
-            "title": null,
-            "paragraphs": [
+              "La historia del hijo menor muestra que el pecado no consiste solamente en romper reglas. Su deseo fundamental es tener los bienes del padre sin vivir en relación con él. La distancia geográfica expresa una ruptura anterior del corazón. El pecado promete libertad, pero termina reduciendo al hijo: pierde recursos, dignidad, comunidad y capacidad de sostenerse. Sin embargo, su fracaso no elimina su identidad a los ojos del padre. Él regresa pensando como trabajador, pero es recibido como hijo.",
               "El arrepentimiento aparece como un despertar y un cambio de dirección. El hijo “entra en razón”, reconoce que su camino lo está destruyendo, confiesa que ha pecado y se levanta para regresar. No obstante, el relato evita convertir el arrepentimiento en una obra que compra la misericordia. Antes de que el hijo complete su propuesta laboral, el padre ya ha corrido, abrazado y besado. La confesión es real, pero la restauración depende de la compasión del padre y no de la calidad del discurso."
             ]
           },
           {
-            "title": null,
+            "title": "EL HIJO MAYOR: CERCANÍA SIN COMUNIÓN Y GRACIA QUE TAMBIÉN SALE A BUSCARLO",
             "paragraphs": [
-              "El hijo mayor revela una forma más religiosa de alejamiento. Ha permanecido en la propiedad, pero no disfruta la presencia del padre. Describe sus años de relación como servicio forzado y evalúa el amor mediante recompensas. Su obediencia se ha convertido en una forma de reclamar derechos. No desea compartir la alegría del padre porque interpreta la gracia concedida a su hermano como una injusticia contra su propio mérito."
-            ]
-          },
-          {
-            "title": null,
-            "paragraphs": [
-              "El padre no rechaza al hijo mayor. Sale de la fiesta, escucha su enojo y le habla con ternura: “Hijo”. La gracia que abraza al rebelde también busca al religioso resentido. Dios no quiere solamente que el menor abandone el país lejano; quiere que el mayor abandone la lógica de la comparación, el mérito y la exclusión. Ambos necesitan recibir la relación como regalo."
-            ]
-          },
-          {
-            "title": null,
-            "paragraphs": [
+              "El hijo mayor revela una forma más religiosa de alejamiento. Ha permanecido en la propiedad, pero no disfruta la presencia del padre. Describe sus años de relación como servicio forzado y evalúa el amor mediante recompensas. Su obediencia se ha convertido en una forma de reclamar derechos. No desea compartir la alegría del padre porque interpreta la gracia concedida a su hermano como una injusticia contra su propio mérito.",
+              "El padre no rechaza al hijo mayor. Sale de la fiesta, escucha su enojo y le habla con ternura: “Hijo”. La gracia que abraza al rebelde también busca al religioso resentido. Dios no quiere solamente que el menor abandone el país lejano; quiere que el mayor abandone la lógica de la comparación, el mérito y la exclusión. Ambos necesitan recibir la relación como regalo.",
               "Por eso, la pregunta teológica definitiva de Lucas 15 no es quién merece entrar, sino quién aceptará la alegría del Padre. El Reino reúne personas que estaban perdidas y transforma la restauración en fiesta. Negarse a celebrar la gracia concedida a otro puede dejar a una persona fuera de la comunión aun cuando haya permanecido toda su vida cerca de la casa."
             ]
           }
@@ -229,37 +189,37 @@
             "range": "1-3",
             "original": "treating them like old friends",
             "translation": "tratándolos como si fueran amigos de toda la vida",
-            "explanation": "The Message hace visible la cercanía que escandaliza a los líderes religiosos. La NBLA expresa que Jesús recibe a los pecadores y come con ellos; Peterson vuelve más concreta la calidez de esa acogida. La expresión no añade una doctrina nueva, pero ayuda a percibir que la mesa de Jesús no era un gesto distante de tolerancia, sino una forma real de inclusión."
+            "explanation": "La gracia de Dios se acerca a personas que otros habían reducido a su reputación. La NBLA fija el hecho central: Jesús recibe a los pecadores y comparte la mesa con ellos. MSG vuelve visible la calidez relacional de esa acogida al describirlos como amigos de toda la vida. La imagen no enseña que Jesús apruebe el pecado; muestra que su llamado al arrepentimiento comienza con una cercanía real, no con desprecio."
           },
           {
             "range": "4-7",
             "original": "one sinner’s rescued life",
             "translation": "la vida rescatada de un pecador",
-            "explanation": "Peterson enfatiza el resultado del arrepentimiento: una vida ha sido rescatada. La NBLA conserva de manera más directa la frase “un pecador que se arrepiente”, dejando claro que la alegría se relaciona con un cambio real de dirección. Las dos expresiones se complementan: el arrepentimiento no es humillación estéril, sino entrada en una vida restaurada."
+            "explanation": "El arrepentimiento es un regreso que produce rescate y alegría en el cielo. La NBLA protege el vínculo explícito entre el gozo y el pecador que se arrepiente. MSG hace visible el resultado pastoral de ese giro: una vida ha sido rescatada. La fuerza de la imagen no elimina la necesidad del arrepentimiento; muestra para qué conduce ese cambio de dirección."
           },
           {
             "range": "8-10",
             "original": "every nook and cranny",
             "translation": "cada rincón y cada grieta",
-            "explanation": "La imagen convierte la búsqueda en una escena intensa y cotidiana. La NBLA afirma que la mujer barre la casa y busca con cuidado. The Message hace sentir esa minuciosidad: ningún lugar queda sin revisar. La expresión resalta el valor de la moneda, no porque la moneda actúe, sino porque la mujer se niega a aceptar su pérdida."
+            "explanation": "Una sola vida perdida conserva valor y provoca una búsqueda cuidadosa. La NBLA fija la perseverancia de la mujer: enciende, barre y busca hasta hallar. MSG vuelve concreta esa intensidad al llevar la búsqueda a cada rincón y cada grieta. La imagen comunica el valor de lo perdido, pero no debe convertirse en una descripción literal de los mecanismos de la acción divina."
           },
           {
             "range": "17-20",
-            "original": "brought him to his senses",
-            "translation": "lo hizo entrar en razón",
-            "explanation": "La NBLA utiliza la expresión “volviendo en sí”, que comunica el mismo despertar interior. Peterson la acerca al lenguaje cotidiano. El pecado había llevado al hijo a vivir por debajo de su identidad; regresar comienza cuando reconoce con honestidad dónde está y hacia dónde lo ha llevado su camino. El texto no permite medir perfectamente todos sus motivos, pero sí muestra un cambio real de dirección."
+            "original": "That brought him to his senses.",
+            "translation": "Eso lo hizo entrar en razón.",
+            "explanation": "El arrepentimiento comienza cuando una persona reconoce con honestidad dónde está y cambia de dirección. La NBLA conserva el despertar interior mediante “volviendo en sí”; MSG lo expresa con lenguaje cotidiano: entrar en razón. El texto no exige afirmar que todos los motivos del hijo ya eran perfectos, pero sí muestra una respuesta concreta: se levanta y regresa al padre."
           },
           {
             "range": "20-21",
             "original": "His heart pounding",
-            "translation": "con el corazón desbocado",
-            "explanation": "La NBLA dice que el padre sintió compasión. The Message vuelve corporal esa emoción: el padre no observa el regreso con frialdad ni calcula primero las consecuencias. La imagen comunica urgencia, afecto y deseo de restauración. No redefine la compasión divina, pero permite sentir la fuerza con la que Jesús describe el recibimiento."
+            "translation": "Con el corazón desbocado",
+            "explanation": "La compasión del padre toma la iniciativa antes de que el hijo pueda negociar su regreso. La NBLA fija el sentido teológico mediante la compasión que mueve al padre a correr, abrazar y besar. MSG vuelve corporal la urgencia afectiva de esa escena con “el corazón desbocado”. Esa imagen intensifica pastoralmente la compasión; no debe aislarse para construir una doctrina sobre la experiencia física de Dios."
           },
           {
             "range": "31-32",
             "original": "we had to celebrate",
-            "translation": "teníamos que celebrar",
-            "explanation": "La NBLA expresa: “era necesario hacer fiesta y regocijarnos”. Peterson conserva esa necesidad con lenguaje directo. Para el padre, la celebración no es un capricho ni una concesión sentimental. Si alguien que estaba muerto vuelve a la vida y alguien perdido es encontrado, la alegría es la respuesta coherente. La gracia no solo perdona; enseña a celebrar la restauración."
+            "translation": "Teníamos que celebrar",
+            "explanation": "La restauración de una vida exige una alegría compartida, no una recepción fría ni una tolerancia resentida. La NBLA fija esa necesidad: era necesario hacer fiesta y regocijarse. MSG la expresa de manera directa: tenían que celebrar. La celebración no minimiza el pecado ni sus consecuencias; responde al hecho de que quien estaba muerto ha vuelto a la vida y quien estaba perdido ha sido hallado."
           }
         ]
       }
@@ -357,14 +317,14 @@
       "content": {
         "blocks": [
           {
-            "heading": "Ángulo 1: El Padre que sale por los dos hijos — La gracia busca tanto al rebelde como al religioso",
+            "heading": "Ángulo 1 — El Padre que sale por los dos hijos",
             "paragraphs": [
               "La tensión principal está en que solemos reconocer fácilmente la pérdida del hijo menor, pero podemos admirar la conducta externa del mayor sin notar que también está separado del corazón del padre. El error humano consiste en creer que solamente se pierde quien abandona la casa. El texto revela que una persona también puede vivir cerca de Dios, cumplir responsabilidades y, sin embargo, relacionarse desde el mérito, la comparación y el resentimiento.",
               "La verdad de Dios es que el padre sale por ambos. Corre hacia el menor antes de que pueda demostrar que merece volver y sale a conversar con el mayor mientras este se niega a participar. Pastoralmente, este ángulo permite hablar a dos grupos sin caricaturizarlos: a quienes creen que han ido demasiado lejos para regresar y a quienes han servido por años, pero han permitido que la obediencia se convierta en amargura."
             ]
           },
           {
-            "heading": "Ángulo 2: Cuando la gracia concedida a otro revela lo que hay en mí — El hermano mayor frente a la fiesta",
+            "heading": "Ángulo 2 — Cuando la gracia concedida a otro revela lo que hay en mí",
             "paragraphs": [
               "La tensión aparece cuando Dios trata con generosidad a alguien que nosotros consideramos indigno. El hermano mayor no protesta porque el padre sea malo con él; protesta porque es bueno con su hermano. El error humano consiste en interpretar la misericordia como injusticia cuando se concede a otra persona.",
               "La verdad de Dios es que la restauración no disminuye la herencia del hijo mayor ni amenaza su lugar. El padre le recuerda: “Tú estás conmigo, y todo lo mío es tuyo”. La gracia no crea escasez. Pastoralmente, este ángulo confronta la comparación espiritual, la competencia ministerial y la dificultad de celebrar cuando alguien con un pasado complejo recibe una nueva oportunidad."
@@ -431,7 +391,7 @@
       "sourceTitle": "UNA FRASE PARA LLEVAR",
       "type": "closingQuote",
       "content": {
-        "quote": "Pero teníamos que celebrar. Este hermano tuyo estaba muerto y ha vuelto a la vida; estaba perdido y lo hemos encontrado",
+        "quote": "Teníamos que celebrar. Este hermano tuyo estaba muerto y ha vuelto a la vida; estaba perdido y lo hemos encontrado.",
         "reference": "Lucas 15",
         "reflection": [
           "Esta frase concentra el corazón del capítulo porque revela que la restauración cambia la atmósfera de la casa. El Padre no recibe al perdido con tolerancia fría, sino con alegría, y no permite que el resentimiento del hermano mayor borre nuevamente su identidad: “este hermano tuyo”. Tomar esta frase en serio significa aprender a mirar a las personas más allá de su peor temporada. También significa reconocer que la gracia recibida debe convertirse en gracia celebrada. Quien comprende cuánto ha sido encontrado deja de competir por el amor del Padre y comienza a alegrarse cuando otros regresan. La invitación final de Lucas 15 sigue abierta: entrar en la casa, recibir la relación como regalo y compartir la alegría de Dios."
