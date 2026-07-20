@@ -3360,6 +3360,22 @@ async function cargarIndiceCapitulos() {
   }
 }
 
+// Cargar índice adicional de estudios V2.
+// Permite publicar capítulos V2 nuevos sin modificar el índice legado de estudios V1.
+async function cargarIndiceEstudiosV2() {
+  try {
+    const res = await fetch('/estudios/v2/indice.json', { cache: 'no-store' });
+    if (res.status === 404) return;
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    if (!res.headers.get('content-type')?.includes('application/json')) throw new Error('index V2 no JSON');
+    const data = await res.json();
+    if (!estudioV2EsObjeto(data)) throw new Error('index V2 invalido');
+    Object.assign(CAPITULOS_DISPONIBLES, data);
+  } catch(e) {
+    console.warn('[STARS] Índice V2 descartado:', e.message);
+  }
+}
+
 // Inicialización del contenido
 async function initContenido() {
   const now = new Date();
@@ -3370,7 +3386,7 @@ async function initContenido() {
   if (week > 1) await cargarDevocionalSemana(year, week - 1);
   
   // Cargar índice de estudios y de introducciones a libros (en paralelo)
-  await Promise.all([cargarIndiceCapitulos(), cargarIndiceIntros()]);
+  await Promise.all([cargarIndiceCapitulos(), cargarIndiceEstudiosV2(), cargarIndiceIntros()]);
   
   // Renderizar UI DESPUÉS de que los datos estén listos
   initPasoDiario();
@@ -7088,7 +7104,6 @@ let _ecapSecActual = 0;
 let _ecapKey = '';
 
 const estudioV2Memoria = { estudios: {}, estados: {}, complementos: {} };
-const ESTUDIO_V2_COMPLEMENTO_LUCAS15 = 'estudios/v2/textos/lucas15_textos_biblicos.json';
 
 function estudioV2SlugLibro(libro){
   return String(libro || '')
@@ -7103,15 +7118,28 @@ function estudioV2DatosKey(key){
   const chapter = parseInt(parts.pop(), 10);
   const book = parts.join(' ');
   const slug = estudioV2SlugLibro(book);
-  if(!Number.isInteger(chapter) || !((slug === 'lucas' && chapter >= 1 && chapter <= 24) || (slug === 'genesis' && chapter >= 1 && chapter <= 50 && ![20, 21, 37].includes(chapter)))) return null;
-  return { book, chapter, slug, title: book + ' ' + chapter, url: '/estudios/v2/' + slug + chapter + '_estudio_v2.json' };
+  if(!slug || !Number.isInteger(chapter) || chapter < 1) return null;
+  const libro = LIBROS_CAPS.flatMap(bloque => bloque.libros).find(item => estudioV2SlugLibro(item.n) === slug);
+  if(!libro || chapter > libro.caps) return null;
+  return {
+    book: libro.n,
+    chapter,
+    slug,
+    title: libro.n + ' ' + chapter,
+    url: '/estudios/v2/' + slug + chapter + '_estudio_v2.json',
+    complementoUrl: '/estudios/v2/textos/' + slug + chapter + '_textos_biblicos.json'
+  };
 }
 
 async function cargarEstudioV2(key){
   const datos = estudioV2DatosKey(key);
   if(!datos) return null;
-  if(estudioV2Memoria.estudios[key]) return estudioV2Memoria.estudios[key];
+  if(Object.prototype.hasOwnProperty.call(estudioV2Memoria.estudios, key)) return estudioV2Memoria.estudios[key];
   const res = await fetch(datos.url, { cache: 'no-store' });
+  if(res.status === 404){
+    estudioV2Memoria.estudios[key] = null;
+    return null;
+  }
   if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + datos.url);
   const data = await res.json();
   validarEstudioV2(data, datos);
@@ -7160,11 +7188,19 @@ function validarEstudioV2Complemento(data, estudio){
   exigir(data.schemaVersion === '1.0.0', 'schemaVersion complementario invalido');
   exigir(estudioV2EsObjeto(data.meta), 'meta complementaria invalida');
   exigir(data.meta.studyId === estudio.meta.studyId, 'studyId complementario incompatible');
+  exigir(data.meta.bookId === estudio.meta.bookId, 'bookId complementario incompatible');
   exigir(estudioV2SlugLibro(data.meta.book) === estudioV2SlugLibro(estudio.meta.book), 'libro complementario incompatible');
-  exigir(data.meta.chapter === estudio.meta.chapter && data.meta.chapter === 15 && estudioV2SlugLibro(data.meta.book) === 'lucas', 'capitulo complementario incompatible');
-  exigir(Array.isArray(data.msgBlocks) && data.msgBlocks.length === 11, 'se requieren 11 bloques MSG');
-  exigir(Array.isArray(data.nblaVerses) && data.nblaVerses.length === 32, 'se requieren 32 versiculos NBLA');
-  exigir(Array.isArray(data.jewels) && data.jewels.length === 6, 'se requieren 6 Joyas');
+  exigir(data.meta.chapter === estudio.meta.chapter, 'capitulo complementario incompatible');
+
+  const textoBase = estudio.sections.find(sec => sec.type === 'verseBlocks');
+  const joyasBase = estudio.sections.find(sec => sec.type === 'lexicalCards');
+  exigir(textoBase && textoBase.content && Array.isArray(textoBase.content.blocks), 'Texto V2 base invalido');
+  exigir(joyasBase && joyasBase.content && Array.isArray(joyasBase.content.cards), 'Joyas V2 base invalidas');
+  exigir(Array.isArray(data.msgBlocks) && data.msgBlocks.length > 0, 'lista MSG vacia');
+  exigir(Array.isArray(data.nblaVerses) && data.nblaVerses.length > 0, 'lista NBLA vacia');
+  exigir(Array.isArray(data.jewels) && data.jewels.length > 0, 'lista de Joyas vacia');
+  exigir(data.msgBlocks.length === textoBase.content.blocks.length, 'cantidad MSG incompatible con Texto V2');
+  exigir(data.jewels.length === joyasBase.content.cards.length, 'cantidad de Joyas incompatible con V2');
 
   const ids = new Set();
   const registrarId = (id, campo) => {
@@ -7215,12 +7251,14 @@ function validarEstudioV2Complemento(data, estudio){
     exigir(estudioV2EsObjeto(block) && block.order === idx + 1, 'orden MSG invalido');
     registrarId(block.id, 'msgBlocks');
     exigir(typeof block.editorialRange === 'string' && estudioV2EsObjeto(block.msg) && typeof block.msg.en === 'string' && block.msg.en && typeof block.msg.es === 'string' && block.msg.es, 'bloque MSG incompleto');
+    exigir(block.editorialRange === textoBase.content.blocks[idx].range, 'rango MSG incompatible con Texto V2');
     validarRefs(block.nblaRefs, 'msgBlocks');
   });
   data.jewels.forEach((jewel, idx) => {
     exigir(estudioV2EsObjeto(jewel) && jewel.order === idx + 1, 'orden de Joyas invalido');
     registrarId(jewel.id, 'jewels');
     exigir(typeof jewel.range === 'string' && estudioV2EsObjeto(jewel.msg) && typeof jewel.msg.en === 'string' && jewel.msg.en && typeof jewel.msg.es === 'string' && jewel.msg.es && typeof jewel.explanation === 'string' && jewel.explanation, 'Joya complementaria incompleta');
+    exigir(jewel.range === joyasBase.content.cards[idx].range, 'rango de Joya incompatible con V2');
     validarRefs(jewel.nblaRefs, 'jewels');
   });
   return data;
@@ -7228,11 +7266,15 @@ function validarEstudioV2Complemento(data, estudio){
 
 async function cargarEstudioV2Complemento(key, estudio){
   const datos = estudioV2DatosKey(key);
-  if(!datos || datos.slug !== 'lucas' || datos.chapter !== 15) return null;
+  if(!datos) return null;
   if(Object.prototype.hasOwnProperty.call(estudioV2Memoria.complementos, key)) return estudioV2Memoria.complementos[key];
   try{
-    const res = await fetch(ESTUDIO_V2_COMPLEMENTO_LUCAS15, { cache:'no-store' });
-    if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + ESTUDIO_V2_COMPLEMENTO_LUCAS15);
+    const res = await fetch(datos.complementoUrl, { cache:'no-store' });
+    if(res.status === 404){
+      estudioV2Memoria.complementos[key] = null;
+      return null;
+    }
+    if(!res.ok) throw new Error('HTTP ' + res.status + ' - ' + datos.complementoUrl);
     const data = await res.json();
     validarEstudioV2Complemento(data, estudio);
     estudioV2Memoria.complementos[key] = data;
@@ -7248,13 +7290,14 @@ async function abrirEstudioV2SiAplica(key, contexto){
   if(!estudioV2DatosKey(key)) return false;
   try{
     const estudio = await cargarEstudioV2(key);
+    if(!estudio) return false;
     const estado = estudioV2Estado(contexto, key);
     estado.textoVista = 'MSG';
     await cargarEstudioV2Complemento(key, estudio);
     renderEstudioV2(estudio, { key, contexto });
     return true;
   }catch(e){
-    console.warn('[STARS] Estudio V2 no disponible, usando V1:', e.message);
+    console.warn('[STARS] Estudio V2 invalido o inaccesible, usando V1:', e.message);
     return false;
   }
 }
@@ -7395,8 +7438,7 @@ function estudioV2RenderIdeas(sec, estado){
   const open = estado.abiertos[sec.id];
   return '<section class="est-v2-ideas">' + items.map((item, i) => {
     const isOpen = open === i;
-    const title = typeof item.title === 'string' ? item.title.trim() : '';
-    const preview = title || estudioV2PrimerTexto({ paragraphs:item.paragraphs || [] });
+    const preview = estudioV2PrimerTexto({ paragraphs:item.paragraphs || [] });
     return '<div class="est-v2-idea-item ' + (isOpen ? 'is-open' : '') + '"><button class="est-v2-idea-btn" data-est-v2-toggle="' + estudioV2Esc(sec.id + ':' + i) + '" aria-expanded="' + (isOpen ? 'true' : 'false') + '"><span class="est-v2-idea-num">' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-copy"><span class="est-v2-idea-kicker">Idea ' + String(i + 1).padStart(2,'0') + '</span><span class="est-v2-idea-preview">' + estudioV2Esc(estudioV2Resumen(preview, 78)) + '</span></span><span class="est-v2-plus">+</span></button><div class="est-v2-acc-body"><div class="est-v2-acc-inner"><div class="est-v2-idea-body">' + (item.paragraphs || []).map(t => '<p class="est-v2-p">' + estudioV2Esc(t) + '</p>').join('') + '</div></div></div></div>';
   }).join('') + '</section>';
 }

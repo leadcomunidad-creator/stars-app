@@ -1,0 +1,533 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios es el origen soberano de toda la realidad visible e invisible. La NBLA fija la afirmación fundacional: en el principio, Dios creó los cielos y la tierra. MSG vuelve esa totalidad más visible con «todo lo que ves, todo lo que no ves». La ampliación comunica pastoralmente el alcance universal de la creación, pero no añade una doctrina distinta de la totalidad expresada por la fórmula bíblica «los cielos y la tierra».",
+      "id": "genesis1-joya-01",
+      "msg": {
+        "en": "“First this: God created the Heavens and Earth—all you see, all you don’t see.”",
+        "es": "“Primero esto: Dios creó los Cielos y la Tierra —todo lo que ves, todo lo que no ves.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La presencia de Dios antecede al orden visible y permanece activa sobre una creación todavía informe. La NBLA protege el sentido textual al afirmar que el Espíritu de Dios se movía sobre las aguas. MSG hace más concreta esa presencia mediante la imagen de un ave que se cierne. Esa comparación puede comunicar atención, cercanía y vida en preparación, pero no debe convertirse por sí sola en una descripción exhaustiva de la persona o la obra del Espíritu.",
+      "id": "genesis1-joya-02",
+      "msg": {
+        "en": "“God’s Spirit brooded like a bird above the watery abyss.”",
+        "es": "“El Espíritu de Dios se cernía como un ave sobre el abismo de las aguas.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La palabra del Creador hace que la tierra participe en la fecundidad de su obra. La NBLA fija el mandato y su resultado: la tierra debe producir vegetación. MSG concentra esa misma verdad en una orden visual y enérgica: «¡Tierra, ponte verde!». La imagen ayuda a percibir la vitalidad del mandato divino, pero la capacidad creadora sigue perteneciendo a Dios y no a una autonomía independiente de la naturaleza.",
+      "id": "genesis1-joya-03",
+      "msg": {
+        "en": "“Earth, green up!”",
+        "es": "“¡Tierra, ponte verde!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "La humanidad recibe de Dios una dignidad y una vocación representativa que anteceden a cualquier logro. La NBLA fija el lenguaje de imagen y semejanza y vincula esa identidad con el ejercicio de dominio delegado. MSG vuelve visible su dimensión representativa mediante «reflejen nuestra naturaleza». Esa expresión ayuda a comunicar la vocación humana, pero no significa que los seres humanos compartan la esencia divina ni autoriza un gobierno autónomo o explotador sobre la creación.",
+      "id": "genesis1-joya-04",
+      "msg": {
+        "en": "“reflecting our nature”",
+        "es": "“reflejen nuestra naturaleza”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-28"
+        }
+      ],
+      "order": 4,
+      "range": "26-28"
+    },
+    {
+      "explanation": "La creación completa recibe la aprobación del Creador y debe interpretarse desde su bondad original. La NBLA fija la evaluación: todo era bueno en gran manera. MSG conserva esa declaración y la expresa con una repetición que comunica contemplación y deleite. El énfasis pastoral no permite negar la fractura posterior del pecado, pero sí impide tratar la materia, el cuerpo o el mundo creado como si fueran malos por naturaleza.",
+      "id": "genesis1-joya-05",
+      "msg": {
+        "en": "“it was so good, so very good!”",
+        "es": "“Dios contempló todo lo que había hecho; ¡era bueno, realmente muy bueno!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-31"
+        }
+      ],
+      "order": 5,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 1,
+    "studyId": "genesis-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "genesis1-msg-01",
+      "msg": {
+        "en": "First this: God created the Heavens and Earth—all you see, all you don’t see. Earth was a soup of nothingness, a bottomless emptiness, an inky blackness. God’s Spirit brooded like a bird above the watery abyss.",
+        "es": "Primero esto: Dios creó los Cielos y la Tierra —todo lo que ves, todo lo que no ves. La Tierra era una sopa de la nada, un vacío sin fondo, una oscuridad negra como tinta. El Espíritu de Dios se cernía como un ave sobre el abismo de las aguas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "genesis1-msg-02",
+      "msg": {
+        "en": "God spoke: “Light!”\nAnd light appeared.\nGod saw that light was good\nand separated light from dark.\nGod named the light Day,\nhe named the dark Night.\nIt was evening, it was morning—\nDay One.",
+        "es": "Dios habló: «¡Luz!». Y apareció la luz. Dios vio que la luz era buena y separó la luz de la oscuridad. Dios llamó Día a la luz y Noche a la oscuridad. Fue tarde, fue mañana: Día Uno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "genesis1-msg-03",
+      "msg": {
+        "en": "God spoke: “Sky! In the middle of the waters;\nseparate water from water!”\nGod made sky.\nHe separated the water under sky\nfrom the water above sky.\nAnd there it was:\nhe named sky the Heavens;\nIt was evening, it was morning—\nDay Two.",
+        "es": "Dios habló: «¡Cielo! En medio de las aguas, ¡separa unas aguas de otras!». Dios hizo el cielo. Separó las aguas debajo del cielo de las aguas encima del cielo. Y ahí estaba: llamó Cielos al cielo. Fue tarde, fue mañana: Día Dos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "genesis1-msg-04",
+      "msg": {
+        "en": "God spoke: “Separate!\nWater-beneath-Heaven, gather into one place;\nLand, appear!”\nAnd there it was.\nGod named the land Earth.\nHe named the pooled water Ocean.\nGod saw that it was good.",
+        "es": "Dios habló: «¡Sepárense! Aguas-bajo-el-Cielo, reúnanse en un solo lugar; ¡Tierra, aparece!». Y ahí estaba. Dios llamó Tierra a lo seco. A las aguas reunidas las llamó Océano. Dios vio que era bueno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "genesis1-msg-05",
+      "msg": {
+        "en": "God spoke: “Earth, green up! Grow all varieties\nof seed-bearing plants,\nEvery sort of fruit-bearing tree.”\nAnd there it was.\nEarth produced green seed-bearing plants,\nall varieties,\nAnd fruit-bearing trees of all sorts.\nGod saw that it was good.\nIt was evening, it was morning—\nDay Three.",
+        "es": "Dios habló: «¡Tierra, ponte verde! Haz crecer toda clase de plantas que produzcan semilla y todo tipo de árbol que dé fruto». Y ahí estaba. La Tierra produjo plantas verdes que daban semilla, de toda variedad, y árboles frutales de todo tipo. Dios vio que era bueno. Fue tarde, fue mañana: Día Tres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "genesis1-msg-06",
+      "msg": {
+        "en": "God spoke: “Lights! Come out!\nShine in Heaven’s sky!\nSeparate Day from Night.\nMark seasons and days and years,\nLights in Heaven’s sky to give light to Earth.”\nAnd there it was.",
+        "es": "Dios habló: «¡Luces! ¡Salgan! ¡Brillen en el cielo de los Cielos! Separen el Día de la Noche. Marquen las estaciones, los días y los años; luces en el cielo de los Cielos para alumbrar la Tierra». Y ahí estaba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "genesis1-msg-07",
+      "msg": {
+        "en": "God made two big lights, the larger\nto take charge of Day,\nThe smaller to be in charge of Night;\nand he made the stars.\nGod placed them in the heavenly sky\nto light up Earth\nAnd oversee Day and Night,\nto separate light and dark.\nGod saw that it was good.\nIt was evening, it was morning—\nDay Four.",
+        "es": "Dios hizo dos grandes luces: la mayor para hacerse cargo del Día y la menor para estar a cargo de la Noche; también hizo las estrellas. Dios las puso en el cielo para alumbrar la Tierra, supervisar el Día y la Noche y separar la luz de la oscuridad. Dios vio que era bueno. Fue tarde, fue mañana: Día Cuatro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "genesis1-msg-08",
+      "msg": {
+        "en": "God spoke: “Swarm, Ocean, with fish and all sea life!\nBirds, fly through the sky over Earth!”\nGod created the huge whales,\nall the swarm of life in the waters,\nAnd every kind and species of flying birds.\nGod saw that it was good.\nGod blessed them: “Prosper! Reproduce! Fill Ocean!\nBirds, reproduce on Earth!”\nIt was evening, it was morning—\nDay Five.",
+        "es": "Dios habló: «¡Océano, rebosa de peces y de toda clase de vida marina! ¡Aves, vuelen por el cielo sobre la Tierra!». Dios creó las enormes ballenas, todo el enjambre de vida de las aguas y toda clase y especie de aves voladoras. Dios vio que era bueno. Dios los bendijo: «¡Prosperen! ¡Reprodúzcanse! ¡Llenen el Océano! ¡Aves, reprodúzcanse en la Tierra!». Fue tarde, fue mañana: Día Cinco."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-23"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "genesis1-msg-09",
+      "msg": {
+        "en": "God spoke: “Earth, generate life! Every sort and kind:\ncattle and reptiles and wild animals—all kinds.”\nAnd there it was:\nwild animals of every kind,\nCattle of all kinds, every sort of reptile and bug.\nGod saw that it was good.",
+        "es": "Dios habló: «¡Tierra, genera vida! De toda clase y tipo: ganado, reptiles y animales salvajes, de todo». Y ahí estaba: animales salvajes de toda clase, ganado de todo tipo y toda variedad de reptiles e insectos. Dios vio que era bueno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-25"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "26-28",
+      "id": "genesis1-msg-10",
+      "msg": {
+        "en": "God spoke: “Let us make human beings in our image, make them\nreflecting our nature\nSo they can be responsible for the fish in the sea,\nthe birds in the air, the cattle,\nAnd, yes, Earth itself,\nand every animal that moves on the face of Earth.”\nGod created human beings;\nhe created them godlike,\nReflecting God’s nature.\nHe created them male and female.\nGod blessed them:\n“Prosper! Reproduce! Fill Earth! Take charge!\nBe responsible for fish in the sea and birds in the air,\nfor every living thing that moves on the face of Earth.”",
+        "es": "Dios habló: «Hagamos seres humanos a nuestra imagen; hagámoslos para que reflejen nuestra naturaleza, de modo que sean responsables de los peces en el mar, las aves en el aire, el ganado, sí, de la Tierra misma y de todo animal que se mueve sobre la faz de la Tierra». Dios creó seres humanos; los creó semejantes a Dios, reflejando la naturaleza de Dios. Los creó hombre y mujer. Dios los bendijo: «¡Prosperen! ¡Reprodúzcanse! ¡Llenen la Tierra! ¡Háganse cargo! Sean responsables de los peces en el mar y de las aves en el aire, de todo ser viviente que se mueve sobre la faz de la Tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-28"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "genesis1-msg-11",
+      "msg": {
+        "en": "Then God said, “I’ve given you\nevery sort of seed-bearing plant on Earth\nAnd every kind of fruit-bearing tree,\ngiven them to you for food.\nTo all animals and all birds,\neverything that moves and breathes,\nI give whatever grows out of the ground for food.”\nAnd there it was.",
+        "es": "Entonces Dios dijo: «Les he dado toda clase de planta que produce semilla en la Tierra y todo tipo de árbol frutal; se los he dado como alimento. A todos los animales y a todas las aves, a todo lo que se mueve y respira, les doy como alimento todo lo que crece de la tierra». Y ahí estaba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-30"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "31",
+      "id": "genesis1-msg-12",
+      "msg": {
+        "en": "God looked over everything he had made;\nit was so good, so very good!\nIt was evening, it was morning—\nDay Six.",
+        "es": "Dios contempló todo lo que había hecho; ¡era bueno, realmente muy bueno! Fue tarde, fue mañana: Día Seis."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis1-nbla-31"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis1-nbla-01",
+      "number": 1,
+      "text": "En el principio Dios creó los cielos y la tierra."
+    },
+    {
+      "id": "genesis1-nbla-02",
+      "number": 2,
+      "text": "La tierra estaba sin orden y vacía, y las tinieblas cubrían la superficie del abismo, y el Espíritu de Dios se movía sobre la superficie de las aguas."
+    },
+    {
+      "id": "genesis1-nbla-03",
+      "number": 3,
+      "text": "Entonces dijo Dios: «Sea la luz». Y hubo luz."
+    },
+    {
+      "id": "genesis1-nbla-04",
+      "number": 4,
+      "text": "Dios vio que la luz era buena; y Dios separó la luz de las tinieblas."
+    },
+    {
+      "id": "genesis1-nbla-05",
+      "number": 5,
+      "text": "Y Dios llamó a la luz día y a las tinieblas llamó noche. Y fue la tarde y fue la mañana: un día."
+    },
+    {
+      "id": "genesis1-nbla-06",
+      "number": 6,
+      "text": "Entonces dijo Dios: «Haya expansión en medio de las aguas, y separe las aguas de las aguas»."
+    },
+    {
+      "id": "genesis1-nbla-07",
+      "number": 7,
+      "text": "Dios hizo la expansión, y separó las aguas que estaban debajo de la expansión de las aguas que estaban sobre la expansión. Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-08",
+      "number": 8,
+      "text": "Y Dios llamó a la expansión cielos. Y fue la tarde y fue la mañana: el segundo día."
+    },
+    {
+      "id": "genesis1-nbla-09",
+      "number": 9,
+      "text": "Entonces dijo Dios: «Júntense en un lugar las aguas que están debajo de los cielos, y que aparezca lo seco». Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-10",
+      "number": 10,
+      "text": "Dios llamó a lo seco «tierra», y al conjunto de las aguas llamó «mares». Y Dios vio que era bueno."
+    },
+    {
+      "id": "genesis1-nbla-11",
+      "number": 11,
+      "text": "Entonces dijo Dios: «Produzca la tierra vegetación: hierbas que den semilla, y árboles frutales que den su fruto con su semilla sobre la tierra según su especie». Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-12",
+      "number": 12,
+      "text": "Y produjo la tierra vegetación: hierbas que dan semilla según su especie, y árboles que dan su fruto con semilla, según su especie. Y Dios vio que era bueno."
+    },
+    {
+      "id": "genesis1-nbla-13",
+      "number": 13,
+      "text": "Y fue la tarde y fue la mañana: el tercer día."
+    },
+    {
+      "id": "genesis1-nbla-14",
+      "number": 14,
+      "text": "Entonces dijo Dios: «Haya lumbreras en la expansión de los cielos para separar el día de la noche, y sean para señales y para estaciones y para días y para años;"
+    },
+    {
+      "id": "genesis1-nbla-15",
+      "number": 15,
+      "text": "y sean por luminarias en la expansión de los cielos para alumbrar sobre la tierra». Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-16",
+      "number": 16,
+      "text": "Dios hizo las dos grandes lumbreras, la lumbrera mayor para dominio del día y la lumbrera menor para dominio de la noche. Hizo también las estrellas."
+    },
+    {
+      "id": "genesis1-nbla-17",
+      "number": 17,
+      "text": "Dios las puso en la expansión de los cielos para alumbrar sobre la tierra,"
+    },
+    {
+      "id": "genesis1-nbla-18",
+      "number": 18,
+      "text": "y para dominar el día y la noche, y para separar la luz de las tinieblas. Y Dios vio que era bueno."
+    },
+    {
+      "id": "genesis1-nbla-19",
+      "number": 19,
+      "text": "Y fue la tarde y fue la mañana: el cuarto día."
+    },
+    {
+      "id": "genesis1-nbla-20",
+      "number": 20,
+      "text": "Entonces dijo Dios: «Llénense las aguas de multitudes de seres vivientes, y vuelen las aves sobre la tierra en la abierta expansión de los cielos»."
+    },
+    {
+      "id": "genesis1-nbla-21",
+      "number": 21,
+      "text": "Y Dios creó los grandes monstruos marinos y todo ser viviente que se mueve, de los cuales, según su especie, están llenas las aguas, y toda ave según su especie. Y Dios vio que era bueno."
+    },
+    {
+      "id": "genesis1-nbla-22",
+      "number": 22,
+      "text": "Dios los bendijo, diciendo: «Sean fecundos y multiplíquense, y llenen las aguas en los mares, y multiplíquense las aves en la tierra»."
+    },
+    {
+      "id": "genesis1-nbla-23",
+      "number": 23,
+      "text": "Y fue la tarde y fue la mañana: el quinto día."
+    },
+    {
+      "id": "genesis1-nbla-24",
+      "number": 24,
+      "text": "Entonces dijo Dios: «Produzca la tierra seres vivientes según su especie: ganados, reptiles y animales de la tierra según su especie». Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-25",
+      "number": 25,
+      "text": "Dios hizo las bestias de la tierra según su especie, y el ganado según su especie, y todo lo que se arrastra sobre la tierra según su especie. Y Dios vio que era bueno."
+    },
+    {
+      "id": "genesis1-nbla-26",
+      "number": 26,
+      "text": "Y dijo Dios: «Hagamos al hombre a Nuestra imagen, conforme a Nuestra semejanza; y ejerza dominio sobre los peces del mar, sobre las aves del cielo, sobre los ganados, sobre toda la tierra, y sobre todo reptil que se arrastra sobre la tierra»."
+    },
+    {
+      "id": "genesis1-nbla-27",
+      "number": 27,
+      "text": "Dios creó al hombre a imagen Suya, a imagen de Dios lo creó; varón y hembra los creó."
+    },
+    {
+      "id": "genesis1-nbla-28",
+      "number": 28,
+      "text": "Dios los bendijo y les dijo: «Sean fecundos y multiplíquense. Llenen la tierra y sométanla. Ejerzan dominio sobre los peces del mar, sobre las aves del cielo y sobre todo ser viviente que se mueve sobre la tierra»."
+    },
+    {
+      "id": "genesis1-nbla-29",
+      "number": 29,
+      "text": "También les dijo Dios: «Miren, Yo les he dado a ustedes toda planta que da semilla que hay en la superficie de toda la tierra, y todo árbol que tiene fruto que da semilla; esto les servirá de alimento."
+    },
+    {
+      "id": "genesis1-nbla-30",
+      "number": 30,
+      "text": "Y a todo animal de la tierra, a toda ave de los cielos y a todo lo que se mueve sobre la tierra, y que tiene vida, les he dado toda planta verde para alimento». Y así fue."
+    },
+    {
+      "id": "genesis1-nbla-31",
+      "number": 31,
+      "text": "Dios vio todo lo que había hecho; y era bueno en gran manera. Y fue la tarde y fue la mañana: el sexto día."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schemaVersion": "1.0.0",
+  "meta": {
+    "studyId": "filemon-1",
+    "bookId": "filemon",
+    "book": "FILEMÓN",
+    "chapter": 1,
+    "sectionCount": 10,
+    "source": {
+      "translation": "The Message",
+      "heading": "FILEMÓN 1 — MSG + NBLA",
+      "internalSignature": "S.T.A.R.S. · MSG + NBLA · LHSCOL 2026",
+      "visibility": "internal"
+    }
+  },
+  "sections": [
+    {
+      "id": "texto",
+      "order": 1,
+      "label": "Texto del capítulo",
+      "sourceTitle": "TEXTO DEL CAPÍTULO — MSG / NBLA",
+      "type": "verseBlocks",
+      "content": {
+        "blocks": [
+          {
+            "range": "1-3",
+            "text": "Yo, Pablo, estoy preso por causa de Cristo, aquí con mi hermano Timoteo. Te escribo esta carta a ti, Filemón, mi buen amigo y compañero en esta obra; también a nuestra hermana Apia, a Arquipo, un verdadero luchador, y a la iglesia que se reúne en tu casa. ¡Que Dios les dé lo mejor! ¡Que las bendiciones de Cristo estén sobre ustedes!"
+          },
+          {
+            "range": "4-7",
+            "text": "Cada vez que tu nombre aparece en mis oraciones, digo: «¡Oh, gracias, Dios!». Sigo oyendo del amor y la fe que tienes en el Maestro Jesús, que se desbordan hacia los demás creyentes. Y sigo orando para que esta fe que compartimos continúe haciéndose visible en las cosas buenas que hacemos, y para que la gente reconozca a Cristo en todo ello. Amigo, no tienes idea de lo bien que me hace sentir tu amor, y más aún cuando veo tu hospitalidad hacia otros creyentes."
+          },
+          {
+            "range": "8-9",
+            "text": "En consonancia con todo esto, tengo un favor que pedirte. Como embajador de Cristo y ahora prisionero por su causa, no dudaría en ordenártelo si lo considerara necesario, pero prefiero hacértelo como una petición personal."
+          },
+          {
+            "range": "10-14",
+            "text": "Aquí en la cárcel he llegado a ser padre de un hijo, por así decirlo. Y aquí está, llevando personalmente esta carta: ¡Onésimo! Antes te era inútil; ahora nos es útil a los dos. Te lo envío de regreso, pero al hacerlo siento como si me arrancara el brazo derecho. Deseaba con todas mis fuerzas conservarlo aquí, como representante tuyo, para que me ayudara mientras estoy preso por el Mensaje. Pero no quise hacer nada a tus espaldas ni obligarte a hacer una buena obra que no hubieras aceptado voluntariamente."
+          },
+          {
+            "range": "15-16",
+            "text": "Tal vez haya sido para bien que lo perdieras por un tiempo. Ahora lo recuperas para siempre, y ya no como un simple esclavo, sino como un verdadero hermano cristiano. Eso es lo que llegó a ser para mí; para ti será todavía mucho más."
+          },
+          {
+            "range": "17-20",
+            "text": "Así que, si todavía me consideras un compañero de lucha, recíbelo como me recibirías a mí. Si te causó algún daño o te debe algo, cárgalo a mi cuenta. Esta es mi firma personal —Pablo— y respondo por ello. No necesito recordarte, ¿verdad?, que me debes tu propia vida. Hazme este gran favor, amigo. Lo harás por Cristo, pero también le hará mucho bien a mi corazón."
+          },
+          {
+            "range": "21-22",
+            "text": "Te conozco lo suficiente para saber que lo harás. Probablemente irás mucho más allá de lo que he escrito. Y, a propósito, prepárame una habitación. Confío plenamente en que, gracias a las oraciones de ustedes, volveré a ser huésped suyo."
+          },
+          {
+            "range": "23-25",
+            "text": "Epafras, mi compañero de celda por la causa de Cristo, te saluda. También mis compañeros de trabajo Marcos, Aristarco, Demas y Lucas. ¡Todo lo mejor para ustedes de parte del Maestro, Jesucristo!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "panorama",
+      "order": 2,
+      "label": "Contexto",
+      "sourceTitle": "ORIENTACIÓN GENERAL",
+      "type": "editorialParagraphs",
+      "content": {
+        "paragraphs": [
+          {
+            "text": "Filemón es la carta más breve de Pablo conservada en el Nuevo Testamento, pero su tamaño no limita su profundidad. Está dirigida a Filemón, Apia, Arquipo y a la iglesia que se reunía en su casa. Aunque Pablo trata una situación personal relacionada con Onésimo, no escribe en secreto: coloca la reconciliación delante de una comunidad cristiana que deberá aprender a reconocer sus consecuencias."
+          },
+          {
+            "text": "Onésimo había pertenecido a la casa de Filemón y se había separado de él por circunstancias que Pablo no explica completamente. El texto permite pensar que existía una deuda o algún perjuicio, pero no afirma expresamente todo lo que ocurrió. Durante el encarcelamiento de Pablo, Onésimo recibió el Evangelio y llegó a ser para él un hijo espiritual, un colaborador útil y alguien tan querido como su propio corazón."
+          },
+          {
+            "text": "La esclavitud formaba parte de la estructura económica y social del mundo romano. Pablo no escribe un tratado político ni emite aquí una orden jurídica de emancipación. Sin embargo, introduce dentro de aquella estructura una verdad que termina desestabilizándola: Onésimo ya no puede ser recibido solamente según su antigua categoría social, porque ahora es un hermano amado «tanto en la carne como en el Señor»."
+          },
+          {
+            "text": "La carta debe leerse como una apelación pastoral cuidadosamente construida. Pablo posee autoridad para ordenar, pero elige rogar por amor. No busca una bondad producida por presión, sino una decisión libre que haga visible la fe. El propósito de la carta no es solamente resolver una deuda ni restaurar sin cambios la antigua relación entre amo y esclavo: es lograr que el Evangelio transforme la manera en que dos creyentes se reconocen, se reciben y reconstruyen su relación."
+          }
+        ]
+      }
+    },
+    {
+      "id": "recorrido",
+      "order": 3,
+      "label": "Recorrido",
+      "sourceTitle": "ESTRUCTURA DEL CAPÍTULO",
+      "type": "timeline",
+      "content": {
+        "stops": [
+          {
+            "range": "1-3",
+            "title": "Una situación personal delante de toda la iglesia",
+            "text": "Pablo se presenta como prisionero de Cristo y dirige la carta no solo a Filemón, sino también a Apia, Arquipo y la iglesia reunida en su casa. Desde el comienzo, el conflicto deja de ser un asunto estrictamente privado. La gracia y la paz de Cristo deberán gobernar la manera en que la comunidad responda a Onésimo."
+          },
+          {
+            "range": "4-7",
+            "title": "Una fe que ya ha confortado a otros",
+            "text": "Antes de formular su petición, Pablo reconoce el amor, la fe y la hospitalidad de Filemón. No lo halaga de manera superficial; le recuerda la clase de persona que ha llegado a ser en Cristo. La petición posterior se apoyará en esa evidencia: el mismo amor que ha confortado a otros creyentes debe extenderse ahora hacia Onésimo."
+          },
+          {
+            "range": "8-14",
+            "title": "Autoridad que renuncia a la coerción",
+            "text": "Pablo podría mandar, pero decide rogar. Presenta a Onésimo como su hijo espiritual y como alguien que ha pasado de ser inútil a ser útil para ambos. Aunque Pablo desea conservarlo, se niega a imponerle a Filemón una acción aparentemente buena. La bondad cristiana pierde su carácter cuando nace únicamente de la presión."
+          },
+          {
+            "range": "15-20",
+            "title": "Recibir al antiguo esclavo como hermano",
+            "text": "Este es el centro de la carta. Pablo invita a Filemón a interpretar la separación temporal desde la posibilidad de una reconciliación permanente. Onésimo debe ser recibido ya no solamente como esclavo, sino como hermano amado. Pablo se interpone entre ambos, pide que Onésimo sea recibido como él mismo y asume cualquier deuda pendiente."
+          },
+          {
+            "range": "21-25",
+            "title": "Confianza en una obediencia que irá más allá",
+            "text": "Pablo expresa confianza en que Filemón hará incluso más de lo solicitado. También anuncia su esperanza de visitarlo, recordando que esta decisión tendrá continuidad y consecuencias visibles. Los saludos finales muestran que la reconciliación ocurre dentro de una red de colaboradores unidos por la gracia de Jesucristo."
+          }
+        ],
+        "closing": [
+          "El capítulo avanza desde la identidad comunitaria hacia una decisión concreta. Pablo recuerda el amor que Filemón ya practica, renuncia a utilizar la fuerza de su autoridad, presenta la nueva identidad de Onésimo, asume el costo de la reconciliación y deja abierta la posibilidad de una respuesta que vaya mucho más allá de la obligación mínima."
+        ]
+      }
+    },
+    {
+      "id": "ideas",
+      "order": 4,
+      "label": "Ideas clave",
+      "sourceTitle": "TEOLOGÍA CENTRAL",
+      "type": "ideaAccordion",
+      "content": {
+        "items": [
+          {
+            "title": "EL EVANGELIO REDEFINE LA IDENTIDAD HUMANA",
+            "paragraphs": [
+              "La conversión no constituye solamente una experiencia interior; introduce a la persona en una nueva familia. Onésimo continúa siendo la misma persona con una historia real, responsabilidades pendientes y consecuencias que afrontar, pero ya no puede ser definido exclusivamente por su pasado, su utilidad económica o su posición social. En Cristo se ha convertido en un hermano amado.",
+              "Pablo no niega la realidad anterior ni pretende que Filemón olvide mágicamente cualquier perjuicio. La gracia no borra la verdad; cambia el lugar desde el cual esa verdad es enfrentada. Filemón debe mirar a Onésimo a través de la nueva creación que Cristo ha comenzado en él."
+            ]
+          },
+          {
+            "title": "EL AMOR CRISTIANO RENUNCIA A LA COERCIÓN",
+            "paragraphs": [
+              "Pablo posee autoridad apostólica y reconoce que podría ordenar «lo que conviene». Sin embargo, decide formular un ruego por amor. Esta renuncia no representa debilidad ni falta de convicción; revela una comprensión madura de la obediencia cristiana. Una acción exterior puede parecer correcta y, aun así, no expresar verdaderamente el corazón de Dios si fue producida solamente por presión.",
+              "El Evangelio forma personas capaces de hacer el bien voluntariamente. Pablo no busca obtener de Filemón una obediencia meramente externa, sino conducirlo a una decisión en la que su fe, su amor y su libertad actúen juntos. La autoridad espiritual alcanza su expresión más semejante a Cristo cuando no utiliza a las personas para obtener resultados, sino que las acompaña a responder desde una conciencia transformada."
+            ]
+          },
+          {
+            "title": "LA RECONCILIACIÓN EXIGE QUE ALGUIEN ASUMA EL COSTO",
+            "paragraphs": [
+              "Pablo no pide una reconciliación barata. Si Onésimo causó un perjuicio o dejó una deuda, Pablo se compromete a responder por ella: «Cárgalo a mi cuenta». El perdón no significa que el daño nunca existió; significa que alguien decide absorber el costo para que la relación tenga una posibilidad real de ser restaurada.",
+              "Esta disposición convierte a Pablo en mediador entre Filemón y Onésimo. No niega el posible agravio ni abandona al responsable. Se coloca en medio, reconoce la deuda y utiliza su propia relación con Filemón para abrir un camino de recepción. La reconciliación bíblica no es sentimentalismo: requiere verdad, responsabilidad, gracia y disposición a pagar un precio."
+            ]
+          },
+          {
+            "title": "LA FE SE HACE VISIBLE EN LA MANERA DE RECIBIR AL OTRO",
+            "paragraphs": [
+              "Pablo ora para que la fe compartida llegue a ser eficaz y se manifieste en acciones concretas. La situación de Onésimo se convierte en la prueba de esa oración. Filemón ha refrescado el corazón de muchos creyentes; ahora deberá mostrar que su hospitalidad alcanza también a quien regresa con una historia difícil.",
+              "La iglesia que se reúne en su casa observará si el Evangelio que proclama puede transformar sus relaciones internas. La doctrina de la gracia adquiere credibilidad cuando una comunidad deja de clasificar a las personas por utilidad, estatus o antecedentes y aprende a recibirlas según la obra que Cristo está realizando en ellas."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "joyas",
+      "order": 5,
+      "label": "Joyas del texto",
+      "sourceTitle": "THE MESSAGE — JOYAS DEL TEXTO",
+      "type": "lexicalCards",
+      "content": {
+        "cards": [
+          {
+            "range": "6",
+            "original": "“this faith we hold in common keeps showing up in the good things we do”",
+            "translation": "“esta fe que compartimos continúe haciéndose visible en las cosas buenas que hacemos”",
+            "explanation": "La fe compartida en Cristo está llamada a producir una participación activa en el bien. La NBLA fija la idea de una comunión de fe que se vuelve eficaz mediante el conocimiento de la obra de Cristo. MSG hace visible su dimensión práctica: aquello que creemos debe aparecer en la manera concreta en que actuamos. Esa imagen no reduce la fe a activismo, porque la NBLA mantiene su eficacia unida al conocimiento de lo bueno que hay en Cristo."
+          },
+          {
+            "range": "9",
+            "original": "“I’d rather make it a personal request.”",
+            "translation": "“prefiero hacértelo como una petición personal”",
+            "explanation": "La autoridad cristiana no necesita recurrir siempre a la imposición. La NBLA identifica el amor como la razón del ruego, mientras MSG vuelve palpable la decisión personal de Pablo de no imponer a Filemón una obediencia meramente externa. El texto no elimina la autoridad, pero la somete al carácter de Cristo."
+          },
+          {
+            "range": "11",
+            "original": "“He was useless to you before; now he’s useful to both of us.”",
+            "translation": "“Antes te era inútil; ahora nos es útil a los dos.”",
+            "explanation": "El Evangelio produce una transformación real que puede observarse en la vida y el servicio. Ambas versiones contrastan directamente lo inútil con lo útil. Sin embargo, el valor de Onésimo no debe reducirse a productividad: el resto de la carta muestra que su identidad principal es la de hijo y hermano."
+          },
+          {
+            "range": "16",
+            "original": "“no mere slave this time, but a true Christian brother!”",
+            "translation": "“ya no como un simple esclavo, sino como un verdadero hermano cristiano.”",
+            "explanation": "La pertenencia a Cristo altera radicalmente la manera de reconocer al otro. La NBLA conserva la tensión histórica: Onésimo regresa a una relación social existente, pero debe ser recibido como «más que un esclavo». MSG expresa pastoralmente la nueva realidad: delante de Filemón se encuentra un verdadero hermano cristiano."
+          },
+          {
+            "range": "18",
+            "original": "“If he damaged anything or owes you anything, chalk it up to my account.”",
+            "translation": "“Si te causó algún daño o te debe algo, cárgalo a mi cuenta.”",
+            "explanation": "La reconciliación tiene un costo concreto. Pablo no niega la posibilidad de una deuda, sino que se compromete personalmente con ella. La NBLA precisa que pudo existir perjuicio o deuda; MSG comunica con fuerza la decisión del mediador de asumirla. Este gesto ilumina el patrón del Evangelio sin convertir a Pablo en un sustituto idéntico a Cristo."
+          }
+        ]
+      }
+    },
+    {
+      "id": "conexiones",
+      "order": 6,
+      "label": "Conexiones",
+      "sourceTitle": "CONEXIONES BÍBLICAS",
+      "type": "connectionAccordion",
+      "content": {
+        "items": [
+          {
+            "reference": null,
+            "title": null,
+            "paragraphs": [
+              "Colosenses 4:7-9 presenta a Onésimo como «nuestro fiel y amado hermano» y lo relaciona con Tíquico. Esta descripción coincide con el nuevo lenguaje de Filemón: aquel que pudo haber sido conocido por su antigua posición ahora es presentado públicamente como hermano fiel y amado. La comunidad debe aprender a nombrarlo según la obra de Cristo."
+            ]
+          },
+          {
+            "reference": null,
+            "title": null,
+            "paragraphs": [
+              "Gálatas 3:26-28 declara que quienes han sido bautizados en Cristo se han revestido de Cristo y que las divisiones sociales ya no determinan su acceso a la familia de Dios. Filemón muestra cómo esa verdad doctrinal debe entrar en una casa concreta. Decir que esclavo y libre son uno en Cristo exige revisar la manera en que se reciben y se tratan mutuamente."
+            ]
+          },
+          {
+            "reference": null,
+            "title": null,
+            "paragraphs": [
+              "Segunda de Corintios 5:17-20 conecta la nueva creación con el ministerio de la reconciliación. Pablo describe allí a los creyentes como embajadores de Cristo; en Filemón actúa precisamente como un mediador que busca restaurar una relación rota. La reconciliación no se limita a anunciar una verdad: se convierte en una práctica que aproxima a quienes estaban separados."
+            ]
+          },
+          {
+            "reference": null,
+            "title": null,
+            "paragraphs": [
+              "Mateo 18:21-35 enseña que quien ha recibido misericordia no puede relacionarse con los demás como si nunca hubiera sido perdonado. Pablo recuerda delicadamente a Filemón que él también le debe su propia vida. No utiliza esa deuda para humillarlo, sino para ayudarlo a mirar a Onésimo desde la gracia que él mismo ha recibido."
+            ]
+          },
+          {
+            "reference": null,
+            "title": null,
+            "paragraphs": [
+              "El arco redentor completo apunta hacia una humanidad reconciliada en Cristo. El pecado produce dominio, deuda, separación y categorías que reducen al otro; el Evangelio forma una familia donde la verdad es enfrentada, el costo es asumido y las personas pueden ser recibidas con una dignidad nueva."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "jesus",
+      "order": 7,
+      "label": "Jesús en el capítulo",
+      "sourceTitle": "JESÚS EN EL TEXTO",
+      "type": "narrativeWithAnchor",
+      "content": {
+        "paragraphs": [
+          "Jesús es el centro de cada nueva identidad mencionada en la carta. Pablo está preso por Cristo, Filemón es colaborador en Cristo, Onésimo ha llegado a ser hijo y hermano en Cristo, y la comunidad debe tomar su decisión en Cristo. La reconciliación no nace de una preferencia humana, sino de la realidad compartida de pertenecer al mismo Señor.",
+          "La mediación de Pablo contiene un reflejo legítimo del Evangelio. Él pide que Onésimo sea recibido como si fuera él mismo y se ofrece a pagar cualquier deuda pendiente. Pablo no es el salvador de Onésimo ni su gesto equivale plenamente a la cruz, pero su conducta ha sido formada por Cristo, quien verdaderamente tomó nuestra deuda y abrió para nosotros un camino de regreso al Padre.",
+          "Jesús también aparece en la transformación de las relaciones de poder. Él no destruye a las personas mediante autoridad coercitiva, sino que llama, sirve, entrega su vida y forma una comunidad de hermanos. La carta conduce a Filemón a utilizar su posición no para reafirmar dominio, sino para expresar una gracia que restaura."
+        ],
+        "anchor": "En el Evangelio, Jesús cargó nuestra deuda, nos recibió como hermanos y creó una familia en la que nuestro pasado ya no tiene la última palabra."
+      }
+    },
+    {
+      "id": "ensenar",
+      "order": 8,
+      "label": "Para enseñar",
+      "sourceTitle": "ÁNGULOS PARA ENSEÑAR",
+      "type": "teachingBlocks",
+      "content": {
+        "blocks": [
+          {
+            "heading": "Ángulo 1 — Cuando el Evangelio entra en la casa",
+            "paragraphs": [
+              "La tensión principal consiste en que Filemón puede confesar a Cristo públicamente y, al mismo tiempo, enfrentar a Onésimo solamente desde las categorías de su cultura. El error humano es mantener una fe correcta en palabras mientras las relaciones privadas continúan gobernadas por poder, utilidad y resentimiento. La verdad de Dios es que el Evangelio redefine la identidad del otro. Este ángulo invita a enseñar que la conversión debe entrar en la familia, el trabajo, el liderazgo y las relaciones donde poseemos mayor autoridad."
+            ]
+          },
+          {
+            "heading": "Ángulo 2 — La reconciliación que acepta pagar",
+            "paragraphs": [
+              "Pablo no pide que Filemón ignore el daño ni que Onésimo sea excusado sin responsabilidad. Se ofrece a asumir la deuda para abrir un camino de restauración. El error humano consiste en hablar de reconciliación sin estar dispuesto a soportar ningún costo. La verdad de Dios es que la gracia no niega la justicia, sino que crea una salida mediante amor sacrificial. Pastoralmente, este ángulo permite mostrar que reconciliar implica escuchar, reconocer, reparar y, en ocasiones, absorber voluntariamente una pérdida."
+            ]
+          },
+          {
+            "heading": "Ilustración contemporánea",
+            "paragraphs": [
+              "Una persona puede regresar a una empresa, una familia o una comunidad después de haber fallado. Todos conocen su error y siguen llamándola por lo que hizo. Un líder respetado decide acompañarla, responder por el proceso y pedir que sea evaluada también por la transformación que está mostrando. La tensión aparece cuando la comunidad debe escoger entre conservar una etiqueta segura o abrir espacio para una historia redimida."
+            ]
+          },
+          {
+            "heading": "La pregunta a la iglesia",
+            "paragraphs": [
+              "¿Somos una comunidad donde las personas pueden recibir una identidad nueva en Cristo, o seguimos encerrándolas para siempre en su fracaso, su posición social, su pasado o la utilidad que representan para nosotros?"
+            ]
+          },
+          {
+            "heading": "Peligro de interpretación",
+            "paragraphs": [
+              "Filemón no debe utilizarse para justificar la esclavitud, la opresión ni la exigencia de que una persona vulnerable regrese sin protección a una relación abusiva. Tampoco debe reducirse a un manifiesto político que ignore su propósito pastoral. El texto revela cómo el Evangelio introduce una fraternidad nueva que confronta las relaciones de dominio, exige responsabilidad y abre un camino concreto hacia la reconciliación."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "responder",
+      "order": 9,
+      "label": "Para responder",
+      "sourceTitle": "PREGUNTAS DE REFLEXIÓN",
+      "type": "reflectionQuestions",
+      "content": {
+        "questions": [
+          {
+            "label": "Pregunta 1",
+            "text": "¿A quién continúo definiendo por su peor momento, aunque Cristo ya esté produciendo una historia nueva en esa persona?"
+          },
+          {
+            "label": "Pregunta 2",
+            "text": "En mi liderazgo, ¿utilizo mi autoridad para obtener obediencia rápida o acompaño a las personas para que respondan libremente desde el amor y la convicción?"
+          },
+          {
+            "label": "Pregunta 3",
+            "text": "¿En qué relación afirmo creer en la gracia mientras sigo actuando desde el resentimiento, la superioridad o la necesidad de controlar?"
+          },
+          {
+            "label": "Pregunta 4",
+            "text": "¿Existe alguna deuda, conversación o reparación concreta que necesito enfrentar para que una reconciliación deje de ser solamente una buena intención?"
+          },
+          {
+            "label": "Pregunta 5",
+            "text": "¿Qué etiqueta, derecho o posición debo rendir delante de Cristo para poder recibir al otro verdaderamente como hermano?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "llevar",
+      "order": 10,
+      "label": "Para llevar",
+      "sourceTitle": "UNA FRASE PARA LLEVAR",
+      "type": "closingQuote",
+      "content": {
+        "quote": "Así que, si todavía me consideras un compañero de lucha, recíbelo como me recibirías a mí.",
+        "reference": "FILEMÓN 1",
+        "reflection": [
+          "Esta frase concentra el corazón de la carta porque obliga a Filemón a mirar a Onésimo desde una relación nueva. Pablo no le pide tolerancia distante, sino una recepción digna del vínculo que ambos tienen con él. El Evangelio nos lleva más allá de permitir que alguien vuelva: nos enseña a abrirle un lugar en la mesa. Tomar en serio esta frase significa dejar de tratar a las personas únicamente según sus deudas, errores o categorías sociales. Cristo nos recibió cuando no podíamos pagar lo que debíamos; ahora su gracia debe hacerse visible en la manera en que recibimos a los demás."
+        ]
+      }
+    }
+  ]
+}
