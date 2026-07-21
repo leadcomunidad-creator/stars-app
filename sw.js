@@ -1,96 +1,118 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v7
-   Shell: Network-first (actualización automática)
-   JSON dinámicos: Network-first (sin cache agresivo)
+   S · T · A · R · S · Service Worker v8
+   Activación inmediata y actualización al abrir la PWA
+   JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v7';
+const CACHE_NAME = 'stars-v8';
 const SHELL_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/logo.png',
-  '/icons/stars-favicon.png',
-  '/icons/apple-touch-icon.png',
-  '/icons/icon-192.png',
-  '/icons/icon-512.png',
-  '/icons/icon-maskable-192.png',
-  '/icons/icon-maskable-512.png'
+  '/logo-v2.png',
+  '/icons/stars-favicon-v2.png',
+  '/icons/apple-touch-icon-v2.png',
+  '/icons/icon-192-v2.png',
+  '/icons/icon-512-v2.png',
+  '/icons/icon-maskable-192-v2.png',
+  '/icons/icon-maskable-512-v2.png'
 ];
 
-// INSTALL — precache del shell
-self.addEventListener('install', e => {
-  self.skipWaiting();
-  e.waitUntil(
-    caches.open(CACHE_NAME).then(c => c.addAll(SHELL_FILES))
+// INSTALL — precache del shell y activación inmediata.
+self.addEventListener('install', event => {
+  event.waitUntil(
+    Promise.all([
+      self.skipWaiting(),
+      caches.open(CACHE_NAME).then(cache => cache.addAll(SHELL_FILES))
+    ])
   );
 });
 
-// ACTIVATE — eliminar caches viejos y tomar control inmediato
-self.addEventListener('activate', e => {
-  e.waitUntil(
-    caches.keys()
-      .then(keys => Promise.all(
-        keys.filter(k => k !== CACHE_NAME).map(k => {
-          console.log('[SW] Eliminando cache viejo:', k);
-          return caches.delete(k);
-        })
-      ))
-      .then(() => self.clients.claim())
+// ACTIVATE — eliminar cachés anteriores y tomar control de todas las ventanas.
+self.addEventListener('activate', event => {
+  event.waitUntil(
+    (async () => {
+      const keys = await caches.keys();
+      await Promise.all(
+        keys
+          .filter(key => key !== CACHE_NAME)
+          .map(key => caches.delete(key))
+      );
+      await self.clients.claim();
+    })()
   );
 });
 
 // FETCH
-self.addEventListener('fetch', e => {
-  const url = new URL(e.request.url);
+self.addEventListener('fetch', event => {
+  const url = new URL(event.request.url);
 
-  // Las funciones serverless reciben POST; no se deben guardar en cache.
-  if (e.request.method !== 'GET') {
-    e.respondWith(fetch(e.request));
+  // Ignorar solicitudes internas de extensiones y otros esquemas no HTTP(S).
+  if(url.protocol !== 'http:' && url.protocol !== 'https:'){
     return;
   }
 
-  // ── JSONs dinámicos → NETWORK FIRST ──
-  if (
+  // Las funciones serverless reciben POST; nunca se guardan en caché.
+  if(event.request.method !== 'GET'){
+    event.respondWith(fetch(event.request));
+    return;
+  }
+
+  // JSON dinámicos → NETWORK FIRST.
+  if(
     url.pathname.startsWith('/devocionales/') ||
     url.pathname.startsWith('/estudios/')
-  ) {
-    e.respondWith(
-      fetch(e.request.clone(), { cache: 'no-store' })
-        .then(res => {
-          const contentType = res.headers.get('content-type') || '';
-          if (res && res.status === 200 && contentType.includes('application/json')) {
-            const clone = res.clone();
-            caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+  ){
+    event.respondWith(
+      fetch(event.request.clone(), { cache: 'no-store' })
+        .then(response => {
+          const contentType = response.headers.get('content-type') || '';
+          if(response.status === 200 && contentType.includes('application/json')){
+            const clone = response.clone();
+            event.waitUntil(
+              caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone))
+            );
           }
-          return res;
+          return response;
         })
-        .catch(() =>
-          caches.match(e.request).then(cached =>
-            cached || new Response(JSON.stringify({ error: 'offline' }), {
-              headers: { 'Content-Type': 'application/json' }
-            })
-          )
-        )
+        .catch(async () => {
+          const cached = await caches.match(event.request);
+          return cached || new Response(JSON.stringify({ error: 'offline' }), {
+            status: 503,
+            headers: { 'Content-Type': 'application/json' }
+          });
+        })
     );
     return;
   }
 
-  // ── Shell (HTML, manifest, iconos, logo) → NETWORK FIRST con fallback ──
-  // Siempre intenta red primero; si falla (offline) sirve cache
-  e.respondWith(
-    fetch(e.request.clone())
-      .then(res => {
-        if (res && res.status === 200 && res.type !== 'opaque') {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+  // Shell → NETWORK FIRST y sin reutilizar la caché HTTP del navegador.
+  event.respondWith(
+    fetch(event.request.clone(), { cache: 'no-store' })
+      .then(response => {
+        if(response.status === 200 && response.type !== 'opaque'){
+          const clone = response.clone();
+          event.waitUntil(
+            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone))
+          );
         }
-        return res;
+        return response;
       })
-      .catch(() => caches.match(e.request))
+      .catch(async () => {
+        const cached = await caches.match(event.request);
+        if(cached) return cached;
+
+        if(event.request.mode === 'navigate'){
+          return caches.match('/index.html');
+        }
+        return Response.error();
+      })
   );
 });
 
-// MENSAJE desde la app → forzar actualización
-self.addEventListener('message', e => {
-  if (e.data === 'SKIP_WAITING') self.skipWaiting();
+// Mensaje desde la app → activar inmediatamente un worker en espera.
+self.addEventListener('message', event => {
+  const data = event.data;
+  if(data === 'SKIP_WAITING' || data?.type === 'SKIP_WAITING'){
+    event.waitUntil(self.skipWaiting());
+  }
 });
