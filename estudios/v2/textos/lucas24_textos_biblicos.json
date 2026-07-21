@@ -1,0 +1,960 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La resurrección revela que Jesús pertenece definitivamente al ámbito de la vida, no al dominio de la muerte. La NBLA fija el contraste entre «los muertos» y «el que vive»; MSG lo vuelve visible mediante la imagen absurda de buscar al Viviente en un cementerio. La imagen comunica la inversión pascual, pero la conclusión teológica descansa en la afirmación concreta del texto: Jesús no está allí porque ha resucitado.",
+      "id": "lucas24-joya-01",
+      "msg": {
+        "en": "\"Why are you looking for the Living One in a cemetery?\"",
+        "es": "\"¿Por qué buscan al Viviente en un cementerio?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-05b"
+          ],
+          "verseId": "lucas24-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "4-8"
+    },
+    {
+      "explanation": "El camino de la gloria mesiánica pasa por el sufrimiento conforme al propósito de Dios. La NBLA conserva la necesidad teológica del padecimiento; MSG hace más visible la secuencia que los discípulos no podían aceptar: sufrimiento y luego gloria. El texto no enseña que todo sufrimiento humano produzca automáticamente exaltación, sino que interpreta específicamente la misión redentora del Mesías.",
+      "id": "lucas24-joya-02",
+      "msg": {
+        "en": "\"the Messiah had to suffer and only then enter into his glory\"",
+        "es": "\"el Mesías debía sufrir y solo entonces entrar en su gloria\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-26b"
+          ],
+          "verseId": "lucas24-nbla-26"
+        }
+      ],
+      "order": 2,
+      "range": "25-27"
+    },
+    {
+      "explanation": "La hospitalidad abre un espacio donde los discípulos reconocen la presencia de Jesús. La NBLA fija la petición sencilla de permanencia; MSG concreta esa invitación alrededor de la mesa. La escena no convierte una fórmula de hospitalidad en mecanismo para producir apariciones, pero muestra que Cristo se da a conocer en una relación recibida, una mesa compartida y un corazón dispuesto a seguir escuchando.",
+      "id": "lucas24-joya-03",
+      "msg": {
+        "en": "\"Stay and have supper with us.\"",
+        "es": "\"Quédate y cena con nosotros.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-29b"
+          ],
+          "verseId": "lucas24-nbla-29"
+        }
+      ],
+      "order": 3,
+      "range": "28-31"
+    },
+    {
+      "explanation": "Cristo resucitado transforma la comprensión mediante una lectura de las Escrituras centrada en el propósito de Dios. La NBLA establece que el corazón ardía mientras Jesús hablaba y abría el texto; MSG conserva esa fuerza y la vuelve conversacional. El ardor no debe separarse de la verdad bíblica ni convertirse en criterio autónomo de interpretación: nace del encuentro entre la Palabra explicada y la presencia del Señor.",
+      "id": "lucas24-joya-04",
+      "msg": {
+        "en": "\"Didn’t we feel on fire as he conversed with us on the road, as he opened up the Scriptures for us?\"",
+        "es": "\"¿No sentíamos el corazón ardiendo mientras conversaba con nosotros en el camino y nos abría las Escrituras?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-32b"
+          ],
+          "verseId": "lucas24-nbla-32"
+        }
+      ],
+      "order": 4,
+      "range": "32"
+    },
+    {
+      "explanation": "La primera palabra del Resucitado para la comunidad asustada es paz. La NBLA y MSG coinciden en el contenido: Jesús no llega para castigar a discípulos que huyeron, dudaron o no creyeron, sino para reunirlos y conducirlos a la fe. Esta paz no elimina la verdad de las heridas ni la necesidad de corregir la incredulidad; surge de la victoria de Cristo y restaura la relación con él.",
+      "id": "lucas24-joya-05",
+      "msg": {
+        "en": "\"Peace be with you.\"",
+        "es": "\"Paz a ustedes\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-36b"
+          ],
+          "verseId": "lucas24-nbla-36"
+        }
+      ],
+      "order": 5,
+      "range": "36-41"
+    },
+    {
+      "explanation": "La resurrección convierte a los discípulos en testigos de un acontecimiento que deben anunciar. La NBLA delimita el testimonio a «estas cosas»: la muerte, resurrección y apertura del perdón en el nombre de Jesús. MSG concentra la identidad que nace de esa experiencia. Ser testigo no significa ofrecer opiniones religiosas privadas, sino dar cuenta fiel de lo que Dios realizó en Cristo.",
+      "id": "lucas24-joya-06",
+      "msg": {
+        "en": "\"You’re the witnesses.\"",
+        "es": "\"Ustedes son los testigos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-48"
+        }
+      ],
+      "order": 6,
+      "range": "45-49"
+    },
+    {
+      "explanation": "La misión de la iglesia depende de la capacitación divina. La NBLA utiliza la imagen de ser investidos, mientras MSG expresa la misma verdad como recibir el equipo necesario. La metáfora pastoral no reduce al Espíritu a una herramienta ni a una capacidad impersonal; el contexto apunta a la promesa del Padre que será desarrollada en Hechos como la presencia y el poder del Espíritu Santo.",
+      "id": "lucas24-joya-07",
+      "msg": {
+        "en": "\"until you’re equipped with power from on high.\"",
+        "es": "\"hasta que sean equipados con poder de lo alto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-49b"
+          ],
+          "verseId": "lucas24-nbla-49"
+        }
+      ],
+      "order": 7,
+      "range": "45-49"
+    }
+  ],
+  "meta": {
+    "book": "Lucas",
+    "bookId": "lucas",
+    "chapter": 24,
+    "studyId": "lucas-24"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "lucas24-msg-01",
+      "msg": {
+        "en": "At the crack of dawn on Sunday, the women came to the tomb carrying the burial spices they had prepared. They found the entrance stone rolled back from the tomb, so they walked in. But once inside, they couldn’t find the body of the Master Jesus.",
+        "es": "Al despuntar el domingo, las mujeres fueron al sepulcro llevando las especias aromáticas que habían preparado. Encontraron que la piedra de la entrada había sido removida, así que entraron. Pero una vez dentro, no encontraron el cuerpo del Maestro Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-8",
+      "id": "lucas24-msg-02",
+      "msg": {
+        "en": "They were puzzled, wondering what to make of this. Then, out of nowhere it seemed, two men, light cascading over them, stood there. The women were awestruck and bowed down in worship. The men said, “Why are you looking for the Living One in a cemetery? He is not here, but raised up. Remember how he told you when you were still back in Galilee that he had to be handed over to sinners, be killed on a cross, and in three days rise up?” Then they remembered Jesus’ words.",
+        "es": "Estaban desconcertadas, sin saber qué pensar. Entonces, como aparecidos de la nada, dos hombres se pusieron junto a ellas, bañados en luz. Las mujeres quedaron sobrecogidas y se inclinaron en adoración. Los hombres dijeron: «¿Por qué buscan al Viviente en un cementerio? No está aquí; ha resucitado. Recuerden lo que les dijo cuando todavía estaban en Galilea: que tenía que ser entregado a pecadores, morir en una cruz y resucitar al tercer día». Entonces recordaron las palabras de Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "lucas24-msg-03",
+      "msg": {
+        "en": "They left the tomb and broke the news of all this to the Eleven and the rest. Mary Magdalene, Joanna, Mary the mother of James, and the other women with them kept telling these things to the apostles, but the apostles didn’t believe a word of it, thought they were making it all up.",
+        "es": "Salieron del sepulcro y llevaron la noticia a los Once y a todos los demás. María Magdalena, Juana, María la madre de Jacobo y las otras mujeres que estaban con ellas seguían contándoles estas cosas a los apóstoles, pero ellos no creyeron ni una palabra; pensaron que se lo estaban inventando todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12",
+      "id": "lucas24-msg-04",
+      "msg": {
+        "en": "But Peter jumped to his feet and ran to the tomb. He stooped to look in and saw a few grave clothes, that’s all. He walked away puzzled, shaking his head.",
+        "es": "Pero Pedro se puso de pie de un salto y corrió al sepulcro. Se inclinó para mirar y solo vio unas pocas telas funerarias. Se fue desconcertado, sacudiendo la cabeza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-12"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "13-16",
+      "id": "lucas24-msg-05",
+      "msg": {
+        "en": "That same day two of them were walking to the village Emmaus, about seven miles out of Jerusalem. They were deep in conversation, going over all these things that had happened. In the middle of their talk and questions, Jesus came up and walked along with them. But they were not able to recognize who he was.",
+        "es": "Ese mismo día, dos de ellos caminaban hacia la aldea de Emaús, a unos once kilómetros de Jerusalén. Iban enfrascados en la conversación, repasando todo lo que había sucedido. En medio de sus palabras y preguntas, Jesús se acercó y comenzó a caminar con ellos. Pero no podían reconocer quién era."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "lucas24-msg-06",
+      "msg": {
+        "en": "He asked, “What’s this you’re discussing so intently as you walk along?” They just stood there, long-faced, like they had lost their best friend. Then one of them, his name was Cleopas, said, “Are you the only one in Jerusalem who hasn’t heard what’s happened during the last few days?”",
+        "es": "Él les preguntó: «¿Qué es eso que van discutiendo con tanta intensidad mientras caminan?». Ellos se detuvieron, con el rostro abatido, como quienes han perdido a su mejor amigo. Entonces uno de ellos, llamado Cleofas, dijo: «¿Eres el único en Jerusalén que no se ha enterado de lo ocurrido en estos últimos días?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-18"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "19-24",
+      "id": "lucas24-msg-07",
+      "msg": {
+        "en": "He said, “What has happened?”\nThey said, “The things that happened to Jesus the Nazarene. He was a man of God, a prophet, dynamic in work and word, blessed by both God and all the people. Then our high priests and leaders betrayed him, got him sentenced to death, and crucified him. And we had our hopes up that he was the One, the One about to deliver Israel. And it is now the third day since it happened. But now some of our women have completely confused us. Early this morning they were at the tomb and couldn’t find his body. They came back with the story that they had seen a vision of angels who said he was alive. Some of our friends went off to the tomb to check and found it empty just as the women said, but they didn’t see Jesus.”",
+        "es": "Él preguntó: «¿Qué ocurrió?». Ellos respondieron: «Lo que le sucedió a Jesús el Nazareno. Era un hombre de Dios, un profeta poderoso en obras y palabras, bendecido por Dios y por todo el pueblo. Pero nuestros principales sacerdotes y dirigentes lo traicionaron, consiguieron que lo condenaran a muerte y lo crucificaron. Nosotros teníamos la esperanza de que él fuera el indicado, el que iba a liberar a Israel. Y ya es el tercer día desde que todo sucedió. Pero ahora algunas mujeres de nuestro grupo nos han dejado completamente confundidos. Fueron al sepulcro muy temprano y no encontraron su cuerpo. Regresaron diciendo que habían visto una visión de ángeles que aseguraban que estaba vivo. Algunos de nuestros amigos corrieron al sepulcro para comprobarlo y lo encontraron vacío, tal como dijeron las mujeres, pero no vieron a Jesús»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-24"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "lucas24-msg-08",
+      "msg": {
+        "en": "Then he said to them, “So thick-headed! So slow-hearted! Why can’t you simply believe all that the prophets said? Don’t you see that these things had to happen, that the Messiah had to suffer and only then enter into his glory?” Then he started at the beginning, with the Books of Moses, and went on through all the Prophets, pointing out everything in the Scriptures that referred to him.",
+        "es": "Entonces les dijo: «¡Qué cabeza tan dura! ¡Qué corazón tan lento! ¿Por qué no pueden creer sencillamente todo lo que dijeron los profetas? ¿No ven que estas cosas tenían que suceder, que el Mesías debía sufrir y solo entonces entrar en su gloria?». Luego comenzó desde el principio, con los libros de Moisés, y continuó por todos los Profetas, señalándoles todo lo que las Escrituras decían acerca de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-27"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "lucas24-msg-09",
+      "msg": {
+        "en": "They came to the edge of the village where they were headed. He acted as if he were going on but they pressed him: “Stay and have supper with us. It’s nearly evening; the day is done.” So he went in with them. And here is what happened: He sat down at the table with them. Taking the bread, he blessed and broke and gave it to them. At that moment, open-eyed, wide-eyed, they recognized him. And then he disappeared.",
+        "es": "Llegaron a las afueras de la aldea hacia la que se dirigían. Él hizo como si fuera a continuar, pero ellos insistieron: «Quédate y cena con nosotros. Ya casi anochece; el día ha terminado». Así que entró con ellos. Y esto fue lo que ocurrió: se sentó a la mesa, tomó el pan, lo bendijo, lo partió y se lo dio. En ese instante se les abrieron los ojos de par en par y lo reconocieron. Entonces él desapareció."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-31"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "32",
+      "id": "lucas24-msg-10",
+      "msg": {
+        "en": "Back and forth they talked. “Didn’t we feel on fire as he conversed with us on the road, as he opened up the Scriptures for us?”",
+        "es": "No paraban de comentarlo entre ellos: «¿No sentíamos el corazón ardiendo mientras conversaba con nosotros en el camino y nos abría las Escrituras?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-32"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "33-34",
+      "id": "lucas24-msg-11",
+      "msg": {
+        "en": "They didn’t waste a minute. They were up and on their way back to Jerusalem. They found the Eleven and their friends gathered together, talking away: “It’s really happened! The Master has been raised up—Simon saw him!”",
+        "es": "No perdieron ni un minuto. Se levantaron y regresaron a Jerusalén. Encontraron reunidos a los Once y a sus amigos, que no paraban de hablar: «¡Realmente sucedió! El Maestro ha resucitado: ¡Simón lo vio!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-34"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "35",
+      "id": "lucas24-msg-12",
+      "msg": {
+        "en": "Then the two went over everything that happened on the road and how they recognized him when he broke the bread.",
+        "es": "Entonces los dos contaron todo lo ocurrido en el camino y cómo lo reconocieron cuando partió el pan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-35"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "36-41",
+      "id": "lucas24-msg-13",
+      "msg": {
+        "en": "While they were saying all this, Jesus appeared to them and said, “Peace be with you.” They thought they were seeing a ghost and were scared half to death. He continued with them, “Don’t be upset, and don’t let all these doubting questions take over. Look at my hands; look at my feet—it’s really me. Touch me. Look me over from head to toe. A ghost doesn’t have muscle and bone like this.” As he said this, he showed them his hands and feet. They still couldn’t believe what they were seeing. It was too much; it seemed too good to be true.",
+        "es": "Mientras contaban todo esto, Jesús apareció en medio de ellos y dijo: «Paz a ustedes». Pensaron que estaban viendo un fantasma y casi murieron del susto. Él continuó: «No se alteren ni permitan que todas esas preguntas llenas de duda se apoderen de ustedes. Miren mis manos; miren mis pies: realmente soy yo. Tóquenme. Examínenme de la cabeza a los pies. Un fantasma no tiene músculos ni huesos como estos». Mientras decía esto, les mostró las manos y los pies. Ellos todavía no podían creer lo que veían. Era demasiado; parecía demasiado bueno para ser verdad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-40"
+        },
+        {
+          "clauseIds": [
+            "lucas24-nbla-41a"
+          ],
+          "verseId": "lucas24-nbla-41"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "41-43",
+      "id": "lucas24-msg-14",
+      "msg": {
+        "en": "He asked, “Do you have any food here?” They gave him a piece of leftover fish they had cooked. He took it and ate it right before their eyes.",
+        "es": "Él preguntó: «¿Tienen algo de comer aquí?». Le dieron un trozo de pescado cocido que les había sobrado. Él lo tomó y se lo comió ante sus propios ojos."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "lucas24-nbla-41b"
+          ],
+          "verseId": "lucas24-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-43"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "44",
+      "id": "lucas24-msg-15",
+      "msg": {
+        "en": "Then he said, “Everything I told you while I was with you comes to this: All the things written about me in the Law of Moses, in the Prophets, and in the Psalms have to be fulfilled.”",
+        "es": "Entonces dijo: «Todo lo que les dije mientras estaba con ustedes desemboca en esto: todo lo escrito acerca de mí en la Ley de Moisés, en los Profetas y en los Salmos tenía que cumplirse»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-44"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "45-49",
+      "id": "lucas24-msg-16",
+      "msg": {
+        "en": "He went on to open their understanding of the Word of God, showing them how to read their Bibles this way. He said, “You can see now how it is written that the Messiah suffers, rises from the dead on the third day, and then a total life-change through the forgiveness of sins is proclaimed in his name to all nations—starting from here, from Jerusalem! You’re the first to hear and see it. You’re the witnesses. What comes next is very important: I am sending what my Father promised to you, so stay here in the city until he arrives, until you’re equipped with power from on high.”",
+        "es": "Luego les abrió el entendimiento para comprender la Palabra de Dios y les mostró cómo leer las Escrituras de esta manera. Dijo: «Ahora pueden ver que está escrito que el Mesías sufre, resucita de entre los muertos al tercer día y que, en su nombre, se proclama a todas las naciones un cambio total de vida por medio del perdón de los pecados, comenzando aquí mismo, en Jerusalén. Ustedes son los primeros en oírlo y verlo. Ustedes son los testigos. Lo que viene ahora es muy importante: voy a enviarles lo que mi Padre prometió. Permanezcan en la ciudad hasta que él llegue, hasta que sean equipados con poder de lo alto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-49"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "50-51",
+      "id": "lucas24-msg-17",
+      "msg": {
+        "en": "He then led them out of the city over to Bethany. Raising his hands he blessed them, and while blessing them, took his leave, being carried up to heaven.",
+        "es": "Después los condujo fuera de la ciudad, hasta Betania. Levantó las manos y los bendijo; y mientras los bendecía, se despidió de ellos y fue llevado al cielo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-51"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "52-53",
+      "id": "lucas24-msg-18",
+      "msg": {
+        "en": "And they were on their knees, worshiping him. They returned to Jerusalem bursting with joy. They spent all their time in the Temple praising God.\nYes.",
+        "es": "Ellos cayeron de rodillas y lo adoraron. Regresaron a Jerusalén desbordantes de alegría. Pasaban todo el tiempo en el Templo alabando a Dios. Sí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "lucas24-nbla-52"
+        },
+        {
+          "clauseIds": [
+            "lucas24-nbla-53a"
+          ],
+          "verseId": "lucas24-nbla-53"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "lucas24-nbla-01",
+      "number": 1,
+      "text": "Pero el primer día de la semana, al rayar el alba, las mujeres vinieron al sepulcro trayendo las especias aromáticas que habían preparado."
+    },
+    {
+      "id": "lucas24-nbla-02",
+      "number": 2,
+      "text": "Encontraron que la piedra había sido removida del sepulcro,"
+    },
+    {
+      "id": "lucas24-nbla-03",
+      "number": 3,
+      "text": "y cuando entraron, no hallaron el cuerpo del Señor Jesús."
+    },
+    {
+      "id": "lucas24-nbla-04",
+      "number": 4,
+      "text": "Aconteció que estando ellas perplejas por esto, de pronto se pusieron junto a ellas dos varones en vestiduras resplandecientes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-05a",
+          "order": 1,
+          "text": "Estando ellas aterrorizadas e inclinados sus rostros a tierra, ellos les dijeron: «"
+        },
+        {
+          "id": "lucas24-nbla-05b",
+          "order": 2,
+          "text": "¿Por qué buscan entre los muertos al que vive?"
+        }
+      ],
+      "id": "lucas24-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "lucas24-nbla-06",
+      "number": 6,
+      "text": "No está aquí, sino que ha resucitado. Acuérdense cómo les habló cuando estaba aún en Galilea,"
+    },
+    {
+      "id": "lucas24-nbla-07",
+      "number": 7,
+      "text": "diciendo que el Hijo del Hombre debía ser entregado en manos de hombres pecadores, y ser crucificado, y al tercer día resucitar»."
+    },
+    {
+      "id": "lucas24-nbla-08",
+      "number": 8,
+      "text": "Entonces ellas se acordaron de Sus palabras,"
+    },
+    {
+      "id": "lucas24-nbla-09",
+      "number": 9,
+      "text": "y regresando del sepulcro, anunciaron todas estas cosas a los once apóstoles y a todos los demás."
+    },
+    {
+      "id": "lucas24-nbla-10",
+      "number": 10,
+      "text": "Eran María Magdalena y Juana y María, la madre de Jacobo. También las demás mujeres con ellas decían estas cosas a los apóstoles."
+    },
+    {
+      "id": "lucas24-nbla-11",
+      "number": 11,
+      "text": "A ellos estas palabras les parecieron como disparates, y no las creyeron."
+    },
+    {
+      "id": "lucas24-nbla-12",
+      "number": 12,
+      "text": "Pero Pedro se levantó y corrió al sepulcro. Inclinándose para mirar adentro, vio* solo las envolturas de lino, y se fue a su casa maravillado de lo que había acontecido."
+    },
+    {
+      "id": "lucas24-nbla-13",
+      "number": 13,
+      "text": "Aquel mismo día dos de los discípulos iban a una aldea llamada Emaús, que estaba como a once kilómetros de Jerusalén."
+    },
+    {
+      "id": "lucas24-nbla-14",
+      "number": 14,
+      "text": "Conversaban entre sí acerca de todas estas cosas que habían acontecido."
+    },
+    {
+      "id": "lucas24-nbla-15",
+      "number": 15,
+      "text": "Y mientras conversaban y discutían, Jesús mismo se acercó y caminaba con ellos."
+    },
+    {
+      "id": "lucas24-nbla-16",
+      "number": 16,
+      "text": "Pero sus ojos estaban velados para que no lo reconocieran."
+    },
+    {
+      "id": "lucas24-nbla-17",
+      "number": 17,
+      "text": "Y Él les dijo: «¿Qué discusiones son estas que tienen entre ustedes mientras van andando?». Y ellos se detuvieron, con semblante triste."
+    },
+    {
+      "id": "lucas24-nbla-18",
+      "number": 18,
+      "text": "Uno de ellos, llamado Cleofas, le dijo: «¿Eres Tú el único visitante en Jerusalén que no sabe las cosas que en ella han acontecido en estos días?»."
+    },
+    {
+      "id": "lucas24-nbla-19",
+      "number": 19,
+      "text": "«¿Qué cosas?», les preguntó Jesús. Y ellos le dijeron: «Las referentes a Jesús el Nazareno, que fue un profeta poderoso en obra y en palabra delante de Dios y de todo el pueblo;"
+    },
+    {
+      "id": "lucas24-nbla-20",
+      "number": 20,
+      "text": "y cómo los principales sacerdotes y nuestros gobernantes lo entregaron a sentencia de muerte y lo crucificaron."
+    },
+    {
+      "id": "lucas24-nbla-21",
+      "number": 21,
+      "text": "Pero nosotros esperábamos que Él era el que iba a redimir a Israel. Además de todo esto, este es el tercer día desde que estas cosas acontecieron."
+    },
+    {
+      "id": "lucas24-nbla-22",
+      "number": 22,
+      "text": "Y también algunas mujeres de entre nosotros nos asombraron; pues cuando fueron de madrugada al sepulcro,"
+    },
+    {
+      "id": "lucas24-nbla-23",
+      "number": 23,
+      "text": "y al no hallar Su cuerpo, vinieron diciendo que también habían visto una aparición de ángeles que decían que Él vivía."
+    },
+    {
+      "id": "lucas24-nbla-24",
+      "number": 24,
+      "text": "Algunos de los que estaban con nosotros fueron al sepulcro, y lo hallaron tal como también las mujeres habían dicho; pero a Él no lo vieron»."
+    },
+    {
+      "id": "lucas24-nbla-25",
+      "number": 25,
+      "text": "Entonces Jesús les dijo: «¡Oh insensatos y tardos de corazón para creer todo lo que los profetas han dicho!"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-26a",
+          "order": 1,
+          "text": "¿No"
+        },
+        {
+          "id": "lucas24-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "era necesario que el Cristo padeciera todas estas cosas y entrara en Su gloria"
+        },
+        {
+          "id": "lucas24-nbla-26c",
+          "order": 3,
+          "text": "?»."
+        }
+      ],
+      "id": "lucas24-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "lucas24-nbla-27",
+      "number": 27,
+      "text": "Comenzando por Moisés y continuando con todos los profetas, les explicó lo referente a Él en todas las Escrituras."
+    },
+    {
+      "id": "lucas24-nbla-28",
+      "number": 28,
+      "text": "Se acercaron a la aldea adonde iban, y Él hizo como que iba más lejos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-29a",
+          "order": 1,
+          "text": "Y ellos le insistieron, diciendo: «"
+        },
+        {
+          "id": "lucas24-nbla-29b",
+          "order": 2,
+          "text": "Quédate con nosotros"
+        },
+        {
+          "id": "lucas24-nbla-29c",
+          "order": 3,
+          "text": ", porque está atardeciendo, y el día ya ha declinado». Y entró a quedarse con ellos."
+        }
+      ],
+      "id": "lucas24-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "lucas24-nbla-30",
+      "number": 30,
+      "text": "Al sentarse a la mesa con ellos, Jesús tomó pan, y lo bendijo; y partiéndolo, les dio."
+    },
+    {
+      "id": "lucas24-nbla-31",
+      "number": 31,
+      "text": "Entonces les fueron abiertos los ojos y lo reconocieron; pero Él desapareció de la presencia de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-32a",
+          "order": 1,
+          "text": "Y se dijeron el uno al otro: «"
+        },
+        {
+          "id": "lucas24-nbla-32b",
+          "order": 2,
+          "text": "¿No ardía nuestro corazón dentro de nosotros mientras nos hablaba en el camino, cuando nos abría las Escrituras?"
+        },
+        {
+          "id": "lucas24-nbla-32c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas24-nbla-32",
+      "number": 32
+    },
+    {
+      "id": "lucas24-nbla-33",
+      "number": 33,
+      "text": "Levantándose en esa misma hora, regresaron a Jerusalén, y hallaron reunidos a los once apóstoles y a los que estaban con ellos,"
+    },
+    {
+      "id": "lucas24-nbla-34",
+      "number": 34,
+      "text": "que decían: «Es verdad que el Señor ha resucitado y se ha aparecido a Simón»."
+    },
+    {
+      "id": "lucas24-nbla-35",
+      "number": 35,
+      "text": "Y ellos contaban sus experiencias en el camino, y cómo lo habían reconocido al partir el pan."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-36a",
+          "order": 1,
+          "text": "Mientras ellos relataban estas cosas, Jesús se puso en medio de ellos, y les dijo: «"
+        },
+        {
+          "id": "lucas24-nbla-36b",
+          "order": 2,
+          "text": "Paz a ustedes"
+        },
+        {
+          "id": "lucas24-nbla-36c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas24-nbla-36",
+      "number": 36
+    },
+    {
+      "id": "lucas24-nbla-37",
+      "number": 37,
+      "text": "Pero ellos, aterrorizados y asustados, pensaron que veían un espíritu."
+    },
+    {
+      "id": "lucas24-nbla-38",
+      "number": 38,
+      "text": "Y Él les dijo: «¿Por qué están turbados, y por qué surgen dudas en sus corazones?"
+    },
+    {
+      "id": "lucas24-nbla-39",
+      "number": 39,
+      "text": "Miren Mis manos y Mis pies, que Yo mismo soy; tóquenme y vean, porque un espíritu no tiene carne ni huesos como ustedes ven que Yo tengo»."
+    },
+    {
+      "id": "lucas24-nbla-40",
+      "number": 40,
+      "text": "Cuando dijo esto, les mostró las manos y los pies."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-41a",
+          "order": 1,
+          "text": "Como ellos todavía no lo creían a causa de la alegría y porque estaban asombrados,"
+        },
+        {
+          "id": "lucas24-nbla-41b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les dijo: «¿Tienen aquí algo de comer?»."
+        }
+      ],
+      "id": "lucas24-nbla-41",
+      "number": 41
+    },
+    {
+      "id": "lucas24-nbla-42",
+      "number": 42,
+      "text": "Ellos le presentaron parte de un pescado asado,"
+    },
+    {
+      "id": "lucas24-nbla-43",
+      "number": 43,
+      "text": "y Él lo tomó en las manos y comió delante de ellos."
+    },
+    {
+      "id": "lucas24-nbla-44",
+      "number": 44,
+      "text": "Después Jesús les dijo: «Esto es lo que Yo les decía cuando todavía estaba con ustedes: que era necesario que se cumpliera todo lo que sobre Mí está escrito en la ley de Moisés, en los profetas y en los Salmos»."
+    },
+    {
+      "id": "lucas24-nbla-45",
+      "number": 45,
+      "text": "Entonces les abrió la mente para que comprendieran las Escrituras,"
+    },
+    {
+      "id": "lucas24-nbla-46",
+      "number": 46,
+      "text": "y les dijo: «Así está escrito, que el Cristo padecerá y resucitará de entre los muertos al tercer día;"
+    },
+    {
+      "id": "lucas24-nbla-47",
+      "number": 47,
+      "text": "y que en Su nombre se predicará el arrepentimiento para el perdón de los pecados a todas las naciones, comenzando desde Jerusalén."
+    },
+    {
+      "id": "lucas24-nbla-48",
+      "number": 48,
+      "text": "Ustedes son testigos de estas cosas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-49a",
+          "order": 1,
+          "text": "Por tanto, Yo enviaré sobre ustedes la promesa de Mi Padre; pero ustedes, permanezcan en la ciudad"
+        },
+        {
+          "id": "lucas24-nbla-49b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hasta que sean investidos con poder de lo alto"
+        },
+        {
+          "id": "lucas24-nbla-49c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "lucas24-nbla-49",
+      "number": 49
+    },
+    {
+      "id": "lucas24-nbla-50",
+      "number": 50,
+      "text": "Entonces Jesús los condujo fuera de la ciudad, hasta cerca de Betania, y alzando Sus manos, los bendijo."
+    },
+    {
+      "id": "lucas24-nbla-51",
+      "number": 51,
+      "text": "Y aconteció que mientras los bendecía, se separó de ellos y fue llevado arriba al cielo."
+    },
+    {
+      "id": "lucas24-nbla-52",
+      "number": 52,
+      "text": "Ellos, después de adorar a Jesús, regresaron a Jerusalén con gran gozo,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "lucas24-nbla-53a",
+          "order": 1,
+          "text": "y estaban siempre en el templo alabando a Dios."
+        },
+        {
+          "id": "lucas24-nbla-53b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "================================================================================\n# JUAN"
+        }
+      ],
+      "id": "lucas24-nbla-53",
+      "number": 53
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Jesús enfrenta su arresto con conocimiento y libertad. La NBLA fija que él sabe lo que va a sobrevenirle y sale; MSG vuelve visible la carga que se aproxima y el movimiento deliberado de ir al encuentro. La conclusión teológica no es que Jesús controle a cada actor como una marioneta, sino que ninguna de sus acciones lo toma por sorpresa ni convierte la cruz en un accidente ajeno a su misión.",
+      "id": "juan18-joya-01",
+      "msg": {
+        "en": "\"Jesus, knowing by now everything that was coming down on him, went out and met them.\"",
+        "es": "\"Jesús, sabiendo ya todo lo que se le venía encima, salió a su encuentro.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-04a"
+          ],
+          "verseId": "juan18-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4"
+    },
+    {
+      "explanation": "Jesús protege a los suyos mientras se entrega a sí mismo. La NBLA conserva la orden directa de dejar libres a los discípulos, y MSG hace sentir el intercambio: si la búsqueda está dirigida hacia Jesús, los otros deben irse. La escena anticipa pastoralmente su entrega sustitutiva, aunque el sentido inmediato es la preservación concreta de sus discípulos durante el arresto.",
+      "id": "juan18-joya-02",
+      "msg": {
+        "en": "\"So if it’s me you’re after, let these others go.\"",
+        "es": "\"Así que, si vienen por mí, dejen que estos otros se vayan\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-08b"
+          ],
+          "verseId": "juan18-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La obediencia del Hijo recibe conscientemente la misión del Padre. La NBLA fija la imagen bíblica de la copa y su origen en el Padre; MSG convierte la pregunta en una confrontación directa con la resistencia de Pedro. La frase no autoriza a llamar voluntad de Dios a todo sufrimiento humano, sino que se refiere específicamente al camino redentor que Jesús ha aceptado.",
+      "id": "juan18-joya-03",
+      "msg": {
+        "en": "\"Do you think for a minute I’m not going to drink this cup the Father gave me?\"",
+        "es": "\"¿De verdad crees que no voy a beber la copa que el Padre me ha dado?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-11b"
+          ],
+          "verseId": "juan18-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "La enseñanza de Jesús puede ser examinada porque ha sido comunicada públicamente. La NBLA afirma su carácter abierto, y MSG lo presenta como algo mantenido a plena vista. Esta verdad no significa que Jesús nunca enseñara en privado, sino que no dirigió una conspiración secreta ni ocultó una doctrina distinta destinada a manipular a sus seguidores.",
+      "id": "juan18-joya-04",
+      "msg": {
+        "en": "\"Everything has been out in the open. I’ve said nothing in secret.\"",
+        "es": "\"Todo ha estado a la vista. No he dicho nada en secreto.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-20b"
+          ],
+          "verseId": "juan18-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "19-21"
+    },
+    {
+      "explanation": "Jesús responde a la violencia exigiendo verdad y evidencia. La NBLA fija el llamado a testificar concretamente sobre cualquier mal pronunciado, y MSG lo expresa con la claridad de «demuéstralo». La mansedumbre de Jesús no es pasividad frente al abuso: no devuelve el golpe, pero nombra la injusticia y obliga al agresor a enfrentar la ausencia de una acusación real.",
+      "id": "juan18-joya-05",
+      "msg": {
+        "en": "\"If I’ve said something wrong, prove it.\"",
+        "es": "\"Si dije algo incorrecto, demuéstralo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-23b"
+          ],
+          "verseId": "juan18-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "23"
+    },
+    {
+      "explanation": "La realeza de Jesús pertenece a un orden distinto del dominio coercitivo. La NBLA fija que su reino no procede de aquí; MSG convierte esa afirmación en una descripción del tipo de Rey que Jesús no es. La expansión no permite reducir el Reino a una idea privada o futura: establece que su autoridad es real, pero su origen y sus métodos no son los del poder rebelde del mundo.",
+      "id": "juan18-joya-06",
+      "msg": {
+        "en": "\"But I’m not that kind of king, not the world’s kind of king.\"",
+        "es": "\"Pero yo no soy esa clase de rey, no la clase de rey de este mundo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-36b"
+          ],
+          "verseId": "juan18-nbla-36"
+        }
+      ],
+      "order": 6,
+      "range": "36"
+    },
+    {
+      "explanation": "La misión real de Jesús está inseparablemente unida a la verdad. La NBLA conserva la doble afirmación de nacimiento y venida con un propósito definido; MSG la comunica como entrada intencional al mundo para testificar. La verdad no es aquí una opinión que Jesús promueve, sino la revelación de Dios que su vida, sus palabras y su entrega hacen visible.",
+      "id": "juan18-joya-07",
+      "msg": {
+        "en": "\"I was born and entered the world so that I could witness to the truth.\"",
+        "es": "\"nací y entré en el mundo para dar testimonio de la verdad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan18-nbla-37b"
+          ],
+          "verseId": "juan18-nbla-37"
+        }
+      ],
+      "order": 7,
+      "range": "37"
+    }
+  ],
+  "meta": {
+    "book": "Juan",
+    "bookId": "juan",
+    "chapter": 18,
+    "studyId": "juan-18"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "juan18-msg-01",
+      "msg": {
+        "en": "Jesus, having prayed this prayer, left with his disciples and crossed over the brook Kidron at a place where there was a garden. He and his disciples entered it.",
+        "es": "Después de orar así, Jesús salió con sus discípulos y cruzó el torrente Cedrón hasta un lugar donde había un huerto. Él y sus discípulos entraron allí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-4",
+      "id": "juan18-msg-02",
+      "msg": {
+        "en": "Judas, his betrayer, knew the place because Jesus and his disciples went there often. So Judas led the way to the garden, and the Roman soldiers and police sent by the high priests and Pharisees followed. They arrived there with lanterns and torches and swords. Jesus, knowing by now everything that was coming down on him, went out and met them. He said, “Who are you after?”\nThey answered, “Jesus the Nazarene.”",
+        "es": "Judas, el que lo traicionaba, conocía el lugar porque Jesús y sus discípulos iban allí con frecuencia. Así que Judas encabezó la marcha hacia el huerto, seguido por los soldados romanos y los guardias enviados por los principales sacerdotes y los fariseos. Llegaron con linternas, antorchas y espadas. Jesús, sabiendo ya todo lo que se le venía encima, salió a su encuentro. Les preguntó: «¿A quién buscan?». Ellos respondieron: «A Jesús el Nazareno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "juan18-msg-03",
+      "msg": {
+        "en": "He said, “That’s me.” The soldiers recoiled, totally taken aback. Judas, his betrayer, stood out like a sore thumb.",
+        "es": "Él dijo: «Soy yo». Los soldados retrocedieron, completamente desconcertados. Judas, el que lo traicionaba, no podía pasar desapercibido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "juan18-msg-04",
+      "msg": {
+        "en": "Jesus asked again, “Who are you after?”\nThey answered, “Jesus the Nazarene.”",
+        "es": "Jesús volvió a preguntar: «¿A quién buscan?». Ellos respondieron: «A Jesús el Nazareno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "juan18-msg-05",
+      "msg": {
+        "en": "“I told you,” said Jesus, “that’s me. I’m the one. So if it’s me you’re after, let these others go.” (This validated the words in his prayer, “I didn’t lose one of those you gave.”)",
+        "es": "«Ya les dije», respondió Jesús, «soy yo. Yo soy a quien buscan. Así que, si vienen por mí, dejen que estos otros se vayan». Con esto se confirmaron las palabras de su oración: «No perdí a ninguno de los que me diste»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "juan18-msg-06",
+      "msg": {
+        "en": "Just then Simon Peter, who was carrying a sword, pulled it from its sheath and struck the Chief Priest’s servant, cutting off his right ear. Malchus was the servant’s name.",
+        "es": "En ese momento Simón Pedro, que llevaba una espada, la sacó de la vaina y atacó al siervo del sumo sacerdote, cortándole la oreja derecha. El siervo se llamaba Malco."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11",
+      "id": "juan18-msg-07",
+      "msg": {
+        "en": "Jesus ordered Peter, “Put back your sword. Do you think for a minute I’m not going to drink this cup the Father gave me?”",
+        "es": "Jesús le ordenó a Pedro: «Guarda la espada. ¿De verdad crees que no voy a beber la copa que el Padre me ha dado?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "juan18-msg-08",
+      "msg": {
+        "en": "Then the Roman soldiers under their commander, joined by the Jewish police, seized Jesus and tied him up. They took him first to Annas, father-in-law of Caiaphas. Caiaphas was the Chief Priest that year. It was Caiaphas who had advised the Jews that it was to their advantage that one man die for the people.",
+        "es": "Entonces los soldados romanos, bajo el mando de su comandante y acompañados por los guardias judíos, arrestaron a Jesús y lo ataron. Primero lo llevaron ante Anás, suegro de Caifás. Caifás era el sumo sacerdote aquel año. Él había aconsejado a los judíos que les convenía que un solo hombre muriera por el pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "juan18-msg-09",
+      "msg": {
+        "en": "Simon Peter and another disciple followed Jesus. That other disciple was known to the Chief Priest, and so he went in with Jesus to the Chief Priest’s courtyard. Peter had to stay outside. Then the other disciple went out, spoke to the doorkeeper, and got Peter in.",
+        "es": "Simón Pedro y otro discípulo siguieron a Jesús. Como aquel otro discípulo era conocido del sumo sacerdote, entró con Jesús al patio del sumo sacerdote. Pedro tuvo que quedarse afuera. Entonces el otro discípulo salió, habló con la portera y consiguió que Pedro entrara."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17",
+      "id": "juan18-msg-10",
+      "msg": {
+        "en": "The young woman who was the doorkeeper said to Peter, “Aren’t you one of this man’s disciples?”\nHe said, “No, I’m not.”",
+        "es": "La joven que cuidaba la puerta le dijo a Pedro: «¿No eres tú también uno de los discípulos de ese hombre?». Él respondió: «No, no lo soy»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18",
+      "id": "juan18-msg-11",
+      "msg": {
+        "en": "The servants and police had made a fire because of the cold and were huddled there warming themselves. Peter stood with them, trying to get warm.",
+        "es": "Los siervos y los guardias habían encendido un fuego porque hacía frío y se agrupaban alrededor para calentarse. Pedro se quedó con ellos, intentando entrar en calor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-18"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "juan18-msg-12",
+      "msg": {
+        "en": "Annas interrogated Jesus regarding his disciples and his teaching. Jesus answered, “I’ve spoken openly in public. I’ve taught regularly in meeting places and the Temple, where the Jews all come together. Everything has been out in the open. I’ve said nothing in secret. So why are you treating me like a conspirator? Question those who have been listening to me. They know well what I have said. My teachings have all been aboveboard.”",
+        "es": "Anás interrogó a Jesús acerca de sus discípulos y de su enseñanza. Jesús respondió: «He hablado abiertamente en público. He enseñado regularmente en los lugares de reunión y en el templo, donde se congregan los judíos. Todo ha estado a la vista. No he dicho nada en secreto. Entonces, ¿por qué me tratas como a un conspirador? Pregunta a quienes me han escuchado. Ellos saben bien lo que he dicho. Toda mi enseñanza ha sido transparente»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22",
+      "id": "juan18-msg-13",
+      "msg": {
+        "en": "When he said this, one of the policemen standing there slapped Jesus across the face, saying, “How dare you speak to the Chief Priest like that!”",
+        "es": "Cuando Jesús dijo esto, uno de los guardias que estaba allí le dio una bofetada y dijo: «¿Cómo te atreves a responderle así al sumo sacerdote?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-22"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "23",
+      "id": "juan18-msg-14",
+      "msg": {
+        "en": "Jesus replied, “If I’ve said something wrong, prove it. But if I’ve spoken the plain truth, why this slapping around?”",
+        "es": "Jesús respondió: «Si dije algo incorrecto, demuéstralo. Pero si he dicho la verdad con toda claridad, ¿por qué me golpeas?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-23"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "24",
+      "id": "juan18-msg-15",
+      "msg": {
+        "en": "Then Annas sent him, still tied up, to the Chief Priest Caiaphas.",
+        "es": "Entonces Anás lo envió, todavía atado, ante Caifás, el sumo sacerdote."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-24"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "25",
+      "id": "juan18-msg-16",
+      "msg": {
+        "en": "Meanwhile, Simon Peter was back at the fire, still trying to get warm. The others there said to him, “Aren’t you one of his disciples?”\nHe denied it, “Not me.”",
+        "es": "Mientras tanto, Simón Pedro seguía junto al fuego, intentando calentarse. Los que estaban allí le dijeron: «¿No eres tú también uno de sus discípulos?». Él lo negó: «Yo no»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-25"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "26",
+      "id": "juan18-msg-17",
+      "msg": {
+        "en": "One of the Chief Priest’s servants, a relative of the man whose ear Peter had cut off, said, “Didn’t I see you in the garden with him?”",
+        "es": "Uno de los siervos del sumo sacerdote, pariente del hombre a quien Pedro le había cortado la oreja, le preguntó: «¿No te vi en el huerto con él?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-26"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "27",
+      "id": "juan18-msg-18",
+      "msg": {
+        "en": "Again, Peter denied it. Just then a rooster crowed.",
+        "es": "Pedro volvió a negarlo. En ese instante cantó un gallo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-27"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "juan18-msg-19",
+      "msg": {
+        "en": "They led Jesus then from Caiaphas to the Roman governor’s palace. It was early morning. They themselves didn’t enter the palace because they didn’t want to be disqualified from eating the Passover. So Pilate came out to them and spoke. “What charge do you bring against this man?”",
+        "es": "Luego llevaron a Jesús desde la casa de Caifás hasta el palacio del gobernador romano. Era temprano en la mañana. Ellos no entraron al palacio porque no querían quedar descalificados para comer la Pascua. Así que Pilato salió a encontrarlos y preguntó: «¿Qué acusación presentan contra este hombre?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-29"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "30",
+      "id": "juan18-msg-20",
+      "msg": {
+        "en": "They said, “If he hadn’t been doing something evil, do you think we’d be here bothering you?”",
+        "es": "Ellos respondieron: «Si no estuviera haciendo algo malo, ¿cree que vendríamos a molestarlo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-30"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "juan18-msg-21",
+      "msg": {
+        "en": "Pilate said, “You take him. Judge him by your law.”\nThe Jews said, “We’re not allowed to kill anyone.” (This would confirm Jesus’ word indicating the way he would die.)",
+        "es": "Pilato dijo: «Llévenselo ustedes y júzguenlo según su ley». Los judíos respondieron: «A nosotros no se nos permite matar a nadie». Con esto se confirmaban las palabras de Jesús que indicaban la clase de muerte que sufriría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-32"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "33",
+      "id": "juan18-msg-22",
+      "msg": {
+        "en": "Pilate went back into the palace and called for Jesus. He said, “Are you the ‘King of the Jews’?”",
+        "es": "Pilato volvió a entrar al palacio y mandó llamar a Jesús. Le preguntó: «¿Eres tú el “Rey de los judíos”?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-33"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "34",
+      "id": "juan18-msg-23",
+      "msg": {
+        "en": "Jesus answered, “Are you saying this on your own, or did others tell you this about me?”",
+        "es": "Jesús respondió: «¿Lo dices por tu cuenta o te lo han dicho otros acerca de mí?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-34"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "35",
+      "id": "juan18-msg-24",
+      "msg": {
+        "en": "Pilate said, “Do I look like a Jew? Your people and your high priests turned you over to me. What did you do?”",
+        "es": "Pilato contestó: «¿Acaso parezco judío? Tu propio pueblo y los principales sacerdotes te entregaron. ¿Qué hiciste?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-35"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "36",
+      "id": "juan18-msg-25",
+      "msg": {
+        "en": "“My kingdom,” said Jesus, “doesn’t consist of what you see around you. If it did, my followers would fight so that I wouldn’t be handed over to the Jews. But I’m not that kind of king, not the world’s kind of king.”",
+        "es": "Jesús respondió: «Mi reino no se compone de lo que ves a tu alrededor. Si así fuera, mis seguidores pelearían para impedir que me entregaran a los judíos. Pero yo no soy esa clase de rey, no la clase de rey de este mundo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-36"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "37",
+      "id": "juan18-msg-26",
+      "msg": {
+        "en": "Then Pilate said, “So, are you a king or not?”\nJesus answered, “You tell me. Because I am King, I was born and entered the world so that I could witness to the truth. Everyone who cares for truth, who has any feeling for the truth, recognizes my voice.”",
+        "es": "Pilato dijo: «Entonces, ¿eres rey o no?». Jesús respondió: «Tú lo dices. Porque soy Rey, nací y entré en el mundo para dar testimonio de la verdad. Todo el que se preocupa por la verdad, todo el que tiene sensibilidad para la verdad, reconoce mi voz»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-37"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "38-39",
+      "id": "juan18-msg-27",
+      "msg": {
+        "en": "Pilate said, “What is truth?”\nThen he went back out to the Jews and told them, “I find nothing wrong in this man. It’s your custom that I pardon one prisoner at Passover. Do you want me to pardon the ‘King of the Jews’?”",
+        "es": "Pilato preguntó: «¿Qué es la verdad?». Luego volvió a salir ante los judíos y les dijo: «No encuentro nada malo en este hombre. Pero ustedes tienen la costumbre de que les libere un preso durante la Pascua. ¿Quieren que les libere al “Rey de los judíos”?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-39"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "40",
+      "id": "juan18-msg-28",
+      "msg": {
+        "en": "They shouted back, “Not this one, but Barabbas!” Barabbas was a Jewish freedom fighter.",
+        "es": "Ellos gritaron: «¡A este no! ¡A Barrabás!». Barrabás era un combatiente judío por la libertad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "juan18-nbla-40"
+        }
+      ],
+      "order": 28
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "juan18-nbla-01",
+      "number": 1,
+      "text": "Después de decir esto, Jesús salió con Sus discípulos al otro lado del torrente Cedrón, donde había un huerto en el cual entró Él con Sus discípulos."
+    },
+    {
+      "id": "juan18-nbla-02",
+      "number": 2,
+      "text": "También Judas, el que lo iba a entregar, conocía el lugar porque Jesús se había reunido allí muchas veces con Sus discípulos."
+    },
+    {
+      "id": "juan18-nbla-03",
+      "number": 3,
+      "text": "Entonces Judas, tomando la tropa romana, y a varios guardias de los principales sacerdotes y de los fariseos, fue* allá con linternas, antorchas y armas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-04a",
+          "order": 1,
+          "text": "Jesús, sabiendo todo lo que le iba a sobrevenir, salió"
+        },
+        {
+          "id": "juan18-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y les dijo*: «¿A quién buscan?»."
+        }
+      ],
+      "id": "juan18-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "juan18-nbla-05",
+      "number": 5,
+      "text": "«A Jesús el Nazareno», le respondieron. Él les dijo*: «Yo soy». Y Judas, el que lo entregaba, estaba con ellos."
+    },
+    {
+      "id": "juan18-nbla-06",
+      "number": 6,
+      "text": "Y cuando Él les dijo: «Yo soy», retrocedieron y cayeron a tierra."
+    },
+    {
+      "id": "juan18-nbla-07",
+      "number": 7,
+      "text": "Jesús entonces volvió a preguntarles: «¿A quién buscan?». «A Jesús el Nazareno», dijeron."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-08a",
+          "order": 1,
+          "text": "Respondió Jesús: «Les he dicho que Yo soy; por tanto,"
+        },
+        {
+          "id": "juan18-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "si me buscan a Mí, dejen ir a estos"
+        },
+        {
+          "id": "juan18-nbla-08c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan18-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "juan18-nbla-09",
+      "number": 9,
+      "text": "Así se cumplía la palabra que había dicho: «De los que me diste, no perdí ninguno»."
+    },
+    {
+      "id": "juan18-nbla-10",
+      "number": 10,
+      "text": "Entonces Simón Pedro, que tenía una espada, la sacó e hirió al siervo del sumo sacerdote, y le cortó la oreja derecha. El siervo se llamaba Malco."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-11a",
+          "order": 1,
+          "text": "Jesús le dijo a Pedro: «Mete la espada en la vaina."
+        },
+        {
+          "id": "juan18-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "La copa que el Padre me ha dado, ¿acaso no he de beberla?"
+        },
+        {
+          "id": "juan18-nbla-11c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan18-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "juan18-nbla-12",
+      "number": 12,
+      "text": "Entonces la tropa romana, el comandante y los guardias de los judíos prendieron a Jesús, lo ataron,"
+    },
+    {
+      "id": "juan18-nbla-13",
+      "number": 13,
+      "text": "y lo llevaron primero ante Anás, porque era suegro de Caifás, que era sumo sacerdote ese año."
+    },
+    {
+      "id": "juan18-nbla-14",
+      "number": 14,
+      "text": "Caifás era el que había aconsejado a los judíos que convenía que un hombre muriera por el pueblo."
+    },
+    {
+      "id": "juan18-nbla-15",
+      "number": 15,
+      "text": "Simón Pedro seguía a Jesús, y también otro discípulo. Este discípulo era conocido del sumo sacerdote, y entró con Jesús al patio del sumo sacerdote,"
+    },
+    {
+      "id": "juan18-nbla-16",
+      "number": 16,
+      "text": "pero Pedro estaba afuera, a la puerta. Así que el otro discípulo, que era conocido del sumo sacerdote, salió y habló a la portera, e hizo entrar a Pedro."
+    },
+    {
+      "id": "juan18-nbla-17",
+      "number": 17,
+      "text": "Entonces la criada que cuidaba la puerta dijo* a Pedro: «¿No eres tú también uno de los discípulos de este hombre?». «No lo soy», dijo* él."
+    },
+    {
+      "id": "juan18-nbla-18",
+      "number": 18,
+      "text": "Los siervos y los guardias estaban de pie calentándose junto a unas brasas que habían encendido porque hacía frío. Pedro también estaba con ellos de pie, calentándose."
+    },
+    {
+      "id": "juan18-nbla-19",
+      "number": 19,
+      "text": "Entonces el sumo sacerdote interrogó a Jesús acerca de Sus discípulos y de Sus enseñanzas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-20a",
+          "order": 1,
+          "text": "Jesús le respondió: «"
+        },
+        {
+          "id": "juan18-nbla-20b",
+          "order": 2,
+          "text": "Yo he hablado al mundo públicamente"
+        },
+        {
+          "id": "juan18-nbla-20c",
+          "order": 3,
+          "text": "; siempre enseñé en la sinagoga y en el templo, donde se reúnen todos los judíos, y nada he hablado en secreto."
+        }
+      ],
+      "id": "juan18-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "juan18-nbla-21",
+      "number": 21,
+      "text": "¿Por qué me preguntas a Mí? Pregúntales a los que han oído lo que hablé; estos saben lo que he dicho»."
+    },
+    {
+      "id": "juan18-nbla-22",
+      "number": 22,
+      "text": "Cuando dijo esto, uno de los guardias que estaba cerca, dio una bofetada a Jesús, diciendo: «¿Así respondes al sumo sacerdote?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-23a",
+          "order": 1,
+          "text": "Jesús le respondió: «"
+        },
+        {
+          "id": "juan18-nbla-23b",
+          "order": 2,
+          "text": "Si he hablado mal, da testimonio de lo que he hablado mal"
+        },
+        {
+          "id": "juan18-nbla-23c",
+          "order": 3,
+          "text": "; pero si hablé bien, ¿por qué me pegas?»."
+        }
+      ],
+      "id": "juan18-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "juan18-nbla-24",
+      "number": 24,
+      "text": "Anás entonces lo envió atado a Caifás, el sumo sacerdote."
+    },
+    {
+      "id": "juan18-nbla-25",
+      "number": 25,
+      "text": "Simón Pedro estaba de pie, calentándose, y le preguntaron: «¿No eres tú también uno de Sus discípulos?». «No lo soy», dijo Pedro, negándolo."
+    },
+    {
+      "id": "juan18-nbla-26",
+      "number": 26,
+      "text": "Uno de los siervos del sumo sacerdote, que era pariente de aquel a quien Pedro le había cortado la oreja, dijo*: «¿No te vi yo en el huerto con Él?»."
+    },
+    {
+      "id": "juan18-nbla-27",
+      "number": 27,
+      "text": "Y Pedro lo negó otra vez, y al instante cantó un gallo."
+    },
+    {
+      "id": "juan18-nbla-28",
+      "number": 28,
+      "text": "Entonces llevaron* a Jesús de casa de Caifás al Pretorio; era muy de mañana; y ellos no entraron al Pretorio para no contaminarse y poder comer la Pascua."
+    },
+    {
+      "id": "juan18-nbla-29",
+      "number": 29,
+      "text": "Pilato, pues, salió afuera hacia ellos y dijo*: «¿Qué acusación traen contra este hombre?»."
+    },
+    {
+      "id": "juan18-nbla-30",
+      "number": 30,
+      "text": "Ellos respondieron: «Si este hombre no fuera malhechor, no se lo hubiéramos entregado»."
+    },
+    {
+      "id": "juan18-nbla-31",
+      "number": 31,
+      "text": "Entonces Pilato les dijo: «Se lo pueden llevar y juzgar conforme a su ley». «A nosotros no nos es permitido dar muerte a nadie», le dijeron los judíos."
+    },
+    {
+      "id": "juan18-nbla-32",
+      "number": 32,
+      "text": "Esto sucedió para que se cumpliera la palabra que Jesús había hablado, dando a entender de qué clase de muerte iba a morir."
+    },
+    {
+      "id": "juan18-nbla-33",
+      "number": 33,
+      "text": "Pilato volvió a entrar al Pretorio, y llamó a Jesús y le preguntó: «¿Eres Tú el Rey de los judíos?»."
+    },
+    {
+      "id": "juan18-nbla-34",
+      "number": 34,
+      "text": "Jesús respondió: «¿Esto lo dices por tu cuenta, o porque otros te lo han dicho de Mí?»."
+    },
+    {
+      "id": "juan18-nbla-35",
+      "number": 35,
+      "text": "Pilato contestó: «¿Acaso soy yo judío? Tu nación y los principales sacerdotes te entregaron a mí. ¿Qué has hecho?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-36a",
+          "order": 1,
+          "text": "Jesús le respondió: «Mi reino no es de este mundo. Si Mi reino fuera de este mundo, entonces Mis servidores pelearían para que Yo no fuera entregado a los judíos."
+        },
+        {
+          "id": "juan18-nbla-36b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Pero ahora Mi reino no es de aquí"
+        },
+        {
+          "id": "juan18-nbla-36c",
+          "order": 3,
+          "text": "»."
+        }
+      ],
+      "id": "juan18-nbla-36",
+      "number": 36
+    },
+    {
+      "clauses": [
+        {
+          "id": "juan18-nbla-37a",
+          "order": 1,
+          "text": "«¿Así que Tú eres rey?», le dijo Pilato. «Tú dices que soy rey», respondió Jesús. «"
+        },
+        {
+          "id": "juan18-nbla-37b",
+          "order": 2,
+          "text": "Para esto Yo he nacido y para esto he venido al mundo, para dar testimonio de la verdad."
+        },
+        {
+          "id": "juan18-nbla-37c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Todo el que es de la verdad escucha Mi voz»."
+        }
+      ],
+      "id": "juan18-nbla-37",
+      "number": 37
+    },
+    {
+      "id": "juan18-nbla-38",
+      "number": 38,
+      "text": "Pilato le preguntó*: «¿Qué es la verdad?».\nY habiendo dicho esto, salió otra vez adonde estaban los judíos y les dijo*: «Yo no encuentro ningún delito en Él."
+    },
+    {
+      "id": "juan18-nbla-39",
+      "number": 39,
+      "text": "Pero es costumbre entre ustedes que les suelte a alguien durante la fiesta de la Pascua. ¿Quieren, pues, que les suelte al Rey de los judíos?»."
+    },
+    {
+      "id": "juan18-nbla-40",
+      "number": 40,
+      "text": "Entonces volvieron a gritar, diciendo: «No a Este, sino a Barrabás». Y Barrabás era un ladrón."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
