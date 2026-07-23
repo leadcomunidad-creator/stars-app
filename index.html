@@ -759,23 +759,23 @@ body.modo-dia .bottom-nav{
   cursor:pointer;
   overflow:hidden;
   position:relative;
-  background:linear-gradient(135deg,#0e0c07 0%,#0a0a08 60%,#0b0d09 100%);
-  border:1px solid rgba(201,168,76,0.18);
+  background:linear-gradient(135deg,var(--black3) 0%,var(--black2) 60%,var(--black) 100%);
+  border:1px solid var(--gold-border);
   transition:border-color 0.2s,transform 0.15s;
 }
-.frase-card:active{transform:scale(0.985);border-color:rgba(201,168,76,0.35)}
+.frase-card:active{transform:scale(0.985);border-color:var(--gold)}
 /* línea dorada superior */
 .frase-card::before{
   content:'';
   position:absolute;top:0;left:0;right:0;height:1px;
-  background:linear-gradient(90deg,transparent,rgba(201,168,76,0.5),transparent);
+  background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--gold) 50%,transparent),transparent);
 }
 /* ícono de imagen/guardar — esquina inferior derecha */
 .frase-card::after{
   content:'99';
   position:absolute;bottom:10px;right:13px;
   font-size:0.875rem;
-  color:rgba(201,168,76,0.22);
+  color:var(--gold);opacity:.22;
   line-height:1;
   pointer-events:none;
 }
@@ -785,21 +785,21 @@ body.modo-dia .bottom-nav{
   font-size:0.5rem;
   letter-spacing:0.2em;
   text-transform:uppercase;
-  color:rgba(201,168,76,0.45);
+  color:var(--gold);opacity:.45;
   margin-bottom:10px;
   font-weight:600;
 }
 .frase-texto{
   font-family:'Cormorant Garamond',serif;
   font-size:1.0625rem;
-  color:rgba(245,240,232,0.82);
+  color:var(--white);opacity:.82;
   line-height:1.7;
   font-style:italic;
   margin:0;
   display:block;
 }
-.frase-texto::before{content:'“';color:rgba(201,168,76,0.6);margin-right:2px}
-.frase-texto::after{content:'”';color:rgba(201,168,76,0.6);margin-left:2px}
+.frase-texto::before{content:'“';color:var(--gold);opacity:.6;margin-right:2px}
+.frase-texto::after{content:'”';color:var(--gold);opacity:.6;margin-left:2px}
 .frase-ref{
   display:block;
   font-size:0.5625rem;
@@ -937,6 +937,59 @@ body.modo-dia .bottom-nav{
 }
 .tcap-cap-btn.leido:hover{background:rgba(74,157,111,0.3)}
 .tcap-cap-btn:not(.leido):hover{border-color:var(--gold-border);color:var(--gold)}
+
+/* ══════════════════════════════════════════════════════════
+   PASO DIARIO V2 — gramática visual compartida con Paso Profundo
+   ══════════════════════════════════════════════════════════ */
+.dsk-ws-inner.dsk-ws-inner--paso-diario{max-width:980px;padding-left:16px;padding-right:16px}
+.pd2-root{
+  --est-v2-bg:var(--black,#0a0906);--est-v2-panel:var(--black3,#19150d);--est-v2-panel2:var(--black4,#201a10);
+  --est-v2-line:color-mix(in srgb,var(--gold,#c9a84c) 16%,transparent);--est-v2-line2:var(--gold-border,rgba(201,168,76,.30));
+  --est-v2-accent:var(--gold,#c9a84c);--est-v2-accent2:var(--gold2,#e8c97a);--est-v2-dim:var(--gold-dim,rgba(201,168,76,.12));
+  --est-v2-ink:var(--white,#f2ead9);--est-v2-soft:var(--white2,#cabf9f);--est-v2-mute:var(--white3,#8a7f64);
+  width:100%;background:var(--est-v2-bg);color:var(--est-v2-ink);font-family:'Cormorant Garamond',Georgia,serif;
+  border:1px solid var(--est-v2-line);overflow:hidden;container-type:inline-size;container-name:paso-diario-v2
+}
+.pd2-root *{box-sizing:border-box}.pd2-root button{font-family:inherit;cursor:pointer}.pd2-root .est-v2-image-style,.pd2-root .est-v2-image-format{background:none}
+.pd2-root--desktop{max-width:920px;margin:0 auto}
+.pd2-modal .modal-sheet{max-width:620px;background:var(--black);border-top-color:var(--gold-border)}
+.pd2-modal .modal-handle{position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:4;margin:0;background:color-mix(in srgb,var(--white) 18%,transparent)}
+.pd2-modal .modal-body{padding:0;overflow-y:auto;background:var(--black)}
+.pd2-hero{position:relative;text-align:center;padding:2.75rem 1.75rem 1.875rem;background:radial-gradient(ellipse 72% 100% at 50% 0%,var(--gold-dim) 0%,transparent 66%),linear-gradient(180deg,var(--black2) 0%,var(--black) 100%);border-bottom:1px solid var(--est-v2-line)}
+.pd2-modal .pd2-hero{padding:2.25rem 1.25rem 1.5rem}
+.pd2-hero .modal-close{position:absolute;top:1rem;right:1rem;color:var(--white3);z-index:3}
+.pd2-hero-badge{width:4.25rem;height:4.25rem;border-radius:50%;margin:0 auto 1rem;background:var(--gold-dim);border:1.5px solid var(--gold-border);display:flex;align-items:center;justify-content:center;font-size:1.875rem;font-weight:700;color:var(--gold)}
+.pd2-modal .pd2-hero-badge{width:3.375rem;height:3.375rem;font-size:1.5rem;margin-bottom:.75rem}
+.pd2-hero-brand{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);opacity:.78;font-weight:500}
+.pd2-hero-title{font-size:2.75rem;line-height:1.08;color:var(--white);margin-top:.625rem;font-weight:600}
+.pd2-modal .pd2-hero-title{font-size:2rem}
+.pd2-hero-sub{font-family:'Outfit',sans-serif;font-size:.875rem;color:var(--white3);margin-top:.625rem;letter-spacing:.02em}
+.pd2-track-wrap{padding:1.375rem 2.125rem 1.5rem;border-bottom:1px solid var(--est-v2-line);font-family:'Outfit',sans-serif}
+.pd2-modal .pd2-track-wrap{padding:1.125rem 1.125rem 1.25rem}
+.pd2-track{display:flex;align-items:flex-start}.pd2-track-node{flex:1;display:flex;flex-direction:column;align-items:center;gap:.5rem;background:none;border:0;padding:0;color:inherit;cursor:pointer;min-width:0}
+.pd2-track-node:disabled{cursor:not-allowed}.pd2-track-dot{width:2.375rem;height:2.375rem;border-radius:50%;background:var(--black2);border:1.5px solid var(--black5);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-weight:700;font-size:1.0625rem;color:var(--white3);transition:all .2s}
+.pd2-modal .pd2-track-dot{width:2rem;height:2rem;font-size:.9375rem}.pd2-track-node.is-active .pd2-track-dot{background:var(--gold-dim);border-color:var(--gold);color:var(--gold);box-shadow:0 0 0 4px var(--gold-dim)}
+.pd2-track-node.is-done .pd2-track-dot{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
+.pd2-track-node.is-locked{opacity:.42}.pd2-track-label{font-size:.5625rem;letter-spacing:.05em;text-transform:uppercase;color:var(--white3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.pd2-track-node.is-active .pd2-track-label{color:var(--gold);font-weight:600}
+.pd2-content{padding:2.25rem 2.5rem 3rem}.pd2-modal .pd2-content{padding:1.625rem 1.25rem 2.25rem}
+.pd2-sec{max-width:35rem;margin:0 auto;padding:0 0 2rem}.pd2-sec+.pd2-sec{border-top:1px solid var(--est-v2-line);padding-top:2rem}.pd2-sec:last-child{padding-bottom:0}.pd2-center{text-align:center}
+.pd2-eyebrow{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:1.125rem;text-align:center}
+.pd2-opening{font-size:1.375rem;line-height:1.7;font-style:italic;color:var(--white);text-align:center}.pd2-opening-ref{font-family:'Outfit',sans-serif;font-size:.75rem;color:var(--white3);text-align:center;margin-top:.875rem}
+.pd2-music-card{display:flex;align-items:center;gap:.875rem;text-align:left;background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:.875rem 1rem;margin-top:1.5rem}
+.pd2-music-icon{font-size:1.125rem;flex-shrink:0}.pd2-music-info{flex:1;min-width:0}.pd2-music-title{font-family:'Outfit',sans-serif;font-size:.8125rem;font-weight:600;color:var(--white)}.pd2-music-sub{font-family:'Outfit',sans-serif;font-size:.6875rem;color:var(--white3);margin-top:.125rem}.pd2-music-btn{flex-shrink:0;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;padding:.5rem .875rem;border-radius:1rem;border:1px solid var(--gold-border);color:var(--gold);background:var(--gold-dim)}
+.pd2-timer-wrap{display:flex;flex-direction:column;align-items:center;gap:1rem}.pd2-root .timer-ring{margin:.25rem auto}.pd2-timer-hint{font-family:'Outfit',sans-serif;text-align:center;font-size:.5625rem;letter-spacing:.14em;text-transform:uppercase;color:var(--white3);opacity:.55}
+.pd2-version-row{display:flex;justify-content:center;margin:0 0 1.75rem;font-family:'Outfit',sans-serif}.pd2-root .texto-version-tabs{display:flex;gap:.375rem;padding:.1875rem;border:1px solid var(--est-v2-line);border-radius:1.25rem;background:var(--black3);margin:0}.pd2-root .version-tab{min-width:5.25rem;flex:0 0 auto;padding:.4375rem .875rem;border:1px solid transparent;border-radius:1rem;background:none;color:var(--white3);font-size:.6875rem;letter-spacing:.06em;text-transform:uppercase}.pd2-root .version-tab.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--gold2)}
+.pd2-text-content{text-align:center}.pd2-root .texto-versiculo{display:inline-block;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;letter-spacing:.04em;color:var(--black);background:var(--gold);padding:.125rem .5625rem;border-radius:.625rem;margin-bottom:.75rem}.pd2-layer-label{font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;text-align:center}.pd2-root .texto-italic{font-size:1.375rem;line-height:1.7;color:var(--white);text-align:center}.pd2-root #texto-ntv .texto-italic,.pd2-nbla-reading{font-size:1.1875rem;line-height:1.8;color:var(--white);font-style:normal;text-align:center}
+.pd2-idea{display:none;max-width:35rem;margin:0 auto 2rem;text-align:center}.pd2-idea.is-visible{display:block}.pd2-idea-rule{width:2.25rem;height:1px;background:var(--gold);opacity:.55;margin:0 auto}.pd2-idea-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:.875rem 0 .75rem}.pd2-idea-text{font-size:1.75rem;line-height:1.45;color:var(--white);font-style:italic}.pd2-idea .pd2-idea-rule:last-child{margin-top:1rem}
+.pd2-welcome{display:none;font-family:'Outfit',sans-serif;font-size:1rem;line-height:1.85;color:var(--white2);font-style:italic;margin:0 0 1.25rem}.pd2-welcome.is-visible{display:block}.pd2-lede{font-family:'Outfit',sans-serif;font-size:1.25rem;line-height:1.7;color:var(--white);margin:0 0 1.25rem}.pd2-paragraph{font-family:'Outfit',sans-serif;font-size:1.03125rem;line-height:1.85;color:var(--white2);margin:0 0 1.25rem}.pd2-paragraph:last-child{margin-bottom:0}.pd2-analisis-footer{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);text-align:center;font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);opacity:.75}
+.pd2-question{font-size:1.3125rem;line-height:1.7;color:var(--white);font-style:italic;text-align:center}.pd2-note{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);font-size:.75rem;color:var(--white3);line-height:1.6;text-align:center}
+.pd2-practice{font-family:'Outfit',sans-serif;font-size:1.125rem;line-height:1.75;color:var(--white);text-align:center}.pd2-root .sembrar-practica{border-left:0;padding-left:0;margin-bottom:0;font-style:normal}.pd2-boxed{background:var(--black3);border:1px solid var(--gold-border)!important;border-radius:var(--radius);padding:1.75rem 2rem!important;margin-top:.5rem}.pd2-boxed .oracion-cierre-card{background:none;border:0;padding:0;margin:0}.pd2-boxed .oracion-cierre-card::before{display:none}.pd2-boxed .oracion-cierre-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;color:var(--gold);opacity:1;text-align:center;margin-bottom:1rem}.pd2-boxed .oracion-cierre-texto{font-size:1.125rem;text-align:center;color:var(--white)}
+.pd2-complete-btn,.pd2-root .done-btn{width:100%;max-width:35rem;margin:1.5rem auto 0;padding:1rem;border-radius:var(--radius-sm);display:block;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-family:'Outfit',sans-serif;font-size:.875rem;font-weight:600;letter-spacing:.02em}.pd2-complete-btn:disabled,.pd2-root .done-btn:disabled{background:var(--green-dim);border-color:var(--green-border);color:var(--green2);cursor:default;opacity:.78}
+.pd2-root .est-v2-closing{padding:2.5rem 0 .5rem}.pd2-root .est-v2-closing-eyebrow{font-size:.6875rem}.pd2-root .est-v2-quote{font-size:1.625rem}.pd2-root .est-v2-ref{font-size:.75rem}.pd2-root .est-v2-download-label{font-size:.6875rem}.pd2-root .est-v2-image-style,.pd2-root .est-v2-image-format{font-size:.71875rem}.pd2-root .est-v2-download{border:0;cursor:pointer}.pd2-root .est-v2-canvas-wrap{width:min(15rem,72vw)}
+@media(max-width:619px){.pd2-modal .modal-sheet{max-width:430px}.pd2-hero-title{font-size:2rem}.pd2-track-label{font-size:.5rem}.pd2-content{padding-left:1.25rem;padding-right:1.25rem}.pd2-idea-text{font-size:1.375rem}.pd2-question{font-size:1.125rem}.pd2-boxed{padding:1.375rem 1.25rem!important}.pd2-root .est-v2-quote{font-size:1.3125rem}}
+@media(min-width:620px) and (max-width:1023px){.pd2-modal .modal-sheet{max-width:760px}.pd2-modal .pd2-content{max-width:42rem;width:100%;margin:0 auto;padding:2rem 2.75rem 2.5rem}.pd2-modal .pd2-track-wrap{padding-left:3rem;padding-right:3rem}.pd2-modal .pd2-hero{padding-top:2.5rem}.pd2-modal .modal-body{background:var(--black)}}
+
 /* ══ MODAL ESTUDIO CAPÍTULO ══ */
 .estudio-cap-modal{position:fixed;inset:0;z-index:500;display:none;flex-direction:column;background:var(--black)}
 .estudio-cap-modal.open{display:flex}
@@ -2891,137 +2944,143 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 <!-- ═══════════════ MODALES PASOS ═══════════════ -->
 <!-- Modal Silencio -->
-<div class="modal" id="modal-0">
+<div class="modal pd2-modal" id="modal-0">
   <div class="modal-bg" onclick="cerrarModal(0)"></div>
-  <div class="modal-sheet">
+  <div class="modal-sheet pd2-root">
     <div class="modal-handle"></div>
-    <div class="modal-header">
-      <div class="modal-title">S — Silencio</div>
+    <div class="pd2-hero">
       <button class="modal-close" onclick="cerrarModal(0)">×</button>
+      <div class="pd2-hero-badge" id="pd2-mobile-badge-0">S</div>
+      <div class="pd2-hero-brand">S · T · A · R · S</div>
+      <div class="pd2-hero-title">Silencio</div>
+      <div class="pd2-hero-sub">5 min · Oración breve · Paso 1 de 5</div>
     </div>
-    <div class="modal-body">
-      <div class="oracion-text">"Señor, aquieta mi mente antes de que abra tu Palabra. No vengo a aprender solamente — vengo a encontrarme contigo. Habla. Estoy aquí."</div>
-      <div class="oracion-firma">— Oración de apertura · El Paso Diario</div>
-      <div class="timer-ring" id="timer-ring-tap" onclick="iniciarTimer()" style="cursor:pointer" title="Tocar para iniciar">
-        <svg width="100" height="100" viewBox="0 0 100 100">
-          <circle class="timer-ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
-          <circle class="timer-ring-fill" id="timer-fill" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="264"/>
-        </svg>
-        <div class="timer-label" id="timer-label">5:00</div>
-      </div>
-      <div id="timer-hint" style="text-align:center;font-size:0.5625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.4;margin:-8px 0 12px">Toca el círculo para iniciar</div>
-      <!-- Música disponible — se muestra solo si el devo tiene musica_url -->
-      <div id="musica-hint" style="display:none;margin-bottom:12px">
-        <div style="display:flex;align-items:center;justify-content:space-between;background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:10px 14px">
-          <div style="display:flex;align-items:center;gap:8px">
-            <span style="font-size:1.0rem">🎵</span>
-            <div>
-              <div style="font-size:0.6875rem;font-weight:600;color:var(--gold);letter-spacing:0.04em">Música sugerida esta semana</div>
-              <div style="font-size:0.625rem;color:var(--white3);margin-top:1px">Se abre al iniciar · YouTube</div>
-            </div>
-          </div>
-          <button onclick="abrirMusicaSilencio()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:20px;cursor:pointer;letter-spacing:0.04em">Abrir ↗</button>
+    <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-0"></div></div>
+    <div class="modal-body"><div class="pd2-content">
+      <div class="pd2-sec pd2-center">
+        <div class="pd2-eyebrow">Oración de apertura</div>
+        <div class="oracion-text pd2-opening"></div>
+        <div class="oracion-firma pd2-opening-ref">— Oración de apertura · El Paso Diario</div>
+        <div id="musica-hint" class="pd2-music-card" style="display:none">
+          <div class="pd2-music-icon">🎵</div>
+          <div class="pd2-music-info"><div class="pd2-music-title">Música sugerida esta semana</div><div class="pd2-music-sub">Se abre al iniciar · YouTube</div></div>
+          <button class="pd2-music-btn" onclick="abrirMusicaSilencio()">Abrir ↗</button>
         </div>
       </div>
-      <button class="done-btn" id="modal-done-0" onclick="marcarPasoYCerrar(0)">✓ He completado el silencio</button>
-    </div>
+      <div class="pd2-sec pd2-center">
+        <div class="pd2-timer-wrap">
+          <div class="timer-ring" id="timer-ring-tap" onclick="iniciarTimer()" style="cursor:pointer" title="Tocar para iniciar">
+            <svg width="100" height="100" viewBox="0 0 100 100">
+              <circle class="timer-ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/>
+              <circle class="timer-ring-fill" id="timer-fill" cx="50" cy="50" r="42" fill="none" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="264"/>
+            </svg>
+            <div class="timer-label" id="timer-label">5:00</div>
+          </div>
+          <div id="timer-hint" class="pd2-timer-hint">Toca el círculo para iniciar</div>
+        </div>
+      </div>
+      <button class="done-btn pd2-complete-btn" id="modal-done-0" onclick="marcarPasoYCerrar(0)">✓ He completado el silencio</button>
+    </div></div>
   </div>
 </div>
 
 <!-- Modal Texto -->
-<div class="modal" id="modal-1">
+<div class="modal pd2-modal" id="modal-1">
   <div class="modal-bg" onclick="cerrarModalConMarca(1)"></div>
-  <div class="modal-sheet">
+  <div class="modal-sheet pd2-root">
     <div class="modal-handle"></div>
-    <div class="modal-header">
-      <div class="modal-title">T — Texto</div>
+    <div class="pd2-hero">
       <button class="modal-close" onclick="cerrarModalConMarca(1)">×</button>
+      <div class="pd2-hero-badge" id="pd2-mobile-badge-1">T</div>
+      <div class="pd2-hero-brand">S · T · A · R · S</div>
+      <div class="pd2-hero-title">Texto</div>
+      <div class="pd2-hero-sub">3 min · Lectura bíblica · Paso 2 de 5</div>
     </div>
-    <div class="modal-body">
-      <div class="texto-version-tabs">
-        <div class="version-tab active" onclick="switchTexto('msg',this)">The Message</div>
+    <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-1"></div></div>
+    <div class="modal-body"><div class="pd2-content">
+      <div class="pd2-version-row"><div class="texto-version-tabs">
+        <div class="version-tab active" onclick="switchTexto('msg',this)">MSG</div>
         <div class="version-tab" onclick="switchTexto('ntv',this)">NBLA</div>
+      </div></div>
+      <div class="pd2-sec pd2-text-content">
+        <div class="texto-content active" id="texto-msg"><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
+        <div class="texto-content" id="texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
       </div>
-      <div class="texto-content active" id="texto-msg">
-        <div class="texto-versiculo">Marcos 4:35–41 — The Message (MSG)</div>
-        <div class="texto-italic">«Al caer la tarde ese mismo día, les dijo: "Crucemos al otro lado." Dejaron a la multitud y lo llevaron en la barca tal como estaba. Otras barcas iban con ellos. Se levantó una tormenta enorme. Las olas se lanzaban contra la barca hasta que ya casi se llenaba de agua. Y Jesús estaba en la popa, con la cabeza sobre una almohada, ¡durmiendo! Lo despertaron diciéndole: "Maestro, ¿no te importa que nos hundamos?" Despierto, reprendió al viento y le dijo al mar: "¡Silencio! ¡Cálmate!" El viento se quedó sin aliento y el mar quedó liso como un espejo. Jesús los miró: "¿Por qué son tan cobardes? ¿Todavía no tienen fe?" Quedaron paralizados de asombro, aturdidos. "¿Quién es este?", se preguntaban. "¡El viento y el mar le obedecen!"»</div>
-      </div>
-      <div class="texto-content" id="texto-ntv">
-        <div class="texto-versiculo">— NBLA</div>
-        <div class="texto-italic">"Al atardecer de ese mismo día, Jesús dijo a sus discípulos: 'Crucemos al otro lado del lago.' Así que dejaron a las multitudes y salieron con Jesús en la barca... Se desató una tormenta feroz y olas gigantescas entraban en la barca, la cual empezaba a llenarse de agua. Jesús estaba dormido en la parte posterior de la barca... Los discípulos lo despertaron: 'Maestro, ¿no te importa que nos ahoguemos?' Cuando Jesús se despertó, reprendió al viento y dijo a las olas: '¡Silencio! ¡Cálmense!' De repente el viento se detuvo y hubo una gran calma. Luego él les preguntó: '¿Por qué tienen miedo? ¿Todavía no tienen fe?'"</div>
-      </div>
-      <button class="done-btn show" onclick="cerrarModalConMarca(1)" style="margin-top:20px">✓ Leí el pasaje</button>
-    </div>
+      <button class="done-btn show pd2-complete-btn" onclick="cerrarModalConMarca(1)">✓ Leí el pasaje</button>
+    </div></div>
   </div>
 </div>
 
 <!-- Modal Análisis -->
-<div class="modal" id="modal-2">
+<div class="modal pd2-modal" id="modal-2">
   <div class="modal-bg" onclick="cerrarModalConMarca(2)"></div>
-  <div class="modal-sheet">
+  <div class="modal-sheet pd2-root">
     <div class="modal-handle"></div>
-    <div class="modal-header">
-      <div class="modal-title">A — Análisis</div>
+    <div class="pd2-hero">
       <button class="modal-close" onclick="cerrarModalConMarca(2)">×</button>
+      <div class="pd2-hero-badge" id="pd2-mobile-badge-2">A</div>
+      <div class="pd2-hero-brand">S · T · A · R · S</div>
+      <div class="pd2-hero-title">Análisis</div>
+      <div class="pd2-hero-sub">3 min · Desarrollo del texto · Paso 3 de 5</div>
     </div>
-    <div class="modal-body">
-      <div class="analisis-block">
-        <p>Este grito no es traición, ni es rebeldía deliberada. No es que los discípulos tengan malas intenciones o que rechacen a Jesús. Es el resultado directo y predecible de una mentalidad que procesa la tormenta como abandono. Cuando tu filtro interpreta el peligro como una prueba de que el Padre se ha ausentado, la reacción inevitable, la más humana y comprensible, es el reclamo: <em>¿no te importa que nos hundamos?</em> Cualquiera que haya estado en una tormenta real, de las que quitan el sueño y agotan el alma, ha sentido ese mismo impulso.</p>
+    <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-2"></div></div>
+    <div class="modal-body"><div class="pd2-content">
+      <div class="pd2-idea" id="pd2-mobile-idea"><div class="pd2-idea-rule"></div><div class="pd2-idea-label">Idea central</div><div class="pd2-idea-text" id="pd2-mobile-idea-text"></div><div class="pd2-idea-rule"></div></div>
+      <div class="pd2-sec" style="border-top:0;padding-top:0">
+        <p class="pd2-welcome" id="pd2-mobile-bienvenida"></p>
+        <div class="analisis-block"><p class="pd2-lede"></p></div>
+        <div class="analisis-block"><p class="pd2-paragraph"></p></div>
+        <div class="analisis-block"><p class="pd2-paragraph"></p></div>
+        <div class="pd2-analisis-footer">Mayor que mi Realidad es Su Verdad</div>
       </div>
-      <div class="analisis-separator"></div>
-      <div class="analisis-block">
-        <p>Lo que salió de la boca de los discípulos fue la expresión directa del filtro que operaba bajo la superficie, procesando la crisis con una lógica transaccional: si el Padre está aquí y hay tormenta, o no sabe lo que pasa, o no le importa, o no puede hacer nada. Ese «algo falló» se convierte en reclamo, revelando un marco mental que ve la obediencia como un contrato y la dificultad como deuda impagada. Una mente no renovada toma la promesa más clara del Padre y la procesa a través del miedo hasta volverla irreconocible.</p>
-      </div>
-      <div class="analisis-separator"></div>
-      <div class="analisis-block">
-        <p>Esa pregunta final de Jesús no es una condena, sino una invitación a observar el propio marco mental en acción. Estar en medio de una tormenta y reclamar no es señal de que eres incrédulo, sino evidencia de que tu <em>nous</em> todavía está procesando la realidad desde el miedo y desde la lógica de la transacción. Ese es exactamente el punto de partida de la renovación mental — no el final del camino. Jesús no abandona a quien reclama en la tormenta.</p>
-      </div>
-      <button class="done-btn show" onclick="cerrarModalConMarca(2)" style="margin-top:8px">✓ He leído el análisis</button>
-    </div>
+      <button class="done-btn show pd2-complete-btn" onclick="cerrarModalConMarca(2)">✓ He leído el análisis</button>
+    </div></div>
   </div>
 </div>
 
 <!-- Modal Reflexión -->
-<div class="modal" id="modal-3">
+<div class="modal pd2-modal" id="modal-3">
   <div class="modal-bg"></div>
-  <div class="modal-sheet">
+  <div class="modal-sheet pd2-root">
     <div class="modal-handle"></div>
-    <div class="modal-header">
-      <div class="modal-title">R — Reflexión</div>
+    <div class="pd2-hero">
       <button class="modal-close" onclick="guardarReflexionYCerrar()">×</button>
+      <div class="pd2-hero-badge" id="pd2-mobile-badge-3">R</div>
+      <div class="pd2-hero-brand">S · T · A · R · S</div>
+      <div class="pd2-hero-title">Reflexión</div>
+      <div class="pd2-hero-sub">2 min · Pregunta personal · Paso 4 de 5</div>
     </div>
-    <div class="modal-body">
-      <div class="reflexion-pregunta" id="reflexion-pregunta-txt"></div>
-      <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px"><span style="font-size:1.25rem">📓</span><span style="font-size:0.8125rem;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span></div>
-      <button class="done-btn show" onclick="guardarReflexionYCerrar()" style="margin-top:16px">✓ Listo</button>
-    </div>
+    <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-3"></div></div>
+    <div class="modal-body"><div class="pd2-content">
+      <div class="pd2-sec pd2-center" style="border-top:0;padding-top:0">
+        <div class="pd2-eyebrow">Pregunta de reflexión</div>
+        <div class="reflexion-pregunta pd2-question" id="reflexion-pregunta-txt"></div>
+        <div class="pd2-note">📓 Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</div>
+      </div>
+      <button class="done-btn show pd2-complete-btn" onclick="guardarReflexionYCerrar()">✓ Listo</button>
+    </div></div>
   </div>
 </div>
 
 <!-- Modal Sembrar -->
-<div class="modal" id="modal-4">
+<div class="modal pd2-modal" id="modal-4">
   <div class="modal-bg"></div>
-  <div class="modal-sheet">
+  <div class="modal-sheet pd2-root">
     <div class="modal-handle"></div>
-    <div class="modal-header">
-      <div class="modal-title">S — Sembrar</div>
+    <div class="pd2-hero">
       <button class="modal-close" onclick="guardarSembrarYCerrar()">×</button>
+      <div class="pd2-hero-badge" id="pd2-mobile-badge-4">S</div>
+      <div class="pd2-hero-brand">S · T · A · R · S</div>
+      <div class="pd2-hero-title">Sembrar</div>
+      <div class="pd2-hero-sub">2 min · Práctica concreta · Paso 5 de 5</div>
     </div>
-    <div class="modal-body">
-      <div class="sembrar-practica" id="sembrar-practica-txt"></div>
-      <div class="oracion-cierre-card">
-        <div class="oracion-cierre-label">Oración de cierre</div>
-        <div class="oracion-cierre-texto" id="oracion-cierre-texto"></div>
-      </div>
-      <div id="frase-card" class="frase-card" onclick="abrirFrasePantalla()">
-        <div class="frase-card-inner">
-          <div class="frase-card-tag">Frase para hoy · toca para verla en pantalla completa</div>
-          <div class="frase-texto" id="frase-texto"></div>
-          <div class="frase-ref" id="frase-ref"></div>
-        </div>
-      </div>
-      <button class="done-btn show" onclick="guardarSembrarYCerrar()">✓ Completar el día</button>
-    </div>
+    <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-4"></div></div>
+    <div class="modal-body"><div class="pd2-content">
+      <div class="pd2-sec pd2-center" style="border-top:0;padding-top:0"><div class="pd2-eyebrow">Práctica del día</div><div class="sembrar-practica pd2-practice" id="sembrar-practica-txt"></div></div>
+      <div class="pd2-sec pd2-boxed" id="pd2-mobile-oracion-card"><div class="oracion-cierre-card"><div class="oracion-cierre-label">Oración de cierre</div><div class="oracion-cierre-texto" id="oracion-cierre-texto"></div></div></div>
+      <div class="pd2-sec" id="pd2-mobile-frase-host"></div>
+      <button class="done-btn show pd2-complete-btn" onclick="guardarSembrarYCerrar()">✓ Completar el día</button>
+    </div></div>
   </div>
 </div>
 
@@ -3451,60 +3510,181 @@ function getDevoHoy(){
   return DEVOCIONALES[hoy] || null;
 }
 
+
+const PASO_DIARIO_META = Object.freeze([
+  {letra:'S',nombre:'Silencio',detalle:'5 min · Oración breve'},
+  {letra:'T',nombre:'Texto',detalle:'3 min · Lectura bíblica'},
+  {letra:'A',nombre:'Análisis',detalle:'3 min · Desarrollo del texto'},
+  {letra:'R',nombre:'Reflexión',detalle:'2 min · Pregunta personal'},
+  {letra:'S',nombre:'Sembrar',detalle:'2 min · Práctica concreta'}
+]);
+let _pd2TextoDesktop = 'msg';
+const _pd2FraseEstado = {mobile:{estilo:'clasico',formato:'9:16'},desktop:{estilo:'clasico',formato:'9:16'}};
+
+function pasoDiarioTrackHTML(actual, contexto){
+  return PASO_DIARIO_META.map((paso,idx)=>{
+    const done = isStepDone(idx);
+    const active = idx === actual;
+    const locked = !pasoDesbloqueado(idx);
+    const clases = ['pd2-track-node',done?'is-done':'',active?'is-active':'',locked?'is-locked':''].filter(Boolean).join(' ');
+    return `<button type="button" class="${clases}" ${locked?'disabled':''} onclick="pasoDiarioNavegarTrack(${actual},${idx},'${contexto}')" aria-label="${locked?'Paso bloqueado: ':''}${escaparHTML(paso.nombre)}">
+      <span class="pd2-track-dot">${done?'✓':paso.letra}</span><span class="pd2-track-label">${escaparHTML(paso.nombre)}</span>
+    </button>`;
+  }).join('');
+}
+
+function pasoDiarioHeroHTML(idx){
+  const paso = PASO_DIARIO_META[idx];
+  const done = isStepDone(idx);
+  return `<div class="pd2-hero"><div class="pd2-hero-badge" id="pd2-dsk-badge">${done?'✓':paso.letra}</div><div class="pd2-hero-brand">S · T · A · R · S</div><div class="pd2-hero-title">${escaparHTML(paso.nombre)}</div><div class="pd2-hero-sub">${escaparHTML(paso.detalle)} · Paso ${idx+1} de 5</div></div><div class="pd2-track-wrap"><div class="pd2-track" id="pd2-dsk-track">${pasoDiarioTrackHTML(idx,'desktop')}</div></div>`;
+}
+
+function pasoDiarioActualizarModal(idx){
+  const track = document.getElementById('pd2-mobile-track-'+idx);
+  if(track) track.innerHTML = pasoDiarioTrackHTML(idx,'mobile');
+  const badge = document.getElementById('pd2-mobile-badge-'+idx);
+  if(badge) badge.textContent = isStepDone(idx) ? '✓' : PASO_DIARIO_META[idx].letra;
+}
+
+function pasoDiarioActualizarTrackEstado(actual){
+  const dskTrack = document.getElementById('pd2-dsk-track');
+  if(dskTrack) dskTrack.innerHTML = pasoDiarioTrackHTML(actual,'desktop');
+  const dskBadge = document.getElementById('pd2-dsk-badge');
+  if(dskBadge) dskBadge.textContent = isStepDone(actual) ? '✓' : PASO_DIARIO_META[actual].letra;
+  for(let i=0;i<5;i++){
+    const modal = document.getElementById('modal-'+i);
+    if(modal && modal.classList.contains('open')) pasoDiarioActualizarModal(i);
+  }
+}
+
+function pasoDiarioNavegarTrack(origen,destino,contexto){
+  if(destino === origen) return;
+  if(!pasoDesbloqueado(destino)){ showToast('Completa el paso anterior primero'); return; }
+  if(contexto === 'desktop'){ dskWsPaso(destino); return; }
+  cerrarModal(origen);
+  abrirPaso(destino);
+}
+
+function pasoDiarioTextoDesktop(version){
+  _pd2TextoDesktop = version === 'ntv' ? 'ntv' : 'msg';
+  document.querySelectorAll('[data-pd2-dsk-version]').forEach(btn=>btn.classList.toggle('active',btn.dataset.pd2DskVersion===_pd2TextoDesktop));
+  const msg = document.getElementById('pd2-dsk-texto-msg');
+  const nbla = document.getElementById('pd2-dsk-texto-ntv');
+  if(msg) msg.classList.toggle('active',_pd2TextoDesktop==='msg');
+  if(nbla) nbla.classList.toggle('active',_pd2TextoDesktop==='ntv');
+}
+
+function pasoDiarioFraseHTML(contexto,devo){
+  if(!devo?.frase) return '';
+  const estado = _pd2FraseEstado[contexto] || _pd2FraseEstado.mobile;
+  const fraseLimpia = String(devo.frase).replace(/^[\s"'«“”]+|[\s"'»“”]+$/g,'').trim();
+  return `<section class="est-v2-closing" data-pd2-frase-context="${contexto}">
+    <div class="est-v2-closing-eyebrow">Frase para hoy</div>
+    <div class="est-v2-quote">&ldquo;${escaparHTML(fraseLimpia)}&rdquo;</div>
+    <div class="est-v2-ref">${escaparHTML(devo.versiculo || '')}</div>
+    <div class="est-v2-download-label">Imagen descargable</div>
+    <div class="est-v2-image-styles">
+      ${[['clasico','Clásica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op=>`<button type="button" class="est-v2-image-style ${estado.estilo===op[0]?'is-active':''}" data-pd2-frase-estilo="${op[0]}" onclick="pasoDiarioFraseSet('${contexto}','estilo','${op[0]}')">${op[1]}</button>`).join('')}
+    </div>
+    <div class="est-v2-image-formats">
+      ${[['9:16','Historia 9:16'],['1:1','Cuadrado 1:1']].map(op=>`<button type="button" class="est-v2-image-format ${estado.formato===op[0]?'is-active':''}" data-pd2-frase-formato="${op[0]}" onclick="pasoDiarioFraseSet('${contexto}','formato','${op[0]}')">${op[1]}</button>`).join('')}
+    </div>
+    <div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div>
+    <button type="button" class="est-v2-download" onclick="pasoDiarioDescargarFrase('${contexto}')">Descargar imagen PNG</button>
+  </section>`;
+}
+
+function pasoDiarioFraseSet(contexto,tipo,valor){
+  const estado = _pd2FraseEstado[contexto];
+  if(!estado) return;
+  if(tipo === 'estilo') estado.estilo = valor;
+  if(tipo === 'formato') estado.formato = valor;
+  const root = document.querySelector('[data-pd2-frase-context="'+contexto+'"]');
+  if(root){
+    root.querySelectorAll('[data-pd2-frase-estilo]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.pd2FraseEstilo===estado.estilo));
+    root.querySelectorAll('[data-pd2-frase-formato]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.pd2FraseFormato===estado.formato));
+  }
+  pasoDiarioDibujarFrase(contexto);
+}
+
+async function pasoDiarioPintarFraseCanvas(canvas,contexto){
+  const devo = getDevoHoy();
+  if(!canvas || !devo?.frase) return false;
+  const estado = _pd2FraseEstado[contexto] || _pd2FraseEstado.mobile;
+  const W=1080,H=estado.formato==='1:1'?1080:1920;
+  canvas.width=W;canvas.height=H;
+  const ctx=canvas.getContext('2d'); if(!ctx) return false;
+  const paleta={
+    fondo:estudioV2ColorVar('--black','#0a0a0a'),fondo2:estudioV2ColorVar('--black2','#111111'),
+    acento:estudioV2ColorVar('--gold','#c9a84c'),acento2:estudioV2ColorVar('--gold2','#e8c97a'),
+    tinta:estudioV2ColorVar('--white','#f5f0e8'),suave:estudioV2ColorVar('--white2','#cabf9f')
+  };
+  const frase=String(devo.frase).replace(/^["'«“”]+|["'»“”]+$/g,'').trim();
+  if(estado.estilo==='editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,devo.versiculo||'');
+  else if(estado.estilo==='contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,devo.versiculo||'',await estudioV2CargarLogoCanvas());
+  else estudioV2PintarClasica(ctx,W,H,paleta,frase,devo.versiculo||'');
+  return true;
+}
+
+async function pasoDiarioDibujarFrase(contexto){
+  try{
+    const root=document.querySelector('[data-pd2-frase-context="'+contexto+'"]');
+    const canvas=root&&root.querySelector('.est-v2-canvas');
+    if(canvas) await pasoDiarioPintarFraseCanvas(canvas,contexto);
+  }catch(e){ console.warn('[STARS] No se pudo dibujar Frase para hoy:',e.message); }
+}
+
+function pasoDiarioSlugArchivo(valor){
+  return String(valor||'paso-diario').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'').slice(0,70)||'paso-diario';
+}
+
+async function pasoDiarioDescargarFrase(contexto){
+  const devo=getDevoHoy(); if(!devo?.frase) return;
+  const root=document.querySelector('[data-pd2-frase-context="'+contexto+'"]');
+  const canvas=(root&&root.querySelector('.est-v2-canvas'))||document.createElement('canvas');
+  const ok=await pasoDiarioPintarFraseCanvas(canvas,contexto); if(!ok) return;
+  const estado=_pd2FraseEstado[contexto]||_pd2FraseEstado.mobile;
+  canvas.toBlob(blob=>{
+    if(!blob) return;
+    const url=URL.createObjectURL(blob);const link=document.createElement('a');
+    link.download='frase-stars-'+getTodayKey()+'-'+pasoDiarioSlugArchivo(devo.versiculo)+'-'+estado.formato.replace(':','x')+'-'+estado.estilo+'.png';
+    link.href=url;document.body.appendChild(link);link.click();document.body.removeChild(link);
+    setTimeout(()=>{window.open(url,'_blank');showToast('Mantén presionada la imagen → Guardar');setTimeout(()=>URL.revokeObjectURL(url),30000);},500);
+  },'image/png');
+}
+
+function pasoDiarioRedibujarFrasesVisibles(){
+  requestAnimationFrame(()=>{['mobile','desktop'].forEach(ctx=>{if(document.querySelector('[data-pd2-frase-context="'+ctx+'"]')) pasoDiarioDibujarFrase(ctx);});});
+}
+
 function initPasoDiario(){
   const d = getDevoHoy();
   if(!d){
-    // Sin devocional para hoy — mostrar estado vacío
-    const titulo = document.getElementById('pd-titulo');
-    const versiculo = document.getElementById('pd-versiculo');
-    if(titulo) titulo.textContent = 'Devocional en camino…';
-    if(versiculo) versiculo.textContent = 'Próximamente';
-    return;
+    const titulo=document.getElementById('pd-titulo');const versiculo=document.getElementById('pd-versiculo');
+    if(titulo) titulo.textContent='Devocional en camino…';if(versiculo) versiculo.textContent='Próximamente';return;
   }
-  // Header card
-  document.getElementById('pd-titulo').textContent = d.titulo;
-  const dDt=document.getElementById('dsk-pd-titulo'); if(dDt) dDt.textContent=d.titulo;
-  document.getElementById('pd-versiculo').textContent = d.versiculo;
-  // Tag del paso
-  const tagEl = document.getElementById('pd-tag');
-  if(tagEl && d.tag) tagEl.textContent = d.tag;
-  // Modal Silencio
-  const orEl = document.querySelector('.oracion-text');
-  if(orEl) orEl.textContent = '\u201c' + d.oracion + '\u201d';
-  // Modal Texto MSG
-  const msgRef = document.querySelector('#texto-msg .texto-versiculo');
-  const msgBody = document.querySelector('#texto-msg .texto-italic');
-  if(msgRef) msgRef.textContent = d.texto_msg.ref;
-  if(msgBody) msgBody.textContent = d.texto_msg.cuerpo;
-  // Modal Texto NTV
-  const ntvRef = document.querySelector('#texto-ntv .texto-versiculo');
-  const ntvBody = document.querySelector('#texto-ntv .texto-italic');
-  if(ntvRef) ntvRef.textContent = d.texto_ntv.ref;
-  if(ntvBody) ntvBody.textContent = d.texto_ntv.cuerpo;
-  // Modal Análisis
-  const bloques = document.querySelectorAll('#modal-2 .analisis-block');
-  d.analisis.forEach((txt, i) => {
-    if(bloques[i]) bloques[i].querySelector('p').innerHTML = sanearHTMLPermitido(txt);
-  });
-  // Modal Reflexión
-  const refEl = document.querySelector('.reflexion-pregunta');
-  if(refEl) refEl.innerHTML = '❓ ' + sanearHTMLPermitido(d.reflexion);
-  // Modal Sembrar
-  const semEl = document.getElementById('sembrar-practica-txt');
-  if(semEl) semEl.innerHTML = '🛠️ <strong>Práctica:</strong> ' + sanearHTMLPermitido(d.sembrar);
-  const orCierreEl = document.getElementById('oracion-cierre-texto');
-  if(orCierreEl) orCierreEl.textContent = d.oracion_cierre || '';
-  // Música de fondo — mostrar hint si hay URL configurada
-  const musicaHint = document.getElementById('musica-hint');
-  if(musicaHint) musicaHint.style.display = d.musica_url ? 'block' : 'none';
-  // Frase para hoy
-  const fraseEl = document.getElementById('frase-texto');
-  if(fraseEl && d.frase) fraseEl.textContent = d.frase;
-  const fraseRef = document.getElementById('frase-ref');
-  if(fraseRef) fraseRef.textContent = d.versiculo;
-  // Mostrar/ocultar la tarjeta de Frase según si existe
-  const fraseCard = document.getElementById('frase-card');
-  if(fraseCard) fraseCard.style.display = d.frase ? 'block' : 'none';
+  document.getElementById('pd-titulo').textContent=d.titulo;
+  const dDt=document.getElementById('dsk-pd-titulo');if(dDt)dDt.textContent=d.titulo;
+  document.getElementById('pd-versiculo').textContent=d.versiculo;
+  const tagEl=document.getElementById('pd-tag');if(tagEl&&d.tag)tagEl.textContent=d.tag;
+  const orEl=document.querySelector('#modal-0 .oracion-text');if(orEl)orEl.textContent='“'+d.oracion+'”';
+  const msgRef=document.querySelector('#texto-msg .texto-versiculo');const msgBody=document.querySelector('#texto-msg .texto-italic');
+  if(msgRef)msgRef.textContent=d.texto_msg.ref;if(msgBody)msgBody.textContent=d.texto_msg.cuerpo;
+  const ntvRef=document.querySelector('#texto-ntv .texto-versiculo');const ntvBody=document.querySelector('#texto-ntv .texto-italic');
+  if(ntvRef)ntvRef.textContent=d.texto_ntv.ref;if(ntvBody)ntvBody.textContent=d.texto_ntv.cuerpo;
+  const idea=document.getElementById('pd2-mobile-idea');const ideaTxt=document.getElementById('pd2-mobile-idea-text');
+  if(idea&&ideaTxt){const visible=Boolean(d.idea_central&&String(d.idea_central).trim());idea.classList.toggle('is-visible',visible);ideaTxt.textContent=visible?d.idea_central:'';}
+  const bienvenida=document.getElementById('pd2-mobile-bienvenida');
+  if(bienvenida){const visible=Boolean(d.bienvenida&&String(d.bienvenida).trim());bienvenida.classList.toggle('is-visible',visible);bienvenida.innerHTML=visible?sanearHTMLPermitido(d.bienvenida):'';}
+  const bloques=document.querySelectorAll('#modal-2 .analisis-block');
+  bloques.forEach((bloque,i)=>{const txt=d.analisis?.[i]||'';bloque.style.display=txt?'block':'none';const p=bloque.querySelector('p');if(p)p.innerHTML=sanearHTMLPermitido(txt);});
+  const refEl=document.querySelector('#modal-3 .reflexion-pregunta');if(refEl)refEl.innerHTML=sanearHTMLPermitido(d.reflexion);
+  const semEl=document.getElementById('sembrar-practica-txt');if(semEl)semEl.innerHTML=sanearHTMLPermitido(d.sembrar);
+  const orCierreEl=document.getElementById('oracion-cierre-texto');const orCard=document.getElementById('pd2-mobile-oracion-card');
+  if(orCierreEl)orCierreEl.textContent=d.oracion_cierre||'';if(orCard)orCard.style.display=d.oracion_cierre?'block':'none';
+  const musicaHint=document.getElementById('musica-hint');if(musicaHint)musicaHint.style.display=d.musica_url?'flex':'none';
+  const fraseHost=document.getElementById('pd2-mobile-frase-host');
+  if(fraseHost){fraseHost.innerHTML=pasoDiarioFraseHTML('mobile',d);fraseHost.style.display=d.frase?'block':'none';if(d.frase)requestAnimationFrame(()=>pasoDiarioDibujarFrase('mobile'));}
 }
 
 /* ══════════ INIT ══════════ */
@@ -3672,13 +3852,13 @@ function dskWsEmpty(){
   document.getElementById('dsk-ws-empty').style.display = 'flex';
   const innerEl = document.getElementById('dsk-ws-inner');
   innerEl.style.display = 'none';
-  innerEl.classList.remove('dsk-ws-inner--wide');
+  innerEl.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario');
   document.getElementById('dsk-ws-title').textContent = 'Espacio de trabajo';
 }
 function dskWsShow(titulo, html){
   document.getElementById('dsk-ws-empty').style.display = 'none';
   const inner = document.getElementById('dsk-ws-inner');
-  inner.classList.remove('dsk-ws-inner--wide');
+  inner.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario');
   inner.style.display = 'block';
   inner.style.zoom = _dskFontSize / 15;
   inner.innerHTML = html;
@@ -3860,20 +4040,11 @@ function dskMarcarPaso(idx){
 }
 
 function dskBtnConfirmar(idx){
-  if(idx === 0 && !window.ADMIN_MODE) return '';
-  const key = getTodayKey();
-  const done = isPasoDone(key,idx);
-  const action = done ? '' : 'onclick="dskMarcarPaso('+idx+')"';
-  return `<button id="dsk-confirmar-${idx}" ${done?'disabled':''} ${action}
-    style="margin-top:20px;padding:10px 20px;border-radius:20px;font-size:0.75rem;font-weight:700;
-    font-family:'Outfit',sans-serif;cursor:${done?'default':'pointer'};letter-spacing:0.06em;transition:all 0.2s;
-    opacity:${done?'0.75':'1'};
-    background:${done?'var(--green-dim)':'var(--gold-dim)'};
-    border:1px solid ${done?'var(--green-border)':'var(--gold-border)'};
-    color:${done?'var(--green2)':'var(--gold)'}">
-    ${done?'✓ Completado':'Marcar como completado'}
-  </button>`;
+  if(idx===0&&!window.ADMIN_MODE)return '';
+  const key=getTodayKey();const done=isPasoDone(key,idx);const action=done?'':'onclick="dskMarcarPaso('+idx+')"';
+  return `<button id="dsk-confirmar-${idx}" class="pd2-complete-btn" ${done?'disabled':''} ${action}>${done?'✓ Completado':'Marcar como completado'}</button>`;
 }
+
 
 function dskActualizarBadgesPasos(){
   const key = getTodayKey();
@@ -3896,96 +4067,33 @@ function dskActualizarBadgesPasos(){
 }
 
 function dskWsPaso(idx){
-  // Bloqueo secuencial — igual que mobile
-  if(!pasoDesbloqueado(idx)){
-    showToast('Completa el paso anterior primero');
-    return;
+  const devo=getDevoHoy();if(!devo)return;
+  if(!pasoDesbloqueado(idx)){showToast('Completa el paso anterior primero');return;}
+  const PASO_TITLES=['S — Silencio','T — Texto','A — Análisis','R — Reflexión','S — Sembrar'];
+  let contenido='';
+  if(idx===0){
+    const timerTerminado=_dskTimerSecs<=0;const timerOffset=timerTerminado?0:264*(_dskTimerSecs/300);const timerStroke=timerTerminado?'var(--green2)':'var(--gold)';
+    const timerLabel=timerTerminado?'✓':Math.floor(_dskTimerSecs/60)+':'+String(_dskTimerSecs%60).padStart(2,'0');const btnLabel=timerTerminado?'Finalizado':(_dskTimerRunning?'Corriendo…':'Iniciar silencio');
+    const btnOpacity=timerTerminado?'0.75':(_dskTimerRunning?'0.5':'1');const btnCursor=(timerTerminado||_dskTimerRunning)?'default':'pointer';
+    contenido=`<div class="pd2-sec pd2-center"><div class="pd2-eyebrow">Oración de apertura</div><div class="pd2-opening">“${escaparHTML(devo.oracion)}”</div><div class="pd2-opening-ref">— Oración de apertura · El Paso Diario</div>
+      ${devo.musica_url?`<div class="pd2-music-card"><div class="pd2-music-icon">🎵</div><div class="pd2-music-info"><div class="pd2-music-title">Música sugerida esta semana</div><div class="pd2-music-sub">Se abre al iniciar · YouTube</div></div><button class="pd2-music-btn" onclick="abrirMusicaSilencio()">Abrir ↗</button></div>`:''}</div>
+      <div class="pd2-sec pd2-center"><div class="pd2-timer-wrap"><svg width="120" height="120" viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="var(--black5)" stroke-width="4"/><circle id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="${timerStroke}" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="${timerOffset}" stroke-linecap="round" transform="rotate(-90 50 50)" style="transition:stroke-dashoffset 1s linear"/><text id="dsk-timer-label" x="50" y="57" text-anchor="middle" font-size="18" font-family="Outfit,sans-serif" fill="var(--white)" font-weight="300">${timerLabel}</text></svg><button id="dsk-timer-btn" onclick="dskIniciarTimer()" class="pd2-complete-btn" style="max-width:15rem;cursor:${btnCursor};opacity:${btnOpacity}">${btnLabel}</button></div></div>${dskBtnConfirmar(0)}`;
+  }else if(idx===1){
+    contenido=`<div class="pd2-version-row"><div class="texto-version-tabs"><button class="version-tab ${_pd2TextoDesktop==='msg'?'active':''}" data-pd2-dsk-version="msg" onclick="pasoDiarioTextoDesktop('msg')">MSG</button><button class="version-tab ${_pd2TextoDesktop==='ntv'?'active':''}" data-pd2-dsk-version="ntv" onclick="pasoDiarioTextoDesktop('ntv')">NBLA</button></div></div>
+      <div class="pd2-sec pd2-text-content"><div class="texto-content ${_pd2TextoDesktop==='msg'?'active':''}" id="pd2-dsk-texto-msg"><div class="texto-versiculo">${escaparHTML(devo.texto_msg.ref)}</div><div class="texto-italic">${escaparHTML(devo.texto_msg.cuerpo)}</div></div><div class="texto-content ${_pd2TextoDesktop==='ntv'?'active':''}" id="pd2-dsk-texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo">${escaparHTML(devo.texto_ntv.ref)}</div><div class="texto-italic pd2-nbla-reading">${escaparHTML(devo.texto_ntv.cuerpo)}</div></div></div>${dskBtnConfirmar(1)}`;
+  }else if(idx===2){
+    const idea=devo.idea_central&&String(devo.idea_central).trim()?`<div class="pd2-idea is-visible"><div class="pd2-idea-rule"></div><div class="pd2-idea-label">Idea central</div><div class="pd2-idea-text">${escaparHTML(devo.idea_central)}</div><div class="pd2-idea-rule"></div></div>`:'';
+    const bienvenida=devo.bienvenida&&String(devo.bienvenida).trim()?`<p class="pd2-welcome is-visible">${sanearHTMLPermitido(devo.bienvenida)}</p>`:'';
+    const parrafos=(devo.analisis||[]).map((p,i)=>`<p class="${i===0?'pd2-lede':'pd2-paragraph'}">${sanearHTMLPermitido(p)}</p>`).join('');
+    contenido=`${idea}<div class="pd2-sec" style="border-top:0;padding-top:0">${bienvenida}${parrafos}<div class="pd2-analisis-footer">Mayor que mi Realidad es Su Verdad</div></div>${dskBtnConfirmar(2)}`;
+  }else if(idx===3){
+    contenido=`<div class="pd2-sec pd2-center" style="border-top:0;padding-top:0"><div class="pd2-eyebrow">Pregunta de reflexión</div><div class="pd2-question">${sanearHTMLPermitido(devo.reflexion)}</div><div class="pd2-note">📓 Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</div></div>${dskBtnConfirmar(3)}`;
+  }else if(idx===4){
+    contenido=`<div class="pd2-sec pd2-center" style="border-top:0;padding-top:0"><div class="pd2-eyebrow">Práctica del día</div><div class="pd2-practice">${sanearHTMLPermitido(devo.sembrar)}</div></div>${devo.oracion_cierre?`<div class="pd2-sec pd2-boxed"><div class="oracion-cierre-card"><div class="oracion-cierre-label">Oración de cierre</div><div class="oracion-cierre-texto">“${escaparHTML(devo.oracion_cierre)}”</div></div></div>`:''}${devo.frase?`<div class="pd2-sec">${pasoDiarioFraseHTML('desktop',devo)}</div>`:''}${dskBtnConfirmar(4)}`;
   }
-
-  const devo = getDevoHoy();
-  if(!devo) return;
-  const musicaUrl = urlExternaSegura(devo.musica_url);
-
-  document.querySelectorAll('.dsk-hoy-item').forEach((el,i)=>el.classList.toggle('active-item',i===idx));
-
-  const PASO_TITLES = ['S — Silencio','T — Texto','A — Análisis','R — Reflexión','S — Sembrar'];
-  let html = '';
-
-  if(idx===0){ // Silencio
-    const key0 = getTodayKey();
-    const done0 = window.FB ? window.FB.getPaso(key0,0) : localStorage.getItem('stars_paso_'+key0+'_0')==='1';
-    const timerM = Math.floor(_dskTimerSecs/60);
-    const timerS = _dskTimerSecs%60;
-    const timerLabel = done0 ? '✓' : (timerM+':'+(timerS<10?'0':'')+timerS);
-    const timerOffset = done0 ? 0 : 264*(_dskTimerSecs/300);
-    const timerStroke = done0 ? 'var(--green2)' : 'var(--gold)';
-    const btnLabel = done0 ? '✓ Silencio completado' : (_dskTimerRunning ? 'Corriendo…' : (_dskTimerSecs < 300 ? 'Reanudar' : 'Iniciar silencio'));
-    const btnOpacity = (_dskTimerRunning || done0) ? '0.5' : '1';
-    const btnCursor = (_dskTimerRunning || done0) ? 'default' : 'pointer';
-    html = `<div>
-      <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Silencio · 5 min</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.7;font-style:italic;border-left:2px solid var(--gold-border);padding-left:16px;margin-bottom:20px">\u201C${escaparHTML(devo.oracion)}\u201D</div>
-      ${musicaUrl?`<div style="display:flex;align-items:center;justify-content:space-between;background:var(--black4);border:1px solid var(--gold-border);border-radius:8px;padding:10px 14px;margin-bottom:16px">
-        <div style="display:flex;align-items:center;gap:8px"><span>🎵</span><div><div style="font-size:0.6875rem;font-weight:600;color:var(--gold)">Música sugerida</div><div style="font-size:0.625rem;color:var(--white3)">YouTube · Esta semana</div></div></div>
-        <button data-url="${escaparHTML(musicaUrl)}" onclick="window.open(this.dataset.url,'_blank','noopener')" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.6875rem;font-weight:600;font-family:'Outfit',sans-serif;padding:6px 12px;border-radius:16px;cursor:pointer">Abrir ↗</button>
-      </div>`:''}
-      <div style="text-align:center;margin-bottom:16px">
-        <div style="display:inline-flex;flex-direction:column;align-items:center;gap:12px">
-          <svg viewBox="0 0 100 100" width="120" height="120">
-            <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="4"/>
-            <circle id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="${timerStroke}" stroke-width="4"
-              stroke-dasharray="264" stroke-dashoffset="${timerOffset}"
-              stroke-linecap="round" transform="rotate(-90 50 50)" style="transition:stroke-dashoffset 1s linear"/>
-            <text id="dsk-timer-label" x="50" y="57" text-anchor="middle" font-size="18" font-family="Outfit,sans-serif" fill="white" font-weight="300">${timerLabel}</text>
-          </svg>
-          <button id="dsk-timer-btn" onclick="dskIniciarTimer()" style="background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-size:0.75rem;font-weight:700;font-family:'Outfit',sans-serif;padding:10px 24px;border-radius:20px;cursor:${btnCursor};letter-spacing:0.06em;opacity:${btnOpacity}">${btnLabel}</button>
-        </div>
-      </div>
-      ${dskBtnConfirmar(0)}
-    </div>`;
-  } else if(idx===1){ // Texto
-    html = `<div>
-      <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">T — Texto · The Message</div>
-      <div style="font-size:0.625rem;color:var(--gold);margin-bottom:6px;font-weight:600">${escaparHTML(devo.texto_msg.ref)}</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.75;font-style:italic;margin-bottom:24px">${escaparHTML(devo.texto_msg.cuerpo)}</div>
-      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:6px;font-weight:600">${escaparHTML(devo.texto_ntv.ref)}</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.0625rem;color:var(--white2);line-height:1.75;font-style:italic;border-left:1px solid rgba(255,255,255,0.1);padding-left:16px">${escaparHTML(devo.texto_ntv.cuerpo)}</div>
-      ${dskBtnConfirmar(1)}
-    </div>`;
-  } else if(idx===2){ // Análisis
-    html = `<div>
-      <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:16px;font-weight:600">A — Análisis · Profundidad del texto</div>
-      ${devo.analisis.map((p,i)=>`<p style="margin:0 0 16px;line-height:1.85;color:var(--white2)">${sanearHTMLPermitido(p)}</p>`).join('')}
-      ${dskBtnConfirmar(2)}
-    </div>`;
-  } else if(idx===3){ // Reflexión
-    html = `<div>
-      <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">R — Reflexión</div>
-      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">❓ ${sanearHTMLPermitido(devo.reflexion)}</div>
-      <div style="margin-top:12px;padding:14px 16px;background:var(--black3);border:1px solid rgba(201,168,76,0.15);border-radius:10px;display:flex;align-items:center;gap:12px">
-        <span style="font-size:1.25rem">📓</span>
-        <span style="font-size:0.8125rem;color:var(--white3);line-height:1.55">Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</span>
-      </div>
-      ${dskBtnConfirmar(3)}
-    </div>`;
-  } else if(idx===4){ // Sembrar
-    html = `<div>
-      <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:12px;font-weight:600">S — Sembrar · Práctica del día</div>
-      <div style="background:var(--black4);border-radius:10px;padding:16px;margin-bottom:20px;line-height:1.7;color:var(--white2)">🛠️ <strong style="color:var(--white)">Práctica:</strong> ${sanearHTMLPermitido(devo.sembrar)}</div>
-      ${devo.oracion_cierre ? `<div style="background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.18);border-radius:10px;padding:16px;margin-bottom:16px">
-        <div style="font-size:0.5625rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.65;margin-bottom:8px;font-weight:600">Oración de cierre</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:1.0rem;color:var(--white2);line-height:1.65;font-style:italic">“${escaparHTML(devo.oracion_cierre)}”</div>
-      </div>` : ''}
-      ${devo.frase ? `<div style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:18px;margin-bottom:16px;cursor:pointer" onclick="dskWs('frase')">
-        <div style="font-size:0.5rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--gold);opacity:0.6;margin-bottom:10px">Frase para hoy · toca para verla</div>
-        <div style="font-family:'Cormorant Garamond',serif;font-size:1.125rem;color:var(--white);line-height:1.55;font-style:italic">“${escaparHTML(devo.frase)}”</div>
-        <div style="font-size:0.625rem;color:var(--white3);margin-top:10px">${escaparHTML(devo.versiculo)}</div>
-      </div>` : ''}
-      ${dskBtnConfirmar(4)}
-    </div>`;
-  }
-
-  dskWsShow(PASO_TITLES[idx], html);
+  const html=`<div class="pd2-root pd2-root--desktop" data-pd2-step="${idx}">${pasoDiarioHeroHTML(idx)}<div class="pd2-content">${contenido}</div></div>`;
+  dskWsShow(PASO_TITLES[idx],html);document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--paso-diario');
+  if(idx===4&&devo.frase)requestAnimationFrame(()=>pasoDiarioDibujarFrase('desktop'));
 }
 
 
@@ -4776,6 +4884,7 @@ function marcarPaso(i, opts={}){
   if(!yaEstaba) guardarPasoDone(fecha, i);
   pintarPasoDone(i, true);
   updatePasoPct(!yaEstaba && opts.notificarDia !== false);
+  pasoDiarioActualizarTrackEstado(i);
   return !yaEstaba;
 }
 
@@ -4784,6 +4893,7 @@ function abrirPaso(i){
     dskWsPaso(i);
     return;
   }
+  pasoDiarioActualizarModal(i);
   document.getElementById('modal-'+i).classList.add('open');
   document.body.style.overflow='hidden';
   // En modo admin: mostrar botón completar inmediatamente sin esperar timer
@@ -5591,63 +5701,13 @@ function cerrarFraseEstudio(){
   document.body.style.overflow = '';
 }
 
-function descargarFraseEstudio(frase, ref){
-  const W = 1080, H = 1920;
-  const canvas = document.createElement('canvas');
-  canvas.width = W; canvas.height = H;
-  const ctx = canvas.getContext('2d');
-
-  const grad = ctx.createLinearGradient(0,0,W,H);
-  grad.addColorStop(0,'#0f0d06'); grad.addColorStop(0.5,'#0a0a0a'); grad.addColorStop(1,'#070a07');
-  ctx.fillStyle = grad; ctx.fillRect(0,0,W,H);
-
-  const lineGrad = ctx.createLinearGradient(0,0,W,0);
-  lineGrad.addColorStop(0,'rgba(201,168,76,0)'); lineGrad.addColorStop(0.5,'rgba(201,168,76,0.85)'); lineGrad.addColorStop(1,'rgba(201,168,76,0)');
-  ctx.fillStyle = lineGrad; ctx.fillRect(0,0,W,5); ctx.fillRect(0,H-5,W,5);
-
-  const sideGrad = ctx.createLinearGradient(0,0,0,H);
-  sideGrad.addColorStop(0,'rgba(201,168,76,0)'); sideGrad.addColorStop(0.5,'rgba(201,168,76,0.1)'); sideGrad.addColorStop(1,'rgba(201,168,76,0)');
-  ctx.fillStyle = sideGrad; ctx.fillRect(0,0,3,H); ctx.fillRect(W-3,0,3,H);
-
-  ctx.textAlign = 'center';
-  ctx.font = '400 32px Outfit, sans-serif'; ctx.fillStyle = 'rgba(201,168,76,0.65)'; ctx.letterSpacing = '0.22em';
-  ctx.fillText('S · T · A · R · S', W/2, 200);
-  ctx.font = '300 22px Outfit, sans-serif'; ctx.fillStyle = 'rgba(255,255,255,0.22)'; ctx.letterSpacing = '0.18em';
-  ctx.fillText('L H S C O L', W/2, 258);
-
-  const mkSep = (cx,y,hw) => { const sg=ctx.createLinearGradient(cx-hw,0,cx+hw,0); sg.addColorStop(0,'rgba(201,168,76,0)'); sg.addColorStop(0.5,'rgba(201,168,76,0.55)'); sg.addColorStop(1,'rgba(201,168,76,0)'); ctx.fillStyle=sg; ctx.fillRect(cx-hw,y,hw*2,1); };
-  mkSep(W/2,310,130);
-
-  ctx.font = '260px Georgia, serif'; ctx.fillStyle = 'rgba(201,168,76,0.05)'; ctx.letterSpacing = '0';
-  ctx.fillText('\u201C', 110, H/2-80); ctx.fillText('\u201D', W-110, H/2+220);
-
-  ctx.font = 'italic 600 70px Georgia, serif'; ctx.fillStyle = '#f5f0e8'; ctx.letterSpacing = '0.01em';
-  const fraseMaxW = W-200; const words = frase.split(' ');
-  let lines=[],line='';
-  words.forEach(w=>{ const test=line?line+' '+w:w; if(ctx.measureText(test).width>fraseMaxW&&line){lines.push(line);line=w;}else line=test; });
-  if(line) lines.push(line);
-  const lineH=96, totalTextH=lines.length*lineH;
-  let ty=H/2-totalTextH/2+lineH/2;
-  lines.forEach(l=>{ctx.fillText(l,W/2,ty);ty+=lineH;});
-
-  const refY=H/2+totalTextH/2+90;
-  ctx.font='500 30px Outfit, sans-serif'; ctx.fillStyle='rgba(201,168,76,0.8)'; ctx.letterSpacing='0.12em';
-  ctx.fillText(ref.toUpperCase(), W/2, refY);
-  mkSep(W/2, refY+60, 90);
-
-  ctx.font='300 26px Outfit, sans-serif'; ctx.fillStyle='rgba(255,255,255,0.22)'; ctx.letterSpacing='0.16em';
-  ctx.fillText('@lhscol  ·  The Message', W/2, H-160);
-  ctx.font='300 20px Outfit, sans-serif'; ctx.fillStyle='rgba(255,255,255,0.1)'; ctx.letterSpacing='0.1em';
-  ctx.fillText('S · T · A · R · S — Estudio Bíblico Diario', W/2, H-108);
-
-  canvas.toBlob(blob=>{
-    const url=URL.createObjectURL(blob);
-    const link=document.createElement('a');
-    link.download='frase-stars-genesis1.png'; link.href=url;
-    document.body.appendChild(link); link.click(); document.body.removeChild(link);
-    setTimeout(()=>{ window.open(url,'_blank'); showToast('Mantén presionada la imagen → Guardar'); setTimeout(()=>URL.revokeObjectURL(url),30000); },500);
-  },'image/png');
+function descargarFraseEstudio(frase,ref){
+  const W=1080,H=1920;const canvas=document.createElement('canvas');canvas.width=W;canvas.height=H;const ctx=canvas.getContext('2d');
+  const paleta={fondo:estudioV2ColorVar('--black','#0a0a0a'),fondo2:estudioV2ColorVar('--black2','#111111'),acento:estudioV2ColorVar('--gold','#c9a84c'),acento2:estudioV2ColorVar('--gold2','#e8c97a'),tinta:estudioV2ColorVar('--white','#f5f0e8'),suave:estudioV2ColorVar('--white2','#cabf9f')};
+  estudioV2PintarClasica(ctx,W,H,paleta,String(frase||'').replace(/^["'«“”]+|["'»“”]+$/g,'').trim(),ref||'');
+  canvas.toBlob(blob=>{if(!blob)return;const url=URL.createObjectURL(blob);const link=document.createElement('a');link.download='frase-stars-'+pasoDiarioSlugArchivo(ref||'estudio')+'.png';link.href=url;document.body.appendChild(link);link.click();document.body.removeChild(link);setTimeout(()=>{window.open(url,'_blank');showToast('Mantén presionada la imagen → Guardar');setTimeout(()=>URL.revokeObjectURL(url),30000);},500);},'image/png');
 }
+
 
 /* ══════════ FRASE PARA HOY ══════════ */
 function abrirFrasePantalla(){
@@ -5666,126 +5726,10 @@ function cerrarFrasePantalla(){
   document.body.style.overflow = '';
 }
 function descargarFrase(){
-  const frase = document.getElementById('frase-texto')?.textContent || '';
-  const ref   = document.getElementById('frase-ref')?.textContent || '';
-  const W = 1080, H = 1920;
-  const canvas = document.createElement('canvas');
-  canvas.width = W; canvas.height = H;
-  const ctx = canvas.getContext('2d');
-
-  // Fondo degradado oscuro
-  const grad = ctx.createLinearGradient(0, 0, W, H);
-  grad.addColorStop(0,   '#0f0d06');
-  grad.addColorStop(0.5, '#0a0a0a');
-  grad.addColorStop(1,   '#070a07');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, W, H);
-
-  // Bordes dorados top/bottom
-  const lineGrad = ctx.createLinearGradient(0, 0, W, 0);
-  lineGrad.addColorStop(0,   'rgba(201,168,76,0)');
-  lineGrad.addColorStop(0.5, 'rgba(201,168,76,0.85)');
-  lineGrad.addColorStop(1,   'rgba(201,168,76,0)');
-  ctx.fillStyle = lineGrad;
-  ctx.fillRect(0, 0, W, 5);
-  ctx.fillRect(0, H - 5, W, 5);
-
-  // Bordes laterales sutiles
-  const sideGrad = ctx.createLinearGradient(0, 0, 0, H);
-  sideGrad.addColorStop(0,   'rgba(201,168,76,0)');
-  sideGrad.addColorStop(0.5, 'rgba(201,168,76,0.1)');
-  sideGrad.addColorStop(1,   'rgba(201,168,76,0)');
-  ctx.fillStyle = sideGrad;
-  ctx.fillRect(0, 0, 3, H);
-  ctx.fillRect(W - 3, 0, 3, H);
-
-  ctx.textAlign = 'center';
-
-  // Brand superior
-  ctx.font = '400 32px Outfit, sans-serif';
-  ctx.fillStyle = 'rgba(201,168,76,0.65)';
-  ctx.letterSpacing = '0.22em';
-  ctx.fillText('S · T · A · R · S', W / 2, 200);
-  ctx.font = '300 22px Outfit, sans-serif';
-  ctx.fillStyle = 'rgba(255,255,255,0.22)';
-  ctx.letterSpacing = '0.18em';
-  ctx.fillText('L H S C O L', W / 2, 258);
-
-  // Separador dorado fino superior
-  const mkSep = (cx, y, hw) => {
-    const sg = ctx.createLinearGradient(cx - hw, 0, cx + hw, 0);
-    sg.addColorStop(0, 'rgba(201,168,76,0)');
-    sg.addColorStop(0.5, 'rgba(201,168,76,0.55)');
-    sg.addColorStop(1, 'rgba(201,168,76,0)');
-    ctx.fillStyle = sg;
-    ctx.fillRect(cx - hw, y, hw * 2, 1);
-  };
-  mkSep(W / 2, 310, 130);
-
-  // Comillas decorativas de fondo
-  ctx.font = '260px Georgia, serif';
-  ctx.fillStyle = 'rgba(201,168,76,0.05)';
-  ctx.letterSpacing = '0';
-  ctx.fillText('\u201C', 110, H / 2 - 80);
-  ctx.fillText('\u201D', W - 110, H / 2 + 220);
-
-  // Frase — word wrap centrado verticalmente
-  ctx.font = 'italic 600 70px Georgia, serif';
-  ctx.fillStyle = '#f5f0e8';
-  ctx.letterSpacing = '0.01em';
-  const fraseMaxW = W - 200;
-  const words = frase.split(' ');
-  let lines = [], line = '';
-  words.forEach(w => {
-    const test = line ? line + ' ' + w : w;
-    if (ctx.measureText(test).width > fraseMaxW && line) { lines.push(line); line = w; }
-    else line = test;
-  });
-  if (line) lines.push(line);
-  const lineH = 96;
-  const totalTextH = lines.length * lineH;
-  let ty = H / 2 - totalTextH / 2 + lineH / 2;
-  lines.forEach(l => { ctx.fillText(l, W / 2, ty); ty += lineH; });
-
-  // Referencia bíblica
-  const refY = H / 2 + totalTextH / 2 + 90;
-  ctx.font = '500 30px Outfit, sans-serif';
-  ctx.fillStyle = 'rgba(201,168,76,0.8)';
-  ctx.letterSpacing = '0.12em';
-  ctx.fillText(ref.toUpperCase(), W / 2, refY);
-
-  // Separador dorado fino inferior
-  mkSep(W / 2, refY + 60, 90);
-
-  // Footer
-  ctx.font = '300 26px Outfit, sans-serif';
-  ctx.fillStyle = 'rgba(255,255,255,0.22)';
-  ctx.letterSpacing = '0.16em';
-  ctx.fillText('@lhscol  ·  The Message', W / 2, H - 160);
-  ctx.font = '300 20px Outfit, sans-serif';
-  ctx.fillStyle = 'rgba(255,255,255,0.1)';
-  ctx.letterSpacing = '0.1em';
-  ctx.fillText('S · T · A · R · S — Estudio Bíblico Diario', W / 2, H - 108);
-  // Descarga — la app corre desde file:// en Android
-  // Android bloquea descargas desde file://, incluso con blob URL
-  // Solución: abrir el PNG en pestaña nueva → usuario pulsa larga → "Guardar imagen"
-  canvas.toBlob(blob => {
-    const url = URL.createObjectURL(blob);
-    // Intentar descarga directa primero (funciona en desktop y algunos Android)
-    const link = document.createElement('a');
-    link.download = 'frase-stars-' + getTodayKey() + '.png';
-    link.href = url;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    // Abrir también en nueva pestaña como fallback para Android
-    setTimeout(() => {
-      window.open(url, '_blank');
-      showToast('Mantén presionada la imagen → Guardar');
-      setTimeout(() => URL.revokeObjectURL(url), 30000);
-    }, 500);
-  }, 'image/png');
+  const contexto=document.querySelector('[data-pd2-frase-context="desktop"]')?'desktop':'mobile';
+  pasoDiarioDescargarFrase(contexto);
 }
+
 
 /* ══════════ DASHBOARD DESKTOP ══════════ */
 function initDashboard(){
@@ -6430,6 +6374,7 @@ function _aplicarTema(id){
   _currentTema = id;
   localStorage.setItem('stars_tema', id);
   _actualizarTemaUI();
+  pasoDiarioRedibujarFrasesVisibles();
 }
 
 function _actualizarTemaUI(){
@@ -6462,6 +6407,7 @@ function toggleModo(){
   document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
   _actualizarConfigModoUI(esDia);
   localStorage.setItem('stars_modo', esDia ? 'dia' : 'noche');
+  pasoDiarioRedibujarFrasesVisibles();
 }
 
 function _actualizarConfigModoUI(esDia){
