@@ -1,0 +1,376 @@
+{
+    "schemaVersion":  2,
+    "libro":  "Salmos",
+    "slug":  "salmos",
+    "fecha":  "2026-07-25",
+    "portada":  {
+                    "kicker":  "S · T · A · R · S",
+                    "titulo":  "Salmos",
+                    "subtitulo":  "Toda la vida delante de Dios",
+                    "cita":  "“Todo lo que respira alabe al SEÑOR. ¡Aleluya!”",
+                    "referencia":  "Salmos 150:6",
+                    "metadatos":  [
+                                      "150 salmos · 5 libros"
+                                  ]
+                },
+    "bloques":  [
+                    {
+                        "tipo":  "editorial",
+                        "titulo":  "Antes de leer Salmos",
+                        "descripcion":  "Una orientación para comprender qué encontrarás en este libro.",
+                        "parrafos":  [
+                                         "Salmos reúne 150 poemas, oraciones y cantos que enseñaron a Israel a vivir delante de Dios. Aquí aparecen la adoración y el lamento, la gratitud y la protesta, el arrepentimiento y la esperanza. El libro no trata las emociones como interrupciones de la fe: las lleva a la presencia de Dios para que sean nombradas, examinadas y transformadas.",
+                                         "Salmos también cuenta una historia. La colección comienza con la invitación a meditar en la instrucción de Dios y con el anuncio de Su Rey ungido. Después atraviesa conflictos personales, crisis nacionales, destrucción, exilio y restauración. Termina con una secuencia de aleluyas en la que toda criatura es llamada a alabar. El movimiento completo lleva del camino de la sabiduría al reinado de Dios y de la súplica herida a la adoración universal.",
+                                         "Leer Salmos no consiste solamente en estudiar lo que otras personas sintieron. Es aprender un vocabulario para responder a Dios con verdad. Estos poemas nos permiten orar cuando tenemos palabras y cuando no las tenemos, y nos enseñan a recordar quién es el SEÑOR cuando la fidelidad de Dios es lo único que podemos sostener."
+                                     ],
+                        "definicionesTitulo":  "Qué hace particular a Salmos",
+                        "definiciones":  [
+                                             {
+                                                 "titulo":  "Oración formada por la Palabra",
+                                                 "texto":  "Salmos nos entrega palabras inspiradas para hablar con Dios. La oración bíblica no nace únicamente de la espontaneidad: también aprende a escuchar, recordar y responder a lo que Dios ha revelado."
+                                             },
+                                             {
+                                                 "titulo":  "Toda la experiencia humana delante de Dios",
+                                                 "texto":  "Gozo, temor, vergüenza, indignación, gratitud, cansancio y esperanza aparecen sin maquillaje. El libro muestra que la madurez espiritual no consiste en negar lo que sentimos, sino en llevarlo honestamente al Dios del pacto."
+                                             },
+                                             {
+                                                 "titulo":  "Lamento que todavía se dirige a Dios",
+                                                 "texto":  "Los salmos de lamento preguntan “¿hasta cuándo?”, describen la injusticia y piden intervención. Su protesta no abandona la relación; precisamente porque confían en el carácter de Dios se atreven a pedir que actúe de acuerdo con Su fidelidad."
+                                             },
+                                             {
+                                                 "titulo":  "Adoración personal y comunitaria",
+                                                 "texto":  "Algunos salmos nacen de una crisis individual y otros pertenecen al culto del pueblo. Juntos recuerdan que la fe tiene una voz personal, pero nunca queda reducida a una experiencia privada."
+                                             },
+                                             {
+                                                 "titulo":  "El Rey, el Reino y la esperanza mesiánica",
+                                                 "texto":  "Los salmos reales celebran al rey davídico y, al mismo tiempo, abren una esperanza que ningún rey humano logró completar. El Nuevo Testamento reconoce que esa esperanza encuentra su cumplimiento en Jesús, el Hijo y Rey definitivo."
+                                             },
+                                             {
+                                                 "titulo":  "Una colección cuidadosamente organizada",
+                                                 "texto":  "Los 150 salmos están distribuidos en cinco libros. Sus encabezados, agrupaciones y doxologías muestran que no fueron reunidos al azar. La colección guía al lector a través de memoria, crisis, confianza y alabanza."
+                                             }
+                                         ],
+                        "fraseAncla":  "Salmos nos enseña a llevar toda la vida delante de Dios hasta que nuestra voz aprende a descansar en Su verdad."
+                    },
+                    {
+                        "tipo":  "contexto",
+                        "titulo":  "Conoce el contexto",
+                        "descripcion":  "Autores, propósito, audiencia y claves que te ayudarán a leer mejor.",
+                        "definicionesTitulo":  "Quién, para quién y por qué",
+                        "definiciones":  [
+                                             {
+                                                 "titulo":  "Autores",
+                                                 "texto":  "Salmos no procede de una sola voz ni de una sola época. Muchos encabezados se relacionan con David; otros mencionan a Asaf, los hijos de Coré, Salomón, Moisés, Hemán y Etán. Cerca de un tercio de los salmos no identifica autor. Esta diversidad permite que el libro reúna experiencias personales, litúrgicas, reales, proféticas y comunitarias."
+                                             },
+                                             {
+                                                 "titulo":  "Fecha y formación",
+                                                 "texto":  "La colección incluye material relacionado con Moisés, la monarquía, el templo, la caída de Jerusalén, el exilio y la vida posterior al exilio. Por eso su formación abarca una larga historia. La forma final del Salterio reúne esas voces para que generaciones posteriores puedan orar su propia realidad dentro de la historia de la fidelidad de Dios."
+                                             },
+                                             {
+                                                 "titulo":  "Audiencia",
+                                                 "texto":  "Los salmos fueron recibidos por el pueblo de Israel para la oración personal y la adoración comunitaria. Sus palabras acompañaron el templo, las peregrinaciones, las celebraciones, la confesión, el duelo y la acción de gracias. La forma final del libro permite que nuevas generaciones entren en esas oraciones sin borrar las circunstancias en las que surgieron."
+                                             },
+                                             {
+                                                 "titulo":  "Propósito",
+                                                 "texto":  "Salmos forma una comunidad que aprende a vivir bajo el gobierno de Dios. Enseña a recordar Sus obras, lamentar el mal, confesar el pecado, pedir justicia, recibir perdón, practicar sabiduría, esperar al Rey prometido y responder con alabanza."
+                                             },
+                                             {
+                                                 "titulo":  "Uso en la adoración",
+                                                 "texto":  "Los salmos fueron cantados, recitados y orados. Muchos encabezados conservan información sobre autor, situación, género o uso musical. Esos encabezados orientan la lectura, aunque no siempre permiten reconstruir con precisión moderna la ocasión histórica."
+                                             },
+                                             {
+                                                 "titulo":  "Estructura",
+                                                 "texto":  "La división tradicional es: Libro I, Salmos 1–41; Libro II, 42–72; Libro III, 73–89; Libro IV, 90–106; y Libro V, 107–150. Los cierres doxológicos marcan las primeras cuatro divisiones, mientras el final del quinto libro conduce hacia la gran conclusión de alabanza."
+                                             },
+                                             {
+                                                 "titulo":  "Por qué importa hoy",
+                                                 "texto":  "La iglesia necesita un lenguaje de oración más amplio que el entusiasmo o las respuestas rápidas. Salmos permite adorar sin fingir, lamentar sin abandonar la esperanza y expresar dolor sin convertirlo en autoridad final. También corrige una espiritualidad individualista al unir la historia personal con la memoria y la adoración del pueblo de Dios."
+                                             }
+                                         ],
+                        "detallesTitulo":  "Claves de lectura",
+                        "detalles":  [
+                                         {
+                                             "titulo":  "Lee cada salmo como un poema completo",
+                                             "texto":  "Antes de extraer una frase, observa quién habla, a quién se dirige, qué situación describe y cómo se mueve el poema. Una línea verdadera puede quedar distorsionada cuando se separa del lamento, la confesión o la alabanza que le da sentido."
+                                         },
+                                         {
+                                             "titulo":  "Reconoce los géneros",
+                                             "texto":  "Hay himnos, lamentos, acciones de gracias, salmos reales, poemas de sabiduría, cantos de confianza, salmos de peregrinación y composiciones que combinan varios géneros. Identificar el tipo de salmo ayuda a comprender qué está haciendo su lenguaje."
+                                         },
+                                         {
+                                             "titulo":  "Observa el movimiento interno",
+                                             "texto":  "Muchos salmos cambian de queja a confianza, de peligro a recuerdo o de petición a alabanza. Ese giro no siempre significa que la circunstancia cambió. A menudo muestra que el orante volvió a ubicar su experiencia dentro del carácter y las promesas de Dios."
+                                         },
+                                         {
+                                             "titulo":  "Lee las imágenes como poesía",
+                                             "texto":  "Montañas que saltan, árboles que aplauden y lágrimas usadas como alimento son imágenes poéticas. Comunican verdad real mediante metáfora, intensidad y ritmo. Deben ser escuchadas como poesía, no rebajadas a datos técnicos ni usadas para construir doctrinas que el texto no pretende enseñar."
+                                         },
+                                         {
+                                             "titulo":  "Toma en serio el lamento",
+                                             "texto":  "El lamento no es un fallo espiritual que deba corregirse rápidamente. Nombra el dolor, pregunta, recuerda y pide ayuda. Algunos salmos terminan en confianza visible y otros, como el Salmo 88, conservan la oscuridad sin ofrecer una resolución inmediata."
+                                         },
+                                         {
+                                             "titulo":  "Entrega la justicia a Dios",
+                                             "texto":  "Algunas oraciones piden juicio con un lenguaje que puede resultar difícil. No autorizan venganza personal ni violencia religiosa. Exponen el mal, se niegan a llamarlo bueno y entregan la causa al Juez. Deben leerse dentro del llamado bíblico a amar al enemigo y confiar la justicia final a Dios."
+                                         },
+                                         {
+                                             "titulo":  "Observa el marco del libro",
+                                             "texto":  "Los Salmos 1 y 2 presentan la sabiduría y al Rey ungido como puerta de entrada. Los Salmos 146–150 comienzan y terminan con “¡Aleluya!”. Este marco no niega el lamento que atraviesa la colección; lo conduce hacia la confianza de que Dios reina."
+                                         },
+                                         {
+                                             "titulo":  "Observa cómo Jesús y los apóstoles leen Salmos",
+                                             "texto":  "Jesús y los apóstoles citan Salmos para hablar de la identidad del Mesías, Su sufrimiento, resurrección, exaltación y reinado. Estas conexiones nacen de la historia y la esperanza del Salterio; no convierten cada detalle en una predicción aislada."
+                                         }
+                                     ]
+                    },
+                    {
+                        "tipo":  "observacion",
+                        "titulo":  "Mientras lees, presta atención a…",
+                        "descripcion":  "Diez hilos que atraviesan la oración, la historia y la esperanza de Salmos.",
+                        "items":  [
+                                      {
+                                          "titulo":  "Los nombres y atributos de Dios",
+                                          "texto":  "Observa cómo los salmistas llaman a Dios roca, refugio, pastor, Rey, juez, creador, escudo y redentor. Cada imagen nace de una experiencia concreta y revela algo verdadero sin agotar quién es Él."
+                                      },
+                                      {
+                                          "titulo":  "El movimiento entre lamento y confianza",
+                                          "texto":  "Presta atención a las palabras que cambian la dirección del poema: “pero”, “sin embargo”, “yo recordaré”. Esos giros muestran cómo la fe aprende a hablar dentro del dolor."
+                                      },
+                                      {
+                                          "titulo":  "La memoria de las obras de Dios",
+                                          "texto":  "La creación, el éxodo, el desierto, la tierra y el pacto vuelven repetidamente. Recordar no es nostalgia: es una disciplina que interpreta el presente a la luz de la fidelidad pasada de Dios."
+                                      },
+                                      {
+                                          "titulo":  "El Rey y el Ungido",
+                                          "texto":  "Observa las promesas, responsabilidades y límites relacionados con el rey davídico. Pregunta cómo la crisis de la monarquía intensifica la esperanza de un Rey fiel cuyo gobierno alcance a las naciones."
+                                      },
+                                      {
+                                          "titulo":  "La justicia y el clamor de quienes sufren",
+                                          "texto":  "Los salmistas nombran violencia, opresión, mentira y abuso. Mira cómo piden que Dios defienda al pobre, juzgue el mal y establezca justicia sin tomar Su lugar como Juez."
+                                      },
+                                      {
+                                          "titulo":  "El templo y la presencia de Dios",
+                                          "texto":  "Sion, el santuario y la casa del SEÑOR expresan el deseo de vivir cerca de Dios y adorarlo con Su pueblo. Observa cómo esa presencia sostiene tanto la celebración como el anhelo durante la ausencia."
+                                      },
+                                      {
+                                          "titulo":  "La instrucción y el camino de la sabiduría",
+                                          "texto":  "Salmos 1, 19 y 119 conectan la Palabra de Dios con deleite, dirección y formación. La instrucción no aparece como información fría, sino como una senda que ordena deseos y decisiones."
+                                      },
+                                      {
+                                          "titulo":  "La creación que participa en la alabanza",
+                                          "texto":  "Cielos, mares, animales, árboles y naciones son convocados a reconocer al Creador. La adoración humana se ubica dentro de una creación entera que pertenece a Dios."
+                                      },
+                                      {
+                                          "titulo":  "La comunidad que responde",
+                                          "texto":  "Busca expresiones como “den gracias”, “vengan”, “cuenten” y “alaben”. Incluso un testimonio personal se abre con frecuencia para invitar al pueblo a participar."
+                                      },
+                                      {
+                                          "titulo":  "Las palabras retomadas por Jesús",
+                                          "texto":  "Observa los salmos que aparecen en Su enseñanza, en la entrada a Jerusalén, durante la pasión y en la interpretación apostólica de Su resurrección. Jesús no usa Salmos como adorno; habita su lenguaje y cumple su esperanza."
+                                      }
+                                  ]
+                    },
+                    {
+                        "tipo":  "recorrido",
+                        "titulo":  "El recorrido del libro",
+                        "descripcion":  "Los cinco libros que organizan el camino del Salterio.",
+                        "items":  [
+                                      {
+                                          "marcador":  "1",
+                                          "rango":  "Salmos 1–41",
+                                          "titulo":  "El camino, el Rey y las oraciones de David",
+                                          "queOcurre":  "Los dos salmos de entrada presentan la sabiduría y al Rey ungido. Después predominan oraciones vinculadas con David: peligro, confianza, pecado, protección y gratitud. El libro termina bendiciendo al SEÑOR, Dios de Israel.",
+                                          "escenas":  "los dos caminos; el Rey de Salmos 2; el Pastor de Salmos 23; la confesión de Salmos 32; la espera de Salmos 40.",
+                                          "pregunta":  "¿Cómo aprende una persona a confiar en Dios mientras atraviesa peligro, culpa y oposición?"
+                                      },
+                                      {
+                                          "marcador":  "2",
+                                          "rango":  "Salmos 42–72",
+                                          "titulo":  "Anhelo, reino y esperanza para las naciones",
+                                          "queOcurre":  "Las voces de los hijos de Coré, Asaf y David expresan sed por Dios, crisis comunitaria, confesión y esperanza real. El libro culmina con una oración por un rey justo cuyo gobierno bendiga a todas las naciones.",
+                                          "escenas":  "el alma sedienta; Dios como refugio; la confesión de Salmos 51; el clamor de Salmos 69; el rey justo de Salmos 72.",
+                                          "pregunta":  "¿Qué clase de Rey necesita el mundo y cómo transforma la esperanza la manera de orar?"
+                                      },
+                                      {
+                                          "marcador":  "3",
+                                          "rango":  "Salmos 73–89",
+                                          "titulo":  "Crisis del pacto y preguntas en la oscuridad",
+                                          "queOcurre":  "El libro enfrenta la prosperidad del malvado, la destrucción del santuario y la aparente caída de las promesas hechas a David. El Salmo 88 termina sin alivio visible; el 89 pregunta cómo se sostendrá el pacto en medio del desastre.",
+                                          "escenas":  "la crisis de Salmos 73; el santuario devastado; el recuerdo del éxodo; la oración sin resolución de Salmos 88; el pacto davídico en Salmos 89.",
+                                          "pregunta":  "¿Cómo permanece la fe cuando la realidad parece contradecir lo que Dios prometió?"
+                                      },
+                                      {
+                                          "marcador":  "4",
+                                          "rango":  "Salmos 90–106",
+                                          "titulo":  "Dios reina cuando los reinos humanos fallan",
+                                          "queOcurre":  "La oración de Moisés vuelve a la fragilidad humana y a la eternidad de Dios. Los salmos de entronización proclaman que el SEÑOR reina. La creación, el éxodo y la historia de Israel recuerdan que la esperanza final no depende de un poder humano.",
+                                          "escenas":  "la oración de Moisés; el refugio de Salmos 91; “el SEÑOR reina”; el llamado universal de Salmos 100; la memoria histórica de Salmos 105–106.",
+                                          "pregunta":  "¿Qué cambia cuando la seguridad descansa en el reinado de Dios y no en la estabilidad humana?"
+                                      },
+                                      {
+                                          "marcador":  "5",
+                                          "rango":  "Salmos 107–150",
+                                          "titulo":  "Restauración, peregrinación y aleluya",
+                                          "queOcurre":  "Los redimidos son llamados a dar gracias. Aparecen el Rey-sacerdote de Salmos 110, la gran celebración de la instrucción en Salmos 119 y los cantos de ascenso de peregrinos que suben a Jerusalén. El camino termina con cinco salmos de alabanza universal.",
+                                          "escenas":  "los redimidos que regresan; el Rey de Salmos 110; la Palabra en Salmos 119; los cantos de ascenso; el gran final de Salmos 146–150.",
+                                          "pregunta":  "¿Cómo convierte Dios la memoria del rescate en peregrinación, obediencia y alabanza?"
+                                      }
+                                  ]
+                    },
+                    {
+                        "tipo":  "temas",
+                        "titulo":  "Grandes temas de Salmos",
+                        "descripcion":  "Verdades que forman la oración y la esperanza del pueblo de Dios.",
+                        "items":  [
+                                      {
+                                          "titulo":  "Dios reina",
+                                          "queSignifica":  "El SEÑOR gobierna sobre la creación, las naciones y la historia. Su reinado permanece cuando los poderes humanos parecen dominantes o cuando la comunidad pierde sus seguridades visibles.",
+                                          "dondeObservarlo":  "Salmos 2; 24; 47; 93; 96–99; 103.",
+                                          "porQueImporta":  "La oración no niega el caos, pero se dirige al Rey verdadero. Su gobierno permite lamentar el mal sin creer que el mal tendrá la última palabra."
+                                      },
+                                      {
+                                          "titulo":  "Oración honesta",
+                                          "queSignifica":  "Los salmistas hablan con Dios desde la realidad, no desde una imagen religiosa cuidadosamente protegida. Preguntan, confiesan, protestan, agradecen y celebran.",
+                                          "dondeObservarlo":  "Salmos 6; 13; 22; 42–43; 51; 69; 88.",
+                                          "porQueImporta":  "Dios no exige una actuación espiritual para recibirnos. La honestidad bíblica abre el corazón a Su verdad y evita que el dolor se convierta en aislamiento."
+                                      },
+                                      {
+                                          "titulo":  "Lamento y esperanza",
+                                          "queSignifica":  "El lamento nombra lo que está roto y pide que Dios actúe. Con frecuencia incluye memoria, petición y una renovada declaración de confianza, aunque no siempre ofrece una resolución inmediata.",
+                                          "dondeObservarlo":  "Salmos 10; 44; 74; 77; 80; 85; 89.",
+                                          "porQueImporta":  "La iglesia puede acompañar el sufrimiento sin apresurarse a cerrarlo. Lamentar juntos es una forma de amor, verdad y perseverancia."
+                                      },
+                                      {
+                                          "titulo":  "Alabanza y gratitud",
+                                          "queSignifica":  "La alabanza responde al carácter y a las obras de Dios. La gratitud cuenta lo que Él ha hecho e invita a otros a reconocer Su fidelidad.",
+                                          "dondeObservarlo":  "Salmos 30; 34; 92; 100; 103; 107; 145–150.",
+                                          "porQueImporta":  "Alabar no es ignorar el dolor. Es recordar que la realidad incluye la bondad, el rescate y el reinado de Dios."
+                                      },
+                                      {
+                                          "titulo":  "Sabiduría y palabra",
+                                          "queSignifica":  "La vida florece cuando es formada por la instrucción de Dios. Meditar, guardar y amar Su Palabra orienta el corazón dentro de un mundo de caminos rivales.",
+                                          "dondeObservarlo":  "Salmos 1; 19; 37; 49; 73; 112; 119.",
+                                          "porQueImporta":  "La transformación requiere más que información ocasional. La verdad debe habitar los deseos, hábitos y decisiones cotidianas."
+                                      },
+                                      {
+                                          "titulo":  "Creación y cuidado de Dios",
+                                          "queSignifica":  "El cielo, la tierra y toda criatura pertenecen al Creador. Su poder no es distante: sostiene, alimenta, ordena y escucha la alabanza de lo que ha hecho.",
+                                          "dondeObservarlo":  "Salmos 8; 19; 29; 65; 104; 147–148.",
+                                          "porQueImporta":  "La vida humana recibe dignidad y límites dentro de la creación de Dios. Adorar al Creador también corrige la explotación y la autosuficiencia."
+                                      },
+                                      {
+                                          "titulo":  "Justicia y defensa del vulnerable",
+                                          "queSignifica":  "Dios ama la justicia, escucha al afligido y confronta la violencia, la mentira y la opresión. Los salmos piden que Su gobierno se haga visible.",
+                                          "dondeObservarlo":  "Salmos 9–10; 12; 35; 72; 82; 94; 146.",
+                                          "porQueImporta":  "La espiritualidad bíblica no es indiferente al abuso. Orar por justicia forma una comunidad que protege al vulnerable y se niega a usar la fe para encubrir el mal."
+                                      },
+                                      {
+                                          "titulo":  "Pecado, confesión y perdón",
+                                          "queSignifica":  "El pecado no es tratado como un error superficial. Rompe comunión, distorsiona el corazón y necesita confesión. La misericordia de Dios permite acercarse con verdad y recibir restauración.",
+                                          "dondeObservarlo":  "Salmos 25; 32; 38; 51; 103; 130.",
+                                          "porQueImporta":  "La gracia no minimiza el pecado ni deja al culpable atrapado en vergüenza. Produce arrepentimiento, limpieza y una vida renovada."
+                                      },
+                                      {
+                                          "titulo":  "Presencia, templo y peregrinación",
+                                          "queSignifica":  "Los salmistas anhelan la presencia de Dios y celebran reunirse con Su pueblo. Sion y el templo expresan adoración, pertenencia y esperanza, especialmente cuando parecen lejanos.",
+                                          "dondeObservarlo":  "Salmos 27; 42–43; 63; 84; 122; 132; 133.",
+                                          "porQueImporta":  "Fuimos formados para buscar a Dios con otros. La peregrinación recuerda que la fe tiene dirección y que ninguna comunidad humana reemplaza la presencia del SEÑOR."
+                                      },
+                                      {
+                                          "titulo":  "El Rey ungido y el Mesías",
+                                          "queSignifica":  "Los salmos reales hablan del rey davídico, su llamado y su responsabilidad. La insuficiencia de los reyes históricos abre la esperanza de un Ungido justo cuyo reinado sea definitivo.",
+                                          "dondeObservarlo":  "Salmos 2; 18; 45; 72; 89; 110; 118; 132.",
+                                          "porQueImporta":  "Jesús cumple la esperanza real sin copiar los modelos violentos de poder humano. Su reinado se revela en fidelidad, entrega, resurrección y autoridad verdadera."
+                                      },
+                                      {
+                                          "titulo":  "Los Salmos y Jesús",
+                                          "queSignifica":  "Jesús ora Salmos, los cita y es interpretado a su luz. El Nuevo Testamento conecta el Salterio con Su identidad, sufrimiento, resurrección y exaltación.",
+                                          "dondeObservarlo":  "Salmos 16; 22; 31; 41; 69; 110; 118; y sus usos en los Evangelios y Hechos.",
+                                          "porQueImporta":  "Leer cristológicamente no significa convertir cada línea en una predicción. Significa reconocer cómo la historia, el Rey, el justo sufriente y la esperanza del Salterio convergen en Jesús."
+                                      },
+                                      {
+                                          "titulo":  "Alabanza de toda la creación",
+                                          "queSignifica":  "El final de Salmos convoca a ángeles, pueblos, animales, elementos de la creación y toda persona que respira. La alabanza se amplía hasta alcanzar todo lo que Dios hizo.",
+                                          "dondeObservarlo":  "Salmos 96; 98; 117; 145–150.",
+                                          "porQueImporta":  "La adoración no termina encerrada en la experiencia privada. Anticipa el día en que toda la creación reconocerá al Creador y Rey."
+                                      }
+                                  ],
+                        "sintesis":  {
+                                         "titulo":  "Salmos en una mirada",
+                                         "texto":  "Salmos forma al pueblo de Dios para vivir toda la realidad delante de Él. Comienza con el camino de la sabiduría y la promesa del Rey, atraviesa oración, pecado, injusticia, exilio y restauración, y termina llamando a toda la creación a alabar. En este recorrido aprendemos que la fe puede lamentar sin abandonar a Dios, celebrar sin olvidar al que sufre y esperar en el reinado que encuentra su cumplimiento en Jesús."
+                                     },
+                        "fraseAncla":  "Toda emoción puede entrar en la presencia de Dios, pero ninguna sale de allí sin ser confrontada por Su verdad y sostenida por Su fidelidad."
+                    },
+                    {
+                        "tipo":  "recursos",
+                        "titulo":  "Para comprender mejor",
+                        "descripcion":  "Recursos seleccionados para profundizar cuando lo desees.",
+                        "introduccion":  "Estos recursos fueron seleccionados para ayudarte a observar la estructura, los géneros y el desarrollo de Salmos sin reemplazar la lectura del texto bíblico."
+                    }
+                ],
+    "recursos":  {
+                     "poster":  {
+                                    "fuente":  "Proyecto Biblia",
+                                    "titulo":  "Mapa visual de Salmos",
+                                    "descripcion":  "Una vista de la estructura, los cinco libros y los grandes temas del Salterio.",
+                                    "preview":  "estudios/intros/assets/salmos/salmos-poster-preview.jpg",
+                                    "full":  "estudios/intros/assets/salmos/salmos-poster-full.jpg",
+                                    "alt":  "Mapa visual del libro de Salmos"
+                                },
+                     "videos":  [
+                                    {
+                                        "fuente":  "Proyecto Biblia",
+                                        "titulo":  "Panorama de Salmos",
+                                        "descripcion":  "Una introducción visual a la formación, la estructura y el propósito del libro.",
+                                        "items":  [
+                                                      {
+                                                          "etiqueta":  "Panorama",
+                                                          "titulo":  "Resumen del libro de Salmos",
+                                                          "youtubeId":  "8yieTfiw_Ew"
+                                                      }
+                                                  ]
+                                    }
+                                ],
+                     "miniseries":  [
+
+                                    ],
+                     "rightnow":  [
+                                      {
+                                          "fuente":  "RightNow Media en Español",
+                                          "titulo":  "Salmos",
+                                          "descripcion":  "Una serie audiovisual para continuar profundizando en la oración y la adoración de Salmos.",
+                                          "trailer":  {
+                                                          "etiqueta":  "Tráiler",
+                                                          "titulo":  "Salmos · Serie RightNow Media",
+                                                          "youtubeId":  "g8wHEPFuMxs"
+                                                      },
+                                          "acceso":  {
+                                                         "label":  "Ver en RightNow Media",
+                                                         "url":  null,
+                                                         "estado":  "proximamente",
+                                                         "abrirEnNuevaPestana":  true
+                                                     }
+                                      }
+                                  ],
+                     "recomendaciones":  [
+                                             {
+                                                 "tipo":  "libro",
+                                                 "estado":  "Lectura recomendada",
+                                                 "lomo":  "SALMOS",
+                                                 "titulo":  "Los Salmos: el libro de oración de la Biblia",
+                                                 "fuente":  "Dietrich Bonhoeffer · Desclée de Brouwer",
+                                                 "descripcion":  "Una introducción breve y pastoral que enseña a recibir los Salmos como la escuela de oración que la propia Escritura entrega a la comunidad cristiana. Bonhoeffer relaciona oración, vida comunitaria y lectura centrada en Cristo sin convertir los salmos en frases aisladas. Es una puerta de entrada accesible para aprender a orar el libro, no solo estudiarlo."
+                                             }
+                                         ]
+                 },
+    "cierre":  {
+                   "eyebrow":  "Ya conoces el contexto",
+                   "titulo":  "Ahora entra al texto",
+                   "texto":  "Ya conoces el contexto, los grandes temas y el recorrido de Salmos. Ahora deja que el texto forme tu oración.",
+                   "firma":  "La introducción orienta. La Escritura permanece en el centro."
+               },
+    "config":  {
+                   "acordeonInicial":  null,
+                   "mostrarHiloDorado":  true
+               }
+}
