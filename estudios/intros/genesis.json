@@ -185,7 +185,7 @@
       "descripcion": "Los grandes movimientos que organizan la historia de Génesis.",
       "items": [
         {
-          "marcador": "01",
+          "marcador": "1",
           "rango": "Génesis 1–2",
           "titulo": "Creación, humanidad y vocación",
           "queOcurre": "Dios crea un mundo ordenado, abundante y lleno de vida. La humanidad es creada a Su imagen, recibe dignidad, responsabilidad y un lugar dentro de la creación. El jardín presenta una vida de comunión con Dios, relación, trabajo y confianza.",
@@ -193,7 +193,7 @@
           "pregunta": "¿Qué revela el diseño original acerca de Dios, de la identidad humana y de la forma en que fuimos llamados a vivir?"
         },
         {
-          "marcador": "02",
+          "marcador": "2",
           "rango": "Génesis 3–11",
           "titulo": "Rebelión, violencia y dispersión",
           "queOcurre": "La humanidad desconfía de Dios y busca definir el bien y el mal por cuenta propia. La ruptura se extiende desde el jardín hacia la familia, la sociedad y las naciones. Caín mata a Abel, la violencia aumenta, llega el diluvio y Babel expresa el intento humano de construir seguridad y grandeza sin depender de Dios.",
@@ -201,7 +201,7 @@
           "pregunta": "¿Cómo pasa la desconfianza hacia Dios de ser una decisión personal a convertirse en una realidad que afecta familias, culturas y comunidades?"
         },
         {
-          "marcador": "03",
+          "marcador": "3",
           "rango": "Génesis 12–25",
           "titulo": "Abraham y el comienzo de la promesa",
           "queOcurre": "Dios llama a Abraham a dejar su tierra y promete darle descendencia, una tierra y una misión de bendición para todas las familias. La espera será larga y estará llena de decisiones de fe, miedo, obediencia, impaciencia y aprendizaje.",
@@ -209,7 +209,7 @@
           "pregunta": "¿Qué significa confiar en una promesa cuando todavía no existen evidencias visibles de su cumplimiento?"
         },
         {
-          "marcador": "04",
+          "marcador": "4",
           "rango": "Génesis 25–36",
           "titulo": "Isaac, Jacob y una familia en transformación",
           "queOcurre": "La promesa continúa mediante Isaac y después mediante Jacob. Las rivalidades familiares, el favoritismo, el engaño y la lucha por la bendición producen heridas profundas. Jacob debe salir, aprender, ser confrontado y regresar. En el camino descubre que la bendición no puede obtenerse únicamente mediante control o astucia.",
@@ -217,7 +217,7 @@
           "pregunta": "¿Qué debe cambiar dentro de Jacob para que deje de vivir únicamente mediante control, competencia y autoprotección?"
         },
         {
-          "marcador": "05",
+          "marcador": "5",
           "rango": "Génesis 37–50",
           "titulo": "José, reconciliación y preservación",
           "queOcurre": "El favoritismo y los celos llevan a los hermanos de José a venderlo. José llega a Egipto, atraviesa injusticia y años de espera, pero finalmente recibe una responsabilidad que permitirá preservar muchas vidas durante el hambre. La familia vuelve a encontrarse, enfrenta su pasado y llega a Egipto, donde la promesa continuará hacia la siguiente etapa.",
@@ -341,7 +341,7 @@
           {
             "etiqueta": "Génesis 1–11",
             "titulo": "Dios y el mundo",
-            "youtubeId": "EIg-9xxZxzc"
+            "youtubeId": "HQMKA6w5ZZM"
           },
           {
             "etiqueta": "Génesis 12–50",
@@ -351,7 +351,30 @@
         ]
       }
     ],
-    "miniseries": [],
+    "miniseries": [
+      {
+        "fuente": "Proyecto Biblia",
+        "titulo": "Génesis · Serie de la Torá",
+        "descripcion": "Dos episodios que presentan el tema principal del libro de Génesis dentro de la Serie de la Torá.",
+        "etiqueta": "Miniserie de 2 episodios",
+        "items": [
+          {
+            "episodio": "Episodio 1",
+            "rango": "Génesis · Parte 1",
+            "titulo": "Panorama del libro de Génesis · Parte 1",
+            "descripcion": "Primera parte del recorrido temático de Génesis dentro de la Serie de la Torá.",
+            "youtubeId": "EIg-9xxZxzc"
+          },
+          {
+            "episodio": "Episodio 2",
+            "rango": "Génesis · Parte 2",
+            "titulo": "El tema principal del libro de Génesis · Parte 2",
+            "descripcion": "Segunda parte del recorrido temático de Génesis dentro de la Serie de la Torá.",
+            "youtubeId": "MLhplmsb_vk"
+          }
+        ]
+      }
+    ],
     "rightnow": [
       {
         "fuente": "RightNow Media en Español",
