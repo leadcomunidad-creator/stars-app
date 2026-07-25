@@ -1,0 +1,479 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Una verdad parcial puede funcionar como engaño cuando se utiliza para producir una conclusión falsa. NBLA fija la afirmación directa de Abraham y el contexto del bloque confirma que Sara es su mujer; MSG conserva la brevedad calculada de la frase. El texto no justifica la estrategia porque una parte de lo dicho sea técnicamente cierta.",
+      "id": "genesis20-joya-01",
+      "msg": {
+        "en": "“She’s my sister.”",
+        "es": "«Ella es mi hermana»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-02b"
+          ],
+          "verseId": "genesis20-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios toma con absoluta seriedad que Abimélec haya tomado a una mujer casada, aunque lo hiciera sin conocer toda la verdad. NBLA fija la sentencia «hombre muerto» y MSG vuelve inmediata su urgencia mediante una expresión cotidiana. La advertencia no declara consumado el pecado sexual, pues el relato aclara que Dios impidió que Abimélec tocara a Sara.",
+      "id": "genesis20-joya-02",
+      "msg": {
+        "en": "“You’re as good as dead”",
+        "es": "«Puedes darte por muerto»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-03b"
+          ],
+          "verseId": "genesis20-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-3"
+    },
+    {
+      "explanation": "La gracia de Dios puede poner límites al mal antes de que una persona alcance a reconocer el peligro. NBLA fija que Dios es quien guarda a Abimélec de pecar; MSG comunica esa intervención de manera directa y personal. El pasaje describe una acción específica de Dios y no autoriza a atribuirle automáticamente toda decisión humana que no llegó a realizarse.",
+      "id": "genesis20-joya-03",
+      "msg": {
+        "en": "“I kept you from sinning against me”",
+        "es": "«te impedí pecar contra mí»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-06b"
+          ],
+          "verseId": "genesis20-nbla-06"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "El temor de Abraham se apoyó en una percepción previa que necesitaba ser examinada. NBLA dirige la pregunta hacia aquello que Abraham creyó ver o encontrar en Gerar; MSG la vuelve una confrontación pastoral sobre su manera de pensar. La corrección no procede de un personaje impecable, sino de un gobernante extranjero que en esta escena responde con mayor claridad moral.",
+      "id": "genesis20-joya-04",
+      "msg": {
+        "en": "“Whatever were you thinking of when you did this thing?”",
+        "es": "«¿En qué estabas pensando cuando hiciste esto?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-10b"
+          ],
+          "verseId": "genesis20-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "La reparación incluye restaurar públicamente la dignidad de Sara después de haber sido expuesta por la estrategia de Abraham. NBLA fija que la vindicación ocurre delante de todos y MSG concentra el resultado en una declaración personal. La compensación no borra el riesgo ni convierte la experiencia en algo bueno, pero impide que Sara permanezca bajo sospecha por una crisis que no provocó.",
+      "id": "genesis20-joya-05",
+      "msg": {
+        "en": "“You’re vindicated.”",
+        "es": "«Quedas vindicada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-16b"
+          ],
+          "verseId": "genesis20-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 20,
+    "studyId": "genesis-20"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "genesis20-msg-01",
+      "msg": {
+        "en": "Abraham traveled from there south to the Negev and settled down between Kadesh and Shur. While he was camping in Gerar, Abraham said of his wife Sarah, “She’s my sister.”",
+        "es": "Abraham viajó desde allí hacia el sur, al Néguev, y se estableció entre Cades y Shur. Mientras acampaba en Gerar, Abraham dijo de Sara, su esposa: «Ella es mi hermana»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "genesis20-nbla-02a",
+            "genesis20-nbla-02b"
+          ],
+          "verseId": "genesis20-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "genesis20-msg-02",
+      "msg": {
+        "en": "So Abimelech, king of Gerar, sent for Sarah and took her. But God came to Abimelech in a dream that night and told him, “You’re as good as dead—that woman you took, she’s a married woman.”",
+        "es": "Así que Abimélec, rey de Gerar, mandó buscar a Sara y se la llevó. Pero aquella noche Dios se presentó ante Abimélec en un sueño y le advirtió: «Puedes darte por muerto: la mujer que tomaste está casada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis20-nbla-02c"
+          ],
+          "verseId": "genesis20-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "genesis20-msg-03",
+      "msg": {
+        "en": "Now Abimelech had not yet slept with her, hadn’t so much as touched her. He said, “Master, would you kill an innocent man? Didn’t he tell me, ‘She’s my sister’? And didn’t she herself say, ‘He’s my brother’? I had no idea I was doing anything wrong when I did this.”",
+        "es": "Abimélec todavía no se había acostado con ella; ni siquiera la había tocado. Dijo: «Señor, ¿matarías a un hombre inocente? ¿Acaso él no me dijo: “Ella es mi hermana”? ¿Y acaso ella misma no afirmó: “Él es mi hermano”? No tenía idea de que estuviera haciendo algo malo cuando hice esto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "genesis20-msg-04",
+      "msg": {
+        "en": "God said to him in the dream, “Yes, I know your intentions were pure, that’s why I kept you from sinning against me; I was the one who kept you from going to bed with her. So now give the man’s wife back to him. He’s a prophet and will pray for you—pray for your life. If you don’t give her back, know that it’s certain death both for you and everyone in your family.”",
+        "es": "Dios le dijo en el sueño: «Sí, sé que tus intenciones eran puras. Por eso te impedí pecar contra mí. Fui yo quien evitó que te acostaras con ella. Ahora devuelve la esposa a su marido. Él es profeta y orará por ti, orará por tu vida. Pero si no la devuelves, ten por seguro que morirán tú y todos los de tu familia»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "genesis20-msg-05",
+      "msg": {
+        "en": "Abimelech was up first thing in the morning. He called all his house servants together and told them the whole story. They were shocked. Then Abimelech called in Abraham and said, “What have you done to us? What have I ever done to you that you would bring on me and my kingdom this huge offense? What you’ve done to me ought never to have been done.”",
+        "es": "Abimélec se levantó a primera hora de la mañana, reunió a todos los servidores de su casa y les contó la historia completa. Todos quedaron conmocionados. Después mandó llamar a Abraham y le dijo: «¿Qué nos has hecho? ¿Qué te hice para que trajeras sobre mí y sobre mi reino una culpa tan grave? Lo que hiciste conmigo nunca debió ocurrir»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "genesis20-msg-06",
+      "msg": {
+        "en": "Abimelech went on to Abraham, “Whatever were you thinking of when you did this thing?”",
+        "es": "Abimélec continuó: «¿En qué estabas pensando cuando hiciste esto?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "genesis20-msg-07",
+      "msg": {
+        "en": "Abraham said, “I just assumed that there was no fear of God in this place and that they’d kill me to get my wife. Besides, the truth is that she is my half sister; she’s my father’s daughter but not my mother’s. When God sent me out as a wanderer from my father’s home, I told her, ‘Do me a favor; wherever we go, tell people that I’m your brother.’”",
+        "es": "Abraham respondió: «Simplemente supuse que en este lugar nadie temía a Dios y que me matarían para quedarse con mi esposa. Además, la verdad es que ella es mi media hermana: es hija de mi padre, pero no de mi madre. Cuando Dios me hizo salir de la casa de mi padre para vivir como extranjero, le dije: “Hazme este favor: dondequiera que vayamos, dile a la gente que soy tu hermano”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "genesis20-msg-08",
+      "msg": {
+        "en": "Then Abimelech gave Sarah back to Abraham, and along with her sent sheep and cattle and servants, both male and female. He said, “My land is open to you; live wherever you wish.”",
+        "es": "Abimélec devolvió a Sara a Abraham y, junto con ella, le entregó ovejas, ganado y servidores, hombres y mujeres. Luego le dijo: «Mi territorio está abierto para ti. Vive donde prefieras»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16",
+      "id": "genesis20-msg-09",
+      "msg": {
+        "en": "And to Sarah he said, “I’ve given your brother a thousand pieces of silver—that clears you of even a shadow of suspicion before the eyes of the world. You’re vindicated.”",
+        "es": "A Sara le dijo: «Le he entregado a tu hermano mil piezas de plata. Eso elimina hasta la sombra de cualquier sospecha ante los ojos de todos. Quedas vindicada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "genesis20-msg-10",
+      "msg": {
+        "en": "Then Abraham prayed to God and God healed Abimelech, his wife and his maidservants, and they started having babies again. For GOD had shut down every womb in Abimelech’s household on account of Sarah, Abraham’s wife.",
+        "es": "Entonces Abraham oró a Dios, y Dios sanó a Abimélec, a su esposa y a sus sirvientas; volvieron a tener hijos. Porque DIOS había detenido por completo toda concepción en la casa de Abimélec por causa de Sara, la esposa de Abraham."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis20-nbla-18"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis20-nbla-01",
+      "number": 1,
+      "text": "Abraham salió de donde estaba hacia la tierra del Neguev, y se estableció entre Cades y Shur. Entonces estuvo por un tiempo en Gerar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis20-nbla-02a",
+          "order": 1,
+          "text": "Abraham decía de Sara su mujer: «"
+        },
+        {
+          "id": "genesis20-nbla-02b",
+          "order": 2,
+          "text": "Es mi hermana»."
+        },
+        {
+          "id": "genesis20-nbla-02c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Entonces Abimelec, rey de Gerar, envió y tomó a Sara."
+        }
+      ],
+      "id": "genesis20-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis20-nbla-03a",
+          "order": 1,
+          "text": "Pero Dios vino a Abimelec en un sueño de noche, y le dijo: «"
+        },
+        {
+          "id": "genesis20-nbla-03b",
+          "order": 2,
+          "text": "Tú eres hombre muerto"
+        },
+        {
+          "id": "genesis20-nbla-03c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "por razón de la mujer que has tomado, pues está casada»."
+        }
+      ],
+      "id": "genesis20-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "genesis20-nbla-04",
+      "number": 4,
+      "text": "Pero Abimelec no se había acercado a ella, y dijo: «Señor, ¿destruirás a una nación aunque sea inocente?"
+    },
+    {
+      "id": "genesis20-nbla-05",
+      "number": 5,
+      "text": "¿No me dijo él mismo: “Es mi hermana”? Y ella también dijo: “Es mi hermano”. En la integridad de mi corazón y con manos inocentes yo he hecho esto»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis20-nbla-06a",
+          "order": 1,
+          "text": "Entonces Dios le dijo en el sueño: «Sí, Yo sé que en la integridad de tu corazón has hecho esto. Y además,"
+        },
+        {
+          "id": "genesis20-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Yo te guardé de pecar contra mí"
+        },
+        {
+          "id": "genesis20-nbla-06c",
+          "order": 3,
+          "text": ", por eso no te dejé que la tocaras."
+        }
+      ],
+      "id": "genesis20-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "genesis20-nbla-07",
+      "number": 7,
+      "text": "Ahora pues, devuelve la mujer al marido, porque él es profeta y orará por ti, y vivirás. Pero si no la devuelves, sabe que de cierto morirás, tú y todos los tuyos»."
+    },
+    {
+      "id": "genesis20-nbla-08",
+      "number": 8,
+      "text": "Abimelec se levantó muy de mañana, llamó a todos sus siervos y relató todas estas cosas a oídos de ellos; y los hombres se atemorizaron en gran manera."
+    },
+    {
+      "id": "genesis20-nbla-09",
+      "number": 9,
+      "text": "Entonces Abimelec llamó a Abraham, y le dijo: «¿Qué nos has hecho? ¿Y en qué he pecado contra ti, para que hayas traído sobre mí y sobre mi reino un pecado tan grande? Me has hecho cosas que no se deben hacer»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis20-nbla-10a",
+          "order": 1,
+          "text": "Abimelec añadió a Abraham: «"
+        },
+        {
+          "id": "genesis20-nbla-10b",
+          "order": 2,
+          "text": "¿Qué has hallado para que hayas hecho esto?»."
+        }
+      ],
+      "id": "genesis20-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "genesis20-nbla-11",
+      "number": 11,
+      "text": "Y Abraham respondió: «Porque me dije: Sin duda no hay temor de Dios en este lugar, y me matarán por causa de mi mujer."
+    },
+    {
+      "id": "genesis20-nbla-12",
+      "number": 12,
+      "text": "Además, en realidad es mi hermana, hija de mi padre, pero no hija de mi madre. Ella vino a ser mi mujer."
+    },
+    {
+      "id": "genesis20-nbla-13",
+      "number": 13,
+      "text": "Cuando Dios me hizo salir errante de la casa de mi padre, yo le dije a ella: “Este es el favor que me harás: a cualquier lugar que vayamos, dirás de mí: ‘Es mi hermano’”»."
+    },
+    {
+      "id": "genesis20-nbla-14",
+      "number": 14,
+      "text": "Entonces Abimelec tomó ovejas y vacas, siervos y siervas, y se los dio a Abraham, y le devolvió a Sara su mujer."
+    },
+    {
+      "id": "genesis20-nbla-15",
+      "number": 15,
+      "text": "Y le dijo Abimelec: «Mi tierra está delante de ti. Habita donde quieras»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis20-nbla-16a",
+          "order": 1,
+          "text": "A Sara le dijo: «Mira, he dado a tu hermano 1,000 monedas de plata. Esta es tu vindicación delante de todos los que están contigo, y"
+        },
+        {
+          "id": "genesis20-nbla-16b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ante todos quedas vindicada»."
+        }
+      ],
+      "id": "genesis20-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "genesis20-nbla-17",
+      "number": 17,
+      "text": "Abraham oró a Dios, y Dios sanó a Abimelec, a su mujer y a sus siervas, y tuvieron hijos."
+    },
+    {
+      "id": "genesis20-nbla-18",
+      "number": 18,
+      "text": "Porque el SEÑOR había cerrado completamente toda matriz en la casa de Abimelec por causa de Sara, mujer de Abraham."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

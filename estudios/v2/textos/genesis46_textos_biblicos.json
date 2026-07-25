@@ -1,0 +1,821 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La transición responsable comienza reconociendo a Dios antes de cruzar hacia lo desconocido. La NBLA fija el sacrificio ofrecido al Dios de Isaac; MSG hace explícito que ese acto es adoración. Jacob no inicia la etapa dependiendo únicamente de las carretas, el alimento o la posición de José, sino buscando al Dios que había sostenido a su familia.",
+      "id": "genesis46-joya-01",
+      "msg": {
+        "en": "“He arrived at Beersheba and worshiped, offering sacrifices to the God of his father Isaac.”",
+        "es": "“Llegó a Beerseba y adoró, ofreciendo sacrificios al Dios de su padre Isaac.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-01b"
+          ],
+          "verseId": "genesis46-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La presencia de Dios transforma el descenso temido en una etapa de la promesa. La NBLA une el mandato de no temer, la formación de la nación y la compañía divina; MSG conserva esa secuencia con tono directo. Dios no promete que Egipto carecerá de peligro, sino que Jacob no entrará solo y que el propósito del pacto seguirá avanzando allí.",
+      "id": "genesis46-joya-02",
+      "msg": {
+        "en": "“Don’t be afraid of going down to Egypt. I’m going to make you a great nation there. I’ll go with you down to Egypt”",
+        "es": "“No tengas miedo de bajar a Egipto. Allí haré de ti una gran nación. Yo bajaré contigo a Egipto”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-03b"
+          ],
+          "verseId": "genesis46-nbla-03"
+        },
+        {
+          "clauseIds": [
+            "genesis46-nbla-04a"
+          ],
+          "verseId": "genesis46-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El descenso a Egipto queda enmarcado por la promesa del regreso. Ambas versiones concentran la iniciativa en Dios: Él acompaña la entrada y garantiza que Egipto no será el destino definitivo del pueblo. Jacob morirá allí, pero su casa será traída de vuelta; la palabra divina mira más allá de una sola vida y sostiene la historia generacional del pacto.",
+      "id": "genesis46-joya-03",
+      "msg": {
+        "en": "“I’ll also bring you back here.”",
+        "es": "“también te traeré de regreso.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-04c"
+          ],
+          "verseId": "genesis46-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "Dios preserva la casa del pacto como una comunidad completa y no como individuos aislados. La NBLA enumera hijos, nietos, hijas y nietas; MSG culmina con la fuerza pastoral de «A todos». La salvación histórica de esta familia incluye generaciones y relaciones concretas, aun cuando cada una lleva su propia historia de fragilidad.",
+      "id": "genesis46-joya-04",
+      "msg": {
+        "en": "“Jacob brought everyone in his family with him—sons and grandsons, daughters and granddaughters. Everyone.”",
+        "es": "“Jacob llevó consigo a toda su familia: hijos y nietos, hijas y nietas. A todos.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "5-7"
+    },
+    {
+      "explanation": "La restauración de Dios no elimina la profundidad del dolor acumulado; permite que ese dolor sea expresado dentro del reencuentro. La NBLA conserva el abrazo y el llanto prolongado; MSG repite la acción para hacer sentir su duración. José y Jacob no necesitan fingir que los años de separación fueron pequeños para celebrar que la muerte aparente no tuvo la palabra final.",
+      "id": "genesis46-joya-05",
+      "msg": {
+        "en": "“The moment Joseph saw him, he threw himself on his neck and wept. He wept a long time.”",
+        "es": "“En cuanto lo vio, se echó sobre su cuello y lloró. Lloró durante largo tiempo.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-29b"
+          ],
+          "verseId": "genesis46-nbla-29"
+        }
+      ],
+      "order": 5,
+      "range": "28-29"
+    },
+    {
+      "explanation": "La esperanza revive cuando la noticia se convierte en encuentro. La NBLA une ver el rostro con saber que José vive; MSG hace audible la certeza personal de Jacob. La fe recibida mediante las carretas y el testimonio de sus hijos llega ahora a una confirmación relacional: el hijo perdido está presente delante de él.",
+      "id": "genesis46-joya-06",
+      "msg": {
+        "en": "“I’ve looked into your face—you are indeed alive.”",
+        "es": "“He contemplado tu rostro: de verdad estás vivo”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-30b"
+          ],
+          "verseId": "genesis46-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "30"
+    },
+    {
+      "explanation": "La providencia de Dios incluye una ubicación concreta donde la familia podrá vivir, trabajar y conservar su identidad. La NBLA señala el propósito de habitar en Gosén; MSG subraya la separación que resultará de su oficio. Aquello que los egipcios desprecian se convierte, dentro del gobierno de Dios, en un medio para establecer y preservar a Israel.",
+      "id": "genesis46-joya-07",
+      "msg": {
+        "en": "“That way he’ll let you stay apart in the area of Goshen”",
+        "es": "“De esa manera les permitirá vivir separados en la región de Gosén”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis46-nbla-34b"
+          ],
+          "verseId": "genesis46-nbla-34"
+        }
+      ],
+      "order": 7,
+      "range": "31-34"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 46,
+    "studyId": "genesis-46"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis46-msg-01",
+      "msg": {
+        "en": "So Israel set out on the journey with everything he owned. He arrived at Beersheba and worshiped, offering sacrifices to the God of his father Isaac.",
+        "es": "Así que Israel emprendió el viaje con todo lo que poseía. Llegó a Beerseba y adoró, ofreciendo sacrificios al Dios de su padre Isaac."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "genesis46-msg-02",
+      "msg": {
+        "en": "God spoke to Israel in a vision that night: “Jacob! Jacob!”\n“Yes?” he said. “I’m listening.”",
+        "es": "Dios le habló a Israel aquella noche en una visión: «¡Jacob! ¡Jacob!».\n«¿Sí?», respondió. «Te escucho»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "genesis46-msg-03",
+      "msg": {
+        "en": "God said, “I am the God of your father. Don’t be afraid of going down to Egypt. I’m going to make you a great nation there. I’ll go with you down to Egypt; I’ll also bring you back here. And when you die, Joseph will be with you; with his own hand he’ll close your eyes.”",
+        "es": "Dios dijo: «Yo soy el Dios de tu padre. No tengas miedo de bajar a Egipto. Allí haré de ti una gran nación. Yo bajaré contigo a Egipto y también te traeré de regreso. Y cuando mueras, José estará contigo; con su propia mano cerrará tus ojos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "genesis46-msg-04",
+      "msg": {
+        "en": "Then Jacob left Beersheba. Israel’s sons loaded their father and their little ones and their wives on the wagons Pharaoh had sent to carry him. They arrived in Egypt with the livestock and the wealth they had accumulated in Canaan. Jacob brought everyone in his family with him—sons and grandsons, daughters and granddaughters. Everyone.",
+        "es": "Entonces Jacob salió de Beerseba. Los hijos de Israel subieron a su padre, a sus pequeños y a sus esposas en las carretas que el faraón había enviado para transportarlo. Llegaron a Egipto con el ganado y los bienes que habían acumulado en Canaán. Jacob llevó consigo a toda su familia: hijos y nietos, hijas y nietas. A todos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis46-msg-05",
+      "msg": {
+        "en": "These are the names of the Israelites, Jacob and his descendants, who went to Egypt:\nReuben, Jacob’s firstborn.",
+        "es": "Estos son los nombres de los israelitas —Jacob y sus descendientes— que fueron a Egipto:\nRubén, el primogénito de Jacob."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "genesis46-msg-06",
+      "msg": {
+        "en": "Reuben’s sons: Hanoch, Pallu, Hezron, and Carmi.",
+        "es": "Los hijos de Rubén: Hanoc, Falú, Hezrón y Carmi."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10",
+      "id": "genesis46-msg-07",
+      "msg": {
+        "en": "Simeon’s sons: Jemuel, Jamin, Ohad, Jakin, Zohar, and Shaul the son of a Canaanite woman.",
+        "es": "Los hijos de Simeón: Jemuel, Jamín, Ohad, Jaquín, Zohar y Saúl, hijo de una mujer cananea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11",
+      "id": "genesis46-msg-08",
+      "msg": {
+        "en": "Levi’s sons: Gershon, Kohath, and Merari.",
+        "es": "Los hijos de Leví: Gersón, Coat y Merari."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-11"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "12",
+      "id": "genesis46-msg-09",
+      "msg": {
+        "en": "Judah’s sons: Er, Onan, Shelah, Perez, and Zerah (Er and Onan had already died in the land of Canaan). The sons of Perez were Hezron and Hamul.",
+        "es": "Los hijos de Judá: Er, Onán, Sela, Fares y Zara —Er y Onán ya habían muerto en la tierra de Canaán—. Los hijos de Fares fueron Hezrón y Hamul."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-12"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "13",
+      "id": "genesis46-msg-10",
+      "msg": {
+        "en": "Issachar’s sons: Tola, Puah, Jashub, and Shimron.",
+        "es": "Los hijos de Isacar: Tola, Fúa, Jasub y Simrón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-13"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "14",
+      "id": "genesis46-msg-11",
+      "msg": {
+        "en": "Zebulun’s sons: Sered, Elon, and Jahleel.",
+        "es": "Los hijos de Zabulón: Sered, Elón y Jahleel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-14"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "15",
+      "id": "genesis46-msg-12",
+      "msg": {
+        "en": "These are the sons that Leah bore to Jacob in Paddan Aram. There was also his daughter Dinah. Altogether, sons and daughters, they numbered thirty-three.",
+        "es": "Estos son los hijos que Lea le dio a Jacob en Padán Aram. También estaba su hija Dina. En total, entre hijos e hijas, eran treinta y tres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-15"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "16",
+      "id": "genesis46-msg-13",
+      "msg": {
+        "en": "Gad’s sons: Zephon, Haggi, Shuni, Ezbon, Eri, Arodi, and Areli.",
+        "es": "Los hijos de Gad: Zefón, Hagui, Suni, Ezbón, Eri, Arodi y Areli."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-16"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "17",
+      "id": "genesis46-msg-14",
+      "msg": {
+        "en": "Asher’s sons: Imnah, Ishvah, Ishvi, and Beriah. Also their sister Serah, and Beriah’s sons, Heber and Malkiel.",
+        "es": "Los hijos de Aser: Imna, Isúa, Isúi y Bería. También su hermana Sera, y los hijos de Bería: Heber y Malquiel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-17"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "18",
+      "id": "genesis46-msg-15",
+      "msg": {
+        "en": "These are the children that Zilpah, the maid that Laban gave to his daughter Leah, bore to Jacob—sixteen of them.",
+        "es": "Estos son los hijos que Zilpa —la sierva que Labán había dado a su hija Lea— le dio a Jacob: dieciséis en total."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-18"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "genesis46-msg-16",
+      "msg": {
+        "en": "The sons of Jacob’s wife Rachel were Joseph and Benjamin. Joseph was the father of two sons, Manasseh and Ephraim, from his marriage to Asenath daughter of Potiphera, priest of On. They were born to him in Egypt. Benjamin’s sons were Bela, Beker, Ashbel, Gera, Naaman, Ehi, Rosh, Muppim, Huppim, and Ard.",
+        "es": "Los hijos de Raquel, esposa de Jacob, fueron José y Benjamín. José tuvo dos hijos, Manasés y Efraín, de su matrimonio con Asenat, hija de Potifera, sacerdote de On. Ellos le nacieron en Egipto. Los hijos de Benjamín fueron Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-21"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "22",
+      "id": "genesis46-msg-17",
+      "msg": {
+        "en": "These are the children born to Jacob through Rachel—fourteen.",
+        "es": "Estos son los hijos que Jacob tuvo por medio de Raquel: catorce en total."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-22"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "23",
+      "id": "genesis46-msg-18",
+      "msg": {
+        "en": "Dan’s son: Hushim.",
+        "es": "El hijo de Dan: Husim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-23"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "24",
+      "id": "genesis46-msg-19",
+      "msg": {
+        "en": "Naphtali’s sons: Jahziel, Guni, Jezer, and Shillem.",
+        "es": "Los hijos de Neftalí: Jahziel, Guni, Jezer y Silem."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-24"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "25",
+      "id": "genesis46-msg-20",
+      "msg": {
+        "en": "These are the children born to Jacob through Bilhah, the maid Laban had given to his daughter Rachel—seven.",
+        "es": "Estos son los hijos que Jacob tuvo por medio de Bilha, la sierva que Labán había dado a su hija Raquel: siete en total."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-25"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "genesis46-msg-21",
+      "msg": {
+        "en": "Summing up, all those who went down to Egypt with Jacob—his own children, not counting his sons’ wives—numbered sixty-six. Counting in the two sons born to Joseph in Egypt, the members of Jacob’s family who ended up in Egypt numbered seventy.",
+        "es": "En total, todos los que bajaron a Egipto con Jacob —su propia descendencia, sin contar las esposas de sus hijos— eran sesenta y seis. Al incluir a los dos hijos que le nacieron a José en Egipto, los miembros de la familia de Jacob que llegaron a estar en Egipto eran setenta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-27"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "genesis46-msg-22",
+      "msg": {
+        "en": "Jacob sent Judah on ahead to get directions to Goshen from Joseph. When they got to Goshen, Joseph gave orders for his chariot and went to Goshen to meet his father Israel. The moment Joseph saw him, he threw himself on his neck and wept. He wept a long time.",
+        "es": "Jacob envió a Judá por delante para que José le indicara el camino a Gosén. Cuando llegaron a Gosén, José mandó preparar su carro y fue allí a encontrarse con su padre Israel. En cuanto lo vio, se echó sobre su cuello y lloró. Lloró durante largo tiempo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-29"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "30",
+      "id": "genesis46-msg-23",
+      "msg": {
+        "en": "Israel said to Joseph, “I’m ready to die. I’ve looked into your face—you are indeed alive.”",
+        "es": "Israel le dijo a José: «Ya estoy listo para morir. He contemplado tu rostro: de verdad estás vivo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-30"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "31-34",
+      "id": "genesis46-msg-24",
+      "msg": {
+        "en": "Joseph then spoke to his brothers and his father’s family. “I’ll go and tell Pharaoh, ‘My brothers and my father’s family, all of whom lived in Canaan, have come to me. The men are shepherds; they’ve always made their living by raising livestock. And they’ve brought their flocks and herds with them, along with everything else they own.’ When Pharaoh calls you in and asks what kind of work you do, tell him, ‘Your servants have always kept livestock for as long as we can remember—we and our parents also.’ That way he’ll let you stay apart in the area of Goshen—for Egyptians look down on anyone who is a shepherd.”",
+        "es": "Después José habló con sus hermanos y con la familia de su padre: «Iré a informar al faraón: “Mis hermanos y la familia de mi padre, que vivían en Canaán, han venido a mí. Estos hombres son pastores; siempre se han ganado la vida criando ganado. Han traído sus rebaños y sus manadas, además de todo lo que poseen”. Cuando el faraón los llame y les pregunte a qué se dedican, respóndanle: “Tus servidores siempre hemos criado ganado, desde que tenemos memoria; también nuestros padres”. De esa manera les permitirá vivir separados en la región de Gosén, porque los egipcios desprecian a cualquiera que sea pastor»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis46-nbla-34"
+        }
+      ],
+      "order": 24
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-01a",
+          "order": 1,
+          "text": "Israel salió con todo lo que tenía y"
+        },
+        {
+          "id": "genesis46-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "llegó a Beerseba, y ofreció sacrificios al Dios de su padre Isaac."
+        }
+      ],
+      "id": "genesis46-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "genesis46-nbla-02",
+      "number": 2,
+      "text": "Y Dios habló a Israel en una visión nocturna, y dijo: «Jacob, Jacob». Y él respondió: «Aquí estoy»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-03a",
+          "order": 1,
+          "text": "Y Él dijo: «Yo soy Dios, el Dios de tu padre;"
+        },
+        {
+          "id": "genesis46-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no temas descender a Egipto, porque allí te haré una gran nación."
+        }
+      ],
+      "id": "genesis46-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-04a",
+          "order": 1,
+          "text": "Yo descenderé contigo a Egipto"
+        },
+        {
+          "id": "genesis46-nbla-04b",
+          "order": 2,
+          "text": ", y"
+        },
+        {
+          "id": "genesis46-nbla-04c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "ciertamente, Yo también te haré volver"
+        },
+        {
+          "id": "genesis46-nbla-04d",
+          "order": 4,
+          "text": "; y José cerrará tus ojos»."
+        }
+      ],
+      "id": "genesis46-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "genesis46-nbla-05",
+      "number": 5,
+      "text": "Entonces Jacob se fue de Beerseba. Los hijos de Israel llevaron a su padre Jacob, y a sus pequeños y a sus mujeres, en las carretas que Faraón había enviado para llevarlo."
+    },
+    {
+      "id": "genesis46-nbla-06",
+      "number": 6,
+      "text": "Y tomaron sus ganados y los bienes que habían acumulado en la tierra de Canaán y vinieron a Egipto, Jacob y toda su descendencia con él:"
+    },
+    {
+      "id": "genesis46-nbla-07",
+      "number": 7,
+      "text": "sus hijos y sus nietos con él, sus hijas y sus nietas. A toda su descendencia trajo consigo a Egipto."
+    },
+    {
+      "id": "genesis46-nbla-08",
+      "number": 8,
+      "text": "Estos son los nombres de los hijos de Israel, Jacob y sus hijos, que fueron a Egipto: Rubén, primogénito de Jacob."
+    },
+    {
+      "id": "genesis46-nbla-09",
+      "number": 9,
+      "text": "Los hijos de Rubén: Hanoc, Falú, Hezrón y Carmi."
+    },
+    {
+      "id": "genesis46-nbla-10",
+      "number": 10,
+      "text": "Los hijos de Simeón: Jemuel, Jamín, Ohad, Jaquín, Zohar y Saúl, hijo de la cananea."
+    },
+    {
+      "id": "genesis46-nbla-11",
+      "number": 11,
+      "text": "Los hijos de Leví: Gersón, Coat y Merari."
+    },
+    {
+      "id": "genesis46-nbla-12",
+      "number": 12,
+      "text": "Los hijos de Judá: Er, Onán, Sela, Fares y Zara, pero Er y Onán murieron en la tierra de Canaán. Los hijos de Fares fueron Hezrón y Hamul."
+    },
+    {
+      "id": "genesis46-nbla-13",
+      "number": 13,
+      "text": "Los hijos de Isacar: Tola, Fúa, Job y Simrón."
+    },
+    {
+      "id": "genesis46-nbla-14",
+      "number": 14,
+      "text": "Los hijos de Zabulón: Sered, Elón y Jahleel."
+    },
+    {
+      "id": "genesis46-nbla-15",
+      "number": 15,
+      "text": "Estos son los hijos de Lea, los que le dio a Jacob en Padán Aram, y además su hija Dina; todos sus hijos y sus hijas eran treinta y tres."
+    },
+    {
+      "id": "genesis46-nbla-16",
+      "number": 16,
+      "text": "Los hijos de Gad: Zifión, Hagui, Suni, Ezbón, Eri, Arodi y Areli."
+    },
+    {
+      "id": "genesis46-nbla-17",
+      "number": 17,
+      "text": "Los hijos de Aser: Imna, Isúa, Isúi, Bería y Sera, hermana de ellos. Y los hijos de Bería: Heber y Malquiel."
+    },
+    {
+      "id": "genesis46-nbla-18",
+      "number": 18,
+      "text": "Estos son los hijos de Zilpa, a quien Labán dio a su hija Lea, y que le dio a Jacob; en total dieciséis personas."
+    },
+    {
+      "id": "genesis46-nbla-19",
+      "number": 19,
+      "text": "Los hijos de Raquel, mujer de Jacob: José y Benjamín."
+    },
+    {
+      "id": "genesis46-nbla-20",
+      "number": 20,
+      "text": "A José, en la tierra de Egipto le nacieron Manasés y Efraín, los cuales le dio Asenat, hija de Potifera, sacerdote de On."
+    },
+    {
+      "id": "genesis46-nbla-21",
+      "number": 21,
+      "text": "Los hijos de Benjamín: Bela, Bequer, Asbel, Gera, Naamán, Ehi, Ros, Mupim, Hupim y Ard."
+    },
+    {
+      "id": "genesis46-nbla-22",
+      "number": 22,
+      "text": "Estos son los hijos de Raquel, que le nacieron a Jacob; catorce personas en total."
+    },
+    {
+      "id": "genesis46-nbla-23",
+      "number": 23,
+      "text": "Los hijos de Dan: Husim."
+    },
+    {
+      "id": "genesis46-nbla-24",
+      "number": 24,
+      "text": "Los hijos de Neftalí: Jahzeel, Guni, Jezer y Silem."
+    },
+    {
+      "id": "genesis46-nbla-25",
+      "number": 25,
+      "text": "Estos son los hijos de Bilha, a quien Labán dio a su hija Raquel, y que ella le dio a Jacob; en total siete personas."
+    },
+    {
+      "id": "genesis46-nbla-26",
+      "number": 26,
+      "text": "Todas las personas de la familia de Jacob, que vinieron a Egipto, descendientes directos suyos, no incluyendo las mujeres de los hijos de Jacob, eran en total sesenta y seis personas."
+    },
+    {
+      "id": "genesis46-nbla-27",
+      "number": 27,
+      "text": "Y los hijos de José, que le nacieron en Egipto, eran dos: todas las personas de la casa de Jacob que vinieron a Egipto, eran setenta."
+    },
+    {
+      "id": "genesis46-nbla-28",
+      "number": 28,
+      "text": "Jacob envió a Judá delante de sí a José, para indicar delante de él el camino a Gosén, y llegaron a la tierra de Gosén."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-29a",
+          "order": 1,
+          "text": "José preparó su carro y subió a Gosén para ir al encuentro de su padre Israel."
+        },
+        {
+          "id": "genesis46-nbla-29b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Apenas lo vio, se echó sobre su cuello y lloró largamente sobre su cuello."
+        }
+      ],
+      "id": "genesis46-nbla-29",
+      "number": 29
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-30a",
+          "order": 1,
+          "text": "Entonces Israel dijo a José: «Ahora ya puedo morir, después que"
+        },
+        {
+          "id": "genesis46-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "he visto tu rostro y sé que todavía vives»."
+        }
+      ],
+      "id": "genesis46-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "genesis46-nbla-31",
+      "number": 31,
+      "text": "Y José dijo a sus hermanos y a la familia de su padre: «Subiré y lo haré saber a Faraón, y le diré: “Mis hermanos y la familia de mi padre, que estaban en la tierra de Canaán, han venido a mí."
+    },
+    {
+      "id": "genesis46-nbla-32",
+      "number": 32,
+      "text": "Los hombres son pastores de ovejas, pues son hombres de ganado. Han traído sus ovejas y sus vacas, y todo lo que tienen”."
+    },
+    {
+      "id": "genesis46-nbla-33",
+      "number": 33,
+      "text": "»Y cuando Faraón los llame y les diga: “¿Cuál es su ocupación?”,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis46-nbla-34a",
+          "order": 1,
+          "text": "ustedes responderán: “Sus siervos han sido hombres de ganado desde su juventud hasta ahora, tanto nosotros como nuestros padres”,"
+        },
+        {
+          "id": "genesis46-nbla-34b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "a fin de que habiten en la tierra de Gosén"
+        },
+        {
+          "id": "genesis46-nbla-34c",
+          "order": 3,
+          "text": ". Porque para los egipcios todo pastor de ovejas es una abominación»."
+        }
+      ],
+      "id": "genesis46-nbla-34",
+      "number": 34
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

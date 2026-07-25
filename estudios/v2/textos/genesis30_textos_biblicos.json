@@ -1,0 +1,819 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Raquel expresa una desesperación real dentro de una cultura que vinculaba descendencia con honor, futuro y seguridad. NBLA y MSG conservan la intensidad de su clamor. La frase no enseña que una vida sin hijos carezca de valor ni autoriza a presionar a una pareja o responsabilizar espiritualmente a quien atraviesa infertilidad.",
+      "id": "genesis30-joya-01",
+      "msg": {
+        "en": "“Give me sons or I’ll die!”",
+        "es": "«¡Dame hijos o moriré!»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-01b"
+          ],
+          "verseId": "genesis30-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Jacob reconoce correctamente que no controla la concepción, pero lo hace desde la ira. NBLA fija la pregunta por ocupar el lugar de Dios y MSG la vuelve directa. El límite humano es verdadero; aun así, una verdad sobre la soberanía divina no debe utilizarse para responder con dureza al dolor de otra persona.",
+      "id": "genesis30-joya-02",
+      "msg": {
+        "en": "“Am I God? Am I the one who refused you babies?”",
+        "es": "«¿Acaso soy Dios? ¿Soy yo quien te negó los hijos?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-02b"
+          ],
+          "verseId": "genesis30-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "Lea nombra la desigualdad afectiva que domina su matrimonio. NBLA y MSG conservan su acusación hacia Raquel. La frase no resuelve toda la responsabilidad de Jacob o Labán, pero impide leer la competencia únicamente como celos irracionales: existe una estructura real en la que Lea vive desplazada y las hermanas negocian desde una herida no reparada.",
+      "id": "genesis30-joya-03",
+      "msg": {
+        "en": "“Wasn’t it enough that you got my husband away from me?”",
+        "es": "«¿No te bastó con quitarme a mi esposo?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-15b"
+          ],
+          "verseId": "genesis30-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "15"
+    },
+    {
+      "explanation": "Dios actúa fielmente en favor de Raquel después de una larga espera. La expresión no implica olvido previo, sino intervención dentro de la historia. Su atención hacia Raquel no niega que también escuchó a Lea, y el nacimiento de José no convierte a una hermana en ganadora definitiva sobre la otra.",
+      "id": "genesis30-joya-04",
+      "msg": {
+        "en": "“And then God remembered Rachel.”",
+        "es": "«Entonces Dios se acordó de Raquel»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-22a"
+          ],
+          "verseId": "genesis30-nbla-22"
+        }
+      ],
+      "order": 4,
+      "range": "22-24"
+    },
+    {
+      "explanation": "Jacob presenta su trayectoria de servicio como fundamento para pedir libertad y regresar con su familia. NBLA habla del servicio prestado y MSG resalta el esfuerzo sostenido. El trabajo fiel merece reconocimiento real, no solamente elogio espiritual, y una relación laboral no es justa si la lealtad de una persona se usa para impedir su independencia.",
+      "id": "genesis30-joya-05",
+      "msg": {
+        "en": "“You know how hard I’ve worked for you.”",
+        "es": "«Sabes cuánto he trabajado para ti»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-26b"
+          ],
+          "verseId": "genesis30-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "25-26"
+    },
+    {
+      "explanation": "Jacob reconoce una responsabilidad que había quedado subordinada al crecimiento de la casa de Labán. NBLA fija la pregunta por proveer y MSG la expresa como un cambio de prioridad. La frase no autoriza egoísmo ni abandono de compromisos; confronta estructuras donde el servicio permanente a otros impide cuidar justamente a la propia familia.",
+      "id": "genesis30-joya-06",
+      "msg": {
+        "en": "“Isn’t it about time that I do something for my own family?”",
+        "es": "«¿No es hora ya de que haga algo por mi propia familia?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-30b"
+          ],
+          "verseId": "genesis30-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "29-30"
+    },
+    {
+      "explanation": "El capítulo cierra con un cambio económico extraordinario en la vida de Jacob. NBLA habla de prosperidad y MSG resalta su crecimiento progresivo. El resultado pertenece al conflicto particular con Labán y a la preservación de la familia del pacto; no constituye una garantía universal de riqueza ni demuestra que todas las estrategias utilizadas por Jacob fueran moralmente ejemplares.",
+      "id": "genesis30-joya-07",
+      "msg": {
+        "en": "“The man got richer and richer”",
+        "es": "«El hombre se hizo cada vez más rico»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis30-nbla-43a"
+          ],
+          "verseId": "genesis30-nbla-43"
+        }
+      ],
+      "order": 7,
+      "range": "43"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 30,
+    "studyId": "genesis-30"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis30-msg-01",
+      "msg": {
+        "en": "When Rachel realized that she wasn’t having any children for Jacob, she became jealous of her sister. She told Jacob, “Give me sons or I’ll die!”",
+        "es": "Cuando Raquel comprendió que no le daba hijos a Jacob, sintió celos de su hermana. Le dijo a Jacob: «¡Dame hijos o moriré!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "genesis30-msg-02",
+      "msg": {
+        "en": "Jacob got angry with Rachel and said, “Am I God? Am I the one who refused you babies?”",
+        "es": "Jacob se enojó con Raquel y le dijo: «¿Acaso soy Dios? ¿Soy yo quien te negó los hijos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "genesis30-msg-03",
+      "msg": {
+        "en": "Rachel said, “Here’s my maid Bilhah. Sleep with her. Let her substitute for me so I can have a child through her and build a family.” So she gave him her maid Bilhah for a wife and Jacob slept with her. Bilhah became pregnant and gave Jacob a son.",
+        "es": "Raquel dijo: «Aquí está mi sierva Bilhá. Acuéstate con ella. Que ocupe mi lugar para que yo pueda recibir un hijo por medio de ella y formar una familia». Así que le dio a su sierva Bilhá como esposa, y Jacob se acostó con ella. Bilhá quedó embarazada y le dio un hijo a Jacob."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "genesis30-msg-04",
+      "msg": {
+        "en": "Rachel said, “God took my side and vindicated me. He listened to me and gave me a son.” She named him Dan (Vindication). Rachel’s maid Bilhah became pregnant again and gave Jacob a second son. Rachel said, “I’ve been in an all-out fight with my sister—and I’ve won.” So she named him Naphtali (Fight).",
+        "es": "Raquel dijo: «Dios se puso de mi lado y me hizo justicia. Me escuchó y me dio un hijo». Lo llamó Dan, Vindicación. Bilhá, la sierva de Raquel, volvió a quedar embarazada y le dio a Jacob un segundo hijo. Raquel dijo: «He librado una lucha total con mi hermana, ¡y he vencido!». Así que lo llamó Neftalí, Lucha."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-13",
+      "id": "genesis30-msg-05",
+      "msg": {
+        "en": "When Leah saw that she wasn’t having any more children, she gave her maid Zilpah to Jacob for a wife. Zilpah had a son for Jacob. Leah said, “How fortunate!” and she named him Gad (Lucky). When Leah’s maid Zilpah had a second son for Jacob, Leah said, “A happy day! The women will congratulate me in my happiness.” So she named him Asher (Happy).",
+        "es": "Cuando Lea vio que había dejado de tener hijos, le dio a Jacob a su sierva Zilpa como esposa. Zilpa le dio un hijo a Jacob. Lea dijo: «¡Qué afortunada!», y lo llamó Gad, Afortunado. Cuando Zilpa, la sierva de Lea, le dio un segundo hijo a Jacob, Lea dijo: «¡Qué día tan feliz! Las mujeres me felicitarán por mi felicidad». Así que lo llamó Aser, Feliz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14",
+      "id": "genesis30-msg-06",
+      "msg": {
+        "en": "One day during the wheat harvest Reuben found some mandrakes in the field and brought them home to his mother Leah. Rachel asked Leah, “Could I please have some of your son’s mandrakes?”",
+        "es": "Un día, durante la cosecha de trigo, Rubén encontró unas mandrágoras en el campo y se las llevó a su madre Lea. Raquel le preguntó a Lea: «¿Podrías darme algunas de las mandrágoras de tu hijo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-14"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "15",
+      "id": "genesis30-msg-07",
+      "msg": {
+        "en": "Leah said, “Wasn’t it enough that you got my husband away from me? And now you also want my son’s mandrakes?”\nRachel said, “All right. I’ll let him sleep with you tonight in exchange for your son’s love-apples.”",
+        "es": "Lea dijo: «¿No te bastó con quitarme a mi esposo? ¿Ahora también quieres las mandrágoras de mi hijo?». Raquel respondió: «Está bien. Dejaré que duerma contigo esta noche a cambio de las manzanas de amor de tu hijo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-15"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "16-21",
+      "id": "genesis30-msg-08",
+      "msg": {
+        "en": "When Jacob came home that evening from the fields, Leah was there to meet him: “Sleep with me tonight; I’ve bartered my son’s mandrakes for a night with you.” So he slept with her that night. God listened to Leah; she became pregnant and gave Jacob a fifth son. She said, “God rewarded me for giving my maid to my husband.” She named him Issachar (Bartered). Leah became pregnant yet again and gave Jacob a sixth son, saying, “God has given me a great gift. This time my husband will honor me with gifts—I’ve given him six sons!” She named him Zebulun (Honor). Last of all she had a daughter and named her Dinah.",
+        "es": "Cuando Jacob regresó del campo aquella tarde, Lea salió a su encuentro: «Duerme conmigo esta noche; negocié una noche contigo a cambio de las mandrágoras de mi hijo». Así que él durmió con ella aquella noche. Dios escuchó a Lea; ella quedó embarazada y le dio a Jacob un quinto hijo. Lea dijo: «Dios me recompensó por haberle dado mi sierva a mi esposo». Lo llamó Isacar, Negociado. Lea volvió a quedar embarazada y le dio a Jacob un sexto hijo. Dijo: «Dios me ha dado un gran regalo. Esta vez mi esposo me honrará con regalos: ¡le he dado seis hijos!». Lo llamó Zabulón, Honor. Finalmente tuvo una hija y la llamó Dina."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "genesis30-msg-09",
+      "msg": {
+        "en": "And then God remembered Rachel. God listened to her and opened her womb. She became pregnant and had a son. She said, “God has taken away my humiliation.” She named him Joseph (Add), praying, “May GOD add yet another son to me.”",
+        "es": "Entonces Dios se acordó de Raquel. Dios la escuchó y le abrió el vientre. Ella quedó embarazada y tuvo un hijo. Dijo: «Dios ha quitado mi humillación». Lo llamó José, Añadir, y oró: «Que DIOS me añada otro hijo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-24"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "genesis30-msg-10",
+      "msg": {
+        "en": "After Rachel had had Joseph, Jacob spoke to Laban, “Let me go back home. Give me my wives and children for whom I’ve served you. You know how hard I’ve worked for you.”",
+        "es": "Después de que Raquel tuvo a José, Jacob le dijo a Labán: «Déjame regresar a mi hogar. Dame a mis esposas y a mis hijos, por quienes te he servido. Sabes cuánto he trabajado para ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-26"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "27-28",
+      "id": "genesis30-msg-11",
+      "msg": {
+        "en": "Laban said, “If you please, I have learned through divine inquiry that GOD has blessed me because of you.” He went on, “So name your wages. I’ll pay you.”",
+        "es": "Labán dijo: «Por favor, quédate. He sabido mediante una consulta divina que DIOS me ha bendecido por causa tuya». Y añadió: «Dime cuál debe ser tu salario. Te lo pagaré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-28"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "genesis30-msg-12",
+      "msg": {
+        "en": "Jacob replied, “You know well what my work has meant to you and how your livestock has flourished under my care. The little you had when I arrived has increased greatly; everything I did resulted in blessings for you. Isn’t it about time that I do something for my own family?”",
+        "es": "Jacob respondió: «Sabes muy bien lo que mi trabajo ha significado para ti y cómo ha prosperado tu ganado bajo mi cuidado. Lo poco que tenías cuando llegué aumentó enormemente; todo lo que hice produjo bendición para ti. ¿No es hora ya de que haga algo por mi propia familia?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-30"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "31-33",
+      "id": "genesis30-msg-13",
+      "msg": {
+        "en": "“So, what should I pay you?”\nJacob said, “You don’t have to pay me a thing. But how about this? I will go back to pasture and care for your flocks. Go through your entire flock today and take out every speckled or spotted sheep, every dark-colored lamb, every spotted or speckled goat. They will be my wages. That way you can check on my honesty when you assess my wages. If you find any goat that’s not speckled or spotted or a sheep that’s not black, you will know that I stole it.”",
+        "es": "«Entonces, ¿qué debo pagarte?». Jacob dijo: «No tienes que pagarme nada. Pero hagamos esto: volveré a pastorear y cuidar tus rebaños. Recorre hoy todo tu rebaño y aparta cada oveja moteada o manchada, cada cordero de color oscuro y cada cabra moteada o manchada. Esos serán mi salario. Así podrás comprobar mi honradez cuando revises mi paga. Si encuentras conmigo una cabra que no sea moteada o manchada, o una oveja que no sea negra, sabrás que la robé»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-33"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "34",
+      "id": "genesis30-msg-14",
+      "msg": {
+        "en": "“Fair enough,” said Laban. “It’s a deal.”",
+        "es": "«Me parece bien», dijo Labán. «Trato hecho»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-34"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "35-36",
+      "id": "genesis30-msg-15",
+      "msg": {
+        "en": "But that very day Laban removed all the mottled and spotted billy goats and all the speckled and spotted nanny goats, every animal that had even a touch of white on it plus all the black sheep and placed them under the care of his sons. Then he put a three-day journey between himself and Jacob. Meanwhile Jacob went on tending what was left of Laban’s flock.",
+        "es": "Pero ese mismo día Labán apartó todos los machos cabríos rayados y manchados, todas las cabras moteadas y manchadas, cada animal que tuviera siquiera un poco de blanco y todas las ovejas negras, y los puso al cuidado de sus hijos. Luego dejó una distancia de tres días de camino entre él y Jacob. Mientras tanto, Jacob siguió cuidando lo que quedaba del rebaño de Labán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-36"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "37-42",
+      "id": "genesis30-msg-16",
+      "msg": {
+        "en": "But Jacob got fresh branches from poplar, almond, and plane trees and peeled the bark, leaving white stripes on them. He stuck the peeled branches in front of the watering troughs where the flocks came to drink. When the flocks were in heat, they came to drink and mated in front of the streaked branches. Then they gave birth to young that were streaked or spotted or speckled. Jacob placed the ewes before the dark-colored animals of Laban. That way he got distinctive flocks for himself which he didn’t mix with Laban’s flocks. And when the sturdier animals were mating, Jacob placed branches at the troughs in view of the animals so that they mated in front of the branches. But he wouldn’t set up the branches before the feebler animals. That way the feeble animals went to Laban and the sturdy ones to Jacob.",
+        "es": "Jacob tomó ramas frescas de álamo, almendro y plátano y les quitó parte de la corteza, dejando franjas blancas. Puso las ramas descortezadas delante de los abrevaderos donde los rebaños iban a beber. Cuando los animales estaban en celo, llegaban a beber y se apareaban frente a las ramas rayadas. Entonces daban crías rayadas, moteadas o manchadas. Jacob colocó las ovejas frente a los animales oscuros de Labán. De ese modo formó para sí rebaños distintos y no los mezcló con los de Labán. Cada vez que se apareaban los animales más robustos, Jacob ponía las ramas frente a ellos en los abrevaderos para que se aparearan delante de las ramas. Pero no las ponía ante los animales más débiles. Así, los débiles quedaban para Labán y los robustos para Jacob."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-42"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "43",
+      "id": "genesis30-msg-17",
+      "msg": {
+        "en": "The man got richer and richer, acquiring huge flocks, lots and lots of servants, not to mention camels and donkeys.",
+        "es": "El hombre se hizo cada vez más rico: adquirió enormes rebaños, muchísimos siervos y siervas, además de camellos y burros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis30-nbla-43"
+        }
+      ],
+      "order": 17
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-01a",
+          "order": 1,
+          "text": "Pero viendo Raquel que ella no daba hijos a Jacob, tuvo celos de su hermana, y dijo a Jacob: «"
+        },
+        {
+          "id": "genesis30-nbla-01b",
+          "order": 2,
+          "text": "Dame hijos, o si no, me muero»."
+        }
+      ],
+      "id": "genesis30-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-02a",
+          "order": 1,
+          "text": "Entonces se encendió la ira de Jacob contra Raquel, y dijo: «"
+        },
+        {
+          "id": "genesis30-nbla-02b",
+          "order": 2,
+          "text": "¿Estoy yo en lugar de Dios, que te ha negado el fruto de tu vientre?»."
+        }
+      ],
+      "id": "genesis30-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "genesis30-nbla-03",
+      "number": 3,
+      "text": "Y ella dijo: «Aquí está mi sierva Bilha. Llégate a ella para que dé a luz sobre mis rodillas, para que por medio de ella yo también tenga hijos»."
+    },
+    {
+      "id": "genesis30-nbla-04",
+      "number": 4,
+      "text": "Raquel le dio a su sierva Bilha por mujer, y Jacob se llegó a ella."
+    },
+    {
+      "id": "genesis30-nbla-05",
+      "number": 5,
+      "text": "Bilha concibió y dio a luz un hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-06",
+      "number": 6,
+      "text": "Entonces Raquel dijo: «Dios me ha vindicado. Ciertamente ha oído mi voz y me ha dado un hijo». Por tanto le puso por nombre Dan."
+    },
+    {
+      "id": "genesis30-nbla-07",
+      "number": 7,
+      "text": "Concibió otra vez Bilha, sierva de Raquel, y dio a luz un segundo hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-08",
+      "number": 8,
+      "text": "Y Raquel dijo: «Con grandes luchas he luchado con mi hermana, y ciertamente he prevalecido». Y le puso por nombre Neftalí."
+    },
+    {
+      "id": "genesis30-nbla-09",
+      "number": 9,
+      "text": "Viendo Lea que había dejado de dar a luz, tomó a su sierva Zilpa y la dio por mujer a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-10",
+      "number": 10,
+      "text": "Y Zilpa, sierva de Lea, dio a luz un hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-11",
+      "number": 11,
+      "text": "Entonces Lea dijo: «¡Cuán afortunada!». Y le puso por nombre Gad."
+    },
+    {
+      "id": "genesis30-nbla-12",
+      "number": 12,
+      "text": "Después Zilpa, sierva de Lea, dio a luz un segundo hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-13",
+      "number": 13,
+      "text": "Y Lea dijo: «Dichosa de mí, porque las mujeres me llamarán bienaventurada». Y le puso por nombre Aser."
+    },
+    {
+      "id": "genesis30-nbla-14",
+      "number": 14,
+      "text": "En los días de la cosecha de trigo, Rubén fue y halló mandrágoras en el campo, y las trajo a su madre Lea. Entonces Raquel dijo a Lea: «Dame, te ruego, de las mandrágoras de tu hijo»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-15a",
+          "order": 1,
+          "text": "Pero ella le respondió: «"
+        },
+        {
+          "id": "genesis30-nbla-15b",
+          "order": 2,
+          "text": "¿Te parece poco haberme quitado el marido?"
+        },
+        {
+          "id": "genesis30-nbla-15c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "¿Me quitarás también las mandrágoras de mi hijo?». «Que él duerma, pues, contigo esta noche a cambio de las mandrágoras de tu hijo», le dijo Raquel."
+        }
+      ],
+      "id": "genesis30-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "genesis30-nbla-16",
+      "number": 16,
+      "text": "Cuando Jacob vino del campo por la tarde, Lea salió a su encuentro y le dijo: «Debes llegarte a mí, porque ciertamente te he alquilado por las mandrágoras de mi hijo». Y él durmió con ella aquella noche."
+    },
+    {
+      "id": "genesis30-nbla-17",
+      "number": 17,
+      "text": "Escuchó Dios a Lea, y ella concibió y dio a luz el quinto hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-18",
+      "number": 18,
+      "text": "Entonces Lea dijo: «Dios me ha dado mi recompensa porque di mi sierva a mi marido». Y le puso por nombre Isacar."
+    },
+    {
+      "id": "genesis30-nbla-19",
+      "number": 19,
+      "text": "Concibió Lea otra vez y dio a luz el sexto hijo a Jacob."
+    },
+    {
+      "id": "genesis30-nbla-20",
+      "number": 20,
+      "text": "Y Lea dijo: «Dios me ha favorecido con una buena dote. Ahora mi marido vivirá conmigo, porque le he dado seis hijos». Y le puso por nombre Zabulón."
+    },
+    {
+      "id": "genesis30-nbla-21",
+      "number": 21,
+      "text": "Después dio a luz una hija, y le puso por nombre Dina."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-22a",
+          "order": 1,
+          "text": "Entonces Dios se acordó de Raquel"
+        },
+        {
+          "id": "genesis30-nbla-22b",
+          "order": 2,
+          "text": ". Y Dios la escuchó y le concedió hijos."
+        }
+      ],
+      "id": "genesis30-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "genesis30-nbla-23",
+      "number": 23,
+      "text": "Ella concibió y dio a luz un hijo, y dijo: «Dios ha quitado mi afrenta»."
+    },
+    {
+      "id": "genesis30-nbla-24",
+      "number": 24,
+      "text": "Y le puso por nombre José, diciendo: «Que el SEÑOR me añada otro hijo»."
+    },
+    {
+      "id": "genesis30-nbla-25",
+      "number": 25,
+      "text": "Cuando Raquel hubo dado a luz a José, Jacob dijo a Labán: «Despídeme para que me vaya a mi lugar y a mi tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-26a",
+          "order": 1,
+          "text": "Dame mis mujeres y mis hijos por los cuales te he servido, y déjame ir. Porque"
+        },
+        {
+          "id": "genesis30-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "tú bien sabes el servicio que te he prestado»."
+        }
+      ],
+      "id": "genesis30-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "genesis30-nbla-27",
+      "number": 27,
+      "text": "Pero Labán le respondió: «Si ahora he hallado gracia ante tus ojos, quédate conmigo. Me he dado cuenta de que el SEÑOR me ha bendecido por causa tuya»."
+    },
+    {
+      "id": "genesis30-nbla-28",
+      "number": 28,
+      "text": "Y añadió: «Fíjame tu salario, y te lo daré»."
+    },
+    {
+      "id": "genesis30-nbla-29",
+      "number": 29,
+      "text": "Pero Jacob le respondió: «Tú sabes cómo te he servido, y cómo le ha ido a tu ganado conmigo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-30a",
+          "order": 1,
+          "text": "Porque tenías poco antes de que yo viniera, y ha aumentado hasta ser multitud. El SEÑOR te ha bendecido en todo lo que he hecho."
+        },
+        {
+          "id": "genesis30-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y ahora, ¿cuándo proveeré yo también para mi propia casa?»."
+        }
+      ],
+      "id": "genesis30-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "genesis30-nbla-31",
+      "number": 31,
+      "text": "«¿Qué te daré?», preguntó Labán. «No me des nada», respondió Jacob. «Volveré a pastorear y a cuidar tu rebaño si tan solo haces esto por mí:"
+    },
+    {
+      "id": "genesis30-nbla-32",
+      "number": 32,
+      "text": "déjame pasar por entre todo tu rebaño hoy, apartando de él toda oveja moteada o manchada y todos los corderos negros, y las manchadas o moteadas de entre las cabras, y ese será mi salario."
+    },
+    {
+      "id": "genesis30-nbla-33",
+      "number": 33,
+      "text": "Mi honradez responderá por mí el día de mañana, cuando vengas a ver acerca de mi salario. Todo lo que no sea moteado y manchado entre las cabras, y negro entre los corderos, si es hallado conmigo, se considerará robado»."
+    },
+    {
+      "id": "genesis30-nbla-34",
+      "number": 34,
+      "text": "Y Labán dijo: «Muy bien, sea conforme a tu palabra»."
+    },
+    {
+      "id": "genesis30-nbla-35",
+      "number": 35,
+      "text": "Aquel mismo día apartó Labán los machos cabríos rayados o manchados y todas las cabras moteadas o manchadas, y todo lo que tenía algo de blanco, y de entre los corderos todos los negros, y lo puso todo al cuidado de sus hijos."
+    },
+    {
+      "id": "genesis30-nbla-36",
+      "number": 36,
+      "text": "Y puso una distancia de tres días de camino entre sí y Jacob; y Jacob apacentaba el resto de los rebaños de Labán."
+    },
+    {
+      "id": "genesis30-nbla-37",
+      "number": 37,
+      "text": "Entonces Jacob tomó varas verdes de álamo, de almendro y de plátano, y les sacó tiras blancas de la corteza, descubriendo así lo blanco de las varas."
+    },
+    {
+      "id": "genesis30-nbla-38",
+      "number": 38,
+      "text": "Y colocó las varas que había descortezado delante de los rebaños, en los canales, en los abrevaderos, donde los rebaños venían a beber; y se apareaban cuando venían a beber."
+    },
+    {
+      "id": "genesis30-nbla-39",
+      "number": 39,
+      "text": "Así se apareaban los rebaños junto a las varas, y los rebaños tenían crías rayadas, moteadas y manchadas."
+    },
+    {
+      "id": "genesis30-nbla-40",
+      "number": 40,
+      "text": "Jacob apartó los corderos, y puso los rebaños en dirección a lo rayado y a todo lo negro en el rebaño de Labán, y puso su propio rebaño aparte. No lo puso con el rebaño de Labán."
+    },
+    {
+      "id": "genesis30-nbla-41",
+      "number": 41,
+      "text": "Además, cada vez que los más robustos del rebaño se apareaban, Jacob ponía las varas a la vista del rebaño en los canales, para que se aparearan frente a las varas."
+    },
+    {
+      "id": "genesis30-nbla-42",
+      "number": 42,
+      "text": "Pero cuando el rebaño era débil, no las ponía, de manera que las crías débiles vinieron a ser de Labán y las robustas de Jacob."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis30-nbla-43a",
+          "order": 1,
+          "text": "Así prosperó el hombre en gran manera"
+        },
+        {
+          "id": "genesis30-nbla-43b",
+          "order": 2,
+          "text": ", y tuvo grandes rebaños, y siervas y siervos, y camellos y asnos."
+        }
+      ],
+      "id": "genesis30-nbla-43",
+      "number": 43
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

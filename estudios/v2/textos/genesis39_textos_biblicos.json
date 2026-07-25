@@ -1,0 +1,546 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La presencia de Dios es la verdad que gobierna todo el capítulo. La NBLA fija esta declaración como la causa de la prosperidad de José, no como una conclusión basada solamente en su talento. MSG la coloca al comienzo del movimiento narrativo y permite sentir que la compañía de Dios precede a cualquier cambio visible. El texto no enseña que estar con Dios elimina la esclavitud o la injusticia, sino que ninguna de ellas puede cancelar Su presencia.",
+      "id": "genesis39-joya-01",
+      "msg": {
+        "en": "“GOD was with Joseph”",
+        "es": "“DIOS estaba con José”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-02b"
+          ],
+          "verseId": "genesis39-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2-6"
+    },
+    {
+      "explanation": "Dios convierte a José en un canal de bendición dentro de una casa extranjera. La NBLA establece que la bendición procede del Señor y alcanza al egipcio por causa de José. MSG vuelve visible la amplitud de ese impacto al destacar que toda la casa resulta beneficiada. La conclusión no es que José posea una fuerza autónoma, sino que la promesa de Dios empieza a extenderse a otros mediante su presencia fiel.",
+      "id": "genesis39-joya-02",
+      "msg": {
+        "en": "“GOD blessed the home of the Egyptian—all because of Joseph.”",
+        "es": "“DIOS bendijo la casa del egipcio por causa de José.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-05b"
+          ],
+          "verseId": "genesis39-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "2-6"
+    },
+    {
+      "explanation": "José comprende que la conducta sexual tiene una dimensión humana y una dimensión teológica inseparables. La NBLA nombra el acto como una gran maldad y como pecado contra Dios. MSG hace explícita la confianza que sería traicionada dentro de la casa de Potifar. La fidelidad bíblica no se limita a evitar consecuencias; protege al prójimo, honra los compromisos y responde ante el Señor.",
+      "id": "genesis39-joya-03",
+      "msg": {
+        "en": "“How could I violate his trust and sin against God?”",
+        "es": "“¿Cómo podría traicionar su confianza y pecar contra Dios?”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-09b"
+          ],
+          "verseId": "genesis39-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La resistencia de José no ocurre una sola vez, sino frente a una presión diaria. La NBLA precisa que se negó tanto a acostarse con ella como a permanecer con ella. MSG concentra esa perseverancia en una imagen de firmeza. No se trata de confianza excesiva en la propia fuerza, sino de sostener límites claros antes de que la presión encuentre una oportunidad mayor.",
+      "id": "genesis39-joya-04",
+      "msg": {
+        "en": "“he stood his ground.”",
+        "es": "“él se mantuvo firme.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-10b"
+          ],
+          "verseId": "genesis39-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "La huida de José es una respuesta activa de sabiduría frente a una situación que ya se volvió física. La NBLA conserva la urgencia: deja la ropa y sale huyendo. MSG hace visible que abandonar el manto era menos importante que permanecer en el lugar peligroso. El texto no establece una fórmula para juzgar cómo debe reaccionar toda víctima de acoso o abuso; muestra la decisión concreta de José de cortar inmediatamente el acceso al pecado.",
+      "id": "genesis39-joya-05",
+      "msg": {
+        "en": "“He left his coat in her hand and ran out of the house.”",
+        "es": "“Él dejó el manto en sus manos y salió corriendo de la casa.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-12b"
+          ],
+          "verseId": "genesis39-nbla-12"
+        }
+      ],
+      "order": 5,
+      "range": "11-15"
+    },
+    {
+      "explanation": "La cárcel no cancela la presencia que acompañó a José en la casa de Potifar. La NBLA une la presencia del Señor con Su misericordia hacia José. MSG subraya la continuidad mediante «seguía»: Dios no dejó de estar con él cuando la obediencia terminó en sufrimiento. La bondad divina no se mide únicamente por salir de la prisión; también se manifiesta sosteniendo, dando favor y preservando el propósito dentro de ella.",
+      "id": "genesis39-joya-06",
+      "msg": {
+        "en": "“GOD was still with Joseph: He reached out in kindness to him”",
+        "es": "“DIOS seguía con José: lo trató con bondad”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-21b"
+          ],
+          "verseId": "genesis39-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "19-23"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 39,
+    "studyId": "genesis-39"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis39-msg-01",
+      "msg": {
+        "en": "After Joseph had been taken to Egypt by the Ishmaelites, Potiphar an Egyptian, one of Pharaoh’s officials and the manager of his household, bought him from them.",
+        "es": "Después de que los ismaelitas llevaron a José a Egipto, Potifar, un egipcio, funcionario del faraón y administrador de su casa, se lo compró."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-6",
+      "id": "genesis39-msg-02",
+      "msg": {
+        "en": "As it turned out, GOD was with Joseph and things went very well with him. He ended up living in the home of his Egyptian master. His master recognized that GOD was with him, saw that GOD was working for good in everything he did. He became very fond of Joseph and made him his personal aide. He put him in charge of all his personal affairs, turning everything over to him. From that moment on, GOD blessed the home of the Egyptian—all because of Joseph. The blessing of GOD spread over everything he owned, at home and in the fields, and all Potiphar had to concern himself with was eating three meals a day.",
+        "es": "Y resultó que DIOS estaba con José, y las cosas le iban muy bien. Terminó viviendo en la casa de su amo egipcio. Su amo se dio cuenta de que DIOS estaba con él y vio que DIOS hacía prosperar todo lo que José emprendía. Llegó a apreciarlo mucho y lo convirtió en su asistente personal. Lo puso al frente de todos sus asuntos y le entregó todo lo que tenía. Desde ese momento, DIOS bendijo la casa del egipcio por causa de José. La bendición de DIOS se extendió a todo lo que poseía, tanto en la casa como en el campo, y lo único de lo que Potifar tenía que preocuparse era de sentarse a comer tres veces al día."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-05"
+        },
+        {
+          "clauseIds": [
+            "genesis39-nbla-06a"
+          ],
+          "verseId": "genesis39-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "genesis39-msg-03",
+      "msg": {
+        "en": "Joseph was a strikingly handsome man. As time went on, his master’s wife became infatuated with Joseph and one day said, “Sleep with me.”",
+        "es": "José era un hombre extraordinariamente atractivo. Con el paso del tiempo, la esposa de su amo se encaprichó con él y un día le dijo: «Acuéstate conmigo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis39-nbla-06b"
+          ],
+          "verseId": "genesis39-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "genesis39-msg-04",
+      "msg": {
+        "en": "He wouldn’t do it. He said to his master’s wife, “Look, with me here, my master doesn’t give a second thought to anything that goes on here—he’s put me in charge of everything he owns. He treats me as an equal. The only thing he hasn’t turned over to me is you. You’re his wife, after all! How could I violate his trust and sin against God?”",
+        "es": "Él se negó. Le dijo a la esposa de su amo: «Mire, mientras yo estoy aquí, mi amo ni siquiera tiene que pensar en lo que sucede en esta casa: me ha puesto a cargo de todo lo que posee. Me trata como a un igual. Lo único que no me ha entregado es a usted. ¡Después de todo, usted es su esposa! ¿Cómo podría traicionar su confianza y pecar contra Dios?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10",
+      "id": "genesis39-msg-05",
+      "msg": {
+        "en": "She pestered him day after day after day, but he stood his ground. He refused to go to bed with her.",
+        "es": "Ella lo acosaba día tras día tras día, pero él se mantuvo firme. Se negó a acostarse con ella."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-15",
+      "id": "genesis39-msg-06",
+      "msg": {
+        "en": "On one of these days he came to the house to do his work and none of the household servants happened to be there. She grabbed him by his cloak, saying, “Sleep with me!” He left his coat in her hand and ran out of the house. When she realized that he had left his coat in her hand and run outside, she called to her house servants: “Look—this Hebrew shows up and before you know it he’s trying to seduce us. He tried to make love to me but I yelled as loud as I could. With all my yelling and screaming, he left his coat beside me here and ran outside.”",
+        "es": "Uno de esos días, José entró en la casa para hacer su trabajo y, por casualidad, no había allí ninguno de los sirvientes. Ella lo agarró por el manto y le dijo: «¡Acuéstate conmigo!». Él dejó el manto en sus manos y salió corriendo de la casa. Cuando ella vio que él había dejado el manto en su mano y había huido, llamó a los sirvientes: «¡Miren! Este hebreo aparece aquí y, antes de que uno se dé cuenta, intenta seducirnos. Trató de hacerme el amor, pero yo grité con todas mis fuerzas. Con todos mis gritos y alaridos, dejó su manto aquí a mi lado y salió corriendo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "genesis39-msg-07",
+      "msg": {
+        "en": "She kept his coat right there until his master came home. She told him the same story. She said, “The Hebrew slave, the one you brought to us, came after me and tried to use me for his plaything. When I yelled and screamed, he left his coat with me and ran outside.”",
+        "es": "Ella dejó el manto allí, junto a sí, hasta que su amo llegó a casa. Entonces le contó la misma historia: «El esclavo hebreo, ese que tú nos trajiste, vino contra mí y trató de usarme como su juguete. Cuando grité y di alaridos, dejó el manto conmigo y salió corriendo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "19-23",
+      "id": "genesis39-msg-08",
+      "msg": {
+        "en": "When his master heard his wife’s story, telling him, “These are the things your slave did to me,” he was furious. Joseph’s master took him and threw him into the jail where the king’s prisoners were locked up. But there in jail GOD was still with Joseph: He reached out in kindness to him; he put him on good terms with the head jailer. The head jailer put Joseph in charge of all the prisoners—he ended up managing the whole operation. The head jailer gave Joseph free rein, never even checked on him, because GOD was with him; whatever he did GOD made sure it worked out for the best.",
+        "es": "Cuando su amo escuchó la historia de su esposa —«Esto fue lo que me hizo tu esclavo»— se puso furioso. El amo de José lo tomó y lo arrojó a la cárcel donde encerraban a los presos del rey. Pero incluso allí, en la cárcel, DIOS seguía con José: lo trató con bondad e hizo que el jefe de la prisión lo mirara con buenos ojos. El jefe puso a José al frente de todos los presos; terminó administrando toda la operación. Le dio plena libertad y ni siquiera revisaba lo que hacía, porque DIOS estaba con José. Todo lo que José hacía, DIOS hacía que resultara bien."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis39-nbla-23"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis39-nbla-01",
+      "number": 1,
+      "text": "Cuando José fue llevado a Egipto, Potifar, un oficial egipcio de Faraón, capitán de la guardia, lo compró a los ismaelitas que lo habían llevado allá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-02a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "genesis39-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR estaba con José"
+        },
+        {
+          "id": "genesis39-nbla-02c",
+          "order": 3,
+          "text": ", que llegó a ser un hombre próspero, y vivía en la casa de su amo el egipcio."
+        }
+      ],
+      "id": "genesis39-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "genesis39-nbla-03",
+      "number": 3,
+      "text": "Vio su amo que el SEÑOR estaba con él y que el SEÑOR hacía prosperar en su mano todo lo que él hacía."
+    },
+    {
+      "id": "genesis39-nbla-04",
+      "number": 4,
+      "text": "Así José halló gracia ante sus ojos y llegó a ser su siervo personal; y él lo hizo mayordomo sobre su casa y entregó en su mano todo lo que poseía."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-05a",
+          "order": 1,
+          "text": "Y sucedió que desde el tiempo que lo hizo mayordomo sobre su casa y sobre todo lo que poseía,"
+        },
+        {
+          "id": "genesis39-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR bendijo la casa del egipcio por causa de José."
+        },
+        {
+          "id": "genesis39-nbla-05c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "La bendición del SEÑOR estaba sobre todo lo que poseía en la casa y en el campo."
+        }
+      ],
+      "id": "genesis39-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-06a",
+          "order": 1,
+          "text": "Así que todo lo que poseía lo dejó en mano de José, y con él allí no se preocupaba de nada, excepto del pan que comía."
+        },
+        {
+          "id": "genesis39-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y era José de gallarda figura y de hermoso parecer."
+        }
+      ],
+      "id": "genesis39-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "genesis39-nbla-07",
+      "number": 7,
+      "text": "Sucedió después de estas cosas que la mujer de su amo miró a José con deseo y le dijo: «Acuéstate conmigo»."
+    },
+    {
+      "id": "genesis39-nbla-08",
+      "number": 8,
+      "text": "Pero él rehusó y dijo a la mujer de su amo: «Estando yo aquí, mi amo no se preocupa de nada en la casa, y ha puesto en mi mano todo lo que posee."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-09a",
+          "order": 1,
+          "text": "No hay nadie más grande que yo en esta casa, y nada me ha rehusado excepto a usted, pues es su mujer."
+        },
+        {
+          "id": "genesis39-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿Cómo entonces podría yo hacer esta gran maldad y pecar contra Dios?»."
+        }
+      ],
+      "id": "genesis39-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-10a",
+          "order": 1,
+          "text": "Y ella insistía a José día tras día, pero"
+        },
+        {
+          "id": "genesis39-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "él no accedió a acostarse con ella o a estar con ella."
+        }
+      ],
+      "id": "genesis39-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "genesis39-nbla-11",
+      "number": 11,
+      "text": "Pero un día que él entró en casa para hacer su trabajo, y no había ninguno de los hombres de la casa allí dentro,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-12a",
+          "order": 1,
+          "text": "entonces ella tomó a José de la ropa, y le dijo: «¡Acuéstate conmigo!». Pero"
+        },
+        {
+          "id": "genesis39-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "él le dejó su ropa en la mano, y salió huyendo afuera."
+        }
+      ],
+      "id": "genesis39-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "genesis39-nbla-13",
+      "number": 13,
+      "text": "Cuando ella vio que él había dejado su ropa en sus manos y había huido afuera,"
+    },
+    {
+      "id": "genesis39-nbla-14",
+      "number": 14,
+      "text": "llamó a los hombres de su casa y les dijo: «Miren, Potifar nos ha traído un hebreo para que se burle de nosotros; vino a mí para acostarse conmigo, pero yo grité a gran voz."
+    },
+    {
+      "id": "genesis39-nbla-15",
+      "number": 15,
+      "text": "Cuando él oyó que yo alzaba la voz y gritaba, dejó su ropa junto a mí y salió huyendo afuera»."
+    },
+    {
+      "id": "genesis39-nbla-16",
+      "number": 16,
+      "text": "Ella dejó junto a sí la ropa de José hasta que su señor vino a casa."
+    },
+    {
+      "id": "genesis39-nbla-17",
+      "number": 17,
+      "text": "Entonces ella le habló con estas palabras: «Vino a mí el esclavo hebreo que nos trajiste, para burlarse de mí."
+    },
+    {
+      "id": "genesis39-nbla-18",
+      "number": 18,
+      "text": "Y cuando levanté la voz y grité, él dejó su ropa junto a mí y huyó afuera»."
+    },
+    {
+      "id": "genesis39-nbla-19",
+      "number": 19,
+      "text": "Cuando su señor escuchó las palabras que su mujer le dijo: «Esto es lo que tu esclavo me hizo», se encendió su ira."
+    },
+    {
+      "id": "genesis39-nbla-20",
+      "number": 20,
+      "text": "Entonces el amo de José lo tomó y lo echó en la cárcel, en el lugar donde se encerraba a los presos del rey. Allí permaneció en la cárcel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis39-nbla-21a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "genesis39-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR estaba con José, le extendió Su misericordia"
+        },
+        {
+          "id": "genesis39-nbla-21c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y le concedió gracia ante los ojos del jefe de la cárcel."
+        }
+      ],
+      "id": "genesis39-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "genesis39-nbla-22",
+      "number": 22,
+      "text": "El jefe de la cárcel confió en mano de José a todos los presos que estaban en la cárcel, y de todo lo que allí se hacía él era responsable."
+    },
+    {
+      "id": "genesis39-nbla-23",
+      "number": 23,
+      "text": "El jefe de la cárcel no supervisaba nada que estuviera bajo la responsabilidad de José, porque el SEÑOR estaba con él, y todo lo que él emprendía, el SEÑOR lo hacía prosperar."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

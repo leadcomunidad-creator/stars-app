@@ -1,0 +1,634 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El sábado debe interpretarse desde la intención vivificante de Dios. La NBLA fija la tensión en términos de hacer bien, hacer mal, salvar o matar; MSG vuelve visible la dimensión práctica al hablar de ayudar o dejar desamparado. La expansión pastoral no crea un mandamiento nuevo, sino que expone que la omisión de misericordia puede contradecir el propósito de una obediencia aparentemente correcta.",
+      "id": "marcos3-joya-01",
+      "msg": {
+        "en": "“Doing good or doing evil? Helping people or leaving them helpless?”",
+        "es": "«¿Qué clase de acción corresponde mejor al sábado: hacer el bien o hacer el mal? ¿Ayudar a las personas o dejarlas desamparadas?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos3-nbla-04b"
+          ],
+          "verseId": "marcos3-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4"
+    },
+    {
+      "explanation": "Jesús responde a la dureza humana con enojo santo y tristeza, no con indiferencia. La NBLA conserva ambos movimientos interiores y sitúa el problema en la dureza del corazón; MSG vuelve visible pastoralmente la obstinación de una religiosidad que se resiste a la misericordia. El texto no autoriza cualquier ira religiosa: el enojo de Jesús está unido al dolor por personas que se cierran al bien de Dios.",
+      "id": "marcos3-joya-02",
+      "msg": {
+        "en": "“angry now, furious at their hard-nosed religion.”",
+        "es": "«ahora enojado, furioso ante su religiosidad obstinada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos3-nbla-05b"
+          ],
+          "verseId": "marcos3-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La presencia precede a la misión. La NBLA establece con claridad el doble propósito del llamado: estar con Jesús y ser enviados; MSG conserva ese orden y lo presenta como el diseño formativo de Cristo. La autoridad ministerial del versículo siguiente no puede separarse de esta comunión: servir en el nombre de Jesús sin permanecer con Jesús deforma el discipulado.",
+      "id": "marcos3-joya-03",
+      "msg": {
+        "en": "“The plan was that they would be with him, and he would send them out to proclaim the Word and give them authority to banish demons.”",
+        "es": "«El plan era que estuvieran con Él, que los enviara a proclamar la Palabra y les diera autoridad para expulsar demonios»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos3-nbla-14b"
+          ],
+          "verseId": "marcos3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "13-19"
+    },
+    {
+      "explanation": "Jesús interpreta sus liberaciones como evidencia de que el poder del enemigo está siendo sometido. La NBLA fija la lógica de atar primero al hombre fuerte para después saquear su casa; MSG hace más visible la contundencia de la derrota. La imagen declara la superioridad del Reino de Dios, pero no convierte cada dificultad humana en una fórmula simplista de confrontación demoníaca.",
+      "id": "marcos3-joya-04",
+      "msg": {
+        "en": "“Tie him up, though, and you can clean him out.”",
+        "es": "«Pero átenlo, y podrán vaciarle la casa»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos3-nbla-27a"
+          ],
+          "verseId": "marcos3-nbla-27"
+        }
+      ],
+      "order": 4,
+      "range": "22-27"
+    },
+    {
+      "explanation": "La advertencia más severa del capítulo comienza afirmando la amplitud extraordinaria del perdón. La NBLA declara que todos los pecados y blasfemias pueden ser perdonados; MSG concentra esa verdad en una frase pastoral directa. El límite posterior no nace de una falta de misericordia en Dios, sino de la persistencia humana en rechazar y calumniar al Espíritu que da testimonio de Cristo y conduce al perdón.",
+      "id": "marcos3-joya-05",
+      "msg": {
+        "en": "“There’s nothing done or said that can’t be forgiven.”",
+        "es": "«no hay nada hecho o dicho que no pueda ser perdonado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "28-30"
+    },
+    {
+      "explanation": "Jesús declara que el Reino forma una familia definida por la respuesta a Dios. La NBLA fija el criterio: hacer la voluntad de Dios; MSG lo vuelve memorable mediante la imagen de un vínculo que puede ser más profundo que la sangre. La frase no anula ni desprecia la familia natural, sino que afirma que la pertenencia a la comunidad de Jesús está abierta a toda persona que responde obedientemente a Dios.",
+      "id": "marcos3-joya-06",
+      "msg": {
+        "en": "“Obedience is thicker than blood.”",
+        "es": "«La obediencia une más que la sangre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-35"
+        }
+      ],
+      "order": 6,
+      "range": "33-35"
+    }
+  ],
+  "meta": {
+    "book": "MARCOS",
+    "bookId": "marcos",
+    "chapter": 3,
+    "studyId": "marcos-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "marcos3-msg-01",
+      "msg": {
+        "en": "Then he went back in the meeting place where he found a man with a crippled hand. The Pharisees had their eyes on Jesus to see if he would heal him, hoping to catch him in a Sabbath infraction. He said to the man with the crippled hand, “Stand here where we can see you.”",
+        "es": "Luego volvió a entrar en la sinagoga, donde encontró a un hombre con una mano tullida. Los fariseos no le quitaban los ojos de encima para ver si lo sanaba, esperando atraparlo en una infracción del sábado. Jesús le dijo al hombre de la mano tullida: «Ponte de pie aquí, donde todos podamos verte»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "marcos3-msg-02",
+      "msg": {
+        "en": "Then he spoke to the people: “What kind of action suits the Sabbath best? Doing good or doing evil? Helping people or leaving them helpless?” No one said a word.",
+        "es": "Luego se dirigió a la gente: «¿Qué clase de acción corresponde mejor al sábado: hacer el bien o hacer el mal? ¿Ayudar a las personas o dejarlas desamparadas?». Nadie dijo una palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "marcos3-msg-03",
+      "msg": {
+        "en": "He looked them in the eye, one after another, angry now, furious at their hard-nosed religion. He said to the man, “Hold out your hand.” He held it out—it was as good as new! The Pharisees got out as fast as they could, sputtering about how they would join forces with Herod’s followers and ruin him.",
+        "es": "Los miró a los ojos, uno por uno, ahora enojado, furioso ante su religiosidad obstinada. Le dijo al hombre: «Extiende la mano». Él la extendió, ¡y quedó como nueva! Los fariseos salieron a toda prisa, refunfuñando mientras hablaban de unir fuerzas con los partidarios de Herodes para destruirlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-10",
+      "id": "marcos3-msg-04",
+      "msg": {
+        "en": "Jesus went off with his disciples to the sea to get away. But a huge crowd from Galilee trailed after them—also from Judea, Jerusalem, Idumea, across the Jordan, and around Tyre and Sidon—swarms of people who had heard the reports and had come to see for themselves. He told his disciples to get a boat ready so he wouldn’t be trampled by the crowd. He had healed many people, and now everyone who had something wrong was pushing and shoving to get near and touch him.",
+        "es": "Jesús se retiró con sus discípulos hacia el lago para alejarse. Pero una multitud enorme de Galilea fue tras ellos; también de Judea, Jerusalén, Idumea, del otro lado del Jordán y de los alrededores de Tiro y Sidón: oleadas de gente que habían oído los informes y vinieron a comprobarlo por sí mismos. Les dijo a sus discípulos que tuvieran lista una barca para evitar que la multitud lo aplastara. Había sanado a muchas personas, y ahora todos los que sufrían algún mal empujaban y se abrían paso para acercarse y tocarlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "marcos3-msg-05",
+      "msg": {
+        "en": "Evil spirits, when they recognized him, fell down and cried out, “You are the Son of God!” But Jesus would have none of it. He shut them up, forbidding them to identify him in public.",
+        "es": "Los espíritus malignos, cuando lo reconocían, caían delante de Él y gritaban: «¡Tú eres el Hijo de Dios!». Pero Jesús no lo toleraba. Los hacía callar y les prohibía revelar públicamente quién era."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13-19",
+      "id": "marcos3-msg-06",
+      "msg": {
+        "en": "He climbed a mountain and invited those he wanted with him. They climbed together. He settled on twelve, and designated them apostles. The plan was that they would be with him, and he would send them out to proclaim the Word and give them authority to banish demons. These are the Twelve:\nSimon (Jesus later named him Peter, meaning “Rock”),\nJames, son of Zebedee,\nJohn, brother of James (Jesus nicknamed the Zebedee\nbrothers Boanerges, meaning “Sons of Thunder”),\nAndrew,\nPhilip,\nBartholomew,\nMatthew,\nThomas,\nJames, son of Alphaeus,\nThaddaeus,\nSimon the Canaanite,\nJudas Iscariot (who betrayed him).",
+        "es": "Subió a una montaña e invitó a los que quería consigo. Ellos subieron juntos. Escogió a doce y los designó apóstoles. El plan era que estuvieran con Él, que los enviara a proclamar la Palabra y les diera autoridad para expulsar demonios. Estos son los Doce:\nSimón (Jesús más tarde lo llamó Pedro, que significa «Roca»),\nJacobo, hijo de Zebedeo,\nJuan, hermano de Jacobo (Jesús apodó a los hermanos Zebedeo Boanerges, que significa «Hijos del Trueno»),\nAndrés,\nFelipe,\nBartolomé,\nMateo,\nTomás,\nJacobo, hijo de Alfeo,\nTadeo,\nSimón el cananeo,\nJudas Iscariote (quien lo traicionó)."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-19"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "marcos3-msg-07",
+      "msg": {
+        "en": "Jesus came home and, as usual, a crowd gathered—so many making demands on him that there wasn’t even time to eat. His friends heard what was going on and went to rescue him, by force if necessary. They suspected he was getting carried away with himself.",
+        "es": "Jesús volvió a casa y, como de costumbre, se reunió una multitud; eran tantos y exigían tanto de Él que ni siquiera había tiempo para comer. Sus amigos se enteraron de lo que sucedía y fueron a sacarlo de allí, por la fuerza si era necesario. Sospechaban que se estaba excediendo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-21"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "22-27",
+      "id": "marcos3-msg-08",
+      "msg": {
+        "en": "The religion scholars from Jerusalem came down spreading rumors that he was working black magic, using devil tricks to impress them with spiritual power. Jesus confronted their slander with a story: “Does it make sense to send a devil to catch a devil, to use Satan to get rid of Satan? A constantly squabbling family disintegrates. If Satan were fighting Satan, there soon wouldn’t be any Satan left. Do you think it’s possible in broad daylight to enter the house of an awake, able-bodied man, and walk off with his possessions unless you tie him up first? Tie him up, though, and you can clean him out.",
+        "es": "Los maestros de religión que habían bajado de Jerusalén andaban esparciendo rumores de que practicaba magia negra y usaba trucos del diablo para impresionarlos con poder espiritual. Jesús enfrentó sus calumnias con una historia: «¿Tiene sentido mandar a un diablo a atrapar a otro diablo, usar a Satanás para deshacerse de Satanás? Una familia que vive peleando consigo misma se desintegra. Si Satanás estuviera luchando contra Satanás, pronto no quedaría nada de Satanás. ¿Creen que es posible entrar a plena luz del día en la casa de un hombre despierto y fuerte y llevarse sus pertenencias, a menos que primero lo aten? Pero átenlo, y podrán vaciarle la casa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-27"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "marcos3-msg-09",
+      "msg": {
+        "en": "“Listen to this carefully. I’m warning you. There’s nothing done or said that can’t be forgiven. But if you persist in your slanders against God’s Holy Spirit, you are repudiating the very One who forgives, sawing off the branch on which you’re sitting, severing by your own perversity all connection with the One who forgives.” He gave this warning because they were accusing him of being in league with Evil.",
+        "es": "«Escuchen esto con cuidado. Se los advierto: no hay nada hecho o dicho que no pueda ser perdonado. Pero si persisten en sus calumnias contra el Espíritu Santo de Dios, están rechazando al mismo que perdona; están serruchando la rama sobre la que están sentados, cortando por su propia perversidad toda conexión con Aquel que perdona». Dio esta advertencia porque lo acusaban de estar aliado con el Mal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-30"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "marcos3-msg-10",
+      "msg": {
+        "en": "Just then his mother and brothers showed up. Standing outside, they relayed a message that they wanted a word with him. He was surrounded by the crowd when he was given the message, “Your mother and brothers and sisters are outside looking for you.”",
+        "es": "En ese momento llegaron su madre y sus hermanos. Se quedaron afuera y mandaron decir que querían hablar con Él. Estaba rodeado por la multitud cuando le dieron el recado: «Tu madre, tus hermanos y tus hermanas están afuera buscándote»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-32"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "33-35",
+      "id": "marcos3-msg-11",
+      "msg": {
+        "en": "Jesus responded, “Who do you think are my mother and brothers?” Looking around, taking in everyone seated around him, he said, “Right here, right in front of you—my mother and my brothers. Obedience is thicker than blood. The person who obeys God’s will is my brother and sister and mother.”",
+        "es": "Jesús respondió: «¿Quiénes creen que son mi madre y mis hermanos?». Mirando a su alrededor, abarcando con la vista a todos los que estaban sentados junto a Él, dijo: «Aquí mismo, justo delante de ustedes: mi madre y mis hermanos. La obediencia une más que la sangre. La persona que obedece la voluntad de Dios es mi hermano, mi hermana y mi madre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos3-nbla-35"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "marcos3-nbla-01",
+      "number": 1,
+      "text": "Otra vez entró Jesús en una sinagoga; y había allí un hombre que tenía una mano seca."
+    },
+    {
+      "id": "marcos3-nbla-02",
+      "number": 2,
+      "text": "Y lo observaban para ver si lo sanaba en el día de reposo, para poder acusar a Jesús."
+    },
+    {
+      "id": "marcos3-nbla-03",
+      "number": 3,
+      "text": "Y Jesús le dijo* al hombre que tenía la mano seca: «Levántate y ponte aquí en medio»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos3-nbla-04a",
+          "order": 1,
+          "text": "Entonces Jesús dijo* a los otros: «"
+        },
+        {
+          "id": "marcos3-nbla-04b",
+          "order": 2,
+          "text": "¿Es lícito en el día de reposo hacer bien o hacer mal, salvar una vida o matar?"
+        },
+        {
+          "id": "marcos3-nbla-04c",
+          "order": 3,
+          "text": "». Pero ellos guardaban silencio."
+        }
+      ],
+      "id": "marcos3-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos3-nbla-05a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "marcos3-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "mirando con enojo a los que lo rodeaban, y entristecido por la dureza de sus corazones"
+        },
+        {
+          "id": "marcos3-nbla-05c",
+          "order": 3,
+          "text": ", le dijo* al hombre: «Extiende tu mano». Y él la extendió, y su mano quedó sana."
+        }
+      ],
+      "id": "marcos3-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "marcos3-nbla-06",
+      "number": 6,
+      "text": "Pero cuando los fariseos salieron, enseguida comenzaron a tramar con los herodianos en contra de Jesús, para ver cómo lo podrían destruir."
+    },
+    {
+      "id": "marcos3-nbla-07",
+      "number": 7,
+      "text": "Entonces Jesús se retiró al mar con Sus discípulos, y una gran multitud de Galilea lo siguió. Y también de Judea,"
+    },
+    {
+      "id": "marcos3-nbla-08",
+      "number": 8,
+      "text": "de Jerusalén, de Idumea, del otro lado del Jordán, y de los alrededores de Tiro y Sidón, una gran multitud, que al oír todo lo que Jesús hacía, vino a Él."
+    },
+    {
+      "id": "marcos3-nbla-09",
+      "number": 9,
+      "text": "Y dijo a Sus discípulos que tuvieran lista una barca para Él por causa de la multitud, para que no lo oprimieran;"
+    },
+    {
+      "id": "marcos3-nbla-10",
+      "number": 10,
+      "text": "porque Él había sanado a muchos, de manera que todos los que tenían aflicciones, para tocar a Jesús, se echaban sobre Él."
+    },
+    {
+      "id": "marcos3-nbla-11",
+      "number": 11,
+      "text": "Y siempre que los espíritus inmundos veían a Jesús, caían delante de Él y gritaban: «Tú eres el Hijo de Dios»."
+    },
+    {
+      "id": "marcos3-nbla-12",
+      "number": 12,
+      "text": "Pero Él les advertía con insistencia que no revelaran Su identidad."
+    },
+    {
+      "id": "marcos3-nbla-13",
+      "number": 13,
+      "text": "Después Jesús subió* al monte, llamó* a los que Él quiso, y ellos vinieron a Él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos3-nbla-14a",
+          "order": 1,
+          "text": "Designó a doce,"
+        },
+        {
+          "id": "marcos3-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para que estuvieran con Él y para enviarlos a predicar,"
+        }
+      ],
+      "id": "marcos3-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "marcos3-nbla-15",
+      "number": 15,
+      "text": "y para que tuvieran autoridad de expulsar demonios."
+    },
+    {
+      "id": "marcos3-nbla-16",
+      "number": 16,
+      "text": "Designó, pues, a los doce: Simón (a quien puso por nombre Pedro),"
+    },
+    {
+      "id": "marcos3-nbla-17",
+      "number": 17,
+      "text": "Jacobo, hijo de Zebedeo, y Juan hermano de Jacobo (a quienes puso por nombre Boanerges, que significa: «Hijos del Trueno»);"
+    },
+    {
+      "id": "marcos3-nbla-18",
+      "number": 18,
+      "text": "Andrés, Felipe, Bartolomé, Mateo, Tomás, Jacobo, hijo de Alfeo, Tadeo, Simón el cananita;"
+    },
+    {
+      "id": "marcos3-nbla-19",
+      "number": 19,
+      "text": "y Judas Iscariote, el que también lo entregó."
+    },
+    {
+      "id": "marcos3-nbla-20",
+      "number": 20,
+      "text": "Jesús llegó* a una casa, y la multitud se juntó* de nuevo, a tal punto que ellos ni siquiera podían comer."
+    },
+    {
+      "id": "marcos3-nbla-21",
+      "number": 21,
+      "text": "Cuando Sus parientes oyeron esto, fueron para hacerse cargo de Él, porque decían: «Está fuera de sí»."
+    },
+    {
+      "id": "marcos3-nbla-22",
+      "number": 22,
+      "text": "Y los escribas que habían descendido de Jerusalén decían: «Tiene a Beelzebú; y expulsa los demonios por medio del príncipe de los demonios»."
+    },
+    {
+      "id": "marcos3-nbla-23",
+      "number": 23,
+      "text": "Llamándolos junto a Él, Jesús les hablaba en parábolas: «¿Cómo puede Satanás expulsar a Satanás?"
+    },
+    {
+      "id": "marcos3-nbla-24",
+      "number": 24,
+      "text": "Si un reino está dividido contra sí mismo, ese reino no puede perdurar."
+    },
+    {
+      "id": "marcos3-nbla-25",
+      "number": 25,
+      "text": "Si una casa está dividida contra sí misma, esa casa no podrá permanecer."
+    },
+    {
+      "id": "marcos3-nbla-26",
+      "number": 26,
+      "text": "Y si Satanás se ha levantado contra sí mismo y está dividido, no puede permanecer, sino que ha llegado su fin."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos3-nbla-27a",
+          "order": 1,
+          "text": "»Pero nadie puede entrar en la casa de un hombre fuerte y saquear sus bienes si primero no lo ata"
+        },
+        {
+          "id": "marcos3-nbla-27b",
+          "order": 2,
+          "text": "; entonces podrá saquear su casa."
+        }
+      ],
+      "id": "marcos3-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "marcos3-nbla-28",
+      "number": 28,
+      "text": "En verdad les digo que todos los pecados serán perdonados a los hijos de los hombres, y las blasfemias con que blasfemen,"
+    },
+    {
+      "id": "marcos3-nbla-29",
+      "number": 29,
+      "text": "pero cualquiera que blasfeme contra el Espíritu Santo no tiene jamás perdón, sino que es culpable de pecado eterno»."
+    },
+    {
+      "id": "marcos3-nbla-30",
+      "number": 30,
+      "text": "Porque decían: «Tiene un espíritu inmundo»."
+    },
+    {
+      "id": "marcos3-nbla-31",
+      "number": 31,
+      "text": "Entonces llegaron* Su madre y Sus hermanos, y quedándose afuera, mandaron a llamar a Jesús."
+    },
+    {
+      "id": "marcos3-nbla-32",
+      "number": 32,
+      "text": "Y había una multitud sentada alrededor de Él, y le dijeron*: «Tu madre y Tus hermanos están afuera y te buscan»."
+    },
+    {
+      "id": "marcos3-nbla-33",
+      "number": 33,
+      "text": "«¿Quiénes son Mi madre y Mis hermanos?», les dijo* Jesús."
+    },
+    {
+      "id": "marcos3-nbla-34",
+      "number": 34,
+      "text": "Y mirando a los que estaban sentados en círculo alrededor de Él, dijo*: «Aquí están Mi madre y Mis hermanos."
+    },
+    {
+      "id": "marcos3-nbla-35",
+      "number": 35,
+      "text": "Porque cualquiera que hace la voluntad de Dios, ese es Mi hermano, y hermana y madre»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

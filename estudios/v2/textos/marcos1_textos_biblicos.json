@@ -1,0 +1,817 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El evangelio comienza con la identidad y la llegada de Jesucristo, no con una técnica de superación. La NBLA precisa que Jesús es el Mesías y el Hijo de Dios; MSG vuelve visible el carácter de anuncio vivo al llamarlo «la buena noticia» y «el Mensaje». La expresión pastoral no debe reducir el evangelio a comunicación inspiradora: su contenido objetivo es la persona y la obra de Jesús.",
+      "id": "marcos1-joya-01",
+      "msg": {
+        "en": "\"The good news of Jesus Christ—the Message!—begins here\"",
+        "es": "\"La buena noticia de Jesucristo —¡el Mensaje!— comienza aquí\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Jesús trae la obra prometida del Espíritu y supera el ministerio preparatorio de Juan. La NBLA fija la afirmación central: Él bautiza con el Espíritu Santo. MSG expresa pastoralmente el alcance transformador de esa obra como un cambio «de adentro hacia afuera»; esa imagen comunica renovación profunda, pero no debe usarse para definir por sí sola todos los aspectos doctrinales del bautismo con el Espíritu.",
+      "id": "marcos1-joya-02",
+      "msg": {
+        "en": "\"His baptism—a holy baptism by the Holy Spirit—will change you from the inside out.\"",
+        "es": "\"Su bautismo —un bautismo santo por el Espíritu Santo— los transformará de adentro hacia afuera\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos1-nbla-08b"
+          ],
+          "verseId": "marcos1-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-8"
+    },
+    {
+      "explanation": "La misión de Jesús se sostiene en su identidad filial y en el deleite del Padre. La NBLA conserva la declaración fundamental de filiación y complacencia divina. MSG hace perceptible su calidez al hablar de alguien «marcado por mi amor»; esa expansión ayuda a escuchar la fuerza relacional de la escena, sin alterar la afirmación central de que Jesús es el Hijo amado en quien el Padre se complace.",
+      "id": "marcos1-joya-03",
+      "msg": {
+        "en": "\"You are my Son, chosen and marked by my love, pride of my life.\"",
+        "es": "\"Tú eres mi Hijo, elegido y marcado por mi amor, el orgullo de mi vida\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos1-nbla-11b"
+          ],
+          "verseId": "marcos1-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "9-11"
+    },
+    {
+      "explanation": "Con Jesús, el tiempo esperado por la historia bíblica ha alcanzado su cumplimiento y el Reino se ha acercado. La NBLA fija el sentido temporal y llama al arrepentimiento y a la fe en el evangelio. MSG comunica la urgencia del anuncio mediante «¡Se acabó la espera!» y vuelve el arrepentimiento visible como cambio de vida; la expresión no significa que el Reino ya haya alcanzado toda su consumación, sino que su presencia decisiva ha irrumpido en Jesús.",
+      "id": "marcos1-joya-04",
+      "msg": {
+        "en": "\"Time’s up! God’s kingdom is here. Change your life and believe the Message.\"",
+        "es": "\"¡Se acabó la espera! El Reino de Dios está aquí. Cambien de vida y crean el Mensaje\"."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "14-15"
+    },
+    {
+      "explanation": "Jesús enseña con una autoridad que le pertenece y que no depende del prestigio de otros intérpretes. La NBLA nombra explícitamente esa autoridad y la contrasta con los escribas. MSG la vuelve audible en el tono «directo» y «seguro» de su enseñanza; esas cualidades describen su expresión, pero la autoridad teológica no nace de una personalidad convincente, sino de quién es Él.",
+      "id": "marcos1-joya-05",
+      "msg": {
+        "en": "\"They were surprised at his teaching—so forthright, so confident\"",
+        "es": "\"Todos quedaron sorprendidos por su enseñanza: tan directa, tan segura\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos1-nbla-22b"
+          ],
+          "verseId": "marcos1-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "21-22"
+    },
+    {
+      "explanation": "Jesús conoce el propósito de su misión y no permite que la popularidad local lo encierre en un solo lugar. La NBLA y MSG coinciden en que su salida hacia otros pueblos responde a la razón de su venida: predicar. MSG conserva la frase con una claridad memorable, pero el contexto impide convertirla en una oposición entre predicación y compasión, porque el mismo capítulo muestra que Jesús predica, libera y sana como expresiones inseparables del Reino.",
+      "id": "marcos1-joya-06",
+      "msg": {
+        "en": "\"This is why I’ve come.\"",
+        "es": "\"Para esto he venido\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos1-nbla-38b"
+          ],
+          "verseId": "marcos1-nbla-38"
+        }
+      ],
+      "order": 6,
+      "range": "38-39"
+    },
+    {
+      "explanation": "La limpieza del leproso nace de la autoridad compasiva de Jesús. La NBLA conserva la voluntad declarada y la orden efectiva; MSG las presenta en dos frases breves que hacen sentir la cercanía y decisión del momento. El texto no promete que toda petición de sanidad recibirá idéntica respuesta inmediata, pero sí revela que Jesús no es indiferente ante la impureza, el sufrimiento y la exclusión.",
+      "id": "marcos1-joya-07",
+      "msg": {
+        "en": "\"I want to. Be clean.\"",
+        "es": "\"Quiero. Queda limpio\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos1-nbla-41b"
+          ],
+          "verseId": "marcos1-nbla-41"
+        }
+      ],
+      "order": 7,
+      "range": "41-45"
+    }
+  ],
+  "meta": {
+    "book": "MARCOS",
+    "bookId": "marcos",
+    "chapter": 1,
+    "studyId": "marcos-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "marcos1-msg-01",
+      "msg": {
+        "en": "The good news of Jesus Christ—the Message!—begins here, following to the letter the scroll of the prophet Isaiah.\nWatch closely: I’m sending my preacher ahead of you;\nHe’ll make the road smooth for you.\nThunder in the desert!\nPrepare for God’s arrival!\nMake the road smooth and straight!",
+        "es": "La buena noticia de Jesucristo —¡el Mensaje!— comienza aquí, siguiendo al pie de la letra el rollo del profeta Isaías.\nMiren con atención: envío delante de ti a mi predicador;\nél te allanará el camino.\n¡Un trueno en el desierto!\n¡Prepárense para la llegada de Dios!\n¡Allanen y enderecen el camino!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "marcos1-msg-02",
+      "msg": {
+        "en": "John the Baptizer appeared in the wild, preaching a baptism of life-change that leads to forgiveness of sins. People thronged to him from Judea and Jerusalem and, as they confessed their sins, were baptized by him in the Jordan River into a changed life. John wore a camel-hair habit, tied at the waist with a leather belt. He ate locusts and wild field honey.",
+        "es": "Juan el Bautista apareció en el desierto predicando un bautismo de cambio de vida que conduce al perdón de los pecados. Multitudes de Judea y Jerusalén acudían a él y, mientras confesaban sus pecados, Juan las bautizaba en el río Jordán para entrar en una vida transformada. Juan vestía una túnica de pelo de camello, ajustada a la cintura con un cinturón de cuero. Comía langostas y miel silvestre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "marcos1-msg-03",
+      "msg": {
+        "en": "As he preached he said, “The real action comes next: The star in this drama, to whom I’m a mere stagehand, will change your life. I’m baptizing you here in the river, turning your old life in for a kingdom life. His baptism—a holy baptism by the Holy Spirit—will change you from the inside out.”",
+        "es": "Mientras predicaba, decía: «Lo decisivo viene después: la figura central de esta historia, ante quien yo apenas soy un simple ayudante detrás del escenario, transformará sus vidas. Yo los bautizo aquí en el río, cambiando su vieja vida por una vida del Reino. Su bautismo —un bautismo santo por el Espíritu Santo— los transformará de adentro hacia afuera»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "marcos1-msg-04",
+      "msg": {
+        "en": "At this time, Jesus came from Nazareth in Galilee and was baptized by John in the Jordan. The moment he came out of the water, he saw the sky split open and God’s Spirit, looking like a dove, come down on him. Along with the Spirit, a voice: “You are my Son, chosen and marked by my love, pride of my life.”",
+        "es": "Por esos días, Jesús llegó desde Nazaret de Galilea y fue bautizado por Juan en el Jordán. En el instante en que salió del agua, vio abrirse el cielo y al Espíritu de Dios descender sobre Él con apariencia de paloma. Junto con el Espíritu se oyó una voz: «Tú eres mi Hijo, elegido y marcado por mi amor, el orgullo de mi vida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "marcos1-msg-05",
+      "msg": {
+        "en": "At once, this same Spirit pushed Jesus out into the wild. For forty wilderness days and nights he was tested by Satan. Wild animals were his companions, and angels took care of him.",
+        "es": "De inmediato, ese mismo Espíritu impulsó a Jesús hacia el desierto. Durante cuarenta días y noches fue probado allí por Satanás. Las fieras eran su compañía, y los ángeles cuidaban de Él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "marcos1-msg-06",
+      "msg": {
+        "en": "After John was arrested, Jesus went to Galilee preaching the Message of God: “Time’s up! God’s kingdom is here. Change your life and believe the Message.”",
+        "es": "Después de que Juan fue arrestado, Jesús fue a Galilea proclamando el Mensaje de Dios: «¡Se acabó la espera! El Reino de Dios está aquí. Cambien de vida y crean el Mensaje»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "marcos1-msg-07",
+      "msg": {
+        "en": "Passing along the beach of Lake Galilee, he saw Simon and his brother Andrew net-fishing. Fishing was their regular work. Jesus said to them, “Come with me. I’ll make a new kind of fisherman out of you. I’ll show you how to catch men and women instead of perch and bass.” They didn’t ask questions. They dropped their nets and followed.",
+        "es": "Mientras caminaba por la orilla del lago de Galilea, vio a Simón y a su hermano Andrés pescando con redes. La pesca era su trabajo habitual. Jesús les dijo: «Vengan conmigo. Haré de ustedes una nueva clase de pescadores. Les enseñaré a alcanzar hombres y mujeres en vez de percas y lubinas». Ellos no hicieron preguntas. Soltaron las redes y lo siguieron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "marcos1-msg-08",
+      "msg": {
+        "en": "A dozen yards or so down the beach, he saw the brothers James and John, Zebedee’s sons. They were in the boat, mending their fishnets. Right off, he made the same offer. Immediately, they left their father Zebedee, the boat, and the hired hands, and followed.",
+        "es": "Unos metros más adelante por la orilla, vio a los hermanos Jacobo y Juan, hijos de Zebedeo. Estaban en la barca reparando sus redes. Sin demora, les hizo la misma invitación. Inmediatamente dejaron a su padre Zebedeo, la barca y los jornaleros, y siguieron a Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-20"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "marcos1-msg-09",
+      "msg": {
+        "en": "Then they entered Capernaum. When the Sabbath arrived, Jesus lost no time in getting to the meeting place. He spent the day there teaching. They were surprised at his teaching—so forthright, so confident—not quibbling and quoting like the religion scholars.",
+        "es": "Después entraron en Capernaúm. Al llegar el sábado, Jesús no perdió tiempo y fue al lugar de reunión. Pasó el día enseñando allí. Todos quedaron sorprendidos por su enseñanza: tan directa, tan segura, sin enredarse en discusiones y citas como los expertos religiosos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "marcos1-msg-10",
+      "msg": {
+        "en": "Suddenly, while still in the meeting place, he was interrupted by a man who was deeply disturbed and yelling out, “What business do you have here with us, Jesus? Nazarene! I know what you’re up to! You’re the Holy One of God, and you’ve come to destroy us!”",
+        "es": "De repente, mientras todavía estaban en el lugar de reunión, un hombre profundamente perturbado interrumpió gritando: «¿Qué tienes que ver con nosotros, Jesús? ¡Nazareno! ¡Sé lo que vienes a hacer! Tú eres el Santo de Dios, y has venido a destruirnos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "marcos1-msg-11",
+      "msg": {
+        "en": "Jesus shut him up: “Quiet! Get out of him!” The afflicting spirit threw the man into spasms, protesting loudly—and got out.",
+        "es": "Jesús lo hizo callar: «¡Silencio! ¡Sal de él!». El espíritu que lo atormentaba sacudió al hombre con convulsiones, gritó con fuerza y salió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-26"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "27-28",
+      "id": "marcos1-msg-12",
+      "msg": {
+        "en": "Everyone there was incredulous, buzzing with curiosity. “What’s going on here? A new teaching that does what it says? He shuts up defiling, demonic spirits and sends them packing!” News of this traveled fast and was soon all over Galilee.",
+        "es": "Todos quedaron sin poder creerlo y comentaban con enorme curiosidad: «¿Qué está pasando aquí? ¿Una enseñanza nueva que hace lo que dice? ¡Hace callar a los espíritus impuros y demoníacos, y los echa fuera!». La noticia corrió rápidamente y pronto se extendió por toda Galilea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-28"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "marcos1-msg-13",
+      "msg": {
+        "en": "Directly on leaving the meeting place, they came to Simon and Andrew’s house, accompanied by James and John. Simon’s mother-in-law was sick in bed, burning up with fever. They told Jesus. He went to her, took her hand, and raised her up. No sooner had the fever left than she was up fixing dinner for them.",
+        "es": "Al salir del lugar de reunión, fueron directamente a la casa de Simón y Andrés, acompañados por Jacobo y Juan. La suegra de Simón estaba enferma en cama, ardiendo de fiebre. Se lo contaron a Jesús. Él se acercó, la tomó de la mano y la levantó. Apenas la fiebre la dejó, ella se puso de pie y comenzó a prepararles la comida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-31"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "32-34",
+      "id": "marcos1-msg-14",
+      "msg": {
+        "en": "That evening, after the sun was down, they brought sick and evil-afflicted people to him, the whole city lined up at his door! He cured their sick bodies and tormented spirits. Because the demons knew his true identity, he didn’t let them say a word.",
+        "es": "Aquella noche, después de ponerse el sol, llevaron ante Él a los enfermos y a quienes sufrían bajo espíritus malignos. ¡Toda la ciudad estaba reunida frente a su puerta! Jesús sanó sus cuerpos enfermos y liberó a quienes estaban atormentados. Como los demonios conocían su verdadera identidad, no les permitió decir una sola palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-34"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "35-37",
+      "id": "marcos1-msg-15",
+      "msg": {
+        "en": "While it was still night, way before dawn, he got up and went out to a secluded spot and prayed. Simon and those with him went looking for him.They found him and said, “Everybody’s looking for you.”",
+        "es": "Cuando todavía era de noche, mucho antes del amanecer, Jesús se levantó, salió y fue a un lugar apartado para orar. Simón y quienes estaban con él salieron a buscarlo. Lo encontraron y le dijeron: «Todo el mundo te está buscando»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-37"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "38-39",
+      "id": "marcos1-msg-16",
+      "msg": {
+        "en": "Jesus said, “Let’s go to the rest of the villages so I can preach there also.This is why I’ve come.” He went to their meeting places all through Galilee, preaching and throwing out the demons.",
+        "es": "Jesús respondió: «Vayamos a las demás aldeas para que también pueda predicar allí. Para esto he venido». Recorrió los lugares de reunión por toda Galilea, predicando y expulsando demonios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-39"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "40",
+      "id": "marcos1-msg-17",
+      "msg": {
+        "en": "A leper came to him, begging on his knees, “If you want to, you can cleanse me.”",
+        "es": "Un leproso se acercó, se arrodilló ante Él y le suplicó: «Si quieres, puedes limpiarme»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-40"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "41-45",
+      "id": "marcos1-msg-18",
+      "msg": {
+        "en": "Deeply moved, Jesus put out his hand, touched him, and said, “I want to. Be clean.” Then and there the leprosy was gone, his skin smooth and healthy. Jesus dismissed him with strict orders: “Say nothing to anyone. Take the offering for cleansing that Moses prescribed and present yourself to the priest. This will validate your healing to the people.” But as soon as the man was out of earshot, he told everyone he met what had happened, spreading the news all over town. So Jesus kept to out-of-the-way places, no longer able to move freely in and out of the city. But people found him, and came from all over.",
+        "es": "Profundamente conmovido, Jesús extendió la mano, lo tocó y le dijo: «Quiero. Queda limpio». En ese mismo instante desapareció la lepra, y su piel quedó tersa y sana. Jesús lo despidió con órdenes estrictas: «No le digas nada a nadie. Lleva la ofrenda por la limpieza que Moisés ordenó y preséntate ante el sacerdote. Esto confirmará ante la gente que has sido sanado». Pero apenas el hombre se alejó, comenzó a contarles a todos lo sucedido y difundió la noticia por toda la ciudad. Por eso Jesús tuvo que quedarse en lugares apartados y ya no podía entrar y salir libremente de la ciudad. Aun así, la gente lo encontraba y acudía a Él desde todas partes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos1-nbla-45"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "marcos1-nbla-01",
+      "number": 1,
+      "text": "Principio del evangelio de Jesucristo el Mesías, Hijo de Dios."
+    },
+    {
+      "id": "marcos1-nbla-02",
+      "number": 2,
+      "text": "Como está escrito en el profeta Isaías:\n«HE AQUÍ, YO ENVÍO MI MENSAJERO DELANTE DE TI,\nEL CUAL PREPARARÁ TU CAMINO."
+    },
+    {
+      "id": "marcos1-nbla-03",
+      "number": 3,
+      "text": "VOZ DEL QUE CLAMA EN EL DESIERTO:\n“PREPAREN EL CAMINO DEL SEÑOR,\nHAGAN DERECHAS SUS SENDAS”»."
+    },
+    {
+      "id": "marcos1-nbla-04",
+      "number": 4,
+      "text": "Juan el Bautista apareció en el desierto predicando el bautismo de arrepentimiento para el perdón de pecados."
+    },
+    {
+      "id": "marcos1-nbla-05",
+      "number": 5,
+      "text": "Acudía a él toda la región de Judea, y toda la gente de Jerusalén, y confesando sus pecados, eran bautizados por él en el río Jordán."
+    },
+    {
+      "id": "marcos1-nbla-06",
+      "number": 6,
+      "text": "Juan estaba vestido de pelo de camello, tenía un cinto de cuero a la cintura, y comía langostas y miel silvestre."
+    },
+    {
+      "id": "marcos1-nbla-07",
+      "number": 7,
+      "text": "Y predicaba, diciendo: «Tras mí viene Uno que es más poderoso que yo, a quien no soy digno de inclinarme y desatar la correa de Sus sandalias."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos1-nbla-08a",
+          "order": 1,
+          "text": "Yo los bauticé a ustedes con agua, pero"
+        },
+        {
+          "id": "marcos1-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Él los bautizará con el Espíritu Santo»."
+        }
+      ],
+      "id": "marcos1-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "marcos1-nbla-09",
+      "number": 9,
+      "text": "Sucedió que en aquellos días Jesús vino de Nazaret de Galilea, y fue bautizado por Juan en el Jordán."
+    },
+    {
+      "id": "marcos1-nbla-10",
+      "number": 10,
+      "text": "Inmediatamente, al salir del agua, vio que los cielos se abrían, y que el Espíritu descendía sobre Él como una paloma;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos1-nbla-11a",
+          "order": 1,
+          "text": "y vino una voz de los cielos, que decía: «"
+        },
+        {
+          "id": "marcos1-nbla-11b",
+          "order": 2,
+          "text": "Tú eres Mi Hijo amado, en Ti me he complacido»."
+        }
+      ],
+      "id": "marcos1-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "marcos1-nbla-12",
+      "number": 12,
+      "text": "Enseguida el Espíritu lo impulsó* a ir al desierto."
+    },
+    {
+      "id": "marcos1-nbla-13",
+      "number": 13,
+      "text": "Y estuvo en el desierto cuarenta días, siendo tentado por Satanás; y estaba entre las fieras, y los ángeles le servían."
+    },
+    {
+      "id": "marcos1-nbla-14",
+      "number": 14,
+      "text": "Después que Juan había sido encarcelado, Jesús vino a Galilea predicando el evangelio de Dios."
+    },
+    {
+      "id": "marcos1-nbla-15",
+      "number": 15,
+      "text": "«El tiempo se ha cumplido», decía, «y el reino de Dios se ha acercado; arrepiéntanse y crean en el evangelio»."
+    },
+    {
+      "id": "marcos1-nbla-16",
+      "number": 16,
+      "text": "Mientras caminaba junto al mar de Galilea, vio a Simón y a Andrés, hermano de Simón, echando una red en el mar, porque eran pescadores."
+    },
+    {
+      "id": "marcos1-nbla-17",
+      "number": 17,
+      "text": "Y Jesús les dijo: «Vengan conmigo, y Yo haré que ustedes sean pescadores de hombres»."
+    },
+    {
+      "id": "marcos1-nbla-18",
+      "number": 18,
+      "text": "Dejando al instante las redes, ellos lo siguieron."
+    },
+    {
+      "id": "marcos1-nbla-19",
+      "number": 19,
+      "text": "Yendo un poco más adelante, Jesús vio a Jacobo, el hijo de Zebedeo, y a su hermano Juan, los cuales estaban también en la barca, remendando las redes."
+    },
+    {
+      "id": "marcos1-nbla-20",
+      "number": 20,
+      "text": "Al instante los llamó; y ellos, dejando a su padre Zebedeo en la barca con los jornaleros, se fueron con Jesús."
+    },
+    {
+      "id": "marcos1-nbla-21",
+      "number": 21,
+      "text": "Entraron* en Capernaúm; y enseguida, en el día de reposo, Jesús entró en la sinagoga y comenzó a enseñar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos1-nbla-22a",
+          "order": 1,
+          "text": "Y se admiraban de Su enseñanza; porque"
+        },
+        {
+          "id": "marcos1-nbla-22b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les enseñaba como quien tiene autoridad, y no como los escribas."
+        }
+      ],
+      "id": "marcos1-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "marcos1-nbla-23",
+      "number": 23,
+      "text": "En ese momento estaba en la sinagoga de ellos un hombre con un espíritu inmundo, el cual comenzó a gritar:"
+    },
+    {
+      "id": "marcos1-nbla-24",
+      "number": 24,
+      "text": "«¿Qué tienes que ver con nosotros, Jesús de Nazaret? ¿Has venido a destruirnos? Yo sé quien Tú eres: el Santo de Dios»."
+    },
+    {
+      "id": "marcos1-nbla-25",
+      "number": 25,
+      "text": "Jesús lo reprendió, diciendo: «¡Cállate, y sal de él!»."
+    },
+    {
+      "id": "marcos1-nbla-26",
+      "number": 26,
+      "text": "Entonces el espíritu inmundo, causándole convulsiones al hombre, gritó a gran voz y salió de él."
+    },
+    {
+      "id": "marcos1-nbla-27",
+      "number": 27,
+      "text": "Y todos se asombraron de tal manera que discutían entre sí, diciendo: «¿Qué es esto? ¡Una enseñanza nueva con autoridad! Él manda aun a los espíritus inmundos y le obedecen»."
+    },
+    {
+      "id": "marcos1-nbla-28",
+      "number": 28,
+      "text": "Enseguida Su fama se extendió por todas partes, por toda la región alrededor de Galilea."
+    },
+    {
+      "id": "marcos1-nbla-29",
+      "number": 29,
+      "text": "Inmediatamente después de haber salido de la sinagoga, fueron a casa de Simón y Andrés, con Jacobo y Juan."
+    },
+    {
+      "id": "marcos1-nbla-30",
+      "number": 30,
+      "text": "La suegra de Simón estaba en cama con fiebre, y enseguida hablaron* a Jesús de ella."
+    },
+    {
+      "id": "marcos1-nbla-31",
+      "number": 31,
+      "text": "Él se le acercó, y tomándola de la mano la levantó, y la fiebre la dejó; y ella les servía."
+    },
+    {
+      "id": "marcos1-nbla-32",
+      "number": 32,
+      "text": "A la caída de la tarde, después de la puesta del sol, trajeron a Jesús todos los que estaban enfermos y los endemoniados."
+    },
+    {
+      "id": "marcos1-nbla-33",
+      "number": 33,
+      "text": "Toda la ciudad se había amontonado a la puerta."
+    },
+    {
+      "id": "marcos1-nbla-34",
+      "number": 34,
+      "text": "Y sanó a muchos que estaban enfermos de diversas enfermedades, y expulsó muchos demonios; y no dejaba hablar a los demonios, porque ellos sabían quién era Él."
+    },
+    {
+      "id": "marcos1-nbla-35",
+      "number": 35,
+      "text": "Levantándose muy de mañana, cuando todavía estaba oscuro, Jesús salió y fue a un lugar solitario, y allí oraba."
+    },
+    {
+      "id": "marcos1-nbla-36",
+      "number": 36,
+      "text": "Simón y sus compañeros salieron a buscar a Jesús."
+    },
+    {
+      "id": "marcos1-nbla-37",
+      "number": 37,
+      "text": "Lo encontraron y le dijeron*: «Todos te buscan»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos1-nbla-38a",
+          "order": 1,
+          "text": "Jesús les respondió*: «Vamos a otro lugar, a los pueblos vecinos, para que Yo predique también allí,"
+        },
+        {
+          "id": "marcos1-nbla-38b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque para eso he venido»."
+        }
+      ],
+      "id": "marcos1-nbla-38",
+      "number": 38
+    },
+    {
+      "id": "marcos1-nbla-39",
+      "number": 39,
+      "text": "Y fue por toda Galilea, predicando en sus sinagogas y expulsando demonios."
+    },
+    {
+      "id": "marcos1-nbla-40",
+      "number": 40,
+      "text": "Un leproso vino* rogando a Jesús, y arrodillándose, le dijo: «Si quieres, puedes limpiarme»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos1-nbla-41a",
+          "order": 1,
+          "text": "Movido a compasión, extendiendo Jesús la mano, lo tocó y le dijo*: «"
+        },
+        {
+          "id": "marcos1-nbla-41b",
+          "order": 2,
+          "text": "Quiero; sé limpio»."
+        }
+      ],
+      "id": "marcos1-nbla-41",
+      "number": 41
+    },
+    {
+      "id": "marcos1-nbla-42",
+      "number": 42,
+      "text": "Al instante la lepra lo dejó y quedó limpio."
+    },
+    {
+      "id": "marcos1-nbla-43",
+      "number": 43,
+      "text": "Entonces Jesús lo despidió enseguida amonestándole severamente:"
+    },
+    {
+      "id": "marcos1-nbla-44",
+      "number": 44,
+      "text": "«Mira», le dijo*, «no digas nada a nadie, sino ve, muéstrate al sacerdote y ofrece por tu limpieza lo que Moisés ordenó, para testimonio a ellos»."
+    },
+    {
+      "id": "marcos1-nbla-45",
+      "number": 45,
+      "text": "Pero él, en cuanto salió comenzó a proclamarlo abiertamente y a divulgar el hecho, a tal punto que Jesús ya no podía entrar públicamente en ninguna ciudad, sino que se quedaba fuera en lugares despoblados; y venían a Él de todas partes."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

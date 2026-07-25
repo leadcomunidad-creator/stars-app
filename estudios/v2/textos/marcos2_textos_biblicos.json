@@ -1,0 +1,617 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Jesús responde a la necesidad más profunda del paralítico con una declaración de perdón. La NBLA conserva la formulación «tus pecados te son perdonados», mientras MSG hace explícita la voz personal de Jesús: «I forgive your sins». La autoridad divina de Cristo se confirma en los versículos siguientes mediante la sanidad visible; el pasaje no enseña que toda enfermedad provenga de un pecado personal específico.",
+      "id": "marcos2-joya-01",
+      "msg": {
+        "en": "“Son, I forgive your sins.”",
+        "es": "«Hijo, perdono tus pecados»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-05b"
+          ],
+          "verseId": "marcos2-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "1-5"
+    },
+    {
+      "explanation": "Jesús vincula su identidad como Hijo del Hombre con la autoridad para perdonar y sanar. La NBLA precisa el centro de la afirmación: su autoridad en la tierra para perdonar pecados. MSG comunica pastoralmente que la sanidad visible y el perdón invisible están bajo su señorío, pero la sanidad no debe convertirse en una promesa automática de que toda enfermedad será eliminada de inmediato.",
+      "id": "marcos2-joya-02",
+      "msg": {
+        "en": "“Well, just so it’s clear that I’m the Son of Man and authorized to do either, or both …”",
+        "es": "«Pues bien, para que quede claro que soy el Hijo del Hombre y tengo autoridad para hacer una cosa, la otra o ambas…»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-10a"
+          ],
+          "verseId": "marcos2-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "8-12"
+    },
+    {
+      "explanation": "El discipulado comienza con la iniciativa y la autoridad de Jesús. La NBLA expresa el llamado directo a seguirlo; MSG hace visible su dimensión relacional: ir con Él. No es una invitación a añadir una práctica espiritual a la vida anterior, sino a abandonar el centro antiguo y ordenar la existencia alrededor de la persona de Cristo.",
+      "id": "marcos2-joya-03",
+      "msg": {
+        "en": "“Come along with me.”",
+        "es": "«Ven conmigo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-14b"
+          ],
+          "verseId": "marcos2-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "13-14"
+    },
+    {
+      "explanation": "La misión de Jesús se dirige a quienes necesitan gracia y responden a su llamado. La NBLA fija el contraste bíblico entre justos y pecadores; MSG convierte la imagen del médico en una confrontación pastoral contra la autosuficiencia religiosa. La expresión no enseña que ciertos seres humanos no necesiten salvación, sino que quien se considera sano difícilmente recibe al Médico.",
+      "id": "marcos2-joya-04",
+      "msg": {
+        "en": "“I’m here inviting the sin-sick, not the spiritually-fit.”",
+        "es": "«Estoy aquí para invitar a los enfermos de pecado, no a quienes presumen de estar espiritualmente en forma»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-17b"
+          ],
+          "verseId": "marcos2-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "17"
+    },
+    {
+      "explanation": "La presencia de Jesús determina la respuesta espiritual apropiada para ese momento: el Reino ha llegado en la persona del novio. La NBLA conserva el foco cristológico en «el novio»; MSG amplía la atmósfera de celebración para que el lector perciba el gozo de su presencia. Esa expansión no debe borrar que Jesús mismo es el centro de la imagen ni la anticipación de que será quitado.",
+      "id": "marcos2-joya-05",
+      "msg": {
+        "en": "“As long as the bride and groom are with you, you have a good time.”",
+        "es": "«Mientras los novios estén con ustedes, la pasan bien»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-19b"
+          ],
+          "verseId": "marcos2-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "19-20"
+    },
+    {
+      "explanation": "La vida del Reino no puede almacenarse dentro de estructuras que se niegan a ser renovadas por Jesús. La NBLA fija la imagen del vino nuevo y los odres viejos; MSG la vuelve cotidiana mediante el contraste con botellas agrietadas. El texto no autoriza a despreciar todo lo antiguo por ser antiguo, sino que confronta aquello que ya no puede recibir ni conservar la obra nueva de Dios en Cristo.",
+      "id": "marcos2-joya-06",
+      "msg": {
+        "en": "“And you don’t put your wine in cracked bottles.”",
+        "es": "«Y tampoco se guarda el vino en botellas agrietadas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-22a"
+          ],
+          "verseId": "marcos2-nbla-22"
+        }
+      ],
+      "order": 6,
+      "range": "21-22"
+    },
+    {
+      "explanation": "El mandamiento del descanso fue dado para sostener la vida humana dentro de la voluntad de Dios. La NBLA fija con precisión la relación entre el sábado y el ser humano; MSG hace visible el peligro de convertir un regalo en amo. Jesús no elimina la obediencia ni reduce el sábado a conveniencia personal: como Señor del sábado, recupera su propósito bajo la autoridad de Dios.",
+      "id": "marcos2-joya-07",
+      "msg": {
+        "en": "“The Sabbath was made to serve us; we weren’t made to serve the Sabbath.”",
+        "es": "«El sábado fue hecho para servirnos; nosotros no fuimos hechos para servir al sábado»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos2-nbla-27b"
+          ],
+          "verseId": "marcos2-nbla-27"
+        }
+      ],
+      "order": 7,
+      "range": "25-28"
+    }
+  ],
+  "meta": {
+    "book": "MARCOS",
+    "bookId": "marcos",
+    "chapter": 2,
+    "studyId": "marcos-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "marcos2-msg-01",
+      "msg": {
+        "en": "After a few days, Jesus returned to Capernaum, and word got around that he was back home. A crowd gathered, jamming the entrance so no one could get in or out. He was teaching the Word. They brought a paraplegic to him, carried by four men. When they weren’t able to get in because of the crowd, they removed part of the roof and lowered the paraplegic on his stretcher. Impressed by their bold belief, Jesus said to the paraplegic, “Son, I forgive your sins.”",
+        "es": "Unos días después, Jesús regresó a Capernaúm y corrió la noticia de que estaba nuevamente en casa. Se reunió tanta gente que bloquearon la entrada y nadie podía entrar ni salir. Jesús les enseñaba la Palabra. Entonces llevaron ante Él a un paralítico cargado por cuatro hombres. Como no podían acercarse a causa de la multitud, retiraron una parte del techo y bajaron al paralítico en su camilla. Impresionado por aquella fe audaz, Jesús le dijo: «Hijo, perdono tus pecados»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "marcos2-msg-02",
+      "msg": {
+        "en": "Some religion scholars sitting there started whispering among themselves, “He can’t talk that way! That’s blasphemy! God and only God can forgive sins.”",
+        "es": "Algunos expertos religiosos que estaban sentados allí comenzaron a murmurar entre ellos: «¡No puede hablar así! ¡Eso es una blasfemia! Dios, y solamente Dios, puede perdonar pecados»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-12",
+      "id": "marcos2-msg-03",
+      "msg": {
+        "en": "Jesus knew right away what they were thinking, and said, “Why are you so skeptical? Which is simpler: to say to the paraplegic, ‘I forgive your sins,’ or say, ‘Get up, take your stretcher, and start walking’? Well, just so it’s clear that I’m the Son of Man and authorized to do either, or both …” (he looked now at the paraplegic), “Get up. Pick up your stretcher and go home.” And the man did it—got up, grabbed his stretcher, and walked out, with everyone there watching him. They rubbed their eyes, incredulous—and then praised God, saying, “We’ve never seen anything like this!”",
+        "es": "Jesús supo de inmediato lo que estaban pensando y les dijo: «¿Por qué son tan escépticos? ¿Qué es más sencillo: decirle al paralítico “Perdono tus pecados”, o decirle “Levántate, toma tu camilla y comienza a caminar”? Pues bien, para que quede claro que soy el Hijo del Hombre y tengo autoridad para hacer una cosa, la otra o ambas…». Entonces miró al paralítico y le dijo: «Levántate. Recoge tu camilla y vete a casa». Y el hombre lo hizo: se levantó, tomó su camilla y salió caminando mientras todos lo observaban. Se frotaban los ojos sin poder creerlo y después alabaron a Dios, diciendo: «¡Nunca hemos visto nada semejante!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "marcos2-msg-04",
+      "msg": {
+        "en": "Then Jesus went again to walk alongside the lake. Again a crowd came to him, and he taught them. Strolling along, he saw Levi, son of Alphaeus, at his work collecting taxes. Jesus said, “Come along with me.” He came.",
+        "es": "Después Jesús volvió a caminar junto al lago. Una vez más la multitud se acercó y Él les enseñó. Mientras avanzaba, vio a Leví, hijo de Alfeo, trabajando en la recaudación de impuestos. Jesús le dijo: «Ven conmigo». Y Leví se fue con Él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "marcos2-msg-05",
+      "msg": {
+        "en": "Later Jesus and his disciples were at home having supper with a collection of disreputable guests. Unlikely as it seems, more than a few of them had become followers. The religion scholars and Pharisees saw him keeping this kind of company and lit into his disciples: “What kind of example is this, acting cozy with the riffraff?”",
+        "es": "Más tarde, Jesús y sus discípulos estaban cenando en casa con un grupo de invitados de mala reputación. Por improbable que parezca, varios de ellos se habían convertido en seguidores. Cuando los expertos religiosos y los fariseos vieron a Jesús rodeado de esa clase de gente, arremetieron contra sus discípulos: «¿Qué clase de ejemplo es este, mostrándose tan cercano a la gentuza?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17",
+      "id": "marcos2-msg-06",
+      "msg": {
+        "en": "Jesus, overhearing, shot back, “Who needs a doctor: the healthy or the sick? I’m here inviting the sin-sick, not the spiritually-fit.”",
+        "es": "Jesús los oyó y respondió de inmediato: «¿Quién necesita médico: el sano o el enfermo? Estoy aquí para invitar a los enfermos de pecado, no a quienes presumen de estar espiritualmente en forma»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "18",
+      "id": "marcos2-msg-07",
+      "msg": {
+        "en": "The disciples of John and the disciples of the Pharisees made a practice of fasting. Some people confronted Jesus: “Why do the followers of John and the Pharisees take on the discipline of fasting, but your followers don’t?”",
+        "es": "Los discípulos de Juan y los discípulos de los fariseos acostumbraban ayunar. Algunas personas confrontaron a Jesús: «¿Por qué los seguidores de Juan y de los fariseos practican la disciplina del ayuno, pero tus seguidores no?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "marcos2-msg-08",
+      "msg": {
+        "en": "Jesus said, “When you’re celebrating a wedding, you don’t skimp on the cake and wine. You feast. Later you may need to pull in your belt, but not now. As long as the bride and groom are with you, you have a good time. No one throws cold water on a friendly bonfire. This is Kingdom Come!”",
+        "es": "Jesús respondió: «Cuando celebran una boda, no escatiman en pastel ni en vino. Se dan un banquete. Más adelante quizá tengan que apretarse el cinturón, pero ahora no. Mientras los novios estén con ustedes, la pasan bien. Nadie echa agua fría sobre una fogata entre amigos. ¡Esto es la llegada del Reino!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-20"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "marcos2-msg-09",
+      "msg": {
+        "en": "He went on, “No one cuts up a fine silk scarf to patch old work clothes; you want fabrics that match. And you don’t put your wine in cracked bottles.”",
+        "es": "Continuó diciendo: «Nadie corta un fino pañuelo de seda para remendar ropa vieja de trabajo; se necesitan telas que combinen. Y tampoco se guarda el vino en botellas agrietadas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "marcos2-msg-10",
+      "msg": {
+        "en": "One Sabbath day he was walking through a field of ripe grain. As his disciples made a path, they pulled off heads of grain. The Pharisees told on them to Jesus: “Look, your disciples are breaking Sabbath rules!”",
+        "es": "Un sábado, Jesús caminaba por un campo de grano maduro. Mientras sus discípulos se abrían paso, arrancaban algunas espigas. Los fariseos los acusaron delante de Jesús: «¡Mira, tus discípulos están quebrantando las reglas del sábado!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "25-28",
+      "id": "marcos2-msg-11",
+      "msg": {
+        "en": "Jesus said, “Really? Haven’t you ever read what David did when he was hungry, along with those who were with him? How he entered the sanctuary and ate fresh bread off the altar, with the Chief Priest Abiathar right there watching—holy bread that no one but priests were allowed to eat—and handed it out to his companions?” Then Jesus said, “The Sabbath was made to serve us; we weren’t made to serve the Sabbath. The Son of Man is no lackey to the Sabbath. He’s in charge!”",
+        "es": "Jesús respondió: «¿De veras? ¿Nunca han leído lo que hizo David cuando él y sus compañeros tuvieron hambre? Entró en el santuario y comió pan fresco del altar, con el sumo sacerdote Abiatar allí mismo, mirando: pan sagrado que solamente podían comer los sacerdotes. Y además lo compartió con sus compañeros». Entonces Jesús añadió: «El sábado fue hecho para servirnos; nosotros no fuimos hechos para servir al sábado. El Hijo del Hombre no está a las órdenes del sábado. ¡Él es quien manda!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos2-nbla-28"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "marcos2-nbla-01",
+      "number": 1,
+      "text": "Cuando Jesús entró de nuevo en Capernaúm varios días después, se oyó que estaba en casa."
+    },
+    {
+      "id": "marcos2-nbla-02",
+      "number": 2,
+      "text": "Y se reunieron muchos, tanto que ya no había lugar ni aun a la puerta; y Él les explicaba la palabra."
+    },
+    {
+      "id": "marcos2-nbla-03",
+      "number": 3,
+      "text": "Entonces vinieron* y le trajeron un paralítico llevado entre cuatro hombres."
+    },
+    {
+      "id": "marcos2-nbla-04",
+      "number": 4,
+      "text": "Como no pudieron acercarse a Jesús a causa de la multitud, levantaron el techo encima de donde Él estaba; y cuando habían hecho una abertura, bajaron la camilla en que estaba acostado el paralítico."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-05a",
+          "order": 1,
+          "text": "Viendo Jesús la fe de ellos, dijo* al paralítico: «"
+        },
+        {
+          "id": "marcos2-nbla-05b",
+          "order": 2,
+          "text": "Hijo, tus pecados te son perdonados»."
+        }
+      ],
+      "id": "marcos2-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "marcos2-nbla-06",
+      "number": 6,
+      "text": "Pero estaban allí sentados algunos de los escribas, los cuales pensaban en sus corazones:"
+    },
+    {
+      "id": "marcos2-nbla-07",
+      "number": 7,
+      "text": "«¿Por qué habla Este así? Está blasfemando; ¿quién puede perdonar pecados, sino solo Dios?»."
+    },
+    {
+      "id": "marcos2-nbla-08",
+      "number": 8,
+      "text": "Al instante Jesús, conociendo en Su espíritu que pensaban de esa manera dentro de sí mismos, les dijo*: «¿Por qué piensan estas cosas en sus corazones?"
+    },
+    {
+      "id": "marcos2-nbla-09",
+      "number": 9,
+      "text": "¿Qué es más fácil, decir al paralítico: “Tus pecados te son perdonados”, o decirle: “Levántate, toma tu camilla y anda”?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-10a",
+          "order": 1,
+          "text": "Pues para que sepan que el Hijo del Hombre tiene autoridad en la tierra para perdonar pecados"
+        },
+        {
+          "id": "marcos2-nbla-10b",
+          "order": 2,
+          "text": "», dijo* al paralítico:"
+        }
+      ],
+      "id": "marcos2-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "marcos2-nbla-11",
+      "number": 11,
+      "text": "«A ti te digo: levántate, toma tu camilla y vete a tu casa»."
+    },
+    {
+      "id": "marcos2-nbla-12",
+      "number": 12,
+      "text": "Y él se levantó, y tomando al instante la camilla, salió a la vista de todos, de manera que todos estaban asombrados, y glorificaban a Dios, diciendo: «Jamás hemos visto cosa semejante»."
+    },
+    {
+      "id": "marcos2-nbla-13",
+      "number": 13,
+      "text": "Jesús salió de nuevo a la orilla del mar, y toda la multitud venía a Él, y les enseñaba."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-14a",
+          "order": 1,
+          "text": "Al pasar, vio a Leví, hijo de Alfeo, sentado en la oficina de los tributos, y le dijo*: «"
+        },
+        {
+          "id": "marcos2-nbla-14b",
+          "order": 2,
+          "text": "Sígueme"
+        },
+        {
+          "id": "marcos2-nbla-14c",
+          "order": 3,
+          "text": "». Y levantándose, lo siguió."
+        }
+      ],
+      "id": "marcos2-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "marcos2-nbla-15",
+      "number": 15,
+      "text": "Y sucedió que estando Jesús sentado a la mesa en casa de Leví, muchos recaudadores de impuestos y pecadores estaban comiendo con Jesús y Sus discípulos; porque había muchos de ellos que lo seguían."
+    },
+    {
+      "id": "marcos2-nbla-16",
+      "number": 16,
+      "text": "Cuando los escribas de los fariseos vieron que Él comía con pecadores y recaudadores de impuestos, decían a Sus discípulos: «¿Por qué Él come y bebe con recaudadores de impuestos y pecadores?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-17a",
+          "order": 1,
+          "text": "Al oír esto, Jesús les dijo*: «Los que están sanos no tienen necesidad de médico, sino los que están enfermos;"
+        },
+        {
+          "id": "marcos2-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no he venido a llamar a justos, sino a pecadores»."
+        }
+      ],
+      "id": "marcos2-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "marcos2-nbla-18",
+      "number": 18,
+      "text": "Los discípulos de Juan y los fariseos estaban ayunando; y vinieron* y dijeron* a Jesús: «¿Por qué ayunan los discípulos de Juan y los discípulos de los fariseos, pero Tus discípulos no ayunan?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-19a",
+          "order": 1,
+          "text": "Y Jesús les respondió: «¿Acaso pueden ayunar los acompañantes del novio mientras el novio está con ellos?"
+        },
+        {
+          "id": "marcos2-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Mientras tienen al novio con ellos, no pueden ayunar."
+        }
+      ],
+      "id": "marcos2-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "marcos2-nbla-20",
+      "number": 20,
+      "text": "Pero vendrán días cuando el novio les será quitado, y entonces ayunarán en aquel día."
+    },
+    {
+      "id": "marcos2-nbla-21",
+      "number": 21,
+      "text": "Nadie pone un remiendo de tela nueva en un vestido viejo, porque entonces el remiendo al encogerse tira de él, lo nuevo de lo viejo, y se produce una rotura peor."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-22a",
+          "order": 1,
+          "text": "Y nadie echa vino nuevo en odres viejos"
+        },
+        {
+          "id": "marcos2-nbla-22b",
+          "order": 2,
+          "text": ", porque entonces el vino romperá el odre, y se pierden el vino y también los odres; sino que se echa vino nuevo en odres nuevos»."
+        }
+      ],
+      "id": "marcos2-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "marcos2-nbla-23",
+      "number": 23,
+      "text": "Aconteció que un día de reposo Jesús pasaba por los sembrados, y Sus discípulos, mientras se abrían paso, comenzaron a arrancar espigas."
+    },
+    {
+      "id": "marcos2-nbla-24",
+      "number": 24,
+      "text": "Entonces los fariseos le decían: «Mira, ¿por qué hacen lo que no es lícito en el día de reposo?»."
+    },
+    {
+      "id": "marcos2-nbla-25",
+      "number": 25,
+      "text": "Jesús les contestó*: «¿Nunca han leído lo que David hizo cuando tuvo necesidad y sintió hambre, él y también sus compañeros;"
+    },
+    {
+      "id": "marcos2-nbla-26",
+      "number": 26,
+      "text": "cómo entró en la casa de Dios en tiempos de Abiatar, el sumo sacerdote, y comió los panes consagrados que no es lícito a nadie comer, sino a los sacerdotes, y dio también a los que estaban con él?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos2-nbla-27a",
+          "order": 1,
+          "text": "Y Él continuó diciéndoles: «"
+        },
+        {
+          "id": "marcos2-nbla-27b",
+          "order": 2,
+          "text": "El día de reposo se hizo para el hombre, y no el hombre para el día de reposo."
+        }
+      ],
+      "id": "marcos2-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "marcos2-nbla-28",
+      "number": 28,
+      "text": "Por tanto, el Hijo del Hombre es Señor aun del día de reposo»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

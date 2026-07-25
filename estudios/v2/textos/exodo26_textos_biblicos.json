@@ -1,0 +1,640 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La unidad del santuario se produce mediante piezas distintas cuidadosamente conectadas. La NBLA declara que el tabernáculo debe ser una unidad; MSG lo expresa como «un solo conjunto». El principio no convierte cada detalle arquitectónico en una alegoría de la iglesia, pero sí muestra que la presencia de Dios se relaciona con orden, correspondencia y vínculos que sostienen una totalidad.",
+      "id": "exodo26-joya-01",
+      "msg": {
+        "en": "\"join the tapestries together so that The Dwelling is one whole\"",
+        "es": "\"une los tapices para que la Morada forme un solo conjunto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-06b"
+          ],
+          "verseId": "exodo26-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "1-6"
+    },
+    {
+      "explanation": "La cubierta exterior también debe quedar integrada. La NBLA y MSG repiten la preocupación por reunir lo que estaba separado. La unidad no pertenece únicamente a lo visible y hermoso del interior; también alcanza las capas que protegen la estructura. Lo funcional y lo estético sirven juntos al mismo propósito.",
+      "id": "exodo26-joya-02",
+      "msg": {
+        "en": "\"bringing the tent together\"",
+        "es": "\"uniendo la tienda como un solo conjunto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-11b"
+          ],
+          "verseId": "exodo26-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "7-11"
+    },
+    {
+      "explanation": "La repetición de medidas garantiza estabilidad y correspondencia. MSG hace explícita la uniformidad de los elementos estructurales, mientras NBLA repite que todas las tablas deben construirse según el mismo patrón. El texto no exige uniformidad de personalidad o dones; habla de precisión dentro de una tarea concreta donde las piezas deben encajar.",
+      "id": "exodo26-joya-03",
+      "msg": {
+        "en": "\"Make all the frames identical\"",
+        "es": "\"Haz idénticas todas las tablas\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-17b"
+          ],
+          "verseId": "exodo26-nbla-17"
+        }
+      ],
+      "order": 3,
+      "range": "15-25"
+    },
+    {
+      "explanation": "Una conexión central atraviesa toda la estructura y contribuye a sostenerla unida. La frase no debe convertirse automáticamente en símbolo secreto de Cristo, porque el capítulo no hace esa identificación. Sí comunica que la estabilidad requiere vínculos que no se quedan en conexiones superficiales, sino que recorren el conjunto.",
+      "id": "exodo26-joya-04",
+      "msg": {
+        "en": "\"The center crossbar runs from end to end\"",
+        "es": "\"La barra central deberá pasar de extremo a extremo\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-28"
+        }
+      ],
+      "order": 4,
+      "range": "26-30"
+    },
+    {
+      "explanation": "El santuario debe construirse según revelación recibida y no según improvisación religiosa. La NBLA habla del plan mostrado; MSG destaca el diseño. La obediencia no elimina la habilidad del artesano, pero coloca la creatividad dentro de una finalidad que Dios ya estableció.",
+      "id": "exodo26-joya-05",
+      "msg": {
+        "en": "\"following the design you were shown on the mountain\"",
+        "es": "\"siguiendo el diseño que se te mostró en la montaña\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-30b"
+          ],
+          "verseId": "exodo26-nbla-30"
+        }
+      ],
+      "order": 5,
+      "range": "26-30"
+    },
+    {
+      "explanation": "La presencia cercana conserva una frontera de santidad. La NBLA y MSG coinciden en la función divisoria del velo. El límite no enseña que Dios sea reacio a la comunión; revela que el pecado humano y la santidad divina requieren un acceso mediado que el resto de la historia bíblica desarrollará.",
+      "id": "exodo26-joya-06",
+      "msg": {
+        "en": "\"The curtain will separate the Holy Place from the Holy-of-Holies.\"",
+        "es": "\"La cortina separará el Lugar Santo del Lugar Santísimo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-33b"
+          ],
+          "verseId": "exodo26-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "31-35"
+    },
+    {
+      "explanation": "El tabernáculo posee una entrada definida. La existencia de una entrada comunica posibilidad de acercamiento; la cortina y las columnas muestran que ese acercamiento tiene forma y orden. El texto no autoriza a usar edificios religiosos para controlar arbitrariamente a las personas. Señala que Dios mismo establece el camino de acceso a su presencia.",
+      "id": "exodo26-joya-07",
+      "msg": {
+        "en": "\"Make a screen for the door of the tent.\"",
+        "es": "\"Haz una cortina para la entrada de la tienda.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "exodo26-nbla-36a"
+          ],
+          "verseId": "exodo26-nbla-36"
+        }
+      ],
+      "order": 7,
+      "range": "36-37"
+    }
+  ],
+  "meta": {
+    "book": "ÉXODO",
+    "bookId": "exodo",
+    "chapter": 26,
+    "studyId": "exodo-26"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "exodo26-msg-01",
+      "msg": {
+        "en": "“Make The Dwelling itself from ten panels of tapestry woven from fine twisted linen, blue and purple and scarlet material, with an angel-cherubim design. A skilled craftsman should do it. The panels of tapestry are each to be forty-six feet long and six feet wide. Join five of the panels together, and then the other five together. Make loops of blue along the edge of the outside panel of the first set and the same on the outside panel of the second set. Make fifty loops on each panel. Then make fifty gold clasps and join the tapestries together so that The Dwelling is one whole.",
+        "es": "«Haz la Morada misma con diez paneles de tapiz tejidos con lino fino torcido y material azul, púrpura y escarlata, con un diseño de ángeles-querubines. Deberá hacerlo un artesano experto. Cada panel del tapiz tendrá cuarenta y seis pies de largo y seis pies de ancho. Une cinco paneles entre sí y luego los otros cinco. Haz lazos azules a lo largo del borde del panel exterior del primer conjunto y lo mismo en el panel exterior del segundo conjunto. Haz cincuenta lazos en cada panel. Después haz cincuenta broches de oro y une los tapices para que la Morada forme un solo conjunto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7-11",
+      "id": "exodo26-msg-02",
+      "msg": {
+        "en": "“Next make tapestries of goat hair for a tent that will cover The Dwelling. Make eleven panels of these tapestries. The length of each panel will be forty-five feet long and six feet wide. Join five of the panels together, and then the other six. Fold the sixth panel double at the front of the tent. Now make fifty loops along the edge of the end panel and fifty loops along the edge of the joining panel. Make fifty clasps of bronze and connect the clasps with the loops, bringing the tent together.",
+        "es": "»Luego haz tapices de pelo de cabra para una tienda que cubra la Morada. Haz once paneles de estos tapices. Cada panel tendrá cuarenta y cinco pies de largo y seis pies de ancho. Une cinco paneles entre sí y luego los otros seis. Dobla en dos el sexto panel en la parte frontal de la tienda. Haz cincuenta lazos a lo largo del borde del panel del extremo y cincuenta lazos a lo largo del borde del panel de unión. Haz cincuenta broches de bronce y conecta los broches con los lazos, uniendo la tienda como un solo conjunto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-11"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "exodo26-msg-03",
+      "msg": {
+        "en": "“Hang half of the overlap of the tapestry panels over the rear of The Dwelling. The eighteen inches of overlap on either side will cover the sides of the tent. Finally, make a covering for the tapestries of tanned rams’ skins dyed red and over that a covering of dolphin skins.",
+        "es": "»Deja colgar la mitad del excedente de los paneles del tapiz sobre la parte trasera de la Morada. Las dieciocho pulgadas de excedente a cada lado cubrirán los costados de la tienda. Finalmente, haz una cubierta para los tapices con pieles curtidas de carnero teñidas de rojo y, sobre ella, una cubierta de pieles de delfín."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-14"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "15-25",
+      "id": "exodo26-msg-04",
+      "msg": {
+        "en": "“Frame The Dwelling with planks of acacia wood, each section of frame fifteen feet long and two and one-quarter feet wide, with two pegs for securing them. Make all the frames identical: twenty frames for the south side with forty silver sockets to receive the two pegs from each of the twenty frames; the same construction on the north side of The Dwelling; for the rear of The Dwelling, which faces west, make six frames with two additional frames for the rear corners. Both of the two corner frames need to be double in thickness from top to bottom and fit into a single ring—eight frames altogether with sixteen sockets of silver, two under each frame.",
+        "es": "»Forma la estructura de la Morada con tablas de madera de acacia, cada sección del armazón de quince pies de largo y dos pies y cuarto de ancho, con dos espigas para asegurarlas. Haz idénticas todas las tablas: veinte tablas para el lado sur con cuarenta basas de plata para recibir las dos espigas de cada una de las veinte tablas; haz la misma construcción en el lado norte de la Morada. Para la parte trasera de la Morada, orientada hacia el occidente, haz seis tablas con dos tablas adicionales para las esquinas posteriores. Cada una de las dos tablas de las esquinas deberá tener doble grosor de arriba abajo y encajar en una sola argolla: ocho tablas en total con dieciséis basas de plata, dos debajo de cada tabla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-25"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "26-30",
+      "id": "exodo26-msg-05",
+      "msg": {
+        "en": "“Now make crossbars of acacia wood, five for the frames on one side of The Dwelling, five for the other side, and five for the back side facing west. The center crossbar runs from end to end halfway up the frames. Cover the frames with a veneer of gold and make gold rings to hold the crossbars. And cover the crossbars with a veneer of gold. Then put The Dwelling together, following the design you were shown on the mountain.",
+        "es": "»Ahora haz barras transversales de madera de acacia: cinco para las tablas de un lado de la Morada, cinco para el otro lado y cinco para la parte trasera orientada hacia el occidente. La barra central deberá pasar de extremo a extremo a media altura de las tablas. Recubre las tablas con una capa de oro y haz argollas de oro para sostener las barras. Recubre también las barras con una capa de oro. Después arma la Morada siguiendo el diseño que se te mostró en la montaña."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-30"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "31-35",
+      "id": "exodo26-msg-06",
+      "msg": {
+        "en": "“Make a curtain of blue, purple, and scarlet material and fine twisted linen. Have a design of angel-cherubim woven into it by a skilled craftsman. Fasten it with gold hooks to four posts of acacia wood covered with a veneer of gold, set on four silver bases. After hanging the curtain from the clasps, bring the Chest of The Testimony in behind the curtain. The curtain will separate the Holy Place from the Holy-of-Holies. Now place the Atonement-Cover lid on the Chest of The Testimony in the Holy-of-Holies. Place the Table and the Lampstand outside the curtain, the Lampstand on the south side of The Dwelling and the Table opposite it on the north side.",
+        "es": "»Haz una cortina de material azul, púrpura y escarlata y lino fino torcido. Haz que un artesano experto teja en ella un diseño de ángeles-querubines. Sujétala con ganchos de oro a cuatro columnas de madera de acacia recubiertas con una capa de oro y asentadas sobre cuatro basas de plata. Después de colgar la cortina de los broches, lleva el Cofre del Testimonio detrás de la cortina. La cortina separará el Lugar Santo del Lugar Santísimo. Coloca entonces la tapa —la Cubierta de Expiación— sobre el Cofre del Testimonio en el Lugar Santísimo. Coloca la Mesa y el Candelabro fuera de la cortina: el Candelabro en el lado sur de la Morada y la Mesa frente a él, en el lado norte."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-35"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "36-37",
+      "id": "exodo26-msg-07",
+      "msg": {
+        "en": "“Make a screen for the door of the tent. Weave it from blue, purple, and scarlet material and fine twisted linen. Frame the weaving with five poles of acacia wood covered with a veneer of gold and make gold hooks to hang the weaving. Cast five bronze bases for the poles.”",
+        "es": "»Haz una cortina para la entrada de la tienda. Tejela con material azul, púrpura y escarlata y lino fino torcido. Enmarca el tejido con cinco columnas de madera de acacia recubiertas con una capa de oro y haz ganchos de oro para colgarlo. Funde cinco basas de bronce para las columnas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "exodo26-nbla-37"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "exodo26-nbla-01",
+      "number": 1,
+      "text": "»Harás el tabernáculo con diez cortinas de lino fino torcido, y tela azul, púrpura y escarlata. Las harás con querubines, obra de hábil artífice."
+    },
+    {
+      "id": "exodo26-nbla-02",
+      "number": 2,
+      "text": "La longitud de cada cortina será de 28 codos (12.6 metros), y la anchura de cada cortina de 4 codos (1.8 metros). Todas las cortinas tendrán una misma medida."
+    },
+    {
+      "id": "exodo26-nbla-03",
+      "number": 3,
+      "text": "Cinco cortinas estarán unidas una con la otra. También las otras cinco cortinas estarán unidas una con la otra."
+    },
+    {
+      "id": "exodo26-nbla-04",
+      "number": 4,
+      "text": "»Harás lazos de tela azul en el borde de la cortina del extremo del primer enlace, y de la misma manera los harás en el borde de la cortina del extremo del segundo enlace."
+    },
+    {
+      "id": "exodo26-nbla-05",
+      "number": 5,
+      "text": "Harás cincuenta lazos en la primera cortina, y harás cincuenta lazos en el borde de la cortina que está en el segundo enlace. Los lazos se corresponderán unos a otros."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-06a",
+          "order": 1,
+          "text": "Harás además cincuenta broches de oro, y"
+        },
+        {
+          "id": "exodo26-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "con los broches unirás las cortinas una a la otra, de manera que el tabernáculo sea una unidad."
+        }
+      ],
+      "id": "exodo26-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "exodo26-nbla-07",
+      "number": 7,
+      "text": "»Harás también cortinas de pelo de cabra a manera de tienda sobre el tabernáculo. En total harás once cortinas."
+    },
+    {
+      "id": "exodo26-nbla-08",
+      "number": 8,
+      "text": "La longitud de cada cortina será de 30 codos (13.5 metros), y la anchura de cada cortina de 4 codos (1.8 metros). Las once cortinas tendrán una misma medida."
+    },
+    {
+      "id": "exodo26-nbla-09",
+      "number": 9,
+      "text": "Unirás cinco cortinas entre sí y las otras seis cortinas también entre sí, y doblarás la sexta cortina en el frente de la tienda."
+    },
+    {
+      "id": "exodo26-nbla-10",
+      "number": 10,
+      "text": "»Harás cincuenta lazos en el borde de la cortina del extremo del primer enlace, y cincuenta lazos en el borde de la cortina del extremo del segundo enlace."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-11a",
+          "order": 1,
+          "text": "Harás además cincuenta broches de bronce, y pondrás los broches en los lazos y"
+        },
+        {
+          "id": "exodo26-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "unirás la tienda para que sea un todo."
+        }
+      ],
+      "id": "exodo26-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "exodo26-nbla-12",
+      "number": 12,
+      "text": "»El exceso que sobra de las cortinas de la tienda, la media cortina que queda, caerá sobre la parte posterior del tabernáculo."
+    },
+    {
+      "id": "exodo26-nbla-13",
+      "number": 13,
+      "text": "En un lado un codo (45 centímetros) y en el otro lado un codo (45 centímetros) de lo que sobra de la longitud de las cortinas de la tienda, caerá en los costados del tabernáculo, a un lado y a otro, para cubrirlo."
+    },
+    {
+      "id": "exodo26-nbla-14",
+      "number": 14,
+      "text": "Harás también para la tienda una cubierta de pieles de carnero teñidas de rojo, y otra cubierta de pieles de marsopa por encima."
+    },
+    {
+      "id": "exodo26-nbla-15",
+      "number": 15,
+      "text": "»Harás luego para el tabernáculo tablas de madera de acacia, colocándolas verticalmente."
+    },
+    {
+      "id": "exodo26-nbla-16",
+      "number": 16,
+      "text": "La longitud de cada tabla será de 10 codos (4.5 metros), y de 1.5 codos (68 centímetros) la anchura de cada tabla."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-17a",
+          "order": 1,
+          "text": "Cada tabla tendrá dos espigas para unirlas una con otra."
+        },
+        {
+          "id": "exodo26-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Así harás con todas las tablas del tabernáculo."
+        }
+      ],
+      "id": "exodo26-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "exodo26-nbla-18",
+      "number": 18,
+      "text": "Harás, pues, las tablas para el tabernáculo: para el lado sur veinte tablas."
+    },
+    {
+      "id": "exodo26-nbla-19",
+      "number": 19,
+      "text": "»También harás cuarenta basas de plata debajo de las veinte tablas: dos basas debajo de una tabla para sus dos espigas, y dos basas debajo de la otra tabla para sus dos espigas."
+    },
+    {
+      "id": "exodo26-nbla-20",
+      "number": 20,
+      "text": "Para el segundo lado del tabernáculo, al lado norte, veinte tablas,"
+    },
+    {
+      "id": "exodo26-nbla-21",
+      "number": 21,
+      "text": "y sus cuarenta basas de plata: dos basas debajo de una tabla y dos basas debajo de la otra tabla."
+    },
+    {
+      "id": "exodo26-nbla-22",
+      "number": 22,
+      "text": "»Para la parte posterior del tabernáculo, hacia el occidente, harás seis tablas."
+    },
+    {
+      "id": "exodo26-nbla-23",
+      "number": 23,
+      "text": "Harás además dos tablas para las esquinas del tabernáculo en la parte posterior."
+    },
+    {
+      "id": "exodo26-nbla-24",
+      "number": 24,
+      "text": "Serán dobles por abajo, y estarán completamente unidas por arriba hasta la primera argolla. Así será con las dos: formarán las dos esquinas."
+    },
+    {
+      "id": "exodo26-nbla-25",
+      "number": 25,
+      "text": "Habrá ocho tablas con sus basas de plata, dieciséis basas; dos basas debajo de una tabla y dos basas debajo de la otra tabla."
+    },
+    {
+      "id": "exodo26-nbla-26",
+      "number": 26,
+      "text": "»Harás también barras de madera de acacia; cinco para las tablas de un lado del tabernáculo,"
+    },
+    {
+      "id": "exodo26-nbla-27",
+      "number": 27,
+      "text": "y cinco barras para las tablas del otro lado del tabernáculo, y cinco barras para las tablas del lado posterior del tabernáculo, hacia el occidente."
+    },
+    {
+      "id": "exodo26-nbla-28",
+      "number": 28,
+      "text": "La barra del medio en el centro de las tablas pasará de un extremo al otro."
+    },
+    {
+      "id": "exodo26-nbla-29",
+      "number": 29,
+      "text": "Y revestirás de oro las tablas, y harás de oro sus argollas por donde pasarán las barras. Revestirás de oro las barras."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-30a",
+          "order": 1,
+          "text": "Entonces levantarás el tabernáculo"
+        },
+        {
+          "id": "exodo26-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "según el plan que te ha sido mostrado en el monte."
+        }
+      ],
+      "id": "exodo26-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "exodo26-nbla-31",
+      "number": 31,
+      "text": "»Harás además un velo de tela azul, púrpura y escarlata, y de lino fino torcido. Será hecho con querubines, obra de hábil artífice."
+    },
+    {
+      "id": "exodo26-nbla-32",
+      "number": 32,
+      "text": "Lo colgarás sobre cuatro columnas de acacia revestidas de oro. Sus ganchos serán también de oro, sobre cuatro basas de plata."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-33a",
+          "order": 1,
+          "text": "Colgarás el velo debajo de los broches, y pondrás allí, detrás del velo, el arca del testimonio."
+        },
+        {
+          "id": "exodo26-nbla-33b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El velo les servirá como división entre el lugar santo y el Lugar Santísimo."
+        }
+      ],
+      "id": "exodo26-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "exodo26-nbla-34",
+      "number": 34,
+      "text": "Pondrás el propiciatorio sobre el arca del testimonio en el Lugar Santísimo."
+    },
+    {
+      "id": "exodo26-nbla-35",
+      "number": 35,
+      "text": "Pondrás la mesa fuera del velo, y el candelabro enfrente de la mesa en el lado del tabernáculo hacia el sur. Pondrás la mesa en el lado norte."
+    },
+    {
+      "clauses": [
+        {
+          "id": "exodo26-nbla-36a",
+          "order": 1,
+          "text": "»Harás también una cortina para la entrada de la tienda"
+        },
+        {
+          "id": "exodo26-nbla-36b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "de tela azul, púrpura y escarlata, y de lino fino torcido, obra de tejedor."
+        }
+      ],
+      "id": "exodo26-nbla-36",
+      "number": 36
+    },
+    {
+      "id": "exodo26-nbla-37",
+      "number": 37,
+      "text": "Harás cinco columnas de acacia para la cortina, y las revestirás de oro, y sus ganchos serán también de oro. Fundirás cinco basas de bronce para ellas."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,788 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El favoritismo visible de Jacob produce una ruptura relacional que ya no puede ocultarse. La NBLA fija el sentido: el odio ha incapacitado a los hermanos para hablar con José de manera amistosa. MSG vuelve palpable la gravedad de esa distancia al mostrar que ni siquiera pueden dirigirse a él. La imagen no autoriza a justificar su violencia, pero sí obliga a reconocer que el asesinato comienza mucho antes del acto, cuando el otro deja de ser tratado como hermano.",
+      "id": "genesis37-joya-01",
+      "msg": {
+        "en": "“they grew to hate him—they wouldn’t even speak to him”",
+        "es": "“comenzaron a odiarlo; ni siquiera podían hablarle”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-04b"
+          ],
+          "verseId": "genesis37-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "Los hermanos interpretan el sueño como una amenaza directa a su autonomía y posición. La NBLA conserva la dimensión de gobierno y señorío que ellos perciben. MSG expresa esa resistencia con el lenguaje cotidiano de quienes no toleran que otro tenga autoridad sobre ellos. La conclusión teológica no es que toda oposición a la autoridad sea rebelión contra Dios, sino que aquí la envidia les impide considerar que el sueño anuncia una realidad que José no controla.",
+      "id": "genesis37-joya-02",
+      "msg": {
+        "en": "“You’re going to rule us? You’re going to boss us around?”",
+        "es": "“¡Así que vas a gobernarnos! ¿Vas a darnos órdenes?”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-08b"
+          ],
+          "verseId": "genesis37-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "Jacob no comprende plenamente el sueño, pero tampoco lo desecha. La NBLA establece una actitud de reflexión sostenida. MSG la vuelve más visible al mostrar a un padre que continúa pensando en todo el asunto. El texto no afirma que Jacob ya reconociera el plan completo de Dios; muestra una apertura cautelosa ante una palabra que todavía no sabe interpretar.",
+      "id": "genesis37-joya-03",
+      "msg": {
+        "en": "“his father brooded over the whole business”",
+        "es": "“su padre siguió dándole vueltas a todo aquello”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-11b"
+          ],
+          "verseId": "genesis37-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "10-11"
+    },
+    {
+      "explanation": "La conspiración de los hermanos es un intento deliberado de someter el futuro anunciado a su propia decisión. La NBLA conserva el desafío directo contra los sueños, y MSG intensifica la ironía narrativa: ellos están seguros de que pueden determinar su desenlace. El capítulo mostrará que pueden herir a José y alterar su vida, pero no pueden adjudicarse la autoridad final sobre lo que Dios hará.",
+      "id": "genesis37-joya-04",
+      "msg": {
+        "en": "“We’ll see what his dreams amount to”",
+        "es": "“Entonces veremos en qué terminan sus sueños”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-20b"
+          ],
+          "verseId": "genesis37-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "18-20"
+    },
+    {
+      "explanation": "Judá reconoce el vínculo familiar, pero lo usa para reducir el daño, no para restaurar al hermano. La NBLA deja claro que José es carne de ellos; MSG hace audible la contradicción entre ese reconocimiento y la decisión de venderlo. Saber que alguien es nuestro hermano no basta cuando ese conocimiento no produce protección, verdad y misericordia.",
+      "id": "genesis37-joya-05",
+      "msg": {
+        "en": "“he is, after all, our brother, our own flesh and blood”",
+        "es": "“después de todo, es nuestro hermano, nuestra propia carne y sangre”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-27b"
+          ],
+          "verseId": "genesis37-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "25-27"
+    },
+    {
+      "explanation": "Mientras Jacob cree que toda esperanza terminó, la historia de José continúa en Egipto. La NBLA subraya la simultaneidad mediante «Mientras tanto»; MSG coloca al lector directamente en el nuevo escenario. El texto no llama buena a la esclavitud, pero revela que el lugar de aparente pérdida será también el lugar donde la providencia de Dios seguirá obrando.",
+      "id": "genesis37-joya-06",
+      "msg": {
+        "en": "“In Egypt the Midianites sold Joseph to Potiphar”",
+        "es": "“En Egipto, los madianitas vendieron a José a Potifar”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis37-nbla-36a"
+          ],
+          "verseId": "genesis37-nbla-36"
+        }
+      ],
+      "order": 6,
+      "range": "36"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 37,
+    "studyId": "genesis-37"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis37-msg-01",
+      "msg": {
+        "en": "Meanwhile Jacob had settled down where his father had lived, the land of Canaan.",
+        "es": "Mientras tanto, Jacob se estableció donde había vivido su padre, en la tierra de Canaán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "genesis37-msg-02",
+      "msg": {
+        "en": "This is the story of Jacob. The story continues with Joseph, seventeen years old at the time, helping out his brothers in herding the flocks. These were his half brothers actually, the sons of his father’s wives Bilhah and Zilpah. And Joseph brought his father bad reports on them.",
+        "es": "Esta es la historia de Jacob. La historia continúa con José, que entonces tenía diecisiete años y ayudaba a sus hermanos a cuidar los rebaños. En realidad, eran sus medio hermanos, hijos de Bilha y Zilpa, las mujeres de su padre. José llevaba a su padre malos informes acerca de ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "genesis37-msg-03",
+      "msg": {
+        "en": "Israel loved Joseph more than any of his other sons because he was the child of his old age. And he made him an elaborately embroidered coat. When his brothers realized that their father loved him more than them, they grew to hate him—they wouldn’t even speak to him.",
+        "es": "Israel amaba a José más que a cualquiera de sus otros hijos porque había nacido durante su vejez. Le hizo una túnica bordada con gran detalle. Cuando sus hermanos se dieron cuenta de que su padre lo amaba más que a ellos, comenzaron a odiarlo; ni siquiera podían hablarle."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "genesis37-msg-04",
+      "msg": {
+        "en": "Joseph had a dream. When he told it to his brothers, they hated him even more. He said, “Listen to this dream I had. We were all out in the field gathering bundles of wheat. All of a sudden my bundle stood straight up and your bundles circled around it and bowed down to mine.”",
+        "es": "José tuvo un sueño. Cuando se lo contó a sus hermanos, ellos lo odiaron todavía más. Les dijo: «Escuchen el sueño que tuve. Estábamos todos en el campo recogiendo gavillas de trigo. De repente, mi gavilla se levantó y quedó erguida, mientras las de ustedes la rodeaban y se inclinaban ante la mía»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis37-msg-05",
+      "msg": {
+        "en": "His brothers said, “So! You’re going to rule us? You’re going to boss us around?” And they hated him more than ever because of his dreams and the way he talked.",
+        "es": "Sus hermanos le dijeron: «¡Así que vas a gobernarnos! ¿Vas a darnos órdenes?». Y lo odiaron más que nunca por sus sueños y por la manera en que hablaba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "genesis37-msg-06",
+      "msg": {
+        "en": "He had another dream and told this one also to his brothers: “I dreamed another dream—the sun and moon and eleven stars bowed down to me!”",
+        "es": "Tuvo otro sueño y también se lo contó a sus hermanos: «Tuve otro sueño: ¡el sol, la luna y once estrellas se inclinaban ante mí!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "genesis37-msg-07",
+      "msg": {
+        "en": "When he told it to his father and brothers, his father reprimanded him: “What’s with all this dreaming? Am I and your mother and your brothers all supposed to bow down to you?” Now his brothers were really jealous; but his father brooded over the whole business.",
+        "es": "Cuando se lo contó a su padre y a sus hermanos, su padre lo reprendió: «¿Qué significa todo esto que estás soñando? ¿Acaso tu madre, tus hermanos y yo tendremos que inclinarnos ante ti?». Sus hermanos estaban consumidos por los celos, pero su padre siguió dándole vueltas a todo aquello."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "genesis37-msg-08",
+      "msg": {
+        "en": "His brothers had gone off to Shechem where they were pasturing their father’s flocks. Israel said to Joseph, “Your brothers are with flocks in Shechem. Come, I want to send you to them.” Joseph said, “I’m ready.”",
+        "es": "Sus hermanos habían ido a Siquem para pastorear los rebaños de su padre. Israel le dijo a José: «Tus hermanos están con los rebaños en Siquem. Ven, quiero enviarte donde ellos». José respondió: «Estoy listo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14",
+      "id": "genesis37-msg-09",
+      "msg": {
+        "en": "He said, “Go and see how your brothers and the flocks are doing and bring me back a report.” He sent him off from the valley of Hebron to Shechem.",
+        "es": "Le dijo: «Ve a ver cómo están tus hermanos y los rebaños, y luego regresa para informarme». Así lo envió desde el valle de Hebrón hasta Siquem."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-14"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "15",
+      "id": "genesis37-msg-10",
+      "msg": {
+        "en": "A man met him as he was wandering through the fields and asked him, “What are you looking for?”",
+        "es": "Un hombre lo encontró mientras daba vueltas por los campos y le preguntó: «¿Qué estás buscando?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-15"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "16",
+      "id": "genesis37-msg-11",
+      "msg": {
+        "en": "“I’m trying to find my brothers. Do you have any idea where they are grazing their flocks?”",
+        "es": "«Estoy tratando de encontrar a mis hermanos. ¿Sabe usted dónde están pastoreando sus rebaños?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-16"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "17",
+      "id": "genesis37-msg-12",
+      "msg": {
+        "en": "The man said, “They’ve left here, but I overheard them say, ‘Let’s go to Dothan.’” So Joseph took off, tracked his brothers down, and found them in Dothan.",
+        "es": "El hombre le dijo: «Ya se fueron de aquí, pero los oí decir: “Vamos a Dotán”». José se puso en camino, siguió el rastro de sus hermanos y los encontró en Dotán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-17"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "genesis37-msg-13",
+      "msg": {
+        "en": "They spotted him off in the distance. By the time he got to them they had cooked up a plot to kill him. The brothers were saying, “Here comes that dreamer. Let’s kill him and throw him into one of these old cisterns; we can say that a vicious animal ate him up. We’ll see what his dreams amount to.”",
+        "es": "Lo divisaron desde lejos. Antes de que llegara hasta ellos, ya habían tramado un plan para matarlo. Los hermanos decían: «Ahí viene ese soñador. Matémoslo y arrojémoslo a una de estas cisternas viejas. Diremos que una bestia feroz se lo comió. Entonces veremos en qué terminan sus sueños»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-20"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "genesis37-msg-14",
+      "msg": {
+        "en": "Reuben heard the brothers talking and intervened to save him, “We’re not going to kill him. No murder. Go ahead and throw him in this cistern out here in the wild, but don’t hurt him.” Reuben planned to go back later and get him out and take him back to his father.",
+        "es": "Rubén oyó hablar a sus hermanos e intervino para salvarlo: «No vamos a matarlo. Nada de asesinatos. Arrójenlo a esta cisterna que está aquí en el desierto, pero no le hagan daño». Rubén planeaba regresar después, sacarlo de allí y devolverlo a su padre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-22"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "genesis37-msg-15",
+      "msg": {
+        "en": "When Joseph reached his brothers, they ripped off the fancy coat he was wearing, grabbed him, and threw him into a cistern. The cistern was dry; there wasn’t any water in it.",
+        "es": "Cuando José llegó hasta sus hermanos, ellos le arrancaron la túnica elegante que llevaba puesta, lo agarraron y lo arrojaron a una cisterna. La cisterna estaba seca; no tenía agua."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-24"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "genesis37-msg-16",
+      "msg": {
+        "en": "Then they sat down to eat their supper. Looking up, they saw a caravan of Ishmaelites on their way from Gilead, their camels loaded with spices, ointments, and perfumes to sell in Egypt. Judah said, “Brothers, what are we going to get out of killing our brother and concealing the evidence? Let’s sell him to the Ishmaelites, but let’s not kill him—he is, after all, our brother, our own flesh and blood.” His brothers agreed.",
+        "es": "Luego se sentaron a comer. Al levantar la mirada, vieron una caravana de ismaelitas que venía de Galaad. Sus camellos iban cargados de especias, ungüentos y perfumes para vender en Egipto. Judá dijo: «Hermanos, ¿qué vamos a ganar matando a nuestro hermano y ocultando las pruebas? Vendámoslo a los ismaelitas, pero no lo matemos; después de todo, es nuestro hermano, nuestra propia carne y sangre». Sus hermanos estuvieron de acuerdo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-27"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "28",
+      "id": "genesis37-msg-17",
+      "msg": {
+        "en": "By that time the Midianite traders were passing by. His brothers pulled Joseph out of the cistern and sold him for twenty pieces of silver to the Ishmaelites who took Joseph with them down to Egypt.",
+        "es": "Para entonces pasaban por allí unos comerciantes madianitas. Sus hermanos sacaron a José de la cisterna y lo vendieron por veinte piezas de plata a los ismaelitas, quienes se lo llevaron con ellos a Egipto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-28"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "genesis37-msg-18",
+      "msg": {
+        "en": "Later Reuben came back and went to the cistern—no Joseph! He ripped his clothes in despair. Beside himself, he went to his brothers. “The boy’s gone! What am I going to do!”",
+        "es": "Más tarde Rubén regresó a la cisterna, pero ¡José ya no estaba! Desesperado, rasgó sus vestidos. Fuera de sí, volvió donde sus hermanos y dijo: «¡El muchacho desapareció! ¿Y ahora qué voy a hacer?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-30"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "genesis37-msg-19",
+      "msg": {
+        "en": "They took Joseph’s coat, butchered a goat, and dipped the coat in the blood.\nThey took the fancy coat back to their father and said, “We found this. Look it over—do you think this is your son’s coat?”",
+        "es": "Tomaron la túnica de José, degollaron un macho cabrío y empaparon la túnica en la sangre. Luego llevaron la elegante túnica de regreso a su padre y dijeron: «Encontramos esto. Examínalo bien: ¿crees que es la túnica de tu hijo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-32"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "33",
+      "id": "genesis37-msg-20",
+      "msg": {
+        "en": "He recognized it at once. “My son’s coat—a wild animal has eaten him. Joseph torn limb from limb!”",
+        "es": "La reconoció de inmediato: «¡Es la túnica de mi hijo! Una bestia salvaje se lo comió. ¡José fue despedazado miembro por miembro!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-33"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "genesis37-msg-21",
+      "msg": {
+        "en": "Jacob tore his clothes in grief, dressed in rough burlap, and mourned his son a long, long time. His sons and daughters tried to comfort him but he refused their comfort. “I’ll go to the grave mourning my son.” Oh, how his father wept for him.",
+        "es": "Jacob rasgó sus vestidos por el dolor, se vistió con tela áspera y guardó luto por su hijo durante muchísimo tiempo. Sus hijos y sus hijas intentaron consolarlo, pero él rechazó todo consuelo. «Descenderé a la tumba llorando por mi hijo». ¡Cuánto lloró su padre por él!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-35"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "36",
+      "id": "genesis37-msg-22",
+      "msg": {
+        "en": "In Egypt the Midianites sold Joseph to Potiphar, one of Pharaoh’s officials, manager of his household affairs.",
+        "es": "En Egipto, los madianitas vendieron a José a Potifar, uno de los funcionarios del faraón, encargado de los asuntos de la casa del faraón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis37-nbla-36"
+        }
+      ],
+      "order": 22
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis37-nbla-01",
+      "number": 1,
+      "text": "Jacob habitó en la tierra donde había peregrinado su padre, en la tierra de Canaán."
+    },
+    {
+      "id": "genesis37-nbla-02",
+      "number": 2,
+      "text": "Esta es la historia de las generaciones de Jacob:\nCuando José tenía diecisiete años, apacentaba el rebaño con sus hermanos. El joven estaba con los hijos de Bilha y con los hijos de Zilpa, mujeres de su padre. Y José trajo a su padre malos informes sobre ellos."
+    },
+    {
+      "id": "genesis37-nbla-03",
+      "number": 3,
+      "text": "Israel amaba a José más que a todos sus hijos, porque era para él el hijo de su vejez; y le hizo una túnica de muchos colores."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-04a",
+          "order": 1,
+          "text": "Y sus hermanos vieron que su padre amaba más a José que a todos ellos;"
+        },
+        {
+          "id": "genesis37-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "por eso lo odiaban y no podían hablarle amistosamente."
+        }
+      ],
+      "id": "genesis37-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "genesis37-nbla-05",
+      "number": 5,
+      "text": "José tuvo un sueño y cuando se lo contó a sus hermanos, ellos lo odiaron aún más."
+    },
+    {
+      "id": "genesis37-nbla-06",
+      "number": 6,
+      "text": "Y él les dijo: «Les ruego que escuchen este sueño que he tenido."
+    },
+    {
+      "id": "genesis37-nbla-07",
+      "number": 7,
+      "text": "Estábamos atando gavillas en medio del campo, y sucedió que mi gavilla se levantó y se puso derecha, y entonces las gavillas de ustedes se ponían alrededor y se inclinaban hacia mi gavilla»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-08a",
+          "order": 1,
+          "text": "Y sus hermanos le dijeron: «"
+        },
+        {
+          "id": "genesis37-nbla-08b",
+          "order": 2,
+          "text": "¿Acaso reinarás sobre nosotros? ¿O acaso te enseñorearás sobre nosotros?"
+        },
+        {
+          "id": "genesis37-nbla-08c",
+          "order": 3,
+          "text": "». Y lo odiaron aún más por causa de sus sueños y de sus palabras."
+        }
+      ],
+      "id": "genesis37-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "genesis37-nbla-09",
+      "number": 9,
+      "text": "José tuvo también otro sueño, y se lo contó a sus hermanos, diciendo: «He tenido otro sueño; y el sol, la luna y once estrellas se inclinaban ante mí»."
+    },
+    {
+      "id": "genesis37-nbla-10",
+      "number": 10,
+      "text": "Cuando se lo contó a su padre y a sus hermanos, su padre lo reprendió, y le dijo: «¿Qué es este sueño que has tenido? ¿Acaso yo, tu madre y tus hermanos vendremos a inclinarnos hasta el suelo ante ti?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-11a",
+          "order": 1,
+          "text": "Sus hermanos le tenían envidia, pero"
+        },
+        {
+          "id": "genesis37-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "su padre reflexionaba sobre lo que se había dicho."
+        }
+      ],
+      "id": "genesis37-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "genesis37-nbla-12",
+      "number": 12,
+      "text": "Después sus hermanos fueron a apacentar el rebaño de su padre en Siquem."
+    },
+    {
+      "id": "genesis37-nbla-13",
+      "number": 13,
+      "text": "Israel dijo a José: «¿No están tus hermanos apacentando el rebaño en Siquem? Ven, y te voy a enviar a ellos». «Iré», le dijo José."
+    },
+    {
+      "id": "genesis37-nbla-14",
+      "number": 14,
+      "text": "Entonces Israel le dijo: «Ve ahora y mira cómo están tus hermanos y cómo está el rebaño, y tráeme noticias de ellos». Lo envió, pues, desde el valle de Hebrón, y José fue a Siquem."
+    },
+    {
+      "id": "genesis37-nbla-15",
+      "number": 15,
+      "text": "Estando él dando vueltas por el campo, un hombre lo encontró, y el hombre le preguntó: «¿Qué buscas?»."
+    },
+    {
+      "id": "genesis37-nbla-16",
+      "number": 16,
+      "text": "«Busco a mis hermanos», respondió José; «le ruego que me informe dónde están apacentando el rebaño»."
+    },
+    {
+      "id": "genesis37-nbla-17",
+      "number": 17,
+      "text": "«Se han ido de aquí», le contestó el hombre, «pues yo les oí decir: “Vamos a Dotán”». Entonces José fue tras sus hermanos y los encontró en Dotán."
+    },
+    {
+      "id": "genesis37-nbla-18",
+      "number": 18,
+      "text": "Cuando ellos lo vieron de lejos, y antes que se les acercara, tramaron contra él para matarlo."
+    },
+    {
+      "id": "genesis37-nbla-19",
+      "number": 19,
+      "text": "Y se dijeron unos a otros: «Aquí viene el soñador."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-20a",
+          "order": 1,
+          "text": "Ahora pues, vengan, matémoslo y arrojémoslo a uno de los pozos; y diremos: “Una fiera lo devoró”."
+        },
+        {
+          "id": "genesis37-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Entonces veremos en qué quedan sus sueños»."
+        }
+      ],
+      "id": "genesis37-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "genesis37-nbla-21",
+      "number": 21,
+      "text": "Pero Rubén oyó esto y lo libró de sus manos, y dijo: «No le quitemos la vida»."
+    },
+    {
+      "id": "genesis37-nbla-22",
+      "number": 22,
+      "text": "Rubén les dijo además: «No derramen sangre. Échenlo en este pozo del desierto, pero no le pongan la mano encima». Esto dijo para poder librarlo de las manos de ellos y devolverlo a su padre."
+    },
+    {
+      "id": "genesis37-nbla-23",
+      "number": 23,
+      "text": "Y cuando José llegó a sus hermanos, lo despojaron de su túnica, la túnica de muchos colores que llevaba puesta."
+    },
+    {
+      "id": "genesis37-nbla-24",
+      "number": 24,
+      "text": "Lo tomaron y lo echaron en el pozo. El pozo estaba vacío, no había agua en él."
+    },
+    {
+      "id": "genesis37-nbla-25",
+      "number": 25,
+      "text": "Entonces se sentaron a comer, y cuando levantaron los ojos, vieron una caravana de ismaelitas que venía de Galaad con sus camellos cargados de resina aromática, bálsamo y mirra, e iban bajando hacia Egipto."
+    },
+    {
+      "id": "genesis37-nbla-26",
+      "number": 26,
+      "text": "Y Judá dijo a sus hermanos: «¿Qué ganaremos con matar a nuestro hermano y ocultar su sangre?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-27a",
+          "order": 1,
+          "text": "Vengan, vendámoslo a los ismaelitas y no pongamos las manos sobre él,"
+        },
+        {
+          "id": "genesis37-nbla-27b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pues es nuestro hermano, carne nuestra"
+        },
+        {
+          "id": "genesis37-nbla-27c",
+          "order": 3,
+          "text": "». Y sus hermanos le hicieron caso."
+        }
+      ],
+      "id": "genesis37-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "genesis37-nbla-28",
+      "number": 28,
+      "text": "Pasaron entonces los mercaderes madianitas, y ellos sacaron a José, subiéndolo del pozo, y vendieron a José a los ismaelitas por veinte monedas de plata. Y estos se llevaron a José a Egipto."
+    },
+    {
+      "id": "genesis37-nbla-29",
+      "number": 29,
+      "text": "Cuando Rubén volvió al pozo, José ya no estaba en el pozo. Entonces rasgó sus vestidos;"
+    },
+    {
+      "id": "genesis37-nbla-30",
+      "number": 30,
+      "text": "y volvió a sus hermanos y les dijo: «El muchacho no está allí; y yo, ¿adónde iré?»."
+    },
+    {
+      "id": "genesis37-nbla-31",
+      "number": 31,
+      "text": "Así que tomaron la túnica de José, mataron un macho cabrío, y empaparon la túnica en la sangre."
+    },
+    {
+      "id": "genesis37-nbla-32",
+      "number": 32,
+      "text": "Entonces enviaron la túnica de muchos colores y la llevaron a su padre, y dijeron: «Encontramos esto. Te rogamos que lo examines para ver si es la túnica de tu hijo o no»."
+    },
+    {
+      "id": "genesis37-nbla-33",
+      "number": 33,
+      "text": "Él la examinó, y dijo: «Es la túnica de mi hijo. Una fiera lo ha devorado. Sin duda José ha sido despedazado»."
+    },
+    {
+      "id": "genesis37-nbla-34",
+      "number": 34,
+      "text": "Jacob rasgó sus vestidos, puso cilicio sobre sus lomos y estuvo de duelo por su hijo muchos días."
+    },
+    {
+      "id": "genesis37-nbla-35",
+      "number": 35,
+      "text": "Todos sus hijos y todas sus hijas vinieron para consolarlo, pero él rehusó ser consolado, y dijo: «Ciertamente enlutado bajaré al Seol por causa de mi hijo». Y su padre lloró por él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis37-nbla-36a",
+          "order": 1,
+          "text": "Mientras tanto, los madianitas lo vendieron en Egipto a Potifar"
+        },
+        {
+          "id": "genesis37-nbla-36b",
+          "order": 2,
+          "text": ", oficial de Faraón, capitán de la guardia."
+        }
+      ],
+      "id": "genesis37-nbla-36",
+      "number": 36
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

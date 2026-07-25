@@ -1,0 +1,635 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La fe no exige tratar el duelo como falta de confianza en Dios. La NBLA conserva la cercanía física de José sobre el rostro de su padre; MSG mantiene el llanto y el beso sin reducir la intensidad afectiva. José puede creer en la promesa y, al mismo tiempo, lamentar profundamente la pérdida de quien ama.",
+      "id": "genesis50-joya-01",
+      "msg": {
+        "en": "“Joseph threw himself on his father, wept over him, and kissed him.”",
+        "es": "“José se echó sobre su padre, lloró sobre él y lo besó.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La esperanza en la promesa se expresa mediante obediencia concreta, incluso en el cuidado de un cuerpo muerto. La NBLA afirma que los hijos hicieron exactamente lo mandado; MSG hace visible la precisión con que ejecutaron las instrucciones. Llevar a Jacob a Macpela convierte una obligación funeraria en testimonio generacional de pertenencia a Canaán.",
+      "id": "genesis50-joya-02",
+      "msg": {
+        "en": "“Jacob’s sons continued to carry out his instructions to the letter.”",
+        "es": "“Los hijos de Jacob siguieron cumpliendo sus instrucciones al pie de la letra.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-12"
+        }
+      ],
+      "order": 2,
+      "range": "12-13"
+    },
+    {
+      "explanation": "La culpa no resuelta puede seguir esperando castigo incluso después de haber recibido actos reales de gracia. La NBLA conserva el temor a que José devuelva el mal; MSG vuelve audible la sospecha de una deuda acumulada. Los hermanos conocen su culpa, pero todavía interpretan la relación desde la posibilidad de venganza.",
+      "id": "genesis50-joya-03",
+      "msg": {
+        "en": "“What if Joseph is carrying a grudge and decides to pay us back for all the wrong we did him?”",
+        "es": "“¿Y si José todavía nos guarda rencor y decide cobrarnos todo el mal que le hicimos?”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis50-nbla-15b"
+          ],
+          "verseId": "genesis50-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "14-15"
+    },
+    {
+      "explanation": "La renuncia a la venganza comienza reconociendo que ninguna persona ocupa el lugar de Dios. La NBLA formula directamente el límite de José; MSG lo presenta como una pregunta sobre la manera de actuar. José posee poder político sobre sus hermanos, pero se niega a convertir esa autoridad en derecho para asumir el tribunal definitivo.",
+      "id": "genesis50-joya-04",
+      "msg": {
+        "en": "“Don’t be afraid. Do I act for God?”",
+        "es": "“No tengan miedo. ¿Acaso actúo en lugar de Dios?”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis50-nbla-19b"
+          ],
+          "verseId": "genesis50-nbla-19"
+        }
+      ],
+      "order": 4,
+      "range": "19-21"
+    },
+    {
+      "explanation": "La providencia de Dios no niega la intención malvada, sino que la supera. La NBLA mantiene la oposición entre el mal pensado y el bien producido por Dios; MSG hace visible que el mismo plan humano fue tomado dentro de un propósito distinto. El mal sigue siendo mal, pero no logra gobernar el desenlace.",
+      "id": "genesis50-joya-05",
+      "msg": {
+        "en": "“you planned evil against me but God used those same plans for my good”",
+        "es": "“Ustedes planearon el mal contra mí, pero Dios usó esos mismos planes para mi bien”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis50-nbla-20a"
+          ],
+          "verseId": "genesis50-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "19-21"
+    },
+    {
+      "explanation": "El perdón de José se vuelve visible en provisión sostenida hacia la siguiente generación. La NBLA fija el compromiso de proveer; MSG lo expresa como cuidado personal. José no ofrece una emoción momentánea ni una absolución abstracta: usa su autoridad para garantizar vida a quienes temen quedar bajo su castigo.",
+      "id": "genesis50-joya-06",
+      "msg": {
+        "en": "“I’ll take care of you and your children.”",
+        "es": "“yo cuidaré de ustedes y de sus hijos”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis50-nbla-21b"
+          ],
+          "verseId": "genesis50-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "19-21"
+    },
+    {
+      "explanation": "La muerte de José no cancela la futura intervención de Dios. La NBLA expresa Su cuidado mediante la acción de hacer subir al pueblo; MSG conserva la imagen de una visita divina que rompe la permanencia en Egipto. La esperanza de Israel no descansa en que José siga gobernando, sino en que Dios mismo vendrá a cumplir Su juramento.",
+      "id": "genesis50-joya-07",
+      "msg": {
+        "en": "“God will most certainly pay you a visit and take you out of this land”",
+        "es": "“Dios ciertamente vendrá a visitarlos, los sacará de esta tierra”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis50-nbla-24b"
+          ],
+          "verseId": "genesis50-nbla-24"
+        }
+      ],
+      "order": 7,
+      "range": "24"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 50,
+    "studyId": "genesis-50"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis50-msg-01",
+      "msg": {
+        "en": "Joseph threw himself on his father, wept over him, and kissed him.",
+        "es": "José se echó sobre su padre, lloró sobre él y lo besó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "genesis50-msg-02",
+      "msg": {
+        "en": "Joseph then instructed the physicians in his employ to embalm his father. The physicians embalmed Israel. The embalming took forty days, the period required for embalming. There was public mourning by the Egyptians for seventy days.",
+        "es": "Después José ordenó a los médicos que trabajaban para él que embalsamaran a su padre. Los médicos embalsamaron a Israel. El proceso tomó cuarenta días, el tiempo requerido para el embalsamamiento. Los egipcios guardaron luto público por él durante setenta días."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "genesis50-msg-03",
+      "msg": {
+        "en": "When the period of mourning was completed, Joseph petitioned Pharaoh’s court: “If you have reason to think kindly of me, present Pharaoh with my request: My father made me swear, saying, ‘I am ready to die. Bury me in the grave plot that I prepared for myself in the land of Canaan.’ Please give me leave to go up and bury my father. Then I’ll come back.”",
+        "es": "Cuando terminó el período de luto, José presentó una petición ante la corte del faraón: «Si tienen razones para tratarme con bondad, lleven al faraón esta solicitud: Mi padre me hizo jurar y me dijo: “Estoy listo para morir. Entiérrame en la tumba que preparé para mí en la tierra de Canaán”. Por favor, concédanme permiso para subir y sepultar a mi padre. Después regresaré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "genesis50-msg-04",
+      "msg": {
+        "en": "Pharaoh said, “Certainly. Go and bury your father as he made you promise under oath.”",
+        "es": "El faraón respondió: «Por supuesto. Ve y sepulta a tu padre, tal como te hizo prometer bajo juramento»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "genesis50-msg-05",
+      "msg": {
+        "en": "So Joseph left to bury his father. And all the high-ranking officials from Pharaoh’s court went with him, all the dignitaries of Egypt, joining Joseph’s family—his brothers and his father’s family. Their children and flocks and herds were left in Goshen. Chariots and horsemen accompanied them. It was a huge funeral procession.",
+        "es": "Entonces José salió para sepultar a su padre. Con él fueron todos los altos funcionarios de la corte del faraón, todos los dignatarios de Egipto, junto con la familia de José: sus hermanos y la casa de su padre. Dejaron en Gosén solamente a los niños, los rebaños y las manadas. También los acompañaron carros y jinetes. Era un cortejo fúnebre enorme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "genesis50-msg-06",
+      "msg": {
+        "en": "Arriving at the Atad Threshing Floor just across the Jordan River, they stopped for a period of mourning, letting their grief out in loud and lengthy lament. For seven days, Joseph engaged in these funeral rites for his father.",
+        "es": "Al llegar a la era de Atad, al otro lado del río Jordán, se detuvieron para guardar luto y dieron salida a su dolor con un lamento fuerte y prolongado. Durante siete días, José celebró allí los ritos funerarios por su padre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11",
+      "id": "genesis50-msg-07",
+      "msg": {
+        "en": "When the Canaanites who lived in that area saw the grief being poured out at the Atad Threshing Floor, they said, “Look how deeply the Egyptians are mourning.” That is how the site at the Jordan got the name Abel Mizraim (Egyptian Lament).",
+        "es": "Cuando los cananeos que vivían en aquella región vieron el dolor que se derramaba en la era de Atad, dijeron: «Miren qué profundamente están de luto los egipcios». Por eso aquel lugar junto al Jordán recibió el nombre de Abel Mizraim, es decir, Lamento de Egipto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "genesis50-msg-08",
+      "msg": {
+        "en": "Jacob’s sons continued to carry out his instructions to the letter. They took him on into Canaan and buried him in the cave in the field of Machpelah facing Mamre, the field that Abraham had bought as a burial plot from Ephron the Hittite.",
+        "es": "Los hijos de Jacob siguieron cumpliendo sus instrucciones al pie de la letra. Lo llevaron hasta Canaán y lo sepultaron en la cueva del campo de Macpela, frente a Mamre, el campo que Abraham había comprado a Efrón el hitita como lugar de sepultura."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "genesis50-msg-09",
+      "msg": {
+        "en": "After burying his father, Joseph went back to Egypt. All his brothers who had come with him to bury his father returned with him. After the funeral, Joseph’s brothers talked among themselves: “What if Joseph is carrying a grudge and decides to pay us back for all the wrong we did him?”",
+        "es": "Después de sepultar a su padre, José regresó a Egipto. Todos sus hermanos, que habían ido con él para sepultar a su padre, también regresaron. Después del funeral, los hermanos de José hablaron entre sí: «¿Y si José todavía nos guarda rencor y decide cobrarnos todo el mal que le hicimos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "genesis50-msg-10",
+      "msg": {
+        "en": "So they sent Joseph a message, “Before his death, your father gave this command: Tell Joseph, ‘Forgive your brothers’ sin—all that wrongdoing. They did treat you very badly.’ Will you do it? Will you forgive the sins of the servants of your father’s God?”\nWhen Joseph received their message, he wept.",
+        "es": "Así que enviaron este mensaje a José: «Antes de morir, tu padre dejó esta instrucción: Dile a José: “Perdona el pecado de tus hermanos, toda esa maldad. Realmente te trataron muy mal”. ¿Lo harás? ¿Perdonarás los pecados de los servidores del Dios de tu padre?».\nCuando José recibió el mensaje, lloró."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18",
+      "id": "genesis50-msg-11",
+      "msg": {
+        "en": "Then the brothers went in person to him, threw themselves on the ground before him and said, “We’ll be your slaves.”",
+        "es": "Después los hermanos fueron personalmente ante él, se arrojaron al suelo y dijeron: «Seremos tus esclavos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-18"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "genesis50-msg-12",
+      "msg": {
+        "en": "Joseph replied, “Don’t be afraid. Do I act for God? Don’t you see, you planned evil against me but God used those same plans for my good, as you see all around you right now—life for many people. Easy now, you have nothing to fear; I’ll take care of you and your children.” He reassured them, speaking with them heart-to-heart.",
+        "es": "José respondió: «No tengan miedo. ¿Acaso actúo en lugar de Dios? ¿No lo ven? Ustedes planearon el mal contra mí, pero Dios usó esos mismos planes para mi bien, como pueden verlo hoy a su alrededor: vida para muchas personas. Tranquilos, no tienen nada que temer; yo cuidaré de ustedes y de sus hijos». Así los tranquilizó y les habló de corazón a corazón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "genesis50-msg-13",
+      "msg": {
+        "en": "Joseph continued to live in Egypt with his father’s family. Joseph lived 110 years. He lived to see Ephraim’s sons into the third generation. The sons of Makir, Manasseh’s son, were also recognized as Joseph’s.",
+        "es": "José siguió viviendo en Egipto con la familia de su padre. Vivió ciento diez años y alcanzó a ver hasta la tercera generación de los hijos de Efraín. Los hijos de Maquir, hijo de Manasés, también fueron reconocidos como hijos de José."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-23"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "24",
+      "id": "genesis50-msg-14",
+      "msg": {
+        "en": "At the end, Joseph said to his brothers, “I am ready to die. God will most certainly pay you a visit and take you out of this land and back to the land he so solemnly promised to Abraham, Isaac, and Jacob.”",
+        "es": "Al final, José les dijo a sus hermanos: «Estoy listo para morir. Dios ciertamente vendrá a visitarlos, los sacará de esta tierra y los llevará de regreso a la tierra que prometió solemnemente a Abraham, Isaac y Jacob»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-24"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "25",
+      "id": "genesis50-msg-15",
+      "msg": {
+        "en": "Then Joseph made the sons of Israel promise under oath, “When God makes his visitation, make sure you take my bones with you as you leave here.”",
+        "es": "Entonces José hizo que los hijos de Israel prometieran bajo juramento: «Cuando Dios venga a visitarlos, asegúrense de llevarse mis huesos cuando salgan de aquí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-25"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "26",
+      "id": "genesis50-msg-16",
+      "msg": {
+        "en": "Joseph died at the age of 110 years. They embalmed him and placed him in a coffin in Egypt.",
+        "es": "José murió a los ciento diez años. Lo embalsamaron y lo colocaron en un ataúd en Egipto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis50-nbla-26"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis50-nbla-01",
+      "number": 1,
+      "text": "José se echó sobre el rostro de su padre, lloró sobre él y lo besó."
+    },
+    {
+      "id": "genesis50-nbla-02",
+      "number": 2,
+      "text": "José ordenó a sus siervos médicos que embalsamaran a su padre, y los médicos embalsamaron a Israel."
+    },
+    {
+      "id": "genesis50-nbla-03",
+      "number": 3,
+      "text": "Se requerían cuarenta días para ello, porque este es el tiempo requerido para el embalsamamiento. Y los egipcios lo lloraron setenta días."
+    },
+    {
+      "id": "genesis50-nbla-04",
+      "number": 4,
+      "text": "Cuando pasaron los días de luto por él, José habló a la casa de Faraón: «Si he hallado ahora gracia ante los ojos de ustedes, les ruego que hablen a Faraón, diciendo:"
+    },
+    {
+      "id": "genesis50-nbla-05",
+      "number": 5,
+      "text": "“Mi padre me hizo jurar, diciendo: ‘Yo voy a morir. En el sepulcro que cavé para mí en la tierra de Canaán, allí me sepultarás’. Ahora pues, le ruego que me permita ir a sepultar a mi padre, y luego volveré”»."
+    },
+    {
+      "id": "genesis50-nbla-06",
+      "number": 6,
+      "text": "Y Faraón dijo: «Sube y sepulta a tu padre como él te hizo jurar»."
+    },
+    {
+      "id": "genesis50-nbla-07",
+      "number": 7,
+      "text": "Entonces José subió a sepultar a su padre, y con él subieron todos los siervos de Faraón, los ancianos de su casa y todos los ancianos de la tierra de Egipto,"
+    },
+    {
+      "id": "genesis50-nbla-08",
+      "number": 8,
+      "text": "y toda la casa de José, y sus hermanos, y la casa de su padre. Solo dejaron a sus pequeños, sus ovejas y sus vacas en la tierra de Gosén."
+    },
+    {
+      "id": "genesis50-nbla-09",
+      "number": 9,
+      "text": "Subieron también con él carros y jinetes; y era un cortejo muy grande."
+    },
+    {
+      "id": "genesis50-nbla-10",
+      "number": 10,
+      "text": "Cuando llegaron hasta la era de Atad, que está al otro lado del Jordán, allí hicieron duelo con una grande y dolorosa lamentación. Y José guardó siete días de duelo por su padre."
+    },
+    {
+      "id": "genesis50-nbla-11",
+      "number": 11,
+      "text": "Cuando los habitantes de la tierra, los cananeos, vieron el duelo de la era de Atad, dijeron: «Este es un duelo doloroso de los egipcios». Por eso llamaron al lugar Abel Mizrayim, el cual está al otro lado del Jordán."
+    },
+    {
+      "id": "genesis50-nbla-12",
+      "number": 12,
+      "text": "Sus hijos, pues, hicieron con él tal como les había mandado."
+    },
+    {
+      "id": "genesis50-nbla-13",
+      "number": 13,
+      "text": "Pues sus hijos lo llevaron a la tierra de Canaán, y lo sepultaron en la cueva del campo de Macpela, frente a Mamre, la cual Abraham había comprado de Efrón el hitita, junto con el campo como heredad de una sepultura."
+    },
+    {
+      "id": "genesis50-nbla-14",
+      "number": 14,
+      "text": "Después de sepultar a su padre, José regresó a Egipto, él y sus hermanos, y todos los que habían subido con él para sepultar a su padre."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis50-nbla-15a",
+          "order": 1,
+          "text": "Al ver los hermanos de José que su padre había muerto, dijeron: «"
+        },
+        {
+          "id": "genesis50-nbla-15b",
+          "order": 2,
+          "text": "Quizá José guarde rencor contra nosotros, y de cierto nos devuelva todo el mal que le hicimos»."
+        }
+      ],
+      "id": "genesis50-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "genesis50-nbla-16",
+      "number": 16,
+      "text": "Entonces enviaron un mensaje a José, diciendo: «Tu padre mandó a decir antes de morir:"
+    },
+    {
+      "id": "genesis50-nbla-17",
+      "number": 17,
+      "text": "“Así dirán a José: ‘Te ruego que perdones la maldad de tus hermanos y su pecado, porque ellos te trataron mal’”. Y ahora, te rogamos que perdones la maldad de los siervos del Dios de tu padre». Y José lloró cuando le hablaron."
+    },
+    {
+      "id": "genesis50-nbla-18",
+      "number": 18,
+      "text": "Entonces sus hermanos vinieron también y se postraron delante de él, y dijeron: «Ahora somos tus siervos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis50-nbla-19a",
+          "order": 1,
+          "text": "Pero José les dijo: «"
+        },
+        {
+          "id": "genesis50-nbla-19b",
+          "order": 2,
+          "text": "No teman, ¿acaso estoy yo en lugar de Dios?"
+        }
+      ],
+      "id": "genesis50-nbla-19",
+      "number": 19
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis50-nbla-20a",
+          "order": 1,
+          "text": "Ustedes pensaron hacerme mal, pero Dios lo cambió en bien"
+        },
+        {
+          "id": "genesis50-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para que sucediera como vemos hoy, y se preservara la vida de mucha gente."
+        }
+      ],
+      "id": "genesis50-nbla-20",
+      "number": 20
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis50-nbla-21a",
+          "order": 1,
+          "text": "Ahora pues, no teman."
+        },
+        {
+          "id": "genesis50-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Yo proveeré para ustedes y para sus hijos"
+        },
+        {
+          "id": "genesis50-nbla-21c",
+          "order": 3,
+          "text": "». Y los consoló y les habló cariñosamente."
+        }
+      ],
+      "id": "genesis50-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "genesis50-nbla-22",
+      "number": 22,
+      "text": "José se quedó en Egipto, él y la casa de su padre; y José vivió 110 años."
+    },
+    {
+      "id": "genesis50-nbla-23",
+      "number": 23,
+      "text": "José vio la tercera generación de los hijos de Efraín; también los hijos de Maquir, hijo de Manasés, nacieron sobre las rodillas de José."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis50-nbla-24a",
+          "order": 1,
+          "text": "Y José dijo a sus hermanos: «Yo voy a morir, pero"
+        },
+        {
+          "id": "genesis50-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios ciertamente cuidará de ustedes y los hará subir de esta tierra"
+        },
+        {
+          "id": "genesis50-nbla-24c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "a la tierra que Él prometió en juramento a Abraham, a Isaac y a Jacob»."
+        }
+      ],
+      "id": "genesis50-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "genesis50-nbla-25",
+      "number": 25,
+      "text": "Luego José hizo jurar a los hijos de Israel, diciendo: «Dios ciertamente los cuidará, y ustedes se llevarán mis huesos de aquí»."
+    },
+    {
+      "id": "genesis50-nbla-26",
+      "number": 26,
+      "text": "Y murió José a la edad de 110 años. Lo embalsamaron y lo pusieron en un ataúd en Egipto."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

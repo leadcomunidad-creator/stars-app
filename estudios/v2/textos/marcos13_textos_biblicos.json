@@ -1,0 +1,688 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Jesús coloca el discernimiento antes que la especulación. La NBLA fija el mandato general de no dejarse engañar; MSG hace visible una forma recurrente del engaño: líderes que explotan el miedo al fin. El texto no prohíbe estudiar la profecía, pero sí condena una lectura que entrega autoridad a quien afirma poseer certezas que Jesús no dio.",
+      "id": "marcos13-joya-01",
+      "msg": {
+        "en": "“Watch out for doomsday deceivers.”",
+        "es": "«Cuídense de los engañadores que anuncian el fin»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos13-nbla-05b"
+          ],
+          "verseId": "marcos13-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5-8"
+    },
+    {
+      "explanation": "La misión global permanece en el centro aun cuando el mundo atraviesa conflicto. La NBLA fija que el Evangelio debe ser predicado a todas las naciones; MSG comunica esa necesidad como una tarea que atraviesa fronteras. La iglesia no recibe permiso para encerrarse en miedo escatológico: espera a Cristo anunciándolo.",
+      "id": "marcos13-joya-02",
+      "msg": {
+        "en": "“The Message has to be preached all across the world.”",
+        "es": "«El Mensaje tiene que ser anunciado por todo el mundo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "9-10"
+    },
+    {
+      "explanation": "El Espíritu Santo sostiene el testimonio de los discípulos bajo presión. La NBLA protege la promesa al identificar quién habla en aquella hora; MSG destaca que su testimonio ocurre dentro de ellos y a través de ellos. No se trata de reemplazar toda preparación responsable, sino de confiar en la presencia divina cuando la persecución supera los recursos humanos.",
+      "id": "marcos13-joya-03",
+      "msg": {
+        "en": "“the Holy Spirit will make his witness in and through you.”",
+        "es": "«el Espíritu Santo dará su testimonio en ustedes y por medio de ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos13-nbla-11b"
+          ],
+          "verseId": "marcos13-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "La perseverancia identifica una fe que sigue unida a Jesús en medio de la oposición. La NBLA relaciona la perseverancia con la salvación; MSG expresa su dimensión práctica como permanecer firmes. El texto no enseña que la resistencia humana compre la salvación, sino que la gracia de Dios sostiene una fidelidad que no abandona a Cristo.",
+      "id": "marcos13-joya-04",
+      "msg": {
+        "en": "“Stay with it to the end.”",
+        "es": "«Permanezcan firmes hasta el final»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos13-nbla-13b"
+          ],
+          "verseId": "marcos13-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "12-13"
+    },
+    {
+      "explanation": "Dios limita la tribulación por amor a su pueblo. La NBLA especifica que el Señor acorta los días; MSG hace pastoralmente visible esa acción como una intervención ya decidida. La elección divina no produce arrogancia ni curiosidad sobre quién merece protección; produce confianza en que el mal no puede extenderse más allá del gobierno de Dios.",
+      "id": "marcos13-joya-05",
+      "msg": {
+        "en": "“because of God’s chosen people, those he personally chose, he has already intervened.”",
+        "es": "«por causa del pueblo escogido de Dios, de aquellos que Él eligió personalmente, ya ha intervenido»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos13-nbla-20b"
+          ],
+          "verseId": "marcos13-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "19-20"
+    },
+    {
+      "explanation": "La palabra de Jesús posee una permanencia que supera al universo visible. La NBLA fija el contraste entre creación pasajera y palabra imperecedera; MSG comunica esa estabilidad mediante la imagen de algo que nunca se desgasta. La esperanza cristiana no descansa en instituciones, imperios o señales, sino en la confiabilidad del Señor que habla.",
+      "id": "marcos13-joya-06",
+      "msg": {
+        "en": "“Sky and earth will wear out; my words won’t wear out.”",
+        "es": "«El cielo y la tierra se desgastarán; mis palabras no se desgastarán»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-31"
+        }
+      ],
+      "order": 6,
+      "range": "28-31"
+    },
+    {
+      "explanation": "La vigilancia cristiana es fidelidad activa en el encargo recibido. La NBLA extiende el mandato de velar a todos; MSG concreta esa vigilancia como permanecer en el puesto. Jesús no llama a una espera pasiva ni a abandonar la vida cotidiana, sino a servir despiertos, preparados para rendir cuentas cuando Él regrese.",
+      "id": "marcos13-joya-07",
+      "msg": {
+        "en": "“Stay at your post. Keep watch.”",
+        "es": "«Manténganse en su puesto. Permanezcan alerta»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-37"
+        }
+      ],
+      "order": 7,
+      "range": "32-37"
+    }
+  ],
+  "meta": {
+    "book": "MARCOS",
+    "bookId": "marcos",
+    "chapter": 13,
+    "studyId": "marcos-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "marcos13-msg-01",
+      "msg": {
+        "en": "As he walked away from the Temple, one of his disciples said, “Teacher, look at that stonework! Those buildings!”",
+        "es": "Mientras se alejaba del Templo, uno de sus discípulos le dijo: «Maestro, ¡mira esas piedras! ¡Mira esos edificios!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "marcos13-msg-02",
+      "msg": {
+        "en": "Jesus said, “You’re impressed by this grandiose architecture? There’s not a stone in the whole works that is not going to end up in a heap of rubble.”",
+        "es": "Jesús dijo: «¿Los impresiona esta arquitectura grandiosa? No quedará una sola piedra de todo esto que no termine convertida en un montón de escombros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "marcos13-msg-03",
+      "msg": {
+        "en": "Later, as he was sitting on Mount Olives in full view of the Temple, Peter, James, John, and Andrew got him off by himself and asked, “Tell us, when is this going to happen? What sign will we get that things are coming to a head?”",
+        "es": "Más tarde, mientras estaba sentado en el monte de los Olivos con el Templo completamente a la vista, Pedro, Jacobo, Juan y Andrés lo llevaron aparte y le preguntaron: «Dinos, ¿cuándo sucederá esto? ¿Qué señal tendremos de que todo está llegando a su punto decisivo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-8",
+      "id": "marcos13-msg-04",
+      "msg": {
+        "en": "Jesus began, “Watch out for doomsday deceivers. Many leaders are going to show up with forged identities claiming, ‘I’m the One.’ They will deceive a lot of people. When you hear of wars and rumored wars, keep your head and don’t panic. This is routine history, and no sign of the end. Nation will fight nation and ruler fight ruler, over and over. Earthquakes will occur in various places. There will be famines. But these things are nothing compared to what’s coming.",
+        "es": "Jesús comenzó: «Cuídense de los engañadores que anuncian el fin. Aparecerán muchos líderes con identidades falsas diciendo: “Yo soy el indicado”. Engañarán a mucha gente. Cuando oigan de guerras y rumores de guerras, mantengan la cabeza fría y no entren en pánico. Esto forma parte de la historia de siempre y no es señal de que haya llegado el fin. Una nación peleará contra otra y un gobernante contra otro, una y otra vez. Habrá terremotos en distintos lugares y también hambres. Pero todo esto no es nada comparado con lo que viene."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "marcos13-msg-05",
+      "msg": {
+        "en": "“And watch out! They’re going to drag you into court. And then it will go from bad to worse, dog-eat-dog, everyone at your throat because you carry my name. You’re placed there as sentinels to truth. The Message has to be preached all across the world.",
+        "es": "»¡Y estén alerta! Los arrastrarán ante los tribunales. Después todo irá de mal en peor: será una lucha despiadada, con todos echándoseles al cuello porque llevan mi nombre. Han sido puestos allí como centinelas de la verdad. El Mensaje tiene que ser anunciado por todo el mundo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "marcos13-msg-06",
+      "msg": {
+        "en": "When they bring you, betrayed, into court, don’t worry about what you’ll say. When the time comes, say what’s on your heart—the Holy Spirit will make his witness in and through you.",
+        "es": "Cuando los entreguen y los lleven ante el tribunal, no se preocupen por lo que dirán. Cuando llegue el momento, digan lo que nazca en su corazón: el Espíritu Santo dará su testimonio en ustedes y por medio de ustedes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "marcos13-msg-07",
+      "msg": {
+        "en": "“It’s going to be brother killing brother, father killing child, children killing parents. There’s no telling who will hate you because of me.\n“Stay with it—that’s what is required. Stay with it to the end. You won’t be sorry; you’ll be saved.",
+        "es": "»Habrá hermanos que maten a sus hermanos, padres que maten a sus hijos e hijos que maten a sus padres. No se puede saber quién llegará a odiarlos por causa de mí.\n»Permanezcan firmes: eso es lo que se requiere. Permanezcan firmes hasta el final. No lo lamentarán; serán salvados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14-18",
+      "id": "marcos13-msg-08",
+      "msg": {
+        "en": "“But be ready to run for it when you see the monster of desecration set up where it should never be. You who can read, make sure you understand what I’m talking about. If you’re living in Judea at the time, run for the hills; if you’re working in the yard, don’t go back to the house to get anything; if you’re out in the field, don’t go back to get your coat. Pregnant and nursing mothers will have it especially hard. Hope and pray this won’t happen in the middle of winter.",
+        "es": "»Pero estén preparados para huir cuando vean al monstruo de la profanación instalado donde jamás debería estar. Quien pueda leer, asegúrese de entender de qué estoy hablando. Si en ese momento viven en Judea, corran hacia las montañas. Si están trabajando en el patio, no vuelvan a la casa para sacar nada. Si están en el campo, no regresen por el abrigo. Las mujeres embarazadas y las madres que estén amamantando lo pasarán especialmente mal. Tengan esperanza y oren para que esto no suceda en pleno invierno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-18"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "marcos13-msg-09",
+      "msg": {
+        "en": "“These are going to be hard days—nothing like it from the time God made the world right up to the present. And there’ll be nothing like it again. If he let the days of trouble run their course, nobody would make it. But because of God’s chosen people, those he personally chose, he has already intervened.",
+        "es": "»Serán días terribles, sin comparación desde que Dios hizo el mundo hasta el presente, y nunca volverá a haber otros iguales. Si Él permitiera que esos días de angustia siguieran su curso, nadie sobreviviría. Pero por causa del pueblo escogido de Dios, de aquellos que Él eligió personalmente, ya ha intervenido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-20"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "marcos13-msg-10",
+      "msg": {
+        "en": "“If anyone tries to flag you down, calling out, ‘Here’s the Messiah!’ or points, ‘There he is!’ don’t fall for it. Fake Messiahs and lying preachers are going to pop up everywhere. Their impressive credentials and dazzling performances will pull the wool over the eyes of even those who ought to know better. So watch out. I’ve given you fair warning.",
+        "es": "»Si alguien intenta detenerlos gritando: “¡Aquí está el Mesías!”, o señala: “¡Allí está!”, no caigan en la trampa. Surgirán por todas partes falsos mesías y predicadores mentirosos. Sus credenciales impresionantes y sus actuaciones deslumbrantes engañarán incluso a quienes deberían saber distinguir. Así que estén alerta. Les he advertido con suficiente anticipación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-23"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "marcos13-msg-11",
+      "msg": {
+        "en": "“Following those hard times,\nSun will fade out,\nmoon cloud over,\nStars fall out of the sky,\ncosmic powers tremble.",
+        "es": "»Después de aquellos tiempos difíciles,\nel sol se apagará,\nla luna se cubrirá de nubes,\nlas estrellas caerán del cielo\ny los poderes cósmicos temblarán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-25"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "marcos13-msg-12",
+      "msg": {
+        "en": "“And then they’ll see the Son of Man enter in grand style, his Arrival filling the sky—no one will miss it! He’ll dispatch the angels; they will pull in the chosen from the four winds, from pole to pole.",
+        "es": "»Entonces verán al Hijo del Hombre entrar con toda majestad; su llegada llenará el cielo y nadie podrá pasarla por alto. Enviará a los ángeles, y ellos reunirán a los escogidos desde los cuatro vientos, de un extremo al otro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "marcos13-msg-13",
+      "msg": {
+        "en": "“Take a lesson from the fig tree. From the moment you notice its buds form, the merest hint of green, you know summer’s just around the corner. And so it is with you. When you see all these things, you know he is at the door. Don’t take this lightly. I’m not just saying this for some future generation, but for this one, too—these things will happen. Sky and earth will wear out; my words won’t wear out.",
+        "es": "»Aprendan la lección de la higuera. Desde el momento en que ven formarse sus brotes y aparece el más leve indicio de verde, saben que el verano está a la vuelta de la esquina. Así sucede también con ustedes. Cuando vean todas estas cosas, sabrán que Él está a la puerta. No lo tomen a la ligera. No estoy diciendo esto únicamente para alguna generación futura, sino también para esta: estas cosas sucederán. El cielo y la tierra se desgastarán; mis palabras no se desgastarán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-31"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "32-37",
+      "id": "marcos13-msg-14",
+      "msg": {
+        "en": "“But the exact day and hour? No one knows that, not even heaven’s angels, not even the Son. Only the Father. So keep a sharp lookout, for you don’t know the timetable. It’s like a man who takes a trip, leaving home and putting his servants in charge, each assigned a task, and commanding the gatekeeper to stand watch. So, stay at your post, watching. You have no idea when the homeowner is returning, whether evening, midnight, cockcrow, or morning. You don’t want him showing up unannounced, with you asleep on the job. I say it to you, and I’m saying it to all: Stay at your post. Keep watch.”",
+        "es": "»¿Pero el día y la hora exactos? Nadie los conoce: ni los ángeles del cielo ni siquiera el Hijo. Solo el Padre. Por eso mantengan una vigilancia atenta, porque no conocen el calendario. Es como un hombre que sale de viaje, deja su casa, pone a sus siervos a cargo, asigna una tarea a cada uno y ordena al portero que permanezca alerta. Así que manténganse en su puesto, vigilando. No tienen idea de cuándo regresará el dueño de la casa: si al atardecer, a medianoche, al canto del gallo o al amanecer. No querrán que llegue sin previo aviso y los encuentre dormidos en su puesto. Se lo digo a ustedes y se lo digo a todos: Manténganse en su puesto. Permanezcan alerta»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos13-nbla-37"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "marcos13-nbla-01",
+      "number": 1,
+      "text": "Cuando Jesús salía del templo, uno de Sus discípulos le dijo*: «Maestro, ¡mira qué piedras y qué edificios!»."
+    },
+    {
+      "id": "marcos13-nbla-02",
+      "number": 2,
+      "text": "Y Jesús le dijo: «¿Ves estos grandes edificios? No quedará piedra sobre piedra que no sea derribada»."
+    },
+    {
+      "id": "marcos13-nbla-03",
+      "number": 3,
+      "text": "Y estando Él sentado en el monte de los Olivos, frente al templo, Pedro, Jacobo, Juan y Andrés le preguntaban en privado:"
+    },
+    {
+      "id": "marcos13-nbla-04",
+      "number": 4,
+      "text": "«Dinos, ¿cuándo sucederá esto, y qué señal habrá cuando todas estas cosas se hayan de cumplir?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos13-nbla-05a",
+          "order": 1,
+          "text": "Y Jesús comenzó a decirles: «"
+        },
+        {
+          "id": "marcos13-nbla-05b",
+          "order": 2,
+          "text": "Miren que nadie los engañe."
+        }
+      ],
+      "id": "marcos13-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "marcos13-nbla-06",
+      "number": 6,
+      "text": "Muchos vendrán en Mi nombre diciendo: “Yo soy el Cristo”, y engañarán a muchos."
+    },
+    {
+      "id": "marcos13-nbla-07",
+      "number": 7,
+      "text": "Cuando ustedes oigan de guerras y de rumores de guerras, no se alarmen; es necesario que todo esto suceda, pero todavía no es el fin."
+    },
+    {
+      "id": "marcos13-nbla-08",
+      "number": 8,
+      "text": "Porque se levantará nación contra nación, y reino contra reino; y habrá terremotos en diversos lugares; y habrá hambres. Esto solo es el comienzo de dolores."
+    },
+    {
+      "id": "marcos13-nbla-09",
+      "number": 9,
+      "text": "»Pero ustedes, estén alerta; porque los entregarán a los tribunales y serán azotados en las sinagogas, y comparecerán delante de gobernadores y reyes por Mi causa, para testimonio a ellos."
+    },
+    {
+      "id": "marcos13-nbla-10",
+      "number": 10,
+      "text": "Pero primero el evangelio debe ser predicado a todas las naciones."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos13-nbla-11a",
+          "order": 1,
+          "text": "Cuando los lleven y los entreguen, no se preocupen de antemano por lo que van a decir, sino que lo que les sea dado en aquella hora, eso hablen; porque"
+        },
+        {
+          "id": "marcos13-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no son ustedes los que hablan, sino el Espíritu Santo."
+        }
+      ],
+      "id": "marcos13-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "marcos13-nbla-12",
+      "number": 12,
+      "text": "El hermano entregará a la muerte al hermano, y el padre al hijo; y los hijos se levantarán contra los padres, y les causarán la muerte."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos13-nbla-13a",
+          "order": 1,
+          "text": "Y ustedes serán odiados de todos por causa de Mi nombre, pero"
+        },
+        {
+          "id": "marcos13-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el que persevere hasta el fin, ese será salvo."
+        }
+      ],
+      "id": "marcos13-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "marcos13-nbla-14",
+      "number": 14,
+      "text": "»Pero cuando vean la ABOMINACIÓN DE LA DESOLACIÓN puesta donde no debe estar (el que lea, que entienda), entonces los que estén en Judea huyan a los montes;"
+    },
+    {
+      "id": "marcos13-nbla-15",
+      "number": 15,
+      "text": "y el que esté en la azotea, no baje ni entre a sacar nada de su casa;"
+    },
+    {
+      "id": "marcos13-nbla-16",
+      "number": 16,
+      "text": "y el que esté en el campo, no vuelva a tomar su capa."
+    },
+    {
+      "id": "marcos13-nbla-17",
+      "number": 17,
+      "text": "Pero, ¡ay de las que estén encinta y de las que estén criando en aquellos días!"
+    },
+    {
+      "id": "marcos13-nbla-18",
+      "number": 18,
+      "text": "»Oren para que esto no suceda en el invierno."
+    },
+    {
+      "id": "marcos13-nbla-19",
+      "number": 19,
+      "text": "Porque aquellos días serán de tribulación, tal como no ha acontecido desde el principio de la creación que hizo Dios hasta ahora, ni acontecerá jamás."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos13-nbla-20a",
+          "order": 1,
+          "text": "Si el Señor no hubiera acortado aquellos días, nadie se salvaría; pero"
+        },
+        {
+          "id": "marcos13-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "por causa de los escogidos que Él eligió, acortó los días."
+        }
+      ],
+      "id": "marcos13-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "marcos13-nbla-21",
+      "number": 21,
+      "text": "Entonces, si alguien les dice: “Miren, aquí está el Cristo”, o: “Miren, allí está”, no lo crean."
+    },
+    {
+      "id": "marcos13-nbla-22",
+      "number": 22,
+      "text": "Porque se levantarán falsos Cristos y falsos profetas, y mostrarán señales y prodigios a fin de extraviar, de ser posible, a los escogidos."
+    },
+    {
+      "id": "marcos13-nbla-23",
+      "number": 23,
+      "text": "Pero ustedes, estén alerta; vean que se lo he dicho todo de antemano."
+    },
+    {
+      "id": "marcos13-nbla-24",
+      "number": 24,
+      "text": "»Pero en aquellos días, después de esa tribulación, EL SOL SE OSCURECERÁ Y LA LUNA NO DARÁ SU LUZ,"
+    },
+    {
+      "id": "marcos13-nbla-25",
+      "number": 25,
+      "text": "LAS ESTRELLAS IRÁN CAYENDO del cielo y las potencias que están en los cielos serán sacudidas."
+    },
+    {
+      "id": "marcos13-nbla-26",
+      "number": 26,
+      "text": "Entonces verán AL HIJO DEL HOMBRE QUE VIENE EN LAS NUBES con gran poder y gloria."
+    },
+    {
+      "id": "marcos13-nbla-27",
+      "number": 27,
+      "text": "Y entonces Él enviará a los ángeles, y reunirá a Sus escogidos de los cuatro vientos, desde el extremo de la tierra hasta el extremo del cielo."
+    },
+    {
+      "id": "marcos13-nbla-28",
+      "number": 28,
+      "text": "»De la higuera aprendan la parábola: cuando su rama ya se pone tierna y echa las hojas, saben que el verano está cerca."
+    },
+    {
+      "id": "marcos13-nbla-29",
+      "number": 29,
+      "text": "Así también ustedes, cuando vean que suceden estas cosas, sepan que Él está cerca, a las puertas."
+    },
+    {
+      "id": "marcos13-nbla-30",
+      "number": 30,
+      "text": "En verdad les digo que no pasará esta generación hasta que todo esto suceda."
+    },
+    {
+      "id": "marcos13-nbla-31",
+      "number": 31,
+      "text": "El cielo y la tierra pasarán, pero Mis palabras no pasarán."
+    },
+    {
+      "id": "marcos13-nbla-32",
+      "number": 32,
+      "text": "Pero de aquel día o de aquella hora nadie sabe, ni siquiera los ángeles en el cielo, ni el Hijo, sino solo el Padre."
+    },
+    {
+      "id": "marcos13-nbla-33",
+      "number": 33,
+      "text": "»Estén alerta, velen; porque no saben cuándo es el tiempo señalado."
+    },
+    {
+      "id": "marcos13-nbla-34",
+      "number": 34,
+      "text": "Es como un hombre que se fue de viaje, y al salir de su casa dejó a sus siervos encargados, asignándole a cada uno su tarea, y ordenó al portero que estuviera alerta."
+    },
+    {
+      "id": "marcos13-nbla-35",
+      "number": 35,
+      "text": "Por tanto, velen, porque no saben cuándo viene el señor de la casa, si al atardecer, o a la medianoche, o al canto del gallo, o al amanecer;"
+    },
+    {
+      "id": "marcos13-nbla-36",
+      "number": 36,
+      "text": "no sea que venga de repente y los halle dormidos."
+    },
+    {
+      "id": "marcos13-nbla-37",
+      "number": 37,
+      "text": "Y lo que a ustedes digo, a todos digo: ¡Velen!»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El nacimiento de Isaac descansa en la fidelidad de Dios a su palabra y a su tiempo. NBLA fija la correspondencia entre lo dicho, lo prometido y lo realizado; MSG vuelve audible esa repetición mediante dos afirmaciones consecutivas. El punto no es que Sara haya producido el resultado por capacidad propia, sino que Dios cumplió una promesa específica que él mismo había dado.",
+      "id": "genesis21-joya-01",
+      "msg": {
+        "en": "“GOD visited Sarah exactly as he said he would; GOD did to Sarah what he promised”",
+        "es": "«DIOS visitó a Sara exactamente como había dicho que lo haría; DIOS hizo por Sara lo que había prometido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "La risa asociada con Isaac se transforma en celebración compartida por el cumplimiento de Dios. NBLA fija que Dios hizo reír a Sara y que otros participarán de esa risa; MSG la presenta como una bendición que se vuelve noticia. La frase no convierte todas las risas del relato en una emoción idéntica ni enseña que toda espera terminará del mismo modo.",
+      "id": "genesis21-joya-02",
+      "msg": {
+        "en": "“God has blessed me with laughter and all who get the news will laugh with me!”",
+        "es": "«Dios me ha bendecido con risa, ¡y todos los que se enteren se reirán conmigo!»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis21-nbla-06b"
+          ],
+          "verseId": "genesis21-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "El dolor de Agar llega al límite de lo que puede soportar al contemplar la posible muerte de su hijo. NBLA conserva su negativa a ver morir al muchacho y MSG vuelve inmediata la voz de una madre desesperada. El texto no presenta su llanto como fracaso espiritual ni romantiza la expulsión que llevó a ambos al desierto.",
+      "id": "genesis21-joya-03",
+      "msg": {
+        "en": "“I can’t watch my son die.”",
+        "es": "«No puedo ver morir a mi hijo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis21-nbla-16b"
+          ],
+          "verseId": "genesis21-nbla-16"
+        }
+      ],
+      "order": 3,
+      "range": "14-16"
+    },
+    {
+      "explanation": "Dios atiende a Ismael en su situación concreta, aunque la línea del pacto continúe por Isaac. NBLA fija que Dios oye la voz del muchacho donde se encuentra; MSG expresa esa cercanía diciendo que conoce el aprieto en que está. La misericordia divina no elimina la particularidad del pacto, pero impide convertir la elección en abandono o desprecio.",
+      "id": "genesis21-joya-04",
+      "msg": {
+        "en": "“God has heard the boy and knows the fix he’s in.”",
+        "es": "«Dios ha oído al muchacho y sabe el aprieto en que está»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis21-nbla-17b"
+          ],
+          "verseId": "genesis21-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "17-18"
+    },
+    {
+      "explanation": "La provisión se vuelve visible cuando Dios abre los ojos de Agar. NBLA fija la intervención y el descubrimiento del pozo; MSG reproduce el momento mediante una secuencia breve y pausada. El texto no explica si el pozo apareció entonces o ya estaba fuera de su percepción, por lo que ninguna de esas posibilidades debe transformarse en doctrina.",
+      "id": "genesis21-joya-05",
+      "msg": {
+        "en": "“Just then God opened her eyes. She looked. She saw a well of water.”",
+        "es": "«Justo entonces Dios le abrió los ojos. Miró. Vio un pozo de agua»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis21-nbla-19a"
+          ],
+          "verseId": "genesis21-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "19"
+    },
+    {
+      "explanation": "El capítulo termina con Abraham arraigándose, adorando e invocando al Dios que trasciende su tiempo inmediato. NBLA fija la invocación del nombre del SEÑOR, el Dios eterno; MSG hace visible la relación entre plantar, adorar y orar. El árbol puede sugerir continuidad, pero el texto no explica un simbolismo específico que deba convertirse en tesis.",
+      "id": "genesis21-joya-06",
+      "msg": {
+        "en": "“Abraham planted a tamarisk tree in Beersheba and worshiped GOD there, praying to the Eternal God.”",
+        "es": "«Abraham plantó un tamarisco en Beerseba y adoró a DIOS allí, orando al Dios Eterno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "33-34"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 21,
+    "studyId": "genesis-21"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "genesis21-msg-01",
+      "msg": {
+        "en": "GOD visited Sarah exactly as he said he would; GOD did to Sarah what he promised: Sarah became pregnant and gave Abraham a son in his old age, and at the very time God had set. Abraham named him Isaac. When his son was eight days old, Abraham circumcised him just as God had commanded.",
+        "es": "DIOS visitó a Sara exactamente como había dicho que lo haría; DIOS hizo por Sara lo que había prometido: Sara quedó embarazada y le dio a Abraham un hijo en su vejez, precisamente en el momento que Dios había establecido. Abraham lo llamó Isaac. Cuando su hijo tenía ocho días, Abraham lo circuncidó tal como Dios lo había ordenado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "genesis21-msg-02",
+      "msg": {
+        "en": "Abraham was a hundred years old when his son Isaac was born. Sarah said,\nGod has blessed me with laughter\nand all who get the news will laugh with me!",
+        "es": "Abraham tenía cien años cuando nació su hijo Isaac. Sara dijo:\nDios me ha bendecido con risa,\n¡y todos los que se enteren se reirán conmigo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7",
+      "id": "genesis21-msg-03",
+      "msg": {
+        "en": "She also said,\nWhoever would have suggested to Abraham\nthat Sarah would one day nurse a baby!\nYet here I am! I’ve given the old man a son!",
+        "es": "También dijo:\n¿Quién le habría dicho a Abraham\nque Sara algún día amamantaría a un bebé?\n¡Y aquí estoy! ¡Le he dado un hijo al anciano!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis21-msg-04",
+      "msg": {
+        "en": "The baby grew and was weaned. Abraham threw a big party on the day Isaac was weaned.",
+        "es": "El bebé creció y fue destetado. Abraham hizo una gran fiesta el día en que destetaron a Isaac."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "genesis21-msg-05",
+      "msg": {
+        "en": "One day Sarah saw the son that Hagar the Egyptian had borne to Abraham, poking fun at her son Isaac. She told Abraham, “Get rid of this slave woman and her son. No child of this slave is going to share inheritance with my son Isaac!”",
+        "es": "Un día Sara vio al hijo que Agar la egipcia le había dado a Abraham burlándose de su hijo Isaac. Le dijo a Abraham: «¡Echa fuera a esta esclava y a su hijo! ¡Ningún hijo de esta esclava va a compartir la herencia con mi hijo Isaac!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "genesis21-msg-06",
+      "msg": {
+        "en": "The matter gave great pain to Abraham—after all, Ishmael was his son. But God spoke to Abraham, “Don’t feel badly about the boy and your maid. Do whatever Sarah tells you. Your descendants will come through Isaac. Regarding your maid’s son, be assured that I’ll also develop a great nation from him—he’s your son, too.”",
+        "es": "El asunto le causó un gran dolor a Abraham; después de todo, Ismael era su hijo. Pero Dios le habló: «No te angusties por el muchacho ni por tu sierva. Haz lo que Sara te diga. Tus descendientes vendrán por medio de Isaac. En cuanto al hijo de tu sierva, ten la seguridad de que también haré de él una gran nación: él también es tu hijo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "genesis21-msg-07",
+      "msg": {
+        "en": "Abraham got up early the next morning, got some food together and a canteen of water for Hagar, put them on her back and sent her away with the child. She wandered off into the desert of Beersheba. When the water was gone, she left the child under a shrub and went off, fifty yards or so. She said, “I can’t watch my son die.” As she sat, she broke into sobs.",
+        "es": "Abraham se levantó temprano a la mañana siguiente, preparó algo de comida y una cantimplora de agua para Agar, se las puso sobre la espalda y la despidió con el niño. Ella se adentró en el desierto de Beerseba. Cuando se acabó el agua, dejó al muchacho bajo un arbusto y se alejó unos cuarenta y cinco metros. Dijo: «No puedo ver morir a mi hijo». Mientras estaba sentada, rompió a llorar desconsoladamente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-16"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "genesis21-msg-08",
+      "msg": {
+        "en": "Meanwhile, God heard the boy crying. The angel of God called from Heaven to Hagar, “What’s wrong, Hagar? Don’t be afraid. God has heard the boy and knows the fix he’s in. Up now; go get the boy. Hold him tight. I’m going to make of him a great nation.”",
+        "es": "Mientras tanto, Dios oyó al muchacho llorar. El ángel de Dios llamó desde el cielo a Agar: «¿Qué te pasa, Agar? No tengas miedo. Dios ha oído al muchacho y sabe el aprieto en que está. ¡Levántate, ve a buscarlo y abrázalo fuerte! Voy a hacer de él una gran nación»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-18"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "19",
+      "id": "genesis21-msg-09",
+      "msg": {
+        "en": "Just then God opened her eyes. She looked. She saw a well of water. She went to it and filled her canteen and gave the boy a long, cool drink.",
+        "es": "Justo entonces Dios le abrió los ojos. Miró. Vio un pozo de agua. Fue hasta él, llenó la cantimplora y le dio al muchacho un trago largo y fresco."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-19"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "genesis21-msg-10",
+      "msg": {
+        "en": "God was on the boy’s side as he grew up. He lived out in the desert and became a skilled archer. He lived in the Paran wilderness. And his mother got him a wife from Egypt.",
+        "es": "Dios estaba del lado del muchacho mientras crecía. Vivió en el desierto y se convirtió en un hábil arquero. Se estableció en el desierto de Parán, y su madre le consiguió una esposa de Egipto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-21"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "genesis21-msg-11",
+      "msg": {
+        "en": "At about that same time, Abimelech and the captain of his troops, Phicol, spoke to Abraham: “No matter what you do, God is on your side. So swear to me that you won’t do anything underhanded to me or any of my family. For as long as you live here, swear that you’ll treat me and my land as well as I’ve treated you.”",
+        "es": "Más o menos en esa misma época, Abimelec y Ficol, el capitán de sus tropas, le dijeron a Abraham: «Sin importar lo que hagas, Dios está de tu lado. Así que júrame que no harás nada deshonesto contra mí ni contra nadie de mi familia. Mientras vivas aquí, júrame que me tratarás a mí y a mi tierra tan bien como yo te he tratado a ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-23"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "24",
+      "id": "genesis21-msg-12",
+      "msg": {
+        "en": "Abraham said, “I swear it.”",
+        "es": "Abraham dijo: «Lo juro»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-24"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "genesis21-msg-13",
+      "msg": {
+        "en": "At the same time, Abraham confronted Abimelech over the matter of a well of water that Abimelech’s servants had taken. Abimelech said, “I have no idea who did this; you never told me about it; this is the first I’ve heard of it.”",
+        "es": "Al mismo tiempo, Abraham confrontó a Abimelec por un pozo de agua del que los sirvientes de Abimelec se habían apoderado. Abimelec dijo: «No tengo idea de quién hizo esto; nunca me lo dijiste y esta es la primera vez que lo escucho»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-26"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "27-28",
+      "id": "genesis21-msg-14",
+      "msg": {
+        "en": "So the two of them made a covenant. Abraham took sheep and cattle and gave them to Abimelech. Abraham set aside seven sheep from his flock.",
+        "es": "Así que los dos hicieron un pacto. Abraham tomó ovejas y ganado y se los dio a Abimelec. Después apartó siete ovejas de su rebaño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-28"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "29",
+      "id": "genesis21-msg-15",
+      "msg": {
+        "en": "Abimelech said, “What does this mean? These seven sheep you’ve set aside.”",
+        "es": "Abimelec preguntó: «¿Qué significan estas siete ovejas que has apartado?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-29"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "30",
+      "id": "genesis21-msg-16",
+      "msg": {
+        "en": "Abraham said, “It means that when you accept these seven sheep, you take it as proof that I dug this well, that it’s my well.”",
+        "es": "Abraham respondió: «Cuando aceptes estas siete ovejas, quedará como prueba de que yo cavé este pozo y de que me pertenece»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-30"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "genesis21-msg-17",
+      "msg": {
+        "en": "That’s how the place got named Beersheba (the Oath-Well), because the two of them swore a covenant oath there. After they had made the covenant at Beersheba, Abimelech and his commander, Phicol, left and went back to Philistine territory.",
+        "es": "Así fue como el lugar recibió el nombre de Beerseba, el Pozo del Juramento, porque allí ambos se comprometieron mediante un juramento de pacto. Después de hacer el pacto en Beerseba, Abimelec y su comandante Ficol partieron y regresaron al territorio filisteo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-32"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "33-34",
+      "id": "genesis21-msg-18",
+      "msg": {
+        "en": "Abraham planted a tamarisk tree in Beersheba and worshiped GOD there, praying to the Eternal God. Abraham lived in Philistine country for a long time.",
+        "es": "Abraham plantó un tamarisco en Beerseba y adoró a DIOS allí, orando al Dios Eterno. Abraham vivió en territorio filisteo por mucho tiempo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis21-nbla-34"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "genesis21-nbla-01",
+      "number": 1,
+      "text": "Entonces el SEÑOR prestó atención a Sara como había dicho, e hizo el SEÑOR por Sara como había prometido."
+    },
+    {
+      "id": "genesis21-nbla-02",
+      "number": 2,
+      "text": "Sara concibió y dio a luz un hijo a Abraham en su vejez, en el tiempo señalado que Dios le había dicho."
+    },
+    {
+      "id": "genesis21-nbla-03",
+      "number": 3,
+      "text": "Abraham le puso el nombre de Isaac al hijo que le nació, que le dio Sara."
+    },
+    {
+      "id": "genesis21-nbla-04",
+      "number": 4,
+      "text": "A los ocho días Abraham circuncidó a su hijo Isaac, como Dios le había mandado."
+    },
+    {
+      "id": "genesis21-nbla-05",
+      "number": 5,
+      "text": "Abraham tenía 100 años cuando le nació su hijo Isaac."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis21-nbla-06a",
+          "order": 1,
+          "text": "Sara dijo: «"
+        },
+        {
+          "id": "genesis21-nbla-06b",
+          "order": 2,
+          "text": "Dios me ha hecho reír; cualquiera que lo oiga se reirá conmigo»."
+        }
+      ],
+      "id": "genesis21-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "genesis21-nbla-07",
+      "number": 7,
+      "text": "Y añadió: «¿Quién le hubiera dicho a Abraham que Sara amamantaría hijos? Pues bien, le he dado un hijo en su vejez»."
+    },
+    {
+      "id": "genesis21-nbla-08",
+      "number": 8,
+      "text": "El niño creció y fue destetado, y Abraham hizo un gran banquete el día que Isaac fue destetado."
+    },
+    {
+      "id": "genesis21-nbla-09",
+      "number": 9,
+      "text": "Pero Sara vio al hijo que Agar la egipcia le había dado a Abraham burlándose de su hijo Isaac."
+    },
+    {
+      "id": "genesis21-nbla-10",
+      "number": 10,
+      "text": "Por eso le dijo a Abraham: «Echa fuera a esta sierva y a su hijo, porque el hijo de esta sierva no ha de ser heredero junto con mi hijo Isaac»."
+    },
+    {
+      "id": "genesis21-nbla-11",
+      "number": 11,
+      "text": "El asunto angustió a Abraham en gran manera por tratarse de su hijo."
+    },
+    {
+      "id": "genesis21-nbla-12",
+      "number": 12,
+      "text": "Pero Dios dijo a Abraham: «No te angusties por el muchacho ni por tu sierva. Presta atención a todo lo que Sara te diga, porque por Isaac será llamada tu descendencia."
+    },
+    {
+      "id": "genesis21-nbla-13",
+      "number": 13,
+      "text": "También del hijo de la sierva haré una nación, por ser tu descendiente»."
+    },
+    {
+      "id": "genesis21-nbla-14",
+      "number": 14,
+      "text": "Se levantó, pues, Abraham muy de mañana, tomó pan y un odre de agua y los dio a Agar poniéndoselos sobre el hombro, y le dio el muchacho y la despidió. Y ella se fue y anduvo errante por el desierto de Beerseba."
+    },
+    {
+      "id": "genesis21-nbla-15",
+      "number": 15,
+      "text": "Cuando el agua del odre se acabó, ella dejó al muchacho debajo de uno de los arbustos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis21-nbla-16a",
+          "order": 1,
+          "text": "Entonces ella fue y se sentó enfrente, como a un tiro de arco de distancia, porque dijo: «"
+        },
+        {
+          "id": "genesis21-nbla-16b",
+          "order": 2,
+          "text": "Que no vea yo morir al niño"
+        },
+        {
+          "id": "genesis21-nbla-16c",
+          "order": 3,
+          "text": "». Y se sentó enfrente y alzó su voz y lloró."
+        }
+      ],
+      "id": "genesis21-nbla-16",
+      "number": 16
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis21-nbla-17a",
+          "order": 1,
+          "text": "Dios oyó la voz del muchacho que lloraba; y el ángel de Dios llamó a Agar desde el cielo, y le dijo: «¿Qué tienes, Agar? No temas, porque"
+        },
+        {
+          "id": "genesis21-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios ha oído la voz del muchacho en donde está."
+        }
+      ],
+      "id": "genesis21-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "genesis21-nbla-18",
+      "number": 18,
+      "text": "Levántate, alza al muchacho y sostenlo con tu mano, porque Yo haré de él una gran nación»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis21-nbla-19a",
+          "order": 1,
+          "text": "Entonces Dios abrió los ojos de ella, y vio un pozo de agua"
+        },
+        {
+          "id": "genesis21-nbla-19b",
+          "order": 2,
+          "text": ". Fue y llenó el odre de agua y dio de beber al muchacho."
+        }
+      ],
+      "id": "genesis21-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "genesis21-nbla-20",
+      "number": 20,
+      "text": "Dios estaba con el muchacho, que creció y habitó en el desierto y se hizo arquero."
+    },
+    {
+      "id": "genesis21-nbla-21",
+      "number": 21,
+      "text": "Y habitó en el desierto de Parán, y su madre tomó para él una mujer de la tierra de Egipto."
+    },
+    {
+      "id": "genesis21-nbla-22",
+      "number": 22,
+      "text": "Aconteció por aquel tiempo que Abimelec, con Ficol, jefe de su ejército, habló a Abraham: «Dios está contigo en todo lo que haces."
+    },
+    {
+      "id": "genesis21-nbla-23",
+      "number": 23,
+      "text": "Ahora pues, júrame aquí por Dios que no obrarás falsamente conmigo, ni con mi descendencia, ni con mi posteridad, sino que conforme a la bondad que te he mostrado, así me mostrarás a mí y a la tierra en la cual has residido»."
+    },
+    {
+      "id": "genesis21-nbla-24",
+      "number": 24,
+      "text": "«Yo lo juro», le dijo Abraham."
+    },
+    {
+      "id": "genesis21-nbla-25",
+      "number": 25,
+      "text": "Pero Abraham se quejó a Abimelec a causa de un pozo de agua del cual los siervos de Abimelec se habían apoderado."
+    },
+    {
+      "id": "genesis21-nbla-26",
+      "number": 26,
+      "text": "Y Abimelec dijo: «No sé quién haya hecho esto, ni tú me lo habías hecho saber, ni yo lo había oído hasta hoy»."
+    },
+    {
+      "id": "genesis21-nbla-27",
+      "number": 27,
+      "text": "Abraham tomó ovejas y vacas y se los dio a Abimelec, y los dos hicieron un pacto."
+    },
+    {
+      "id": "genesis21-nbla-28",
+      "number": 28,
+      "text": "Entonces Abraham puso aparte siete corderas del rebaño."
+    },
+    {
+      "id": "genesis21-nbla-29",
+      "number": 29,
+      "text": "Abimelec dijo a Abraham: «¿Qué significan estas siete corderas que has puesto aparte?»."
+    },
+    {
+      "id": "genesis21-nbla-30",
+      "number": 30,
+      "text": "Y Abraham respondió: «Tomarás estas siete corderas de mi mano para que esto me sirva de testimonio de que yo cavé este pozo»."
+    },
+    {
+      "id": "genesis21-nbla-31",
+      "number": 31,
+      "text": "Por lo cual llamó aquel lugar Beerseba, porque allí juraron los dos."
+    },
+    {
+      "id": "genesis21-nbla-32",
+      "number": 32,
+      "text": "Hicieron, pues, un pacto en Beerseba. Se levantó Abimelec con Ficol, jefe de su ejército, y regresaron a la tierra de los filisteos."
+    },
+    {
+      "id": "genesis21-nbla-33",
+      "number": 33,
+      "text": "Abraham plantó un tamarisco en Beerseba, y allí invocó el nombre del SEÑOR, el Dios eterno."
+    },
+    {
+      "id": "genesis21-nbla-34",
+      "number": 34,
+      "text": "Y peregrinó Abraham en la tierra de los filisteos por muchos días."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Abraham responde con disponibilidad ante el llamado de Dios. NBLA fija la expresión «Aquí estoy» y MSG vuelve audible su atención mediante «Estoy escuchando». Esta disposición no significa que cualquier voz interior, sueño o autoridad religiosa deba obedecerse sin discernimiento, especialmente cuando pretende causar daño.",
+      "id": "genesis22-joya-01",
+      "msg": {
+        "en": "““Yes?” answered Abraham. “I’m listening.””",
+        "es": "««¿Sí?», respondió Abraham. «Estoy escuchando»»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-01b"
+          ],
+          "verseId": "genesis22-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La prueba alcanza al hijo amado y al portador singular de la promesa. NBLA conserva la acumulación «tu hijo, tu único, a quien amas, a Isaac»; MSG comprime el lenguaje sin perder el amor ni el nombre. «Único» se refiere al lugar particular de Isaac dentro del pacto y no niega que Abraham también sea padre de Ismael.",
+      "id": "genesis22-joya-02",
+      "msg": {
+        "en": "“Take your dear son Isaac whom you love”",
+        "es": "«Toma a tu querido hijo Isaac, a quien amas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-02b"
+          ],
+          "verseId": "genesis22-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "Abraham habla en plural acerca del regreso, aunque Génesis no explica cómo espera que la tensión sea resuelta. NBLA y MSG conservan esa forma plural; Hebreos 11 la lee dentro de la confianza en que Dios puede levantar a los muertos. La frase permite esa interpretación canónica, pero no demuestra que Abraham conociera de antemano el desenlace exacto.",
+      "id": "genesis22-joya-03",
+      "msg": {
+        "en": "“then we’ll come back to you.”",
+        "es": "«luego volveremos con ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-05b"
+          ],
+          "verseId": "genesis22-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "3-5"
+    },
+    {
+      "explanation": "Abraham confía en que Dios atenderá la necesidad sacrificial dentro de esta prueba concreta. NBLA fija que Dios proveerá para Sí el cordero y MSG expresa esa confianza mediante «se encargará». La frase no garantiza que toda crisis tendrá una salida inmediata o idéntica, ni autoriza a ignorar límites y responsabilidades esperando una intervención extraordinaria.",
+      "id": "genesis22-joya-04",
+      "msg": {
+        "en": "“God will see to it that there’s a sheep for the burnt offering.”",
+        "es": "«Dios se encargará de que haya un cordero para la ofrenda quemada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-08b"
+          ],
+          "verseId": "genesis22-nbla-08"
+        }
+      ],
+      "order": 4,
+      "range": "8"
+    },
+    {
+      "explanation": "El relato conserva al padre y al hijo caminando juntos mientras la tensión permanece abierta. NBLA y MSG coinciden en esa unidad de camino. El texto no explica cuánto comprendía Isaac ni permite afirmar que hubiera consentido plenamente en ser sacrificado; su silencio no debe utilizarse para legitimar coerción o sufrimiento impuesto.",
+      "id": "genesis22-joya-05",
+      "msg": {
+        "en": "“And they kept on walking together.”",
+        "es": "«Y siguieron caminando juntos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-08d"
+          ],
+          "verseId": "genesis22-nbla-08"
+        }
+      ],
+      "order": 5,
+      "range": "8"
+    },
+    {
+      "explanation": "La obediencia hace visible dentro de la prueba la lealtad de Abraham. NBLA fija el temor de Dios y MSG añade la paradoja pastoral de temer valerosamente. Ese matiz no constituye una doctrina independiente ni convierte el valor religioso en permiso para atravesar límites morales; la misma voz divina ordena detener el daño.",
+      "id": "genesis22-joya-06",
+      "msg": {
+        "en": "“Now I know how fearlessly you fear God;”",
+        "es": "«Ahora sé cuán valerosamente temes a Dios;»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-12b"
+          ],
+          "verseId": "genesis22-nbla-12"
+        }
+      ],
+      "order": 6,
+      "range": "12"
+    },
+    {
+      "explanation": "El nombre del lugar interpreta la experiencia desde la provisión que preservó a Isaac. NBLA conserva «El SEÑOR Proveerá» y MSG vuelve cotidiana esa confianza mediante «él se encarga». La frase celebra una provisión específica y no promete que Dios evitará toda pérdida, satisfará cualquier deseo o repetirá siempre el mismo desenlace.",
+      "id": "genesis22-joya-07",
+      "msg": {
+        "en": "“On the mountain of GOD, he sees to it.”",
+        "es": "«En el monte de DIOS, él se encarga»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "genesis22-nbla-14b"
+          ],
+          "verseId": "genesis22-nbla-14"
+        }
+      ],
+      "order": 7,
+      "range": "14"
+    }
+  ],
+  "meta": {
+    "book": "GÉNESIS",
+    "bookId": "genesis",
+    "chapter": 22,
+    "studyId": "genesis-22"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "genesis22-msg-01",
+      "msg": {
+        "en": "After all this, God tested Abraham. God said, “Abraham!”\n“Yes?” answered Abraham. “I’m listening.”",
+        "es": "Después de todo esto, Dios puso a prueba a Abraham. Dios dijo: «¡Abraham!». «¿Sí?», respondió Abraham. «Estoy escuchando»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "genesis22-msg-02",
+      "msg": {
+        "en": "He said, “Take your dear son Isaac whom you love and go to the land of Moriah. Sacrifice him there as a burnt offering on one of the mountains that I’ll point out to you.”",
+        "es": "Él dijo: «Toma a tu querido hijo Isaac, a quien amas, y ve a la tierra de Moria. Sacrifícalo allí como ofrenda quemada en una de las montañas que yo te indicaré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "genesis22-msg-03",
+      "msg": {
+        "en": "Abraham got up early in the morning and saddled his donkey. He took two of his young servants and his son Isaac. He had split wood for the burnt offering. He set out for the place God had directed him. On the third day he looked up and saw the place in the distance. Abraham told his two young servants, “Stay here with the donkey. The boy and I are going over there to worship; then we’ll come back to you.”",
+        "es": "Abraham se levantó temprano a la mañana siguiente y ensilló su burro. Tomó a dos de sus jóvenes siervos y a su hijo Isaac. Había partido leña para la ofrenda quemada. Partió hacia el lugar que Dios le había indicado. Al tercer día levantó la vista y vio el lugar a lo lejos. Abraham les dijo a sus dos jóvenes siervos: «Quédense aquí con el burro. El muchacho y yo vamos a ir allá a adorar; luego volveremos con ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "genesis22-msg-04",
+      "msg": {
+        "en": "Abraham took the wood for the burnt offering and gave it to Isaac his son to carry. He carried the flint and the knife. The two of them went off together.",
+        "es": "Abraham tomó la leña para la ofrenda quemada y se la dio a su hijo Isaac para que la cargara. Él llevaba el pedernal y el cuchillo. Los dos partieron juntos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "genesis22-msg-05",
+      "msg": {
+        "en": "Isaac said to Abraham his father, “Father?”\n“Yes, my son.”\n“We have flint and wood, but where’s the sheep for the burnt offering?”",
+        "es": "Isaac le dijo a Abraham, su padre: «¿Padre?». «Sí, hijo mío». «Tenemos el pedernal y la leña, pero ¿dónde está el cordero para la ofrenda quemada?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "genesis22-msg-06",
+      "msg": {
+        "en": "Abraham said, “Son, God will see to it that there’s a sheep for the burnt offering.” And they kept on walking together.",
+        "es": "Abraham dijo: «Hijo, Dios se encargará de que haya un cordero para la ofrenda quemada». Y siguieron caminando juntos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "genesis22-msg-07",
+      "msg": {
+        "en": "They arrived at the place to which God had directed him. Abraham built an altar. He laid out the wood. Then he tied up Isaac and laid him on the wood. Abraham reached out and took the knife to kill his son.",
+        "es": "Llegaron al lugar al que Dios lo había dirigido. Abraham construyó un altar. Dispuso la leña. Luego ató a Isaac y lo puso sobre la leña. Abraham extendió la mano y tomó el cuchillo para matar a su hijo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11",
+      "id": "genesis22-msg-08",
+      "msg": {
+        "en": "Just then an angel of GOD called to him out of Heaven, “Abraham! Abraham!”\n“Yes, I’m listening.”",
+        "es": "Justo entonces, un ángel de DIOS lo llamó desde el cielo: «¡Abraham! ¡Abraham!». «Sí, estoy escuchando»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-11"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "12",
+      "id": "genesis22-msg-09",
+      "msg": {
+        "en": "“Don’t lay a hand on that boy! Don’t touch him! Now I know how fearlessly you fear God; you didn’t hesitate to place your son, your dear son, on the altar for me.”",
+        "es": "«¡No le pongas la mano encima a ese muchacho! ¡No lo toques! Ahora sé cuán valerosamente temes a Dios; no dudaste en poner a tu hijo, a tu querido hijo, sobre el altar por mí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-12"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "13",
+      "id": "genesis22-msg-10",
+      "msg": {
+        "en": "Abraham looked up. He saw a ram caught by its horns in the thicket. Abraham took the ram and sacrificed it as a burnt offering instead of his son.",
+        "es": "Abraham levantó la vista. Vio un carnero atrapado por los cuernos en el matorral. Abraham tomó el carnero y lo sacrificó como ofrenda quemada en lugar de su hijo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-13"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "14",
+      "id": "genesis22-msg-11",
+      "msg": {
+        "en": "Abraham named that place GOD-Yireh (GOD-Sees-to-It). That’s where we get the saying, “On the mountain of GOD, he sees to it.”",
+        "es": "Abraham llamó a ese lugar DIOS-Yireh (DIOS-Se-Encarga). De ahí viene el dicho: «En el monte de DIOS, él se encarga»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-14"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "15-18",
+      "id": "genesis22-msg-12",
+      "msg": {
+        "en": "The angel of GOD spoke from Heaven a second time to Abraham: “I swear—GOD’S sure word!—because you have gone through with this, and have not refused to give me your son, your dear, dear son, I’ll bless you—oh, how I’ll bless you! And I’ll make sure that your children flourish—like stars in the sky! like sand on the beaches! And your descendants will defeat their enemies. All nations on Earth will find themselves blessed through your descendants because you obeyed me.”",
+        "es": "El ángel de DIOS habló desde el cielo por segunda vez a Abraham: «¡Lo juro —palabra segura de DIOS—! Porque has llevado esto hasta el final y no te has negado a darme a tu hijo, a tu querido, querido hijo, te bendeciré —¡oh, cómo te bendeciré!— y me aseguraré de que tus hijos prosperen: ¡como las estrellas en el cielo, como la arena en las playas! Tus descendientes derrotarán a sus enemigos. Todas las naciones de la Tierra se encontrarán bendecidas por medio de tus descendientes porque me obedeciste»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-18"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "19",
+      "id": "genesis22-msg-13",
+      "msg": {
+        "en": "Then Abraham went back to his young servants. They got things together and returned to Beersheba. Abraham settled down in Beersheba.",
+        "es": "Luego Abraham volvió con sus jóvenes siervos. Reunieron sus cosas y regresaron a Beerseba. Abraham se estableció en Beerseba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-19"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "genesis22-msg-14",
+      "msg": {
+        "en": "After all this, Abraham got the news: “Your brother Nahor is a father! Milcah has given him children: Uz, his firstborn, his brother Buz, Kemuel (he was the father of Aram), Kesed, Hazo, Pildash, Jidlaph, and Bethuel.” (Bethuel was the father of Rebekah.) Milcah gave these eight sons to Nahor, Abraham’s brother.",
+        "es": "Después de todo esto, Abraham recibió la noticia: «¡Tu hermano Nacor es padre! Milca le ha dado hijos: Uz, su primogénito; su hermano Buz; Kemuel, que fue el padre de Aram; Quesed, Hazo, Pildas, Jidlaf y Betuel». Betuel fue el padre de Rebeca. Milca le dio estos ocho hijos a Nacor, el hermano de Abraham."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-23"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "24",
+      "id": "genesis22-msg-15",
+      "msg": {
+        "en": "His concubine, Reumah, gave him four more children: Tebah, Gaham, Tahash, and Maacah.",
+        "es": "Su concubina Reúma también le dio cuatro hijos más: Teba, Gaham, Tahas y Maaca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "genesis22-nbla-24"
+        }
+      ],
+      "order": 15
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-01a",
+          "order": 1,
+          "text": "Aconteció que después de estas cosas, Dios probó a Abraham, y le dijo: «¡Abraham!»."
+        },
+        {
+          "id": "genesis22-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y él respondió: «Aquí estoy»."
+        }
+      ],
+      "id": "genesis22-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-02a",
+          "order": 1,
+          "text": "Y Dios dijo: «"
+        },
+        {
+          "id": "genesis22-nbla-02b",
+          "order": 2,
+          "text": "Toma ahora a tu hijo, tu único, a quien amas, a Isaac"
+        },
+        {
+          "id": "genesis22-nbla-02c",
+          "order": 3,
+          "text": ", y ve a la tierra de Moriah, y ofrécelo allí en holocausto sobre uno de los montes que Yo te diré»."
+        }
+      ],
+      "id": "genesis22-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "genesis22-nbla-03",
+      "number": 3,
+      "text": "Abraham se levantó muy de mañana, aparejó su asno y tomó con él a dos de sus criados y a su hijo Isaac. También partió leña para el holocausto, y se levantó y fue al lugar que Dios le había dicho."
+    },
+    {
+      "id": "genesis22-nbla-04",
+      "number": 4,
+      "text": "Al tercer día alzó Abraham los ojos y vio el lugar de lejos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-05a",
+          "order": 1,
+          "text": "Entonces Abraham dijo a sus criados: «Quédense aquí con el asno. Yo y el muchacho iremos hasta allá,"
+        },
+        {
+          "id": "genesis22-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "adoraremos y volveremos a ustedes»."
+        }
+      ],
+      "id": "genesis22-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "genesis22-nbla-06",
+      "number": 6,
+      "text": "Tomó Abraham la leña del holocausto y la puso sobre Isaac su hijo, y tomó en su mano el fuego y el cuchillo. Y los dos iban juntos."
+    },
+    {
+      "id": "genesis22-nbla-07",
+      "number": 7,
+      "text": "Isaac habló a su padre Abraham: «Padre mío». Y él respondió: «Aquí estoy, hijo mío». «Aquí están el fuego y la leña», dijo Isaac, «pero ¿dónde está el cordero para el holocausto?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-08a",
+          "order": 1,
+          "text": "Y Abraham respondió: «"
+        },
+        {
+          "id": "genesis22-nbla-08b",
+          "order": 2,
+          "text": "Dios proveerá para Sí el cordero para el holocausto"
+        },
+        {
+          "id": "genesis22-nbla-08c",
+          "order": 3,
+          "text": ", hijo mío»."
+        },
+        {
+          "id": "genesis22-nbla-08d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "Y los dos iban juntos."
+        }
+      ],
+      "id": "genesis22-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "genesis22-nbla-09",
+      "number": 9,
+      "text": "Llegaron al lugar que Dios le había dicho y Abraham edificó allí el altar, arregló la leña, ató a su hijo Isaac y lo puso en el altar sobre la leña."
+    },
+    {
+      "id": "genesis22-nbla-10",
+      "number": 10,
+      "text": "Entonces Abraham extendió su mano y tomó el cuchillo para sacrificar a su hijo."
+    },
+    {
+      "id": "genesis22-nbla-11",
+      "number": 11,
+      "text": "Pero el ángel del SEÑOR lo llamó desde el cielo y dijo: «¡Abraham, Abraham!». Y él respondió: «Aquí estoy»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-12a",
+          "order": 1,
+          "text": "Y el ángel dijo: «No extiendas tu mano contra el muchacho, ni le hagas nada."
+        },
+        {
+          "id": "genesis22-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Porque ahora sé que temes a Dios"
+        },
+        {
+          "id": "genesis22-nbla-12c",
+          "order": 3,
+          "text": ", ya que no me has rehusado tu hijo, tu único»."
+        }
+      ],
+      "id": "genesis22-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "genesis22-nbla-13",
+      "number": 13,
+      "text": "Entonces Abraham alzó los ojos y miró, y vio un carnero detrás de él trabado por los cuernos en un matorral. Abraham fue, tomó el carnero y lo ofreció en holocausto en lugar de su hijo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "genesis22-nbla-14a",
+          "order": 1,
+          "text": "Y Abraham llamó aquel lugar con el nombre de El SEÑOR Proveerá, como se dice hasta hoy: «"
+        },
+        {
+          "id": "genesis22-nbla-14b",
+          "order": 2,
+          "text": "En el monte del SEÑOR se proveerá»."
+        }
+      ],
+      "id": "genesis22-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "genesis22-nbla-15",
+      "number": 15,
+      "text": "El ángel del SEÑOR llamó a Abraham por segunda vez desde el cielo,"
+    },
+    {
+      "id": "genesis22-nbla-16",
+      "number": 16,
+      "text": "y le dijo: «Por Mí mismo he jurado», declara el SEÑOR, «que por cuanto has hecho esto y no me has rehusado tu hijo, tu único,"
+    },
+    {
+      "id": "genesis22-nbla-17",
+      "number": 17,
+      "text": "de cierto te bendeciré grandemente, y multiplicaré en gran manera tu descendencia como las estrellas del cielo y como la arena en la orilla del mar, y tu descendencia poseerá la puerta de sus enemigos."
+    },
+    {
+      "id": "genesis22-nbla-18",
+      "number": 18,
+      "text": "En tu simiente serán bendecidas todas las naciones de la tierra, porque tú has obedecido Mi voz»."
+    },
+    {
+      "id": "genesis22-nbla-19",
+      "number": 19,
+      "text": "Entonces Abraham volvió a sus criados, y se levantaron y fueron juntos a Beerseba. Y habitó Abraham en Beerseba."
+    },
+    {
+      "id": "genesis22-nbla-20",
+      "number": 20,
+      "text": "Después de estas cosas, le dieron noticia a Abraham, diciendo: «Milca también le ha dado hijos a tu hermano Nacor:"
+    },
+    {
+      "id": "genesis22-nbla-21",
+      "number": 21,
+      "text": "Uz su primogénito, Buz su hermano, y Kemuel, padre de Aram,"
+    },
+    {
+      "id": "genesis22-nbla-22",
+      "number": 22,
+      "text": "Quesed, Hazo, Pildas, Jidlaf y Betuel»."
+    },
+    {
+      "id": "genesis22-nbla-23",
+      "number": 23,
+      "text": "Y Betuel fue el padre de Rebeca. Estos ocho hijos dio a luz Milca a Nacor, hermano de Abraham."
+    },
+    {
+      "id": "genesis22-nbla-24",
+      "number": 24,
+      "text": "También su concubina, de nombre Reúma, dio a luz a Teba, a Gaham, a Tahas y a Maaca."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

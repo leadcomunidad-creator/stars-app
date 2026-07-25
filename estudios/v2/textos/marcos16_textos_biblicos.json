@@ -1,0 +1,502 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La verdad teológica central es que la muerte no retuvo a Jesús. NBLA fija el anuncio directo de la resurrección y la ausencia del cuerpo en el sepulcro. MSG conserva esa misma afirmación con una cadencia breve que permite sentir la ruptura entre lo que las mujeres esperaban encontrar y lo que Dios ya había hecho. El texto no autoriza a reducir la resurrección a una metáfora de esperanza interior; anuncia que el Crucificado verdaderamente ha resucitado.",
+      "id": "marcos16-joya-01",
+      "msg": {
+        "en": "“He’s been raised up; he’s here no longer.”",
+        "es": "«Ha resucitado; ya no está aquí»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-06b"
+          ],
+          "verseId": "marcos16-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La resurrección abre un camino de restauración para los discípulos que fallaron. NBLA conserva la mención específica de Pedro y evita convertirla en una idea general de consuelo. MSG vuelve visible el carácter personal del llamado al destacar «y también a Pedro». La gracia no niega su fracaso, pero demuestra que Jesús todavía lo incluye en el futuro de la comunidad.",
+      "id": "marcos16-joya-02",
+      "msg": {
+        "en": "“Tell his disciples and Peter that he is going on ahead of you to Galilee.”",
+        "es": "«Díganles a sus discípulos, y también a Pedro, que Él va delante de ustedes a Galilea»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-07b"
+          ],
+          "verseId": "marcos16-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "El encuentro con la acción de Dios puede producir asombro antes de producir testimonio. NBLA precisa que el silencio de las mujeres estuvo relacionado con el miedo. MSG concentra la fuerza narrativa en su estado de conmoción. El versículo no exalta el silencio como obediencia; deja al lector frente a la tensión entre haber recibido la noticia y permitir que el temor impida comunicarla.",
+      "id": "marcos16-joya-03",
+      "msg": {
+        "en": "“Stunned, they said nothing to anyone.”",
+        "es": "«Atónitas, no le dijeron nada a nadie»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-08b"
+          ],
+          "verseId": "marcos16-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "La incredulidad de los discípulos muestra que la resurrección no fue una conclusión que ellos estuvieran ansiosos por inventar. NBLA hace explícita su negativa a creer el testimonio recibido, mientras MSG lo expresa con sobriedad narrativa. La verdad del evangelio no depende de una disposición emocional favorable de los primeros discípulos; irrumpe incluso contra su resistencia.",
+      "id": "marcos16-joya-04",
+      "msg": {
+        "en": "“they didn’t believe her.”",
+        "es": "«no le creyeron»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-11b"
+          ],
+          "verseId": "marcos16-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "9-11"
+    },
+    {
+      "explanation": "La resurrección convierte el evangelio en una noticia destinada a todos. NBLA fija el mandato universal de predicar a toda criatura. MSG despliega ese alcance con la repetición «vayan» y «a todas partes», haciendo visible el movimiento misionero. La expansión verbal no cambia el contenido: la Iglesia no anuncia su propia relevancia, sino las buenas noticias de Dios acerca de Jesucristo.",
+      "id": "marcos16-joya-05",
+      "msg": {
+        "en": "“Go into the world. Go everywhere and announce the Message of God’s good news to one and all.”",
+        "es": "«Vayan por todo el mundo. Vayan a todas partes y anuncien a todos el Mensaje de las buenas noticias de Dios»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-15b"
+          ],
+          "verseId": "marcos16-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "14-16"
+    },
+    {
+      "explanation": "El Señor exaltado permanece activo en la misión de sus discípulos. En la tradición del final largo, NBLA afirma que la predicación ocurre con la cooperación del Señor, y MSG vuelve esa presencia especialmente cercana: el Maestro trabaja con ellos, no solamente por encima de ellos. Esta verdad armoniza con Mateo 28:20 y Hechos 1:8, por lo que no depende exclusivamente de Marcos 16:20. Tampoco significa que toda actividad religiosa esté automáticamente respaldada por Cristo; el contexto limita la afirmación a la proclamación obediente de su mensaje.",
+      "id": "marcos16-joya-06",
+      "msg": {
+        "en": "“the Master working right with them”",
+        "es": "«el Maestro trabajaba con ellos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "marcos16-nbla-20b"
+          ],
+          "verseId": "marcos16-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "19-20"
+    }
+  ],
+  "meta": {
+    "book": "MARCOS",
+    "bookId": "marcos",
+    "chapter": 16,
+    "studyId": "marcos-16"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "marcos16-msg-01",
+      "msg": {
+        "en": "When the Sabbath was over, Mary Magdalene, Mary the mother of James, and Salome bought spices so they could embalm him. Very early on Sunday morning, as the sun rose, they went to the tomb. They worried out loud to each other, “Who will roll back the stone from the tomb for us?”",
+        "es": "Cuando terminó el sábado, María Magdalena, María la madre de Jacobo y Salomé compraron especias aromáticas para poder embalsamarlo. Muy temprano el domingo, al salir el sol, fueron al sepulcro. Mientras caminaban, expresaban en voz alta su preocupación: «¿Quién nos quitará la piedra de la entrada del sepulcro?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "marcos16-msg-02",
+      "msg": {
+        "en": "Then they looked up, saw that it had been rolled back—it was a huge stone—and walked right in. They saw a young man sitting on the right side, dressed all in white. They were completely taken aback, astonished.",
+        "es": "Entonces levantaron la mirada y vieron que la piedra había sido removida —y era una piedra enorme—, así que entraron. Allí vieron a un joven sentado a la derecha, vestido completamente de blanco. Quedaron desconcertadas, llenas de asombro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "marcos16-msg-03",
+      "msg": {
+        "en": "He said, “Don’t be afraid. I know you’re looking for Jesus the Nazarene, the One they nailed on the cross. He’s been raised up; he’s here no longer. You can see for yourselves that the place is empty. Now—on your way. Tell his disciples and Peter that he is going on ahead of you to Galilee. You’ll see him there, exactly as he said.”",
+        "es": "Él les dijo: «No tengan miedo. Sé que buscan a Jesús el Nazareno, a quien clavaron en la cruz. Ha resucitado; ya no está aquí. Pueden comprobarlo ustedes mismas: el lugar está vacío. Ahora, sigan su camino. Díganles a sus discípulos, y también a Pedro, que Él va delante de ustedes a Galilea. Allí lo verán, exactamente como les dijo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "marcos16-msg-04",
+      "msg": {
+        "en": "They got out as fast as they could, beside themselves, their heads swimming. Stunned, they said nothing to anyone.",
+        "es": "Salieron tan rápido como pudieron, fuera de sí y con la cabeza dándoles vueltas. Atónitas, no le dijeron nada a nadie."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "marcos16-msg-05",
+      "msg": {
+        "en": "[After rising from the dead, Jesus appeared early on Sunday morning to Mary Magdalene, whom he had delivered from seven demons. She went to his former companions, now weeping and carrying on, and told them. When they heard her report that she had seen him alive and well, they didn’t believe her.",
+        "es": "[Después de resucitar de entre los muertos, Jesús se apareció temprano el domingo a María Magdalena, a quien había liberado de siete demonios. Ella fue a contárselo a sus antiguos compañeros, que ahora lloraban y se lamentaban. Cuando oyeron que ella lo había visto vivo y bien, no le creyeron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-11"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "marcos16-msg-06",
+      "msg": {
+        "en": "Later he appeared, but in a different form, to two of them out walking in the countryside. They went back and told the rest, but they weren’t believed either.",
+        "es": "Más tarde se apareció, aunque con una forma diferente, a dos de ellos que caminaban por el campo. Ellos regresaron y se lo contaron a los demás, pero tampoco les creyeron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "marcos16-msg-07",
+      "msg": {
+        "en": "Still later, as the Eleven were eating supper, he appeared and took them to task most severely for their stubborn unbelief, refusing to believe those who had seen him raised up. Then he said, “Go into the world. Go everywhere and announce the Message of God’s good news to one and all. Whoever believes and is baptized is saved; whoever refuses to believe is damned.",
+        "es": "Después, mientras los Once cenaban, Jesús se apareció y los reprendió con severidad por su incredulidad obstinada, porque se habían negado a creerles a quienes lo habían visto resucitado. Entonces les dijo: «Vayan por todo el mundo. Vayan a todas partes y anuncien a todos el Mensaje de las buenas noticias de Dios. Quien crea y sea bautizado será salvo; quien se niegue a creer será condenado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-16"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "marcos16-msg-08",
+      "msg": {
+        "en": "“These are some of the signs that will accompany believers: They will throw out demons in my name, they will speak in new tongues, they will take snakes in their hands, they will drink poison and not be hurt, they will lay hands on the sick and make them well.”",
+        "es": "»Estas son algunas de las señales que acompañarán a los creyentes: expulsarán demonios en mi nombre, hablarán en nuevas lenguas, tomarán serpientes con sus manos, beberán veneno sin sufrir daño y pondrán las manos sobre los enfermos para que sanen»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-18"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "marcos16-msg-09",
+      "msg": {
+        "en": "Then the Master Jesus, after briefing them, was taken up to heaven, and he sat down beside God in the place of honor. And the disciples went everywhere preaching, the Master working right with them, validating the Message with indisputable evidence.]",
+        "es": "Entonces el Maestro Jesús, después de instruirlos, fue llevado al cielo y se sentó junto a Dios en el lugar de honor. Los discípulos salieron a predicar por todas partes, mientras el Maestro trabajaba con ellos y confirmaba el Mensaje con pruebas indiscutibles.]"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "marcos16-nbla-20"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "marcos16-nbla-01",
+      "number": 1,
+      "text": "Pasado el día de reposo, María Magdalena, María, la madre de Jacobo, y Salomé, compraron especias aromáticas para ir a ungir el cuerpo de Jesús."
+    },
+    {
+      "id": "marcos16-nbla-02",
+      "number": 2,
+      "text": "Muy de mañana, el primer día de la semana, llegaron* al sepulcro cuando el sol ya había salido."
+    },
+    {
+      "id": "marcos16-nbla-03",
+      "number": 3,
+      "text": "Y se decían unas a otras: «¿Quién nos removerá la piedra de la entrada del sepulcro?»."
+    },
+    {
+      "id": "marcos16-nbla-04",
+      "number": 4,
+      "text": "Cuando levantaron los ojos, vieron que la piedra, aunque era sumamente grande, había sido removida."
+    },
+    {
+      "id": "marcos16-nbla-05",
+      "number": 5,
+      "text": "Entrando en el sepulcro, vieron* a un joven sentado al lado derecho, vestido con ropaje blanco; y ellas se asustaron."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-06a",
+          "order": 1,
+          "text": "Pero él les dijo*: «No se asusten; ustedes buscan a Jesús el Nazareno, el que fue crucificado."
+        },
+        {
+          "id": "marcos16-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Ha resucitado, no está aquí"
+        },
+        {
+          "id": "marcos16-nbla-06c",
+          "order": 3,
+          "text": "; miren el lugar donde lo pusieron."
+        }
+      ],
+      "id": "marcos16-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-07a",
+          "order": 1,
+          "text": "Pero vayan,"
+        },
+        {
+          "id": "marcos16-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "digan a Sus discípulos y a Pedro: “Él va delante de ustedes a Galilea; allí lo verán, tal como les dijo”»."
+        }
+      ],
+      "id": "marcos16-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-08a",
+          "order": 1,
+          "text": "Y saliendo ellas, huyeron del sepulcro, porque un gran temblor y espanto se había apoderado de ellas; y"
+        },
+        {
+          "id": "marcos16-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no dijeron nada a nadie porque tenían miedo."
+        }
+      ],
+      "id": "marcos16-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "marcos16-nbla-09",
+      "number": 9,
+      "text": "Después de haber resucitado, muy temprano el primer día de la semana, Jesús se apareció primero a María Magdalena, de la que había echado fuera siete demonios."
+    },
+    {
+      "id": "marcos16-nbla-10",
+      "number": 10,
+      "text": "Y ella fue y se lo comunicó a los que habían estado con Él, que estaban lamentándose y llorando."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-11a",
+          "order": 1,
+          "text": "Cuando ellos oyeron que Jesús estaba vivo y que ella lo había visto,"
+        },
+        {
+          "id": "marcos16-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "se negaron a creerlo."
+        }
+      ],
+      "id": "marcos16-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "marcos16-nbla-12",
+      "number": 12,
+      "text": "Después de esto, Jesús se apareció en forma distinta a dos de ellos cuando iban de camino al campo."
+    },
+    {
+      "id": "marcos16-nbla-13",
+      "number": 13,
+      "text": "Y estos fueron y se lo comunicaron a los demás, pero a ellos tampoco les creyeron."
+    },
+    {
+      "id": "marcos16-nbla-14",
+      "number": 14,
+      "text": "Después Jesús se apareció a los once discípulos cuando estaban sentados a la mesa, y los reprendió por su incredulidad y dureza de corazón, porque no habían creído a los que lo habían visto resucitado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-15a",
+          "order": 1,
+          "text": "Y les dijo: «"
+        },
+        {
+          "id": "marcos16-nbla-15b",
+          "order": 2,
+          "text": "Vayan por todo el mundo y prediquen el evangelio a toda criatura."
+        }
+      ],
+      "id": "marcos16-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "marcos16-nbla-16",
+      "number": 16,
+      "text": "El que crea y sea bautizado será salvo; pero el que no crea será condenado."
+    },
+    {
+      "id": "marcos16-nbla-17",
+      "number": 17,
+      "text": "Y estas señales acompañarán a los que han creído: en Mi nombre echarán fuera demonios, hablarán en nuevas lenguas;"
+    },
+    {
+      "id": "marcos16-nbla-18",
+      "number": 18,
+      "text": "tomarán serpientes en las manos, y aunque beban algo mortífero, no les hará daño; sobre los enfermos pondrán las manos, y se pondrán bien»."
+    },
+    {
+      "id": "marcos16-nbla-19",
+      "number": 19,
+      "text": "Entonces, el Señor Jesús, después de hablar con ellos, fue recibido en el cielo y se sentó a la diestra de Dios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "marcos16-nbla-20a",
+          "order": 1,
+          "text": "Y ellos salieron y predicaron por todas partes,"
+        },
+        {
+          "id": "marcos16-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "colaborando el Señor con ellos"
+        },
+        {
+          "id": "marcos16-nbla-20c",
+          "order": 3,
+          "text": ", y confirmando la palabra por medio de las señales que la seguían.\nEllas comunicaron inmediatamente a Pedro y a sus compañeros todas estas instrucciones. Y después de esto, Jesús mismo envió por medio de ellos, desde el oriente hasta el occidente, el mensaje sacrosanto e incorruptible de la salvación eterna."
+        }
+      ],
+      "id": "marcos16-nbla-20",
+      "number": 20
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
