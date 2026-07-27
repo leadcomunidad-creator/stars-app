@@ -1,0 +1,242 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios posee y ejerce autoridad real sobre la creación. La NBLA fija la proclamación central: el Señor reina y está vestido de majestad. MSG vuelve visible el carácter activo de ese reinado al mostrarlo vestido y gobernando. La imagen no significa que Dios necesite una vestidura literal para obtener autoridad; comunica que Su majestad y Su gobierno son inseparables.",
+      "id": "salmos93-joya-01",
+      "msg": {
+        "en": "“GOD is King, robed and ruling,”",
+        "es": "“DIOS es Rey, vestido y gobernando;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos93-nbla-01a"
+          ],
+          "verseId": "salmos93-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "El reinado de Dios no tuvo un comienzo ni puede ser desplazado. La NBLA relaciona la estabilidad de Su trono con Su existencia eterna. MSG concentra esa verdad en una confesión de firmeza. El texto no afirma solamente que Dios gobernará en el futuro; declara que Su autoridad precede a toda fuerza que intente desafiarla.",
+      "id": "salmos93-joya-02",
+      "msg": {
+        "en": "“Your throne ever firm—you’re Eternal!”",
+        "es": "“Tu trono permanece firme desde siempre: ¡Tú eres eterno!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El poder de Dios supera el estruendo de las fuerzas más amenazantes. La NBLA establece que el Señor es más poderoso que las muchas aguas y sus olas. MSG transforma esa superioridad en la imagen de un Rey que gobierna desde lo alto. La altura no debe interpretarse como distancia indiferente, sino como supremacía sobre aquello que parece incontrolable.",
+      "id": "salmos93-joya-03",
+      "msg": {
+        "en": "“Mighty GOD rules from High Heaven.”",
+        "es": "“El DIOS poderoso gobierna desde las alturas del cielo.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos93-nbla-04b"
+          ],
+          "verseId": "salmos93-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La palabra de Dios posee la confiabilidad del Rey que la pronuncia. La NBLA declara que Sus testimonios son fidedignos. MSG muestra el efecto práctico de esa verdad: lo que Dios dice se cumple. Esto no convierte cada deseo humano en una promesa divina; exige distinguir cuidadosamente lo que Dios realmente ha dicho y descansar en ello.",
+      "id": "salmos93-joya-04",
+      "msg": {
+        "en": "“What you say goes—it always has.”",
+        "es": "“Lo que Tú dices se cumple; siempre ha sido así.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos93-nbla-05a"
+          ],
+          "verseId": "salmos93-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5"
+    },
+    {
+      "explanation": "La santidad caracteriza la presencia y el gobierno de Dios. La NBLA establece que Su casa debe corresponder a Su carácter santo. MSG añade una imagen de belleza que hace visible la armonía de un reino completamente ordenado por Dios. La belleza no debe convertirse en una doctrina estética aislada; está subordinada a la santidad que el texto bíblico afirma expresamente.",
+      "id": "salmos93-joya-05",
+      "msg": {
+        "en": "«“Beauty” and “Holy” mark your palace rule,»",
+        "es": "“«Belleza» y «Santidad» distinguen el gobierno de Tu palacio,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos93-nbla-05b"
+          ],
+          "verseId": "salmos93-nbla-05"
+        }
+      ],
+      "order": 5,
+      "range": "5"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 93,
+    "studyId": "salmos-93"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos93-msg-01",
+      "msg": {
+        "en": "GOD is King, robed and ruling,\nGOD is robed and surging with strength.\nAnd yes, the world is firm, immovable,\nYour throne ever firm—you’re Eternal!",
+        "es": "DIOS es Rey, vestido y gobernando;\nDIOS está revestido y rebosante de fuerza.\nSí: el mundo está firme, inconmovible;\nTu trono permanece firme desde siempre: ¡Tú eres eterno!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos93-msg-02",
+      "msg": {
+        "en": "Sea storms are up, GOD,\nSea storms wild and roaring,\nSea storms with thunderous breakers.\nStronger than wild sea storms,\nMightier than sea-storm breakers,\nMighty GOD rules from High Heaven.",
+        "es": "Las tormentas del mar se han levantado, DIOS;\ntormentas salvajes y rugientes,\ntormentas con olas atronadoras.\nMás fuerte que las tormentas embravecidas,\nmás poderoso que sus rompientes:\nEl DIOS poderoso gobierna desde las alturas del cielo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos93-msg-03",
+      "msg": {
+        "en": "What you say goes—it always has.\n“Beauty” and “Holy” mark your palace rule,\nGOD, to the very end of time.",
+        "es": "Lo que Tú dices se cumple; siempre ha sido así.\n«Belleza» y «Santidad» distinguen el gobierno de Tu palacio,\nDIOS, hasta el fin de los tiempos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos93-nbla-05"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos93-nbla-01a",
+          "order": 1,
+          "text": "El SEÑOR reina, vestido está de majestad;"
+        },
+        {
+          "id": "salmos93-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El SEÑOR se ha vestido y ceñido de poder;\nCiertamente el mundo está bien afirmado, será inconmovible."
+        }
+      ],
+      "id": "salmos93-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos93-nbla-02",
+      "number": 2,
+      "text": "Desde la antigüedad está establecido Tu trono;\nTú eres desde la eternidad."
+    },
+    {
+      "id": "salmos93-nbla-03",
+      "number": 3,
+      "text": "Los torrentes han alzado, oh SEÑOR,\nLos torrentes han alzado su voz;\nLos torrentes alzan sus batientes olas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos93-nbla-04a",
+          "order": 1,
+          "text": "Más que el fragor de muchas aguas,\nMás que las poderosas olas del mar,"
+        },
+        {
+          "id": "salmos93-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Es poderoso el SEÑOR en las alturas."
+        }
+      ],
+      "id": "salmos93-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos93-nbla-05a",
+          "order": 1,
+          "text": "Tus testimonios son muy fidedignos;"
+        },
+        {
+          "id": "salmos93-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "La santidad conviene a Tu casa,"
+        },
+        {
+          "id": "salmos93-nbla-05c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Eternamente, oh SEÑOR."
+        }
+      ],
+      "id": "salmos93-nbla-05",
+      "number": 5
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

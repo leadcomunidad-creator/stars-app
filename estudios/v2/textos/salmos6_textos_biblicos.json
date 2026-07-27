@@ -1,0 +1,384 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El salmista apela a la compasión divina desde una debilidad extrema. La NBLA fija el sentido mediante la petición de piedad y la confesión de falta de fuerzas; MSG vuelve visible la necesidad relacional del orante mediante el hambre de afecto. La expansión pastoral no significa que Dios haya dejado de amar a David, sino que el sufrimiento puede hacer que la persona necesite experimentar nuevamente la ternura de ese amor.",
+      "id": "salmos6-joya-01",
+      "msg": {
+        "en": "\"Treat me nice for a change; I’m so starved for affection.\"",
+        "es": "\"Trátame con ternura, para variar; estoy desesperado por sentir Tu afecto.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-02a"
+          ],
+          "verseId": "salmos6-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El sufrimiento alcanza al ser humano de manera integral. La NBLA identifica huesos estremecidos y un alma profundamente angustiada; MSG concentra ambas dimensiones en la imagen de alguien golpeado por dentro y por fuera. El texto no ofrece un diagnóstico médico ni atribuye automáticamente el dolor a una sola causa, pero sí autoriza a llevar ante Dios la totalidad de la experiencia.",
+      "id": "salmos6-joya-02",
+      "msg": {
+        "en": "\"beat up badly in bones and soul?\"",
+        "es": "\"golpeado hasta los huesos y el alma?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-02b"
+          ],
+          "verseId": "salmos6-nbla-02"
+        },
+        {
+          "clauseIds": [
+            "salmos6-nbla-03a"
+          ],
+          "verseId": "salmos6-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-3"
+    },
+    {
+      "explanation": "La esperanza de rescate descansa en la misericordia de Dios. La NBLA establece con precisión que el fundamento es el amor fiel del SEÑOR; MSG expresa la urgencia emocional de alguien que, en medio del dolor, necesita ver ese amor traducido en intervención. La frase no debe convertirse en duda doctrinal sobre el amor de Dios, sino leerse como lenguaje honesto de lamento.",
+      "id": "salmos6-joya-03",
+      "msg": {
+        "en": "\"if you love me at all, get me out of here.\"",
+        "es": "\"si me amas siquiera, sácame de aquí.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-04b"
+          ],
+          "verseId": "salmos6-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4-5"
+    },
+    {
+      "explanation": "Dios permite que el dolor prolongado sea expresado sin vergüenza. La NBLA presenta el lecho regado por lágrimas; MSG intensifica pastoralmente la escena mostrando un colchón completamente empapado. La imagen es poética y no pretende medir literalmente la cantidad de llanto, pero comunica la profundidad de una noche en la que el sufrimiento ha invadido incluso el lugar destinado al descanso.",
+      "id": "salmos6-joya-04",
+      "msg": {
+        "en": "\"My mattress is soaked, soggy with tears.\"",
+        "es": "\"Mi colchón está empapado, saturado de lágrimas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-06b"
+          ],
+          "verseId": "salmos6-nbla-06"
+        }
+      ],
+      "order": 4,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios escucha incluso aquello que no puede formularse como una oración ordenada. La NBLA afirma que el llanto mismo tiene voz delante del SEÑOR; MSG expresa el alivio del momento en que el orante reconoce que sus sollozos fueron oídos. La certeza de ser escuchado no exige que cada petición sea concedida exactamente en la forma imaginada, pero asegura que el dolor no quedó ignorado.",
+      "id": "salmos6-joya-05",
+      "msg": {
+        "en": "\"at last GOD has heard my sobs.\"",
+        "es": "\"por fin DIOS ha escuchado mis sollozos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-08b"
+          ],
+          "verseId": "salmos6-nbla-08"
+        }
+      ],
+      "order": 5,
+      "range": "8-9"
+    },
+    {
+      "explanation": "El juicio de Dios puede invertir repentinamente una situación dominada por adversarios. La NBLA fija el resultado: los enemigos retrocederán y quedarán avergonzados; MSG vuelve dinámica la escena al mostrarlos huyendo. El pasaje no autoriza triunfalismo personal ni venganza, sino confianza en que la iniquidad no conservará para siempre la posición de poder que ahora parece ocupar.",
+      "id": "salmos6-joya-06",
+      "msg": {
+        "en": "\"Disgraced, they turn tail and run.\"",
+        "es": "\"Avergonzados, dan media vuelta y huyen.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-10b"
+          ],
+          "verseId": "salmos6-nbla-10"
+        }
+      ],
+      "order": 6,
+      "range": "10"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 6,
+    "studyId": "salmos-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos6-msg-01",
+      "msg": {
+        "en": "Please, GOD, no more yelling,\nno more trips to the woodshed.\nTreat me nice for a change;\nI’m so starved for affection.",
+        "es": "Por favor, DIOS, no más gritos,\nno me lleves otra vez al cobertizo para castigarme.\nTrátame con ternura, para variar;\nestoy desesperado por sentir Tu afecto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "salmos6-nbla-02a"
+          ],
+          "verseId": "salmos6-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "salmos6-msg-02",
+      "msg": {
+        "en": "Can’t you see I’m black-and-blue,\nbeat up badly in bones and soul?\nGOD, how long will it take\nfor you to let up?",
+        "es": "¿No ves que estoy lleno de moretones,\ngolpeado hasta los huesos y el alma?\nDIOS, ¿cuánto falta\npara que me des un respiro?"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos6-nbla-02b"
+          ],
+          "verseId": "salmos6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos6-msg-03",
+      "msg": {
+        "en": "Break in, GOD, and break up this fight;\nif you love me at all, get me out of here.\nI’m no good to you dead, am I?\nI can’t sing in your choir if I’m buried in some tomb!",
+        "es": "Intervén, DIOS, y pon fin a esta pelea;\nsi me amas siquiera, sácame de aquí.\nMuerto no te sirvo de mucho, ¿verdad?\n¡No puedo cantar en Tu coro si estoy enterrado en una tumba!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos6-msg-04",
+      "msg": {
+        "en": "I’m tired of all this—so tired. My bed\nhas been floating forty days and nights\nOn the flood of my tears.\nMy mattress is soaked, soggy with tears.\nThe sockets of my eyes are black holes;\nnearly blind, I squint and grope.",
+        "es": "Estoy cansado de todo esto, tan cansado. Mi cama\nlleva cuarenta días y cuarenta noches flotando\nsobre el diluvio de mis lágrimas.\nMi colchón está empapado, saturado de lágrimas.\nLas cuencas de mis ojos son agujeros negros;\ncasi ciego, entrecierro los ojos y avanzo a tientas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "salmos6-msg-05",
+      "msg": {
+        "en": "Get out of here, you Devil’s crew:\nat last GOD has heard my sobs.\nMy requests have all been granted,\nmy prayers are answered.",
+        "es": "¡Lárguense de aquí, pandilla del diablo!\npor fin DIOS ha escuchado mis sollozos.\nTodas mis peticiones han sido concedidas,\nmis oraciones han recibido respuesta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "salmos6-msg-06",
+      "msg": {
+        "en": "Cowards, my enemies disappear.\nDisgraced, they turn tail and run.",
+        "es": "Cobardes, mis enemigos desaparecen.\nAvergonzados, dan media vuelta y huyen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos6-nbla-10"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos6-nbla-01",
+      "number": 1,
+      "text": "SEÑOR, no me reprendas en Tu ira,\nNi me castigues en Tu furor."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-02a",
+          "order": 1,
+          "text": "Ten piedad de mí, SEÑOR, porque estoy sin fuerza;"
+        },
+        {
+          "id": "salmos6-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sáname, SEÑOR, porque mis huesos se estremecen."
+        }
+      ],
+      "id": "salmos6-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-03a",
+          "order": 1,
+          "text": "Mi alma también está muy angustiada;"
+        },
+        {
+          "id": "salmos6-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y Tú, oh SEÑOR, ¿hasta cuándo?"
+        }
+      ],
+      "id": "salmos6-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-04a",
+          "order": 1,
+          "text": "Vuélvete, SEÑOR, rescata mi alma;"
+        },
+        {
+          "id": "salmos6-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sálvame por Tu misericordia."
+        }
+      ],
+      "id": "salmos6-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos6-nbla-05",
+      "number": 5,
+      "text": "Porque no hay en la muerte memoria de Ti;\nEn el Seol, ¿quién te da gracias?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-06a",
+          "order": 1,
+          "text": "Cansado estoy de mis gemidos;\nTodas las noches inundo de llanto mi lecho,"
+        },
+        {
+          "id": "salmos6-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Con mis lágrimas riego mi cama."
+        }
+      ],
+      "id": "salmos6-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "salmos6-nbla-07",
+      "number": 7,
+      "text": "Se consumen de sufrir mis ojos;\nHan envejecido a causa de todos mis adversarios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-08a",
+          "order": 1,
+          "text": "Apártense de mí, todos ustedes que hacen iniquidad,"
+        },
+        {
+          "id": "salmos6-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque el SEÑOR ha oído la voz de mi llanto."
+        }
+      ],
+      "id": "salmos6-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "salmos6-nbla-09",
+      "number": 9,
+      "text": "El SEÑOR ha escuchado mi súplica;\nEl SEÑOR recibe mi oración."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos6-nbla-10a",
+          "order": 1,
+          "text": "Todos mis enemigos serán avergonzados y se turbarán en gran manera;"
+        },
+        {
+          "id": "salmos6-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Se volverán, y de repente serán avergonzados."
+        }
+      ],
+      "id": "salmos6-nbla-10",
+      "number": 10
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

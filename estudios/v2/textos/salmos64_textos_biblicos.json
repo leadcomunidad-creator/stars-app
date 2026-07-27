@@ -1,0 +1,345 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios recibe la oración de una persona emocionalmente reducida por el temor. La NBLA identifica la expresión de David como una queja presentada a Dios. MSG vuelve visible su fragilidad mediante quejas y gemidos. El texto no celebra permanecer dominado por el miedo; muestra que incluso desde allí es posible clamar por protección.",
+      "id": "salmos64-joya-01",
+      "msg": {
+        "en": "\"I’m reduced to a whine And a whimper\"",
+        "es": "\"No me quedan más que quejas y gemidos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-01a"
+          ],
+          "verseId": "salmos64-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Las palabras pueden utilizarse deliberadamente para ejercer violencia. La NBLA compara la lengua con una espada afilada. MSG expresa directamente su función como arma. La imagen no convierte todo desacuerdo en agresión, sino que denuncia el lenguaje intencionalmente diseñado para herir y destruir.",
+      "id": "salmos64-joya-02",
+      "msg": {
+        "en": "\"Using their tongues as weapons\"",
+        "es": "\"Usan la lengua como arma\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-03a"
+          ],
+          "verseId": "salmos64-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-6"
+    },
+    {
+      "explanation": "El pecado oculto produce una falsa sensación de impunidad. La NBLA muestra a los conspiradores preguntando quién podrá ver sus trampas. MSG hace explícita su arrogancia al describir el plan como un crimen perfecto. El contexto limita la imagen: no afirma que el plan sea realmente perfecto, sino que sus autores están engañados acerca de la mirada de Dios.",
+      "id": "salmos64-joya-03",
+      "msg": {
+        "en": "\"No one can catch us, no one can detect our perfect crime.\"",
+        "es": "\"«Nadie puede atraparnos; nadie puede descubrir nuestro crimen perfecto».\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-05b"
+          ],
+          "verseId": "salmos64-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "2-6"
+    },
+    {
+      "explanation": "Dios conoce las motivaciones y los planes escondidos en las profundidades humanas. La NBLA reconoce que los pensamientos y el corazón son profundos. MSG personifica a Dios como el Detective que penetra ese sótano oscuro. La imagen ayuda a percibir Su conocimiento, pero no debe reducir a Dios a un investigador que descubre tardíamente información que antes ignoraba.",
+      "id": "salmos64-joya-04",
+      "msg": {
+        "en": "\"The Detective detects the mystery in the dark of the cellar heart.\"",
+        "es": "\"El Detective descubre el misterio en la oscuridad del sótano del corazón.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-06b"
+          ],
+          "verseId": "salmos64-nbla-06"
+        }
+      ],
+      "order": 4,
+      "range": "2-6"
+    },
+    {
+      "explanation": "Dios interviene contra quienes utilizaron palabras como flechas. La NBLA fija la acción judicial: Dios dispara contra los malhechores. MSG intensifica la inversión poética al llamarlo «el Dios de la Flecha». La imagen no define permanentemente a Dios por la violencia; comunica que Su justicia responde y pone límite a las armas del opresor.",
+      "id": "salmos64-joya-05",
+      "msg": {
+        "en": "\"The God of the Arrow shoots!\"",
+        "es": "\"¡El Dios de la Flecha dispara!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-07a"
+          ],
+          "verseId": "salmos64-nbla-07"
+        }
+      ],
+      "order": 5,
+      "range": "7-8"
+    },
+    {
+      "explanation": "La respuesta apropiada a la justicia de Dios es una vida orientada hacia Su alabanza. La NBLA muestra a los rectos gloriándose en el Señor. MSG presenta esa respuesta como un hábito. La alabanza no es una técnica para evitar conflictos, sino una práctica nacida de reconocer que Dios ve, juzga y ofrece refugio.",
+      "id": "salmos64-joya-06",
+      "msg": {
+        "en": "\"Good-hearted people, make praise your habit.\"",
+        "es": "\"Gente de buen corazón, hagan de la alabanza su hábito.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos64-nbla-10b"
+          ],
+          "verseId": "salmos64-nbla-10"
+        }
+      ],
+      "order": 6,
+      "range": "9-10"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 64,
+    "studyId": "salmos-64"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos64-msg-01",
+      "msg": {
+        "en": "Listen and help, O God.\nI’m reduced to a whine\nAnd a whimper, obsessed\nwith feelings of doomsday.",
+        "es": "Escúchame y ayúdame, oh Dios.\nNo me quedan más que quejas\ny gemidos; me obsesiona\nla sensación de que todo terminará en desastre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-6",
+      "id": "salmos64-msg-02",
+      "msg": {
+        "en": "Don’t let them find me—\nthe conspirators out to get me,\nUsing their tongues as weapons,\nflinging poison words,\npoison-tipped arrow-words.\nThey shoot from ambush,\nshoot without warning,\nnot caring who they hit.\nThey keep fit doing calisthenics\nof evil purpose,\nThey keep lists of the traps\nthey’ve secretly set.\nThey say to each other,\n“No one can catch us,\nno one can detect our perfect crime.”\nThe Detective detects the mystery\nin the dark of the cellar heart.",
+        "es": "No permitas que me encuentren:\nlos conspiradores que quieren acabar conmigo.\nUsan la lengua como arma,\nlanzan palabras envenenadas,\npalabras-flecha con la punta cubierta de veneno.\nDisparan desde una emboscada,\nsin advertencia,\nsin importarles a quién hieren.\nSe mantienen en forma con gimnasia para el mal;\nllevan listas de las trampas\nque han colocado en secreto.\nSe dicen unos a otros:\n«Nadie puede atraparnos;\nnadie puede descubrir nuestro crimen perfecto».\nEl Detective descubre el misterio\nen la oscuridad del sótano del corazón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos64-msg-03",
+      "msg": {
+        "en": "The God of the Arrow shoots!\nThey double up in pain,\nFall flat on their faces\nin full view of the grinning crowd.",
+        "es": "¡El Dios de la Flecha dispara!\nEllos se doblan de dolor\ny caen de bruces\na plena vista de la multitud que sonríe con sorna."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "salmos64-msg-04",
+      "msg": {
+        "en": "Everyone sees it. God’s\nwork is the talk of the town.\nBe glad, good people! Fly to GOD!\nGood-hearted people, make praise your habit.",
+        "es": "Todos lo ven. La obra de Dios\nse convierte en el tema de conversación de toda la ciudad.\n¡Alégrense, gente buena! ¡Vuelen hacia DIOS!\nGente de buen corazón, hagan de la alabanza su hábito."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos64-nbla-10"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-01a",
+          "order": 1,
+          "text": "Escucha mi voz, oh Dios, en mi queja"
+        },
+        {
+          "id": "salmos64-nbla-01b",
+          "order": 2,
+          "text": ";\nGuarda mi vida del terror del enemigo."
+        }
+      ],
+      "id": "salmos64-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos64-nbla-02",
+      "number": 2,
+      "text": "Escóndeme de los planes secretos de los malhechores,\nDel asalto de los obradores de iniquidad,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-03a",
+          "order": 1,
+          "text": "Que afilan su lengua como espada"
+        },
+        {
+          "id": "salmos64-nbla-03b",
+          "order": 2,
+          "text": ",\nY lanzan palabras amargas como flecha,"
+        }
+      ],
+      "id": "salmos64-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos64-nbla-04",
+      "number": 4,
+      "text": "Para herir en oculto al íntegro;\nLo hieren repentinamente, y no temen."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-05a",
+          "order": 1,
+          "text": "Se aferran en propósitos malignos;\nHablan de tender trampas en secreto,"
+        },
+        {
+          "id": "salmos64-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y dicen: «¿Quién las verá?»."
+        }
+      ],
+      "id": "salmos64-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-06a",
+          "order": 1,
+          "text": "Traman injusticias, diciendo:\n«Estamos listos con una trama bien concebida;"
+        },
+        {
+          "id": "salmos64-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pues los pensamientos del hombre y su corazón son profundos»."
+        }
+      ],
+      "id": "salmos64-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-07a",
+          "order": 1,
+          "text": "Pero Dios les disparará con flecha"
+        },
+        {
+          "id": "salmos64-nbla-07b",
+          "order": 2,
+          "text": ";\nRepentinamente serán heridos."
+        }
+      ],
+      "id": "salmos64-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos64-nbla-08",
+      "number": 8,
+      "text": "Vuelven su lengua tropezadero contra sí mismos;\nTodos los que los vean moverán la cabeza."
+    },
+    {
+      "id": "salmos64-nbla-09",
+      "number": 9,
+      "text": "Entonces todos los hombres temerán,\nDeclararán la obra de Dios\nY considerarán sus hechos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos64-nbla-10a",
+          "order": 1,
+          "text": "El justo se alegrará en el SEÑOR, y en Él se refugiará;"
+        },
+        {
+          "id": "salmos64-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y todos los rectos de corazón se gloriarán."
+        }
+      ],
+      "id": "salmos64-nbla-10",
+      "number": 10
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

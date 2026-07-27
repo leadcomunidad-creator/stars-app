@@ -1,0 +1,306 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La oración comienza reconociendo que incluso el rey puede llegar al día en que sus recursos no bastan. La NBLA fija la situación como angustia; MSG la vuelve visible como el momento en que todo se viene abajo. La expresión no profetiza un fracaso inevitable, sino que enseña a buscar al SEÑOR antes de que la crisis sea dominada por el miedo.",
+      "id": "salmos20-joya-01",
+      "msg": {
+        "en": "\"GOD answer you on the day you crash,\"",
+        "es": "\"Que DIOS te responda el día en que todo se venga abajo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos20-nbla-01a"
+          ],
+          "verseId": "salmos20-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "El pueblo presenta delante de Dios los deseos y planes del rey. El texto no convierte todo deseo humano en voluntad divina ni ofrece una promesa universal de éxito. Dentro del salmo, esos planes están rodeados por adoración, pacto e intercesión; deben permanecer sometidos al Dios que decide qué propósito corresponde con Su justicia.",
+      "id": "salmos20-joya-02",
+      "msg": {
+        "en": "\"Give you what your heart desires, Accomplish your plans.\"",
+        "es": "\"que te conceda lo que desea tu corazón y lleve a término tus planes.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "1-4"
+    },
+    {
+      "explanation": "La salvación produce una celebración comunitaria y visible. La NBLA habla de cantar con gozo; MSG actualiza la intensidad como celebrar a todo pulmón. La alegría no es culto a la personalidad del rey, sino gratitud pública por la victoria que el pueblo espera recibir del SEÑOR.",
+      "id": "salmos20-joya-03",
+      "msg": {
+        "en": "\"When you win, we plan to raise the roof\"",
+        "es": "\"Cuando ganes, pensamos celebrar a todo pulmón\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos20-nbla-05a"
+          ],
+          "verseId": "salmos20-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5"
+    },
+    {
+      "explanation": "La certeza del salmista descansa en la acción salvadora de Dios. La NBLA identifica claramente al SEÑOR como quien salva a Su ungido; MSG expresa la confianza como ayuda y respuesta que vienen en camino. La línea «todo va a salir bien» debe leerse dentro de esa certeza de pacto, no como garantía de que cada circunstancia terminará exactamente como la persona desea.",
+      "id": "salmos20-joya-04",
+      "msg": {
+        "en": "\"That clinches it—help’s coming,\"",
+        "es": "\"Eso lo confirma: viene la ayuda,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos20-nbla-06a"
+          ],
+          "verseId": "salmos20-nbla-06"
+        }
+      ],
+      "order": 4,
+      "range": "6"
+    },
+    {
+      "explanation": "La comunidad distingue su confianza de la seguridad militar de las naciones. La NBLA fija el centro en confiar en el nombre del SEÑOR; MSG representa esa lealtad mediante una celebración dedicada a Dios. La imagen no enseña que adornar o cantar sustituya la acción responsable, sino que la adoración revela dónde descansa finalmente el corazón.",
+      "id": "salmos20-joya-05",
+      "msg": {
+        "en": "\"But we’re making garlands for GOD our God.\"",
+        "es": "\"Pero nosotros hacemos guirnaldas para DIOS, nuestro Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos20-nbla-07b"
+          ],
+          "verseId": "salmos20-nbla-07"
+        }
+      ],
+      "order": 5,
+      "range": "7-8"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 20,
+    "studyId": "salmos-20"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "salmos20-msg-01",
+      "msg": {
+        "en": "GOD answer you on the day you crash,\nThe name God-of-Jacob put you out of harm’s reach,\nSend reinforcements from Holy Hill,\nDispatch from Zion fresh supplies,\nExclaim over your offerings,\nCelebrate your sacrifices,\nGive you what your heart desires,\nAccomplish your plans.",
+        "es": "Que DIOS te responda el día en que todo se venga abajo;\nque el nombre del Dios de Jacob te ponga fuera de peligro;\nque envíe refuerzos desde Su monte santo\ny envíe desde Sión nuevas provisiones;\nque celebre tus ofrendas\ny se alegre con tus sacrificios;\nque te conceda lo que desea tu corazón\ny lleve a término tus planes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos20-msg-02",
+      "msg": {
+        "en": "When you win, we plan to raise the roof\nand lead the parade with our banners.\nMay all your wishes come true!",
+        "es": "Cuando ganes, pensamos celebrar a todo pulmón\ny encabezar el desfile con nuestras banderas.\n¡Que se cumplan todos tus deseos!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6",
+      "id": "salmos20-msg-03",
+      "msg": {
+        "en": "That clinches it—help’s coming,\nan answer’s on the way,\neverything’s going to work out.",
+        "es": "Eso lo confirma: viene la ayuda,\nla respuesta ya está en camino;\ntodo va a salir bien."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos20-msg-04",
+      "msg": {
+        "en": "See those people polishing their chariots,\nand those others grooming their horses?\nBut we’re making garlands for GOD our God.\nThe chariots will rust,\nthose horses pull up lame—\nand we’ll be on our feet, standing tall.",
+        "es": "¿Ves a esas personas puliendo sus carros\ny a aquellas otras cepillando sus caballos?\nPero nosotros hacemos guirnaldas para DIOS, nuestro Dios.\nLos carros se oxidarán,\nesos caballos terminarán cojeando,\ny nosotros estaremos de pie, erguidos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "salmos20-msg-05",
+      "msg": {
+        "en": "Make the king a winner, GOD;\nthe day we call, give us your answer.",
+        "es": "Haz vencedor al rey, DIOS;\nel día que clamemos, danos Tu respuesta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos20-nbla-09"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos20-nbla-01a",
+          "order": 1,
+          "text": "Que el SEÑOR te responda en el día de la angustia;"
+        },
+        {
+          "id": "salmos20-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que el nombre del Dios de Jacob te ponga en alto."
+        }
+      ],
+      "id": "salmos20-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos20-nbla-02",
+      "number": 2,
+      "text": "Que desde el santuario te envíe ayuda\nY desde Sión te sostenga."
+    },
+    {
+      "id": "salmos20-nbla-03",
+      "number": 3,
+      "text": "Que se acuerde de todas tus ofrendas,\nY halle aceptable tu holocausto. (Selah)"
+    },
+    {
+      "id": "salmos20-nbla-04",
+      "number": 4,
+      "text": "Que te conceda el deseo de tu corazón,\nY cumpla todos tus anhelos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos20-nbla-05a",
+          "order": 1,
+          "text": "Nosotros cantaremos con gozo por tu victoria,"
+        },
+        {
+          "id": "salmos20-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en el nombre de nuestro Dios alzaremos bandera.\nQue el SEÑOR cumpla todas tus peticiones."
+        }
+      ],
+      "id": "salmos20-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos20-nbla-06a",
+          "order": 1,
+          "text": "Ahora sé que el SEÑOR salva a Su ungido;"
+        },
+        {
+          "id": "salmos20-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Le responderá desde Su santo cielo\nCon la potencia salvadora de Su diestra."
+        }
+      ],
+      "id": "salmos20-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos20-nbla-07a",
+          "order": 1,
+          "text": "Algunos confían en carros y otros en caballos,"
+        },
+        {
+          "id": "salmos20-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero nosotros en el nombre del SEÑOR nuestro Dios confiaremos."
+        }
+      ],
+      "id": "salmos20-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos20-nbla-08",
+      "number": 8,
+      "text": "Ellos se doblegaron y cayeron,\nPero nosotros nos hemos levantado y nos mantenemos en pie."
+    },
+    {
+      "id": "salmos20-nbla-09",
+      "number": 9,
+      "text": "¡Salva, oh SEÑOR!\nQue el Rey nos responda el día que clamemos."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

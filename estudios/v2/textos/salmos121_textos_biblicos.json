@@ -1,0 +1,259 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La ayuda verdadera procede del SEÑOR y no de ningún elemento creado. La NBLA fija directamente la confesión: el auxilio viene de Dios. MSG vuelve personal y corporal esa dependencia al hablar de la fuerza que sostiene al peregrino. El texto no desprecia los recursos humanos, pero impide convertirlos en la fuente última de seguridad.",
+      "id": "salmos121-joya-01",
+      "msg": {
+        "en": "“No, my strength comes from GOD”",
+        "es": "“No, mi fuerza viene de DIOS”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos121-nbla-02a"
+          ],
+          "verseId": "salmos121-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La capacidad de Dios para ayudar está anclada en Su identidad como Creador. La NBLA conserva la fórmula bíblica que abarca toda la creación, mientras MSG incluye las montañas que el peregrino está contemplando. Esa expansión hace visible que aquello que parece poderoso delante de sus ojos sigue estando bajo la autoridad de Dios. La doctrina se sostiene en que el SEÑOR es Creador de todo, no en un significado especial atribuido a cada montaña.",
+      "id": "salmos121-joya-02",
+      "msg": {
+        "en": "“who made heaven, and earth, and mountains.”",
+        "es": "“que hizo el cielo, la tierra y las montañas.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos121-nbla-02b"
+          ],
+          "verseId": "salmos121-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios guarda a Su pueblo con una vigilancia ininterrumpida. La NBLA afirma que el Guardián de Israel jamás duerme, estableciendo la constancia de Su cuidado. MSG vuelve la imagen más cotidiana al hablar de cabecear, como alguien que comienza a vencer el sueño. El lenguaje no pretende atribuir debilidad física a Dios, sino negar enfáticamente cualquier interrupción en Su atención.",
+      "id": "salmos121-joya-03",
+      "msg": {
+        "en": "“Israel’s Guardian will never doze or sleep.”",
+        "es": "“El Guardián de Israel jamás cabeceará ni se dormirá.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La protección de Dios está unida a Su cercanía. La NBLA usa la imagen de la sombra a la mano derecha, mostrando una presencia inmediata que acompaña y cubre. MSG hace explícita esa cercanía al decir que Dios está justo al lado del peregrino. El texto no promete que Dios evitará toda circunstancia difícil, sino que ninguna de ellas será atravesada fuera de Su presencia.",
+      "id": "salmos121-joya-04",
+      "msg": {
+        "en": "“GOD’S your Guardian, right at your side to protect you”",
+        "es": "“DIOS es tu Guardián, está justo a tu lado para protegerte”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5-6"
+    },
+    {
+      "explanation": "El cuidado de Dios se extiende desde el presente hasta la eternidad. La NBLA establece el alcance temporal de la promesa, mientras MSG la convierte en una afirmación directa que puede acompañar cada etapa de la vida. El «siempre» no debe interpretarse como ausencia absoluta de dolor, sino como la certeza de que ninguna circunstancia puede cancelar la fidelidad de Dios ni separar definitivamente al creyente de Su cuidado.",
+      "id": "salmos121-joya-05",
+      "msg": {
+        "en": "“he guards you now, he guards you always.”",
+        "es": "“te guarda ahora, te guarda siempre.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos121-nbla-08b"
+          ],
+          "verseId": "salmos121-nbla-08"
+        }
+      ],
+      "order": 5,
+      "range": "7-8"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 121,
+    "studyId": "salmos-121"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos121-msg-01",
+      "msg": {
+        "en": "I look up to the mountains;\ndoes my strength come from mountains?\nNo, my strength comes from GOD,\nwho made heaven, and earth, and mountains.",
+        "es": "Levanto la mirada hacia las montañas;\n¿acaso mi fuerza viene de las montañas?\nNo, mi fuerza viene de DIOS,\nque hizo el cielo, la tierra y las montañas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos121-msg-02",
+      "msg": {
+        "en": "He won’t let you stumble,\nyour Guardian God won’t fall asleep.\nNot on your life! Israel’s\nGuardian will never doze or sleep.",
+        "es": "Él no dejará que tropieces;\ntu Dios Guardián no se quedará dormido.\n¡De ninguna manera! El Guardián de Israel\njamás cabeceará ni se dormirá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos121-msg-03",
+      "msg": {
+        "en": "GOD’S your Guardian,\nright at your side to protect you—\nShielding you from sunstroke,\nsheltering you from moonstroke.",
+        "es": "DIOS es tu Guardián,\nestá justo a tu lado para protegerte:\nte cubre del golpe del sol\ny te resguarda del golpe de la luna."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos121-msg-04",
+      "msg": {
+        "en": "GOD guards you from every evil,\nhe guards your very life.\nHe guards you when you leave and when you return,\nhe guards you now, he guards you always.",
+        "es": "DIOS te guarda de todo mal;\nguarda tu vida misma.\nTe guarda cuando sales y cuando regresas;\nte guarda ahora, te guarda siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos121-nbla-08"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos121-nbla-01",
+      "number": 1,
+      "text": "Levantaré mis ojos a los montes;\n¿De dónde vendrá mi ayuda?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos121-nbla-02a",
+          "order": 1,
+          "text": "Mi ayuda viene del SEÑOR"
+        },
+        {
+          "id": "salmos121-nbla-02b",
+          "order": 2,
+          "text": ",\nQue hizo los cielos y la tierra."
+        }
+      ],
+      "id": "salmos121-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "salmos121-nbla-03",
+      "number": 3,
+      "text": "No permitirá que tu pie resbale;\nNo se adormecerá el que te guarda."
+    },
+    {
+      "id": "salmos121-nbla-04",
+      "number": 4,
+      "text": "Jamás se adormecerá ni dormirá\nEl que guarda a Israel."
+    },
+    {
+      "id": "salmos121-nbla-05",
+      "number": 5,
+      "text": "El SEÑOR es tu guardador;\nEl SEÑOR es tu sombra a tu mano derecha."
+    },
+    {
+      "id": "salmos121-nbla-06",
+      "number": 6,
+      "text": "El sol no te herirá de día,\nNi la luna de noche."
+    },
+    {
+      "id": "salmos121-nbla-07",
+      "number": 7,
+      "text": "El SEÑOR te protegerá de todo mal;\nÉl guardará tu alma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos121-nbla-08a",
+          "order": 1,
+          "text": "El SEÑOR guardará tu salida y tu entrada"
+        },
+        {
+          "id": "salmos121-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Desde ahora y para siempre."
+        }
+      ],
+      "id": "salmos121-nbla-08",
+      "number": 8
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

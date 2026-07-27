@@ -1,0 +1,356 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La adoración delante de Dios puede incluir un silencio lleno de atención, entrega y reverencia. La NBLA une el silencio con la alabanza en Sión. MSG vuelve explícita esa relación al presentar el silencio mismo como alabanza. El texto no enseña que todo silencio sea automáticamente espiritual, sino que una vida rendida puede honrar a Dios aun antes de encontrar palabras.",
+      "id": "salmos65-joya-01",
+      "msg": {
+        "en": "\"Silence is praise to you\"",
+        "es": "\"El silencio es alabanza para Ti\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos65-nbla-01a"
+          ],
+          "verseId": "salmos65-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El pecado supera la capacidad humana de dominarlo y repararlo, pero Dios interviene con perdón. La NBLA fija el sentido teológico al declarar que Dios perdona las transgresiones. MSG comunica la liberación de manera directa: Él las quita de una vez por todas. La expresión no elimina la necesidad de arrepentimiento ni las consecuencias temporales del pecado; afirma la suficiencia del perdón divino.",
+      "id": "salmos65-joya-02",
+      "msg": {
+        "en": "\"but you get rid of them once and for all.\"",
+        "es": "\"pero Tú los quitas de una vez por todas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-8"
+    },
+    {
+      "explanation": "La cercanía con Dios nace de Su iniciativa y produce pertenencia. La NBLA muestra que Dios escoge y acerca para que la persona habite en Sus atrios. MSG hace visible esa gracia mediante la imagen de un huésped que ya se siente en casa. No se trata de familiaridad irreverente, sino de una bienvenida estable concedida por Dios.",
+      "id": "salmos65-joya-03",
+      "msg": {
+        "en": "\"Blessed are the chosen! Blessed the guest at home in your place!\"",
+        "es": "\"¡Benditos los escogidos! ¡Bendito el huésped que se siente en casa en Tu presencia!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos65-nbla-04a"
+          ],
+          "verseId": "salmos65-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "2-8"
+    },
+    {
+      "explanation": "El poder de Dios pone límite tanto al caos natural como al desorden de las naciones. La NBLA establece el paralelismo entre los mares y los pueblos. MSG intensifica la imagen presentando a Dios como quien amordaza el ruido amenazante. La expresión no elimina la responsabilidad política o social; declara que ninguna fuerza creada posee autoridad definitiva.",
+      "id": "salmos65-joya-04",
+      "msg": {
+        "en": "\"Muzzler of sea storm and wave crash, of mobs in noisy riot\"",
+        "es": "\"El que amordaza las tormentas del mar y el golpe de las olas, y a las multitudes en ruidoso motín\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "2-8"
+    },
+    {
+      "explanation": "La creación fue ordenada por Dios para recibir Su cuidado, producir fruto y manifestar Su bondad. La NBLA atribuye directamente a Dios la preparación del grano y de la tierra. MSG convierte esa provisión en una celebración del propósito creador. La frase no reduce toda la creación a productividad agrícola, sino que destaca aquí su capacidad de florecer bajo el cuidado divino.",
+      "id": "salmos65-joya-05",
+      "msg": {
+        "en": "\"Creation was made for this!\"",
+        "es": "\"¡Para esto fue hecha la creación!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos65-nbla-09b"
+          ],
+          "verseId": "salmos65-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "9-13"
+    },
+    {
+      "explanation": "La abundancia de Dios conduce a una respuesta de alegría que abarca toda la creación. La NBLA presenta los valles dando voces de júbilo y cantando. MSG amplifica el entusiasmo mediante una repetición jubilosa. La personificación no enseña que los campos posean conciencia humana; permite que el mundo creado participe poéticamente en la alabanza a su Creador.",
+      "id": "salmos65-joya-06",
+      "msg": {
+        "en": "\"Let them shout, and shout, and shout! Oh, oh, let them sing!\"",
+        "es": "\"¡Que griten, y griten, y vuelvan a gritar! ¡Oh, sí, que canten!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos65-nbla-13b"
+          ],
+          "verseId": "salmos65-nbla-13"
+        }
+      ],
+      "order": 6,
+      "range": "9-13"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 65,
+    "studyId": "salmos-65"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos65-msg-01",
+      "msg": {
+        "en": "Silence is praise to you,\nZion-dwelling God,\nAnd also obedience.\nYou hear the prayer in it all.",
+        "es": "El silencio es alabanza para Ti,\nDios que habitas en Sión,\ny la obediencia también.\nTú escuchas la oración en todo ello."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "salmos65-nbla-02a"
+          ],
+          "verseId": "salmos65-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-8",
+      "id": "salmos65-msg-02",
+      "msg": {
+        "en": "We all arrive at your doorstep sooner\nor later, loaded with guilt,\nOur sins too much for us—\nbut you get rid of them once and for all.\nBlessed are the chosen! Blessed the guest\nat home in your place!\nWe expect our fill of good things\nin your house, your heavenly manse.\nAll your salvation wonders\nare on display in your trophy room.\nEarth-Tamer, Ocean-Pourer,\nMountain-Maker, Hill-Dresser,\nMuzzler of sea storm and wave crash,\nof mobs in noisy riot—\nFar and wide they’ll come to a stop,\nthey’ll stare in awe, in wonder.\nDawn and dusk take turns\ncalling, “Come and worship.”",
+        "es": "Todos terminamos llegando a Tu puerta, tarde\no temprano, cargados de culpa.\nNuestros pecados son demasiado para nosotros,\npero Tú los quitas de una vez por todas.\n¡Benditos los escogidos! ¡Bendito el huésped\nque se siente en casa en Tu presencia!\nEn Tu casa esperamos saciarnos de cosas buenas,\nen Tu mansión celestial.\nTodas Tus maravillas de salvación\nestán expuestas en Tu sala de trofeos.\nDomador de la tierra, Derramador del océano,\nCreador de montañas, Vestidor de colinas,\nEl que amordaza las tormentas del mar y el golpe de las olas,\ny a las multitudes en ruidoso motín:\npor todas partes se detendrán en seco\ny contemplarán asombrados, maravillados.\nLa aurora y el crepúsculo se turnan\npara llamar: «Vengan a adorar»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos65-nbla-02b"
+          ],
+          "verseId": "salmos65-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-13",
+      "id": "salmos65-msg-03",
+      "msg": {
+        "en": "Oh, visit the earth,\nask her to join the dance!\nDeck her out in spring showers,\nfill the God-River with living water.\nPaint the wheat fields golden.\nCreation was made for this!\nDrench the plowed fields,\nsoak the dirt clods\nWith rainfall as harrow and rake\nbring her to blossom and fruit.\nSnow-crown the peaks with splendor,\nscatter rose petals down your paths,\nAll through the wild meadows, rose petals.\nSet the hills to dancing,\nDress the canyon walls with live sheep,\na drape of flax across the valleys.\nLet them shout, and shout, and shout!\nOh, oh, let them sing!",
+        "es": "Oh, visita la tierra;\n¡invítala a sumarse a la danza!\nAdórnala con lluvias de primavera,\nllena el Río de Dios de agua viva.\nPinta de oro los campos de trigo.\n¡Para esto fue hecha la creación!\nEmpapa los campos arados,\ncala los terrones;\nque la lluvia haga de grada y rastrillo\ny lleve la tierra a florecer y dar fruto.\nCorona de nieve las cumbres con esplendor,\nesparce pétalos de rosa por Tus senderos,\npétalos por todos los prados silvestres.\nHaz bailar las colinas;\nviste las paredes de los cañones con ovejas vivas\ny extiende un manto de lino sobre los valles.\n¡Que griten, y griten, y vuelvan a gritar!\n¡Oh, sí, que canten!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos65-nbla-13"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos65-nbla-01a",
+          "order": 1,
+          "text": "Silencio habrá delante de Ti, y alabanza en Sión, oh Dios."
+        },
+        {
+          "id": "salmos65-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A Ti se cumplirá el voto."
+        }
+      ],
+      "id": "salmos65-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos65-nbla-02a",
+          "order": 1,
+          "text": "¡Oh Tú, que escuchas la oración!"
+        },
+        {
+          "id": "salmos65-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Hasta Ti viene todo hombre."
+        }
+      ],
+      "id": "salmos65-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "salmos65-nbla-03",
+      "number": 3,
+      "text": "Las iniquidades prevalecen contra mí,\nPero nuestras transgresiones Tú las perdonas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos65-nbla-04a",
+          "order": 1,
+          "text": "Cuán bienaventurado es aquel que Tú escoges, y acercas a Ti,\nPara que more en Tus atrios."
+        },
+        {
+          "id": "salmos65-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Seremos saciados con el bien de Tu casa,\nTu santo templo."
+        }
+      ],
+      "id": "salmos65-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos65-nbla-05",
+      "number": 5,
+      "text": "Con grandes prodigios nos respondes en justicia,\nOh Dios de nuestra salvación,\nTú eres la confianza de todos los términos de la tierra y del más lejano mar;"
+    },
+    {
+      "id": "salmos65-nbla-06",
+      "number": 6,
+      "text": "El que afirma los montes con Su poder,\nCeñido de potencia;"
+    },
+    {
+      "id": "salmos65-nbla-07",
+      "number": 7,
+      "text": "El que calma el rugido de los mares,\nEl estruendo de las olas,\nY el tumulto de los pueblos."
+    },
+    {
+      "id": "salmos65-nbla-08",
+      "number": 8,
+      "text": "Por eso los que moran en los confines de la tierra temen Tus obras,\nTú haces cantar de júbilo a la aurora y al ocaso."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos65-nbla-09a",
+          "order": 1,
+          "text": "Tú visitas la tierra y la riegas en abundancia,\nEn gran manera la enriqueces.\nEl río de Dios rebosa de agua;"
+        },
+        {
+          "id": "salmos65-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tú les preparas su grano, porque así preparas la tierra."
+        }
+      ],
+      "id": "salmos65-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "salmos65-nbla-10",
+      "number": 10,
+      "text": "Riegas sus surcos abundantemente,\nAllanas sus camellones,\nLa ablandas con lluvias,\nBendices sus renuevos."
+    },
+    {
+      "id": "salmos65-nbla-11",
+      "number": 11,
+      "text": "Tú has coronado el año con Tus bienes,\nY Tus huellas destilan grasa."
+    },
+    {
+      "id": "salmos65-nbla-12",
+      "number": 12,
+      "text": "Destilan los pastos del desierto,\nY los collados se adornan de alegría."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos65-nbla-13a",
+          "order": 1,
+          "text": "Las praderas se visten de rebaños,\nY los valles se cubren de grano;"
+        },
+        {
+          "id": "salmos65-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Dan voces de júbilo, sí, cantan."
+        }
+      ],
+      "id": "salmos65-nbla-13",
+      "number": 13
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

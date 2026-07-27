@@ -1,0 +1,485 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El lamento puede expresar con honestidad la sensación de distancia divina. La NBLA fija la pregunta sobre la aparente lejanía del SEÑOR; MSG la vuelve inmediata y personal mediante la pregunta «¿me estás evitando?». El texto no enseña que Dios realmente abandone al afligido, sino que permite llevar esa experiencia percibida a Su presencia.",
+      "id": "salmos10-joya-01",
+      "msg": {
+        "en": "\"GOD, are you avoiding me?\"",
+        "es": "\"DIOS, ¿me estás evitando?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-01a"
+          ],
+          "verseId": "salmos10-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La arrogancia aleja al ser humano de toda búsqueda de Dios. La NBLA establece que el impío no lo busca debido a la altivez de su rostro; MSG convierte esa postura en una imagen corporal de desprecio. La frase no describe solo una emoción orgullosa, sino una vida organizada sin rendición de cuentas ante Dios.",
+      "id": "salmos10-joya-02",
+      "msg": {
+        "en": "\"The wicked snub GOD, their noses stuck high in the air.\"",
+        "es": "\"Los malvados desprecian a DIOS, con la nariz levantada por el orgullo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-04a"
+          ],
+          "verseId": "salmos10-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La arrogancia del impío se alimenta de la expectativa de impunidad. La NBLA fija el sentido: el malvado supone que Dios nunca le exigirá cuentas. MSG vuelve esa convicción visible mediante la imagen de una auditoría que cree poder evitar. La metáfora no convierte el juicio divino en un procedimiento administrativo; comunica que ningún poder queda finalmente fuera de la evaluación de Dios.",
+      "id": "salmos10-joya-03",
+      "msg": {
+        "en": "\"they’ll never come up for audit.\"",
+        "es": "\"creen que nunca tendrán que rendir cuentas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-13b"
+          ],
+          "verseId": "salmos10-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "12-13"
+    },
+    {
+      "explanation": "Dios conoce plenamente aquello que el agresor intenta ocultar. La NBLA afirma que Él ha visto y contemplado la malicia y el maltrato; MSG condensa esa atención en la certeza de que lo sabe todo. El conocimiento divino no reemplaza la necesidad de verdad, protección y justicia humanas, pero garantiza que ningún abuso queda definitivamente borrado.",
+      "id": "salmos10-joya-04",
+      "msg": {
+        "en": "\"the contempt, the abuse.\"",
+        "es": "\"el desprecio y el abuso.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-14a"
+          ],
+          "verseId": "salmos10-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "14"
+    },
+    {
+      "explanation": "El reinado eterno de Dios garantiza que la impiedad no puede conservar la victoria final. La NBLA fija esta esperanza en la realeza permanente del SEÑOR; MSG muestra su resultado como el triunfo de la gracia y el orden sobre el caos de la maldad. La frase no promete que toda injusticia terminará inmediatamente, sino que su poder es temporal frente al Rey eterno.",
+      "id": "salmos10-joya-05",
+      "msg": {
+        "en": "\"GOD’S grace and order wins; godlessness loses.\"",
+        "es": "\"La gracia y el orden de DIOS vencen; la impiedad pierde.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-16a"
+          ],
+          "verseId": "salmos10-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "15-16"
+    },
+    {
+      "explanation": "La escucha de Dios fortalece interiormente a quienes habían perdido la esperanza. La NBLA establece las dos acciones: fortalecer el corazón e inclinar el oído; MSG las convierte en una imagen de vida que vuelve a circular por el cuerpo. La metáfora no sustituye procesos médicos, psicológicos o comunitarios, sino que comunica el efecto restaurador de ser escuchado por Dios.",
+      "id": "salmos10-joya-06",
+      "msg": {
+        "en": "\"the hearts of the hopeless pump red blood as you put your ear to their lips.\"",
+        "es": "\"los corazones de quienes perdieron la esperanza vuelven a bombear sangre mientras inclinas Tu oído hacia sus labios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos10-nbla-17b"
+          ],
+          "verseId": "salmos10-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "17-18"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 10,
+    "studyId": "salmos-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos10-msg-01",
+      "msg": {
+        "en": "GOD, are you avoiding me?\nWhere are you when I need you?\nFull of hot air, the wicked\nare hot on the trail of the poor.\nTrip them up, tangle them up\nin their fine-tuned plots.",
+        "es": "DIOS, ¿me estás evitando?\n¿Dónde estás cuando te necesito?\nLlenos de fanfarronería, los malvados\npersiguen de cerca a los pobres.\nHazlos tropezar; enrédalos\nen sus planes finamente calculados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos10-msg-02",
+      "msg": {
+        "en": "The wicked are windbags,\nthe swindlers have foul breath.\nThe wicked snub GOD,\ntheir noses stuck high in the air.\nTheir graffiti are scrawled on the walls:\n“Catch us if you can!” “God is dead.”",
+        "es": "Los malvados son unos bocones;\na los estafadores les apesta el aliento.\nLos malvados desprecian a DIOS,\ncon la nariz levantada por el orgullo.\nSus grafitis cubren las paredes:\n«¡Atrápennos si pueden!». «Dios está muerto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos10-msg-03",
+      "msg": {
+        "en": "They care nothing for what you think;\nif you get in their way, they blow you off.\nThey live (they think) a charmed life:\n“We can’t go wrong. This is our lucky year!”",
+        "es": "No les importa lo que Tú pienses;\nsi te interpones en su camino, te hacen a un lado.\nViven —o eso creen— una vida encantada:\n«Nada puede salirnos mal. ¡Este es nuestro año de suerte!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos10-msg-04",
+      "msg": {
+        "en": "They carry a mouthful of hexes,\ntheir tongues spit venom like adders.\nThey hide behind ordinary people,\nthen pounce on their victims.",
+        "es": "Llevan la boca llena de maldiciones;\nsus lenguas escupen veneno como víboras.\nSe ocultan detrás de la gente común\ny luego se abalanzan sobre sus víctimas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "salmos10-msg-05",
+      "msg": {
+        "en": "They mark the luckless,\nthen wait like a hunter in a blind;\nWhen the poor wretch wanders too close,\nthey stab him in the back.",
+        "es": "Marcan al desafortunado\ny esperan como un cazador desde su escondite;\ncuando el pobre desdichado se acerca demasiado,\nlo apuñalan por la espalda."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "salmos10-msg-06",
+      "msg": {
+        "en": "The hapless fool is kicked to the ground,\nthe unlucky victim is brutally axed.\nHe thinks God has dumped him,\nhe’s sure that God is indifferent to his plight.",
+        "es": "El pobre desdichado cae al suelo a patadas;\nla víctima indefensa recibe un golpe brutal.\nCree que Dios la ha abandonado;\nestá convencida de que a Dios no le importa su desgracia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "salmos10-msg-07",
+      "msg": {
+        "en": "Time to get up, GOD—get moving.\nThe luckless think they’re Godforsaken.\nThey wonder why the wicked scorn God\nand get away with it,\nWhy the wicked are so cocksure\nthey’ll never come up for audit.",
+        "es": "Es hora de levantarte, DIOS; ponte en marcha.\nLos desafortunados creen que Dios los abandonó.\nSe preguntan por qué los malvados desprecian a Dios\ny salen impunes;\npor qué están tan seguros de sí mismos\nque creen que nunca tendrán que rendir cuentas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14",
+      "id": "salmos10-msg-08",
+      "msg": {
+        "en": "But you know all about it—\nthe contempt, the abuse.\nI dare to believe that the luckless\nwill get lucky someday in you.\nYou won’t let them down:\norphans won’t be orphans forever.",
+        "es": "Pero Tú lo sabes todo:\nel desprecio y el abuso.\nMe atrevo a creer que los desafortunados\nalgún día hallarán fortuna en Ti.\nNo los defraudarás:\nlos huérfanos no serán huérfanos para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "salmos10-msg-09",
+      "msg": {
+        "en": "Break the wicked right arms,\nbreak all the evil left arms.\nSearch and destroy\nevery sign of crime.\nGOD’S grace and order wins;\ngodlessness loses.",
+        "es": "Quiebra el brazo derecho del malvado;\nquiebra el brazo izquierdo del mal.\nBusca y destruye\ntodo rastro del crimen.\nLa gracia y el orden de DIOS vencen;\nla impiedad pierde."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "salmos10-msg-10",
+      "msg": {
+        "en": "The victim’s faint pulse picks up;\nthe hearts of the hopeless pump red blood\nas you put your ear to their lips.\nOrphans get parents,\nthe homeless get homes.\nThe reign of terror is over,\nthe rule of the gang lords is ended.",
+        "es": "El pulso débil de la víctima vuelve a cobrar fuerza;\nlos corazones de quienes perdieron la esperanza\nvuelven a bombear sangre\nmientras inclinas Tu oído hacia sus labios.\nLos huérfanos encuentran padres;\nlas personas sin hogar encuentran casa.\nEl reinado del terror terminó;\nel dominio de los jefes de las pandillas llegó a su fin."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos10-nbla-18"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-01a",
+          "order": 1,
+          "text": "¿Por qué, oh SEÑOR, te mantienes alejado,"
+        },
+        {
+          "id": "salmos10-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y te escondes en tiempos de tribulación?"
+        }
+      ],
+      "id": "salmos10-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos10-nbla-02",
+      "number": 2,
+      "text": "Con arrogancia el impío acosa al afligido;\n¡Que sea atrapado en las trampas que ha preparado!"
+    },
+    {
+      "id": "salmos10-nbla-03",
+      "number": 3,
+      "text": "Porque del deseo de su corazón se gloría el impío,\nY el codicioso maldice y desprecia al SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-04a",
+          "order": 1,
+          "text": "El impío, en la arrogancia de su rostro, no busca a Dios."
+        },
+        {
+          "id": "salmos10-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Todo su pensamiento es: «No hay Dios»."
+        }
+      ],
+      "id": "salmos10-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos10-nbla-05",
+      "number": 5,
+      "text": "Sus caminos prosperan en todo tiempo;\nTus juicios, oh Dios, están en lo alto, lejos de su vista;\nA todos sus adversarios los desprecia."
+    },
+    {
+      "id": "salmos10-nbla-06",
+      "number": 6,
+      "text": "Dice en su corazón: «No hay quien me mueva;\nPor todas las generaciones no sufriré adversidad»."
+    },
+    {
+      "id": "salmos10-nbla-07",
+      "number": 7,
+      "text": "Llena está su boca de blasfemia, engaño y opresión;\nBajo su lengua hay malicia e iniquidad."
+    },
+    {
+      "id": "salmos10-nbla-08",
+      "number": 8,
+      "text": "Se sienta al acecho en las aldeas,\nEn los escondrijos mata al inocente;\nSus ojos espían al desvalido."
+    },
+    {
+      "id": "salmos10-nbla-09",
+      "number": 9,
+      "text": "Acecha en el escondrijo como león en su guarida;\nAcecha para atrapar al afligido,\nY atrapa al afligido arrastrándolo a su red."
+    },
+    {
+      "id": "salmos10-nbla-10",
+      "number": 10,
+      "text": "Se agazapa, se encoge,\nY los desdichados caen en sus garras."
+    },
+    {
+      "id": "salmos10-nbla-11",
+      "number": 11,
+      "text": "El impío dice en su corazón: «Dios se ha olvidado;\nHa escondido Su rostro; nunca verá nada»."
+    },
+    {
+      "id": "salmos10-nbla-12",
+      "number": 12,
+      "text": "Levántate, oh SEÑOR; alza, oh Dios, Tu mano.\nNo te olvides de los pobres."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-13a",
+          "order": 1,
+          "text": "¿Por qué ha despreciado el impío a Dios?\nHa dicho en su corazón: «"
+        },
+        {
+          "id": "salmos10-nbla-13b",
+          "order": 2,
+          "text": "Tú no le pedirás cuentas»."
+        }
+      ],
+      "id": "salmos10-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-14a",
+          "order": 1,
+          "text": "Tú lo has visto, porque has contemplado la malicia y el maltrato,"
+        },
+        {
+          "id": "salmos10-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para hacer justicia con Tu mano.\nA Ti se acoge el desvalido;\nTú has sido amparo del huérfano."
+        }
+      ],
+      "id": "salmos10-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "salmos10-nbla-15",
+      "number": 15,
+      "text": "Quiébrale el brazo al impío y al malvado;\nPersigue su maldad hasta que desaparezca."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-16a",
+          "order": 1,
+          "text": "El SEÑOR es Rey eternamente y para siempre;"
+        },
+        {
+          "id": "salmos10-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Las naciones han perecido de Su tierra."
+        }
+      ],
+      "id": "salmos10-nbla-16",
+      "number": 16
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos10-nbla-17a",
+          "order": 1,
+          "text": "Oh SEÑOR, Tú has oído el deseo de los humildes;"
+        },
+        {
+          "id": "salmos10-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tú fortalecerás su corazón e inclinarás Tu oído"
+        }
+      ],
+      "id": "salmos10-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "salmos10-nbla-18",
+      "number": 18,
+      "text": "Para hacer justicia al huérfano y al afligido;\nPara que no vuelva a causar terror el hombre que es de la tierra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios permite que la espera prolongada sea expresada sin disfraces. La NBLA fija la oración mediante la pregunta «¿Hasta cuándo?»; MSG vuelve audible el agotamiento al decir «Ya fue suficiente». La fuerza de la expresión no autoriza a acusar a Dios de infidelidad, sino que muestra que la relación con Él puede soportar una protesta honesta.",
+      "id": "salmos13-joya-01",
+      "msg": {
+        "en": "\"Long enough, GOD—\"",
+        "es": "\"Ya fue suficiente, DIOS:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos13-nbla-01a"
+          ],
+          "verseId": "salmos13-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El sufrimiento prolongado puede sentirse como un peso físico y continuo. La NBLA fija la realidad interior mediante el pesar que permanece todo el día; MSG la vuelve corporal como una tonelada cargada por el orante. La imagen comunica intensidad, pero no convierte todo cansancio en prueba de abandono divino.",
+      "id": "salmos13-joya-02",
+      "msg": {
+        "en": "\"I’ve carried this ton of trouble,\"",
+        "es": "\"he cargado esta tonelada de problemas\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos13-nbla-02b"
+          ],
+          "verseId": "salmos13-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La oración busca la atención personal y activa de Dios. La NBLA une consideración y respuesta; MSG vuelve esa petición cercana mediante el ruego «Mírame bien». El punto teológico no es que Dios carezca de información, sino que el salmista pide experimentar Su intervención y Su cuidado.",
+      "id": "salmos13-joya-03",
+      "msg": {
+        "en": "\"Take a good look at me, GOD, my God;\"",
+        "es": "\"Mírame bien, DIOS, Dios mío;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos13-nbla-03a"
+          ],
+          "verseId": "salmos13-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "Confiar significa entregarse al carácter misericordioso de Dios cuando la respuesta todavía no es visible. La NBLA fija la confianza en Su misericordia; MSG la representa como un movimiento total hacia Sus brazos. La metáfora comunica dependencia, pero no promete que toda amenaza desaparecerá de inmediato.",
+      "id": "salmos13-joya-04",
+      "msg": {
+        "en": "\"I’ve thrown myself headlong into your arms—\"",
+        "es": "\"Me he lanzado de cabeza a Tus brazos;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos13-nbla-05a"
+          ],
+          "verseId": "salmos13-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La esperanza puede anticipar la alabanza antes de que el relato muestre un desenlace. La NBLA conserva la orientación futura del canto; MSG vuelve palpable su intensidad. El texto no impone entusiasmo artificial a quien todavía está quebrantado, sino que muestra hacia dónde puede conducir la confianza en la salvación de Dios.",
+      "id": "salmos13-joya-05",
+      "msg": {
+        "en": "\"I’m singing at the top of my lungs,\"",
+        "es": "\"Canto a todo pulmón:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos13-nbla-06a"
+          ],
+          "verseId": "salmos13-nbla-06"
+        }
+      ],
+      "order": 5,
+      "range": "5-6"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 13,
+    "studyId": "salmos-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos13-msg-01",
+      "msg": {
+        "en": "Long enough, GOD—\nyou’ve ignored me long enough.\nI’ve looked at the back of your head\nlong enough. Long enough\nI’ve carried this ton of trouble,\nlived with a stomach full of pain.\nLong enough my arrogant enemies\nhave looked down their noses at me.",
+        "es": "Ya fue suficiente, DIOS:\nme has ignorado demasiado tiempo.\nLlevo demasiado tiempo viendo solo Tu nuca.\nDemasiado tiempo he cargado esta tonelada de problemas\ny vivido con el estómago lleno de dolor.\nDemasiado tiempo mis enemigos arrogantes\nme han mirado por encima del hombro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos13-msg-02",
+      "msg": {
+        "en": "Take a good look at me, GOD, my God;\nI want to look life in the eye,\nSo no enemy can get the best of me\nor laugh when I fall on my face.",
+        "es": "Mírame bien, DIOS, Dios mío;\nquiero mirar la vida de frente,\npara que ningún enemigo logre vencerme\nni se ría cuando caiga de bruces."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos13-msg-03",
+      "msg": {
+        "en": "I’ve thrown myself headlong into your arms—\nI’m celebrating your rescue.\nI’m singing at the top of my lungs,\nI’m so full of answered prayers.",
+        "es": "Me he lanzado de cabeza a Tus brazos;\ncelebro Tu rescate.\nCanto a todo pulmón:\nestoy rebosando de respuestas a mis oraciones."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos13-nbla-06"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos13-nbla-01a",
+          "order": 1,
+          "text": "¿Hasta cuándo, oh SEÑOR?"
+        },
+        {
+          "id": "salmos13-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿Me olvidarás para siempre?\n¿Hasta cuándo esconderás de mí Tu rostro?"
+        }
+      ],
+      "id": "salmos13-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos13-nbla-02a",
+          "order": 1,
+          "text": "¿Hasta cuándo he de tomar consejo en mi alma,"
+        },
+        {
+          "id": "salmos13-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Teniendo pesar en mi corazón todo el día?"
+        },
+        {
+          "id": "salmos13-nbla-02c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "¿Hasta cuándo mi enemigo se enaltecerá sobre mí?"
+        }
+      ],
+      "id": "salmos13-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos13-nbla-03a",
+          "order": 1,
+          "text": "Considera y respóndeme, oh SEÑOR, Dios mío;"
+        },
+        {
+          "id": "salmos13-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ilumina mis ojos, no sea que duerma el sueño de la muerte;"
+        }
+      ],
+      "id": "salmos13-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos13-nbla-04",
+      "number": 4,
+      "text": "No sea que mi enemigo diga: «Lo he vencido»;\nY mis adversarios se regocijen cuando yo sea sacudido."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos13-nbla-05a",
+          "order": 1,
+          "text": "Pero yo en Tu misericordia he confiado;"
+        },
+        {
+          "id": "salmos13-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Mi corazón se regocijará en Tu salvación."
+        }
+      ],
+      "id": "salmos13-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos13-nbla-06a",
+          "order": 1,
+          "text": "Cantaré al SEÑOR,"
+        },
+        {
+          "id": "salmos13-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque me ha llenado de bienes."
+        }
+      ],
+      "id": "salmos13-nbla-06",
+      "number": 6
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

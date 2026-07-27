@@ -1,0 +1,267 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La presencia de Dios es presentada como un lugar de comunión y permanencia. La NBLA fija la pregunta en el tabernáculo; MSG la vuelve cercana mediante la imagen de una invitación a la mesa. La metáfora no reduce la santidad de Dios a informalidad, sino que ayuda a percibir que morar con Él implica relación, pertenencia y una vida compatible con Su carácter.",
+      "id": "salmos15-joya-01",
+      "msg": {
+        "en": "\"GOD, who gets invited to dinner at your place?\"",
+        "es": "\"DIOS, ¿a quién invitas a cenar en Tu casa?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos15-nbla-01a"
+          ],
+          "verseId": "salmos15-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La verdad que Dios desea comienza en el interior y se expresa mediante las palabras. La NBLA fija su origen en el corazón; MSG la convierte en un mandato directo y cotidiano. El texto no exige solamente evitar afirmaciones falsas, sino abandonar la división entre lo que se piensa, lo que se dice y lo que se vive.",
+      "id": "salmos15-joya-02",
+      "msg": {
+        "en": "\"tell the truth.\"",
+        "es": "\"di la verdad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos15-nbla-02b"
+          ],
+          "verseId": "salmos15-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "El amor al prójimo pertenece al centro de la santidad. La NBLA establece la prohibición general de hacer mal; MSG la acerca al terreno de una amistad concreta. La expresión no limita el deber a los amigos, sino que muestra que la integridad debe verificarse precisamente en las relaciones donde nuestras palabras y acciones tienen mayor impacto.",
+      "id": "salmos15-joya-03",
+      "msg": {
+        "en": "\"Don’t hurt your friend,\"",
+        "es": "\"No hieras a tu amigo,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos15-nbla-03b"
+          ],
+          "verseId": "salmos15-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La cercanía de Dios requiere discernimiento moral y rechazo de lo perverso. La NBLA distingue entre no dar honor al perverso y honrar a quienes temen al SEÑOR; MSG concentra esa decisión en despreciar lo despreciable. El texto no autoriza odio, humillación ni violencia contra personas, sino una negativa firme a admirar, premiar o imitar la maldad.",
+      "id": "salmos15-joya-04",
+      "msg": {
+        "en": "\"despise the despicable.\"",
+        "es": "\"desprecia lo despreciable.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos15-nbla-04a"
+          ],
+          "verseId": "salmos15-nbla-04"
+        }
+      ],
+      "order": 4,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La fidelidad verdadera permanece cuando obedecer produce una pérdida personal. La NBLA fija la escena en un juramento que perjudica a quien lo hizo; MSG la expresa como cumplir la palabra aunque cueste. El texto no exige sostener promesas pecaminosas o abusivas, sino rechazar el oportunismo que cambia compromisos legítimos cuando dejan de convenir.",
+      "id": "salmos15-joya-05",
+      "msg": {
+        "en": "\"Keep your word even when it costs you,\"",
+        "es": "\"Cumple tu palabra aun cuando te cueste,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos15-nbla-04b"
+          ],
+          "verseId": "salmos15-nbla-04"
+        }
+      ],
+      "order": 5,
+      "range": "4-5"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 15,
+    "studyId": "salmos-15"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos15-msg-01",
+      "msg": {
+        "en": "GOD, who gets invited\nto dinner at your place?\nHow do we get on your guest list?",
+        "es": "DIOS, ¿a quién invitas\na cenar en Tu casa?\n¿Cómo entramos en Tu lista de invitados?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos15-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "salmos15-msg-02",
+      "msg": {
+        "en": "“Walk straight,\nact right,\ntell the truth.",
+        "es": "«Camina derecho,\nactúa con justicia,\ndi la verdad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos15-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos15-msg-03",
+      "msg": {
+        "en": "“Don’t hurt your friend,\ndon’t blame your neighbor;\ndespise the despicable.",
+        "es": "»No hieras a tu amigo,\nno culpes a tu vecino;\ndesprecia lo despreciable."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos15-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos15-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos15-msg-04",
+      "msg": {
+        "en": "“Keep your word even when it costs you,\nmake an honest living,\nnever take a bribe.\n“You’ll never get\nblacklisted\nif you live like this.”",
+        "es": "»Cumple tu palabra aun cuando te cueste,\ngánate la vida honradamente,\nnunca aceptes un soborno.\n»Nunca quedarás excluido\nsi vives así»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos15-nbla-05"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos15-nbla-01a",
+          "order": 1,
+          "text": "SEÑOR, ¿quién habitará en Tu tabernáculo?"
+        },
+        {
+          "id": "salmos15-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Quién morará en Tu santo monte?"
+        }
+      ],
+      "id": "salmos15-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos15-nbla-02a",
+          "order": 1,
+          "text": "El que anda en integridad y obra justicia,"
+        },
+        {
+          "id": "salmos15-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y habla verdad en su corazón."
+        }
+      ],
+      "id": "salmos15-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos15-nbla-03a",
+          "order": 1,
+          "text": "El que no calumnia con su lengua,"
+        },
+        {
+          "id": "salmos15-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "No hace mal a su prójimo,"
+        },
+        {
+          "id": "salmos15-nbla-03c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Ni toma reproche contra su amigo;"
+        }
+      ],
+      "id": "salmos15-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos15-nbla-04a",
+          "order": 1,
+          "text": "En cuyos ojos el perverso es despreciado, pero honra a los que temen al SEÑOR;"
+        },
+        {
+          "id": "salmos15-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El que aun jurando en perjuicio propio, no cambia;"
+        }
+      ],
+      "id": "salmos15-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos15-nbla-05",
+      "number": 5,
+      "text": "El que su dinero no da a interés,\nNi acepta soborno contra el inocente.\nEl que hace estas cosas permanecerá firme."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

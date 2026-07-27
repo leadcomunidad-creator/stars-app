@@ -1,0 +1,267 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La presencia de Dios convoca a una alegría que se ofrece como respuesta de adoración. La NBLA establece que el servicio al Señor debe realizarse con alegría. MSG vuelve esa actitud visible mediante la imagen de llevar la risa como un regalo. La expresión no exige ocultar el dolor ni convierte la tristeza en falta de fe; comunica que la bondad de Dios abre espacio para un gozo real aun dentro de una vida compleja.",
+      "id": "salmos100-joya-01",
+      "msg": {
+        "en": "“Bring a gift of laughter,”",
+        "es": "“Traigan el regalo de la risa;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos100-nbla-02a"
+          ],
+          "verseId": "salmos100-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios es el Creador y nosotros somos Sus criaturas. La NBLA afirma que nuestra existencia procede de Él y no de nosotros mismos. MSG intensifica la diferencia al recordar que tampoco fabricamos a Dios. La frase confronta cualquier intento de diseñar una versión de Dios que confirme nuestros deseos; somos llamados a conocerlo y adorarlo tal como Él se ha revelado.",
+      "id": "salmos100-joya-02",
+      "msg": {
+        "en": "“He made us; we didn’t make him.”",
+        "es": "“Él nos hizo; nosotros no lo hicimos a Él.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos100-nbla-03b"
+          ],
+          "verseId": "salmos100-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "La identidad del pueblo descansa en la pertenencia y el cuidado de Dios. La NBLA presenta a la comunidad como Su pueblo y las ovejas de Su prado. MSG hace visible la atención del Pastor mediante la expresión «bien cuidadas». Esto no promete ausencia de valles, amenazas o disciplina; afirma que el pueblo nunca queda fuera de la mirada y responsabilidad de su Pastor.",
+      "id": "salmos100-joya-03",
+      "msg": {
+        "en": "“We’re his people, his well-tended sheep.”",
+        "es": "“Somos Su pueblo, Sus ovejas bien cuidadas.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos100-nbla-03c"
+          ],
+          "verseId": "salmos100-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3"
+    },
+    {
+      "explanation": "La gratitud es la postura apropiada para acercarse al Dios que da vida, pertenencia y cuidado. La NBLA ubica la acción de gracias en la entrada al santuario. MSG la vuelve memorable mediante la imagen de una contraseña. La metáfora no significa que el acceso a Dios se gane pronunciando palabras correctas; señala que quien comprende la gracia entra reconociendo el don recibido.",
+      "id": "salmos100-joya-04",
+      "msg": {
+        "en": "“Enter with the password:”",
+        "es": "“Entren con la contraseña:”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos100-nbla-04a"
+          ],
+          "verseId": "salmos100-nbla-04"
+        }
+      ],
+      "order": 4,
+      "range": "4"
+    },
+    {
+      "explanation": "La fidelidad de Dios no está limitada a una época ni depende de la estabilidad humana. La NBLA extiende Su fidelidad a todas las generaciones. MSG enfatiza su permanencia mediante una expresión repetitiva y absoluta. El texto no garantiza que cada generación responderá fielmente, sino que Dios continuará siendo digno de confianza y sostendrá Su propósito a través del tiempo.",
+      "id": "salmos100-joya-05",
+      "msg": {
+        "en": "“loyal always and ever.”",
+        "es": "“leal siempre y para siempre.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos100-nbla-05b"
+          ],
+          "verseId": "salmos100-nbla-05"
+        }
+      ],
+      "order": 5,
+      "range": "5"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 100,
+    "studyId": "salmos-100"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos100-msg-01",
+      "msg": {
+        "en": "On your feet now—applaud GOD!\nBring a gift of laughter,\nsing yourselves into his presence.",
+        "es": "¡Pónganse de pie ahora: aplaudan a DIOS!\nTraigan el regalo de la risa;\nentren cantando en Su presencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos100-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos100-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "salmos100-msg-02",
+      "msg": {
+        "en": "Know this: GOD is God, and God, GOD.\nHe made us; we didn’t make him.\nWe’re his people, his well-tended sheep.",
+        "es": "Sepan esto: DIOS es Dios, y Dios es DIOS.\nÉl nos hizo; nosotros no lo hicimos a Él.\nSomos Su pueblo, Sus ovejas bien cuidadas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos100-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "salmos100-msg-03",
+      "msg": {
+        "en": "Enter with the password: “Thank you!”\nMake yourselves at home, talking praise.\nThank him. Worship him.",
+        "es": "Entren con la contraseña: «¡Gracias!»\nSiéntanse como en casa, expresando alabanzas.\nDenle gracias. Adórenlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos100-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos100-msg-04",
+      "msg": {
+        "en": "For GOD is sheer beauty,\nall-generous in love,\nloyal always and ever.",
+        "es": "Porque DIOS es belleza pura,\ntodo generosidad en amor,\nleal siempre y para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos100-nbla-05"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos100-nbla-01",
+      "number": 1,
+      "text": "Aclamen con júbilo al SEÑOR, toda la tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos100-nbla-02a",
+          "order": 1,
+          "text": "Sirvan al SEÑOR con alegría;"
+        },
+        {
+          "id": "salmos100-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Vengan ante Él con cánticos de júbilo."
+        }
+      ],
+      "id": "salmos100-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos100-nbla-03a",
+          "order": 1,
+          "text": "Sepan que Él, el SEÑOR, es Dios;"
+        },
+        {
+          "id": "salmos100-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Él nos hizo, y no nosotros a nosotros mismos;"
+        },
+        {
+          "id": "salmos100-nbla-03c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Pueblo Suyo somos y ovejas de Su prado."
+        }
+      ],
+      "id": "salmos100-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos100-nbla-04a",
+          "order": 1,
+          "text": "Entren por Sus puertas con acción de gracias,"
+        },
+        {
+          "id": "salmos100-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y a Sus atrios con alabanza.\nDenle gracias, bendigan Su nombre."
+        }
+      ],
+      "id": "salmos100-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos100-nbla-05a",
+          "order": 1,
+          "text": "Porque el SEÑOR es bueno;\nPara siempre es Su misericordia,"
+        },
+        {
+          "id": "salmos100-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y Su fidelidad por todas las generaciones."
+        }
+      ],
+      "id": "salmos100-nbla-05",
+      "number": 5
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

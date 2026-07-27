@@ -1,0 +1,194 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios recibe el clamor de una persona que ya no puede resolver su angustia por sí misma. La NBLA afirma con claridad que el SEÑOR respondió, estableciendo la fidelidad divina como fundamento de la oración. MSG vuelve visible la intensidad humana del momento: no es una oración distante, sino el grito desesperado de alguien que necesita una respuesta. La promesa del texto es que Dios escucha; no que toda circunstancia será resuelta inmediatamente de la forma esperada.",
+      "id": "salmos120-joya-01",
+      "msg": {
+        "en": "“I’m in trouble. I cry to GOD, desperate for an answer”",
+        "es": "“Estoy metido en problemas. Clamo a DIOS, desesperado por una respuesta”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La mentira resulta especialmente destructiva cuando se oculta detrás de una apariencia amable. La NBLA fija el problema teológico en los labios mentirosos y la lengua engañosa, mientras MSG muestra pastoralmente cómo el engaño puede presentarse acompañado de una sonrisa. El texto no enseña que toda amabilidad sea sospechosa, sino que Dios puede discernir la falsedad que se esconde bajo una apariencia convincente.",
+      "id": "salmos120-joya-02",
+      "msg": {
+        "en": "“They smile so sweetly but lie through their teeth.”",
+        "es": "“Sonríen con dulzura, pero mienten con todo descaro”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La lengua que hiere queda expuesta al juicio justo de Dios. La NBLA conserva las imágenes concretas de las flechas y las brasas, mientras MSG hace explícita la idea de que estas constituyen la consecuencia del engaño. No debe construirse una doctrina detallada sobre la forma material del castigo; las imágenes comunican que la mentira no quedará impune y que Dios responderá al daño que produce.",
+      "id": "salmos120-joya-03",
+      "msg": {
+        "en": "“Pointed arrows and burning coals will be your reward.”",
+        "es": "“Flechas afiladas y brasas ardientes serán su recompensa.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El pueblo de Dios está llamado a permanecer del lado de la paz aunque otros escojan la hostilidad. La NBLA expresa directamente el contraste entre amar la paz y enfrentar personas dispuestas a la guerra. MSG intensifica pastoralmente la frustración del pacificador cuya declaración es recibida como provocación. El texto no promete que buscar la paz siempre producirá reconciliación, pero sí llama a conservar una identidad pacífica sin adoptar el espíritu agresivo del entorno.",
+      "id": "salmos120-joya-04",
+      "msg": {
+        "en": "“I’m all for peace, but the minute I tell them so, they go to war!”",
+        "es": "“Yo estoy por la paz, pero en cuanto se los digo, ¡ellos se lanzan a la guerra!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "5-7"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 120,
+    "studyId": "salmos-120"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos120-msg-01",
+      "msg": {
+        "en": "I’m in trouble. I cry to GOD,\ndesperate for an answer:\n“Deliver me from the liars, GOD!\nThey smile so sweetly but lie through their teeth.”",
+        "es": "Estoy metido en problemas. Clamo a DIOS, desesperado por una respuesta: «¡Líbrame de los mentirosos, DIOS! Sonríen con dulzura, pero mienten con todo descaro»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos120-msg-02",
+      "msg": {
+        "en": "Do you know what’s next, can you see what’s coming,\nall you barefaced liars?\nPointed arrows and burning coals\nwill be your reward.",
+        "es": "¿Saben lo que viene ahora? ¿Alcanzan a ver lo que les espera, mentirosos descarados? Flechas afiladas y brasas ardientes serán su recompensa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "salmos120-msg-03",
+      "msg": {
+        "en": "I’m doomed to live in Meshech,\ncursed with a home in Kedar,\nMy whole life lived camping\namong quarreling neighbors.\nI’m all for peace, but the minute\nI tell them so, they go to war!",
+        "es": "¡Qué desgracia la mía: vivo en Mesec y tengo mi hogar entre las tiendas de Cedar! Toda mi vida la he pasado acampando entre vecinos que solo buscan pelea. Yo estoy por la paz, pero en cuanto se los digo, ¡ellos se lanzan a la guerra!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos120-nbla-07"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos120-nbla-01",
+      "number": 1,
+      "text": "En mi angustia clamé al SEÑOR,\nY Él me respondió."
+    },
+    {
+      "id": "salmos120-nbla-02",
+      "number": 2,
+      "text": "Libra mi alma, SEÑOR, de labios mentirosos,\nY de lengua engañosa."
+    },
+    {
+      "id": "salmos120-nbla-03",
+      "number": 3,
+      "text": "¿Qué te dará, y qué te añadirá,\nOh lengua engañosa?"
+    },
+    {
+      "id": "salmos120-nbla-04",
+      "number": 4,
+      "text": "Agudas flechas de guerrero,\nCon brasas de enebro."
+    },
+    {
+      "id": "salmos120-nbla-05",
+      "number": 5,
+      "text": "¡Ay de mí, porque soy peregrino en Mesec,\nY habito entre las tiendas de Cedar!"
+    },
+    {
+      "id": "salmos120-nbla-06",
+      "number": 6,
+      "text": "Demasiado tiempo ha morado mi alma\nCon los que odian la paz."
+    },
+    {
+      "id": "salmos120-nbla-07",
+      "number": 7,
+      "text": "Yo amo la paz, pero cuando hablo,\nEllos están por la guerra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

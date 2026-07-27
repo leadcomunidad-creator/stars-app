@@ -1,0 +1,244 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios puede escuchar una oración pronunciada desde el punto más bajo de la vida. La NBLA conserva la imagen de las profundidades, mientras MSG expresa la sensación de que todo fundamento se ha desplomado. El texto no exige minimizar la crisis ni fingir estabilidad; invita a convertir la desesperación en un clamor dirigido al SEÑOR.",
+      "id": "salmos130-joya-01",
+      "msg": {
+        "en": "“Help, GOD—the bottom has fallen out of my life!”",
+        "es": "“¡Auxilio, DIOS! ¡Mi vida se ha venido abajo!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Ninguna persona puede sostenerse ante Dios por la perfección de su propio historial. La NBLA formula la pregunta en términos de iniquidades tomadas en cuenta, mientras MSG utiliza la imagen de un registro imposible de superar. El texto confronta tanto la autosuficiencia moral como la desesperación, porque todos dependen de la misma misericordia.",
+      "id": "salmos130-joya-02",
+      "msg": {
+        "en": "“If you, GOD, kept records on wrongdoings, who would stand a chance?”",
+        "es": "“Si Tú, DIOS, llevaras un registro de las maldades, ¿quién tendría alguna posibilidad?”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El perdón pertenece al carácter revelado de Dios y produce reverencia. La NBLA afirma que en Él hay perdón para que sea temido, mientras MSG comunica que perdonar es una manera habitual de actuar en coherencia con Su misericordia. Esto no convierte el perdón en algo trivial o automático; muestra que el pecador arrepentido puede acercarse a Dios con esperanza.",
+      "id": "salmos130-joya-03",
+      "msg": {
+        "en": "“As it turns out, forgiveness is your habit, and that’s why you’re worshiped.”",
+        "es": "“Pero resulta que perdonar es lo tuyo, y por eso eres adorado.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La espera bíblica involucra toda la vida y descansa en la palabra del SEÑOR. La NBLA identifica claramente la fuente de la esperanza, mientras MSG presenta la existencia completa del salmista convertida en oración. Esperar no consiste en exigir una respuesta según nuestros términos, sino en mantenernos disponibles para lo que Dios diga y haga.",
+      "id": "salmos130-joya-04",
+      "msg": {
+        "en": "“I pray to GOD—my life a prayer— and wait for what he’ll say and do.”",
+        "es": "“Oro a DIOS —mi vida entera convertida en oración— y espero lo que Él diga y haga.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La redención de Dios no es escasa ni insuficiente frente a la profundidad del pecado. La NBLA declara directamente su abundancia, mientras MSG la conecta con la llegada salvadora de Dios. El texto no promete que toda consecuencia temporal desaparecerá de inmediato, pero sí afirma que el SEÑOR posee poder suficiente para perdonar, liberar y restaurar completamente a Su pueblo.",
+      "id": "salmos130-joya-05",
+      "msg": {
+        "en": "“with GOD’S arrival comes generous redemption.”",
+        "es": "“con la llegada de DIOS viene una redención abundante.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos130-nbla-07b"
+          ],
+          "verseId": "salmos130-nbla-07"
+        }
+      ],
+      "order": 5,
+      "range": "7-8"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 130,
+    "studyId": "salmos-130"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos130-msg-01",
+      "msg": {
+        "en": "Help, GOD—the bottom has fallen out of my life!\nMaster, hear my cry for help!\nListen hard! Open your ears!\nListen to my cries for mercy.",
+        "es": "¡Auxilio, DIOS! ¡Mi vida se ha venido abajo!\nMaestro, ¡escucha mi clamor de auxilio!\n¡Escucha con atención! ¡Abre tus oídos!\nEscucha mis súplicas de misericordia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos130-msg-02",
+      "msg": {
+        "en": "If you, GOD, kept records on wrongdoings,\nwho would stand a chance?\nAs it turns out, forgiveness is your habit,\nand that’s why you’re worshiped.",
+        "es": "Si Tú, DIOS, llevaras un registro de las maldades,\n¿quién tendría alguna posibilidad?\nPero resulta que perdonar es lo tuyo,\ny por eso eres adorado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos130-msg-03",
+      "msg": {
+        "en": "I pray to GOD—my life a prayer—\nand wait for what he’ll say and do.\nMy life’s on the line before God, my Lord,\nwaiting and watching till morning,\nwaiting and watching till morning.",
+        "es": "Oro a DIOS —mi vida entera convertida en oración—\ny espero lo que Él diga y haga.\nMi vida está en vilo delante de Dios, mi Señor,\nesperando y vigilando hasta la mañana,\nesperando y vigilando hasta la mañana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos130-msg-04",
+      "msg": {
+        "en": "O Israel, wait and watch for GOD—\nwith GOD’S arrival comes love,\nwith GOD’S arrival comes generous redemption.\nNo doubt about it—he’ll redeem Israel,\nbuy back Israel from captivity to sin.",
+        "es": "Israel, espera y mantente atento a DIOS:\ncon la llegada de DIOS viene el amor;\ncon la llegada de DIOS viene una redención abundante.\nNo hay duda: Él redimirá a Israel,\nrescatará a Israel de la cautividad del pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos130-nbla-08"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos130-nbla-01",
+      "number": 1,
+      "text": "Desde lo más profundo, oh SEÑOR, he clamado a Ti."
+    },
+    {
+      "id": "salmos130-nbla-02",
+      "number": 2,
+      "text": "¡Señor, oye mi voz!\nEstén atentos Tus oídos\nA la voz de mis súplicas."
+    },
+    {
+      "id": "salmos130-nbla-03",
+      "number": 3,
+      "text": "SEÑOR, si Tú tuvieras en cuenta las iniquidades,\n¿Quién, oh Señor, podría permanecer?"
+    },
+    {
+      "id": "salmos130-nbla-04",
+      "number": 4,
+      "text": "Pero en Ti hay perdón,\nPara que seas temido."
+    },
+    {
+      "id": "salmos130-nbla-05",
+      "number": 5,
+      "text": "Espero en el SEÑOR; en Él espera mi alma,\nY en Su palabra tengo mi esperanza."
+    },
+    {
+      "id": "salmos130-nbla-06",
+      "number": 6,
+      "text": "Mi alma espera al Señor\nMás que los centinelas a la mañana;\nSí, más que los centinelas a la mañana."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos130-nbla-07a",
+          "order": 1,
+          "text": "Oh Israel, espera en el SEÑOR,\nPorque en el SEÑOR hay misericordia,"
+        },
+        {
+          "id": "salmos130-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en Él hay abundante redención;"
+        }
+      ],
+      "id": "salmos130-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos130-nbla-08",
+      "number": 8,
+      "text": "Él redimirá a Israel\nDe todas sus iniquidades."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

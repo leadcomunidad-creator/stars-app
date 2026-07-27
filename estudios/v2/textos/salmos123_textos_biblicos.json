@@ -1,0 +1,186 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios reina por encima de quienes parecen controlar las circunstancias. La NBLA hace explícita Su autoridad celestial, mientras MSG conserva la acción personal de dirigir la mirada hacia Él. La imagen no enseña que Dios esté distante, sino que Su gobierno trasciende todo poder humano y permite al afligido interpretar su situación desde una autoridad superior.",
+      "id": "salmos123-joya-01",
+      "msg": {
+        "en": "\"I look to you, heaven-dwelling God\"",
+        "es": "\"Te miro a ti, Dios que habitas en el cielo\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos123-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La fe perseverante mantiene su atención en Dios mientras espera Su intervención. La NBLA fija el objeto de esa mirada: el SEÑOR nuestro Dios. MSG vuelve perceptible la intensidad de la espera mediante la imagen de contener el aliento. El texto no ordena una ansiedad inmóvil, sino una dependencia atenta que continúa esperando la misericordia divina.",
+      "id": "salmos123-joya-02",
+      "msg": {
+        "en": "\"We’re watching and waiting, holding our breath\"",
+        "es": "\"nosotros miramos y esperamos, conteniendo el aliento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos123-nbla-02b"
+          ],
+          "verseId": "salmos123-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La esperanza del pueblo descansa en la compasión de Dios y no en sus propios méritos. La NBLA conserva la petición repetida de piedad y muestra que la comunidad espera hasta recibirla. MSG presenta la misericordia como la palabra decisiva que el pueblo necesita escuchar. No se trata de una fórmula para obligar a Dios, sino de una apelación confiada a Su carácter compasivo.",
+      "id": "salmos123-joya-03",
+      "msg": {
+        "en": "\"awaiting your word of mercy. Mercy, GOD, mercy!\"",
+        "es": "\"aguardando tu palabra de misericordia. ¡Misericordia, DIOS, misericordia!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos123-nbla-02c"
+          ],
+          "verseId": "salmos123-nbla-02"
+        },
+        {
+          "clauseIds": [
+            "salmos123-nbla-03a"
+          ],
+          "verseId": "salmos123-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "2-3"
+    },
+    {
+      "explanation": "Dios permite que el afligido reconozca honestamente que ha llegado al límite de sus fuerzas. La NBLA expresa el agotamiento causado por el desprecio, mientras MSG lo vuelve corporal mediante la imagen de haber sido pisoteado. La imagen pastoral no debe convertirse en la afirmación de una agresión física específica; comunica la profundidad de una humillación repetida que ha cansado el alma.",
+      "id": "salmos123-joya-04",
+      "msg": {
+        "en": "\"We’ve been kicked around long enough\"",
+        "es": "\"Ya nos han pisoteado bastante\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos123-nbla-03b"
+          ],
+          "verseId": "salmos123-nbla-03"
+        }
+      ],
+      "order": 4,
+      "range": "3-4"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 123,
+    "studyId": "salmos-123"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "salmos123-msg-01",
+      "msg": {
+        "en": "I look to you, heaven-dwelling God,\nlook up to you for help.\nLike servants, alert to their master’s commands,\nlike a maiden attending her lady,\nWe’re watching and waiting, holding our breath,\nawaiting your word of mercy.\nMercy, GOD, mercy!\nWe’ve been kicked around long enough,\nKicked in the teeth by complacent rich men,\nkicked when we’re down by arrogant brutes.",
+        "es": "Te miro a ti, Dios que habitas en el cielo;\nlevanto la mirada hacia ti en busca de ayuda.\nComo los siervos, atentos a las órdenes de su amo,\ncomo una criada pendiente de su señora,\nnosotros miramos y esperamos, conteniendo el aliento,\naguardando tu palabra de misericordia.\n¡Misericordia, DIOS, misericordia!\nYa nos han pisoteado bastante:\nlos ricos acomodados nos han pateado en los dientes;\nlos brutos arrogantes nos han seguido golpeando cuando ya estábamos en el suelo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos123-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos123-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos123-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos123-nbla-04"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos123-nbla-01",
+      "number": 1,
+      "text": "A Ti levanto mis ojos,\n¡Oh Tú que reinas en los cielos!"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos123-nbla-02a",
+          "order": 1,
+          "text": "Como los ojos de los siervos miran a la mano de su señor,\nComo los ojos de la sierva a la mano de su señora,"
+        },
+        {
+          "id": "salmos123-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Así nuestros ojos miran al SEÑOR nuestro Dios"
+        },
+        {
+          "id": "salmos123-nbla-02c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta que se apiade de nosotros."
+        }
+      ],
+      "id": "salmos123-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos123-nbla-03a",
+          "order": 1,
+          "text": "Ten piedad de nosotros, oh SEÑOR, ten piedad de nosotros"
+        },
+        {
+          "id": "salmos123-nbla-03b",
+          "order": 2,
+          "text": ",\nPorque ya no soportamos el desprecio."
+        }
+      ],
+      "id": "salmos123-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos123-nbla-04",
+      "number": 4,
+      "text": "Nuestra alma está cansada\nDel escarnio de los que están en holgura\nY del desprecio de los soberbios."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

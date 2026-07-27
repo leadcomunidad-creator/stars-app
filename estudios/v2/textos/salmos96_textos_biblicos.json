@@ -1,0 +1,457 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La obra de Dios merece una respuesta renovada y viva. La NBLA fija la invitación a cantar un cántico nuevo al Señor. MSG hace visible la frescura de esa adoración mediante la expresión «completamente nueva». El texto no exige novedad musical permanente ni desprecia los cantos antiguos; llama a responder nuevamente a la salvación y al reinado de Dios.",
+      "id": "salmos96-joya-01",
+      "msg": {
+        "en": "“Sing GOD a brand-new song!”",
+        "es": "“¡Cántenle a DIOS una canción completamente nueva!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-01a"
+          ],
+          "verseId": "salmos96-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La gloria de Dios debe ser anunciada más allá de la comunidad que ya lo conoce. La NBLA establece el alcance universal de la proclamación al mencionar las naciones y todos los pueblos. MSG vuelve pastoral esa misión al dirigir la noticia hacia quienes están perdidos. El contexto gobierna la aplicación: no se trata de superioridad religiosa, sino de compartir las buenas nuevas de la salvación del Señor.",
+      "id": "salmos96-joya-02",
+      "msg": {
+        "en": "“Take the news of his glory to the lost,”",
+        "es": "“lleven la noticia de Su gloria a los perdidos,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-03a"
+          ],
+          "verseId": "salmos96-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-3"
+    },
+    {
+      "explanation": "Dios merece una alabanza abundante porque Su grandeza es incomparable. La NBLA fija la afirmación teológica: el Señor es grande y muy digno de alabanza. MSG convierte esa abundancia en la imagen de «mil aleluyas». El número no debe transformarse en una medida literal; comunica que ninguna expresión humana logra agotar la dignidad de Dios.",
+      "id": "salmos96-joya-03",
+      "msg": {
+        "en": "“For GOD is great, and worth a thousand Hallelujahs.”",
+        "es": "“Porque DIOS es grande y merece mil aleluyas.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-04a"
+          ],
+          "verseId": "salmos96-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4-5"
+    },
+    {
+      "explanation": "El centro del anuncio es que Dios reina sobre todas las naciones. La NBLA conserva la proclamación real del salmo: el Señor reina. MSG subraya que esta verdad debe difundirse públicamente. El texto no autoriza imponer la fe mediante poder político o coerción; convoca a anunciar el gobierno justo de Dios y a vivir bajo su autoridad.",
+      "id": "salmos96-joya-04",
+      "msg": {
+        "en": "“Get out the message—GOD Rules!”",
+        "es": "“Difundan el mensaje: ¡DIOS gobierna!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-10a"
+          ],
+          "verseId": "salmos96-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "Dios viene a restaurar el orden moral de Su creación mediante un juicio justo. La NBLA afirma que juzgará al mundo con justicia y a los pueblos con fidelidad. MSG vuelve visible el resultado de ese juicio: poner todo en orden. La imagen no promete que todas las expectativas humanas serán satisfechas, sino que Dios establecerá aquello que corresponde a Su carácter justo.",
+      "id": "salmos96-joya-05",
+      "msg": {
+        "en": "“As he comes to set everything right on earth,”",
+        "es": "“mientras viene a poner todo en orden en la tierra,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-13b"
+          ],
+          "verseId": "salmos96-nbla-13"
+        }
+      ],
+      "order": 5,
+      "range": "12-13"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 96,
+    "studyId": "salmos-96"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos96-msg-01",
+      "msg": {
+        "en": "Sing GOD a brand-new song!\nEarth and everyone in it, sing!\nSing to GOD—worship GOD!",
+        "es": "¡Cántenle a DIOS una canción completamente nueva!\n¡Que la tierra y todos los que la habitan canten!\n¡Cántenle a DIOS, adoren a DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "salmos96-nbla-02a"
+          ],
+          "verseId": "salmos96-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "salmos96-msg-02",
+      "msg": {
+        "en": "Shout the news of his victory from sea to sea,\nTake the news of his glory to the lost,\nNews of his wonders to one and all!",
+        "es": "Proclamen de mar a mar la noticia de Su victoria;\nlleven la noticia de Su gloria a los perdidos,\n¡la noticia de Sus maravillas a todos y cada uno!"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-02b"
+          ],
+          "verseId": "salmos96-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos96-msg-03",
+      "msg": {
+        "en": "For GOD is great, and worth a thousand Hallelujahs.\nHis terrible beauty makes the gods look cheap;\nPagan gods are mere tatters and rags.",
+        "es": "Porque DIOS es grande y merece mil aleluyas.\nSu belleza sobrecogedora hace que los dioses parezcan baratijas;\nlos dioses paganos no son más que jirones y trapos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-04"
+        },
+        {
+          "clauseIds": [
+            "salmos96-nbla-05a"
+          ],
+          "verseId": "salmos96-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos96-msg-04",
+      "msg": {
+        "en": "GOD made the heavens—\nRoyal splendor radiates from him,\nA powerful beauty sets him apart.",
+        "es": "DIOS hizo los cielos;\nde Él irradia un esplendor real,\nuna belleza poderosa lo distingue."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos96-nbla-05b"
+          ],
+          "verseId": "salmos96-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "salmos96-msg-05",
+      "msg": {
+        "en": "Bravo, GOD, Bravo!\nEveryone join in the great shout: Encore!\nIn awe before the beauty, in awe before the might.",
+        "es": "¡Bravo, DIOS, bravo!\nQue todos se unan al gran clamor: ¡Otra!\nAsombrados ante la belleza, asombrados ante el poder."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "salmos96-msg-06",
+      "msg": {
+        "en": "Bring gifts and celebrate,\nBow before the beauty of GOD,\nThen to your knees—everyone worship!",
+        "es": "Traigan regalos y celebren;\ninclínense ante la belleza de DIOS;\nluego, de rodillas: ¡que todos adoren!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10",
+      "id": "salmos96-msg-07",
+      "msg": {
+        "en": "Get out the message—GOD Rules!\nHe put the world on a firm foundation;\nHe treats everyone fair and square.",
+        "es": "Difundan el mensaje: ¡DIOS gobierna!\nÉl puso el mundo sobre cimientos firmes;\ntrata a todos con absoluta justicia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11",
+      "id": "salmos96-msg-08",
+      "msg": {
+        "en": "Let’s hear it from Sky,\nWith Earth joining in,\nAnd a huge round of applause from Sea.",
+        "es": "¡Que se escuche el Cielo,\ncon la Tierra uniéndose\ny un enorme aplauso del Mar!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-11"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "12",
+      "id": "salmos96-msg-09",
+      "msg": {
+        "en": "Let Wilderness turn cartwheels,\nAnimals, come dance,\nPut every tree of the forest in the choir—",
+        "es": "Que la naturaleza salvaje dé volteretas;\nanimales, vengan a bailar;\nque cada árbol del bosque entre al coro—"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-12"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "13",
+      "id": "salmos96-msg-10",
+      "msg": {
+        "en": "An extravaganza before GOD as he comes,\nAs he comes to set everything right on earth,\nSet everything right, treat everyone fair.",
+        "es": "¡Una celebración desbordante delante de DIOS mientras Él viene,\nmientras viene a poner todo en orden en la tierra,\na poner todo en orden y tratar a todos con justicia!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos96-nbla-13"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-01a",
+          "order": 1,
+          "text": "Canten al SEÑOR un cántico nuevo;"
+        },
+        {
+          "id": "salmos96-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Canten al SEÑOR, toda la tierra."
+        }
+      ],
+      "id": "salmos96-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-02a",
+          "order": 1,
+          "text": "Canten al SEÑOR, bendigan Su nombre;"
+        },
+        {
+          "id": "salmos96-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Proclamen de día en día las buenas nuevas de Su salvación."
+        }
+      ],
+      "id": "salmos96-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-03a",
+          "order": 1,
+          "text": "Cuenten Su gloria entre las naciones,"
+        },
+        {
+          "id": "salmos96-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sus maravillas entre todos los pueblos."
+        }
+      ],
+      "id": "salmos96-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-04a",
+          "order": 1,
+          "text": "Porque grande es el SEÑOR, y muy digno de ser alabado;"
+        },
+        {
+          "id": "salmos96-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Temible es Él sobre todos los dioses."
+        }
+      ],
+      "id": "salmos96-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-05a",
+          "order": 1,
+          "text": "Porque todos los dioses de los pueblos son ídolos,"
+        },
+        {
+          "id": "salmos96-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el SEÑOR hizo los cielos."
+        }
+      ],
+      "id": "salmos96-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "salmos96-nbla-06",
+      "number": 6,
+      "text": "Gloria y majestad están delante de Él;\nPoder y hermosura en Su santuario."
+    },
+    {
+      "id": "salmos96-nbla-07",
+      "number": 7,
+      "text": "Den al SEÑOR, oh familias de los pueblos,\nDen al SEÑOR gloria y poder."
+    },
+    {
+      "id": "salmos96-nbla-08",
+      "number": 8,
+      "text": "Den al SEÑOR la gloria debida a Su nombre;\nTraigan ofrenda y entren en Sus atrios."
+    },
+    {
+      "id": "salmos96-nbla-09",
+      "number": 9,
+      "text": "Adoren al SEÑOR en vestiduras santas;\nTiemblen ante Su presencia, toda la tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-10a",
+          "order": 1,
+          "text": "Digan entre las naciones: «El SEÑOR reina;"
+        },
+        {
+          "id": "salmos96-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ciertamente el mundo está bien afirmado, será inconmovible;\nÉl juzgará a los pueblos con equidad»."
+        }
+      ],
+      "id": "salmos96-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "salmos96-nbla-11",
+      "number": 11,
+      "text": "Alégrense los cielos y regocíjese la tierra;\nRuja el mar y cuanto contiene;"
+    },
+    {
+      "id": "salmos96-nbla-12",
+      "number": 12,
+      "text": "Gócese el campo y todo lo que en él hay.\nEntonces todos los árboles del bosque cantarán con gozo"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos96-nbla-13a",
+          "order": 1,
+          "text": "Delante del SEÑOR, porque Él viene;"
+        },
+        {
+          "id": "salmos96-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque Él viene a juzgar la tierra:\nJuzgará al mundo con justicia"
+        },
+        {
+          "id": "salmos96-nbla-13c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y a los pueblos con Su fidelidad."
+        }
+      ],
+      "id": "salmos96-nbla-13",
+      "number": 13
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

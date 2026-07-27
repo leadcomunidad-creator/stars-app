@@ -1,0 +1,358 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios responde al clamor restaurando a la persona que estaba quebrantada. La NBLA fija el sentido básico: David pidió auxilio y recibió sanidad. MSG vuelve visible la dimensión integral de esa sanidad mediante la expresión «me recompusiste». Esta imagen puede aplicarse pastoralmente a la restauración profunda, pero no debe separarse del hecho concreto que gobierna el pasaje: Dios preservó y sanó la vida de David.",
+      "id": "salmos30-joya-01",
+      "msg": {
+        "en": "\"I yelled for help and you put me together.\"",
+        "es": "\"grité pidiendo ayuda y tú me recompusiste.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos30-nbla-02b"
+          ],
+          "verseId": "salmos30-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "El favor de Dios impide que el sufrimiento tenga autoridad definitiva. La NBLA conserva la imagen poética de la noche y la mañana, mientras MSG intensifica la experiencia humana del llanto y la risa. Ninguna de las dos expresiones garantiza que toda crisis terminará en veinticuatro horas; ambas proclaman que, dentro del gobierno de Dios, el dolor no recibe la última palabra.",
+      "id": "salmos30-joya-02",
+      "msg": {
+        "en": "\"The nights of crying your eyes out give way to days of laughter.\"",
+        "es": "\"Las noches de llorar hasta quedarte sin lágrimas dan paso a días de risa.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos30-nbla-05b"
+          ],
+          "verseId": "salmos30-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5"
+    },
+    {
+      "explanation": "La estabilidad humana depende del favor y de la presencia de Dios. La NBLA describe la conmoción que experimentó David cuando Dios escondió Su rostro. MSG presenta esa misma realidad con la imagen de una persona que se desintegra. La expresión pastoral no significa que Dios dejó literalmente de mirar a David, sino que retiró la sensación de seguridad que había permitido al salmista descubrir su dependencia.",
+      "id": "salmos30-joya-03",
+      "msg": {
+        "en": "\"Then you looked the other way and I fell to pieces.\"",
+        "es": "\"Entonces miraste hacia otro lado y yo me hice pedazos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos30-nbla-07b"
+          ],
+          "verseId": "salmos30-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La oración bíblica puede ser urgente, directa y dependiente. La NBLA muestra que David pide ser escuchado, recibir piedad y tener a Dios mismo como ayuda. MSG conserva esa dependencia en un lenguaje cotidiano y desesperado. La fuerza de la frase no convierte la oración en una exigencia; es el clamor de alguien que ha abandonado su autosuficiencia y reconoce que no puede rescatarse.",
+      "id": "salmos30-joya-04",
+      "msg": {
+        "en": "\"So listen! and be kind! Help me out of this!\"",
+        "es": "\"Así que ¡escucha! ¡Y ten compasión! ¡Ayúdame a salir de esta!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos30-nbla-10b"
+          ],
+          "verseId": "salmos30-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "8-10"
+    },
+    {
+      "explanation": "Dios puede transformar radicalmente la respuesta de una persona ante su historia. La NBLA establece el cambio esencial del lamento a la danza. MSG hace visible esa transformación mediante movimiento, intensidad y celebración. La danza no debe convertirse en una promesa de emoción permanente; representa la gratitud de alguien cuya restauración ha producido una nueva libertad para alabar.",
+      "id": "salmos30-joya-05",
+      "msg": {
+        "en": "\"you changed wild lament into whirling dance;\"",
+        "es": "\"convertiste mi lamento desbordado en una danza que da vueltas;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos30-nbla-11a"
+          ],
+          "verseId": "salmos30-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11-12"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 30,
+    "studyId": "salmos-30"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos30-msg-01",
+      "msg": {
+        "en": "I give you all the credit, GOD—\nyou got me out of that mess,\nyou didn’t let my foes gloat.",
+        "es": "Te doy todo el crédito, DIOS—\nme sacaste de aquel desastre;\nno dejaste que mis enemigos se regodearan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "salmos30-msg-02",
+      "msg": {
+        "en": "GOD, my God, I yelled for help\nand you put me together.\nGOD, you pulled me out of the grave,\ngave me another chance at life\nwhen I was down-and-out.",
+        "es": "DIOS, Dios mío, grité pidiendo ayuda\ny tú me recompusiste.\nDIOS, me sacaste de la tumba,\nme diste otra oportunidad de vivir\ncuando ya estaba derrotado y sin salida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos30-msg-03",
+      "msg": {
+        "en": "All you saints! Sing your hearts out to GOD!\nThank him to his face!\nHe gets angry once in a while, but across\na lifetime there is only love.\nThe nights of crying your eyes out\ngive way to days of laughter.",
+        "es": "¡Todos ustedes, santos! ¡Cántenle a DIOS con todo el corazón!\n¡Denle gracias mirándolo de frente!\nÉl se enoja de vez en cuando, pero a lo largo\nde toda una vida solo hay amor.\nLas noches de llorar hasta quedarte sin lágrimas\ndan paso a días de risa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos30-msg-04",
+      "msg": {
+        "en": "When things were going great\nI crowed, “I’ve got it made.\nI’m GOD’S favorite.\nHe made me king of the mountain.”\nThen you looked the other way\nand I fell to pieces.",
+        "es": "Cuando todo me iba de maravilla,\nalardeé: «Ya la hice.\nSoy el consentido de DIOS.\nÉl me puso como rey en la cima de la montaña».\nEntonces miraste hacia otro lado\ny yo me hice pedazos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "salmos30-msg-05",
+      "msg": {
+        "en": "I called out to you, GOD;\nI laid my case before you:\n“Can you sell me for a profit when I’m dead?\nauction me off at a cemetery yard sale?\nWhen I’m ‘dust to dust’ my songs\nand stories of you won’t sell.\nSo listen! and be kind!\nHelp me out of this!”",
+        "es": "Clamé a ti, DIOS;\npuse mi caso delante de ti:\n«¿Qué ganancia sacas si muero?\n¿Vas a subastarme en una venta de garaje en el cementerio?\nCuando vuelva “del polvo al polvo”, mis canciones\ny mis historias sobre ti ya no tendrán comprador.\nAsí que ¡escucha! ¡Y ten compasión!\n¡Ayúdame a salir de esta!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "salmos30-msg-06",
+      "msg": {
+        "en": "You did it: you changed wild lament\ninto whirling dance;\nYou ripped off my black mourning band\nand decked me with wildflowers.\nI’m about to burst with song;\nI can’t keep quiet about you.\nGOD, my God,\nI can’t thank you enough.",
+        "es": "Lo hiciste: convertiste mi lamento desbordado\nen una danza que da vueltas;\nme arrancaste la cinta negra del duelo\ny me adornaste con flores silvestres.\nEstoy a punto de estallar en canciones;\nno puedo quedarme callado acerca de ti.\nDIOS, Dios mío,\nno hay forma de agradecerte lo suficiente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos30-nbla-12"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos30-nbla-01",
+      "number": 1,
+      "text": "Te ensalzaré, oh SEÑOR, porque me has elevado,\nY no has permitido que mis enemigos se rían de mí."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos30-nbla-02a",
+          "order": 1,
+          "text": "Oh SEÑOR, Dios mío,"
+        },
+        {
+          "id": "salmos30-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A Ti pedí auxilio y me sanaste."
+        }
+      ],
+      "id": "salmos30-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "salmos30-nbla-03",
+      "number": 3,
+      "text": "Oh SEÑOR, has sacado mi alma del Seol;\nMe has guardado con vida, para que no descienda al sepulcro."
+    },
+    {
+      "id": "salmos30-nbla-04",
+      "number": 4,
+      "text": "Canten alabanzas al SEÑOR, ustedes Sus santos,\nY alaben Su santo nombre."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos30-nbla-05a",
+          "order": 1,
+          "text": "Porque Su ira es solo por un momento,\nPero Su favor es por toda una vida."
+        },
+        {
+          "id": "salmos30-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El llanto puede durar toda la noche,\nPero a la mañana vendrá el grito de alegría."
+        }
+      ],
+      "id": "salmos30-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "salmos30-nbla-06",
+      "number": 6,
+      "text": "En cuanto a mí, en mi prosperidad dije:\n«Jamás seré conmovido»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos30-nbla-07a",
+          "order": 1,
+          "text": "Oh SEÑOR, con Tu favor has hecho que mi monte permanezca fuerte;"
+        },
+        {
+          "id": "salmos30-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tú escondiste Tu rostro, fui conturbado."
+        }
+      ],
+      "id": "salmos30-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos30-nbla-08",
+      "number": 8,
+      "text": "A Ti, oh SEÑOR, clamé,\nY al Señor dirigí mi súplica:"
+    },
+    {
+      "id": "salmos30-nbla-09",
+      "number": 9,
+      "text": "«¿Qué provecho hay en mi sangre si desciendo al sepulcro?\n¿Acaso te alabará el polvo? ¿Anunciará Tu fidelidad?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos30-nbla-10a",
+          "order": 1,
+          "text": "»Escucha, oh SEÑOR, y ten piedad de mí;"
+        },
+        {
+          "id": "salmos30-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Oh SEÑOR, sé Tú mi ayuda»."
+        }
+      ],
+      "id": "salmos30-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos30-nbla-11a",
+          "order": 1,
+          "text": "Tú has cambiado mi lamento en danza;"
+        },
+        {
+          "id": "salmos30-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Has desatado mi ropa de luto y me has ceñido de alegría;"
+        }
+      ],
+      "id": "salmos30-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "salmos30-nbla-12",
+      "number": 12,
+      "text": "Para que mi alma te cante alabanzas y no esté callada.\nOh SEÑOR, Dios mío, te daré gracias por siempre."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La vida verdaderamente bendecida comienza reconociendo la autoridad de Dios. La NBLA fija la bienaventuranza en el temor del SEÑOR, mientras MSG comunica pastoralmente la alegría y amplitud de esa bendición. El temor no debe interpretarse como ansiedad servil, sino como reverencia confiada que orienta la vida hacia Dios.",
+      "id": "salmos128-joya-01",
+      "msg": {
+        "en": "“All you who fear GOD, how blessed you are!”",
+        "es": "“Todos los que temen a DIOS, ¡qué bendecidos son!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos128-nbla-01a"
+          ],
+          "verseId": "salmos128-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios desea que el fruto legítimo del trabajo pueda ser recibido con gratitud y disfrutado. La NBLA sitúa la bendición en comer del trabajo de las propias manos, mientras MSG resalta la libertad de celebrar la bondad recibida. El texto no establece que toda prosperidad sea merecida ni que el éxito material pruebe superioridad espiritual; enseña a recibir el fruto sin ansiedad, orgullo ni culpa.",
+      "id": "salmos128-joya-02",
+      "msg": {
+        "en": "“Enjoy the blessing! Revel in the goodness!”",
+        "es": "“¡Disfruten la bendición! ¡Deléitense en la bondad!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La nueva generación representa vida, continuidad y esperanza. La NBLA conserva la imagen de las plantas de olivo alrededor de la mesa, mientras MSG hace visible su vitalidad y potencial. El salmo no reduce el valor de los hijos a su utilidad futura; invita a verlos como vida confiada por Dios que debe ser formada con cuidado y propósito.",
+      "id": "salmos128-joya-03",
+      "msg": {
+        "en": "“The children around your table as fresh and promising as young olive shoots.”",
+        "es": "“Los hijos alrededor de tu mesa serán tan llenos de vida y de promesa como retoños de olivo.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos128-nbla-03b"
+          ],
+          "verseId": "salmos128-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La bendición familiar descrita en el salmo debe ser recibida con asombro como regalo del SEÑOR. La NBLA mantiene el vínculo entre bendición y temor de Dios. MSG resume esa afirmación mediante la imagen expresiva del «sí» divino. Esa imagen no significa que Dios aprobará todos nuestros deseos, sino que Su propósito bueno sostiene la vida que se ordena bajo Sus caminos.",
+      "id": "salmos128-joya-04",
+      "msg": {
+        "en": "“Stand in awe of God’s Yes.”",
+        "es": "“Quédense asombrados ante el «sí» de Dios.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-04"
+        }
+      ],
+      "order": 4,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La bendición de Dios mira más allá de una sola generación y termina deseando paz para todo el pueblo. La NBLA une la continuidad familiar con el bienestar de Israel, mientras MSG comunica el disfrute de contemplar a los nietos. El texto no convierte la longevidad o la descendencia en derechos garantizados; expresa el deseo de que la fidelidad produzca fruto duradero dentro de una comunidad en paz.",
+      "id": "salmos128-joya-05",
+      "msg": {
+        "en": "“And enjoy your grandchildren. Peace to Israel!”",
+        "es": "“Disfruten también de sus nietos. ¡Paz para Israel!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-06"
+        }
+      ],
+      "order": 5,
+      "range": "5-6"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 128,
+    "studyId": "salmos-128"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos128-msg-01",
+      "msg": {
+        "en": "All you who fear GOD, how blessed you are!\nhow happily you walk on his smooth straight road!\nYou worked hard and deserve all you’ve got coming.\nEnjoy the blessing! Revel in the goodness!",
+        "es": "Todos los que temen a DIOS, ¡qué bendecidos son!\n¡Qué felices caminan por Su camino recto y despejado!\nHan trabajado duro y merecen disfrutar lo que viene.\n¡Disfruten la bendición! ¡Deléitense en la bondad!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos128-msg-02",
+      "msg": {
+        "en": "Your wife will bear children as a vine bears grapes,\nyour household lush as a vineyard,\nThe children around your table\nas fresh and promising as young olive shoots.\nStand in awe of God’s Yes.\nOh, how he blesses the one who fears GOD!",
+        "es": "Tu esposa tendrá hijos como una vid produce uvas;\ntu hogar será exuberante como un viñedo.\nLos hijos alrededor de tu mesa serán\ntan llenos de vida y de promesa como retoños de olivo.\nQuédense asombrados ante el «sí» de Dios.\n¡Así bendice Él a quien teme a DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos128-msg-03",
+      "msg": {
+        "en": "Enjoy the good life in Jerusalem\nevery day of your life.\nAnd enjoy your grandchildren.\nPeace to Israel!",
+        "es": "Disfruten de la buena vida en Jerusalén\ntodos los días de su vida.\nDisfruten también de sus nietos.\n¡Paz para Israel!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos128-nbla-06"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos128-nbla-01a",
+          "order": 1,
+          "text": "Bienaventurado todo aquel que teme al SEÑOR"
+        },
+        {
+          "id": "salmos128-nbla-01b",
+          "order": 2,
+          "text": ",\nQue anda en Sus caminos."
+        }
+      ],
+      "id": "salmos128-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos128-nbla-02",
+      "number": 2,
+      "text": "Cuando comas del trabajo de tus manos,\nDichoso serás y te irá bien."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos128-nbla-03a",
+          "order": 1,
+          "text": "Tu mujer será como fecunda vid\nEn el interior de tu casa;"
+        },
+        {
+          "id": "salmos128-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tus hijos como plantas de olivo\nAlrededor de tu mesa."
+        }
+      ],
+      "id": "salmos128-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos128-nbla-04",
+      "number": 4,
+      "text": "Así será bendecido el hombre\nQue teme al SEÑOR."
+    },
+    {
+      "id": "salmos128-nbla-05",
+      "number": 5,
+      "text": "El SEÑOR te bendiga desde Sión,\nVeas la prosperidad de Jerusalén todos los días de tu vida,"
+    },
+    {
+      "id": "salmos128-nbla-06",
+      "number": 6,
+      "text": "Y veas a los hijos de tus hijos.\n¡Paz sea sobre Israel!"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

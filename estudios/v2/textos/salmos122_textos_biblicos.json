@@ -1,0 +1,263 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La adoración comunitaria debe ser recibida como una oportunidad de encuentro con Dios y con Su pueblo. La NBLA establece que la alegría surge ante la invitación de ir a la casa del SEÑOR. MSG vuelve visible esa emoción mediante la imagen de un corazón que salta. La expresión no exige un estado emocional idéntico en cada reunión, pero sí revela el valor que el salmista concede a reunirse para adorar.",
+      "id": "salmos122-joya-01",
+      "msg": {
+        "en": "“my heart leaped for joy.”",
+        "es": "“mi corazón saltó de alegría.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios reúne a un pueblo diverso alrededor de Su presencia. La NBLA identifica a quienes ascienden como las tribus del SEÑOR, estableciendo que su unidad nace de su pertenencia a Él. MSG conserva el movimiento de ascenso hacia la ciudad. El texto no presenta a Jerusalén como un fin independiente, sino como el lugar donde el pueblo se congrega para reconocer a Dios.",
+      "id": "salmos122-joya-02",
+      "msg": {
+        "en": "“The city to which the tribes ascend”",
+        "es": "“La ciudad a la que suben las tribus”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos122-nbla-04a"
+          ],
+          "verseId": "salmos122-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-5"
+    },
+    {
+      "explanation": "La finalidad principal de la peregrinación es honrar el nombre de Dios. La NBLA expresa la alabanza como ordenanza para Israel, mientras MSG resalta la gratitud que acompaña esa adoración. Ambas versiones sitúan a Dios en el centro. La reunión del pueblo no existe para celebrar su propia identidad, sino para reconocer con gratitud quién es el SEÑOR y lo que ha hecho.",
+      "id": "salmos122-joya-03",
+      "msg": {
+        "en": "“To give thanks to the name of GOD”",
+        "es": "“y dar gracias al nombre de DIOS”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos122-nbla-04c"
+          ],
+          "verseId": "salmos122-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-5"
+    },
+    {
+      "explanation": "La búsqueda de paz nace del amor concreto por las personas. La NBLA muestra que el salmista habla por amor a sus hermanos y amigos. MSG convierte su declaración en una exhortación directa a vivir en paz. La paz no debe reducirse a evitar conversaciones difíciles; incluye procurar relaciones sanas, justicia y bienestar para quienes comparten la vida comunitaria.",
+      "id": "salmos122-joya-04",
+      "msg": {
+        "en": "“For the sake of my family and friends, I say it again: live in peace!”",
+        "es": "“Por el bien de mi familia y de mis amigos, lo digo otra vez: ¡vivan en paz!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-08"
+        }
+      ],
+      "order": 4,
+      "range": "6-9"
+    },
+    {
+      "explanation": "La oración por la ciudad debe producir compromiso con su bienestar. La NBLA expresa de manera sobria la decisión de procurar el bien de Jerusalén. MSG hace visible el esfuerzo personal implicado: el salmista hará cuanto esté a su alcance. Esto no significa que una sola persona pueda resolver todos los problemas comunitarios, pero sí que nadie puede amar la casa de Dios mientras permanece indiferente al bien de los demás.",
+      "id": "salmos122-joya-05",
+      "msg": {
+        "en": "“I’ll do my very best for you.”",
+        "es": "“haré todo lo que esté a mi alcance por ti.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos122-nbla-09b"
+          ],
+          "verseId": "salmos122-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "6-9"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 122,
+    "studyId": "salmos-122"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos122-msg-01",
+      "msg": {
+        "en": "When they said, “Let’s go to the house of GOD,”\nmy heart leaped for joy.\nAnd now we’re here, O Jerusalem,\ninside Jerusalem’s walls!",
+        "es": "Cuando dijeron: «Vamos a la casa de DIOS»,\nmi corazón saltó de alegría.\nY ahora estamos aquí, Jerusalén,\n¡dentro de tus murallas!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "salmos122-msg-02",
+      "msg": {
+        "en": "Jerusalem, well-built city,\nbuilt as a place for worship!\nThe city to which the tribes ascend,\nall GOD’S tribes go up to worship,\nTo give thanks to the name of GOD—\nthis is what it means to be Israel.\nThrones for righteous judgment\nare set there, famous David-thrones.",
+        "es": "Jerusalén, ciudad bien construida,\n¡edificada como un lugar para adorar!\nLa ciudad a la que suben las tribus,\ntodas las tribus de DIOS ascienden para adorar\ny dar gracias al nombre de DIOS:\neso es lo que significa ser Israel.\nAllí están establecidos tronos para impartir justicia,\nlos célebres tronos de David."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-9",
+      "id": "salmos122-msg-03",
+      "msg": {
+        "en": "Pray for Jerusalem’s peace!\nProsperity to all you Jerusalem-lovers!\nFriendly insiders, get along!\nHostile outsiders, keep your distance!\nFor the sake of my family and friends,\nI say it again: live in peace!\nFor the sake of the house of our God, GOD,\nI’ll do my very best for you.",
+        "es": "¡Oren por la paz de Jerusalén!\n¡Prosperidad para todos los que aman a Jerusalén!\nLos de dentro, ¡vivan en armonía!\nEnemigos de fuera, ¡mantengan la distancia!\nPor el bien de mi familia y de mis amigos,\nlo digo otra vez: ¡vivan en paz!\nPor amor a la casa de nuestro Dios, DIOS,\nharé todo lo que esté a mi alcance por ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos122-nbla-09"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos122-nbla-01",
+      "number": 1,
+      "text": "Yo me alegré cuando me dijeron:\n«Vamos a la casa del SEÑOR»."
+    },
+    {
+      "id": "salmos122-nbla-02",
+      "number": 2,
+      "text": "Plantados están nuestros pies\nDentro de tus puertas, oh Jerusalén."
+    },
+    {
+      "id": "salmos122-nbla-03",
+      "number": 3,
+      "text": "Jerusalén, que está edificada\nComo ciudad compacta, bien unida,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos122-nbla-04a",
+          "order": 1,
+          "text": "A la cual suben las tribus, las tribus del SEÑOR"
+        },
+        {
+          "id": "salmos122-nbla-04b",
+          "order": 2,
+          "text": ",\n(Lo cual es ordenanza para Israel)"
+        },
+        {
+          "id": "salmos122-nbla-04c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Para alabar el nombre del SEÑOR."
+        }
+      ],
+      "id": "salmos122-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos122-nbla-05",
+      "number": 5,
+      "text": "Porque allí se establecieron tronos para juicio,\nLos tronos de la casa de David."
+    },
+    {
+      "id": "salmos122-nbla-06",
+      "number": 6,
+      "text": "Oren ustedes por la paz de Jerusalén:\n«Sean prosperados los que te aman."
+    },
+    {
+      "id": "salmos122-nbla-07",
+      "number": 7,
+      "text": "Haya paz dentro de tus muros,\nY prosperidad en tus palacios»."
+    },
+    {
+      "id": "salmos122-nbla-08",
+      "number": 8,
+      "text": "Por amor de mis hermanos y de mis amigos,\nDiré ahora: «Sea la paz en ti»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos122-nbla-09a",
+          "order": 1,
+          "text": "Por amor de la casa del SEÑOR nuestro Dios"
+        },
+        {
+          "id": "salmos122-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Procuraré tu bien."
+        }
+      ],
+      "id": "salmos122-nbla-09",
+      "number": 9
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
