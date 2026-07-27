@@ -3,12 +3,13 @@
    Activación inmediata y actualización al abrir la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v9';
+const CACHE_NAME = 'stars-v11';
 const SHELL_FILES = [
   '/',
   '/index.html',
   '/manifest.json',
   '/logo-v2.png',
+  '/logo-stars-lockup-crop.png',
   '/icons/stars-favicon-v2.png',
   '/icons/apple-touch-icon-v2.png',
   '/icons/icon-192-v2.png',
