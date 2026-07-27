@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v8
+   S · T · A · R · S · Service Worker v9
    Activación inmediata y actualización al abrir la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v8';
+const CACHE_NAME = 'stars-v9';
 const SHELL_FILES = [
   '/',
   '/index.html',
