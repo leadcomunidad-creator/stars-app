@@ -211,6 +211,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .study-coming-soon{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);opacity:.7}
 .chapter-finder{padding:20px 0 36px}
 .chapter-finder-head{margin-bottom:18px}
+.chapter-finder-head--method-align{margin-left:20px;margin-right:20px}
 .chapter-finder-title{font-size:.875rem;font-weight:700;color:var(--white);margin-bottom:5px}
 .chapter-finder-copy{font-size:.6875rem;line-height:1.55;color:var(--white3)}
 .chapter-finder-label,.chapter-canon-label{font-size:.5625rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
@@ -239,6 +240,8 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .chapter-canon-cap.available{background:var(--gold-dim);border-color:var(--gold-border)!important;color:var(--gold);cursor:pointer}
 .chapter-canon-cap.available:hover{background:var(--gold);color:var(--black)}
 #dsk-study-panel-por-capitulo .chapter-finder{padding:20px 16px 36px}
+#dsk-study-panel-por-capitulo .chapter-finder-head--method-align,
+#dsk-study-panel-por-versiculo .chapter-finder-head--method-align{margin-left:0;margin-right:0}
 @media(max-width:360px){.chapter-finder-form{grid-template-columns:1fr}.chapter-finder-btn{min-height:42px}.chapter-canon-caps{grid-template-columns:repeat(5,minmax(0,1fr))}}
 
 /* Letras STARS expandibles */
@@ -950,6 +953,15 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .pt-study-btn{flex:1;min-width:180px;padding:12px 16px;border:1px solid var(--pt-border);border-radius:var(--radius-sm);background:var(--pt-dim);color:var(--pt-accent);font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:600;cursor:pointer}
 .pt-study-btn:hover{background:rgba(139,92,246,.24);border-color:rgba(139,92,246,.5)}
 .pt-foot{max-width:560px;margin:8px auto 0;padding-top:20px;border-top:1px solid rgba(255,255,255,.07);text-align:center;font-size:.75rem;color:var(--white3);line-height:1.6}
+.profundizar-access{margin:8px 18px 4px;display:flex;align-items:center;gap:14px;background:var(--black3);border:1px solid rgba(139,92,246,.25);border-radius:var(--radius-sm);padding:14px 16px;cursor:pointer;transition:background .2s,border-color .2s}
+.profundizar-access:hover{background:var(--black4);border-color:rgba(139,92,246,.5)}
+.profundizar-access-icon{width:38px;height:38px;border-radius:10px;background:rgba(139,92,246,.12);color:#a78bfa;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.profundizar-access-go{color:#a78bfa;flex-shrink:0}
+body.modo-dia .profundizar-access{border-color:var(--gold-border)}
+body.modo-dia .profundizar-access:hover{border-color:var(--gold);background:var(--black4)}
+body.modo-dia .profundizar-access-icon{background:var(--gold-dim);color:var(--gold)}
+body.modo-dia .profundizar-access-go{color:var(--gold)}
+body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-border:var(--gold-border);--pt-line:var(--gold-border)}
 .dsk-ws-inner.dsk-ws-inner--profundizar{max-width:1000px;padding:0 0 60px}
 @media (min-width:620px) and (max-width:1024px) and (orientation:portrait){
   .pt-hero{padding:32px 24px 22px}.pt-title{font-size:1.9rem}.pt-content{padding:30px 56px 40px}
@@ -2887,15 +2899,15 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
 
       <!-- Botón Profundizar texto -->
-      <div style="margin:8px 18px 4px;display:flex;align-items:center;gap:14px;background:var(--black3);border:1px solid rgba(139,92,246,0.25);border-radius:var(--radius-sm);padding:14px 16px;cursor:pointer;transition:all 0.2s" onclick="abrirExegetico()" onmouseenter="this.style.borderColor='rgba(139,92,246,0.5)';this.style.background='var(--black4)'" onmouseleave="this.style.borderColor='rgba(139,92,246,0.25)';this.style.background='var(--black3)'">
-        <div style="width:38px;height:38px;border-radius:10px;background:rgba(139,92,246,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+      <div class="profundizar-access" onclick="abrirExegetico()">
+        <div class="profundizar-access-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
         </div>
         <div style="flex:1;min-width:0">
           <div style="font-size:0.8125rem;font-weight:500;color:var(--white)">Profundizar texto</div>
           <div style="font-size:0.6875rem;color:var(--white3);margin-top:2px;line-height:1.45" id="prof-titulo">Versículo del día</div>
         </div>
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><polyline points="9 18 15 12 9 6"/></svg>
+        <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
 
       <!-- Frase para hoy · acceso al generador -->
@@ -3006,7 +3018,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     <div class="epanel" id="epanel-por-capitulo" style="overflow-y:auto;flex:1;padding-bottom:20px">
       <div class="chapter-finder">
-        <div class="chapter-finder-head">
+        <div class="chapter-finder-head chapter-finder-head--method-align">
           <div class="chapter-finder-title">Estudio por Capítulo</div>
           <div class="chapter-finder-copy">Busca un capítulo y abre directamente el estudio completo que ya está disponible.</div>
         </div>
@@ -3030,12 +3042,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     <!-- Panel: Por Versículo -->
     <div class="epanel" id="epanel-hoy-estudio" style="overflow-y:auto;flex:1;padding-bottom:20px">
-      <div style="padding:20px 20px 10px">
-        <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por Versículo</div>
+      <div class="chapter-finder">
+        <div class="chapter-finder-head chapter-finder-head--method-align">
+          <div class="chapter-finder-title">Estudio por Versículo</div>
+          <div class="chapter-finder-copy">Escribe un versículo o un rango y desarrolla su explicación bíblica.</div>
+        </div>
+        <div class="chapter-finder-label">¿Qué versículo quieres estudiar?</div>
+        <div class="chapter-finder-form">
+          <input class="chapter-finder-input" id="estudiar-cap" placeholder="Ej: Génesis 1:5" onkeydown="if(event.key==='Enter')generarAnalisis()">
+          <button class="chapter-finder-btn" onclick="generarAnalisis()">Analizar →</button>
+        </div>
       </div>
-      <div class="chips-label">¿Qué versículo quieres estudiar?</div>
-      <input class="estudiar-input" id="estudiar-cap" placeholder="Ej: Génesis 1:5, Efesios 2:5-6…"/>
-      <button class="estudiar-btn" onclick="generarAnalisis()">Analizar versículo →</button>
 
       <div style="text-align:center;margin:24px 20px 8px;font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--gold);opacity:0.6;font-style:italic">
         "Conectando con las Verdades del Padre"
@@ -7345,7 +7362,7 @@ function obtenerDatosExegetico(){
   const datos = devo?.profundizar_texto || devo?.paso_profundo || null;
   const datosLeg = typeof EXEGETICO_HOY !== 'undefined' ? EXEGETICO_HOY[getTodayKey()] : null;
   const elegido=datos||datosLeg;
-  return elegido ? {...elegido,texto_nbla:elegido.texto_nbla||devo?.texto_ntv?.cuerpo||''} : null;
+  return elegido ? {...elegido,texto_nbla:elegido.texto_nbla||''} : null;
 }
 
 /* ── Mobile: modal flotante de pantalla completa (sin cambios de comportamiento) ── */
@@ -7561,8 +7578,14 @@ async function abrirEstudioCanon(contexto,libro,capitulo){
     return;
   }
   mostrarEstadoBuscadorCapitulo(contexto,'Abriendo '+libro+' '+capitulo+'…',false,true);
-  if(contexto==='desktop') await dskAbrirCap(key);
-  else await abrirCapitulo(key);
+  try{
+    if(contexto==='desktop') await dskAbrirCap(key);
+    else await abrirCapitulo(key);
+    mostrarEstadoBuscadorCapitulo(contexto,'',false,false);
+  }catch(error){
+    mostrarEstadoBuscadorCapitulo(contexto,'No fue posible abrir el estudio. Intenta nuevamente.',true);
+    throw error;
+  }
 }
 
 function mostrarEstadoBuscadorCapitulo(contexto,mensaje,error,ok){
@@ -9203,15 +9226,15 @@ function dskIlSec(btn, idx){
           </div>
 
           <!-- Profundizar -->
-          <div id="dsk-profundizar-wrap" style="margin:8px 18px 4px;display:flex;align-items:center;gap:14px;background:var(--black3);border:1px solid rgba(139,92,246,0.25);border-radius:var(--radius-sm);padding:14px 16px;cursor:pointer;transition:all 0.2s" onclick="dskWs('exegetico')" onmouseenter="this.style.borderColor='rgba(139,92,246,0.5)';this.style.background='var(--black4)'" onmouseleave="this.style.borderColor='rgba(139,92,246,0.25)';this.style.background='var(--black3)'">
-            <div style="width:38px;height:38px;border-radius:10px;background:rgba(139,92,246,0.12);display:flex;align-items:center;justify-content:center;flex-shrink:0">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
+          <div id="dsk-profundizar-wrap" class="profundizar-access" onclick="dskWs('exegetico')">
+            <div class="profundizar-access-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg>
             </div>
             <div style="flex:1;min-width:0">
               <div style="font-size:0.8125rem;font-weight:500;color:var(--white)">Profundizar texto</div>
               <div style="font-size:0.6875rem;color:var(--white3);margin-top:2px;line-height:1.45" id="dsk-prof-titulo">Versículo del día</div>
             </div>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><polyline points="9 18 15 12 9 6"/></svg>
+            <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
           </div>
 
           <!-- Frase mini -->
@@ -9283,13 +9306,16 @@ function dskIlSec(btn, idx){
             <div class="dsk-study-tab" onclick="dskStudyTab('tracker',this)">Tracker</div>
           </div>
           <div class="dsk-study-panel" id="dsk-study-panel-por-versiculo">
-          <div style="padding:20px 16px 10px">
-            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por Versículo</div>
-          </div>
-          <div style="padding:0 16px">
-            <div class="chips-label">¿Qué versículo quieres estudiar?</div>
-            <input class="estudiar-input" id="dsk-ver-input" placeholder="Ej: Génesis 1:5, Efesios 2:5–6…" onkeydown="if(event.key==='Enter')dskAnalizarVer()"/>
-            <button class="estudiar-btn" onclick="dskAnalizarVer()">Analizar versículo →</button>
+          <div class="chapter-finder" style="padding:20px 16px 0">
+            <div class="chapter-finder-head chapter-finder-head--method-align">
+              <div class="chapter-finder-title">Estudio por Versículo</div>
+              <div class="chapter-finder-copy">Escribe un versículo o un rango y desarrolla su explicación bíblica.</div>
+            </div>
+            <div class="chapter-finder-label">¿Qué versículo quieres estudiar?</div>
+            <div class="chapter-finder-form">
+              <input class="chapter-finder-input" id="dsk-ver-input" placeholder="Ej: Génesis 1:5" onkeydown="if(event.key==='Enter')dskAnalizarVer()">
+              <button class="chapter-finder-btn" onclick="dskAnalizarVer()">Analizar →</button>
+            </div>
           </div>
 
           <div style="text-align:center;margin:34px 20px 38px;font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--gold);opacity:0.6;font-style:italic">

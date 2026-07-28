@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v13
+   S · T · A · R · S · Service Worker v14
    Activación inmediata y actualización al abrir la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v13';
+const CACHE_NAME = 'stars-v14';
 const SHELL_FILES = [
   '/',
   '/index.html',

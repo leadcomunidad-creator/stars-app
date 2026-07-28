@@ -197,7 +197,15 @@ Para unidades mayores escribe entre 6 y 8 párrafos, evitando repetición.
 No agregues subtítulos internos.]
 
 **NOTAS DE LA VERSION**
-[Analiza frases clave de The Message y contrástalas con la NBLA.
+[Desarrolla mini comentarios exegéticos y teológicos sobre frases o cláusulas clave del pasaje. The Message y NBLA ayudan a observar y precisar el texto, pero la comparación entre versiones nunca es el tema principal de la nota.
+
+OBJETIVO EXEGETICO DE LAS NOTAS:
+
+- Cada nota debe explicar una unidad textual concreta y mostrar por qué es significativa dentro del argumento, escena, poema o discurso.
+- Selecciona las frases por su peso literario, exegético o teológico, no simplemente porque MSG y NBLA usen palabras diferentes.
+- La explicación debe avanzar desde lo observable en la frase hacia su función contextual, su sentido y su importancia teológica.
+- Las versiones son herramientas de comprensión: MSG puede hacer visible una imagen, movimiento o tono; NBLA ayuda a fijar, confirmar o limitar el sentido. Ninguna debe ocupar el centro de la nota.
+- El resultado debe leerse como un comentario bíblico breve y sustancial, no como una comparación de traducciones.
 
 CANTIDAD DE NOTAS:
 
@@ -207,14 +215,14 @@ CANTIDAD DE NOTAS:
 - Si contiene 8 o más versículos, entrega un máximo de 5 notas.
 - La cantidad final debe depender de la riqueza textual y teológica del pasaje.
 - No generes una nota por cada versículo de forma automática.
-- Selecciona únicamente las frases que aporten un matiz real de The Message.
+- Selecciona únicamente frases con verdadero peso exegético, literario o teológico.
 - No es obligatorio incluir todos los versículos.
 - No fuerces diferencias con NBLA cuando ambas versiones expresan esencialmente la misma verdad.
 - No repitas el mismo matiz en varias notas.
 
 FORMATO EXACTO DE CADA NOTA:
 
-1. (v. 12) | Frase exacta en inglés | Traducción exacta al español | Segmento correspondiente de NBLA | Explicación del matiz que aporta The Message y de cómo la NBLA confirma, precisa o limita su alcance.
+1. (v. 12) | Frase exacta en inglés | Traducción exacta al español | Segmento correspondiente de NBLA | Mini comentario exegético y teológico de la frase.
 
 Cuando una frase abarque más de un versículo usa:
 
@@ -238,30 +246,32 @@ REGLAS PARA EL CONTENIDO DE LAS NOTAS:
 - Cada nota debe estudiar una frase concreta de The Message.
 - El segmento NBLA debe ser únicamente la porción comparable con esa frase; nunca repitas en una nota el pasaje NBLA completo.
 - Los cinco campos deben estar presentes y separados por exactamente cuatro caracteres verticales |.
-- Cada explicación debe indicar primero qué comunica la frase dentro de su oración y contexto, después qué vuelve visible MSG y finalmente cómo NBLA confirma, precisa o limita ese matiz.
-- Explica el matiz expresivo sin convertirlo automáticamente en doctrina.
-- Contrasta siempre con la NBLA como control más literal.
+- El quinto campo debe tener normalmente entre 90 y 140 palabras sustanciales.
+- Desarrolla el quinto campo como una unidad continua que integre cuatro movimientos: qué se observa en la frase; qué función cumple dentro de la unidad literaria; qué afirma o revela teológicamente; y cómo MSG y NBLA ayudan a precisar ese sentido.
+- No organices la explicación alrededor de la fórmula "MSG dice..., mientras NBLA dice...".
+- No reduzcas la nota a sinónimos, diferencias de tono, ampliaciones de redacción o comentarios sobre cuál versión es más literal.
+- Si ambas versiones coinciden, no necesitas comentarlo salvo que esa coincidencia ayude a fijar el sentido.
+- Si existe una diferencia relevante, explícala únicamente después de establecer el sentido de la frase en su contexto.
+- Distingue observación textual, inferencia responsable y afirmación teológica. No presentes una inferencia como si fuera una declaración explícita.
+- Cuando sea pertinente, conecta la frase con el centro teológico del pasaje o con una línea canónica clara, explicando la relación y sin acumular referencias.
 - No copies extensamente el texto de la NBLA.
-- Indica qué confirma, precisa o limita la NBLA respecto al lenguaje de The Message.
 - No uses frases vagas.
 - No repitas la explicación general.
 - No conviertas las notas en aplicaciones emocionales.
 - No digas "Peterson dice".
 - No atribuyas al autor una intención que no pueda sostenerse desde el texto.
 - Cada nota debe tener sustancia bíblica y teológica.
-- No fuerces diferencias cuando The Message y NBLA comunican esencialmente la misma verdad.
-- Cuando coincidan, explica cómo The Message hace más visible, concreto o cercano el mismo sentido.
+- No fuerces diferencias entre traducciones ni conviertas una elección expresiva de MSG en doctrina.
 
 Puedes usar expresiones como:
 
-"El texto enfatiza..."
-"La expresión traduce..."
-"El texto hace visible..."
-"La frase acerca el sentido hacia..."
-"La NBLA conserva de manera más directa..."
-"El contraste permite precisar..."
-"La expresión amplía pastoralmente..."
-"El contexto limita esta expresión a..."]
+"Dentro de esta unidad, la frase cumple la función de..."
+"El movimiento del texto va de... hacia..."
+"La imagen comunica..."
+"La afirmación revela..."
+"El contexto inmediato impide entender esto como..."
+"MSG hace visible..., mientras NBLA ayuda a fijar..."
+"Teológicamente, la frase sostiene..."]
 
 CONTROL DE EXTENSION PARA REFERENCIAS AMPLIAS:
 
@@ -311,7 +321,7 @@ Antes de entregar la respuesta, comprueba internamente:
 10. Que no hayas convertido una expansión de MSG en doctrina ni fabricado diferencias con NBLA.
 11. Que toda conexión canónica sea pertinente, funcional y explicada.
 12. Que no hayas inventado información histórica, lingüística o cultural.
-13. Que cada nota tenga exactamente cinco campos, un segmento NBLA comparable y un matiz no repetido.
+13. Que cada nota tenga exactamente cinco campos, un segmento NBLA comparable y un mini comentario exegético-teológico sustancial, no una simple comparación de versiones.
 14. Que no aparezcan saludos, cierres, advertencias o secciones adicionales.
 
 Si alguna comprobación falla, corrige la respuesta antes de entregarla.`;
@@ -377,10 +387,14 @@ function validarRespuesta(text) {
   }
   const lineas = notas.split('\n').map(linea => linea.trim()).filter(Boolean);
   if (lineas.length < 3 || lineas.length > 5) {
-    return 'La respuesta debe contener entre tres y cinco notas comparativas.';
+    return 'La respuesta debe contener entre tres y cinco notas exegéticas.';
   }
-  if (lineas.some(linea => linea.split('|').length !== 5)) {
+  const camposNotas = lineas.map(linea => linea.split('|').map(campo => campo.trim()));
+  if (camposNotas.some(campos => campos.length !== 5)) {
     return 'Cada nota debe contener exactamente cinco campos separados por cuatro barras verticales.';
+  }
+  if (camposNotas.some(campos => campos[4].split(/\s+/).filter(Boolean).length < 60)) {
+    return 'Cada nota debe incluir un comentario exegético y teológico sustancial de al menos sesenta palabras.';
   }
   return null;
 }
