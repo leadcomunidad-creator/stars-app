@@ -1,9 +1,10 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v14
-   Activación inmediata y actualización al abrir la PWA
+   S · T · A · R · S · Service Worker v21
+   Activación inmediata y actualización al abrir o retomar la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const CACHE_NAME = 'stars-v14';
+const SW_VERSION = 'stars-v21';
+const CACHE_NAME = SW_VERSION;
 const SHELL_FILES = [
   '/',
   '/index.html',
@@ -18,13 +19,10 @@ const SHELL_FILES = [
   '/icons/icon-maskable-512-v2.png'
 ];
 
-// INSTALL — precache del shell y activación inmediata.
+// INSTALL — precache del shell. La app decide cuándo es seguro activar.
 self.addEventListener('install', event => {
   event.waitUntil(
-    Promise.all([
-      self.skipWaiting(),
-      caches.open(CACHE_NAME).then(cache => cache.addAll(SHELL_FILES))
-    ])
+    caches.open(CACHE_NAME).then(cache => cache.addAll(SHELL_FILES))
   );
 });
 
@@ -35,10 +33,12 @@ self.addEventListener('activate', event => {
       const keys = await caches.keys();
       await Promise.all(
         keys
-          .filter(key => key !== CACHE_NAME)
+          .filter(key => key.startsWith('stars-') && key !== CACHE_NAME)
           .map(key => caches.delete(key))
       );
       await self.clients.claim();
+      const clients = await self.clients.matchAll({ type:'window', includeUncontrolled:true });
+      clients.forEach(client => client.postMessage({ type:'STARS_SW_ACTIVATED', version:SW_VERSION }));
     })()
   );
 });
@@ -115,5 +115,9 @@ self.addEventListener('message', event => {
   const data = event.data;
   if(data === 'SKIP_WAITING' || data?.type === 'SKIP_WAITING'){
     event.waitUntil(self.skipWaiting());
+    return;
+  }
+  if(data?.type === 'GET_VERSION' && event.source){
+    event.source.postMessage({ type:'STARS_SW_VERSION', version:SW_VERSION });
   }
 });

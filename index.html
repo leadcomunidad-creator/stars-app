@@ -40,7 +40,8 @@
   --radius-sm:9px;
 }
 html,body{height:100%;overflow:hidden}
-body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);overscroll-behavior:none}
+body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);overscroll-behavior:none;
+  --green:var(--gold);--green2:var(--gold);--green-dim:var(--gold-dim);--green-border:var(--gold-border)}
 .app{width:100%;max-width:430px;height:100%;height:100dvh;position:relative;display:flex;flex-direction:column;overflow:hidden;background:var(--black);margin:0 auto}
 
 
@@ -209,21 +210,38 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .epanel{display:none;padding:0 20px}
 .epanel.active{display:block}
 .study-coming-soon{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);opacity:.7}
-.chapter-finder{padding:20px 0 36px}
+.chapter-finder{padding:20px 0 0}
 .chapter-finder-head{margin-bottom:18px}
 .chapter-finder-head--method-align{margin-left:20px;margin-right:20px}
 .chapter-finder-title{font-size:.875rem;font-weight:700;color:var(--white);margin-bottom:5px}
 .chapter-finder-copy{font-size:.6875rem;line-height:1.55;color:var(--white3)}
 .chapter-finder-label,.chapter-canon-label{font-size:.5625rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
-.chapter-finder-form{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;margin-top:8px}
+.chapter-finder-form{display:grid;grid-template-columns:minmax(0,1fr) 96px;gap:8px;margin-top:8px}
 .chapter-finder-input{min-width:0;width:100%;background:var(--black3);border:1px solid var(--black5);border-radius:var(--radius-sm);color:var(--white);font-family:'Outfit',sans-serif;font-size:.8125rem;padding:11px 13px;outline:none}
 .chapter-finder-input:focus{border-color:var(--gold-border)}
 .chapter-finder-input::placeholder{color:var(--white3)}
-.chapter-finder-btn{border:1px solid var(--gold)!important;border-radius:var(--radius-sm);background:var(--gold);color:var(--black);font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:700;letter-spacing:.04em;padding:0 16px;cursor:pointer}
-.chapter-finder-feedback{min-height:20px;margin-top:8px;font-size:.6875rem;line-height:1.45;color:var(--white3)}
+.chapter-finder-btn{width:100%;border:1px solid var(--gold)!important;border-radius:var(--radius-sm);background:var(--gold);color:var(--black);font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:700;letter-spacing:.04em;padding:0 8px;cursor:pointer}
+.study-search-motto{min-height:54px;display:flex;align-items:center;justify-content:center;text-align:center;margin:18px 0 8px;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:700;line-height:1.45;color:var(--gold)}
+.study-search-motto::before,.study-search-motto::after{content:'';width:22px;height:1px;background:var(--gold-border);margin:0 10px}
+.study-tracker-shell{margin:20px;background:linear-gradient(145deg,var(--black3),var(--black2));border:1px solid var(--gold-border);border-radius:var(--radius);padding:20px;box-shadow:0 14px 36px rgba(0,0,0,.16)}
+.study-tracker-kicker{font-size:.5625rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.study-tracker-title{font-size:1rem;font-weight:700;color:var(--white)}
+.study-tracker-copy{font-size:.6875rem;line-height:1.55;color:var(--white3);margin-top:5px}
+.study-tracker-progress{display:flex;align-items:flex-end;justify-content:space-between;margin:20px 0 8px}
+.study-tracker-pct{font-size:2rem;font-weight:700;line-height:1;color:var(--gold)}
+.study-tracker-caption{font-size:.625rem;color:var(--white3)}
+.study-tracker-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:18px 0}
+.study-tracker-stat{padding:10px 8px;background:var(--black4);border:1px solid rgba(255,255,255,.06);border-radius:9px}
+.study-tracker-stat strong{display:block;font-size:.875rem;color:var(--white)}
+.study-tracker-stat span{display:block;margin-top:3px;font-size:.5rem;line-height:1.25;letter-spacing:.08em;text-transform:uppercase;color:var(--white3)}
+.study-tracker-open{width:100%;padding:12px;border:1px solid var(--gold)!important;border-radius:var(--radius-sm);background:var(--gold);color:var(--black);font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:700;cursor:pointer}
+.chapter-finder-feedback{margin-top:8px;font-size:.6875rem;line-height:1.45;color:var(--white3)}
+.chapter-finder-feedback:empty{display:none}
 .chapter-finder-feedback.is-error{color:#e87878}
 .chapter-finder-feedback.is-ok{color:var(--green2)}
 .chapter-canon{margin-top:28px;padding-top:22px;border-top:1px solid rgba(255,255,255,.07)}
+.verse-result-zone{padding-top:16px}
+.verse-result-zone .analisis-resultado{margin-top:0}
 .chapter-canon-copy{font-size:.6875rem;color:var(--white3);line-height:1.5;margin:6px 0 14px}
 .chapter-canon-group{margin-bottom:16px}
 .chapter-canon-group-title{font-size:.5625rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--white3);margin:0 2px 7px}
@@ -239,7 +257,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .chapter-canon-cap{aspect-ratio:1;border-radius:6px;background:var(--black4);border:1px solid rgba(255,255,255,.05)!important;color:var(--white3);font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;cursor:default}
 .chapter-canon-cap.available{background:var(--gold-dim);border-color:var(--gold-border)!important;color:var(--gold);cursor:pointer}
 .chapter-canon-cap.available:hover{background:var(--gold);color:var(--black)}
-#dsk-study-panel-por-capitulo .chapter-finder{padding:20px 16px 36px}
+#dsk-study-panel-por-capitulo .chapter-finder{padding:20px 16px 0}
 #dsk-study-panel-por-capitulo .chapter-finder-head--method-align,
 #dsk-study-panel-por-versiculo .chapter-finder-head--method-align{margin-left:0;margin-right:0}
 @media(max-width:360px){.chapter-finder-form{grid-template-columns:1fr}.chapter-finder-btn{min-height:42px}.chapter-canon-caps{grid-template-columns:repeat(5,minmax(0,1fr))}}
@@ -1278,6 +1296,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .pd2-text-content{text-align:center}.pd2-root .texto-versiculo{display:inline-block;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;letter-spacing:.04em;color:var(--black);background:var(--gold);padding:.125rem .5625rem;border-radius:.625rem;margin-bottom:.75rem}.pd2-layer-label{font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;text-align:center}.pd2-root .texto-italic{font-size:1.375rem;line-height:1.7;color:var(--white);text-align:center}.pd2-root #texto-ntv .texto-italic,.pd2-nbla-reading{font-size:1.1875rem;line-height:1.8;color:var(--white);font-style:normal;text-align:center}
 .pd2-idea{display:none;max-width:35rem;margin:0 auto 2rem;text-align:center}.pd2-idea.is-visible{display:block}.pd2-idea-rule{width:2.25rem;height:1px;background:var(--gold);opacity:.55;margin:0 auto}.pd2-idea-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:.875rem 0 .75rem}.pd2-idea-text{font-size:1.75rem;line-height:1.45;color:var(--white);font-style:italic}.pd2-idea .pd2-idea-rule:last-child{margin-top:1rem}
 .pd2-welcome{display:none;font-family:'Outfit',sans-serif;font-size:1rem;line-height:1.85;color:var(--white2);font-style:italic;margin:0 0 1.25rem}.pd2-welcome.is-visible{display:block}.pd2-lede{font-family:'Outfit',sans-serif;font-size:1.25rem;line-height:1.7;color:var(--white);margin:0 0 1.25rem}.pd2-paragraph{font-family:'Outfit',sans-serif;font-size:1.03125rem;line-height:1.85;color:var(--white2);margin:0 0 1.25rem}.pd2-paragraph:last-child{margin-bottom:0}.pd2-analisis-footer{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);text-align:center;font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);opacity:.75}
+.pd2-root .analisis-block p.pd2-lede{font-size:1.25rem;font-weight:600;line-height:1.7;color:var(--white)}
 .pd2-question{font-size:1.3125rem;line-height:1.7;color:var(--white);font-style:italic;text-align:center}.pd2-note{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);font-size:.75rem;color:var(--white3);line-height:1.6;text-align:center}
 .pd2-practice{font-family:'Outfit',sans-serif;font-size:1.125rem;line-height:1.75;color:var(--white);text-align:center}.pd2-root .sembrar-practica{border-left:0;padding-left:0;margin-bottom:0;font-style:normal}.pd2-boxed{background:var(--black3);border:1px solid var(--gold-border)!important;border-radius:var(--radius);padding:1.75rem 2rem!important;margin-top:.5rem}.pd2-boxed .oracion-cierre-card{background:none;border:0;padding:0;margin:0}.pd2-boxed .oracion-cierre-card::before{display:none}.pd2-boxed .oracion-cierre-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;color:var(--gold);opacity:1;text-align:center;margin-bottom:1rem}.pd2-boxed .oracion-cierre-texto{font-size:1.125rem;text-align:center;color:var(--white)}
 .pd2-complete-btn,.pd2-root .done-btn{width:100%;max-width:35rem;margin:1.5rem auto 0;padding:1rem;border-radius:var(--radius-sm);display:block;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-family:'Outfit',sans-serif;font-size:.875rem;font-weight:600;letter-spacing:.02em}.pd2-complete-btn:disabled,.pd2-root .done-btn:disabled{background:var(--green-dim);border-color:var(--green-border);color:var(--green2);cursor:default;opacity:.78}
@@ -1324,7 +1343,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .estudio-cap-back{background:none;border:none;color:var(--white3);font-size:1.375rem;cursor:pointer;padding:4px;line-height:1}
 .estudio-cap-back:hover{color:var(--white)}
 .estudio-cap-titulo{font-size:0.9375rem;font-weight:600;color:var(--white);flex:1}
-.estudio-cap-subtitulo{font-size:0.625rem;color:var(--white3);letter-spacing:0.1em;text-transform:uppercase}
+.estudio-cap-subtitulo{display:none}
 .estudio-cap-drive-btn{background:var(--black3);border:1px solid rgba(255,255,255,0.1);color:var(--white3);font-size:0.625rem;font-weight:600;font-family:'Outfit',sans-serif;padding:7px 12px;border-radius:20px;cursor:pointer;white-space:nowrap}
 .estudio-cap-drive-btn:hover{border-color:var(--gold-border);color:var(--gold)}
 .estudio-cap-nav{display:flex;gap:6px;padding:10px 16px;overflow-x:auto;flex-shrink:0;border-bottom:1px solid rgba(255,255,255,0.05)}
@@ -1352,6 +1371,36 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .estudio-frase-final-ref{font-size:0.625rem;color:var(--gold);letter-spacing:0.12em;text-transform:uppercase}
 .estudio-progress{height:2px;background:var(--black5);flex-shrink:0}
 .estudio-progress-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--green2));transition:width 0.3s;border-radius:99px}
+
+/* ══ LECTOR DIGITAL POR CAPÍTULO ══ */
+.chapter-reader-modal{position:fixed;inset:0;z-index:520;display:none;flex-direction:column;background:var(--black)}
+.chapter-reader-modal.open{display:flex}
+.chapter-reader-body{flex:1;overflow-y:auto;overscroll-behavior:contain;padding:0 20px 38px;scrollbar-gutter:stable}
+.chapter-reader{--reader-line:color-mix(in srgb,var(--gold) 18%,transparent);max-width:760px;margin:0 auto;color:var(--white)}
+.chapter-reader-hero{text-align:center;padding:34px 8px 26px;border-bottom:1px solid var(--reader-line)}
+.chapter-reader-kicker{font-family:'Outfit',sans-serif;font-size:.5625rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:10px}
+.chapter-reader-title{font-family:'Cormorant Garamond',Georgia,serif;font-size:clamp(2rem,8vw,3.25rem);font-weight:600;line-height:1.05;margin:0}
+.chapter-reader-sub{font-family:'Outfit',sans-serif;font-size:.6875rem;color:var(--white3);margin-top:9px;letter-spacing:.04em}
+.chapter-reader-versions{position:sticky;top:0;z-index:2;display:flex;justify-content:center;gap:8px;padding:14px 0;background:color-mix(in srgb,var(--black) 94%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--reader-line)}
+.chapter-reader-version{min-width:104px;padding:9px 16px;border:1px solid var(--black5);border-radius:999px;background:var(--black3);color:var(--white3);font:600 .6875rem 'Outfit',sans-serif;cursor:pointer}
+.chapter-reader-version.active{border-color:var(--gold);background:var(--gold-dim);color:var(--gold)}
+.chapter-reader-text{padding:32px 2px 20px;font-family:'Cormorant Garamond',Georgia,serif;font-size:1.25rem;line-height:1.9;color:var(--white2)}
+.chapter-reader-text p{margin:0 0 1.3em}
+.chapter-reader-verse{font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:700;color:var(--gold);vertical-align:super;margin-right:7px}
+.chapter-reader-range{display:block;font-family:'Outfit',sans-serif;font-size:.5625rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:5px}
+.chapter-reader-actions{margin-top:20px;padding-top:24px;border-top:1px solid var(--reader-line)}
+.chapter-reader-primary{width:100%;min-height:48px;border:1px solid var(--gold);border-radius:10px;background:var(--gold);color:var(--black);font:700 .75rem 'Outfit',sans-serif;letter-spacing:.05em;cursor:pointer}
+.chapter-reader-share{width:100%;min-height:44px;margin-top:10px;border:1px solid var(--gold-border);border-radius:10px;background:transparent;color:var(--gold);font:700 .7rem 'Outfit',sans-serif;letter-spacing:.04em;cursor:pointer}
+.chapter-reader-nav{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.chapter-reader-nav-btn{min-height:44px;padding:10px;border:1px solid var(--gold-border);border-radius:10px;background:var(--gold-dim);color:var(--gold);font:600 .6875rem 'Outfit',sans-serif;cursor:pointer}
+.chapter-reader-nav-btn:disabled{opacity:.35;cursor:default}
+.chapter-reader-copyright{margin-top:26px;font:400 .5625rem/1.6 'Outfit',sans-serif;color:var(--white3);text-align:center}
+.dsk-ws-inner.dsk-ws-inner--reader{max-width:920px;padding:0 24px 70px}
+.dsk-ws-inner--reader .chapter-reader{max-width:780px}
+.dsk-ws-inner--reader .chapter-reader-text{font-size:1.4rem;line-height:1.95;padding-left:30px;padding-right:30px}
+.est-v2-share{margin-top:16px;padding:8px 14px!important;border:1px solid var(--est-v2-line2)!important;border-radius:999px!important;color:var(--est-v2-accent2)!important;font-family:'Outfit',sans-serif!important;font-size:10px!important;font-weight:700!important;letter-spacing:.08em!important;text-transform:uppercase}
+@media(min-width:620px) and (max-width:1023px){.chapter-reader-body{padding-left:48px;padding-right:48px}.chapter-reader-text{font-size:1.35rem}}
+@media(max-width:420px){.chapter-reader-body{padding-left:16px;padding-right:16px}.chapter-reader-nav{grid-template-columns:1fr}.chapter-reader-text{font-size:1.16rem}}
 
 /* ══ CAPÍTULOS ══ */
 /* ==== ESTUDIOS V2 - renderer compartido ==== */
@@ -1747,7 +1796,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
     position:fixed; inset:0; z-index:50;
     background:var(--black); font-family:'Outfit',sans-serif;
   }
-  body.admin-mode #dsk{
+  body.admin-mode.admin-bar-visible #dsk{
     top:var(--admin-bar-h,46px);
     bottom:0;
     height:calc(100vh - var(--admin-bar-h,46px));
@@ -1832,7 +1881,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 
   /* Panel content — scroll */
   #dsk-panel{
-    flex:1; overflow-y:auto; padding:0;
+    flex:1; overflow-y:auto; scrollbar-gutter:stable; padding:0;
   }
   #dsk-panel::-webkit-scrollbar{ width:3px; }
   #dsk-panel::-webkit-scrollbar-thumb{ background:rgba(255,255,255,0.08); border-radius:99px; }
@@ -2365,36 +2414,42 @@ body.modo-dia .estudio-frase-final{ background:var(--black3) !important; }
 .cfg-font-btn:nth-child(4){font-size:1.0rem}
 .cfg-font-btn:nth-child(5){font-size:1.125rem}
 
-.cfg-tema-row{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap}
+.cfg-theme-lhscol{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:12px}
+.cfg-tema-row{display:flex;gap:8px;margin-top:10px;flex-wrap:nowrap;width:100%}
 .cfg-tema-btn{
   display:flex;align-items:center;gap:7px;padding:7px 12px 7px 7px;border-radius:20px;
   background:var(--black4);border:1px solid rgba(255,255,255,0.08);
   color:var(--white3);font-family:'Outfit',sans-serif;font-size:0.6875rem;font-weight:500;
   cursor:pointer;transition:all 0.18s;
 }
+.cfg-theme-lhscol .cfg-tema-btn{flex:1}
+.cfg-tema-row .cfg-tema-btn{flex:1;justify-content:center;padding:8px 6px}
+.cfg-night-control{display:flex;align-items:center;gap:8px;font-size:.625rem;font-weight:600;color:var(--white3);white-space:nowrap}
+body.admin-mode .admin-config-row{display:flex!important}
 .cfg-tema-btn.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--white)}
 .cfg-tema-dot{width:18px;height:18px;border-radius:50%;flex-shrink:0;border:1px solid rgba(255,255,255,0.15)}
 
 /* Ajuste mobile: la barra admin no debe cubrir botones ni encabezados internos */
-body.admin-mode .app{
+body.admin-mode.admin-bar-visible .app{
   height:calc(100dvh - var(--admin-bar-h,46px));
 }
-body.admin-mode .modal,
-body.admin-mode .cal-modal,
-body.admin-mode .exeg-modal,
-body.admin-mode .frase-modal,
-body.admin-mode .frase-estudio-modal,
-body.admin-mode .estudio-cap-modal,
-body.admin-mode #blog-modal,
-body.admin-mode .config-modal{
+body.admin-mode.admin-bar-visible .modal,
+body.admin-mode.admin-bar-visible .cal-modal,
+body.admin-mode.admin-bar-visible .exeg-modal,
+body.admin-mode.admin-bar-visible .frase-modal,
+body.admin-mode.admin-bar-visible .frase-estudio-modal,
+body.admin-mode.admin-bar-visible .estudio-cap-modal,
+body.admin-mode.admin-bar-visible .chapter-reader-modal,
+body.admin-mode.admin-bar-visible #blog-modal,
+body.admin-mode.admin-bar-visible .config-modal{
   top:var(--admin-bar-h,46px);
   bottom:0;
   height:auto;
 }
-body.admin-mode .estudio-cap-topbar{
+body.admin-mode.admin-bar-visible .estudio-cap-topbar{
   padding-top:18px;
 }
-body.admin-mode .tracker-full-header{
+body.admin-mode.admin-bar-visible .tracker-full-header{
   padding-top:18px;
 }
 
@@ -2676,7 +2731,11 @@ body.admin-mode .tracker-full-header{
     padding:5px 16px;font-weight:700;font-family:inherit;font-size:0.8125rem;cursor:pointer;
   ">Cargar</button>
   <span id="admin-status" style="color:#c9a84c;font-size:0.6875rem;opacity:0.8;"></span>
-  <span style="margin-left:auto;color:#3a2010;font-size:0.625rem;letter-spacing:0.08em;">MODO ADMINISTRADOR</span>
+  <button onclick="toggleAdminBar(false)" style="
+    margin-left:auto;background:transparent;color:#c9a84c;border:1px solid #c9a84c55;border-radius:8px;
+    padding:5px 12px;font-weight:600;font-family:inherit;font-size:0.6875rem;cursor:pointer;
+  ">Ocultar</button>
+  <span style="color:#3a2010;font-size:0.625rem;letter-spacing:0.08em;">MODO ADMINISTRADOR</span>
 </div>
 <div id="admin-spacer" style="display:none;height:46px"></div>
 
@@ -2687,8 +2746,6 @@ body.admin-mode .tracker-full-header{
     document.body.classList.add('admin-mode');
     const panel = document.getElementById('admin-panel');
     const spacer = document.getElementById('admin-spacer');
-    if(panel)  { panel.style.display  = 'flex'; }
-    if(spacer) { spacer.style.display = 'block'; }
     window.syncAdminHeight = () => {
       if(!panel) return;
       const h = panel.offsetHeight || 46;
@@ -2699,6 +2756,21 @@ body.admin-mode .tracker-full-header{
     requestAnimationFrame(window.syncAdminHeight);
     setTimeout(window.syncAdminHeight, 250);
     window.addEventListener('resize', window.syncAdminHeight);
+    window.toggleAdminBar(false);
+  };
+
+  window.toggleAdminBar = function(forzar){
+    if(!window.ADMIN_MODE) return;
+    const panel = document.getElementById('admin-panel');
+    const spacer = document.getElementById('admin-spacer');
+    const visible = typeof forzar === 'boolean'
+      ? forzar
+      : !document.body.classList.contains('admin-bar-visible');
+    document.body.classList.toggle('admin-bar-visible', visible);
+    if(panel) panel.style.display = visible ? 'flex' : 'none';
+    if(spacer) spacer.style.display = visible ? 'block' : 'none';
+    document.querySelectorAll('#config-toggle-admin,#dsk-config-toggle-admin').forEach(toggle=>{ toggle.checked = visible; });
+    if(visible && window.syncAdminHeight) requestAnimationFrame(window.syncAdminHeight);
   };
 
   const params = new URLSearchParams(window.location.search);
@@ -2992,27 +3064,23 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     <!-- Panel: Por Capítulo -->
     <div class="epanel active" id="epanel-capitulos" style="overflow-y:auto;flex:1;padding-bottom:20px">
-      <div style="padding:20px 20px 10px">
-        <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por Método</div>
-      </div>
-
-      <!-- Stats capítulos disponibles -->
-      <div class="cap-stats-row">
-        <div class="cap-stat">
-          <div class="cap-stat-val" id="cap-total-lib">0</div>
-          <div class="cap-stat-label">Total capítulos</div>
+      <div class="chapter-finder" style="padding-bottom:0">
+        <div class="chapter-finder-head chapter-finder-head--method-align">
+          <div class="chapter-finder-title">Estudio por Método</div>
+          <div class="chapter-finder-copy">Lee como funciona en la parte de abajo</div>
         </div>
-        <div class="cap-stat">
-          <div class="cap-stat-val" id="cap-total-disp">0</div>
-          <div class="cap-stat-label">Disponibles</div>
+        <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
+        <div class="chapter-finder-form">
+          <input class="chapter-finder-input" id="cap-search" placeholder="Ej: Josué" oninput="filtrarCapitulos()" onkeydown="if(event.key==='Enter')filtrarCapitulos()">
+          <button class="chapter-finder-btn" onclick="filtrarCapitulos()">Buscar →</button>
         </div>
-        <div class="cap-stat">
-          <div class="cap-stat-val" id="cap-nuevos">0</div>
-          <div class="cap-stat-label">Leídos</div>
+        <div class="study-search-motto">Conectando con las Verdades del Padre</div>
+        <div class="chapter-canon">
+          <div class="chapter-canon-label">Lectura en orden pedagógico S.T.A.R.S.</div>
+          <div class="chapter-canon-copy">Un recorrido formativo por etapas, diseñado para comprender la Biblia como un todo.</div>
+          <div id="cap-bloques-container"></div>
         </div>
       </div>
-      <input class="cap-search" id="cap-search" placeholder="Buscar libro..." oninput="filtrarCapitulos()">
-      <div id="cap-bloques-container"></div>
       <div id="metodo-host-mobile"></div>
     </div>
 
@@ -3020,7 +3088,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div class="chapter-finder">
         <div class="chapter-finder-head chapter-finder-head--method-align">
           <div class="chapter-finder-title">Estudio por Capítulo</div>
-          <div class="chapter-finder-copy">Busca un capítulo y abre directamente el estudio completo que ya está disponible.</div>
+          <div class="chapter-finder-copy">Busca un capítulo y lee el texto completo en MSG y NBLA.</div>
         </div>
         <div class="chapter-finder-label">¿Qué capítulo quieres estudiar?</div>
         <div class="chapter-finder-form">
@@ -3028,9 +3096,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <button class="chapter-finder-btn" onclick="buscarEstudioPorCapitulo('mobile')">Buscar →</button>
         </div>
         <div class="chapter-finder-feedback" id="chapter-finder-feedback-mobile" aria-live="polite"></div>
+        <div class="study-search-motto">Conectando con las Verdades del Padre</div>
         <div class="chapter-canon">
-          <div class="chapter-canon-label">La Biblia en orden</div>
-          <div class="chapter-canon-copy">De Génesis a Apocalipsis. Los capítulos resaltados ya tienen estudio disponible.</div>
+          <div class="chapter-canon-label">Lectura en orden canónico</div>
+          <div class="chapter-canon-copy">De Génesis a Apocalipsis.</div>
           <div id="chapter-canon-mobile"></div>
         </div>
       </div>
@@ -3052,53 +3121,38 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <input class="chapter-finder-input" id="estudiar-cap" placeholder="Ej: Génesis 1:5" onkeydown="if(event.key==='Enter')generarAnalisis()">
           <button class="chapter-finder-btn" onclick="generarAnalisis()">Analizar →</button>
         </div>
-      </div>
-
-      <div style="text-align:center;margin:24px 20px 8px;font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--gold);opacity:0.6;font-style:italic">
-        "Conectando con las Verdades del Padre"
-      </div>
-
-      <div class="analisis-resultado" id="analisis-result" style="display:none">
-        <div class="ar-header">
-          <div class="ar-spinner" id="ar-spinner"></div>
-          <div class="ar-status" id="ar-status">Analizando versículo…</div>
+        <div class="study-search-motto">Conectando con las Verdades del Padre</div>
+        <div class="chapter-canon verse-result-zone">
+          <div class="analisis-resultado" id="analisis-result" style="display:none">
+            <div class="ar-header">
+              <div class="ar-spinner" id="ar-spinner"></div>
+              <div class="ar-status" id="ar-status">Analizando versículo…</div>
+            </div>
+            <div class="ar-content" id="ar-content"></div>
+          </div>
         </div>
-        <div class="ar-content" id="ar-content"></div>
       </div>
     </div>
 
     <!-- Panel: Tracker -->
     <div class="epanel" id="epanel-tracker-tab" style="overflow-y:auto;flex:1;padding-bottom:20px">
-      <div class="tracker-mini" style="margin:16px 20px;padding:20px 20px">
-        <!-- Título -->
-        <div style="margin-bottom:14px">
-          <div style="font-size:0.5rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);opacity:0.55;margin-bottom:5px;font-weight:600">S · T · A · R · S</div>
-          <div style="font-size:0.9375rem;font-weight:500;color:var(--white);line-height:1.2">The Message Completa</div>
-        </div>
-        <!-- Porcentaje + barra -->
-        <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:8px">
-          <div style="font-family:'Cormorant Garamond',serif;font-size:2.25rem;color:var(--gold);line-height:1" id="tm-pct">0%</div>
-          <div style="font-size:0.625rem;color:var(--white3);letter-spacing:0.08em">completado</div>
+      <div class="study-tracker-shell">
+        <div class="study-tracker-kicker">Tracker de lectura</div>
+        <div class="study-tracker-title">Tu recorrido por la Biblia</div>
+        <div class="study-tracker-copy">Consulta lo leído, lo pendiente y continúa desde cualquier libro.</div>
+        <div class="study-tracker-progress">
+          <div class="study-tracker-pct" id="tm-pct">0%</div>
+          <div class="study-tracker-caption">completado</div>
         </div>
         <div class="tracker-mini-bar" style="margin-bottom:16px;height:4px">
           <div class="tracker-mini-fill" id="tm-bar" style="width:0%"></div>
         </div>
-        <!-- Stats grid 3 columnas -->
-        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:16px">
-          <div class="tms">
-            <div class="tms-label">Capítulos<br>leídos</div>
-            <div class="tms-val" id="tm-leidos">0</div>
-          </div>
-          <div class="tms">
-            <div class="tms-label">Total<br>capítulos</div>
-            <div class="tms-val" id="tm-caps">1,189</div>
-          </div>
-          <div class="tms">
-            <div class="tms-label">Capítulos<br>restantes</div>
-            <div class="tms-val" id="tm-restantes">1,189</div>
-          </div>
+        <div class="study-tracker-stats">
+          <div class="study-tracker-stat"><strong id="tm-leidos">0</strong><span>Leídos</span></div>
+          <div class="study-tracker-stat"><strong id="tm-caps">1,189</strong><span>Total</span></div>
+          <div class="study-tracker-stat"><strong id="tm-restantes">1,189</strong><span>Pendientes</span></div>
         </div>
-        <button class="tracker-open-btn" onclick="navTo('tracker')">Ver tracker completo →</button>
+        <button class="study-tracker-open" onclick="navTo('tracker')">Abrir tracker completo →</button>
       </div>
     </div>
 
@@ -3264,12 +3318,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div id="scroll-tracker" style="overflow-y:auto;padding-bottom:20px">
       <div class="tracker-full-header">
         <button class="back-btn" onclick="navTo('estudiar')">← Estudio</button>
-        <div class="tf-title">Tracker · Capítulos leídos</div>
+        <div><div class="tf-title">Tracker de lectura</div><div class="study-tracker-copy">Tu recorrido completo por la Biblia</div></div>
       </div>
       <div class="tf-stats">
-        <div class="tf-stat"><div class="tf-stat-label">Caps leídos</div><div class="tf-stat-val" id="tf-leidos">0</div></div>
-        <div class="tf-stat"><div class="tf-stat-label">Libros completos</div><div class="tf-stat-val" id="tf-faltan">0</div></div>
-        <div class="tf-stat"><div class="tf-stat-label">Total caps</div><div class="tf-stat-val" id="tf-caps">0</div></div>
+        <div class="tf-stat"><div class="tf-stat-label">Total capítulos</div><div class="tf-stat-val" id="tf-caps">0</div></div>
+        <div class="tf-stat"><div class="tf-stat-label">Leídos</div><div class="tf-stat-val" id="tf-leidos">0</div></div>
+        <div class="tf-stat"><div class="tf-stat-label">Pendientes</div><div class="tf-stat-val" id="tf-faltan">0</div></div>
         <div class="tf-stat"><div class="tf-stat-label">Progreso</div><div class="tf-stat-val" id="tf-pct">0%</div></div>
       </div>
       <div class="tf-bar-wrap"><div class="tf-bar-fill" id="tf-bar" style="width:0%"></div></div>
@@ -3515,7 +3569,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <div class="analisis-block"><p class="pd2-lede"></p></div>
         <div class="analisis-block"><p class="pd2-paragraph"></p></div>
         <div class="analisis-block"><p class="pd2-paragraph"></p></div>
-        <div class="pd2-analisis-footer">Mayor que mi Realidad es Su Verdad</div>
+        <div class="pd2-analisis-footer">Mayor que mi realidad es Su Verdad</div>
       </div>
       <button class="done-btn show pd2-complete-btn" onclick="cerrarModalConMarca(2)">✓ He leído el análisis</button>
     </div></div>
@@ -3675,7 +3729,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <button class="estudio-cap-back" onclick="cerrarEstudioCap()">←</button>
     <div style="flex:1;min-width:0">
       <div class="estudio-cap-titulo" id="ecap-titulo"></div>
-      <div class="estudio-cap-subtitulo">S · T · A · R · S · The Message · LHSCOL</div>
+      <div class="estudio-cap-subtitulo" aria-hidden="true"></div>
     </div>
 
   </div>
@@ -3684,13 +3738,24 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <div class="estudio-cap-body" id="ecap-body"></div>
 </div>
 
+<!-- ══ LECTOR DIGITAL POR CAPÍTULO ══ -->
+<div class="chapter-reader-modal" id="chapter-reader-modal">
+  <div class="estudio-cap-topbar">
+    <button class="estudio-cap-back" onclick="cerrarLectorCapitulo()">←</button>
+    <div style="flex:1;min-width:0">
+      <div class="estudio-cap-titulo" id="chapter-reader-modal-title">Lectura por capítulo</div>
+    </div>
+  </div>
+  <div class="chapter-reader-body" id="chapter-reader-mobile"></div>
+</div>
+
 <!-- ══ MODAL INTRODUCCIÓN AL LIBRO — gemelo del modal de estudio por capítulo ══ -->
 <div class="intro-libro-modal" id="intro-libro-modal">
   <div class="estudio-cap-topbar">
     <button class="estudio-cap-back" onclick="cerrarIntroLibro()">←</button>
     <div style="flex:1;min-width:0">
       <div class="estudio-cap-titulo" id="il-titulo"></div>
-      <div class="estudio-cap-subtitulo">Introducción · S · T · A · R · S · LHSCOL</div>
+      <div class="estudio-cap-subtitulo" aria-hidden="true"></div>
     </div>
   </div>
   <div class="estudio-cap-nav" id="il-nav"></div>
@@ -3711,19 +3776,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <button class="config-close" onclick="cerrarConfig()">×</button>
     </div>
     <div class="config-body">
-      <!-- Modo día / noche -->
-      <div class="config-row" onclick="toggleModo()">
+      <div class="config-row admin-config-row" style="display:none" onclick="toggleAdminBar()">
         <div class="config-row-left">
-          <div class="config-row-icon" id="config-modo-icon">🌙</div>
+          <div class="config-row-icon">⚙</div>
           <div>
-            <div class="config-row-label" id="config-modo-label">Modo noche</div>
-            <div class="config-row-sub" id="config-modo-sub">Fondo oscuro activo</div>
+            <div class="config-row-label">Barra de administrador</div>
+            <div class="config-row-sub">Muéstrala solo cuando necesites cambiar la fecha</div>
           </div>
         </div>
         <label class="config-toggle" onclick="event.stopPropagation()">
-          <input type="checkbox" id="config-toggle-modo" onchange="toggleModo()">
-          <div class="config-toggle-track"></div>
-          <div class="config-toggle-thumb"></div>
+          <input type="checkbox" id="config-toggle-admin" onchange="toggleAdminBar(this.checked)">
+          <div class="config-toggle-track"></div><div class="config-toggle-thumb"></div>
         </label>
       </div>
       <!-- Tamaño de letra -->
@@ -3745,29 +3808,35 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <button id="cfg-font-xl" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(4)">A</button>
         </div>
       </div>
-      <!-- Tema de color -->
+      <!-- Tema de la App -->
       <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
         <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
           <div style="display:flex;align-items:center;gap:12px">
             <div class="config-row-icon">🎨</div>
             <div>
-              <div class="config-row-label">Tema de color</div>
-              <div class="config-row-sub">Paletas de identidad LHSCOL</div>
+              <div class="config-row-label">Tema de la App</div>
+              <div class="config-row-sub">Identidades visuales de LHSCOL</div>
             </div>
           </div>
         </div>
+        <div class="cfg-theme-lhscol">
+          <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')"><span class="cfg-tema-dot" style="background:#c9a84c"></span>LHSCOL</button>
+          <div class="cfg-night-control"><span>Modo nocturno</span>
+            <label class="config-toggle">
+              <input type="checkbox" id="config-toggle-modo" onchange="toggleModo(this.checked)">
+              <div class="config-toggle-track"></div><div class="config-toggle-thumb"></div>
+            </label>
+          </div>
+        </div>
         <div class="cfg-tema-row" id="cfg-tema-row">
-          <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')">
-            <span class="cfg-tema-dot" style="background:#c9a84c"></span>Dorado clásico
-          </button>
           <button class="cfg-tema-btn" data-tema="oxigeno" onclick="event.stopPropagation();_aplicarTema('oxigeno')">
             <span class="cfg-tema-dot" style="background:#00F5FF"></span>Oxígeno
           </button>
-          <button class="cfg-tema-btn" data-tema="sala" onclick="event.stopPropagation();_aplicarTema('sala')">
-            <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
-          </button>
           <button class="cfg-tema-btn" data-tema="mesa" onclick="event.stopPropagation();_aplicarTema('mesa')">
             <span class="cfg-tema-dot" style="background:#FF6B6B"></span>La Mesa
+          </button>
+          <button class="cfg-tema-btn" data-tema="sala" onclick="event.stopPropagation();_aplicarTema('sala')">
+            <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
           </button>
         </div>
       </div>
@@ -3970,9 +4039,11 @@ async function initContenido() {
       if(ahora && !_desktopActivo){
         _desktopActivo = true;
         initDesktop();
+        sincronizarVistaResponsive(true);
       } else if(!ahora && _desktopActivo){
         _desktopActivo = false;
-        window.location.reload();
+        ubicarContenidoMetodo();
+        sincronizarVistaResponsive(false);
       }
     }, 300);
   };
@@ -4039,7 +4110,7 @@ function pasoDiarioTrackHTML(actual, contexto){
     const locked = !pasoDesbloqueado(idx);
     const clases = ['pd2-track-node',done?'is-done':'',active?'is-active':'',locked?'is-locked':''].filter(Boolean).join(' ');
     return `<button type="button" class="${clases}" ${locked?'disabled':''} onclick="pasoDiarioNavegarTrack(${actual},${idx},'${contexto}')" aria-label="${locked?'Paso bloqueado: ':''}${escaparHTML(paso.nombre)}">
-      <span class="pd2-track-dot">${done?'✓':paso.letra}</span><span class="pd2-track-label">${escaparHTML(paso.nombre)}</span>
+      <span class="pd2-track-dot">${paso.letra}</span><span class="pd2-track-label">${escaparHTML(paso.nombre)}</span>
     </button>`;
   }).join('');
 }
@@ -4047,21 +4118,21 @@ function pasoDiarioTrackHTML(actual, contexto){
 function pasoDiarioHeroHTML(idx){
   const paso = PASO_DIARIO_META[idx];
   const done = isStepDone(idx);
-  return `<div class="pd2-hero"><div class="pd2-hero-badge" id="pd2-dsk-badge">${done?'✓':paso.letra}</div><div class="pd2-hero-brand">S · T · A · R · S</div><div class="pd2-hero-title">${escaparHTML(paso.nombre)}</div><div class="pd2-hero-sub">${escaparHTML(paso.detalle)} · Paso ${idx+1} de 5</div></div><div class="pd2-track-wrap"><div class="pd2-track" id="pd2-dsk-track">${pasoDiarioTrackHTML(idx,'desktop')}</div></div>`;
+  return `<div class="pd2-hero"><div class="pd2-hero-badge" id="pd2-dsk-badge">${paso.letra}</div><div class="pd2-hero-brand">S · T · A · R · S</div><div class="pd2-hero-title">${escaparHTML(paso.nombre)}</div><div class="pd2-hero-sub">${escaparHTML(paso.detalle)} · Paso ${idx+1} de 5</div></div><div class="pd2-track-wrap"><div class="pd2-track" id="pd2-dsk-track">${pasoDiarioTrackHTML(idx,'desktop')}</div></div>`;
 }
 
 function pasoDiarioActualizarModal(idx){
   const track = document.getElementById('pd2-mobile-track-'+idx);
   if(track) track.innerHTML = pasoDiarioTrackHTML(idx,'mobile');
   const badge = document.getElementById('pd2-mobile-badge-'+idx);
-  if(badge) badge.textContent = isStepDone(idx) ? '✓' : PASO_DIARIO_META[idx].letra;
+  if(badge) badge.textContent = PASO_DIARIO_META[idx].letra;
 }
 
 function pasoDiarioActualizarTrackEstado(actual){
   const dskTrack = document.getElementById('pd2-dsk-track');
   if(dskTrack) dskTrack.innerHTML = pasoDiarioTrackHTML(actual,'desktop');
   const dskBadge = document.getElementById('pd2-dsk-badge');
-  if(dskBadge) dskBadge.textContent = isStepDone(actual) ? '✓' : PASO_DIARIO_META[actual].letra;
+  if(dskBadge) dskBadge.textContent = PASO_DIARIO_META[actual].letra;
   for(let i=0;i<5;i++){
     const modal = document.getElementById('modal-'+i);
     if(modal && modal.classList.contains('open')) pasoDiarioActualizarModal(i);
@@ -4306,34 +4377,115 @@ function calcularRacha(){
   return racha;
 }
 
+const STARS_SW_RELOAD_GUARD = 'stars_sw_last_reload';
+const STARS_SW_RESUME_KEY = 'stars_sw_resume_ui';
+const STARS_SW_UPDATED_KEY = 'stars_sw_updated';
+const STARS_SW_LAST_CHECK_KEY = 'stars_sw_last_daily_check';
+const STARS_SW_CHECK_INTERVAL = 24 * 60 * 60 * 1000;
+const STARS_SW_ACTIVITY_RETRY = 15000;
+let _starsGenerationCount = 0;
+
+function starsActividadEnCurso(){
+  const active = document.activeElement;
+  const editando = Boolean(
+    active &&
+    active.matches?.('textarea, [contenteditable="true"], input:not([type="checkbox"]):not([type="radio"]):not([type="button"]):not([type="submit"])') &&
+    String(active.value ?? active.textContent ?? '').trim()
+  );
+  const temporizador = Boolean(
+    (typeof timerRunning !== 'undefined' && timerRunning) ||
+    (typeof _dskTimerRunning !== 'undefined' && _dskTimerRunning)
+  );
+  const generando = _starsGenerationCount > 0;
+  return {
+    busy: editando || temporizador || generando,
+    editando,
+    temporizador,
+    generando
+  };
+}
+
+function notificarActividadStars(){
+  document.dispatchEvent(new CustomEvent('stars:activitychange'));
+}
+
+function guardarEstadoAntesDeActualizar(){
+  try{
+    const activeView = document.querySelector('.view.active');
+    const estado = {
+      section: typeof _starsUiSection === 'string' ? _starsUiSection : 'hoy',
+      studyTab: typeof _starsStudyTab === 'string' ? _starsStudyTab : 'por-metodo',
+      mobileScroll: activeView ? activeView.scrollTop : 0,
+      desktopScroll: document.getElementById('dsk-panel')?.scrollTop || 0
+    };
+    sessionStorage.setItem(STARS_SW_RESUME_KEY, JSON.stringify(estado));
+  }catch(_){}
+}
+
+function restaurarEstadoDespuesDeActualizar(){
+  let estado = null;
+  try{
+    estado = JSON.parse(sessionStorage.getItem(STARS_SW_RESUME_KEY) || 'null');
+    sessionStorage.removeItem(STARS_SW_RESUME_KEY);
+  }catch(_){}
+  if(!estado) return;
+  _starsUiSection = estado.section || 'hoy';
+  _starsStudyTab = estado.studyTab || 'por-metodo';
+  sincronizarVistaResponsive(isDesktop());
+  requestAnimationFrame(() => {
+    if(isDesktop()){
+      const panel = document.getElementById('dsk-panel');
+      if(panel) panel.scrollTop = Number(estado.desktopScroll) || 0;
+    }else{
+      const activeView = document.querySelector('.view.active');
+      if(activeView) activeView.scrollTop = Number(estado.mobileScroll) || 0;
+    }
+  });
+}
+
 window.addEventListener('DOMContentLoaded', async () => {
   // Registrar Service Worker y aplicar actualizaciones al abrir o retomar la PWA.
   if(!('serviceWorker' in navigator)) return;
 
   let hadController = Boolean(navigator.serviceWorker.controller);
   let refreshing = false;
-  const RELOAD_GUARD_KEY = 'stars_sw_last_reload';
 
-  // El nuevo worker toma control: recargar una sola vez para usar el shell nuevo.
+  navigator.serviceWorker.addEventListener('message', event => {
+    if(event.data?.type === 'STARS_SW_VERSION' || event.data?.type === 'STARS_SW_ACTIVATED'){
+      const version = event.data.version || '';
+      document.documentElement.dataset.swVersion = version;
+      if(window.STARS_PWA) window.STARS_PWA.version = version;
+    }
+  });
+
+  // El nuevo worker toma control: conservar la vista y recargar una sola vez.
   navigator.serviceWorker.addEventListener('controllerchange', () => {
-    // En la primera instalación no hace falta recargar.
     if(!hadController){
       hadController = true;
       return;
     }
     if(refreshing) return;
-
-    const now = Date.now();
-    try {
-      const lastReload = Number(sessionStorage.getItem(RELOAD_GUARD_KEY) || 0);
-      if(now - lastReload < 15000) return;
-      sessionStorage.setItem(RELOAD_GUARD_KEY, String(now));
-    } catch(_) {
-      // Si sessionStorage no está disponible, el bloqueo en memoria sigue activo.
-    }
-
     refreshing = true;
-    window.location.reload();
+    const reloadWhenIdle = () => {
+      if(starsActividadEnCurso().busy){
+        document.documentElement.dataset.swUpdateStatus = 'deferred';
+        setTimeout(reloadWhenIdle, 1000);
+        return;
+      }
+
+      const now = Date.now();
+      try {
+        const lastReload = Number(sessionStorage.getItem(STARS_SW_RELOAD_GUARD) || 0);
+        if(now - lastReload < 15000) return;
+        guardarEstadoAntesDeActualizar();
+        sessionStorage.setItem(STARS_SW_RELOAD_GUARD, String(now));
+        sessionStorage.setItem(STARS_SW_UPDATED_KEY, String(now));
+      } catch(_) {}
+
+      document.documentElement.dataset.swUpdateStatus = 'reloading';
+      window.location.reload();
+    };
+    reloadWhenIdle();
   });
 
   try {
@@ -4341,41 +4493,98 @@ window.addEventListener('DOMContentLoaded', async () => {
       updateViaCache: 'none'
     });
 
+    let pendingUpdateWorker = null;
+    let pendingUpdateTimer = null;
+    const schedulePendingUpdate = () => {
+      clearTimeout(pendingUpdateTimer);
+      pendingUpdateTimer = setTimeout(() => {
+        pendingUpdateTimer = null;
+        applyUpdateWhenIdle();
+      }, STARS_SW_ACTIVITY_RETRY);
+    };
+    const applyUpdateWhenIdle = (worker = pendingUpdateWorker || reg.waiting) => {
+      if(!worker) return;
+      pendingUpdateWorker = worker;
+      const activity = starsActividadEnCurso();
+      document.documentElement.dataset.swActivity = activity.busy ? 'busy' : 'idle';
+      if(activity.busy){
+        document.documentElement.dataset.swUpdateStatus = 'deferred';
+        schedulePendingUpdate();
+        return;
+      }
+      clearTimeout(pendingUpdateTimer);
+      pendingUpdateTimer = null;
+      pendingUpdateWorker = null;
+      document.documentElement.dataset.swUpdateStatus = 'applying';
+      worker.postMessage({ type:'SKIP_WAITING' });
+    };
     const activateWaitingWorker = () => {
-      if(reg.waiting){
-        reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+      if(reg.waiting) applyUpdateWhenIdle(reg.waiting);
+    };
+    const watchWorker = worker => {
+      if(!worker || worker._starsObserved) return;
+      worker._starsObserved = true;
+      const activateIfReady = () => {
+        if(worker.state === 'installed') applyUpdateWhenIdle(worker);
+      };
+      worker.addEventListener('statechange', activateIfReady);
+      activateIfReady();
+    };
+
+    activateWaitingWorker();
+    watchWorker(reg.installing);
+    reg.addEventListener('updatefound', () => watchWorker(reg.installing));
+
+    let lastUpdateCheck = Number(localStorage.getItem(STARS_SW_LAST_CHECK_KEY) || 0);
+    const checkForUpdate = async (force = false) => {
+      if(!navigator.onLine) return;
+      const now = Date.now();
+      if(!force && now - lastUpdateCheck < STARS_SW_CHECK_INTERVAL) return;
+      lastUpdateCheck = now;
+      try{
+        localStorage.setItem(STARS_SW_LAST_CHECK_KEY, String(now));
+      }catch(_){}
+      document.documentElement.dataset.swUpdateStatus = 'checking';
+      try{
+        await reg.update();
+        activateWaitingWorker();
+        watchWorker(reg.installing);
+        document.documentElement.dataset.swUpdateStatus = 'ready';
+      }catch(e){
+        document.documentElement.dataset.swUpdateStatus = 'error';
+        console.log('SW update:', e);
       }
     };
 
-    // Cubre el caso en que el worker nuevo ya estaba esperando antes de abrir la app.
-    activateWaitingWorker();
-
-    reg.addEventListener('updatefound', () => {
-      const newWorker = reg.installing;
-      if(!newWorker) return;
-
-      newWorker.addEventListener('statechange', () => {
-        if(newWorker.state === 'installed'){
-          newWorker.postMessage({ type: 'SKIP_WAITING' });
-        }
-      });
-    });
-
-    // Comprobar actualización al abrir, volver a primer plano o regresar a la app.
-    let lastUpdateCheck = 0;
-    const checkForUpdate = () => {
-      const now = Date.now();
-      if(now - lastUpdateCheck < 30000) return;
-      lastUpdateCheck = now;
-      reg.update().then(activateWaitingWorker).catch(e => console.log('SW update:', e));
+    const requestActiveVersion = () => {
+      const worker = reg.active || navigator.serviceWorker.controller;
+      if(worker) worker.postMessage({ type:'GET_VERSION' });
     };
-
-    checkForUpdate();
-    window.addEventListener('focus', checkForUpdate);
+    window.STARS_PWA = { checkForUpdate, registration:reg, version:'' };
+    requestActiveVersion();
+    checkForUpdate(false);
+    window.addEventListener('online', () => checkForUpdate(false));
+    window.addEventListener('focus', () => checkForUpdate(false));
+    window.addEventListener('pageshow', () => checkForUpdate(false));
     document.addEventListener('visibilitychange', () => {
-      if(document.visibilityState === 'visible') checkForUpdate();
+      if(document.visibilityState === 'visible'){
+        requestActiveVersion();
+        checkForUpdate(false);
+      }
     });
-    setInterval(checkForUpdate, 30 * 60 * 1000);
+    const refreshActivityState = () => {
+      const activity = starsActividadEnCurso();
+      document.documentElement.dataset.swActivity = activity.busy ? 'busy' : 'idle';
+      if(!activity.busy && (pendingUpdateWorker || reg.waiting)){
+        applyUpdateWhenIdle();
+      }
+    };
+    document.addEventListener('stars:activitychange', refreshActivityState);
+    document.addEventListener('focusin', refreshActivityState);
+    document.addEventListener('focusout', () => setTimeout(refreshActivityState, 0));
+    document.addEventListener('input', refreshActivityState);
+    refreshActivityState();
+    setInterval(() => checkForUpdate(false), 60 * 60 * 1000);
   } catch(e) {
     console.log('SW:', e);
   }
@@ -4388,7 +4597,18 @@ window._initApp = function(){
   initSteps(); updateTracker(); initDiario();
   renderTrackerEstudio();
   updateRachaUI();
-  initContenido();
+  Promise.resolve(initContenido()).finally(() => {
+    setTimeout(() => {
+      restaurarEstadoDespuesDeActualizar();
+      procesarEnlaceProfundoStars();
+      try{
+        if(sessionStorage.getItem(STARS_SW_UPDATED_KEY)){
+          sessionStorage.removeItem(STARS_SW_UPDATED_KEY);
+          showToast('App actualizada');
+        }
+      }catch(_){}
+    }, 120);
+  });
 };
 
 /* ═══════════════════════════════════════════
@@ -4404,6 +4624,31 @@ function ubicarContenidoMetodo(){
   const destino = document.getElementById(isDesktop() ? 'metodo-host-desktop' : 'metodo-host-mobile');
   if(contenido && destino && contenido.parentElement !== destino){
     destino.appendChild(contenido);
+  }
+}
+
+let _starsUiSection = 'hoy';
+let _starsStudyTab = 'por-metodo';
+
+function sincronizarVistaResponsive(esDesktop){
+  const sectionDesktop = _starsUiSection === 'estudiar' || _starsUiSection === 'tracker' ? 'estudio' : _starsUiSection;
+  if(esDesktop){
+    dskTab(sectionDesktop === 'diario' ? 'hoy' : sectionDesktop);
+    if(sectionDesktop === 'estudio'){
+      const btn = document.querySelector(`.dsk-study-tab[onclick*="'${_starsStudyTab}'"]`);
+      dskStudyTab(_starsStudyTab, btn);
+    }
+    return;
+  }
+  const vistaMobile = _starsUiSection === 'estudio' ? 'estudiar' : _starsUiSection;
+  navTo(vistaMobile === 'config' ? 'hoy' : vistaMobile);
+  if(vistaMobile === 'estudiar'){
+    const mobileId = _starsStudyTab === 'por-metodo' ? 'capitulos'
+      : _starsStudyTab === 'por-versiculo' ? 'hoy-estudio'
+      : _starsStudyTab === 'por-capitulo' ? 'por-capitulo'
+      : _starsStudyTab === 'por-tema' ? 'por-tema-proximo' : 'tracker-tab';
+    const btn = document.querySelector(`.etab[onclick*="'${mobileId}'"]`);
+    if(btn) switchEtab(mobileId, btn);
   }
 }
 
@@ -4423,13 +4668,16 @@ function dskFontChange(delta){
 
 /* ── Tabs del panel izquierdo ── */
 function dskTab(tab){
+  _starsUiSection = tab === 'estudio' ? 'estudiar' : tab;
+  guardarEstadoAntesDeActualizar();
   document.querySelectorAll('.dsk-tab,.dsk-nav-btn').forEach(t=>t.classList.toggle('active', t.dataset.tab===tab));
   document.querySelectorAll('.dsk-section').forEach(s=>s.classList.remove('active'));
   const sec = document.getElementById('dsk-sec-'+tab);
   if(sec) sec.classList.add('active');
   if(tab==='config'){
     const esDia = document.body.classList.contains('modo-dia');
-    document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
+    document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = !esDia; });
+    document.querySelectorAll('#config-toggle-admin,#dsk-config-toggle-admin').forEach(toggle=>{ toggle.checked = document.body.classList.contains('admin-bar-visible'); });
     _actualizarConfigModoUI(esDia);
     _actualizarFontUI();
     _actualizarTemaUI();
@@ -4439,6 +4687,8 @@ function dskTab(tab){
 }
 
 function dskStudyTab(tab,btn){
+  _starsStudyTab = tab;
+  guardarEstadoAntesDeActualizar();
   document.querySelectorAll('.dsk-study-tab').forEach(item=>item.classList.remove('active'));
   document.querySelectorAll('.dsk-study-panel').forEach(panel=>panel.classList.remove('active'));
   if(btn) btn.classList.add('active');
@@ -4456,13 +4706,13 @@ function dskWsEmpty(){
   document.getElementById('dsk-ws-empty').style.display = 'flex';
   const innerEl = document.getElementById('dsk-ws-inner');
   innerEl.style.display = 'none';
-  innerEl.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario','dsk-ws-inner--profundizar');
+  innerEl.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario','dsk-ws-inner--profundizar','dsk-ws-inner--reader');
   document.getElementById('dsk-ws-title').textContent = 'Espacio de trabajo';
 }
 function dskWsShow(titulo, html){
   document.getElementById('dsk-ws-empty').style.display = 'none';
   const inner = document.getElementById('dsk-ws-inner');
-  inner.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario','dsk-ws-inner--profundizar');
+  inner.classList.remove('dsk-ws-inner--wide','dsk-ws-inner--paso-diario','dsk-ws-inner--profundizar','dsk-ws-inner--reader');
   inner.style.display = 'block';
   inner.style.zoom = _dskFontSize / 15;
   inner.innerHTML = html;
@@ -4551,6 +4801,7 @@ function initDesktop(){
   }));
   const pct = capsTotales>0?Math.round(capsLeidas/capsTotales*100):0;
   const tn=document.getElementById('dsk-tr-n'); if(tn) tn.textContent=capsLeidas.toLocaleString();
+  const tr=document.getElementById('dsk-tr-restantes'); if(tr) tr.textContent=(capsTotales-capsLeidas).toLocaleString();
   const tp=document.getElementById('dsk-tr-pct'); if(tp) tp.textContent=pct+'%';
   const tb=document.getElementById('dsk-tr-bar'); if(tb) tb.style.width=pct+'%';
 
@@ -4678,7 +4929,7 @@ function dskWsPaso(idx){
     const idea=devo.idea_central&&String(devo.idea_central).trim()?`<div class="pd2-idea is-visible"><div class="pd2-idea-rule"></div><div class="pd2-idea-label">Idea central</div><div class="pd2-idea-text">${escaparHTML(devo.idea_central)}</div><div class="pd2-idea-rule"></div></div>`:'';
     const bienvenida=devo.bienvenida&&String(devo.bienvenida).trim()?`<p class="pd2-welcome is-visible">${sanearHTMLPermitido(devo.bienvenida)}</p>`:'';
     const parrafos=(devo.analisis||[]).map((p,i)=>`<p class="${i===0?'pd2-lede':'pd2-paragraph'}">${sanearHTMLPermitido(p)}</p>`).join('');
-    contenido=`${idea}<div class="pd2-sec" style="border-top:0;padding-top:0">${bienvenida}${parrafos}<div class="pd2-analisis-footer">Mayor que mi Realidad es Su Verdad</div></div>${dskBtnConfirmar(2)}`;
+    contenido=`${idea}<div class="pd2-sec" style="border-top:0;padding-top:0">${bienvenida}${parrafos}<div class="pd2-analisis-footer">Mayor que mi realidad es Su Verdad</div></div>${dskBtnConfirmar(2)}`;
   }else if(idx===3){
     contenido=`<div class="pd2-sec pd2-center" style="border-top:0;padding-top:0"><div class="pd2-eyebrow">Pregunta de reflexión</div><div class="pd2-question">${sanearHTMLPermitido(devo.reflexion)}</div><div class="pd2-note">📓 Escribe tu reflexión en tu cuaderno o app de notas — tu espacio personal, sin límites.</div></div>${dskBtnConfirmar(3)}`;
   }else if(idx===4){
@@ -4713,6 +4964,7 @@ function finalizarTimerDesktop(){
   clearTimeout(_dskTimerFinishTimeout); _dskTimerFinishTimeout=null;
   _dskTimerSecs = 0;
   _dskTimerRunning=false;
+  notificarActividadStars();
   const lbl = document.getElementById('dsk-timer-label');
   const fill = document.getElementById('dsk-timer-fill');
   const hint = document.getElementById('dsk-timer-hint');
@@ -4728,6 +4980,7 @@ function finalizarTimerDesktop(){
 function dskIniciarTimer(){
   if(_dskTimerRunning) return;
   _dskTimerRunning = true;
+  notificarActividadStars();
   if(_dskTimerSecs >= 300) _dskTimerSecs = 300;
   _dskTimerStartedAt = Date.now();
   _dskTimerSecsAtStart = _dskTimerSecs;
@@ -5680,6 +5933,7 @@ function finalizarTimerMobile(){
   clearTimeout(timerFinishTimeout); timerFinishTimeout=null;
   timerSecs=0;
   timerRunning=false;
+  notificarActividadStars();
   const label=document.getElementById('timer-label');
   const fill=document.getElementById('timer-fill');
   const hint=document.getElementById('timer-hint');
@@ -5697,6 +5951,7 @@ function iniciarTimer(){
   try { getAudioCtx(); } catch(e){}
   prepararAvisoTimer();
   timerRunning=true;
+  notificarActividadStars();
   const hint=document.getElementById('timer-hint');
   if(hint) hint.style.display='none';
   const ring=document.getElementById('timer-ring-tap');
@@ -5746,6 +6001,8 @@ const VIEWS=['hoy','estudiar','diario','tracker','musica'];
 function mostrarProntoMusica(){ navTo('musica'); }
 
 function navTo(v){
+  _starsUiSection = v;
+  guardarEstadoAntesDeActualizar();
   VIEWS.forEach(id=>{
     const view=document.getElementById('view-'+id);
     if(view) view.classList.toggle('active',id===v);
@@ -5768,6 +6025,11 @@ function navTo(v){
 
 /* ══════════ ESTUDIAR ══════════ */
 function switchEtab(id,btn){
+  _starsStudyTab = id === 'capitulos' ? 'por-metodo'
+    : id === 'hoy-estudio' ? 'por-versiculo'
+    : id === 'por-capitulo' ? 'por-capitulo'
+    : id === 'por-tema-proximo' ? 'por-tema' : 'tracker';
+  guardarEstadoAntesDeActualizar();
   document.querySelectorAll('.etab').forEach(e=>e.classList.remove('active'));
   document.querySelectorAll('.epanel').forEach(e=>e.classList.remove('active'));
   btn.classList.add('active');
@@ -5863,25 +6125,32 @@ async function generarAnalisis(){
 }
 
 async function pedirAnalisisVersiculo(ref){
+  _starsGenerationCount += 1;
+  notificarActividadStars();
   const headers = {'Content-Type': 'application/json'};
-  if(window.FB && typeof window.FB.getIdToken === 'function'){
-    const token = await window.FB.getIdToken();
-    if(token) headers.Authorization = 'Bearer ' + token;
-  }
+  try{
+    if(window.FB && typeof window.FB.getIdToken === 'function'){
+      const token = await window.FB.getIdToken();
+      if(token) headers.Authorization = 'Bearer ' + token;
+    }
 
-  const res = await fetch('/.netlify/functions/analizar-versiculo', {
-    method: 'POST',
-    headers,
-    body: JSON.stringify({ref})
-  });
-  const data = await res.json().catch(() => ({}));
-  if(!res.ok){
-    throw new Error(data.error || 'No se pudo generar el análisis.');
+    const res = await fetch('/.netlify/functions/analizar-versiculo', {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ref})
+    });
+    const data = await res.json().catch(() => ({}));
+    if(!res.ok){
+      throw new Error(data.error || 'No se pudo generar el análisis.');
+    }
+    if(!data.text){
+      throw new Error('La respuesta llegó vacía.');
+    }
+    return data.text;
+  }finally{
+    _starsGenerationCount = Math.max(0, _starsGenerationCount - 1);
+    notificarActividadStars();
   }
-  if(!data.text){
-    throw new Error('La respuesta llegó vacía.');
-  }
-  return data.text;
 }
 
 function escaparHTML(text){
@@ -6655,7 +6924,7 @@ function updateTracker(){
   ['tm-bar','tf-bar','te-bar','tcap-bar'].forEach(id=>{const e=document.getElementById(id);if(e)e.style.width=pct+'%';});
   const leidos66=BLOQUES.reduce((acc,b)=>acc+b.libros.filter(l=>isDone(b.num,l.n)).length,0);
   [['tm-leidos',capsLeidas.toLocaleString()],['tm-caps',capsTotales.toLocaleString()],
-   ['tf-leidos',leidos66],['tf-faltan',66-leidos66],['tf-caps',capsLeidas.toLocaleString()],
+   ['tf-leidos',capsLeidas.toLocaleString()],['tf-faltan',(capsTotales-capsLeidas).toLocaleString()],['tf-caps',capsTotales.toLocaleString()],
    ['te-leidos',leidos66],['te-faltan',66-leidos66],['te-caps',capsLeidas.toLocaleString()]
   ].forEach(([id,val])=>{const e=document.getElementById(id);if(e)e.textContent=val;});
   // Refrescar mini-tracker desktop
@@ -6663,6 +6932,10 @@ function updateTracker(){
   const dskP=document.getElementById('dsk-tr-pct');
   const dskB=document.getElementById('dsk-tr-bar');
   if(dskN) dskN.textContent=capsLeidas.toLocaleString();
+  const dskR=document.getElementById('dsk-tr-restantes');
+  const tmR=document.getElementById('tm-restantes');
+  if(dskR) dskR.textContent=(capsTotales-capsLeidas).toLocaleString();
+  if(tmR) tmR.textContent=(capsTotales-capsLeidas).toLocaleString();
   if(dskP) dskP.textContent=pct+'%';
   if(dskB) dskB.style.width=pct+'%';
 }
@@ -6952,6 +7225,10 @@ function _aplicarTema(id){
   if(TEMAS.indexOf(id) === -1) return;
   TEMAS.forEach(t => document.body.classList.remove('tema-'+t));
   if(id !== 'dorado') document.body.classList.add('tema-'+id); // dorado = sin clase (default)
+  if(id !== 'dorado'){
+    document.body.classList.remove('modo-dia');
+    localStorage.setItem('stars_modo', 'noche');
+  }
   _currentTema = id;
   localStorage.setItem('stars_tema', id);
   _actualizarTemaUI();
@@ -6962,6 +7239,7 @@ function _actualizarTemaUI(){
   document.querySelectorAll('.cfg-tema-btn').forEach(btn=>{
     btn.classList.toggle('active', btn.dataset.tema === _currentTema);
   });
+  _actualizarConfigModoUI(document.body.classList.contains('modo-dia'));
 }
 
 function abrirConfig(){
@@ -6970,7 +7248,8 @@ function abrirConfig(){
     return;
   }
   const esDia = document.body.classList.contains('modo-dia');
-  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
+  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = !esDia; toggle.disabled = _currentTema !== 'dorado'; });
+  document.querySelectorAll('#config-toggle-admin,#dsk-config-toggle-admin').forEach(toggle=>{ toggle.checked = document.body.classList.contains('admin-bar-visible'); });
   _actualizarConfigModoUI(esDia);
   _actualizarFontUI();
   _actualizarTemaUI();
@@ -6983,18 +7262,25 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-function toggleModo(){
-  const esDia = document.body.classList.toggle('modo-dia');
-  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = esDia; });
+function toggleModo(forzarNoche){
+  if(_currentTema !== 'dorado'){
+    document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = true; });
+    return;
+  }
+  const noche = typeof forzarNoche === 'boolean' ? forzarNoche : document.body.classList.contains('modo-dia');
+  document.body.classList.toggle('modo-dia', !noche);
+  const esDia = !noche;
+  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = noche; });
   _actualizarConfigModoUI(esDia);
   localStorage.setItem('stars_modo', esDia ? 'dia' : 'noche');
   pasoDiarioRedibujarFrasesVisibles();
 }
 
 function _actualizarConfigModoUI(esDia){
-  document.querySelectorAll('#config-modo-icon,#dsk-config-modo-icon').forEach(icon=>{ icon.textContent = esDia ? '☀️' : '🌙'; });
-  document.querySelectorAll('#config-modo-label,#dsk-config-modo-label').forEach(label=>{ label.textContent = esDia ? 'Modo día' : 'Modo noche'; });
-  document.querySelectorAll('#config-modo-sub,#dsk-config-modo-sub').forEach(sub=>{ sub.textContent = esDia ? 'Fondo claro activo' : 'Fondo oscuro activo'; });
+  document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{
+    toggle.checked = !esDia;
+    toggle.disabled = _currentTema !== 'dorado';
+  });
 }
 
 // Aplicar preferencias guardadas al cargar
@@ -7012,6 +7298,7 @@ function _actualizarConfigModoUI(esDia){
   if(savedTema && TEMAS.indexOf(savedTema) !== -1){
     _currentTema = savedTema;
     if(savedTema !== 'dorado') document.body.classList.add('tema-'+savedTema);
+    if(savedTema !== 'dorado') document.body.classList.remove('modo-dia');
     if(savedTema!==savedTemaOriginal)localStorage.setItem('stars_tema',savedTema);
   }
 })();
@@ -7579,8 +7866,7 @@ async function abrirEstudioCanon(contexto,libro,capitulo){
   }
   mostrarEstadoBuscadorCapitulo(contexto,'Abriendo '+libro+' '+capitulo+'…',false,true);
   try{
-    if(contexto==='desktop') await dskAbrirCap(key);
-    else await abrirCapitulo(key);
+    await abrirLectorCapitulo(contexto, key);
     mostrarEstadoBuscadorCapitulo(contexto,'',false,false);
   }catch(error){
     mostrarEstadoBuscadorCapitulo(contexto,'No fue posible abrir el estudio. Intenta nuevamente.',true);
@@ -7914,6 +8200,185 @@ async function cargarEstudioV2Complemento(key, estudio){
   }
 }
 
+const lectorCapituloEstado = {
+  mobile: { key:'', version:'MSG', estudio:null, complemento:null },
+  desktop: { key:'', version:'MSG', estudio:null, complemento:null }
+};
+
+function lectorCapituloVecino(key, direccion){
+  const datos = estudioV2DatosKey(key);
+  if(!datos) return null;
+  const libros = librosCanonicos();
+  const libroIdx = libros.findIndex(item => estudioV2SlugLibro(item.n) === datos.slug);
+  if(libroIdx < 0) return null;
+  let capitulo = datos.chapter + direccion;
+  let siguienteLibro = libros[libroIdx];
+  let siguienteIdx = libroIdx;
+  if(capitulo < 1){
+    siguienteIdx -= 1;
+    if(siguienteIdx < 0) return null;
+    siguienteLibro = libros[siguienteIdx];
+    capitulo = siguienteLibro.caps;
+  }else if(capitulo > siguienteLibro.caps){
+    siguienteIdx += 1;
+    if(siguienteIdx >= libros.length) return null;
+    siguienteLibro = libros[siguienteIdx];
+    capitulo = 1;
+  }
+  const vecinoKey = getCapKey(siguienteLibro.n, capitulo);
+  return {
+    key: vecinoKey,
+    title: siguienteLibro.n + ' ' + capitulo,
+    available: Boolean(CAPITULOS_DISPONIBLES[vecinoKey])
+  };
+}
+
+function lectorCapituloTextoMSG(complemento){
+  return complemento.msgBlocks.map(block =>
+    '<p><span class="chapter-reader-range">' + estudioV2Esc(block.editorialRange) +
+    '</span>' + estudioV2Esc(block.msg.es) + '</p>'
+  ).join('');
+}
+
+function lectorCapituloTextoNBLA(complemento){
+  return complemento.nblaVerses.map(verse =>
+    '<p><span class="chapter-reader-verse">' + verse.number + '</span>' +
+    estudioV2Esc(estudioV2ReconstruirVersiculo(verse)) + '</p>'
+  ).join('');
+}
+
+function lectorCapituloHTML(contexto){
+  const estado = lectorCapituloEstado[contexto];
+  const datos = estudioV2DatosKey(estado.key);
+  if(!datos || !estado.complemento) return '';
+  const anterior = lectorCapituloVecino(estado.key, -1);
+  const siguiente = lectorCapituloVecino(estado.key, 1);
+  const version = estado.version === 'NBLA' ? 'NBLA' : 'MSG';
+  const lectura = version === 'NBLA'
+    ? lectorCapituloTextoNBLA(estado.complemento)
+    : lectorCapituloTextoMSG(estado.complemento);
+  const creditos = Array.isArray(estado.complemento.credits)
+    ? estado.complemento.credits.map(estudioV2Esc).join('<br>')
+    : '';
+  return '<article class="chapter-reader" data-reader-context="' + contexto + '">' +
+    '<header class="chapter-reader-hero"><div class="chapter-reader-kicker">Lectura por capítulo</div>' +
+    '<h2 class="chapter-reader-title">' + estudioV2Esc(datos.title) + '</h2>' +
+    '<div class="chapter-reader-sub">Lee primero el texto. Profundiza cuando estés listo.</div></header>' +
+    '<div class="chapter-reader-versions" role="tablist" aria-label="Versión bíblica">' +
+    '<button class="chapter-reader-version ' + (version === 'MSG' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'MSG\')">MSG</button>' +
+    '<button class="chapter-reader-version ' + (version === 'NBLA' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'NBLA\')">NBLA</button></div>' +
+    '<section class="chapter-reader-text" aria-live="polite">' + lectura + '</section>' +
+    '<footer class="chapter-reader-actions">' +
+    '<button class="chapter-reader-primary" onclick="lectorAbrirEstudio(' + jsStringAttr(contexto) + ',' + jsStringAttr(estado.key) + ')">Hacer estudio completo →</button>' +
+    '<button class="chapter-reader-share" onclick="compartirStars(\'read\',' + jsStringAttr(estado.key) + ')">Compartir capítulo</button>' +
+    '<div class="chapter-reader-nav">' +
+    '<button class="chapter-reader-nav-btn" ' + (!anterior?.available ? 'disabled' : 'onclick="lectorAbrirVecino(' + jsStringAttr(contexto) + ',' + jsStringAttr(anterior.key) + ')"') + '>← ' + estudioV2Esc(anterior?.available ? anterior.title : 'Anterior no disponible') + '</button>' +
+    '<button class="chapter-reader-nav-btn" ' + (!siguiente?.available ? 'disabled' : 'onclick="lectorAbrirVecino(' + jsStringAttr(contexto) + ',' + jsStringAttr(siguiente.key) + ')"') + '>' + estudioV2Esc(siguiente?.available ? siguiente.title : 'Siguiente no disponible') + ' →</button>' +
+    '</div><div class="chapter-reader-copyright">' + creditos + '</div></footer></article>';
+}
+
+function lectorPintar(contexto){
+  const html = lectorCapituloHTML(contexto);
+  if(contexto === 'desktop'){
+    const datos = estudioV2DatosKey(lectorCapituloEstado.desktop.key);
+    dskWsShow(datos ? 'Lectura · ' + datos.title : 'Lectura por capítulo', html);
+    document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--reader');
+    const scroll = document.getElementById('dsk-ws-content');
+    if(scroll) scroll.scrollTop = 0;
+    return;
+  }
+  const host = document.getElementById('chapter-reader-mobile');
+  if(host) host.innerHTML = html;
+  const datos = estudioV2DatosKey(lectorCapituloEstado.mobile.key);
+  const title = document.getElementById('chapter-reader-modal-title');
+  if(title) title.textContent = datos ? datos.title : 'Lectura por capítulo';
+  const modal = document.getElementById('chapter-reader-modal');
+  if(modal) modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  if(host) host.scrollTop = 0;
+}
+
+async function abrirLectorCapitulo(contexto, key){
+  const datos = estudioV2DatosKey(key);
+  if(!datos) throw new Error('Capítulo no reconocido.');
+  const estudio = await cargarEstudioV2(key);
+  if(!estudio) throw new Error('El capítulo todavía no está disponible.');
+  const complemento = await cargarEstudioV2Complemento(key, estudio);
+  if(!complemento) throw new Error('El texto bíblico todavía no está disponible.');
+  lectorCapituloEstado[contexto] = { key, version:'MSG', estudio, complemento };
+  lectorPintar(contexto);
+}
+
+function lectorCambiarVersion(contexto, version){
+  const estado = lectorCapituloEstado[contexto];
+  if(!estado?.key) return;
+  estado.version = version === 'NBLA' ? 'NBLA' : 'MSG';
+  lectorPintar(contexto);
+}
+
+async function lectorAbrirVecino(contexto, key){
+  await abrirLectorCapitulo(contexto, key);
+}
+
+async function lectorAbrirEstudio(contexto, key){
+  if(contexto === 'mobile') cerrarLectorCapitulo();
+  if(contexto === 'desktop') await dskAbrirCap(key);
+  else await abrirCapitulo(key);
+}
+
+function cerrarLectorCapitulo(){
+  document.getElementById('chapter-reader-modal')?.classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function starsEnlaceCompartido(tipo, key){
+  const url = new URL(window.location.origin + window.location.pathname);
+  url.searchParams.set(tipo === 'study' ? 'study' : 'read', key);
+  return url.toString();
+}
+
+async function compartirStars(tipo, key){
+  const datos = estudioV2DatosKey(key);
+  if(!datos) return;
+  const esEstudio = tipo === 'study';
+  const title = esEstudio ? 'Estudia ' + datos.title + ' conmigo' : 'Leamos ' + datos.title + ' juntos';
+  const text = title + ' en S.T.A.R.S.';
+  const url = starsEnlaceCompartido(esEstudio ? 'study' : 'read', key);
+  if(navigator.share){
+    try{
+      await navigator.share({ title, text, url });
+      return;
+    }catch(error){
+      if(error?.name === 'AbortError') return;
+    }
+  }
+  window.open('https://wa.me/?text=' + encodeURIComponent(text + '\n' + url), '_blank', 'noopener');
+}
+
+let _starsDeepLinkProcessed = false;
+async function procesarEnlaceProfundoStars(){
+  if(_starsDeepLinkProcessed) return;
+  const params = new URLSearchParams(window.location.search);
+  const readKey = params.get('read');
+  const studyKey = params.get('study');
+  const key = studyKey || readKey;
+  if(!key || !estudioV2DatosKey(key)) return;
+  _starsDeepLinkProcessed = true;
+  _starsUiSection = 'estudiar';
+  _starsStudyTab = 'por-capitulo';
+  sincronizarVistaResponsive(isDesktop());
+  try{
+    if(studyKey){
+      if(isDesktop()) await dskAbrirCap(key);
+      else await abrirCapitulo(key);
+    }else{
+      await abrirLectorCapitulo(isDesktop() ? 'desktop' : 'mobile', key);
+    }
+  }catch(error){
+    showToast(error.message || 'No fue posible abrir el contenido compartido.');
+  }
+}
+
 async function abrirEstudioV2SiAplica(key, contexto){
   if(!estudioV2DatosKey(key)) return false;
   try{
@@ -8132,7 +8597,8 @@ function renderEstudioV2(estudio, contexto){
 }
 
 function estudioV2Header(estudio){
-  return '<header class="est-v2-head"><div class="est-v2-brand">S &middot; T &middot; A &middot; R &middot; S</div><h2 class="est-v2-title">' + estudioV2Esc(estudioV2Titulo(estudio)) + '</h2><div class="est-v2-sub">Estudio profundo &middot; 10 estaciones</div></header>';
+  const key = getCapKey(estudio.meta.book, estudio.meta.chapter);
+  return '<header class="est-v2-head"><div class="est-v2-brand">S &middot; T &middot; A &middot; R &middot; S</div><h2 class="est-v2-title">' + estudioV2Esc(estudioV2Titulo(estudio)) + '</h2><div class="est-v2-sub">Estudio profundo &middot; 10 estaciones</div><button class="est-v2-share" onclick="compartirStars(\'study\',' + jsStringAttr(key) + ')">Compartir estudio</button></header>';
 }
 
 function estudioV2Progreso(secciones, estado, progreso, completado){
@@ -8282,6 +8748,16 @@ function estudioV2ActualizarEstacion(root, estudio, contexto, control){
   }, () => estudioV2ResolverEquivalente(root, control, estado));
 }
 
+function estudioV2SubirAlInicio(contexto){
+  const scroller = estudioV2Scroller(contexto);
+  if(!scroller) return;
+  scroller._estV2AnchorToken = (scroller._estV2AnchorToken || 0) + 1;
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    if(typeof scroller.scrollTo === 'function') scroller.scrollTo({top:0,behavior:'smooth'});
+    else scroller.scrollTop = 0;
+  }));
+}
+
 function estudioV2ActualizarStage(root, estudio, contexto, control, resolver, resolverFoco){
   const estado = estudioV2Estado(contexto.contexto, contexto.key);
   const actual = estudio.sections.find(sec => sec.order === estado.actual);
@@ -8322,6 +8798,7 @@ function estudioV2Bind(host, estudio, contexto){
       estado.recorridas.sort((a,b) => a - b);
       if(estado.actual < estudio.sections.length) estado.actual += 1;
       estudioV2ActualizarEstacion(root, estudio, contexto, complete);
+      estudioV2SubirAlInicio(contexto);
       return;
     }
     if(toggle){
@@ -8981,7 +9458,7 @@ async function abrirIntroLibro(libro){
 
   if(intro && intro.schemaVersion === 2){
     titulo.textContent = 'Introducción a ' + intro.libro;
-    if(subtitulo) subtitulo.textContent = 'Introducción · S · T · A · R · S · LHSCOL';
+    if(subtitulo) subtitulo.textContent = '';
     nav.innerHTML = '';
     body.innerHTML = renderIntroV2(intro);
     initIntroV2(body, intro, 'mobile');
@@ -9316,10 +9793,8 @@ function dskIlSec(btn, idx){
               <input class="chapter-finder-input" id="dsk-ver-input" placeholder="Ej: Génesis 1:5" onkeydown="if(event.key==='Enter')dskAnalizarVer()">
               <button class="chapter-finder-btn" onclick="dskAnalizarVer()">Analizar →</button>
             </div>
-          </div>
-
-          <div style="text-align:center;margin:34px 20px 38px;font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--gold);opacity:0.6;font-style:italic">
-            "Conectando con las Verdades del Padre"
+            <div class="study-search-motto">Conectando con las Verdades del Padre</div>
+            <div class="chapter-canon verse-result-zone"></div>
           </div>
 
           <div style="margin:36px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
@@ -9336,7 +9811,7 @@ function dskIlSec(btn, idx){
             <div class="chapter-finder">
               <div class="chapter-finder-head">
                 <div class="chapter-finder-title">Estudio por Capítulo</div>
-                <div class="chapter-finder-copy">Busca un capítulo y abre directamente el estudio completo que ya está disponible.</div>
+                <div class="chapter-finder-copy">Busca un capítulo y lee el texto completo en MSG y NBLA.</div>
               </div>
               <div class="chapter-finder-label">¿Qué capítulo quieres estudiar?</div>
               <div class="chapter-finder-form">
@@ -9344,41 +9819,48 @@ function dskIlSec(btn, idx){
                 <button class="chapter-finder-btn" onclick="buscarEstudioPorCapitulo('desktop')">Buscar →</button>
               </div>
               <div class="chapter-finder-feedback" id="chapter-finder-feedback-desktop" aria-live="polite"></div>
+              <div class="study-search-motto">Conectando con las Verdades del Padre</div>
               <div class="chapter-canon">
-                <div class="chapter-canon-label">La Biblia en orden</div>
-                <div class="chapter-canon-copy">De Génesis a Apocalipsis. Los capítulos resaltados ya tienen estudio disponible.</div>
+                <div class="chapter-canon-label">Lectura en orden canónico</div>
+                <div class="chapter-canon-copy">De Génesis a Apocalipsis.</div>
                 <div id="chapter-canon-desktop"></div>
               </div>
             </div>
           </div>
           <div class="dsk-study-panel" id="dsk-study-panel-por-tema"><div class="study-coming-soon">Disponible pronto</div></div>
           <div class="dsk-study-panel" id="dsk-study-panel-tracker">
-            <div style="margin:16px;background:var(--black3);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:16px;cursor:pointer" onclick="dskWsTracker()">
-              <div style="font-size:0.5rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);opacity:0.55;margin-bottom:8px;font-weight:600">Biblia completa · Tracker</div>
-              <div style="display:flex;justify-content:space-between;align-items:baseline">
-                <div style="font-size:0.6875rem;color:var(--white3)">Caps leídas: <span style="color:var(--white);font-weight:600" id="dsk-tr-n">0</span></div>
-                <div style="font-size:1rem;font-family:'Cormorant Garamond',serif;color:var(--gold)" id="dsk-tr-pct">0%</div>
+            <div class="study-tracker-shell">
+              <div class="study-tracker-kicker">Tracker de lectura</div>
+              <div class="study-tracker-title">Tu recorrido por la Biblia</div>
+              <div class="study-tracker-copy">Consulta lo leído, lo pendiente y continúa desde cualquier libro.</div>
+              <div class="study-tracker-progress"><div class="study-tracker-pct" id="dsk-tr-pct">0%</div><div class="study-tracker-caption">completado</div></div>
+              <div class="tracker-mini-bar"><div class="tracker-mini-fill" id="dsk-tr-bar" style="width:0%"></div></div>
+              <div class="study-tracker-stats">
+                <div class="study-tracker-stat"><strong id="dsk-tr-n">0</strong><span>Leídos</span></div>
+                <div class="study-tracker-stat"><strong>1,189</strong><span>Total</span></div>
+                <div class="study-tracker-stat"><strong id="dsk-tr-restantes">1,189</strong><span>Pendientes</span></div>
               </div>
-              <div style="height:2px;background:var(--black5);border-radius:99px;margin-top:8px;overflow:hidden"><div style="height:100%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px;transition:width .4s" id="dsk-tr-bar"></div></div>
-              <div style="font-size:.625rem;color:var(--gold);margin-top:10px;font-weight:600">Ver tracker completo →</div>
+              <button class="study-tracker-open" onclick="dskWsTracker()">Abrir tracker completo →</button>
             </div>
           </div>
           <div class="dsk-study-panel active" id="dsk-study-panel-por-metodo">
-          <!-- Separador capítulo -->
-          <div style="margin:0 16px 10px;padding-top:20px">
-            <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Estudio por Método</div>
-          </div>
-          <!-- Stats + búsqueda — mismo look que mobile -->
-          <div style="padding:0 16px">
-            <div class="cap-stats-row">
-              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-total-lib">0</div><div class="cap-stat-label">Total capítulos</div></div>
-              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-total-disp">0</div><div class="cap-stat-label">Disponibles</div></div>
-              <div class="cap-stat"><div class="cap-stat-val" id="dsk-cap-nuevos">0</div><div class="cap-stat-label">Leídos</div></div>
+          <div class="chapter-finder" style="padding:20px 16px 0">
+            <div class="chapter-finder-head">
+              <div class="chapter-finder-title">Estudio por Método</div>
+              <div class="chapter-finder-copy">Lee como funciona en la parte de abajo</div>
             </div>
-            <input class="cap-search" id="dsk-cap-search" placeholder="Buscar libro..." oninput="dskFiltrarCaps(this.value)">
+            <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
+            <div class="chapter-finder-form">
+              <input class="chapter-finder-input" id="dsk-cap-search" placeholder="Ej: Josué" oninput="dskFiltrarCaps(this.value)" onkeydown="if(event.key==='Enter')dskFiltrarCaps(this.value)">
+              <button class="chapter-finder-btn" onclick="dskFiltrarCaps(document.getElementById('dsk-cap-search').value)">Buscar →</button>
+            </div>
+            <div class="study-search-motto">Conectando con las Verdades del Padre</div>
+            <div class="chapter-canon">
+              <div class="chapter-canon-label">Lectura en orden pedagógico S.T.A.R.S.</div>
+              <div class="chapter-canon-copy">Un recorrido formativo por etapas, diseñado para comprender la Biblia como un todo.</div>
+              <div id="dsk-caps-list" style="margin:0 0 8px"></div>
+            </div>
           </div>
-          <!-- 10 bloques de estudio — bloque › libro › grilla de capítulos -->
-          <div id="dsk-caps-list" style="margin:0 0 8px;padding:0 16px"></div>
           <div id="metodo-host-desktop"></div>
           <div style="margin:28px 20px 20px;padding-left:16px;border-left:1px solid rgba(201,168,76,0.2)">
             <div style="font-family:'Cormorant Garamond',serif;font-size:1rem;color:rgba(245,240,232,0.35);line-height:1.25;font-style:italic" class="stars-footer-quote">"Cuando tus palabras aparecieron, las comí — me las tragué enteras. ¡Qué banquete! ¡Qué delicia sentí al ser tuyo, oh Dios, Dios-de-los-Ejércitos-Celestiales!"</div>
@@ -9449,18 +9931,17 @@ function dskIlSec(btn, idx){
           </div>
 
           <div style="margin:0 12px 16px;background:var(--black3);border:1px solid rgba(255,255,255,0.07);border-radius:12px;overflow:hidden">
-            <div class="config-row" onclick="toggleModo()">
+            <div class="config-row admin-config-row" style="display:none" onclick="toggleAdminBar()">
               <div class="config-row-left">
-                <div class="config-row-icon" id="dsk-config-modo-icon">🌙</div>
+                <div class="config-row-icon">⚙</div>
                 <div>
-                  <div class="config-row-label" id="dsk-config-modo-label">Modo noche</div>
-                  <div class="config-row-sub" id="dsk-config-modo-sub">Fondo oscuro activo</div>
+                  <div class="config-row-label">Barra de administrador</div>
+                  <div class="config-row-sub">Muéstrala solo cuando necesites cambiar la fecha</div>
                 </div>
               </div>
               <label class="config-toggle" onclick="event.stopPropagation()">
-                <input type="checkbox" id="dsk-config-toggle-modo" onchange="toggleModo()">
-                <div class="config-toggle-track"></div>
-                <div class="config-toggle-thumb"></div>
+                <input type="checkbox" id="dsk-config-toggle-admin" onchange="toggleAdminBar(this.checked)">
+                <div class="config-toggle-track"></div><div class="config-toggle-thumb"></div>
               </label>
             </div>
 
@@ -9488,23 +9969,31 @@ function dskIlSec(btn, idx){
                 <div style="display:flex;align-items:center;gap:12px">
                   <div class="config-row-icon">🎨</div>
                   <div>
-                    <div class="config-row-label">Tema de color</div>
-                    <div class="config-row-sub">Paletas de identidad LHSCOL</div>
+                    <div class="config-row-label">Tema de la App</div>
+                    <div class="config-row-sub">Identidades visuales de LHSCOL</div>
                   </div>
                 </div>
               </div>
-              <div class="cfg-tema-row">
+              <div class="cfg-theme-lhscol">
                 <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')">
-                  <span class="cfg-tema-dot" style="background:#c9a84c"></span>Dorado clásico
+                  <span class="cfg-tema-dot" style="background:#c9a84c"></span>LHSCOL
                 </button>
+                <div class="cfg-night-control"><span>Modo nocturno</span>
+                  <label class="config-toggle">
+                    <input type="checkbox" id="dsk-config-toggle-modo" onchange="toggleModo(this.checked)">
+                    <div class="config-toggle-track"></div><div class="config-toggle-thumb"></div>
+                  </label>
+                </div>
+              </div>
+              <div class="cfg-tema-row">
                 <button class="cfg-tema-btn" data-tema="oxigeno" onclick="event.stopPropagation();_aplicarTema('oxigeno')">
                   <span class="cfg-tema-dot" style="background:#00F5FF"></span>Oxígeno
                 </button>
-                <button class="cfg-tema-btn" data-tema="sala" onclick="event.stopPropagation();_aplicarTema('sala')">
-                  <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
-                </button>
                 <button class="cfg-tema-btn" data-tema="mesa" onclick="event.stopPropagation();_aplicarTema('mesa')">
                   <span class="cfg-tema-dot" style="background:#FF6B6B"></span>La Mesa
+                </button>
+                <button class="cfg-tema-btn" data-tema="sala" onclick="event.stopPropagation();_aplicarTema('sala')">
+                  <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
                 </button>
               </div>
             </div>
