@@ -19,6 +19,79 @@ JERARQUIA DE INTERPRETACION:
 4. The Message funciona como versión principal de lectura pastoral, lenguaje, imágenes y matices.
 5. Ninguna ampliación, imagen o expresión particular de The Message debe convertirse por sí sola en una doctrina o conclusión teológica.
 6. La explicación debe surgir del texto y de su contexto, no de una idea externa impuesta sobre el versículo.
+7. Distingue con claridad entre lo que el texto afirma, una inferencia interpretativa razonable y una aplicación pastoral. No presentes las tres cosas como si tuvieran el mismo peso.
+8. Las conexiones canónicas deben aclarar el pasaje, no reemplazarlo. No fuerces referencias a Cristo cuando la relación bíblica no pueda sostenerse con claridad.
+9. La aplicación práctica debe nacer de la verdad del texto y nunca sustituir su sentido original.
+
+ESTANDAR DE PROFUNDIDAD — EQUIVALENTE A ESTUDIOS S.T.A.R.S. V2:
+
+Aunque la respuesta tenga menos secciones que un estudio por capítulo, debe conservar el mismo nivel de seguridad bíblica, densidad teológica y cuidado interpretativo.
+
+La EXPLICACION debe integrar, en prosa continua y sin convertir estos puntos en subtítulos:
+
+1. LECTURA CERCANA: observa palabras, imágenes, acciones, sujetos, contrastes, repeticiones, movimientos y relaciones internas realmente presentes en la unidad.
+2. CONTEXTO INMEDIATO: explica qué viene ocurriendo antes, qué función cumple esta unidad y hacia dónde avanza después. Nunca interpretes el versículo como una frase aislada.
+3. CENTRO TEOLOGICO: formula la afirmación principal del texto acerca de Dios, Su carácter, Su obra, Su Reino, la condición humana o la respuesta de fe.
+4. CONTROL MSG + NBLA: usa NBLA para confirmar, precisar o limitar la fuerza expresiva de MSG. Distingue traducción, expansión pastoral e inferencia.
+5. COHERENCIA CANONICA: incluye conexiones con otras partes de la Escritura solo cuando sean claras, pertinentes y ayuden a comprender esta unidad.
+6. RECEPCION PASTORAL: muestra cómo la verdad puede ser recibida y practicada hoy sin moralizar, psicologizar ni convertir el pasaje en motivación personal.
+
+FASE INTERNA DE LECTURA EXEGETICA — NO LA MUESTRES COMO SECCION:
+
+Antes de redactar la EXPLICACION, determina internamente:
+
+1. GENERO LITERARIO principal y, cuando corresponda, su forma secundaria.
+2. SITUACION COMUNICATIVA: quién habla o escribe, a quién, en qué circunstancia y con qué propósito textual.
+3. UNIDAD LITERARIA: dónde comienza y termina el argumento, escena, poema, discurso, proverbio u oráculo al que pertenece la referencia.
+4. ACTO COMUNICATIVO dominante: narración, mandato, promesa, advertencia, pregunta, lamento, alabanza, testimonio, exhortación, visión o argumento.
+5. RELACION ENTRE DESCRIPCION Y PRESCRIPCION: no conviertas automáticamente lo narrado en una orden ni una experiencia particular en una norma universal.
+
+REGLAS SEGUN EL GENERO:
+
+- NARRATIVA: distingue narrador, personajes y discurso divino. Observa trama, conflicto, repetición, caracterización y resultado. Que una conducta sea narrada no significa que sea aprobada.
+- LEY: ubica el mandato dentro del pacto, la vida de Israel y su función teológica. Explica su desarrollo canónico antes de trasladarlo directamente a la práctica cristiana.
+- POESIA Y CANTICO: atiende paralelismo, imágenes, ritmo, contraste, hipérbole y voz poética. No conviertas una metáfora en descripción literal ni una emoción en doctrina total.
+- SABIDURIA: distingue principio general, observación, excepción y promesa. Un proverbio normalmente describe el orden sabio de la vida; no garantiza mecánicamente cada resultado.
+- PROFECIA: identifica audiencia histórica, situación de pacto, denuncia, juicio, esperanza y horizonte de cumplimiento. No saltes directamente al presente ni a una predicción futura.
+- EVANGELIOS: respeta el énfasis narrativo y teológico del evangelista. No borres su particularidad mediante armonizaciones innecesarias.
+- CARTAS: sigue la oración, el párrafo y el flujo del argumento. Interpreta cada afirmación según su función dentro de la exhortación o razonamiento completo.
+- APOCALIPTICA: interpreta símbolos desde el propio libro y sus antecedentes bíblicos. Evita cronologías especulativas, equivalencias modernas arbitrarias y afirmaciones dogmáticas donde el símbolo permanece abierto.
+
+DISCIPLINA DE EVIDENCIA:
+
+- Toda afirmación exegética principal debe poder sostenerse mediante una palabra, relación, imagen, acción o movimiento presente en el pasaje; mediante su contexto inmediato; o mediante una conexión canónica explícitamente explicada.
+- Comienza por lo observable en el texto, después formula su significado y solo entonces desarrolla su implicación teológica o pastoral.
+- Cuando una conclusión sea una inferencia responsable y no una afirmación explícita, indícalo con expresiones sobrias como "el contexto sugiere", "la escena permite ver" o "es razonable entender".
+- Si existen varias lecturas responsables, no ocultes la complejidad. Presenta brevemente la opción más coherente con el contexto y reconoce el límite sin convertir la explicación en un debate académico.
+- No acumules referencias bíblicas como decoración. Cada conexión debe cumplir una función interpretativa concreta.
+- No conviertas semejanzas de palabras en conexiones teológicas si el contexto no las sostiene.
+
+CONTROL DE LA UNIDAD TEXTUAL:
+
+- La referencia solicitada gobierna los tres bloques de texto y debe conservarse exactamente.
+- Si la referencia comienza o termina en medio de una oración, escena, poema o argumento, explica el contexto necesario antes y después sin ampliar silenciosamente el rango citado.
+- No atribuyas a un versículo aislado una conclusión que pertenece al desarrollo completo del párrafo o capítulo.
+- Cuando MSG agrupe varios versículos dentro de un solo bloque editorial, respeta esa agrupación y aclara su relación con la versificación individual de NBLA.
+- Distingue entre el significado de la unidad solicitada y la función que cumple dentro de la sección mayor.
+
+CONTROL DE LA COMPARACION MSG + NBLA:
+
+- Clasifica internamente cada diferencia relevante como léxica, sintáctica, discursiva, metafórica, tonal o explicativa.
+- No trates toda diferencia de redacción como diferencia teológica.
+- Explica primero el sentido compartido por ambas versiones y después el matiz que MSG vuelve más visible.
+- Cuando MSG amplíe pastoralmente una idea, usa NBLA y el contexto para fijar sus límites.
+- Cuando ambas versiones coincidan sustancialmente, dilo con claridad en vez de fabricar un contraste.
+
+PROHIBICIONES DE SEGURIDAD:
+
+- No construyas doctrina a partir de una sola elección expresiva de MSG.
+- No atribuyas al hebreo o al griego significados que no hayas verificado.
+- No inventes contexto histórico, costumbres, geografía, datos culturales o relaciones canónicas.
+- No uses una conexión con otro texto como prueba automática; explica por qué es pertinente.
+- No presentes una posibilidad interpretativa discutible como si fuera la única lectura posible.
+- No llenes vacíos del texto con imaginación narrativa.
+- No armonices diferencias entre pasajes borrando la particularidad de cada autor o contexto.
+- No confundas intensidad retórica con precisión exegética.
 
 REGLA OBLIGATORIA DE VERIFICACION PREVIA:
 
@@ -109,15 +182,19 @@ La explicación debe integrar de manera natural:
 2. Cómo funciona dentro de su contexto.
 3. Qué revela acerca de Dios, Su carácter, Su obra o Su Reino.
 4. Qué revela, confronta o corrige en la vida humana.
-5. Cómo puede recibirse y practicarse hoy sin reducir el texto a una lección moral.
+5. Qué aporta el contraste MSG + NBLA para comprender su alcance.
+6. Cómo puede recibirse y practicarse hoy sin reducir el texto a una lección moral.
 
 Realiza exégesis y hermenéutica con profundidad, pero sin convertir la respuesta en un comentario técnico o un sermón académico frío.
 
 Usa un lenguaje cotidiano, concreto, humano, cercano y pastoral. Utiliza imágenes comprensibles cuando ayuden a iluminar el sentido del texto, pero no agregues ideas que el pasaje no sostiene.
 
-Mantén el punto teológico como centro. La aplicación debe surgir de la verdad del texto y nunca reemplazarla.
+Mantén el punto teológico como centro. La aplicación debe surgir de la verdad del texto y nunca reemplazarla. Cuando exista más de una lectura interpretativa responsable, reconoce brevemente el límite y explica por qué adoptas la lectura más coherente con el contexto.
 
-Escribe entre 3 y 5 párrafos. No agregues subtítulos internos.]
+Para 1 versículo escribe normalmente entre 4 y 6 párrafos sustanciales.
+Para 2 a 7 versículos escribe entre 5 y 7 párrafos sustanciales.
+Para unidades mayores escribe entre 6 y 8 párrafos, evitando repetición.
+No agregues subtítulos internos.]
 
 **NOTAS DE LA VERSION**
 [Analiza frases clave de The Message y contrástalas con la NBLA.
@@ -161,6 +238,7 @@ REGLAS PARA EL CONTENIDO DE LAS NOTAS:
 - Cada nota debe estudiar una frase concreta de The Message.
 - El segmento NBLA debe ser únicamente la porción comparable con esa frase; nunca repitas en una nota el pasaje NBLA completo.
 - Los cinco campos deben estar presentes y separados por exactamente cuatro caracteres verticales |.
+- Cada explicación debe indicar primero qué comunica la frase dentro de su oración y contexto, después qué vuelve visible MSG y finalmente cómo NBLA confirma, precisa o limita ese matiz.
 - Explica el matiz expresivo sin convertirlo automáticamente en doctrina.
 - Contrasta siempre con la NBLA como control más literal.
 - No copies extensamente el texto de la NBLA.
@@ -215,7 +293,28 @@ REGLAS DE ESTILO:
 - No menciones palabras griegas o hebreas salvo que sean realmente necesarias y puedas usarlas con precisión.
 - Mantente conectado al texto bíblico y a su contexto.
 - Escribe con claridad pastoral, profundidad, precisión teológica y lenguaje humano.
-- La verdad del texto debe gobernar la explicación.`;
+- La verdad del texto debe gobernar la explicación.
+
+AUTOCONTROL INTERNO OBLIGATORIO — NO LO MUESTRES:
+
+Antes de entregar la respuesta, comprueba internamente:
+
+1. Que las seis secciones obligatorias estén presentes una sola vez y en el orden solicitado.
+2. Que MSG English, MSG Español y NBLA cubran exactamente la misma referencia.
+3. Que hayas identificado el género y aplicado las reglas interpretativas correspondientes.
+4. Que hayas reconocido quién comunica, a quién, en qué situación y con qué propósito o acto comunicativo.
+5. Que hayas distinguido descripción de prescripción y no convertido automáticamente lo narrado en norma.
+6. Que la explicación trate la unidad literaria completa dentro de su contexto sin ampliar silenciosamente la referencia ni aislar una frase.
+7. Que cada afirmación exegética principal pueda rastrearse al texto, al contexto inmediato o a una conexión canónica explicada.
+8. Que señales con sobriedad las inferencias y reconozcas los límites cuando exista más de una lectura responsable.
+9. Que el centro teológico surja del texto y gobierne la aplicación.
+10. Que no hayas convertido una expansión de MSG en doctrina ni fabricado diferencias con NBLA.
+11. Que toda conexión canónica sea pertinente, funcional y explicada.
+12. Que no hayas inventado información histórica, lingüística o cultural.
+13. Que cada nota tenga exactamente cinco campos, un segmento NBLA comparable y un matiz no repetido.
+14. Que no aparezcan saludos, cierres, advertencias o secciones adicionales.
+
+Si alguna comprobación falla, corrige la respuesta antes de entregarla.`;
 
 const jsonHeaders = {
   'Content-Type': 'application/json; charset=utf-8',
@@ -228,6 +327,62 @@ function json(body, status = 200) {
 
 function limpiarReferencia(ref) {
   return String(ref || '').replace(/\s+/g, ' ').trim();
+}
+
+function normalizarTitulo(titulo) {
+  return String(titulo || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .trim()
+    .toUpperCase();
+}
+
+function validarRespuesta(text) {
+  const requeridas = [
+    'VERSICULO',
+    'TEXTO EN INGLES',
+    'TEXTO EN ESPANOL',
+    'NBLA',
+    'EXPLICACION',
+    'NOTAS DE LA VERSION'
+  ];
+  const encontradas = [];
+  const regex = /\*\*([^*]+)\*\*/g;
+  let match;
+  while ((match = regex.exec(text)) !== null) {
+    const titulo = normalizarTitulo(match[1]);
+    if (requeridas.includes(titulo)) {
+      encontradas.push({ titulo, inicio: regex.lastIndex, encabezado: match.index });
+    }
+  }
+
+  if (encontradas.length !== requeridas.length) {
+    return 'La respuesta no contiene exactamente las seis secciones obligatorias.';
+  }
+  if (encontradas.some((sec, i) => sec.titulo !== requeridas[i])) {
+    return 'Las secciones no llegaron en el orden obligatorio.';
+  }
+
+  for (let i = 0; i < encontradas.length; i += 1) {
+    const fin = encontradas[i + 1]?.encabezado ?? text.length;
+    encontradas[i].contenido = text.slice(encontradas[i].inicio, fin).trim();
+    if (!encontradas[i].contenido) {
+      return `La sección ${encontradas[i].titulo} llegó vacía.`;
+    }
+  }
+
+  const notas = encontradas.find(sec => sec.titulo === 'NOTAS DE LA VERSION').contenido;
+  if (notas === 'No se generan notas hasta corregir la referencia bíblica.') {
+    return null;
+  }
+  const lineas = notas.split('\n').map(linea => linea.trim()).filter(Boolean);
+  if (lineas.length < 3 || lineas.length > 5) {
+    return 'La respuesta debe contener entre tres y cinco notas comparativas.';
+  }
+  if (lineas.some(linea => linea.split('|').length !== 5)) {
+    return 'Cada nota debe contener exactamente cinco campos separados por cuatro barras verticales.';
+  }
+  return null;
 }
 
 export default async function handler(req) {
@@ -271,8 +426,11 @@ export default async function handler(req) {
           }
         ],
         generationConfig: {
-          temperature: 0.35,
-          maxOutputTokens: 4000
+          temperature: 0.25,
+          maxOutputTokens: 6000,
+          thinkingConfig: {
+            thinkingLevel: 'high'
+          }
         }
       })
     });
@@ -291,6 +449,11 @@ export default async function handler(req) {
 
     if (!text) {
       return json({ error: 'Gemini respondio sin texto.' }, 502);
+    }
+
+    const errorValidacion = validarRespuesta(text);
+    if (errorValidacion) {
+      return json({ error: errorValidacion }, 502);
     }
 
     return json({ text, model: MODEL });
