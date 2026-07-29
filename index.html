@@ -750,9 +750,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 
 /* ── TRACKER FULL ── */
 .tracker-shell{width:100%;max-width:920px;margin:0 auto}
-.tracker-full-header{padding:34px 20px 18px;display:flex;align-items:flex-start;gap:16px;border-bottom:1px solid rgba(255,255,255,.06)}
+.tracker-full-header{padding:24px 20px 18px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;border-bottom:1px solid rgba(255,255,255,.06)}
 .back-btn{background:none;border:none;color:var(--gold);font-size:0.875rem;font-family:'Outfit',sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px}
-.tracker-hero{font-family:'Outfit',sans-serif}.tracker-hero-kicker{font-size:.5625rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.tracker-hero{width:100%;font-family:'Outfit',sans-serif;text-align:left}.tracker-hero-kicker{font-size:.5625rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
 .tf-title,.tracker-hero h2{font-family:'Outfit',sans-serif;font-size:1.25rem;font-weight:700;color:var(--white);margin:0}
 .tracker-hero p,.study-tracker-copy{font-size:.75rem;color:var(--white3);line-height:1.5;margin:4px 0 0}
 .tracker-shell--dsk .tracker-hero{padding:8px 4px 22px}.tracker-shell--dsk .tracker-hero h2{font-size:1.5rem}
@@ -993,7 +993,8 @@ body.modo-dia .profundizar-access-icon{background:var(--gold-dim);color:var(--go
 body.modo-dia .profundizar-access-go{color:var(--gold)}
 body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-border:var(--gold-border);--pt-line:var(--gold-border)}
 .dsk-ws-inner.dsk-ws-inner--profundizar{max-width:1000px;padding:0 0 60px}
-@media (min-width:620px) and (max-width:1024px) and (orientation:portrait){
+@media (min-width:620px) and (max-width:1024px) and (orientation:portrait),
+       (orientation:landscape) and (max-height:600px) and (max-width:1023px){
   .pt-hero{padding:32px 24px 22px}.pt-title{font-size:1.9rem}.pt-content{padding:30px 56px 40px}
 }
 @media(max-width:619px){
@@ -1352,7 +1353,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 /* ══ MODAL ESTUDIO CAPÍTULO ══ */
 .estudio-cap-modal{position:fixed;inset:0;z-index:500;display:none;flex-direction:column;background:var(--black)}
 .estudio-cap-modal.open{display:flex}
-.estudio-cap-topbar{display:flex;align-items:center;gap:12px;padding:52px 20px 16px;border-bottom:1px solid rgba(255,255,255,0.06);flex-shrink:0}
+.estudio-cap-topbar{display:flex;align-items:center;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 8px) 20px 10px;border-bottom:1px solid rgba(255,255,255,0.06);flex-shrink:0}
 .estudio-cap-back{background:none;border:none;color:var(--white3);font-size:1.375rem;cursor:pointer;padding:4px;line-height:1}
 .estudio-cap-back:hover{color:var(--white)}
 .estudio-cap-titulo{font-size:0.9375rem;font-weight:600;color:var(--white);flex:1}
@@ -1703,7 +1704,8 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
    TABLET VERTICAL 620–1024px — single-pane amplio
    Conserva el flujo táctil sin encerrar la app en 430px.
 ═══════════════════════════════════════════════════ */
-@media (min-width:620px) and (max-width:1024px) and (orientation:portrait){
+@media (min-width:620px) and (max-width:1024px) and (orientation:portrait),
+       (orientation:landscape) and (max-height:600px) and (max-width:1023px){
   .app{max-width:none}
 
   #scroll-hoy,
@@ -2279,12 +2281,30 @@ body.modo-dia {
   --white:#1a1208;
   --white2:#2e2010;
   --white3:#5a4a30;
-  --green:#1a5c35;
-  --green2:#1e7a45;
-  --green-dim:rgba(30,122,69,0.14);
-  --green-border:rgba(30,122,69,0.32);
+  --green:var(--gold);
+  --green2:var(--gold);
+  --green-dim:var(--gold-dim);
+  --green-border:var(--gold-border);
 }
 body.modo-dia { background:var(--black); color:var(--white); }
+body.modo-dia .chapter-canon,
+body.modo-dia .tracker-full-header,
+body.modo-dia .estudio-cap-topbar,
+body.modo-dia .estudio-cap-nav,
+body.modo-dia .tf-stat,
+body.modo-dia .tf-libro,
+body.modo-dia .pt-hero,
+body.modo-dia .pt-sec + .pt-sec,
+body.modo-dia .pt-foot{
+  border-color:var(--gold-border) !important;
+}
+body.modo-dia .study-search-motto::before,
+body.modo-dia .study-search-motto::after{
+  background:var(--gold-border);
+}
+@media (orientation:landscape) and (max-height:600px) and (max-width:1023px){
+  .estudio-cap-topbar{padding-top:12px;padding-bottom:12px}
+}
 
 /* ══════════ TEMAS DE COLOR · IDENTIDAD LHSCOL ══════════ */
 /* Paletas oficiales: Oxígeno #00F5FF · La Sala #A8FF3E · La Mesa #FF6B6B. */
@@ -2397,7 +2417,8 @@ body.modo-dia .frase-estudio-dl{
 }
 .config-toggle input:checked ~ .config-toggle-thumb{transform:translateX(18px)}
 
-@media (min-width:620px) and (max-width:1024px) and (orientation:portrait){
+@media (min-width:620px) and (max-width:1024px) and (orientation:portrait),
+       (orientation:landscape) and (max-height:600px) and (max-width:1023px){
   .config-sheet{max-width:680px}
 }
 
@@ -2462,10 +2483,10 @@ body.admin-mode.admin-bar-visible .config-modal{
   height:auto;
 }
 body.admin-mode.admin-bar-visible .estudio-cap-topbar{
-  padding-top:18px;
+  padding-top:8px;
 }
 body.admin-mode.admin-bar-visible .tracker-full-header{
-  padding-top:18px;
+  padding-top:14px;
 }
 
 </style>
@@ -3333,7 +3354,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div id="scroll-tracker" class="tracker-shell tracker-shell--mobile" style="overflow-y:auto;padding-bottom:20px">
       <div class="tracker-full-header">
         <button class="back-btn" onclick="navTo('estudiar')">← Estudio</button>
-        <div class="tracker-hero"><div class="tracker-hero-kicker">Paso profundo</div><div class="tf-title">Tracker de lectura</div><div class="study-tracker-copy">Tu recorrido completo por la Biblia</div></div>
+        <div class="tracker-hero"><div class="tf-title">Tracker de lectura</div><div class="study-tracker-copy">Tu recorrido completo por la Biblia</div></div>
       </div>
       <div class="tf-stats">
         <div class="tf-stat"><div class="tf-stat-label">Total capítulos</div><div class="tf-stat-val" id="tf-caps">0</div></div>
@@ -6864,7 +6885,6 @@ function trackerResumen(){
 function trackerCompletoHTML(resumen, prefijo){
   return `<section class="tracker-shell tracker-shell--${prefijo}">
     <header class="tracker-hero">
-      <div class="tracker-hero-kicker">Paso profundo</div>
       <h2>Tracker de lectura</h2>
       <p>Tu recorrido completo por la Biblia</p>
     </header>
