@@ -256,7 +256,12 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .chapter-canon-book.open .chapter-canon-caps{display:grid}
 .chapter-canon-cap{aspect-ratio:1;border-radius:6px;background:var(--black4);border:1px solid rgba(255,255,255,.05)!important;color:var(--white3);font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;cursor:default}
 .chapter-canon-cap.available{background:var(--gold-dim);border-color:var(--gold-border)!important;color:var(--gold);cursor:pointer}
-.chapter-canon-cap.available:hover{background:var(--gold);color:var(--black)}
+.chapter-canon-cap.available:hover{border-color:var(--gold)!important}
+.chapter-canon-cap.partial,.chapter-canon-cap.read{position:relative}
+.chapter-canon-cap.partial::after{content:'•';position:absolute;left:5px;top:2px;color:var(--gold);font-size:.6rem;font-weight:800}
+.chapter-canon-cap.read{background:color-mix(in srgb,var(--gold) 28%,var(--black3));border-color:var(--gold)!important;color:var(--gold2)}
+.chapter-canon-cap.read::after{content:'✓';position:absolute;left:5px;top:3px;color:var(--gold2);font-size:.5rem;font-weight:800}
+.chapter-canon-cap.is-current{background:var(--gold);border-color:var(--gold)!important;color:var(--black)}
 #dsk-study-panel-por-capitulo .chapter-finder{padding:20px 16px 0}
 #dsk-study-panel-por-capitulo .chapter-finder-head--method-align,
 #dsk-study-panel-por-versiculo .chapter-finder-head--method-align{margin-left:0;margin-right:0}
@@ -744,15 +749,22 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 }
 
 /* ── TRACKER FULL ── */
-.tracker-full-header{padding:44px 20px 16px;display:flex;align-items:center;gap:12px}
+.tracker-shell{width:100%;max-width:920px;margin:0 auto}
+.tracker-full-header{padding:34px 20px 18px;display:flex;align-items:flex-start;gap:16px;border-bottom:1px solid rgba(255,255,255,.06)}
 .back-btn{background:none;border:none;color:var(--gold);font-size:0.875rem;font-family:'Outfit',sans-serif;cursor:pointer;display:flex;align-items:center;gap:6px}
-.tf-title{font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold)}
+.tracker-hero{font-family:'Outfit',sans-serif}.tracker-hero-kicker{font-size:.5625rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:6px}
+.tf-title,.tracker-hero h2{font-family:'Outfit',sans-serif;font-size:1.25rem;font-weight:700;color:var(--white);margin:0}
+.tracker-hero p,.study-tracker-copy{font-size:.75rem;color:var(--white3);line-height:1.5;margin:4px 0 0}
+.tracker-shell--dsk .tracker-hero{padding:8px 4px 22px}.tracker-shell--dsk .tracker-hero h2{font-size:1.5rem}
 .tf-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:0 20px 16px}
-.tf-stat{background:var(--black3);border-radius:var(--radius-sm);padding:12px}
+.tf-stat{background:var(--black3);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-sm);padding:12px}
 .tf-stat-label{font-size:0.5625rem;color:var(--white3);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:4px}
 .tf-stat-val{font-size:1.25rem;font-weight:600;color:var(--white)}
 .tf-bar-wrap{margin:0 20px 16px;background:var(--black5);border-radius:99px;height:4px;overflow:hidden}
-.tf-bar-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--green2));transition:width 0.5s}
+.tf-bar-fill{height:100%;background:var(--gold);transition:width 0.5s}
+.tracker-help{margin:0 20px 18px;font-family:'Outfit',sans-serif;font-size:.6875rem;color:var(--white3);line-height:1.55}
+.tracker-blocks{padding:0 20px 24px}
+.tracker-shell--dsk .tf-stats,.tracker-shell--dsk .tf-bar-wrap,.tracker-shell--dsk .tracker-help{margin-left:4px;margin-right:4px}.tracker-shell--dsk .tracker-blocks{padding-left:4px;padding-right:4px}
 .tf-reset{margin:0 20px 16px;width:calc(100% - 40px);padding:9px;background:transparent;border:1px solid var(--black5);color:var(--white3);font-size:0.75rem;font-family:'Outfit',sans-serif;border-radius:var(--radius-sm);cursor:pointer;transition:all 0.2s;text-align:center}
 .tf-reset:hover{border-color:rgba(200,50,50,0.4);color:#e05050}
 .tf-bloque{margin:0 20px 12px}
@@ -1179,12 +1191,12 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
   display:flex;align-items:center;justify-content:center;
   font-size:0.6875rem;font-weight:700;color:var(--gold);flex-shrink:0;
 }
-.tcap-bloque-num.complete{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
+.tcap-bloque-num.complete{background:color-mix(in srgb,var(--gold) 36%,var(--black3));border-color:var(--gold);color:var(--gold2)}
 .tcap-bloque-info{flex:1;min-width:0}
 .tcap-bloque-name{font-size:0.8125rem;font-weight:600;color:var(--white)}
 .tcap-bloque-prog{font-size:0.625rem;color:var(--white3);margin-top:2px}
 .tcap-bloque-bar{height:2px;background:var(--black5);border-radius:99px;margin-top:5px;overflow:hidden}
-.tcap-bloque-bar-fill{height:100%;background:linear-gradient(90deg,var(--gold),var(--green2));border-radius:99px;transition:width 0.4s}
+.tcap-bloque-bar-fill{height:100%;background:var(--gold);border-radius:99px;transition:width 0.4s}
 .tcap-bloque-chev{font-size:0.8125rem;color:var(--white3);transition:transform 0.2s;flex-shrink:0}
 .tcap-bloque-hdr.open .tcap-bloque-chev{transform:rotate(90deg);color:var(--gold)}
 .tcap-libros-wrap{
@@ -1210,7 +1222,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
   display:flex;align-items:center;justify-content:center;
   transition:all 0.2s;cursor:pointer;
 }
-.tcap-libro-chk.done{background:var(--green2);border-color:var(--green2)}
+.tcap-libro-chk.done{background:var(--gold);border-color:var(--gold)}
 .tcap-libro-chk.done::after{content:'✓';font-size:0.625rem;color:#fff;font-weight:700}
 .tcap-libro-chk.partial{background:var(--gold-dim);border-color:var(--gold-border)}
 .tcap-libro-chk.partial::after{content:'◐';font-size:0.5625rem;color:var(--gold)}
@@ -1230,17 +1242,17 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
   display:flex;align-items:center;justify-content:center;
   font-size:0.625rem;font-weight:600;
   cursor:pointer;transition:all 0.15s;
-  background:var(--black5);border:1px solid rgba(255,255,255,0.05);
+  position:relative;background:var(--black5);border:1px solid rgba(255,255,255,0.05);
   color:var(--white3);
   -webkit-tap-highlight-color:transparent;
 }
 .tcap-cap-btn:active{transform:scale(0.9)}
 .tcap-cap-btn.leido{
-  background:var(--green-dim);border-color:var(--green-border);
-  color:var(--green2);
+  background:color-mix(in srgb,var(--gold) 28%,var(--black3));border-color:var(--gold);
+  color:var(--gold2);
 }
 .tcap-cap-btn.parcial{
-  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  background:var(--gold-dim);border-color:var(--gold-border);
   color:var(--gold);
 }
 .tcap-cap-btn.parcial::after{
@@ -1248,8 +1260,9 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
   position:absolute;bottom:7px;left:50%;transform:translateX(-50%);
   width:5px;height:5px;border-radius:50%;background:var(--gold);
 }
-.tcap-cap-btn.leido:hover{background:rgba(74,157,111,0.3)}
-.tcap-cap-btn:not(.leido):hover{border-color:var(--gold-border);color:var(--gold)}
+.tcap-cap-btn.leido::after{content:'✓';position:absolute;left:5px;top:3px;font-size:.5rem;font-weight:800;color:var(--gold2)}
+.tcap-cap-btn.is-current{background:var(--gold);border-color:var(--gold);color:var(--black)}
+.tcap-cap-btn:hover{border-color:var(--gold-border);color:var(--gold)}
 
 /* ══════════════════════════════════════════════════════════
    PASO DIARIO V2 — gramática visual compartida con Paso Profundo
@@ -1323,15 +1336,15 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .pd2-image-body .est-v2-image-styles,.pd2-image-body .est-v2-image-formats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem;margin:0}
 .pd2-image-body .est-v2-image-formats{grid-template-columns:repeat(2,minmax(0,1fr))}
 .pd2-image-fonts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem}
-.pd2-image-body .est-v2-image-style,.pd2-image-body .est-v2-image-format,.pd2-image-font{width:100%;min-height:2.5rem;padding:.65rem .5rem;background:transparent!important;border:1px solid var(--est-v2-line2)!important;border-radius:8px;color:var(--est-v2-soft)!important;font-size:.6875rem;line-height:1.2}
+.pd2-image-body .est-v2-image-style,.pd2-image-body .est-v2-image-format,.pd2-image-font{width:100%;min-width:0;min-height:2.5rem;padding:.65rem .5rem;background:transparent!important;border:1px solid var(--est-v2-line2)!important;border-radius:8px;color:var(--est-v2-soft)!important;font-size:.6875rem;line-height:1.2;white-space:normal;overflow-wrap:anywhere;text-align:center}
 .pd2-image-body .est-v2-image-style.is-active,.pd2-image-body .est-v2-image-format.is-active,.pd2-image-font.is-active{background:var(--est-v2-dim)!important;border-color:var(--est-v2-accent)!important;color:var(--est-v2-accent2)!important;box-shadow:inset 0 0 0 1px rgba(201,168,76,.08)}
 .pd2-image-font[data-pd2-frase-fuente="clasica"]{font-family:Georgia,serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="actual"]{font-family:'Outfit',sans-serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="editorial"]{font-family:'Cormorant Garamond',serif!important;font-style:italic;font-size:.8rem}
 .pd2-image-preview{display:flex;flex-direction:column;align-items:center}
 .pd2-image-preview-label{font-family:'Outfit',sans-serif;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;color:var(--white3);margin-bottom:.75rem}
 .pd2-image-body .est-v2-canvas-wrap{width:min(280px,72vw);max-width:280px;margin:0 auto 1rem;border-radius:8px;box-shadow:0 18px 45px rgba(0,0,0,.35)}
 .pd2-image-body .est-v2-download{width:min(280px,72vw);padding:.9rem 1rem;background:var(--est-v2-accent)!important;border:1px solid var(--est-v2-accent)!important;border-radius:8px;color:var(--est-v2-bg)!important;font-size:.75rem}
-@media(min-width:620px){.pd2-image-modal{align-items:center;padding:2rem}.pd2-image-sheet{max-width:760px;max-height:90vh;border-bottom:1px solid var(--gold-border);border-radius:18px}}
-@container pd2-image-sheet (min-width:620px){.pd2-image-body .est-v2-closing{padding:2rem 2.25rem 2.5rem}.pd2-image-builder{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:2rem;align-items:center}.pd2-image-controls{align-self:center}.pd2-image-body .est-v2-canvas-wrap,.pd2-image-body .est-v2-download{width:280px}}
+@media(min-width:620px){.pd2-image-modal{align-items:center;padding:2rem}.pd2-image-sheet{width:min(760px,calc(100vw - 4rem));max-width:none;max-height:90vh;border-bottom:1px solid var(--gold-border);border-radius:18px}}
+@container pd2-image-sheet (min-width:620px){.pd2-image-body .est-v2-closing{padding:2rem 2.25rem 2.5rem}.pd2-image-builder{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,300px);gap:2rem;align-items:center}.pd2-image-controls{align-self:center}.pd2-image-body .est-v2-canvas-wrap,.pd2-image-body .est-v2-download{width:280px;max-width:100%}}
 @container pd2-image-sheet (max-width:420px){.pd2-image-body .est-v2-image-styles{grid-template-columns:repeat(2,minmax(0,1fr))}.pd2-image-body .est-v2-image-style:last-child{grid-column:1/-1}.pd2-image-body .est-v2-image-style,.pd2-image-body .est-v2-image-format,.pd2-image-font{font-size:.65rem;padding-left:.35rem;padding-right:.35rem}}
 @media(max-width:619px){.pd2-modal .modal-sheet{max-width:430px}.pd2-hero-title{font-size:2rem}.pd2-track-label{font-size:.5rem}.pd2-content{padding-left:1.25rem;padding-right:1.25rem}.pd2-idea-text{font-size:1.375rem}.pd2-question{font-size:1.125rem}.pd2-boxed{padding:1.375rem 1.25rem!important}.pd2-root .est-v2-quote{font-size:1.3125rem}}
 @media(min-width:620px) and (max-width:1023px){.pd2-modal .modal-sheet{max-width:760px}.pd2-modal .pd2-content{max-width:42rem;width:100%;margin:0 auto;padding:2rem 2.75rem 2.5rem}.pd2-modal .pd2-track-wrap{padding-left:3rem;padding-right:3rem}.pd2-modal .pd2-hero{padding-top:2.5rem}.pd2-modal .modal-body{background:var(--black)}}
@@ -1354,6 +1367,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .estudio-cap-navbtn.leida{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
 .estudio-cap-navbtn.leida.active{background:rgba(74,157,111,0.26);border-color:var(--green2);color:var(--white)}
 .estudio-cap-body{flex:1;overflow-y:auto;padding:24px 20px 40px}
+.estudio-cap-body.estudio-cap-body--v2{padding-top:8px}
 .estudio-sec{display:none}
 .estudio-sec.active{display:block}
 .estudio-sec-label{font-size:0.5625rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);opacity:0.7;margin-bottom:14px;font-weight:600}
@@ -1642,24 +1656,25 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
   color:var(--white3);
 }
 .cap-cap-btn.disponible{
-  background:var(--green-dim);border-color:var(--green-border);
-  color:var(--green2);cursor:pointer;
+  background:var(--gold-dim);border-color:var(--gold-border);
+  color:var(--gold);cursor:pointer;
 }
 .cap-cap-btn.disponible.parcial{
-  background:rgba(201,168,76,0.12);border-color:var(--gold-border);
+  background:var(--gold-dim);border-color:var(--gold-border);
   color:var(--gold);
 }
 .cap-cap-btn.disponible.leido{
-  background:var(--green-dim);border-color:var(--green-border);
-  color:var(--green2);
+  background:color-mix(in srgb,var(--gold) 28%,var(--black3));border-color:var(--gold);
+  color:var(--gold2);
 }
 .cap-cap-btn.disponible.parcial::before,
 .cap-cap-btn.disponible.leido::before{
   position:absolute;left:6px;top:5px;font-size:0.5rem;font-weight:800;
 }
 .cap-cap-btn.disponible.parcial::before{content:'•';color:var(--gold)}
-.cap-cap-btn.disponible.leido::before{content:'✓';color:var(--green2)}
-.cap-cap-btn.disponible:hover{background:rgba(74,157,111,0.25);transform:scale(1.05)}
+.cap-cap-btn.disponible.leido::before{content:'✓';color:var(--gold2)}
+.cap-cap-btn.disponible.is-current{background:var(--gold);border-color:var(--gold);color:var(--black)}
+.cap-cap-btn.disponible:hover{border-color:var(--gold);transform:scale(1.05)}
 .cap-cap-btn.nuevo::after{
   content:'NEW';position:absolute;top:-5px;right:-5px;
   background:var(--gold);color:var(--black);
@@ -3067,7 +3082,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div class="chapter-finder" style="padding-bottom:0">
         <div class="chapter-finder-head chapter-finder-head--method-align">
           <div class="chapter-finder-title">Estudio por Método</div>
-          <div class="chapter-finder-copy">Lee como funciona en la parte de abajo</div>
+          <div class="chapter-finder-copy">Lee cómo funciona el método S.T.A.R.S. en la parte de abajo.</div>
         </div>
         <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
         <div class="chapter-finder-form">
@@ -3315,10 +3330,10 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
   <!-- ═══════════════ VISTA TRACKER STANDALONE ═══════════════ -->
   <div class="view" id="view-tracker">
-    <div id="scroll-tracker" style="overflow-y:auto;padding-bottom:20px">
+    <div id="scroll-tracker" class="tracker-shell tracker-shell--mobile" style="overflow-y:auto;padding-bottom:20px">
       <div class="tracker-full-header">
         <button class="back-btn" onclick="navTo('estudiar')">← Estudio</button>
-        <div><div class="tf-title">Tracker de lectura</div><div class="study-tracker-copy">Tu recorrido completo por la Biblia</div></div>
+        <div class="tracker-hero"><div class="tracker-hero-kicker">Paso profundo</div><div class="tf-title">Tracker de lectura</div><div class="study-tracker-copy">Tu recorrido completo por la Biblia</div></div>
       </div>
       <div class="tf-stats">
         <div class="tf-stat"><div class="tf-stat-label">Total capítulos</div><div class="tf-stat-val" id="tf-caps">0</div></div>
@@ -3328,9 +3343,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
       <div class="tf-bar-wrap"><div class="tf-bar-fill" id="tf-bar" style="width:0%"></div></div>
       <div style="padding:0 16px 12px">
-        <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">El progreso se marca automáticamente al completar las 10 secciones del estudio de cada capítulo.</div>
+        <div class="tracker-help">El progreso se marca automáticamente al completar las 10 estaciones del estudio de cada capítulo.</div>
       </div>
-      <div style="padding:0 14px" id="tcap-container"></div>
+      <div class="tracker-blocks" id="tcap-container"></div>
     </div>
   </div>
 
@@ -5027,6 +5042,11 @@ function dskWs(tipo){
 
 /* ── Workspace: tracker ── */
 function dskWsTracker(){
+  const resumen = trackerResumen();
+  dskWsShow('Tracker de lectura', trackerCompletoHTML(resumen, 'dsk'));
+  document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
+  setTimeout(()=>renderTrackerCaps('dsk-tcap-container','dsk'), 0);
+  return;
   dskWsShow('Tracker · Capítulos leídos',
     '<div id="dsk-tcap-ws" style="padding:0 0 20px"></div>'
   );
@@ -5155,7 +5175,7 @@ function dskRenderCaps(q){
         if(dato){
           const isNew=esNuevo(dato.fecha);
           const estado=getEstudioEstado(libro.n,cap);
-          return `<div class="cap-cap-btn disponible${isNew?' nuevo':''}" onclick="dskAbrirCap('${k}')" title="${libro.n} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+          return `<div class="cap-cap-btn disponible${isNew?' nuevo':''}" onclick="dskAbrirCap('${k}')" title="${libro.n} ${cap}">${cap}</div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join('');
@@ -6761,14 +6781,34 @@ function getEstudioEstado(libro, cap){
   if(isCapLeido(libro, cap)) return 'leido';
   return getEstudioMaxSec(key) > 0 ? 'parcial' : '';
 }
+
+let _starsOpenChapterKey = sessionStorage.getItem('stars_current_chapter') || '';
+function marcarCapituloActual(key){
+  _starsOpenChapterKey = String(key || '');
+  try{ sessionStorage.setItem('stars_current_chapter', _starsOpenChapterKey); }catch(_){}
+  decorarCapitulosProgreso(document);
+}
+
 function decorarCapitulosProgreso(root=document){
   root.querySelectorAll('.cap-cap-btn.disponible[title]').forEach(btn=>{
     const title = btn.getAttribute('title') || '';
     const m = title.match(/^(.+)\s+(\d+)$/);
     if(!m) return;
-    btn.classList.remove('parcial','leido');
+    btn.classList.remove('parcial','leido','is-current');
     const estado = getEstudioEstado(m[1], parseInt(m[2],10));
     if(estado) btn.classList.add(estado);
+    if(getCapKey(m[1], parseInt(m[2],10)) === _starsOpenChapterKey) btn.classList.add('is-current');
+  });
+  root.querySelectorAll('.chapter-canon-cap.available[title],.tcap-cap-btn[title]').forEach(btn=>{
+    const title = btn.getAttribute('title') || '';
+    const m = title.match(/^(.+)\s+(\d+)$/);
+    if(!m) return;
+    const key = getCapKey(m[1], parseInt(m[2],10));
+    const estado = getEstudioEstado(m[1], parseInt(m[2],10));
+    btn.classList.remove('partial','read','parcial','leido','is-current');
+    if(estado === 'parcial') btn.classList.add(btn.classList.contains('tcap-cap-btn') ? 'parcial' : 'partial');
+    if(estado === 'leido') btn.classList.add(btn.classList.contains('tcap-cap-btn') ? 'leido' : 'read');
+    if(key === _starsOpenChapterKey) btn.classList.add('is-current');
   });
 }
 function toggleCap(libro, cap, el){
@@ -6804,7 +6844,7 @@ function _actualizarConteoLibro(libro){
   const stats = el.querySelector('.tcap-libro-stats');
   const pctEl = el.querySelector('.tcap-libro-pct');
   const chk   = el.querySelector('.tcap-libro-chk');
-  if(stats) stats.innerHTML = `<span class="tcap-libro-pct" style="color:${leidos===total&&total>0?'var(--green2)':leidos>0?'var(--gold)':'var(--white3)'}">${leidos}/${total}</span>`;
+  if(stats) stats.innerHTML = `<span class="tcap-libro-pct" style="color:${leidos>0?'var(--gold)':'var(--white3)'}">${leidos}/${total}</span>`;
   if(chk){
     chk.classList.toggle('done', leidos===total && total>0);
     chk.classList.toggle('partial', leidos>0 && leidos<total);
@@ -6813,8 +6853,34 @@ function _actualizarConteoLibro(libro){
 }
 
 let tcapBloqueAbierto=-1, tcapLibroAbierto='';
-function renderTrackerCaps(){
-  const c = document.getElementById('tcap-container'); if(!c) return; c.innerHTML='';
+function trackerResumen(){
+  let leidos=0,total=0;
+  BLOQUES.forEach(b=>b.libros.forEach(l=>{
+    total+=l.c;
+    for(let cap=1;cap<=l.c;cap++) if(isCapLeido(l.n,cap)) leidos++;
+  }));
+  return {total,leidos,pendientes:total-leidos,pct:total?Math.round(leidos/total*100):0};
+}
+function trackerCompletoHTML(resumen, prefijo){
+  return `<section class="tracker-shell tracker-shell--${prefijo}">
+    <header class="tracker-hero">
+      <div class="tracker-hero-kicker">Paso profundo</div>
+      <h2>Tracker de lectura</h2>
+      <p>Tu recorrido completo por la Biblia</p>
+    </header>
+    <div class="tf-stats">
+      <div class="tf-stat"><div class="tf-stat-label">Total capítulos</div><div class="tf-stat-val">${resumen.total.toLocaleString()}</div></div>
+      <div class="tf-stat"><div class="tf-stat-label">Leídos</div><div class="tf-stat-val">${resumen.leidos.toLocaleString()}</div></div>
+      <div class="tf-stat"><div class="tf-stat-label">Pendientes</div><div class="tf-stat-val">${resumen.pendientes.toLocaleString()}</div></div>
+      <div class="tf-stat"><div class="tf-stat-label">Progreso</div><div class="tf-stat-val">${resumen.pct}%</div></div>
+    </div>
+    <div class="tf-bar-wrap"><div class="tf-bar-fill" style="width:${resumen.pct}%"></div></div>
+    <p class="tracker-help">El progreso se marca automáticamente al completar las 10 estaciones del estudio de cada capítulo.</p>
+    <div class="tracker-blocks" id="${prefijo}-tcap-container"></div>
+  </section>`;
+}
+function renderTrackerCaps(hostId='tcap-container', prefijo='mobile'){
+  const c = document.getElementById(hostId); if(!c) return; c.innerHTML='';
   // Stats globales por capítulo
   let capsLeidas=0, capsTotales=0;
   BLOQUES.forEach(b=>b.libros.forEach(l=>{
@@ -6855,22 +6921,22 @@ function renderTrackerCaps(){
       }).join('');
 
       return `<div class="tcap-libro">
-        <div class="tcap-libro-hdr${isOpenL?' open-libro':''}" data-tcap-libro="${l.n}" data-tcap-total="${l.c}" onclick="toggleTcapLibro('${l.n.replace(/'/g,"\\'")}',this)">
+        <div class="tcap-libro-hdr${isOpenL?' open-libro':''}" data-tcap-libro="${l.n}" data-tcap-total="${l.c}" onclick="toggleTcapLibro('${l.n.replace(/'/g,"\\'")}',this,'${prefijo}')">
           <div class="tcap-libro-left">
             <div class="tcap-libro-chk ${chkClass}"></div>
             <div class="tcap-libro-name">${l.n}</div>
           </div>
           <div class="tcap-libro-stats">
-            <span class="tcap-libro-pct" style="color:${leidasL===l.c&&l.c>0?'var(--green2)':leidasL>0?'var(--gold)':'var(--white3)'}">${leidasL}/${l.c}</span>
+            <span class="tcap-libro-pct" style="color:${leidasL>0?'var(--gold)':'var(--white3)'}">${leidasL}/${l.c}</span>
             <span class="tcap-libro-chev">›</span>
           </div>
         </div>
-        <div class="tcap-caps-wrap${isOpenL?' open':''}" id="tcap-caps-${l.n.replace(/\s/g,'-')}">${capsHTML}</div>
+        <div class="tcap-caps-wrap${isOpenL?' open':''}" id="${prefijo}-tcap-caps-${l.n.replace(/\s/g,'-')}">${capsHTML}</div>
       </div>`;
     }).join('');
 
     bloq.innerHTML=`
-      <div class="tcap-bloque-hdr${isOpenB?' open':''}" onclick="toggleTcapBloque(${b.num},this)">
+      <div class="tcap-bloque-hdr${isOpenB?' open':''}" onclick="toggleTcapBloque(${b.num},this,'${prefijo}')">
         <div class="tcap-bloque-num${leidasB===capsB&&capsB>0?' complete':''}">${b.num}</div>
         <div class="tcap-bloque-info">
           <div class="tcap-bloque-name">${b.name}</div>
@@ -6879,25 +6945,28 @@ function renderTrackerCaps(){
         </div>
         <div class="tcap-bloque-chev">›</div>
       </div>
-      <div class="tcap-libros-wrap${isOpenB?' open':''}" id="tcap-libros-${b.num}">${librosHTML}</div>`;
+      <div class="tcap-libros-wrap${isOpenB?' open':''}" id="${prefijo}-tcap-libros-${b.num}">${librosHTML}</div>`;
     c.appendChild(bloq);
   });
+  decorarCapitulosProgreso(c);
 }
 
-function toggleTcapBloque(num, hdr){
-  const el=document.getElementById('tcap-libros-'+num);
+function toggleTcapBloque(num, hdr, prefijo='mobile'){
+  const host=hdr.closest('.tracker-shell') || hdr.parentElement.parentElement;
+  const el=document.getElementById(prefijo+'-tcap-libros-'+num);
   const isOpen=el&&el.classList.contains('open');
-  document.querySelectorAll('.tcap-libros-wrap').forEach(e=>e.classList.remove('open'));
-  document.querySelectorAll('.tcap-bloque-hdr').forEach(e=>e.classList.remove('open'));
+  host.querySelectorAll('.tcap-libros-wrap').forEach(e=>e.classList.remove('open'));
+  host.querySelectorAll('.tcap-bloque-hdr').forEach(e=>e.classList.remove('open'));
   if(!isOpen&&el){el.classList.add('open');hdr.classList.add('open');tcapBloqueAbierto=num;}
   else tcapBloqueAbierto=-1;
 }
-function toggleTcapLibro(nombre, hdr){
-  const gridId='tcap-caps-'+nombre.replace(/\s/g,'-');
+function toggleTcapLibro(nombre, hdr, prefijo='mobile'){
+  const host=hdr.closest('.tracker-shell') || hdr.parentElement.parentElement.parentElement;
+  const gridId=prefijo+'-tcap-caps-'+nombre.replace(/\s/g,'-');
   const grid=document.getElementById(gridId); if(!grid) return;
   const isOpen=grid.classList.contains('open');
-  document.querySelectorAll('.tcap-caps-wrap').forEach(e=>e.classList.remove('open'));
-  document.querySelectorAll('.tcap-libro-hdr').forEach(e=>e.classList.remove('open-libro'));
+  host.querySelectorAll('.tcap-caps-wrap').forEach(e=>e.classList.remove('open'));
+  host.querySelectorAll('.tcap-libro-hdr').forEach(e=>e.classList.remove('open-libro'));
   if(!isOpen){grid.classList.add('open');hdr.classList.add('open-libro');tcapLibroAbierto=nombre;}
   else tcapLibroAbierto='';
 }
@@ -7854,6 +7923,7 @@ function toggleLibroCanon(btn,contexto,nombre,cantidad){
       const disponible=!!CAPITULOS_DISPONIBLES[getCapKey(nombre,cap)];
       return `<button class="chapter-canon-cap${disponible?' available':''}"${disponible?` onclick="abrirEstudioCanon(${jsStringAttr(contexto)},${jsStringAttr(nombre)},${cap})"`:' disabled'} title="${escaparHTML(nombre)} ${cap}${disponible?'':' — Próximamente'}">${cap}</button>`;
     }).join('');
+    decorarCapitulosProgreso(capsEl);
   }
   libroEl.classList.add('open');
 }
@@ -7949,7 +8019,7 @@ function renderCapitulos(query){
         if(dato){
           const isNew=esNuevo(dato.fecha);
           const estado=getEstudioEstado(libro.n,cap);
-          return `<div class="cap-cap-btn disponible${estado?' '+estado:''}${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}<span style="font-size:0.5rem;display:block;color:var(--green2)">📄</span></div>`;
+          return `<div class="cap-cap-btn disponible${estado?' '+estado:''}${isNew?" nuevo":""}" onclick="abrirCapitulo(${jsStringAttr(k)})" title="${escaparHTML(libro.n)} ${cap}">${cap}</div>`;
         }
         return `<div class="cap-cap-btn" title="${libro.n} ${cap} — Próximamente">${cap}</div>`;
       }).join("");
@@ -8305,6 +8375,7 @@ async function abrirLectorCapitulo(contexto, key){
   if(!estudio) throw new Error('El capítulo todavía no está disponible.');
   const complemento = await cargarEstudioV2Complemento(key, estudio);
   if(!complemento) throw new Error('El texto bíblico todavía no está disponible.');
+  marcarCapituloActual(key);
   lectorCapituloEstado[contexto] = { key, version:'MSG', estudio, complemento };
   lectorPintar(contexto);
 }
@@ -8384,6 +8455,7 @@ async function abrirEstudioV2SiAplica(key, contexto){
   try{
     const estudio = await cargarEstudioV2(key);
     if(!estudio) return false;
+    marcarCapituloActual(key);
     const estado = estudioV2Estado(contexto, key);
     estado.textoVista = 'MSG';
     await cargarEstudioV2Complemento(key, estudio);
@@ -8398,7 +8470,17 @@ async function abrirEstudioV2SiAplica(key, contexto){
 function estudioV2Estado(contexto, key){
   const id = contexto + ':' + key;
   if(!estudioV2Memoria.estados[id]){
-    estudioV2Memoria.estados[id] = { actual:1, recorridas:[], abiertos:{}, preguntas:{}, imagen:{ estilo:'clasico', formato:'9:16' }, textoVista:'MSG' };
+    const datos = estudioV2DatosKey(key);
+    const completo = !!(datos && isCapLeido(datos.book, datos.chapter));
+    const guardadas = completo ? 10 : Math.max(0, Math.min(9, getEstudioMaxSec(key)));
+    estudioV2Memoria.estados[id] = {
+      actual: completo ? 10 : Math.min(10, guardadas + 1),
+      recorridas:Array.from({length:guardadas}, (_, i) => i + 1),
+      abiertos:{},
+      preguntas:{},
+      imagen:{ estilo:'clasico', formato:'9:16', fuente:'actual' },
+      textoVista:'MSG'
+    };
   }
   return estudioV2Memoria.estados[id];
 }
@@ -8512,8 +8594,7 @@ function estudioV2RenderSeccion(sec, estado, estudio, complemento){
     return estudioV2RenderPreguntas(sec, estado);
   }
   if(sec.type === 'closingQuote'){
-    const imagen = estado.imagen || { estilo:'clasico', formato:'9:16' };
-    return '<section class="est-v2-closing"><div class="est-v2-closing-eyebrow">' + estudioV2Esc(estudioV2LabelVisible(sec)) + '</div><div class="est-v2-quote">&ldquo;' + estudioV2Esc(c.quote) + '&rdquo;</div><div class="est-v2-ref">' + estudioV2Esc(c.reference) + '</div>' + (c.reflection || []).map(t => '<div class="est-v2-reflection">' + estudioV2Esc(t) + '</div>').join('') + '<div class="est-v2-download-label">Imagen descargable</div><div class="est-v2-image-styles">' + [['clasico','Cl&aacute;sica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op => '<button class="est-v2-image-style ' + (imagen.estilo === op[0] ? 'is-active' : '') + '" data-est-v2-image-style="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-image-formats">' + [['9:16','Historia 9:16'],['1:1','Cuadrado 1:1']].map(op => '<button class="est-v2-image-format ' + (imagen.formato === op[0] ? 'is-active' : '') + '" data-est-v2-image-format="' + op[0] + '">' + op[1] + '</button>').join('') + '</div><div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div><a class="est-v2-download" download="frase-stars-' + estudioV2Esc(estudioV2SlugEstudio(estudio)) + '.png" href="#">Descargar imagen PNG</a></section>';
+    return '<section class="est-v2-closing"><div class="est-v2-closing-eyebrow">' + estudioV2Esc(estudioV2LabelVisible(sec)) + '</div><div class="est-v2-quote">&ldquo;' + estudioV2Esc(c.quote) + '&rdquo;</div><div class="est-v2-ref">' + estudioV2Esc(c.reference) + '</div>' + (c.reflection || []).map(t => '<div class="est-v2-reflection">' + estudioV2Esc(t) + '</div>').join('') + '<button type="button" class="pd2-image-open" data-est-v2-open-image>&darr; Configurar imagen descargable</button></section>';
   }
   return '<section class="est-v2-paragraphs"><div class="est-v2-paragraph-col"><p class="est-v2-p">Secci&oacute;n V2 no reconocida.</p></div></section>';
 }
@@ -8585,6 +8666,7 @@ function renderEstudioV2(estudio, contexto){
     const progress = document.getElementById('ecap-progress');
     if(progress) progress.style.width = progreso + '%';
     const body = document.getElementById('ecap-body');
+    body.classList.add('estudio-cap-body--v2');
     body.innerHTML = rootHtml;
     document.getElementById('estudio-cap-modal').classList.add('open');
     document.body.style.overflow = 'hidden';
@@ -8781,9 +8863,11 @@ function estudioV2Bind(host, estudio, contexto){
     const questionNext = ev.target.closest('[data-est-v2-question-next]');
     const imageStyle = ev.target.closest('[data-est-v2-image-style]');
     const imageFormat = ev.target.closest('[data-est-v2-image-format]');
+    const openImage = ev.target.closest('[data-est-v2-open-image]');
     const navScroll = ev.target.closest('[data-est-v2-nav-scroll]');
     const textView = ev.target.closest('[data-est-v2-text-view]');
     const estado = estudioV2Estado(contexto.contexto, contexto.key);
+    if(openImage){ abrirImagenEstudio(contexto, estudio); return; }
     if(navScroll){ estudioV2MoverNav(root, parseInt(navScroll.getAttribute('data-est-v2-nav-scroll'), 10)); return; }
     if(textView){
       const vista = textView.getAttribute('data-est-v2-text-view') === 'NBLA' ? 'NBLA' : 'MSG';
@@ -8796,8 +8880,15 @@ function estudioV2Bind(host, estudio, contexto){
     if(complete){
       if(estado.recorridas.indexOf(estado.actual) === -1) estado.recorridas.push(estado.actual);
       estado.recorridas.sort((a,b) => a - b);
+      setEstudioMaxSec(contexto.key, Math.min(9, estado.recorridas.length));
+      if(estado.recorridas.length === estudio.sections.length){
+        const datos = estudioV2DatosKey(contexto.key);
+        if(datos && !isCapLeido(datos.book, datos.chapter)) marcarCapituloLeido(contexto.key);
+        marcarCapituloActual('');
+      }
       if(estado.actual < estudio.sections.length) estado.actual += 1;
       estudioV2ActualizarEstacion(root, estudio, contexto, complete);
+      decorarCapitulosProgreso(document);
       estudioV2SubirAlInicio(contexto);
       return;
     }
@@ -8857,6 +8948,86 @@ function estudioV2Bind(host, estudio, contexto){
   });
 }
 
+function estudioV2EditorImagenHTML(contexto, estudio){
+  const estado = estudioV2Estado(contexto.contexto, contexto.key);
+  if(!estado.imagen) estado.imagen = { estilo:'clasico', formato:'9:16', fuente:'actual' };
+  if(!estado.imagen.fuente) estado.imagen.fuente = 'actual';
+  const sec = estudio.sections.find(s => s.type === 'closingQuote');
+  if(!sec) return '';
+  const c = sec.content || {};
+  const ctx = jsStringAttr(contexto.contexto);
+  const key = jsStringAttr(contexto.key);
+  return `<section class="est-v2-closing" data-est-v2-image-context="${estudioV2Esc(contexto.contexto)}" data-est-v2-image-key="${estudioV2Esc(contexto.key)}">
+    <div class="pd2-image-intro">
+      <div class="est-v2-quote">&ldquo;${estudioV2Esc(c.quote)}&rdquo;</div>
+      <div class="est-v2-ref">${estudioV2Esc(c.reference)}</div>
+    </div>
+    <div class="pd2-image-builder">
+      <div class="pd2-image-controls">
+        <div class="pd2-image-control-group">
+          <div class="est-v2-download-label">Estilo visual</div>
+          <div class="est-v2-image-styles">
+            ${[['clasico','Clásica'],['editorial','Editorial'],['contemplativo','Contemplativa']].map(op=>`<button type="button" class="est-v2-image-style ${estado.imagen.estilo===op[0]?'is-active':''}" data-est-v2-modal-style="${op[0]}" onclick="estudioV2ImagenSet(${ctx},${key},'estilo','${op[0]}')">${op[1]}</button>`).join('')}
+          </div>
+        </div>
+        <div class="pd2-image-control-group">
+          <div class="est-v2-download-label">Tipografía</div>
+          <div class="pd2-image-fonts">
+            ${[['clasica','Clásica'],['actual','Actual'],['editorial','Editorial']].map(op=>`<button type="button" class="pd2-image-font ${estado.imagen.fuente===op[0]?'is-active':''}" data-est-v2-modal-font="${op[0]}" onclick="estudioV2ImagenSet(${ctx},${key},'fuente','${op[0]}')">${op[1]}</button>`).join('')}
+          </div>
+        </div>
+        <div class="pd2-image-control-group">
+          <div class="est-v2-download-label">Formato</div>
+          <div class="est-v2-image-formats">
+            ${[['9:16','Historia · 9:16'],['1:1','Cuadrado · 1:1']].map(op=>`<button type="button" class="est-v2-image-format ${estado.imagen.formato===op[0]?'is-active':''}" data-est-v2-modal-format="${op[0]}" onclick="estudioV2ImagenSet(${ctx},${key},'formato','${op[0]}')">${op[1]}</button>`).join('')}
+          </div>
+        </div>
+      </div>
+      <div class="pd2-image-preview">
+        <div class="pd2-image-preview-label">Vista previa</div>
+        <div class="est-v2-canvas-wrap"><canvas class="est-v2-canvas"></canvas></div>
+        <button type="button" class="est-v2-download" onclick="estudioV2DescargarImagen(${ctx},${key})">&darr; Descargar imagen PNG</button>
+      </div>
+    </div>
+  </section>`;
+}
+
+function abrirImagenEstudio(contexto, estudio){
+  const modal = document.getElementById('pd2-image-modal');
+  const body = document.getElementById('pd2-image-body');
+  if(!modal || !body) return;
+  body.innerHTML = estudioV2EditorImagenHTML(contexto, estudio);
+  modal.classList.add('open');
+  _pd2ImagenOverflowAnterior = document.body.style.overflow;
+  document.body.style.overflow = 'hidden';
+  requestAnimationFrame(() => estudioV2DibujarFrase(contexto, estudio, body.querySelector('.est-v2-canvas')));
+}
+
+function estudioV2ImagenSet(contextoNombre, key, tipo, valor){
+  const contexto = { contexto:contextoNombre, key };
+  const estado = estudioV2Estado(contextoNombre, key);
+  if(!estado.imagen) estado.imagen = { estilo:'clasico', formato:'9:16', fuente:'actual' };
+  estado.imagen[tipo] = valor;
+  const body = document.getElementById('pd2-image-body');
+  if(!body) return;
+  body.querySelectorAll('[data-est-v2-modal-style]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.estV2ModalStyle===estado.imagen.estilo));
+  body.querySelectorAll('[data-est-v2-modal-font]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.estV2ModalFont===estado.imagen.fuente));
+  body.querySelectorAll('[data-est-v2-modal-format]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.estV2ModalFormat===estado.imagen.formato));
+  estudioV2DibujarFrase(contexto, estudioV2Memoria.estudios[key], body.querySelector('.est-v2-canvas'));
+}
+
+async function estudioV2DescargarImagen(contextoNombre, key){
+  const body = document.getElementById('pd2-image-body');
+  const canvas = body && body.querySelector('.est-v2-canvas');
+  const estudio = estudioV2Memoria.estudios[key];
+  if(!canvas || !estudio) return;
+  await estudioV2DibujarFrase({contexto:contextoNombre,key}, estudio, canvas);
+  const link = document.createElement('a');
+  link.download = 'frase-stars-' + estudioV2SlugEstudio(estudio) + '.png';
+  link.href = canvas.toDataURL('image/png');
+  link.click();
+}
+
 function estudioV2ColorVar(nombre, fallback){
   const bodyValue = getComputedStyle(document.body).getPropertyValue(nombre).trim();
   const rootValue = getComputedStyle(document.documentElement).getPropertyValue(nombre).trim();
@@ -8910,19 +9081,19 @@ function estudioV2LogoTintado(logo,color){
   return salida;
 }
 
-async function estudioV2DibujarFrase(contexto, estudioActual){
+async function estudioV2DibujarFrase(contexto, estudioActual, canvasActual){
   try{
     const estado = estudioV2Estado(contexto.contexto, contexto.key);
     const host = contexto.contexto === 'desktop' ? document.getElementById('dsk-ws-inner') : document.getElementById('ecap-body');
     const root = host && host.querySelector('.est-v2-root');
-    const canvas = root && root.querySelector('.est-v2-canvas');
+    const canvas = canvasActual || (root && root.querySelector('.est-v2-canvas'));
     const estudio = estudioActual || estudioV2Memoria.estudios[contexto.key];
     if(!canvas || !estudio) return;
     const sec = estudio.sections.find(s => s.type === 'closingQuote');
     if(!sec) return;
     const ctx = canvas.getContext('2d');
     if(!ctx) return;
-    const imagen = estado.imagen || { estilo:'clasico', formato:'9:16' };
+    const imagen = estado.imagen || { estilo:'clasico', formato:'9:16', fuente:'actual' };
     const W = 1080, H = imagen.formato === '1:1' ? 1080 : 1920;
     canvas.width = W; canvas.height = H;
     const paleta = {
@@ -8934,11 +9105,11 @@ async function estudioV2DibujarFrase(contexto, estudioActual){
       suave:estudioV2ColorVar('--white2', '#cabf9f')
     };
     const frase = String(sec.content.quote || '').replace(/^["'«“”]+|["'»“”]+$/g,'').trim();
-    if(imagen.estilo === 'editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,sec.content.reference);
-    else if(imagen.estilo === 'contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,sec.content.reference,await estudioV2CargarLogoCanvas());
-    else estudioV2PintarClasica(ctx,W,H,paleta,frase,sec.content.reference);
-    const link = root.querySelector('.est-v2-download');
-    if(link) link.href = canvas.toDataURL('image/png');
+    const fuentes = { clasica:'Georgia, serif', actual:'Outfit, sans-serif', editorial:'Cormorant Garamond, serif' };
+    const fuente = fuentes[imagen.fuente] || fuentes.actual;
+    if(imagen.estilo === 'editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,sec.content.reference,fuente);
+    else if(imagen.estilo === 'contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,sec.content.reference,await estudioV2CargarLogoCanvas(),fuente);
+    else estudioV2PintarClasica(ctx,W,H,paleta,frase,sec.content.reference,fuente);
   }catch(e){
     console.warn('[STARS] No se pudo dibujar frase V2:', e.message);
   }
@@ -9071,6 +9242,7 @@ function estudioV2WrapCanvas(ctx, text, maxWidth){
 
 async function abrirCapitulo(key){
   if(await abrirEstudioV2SiAplica(key, 'mobile')) return;
+  document.getElementById('ecap-body')?.classList.remove('estudio-cap-body--v2');
   const dato = CAPITULOS_DISPONIBLES[key];
   
   // Intentar cargar el estudio si no está en caché
@@ -9847,7 +10019,7 @@ function dskIlSec(btn, idx){
           <div class="chapter-finder" style="padding:20px 16px 0">
             <div class="chapter-finder-head">
               <div class="chapter-finder-title">Estudio por Método</div>
-              <div class="chapter-finder-copy">Lee como funciona en la parte de abajo</div>
+              <div class="chapter-finder-copy">Lee cómo funciona el método S.T.A.R.S. en la parte de abajo.</div>
             </div>
             <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
             <div class="chapter-finder-form">
