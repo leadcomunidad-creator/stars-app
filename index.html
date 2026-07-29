@@ -254,6 +254,9 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .chapter-canon-book.open .chapter-canon-book-chevron{transform:rotate(90deg)}
 .chapter-canon-caps{display:none;grid-template-columns:repeat(6,minmax(0,1fr));gap:5px;padding:4px 10px 12px}
 .chapter-canon-book.open .chapter-canon-caps{display:grid}
+.chapter-canon-book.is-current-context{background:var(--gold);border-color:var(--gold)}
+.chapter-canon-book.is-current-context .chapter-canon-book-name,
+.chapter-canon-book.is-current-context .chapter-canon-book-meta{color:var(--black)}
 .chapter-canon-cap{aspect-ratio:1;border-radius:6px;background:var(--black4);border:1px solid rgba(255,255,255,.05)!important;color:var(--white3);font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;cursor:default}
 .chapter-canon-cap.available{background:var(--gold-dim);border-color:var(--gold-border)!important;color:var(--gold);cursor:pointer}
 .chapter-canon-cap.available:hover{border-color:var(--gold)!important}
@@ -1309,10 +1312,10 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .pd2-version-row{display:flex;justify-content:center;margin:0 0 1.75rem;font-family:'Outfit',sans-serif}.pd2-root .texto-version-tabs{display:flex;gap:.375rem;padding:.1875rem;border:1px solid var(--est-v2-line);border-radius:1.25rem;background:var(--black3);margin:0}.pd2-root .version-tab{min-width:5.25rem;flex:0 0 auto;padding:.4375rem .875rem;border:1px solid transparent;border-radius:1rem;background:none;color:var(--white3);font-size:.6875rem;letter-spacing:.06em;text-transform:uppercase}.pd2-root .version-tab.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--gold2)}
 .pd2-text-content{text-align:center}.pd2-root .texto-versiculo{display:inline-block;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;letter-spacing:.04em;color:var(--black);background:var(--gold);padding:.125rem .5625rem;border-radius:.625rem;margin-bottom:.75rem}.pd2-layer-label{font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;text-align:center}.pd2-root .texto-italic{font-size:1.375rem;line-height:1.7;color:var(--white);text-align:center}.pd2-root #texto-ntv .texto-italic,.pd2-nbla-reading{font-size:1.1875rem;line-height:1.8;color:var(--white);font-style:normal;text-align:center}
 .pd2-idea{display:none;max-width:35rem;margin:0 auto 2rem;text-align:center}.pd2-idea.is-visible{display:block}.pd2-idea-rule{width:2.25rem;height:1px;background:var(--gold);opacity:.55;margin:0 auto}.pd2-idea-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600;margin:.875rem 0 .75rem}.pd2-idea-text{font-size:1.75rem;line-height:1.45;color:var(--white);font-style:italic}.pd2-idea .pd2-idea-rule:last-child{margin-top:1rem}
-.pd2-welcome{display:none;font-family:'Outfit',sans-serif;font-size:1rem;line-height:1.85;color:var(--white2);font-style:italic;margin:0 0 1.25rem}.pd2-welcome.is-visible{display:block}.pd2-lede{font-family:'Outfit',sans-serif;font-size:1.25rem;line-height:1.7;color:var(--white);margin:0 0 1.25rem}.pd2-paragraph{font-family:'Outfit',sans-serif;font-size:1.03125rem;line-height:1.85;color:var(--white2);margin:0 0 1.25rem}.pd2-paragraph:last-child{margin-bottom:0}.pd2-analisis-footer{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);text-align:center;font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);opacity:.75}
-.pd2-root .analisis-block p.pd2-lede{font-size:1.25rem;font-weight:600;line-height:1.7;color:var(--white)}
+.pd2-welcome{display:none;font-family:'Outfit',sans-serif;font-size:1rem;line-height:1.85;color:var(--white2);font-style:italic;margin:0 0 1.25rem}.pd2-welcome.is-visible{display:block}.pd2-lede{font-family:'Outfit',sans-serif;font-size:1.03125rem;font-weight:600;line-height:1.85;color:var(--white);margin:0 0 1.25rem}.pd2-paragraph{font-family:'Outfit',sans-serif;font-size:1.03125rem;line-height:1.85;color:var(--white2);margin:0 0 1.25rem}.pd2-paragraph:last-child{margin-bottom:0}.pd2-analisis-footer{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);text-align:center;font-size:.6875rem;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);opacity:.75}
+.pd2-root .analisis-block p.pd2-lede{font-size:1.03125rem;font-weight:600;line-height:1.85;color:var(--white)}
 .pd2-question{font-size:1.3125rem;line-height:1.7;color:var(--white);font-style:italic;text-align:center}.pd2-note{font-family:'Outfit',sans-serif;margin-top:1.75rem;padding-top:1.25rem;border-top:1px solid var(--est-v2-line);font-size:.75rem;color:var(--white3);line-height:1.6;text-align:center}
-.pd2-practice{font-family:'Outfit',sans-serif;font-size:1.125rem;line-height:1.75;color:var(--white);text-align:center}.pd2-root .sembrar-practica{border-left:0;padding-left:0;margin-bottom:0;font-style:normal}.pd2-boxed{background:var(--black3);border:1px solid var(--gold-border)!important;border-radius:var(--radius);padding:1.75rem 2rem!important;margin-top:.5rem}.pd2-boxed .oracion-cierre-card{background:none;border:0;padding:0;margin:0}.pd2-boxed .oracion-cierre-card::before{display:none}.pd2-boxed .oracion-cierre-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;color:var(--gold);opacity:1;text-align:center;margin-bottom:1rem}.pd2-boxed .oracion-cierre-texto{font-size:1.125rem;text-align:center;color:var(--white)}
+.pd2-practice{font-family:'Outfit',sans-serif;font-size:1.03125rem;line-height:1.85;color:var(--white);text-align:center}.pd2-root .sembrar-practica{border-left:0;padding-left:0;margin-bottom:0;font-style:normal}.pd2-boxed{background:var(--black3);border:1px solid var(--gold-border)!important;border-radius:var(--radius);padding:1.75rem 2rem!important;margin-top:.5rem}.pd2-boxed .oracion-cierre-card{background:none;border:0;padding:0;margin:0}.pd2-boxed .oracion-cierre-card::before{display:none}.pd2-boxed .oracion-cierre-label{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;color:var(--gold);opacity:1;text-align:center;margin-bottom:1rem}.pd2-boxed .oracion-cierre-texto{font-size:1.125rem;text-align:center;color:var(--white)}
 .pd2-complete-btn,.pd2-root .done-btn{width:100%;max-width:35rem;margin:1.5rem auto 0;padding:1rem;border-radius:var(--radius-sm);display:block;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold);font-family:'Outfit',sans-serif;font-size:.875rem;font-weight:600;letter-spacing:.02em}.pd2-complete-btn:disabled,.pd2-root .done-btn:disabled{background:var(--green-dim);border-color:var(--green-border);color:var(--green2);cursor:default;opacity:.78}
 .pd2-root .est-v2-closing{padding:2.5rem 0 .5rem}.pd2-root .est-v2-closing-eyebrow{font-size:.6875rem}.pd2-root .est-v2-quote{font-size:1.625rem}.pd2-root .est-v2-ref{font-size:.75rem}.pd2-root .est-v2-download-label{font-size:.6875rem}.pd2-root .est-v2-image-style,.pd2-root .est-v2-image-format{font-size:.71875rem}.pd2-root .est-v2-download{border:0;cursor:pointer}.pd2-root .est-v2-canvas-wrap{width:min(15rem,72vw)}
 .pd2-root .pd2-image-open{display:flex;align-items:center;justify-content:center;gap:.45rem;width:min(280px,100%);margin:0 auto;padding:14px 30px;border:1px solid var(--gold)!important;border-radius:8px;background:var(--gold);color:var(--black);font-family:'Outfit',sans-serif;font-size:13.5px;font-weight:600;line-height:1;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;cursor:pointer;box-shadow:0 10px 26px rgba(201,168,76,.14);transition:background .18s,transform .18s}
@@ -1492,6 +1495,10 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 }
 .cap-bloque-hdr:hover{border-color:var(--gold-border2)}
 .cap-bloque-hdr.open{border-color:var(--gold-border2);border-bottom-left-radius:0;border-bottom-right-radius:0}
+.cap-bloque-hdr.is-current-context,
+.cap-libro-hdr.is-current-context{background:var(--gold);border-color:var(--gold)}
+.cap-bloque-hdr.is-current-context *,
+.cap-libro-hdr.is-current-context *{color:var(--black)!important}
 .cap-bloque-num{
   width:24px;height:24px;border-radius:7px;
   background:var(--gold-dim);border:1px solid var(--gold-border);
@@ -2604,6 +2611,13 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       const key = 'estudio_progress_' + String(capKey||'').replace(/\s+/g,'_');
       return parseInt(fbGet(key, '0'), 10) || 0;
     },
+    // Último capítulo abierto: permite continuar entre dispositivos
+    setCurrentChapter: (capKey) => {
+      const value = String(capKey || '');
+      _userData.estudio_current_chapter = value;
+      fbSet({estudio_current_chapter: value});
+    },
+    getCurrentChapter: () => String(fbGet('estudio_current_chapter', '') || ''),
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
       const hoy = window.ADMIN_DATE || new Date();
@@ -2696,6 +2710,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
           _userData = snap.data();
           // Refrescar UI si la app ya está cargada
           if(window._appIniciada){
+            if(typeof sincronizarCapituloActualDesdeCuenta === 'function') sincronizarCapituloActualDesdeCuenta();
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof updateRachaUI === 'function') updateRachaUI();
@@ -6811,14 +6826,42 @@ function getEstudioEstado(libro, cap){
   return getEstudioMaxSec(key) > 0 ? 'parcial' : '';
 }
 
-let _starsOpenChapterKey = sessionStorage.getItem('stars_current_chapter') || '';
+const STARS_CURRENT_CHAPTER_KEY = 'stars_current_chapter';
+let _starsOpenChapterKey = localStorage.getItem(STARS_CURRENT_CHAPTER_KEY) || sessionStorage.getItem(STARS_CURRENT_CHAPTER_KEY) || '';
+function sincronizarCapituloActualDesdeCuenta(){
+  const cloudKey = window.FB?.getCurrentChapter?.() || '';
+  if(cloudKey){
+    _starsOpenChapterKey = cloudKey;
+    try{
+      localStorage.setItem(STARS_CURRENT_CHAPTER_KEY, cloudKey);
+      sessionStorage.setItem(STARS_CURRENT_CHAPTER_KEY, cloudKey);
+    }catch(_){}
+  }else if(_starsOpenChapterKey && window.FB?.setCurrentChapter){
+    window.FB.setCurrentChapter(_starsOpenChapterKey);
+  }
+  return _starsOpenChapterKey;
+}
 function marcarCapituloActual(key){
   _starsOpenChapterKey = String(key || '');
-  try{ sessionStorage.setItem('stars_current_chapter', _starsOpenChapterKey); }catch(_){}
+  try{
+    localStorage.setItem(STARS_CURRENT_CHAPTER_KEY, _starsOpenChapterKey);
+    sessionStorage.setItem(STARS_CURRENT_CHAPTER_KEY, _starsOpenChapterKey);
+  }catch(_){}
+  if(window.FB?.setCurrentChapter) window.FB.setCurrentChapter(_starsOpenChapterKey);
   decorarCapitulosProgreso(document);
 }
 
 function decorarCapitulosProgreso(root=document){
+  sincronizarCapituloActualDesdeCuenta();
+  root.querySelectorAll('.cap-bloque-hdr.is-current-context,.cap-libro-hdr.is-current-context,.chapter-canon-book.is-current-context')
+    .forEach(el=>el.classList.remove('is-current-context'));
+  const currentParts = String(_starsOpenChapterKey || '').split('_');
+  const currentBook = currentParts.slice(0, -1).join(' ');
+  if(currentBook){
+    root.querySelectorAll('.chapter-canon-book[data-book]').forEach(book=>{
+      if(book.getAttribute('data-book') === currentBook) book.classList.add('is-current-context');
+    });
+  }
   root.querySelectorAll('.cap-cap-btn.disponible[title]').forEach(btn=>{
     const title = btn.getAttribute('title') || '';
     const m = title.match(/^(.+)\s+(\d+)$/);
@@ -6826,7 +6869,15 @@ function decorarCapitulosProgreso(root=document){
     btn.classList.remove('parcial','leido','is-current');
     const estado = getEstudioEstado(m[1], parseInt(m[2],10));
     if(estado) btn.classList.add(estado);
-    if(getCapKey(m[1], parseInt(m[2],10)) === _starsOpenChapterKey) btn.classList.add('is-current');
+    if(getCapKey(m[1], parseInt(m[2],10)) === _starsOpenChapterKey){
+      btn.classList.add('is-current');
+      const grid = btn.closest('.cap-caps-grid');
+      const libroHdr = grid?.previousElementSibling;
+      if(libroHdr?.classList.contains('cap-libro-hdr')) libroHdr.classList.add('is-current-context');
+      const libros = btn.closest('.cap-libros');
+      const bloqueHdr = libros?.previousElementSibling;
+      if(bloqueHdr?.classList.contains('cap-bloque-hdr')) bloqueHdr.classList.add('is-current-context');
+    }
   });
   root.querySelectorAll('.chapter-canon-cap.available[title],.tcap-cap-btn[title]').forEach(btn=>{
     const title = btn.getAttribute('title') || '';
@@ -6837,7 +6888,14 @@ function decorarCapitulosProgreso(root=document){
     btn.classList.remove('partial','read','parcial','leido','is-current');
     if(estado === 'parcial') btn.classList.add(btn.classList.contains('tcap-cap-btn') ? 'parcial' : 'partial');
     if(estado === 'leido') btn.classList.add(btn.classList.contains('tcap-cap-btn') ? 'leido' : 'read');
-    if(key === _starsOpenChapterKey) btn.classList.add('is-current');
+    if(key === _starsOpenChapterKey){
+      btn.classList.add('is-current');
+      btn.closest('.chapter-canon-book')?.classList.add('is-current-context');
+      const trackerLibro = btn.closest('.tcap-libro');
+      trackerLibro?.querySelector('.tcap-libro-hdr')?.classList.add('is-current-context');
+      const trackerBloque = btn.closest('.tcap-bloque');
+      trackerBloque?.querySelector('.tcap-bloque-hdr')?.classList.add('is-current-context');
+    }
   });
 }
 function toggleCap(libro, cap, el){
@@ -7926,7 +7984,7 @@ function renderBibliaCanon(contexto){
         const resumen=disponibles
           ? disponibles+' '+(disponibles===1?'disponible':'disponibles')
           : libro.caps+' '+(libro.caps===1?'capítulo':'capítulos');
-        return `<div class="chapter-canon-book${disponibles?' has-studies':''}">
+        return `<div class="chapter-canon-book${disponibles?' has-studies':''}" data-book="${escaparHTML(libro.n)}">
           <button class="chapter-canon-book-btn" onclick="toggleLibroCanon(this,${jsStringAttr(contexto)},${jsStringAttr(libro.n)},${libro.caps})">
             <span class="chapter-canon-book-name">${escaparHTML(libro.n)}</span>
             <span class="chapter-canon-book-meta">${resumen}<span class="chapter-canon-book-chevron">›</span></span>
@@ -7935,6 +7993,7 @@ function renderBibliaCanon(contexto){
         </div>`;
       }).join('')}
     </section>`).join('');
+  decorarCapitulosProgreso(host);
 }
 
 function toggleLibroCanon(btn,contexto,nombre,cantidad){
