@@ -990,16 +990,16 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .pt-msg-es-wrap{margin-top:14px;padding-top:14px;border-top:1px solid var(--pt-line)}
 .pt-reading{font-family:'Cormorant Garamond',serif;font-size:1.1875rem;line-height:1.9;color:var(--white);white-space:pre-line}
 .pt-explanation{font-size:1rem;line-height:1.85;color:var(--white2);white-space:pre-line}
-.pt-notes{display:grid;gap:16px}
-.pt-card{background:var(--black3);border:1px solid var(--pt-line);border-left:2px solid var(--pt-accent);border-radius:4px;padding:20px 22px}
+.pt-notes{display:grid;gap:16px;min-width:0;max-width:100%}
+.pt-card{width:100%;min-width:0;max-width:100%;overflow:hidden;background:var(--black3);border:1px solid var(--pt-line);border-left:2px solid var(--pt-accent);border-radius:4px;padding:20px 22px}
 .pt-card-ref{font-size:.65625rem;letter-spacing:.1em;text-transform:uppercase;color:var(--pt-accent);font-weight:600;margin-bottom:10px}
-.pt-layer{padding-top:14px;margin-top:14px;border-top:1px solid var(--pt-line)}
+.pt-layer{min-width:0;max-width:100%;padding-top:14px;margin-top:14px;border-top:1px solid var(--pt-line)}
 .pt-layer:first-of-type{padding-top:0;margin-top:0;border-top:0}
 .pt-layer-label{font-size:.59375rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--pt-accent);margin-bottom:7px}
-.pt-layer-en{font-family:'Cormorant Garamond',serif;font-size:.875rem;line-height:1.55;font-style:italic;color:var(--white2)}
-.pt-layer-es{font-family:'Cormorant Garamond',serif;font-size:1.03125rem;line-height:1.65;font-weight:600;color:var(--white)}
-.pt-layer-nbla{font-family:'Cormorant Garamond',serif;font-size:1.03125rem;line-height:1.65;font-weight:600;color:var(--white);white-space:pre-line}
-.pt-layer-exp{font-family:'Cormorant Garamond',serif;font-size:.90625rem;line-height:1.75;color:var(--white2);white-space:pre-line}
+.pt-layer-en{font-family:'Cormorant Garamond',serif;font-size:.875rem;line-height:1.55;font-style:italic;color:var(--white2);overflow-wrap:anywhere;word-break:normal}
+.pt-layer-es{font-family:'Cormorant Garamond',serif;font-size:1.03125rem;line-height:1.65;font-weight:600;color:var(--white);overflow-wrap:anywhere;word-break:normal}
+.pt-layer-nbla{font-family:'Cormorant Garamond',serif;font-size:1.03125rem;line-height:1.65;font-weight:600;color:var(--white);white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal}
+.pt-layer-exp{min-width:0;max-width:100%;font-family:'Cormorant Garamond',serif;font-size:.90625rem;line-height:1.75;color:var(--white2);white-space:pre-wrap;overflow-wrap:anywhere;word-break:normal}
 .pt-motto{margin-top:18px;padding-top:16px;border-top:1px solid var(--pt-line);font-style:italic;color:var(--white);font-weight:600}
 .pt-study-invite{margin-top:18px;color:var(--white2)}
 .pt-study-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
@@ -2561,7 +2561,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
 
 <!-- Firebase -->
 <script type="module">
-  document.title = 'S · T · A · R · S';
+  const STARS_APP_TITLE = 'S · T · A · R · S';
+  const STARS_STANDALONE = window.matchMedia('(display-mode: standalone)').matches
+    || window.navigator.standalone === true;
+  document.title = STARS_STANDALONE ? '' : STARS_APP_TITLE;
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
   import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
