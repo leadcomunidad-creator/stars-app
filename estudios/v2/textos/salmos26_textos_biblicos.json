@@ -1,0 +1,355 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La integridad comienza con una confianza decidida en el SEÑOR. La NBLA fija esa estabilidad como confiar sin titubear; MSG la vuelve visible como ligar el propio destino a Dios y no moverse. La imagen no promete ausencia de dudas emocionales, sino una lealtad que permanece orientada hacia Dios.",
+      "id": "salmos26-joya-01",
+      "msg": {
+        "en": "\"I’ve thrown in my lot with you, GOD, and I’m not budging.\"",
+        "es": "\"He ligado mi suerte a Ti, DIOS, y no voy a moverme.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos26-nbla-01b"
+          ],
+          "verseId": "salmos26-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La persona íntegra invita a Dios a revelar lo que todavía necesita corrección. La NBLA establece la petición de examen y prueba; MSG amplía el alcance de pies a cabeza. Esa imagen no afirma que el salmista ya pasó todas las pruebas, sino que entrega la totalidad de su vida a la evaluación divina.",
+      "id": "salmos26-joya-02",
+      "msg": {
+        "en": "\"Examine me, GOD, from head to foot,\"",
+        "es": "\"Examíname, DIOS, de pies a cabeza;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos26-nbla-02a"
+          ],
+          "verseId": "salmos26-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "Caminar en la verdad significa ajustar la vida al carácter y la dirección de Dios. La NBLA fija el sentido moral del camino; MSG lo representa como seguir el paso sin perder el ritmo. La imagen no convierte la obediencia en una experiencia siempre fácil, sino en una atención constante al amor y la verdad del SEÑOR.",
+      "id": "salmos26-joya-03",
+      "msg": {
+        "en": "\"But keep in step with you, never missing a beat.\"",
+        "es": "\"sino que sigo Tu paso, sin perder el ritmo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos26-nbla-03b"
+          ],
+          "verseId": "salmos26-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3"
+    },
+    {
+      "explanation": "La adoración proclama públicamente las obras de Dios con gratitud. La NBLA fija el contenido en Sus maravillas; MSG vuelve audible la celebración mediante canciones e historias dichas a todo pulmón. La expansión no reduce la adoración a volumen o emoción, porque el contexto exige también manos limpias e integridad.",
+      "id": "salmos26-joya-04",
+      "msg": {
+        "en": "\"Singing God-songs at the top of my lungs, telling God-stories.\"",
+        "es": "\"cantando canciones de Dios a todo pulmón, contando historias de Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La integridad del salmista no elimina su dependencia de la gracia. La NBLA expresa de manera directa la petición de redención y misericordia; MSG la vuelve una solicitud coloquial para que Dios lo trate con justicia y transparencia. La NBLA impide interpretar la frase como una exigencia entre iguales: David sigue compareciendo ante el Juez que también debe rescatarlo y tener piedad de él.",
+      "id": "salmos26-joya-05",
+      "msg": {
+        "en": "\"now be aboveboard with me.\"",
+        "es": "\"ahora sé justo conmigo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos26-nbla-11b"
+          ],
+          "verseId": "salmos26-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11-12"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 26,
+    "studyId": "salmos-26"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos26-msg-01",
+      "msg": {
+        "en": "Clear my name, GOD;\nI’ve kept an honest shop.\nI’ve thrown in my lot with you, GOD, and\nI’m not budging.",
+        "es": "Limpia mi nombre, DIOS;\nhe llevado mis asuntos con honradez.\nHe ligado mi suerte a Ti, DIOS,\ny no voy a moverme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "salmos26-msg-02",
+      "msg": {
+        "en": "Examine me, GOD, from head to foot,\norder your battery of tests.\nMake sure I’m fit\ninside and out",
+        "es": "Examíname, DIOS, de pies a cabeza;\nsométeme a toda una batería de pruebas.\nAsegúrate de que estoy en condiciones\npor dentro y por fuera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "salmos26-msg-03",
+      "msg": {
+        "en": "So I never lose\nsight of your love,\nBut keep in step with you,\nnever missing a beat.",
+        "es": "Así nunca pierdo\nde vista Tu amor,\nsino que sigo Tu paso,\nsin perder el ritmo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos26-msg-04",
+      "msg": {
+        "en": "I don’t hang out with tricksters,\nI don’t pal around with thugs;\nI hate that pack of gangsters,\nI don’t deal with double-dealers.",
+        "es": "No frecuento a embusteros,\nni ando con matones;\ndetesto esa banda de delincuentes,\nno trato con gente de doble cara."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos26-msg-05",
+      "msg": {
+        "en": "I scrub my hands with purest soap,\nthen join hands with the others in the great circle,\ndancing around your altar, GOD,\nSinging God-songs at the top of my lungs,\ntelling God-stories.",
+        "es": "Me lavo las manos con el jabón más puro;\nluego me uno a los demás en el gran círculo,\ndanzando alrededor de Tu altar, DIOS,\ncantando canciones de Dios a todo pulmón,\ncontando historias de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "salmos26-msg-06",
+      "msg": {
+        "en": "GOD, I love living with you;\nyour house glows with your glory.\nWhen it’s time for spring cleaning,\ndon’t sweep me out with the quacks and crooks,\nMen with bags of dirty tricks,\nwomen with purses stuffed with bribe-money.",
+        "es": "DIOS, me encanta vivir contigo;\nTu casa resplandece con Tu gloria.\nCuando llegue el momento de la limpieza general,\nno me barras junto con charlatanes y estafadores:\nhombres con bolsas llenas de artimañas sucias,\nmujeres con carteras repletas de sobornos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "salmos26-msg-07",
+      "msg": {
+        "en": "You know I’ve been aboveboard with you;\nnow be aboveboard with me.\nI’m on the level with you, GOD;\nI bless you every chance I get.",
+        "es": "Sabes que he sido transparente contigo;\nahora sé justo conmigo.\nHe sido sincero contigo, DIOS;\nte bendigo cada vez que tengo oportunidad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos26-nbla-12"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos26-nbla-01a",
+          "order": 1,
+          "text": "Hazme justicia, oh SEÑOR, porque yo en mi integridad he andado,"
+        },
+        {
+          "id": "salmos26-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en el SEÑOR he confiado sin titubear."
+        }
+      ],
+      "id": "salmos26-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos26-nbla-02a",
+          "order": 1,
+          "text": "Examíname, oh SEÑOR, y pruébame;"
+        },
+        {
+          "id": "salmos26-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Escudriña mi mente y mi corazón."
+        }
+      ],
+      "id": "salmos26-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos26-nbla-03a",
+          "order": 1,
+          "text": "Porque delante de mis ojos está Tu misericordia,"
+        },
+        {
+          "id": "salmos26-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en Tu verdad he andado."
+        }
+      ],
+      "id": "salmos26-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos26-nbla-04",
+      "number": 4,
+      "text": "Con los falsos no me he sentado,\nNi con los hipócritas iré."
+    },
+    {
+      "id": "salmos26-nbla-05",
+      "number": 5,
+      "text": "Aborrezco la reunión de los malhechores,\nY no me sentaré con los impíos."
+    },
+    {
+      "id": "salmos26-nbla-06",
+      "number": 6,
+      "text": "Lavaré en inocencia mis manos,\nY andaré alrededor de Tu altar, oh SEÑOR,"
+    },
+    {
+      "id": "salmos26-nbla-07",
+      "number": 7,
+      "text": "Proclamando con voz de acción de gracias\nY contando todas Tus maravillas."
+    },
+    {
+      "id": "salmos26-nbla-08",
+      "number": 8,
+      "text": "Oh SEÑOR, yo amo la habitación de Tu casa,\nY el lugar donde habita Tu gloria."
+    },
+    {
+      "id": "salmos26-nbla-09",
+      "number": 9,
+      "text": "No juntes mi alma con pecadores,\nNi mi vida con hombres sanguinarios,"
+    },
+    {
+      "id": "salmos26-nbla-10",
+      "number": 10,
+      "text": "En cuyas manos hay intrigas,\nY cuya diestra está llena de sobornos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos26-nbla-11a",
+          "order": 1,
+          "text": "Pero yo en mi integridad andaré;"
+        },
+        {
+          "id": "salmos26-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Redímeme, y ten piedad de mí."
+        }
+      ],
+      "id": "salmos26-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "salmos26-nbla-12",
+      "number": 12,
+      "text": "Sobre tierra firme está mi pie;\nEn las congregaciones bendeciré al SEÑOR."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

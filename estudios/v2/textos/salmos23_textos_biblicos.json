@@ -1,0 +1,274 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La suficiencia surge de pertenecer al Pastor. La NBLA fija la confesión y su resultado: porque el SEÑOR pastorea, nada esencial quedará fuera de Su cuidado. MSG vuelve esa confianza directa y conversacional. La frase no garantiza riqueza ni ausencia de pérdida; declara que Dios mismo será suficiente para sostener y guiar.",
+      "id": "salmos23-joya-01",
+      "msg": {
+        "en": "\"GOD, my shepherd! I don’t need a thing.\"",
+        "es": "\"¡DIOS, mi pastor! No necesito nada.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Dios restaura para volver a poner la vida en camino. La NBLA une restauración y justicia; MSG lo hace visible como recobrar el aliento y ser enviado en la dirección correcta. El descanso no es un fin autosuficiente ni una invitación a evitar responsabilidad: recupera al caminante para una obediencia renovada.",
+      "id": "salmos23-joya-02",
+      "msg": {
+        "en": "\"you let me catch my breath and send me in the right direction.\"",
+        "es": "\"me dejas recobrar el aliento y me encaminas en la dirección correcta.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos23-nbla-03a"
+          ],
+          "verseId": "salmos23-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La presencia de Dios es el centro del consuelo en el valle. La NBLA afirma directamente «Tú estás conmigo»; MSG convierte esa verdad en la imagen del Pastor que camina al lado. El texto no promete evitar toda oscuridad, sino una compañía real que cambia la manera de atravesarla.",
+      "id": "salmos23-joya-03",
+      "msg": {
+        "en": "\"when you walk at my side.\"",
+        "es": "\"cuando caminas a mi lado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos23-nbla-04b"
+          ],
+          "verseId": "salmos23-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4"
+    },
+    {
+      "explanation": "Dios sostiene y honra al salmista aun en presencia de oposición. La NBLA fija la mesa preparada; MSG intensifica la abundancia mediante una cena de seis platos. Esa imagen no debe convertirse en promesa literal de lujo ni en deseo de humillar enemigos. Comunica que la comunión y el cuidado de Dios no pueden ser cancelados por quienes se oponen.",
+      "id": "salmos23-joya-04",
+      "msg": {
+        "en": "\"You serve me a six-course dinner right in front of my enemies.\"",
+        "es": "\"Me sirves una cena de seis platos justo frente a mis enemigos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos23-nbla-05a"
+          ],
+          "verseId": "salmos23-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5"
+    },
+    {
+      "explanation": "El bien y la misericordia de Dios acompañan activamente toda la vida. La NBLA fija los atributos que siguen al salmista; MSG vuelve esa acción más intensa mediante la imagen de una persecución de belleza y amor. No significa que cada día será agradable, sino que ningún día quedará fuera del alcance de la fidelidad divina.",
+      "id": "salmos23-joya-05",
+      "msg": {
+        "en": "\"Your beauty and love chase after me every day of my life.\"",
+        "es": "\"Tu belleza y Tu amor me persiguen cada día de mi vida.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos23-nbla-06a"
+          ],
+          "verseId": "salmos23-nbla-06"
+        }
+      ],
+      "order": 5,
+      "range": "6"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 23,
+    "studyId": "salmos-23"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos23-msg-01",
+      "msg": {
+        "en": "GOD, my shepherd!\nI don’t need a thing.\nYou have bedded me down in lush meadows,\nyou find me quiet pools to drink from.\nTrue to your word,\nyou let me catch my breath\nand send me in the right direction.",
+        "es": "¡DIOS, mi pastor!\nNo necesito nada.\nMe haces recostar en prados exuberantes;\nme encuentras estanques tranquilos donde beber.\nFiel a Tu palabra,\nme dejas recobrar el aliento\ny me encaminas en la dirección correcta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "salmos23-msg-02",
+      "msg": {
+        "en": "Even when the way goes through\nDeath Valley,\nI’m not afraid\nwhen you walk at my side.\nYour trusty shepherd’s crook\nmakes me feel secure.",
+        "es": "Aun cuando el camino atraviese\nel Valle de la Muerte,\nno tengo miedo\ncuando caminas a mi lado.\nTu cayado de pastor, siempre confiable,\nme hace sentir seguro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos23-msg-03",
+      "msg": {
+        "en": "You serve me a six-course dinner\nright in front of my enemies.\nYou revive my drooping head;\nmy cup brims with blessing.",
+        "es": "Me sirves una cena de seis platos\njusto frente a mis enemigos.\nReanimas mi cabeza abatida;\nmi copa rebosa de bendición."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "salmos23-msg-04",
+      "msg": {
+        "en": "Your beauty and love chase after me\nevery day of my life.\nI’m back home in the house of GOD\nfor the rest of my life.",
+        "es": "Tu belleza y Tu amor me persiguen\ncada día de mi vida.\nHe vuelto a casa, a la casa de DIOS,\npor el resto de mi vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos23-nbla-06"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos23-nbla-01",
+      "number": 1,
+      "text": "El SEÑOR es mi pastor,\nNada me faltará."
+    },
+    {
+      "id": "salmos23-nbla-02",
+      "number": 2,
+      "text": "En lugares de verdes pastos me hace descansar;\nJunto a aguas de reposo me conduce."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos23-nbla-03a",
+          "order": 1,
+          "text": "Él restaura mi alma;\nMe guía por senderos de justicia"
+        },
+        {
+          "id": "salmos23-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Por amor de Su nombre."
+        }
+      ],
+      "id": "salmos23-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos23-nbla-04a",
+          "order": 1,
+          "text": "Aunque pase por el valle de sombra de muerte,\nNo temeré mal alguno,"
+        },
+        {
+          "id": "salmos23-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque Tú estás conmigo;"
+        },
+        {
+          "id": "salmos23-nbla-04c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Tu vara y Tu cayado me infunden aliento."
+        }
+      ],
+      "id": "salmos23-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos23-nbla-05a",
+          "order": 1,
+          "text": "Tú preparas mesa delante de mí en presencia de mis enemigos;"
+        },
+        {
+          "id": "salmos23-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Has ungido mi cabeza con aceite;\nMi copa está rebosando."
+        }
+      ],
+      "id": "salmos23-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos23-nbla-06a",
+          "order": 1,
+          "text": "Ciertamente el bien y la misericordia me seguirán todos los días de mi vida,"
+        },
+        {
+          "id": "salmos23-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en la casa del SEÑOR moraré por largos días."
+        }
+      ],
+      "id": "salmos23-nbla-06",
+      "number": 6
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

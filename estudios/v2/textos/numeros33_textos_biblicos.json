@@ -1,0 +1,862 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "la memoria del recorrido es presentada como una tarea ordenada por Dios. NBLA subraya que Moisés anotó las jornadas por mandato del SEÑOR; MSG hace visible el carácter acumulativo del registro, «campamento por campamento». Recordar no es aquí nostalgia espontánea, sino una disciplina espiritual que permite reconocer la fidelidad de Dios a lo largo del tiempo.",
+      "id": "numeros33-joya-01",
+      "msg": {
+        "en": "\"Under GOD’S instruction Moses kept a log of every time they moved, camp by camp\"",
+        "es": "\"Por instrucción de DIOS, Moisés llevó un registro de cada vez que se trasladaron, campamento por campamento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-02a"
+          ],
+          "verseId": "numeros33-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Israel sale de Egipto no escondiéndose como un grupo derrotado, sino después de que Dios ha quebrado el poder que lo esclavizaba. NBLA habla de «mano poderosa» y MSG representa al pueblo marchando con la cabeza en alto. La confianza no nace de superioridad propia, sino de una liberación que Dios acaba de realizar delante de sus enemigos.",
+      "id": "numeros33-joya-02",
+      "msg": {
+        "en": "\"They marched out heads high and confident.\"",
+        "es": "\"Marcharon con la cabeza en alto y llenos de confianza.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-03b"
+          ],
+          "verseId": "numeros33-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "el éxodo no es solo liberación política; también desenmascara las falsas seguridades religiosas de Egipto. NBLA habla de juicios contra sus dioses y MSG lo vuelve visible como exposición de su falsedad. El texto no enseña a ridiculizar a personas de otras religiones, sino a reconocer que ninguna lealtad rival puede competir finalmente con el Dios que rescata y gobierna la historia.",
+      "id": "numeros33-joya-03",
+      "msg": {
+        "en": "\"GOD had exposed the nonsense of their gods.\"",
+        "es": "\"DIOS había dejado al descubierto la falsedad de sus dioses.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-04b"
+          ],
+          "verseId": "numeros33-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "la muerte de Aarón ocurre dentro del camino y bajo una historia que sigue perteneciendo a Dios. MSG y NBLA preservan la relación entre el mandato del SEÑOR y el final de su vida. El pasaje recuerda que incluso líderes decisivos tienen una etapa limitada. La promesa continúa porque su fundamento nunca fue la permanencia humana.",
+      "id": "numeros33-joya-04",
+      "msg": {
+        "en": "\"Aaron the priest climbed Mount Hor at GOD’S command and died there.\"",
+        "es": "\"El sacerdote Aarón subió al monte Hor por orden de DIOS y murió allí.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-38b"
+          ],
+          "verseId": "numeros33-nbla-38"
+        }
+      ],
+      "order": 4,
+      "range": "37-39"
+    },
+    {
+      "explanation": "después de décadas de itinerario, el pueblo termina frente al Jordán y Jericó. La frase es geográfica, pero carga todo el peso del recorrido anterior: quienes una vez salieron de Ramsés están ahora a las puertas de Canaán. La fidelidad de Dios puede verse con claridad cuando el presente se compara con el punto de partida.",
+      "id": "numeros33-joya-05",
+      "msg": {
+        "en": "\"they camped on the Plains of Moab at Jordan-Jericho.\"",
+        "es": "\"acamparon en las llanuras de Moab, junto al Jordán, frente a Jericó.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-48b"
+          ],
+          "verseId": "numeros33-nbla-48"
+        }
+      ],
+      "order": 5,
+      "range": "48-49"
+    },
+    {
+      "explanation": "la posesión de Canaán parte de un don divino antes de convertirse en responsabilidad humana. NBLA declara que Dios ha dado la tierra y MSG concentra la certeza del regalo. Sin embargo, el mismo bloque exige acción y obediencia. La gracia no elimina la responsabilidad; crea el terreno sobre el que una respuesta fiel se vuelve posible.",
+      "id": "numeros33-joya-06",
+      "msg": {
+        "en": "\"I’ve given it to you. It’s yours.\"",
+        "es": "\"Yo se la he dado. Es de ustedes.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-53b"
+          ],
+          "verseId": "numeros33-nbla-53"
+        }
+      ],
+      "order": 6,
+      "range": "50-53"
+    },
+    {
+      "explanation": "la advertencia final muestra que una obediencia incompleta puede convertirse en un conflicto permanente dentro del lugar de la promesa. NBLA habla de hostigamiento en la tierra e MSG lo expresa como problemas persistentes en el propio espacio de vida. El límite hermenéutico es esencial: esto no autoriza violencia cristiana contra pueblos modernos; dentro del relato, advierte a Israel sobre las consecuencias de ignorar el mandato específico que recibió.",
+      "id": "numeros33-joya-07",
+      "msg": {
+        "en": "\"They’ll give you endless trouble right in your own backyards.\"",
+        "es": "\"Les causarán problemas interminables justo en el lugar donde vivan.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros33-nbla-55b"
+          ],
+          "verseId": "numeros33-nbla-55"
+        }
+      ],
+      "order": 7,
+      "range": "55-56"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 33,
+    "studyId": "numeros-33"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "numeros33-msg-01",
+      "msg": {
+        "en": "These are the camping sites in the journey of the People of Israel after they left Egypt, deployed militarily under the command of Moses and Aaron. Under GOD’S instruction Moses kept a log of every time they moved, camp by camp:",
+        "es": "Estos son los lugares donde acampó el pueblo de Israel durante su viaje después de salir de Egipto, organizado militarmente bajo el mando de Moisés y Aarón. Por instrucción de DIOS, Moisés llevó un registro de cada vez que se trasladaron, campamento por campamento:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "numeros33-msg-02",
+      "msg": {
+        "en": "They marched out of Rameses the day after the Passover. It was the fifteenth day of the first month. They marched out heads high and confident. The Egyptians, busy burying their firstborn whom GOD had killed, watched them go. GOD had exposed the nonsense of their gods.",
+        "es": "Salieron de Ramsés el día después de la Pascua. Era el día quince del primer mes. Marcharon con la cabeza en alto y llenos de confianza. Los egipcios, ocupados enterrando a sus primogénitos a quienes DIOS había matado, los vieron partir. DIOS había dejado al descubierto la falsedad de sus dioses."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-36",
+      "id": "numeros33-msg-03",
+      "msg": {
+        "en": "The People of Israel:\nleft Rameses and camped at Succoth;\nleft Succoth and camped at Etham at the edge of the wilderness;\nleft Etham, circled back to Pi Hahiroth east of Baal Zephon, and camped near Migdol;\nleft Pi Hahiroth and crossed through the Sea into the wilderness; three days into the Wilderness of Etham they camped at Marah;\nleft Marah and came to Elim where there were twelve springs and seventy palm trees; they camped there;\nleft Elim and camped by the Red Sea;\nleft the Red Sea and camped in the Wilderness of Sin;\nleft the Wilderness of Sin and camped at Dophkah;\nleft Dophkah and camped at Alush;\nleft Alush and camped at Rephidim where there was no water for the people to drink;\nleft Rephidim and camped in the Wilderness of Sinai;\nleft the Wilderness of Sinai and camped at Kibroth Hattaavah;\nleft Kibroth Hattaavah and camped at Hazeroth;\nleft Hazeroth and camped at Rithmah;\nleft Rithmah and camped at Rimmon Perez;\nleft Rimmon Perez and camped at Libnah;\nleft Libnah and camped at Rissah;\nleft Rissah and camped at Kehelathah;\nleft Kehelathah and camped at Mount Shepher;\nleft Mount Shepher and camped at Haradah;\nleft Haradah and camped at Makheloth;\nleft Makheloth and camped at Tahath;\nleft Tahath and camped at Terah;\nleft Terah and camped at Mithcah;\nleft Mithcah and camped at Hashmonah;\nleft Hashmonah and camped at Moseroth;\nleft Moseroth and camped at Bene Jaakan;\nleft Bene Jaakan and camped at Hor Haggidgad;\nleft Hor Haggidgad and camped at Jotbathah;\nleft Jotbathah and camped at Abronah;\nleft Abronah and camped at Ezion Geber;\nleft Ezion Geber and camped at Kadesh in the Wilderness of Zin.",
+        "es": "El pueblo de Israel:\nsalió de Ramsés y acampó en Sucot;\nsalió de Sucot y acampó en Etam, al borde del desierto;\nsalió de Etam, regresó hacia Pi Hahirot, al este de Baal Zefón, y acampó cerca de Migdol;\nsalió de Pi Hahirot y cruzó por el mar hacia el desierto; después de tres días en el desierto de Etam, acampó en Mara;\nsalió de Mara y llegó a Elim, donde había doce manantiales y setenta palmeras; allí acampó;\nsalió de Elim y acampó junto al Mar Rojo;\nsalió del Mar Rojo y acampó en el desierto de Sin;\nsalió del desierto de Sin y acampó en Dofca;\nsalió de Dofca y acampó en Alús;\nsalió de Alús y acampó en Refidim, donde no había agua para que el pueblo bebiera;\nsalió de Refidim y acampó en el desierto de Sinaí;\nsalió del desierto de Sinaí y acampó en Kibrot Hataava;\nsalió de Kibrot Hataava y acampó en Hazerot;\nsalió de Hazerot y acampó en Ritma;\nsalió de Ritma y acampó en Rimón Peres;\nsalió de Rimón Peres y acampó en Libna;\nsalió de Libna y acampó en Rissa;\nsalió de Rissa y acampó en Ceelata;\nsalió de Ceelata y acampó en el monte Sefer;\nsalió del monte Sefer y acampó en Harada;\nsalió de Harada y acampó en Macelot;\nsalió de Macelot y acampó en Tahat;\nsalió de Tahat y acampó en Tara;\nsalió de Tara y acampó en Mitca;\nsalió de Mitca y acampó en Hasmona;\nsalió de Hasmona y acampó en Moserot;\nsalió de Moserot y acampó en Bene Jaacán;\nsalió de Bene Jaacán y acampó en Hor Haggidgad;\nsalió de Hor Haggidgad y acampó en Jotbata;\nsalió de Jotbata y acampó en Abrona;\nsalió de Abrona y acampó en Ezión Geber;\nsalió de Ezión Geber y acampó en Cades, en el desierto de Zin."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-36"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "37-39",
+      "id": "numeros33-msg-04",
+      "msg": {
+        "en": "After they left Kadesh and camped at Mount Hor at the border of Edom, Aaron the priest climbed Mount Hor at GOD’S command and died there. It was the first day of the fifth month in the fortieth year after the People of Israel had left Egypt. Aaron was 123 years old when he died on Mount Hor.",
+        "es": "Después salieron de Cades y acamparon en el monte Hor, en la frontera de Edom. El sacerdote Aarón subió al monte Hor por orden de DIOS y murió allí. Era el primer día del quinto mes del año cuarenta después de que el pueblo de Israel salió de Egipto. Aarón tenía 123 años cuando murió en el monte Hor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-39"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "40",
+      "id": "numeros33-msg-05",
+      "msg": {
+        "en": "The Canaanite king of Arad—he ruled in the Negev of Canaan—heard that the People of Israel had arrived.",
+        "es": "El rey cananeo de Arad —que gobernaba en el Neguev de Canaán— se enteró de que el pueblo de Israel había llegado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-40"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "41-47",
+      "id": "numeros33-msg-06",
+      "msg": {
+        "en": "They left Mount Hor and camped at Zalmonah;\nleft Zalmonah and camped at Punon;\nleft Punon and camped at Oboth;\nleft Oboth and camped at Iye Abarim on the border of Moab;\nleft Iyim and camped at Dibon Gad;\nleft Dibon Gad and camped at Almon Diblathaim;\nleft Almon Diblathaim and camped in the mountains of Abarim (Across-the-River), within sight of Nebo.",
+        "es": "Salieron del monte Hor y acamparon en Zalmona;\nsalieron de Zalmona y acamparon en Punón;\nsalieron de Punón y acamparon en Obot;\nsalieron de Obot y acamparon en Ije Abarim, en la frontera de Moab;\nsalieron de Ijim y acamparon en Dibón Gad;\nsalieron de Dibón Gad y acamparon en Almón Diblataim;\nsalieron de Almón Diblataim y acamparon en los montes de Abarim —Al Otro Lado del Río—, frente a Nebo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-47"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "48-49",
+      "id": "numeros33-msg-07",
+      "msg": {
+        "en": "After they left the mountains of Abarim they camped on the Plains of Moab at Jordan-Jericho. On the Plains of Moab their camp stretched along the banks of the Jordan from Beth Jeshimoth to Abel Shittim (Acacia Meadow).",
+        "es": "Después salieron de los montes de Abarim y acamparon en las llanuras de Moab, junto al Jordán, frente a Jericó. En las llanuras de Moab, su campamento se extendía por las orillas del Jordán desde Bet Jesimot hasta Abel Sitim —Pradera de Acacias—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-49"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "50-53",
+      "id": "numeros33-msg-08",
+      "msg": {
+        "en": "GOD spoke to Moses on the Plains of Moab at Jordan-Jericho: “Tell the People of Israel, When you cross the Jordan into the country of Canaan, drive out the native population before you, destroy their carved idols, destroy their cast images, level their worship-mounds so that you take over the land and make yourself at home in it; I’ve given it to you. It’s yours.",
+        "es": "DIOS habló a Moisés en las llanuras de Moab, junto al Jordán, frente a Jericó: «Dile al pueblo de Israel: Cuando crucen el Jordán y entren en la tierra de Canaán, expulsen de delante de ustedes a la población que vive allí, destruyan sus ídolos tallados, destruyan sus imágenes fundidas y derriben sus lugares de culto, para que tomen posesión de la tierra y se establezcan en ella; Yo se la he dado. Es de ustedes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-51"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-53"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "54",
+      "id": "numeros33-msg-09",
+      "msg": {
+        "en": "“Divide up the land by lot according to the size of your clans: Large clans will get large tracts of land, small clans will get smaller tracts of land. However the lot falls, that’s it. Divide it up according to your ancestral tribes.",
+        "es": "«Repartan la tierra por sorteo según el tamaño de sus clanes: los clanes grandes recibirán extensiones grandes y los pequeños recibirán extensiones menores. Donde caiga la suerte, allí quedará la porción. Repartan la tierra según sus tribus ancestrales."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-54"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "55-56",
+      "id": "numeros33-msg-10",
+      "msg": {
+        "en": "“But if you don’t drive out the native population, everyone you let stay there will become a cinder in your eye and a splinter in your foot. They’ll give you endless trouble right in your own backyards. And I’ll start treating you the way I planned to treat them.”",
+        "es": "«Pero si no expulsan a la población de la tierra, todos los que dejen allí se convertirán en una brasa en el ojo y una astilla en el pie. Les causarán problemas interminables justo en el lugar donde vivan. Y entonces comenzaré a tratarlos a ustedes como había planeado tratarlos a ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-55"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros33-nbla-56"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros33-nbla-01",
+      "number": 1,
+      "text": "Estas son las jornadas de los israelitas, que salieron de la tierra de Egipto por sus ejércitos, bajo la dirección de Moisés y Aarón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-02a",
+          "order": 1,
+          "text": "Moisés anotó los puntos de partida según sus jornadas, por el mandamiento del SEÑOR"
+        },
+        {
+          "id": "numeros33-nbla-02b",
+          "order": 2,
+          "text": ", y estas son sus jornadas, conforme a sus puntos de partida."
+        }
+      ],
+      "id": "numeros33-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-03a",
+          "order": 1,
+          "text": "El mes primero salieron de Ramsés el día quince del mes primero; el día después de la Pascua,"
+        },
+        {
+          "id": "numeros33-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los israelitas marcharon con mano poderosa a la vista de todos los egipcios,"
+        }
+      ],
+      "id": "numeros33-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-04a",
+          "order": 1,
+          "text": "mientras los egipcios sepultaban a todos sus primogénitos, a quienes el SEÑOR había herido entre ellos."
+        },
+        {
+          "id": "numeros33-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El SEÑOR también había ejecutado juicios contra sus dioses."
+        }
+      ],
+      "id": "numeros33-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "numeros33-nbla-05",
+      "number": 5,
+      "text": "Entonces los israelitas salieron de Ramsés y acamparon en Sucot."
+    },
+    {
+      "id": "numeros33-nbla-06",
+      "number": 6,
+      "text": "Salieron de Sucot y acamparon en Etam, que está en el extremo del desierto."
+    },
+    {
+      "id": "numeros33-nbla-07",
+      "number": 7,
+      "text": "Salieron de Etam, se volvieron a Pi Hahirot, frente a Baal Zefón, y acamparon delante de Migdol."
+    },
+    {
+      "id": "numeros33-nbla-08",
+      "number": 8,
+      "text": "Salieron de delante de Hahirot y cruzaron por en medio del mar hasta el desierto; y anduvieron tres días en el desierto de Etam y acamparon en Mara."
+    },
+    {
+      "id": "numeros33-nbla-09",
+      "number": 9,
+      "text": "Salieron de Mara y llegaron a Elim; y en Elim había doce fuentes de agua y setenta palmeras; y acamparon allí."
+    },
+    {
+      "id": "numeros33-nbla-10",
+      "number": 10,
+      "text": "Salieron de Elim y acamparon junto al Mar Rojo."
+    },
+    {
+      "id": "numeros33-nbla-11",
+      "number": 11,
+      "text": "Salieron del Mar Rojo y acamparon en el desierto de Sin."
+    },
+    {
+      "id": "numeros33-nbla-12",
+      "number": 12,
+      "text": "Salieron del desierto de Sin y acamparon en Dofca."
+    },
+    {
+      "id": "numeros33-nbla-13",
+      "number": 13,
+      "text": "Salieron de Dofca y acamparon en Alús."
+    },
+    {
+      "id": "numeros33-nbla-14",
+      "number": 14,
+      "text": "Salieron de Alús y acamparon en Refidim; allí fue donde el pueblo no tuvo agua para beber."
+    },
+    {
+      "id": "numeros33-nbla-15",
+      "number": 15,
+      "text": "Salieron de Refidim y acamparon en el desierto de Sinaí."
+    },
+    {
+      "id": "numeros33-nbla-16",
+      "number": 16,
+      "text": "Salieron del desierto de Sinaí y acamparon en Kibrot Hataava."
+    },
+    {
+      "id": "numeros33-nbla-17",
+      "number": 17,
+      "text": "Salieron de Kibrot Hataava y acamparon en Hazerot."
+    },
+    {
+      "id": "numeros33-nbla-18",
+      "number": 18,
+      "text": "Salieron de Hazerot y acamparon en Ritma."
+    },
+    {
+      "id": "numeros33-nbla-19",
+      "number": 19,
+      "text": "Salieron de Ritma y acamparon en Rimón Peres."
+    },
+    {
+      "id": "numeros33-nbla-20",
+      "number": 20,
+      "text": "Salieron de Rimón Peres y acamparon en Libna."
+    },
+    {
+      "id": "numeros33-nbla-21",
+      "number": 21,
+      "text": "Salieron de Libna y acamparon en Rissa."
+    },
+    {
+      "id": "numeros33-nbla-22",
+      "number": 22,
+      "text": "Salieron de Rissa y acamparon en Ceelata."
+    },
+    {
+      "id": "numeros33-nbla-23",
+      "number": 23,
+      "text": "Salieron de Ceelata y acamparon en el monte Sefer."
+    },
+    {
+      "id": "numeros33-nbla-24",
+      "number": 24,
+      "text": "Salieron del monte Sefer y acamparon en Harada."
+    },
+    {
+      "id": "numeros33-nbla-25",
+      "number": 25,
+      "text": "Salieron de Harada y acamparon en Macelot."
+    },
+    {
+      "id": "numeros33-nbla-26",
+      "number": 26,
+      "text": "Salieron de Macelot y acamparon en Tahat."
+    },
+    {
+      "id": "numeros33-nbla-27",
+      "number": 27,
+      "text": "Salieron de Tahat y acamparon en Tara."
+    },
+    {
+      "id": "numeros33-nbla-28",
+      "number": 28,
+      "text": "Salieron de Tara y acamparon en Mitca."
+    },
+    {
+      "id": "numeros33-nbla-29",
+      "number": 29,
+      "text": "Salieron de Mitca y acamparon en Hasmona."
+    },
+    {
+      "id": "numeros33-nbla-30",
+      "number": 30,
+      "text": "Salieron de Hasmona y acamparon en Moserot."
+    },
+    {
+      "id": "numeros33-nbla-31",
+      "number": 31,
+      "text": "Salieron de Moserot y acamparon en Bene Jaacán."
+    },
+    {
+      "id": "numeros33-nbla-32",
+      "number": 32,
+      "text": "Salieron de Bene Jaacán y acamparon en Hor Haggidgad."
+    },
+    {
+      "id": "numeros33-nbla-33",
+      "number": 33,
+      "text": "Salieron de Hor Haggidgad y acamparon en Jotbata."
+    },
+    {
+      "id": "numeros33-nbla-34",
+      "number": 34,
+      "text": "Salieron de Jotbata y acamparon en Abrona."
+    },
+    {
+      "id": "numeros33-nbla-35",
+      "number": 35,
+      "text": "Salieron de Abrona y acamparon en Ezión Geber."
+    },
+    {
+      "id": "numeros33-nbla-36",
+      "number": 36,
+      "text": "Salieron de Ezión Geber y acamparon en el desierto de Zin, esto es, Cades."
+    },
+    {
+      "id": "numeros33-nbla-37",
+      "number": 37,
+      "text": "Salieron de Cades y acamparon en el monte Hor, al extremo de la tierra de Edom."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-38a",
+          "order": 1,
+          "text": "Entonces"
+        },
+        {
+          "id": "numeros33-nbla-38b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el sacerdote Aarón subió al monte Hor por mandato del SEÑOR, y allí murió"
+        },
+        {
+          "id": "numeros33-nbla-38c",
+          "order": 3,
+          "text": ", el año cuarenta después que los israelitas habían salido de la tierra de Egipto, el primer día del mes quinto."
+        }
+      ],
+      "id": "numeros33-nbla-38",
+      "number": 38
+    },
+    {
+      "id": "numeros33-nbla-39",
+      "number": 39,
+      "text": "Aarón tenía 123 años de edad cuando murió en el monte Hor."
+    },
+    {
+      "id": "numeros33-nbla-40",
+      "number": 40,
+      "text": "Y el cananeo, el rey de Arad que habitaba en el Neguev, en la tierra de Canaán, oyó de la llegada de los israelitas."
+    },
+    {
+      "id": "numeros33-nbla-41",
+      "number": 41,
+      "text": "Entonces partieron del monte Hor y acamparon en Zalmona."
+    },
+    {
+      "id": "numeros33-nbla-42",
+      "number": 42,
+      "text": "Salieron de Zalmona y acamparon en Punón."
+    },
+    {
+      "id": "numeros33-nbla-43",
+      "number": 43,
+      "text": "Salieron de Punón y acamparon en Obot."
+    },
+    {
+      "id": "numeros33-nbla-44",
+      "number": 44,
+      "text": "Salieron de Obot y acamparon en Ije Abarim, en la frontera con Moab."
+    },
+    {
+      "id": "numeros33-nbla-45",
+      "number": 45,
+      "text": "Salieron de Ije Abarim y acamparon en Dibón Gad."
+    },
+    {
+      "id": "numeros33-nbla-46",
+      "number": 46,
+      "text": "Salieron de Dibón Gad y acamparon en Almón Diblataim."
+    },
+    {
+      "id": "numeros33-nbla-47",
+      "number": 47,
+      "text": "Salieron de Almón Diblataim y acamparon en los montes de Abarim, frente a Nebo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-48a",
+          "order": 1,
+          "text": "Partieron de los montes de Abarim y"
+        },
+        {
+          "id": "numeros33-nbla-48b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "acamparon en las llanuras de Moab, junto al Jordán, frente a Jericó."
+        }
+      ],
+      "id": "numeros33-nbla-48",
+      "number": 48
+    },
+    {
+      "id": "numeros33-nbla-49",
+      "number": 49,
+      "text": "Y acamparon junto al Jordán, desde Bet Jesimot hasta Abel Sitim, en las llanuras de Moab."
+    },
+    {
+      "id": "numeros33-nbla-50",
+      "number": 50,
+      "text": "Entonces el SEÑOR habló a Moisés en las llanuras de Moab, junto al Jordán, frente a Jericó:"
+    },
+    {
+      "id": "numeros33-nbla-51",
+      "number": 51,
+      "text": "«Habla a los israelitas, y diles: “Cuando crucen el Jordán a la tierra de Canaán,"
+    },
+    {
+      "id": "numeros33-nbla-52",
+      "number": 52,
+      "text": "expulsarán a todos los habitantes de la tierra delante de ustedes, y destruirán todas sus piedras grabadas, y destruirán todas sus imágenes fundidas, y demolerán todos sus lugares altos;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-53a",
+          "order": 1,
+          "text": "y tomarán posesión de la tierra y habitarán en ella, porque"
+        },
+        {
+          "id": "numeros33-nbla-53b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les he dado la tierra para que la posean."
+        }
+      ],
+      "id": "numeros33-nbla-53",
+      "number": 53
+    },
+    {
+      "id": "numeros33-nbla-54",
+      "number": 54,
+      "text": "Heredarán la tierra por sorteo, por sus familias; a las más grandes darán más heredad, y a las más pequeñas darán menos heredad. Donde la suerte caiga a cada uno, eso será suyo. Heredarán conforme a las tribus de sus padres."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros33-nbla-55a",
+          "order": 1,
+          "text": "Pero si no expulsan de delante de ustedes a los habitantes de la tierra, entonces sucederá que los que de ellos dejen serán como aguijones en sus ojos y como espinas en sus costados, y"
+        },
+        {
+          "id": "numeros33-nbla-55b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los hostigarán en la tierra en que habiten."
+        }
+      ],
+      "id": "numeros33-nbla-55",
+      "number": 55
+    },
+    {
+      "id": "numeros33-nbla-56",
+      "number": 56,
+      "text": "Y sucederá que como pensaba hacerles a ellos, así les haré a ustedes”»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

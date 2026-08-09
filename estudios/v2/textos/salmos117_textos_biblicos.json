@@ -1,0 +1,147 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La alabanza al SEÑOR posee un horizonte universal. La NBLA especifica que las naciones son convocadas; MSG expresa la misma invitación con una llamada abierta a todos. El texto no borra las diferencias entre pueblos, sino que coloca a todos delante del mismo Dios digno de adoración.",
+      "id": "salmos117-joya-01",
+      "msg": {
+        "en": "“Praise GOD, everybody!”",
+        "es": "“¡Alaben a DIOS, todos!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos117-nbla-01a"
+          ],
+          "verseId": "salmos117-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La comunidad alaba porque ha experimentado de manera poderosa la misericordia de Dios. La NBLA fija la afirmación textual: Su misericordia es grande para con nosotros. MSG vuelve esa realidad experiencial al describir un amor que ha tomado posesión de la vida. No debe construirse doctrina únicamente sobre esa imagen; el fundamento permanece en la grandeza de la misericordia divina.",
+      "id": "salmos117-joya-02",
+      "msg": {
+        "en": "“His love has taken over our lives;”",
+        "es": "“Su amor se ha apoderado de nuestras vidas;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos117-nbla-02a"
+          ],
+          "verseId": "salmos117-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La fidelidad pertenece al carácter permanente de Dios. NBLA declara directamente su eternidad; MSG la expresa como una manera fiel de actuar que nunca termina. Esa permanencia sostiene la confianza del pueblo y da fundamento al llamado universal a la alabanza: las naciones son invitadas a confiar en un Dios cuya fidelidad no expira.",
+      "id": "salmos117-joya-03",
+      "msg": {
+        "en": "“GOD’S faithful ways are eternal.”",
+        "es": "“la fidelidad de DIOS permanece para siempre.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos117-nbla-02b"
+          ],
+          "verseId": "salmos117-nbla-02"
+        }
+      ],
+      "order": 3,
+      "range": "2"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 117,
+    "studyId": "salmos-117"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos117-msg-01",
+      "msg": {
+        "en": "Praise GOD, everybody!\nApplaud GOD, all people!\nHis love has taken over our lives;\nGOD’S faithful ways are eternal.\nHallelujah!",
+        "es": "¡Alaben a DIOS, todos!\n¡Aclamen a DIOS, pueblos todos!\nSu amor se ha apoderado de nuestras vidas;\nla fidelidad de DIOS permanece para siempre.\n¡Aleluya!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos117-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos117-nbla-02"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos117-nbla-01a",
+          "order": 1,
+          "text": "Alaben al SEÑOR, naciones todas;"
+        },
+        {
+          "id": "salmos117-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Alábenle, pueblos todos."
+        }
+      ],
+      "id": "salmos117-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos117-nbla-02a",
+          "order": 1,
+          "text": "Porque grande es Su misericordia para con nosotros,"
+        },
+        {
+          "id": "salmos117-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y la fidelidad del SEÑOR es eterna."
+        },
+        {
+          "id": "salmos117-nbla-02c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "¡Aleluya!"
+        }
+      ],
+      "id": "salmos117-nbla-02",
+      "number": 2
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

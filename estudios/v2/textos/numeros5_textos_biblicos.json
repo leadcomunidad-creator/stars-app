@@ -1,0 +1,554 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La presencia de Dios gobierna la vida del campamento. La NBLA fija expresamente que el SEÑOR habita en medio de Israel; MSG conserva esa verdad en lenguaje directo y personal. El texto no enseña que toda enfermedad sea pecado, sino que la presencia santa de Dios requería atender los estados rituales definidos en el pacto.",
+      "id": "numeros5-joya-01",
+      "msg": {
+        "en": "“the place I live among them.”",
+        "es": "«el lugar donde Yo habito en medio de ellos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros5-nbla-03b"
+          ],
+          "verseId": "numeros5-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Perjudicar al prójimo constituye también una infidelidad contra Dios. La NBLA expresa esa conducta como actuar pérfidamente contra el SEÑOR y declara culpable a la persona; MSG vuelve visible la ruptura como una traición de confianza y añade la necesidad de confesar. La explicación no debe borrar a la víctima: confesar ante Dios sin reparar el daño humano dejaría incompleta la respuesta exigida por el texto.",
+      "id": "numeros5-joya-02",
+      "msg": {
+        "en": "“the person has broken trust with GOD, is guilty, and must confess the sin.”",
+        "es": "«esa persona habrá traicionado a DIOS, será culpable y deberá confesar su pecado»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros5-nbla-06b"
+          ],
+          "verseId": "numeros5-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "5-10"
+    },
+    {
+      "explanation": "El arrepentimiento verdadero asume el costo de reparar. La NBLA establece una restitución completa más una quinta parte; MSG muestra claramente que la compensación pertenece a la persona perjudicada. Esta norma específica no establece una tarifa universal para todos los conflictos, pero sí impide reducir el arrepentimiento a palabras que no enfrentan las consecuencias del daño.",
+      "id": "numeros5-joya-03",
+      "msg": {
+        "en": "“Full compensation plus twenty percent must be made to whoever was wronged.”",
+        "es": "«Tendrá que compensar por completo a quien perjudicó y añadir un veinte por ciento»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros5-nbla-07b"
+          ],
+          "verseId": "numeros5-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "5-10"
+    },
+    {
+      "explanation": "La sospecha del marido puede estar equivocada. La NBLA incluye expresamente el escenario en el que la mujer no se ha contaminado; MSG resalta la posibilidad de unos celos completamente infundados. El pasaje no autoriza a convertir una emoción intensa en evidencia ni a tratar a la acusada como culpable antes de que la verdad sea establecida.",
+      "id": "numeros5-joya-04",
+      "msg": {
+        "en": "“Even if she is innocent and his jealousy and suspicions are groundless, he is to take his wife to the priest.”",
+        "es": "«Incluso si ella es inocente y sus celos y sospechas no tienen fundamento, deberá llevarla ante el sacerdote»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros5-nbla-14b"
+          ],
+          "verseId": "numeros5-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "11-15"
+    },
+    {
+      "explanation": "El juramento contempla una posibilidad real de inocencia. La NBLA establece que la mujer limpia debía permanecer inmune; MSG expresa el mismo límite mediante la petición de que el agua no le haga daño. La ceremonia no presenta los celos masculinos como un veredicto divino, sino que distingue entre sospecha y culpabilidad.",
+      "id": "numeros5-joya-05",
+      "msg": {
+        "en": "“If no man has slept with you and you have not had an adulterous affair and become impure while married to your husband, may this bitter water that delivers a curse not harm you.”",
+        "es": "«Si ningún hombre se ha acostado contigo y no has sido infiel ni te has contaminado mientras estabas casada con tu marido, que esta agua amarga que trae maldición no te haga daño»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros5-nbla-19b"
+          ],
+          "verseId": "numeros5-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "16-22"
+    },
+    {
+      "explanation": "La inocencia debe producir liberación de la acusación. La NBLA afirma que la mujer limpia quedará libre; MSG vuelve visible la restauración pública de su reputación. El texto conserva una asimetría propia de su contexto, pero no permite que una acusación infundada se convierta indefinidamente en identidad para la mujer.",
+      "id": "numeros5-joya-06",
+      "msg": {
+        "en": "“But if she has not defiled herself and is innocent of impurity, her name will be cleared and she will be able to have children.”",
+        "es": "«Pero si no se ha contaminado y es inocente de impureza, su reputación quedará limpia y podrá tener hijos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-28"
+        }
+      ],
+      "order": 6,
+      "range": "23-28"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 5,
+    "studyId": "numeros-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "numeros5-msg-01",
+      "msg": {
+        "en": "GOD spoke to Moses: “Command the People of Israel to ban from the camp anyone who has an infectious skin disease, anyone who has a discharge, and anyone who is ritually unclean from contact with a dead body. Ban male and female alike; send them outside the camp so that they won’t defile their camp, the place I live among them.”",
+        "es": "DIOS habló con Moisés: «Ordena al pueblo de Israel que saque del campamento a cualquiera que tenga una enfermedad infecciosa de la piel, a quien padezca algún flujo y a quien haya quedado ritualmente impuro por el contacto con un cadáver. Saquen tanto a hombres como a mujeres; envíenlos fuera del campamento para que no contaminen el lugar donde viven, el lugar donde Yo habito en medio de ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "numeros5-msg-02",
+      "msg": {
+        "en": "The People of Israel did this, banning them from the camp. They did exactly what GOD had commanded through Moses.",
+        "es": "El pueblo de Israel lo hizo y los sacó del campamento. Cumplieron exactamente lo que DIOS había ordenado por medio de Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-10",
+      "id": "numeros5-msg-03",
+      "msg": {
+        "en": "GOD spoke to Moses: “Tell the People of Israel, When a man or woman commits any sin, the person has broken trust with GOD, is guilty, and must confess the sin. Full compensation plus twenty percent must be made to whoever was wronged. If the wronged person has no close relative who can receive the compensation, the compensation belongs to GOD and must be given to the priest, along with the ram by which atonement is made. All the sacred offerings that the People of Israel bring to a priest belong to the priest. Each person’s sacred offerings are his own, but what one gives to the priest stays with the priest.”",
+        "es": "DIOS habló con Moisés: «Dile al pueblo de Israel: Cuando un hombre o una mujer cometa cualquier pecado, esa persona habrá traicionado a DIOS, será culpable y deberá confesar su pecado. Tendrá que compensar por completo a quien perjudicó y añadir un veinte por ciento. Si la persona perjudicada no tiene un pariente cercano que pueda recibir la compensación, esta pertenecerá a DIOS y deberá entregarse al sacerdote, junto con el carnero mediante el cual se hace expiación. Todas las ofrendas sagradas que el pueblo de Israel lleve a un sacerdote pertenecerán al sacerdote. Las cosas consagradas de cada persona son suyas, pero aquello que entregue al sacerdote permanecerá con el sacerdote»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11-15",
+      "id": "numeros5-msg-04",
+      "msg": {
+        "en": "GOD spoke to Moses: “Tell the People of Israel, Say a man’s wife goes off and has an affair, is unfaithful to him by sleeping with another man, but her husband knows nothing about it even though she has defiled herself. And then, even though there was no witness and she wasn’t caught in the act, feelings of jealousy come over the husband and he suspects that his wife is impure. Even if she is innocent and his jealousy and suspicions are groundless, he is to take his wife to the priest. He must also take an offering of two quarts of barley flour for her. He is to pour no oil on it or mix incense with it because it is a Grain-Offering for jealousy, a Grain-Offering for bringing the guilt out into the open.",
+        "es": "DIOS habló con Moisés: «Dile al pueblo de Israel: Supongamos que la esposa de un hombre se desvía, tiene una relación con otro hombre y le es infiel a su marido, pero él no sabe nada, aunque ella se haya contaminado. No hubo testigos ni fue sorprendida en el acto. Después, el marido comienza a sentir celos y sospecha que su esposa es impura. Incluso si ella es inocente y sus celos y sospechas no tienen fundamento, deberá llevarla ante el sacerdote. También llevará por ella una ofrenda de aproximadamente dos litros de harina de cebada. No derramará aceite sobre ella ni añadirá incienso, porque es una ofrenda de cereal por los celos, una ofrenda que pone la posible culpa al descubierto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-15"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "16-22",
+      "id": "numeros5-msg-05",
+      "msg": {
+        "en": "“The priest then is to take her and have her stand in the presence of GOD. He is to take some holy water in a pottery jar and put some dust from the floor of The Dwelling in the water. After the priest has her stand in the presence of GOD he is to uncover her hair and place the exposure-offering in her hands, the Grain-Offering for jealousy, while he holds the bitter water that delivers a curse. Then the priest will put the woman under oath and say, ‘If no man has slept with you and you have not had an adulterous affair and become impure while married to your husband, may this bitter water that delivers a curse not harm you. But if you have had an affair while married to your husband and have defiled yourself by sleeping with a man other than your husband’—here the priest puts the woman under this curse—‘may GOD cause your people to curse and revile you when he makes your womb shrivel and your belly swell. Let this water that delivers a curse enter your body so that your belly swells and your womb shrivels.’\n“Then the woman shall say, ‘Amen. Amen.’",
+        "es": "»Entonces el sacerdote la hará acercarse y permanecer en la presencia de DIOS. Tomará agua santa en una vasija de barro y pondrá en ella un poco del polvo del suelo de la Morada. Después de colocar a la mujer en la presencia de DIOS, le dejará el cabello descubierto y pondrá en sus manos la ofrenda que saca el asunto a la luz, la ofrenda de cereal por los celos, mientras él sostiene el agua amarga que trae maldición. Entonces el sacerdote pondrá a la mujer bajo juramento y le dirá: “Si ningún hombre se ha acostado contigo y no has sido infiel ni te has contaminado mientras estabas casada con tu marido, que esta agua amarga que trae maldición no te haga daño. Pero si, estando casada, has tenido una relación con otro hombre y te has contaminado al acostarte con alguien que no es tu marido” —en este momento el sacerdote pondrá a la mujer bajo la maldición—, “que DIOS haga que tu pueblo te maldiga y te desprecie cuando haga que tu matriz se marchite y tu vientre se hinche. Que esta agua que trae maldición entre en tu cuerpo, haga que tu vientre se hinche y que tu matriz se marchite”».\n»Entonces la mujer responderá: “Amén. Amén”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-22"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "23-28",
+      "id": "numeros5-msg-06",
+      "msg": {
+        "en": "“The priest is to write these curses on a scroll and then wash the words off into the bitter water. He then is to give the woman the bitter water that delivers a curse. This water will enter her body and cause acute pain. The priest then is to take from her hands a handful of the Grain-Offering for jealousy, wave it before GOD, and bring it to the Altar. The priest then is to take a handful of the Grain-Offering, using it as an exposure-offering, and burn it on the Altar; after this he is to make her drink the water. If she has defiled herself in being unfaithful to her husband, when she drinks the water that delivers a curse, it will enter her body and cause acute pain; her belly will swell and her womb shrivel. She will be cursed among her people. But if she has not defiled herself and is innocent of impurity, her name will be cleared and she will be able to have children.",
+        "es": "»El sacerdote escribirá estas maldiciones en un rollo y luego lavará las palabras en el agua amarga. Después hará que la mujer beba el agua amarga que trae maldición. El agua entrará en su cuerpo y le causará un dolor intenso. Entonces el sacerdote tomará de sus manos un puñado de la ofrenda de cereal por los celos, la mecerá delante de DIOS y la llevará al Altar. Tomará un puñado de la ofrenda como porción que pone el asunto al descubierto y lo quemará sobre el Altar; después hará que la mujer beba el agua. Si ella se ha contaminado al ser infiel a su marido, cuando beba el agua que trae maldición, esta entrará en su cuerpo y le causará un dolor intenso; su vientre se hinchará y su matriz se marchitará. Será considerada una maldición entre su pueblo. Pero si no se ha contaminado y es inocente de impureza, su reputación quedará limpia y podrá tener hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-28"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "numeros5-msg-07",
+      "msg": {
+        "en": "“This is the law of jealousy in a case where a woman goes off and has an affair and defiles herself while married to her husband, or a husband is tormented with feelings of jealousy because he suspects his wife. The priest is to have her stand in the presence of GOD and go through this entire procedure with her. The husband will be cleared of wrong, but the woman will pay for her wrong.”",
+        "es": "»Esta es la ley de los celos para el caso en que una mujer casada se desvíe, tenga una relación y se contamine, o cuando un marido sea atormentado por los celos porque sospecha de su esposa. El sacerdote la hará presentarse en la presencia de DIOS y aplicará todo este procedimiento. El marido quedará libre de culpa, pero la mujer cargará con la suya»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros5-nbla-31"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros5-nbla-01",
+      "number": 1,
+      "text": "Y el SEÑOR le dijo a Moisés:"
+    },
+    {
+      "id": "numeros5-nbla-02",
+      "number": 2,
+      "text": "«Manda a los israelitas que echen del campamento a todo leproso, a todo el que padece de flujo y a todo el que es inmundo por causa de un muerto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros5-nbla-03a",
+          "order": 1,
+          "text": "Ustedes echarán tanto a hombres como a mujeres. Los echarán fuera del campamento para que no contaminen su campamento,"
+        },
+        {
+          "id": "numeros5-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "donde Yo habito en medio de ellos»."
+        }
+      ],
+      "id": "numeros5-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "numeros5-nbla-04",
+      "number": 4,
+      "text": "Y así lo hicieron los israelitas, y los echaron fuera del campamento. Tal como el SEÑOR había dicho a Moisés, así lo hicieron los israelitas."
+    },
+    {
+      "id": "numeros5-nbla-05",
+      "number": 5,
+      "text": "Entonces el SEÑOR dijo a Moisés:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros5-nbla-06a",
+          "order": 1,
+          "text": "«Habla a los israelitas y diles: “"
+        },
+        {
+          "id": "numeros5-nbla-06b",
+          "order": 2,
+          "text": "El hombre o la mujer que cometa cualquiera de los pecados de la humanidad, actuando pérfidamente contra el SEÑOR, esa persona es culpable;"
+        }
+      ],
+      "id": "numeros5-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros5-nbla-07a",
+          "order": 1,
+          "text": "entonces confesará los pecados que ha cometido, y hará completa restitución por el daño causado,"
+        },
+        {
+          "id": "numeros5-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "añadirá un quinto y lo dará al que él perjudicó."
+        }
+      ],
+      "id": "numeros5-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "numeros5-nbla-08",
+      "number": 8,
+      "text": "Pero si la persona no tiene pariente a quien se le haga la restitución por el daño, la restitución hecha por el daño debe ir al SEÑOR, para el sacerdote, además del carnero de expiación, con el cual se hace expiación por él."
+    },
+    {
+      "id": "numeros5-nbla-09",
+      "number": 9,
+      "text": "También toda ofrenda correspondiente a todas las cosas consagradas de los israelitas que ofrecen al sacerdote, serán suyas."
+    },
+    {
+      "id": "numeros5-nbla-10",
+      "number": 10,
+      "text": "Las cosas consagradas de toda persona serán del sacerdote; lo que una persona dé al sacerdote será de él”»."
+    },
+    {
+      "id": "numeros5-nbla-11",
+      "number": 11,
+      "text": "El SEÑOR dijo además a Moisés:"
+    },
+    {
+      "id": "numeros5-nbla-12",
+      "number": 12,
+      "text": "«Habla a los israelitas, y diles: “Si la mujer de alguien se desvía y le es infiel,"
+    },
+    {
+      "id": "numeros5-nbla-13",
+      "number": 13,
+      "text": "teniendo relaciones carnales con otro sin que su marido se dé cuenta, ni sea descubierta, aunque ella se haya contaminado y no haya testigo contra ella, ni haya sido sorprendida en el acto mismo,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros5-nbla-14a",
+          "order": 1,
+          "text": "y un espíritu de celo viene sobre él y tiene celos de su mujer, habiéndose ella contaminado,"
+        },
+        {
+          "id": "numeros5-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "o si viene un espíritu de celos sobre él y tiene celos de su mujer, no habiéndose ella contaminado,"
+        }
+      ],
+      "id": "numeros5-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "numeros5-nbla-15",
+      "number": 15,
+      "text": "el hombre llevará su mujer al sacerdote y llevará como ofrenda por ella 2.2 litros de harina de cebada. No derramará aceite sobre la ofrenda, ni pondrá sobre ella incienso, porque es una ofrenda de cereal, de celos, una ofrenda memorial de cereal, un recordatorio de iniquidad."
+    },
+    {
+      "id": "numeros5-nbla-16",
+      "number": 16,
+      "text": "”El sacerdote hará que ella se acerque y la pondrá delante del SEÑOR,"
+    },
+    {
+      "id": "numeros5-nbla-17",
+      "number": 17,
+      "text": "y el sacerdote tomará agua santa en una vasija de barro; tomará del polvo que está sobre el piso del tabernáculo, y lo pondrá en el agua."
+    },
+    {
+      "id": "numeros5-nbla-18",
+      "number": 18,
+      "text": "Luego el sacerdote hará que la mujer esté delante del SEÑOR y descubrirá la cabeza de la mujer, y pondrá en sus manos la ofrenda memorial de cereal, que es la ofrenda de celos, y en la mano del sacerdote estará el agua de amargura que trae maldición."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros5-nbla-19a",
+          "order": 1,
+          "text": "”Entonces el sacerdote hará que ella pronuncie juramento, y dirá a la mujer: ‘"
+        },
+        {
+          "id": "numeros5-nbla-19b",
+          "order": 2,
+          "text": "Si ningún hombre se ha acostado contigo, y si no te has desviado a la inmundicia, estando sujeta a tu marido, sé inmune a esta agua de amargura que trae maldición;"
+        }
+      ],
+      "id": "numeros5-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "numeros5-nbla-20",
+      "number": 20,
+      "text": "pero si te has desviado, estando sujeta a tu marido, y te has corrompido, y otro hombre que no es tu marido se ha llegado a ti’,"
+    },
+    {
+      "id": "numeros5-nbla-21",
+      "number": 21,
+      "text": "(entonces el sacerdote hará que la mujer jure con el juramento de maldición, y el sacerdote dirá a la mujer): ‘El SEÑOR te haga maldición y juramento entre tu pueblo, haciendo el SEÑOR que tu muslo se enjute y tu vientre se hinche;"
+    },
+    {
+      "id": "numeros5-nbla-22",
+      "number": 22,
+      "text": "y esta agua que trae maldición entrará en tus entrañas, y hará que tu vientre se hinche y tu muslo se enjute’. Y la mujer dirá: ‘Amén, amén’."
+    },
+    {
+      "id": "numeros5-nbla-23",
+      "number": 23,
+      "text": "”Entonces el sacerdote escribirá estas maldiciones en un rollo, y las lavará en el agua de amargura."
+    },
+    {
+      "id": "numeros5-nbla-24",
+      "number": 24,
+      "text": "Después hará que la mujer beba el agua de amargura que trae maldición, para que el agua que trae maldición entre a ella para causar amargura."
+    },
+    {
+      "id": "numeros5-nbla-25",
+      "number": 25,
+      "text": "Y el sacerdote tomará la ofrenda de cereal de los celos de la mano de la mujer, y mecerá la ofrenda de cereal delante del SEÑOR y la llevará al altar;"
+    },
+    {
+      "id": "numeros5-nbla-26",
+      "number": 26,
+      "text": "el sacerdote tomará un puñado de la ofrenda de cereal como su ofrenda memorial y la quemará en el altar, y después hará que la mujer beba el agua."
+    },
+    {
+      "id": "numeros5-nbla-27",
+      "number": 27,
+      "text": "Cuando le haya hecho beber el agua, sucederá que si ella se ha contaminado y ha sido infiel a su marido, el agua que trae maldición entrará en ella para producir amargura, y su vientre se hinchará, su muslo se enjutará y la mujer vendrá a ser una maldición en medio de su pueblo."
+    },
+    {
+      "id": "numeros5-nbla-28",
+      "number": 28,
+      "text": "Pero si la mujer no se ha contaminado y es limpia, quedará libre y concebirá hijos."
+    },
+    {
+      "id": "numeros5-nbla-29",
+      "number": 29,
+      "text": "”Esta es la ley de los celos: Cuando una mujer que esté sujeta a su marido, se desvíe y se contamine,"
+    },
+    {
+      "id": "numeros5-nbla-30",
+      "number": 30,
+      "text": "o cuando un espíritu de celos venga sobre alguien y esté celoso de su mujer, entonces hará que la mujer se presente delante del SEÑOR, y el sacerdote le aplicará a ella toda esta ley."
+    },
+    {
+      "id": "numeros5-nbla-31",
+      "number": 31,
+      "text": "Además, el marido quedará libre de culpa, pero la mujer llevará su culpa”»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

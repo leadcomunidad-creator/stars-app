@@ -1,0 +1,343 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La creación pertenece al SEÑOR por derecho de origen y gobierno. La NBLA fija la afirmación de propiedad; MSG la vuelve activa mediante el verbo «reclama». Esa expresión no presenta a Dios disputando una posesión incierta, sino afirmando lo que siempre ha sido Suyo. Por eso la vida, los recursos y el mundo deben recibirse como mayordomía.",
+      "id": "salmos24-joya-01",
+      "msg": {
+        "en": "\"GOD claims Earth and everything in it,\"",
+        "es": "\"DIOS reclama como Suya la Tierra y todo lo que hay en ella;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos24-nbla-01a"
+          ],
+          "verseId": "salmos24-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios busca una integridad que alcance acciones y motivaciones. La NBLA establece los dos elementos centrales; MSG conserva la misma estructura y la vuelve una respuesta directa a la pregunta por el ascenso. El texto no enseña perfección autosuficiente, pero sí rechaza una adoración que oculta deliberadamente una vida dividida.",
+      "id": "salmos24-joya-02",
+      "msg": {
+        "en": "\"Only the clean-handed, only the pure-hearted;\"",
+        "es": "\"Solo quien tiene manos limpias, solo quien tiene corazón puro:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos24-nbla-04a"
+          ],
+          "verseId": "salmos24-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La presencia de Dios no se alcanza únicamente mediante capacidad moral humana. La NBLA muestra que la bendición y la justicia son recibidas del Dios que salva; MSG lo expresa como llegar con la ayuda de Dios. Esa ayuda no elimina el llamado a la integridad, sino que impide convertirlo en orgullo o mérito independiente.",
+      "id": "salmos24-joya-03",
+      "msg": {
+        "en": "\"with GOD’S help they make it.\"",
+        "es": "\"con la ayuda de DIOS llegan hasta allí.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5-6"
+    },
+    {
+      "explanation": "El Rey llega con pleno derecho a ocupar el lugar que le corresponde. La NBLA conserva la petición litúrgica para que entre; MSG subraya la inminencia de Su llegada. La comunidad no fabrica Su realeza ni controla Su presencia: reconoce, recibe y responde a quien ya posee la tierra.",
+      "id": "salmos24-joya-04",
+      "msg": {
+        "en": "\"King-Glory is ready to enter.\"",
+        "es": "\"El Rey de Gloria está listo para entrar.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos24-nbla-07b"
+          ],
+          "verseId": "salmos24-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "La identidad del Rey se revela como el SEÑOR de los ejércitos. La NBLA conserva el título divino y MSG hace explícita la imagen de ejércitos angelicales. Esa ampliación no define todos los alcances del título ni autoriza militarizar la fe; comunica que ningún poder creado puede rivalizar con el gobierno del Rey de la gloria.",
+      "id": "salmos24-joya-05",
+      "msg": {
+        "en": "\"GOD -of-the-Angel-Armies: he is King-Glory.\"",
+        "es": "\"DIOS-de-los-Ejércitos-Angelicales: Él es el Rey de Gloria.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos24-nbla-10b"
+          ],
+          "verseId": "salmos24-nbla-10"
+        }
+      ],
+      "order": 5,
+      "range": "10"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 24,
+    "studyId": "salmos-24"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos24-msg-01",
+      "msg": {
+        "en": "GOD claims Earth and everything in it,\nGOD claims World and all who live on it.\nHe built it on Ocean foundations,\nlaid it out on River girders.",
+        "es": "DIOS reclama como Suya la Tierra y todo lo que hay en ella;\nDIOS reclama como Suyo el mundo y a todos los que lo habitan.\nLo construyó sobre cimientos oceánicos\ny lo asentó sobre vigas fluviales."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos24-msg-02",
+      "msg": {
+        "en": "Who can climb Mount GOD?\nWho can scale the holy north-face?\nOnly the clean-handed,\nonly the pure-hearted;\nMen who won’t cheat,\nwomen who won’t seduce.",
+        "es": "¿Quién puede subir al monte de DIOS?\n¿Quién puede escalar la ladera norte de Su monte santo?\nSolo quien tiene manos limpias,\nsolo quien tiene corazón puro:\nhombres que no hacen trampa,\nmujeres que no seducen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos24-msg-03",
+      "msg": {
+        "en": "GOD is at their side;\nwith GOD’S help they make it.\nThis, Jacob, is what happens\nto God-seekers, God-questers.",
+        "es": "DIOS está al lado de ellos;\ncon la ayuda de DIOS llegan hasta allí.\nAsí ocurre, Jacob,\ncon quienes buscan a Dios, con quienes van tras Él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "salmos24-msg-04",
+      "msg": {
+        "en": "Wake up, you sleepyhead city!\nWake up, you sleepyhead people!\nKing-Glory is ready to enter.",
+        "es": "¡Despierta, ciudad adormecida!\n¡Despierta, pueblo adormecido!\nEl Rey de Gloria está listo para entrar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "salmos24-msg-05",
+      "msg": {
+        "en": "Who is this King-Glory?\nGOD, armed\nand battle-ready.",
+        "es": "¿Quién es este Rey de Gloria?\nDIOS, armado\ny listo para la batalla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "salmos24-msg-06",
+      "msg": {
+        "en": "Wake up, you sleepyhead city!\nWake up, you sleepyhead people!\nKing-Glory is ready to enter.",
+        "es": "¡Despierta, ciudad adormecida!\n¡Despierta, pueblo adormecido!\nEl Rey de Gloria está listo para entrar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10",
+      "id": "salmos24-msg-07",
+      "msg": {
+        "en": "Who is this King-Glory?\nGOD -of-the-Angel-Armies:\nhe is King-Glory.",
+        "es": "¿Quién es este Rey de Gloria?\nDIOS-de-los-Ejércitos-Angelicales:\nÉl es el Rey de Gloria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos24-nbla-10"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos24-nbla-01a",
+          "order": 1,
+          "text": "Del SEÑOR es la tierra y todo lo que hay en ella,"
+        },
+        {
+          "id": "salmos24-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El mundo y los que en él habitan."
+        }
+      ],
+      "id": "salmos24-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos24-nbla-02",
+      "number": 2,
+      "text": "Porque Él la fundó sobre los mares,\nY la asentó sobre los ríos."
+    },
+    {
+      "id": "salmos24-nbla-03",
+      "number": 3,
+      "text": "¿Quién subirá al monte del SEÑOR?\n¿Y quién podrá estar en Su lugar santo?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos24-nbla-04a",
+          "order": 1,
+          "text": "El de manos limpias y corazón puro,"
+        },
+        {
+          "id": "salmos24-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El que no ha alzado su alma a la falsedad\nNi jurado con engaño."
+        }
+      ],
+      "id": "salmos24-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos24-nbla-05",
+      "number": 5,
+      "text": "Ese recibirá bendición del SEÑOR,\nY justicia del Dios de su salvación."
+    },
+    {
+      "id": "salmos24-nbla-06",
+      "number": 6,
+      "text": "Tal es la generación de los que lo buscan,\nDe los que buscan Tu rostro, como Jacob. (Selah)"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos24-nbla-07a",
+          "order": 1,
+          "text": "Alcen, oh puertas, sus cabezas,\nálcense, puertas eternas,"
+        },
+        {
+          "id": "salmos24-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que entre el Rey de la gloria."
+        }
+      ],
+      "id": "salmos24-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos24-nbla-08",
+      "number": 8,
+      "text": "¿Quién es este Rey de la gloria?\nEl SEÑOR, fuerte y poderoso;\nEl SEÑOR, poderoso en batalla."
+    },
+    {
+      "id": "salmos24-nbla-09",
+      "number": 9,
+      "text": "Álcen, oh puertas, sus cabezas,\nÁlcenlas, puertas eternas,\nPara que entre el Rey de la gloria."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos24-nbla-10a",
+          "order": 1,
+          "text": "¿Quién es este Rey de la gloria?"
+        },
+        {
+          "id": "salmos24-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El SEÑOR de los ejércitos,\nÉl es el Rey de la gloria."
+        },
+        {
+          "id": "salmos24-nbla-10c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "(Selah)"
+        }
+      ],
+      "id": "salmos24-nbla-10",
+      "number": 10
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

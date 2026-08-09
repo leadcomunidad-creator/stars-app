@@ -1,0 +1,166 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Todo servicio al SEÑOR debe permanecer unido a la adoración. La NBLA dirige el llamado a todos Sus siervos, mientras MSG conserva la invitación directa y comunitaria. Bendecir a Dios no significa añadir algo a Su grandeza, sino reconocer públicamente Su carácter y responder a Él con gratitud, reverencia y obediencia.",
+      "id": "salmos134-joya-01",
+      "msg": {
+        "en": "“Come, bless GOD, all you servants of GOD!”",
+        "es": "“Vengan, bendigan a DIOS, todos ustedes, servidores de DIOS.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos134-nbla-01a"
+          ],
+          "verseId": "salmos134-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Dios valora la fidelidad ejercida en tiempos y lugares que otros no ven. La NBLA destaca el servicio nocturno en la casa del SEÑOR, mientras MSG lo presenta como un turno asignado dentro del santuario. El texto no establece que el trabajo nocturno sea espiritualmente superior; honra la constancia de quienes sirven cuando su labor pasa inadvertida.",
+      "id": "salmos134-joya-02",
+      "msg": {
+        "en": "“posted to the nightwatch in GOD’S shrine”",
+        "es": "“asignados al turno de noche en el santuario de DIOS”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos134-nbla-01b"
+          ],
+          "verseId": "salmos134-nbla-01"
+        }
+      ],
+      "order": 2,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La adoración incluye una respuesta corporal y consciente delante de Dios. La NBLA conserva el gesto de levantar las manos hacia el santuario, mientras MSG hace explícita su relación con la alabanza. La postura no debe convertirse en una regla para medir espiritualidad; representa una vida abierta, rendida y orientada hacia el SEÑOR.",
+      "id": "salmos134-joya-03",
+      "msg": {
+        "en": "“Lift your praising hands to the Holy Place, and bless GOD.”",
+        "es": "“levanten sus manos en alabanza hacia el Lugar Santo y bendigan a DIOS.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos134-nbla-02"
+        }
+      ],
+      "order": 3,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La bendición procede del Creador soberano y no de la capacidad humana de producir seguridad. La NBLA une Sión con el Dios que hizo los cielos y la tierra, mientras MSG enfatiza que el mismo Dios encontrado en el santuario gobierna toda la creación. El texto no presenta a Sión como una fuente independiente de poder; el SEÑOR es quien bendice desde allí.",
+      "id": "salmos134-joya-04",
+      "msg": {
+        "en": "“GOD who made heaven and earth!”",
+        "es": "“¡el DIOS que hizo el cielo y la tierra!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos134-nbla-03b"
+          ],
+          "verseId": "salmos134-nbla-03"
+        }
+      ],
+      "order": 4,
+      "range": "1-3"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 134,
+    "studyId": "salmos-134"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos134-msg-01",
+      "msg": {
+        "en": "Come, bless GOD,\nall you servants of GOD!\nYou priests of GOD, posted to the nightwatch\nin GOD’S shrine,\nLift your praising hands to the Holy Place,\nand bless GOD.\nIn turn, may GOD of Zion bless you—\nGOD who made heaven and earth!",
+        "es": "Vengan, bendigan a DIOS,\ntodos ustedes, servidores de DIOS.\nSacerdotes de DIOS, asignados al turno de noche\nen el santuario de DIOS,\nlevanten sus manos en alabanza hacia el Lugar Santo\ny bendigan a DIOS.\nY, a su vez, que el DIOS de Sión los bendiga:\n¡el DIOS que hizo el cielo y la tierra!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos134-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos134-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos134-nbla-03"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos134-nbla-01a",
+          "order": 1,
+          "text": "Bendigan al SEÑOR todos los siervos del SEÑOR,"
+        },
+        {
+          "id": "salmos134-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Los que sirven por la noche en la casa del SEÑOR."
+        }
+      ],
+      "id": "salmos134-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos134-nbla-02",
+      "number": 2,
+      "text": "Alcen sus manos al santuario\nY bendigan al SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos134-nbla-03a",
+          "order": 1,
+          "text": "Desde Sión te bendiga el SEÑOR,"
+        },
+        {
+          "id": "salmos134-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que hizo los cielos y la tierra."
+        }
+      ],
+      "id": "salmos134-nbla-03",
+      "number": 3
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

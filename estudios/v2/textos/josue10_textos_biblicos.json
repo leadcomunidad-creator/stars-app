@@ -1,0 +1,915 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios responde al temor potencial de Josué con una promesa concreta de presencia y entrega. La NBLA fija el contenido teológico: el Señor ha entregado a los enemigos y ninguno podrá resistir. MSG comunica la misma seguridad con un lenguaje más gráfico. La promesa pertenece a esta campaña específica y no debe transformarse en garantía universal de triunfo sobre cualquier adversario personal.",
+      "id": "josue10-joya-01",
+      "msg": {
+        "en": "“Don’t give them a second thought. I’ve put them under your thumb—not one of them will stand up to you.”",
+        "es": "“No les tengas miedo. Los he puesto en tus manos; ninguno de ellos podrá resistirte”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-08b"
+          ],
+          "verseId": "josue10-nbla-08"
+        }
+      ],
+      "order": 1,
+      "range": "7-8"
+    },
+    {
+      "explanation": "La victoria comienza con una acción divina que Israel no produce por sí mismo. La NBLA identifica directamente al Señor como quien desconcierta al enemigo, y MSG vuelve visible la magnitud de esa confusión. Josué actúa militarmente, pero la narración insiste en que Dios gobierna el campo de batalla.",
+      "id": "josue10-joya-02",
+      "msg": {
+        "en": "“GOD threw them into total confusion before Israel”.",
+        "es": "“DIOS los arrojó en total confusión delante de Israel”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-10b"
+          ],
+          "verseId": "josue10-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "9-11"
+    },
+    {
+      "explanation": "El texto limita cualquier interpretación que atribuya la campaña exclusivamente a la capacidad militar de Israel. Ambas versiones afirman que la intervención de Dios produjo más bajas que la espada israelita. La escena subraya la soberanía divina, no una fórmula para esperar fenómenos sobrenaturales en cada conflicto.",
+      "id": "josue10-joya-03",
+      "msg": {
+        "en": "“More died from the hailstones than the People of Israel killed with the sword.”",
+        "es": "“Murieron más por las piedras de granizo que por la espada de los israelitas.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-11b"
+          ],
+          "verseId": "josue10-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "9-11"
+    },
+    {
+      "explanation": "Esta frase interpreta el episodio extraordinario del sol y la luna. La NBLA identifica el motivo por el cual aquel día fue único: el Señor peleó por Israel. MSG concentra la misma verdad en una afirmación directa. El centro no es el poder autónomo de Josué para controlar la creación, sino la acción soberana de Dios en respuesta a la situación de Su pueblo.",
+      "id": "josue10-joya-04",
+      "msg": {
+        "en": "“Truly, GOD fought for Israel.”",
+        "es": "“Verdaderamente, DIOS peleó por Israel.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-14b"
+          ],
+          "verseId": "josue10-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "13-14"
+    },
+    {
+      "explanation": "Josué transmite a sus comandantes el lenguaje de valentía que él mismo había recibido de Dios. La NBLA conserva el llamado a la fortaleza y al valor; MSG comunica su fuerza pastoral. Esa valentía no nace de confianza en la superioridad personal, sino de lo que el Señor había prometido hacer dentro de esta misión.",
+      "id": "josue10-joya-05",
+      "msg": {
+        "en": "“Don’t hold back. Don’t be timid. Be strong! Be confident!”",
+        "es": "“No retrocedan. No tengan miedo. ¡Sean fuertes! ¡Tengan confianza!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-25b"
+          ],
+          "verseId": "josue10-nbla-25"
+        }
+      ],
+      "order": 5,
+      "range": "25"
+    },
+    {
+      "explanation": "El resumen final entrega la clave para leer toda la campaña. La NBLA establece que el Señor combatía por Israel, mientras MSG lo convierte en la conclusión contundente del relato. La repetición impide que el lector convierta a Josué en el héroe autónomo de la conquista: incluso su liderazgo eficaz depende de la acción de Dios.",
+      "id": "josue10-joya-06",
+      "msg": {
+        "en": "“GOD, the God of Israel, fought for Israel.”",
+        "es": "“DIOS, el Dios de Israel, peleó por Israel.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-42b"
+          ],
+          "verseId": "josue10-nbla-42"
+        }
+      ],
+      "order": 6,
+      "range": "40-42"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 10,
+    "studyId": "josue-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "josue10-msg-01",
+      "msg": {
+        "en": "It wasn’t long before My-Master-Zedek king of Jerusalem heard that Joshua had taken Ai and destroyed it and its king under a holy curse, just as he had done to Jericho and its king. He also learned that the people of Gibeon had come to terms with Israel and were living as neighbors. He and his people were alarmed: Gibeon was a big city—as big as any with a king and bigger than Ai—and all its men were seasoned fighters.",
+        "es": "No pasó mucho tiempo antes de que Adonisedec, rey de Jerusalén, se enterara de que Josué había tomado Hai y había entregado a la destrucción consagrada tanto la ciudad como a su rey, tal como había hecho con Jericó y su rey. También supo que los habitantes de Gabaón habían llegado a un acuerdo con Israel y ahora vivían como vecinos. Él y su pueblo se alarmaron: Gabaón era una ciudad importante, tan grande como cualquiera de las ciudades reales, mayor que Hai, y todos sus hombres eran combatientes experimentados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "josue10-msg-02",
+      "msg": {
+        "en": "Adoni-Zedek king of Jerusalem sent word to Hoham king of Hebron, Piram king of Jarmuth, Japhia king of Lachish, and Debir king of Eglon: “Come and help me. Let’s attack Gibeon; they’ve joined up with Joshua and the People of Israel.”",
+        "es": "Adonisedec, rey de Jerusalén, envió este mensaje a Hoham, rey de Hebrón; Piream, rey de Jarmut; Jafía, rey de Laquis; y Debir, rey de Eglón: «Vengan y ayúdenme. Ataquemos Gabaón; se han unido a Josué y al pueblo de Israel»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "josue10-msg-03",
+      "msg": {
+        "en": "So the five Amorite (Western) kings—the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon—combined their armies and set out to attack Gibeon.",
+        "es": "Así que los cinco reyes amorreos del occidente —el rey de Jerusalén, el rey de Hebrón, el rey de Jarmut, el rey de Laquis y el rey de Eglón— unieron sus ejércitos y salieron a atacar Gabaón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "josue10-msg-04",
+      "msg": {
+        "en": "The men of Gibeon sent word to Joshua camped at Gilgal, “Don’t let us down now! Come up here quickly! Save us! Help us! All the Amorite kings who live up in the hills have ganged up on us.”",
+        "es": "Los hombres de Gabaón enviaron un mensaje a Josué, que estaba acampado en Gilgal: «¡No nos abandones ahora! ¡Sube rápidamente! ¡Sálvanos! ¡Ayúdanos! Todos los reyes amorreos que viven en las montañas se han unido contra nosotros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "josue10-msg-05",
+      "msg": {
+        "en": "So Joshua set out from Gilgal, his whole army with him—all those tough soldiers! GOD told him, “Don’t give them a second thought. I’ve put them under your thumb—not one of them will stand up to you.”",
+        "es": "Así que Josué salió de Gilgal con todo su ejército, incluidos todos aquellos soldados experimentados. DIOS le dijo: «No les tengas miedo. Los he puesto en tus manos; ninguno de ellos podrá resistirte»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "josue10-msg-06",
+      "msg": {
+        "en": "Joshua marched all night from Gilgal and took them by total surprise. GOD threw them into total confusion before Israel, a major victory at Gibeon. Israel chased them along the ridge to Beth Horon and fought them all the way down to Azekah and Makkedah. As they ran from the People of Israel, down from the Beth Horon ridge and all the way to Azekah, GOD pitched huge stones on them out of the sky and many died. More died from the hailstones than the People of Israel killed with the sword.",
+        "es": "Josué marchó toda la noche desde Gilgal y los tomó completamente por sorpresa. DIOS los arrojó en total confusión delante de Israel, y les dio una gran victoria en Gabaón. Israel los persiguió por la subida de Bet Horón y combatió contra ellos hasta Azeca y Maceda.\n\nMientras huían del pueblo de Israel, descendiendo desde Bet Horón camino de Azeca, DIOS lanzó enormes piedras sobre ellos desde el cielo y muchos murieron. Murieron más por las piedras de granizo que por la espada de los israelitas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "josue10-msg-07",
+      "msg": {
+        "en": "The day GOD gave the Amorites up to Israel, Joshua spoke to GOD, with all Israel listening:\n“Stop, Sun, over Gibeon;\nHalt, Moon, over Aijalon Valley.”\nAnd Sun stopped,\nMoon stood stock still\nUntil he defeated his enemies.",
+        "es": "El día en que DIOS entregó a los amorreos a Israel, Josué habló a DIOS delante de todo Israel:\n\n«Detente, sol, sobre Gabaón;\nquédate quieta, luna, sobre el valle de Ajalón».\n\nY el sol se detuvo,\nla luna quedó inmóvil,\nhasta que él derrotó a sus enemigos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-12"
+        },
+        {
+          "clauseIds": [
+            "josue10-nbla-13a"
+          ],
+          "verseId": "josue10-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "josue10-msg-08",
+      "msg": {
+        "en": "(You can find this written in the Book of Jashar.) The sun stopped in its tracks in mid sky; just sat there all day. There’s never been a day like that before or since—GOD took orders from a human voice! Truly, GOD fought for Israel.",
+        "es": "Esto se encuentra escrito en el Libro de Jaser. El sol se detuvo en medio del cielo y permaneció allí durante todo el día. Nunca hubo un día como aquel, ni antes ni después: ¡DIOS atendió la voz de un ser humano! Verdaderamente, DIOS peleó por Israel."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue10-nbla-13b"
+          ],
+          "verseId": "josue10-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "josue10-msg-09",
+      "msg": {
+        "en": "Then Joshua returned, all Israel with him, to the camp at Gilgal.",
+        "es": "Después Josué regresó con todo Israel al campamento en Gilgal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "josue10-msg-10",
+      "msg": {
+        "en": "Meanwhile the five kings had hidden in the cave at Makkedah. Joshua was told, “The five kings have been found, hidden in the cave at Makkedah.”",
+        "es": "Mientras tanto, los cinco reyes se habían escondido en la cueva de Maceda. A Josué le informaron: «Encontraron a los cinco reyes escondidos en la cueva de Maceda»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "josue10-msg-11",
+      "msg": {
+        "en": "Joshua said, “Roll big stones against the mouth of the cave and post guards to keep watch. But don’t you hang around—go after your enemies. Cut off their retreat. Don’t let them back into their cities. GOD has given them to you.”",
+        "es": "Josué dijo: «Hagan rodar grandes piedras hasta la entrada de la cueva y pongan guardias allí para vigilarlos. Pero ustedes no se queden esperando; persigan a sus enemigos. Córtenles la retirada. No permitan que regresen a sus ciudades. DIOS los ha entregado en sus manos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "josue10-msg-12",
+      "msg": {
+        "en": "Joshua and the People of Israel then finished them off, total devastation. Only a few got away to the fortified towns. The whole army then returned intact to the camp and to Joshua at Makkedah. There was no criticism that day from the People of Israel!",
+        "es": "Josué y el pueblo de Israel terminaron de derrotarlos con una devastación total. Solo unos pocos lograron escapar a las ciudades fortificadas. Después todo el ejército regresó intacto al campamento, junto a Josué en Maceda. Aquel día no hubo críticas por parte del pueblo de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22",
+      "id": "josue10-msg-13",
+      "msg": {
+        "en": "Then Joshua said, “Open the mouth of the cave and bring me those five kings.”",
+        "es": "Entonces Josué dijo: «Abran la entrada de la cueva y tráiganme a esos cinco reyes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-22"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "23",
+      "id": "josue10-msg-14",
+      "msg": {
+        "en": "They did it. They brought him the five kings from the cave: the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon.",
+        "es": "Así lo hicieron. Le trajeron de la cueva a los cinco reyes: el rey de Jerusalén, el rey de Hebrón, el rey de Jarmut, el rey de Laquis y el rey de Eglón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-23"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "24",
+      "id": "josue10-msg-15",
+      "msg": {
+        "en": "When they had them all there in front of Joshua, he called up the army and told the field commanders who had been with him, “Come here. Put your feet on the necks of these kings.”\nThey stepped up and put their feet on their necks.",
+        "es": "Cuando los tuvo a todos delante de él, Josué llamó al ejército y dijo a los comandantes que habían ido con él: «Acérquense. Pongan sus pies sobre el cuello de estos reyes».\n\nEllos se acercaron y pusieron sus pies sobre sus cuellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-24"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "25",
+      "id": "josue10-msg-16",
+      "msg": {
+        "en": "Joshua told them, “Don’t hold back. Don’t be timid. Be strong! Be confident! This is what GOD will do to all your enemies when you fight them.”",
+        "es": "Josué les dijo: «No retrocedan. No tengan miedo. ¡Sean fuertes! ¡Tengan confianza! Esto es lo que DIOS hará con todos sus enemigos cuando luchen contra ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-25"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "josue10-msg-17",
+      "msg": {
+        "en": "Then Joshua struck and killed the kings. He hung them on five trees where they remained until evening. At sunset Joshua gave the command. They took them down from the trees and threw them into the cave where they had hidden. They put large stones at the mouth of the cave. The kings are still in there.",
+        "es": "Entonces Josué dio muerte a los reyes. Los colgó de cinco árboles, donde permanecieron hasta el atardecer. Al ponerse el sol, Josué dio la orden. Los bajaron de los árboles y los arrojaron dentro de la cueva donde se habían escondido. Después pusieron grandes piedras a la entrada de la cueva. Allí permanecen hasta hoy."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-27"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "28",
+      "id": "josue10-msg-18",
+      "msg": {
+        "en": "That same day Joshua captured Makkedah, a massacre that included the king. He carried out the holy curse. No survivors. Makkedah’s king got the same treatment as Jericho’s king.",
+        "es": "Aquel mismo día Josué tomó Maceda. La destrucción incluyó también a su rey. Ejecutó la destrucción consagrada. No hubo sobrevivientes. El rey de Maceda recibió el mismo trato que el rey de Jericó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-28"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "josue10-msg-19",
+      "msg": {
+        "en": "Joshua, all Israel with him, moved on from Makkedah to Libnah and fought against Libnah. GOD gave Libnah to Israel. They captured city and king and massacred the lot. No survivors. Libnah’s king got the same treatment as Jericho’s king.",
+        "es": "Josué, con todo Israel, avanzó desde Maceda hasta Libna y combatió contra ella. DIOS entregó Libna a Israel. Capturaron la ciudad y a su rey y destruyeron a sus habitantes. No hubo sobrevivientes. El rey de Libna recibió el mismo trato que el rey de Jericó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-30"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "josue10-msg-20",
+      "msg": {
+        "en": "Joshua, all Israel with him, moved on from Libnah to Lachish. He set up camp nearby and attacked. GOD gave Lachish to Israel. Israel took it in two days and killed everyone. He carried out the holy curse, the same as with Libnah.",
+        "es": "Josué, con todo Israel, avanzó desde Libna hasta Laquis. Acampó cerca de la ciudad y la atacó. DIOS entregó Laquis a Israel. Israel la tomó en dos días y destruyó a sus habitantes. Ejecutó la destrucción consagrada, tal como había hecho con Libna."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-32"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "33",
+      "id": "josue10-msg-21",
+      "msg": {
+        "en": "Horam, king of Gezer, arrived to help Lachish. Joshua attacked him and his army until there was nothing left of them. No survivors.",
+        "es": "Horam, rey de Gezer, llegó para ayudar a Laquis. Josué atacó a él y a su ejército hasta acabar con ellos. No hubo sobrevivientes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-33"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "josue10-msg-22",
+      "msg": {
+        "en": "Joshua, all Israel with him, moved on from Lachish to Eglon. They set up camp and attacked. They captured it and killed everyone, carrying out the holy curse, the same as they had done with Lachish.",
+        "es": "Josué, con todo Israel, avanzó desde Laquis hasta Eglón. Acamparon allí y atacaron. Capturaron la ciudad y destruyeron a sus habitantes, ejecutando la destrucción consagrada tal como habían hecho con Laquis."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-35"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "36-37",
+      "id": "josue10-msg-23",
+      "msg": {
+        "en": "Joshua, all Israel with him, went up from Eglon to Hebron. He attacked and captured it. They killed everyone, including its king, its villages, and their people. No survivors, the same as with Eglon. They carried out the holy curse on city and people.",
+        "es": "Josué, con todo Israel, subió desde Eglón hasta Hebrón. Atacó la ciudad y la capturó. Destruyeron a sus habitantes, junto con su rey, sus aldeas y la gente que vivía en ellas. No hubo sobrevivientes, tal como había ocurrido en Eglón. Ejecutaron la destrucción consagrada sobre la ciudad y sus habitantes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-37"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "38-39",
+      "id": "josue10-msg-24",
+      "msg": {
+        "en": "Then Joshua, all Israel with him, turned toward Debir and attacked it. He captured it, its king, and its villages. They killed everyone. They put everyone and everything under the holy curse. No survivors. Debir and its king got the same treatment as Hebron and its king, and Libnah and its king.",
+        "es": "Después Josué, con todo Israel, se volvió hacia Debir y la atacó. Capturó la ciudad, a su rey y sus aldeas. Destruyeron a sus habitantes y pusieron todo bajo la destrucción consagrada. No hubo sobrevivientes. Debir y su rey recibieron el mismo trato que Hebrón y su rey, y que Libna y su rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-39"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "40-42",
+      "id": "josue10-msg-25",
+      "msg": {
+        "en": "Joshua took the whole country: hills, desert, foothills, and mountain slopes, including all kings. He left no survivors. He carried out the holy curse on everything that breathed, just as GOD, the God of Israel, had commanded. Joshua’s conquest stretched from Kadesh Barnea to Gaza and from the entire region of Goshen to Gibeon. Joshua took all these kings and their lands in a single campaign because GOD, the God of Israel, fought for Israel.",
+        "es": "Josué tomó toda la región: las montañas, el desierto, las tierras bajas y las laderas, junto con todos sus reyes. No dejó sobrevivientes. Ejecutó la destrucción consagrada sobre todo ser viviente, tal como DIOS, el Dios de Israel, había ordenado.\n\nLa campaña de Josué se extendió desde Cades Barnea hasta Gaza y desde toda la región de Gosén hasta Gabaón. Josué tomó a todos estos reyes y sus territorios en una sola campaña porque DIOS, el Dios de Israel, peleó por Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-42"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "43",
+      "id": "josue10-msg-26",
+      "msg": {
+        "en": "Then Joshua, all Israel with him, went back to the camp at Gilgal.",
+        "es": "Después Josué, con todo Israel, regresó al campamento en Gilgal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue10-nbla-43"
+        }
+      ],
+      "order": 26
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "josue10-nbla-01",
+      "number": 1,
+      "text": "Cuando Adonisedec, rey de Jerusalén, se enteró de que Josué había capturado a Hai y que la había destruido por completo (como había hecho con Jericó y con su rey así había hecho con Hai y con su rey), y que los habitantes de Gabaón habían concertado la paz con Israel y estaban dentro de su tierra,"
+    },
+    {
+      "id": "josue10-nbla-02",
+      "number": 2,
+      "text": "tuvo gran temor, porque Gabaón era una gran ciudad, como una de las ciudades reales, y porque era más grande que Hai, y todos sus hombres eran valientes."
+    },
+    {
+      "id": "josue10-nbla-03",
+      "number": 3,
+      "text": "Por tanto, Adonisedec, rey de Jerusalén, envió mensaje a Hoham, rey de Hebrón, a Piream, rey de Jarmut, a Jafía, rey de Laquis y a Debir, rey de Eglón, diciéndoles:"
+    },
+    {
+      "id": "josue10-nbla-04",
+      "number": 4,
+      "text": "«Suban a mí y ayúdenme, y ataquemos a Gabaón, porque ha hecho paz con Josué y con los israelitas»."
+    },
+    {
+      "id": "josue10-nbla-05",
+      "number": 5,
+      "text": "Se reunieron, pues, los cinco reyes de los amorreos: el rey de Jerusalén, el rey de Hebrón, el rey de Jarmut, el rey de Laquis y el rey de Eglón, y subieron ellos con todos sus ejércitos, y acamparon junto a Gabaón y lucharon contra ella."
+    },
+    {
+      "id": "josue10-nbla-06",
+      "number": 6,
+      "text": "Entonces los hombres de Gabaón enviaron mensaje a Josué al campamento de Gilgal y le dijeron: «No abandone a sus siervos; suba rápidamente a nosotros, sálvenos y ayúdenos, porque todos los reyes de los amorreos que habitan en los montes se han reunido contra nosotros»."
+    },
+    {
+      "id": "josue10-nbla-07",
+      "number": 7,
+      "text": "Josué subió de Gilgal, él y toda la gente de guerra con él, y todos los valientes guerreros."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-08a",
+          "order": 1,
+          "text": "Y el SEÑOR dijo a Josué: «"
+        },
+        {
+          "id": "josue10-nbla-08b",
+          "order": 2,
+          "text": "No les tengas miedo, porque los he entregado en tus manos. Ninguno de ellos te podrá resistir»."
+        }
+      ],
+      "id": "josue10-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "josue10-nbla-09",
+      "number": 9,
+      "text": "Vino, pues, Josué sobre ellos de repente, habiendo marchado toda la noche desde Gilgal."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-10a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "josue10-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR los desconcertó delante de Israel"
+        },
+        {
+          "id": "josue10-nbla-10c",
+          "order": 3,
+          "text": ", y los hirió con gran matanza en Gabaón. Luego los persiguió por el camino de la subida de Bet Horón y los hirió hasta Azeca y Maceda."
+        }
+      ],
+      "id": "josue10-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-11a",
+          "order": 1,
+          "text": "Mientras huían delante de Israel, cuando estaban en la bajada de Bet Horón, el SEÑOR arrojó desde el cielo grandes piedras sobre ellos hasta Azeca y murieron. Y"
+        },
+        {
+          "id": "josue10-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "fueron más los que murieron por las piedras del granizo que los que mataron a espada los israelitas."
+        }
+      ],
+      "id": "josue10-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "josue10-nbla-12",
+      "number": 12,
+      "text": "Entonces Josué habló al SEÑOR el día en que el SEÑOR entregó a los amorreos delante de los israelitas, y dijo en presencia de Israel:\n«Sol, detente en Gabaón,\nY tú luna, en el valle de Ajalón»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-13a",
+          "order": 1,
+          "text": "Y el sol se detuvo, y la luna se paró,\nHasta que la nación se vengó de sus enemigos."
+        },
+        {
+          "id": "josue10-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿No está esto escrito en el libro de Jaser? Y el sol se detuvo en medio del cielo y no se apresuró a ponerse como por un día entero."
+        }
+      ],
+      "id": "josue10-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-14a",
+          "order": 1,
+          "text": "Ni antes ni después hubo día como aquel, cuando el SEÑOR prestó atención a la voz de un hombre,"
+        },
+        {
+          "id": "josue10-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque el SEÑOR peleó por Israel."
+        }
+      ],
+      "id": "josue10-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "josue10-nbla-15",
+      "number": 15,
+      "text": "Entonces Josué, y todo Israel con él, volvió al campamento en Gilgal."
+    },
+    {
+      "id": "josue10-nbla-16",
+      "number": 16,
+      "text": "Aquellos cinco reyes habían huido y se habían escondido en la cueva de Maceda."
+    },
+    {
+      "id": "josue10-nbla-17",
+      "number": 17,
+      "text": "Y fue dado aviso a Josué: «Los cinco reyes han sido hallados escondidos en la cueva de Maceda»."
+    },
+    {
+      "id": "josue10-nbla-18",
+      "number": 18,
+      "text": "Y Josué dijo: «Rueden piedras grandes hacia la entrada de la cueva, y pongan junto a ella hombres que los vigilen,"
+    },
+    {
+      "id": "josue10-nbla-19",
+      "number": 19,
+      "text": "pero ustedes no se queden ahí. Persigan a sus enemigos y atáquenlos por la retaguardia. No les permitan entrar en sus ciudades, porque el SEÑOR, Dios de ustedes, los ha entregado en sus manos»."
+    },
+    {
+      "id": "josue10-nbla-20",
+      "number": 20,
+      "text": "Cuando Josué y los israelitas terminaron de herirlos con gran matanza, hasta que fueron destruidos, y los sobrevivientes que de ellos quedaron habían entrado en las ciudades fortificadas,"
+    },
+    {
+      "id": "josue10-nbla-21",
+      "number": 21,
+      "text": "todo el pueblo volvió en paz al campamento y a Josué en Maceda. Nadie profirió palabra alguna contra ninguno de los israelitas."
+    },
+    {
+      "id": "josue10-nbla-22",
+      "number": 22,
+      "text": "Entonces Josué dijo: «Abran la entrada de la cueva y sáquenme de ella a esos cinco reyes»."
+    },
+    {
+      "id": "josue10-nbla-23",
+      "number": 23,
+      "text": "Así lo hicieron, y le trajeron de la cueva a estos cinco reyes: el rey de Jerusalén, el rey de Hebrón, el rey de Jarmut, el rey de Laquis y el rey de Eglón."
+    },
+    {
+      "id": "josue10-nbla-24",
+      "number": 24,
+      "text": "Cuando llevaron estos reyes a Josué, Josué llamó a todos los hombres de Israel, y dijo a los jefes de los hombres de guerra que habían ido con él: «Acérquense, pongan su pie sobre el cuello de estos reyes». Ellos se acercaron y pusieron los pies sobre sus cuellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-25a",
+          "order": 1,
+          "text": "Entonces Josué les dijo: «"
+        },
+        {
+          "id": "josue10-nbla-25b",
+          "order": 2,
+          "text": "No teman ni se acobarden. Sean fuertes y valientes"
+        },
+        {
+          "id": "josue10-nbla-25c",
+          "order": 3,
+          "text": ", porque así hará el SEÑOR a todos los enemigos con los que ustedes luchen»."
+        }
+      ],
+      "id": "josue10-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "josue10-nbla-26",
+      "number": 26,
+      "text": "Después Josué les dio muerte y los colgó de cinco árboles, y quedaron colgados de los árboles hasta la tarde."
+    },
+    {
+      "id": "josue10-nbla-27",
+      "number": 27,
+      "text": "A la hora de la puesta del sol, Josué dio órdenes y los bajaron de los árboles, y los echaron en la cueva donde se habían escondido, y sobre la boca de la cueva pusieron grandes piedras que permanecen hasta el día de hoy."
+    },
+    {
+      "id": "josue10-nbla-28",
+      "number": 28,
+      "text": "Aquel día Josué conquistó a Maceda. La hirió a filo de espada junto con su rey y la destruyó por completo con todas las personas que había en ella. No dejó ningún sobreviviente, e hizo con el rey de Maceda como había hecho con el rey de Jericó."
+    },
+    {
+      "id": "josue10-nbla-29",
+      "number": 29,
+      "text": "Josué, y todo Israel con él, pasó de Maceda a Libna, y peleó contra Libna."
+    },
+    {
+      "id": "josue10-nbla-30",
+      "number": 30,
+      "text": "El SEÑOR la entregó también, junto con su rey, en manos de Israel, que la hirió a filo de espada con todas las personas que había en ella. No dejó ningún sobreviviente en ella, e hizo con su rey como había hecho con el rey de Jericó."
+    },
+    {
+      "id": "josue10-nbla-31",
+      "number": 31,
+      "text": "Josué, y todo Israel con él, pasó de Libna a Laquis, acampó cerca de ella y la atacó."
+    },
+    {
+      "id": "josue10-nbla-32",
+      "number": 32,
+      "text": "El SEÑOR entregó a Laquis en manos de Israel, la cual conquistaron al segundo día, y la hirieron a filo de espada con todas las personas que había en ella, conforme a todo lo que había hecho a Libna."
+    },
+    {
+      "id": "josue10-nbla-33",
+      "number": 33,
+      "text": "Entonces Horam, rey de Gezer, subió en ayuda de Laquis, pero Josué lo derrotó a él y a su pueblo, hasta no dejar sobreviviente alguno."
+    },
+    {
+      "id": "josue10-nbla-34",
+      "number": 34,
+      "text": "Josué, y todo Israel con él, pasaron de Laquis a Eglón, y acamparon cerca de ella y la atacaron."
+    },
+    {
+      "id": "josue10-nbla-35",
+      "number": 35,
+      "text": "La conquistaron aquel mismo día y la hirieron a filo de espada. Destruyeron por completo aquel día a todas las personas que había en ella, conforme a todo lo que habían hecho a Laquis."
+    },
+    {
+      "id": "josue10-nbla-36",
+      "number": 36,
+      "text": "Entonces subió Josué, y todo Israel con él, de Eglón a Hebrón, y pelearon contra ella."
+    },
+    {
+      "id": "josue10-nbla-37",
+      "number": 37,
+      "text": "La conquistaron y la hirieron a filo de espada, con su rey, todas sus ciudades y todas las personas que había en ella. No dejaron ningún sobreviviente, conforme a todo lo que había hecho a Eglón. La destruyeron por completo con todas las personas que había en ella."
+    },
+    {
+      "id": "josue10-nbla-38",
+      "number": 38,
+      "text": "Después Josué, y todo Israel con él, se volvieron contra Debir y peleó contra ella."
+    },
+    {
+      "id": "josue10-nbla-39",
+      "number": 39,
+      "text": "La conquistaron, con su rey y todas sus ciudades, hiriéndolas a filo de espada. Destruyeron por completo a todas las personas que había en ella. Josué no dejó sobreviviente alguno. Como había hecho con Hebrón, y como había hecho también con Libna y su rey, así hizo con Debir y su rey."
+    },
+    {
+      "id": "josue10-nbla-40",
+      "number": 40,
+      "text": "Hirió, pues, Josué toda la tierra: la región montañosa, el Neguev, las tierras bajas y las laderas, y a todos sus reyes. No dejó ningún sobreviviente, sino que destruyó por completo a todo el que tenía vida, tal como el SEÑOR, Dios de Israel, había mandado."
+    },
+    {
+      "id": "josue10-nbla-41",
+      "number": 41,
+      "text": "Josué los hirió desde Cades Barnea hasta Gaza, y todo el territorio de Gosén hasta Gabaón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue10-nbla-42a",
+          "order": 1,
+          "text": "A todos estos reyes y sus territorios los capturó Josué de una vez,"
+        },
+        {
+          "id": "josue10-nbla-42b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque el SEÑOR, Dios de Israel, combatía por Israel."
+        }
+      ],
+      "id": "josue10-nbla-42",
+      "number": 42
+    },
+    {
+      "id": "josue10-nbla-43",
+      "number": 43,
+      "text": "Entonces Josué, y todo Israel con él, volvieron al campamento en Gilgal."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

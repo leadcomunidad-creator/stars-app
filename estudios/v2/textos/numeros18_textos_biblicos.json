@@ -1,0 +1,622 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "el sacerdocio aparece como algo que Dios entrega, no como una posición que Aarón produce o reclama. La NBLA precisa además que es «un regalo para servir», evitando interpretar el don como simple privilegio. MSG conserva la exclusividad de la función dentro de este pacto particular. La elección divina debe comprenderse siempre en relación con el servicio que Dios encarga.",
+      "id": "numeros18-joya-01",
+      "msg": {
+        "en": "\"The work of the priesthood is my exclusive gift to you\"",
+        "es": "\"El trabajo del sacerdocio es Mi regalo exclusivo para ustedes\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-07b"
+          ],
+          "verseId": "numeros18-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "5-7"
+    },
+    {
+      "explanation": "incluso la provisión cotidiana de los sacerdotes conserva relación con la santidad de Dios. La NBLA fija la categoría de «ofrenda santísima» y MSG vuelve visible la actitud adecuada: comer con reverencia. Recibir provisión de Dios nunca autoriza a tratar como común aquello que ha sido consagrado a Él.",
+      "id": "numeros18-joya-02",
+      "msg": {
+        "en": "\"Eat it reverently; it is most holy\"",
+        "es": "\"Cómanlo con reverencia; es santísimo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-10a"
+          ],
+          "verseId": "numeros18-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "8-10"
+    },
+    {
+      "explanation": "Dios presenta la provisión asignada al sacerdocio como parte de un pacto estable. La NBLA fija la idea principal con «pacto permanente»; MSG conserva la expresión cultural «Pacto de Sal» y explicita su estabilidad. La imagen no debe convertirse en una doctrina independiente acerca de la sal; el punto es la firmeza del compromiso establecido por Dios.",
+      "id": "numeros18-joya-03",
+      "msg": {
+        "en": "\"a Covenant-of-Salt, eternal and unchangeable before GOD\"",
+        "es": "\"un Pacto de Sal, eterno e inalterable delante de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-19b"
+          ],
+          "verseId": "numeros18-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "17-19"
+    },
+    {
+      "explanation": "la seguridad más profunda de Aarón no estará en una propiedad territorial, sino en Dios mismo. La NBLA conserva las categorías teológicas de «porción» e «herencia»; MSG hace la imagen concreta al hablar de Dios como la parcela que Aarón no recibirá físicamente. El texto no desprecia la provisión material, porque el propio capítulo la regula cuidadosamente; establece que ninguna posesión sustituye al Dador.",
+      "id": "numeros18-joya-04",
+      "msg": {
+        "en": "\"I am your plot of ground, I am your inheritance\"",
+        "es": "\"Yo soy tu parcela; Yo soy tu herencia\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-20b"
+          ],
+          "verseId": "numeros18-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "20"
+    },
+    {
+      "explanation": "quienes reciben los diezmos de Israel también permanecen bajo la responsabilidad de ofrecer. La NBLA define literalmente «el diezmo de los diezmos» y MSG vuelve explícita la acción requerida. Recibir de la comunidad para el servicio de Dios no convierte los recursos en posesión autónoma; los levitas siguen siendo mayordomos delante del mismo Dios que los sostiene.",
+      "id": "numeros18-joya-05",
+      "msg": {
+        "en": "\"you must tithe that tithe and present it as an offering to GOD\"",
+        "es": "\"deberán dar el diezmo de ese diezmo y presentarlo como ofrenda a DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-26b"
+          ],
+          "verseId": "numeros18-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "25-29"
+    },
+    {
+      "explanation": "Dios no pide a los levitas una porción descuidada de aquello que recibieron. La NBLA fija que la ofrenda debe provenir «de lo mejor» y ser la parte consagrada; MSG destaca pastoralmente que la porción de Dios debe recibir prioridad. La verdad no es que podamos comprar el favor divino ofreciendo cosas de mayor calidad, sino que la gratitud auténtica rehúsa tratar a Dios como destinatario de las sobras.",
+      "id": "numeros18-joya-06",
+      "msg": {
+        "en": "\"Make sure that GOD’S portion is the best and holiest of everything you get.\"",
+        "es": "\"Asegúrense de que la porción de DIOS sea lo mejor y más santo de todo lo que reciben.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros18-nbla-29b"
+          ],
+          "verseId": "numeros18-nbla-29"
+        }
+      ],
+      "order": 6,
+      "range": "25-29"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 18,
+    "studyId": "numeros-18"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "numeros18-msg-01",
+      "msg": {
+        "en": "GOD said to Aaron, “You and your sons, along with your father’s family, are responsible for taking care of sins having to do with the Sanctuary; you and your sons are also responsible for sins involving the priesthood. So enlist your brothers of the tribe of Levi to join you and assist you and your sons in your duties in the Tent of Testimony. They will report to you as they go about their duties related to the Tent, but they must not have anything to do with the holy things of the Altar under penalty of death—both they and you will die! They are to work with you in taking care of the Tent of Meeting, whatever work is involved in the Tent. Outsiders are not allowed to help you.",
+        "es": "DIOS dijo a Aarón: «Tú y tus hijos, junto con la familia de tu padre, son responsables de cargar con las faltas relacionadas con el Santuario; tú y tus hijos también son responsables de las faltas relacionadas con el sacerdocio. Así que incorpora a tus hermanos de la tribu de Leví para que se unan a ustedes y los ayuden a ti y a tus hijos en sus responsabilidades en la Tienda del Testimonio. Ellos estarán bajo tu dirección mientras cumplen sus tareas relacionadas con la Tienda, pero no deben tener nada que ver con las cosas santas del Altar, bajo pena de muerte: ¡tanto ellos como ustedes morirán! Trabajarán contigo cuidando la Tienda de Reunión, ocupándose de todo el trabajo que corresponda allí. Ningún extraño podrá ayudarles»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "numeros18-msg-02",
+      "msg": {
+        "en": "“Your job is to take care of the Sanctuary and the Altar so that there will be no more outbreaks of anger on the People of Israel. I personally have picked your brothers, the Levites, from Israel as a whole. I’m giving them to you as a gift, a gift of GOD, to help with the work of the Tent of Meeting. But only you and your sons may serve as priests, working around the Altar and inside the curtain. The work of the priesthood is my exclusive gift to you; it cannot be delegated—anyone else who invades the Sanctuary will be executed.”",
+        "es": "«Su tarea es cuidar el Santuario y el Altar para que no vuelvan a estallar manifestaciones de ira contra el pueblo de Israel. Yo mismo escogí a sus hermanos, los levitas, de entre todo Israel. Se los doy como un regalo, un regalo de DIOS, para ayudar con el trabajo de la Tienda de Reunión. Pero solo tú y tus hijos podrán servir como sacerdotes, trabajando alrededor del Altar y dentro de la cortina. El trabajo del sacerdocio es Mi regalo exclusivo para ustedes; no puede delegarse. Cualquier otro que invada el Santuario será ejecutado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "numeros18-msg-03",
+      "msg": {
+        "en": "GOD spoke to Aaron, “I am personally putting you in charge of my contributions, all the holy gifts I get from the People of Israel. I am turning them over to you and your children for your personal use. This is the standing rule. You and your sons get what’s left from the offerings, whatever hasn’t been totally burned up on the Altar—the leftovers from Grain-Offerings, Absolution-Offerings, and Compensation-Offerings. Eat it reverently; it is most holy; every male may eat it. Treat it as holy.",
+        "es": "DIOS habló a Aarón: «Personalmente te pongo a cargo de Mis contribuciones, de todos los regalos santos que recibo del pueblo de Israel. Se los entrego a ti y a tus hijos para su uso. Esta es una norma permanente. Tú y tus hijos recibirán lo que quede de las ofrendas, aquello que no haya sido consumido completamente en el Altar: lo restante de las ofrendas de cereal, las ofrendas de absolución y las ofrendas de compensación. Cómanlo con reverencia; es santísimo. Todo varón podrá comerlo. Trátenlo como santo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "numeros18-msg-04",
+      "msg": {
+        "en": "“You also get the Wave-Offerings from the People of Israel. I present them to you and your sons and daughters as a gift. This is the standing rule. Anyone in your household who is ritually clean may eat it. I also give you all the best olive oil, the best new wine, and the grain that is offered to GOD as the firstfruits of their harvest—all the firstfruits they offer to GOD are yours. Anyone in your household who is ritually clean may eat it.",
+        "es": "«También recibirán las ofrendas mecidas del pueblo de Israel. Se las entrego como regalo a ti, a tus hijos y a tus hijas. Esta es una norma permanente. Cualquiera de tu casa que esté ritualmente limpio podrá comerlas. También te doy lo mejor del aceite de oliva, lo mejor del vino nuevo y el grano ofrecido a DIOS como primicias de sus cosechas. Todas las primicias que ofrezcan a DIOS serán tuyas. Cualquiera de tu casa que esté ritualmente limpio podrá comerlas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "numeros18-msg-05",
+      "msg": {
+        "en": "“You get every Totally-Devoted gift. Every firstborn that is offered to GOD, whether animal or person, is yours. Except you don’t get the firstborn itself, but its redemption price; firstborn humans and ritually clean animals are bought back and you get the redemption price. When the firstborn is a month old it must be redeemed at the redemption price of five shekels of silver, using the standard of the Sanctuary shekel, which weighs twenty gerahs.",
+        "es": "«Recibirás toda ofrenda totalmente consagrada. Todo primogénito que sea ofrecido a DIOS, sea persona o animal, será tuyo. Excepto que no recibirás al primogénito mismo, sino el precio de su rescate; los primogénitos humanos y los animales ritualmente limpios se rescatan, y tú recibes el precio de rescate. Cuando el primogénito tenga un mes, deberá ser rescatado por cinco siclos de plata, según el siclo del Santuario, que pesa veinte geras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "numeros18-msg-06",
+      "msg": {
+        "en": "“On the other hand, you don’t redeem a firstborn ox, sheep, or goat—they are holy. Instead splash their blood on the Altar and burn their fat as a Fire-Gift, a pleasing fragrance to GOD. But you get the meat, just as you get the breast from the Wave-Offering and the right thigh. All the holy offerings that the People of Israel set aside for GOD, I’m turning over to you and your children. That’s the standard rule and includes both you and your children—a Covenant-of-Salt, eternal and unchangeable before GOD.”",
+        "es": "«Por otro lado, no rescatarás al primogénito de un buey, una oveja o una cabra: son santos. En cambio, rociarás su sangre sobre el Altar y quemarás su grasa como ofrenda encendida, un aroma agradable para DIOS. Pero la carne será para ti, así como recibes el pecho de la ofrenda mecida y el muslo derecho. Todas las ofrendas santas que el pueblo de Israel aparte para DIOS se las entrego a ti y a tus hijos. Esta es la norma permanente para ti y para tus hijos: un Pacto de Sal, eterno e inalterable delante de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-19"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "20",
+      "id": "numeros18-msg-07",
+      "msg": {
+        "en": "GOD said to Aaron, “You won’t get any inheritance in land, not so much as a small plot of ground: I am your plot of ground, I am your inheritance among the People of Israel.",
+        "es": "DIOS dijo a Aarón: «No recibirás ninguna herencia de tierra, ni siquiera una pequeña parcela: Yo soy tu parcela; Yo soy tu herencia entre el pueblo de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-20"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "21-24",
+      "id": "numeros18-msg-08",
+      "msg": {
+        "en": "“I’m giving the Levites all the tithes of Israel as their pay for the work they do in the Tent of Meeting. Starting now, the rest of the People of Israel cannot wander in and out of the Tent of Meeting; they’ll be penalized for their sin and the penalty is death. It’s the Levites and only the Levites who are to work in the Tent of Meeting and they are responsible for anything that goes wrong. This is the regular rule for all time. They get no inheritance among the People of Israel; instead I turn over to them the tithes that the People of Israel present as an offering to GOD. That’s why I give the ruling: They are to receive no land-inheritance among the People of Israel.”",
+        "es": "«Les doy a los levitas todos los diezmos de Israel como pago por el trabajo que realizan en la Tienda de Reunión. Desde ahora, el resto del pueblo de Israel no podrá entrar y salir libremente de la Tienda de Reunión; cargarían con su pecado y la pena sería la muerte. Son los levitas, y únicamente los levitas, quienes deben trabajar en la Tienda de Reunión, y ellos serán responsables de cualquier falta relacionada con ese servicio. Esta será la norma permanente. No recibirán herencia entre el pueblo de Israel; en cambio, les entrego los diezmos que el pueblo de Israel presenta como ofrenda a DIOS. Por eso establezco esta norma: no recibirán herencia de tierra entre el pueblo de Israel»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-24"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "25-29",
+      "id": "numeros18-msg-09",
+      "msg": {
+        "en": "GOD spoke to Moses: “Speak to the Levites. Tell them, When you get the tithe from the People of Israel, the inheritance that I have assigned to you, you must tithe that tithe and present it as an offering to GOD. Your offerings will be treated the same as other people’s gifts of grain from the threshing floor or wine from the wine vat. This is your procedure for making offerings to GOD from all the tithes you get from the People of Israel: give GOD’S portion from these tithes to Aaron the priest. Make sure that GOD’S portion is the best and holiest of everything you get.",
+        "es": "DIOS habló a Moisés: «Habla a los levitas. Diles: Cuando reciban del pueblo de Israel el diezmo, la herencia que Yo les he asignado, deberán dar el diezmo de ese diezmo y presentarlo como ofrenda a DIOS. Su ofrenda será considerada igual que los regalos de grano que otros presentan desde la era o el vino que ofrecen desde el lagar. Este será el procedimiento para presentar ofrendas a DIOS de todos los diezmos que reciban del pueblo de Israel: entreguen al sacerdote Aarón la porción de DIOS tomada de esos diezmos. Asegúrense de que la porción de DIOS sea lo mejor y más santo de todo lo que reciben."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-29"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "30-32",
+      "id": "numeros18-msg-10",
+      "msg": {
+        "en": "“Tell the Levites, When you offer the best part, the rest will be treated the same as grain from the threshing floor or wine from the wine vat that others give. You and your households are free to eat the rest of it anytime and anyplace—it’s your wages for your work at the Tent of Meeting. By offering the best part, you’ll avoid guilt, you won’t desecrate the holy offerings of the People of Israel, and you won’t die.”",
+        "es": "«Diles a los levitas: Cuando ofrezcan la mejor parte, el resto será considerado igual que el grano de la era o el vino del lagar que otros entregan. Ustedes y sus familias podrán comer el resto cuando quieran y donde quieran: es su salario por el trabajo en la Tienda de Reunión. Al ofrecer la mejor parte, evitarán la culpa, no profanarán las ofrendas santas del pueblo de Israel y no morirán»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros18-nbla-32"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros18-nbla-01",
+      "number": 1,
+      "text": "Entonces el SEÑOR dijo a Aarón: «Tú y tus hijos, y tu casa paterna contigo, llevarán la culpa en relación con el santuario; y tú y tus hijos contigo llevarán la culpa en relación con su sacerdocio."
+    },
+    {
+      "id": "numeros18-nbla-02",
+      "number": 2,
+      "text": "Pero también a tus hermanos, la tribu de Leví, la tribu de tu padre, haz que se acerquen para que se junten contigo y te sirvan, mientras que tú y tus hijos contigo están delante de la tienda del testimonio."
+    },
+    {
+      "id": "numeros18-nbla-03",
+      "number": 3,
+      "text": "Atenderán a lo que tú ordenes y a las obligaciones de toda la tienda, pero no se acercarán a los utensilios del santuario y del altar, para que no mueran, tanto ellos como ustedes."
+    },
+    {
+      "id": "numeros18-nbla-04",
+      "number": 4,
+      "text": "Y ellos se juntarán contigo, y atenderán a las obligaciones de la tienda de reunión, para todo el servicio de la tienda; pero ningún extraño se acercará a ustedes."
+    },
+    {
+      "id": "numeros18-nbla-05",
+      "number": 5,
+      "text": "Así atenderán a las obligaciones del santuario y a las obligaciones del altar, a fin de que la ira no venga más sobre los israelitas."
+    },
+    {
+      "id": "numeros18-nbla-06",
+      "number": 6,
+      "text": "»Yo mismo he tomado a sus hermanos, los levitas, de entre los israelitas; son un regalo para ustedes, dedicados al SEÑOR, para servir en el ministerio de la tienda de reunión."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-07a",
+          "order": 1,
+          "text": "Pero tú y tus hijos contigo atenderán a su sacerdocio en todo lo concerniente al altar y a lo que está dentro del velo, y ministrarán."
+        },
+        {
+          "id": "numeros18-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Les doy el sacerdocio como un regalo para servir"
+        },
+        {
+          "id": "numeros18-nbla-07c",
+          "order": 3,
+          "text": ", pero el extraño que se acerque morirá»."
+        }
+      ],
+      "id": "numeros18-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "numeros18-nbla-08",
+      "number": 8,
+      "text": "Entonces el SEÑOR habló a Aarón: «Yo te he dado el cuidado de Mis ofrendas, todas las cosas consagradas de los israelitas; te las he dado a ti como porción, y a tus hijos como provisión perpetua."
+    },
+    {
+      "id": "numeros18-nbla-09",
+      "number": 9,
+      "text": "Esto será tuyo de las ofrendas santísimas preservadas del fuego: toda ofrenda de ellos, aun toda ofrenda de cereal y toda ofrenda por el pecado y toda ofrenda por la culpa, que ellos me han de presentar, será santísima para ti y para tus hijos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-10a",
+          "order": 1,
+          "text": "Como ofrenda santísima la comerás"
+        },
+        {
+          "id": "numeros18-nbla-10b",
+          "order": 2,
+          "text": "; todo varón la comerá. Cosa santa será para ti."
+        }
+      ],
+      "id": "numeros18-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "numeros18-nbla-11",
+      "number": 11,
+      "text": "Esto también será para ti: la ofrenda de sus dádivas, todas las ofrendas mecidas de los israelitas; las he dado a ti, a tus hijos y a tus hijas contigo, como porción perpetua. Todo el que esté limpio en tu casa podrá comerla."
+    },
+    {
+      "id": "numeros18-nbla-12",
+      "number": 12,
+      "text": "»Todo lo mejor del aceite nuevo y todo lo mejor del vino nuevo y del cereal, las primicias que presenten al SEÑOR, te las daré a ti."
+    },
+    {
+      "id": "numeros18-nbla-13",
+      "number": 13,
+      "text": "Los primeros frutos maduros de todo lo que hay en su tierra, que traigan al SEÑOR, serán tuyos. Todo el que esté limpio en tu casa podrá comer de ello."
+    },
+    {
+      "id": "numeros18-nbla-14",
+      "number": 14,
+      "text": "Toda cosa dedicada en Israel, será tuya."
+    },
+    {
+      "id": "numeros18-nbla-15",
+      "number": 15,
+      "text": "Todo lo que abre la matriz de toda carne, ya sea hombre o animal, que presenten al SEÑOR, será tuyo; sin embargo, el primogénito de hombre ciertamente redimirás, y el primogénito de animales inmundos redimirás."
+    },
+    {
+      "id": "numeros18-nbla-16",
+      "number": 16,
+      "text": "En cuanto a su redención, de un mes los redimirás, según tu valuación, por cinco siclos (57 gramos) en plata, según el siclo del santuario que es de veinte geras (11.4 gramos de plata)."
+    },
+    {
+      "id": "numeros18-nbla-17",
+      "number": 17,
+      "text": "»Pero no redimirás el primogénito de buey, ni el primogénito de oveja, ni el primogénito de cabra; son sagrados. Rociarás su sangre en el altar y quemarás su grasa como ofrenda encendida, como aroma agradable al SEÑOR."
+    },
+    {
+      "id": "numeros18-nbla-18",
+      "number": 18,
+      "text": "Y su carne será para ti; así como el pecho de la ofrenda mecida y la pierna derecha son tuyas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-19a",
+          "order": 1,
+          "text": "Todas las ofrendas de lo que es santo, que los israelitas ofrezcan al SEÑOR, las he dado a ti, a tus hijos y a tus hijas contigo, como porción perpetua;"
+        },
+        {
+          "id": "numeros18-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "es un pacto permanente delante del SEÑOR"
+        },
+        {
+          "id": "numeros18-nbla-19c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para ti y para tu descendencia contigo»."
+        }
+      ],
+      "id": "numeros18-nbla-19",
+      "number": 19
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-20a",
+          "order": 1,
+          "text": "Entonces el SEÑOR dijo a Aarón: «No tendrás heredad en su tierra, ni tendrás posesión entre ellos."
+        },
+        {
+          "id": "numeros18-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Yo soy tu porción y tu herencia entre los israelitas."
+        }
+      ],
+      "id": "numeros18-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "numeros18-nbla-21",
+      "number": 21,
+      "text": "»Ten en cuenta que Yo he dado a los hijos de Leví todos los diezmos en Israel por heredad, a cambio de su ministerio en el cual sirven, el ministerio de la tienda de reunión."
+    },
+    {
+      "id": "numeros18-nbla-22",
+      "number": 22,
+      "text": "Y los israelitas no se acercarán más a la tienda de reunión, no sea que carguen con un pecado y mueran."
+    },
+    {
+      "id": "numeros18-nbla-23",
+      "number": 23,
+      "text": "Solo los levitas servirán en el ministerio de la tienda de reunión, y ellos cargarán con la iniquidad del pueblo; será estatuto perpetuo por todas las generaciones de ustedes, y entre los israelitas no tendrán heredad."
+    },
+    {
+      "id": "numeros18-nbla-24",
+      "number": 24,
+      "text": "Porque el diezmo de los israelitas, el cual ofrecen como ofrenda al SEÑOR, Yo lo he dado a los levitas por heredad; por tanto, en cuanto a ellos he dicho: “Entre los israelitas no tendrán heredad”»."
+    },
+    {
+      "id": "numeros18-nbla-25",
+      "number": 25,
+      "text": "Entonces el SEÑOR dijo a Moisés:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-26a",
+          "order": 1,
+          "text": "«También hablarás a los levitas y les dirás: “Cuando reciban de los israelitas los diezmos que de ellos les he dado a ustedes por su heredad,"
+        },
+        {
+          "id": "numeros18-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ofrecerán de ello una ofrenda al SEÑOR, el diezmo de los diezmos."
+        }
+      ],
+      "id": "numeros18-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "numeros18-nbla-27",
+      "number": 27,
+      "text": "Y su ofrenda les será considerada como los cereales de la era o como el producto del lagar."
+    },
+    {
+      "id": "numeros18-nbla-28",
+      "number": 28,
+      "text": "Así también ustedes presentarán al SEÑOR una ofrenda de sus diezmos que reciben de los israelitas; y de ellos darán la ofrenda del SEÑOR al sacerdote Aarón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros18-nbla-29a",
+          "order": 1,
+          "text": "De todos los dones que reciban presentarán las ofrendas que le pertenecen al SEÑOR,"
+        },
+        {
+          "id": "numeros18-nbla-29b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "de lo mejor de ellas, la parte consagrada de ellas”."
+        }
+      ],
+      "id": "numeros18-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "numeros18-nbla-30",
+      "number": 30,
+      "text": "Y les dirás: “Cuando hayan ofrecido de ello lo mejor, entonces el resto será contado a los levitas como el producto de la era o como el producto del lagar."
+    },
+    {
+      "id": "numeros18-nbla-31",
+      "number": 31,
+      "text": "Lo comerán en cualquier lugar, ustedes y sus casas, porque es su pago a cambio de su ministerio en la tienda de reunión."
+    },
+    {
+      "id": "numeros18-nbla-32",
+      "number": 32,
+      "text": "Y no llevarán pecado por ello, cuando hayan ofrecido lo mejor; así no profanarán las cosas consagradas de los israelitas, y no morirán”»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

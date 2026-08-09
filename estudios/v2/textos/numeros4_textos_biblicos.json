@@ -1,0 +1,873 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios confía a los coatitas una responsabilidad específica relacionada con las cosas santísimas. La NBLA fija el ámbito de su servicio; MSG destaca que se trata de un trabajo asignado y orientado al cuidado. El privilegio no les concede propiedad ni acceso ilimitado. Cuidar lo santo significa servir dentro de los límites establecidos por Dios.",
+      "id": "numeros4-joya-01",
+      "msg": {
+        "en": "“This is the assigned work of the Kohathites in the Tent of Meeting: care of the most holy things.”",
+        "es": "«Este es el trabajo asignado a los coatitas en la Tienda de Reunión: cuidar las cosas santísimas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-04b"
+          ],
+          "verseId": "numeros4-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4"
+    },
+    {
+      "explanation": "La santidad divina no puede tratarse como una realidad común. La NBLA establece literalmente la prohibición y su consecuencia; MSG conserva su fuerza directa. El texto pertenece al servicio del tabernáculo bajo el pacto mosaico y no autoriza a usar el miedo para proteger objetos, líderes o instituciones humanas. Su verdad central es que Dios, y no nosotros, define cómo se accede a Su presencia.",
+      "id": "numeros4-joya-02",
+      "msg": {
+        "en": "“But they must not touch the holy things or they will die.”",
+        "es": "«Pero no deben tocar las cosas santas, porque morirían»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-15b"
+          ],
+          "verseId": "numeros4-nbla-15"
+        }
+      ],
+      "order": 2,
+      "range": "15"
+    },
+    {
+      "explanation": "Los límites establecidos por Dios buscan preservar la vida de los coatitas. La NBLA muestra que Aarón y sus hijos debían actuar para que vivieran; MSG expresa esa responsabilidad como protección. La santidad no debe enseñarse únicamente como amenaza, sino también como un orden misericordioso que evita que las personas sean expuestas irresponsablemente al peligro.",
+      "id": "numeros4-joya-03",
+      "msg": {
+        "en": "“Protect them so they will live and not die when they come near the most holy things.”",
+        "es": "«Protéjanlos para que vivan y no mueran cuando se acerquen a las cosas santísimas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-19b"
+          ],
+          "verseId": "numeros4-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "17-20"
+    },
+    {
+      "explanation": "El servicio comunitario requiere responsabilidades definidas. La NBLA presenta las cargas como una responsabilidad formal; MSG subraya que la asignación debe ser específica. La claridad no convierte el servicio en una maquinaria impersonal. Protege a la comunidad del abandono, la duplicación y la sobrecarga producida cuando nadie sabe qué le corresponde.",
+      "id": "numeros4-joya-04",
+      "msg": {
+        "en": "“Assign them specifically what they are to carry.”",
+        "es": "«Asígnenles específicamente lo que cada uno debe transportar»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-27b"
+          ],
+          "verseId": "numeros4-nbla-27"
+        }
+      ],
+      "order": 4,
+      "range": "24-28"
+    },
+    {
+      "explanation": "Dios relaciona la responsabilidad con personas identificables. La NBLA añade el peso de la asignación «por nombre»; MSG hace visible la exactitud del encargo. El propósito no es ejercer control minucioso sobre cada aspecto de la vida, sino asegurar que el servicio compartido tenga responsables reales y que ninguna carga necesaria quede abandonada.",
+      "id": "numeros4-joya-05",
+      "msg": {
+        "en": "“Assign to each man exactly what he is to carry.”",
+        "es": "«Asignen a cada hombre exactamente lo que debe transportar»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-32b"
+          ],
+          "verseId": "numeros4-nbla-32"
+        }
+      ],
+      "order": 5,
+      "range": "31-33"
+    },
+    {
+      "explanation": "La palabra de Dios organiza el servicio sin borrar la individualidad. La NBLA distingue el ministerio y la carga de cada persona; MSG muestra que cada hombre recibió trabajo e instrucciones concretas. La aplicación no consiste en afirmar que toda tarea comunitaria ha sido revelada directamente por Dios, sino en reconocer que el liderazgo fiel debe distribuir responsabilidades con claridad, justicia y rendición de cuentas.",
+      "id": "numeros4-joya-06",
+      "msg": {
+        "en": "“At GOD’S command through Moses, each man was assigned his work and told what to carry.”",
+        "es": "«Por orden de DIOS dada mediante Moisés, a cada hombre se le asignó su trabajo y se le indicó qué debía transportar»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros4-nbla-49a"
+          ],
+          "verseId": "numeros4-nbla-49"
+        }
+      ],
+      "order": 6,
+      "range": "46-49"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 4,
+    "studyId": "numeros-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "numeros4-msg-01",
+      "msg": {
+        "en": "GOD spoke to Moses and Aaron. He said, “Number the Kohathite line of Levites by clan and family. Count all the men from thirty to fifty years of age, all who enter the ministry to work in the Tent of Meeting.",
+        "es": "DIOS habló con Moisés y Aarón. Les dijo: «Hagan un censo de la línea coatita de los levitas por clanes y familias. Cuenten a todos los hombres de treinta a cincuenta años, a todos los que entran al servicio para trabajar en la Tienda de Reunión."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "numeros4-msg-02",
+      "msg": {
+        "en": "“This is the assigned work of the Kohathites in the Tent of Meeting: care of the most holy things.",
+        "es": "»Este es el trabajo asignado a los coatitas en la Tienda de Reunión: cuidar las cosas santísimas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "numeros4-msg-03",
+      "msg": {
+        "en": "“When the camp is ready to set out, Aaron and his sons are to go in and take down the covering curtain and cover the Chest of The Testimony with it. Then they are to cover this with a dolphin skin, spread a solid blue cloth on top, and insert the poles.",
+        "es": "»Cuando el campamento esté listo para partir, Aarón y sus hijos entrarán, quitarán la cortina de separación y cubrirán con ella el Cofre del Testimonio. Después lo cubrirán con una piel de delfín, extenderán encima un paño completamente azul e insertarán las varas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "numeros4-msg-04",
+      "msg": {
+        "en": "“Then they are to spread a blue cloth on the Table of the Presence and set the Table with plates, incense dishes, bowls, and jugs for drink offerings. The bread that is always there stays on the Table. They are to cover these with a scarlet cloth, and on top of that spread the dolphin skin, and insert the poles.",
+        "es": "»Después extenderán un paño azul sobre la Mesa de la Presencia y colocarán sobre ella los platos, los recipientes para el incienso, los tazones y las jarras para las ofrendas líquidas. El pan que siempre está allí permanecerá sobre la Mesa. Cubrirán todo con un paño escarlata, extenderán encima la piel de delfín e insertarán las varas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "numeros4-msg-05",
+      "msg": {
+        "en": "“They are to use a blue cloth to cover the light-giving Lampstand and the lamps, snuffers, trays, and the oil jars that go with it. Then they are to wrap it all in a covering of dolphin skin and place it on a carrying frame.",
+        "es": "»Usarán un paño azul para cubrir el Candelabro que da luz, junto con sus lámparas, despabiladeras, bandejas y recipientes de aceite. Después envolverán todo en una cubierta de piel de delfín y lo colocarán sobre un armazón de transporte."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "numeros4-msg-06",
+      "msg": {
+        "en": "“They are to spread a blue cloth over the Gold Altar and cover it with dolphin skins and place it on a carrying frame.",
+        "es": "»Extenderán un paño azul sobre el Altar de Oro, lo cubrirán con pieles de delfín y lo colocarán sobre un armazón de transporte."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12",
+      "id": "numeros4-msg-07",
+      "msg": {
+        "en": "“They are to take all the articles used in ministering in the Sanctuary, wrap them in a blue cloth, cover them with dolphin skins, and place them on a carrying frame.",
+        "es": "»Tomarán todos los utensilios usados para ministrar en el Santuario, los envolverán en un paño azul, los cubrirán con pieles de delfín y los colocarán sobre un armazón de transporte."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "numeros4-msg-08",
+      "msg": {
+        "en": "“They are to remove the ashes from the Altar and spread a purple cloth over it. They are to place on it all the articles used in ministering at the Altar—firepans, forks, shovels, bowls; everything used at the Altar—place them on the Altar, cover it with the dolphin skins, and insert the poles.",
+        "es": "»Retirarán las cenizas del Altar y extenderán sobre él un paño púrpura. Colocarán encima todos los utensilios usados para ministrar en el Altar: braseros, tenedores, palas y tazones; todo lo usado en el Altar. Pondrán estos objetos sobre él, lo cubrirán con las pieles de delfín e insertarán las varas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "numeros4-msg-09",
+      "msg": {
+        "en": "“When Aaron and his sons have finished covering the holy furnishings and all the holy articles, and the camp is ready to set out, the Kohathites are to come and do the carrying. But they must not touch the holy things or they will die. The Kohathites are in charge of carrying all the things that are in the Tent of Meeting.",
+        "es": "»Cuando Aarón y sus hijos hayan terminado de cubrir los muebles sagrados y todos los objetos santos, y el campamento esté listo para partir, los coatitas vendrán para transportarlos. Pero no deben tocar las cosas santas, porque morirían. Los coatitas están encargados de transportar todo lo que hay en la Tienda de Reunión."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16",
+      "id": "numeros4-msg-10",
+      "msg": {
+        "en": "“Eleazar son of Aaron the priest, is to be in charge of the oil for the light, the fragrant incense, the regular Grain-Offering, and the anointing oil. He is to be in charge of the entire Dwelling and everything in it, including its holy furnishings and articles.”",
+        "es": "»Eleazar, hijo del sacerdote Aarón, estará encargado del aceite para el alumbrado, el incienso aromático, la ofrenda regular de cereal y el aceite de la unción. Estará encargado de toda la Morada y de todo lo que hay en ella, incluidos sus muebles y objetos sagrados»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-16"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "17-20",
+      "id": "numeros4-msg-11",
+      "msg": {
+        "en": "GOD spoke to Moses and Aaron, “Don’t let the tribal families of the Kohathites be destroyed from among the Levites. Protect them so they will live and not die when they come near the most holy things. To protect them, Aaron and his sons are to precede them into the Sanctuary and assign each man his task and what he is to carry. But the Kohathites themselves must not go in to look at the holy things, not even a glance at them, or they will die.”",
+        "es": "DIOS habló con Moisés y Aarón: «No permitan que las familias tribales de los coatitas sean eliminadas de entre los levitas. Protéjanlos para que vivan y no mueran cuando se acerquen a las cosas santísimas. Para protegerlos, Aarón y sus hijos entrarán primero al Santuario y asignarán a cada hombre su tarea y lo que debe transportar. Pero los coatitas no deben entrar a mirar las cosas santas, ni siquiera por un instante, porque morirían»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "numeros4-msg-12",
+      "msg": {
+        "en": "GOD spoke to Moses: “Number the Gershonites by tribes according to their ancestral families. Count all the men from thirty to fifty years of age who enter the ministry of work in the Tent of Meeting.",
+        "es": "DIOS habló con Moisés: «Cuenta a los gersonitas por tribus, según sus familias ancestrales. Cuenta a todos los hombres de treinta a cincuenta años que entran al servicio para trabajar en la Tienda de Reunión."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-23"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "24-28",
+      "id": "numeros4-msg-13",
+      "msg": {
+        "en": "“The Gershonites by family and clan will serve by carrying heavy loads: the curtains of the Sanctuary and the Tent of Meeting; the covering of the Tent and the outer covering of dolphin skins; the screens for the entrance to the Tent; the cords; and all the equipment used in its ministries. The Gershonites have the job of doing the work connected with these things. All their work of lifting and carrying and moving is to be done under the supervision of Aaron and his sons. Assign them specifically what they are to carry. This is the work of the Gershonite clans at the Tent of Meeting. Ithamar son of Aaron the priest is to supervise their work.",
+        "es": "»Los gersonitas, por familias y clanes, servirán transportando cargas pesadas: las cortinas del Santuario y de la Tienda de Reunión; la cubierta de la Tienda y la cubierta exterior de pieles de delfín; las cortinas de la entrada de la Tienda; las cuerdas y todo el equipo usado en su servicio. Los gersonitas tienen la responsabilidad de realizar todo el trabajo relacionado con estas cosas. Todo lo que levanten, carguen y trasladen estará bajo la supervisión de Aarón y sus hijos. Asígnenles específicamente lo que cada uno debe transportar. Este es el trabajo de los clanes gersonitas en la Tienda de Reunión. Itamar, hijo del sacerdote Aarón, supervisará su trabajo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-28"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "numeros4-msg-14",
+      "msg": {
+        "en": "“Number the Merarites by their ancestral families. Count all the men from thirty to fifty years of age who enter the ministry of work at the Tent of Meeting.",
+        "es": "»Cuenta a los meraritas por sus familias ancestrales. Cuenta a todos los hombres de treinta a cincuenta años que entran al servicio para trabajar en la Tienda de Reunión."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-30"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "31-33",
+      "id": "numeros4-msg-15",
+      "msg": {
+        "en": "“This is their assigned duty as they go to work at the Tent of Meeting: to carry the frames of The Dwelling, its crossbars, posts, and bases, as well as the posts of the surrounding Courtyard with their bases, tent pegs, cords, and all the equipment related to their use. Assign to each man exactly what he is to carry. This is the ministry of the Merarite clans as they work at the Tent of Meeting under the supervision of Ithamar son of Aaron the priest.”",
+        "es": "»Este es el deber que se les asigna en su trabajo en la Tienda de Reunión: transportar los armazones de la Morada, sus travesaños, postes y bases, además de los postes del atrio circundante con sus bases, estacas, cuerdas y todo el equipo relacionado con su uso. Asignen a cada hombre exactamente lo que debe transportar. Este es el ministerio de los clanes meraritas en la Tienda de Reunión, bajo la supervisión de Itamar, hijo del sacerdote Aarón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-33"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "34-37",
+      "id": "numeros4-msg-16",
+      "msg": {
+        "en": "Moses, Aaron, and the leaders of the congregation counted the Kohathites by clan and family. All the men from thirty to fifty years of age who came to serve in the work in the Tent of Meeting, counted by clans, were 2,750. This was the total from the Kohathite clans who served in the Tent of Meeting. Moses and Aaron counted them just as GOD had commanded through Moses.",
+        "es": "Moisés, Aarón y los líderes de la congregación contaron a los coatitas por clanes y familias. Todos los hombres de treinta a cincuenta años que vinieron a servir en el trabajo de la Tienda de Reunión sumaron 2,750. Este fue el total de los clanes coatitas que servían en la Tienda de Reunión. Moisés y Aarón los contaron tal como DIOS lo había ordenado por medio de Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-37"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "38-41",
+      "id": "numeros4-msg-17",
+      "msg": {
+        "en": "The Gershonites were counted by clan and family. All the men from thirty to fifty years of age who came to serve in the work in the Tent of Meeting, counted by clan and family, were 2,630. This was the total from the Gershonite clans who served in the Tent of Meeting. Moses and Aaron counted them just as GOD had commanded.",
+        "es": "Los gersonitas fueron contados por clanes y familias. Todos los hombres de treinta a cincuenta años que vinieron a servir en el trabajo de la Tienda de Reunión sumaron 2,630. Este fue el total de los clanes gersonitas que servían en la Tienda de Reunión. Moisés y Aarón los contaron tal como DIOS lo había ordenado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-41"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "42-45",
+      "id": "numeros4-msg-18",
+      "msg": {
+        "en": "The Merarites were counted by clan and family. All the men from thirty to fifty years of age who came to serve in the work in the Tent of Meeting, counted by clan, were 3,200. This was the total from the Merarite clans. Moses and Aaron counted them just as GOD had commanded through Moses.",
+        "es": "Los meraritas fueron contados por clanes y familias. Todos los hombres de treinta a cincuenta años que vinieron a servir en el trabajo de la Tienda de Reunión sumaron 3,200. Este fue el total de los clanes meraritas. Moisés y Aarón los contaron tal como DIOS lo había ordenado por medio de Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-45"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "46-49",
+      "id": "numeros4-msg-19",
+      "msg": {
+        "en": "So Moses and Aaron and the leaders of Israel counted all the Levites by clan and family. All the men from thirty to fifty years of age who came to do the work of serving and carrying the Tent of Meeting numbered 8,580. At GOD’S command through Moses, each man was assigned his work and told what to carry.\nAnd that’s the story of their numbering, as GOD commanded Moses.",
+        "es": "Así que Moisés, Aarón y los líderes de Israel contaron a todos los levitas por clanes y familias. Todos los hombres de treinta a cincuenta años que vinieron a realizar el trabajo de servir y transportar la Tienda de Reunión sumaron 8,580. Por orden de DIOS dada mediante Moisés, a cada hombre se le asignó su trabajo y se le indicó qué debía transportar.\nY así fue como fueron contados, tal como DIOS se lo había ordenado a Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros4-nbla-49"
+        }
+      ],
+      "order": 19
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros4-nbla-01",
+      "number": 1,
+      "text": "Entonces el SEÑOR habló a Moisés y a Aarón y les dijo:"
+    },
+    {
+      "id": "numeros4-nbla-02",
+      "number": 2,
+      "text": "«Hagan un censo de los descendientes de Coat, de entre los hijos de Leví, por sus familias, conforme a sus casas paternas,"
+    },
+    {
+      "id": "numeros4-nbla-03",
+      "number": 3,
+      "text": "de treinta años arriba hasta los cincuenta, todos los que se enlistan para servir en la tienda de reunión."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-04a",
+          "order": 1,
+          "text": "Este será el servicio de los descendientes de Coat en la tienda de reunión,"
+        },
+        {
+          "id": "numeros4-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "con relación a las cosas más sagradas:"
+        }
+      ],
+      "id": "numeros4-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "numeros4-nbla-05",
+      "number": 5,
+      "text": "»Cuando el campamento se traslade, Aarón y sus hijos entrarán en el Lugar Santísimo y quitarán el velo de separación, y con él cubrirán el arca del testimonio."
+    },
+    {
+      "id": "numeros4-nbla-06",
+      "number": 6,
+      "text": "Colocarán sobre ella una cubierta de piel de marsopa, y extenderán encima un paño todo de azul puro, y luego colocarán sus varas."
+    },
+    {
+      "id": "numeros4-nbla-07",
+      "number": 7,
+      "text": "Sobre la mesa del pan de la Presencia del SEÑOR tenderán también un paño azul, y en él pondrán las fuentes, las cucharas, los tazones para los sacrificios y los jarros para hacer libación; el pan perpetuo estará sobre él."
+    },
+    {
+      "id": "numeros4-nbla-08",
+      "number": 8,
+      "text": "Extenderán sobre ellos un paño carmesí, y los cubrirán con una cubierta de piel de marsopa, y luego colocarán sus varas."
+    },
+    {
+      "id": "numeros4-nbla-09",
+      "number": 9,
+      "text": "Tomarán entonces un paño azul y cubrirán el candelabro del alumbrado, las lámparas, las despabiladeras, los platillos y todos los utensilios para el aceite con que lo sirven."
+    },
+    {
+      "id": "numeros4-nbla-10",
+      "number": 10,
+      "text": "Lo pondrán con todos sus utensilios en una cubierta de piel de marsopa, y lo colocarán sobre las varas."
+    },
+    {
+      "id": "numeros4-nbla-11",
+      "number": 11,
+      "text": "»Extenderán sobre el altar de oro un paño azul, y lo cubrirán con una cubierta de piel de marsopa, y colocarán sus varas;"
+    },
+    {
+      "id": "numeros4-nbla-12",
+      "number": 12,
+      "text": "y tomarán todos los utensilios para el ministerio con que sirven en el santuario, los pondrán en un paño azul, los cubrirán con una cubierta de piel de marsopa y los colocarán sobre las varas."
+    },
+    {
+      "id": "numeros4-nbla-13",
+      "number": 13,
+      "text": "Quitarán entonces las cenizas del altar y extenderán sobre él un paño de púrpura."
+    },
+    {
+      "id": "numeros4-nbla-14",
+      "number": 14,
+      "text": "Y le pondrán encima todos los utensilios con que sirven en relación con él: los braseros, los garfios, las palas y los tazones, todos los utensilios del altar. Y extenderán sobre él una cubierta de piel de marsopa y colocarán sus varas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-15a",
+          "order": 1,
+          "text": "»Cuando Aarón y sus hijos hayan terminado de cubrir los objetos sagrados y todos los utensilios del santuario, cuando el campamento esté para trasladarse, vendrán después los hijos de Coat para transportarlos,"
+        },
+        {
+          "id": "numeros4-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pero que no toquen los objetos sagrados, pues morirían"
+        },
+        {
+          "id": "numeros4-nbla-15c",
+          "order": 3,
+          "text": ". Estas son las cosas que transportarán los hijos de Coat en la tienda de reunión."
+        }
+      ],
+      "id": "numeros4-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "numeros4-nbla-16",
+      "number": 16,
+      "text": "Pero la responsabilidad de Eleazar, hijo del sacerdote Aarón, será el aceite para el alumbrado, el incienso aromático, la ofrenda continua de cereal y el aceite para ungir. Tendrá la responsabilidad de todo el tabernáculo y de todo lo que en él hay, con el santuario y sus utensilios»."
+    },
+    {
+      "id": "numeros4-nbla-17",
+      "number": 17,
+      "text": "Después el SEÑOR habló a Moisés y a Aarón y les dijo:"
+    },
+    {
+      "id": "numeros4-nbla-18",
+      "number": 18,
+      "text": "«No permitan que la tribu de las familias de los coatitas sea exterminada de entre los levitas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-19a",
+          "order": 1,
+          "text": "Esto harán con ellos"
+        },
+        {
+          "id": "numeros4-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para que vivan y no perezcan cuando se acerquen a los objetos santísimos"
+        },
+        {
+          "id": "numeros4-nbla-19c",
+          "order": 3,
+          "text": ": Aarón y sus hijos entrarán y señalarán a cada uno de ellos su trabajo y su carga;"
+        }
+      ],
+      "id": "numeros4-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "numeros4-nbla-20",
+      "number": 20,
+      "text": "pero no entrarán, ni por un momento, a ver los objetos sagrados, para que no mueran»."
+    },
+    {
+      "id": "numeros4-nbla-21",
+      "number": 21,
+      "text": "Entonces el SEÑOR dijo a Moisés:"
+    },
+    {
+      "id": "numeros4-nbla-22",
+      "number": 22,
+      "text": "«Haz también un censo de los hijos de Gersón por sus casas paternas, según sus familias;"
+    },
+    {
+      "id": "numeros4-nbla-23",
+      "number": 23,
+      "text": "los contarás desde los treinta hasta los cincuenta años de edad; todos los que se enlisten para cumplir el servicio, para hacer la obra en la tienda de reunión."
+    },
+    {
+      "id": "numeros4-nbla-24",
+      "number": 24,
+      "text": "Este será el ministerio de las familias de los gersonitas para servir y para transportar:"
+    },
+    {
+      "id": "numeros4-nbla-25",
+      "number": 25,
+      "text": "llevarán las cortinas del tabernáculo, de la tienda de reunión, con su cubierta, la cubierta de piel de marsopa que está encima de él, el velo de la entrada de la tienda de reunión,"
+    },
+    {
+      "id": "numeros4-nbla-26",
+      "number": 26,
+      "text": "las cortinas del atrio, el velo para la entrada del atrio que está alrededor del tabernáculo y del altar, con sus cuerdas y todos los utensilios para el servicio de ellos; todo lo que se deba hacer, ellos lo harán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-27a",
+          "order": 1,
+          "text": "Bajo las órdenes de Aarón y de sus hijos estará todo el ministerio de los hijos de los gersonitas, en relación con todas sus cargas y todo su trabajo; y"
+        },
+        {
+          "id": "numeros4-nbla-27b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "tú les asignarás como responsabilidad todas sus cargas."
+        }
+      ],
+      "id": "numeros4-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "numeros4-nbla-28",
+      "number": 28,
+      "text": "Este es el servicio de las familias de los hijos de los gersonitas en la tienda de reunión; sus deberes estarán bajo la dirección de Itamar, hijo del sacerdote Aarón."
+    },
+    {
+      "id": "numeros4-nbla-29",
+      "number": 29,
+      "text": "»A los hijos de Merari los contarás por sus familias, por sus casas paternas."
+    },
+    {
+      "id": "numeros4-nbla-30",
+      "number": 30,
+      "text": "Los contarás desde los treinta hasta los cincuenta años de edad, todos los que se enlisten para servir en la tienda de reunión."
+    },
+    {
+      "id": "numeros4-nbla-31",
+      "number": 31,
+      "text": "Esta es su responsabilidad de lo que han de transportar, para todo su servicio en la tienda de reunión: las tablas del tabernáculo, sus barras, sus columnas, sus basas,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-32a",
+          "order": 1,
+          "text": "las columnas alrededor del atrio y sus basas, sus estacas y sus cuerdas, con todos sus utensilios y con todo su servicio; y"
+        },
+        {
+          "id": "numeros4-nbla-32b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les asignarás por nombre los objetos que han de transportar."
+        }
+      ],
+      "id": "numeros4-nbla-32",
+      "number": 32
+    },
+    {
+      "id": "numeros4-nbla-33",
+      "number": 33,
+      "text": "Este es el servicio de las familias de los hijos de Merari. Para todo su servicio en la tienda de reunión estarán bajo las órdenes de Itamar, hijo del sacerdote Aarón»."
+    },
+    {
+      "id": "numeros4-nbla-34",
+      "number": 34,
+      "text": "Entonces Moisés y Aarón y los jefes de la congregación contaron a los hijos de los coatitas por sus familias y por sus casas paternas,"
+    },
+    {
+      "id": "numeros4-nbla-35",
+      "number": 35,
+      "text": "de treinta años en adelante hasta los cincuenta, todo el que se enlistó para servir en la tienda de reunión."
+    },
+    {
+      "id": "numeros4-nbla-36",
+      "number": 36,
+      "text": "Y los enumerados por sus familias fueron 2,750."
+    },
+    {
+      "id": "numeros4-nbla-37",
+      "number": 37,
+      "text": "Estos son los enumerados de las familias coatitas, todos los que servían en la tienda de reunión, a quienes Moisés y Aarón contaron conforme al mandamiento del SEÑOR por medio de Moisés."
+    },
+    {
+      "id": "numeros4-nbla-38",
+      "number": 38,
+      "text": "Estos son los enumerados de los hijos de Gersón por sus familias y por sus casas paternas,"
+    },
+    {
+      "id": "numeros4-nbla-39",
+      "number": 39,
+      "text": "de treinta años en adelante hasta los cincuenta, todo el que se enlistó para servir en la tienda de reunión;"
+    },
+    {
+      "id": "numeros4-nbla-40",
+      "number": 40,
+      "text": "los enumerados, por sus familias, por sus casas paternas, fueron 2,630."
+    },
+    {
+      "id": "numeros4-nbla-41",
+      "number": 41,
+      "text": "Estos son los enumerados de las familias de los hijos de Gersón, todos los que servían en la tienda de reunión, a quienes Moisés y Aarón contaron conforme al mandamiento del SEÑOR."
+    },
+    {
+      "id": "numeros4-nbla-42",
+      "number": 42,
+      "text": "Y estos son los enumerados de las familias de los hijos de Merari por sus familias y por sus casas paternas,"
+    },
+    {
+      "id": "numeros4-nbla-43",
+      "number": 43,
+      "text": "de treinta años en adelante hasta los cincuenta, todo el que se enlistó para servir en la tienda de reunión;"
+    },
+    {
+      "id": "numeros4-nbla-44",
+      "number": 44,
+      "text": "los enumerados por sus familias fueron 3,200."
+    },
+    {
+      "id": "numeros4-nbla-45",
+      "number": 45,
+      "text": "Estos son los enumerados de las familias de los hijos de Merari, a quienes Moisés y Aarón contaron conforme al mandamiento del SEÑOR por medio de Moisés."
+    },
+    {
+      "id": "numeros4-nbla-46",
+      "number": 46,
+      "text": "Todos los enumerados de los levitas a quienes Moisés y Aarón y los jefes de Israel contaron, por sus familias y por sus casas paternas,"
+    },
+    {
+      "id": "numeros4-nbla-47",
+      "number": 47,
+      "text": "de treinta años en adelante hasta los cincuenta, todo el que podía enlistarse para servir y hacer el trabajo de transportar la tienda de reunión,"
+    },
+    {
+      "id": "numeros4-nbla-48",
+      "number": 48,
+      "text": "fueron 8,580."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros4-nbla-49a",
+          "order": 1,
+          "text": "Fueron contados conforme al mandamiento del SEÑOR dado por medio de Moisés, cada uno según su ministerio o según su cargo"
+        },
+        {
+          "id": "numeros4-nbla-49b",
+          "order": 2,
+          "text": ". Estos fueron los enumerados, tal como el SEÑOR había ordenado a Moisés."
+        }
+      ],
+      "id": "numeros4-nbla-49",
+      "number": 49
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

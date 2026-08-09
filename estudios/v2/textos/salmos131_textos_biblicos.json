@@ -1,0 +1,238 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La humildad renuncia a la necesidad de ocupar una posición superior sobre los demás. La NBLA ubica el problema en el corazón soberbio y los ojos altivos, mientras MSG vuelve visible esa actitud como el deseo de mandar sobre todos. La imagen no condena el liderazgo legítimo; confronta el liderazgo usado para afirmar importancia personal y controlar a otros.",
+      "id": "salmos131-joya-01",
+      "msg": {
+        "en": "“I’m not trying to rule the roost”",
+        "es": "“no estoy tratando de mandar sobre todos”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos131-nbla-01b"
+          ],
+          "verseId": "salmos131-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La sabiduría reconoce que existen asuntos que exceden nuestra responsabilidad o comprensión. La NBLA establece el límite frente a grandezas y cosas demasiado difíciles, mientras MSG lo expresa como no intervenir donde no corresponde. El texto no promueve indiferencia ante el sufrimiento ni evasión de deberes; confronta la intromisión nacida del orgullo y la necesidad de controlar.",
+      "id": "salmos131-joya-02",
+      "msg": {
+        "en": "“I haven’t meddled where I have no business”",
+        "es": "“No me he metido donde no me corresponde”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos131-nbla-01d"
+          ],
+          "verseId": "salmos131-nbla-01"
+        }
+      ],
+      "order": 2,
+      "range": "1"
+    },
+    {
+      "explanation": "La quietud interior puede ser cultivada mediante una entrega consciente a Dios. La NBLA presenta al salmista calmando y acallando su alma, mientras MSG utiliza la imagen de cultivar un corazón en calma. La expresión no enseña que la ansiedad, el trauma o el dolor desaparezcan únicamente mediante fuerza de voluntad; muestra una disposición espiritual que también puede requerir acompañamiento, descanso y ayuda responsable.",
+      "id": "salmos131-joya-03",
+      "msg": {
+        "en": "“I’ve cultivated a quiet heart.”",
+        "es": "“he cultivado un corazón en calma.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos131-nbla-02a"
+          ],
+          "verseId": "salmos131-nbla-02"
+        }
+      ],
+      "order": 3,
+      "range": "2"
+    },
+    {
+      "explanation": "El alma madura aprende a descansar en la presencia de Dios sin exigir satisfacción inmediata. La NBLA precisa que se trata de un niño destetado, alguien que puede permanecer en el regazo sin buscar únicamente alimento. MSG comunica la seguridad y satisfacción de ese descanso. La metáfora revela confianza y cercanía; no pretende definir a Dios exclusivamente mediante una imagen materna.",
+      "id": "salmos131-joya-04",
+      "msg": {
+        "en": "“Like a baby content in its mother’s arms”",
+        "es": "“Como un bebé satisfecho en los brazos de su madre”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos131-nbla-02b"
+          ],
+          "verseId": "salmos131-nbla-02"
+        }
+      ],
+      "order": 4,
+      "range": "2"
+    },
+    {
+      "explanation": "La esperanza en Dios no pertenece únicamente a momentos excepcionales, sino a toda la vida. La NBLA establece su continuidad desde ahora y para siempre, mientras MSG convierte esa permanencia en una exhortación directa. El texto no promete que toda espera concluirá según nuestros deseos; llama a sostener la confianza en el SEÑOR en cada temporada.",
+      "id": "salmos131-joya-05",
+      "msg": {
+        "en": "“Hope now; hope always!”",
+        "es": "“¡Espera ahora; espera siempre!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos131-nbla-03b"
+          ],
+          "verseId": "salmos131-nbla-03"
+        }
+      ],
+      "order": 5,
+      "range": "3"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 131,
+    "studyId": "salmos-131"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos131-msg-01",
+      "msg": {
+        "en": "GOD, I’m not trying to rule the roost,\nI don’t want to be king of the mountain.\nI haven’t meddled where I have no business\nor fantasized grandiose plans.",
+        "es": "DIOS, no estoy tratando de mandar sobre todos,\nni quiero ser el rey de la montaña.\nNo me he metido donde no me corresponde\nni he fantaseado con planes grandiosos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos131-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "salmos131-msg-02",
+      "msg": {
+        "en": "I’ve kept my feet on the ground,\nI’ve cultivated a quiet heart.\nLike a baby content in its mother’s arms,\nmy soul is a baby content.",
+        "es": "He mantenido los pies en la tierra;\nhe cultivado un corazón en calma.\nComo un bebé satisfecho en los brazos de su madre,\nasí de satisfecha está mi alma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos131-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "salmos131-msg-03",
+      "msg": {
+        "en": "Wait, Israel, for GOD.Wait with hope.\nHope now; hope always!",
+        "es": "Israel, espera en DIOS. Hazlo con esperanza.\n¡Espera ahora; espera siempre!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos131-nbla-03"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos131-nbla-01a",
+          "order": 1,
+          "text": "SEÑOR,"
+        },
+        {
+          "id": "salmos131-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "mi corazón no es soberbio, ni mis ojos altivos;"
+        },
+        {
+          "id": "salmos131-nbla-01c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "No ando tras las grandezas,"
+        },
+        {
+          "id": "salmos131-nbla-01d",
+          "order": 4,
+          "separatorBefore": "\n",
+          "text": "Ni en cosas demasiado difíciles para mí;"
+        }
+      ],
+      "id": "salmos131-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos131-nbla-02a",
+          "order": 1,
+          "text": "Sino que he calmado y acallado mi alma;"
+        },
+        {
+          "id": "salmos131-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Como un niño destetado en el regazo de su madre,"
+        },
+        {
+          "id": "salmos131-nbla-02c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Como un niño destetado está mi alma dentro de mí."
+        }
+      ],
+      "id": "salmos131-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos131-nbla-03a",
+          "order": 1,
+          "text": "Espera, oh Israel, en el SEÑOR,"
+        },
+        {
+          "id": "salmos131-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Desde ahora y para siempre."
+        }
+      ],
+      "id": "salmos131-nbla-03",
+      "number": 3
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

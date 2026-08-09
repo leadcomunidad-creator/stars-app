@@ -1,0 +1,917 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La herencia de Judá es presentada como una asignación concreta dentro del reparto de la tierra. La NBLA conserva claramente la idea de aquello que «tocó en suerte», mientras MSG hace visible que el resultado afecta al pueblo clan por clan. El punto teológico no es que el azar determine la voluntad de Dios, sino que dentro del sistema de distribución establecido para Israel la tierra es recibida como don y responsabilidad delante de Dios.",
+      "id": "josue15-joya-01",
+      "msg": {
+        "en": "\"The lot for the people of Judah, their clans, extended south to the border of Edom\"",
+        "es": "\"El territorio asignado por sorteo al pueblo de Judá, clan por clan, se extendía hacia el sur hasta la frontera de Edom\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue15-nbla-01a"
+          ],
+          "verseId": "josue15-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La porción de Caleb no nace simplemente de una preferencia personal de Josué. El texto la conecta con el mandato del SEÑOR. La NBLA precisa que ese mandato había sido dado a Josué, y MSG concentra la atención en la autoridad divina que sostiene la entrega. La herencia de Caleb tiene peso porque está anclada en la palabra de Dios.",
+      "id": "josue15-joya-02",
+      "msg": {
+        "en": "\"according to GOD’s command\"",
+        "es": "\"de acuerdo con el mandato de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue15-nbla-13b"
+          ],
+          "verseId": "josue15-nbla-13"
+        }
+      ],
+      "order": 2,
+      "range": "13"
+    },
+    {
+      "explanation": "La promesa recibida produce una acción concreta. La NBLA confirma sencillamente que Caleb expulsó a los descendientes de Anac, mientras MSG conserva el movimiento decidido de la escena. No se trata de convertir la valentía humana en la fuente de la promesa; Caleb puede avanzar precisamente porque su historia está sostenida por aquello que Dios había dicho y confirmado.",
+      "id": "josue15-joya-03",
+      "msg": {
+        "en": "\"Caleb drove out three Anakim from Hebron\"",
+        "es": "\"Caleb expulsó de Hebrón a tres descendientes de Anac\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue15-nbla-14a"
+          ],
+          "verseId": "josue15-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14-15"
+    },
+    {
+      "explanation": "Acsa reconoce tanto el valor de la tierra como su necesidad concreta. La NBLA fija el escenario geográfico —el Neguev— y muestra que su petición son fuentes de agua. MSG vuelve visible la lógica práctica de la solicitud: una herencia seca necesita agua. El texto no promete que toda petición material será concedida; muestra una mujer que discierne lo necesario para hacer viable la herencia que ha recibido.",
+      "id": "josue15-joya-04",
+      "msg": {
+        "en": "\"You’ve given me desert land; Now give me pools of water!\"",
+        "es": "\"Me has dado tierra desértica; ¡ahora dame estanques de agua!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue15-nbla-19b"
+          ],
+          "verseId": "josue15-nbla-19"
+        }
+      ],
+      "order": 4,
+      "range": "18-19"
+    },
+    {
+      "explanation": "La lista posterior no es información geográfica desconectada de la teología del libro; es la descripción de una «herencia». La NBLA conserva el lenguaje formal de la heredad tribal y MSG subraya su distribución clan por clan. La promesa de Dios llega a comunidades y generaciones específicas y debe convertirse en un lugar realmente habitado.",
+      "id": "josue15-joya-05",
+      "msg": {
+        "en": "\"This is the inheritance of the tribe of the people of Judah, clan by clan.\"",
+        "es": "\"Esta es la herencia de la tribu del pueblo de Judá, clan por clan.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "20"
+    },
+    {
+      "explanation": "El capítulo reconoce honestamente una posesión incompleta. La NBLA fija el hecho sin explicar más de lo que el texto afirma: Judá no pudo expulsar a los jebuseos. MSG comunica con fuerza cotidiana esa misma realidad. El límite interpretativo es importante: no debemos inventar la causa del fracaso, pero tampoco debemos borrar la tensión que el narrador deja abierta entre la herencia asignada y una parte del territorio que todavía no está plenamente bajo control de Judá.",
+      "id": "josue15-joya-06",
+      "msg": {
+        "en": "\"The people of Judah couldn’t get rid of the Jebusites who lived in Jerusalem.\"",
+        "es": "\"El pueblo de Judá no pudo deshacerse de los jebuseos que vivían en Jerusalén.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue15-nbla-63a"
+          ],
+          "verseId": "josue15-nbla-63"
+        }
+      ],
+      "order": 6,
+      "range": "63"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 15,
+    "studyId": "josue-15"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "josue15-msg-01",
+      "msg": {
+        "en": "The lot for the people of Judah, their clans, extended south to the border of Edom, to the wilderness of Zin in the extreme south.",
+        "es": "El territorio asignado por sorteo al pueblo de Judá, clan por clan, se extendía hacia el sur hasta la frontera de Edom, hasta el desierto de Zin, en el extremo sur."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-4",
+      "id": "josue15-msg-02",
+      "msg": {
+        "en": "The southern border ran from the tip of the Salt Sea south of The Tongue; it ran southward from Scorpions Pass, went around Zin and just south of Kadesh Barnea; then it ran past Hezron, ascended to Addar, and curved around to Karka; from there it passed along to Azmon, came out at the Brook of Egypt, ending at the Sea. This is the southern boundary.",
+        "es": "La frontera sur comenzaba en el extremo del Mar Salado, al sur de la Lengua; seguía hacia el sur desde el Paso de los Escorpiones, rodeaba Zin y pasaba justo al sur de Cades Barnea; luego pasaba por Hezrón, subía hasta Adar y giraba hacia Carca; desde allí continuaba hasta Asmón, salía al torrente de Egipto y terminaba en el Mar. Esta era la frontera sur."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-11",
+      "id": "josue15-msg-03",
+      "msg": {
+        "en": "The eastern boundary: the Salt Sea up to the mouth of the Jordan.\nThe northern boundary started at the shallows of the Sea at the mouth of the Jordan, went up to Beth Hoglah and around to the north of Beth Arabah and to the Stone of Bohan son of Reuben. The border then ascended to Debir from Trouble Valley and turned north toward Gilgal, which lies opposite Red Pass, just south of the gorge. The border then followed the Waters of En Shemesh and ended at En Rogel. The border followed the Valley of Ben Hinnom along the southern slope of the Jebusite ridge (that is, Jerusalem). It ascended to the top of the mountain opposite Hinnom Valley on the west, at the northern end of Rephaim Valley; the border then took a turn at the top of the mountain to the spring, the Waters of Nephtoah, and followed the valley out to Mount Ephron, turned toward Baalah (that is, Kiriath Jearim), took another turn west of Baalah to Mount Seir, curved around to the northern shoulder of Mount Jearim (that is, Kesalon), descended to Beth Shemesh, and crossed to Timnah. The border then went north to the ridge of Ekron, turned toward Shikkeron, passed along to Mount Baalah, and came out at Jabneel. The border ended at the Sea.",
+        "es": "La frontera oriental: el Mar Salado hasta la desembocadura del Jordán. La frontera norte comenzaba en las aguas poco profundas del Mar, en la desembocadura del Jordán; subía hasta Bet Hogla, pasaba al norte de Bet Arabá y llegaba hasta la Piedra de Bohán, hijo de Rubén. Luego la frontera subía desde el Valle de Problemas hasta Debir y giraba al norte hacia Gilgal, frente al Paso Rojo, justo al sur del barranco. Después seguía las Aguas de En Semes y terminaba en En Rogel. La frontera continuaba por el valle de Ben Hinom, bordeando la ladera sur de la colina jebusea —es decir, Jerusalén—. Subía hasta la cima de la montaña frente al valle de Hinom por el oeste, en el extremo norte del valle de Refaim; desde allí giraba en la cima hacia el manantial de las Aguas de Neftoa, seguía por el valle hasta el monte Efrón y doblaba hacia Baala —es decir, Quiriat Jearim—. Luego giraba al oeste de Baala hacia el monte Seir, rodeaba la ladera norte del monte Jearim —es decir, Quesalón—, descendía hasta Bet Semes y cruzaba hacia Timna. Después la frontera iba al norte hasta la ladera de Ecrón, giraba hacia Sicrón, pasaba junto al monte Baala y salía en Jabneel. La frontera terminaba en el Mar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12",
+      "id": "josue15-msg-04",
+      "msg": {
+        "en": "The western border: the coastline of the Great Sea.\nThis is the boundary around the people of Judah for their clans.",
+        "es": "La frontera occidental: la costa del Gran Mar. Este es el territorio que rodea al pueblo de Judá, clan por clan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-12"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "13",
+      "id": "josue15-msg-05",
+      "msg": {
+        "en": "Joshua gave Caleb son of Jephunneh a section among the people of Judah, according to GOD’s command. He gave him Kiriath Arba, that is, Hebron. Arba was the ancestor of Anak.",
+        "es": "Josué le dio a Caleb, hijo de Jefone, una porción entre el pueblo de Judá, de acuerdo con el mandato de DIOS. Le dio Quiriat Arba, es decir, Hebrón. Arba era antepasado de Anac."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "josue15-msg-06",
+      "msg": {
+        "en": "Caleb drove out three Anakim from Hebron: Sheshai, Ahiman, and Talmai, all descendants of Anak. He marched up from there against the people of Debir. Debir used to be called Kiriath Sepher.",
+        "es": "Caleb expulsó de Hebrón a tres descendientes de Anac: Sesai, Ahimán y Talmai. Desde allí avanzó contra los habitantes de Debir. Debir antes se llamaba Quiriat Séfer."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "josue15-msg-07",
+      "msg": {
+        "en": "Caleb said, “Whoever attacks Kiriath Sepher and takes it, I’ll give my daughter Acsah to him as his wife.” Othniel son of Kenaz, Caleb’s brother, took it; so Caleb gave him his daughter Acsah as his wife.",
+        "es": "Caleb dijo: «Al que ataque Quiriat Séfer y la conquiste, le daré por esposa a mi hija Acsa». Otoniel, hijo de Quenaz, hermano de Caleb, la conquistó; así que Caleb le dio por esposa a su hija Acsa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "josue15-msg-08",
+      "msg": {
+        "en": "When she arrived she got him\nto ask for farmland from her father.\nAs she dismounted from her donkey\nCaleb asked her, “What would you like?”\nShe said, “Give me a marriage gift.\nYou’ve given me desert land;\nNow give me pools of water!”\nAnd he gave her the upper and the lower pools.",
+        "es": "Cuando ella llegó, hizo que él le pidiera a su padre un terreno. Mientras se bajaba del burro, Caleb le preguntó: «¿Qué quieres?». Ella respondió: «Dame un regalo de bodas. Me has dado tierra desértica; ¡ahora dame estanques de agua!». Y él le dio los estanques de arriba y los de abajo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-19"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "20-32",
+      "id": "josue15-msg-09",
+      "msg": {
+        "en": "This is the inheritance of the tribe of the people of Judah, clan by clan.\nThe southern towns of the tribe of Judah in the Negev were near the boundary of Edom:\nKabzeel, Eder, Jagur,\nKinah, Dimonah, Adadah,\nKedesh, Hazor, Ithnan,\nZiph, Telem, Bealoth,\nHazor Hadattah, Kerioth Hezron (that is, Hazor),\nAmam, Shema, Moladah,\nHazar Gaddah, Heshmon, Beth Pelet,\nHazar Shual, Beersheba, Biziothiah,\nBaalah, Iim, Ezem,\nEltolad, Kesil, Hormah,\nZiklag, Madmannah, Sansannah,\nLebaoth, Shilhim, Ain, and Rimmon—\na total of twenty-nine towns and their villages.",
+        "es": "Esta es la herencia de la tribu del pueblo de Judá, clan por clan. Las ciudades del sur de la tribu de Judá, en el Neguev, estaban cerca de la frontera con Edom: Cabseel, Edar, Jagur, Cina, Dimona, Adada, Cedes, Hazor, Itnán, Zif, Telem, Bealot, Hazor Hadata, Queriot Hezrón —es decir, Hazor—, Amam, Sema, Molada, Hazar Gada, Hesmón, Bet Pelet, Hazar Sual, Beerseba, Bizotia, Baala, Iim, Esem, Eltolad, Quesil, Horma, Siclag, Madmana, Sansana, Lebaot, Silhim, Aín y Rimón: un total de veintinueve ciudades con sus aldeas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-32"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "33-47",
+      "id": "josue15-msg-10",
+      "msg": {
+        "en": "In the Shephelah (the western foothills) there were:\nEshtaol, Zorah, Ashnah,\nZanoah, En Gannim, Tappuah, Enam,\nJarmuth, Adullam, Socoh, Azekah,\nShaaraim, Adithaim, and Gederah (or Gederothaim)—\nfourteen towns and their villages.\nZenan, Hadashah, Migdal Gad,\nDilean, Mizpah, Joktheel,\nLachish, Bozkath, Eglon,\nCabbon, Lahmas, Kitlish,\nGederoth, Beth Dagon, Naamah, and Makkedah—\nsixteen towns and their villages.\nLibnah, Ether, Ashan,\nIphtah, Ashnah, Nezib,\nKeilah, Aczib, and Mareshah—\nnine towns and their villages.\nEkron with its towns and villages;\nFrom Ekron, west to the sea, all that bordered Ashdod with its villages;\nAshdod with its towns and villages;\nGaza with its towns and villages all the way to the Brook of Egypt.\nThe Great Sea is the western border.",
+        "es": "En la Sefela —las colinas occidentales— estaban: Estaol, Zora, Asena, Zanoa, En Ganim, Tapúa, Enam, Jarmut, Adulam, Soco, Azeca, Saaraim, Aditaim y Gedera —o Gederotaim—: catorce ciudades con sus aldeas. Zenán, Hadasa, Migdal Gad, Dileán, Mizpa, Jocteel, Laquis, Boscat, Eglón, Cabón, Lahmas, Quitlis, Gederot, Bet Dagón, Naama y Maceda: dieciséis ciudades con sus aldeas. Libna, Eter, Asán, Jifta, Asena, Nezib, Keila, Aczib y Maresa: nueve ciudades con sus aldeas. Ecrón con sus ciudades y aldeas; desde Ecrón hacia el oeste, hasta el mar, todo lo que bordeaba Asdod con sus aldeas; Asdod con sus ciudades y aldeas; Gaza con sus ciudades y aldeas, hasta el torrente de Egipto. El Gran Mar era la frontera occidental."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-47"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "48-60",
+      "id": "josue15-msg-11",
+      "msg": {
+        "en": "In the hill country:\nShamir, Jattir, Socoh,\nDannah, Kiriath Sannah (that is, Debir),\nAnab, Eshtemoh, Anim,\nGoshen, Holon, and Giloh—\neleven towns and their villages.\nArab, Dumah, Eshan,\nJanim, Beth Tappuah, Aphekah,\nHumtah, Kiriath Arba (that is, Hebron), and Zior—\nnine towns and their villages.\nMaon, Carmel, Ziph, Juttah,\nJezreel, Jokdeam, Zanoah,\nKain, Gibeah, and Timnah—\nten towns and their villages.\nHalhul, Beth Zur, Gedor,\nMaarath, Beth Anoth, and Eltekon—\nsix towns and their villages.\nKiriath Baal (that is, Kiriath Jearim) and Rabbah—\ntwo towns and their villages.",
+        "es": "En la región montañosa: Samir, Jatir, Soco, Dana, Quiriat Sana —es decir, Debir—, Anab, Estemoa, Anim, Gosén, Holón y Gilo: once ciudades con sus aldeas. Arab, Duma, Esán, Janim, Bet Tapúa, Afeca, Humta, Quiriat Arba —es decir, Hebrón— y Sior: nueve ciudades con sus aldeas. Maón, Carmel, Zif, Juta, Jezreel, Jocdeam, Zanoa, Caín, Guibeá y Timna: diez ciudades con sus aldeas. Halhul, Bet Sur, Gedor, Maarat, Bet Anot y Eltecón: seis ciudades con sus aldeas. Quiriat Baal —es decir, Quiriat Jearim— y Rabá: dos ciudades con sus aldeas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-49"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-51"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-53"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-54"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-55"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-56"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-57"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-58"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-59"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-60"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "61-62",
+      "id": "josue15-msg-12",
+      "msg": {
+        "en": "In the wilderness:\nBeth Arabah, Middin, Secacah,\nNibshan, the City of Salt, and En Gedi—\nsix towns and their villages.",
+        "es": "En el desierto: Bet Arabá, Midín, Secaca, Nibsán, la Ciudad de la Sal y Engadi: seis ciudades con sus aldeas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-61"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-62"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "63",
+      "id": "josue15-msg-13",
+      "msg": {
+        "en": "The people of Judah couldn’t get rid of the Jebusites who lived in Jerusalem. The Jebusites stayed put, living alongside the people of Judah. They are still living there in Jerusalem.",
+        "es": "El pueblo de Judá no pudo deshacerse de los jebuseos que vivían en Jerusalén. Los jebuseos se quedaron allí, viviendo junto al pueblo de Judá. Todavía seguían viviendo con ellos en Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue15-nbla-63"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "josue15-nbla-01a",
+          "order": 1,
+          "text": "La parte que tocó en suerte a la tribu de los hijos de Judá conforme a sus familias, llegaba hasta la frontera de Edom"
+        },
+        {
+          "id": "josue15-nbla-01b",
+          "order": 2,
+          "text": ", hacia el sur, hasta el desierto de Zin al extremo sur."
+        }
+      ],
+      "id": "josue15-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "josue15-nbla-02",
+      "number": 2,
+      "text": "Su límite al sur se extendía desde el extremo del Mar Salado, desde la bahía que da hacia el sur,"
+    },
+    {
+      "id": "josue15-nbla-03",
+      "number": 3,
+      "text": "y seguía por el sur hacia la subida de Acrabim y continuaba hasta Zin. Entonces subía por el lado sur de Cades Barnea hasta Hezrón, y subía hasta Adar y volvía a Carca."
+    },
+    {
+      "id": "josue15-nbla-04",
+      "number": 4,
+      "text": "Después pasaba por Asmón y seguía hasta el torrente de Egipto. Y el límite terminaba en el Mar Mediterráneo. Este será el límite sur para ustedes."
+    },
+    {
+      "id": "josue15-nbla-05",
+      "number": 5,
+      "text": "El límite oriental era el Mar Salado hasta la desembocadura del Jordán. El límite por el lado norte era desde la bahía del mar en la desembocadura del Jordán."
+    },
+    {
+      "id": "josue15-nbla-06",
+      "number": 6,
+      "text": "Entonces el límite subía hasta Bet Hogla y seguía al norte de Bet Arabá y subía hasta la piedra de Bohán, hijo de Rubén."
+    },
+    {
+      "id": "josue15-nbla-07",
+      "number": 7,
+      "text": "El límite subía hasta Debir desde el valle de Acor, y volvía hacia el norte, hacia Gilgal que está frente a la subida de Adumín, al sur del valle, y seguía hasta las aguas de En Semes y terminaba en En Rogel."
+    },
+    {
+      "id": "josue15-nbla-08",
+      "number": 8,
+      "text": "Después el límite subía por el valle de Ben Hinom hasta la ladera del jebuseo al sur, es decir, Jerusalén, y subía hasta la cumbre del monte que está frente al valle de Hinom hacia el occidente, que está al extremo del valle de Refaim hacia el norte."
+    },
+    {
+      "id": "josue15-nbla-09",
+      "number": 9,
+      "text": "Desde la cumbre del monte el límite doblaba hacia la fuente de las aguas de Neftoa, y seguía hasta las ciudades del monte Efrón, girando hacia Baala, es decir, Quiriat Jearim."
+    },
+    {
+      "id": "josue15-nbla-10",
+      "number": 10,
+      "text": "De Baala el límite giraba hacia el occidente, hasta el monte Seir, y continuaba hasta la ladera del monte Jearim al norte, es decir, Quesalón, y bajaba a Bet Semes, y continuaba por Timna."
+    },
+    {
+      "id": "josue15-nbla-11",
+      "number": 11,
+      "text": "El límite seguía hacia el norte por el lado de Ecrón, girando hacia Sicrón, y continuaba hasta el monte Baala, seguía hasta Jabneel y terminaba en el mar."
+    },
+    {
+      "id": "josue15-nbla-12",
+      "number": 12,
+      "text": "El límite occidental era el Mar Grande, es decir, su costa. Este es el límite alrededor de los hijos de Judá conforme a sus familias."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue15-nbla-13a",
+          "order": 1,
+          "text": "Y Josué dio a Caleb, hijo de Jefone, una porción entre los hijos de Judá,"
+        },
+        {
+          "id": "josue15-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "según el mandato del SEÑOR a Josué"
+        },
+        {
+          "id": "josue15-nbla-13c",
+          "order": 3,
+          "text": ", es decir, Quiriat Arba, siendo Arba el padre de Anac, es decir, Hebrón."
+        }
+      ],
+      "id": "josue15-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue15-nbla-14a",
+          "order": 1,
+          "text": "Caleb expulsó de allí a los tres hijos de Anac"
+        },
+        {
+          "id": "josue15-nbla-14b",
+          "order": 2,
+          "text": ": Sesai, Ahimán y Talmai, hijos de Anac."
+        }
+      ],
+      "id": "josue15-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "josue15-nbla-15",
+      "number": 15,
+      "text": "De allí subió contra los habitantes de Debir (el nombre de Debir antes era Quiriat Séfer)."
+    },
+    {
+      "id": "josue15-nbla-16",
+      "number": 16,
+      "text": "Y Caleb dijo: «Al que ataque a Quiriat Séfer y la tome, yo le daré a mi hija Acsa por mujer»."
+    },
+    {
+      "id": "josue15-nbla-17",
+      "number": 17,
+      "text": "Otoniel, hijo de Quenaz, hermano de Caleb, la tomó, y él le dio a su hija Acsa por mujer."
+    },
+    {
+      "id": "josue15-nbla-18",
+      "number": 18,
+      "text": "Y cuando ella vino a él, este la persuadió a que pidiera un campo a su padre. Ella entonces se bajó del asno, y Caleb le dijo: «¿Qué quieres?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue15-nbla-19a",
+          "order": 1,
+          "text": "«Dame una bendición», respondió ella; «"
+        },
+        {
+          "id": "josue15-nbla-19b",
+          "order": 2,
+          "text": "ya que me has dado la tierra del Neguev, dame también fuentes de agua"
+        },
+        {
+          "id": "josue15-nbla-19c",
+          "order": 3,
+          "text": "». Y él le dio las fuentes de las regiones altas y las fuentes de las regiones bajas."
+        }
+      ],
+      "id": "josue15-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "josue15-nbla-20",
+      "number": 20,
+      "text": "Esta es la heredad de la tribu de los hijos de Judá conforme a sus familias."
+    },
+    {
+      "id": "josue15-nbla-21",
+      "number": 21,
+      "text": "Las ciudades al extremo de la tribu de los hijos de Judá, hacia la frontera de Edom en el sur, fueron: Cabseel, Edar, Jagur,"
+    },
+    {
+      "id": "josue15-nbla-22",
+      "number": 22,
+      "text": "Cina, Dimona, Adada,"
+    },
+    {
+      "id": "josue15-nbla-23",
+      "number": 23,
+      "text": "Cedes, Hazor, Itnán,"
+    },
+    {
+      "id": "josue15-nbla-24",
+      "number": 24,
+      "text": "Zif, Telem, Bealot,"
+    },
+    {
+      "id": "josue15-nbla-25",
+      "number": 25,
+      "text": "Hazor Hadata, Queriot Hezrón, es decir, Hazor,"
+    },
+    {
+      "id": "josue15-nbla-26",
+      "number": 26,
+      "text": "Amam, Sema, Molada,"
+    },
+    {
+      "id": "josue15-nbla-27",
+      "number": 27,
+      "text": "Hazar Gada, Hesmón, Bet Pelet,"
+    },
+    {
+      "id": "josue15-nbla-28",
+      "number": 28,
+      "text": "Hazar Sual, Beerseba, Bizotia,"
+    },
+    {
+      "id": "josue15-nbla-29",
+      "number": 29,
+      "text": "Baala, Iim, Esem,"
+    },
+    {
+      "id": "josue15-nbla-30",
+      "number": 30,
+      "text": "Eltolad, Quesil, Horma,"
+    },
+    {
+      "id": "josue15-nbla-31",
+      "number": 31,
+      "text": "Siclag, Madmana, Sansana,"
+    },
+    {
+      "id": "josue15-nbla-32",
+      "number": 32,
+      "text": "Lebaot, Silhim, Aín y Rimón; en total veintinueve ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-33",
+      "number": 33,
+      "text": "En las tierras bajas: Estaol, Zora, Asena,"
+    },
+    {
+      "id": "josue15-nbla-34",
+      "number": 34,
+      "text": "Zanoa, En Ganim, Tapúa, Enam,"
+    },
+    {
+      "id": "josue15-nbla-35",
+      "number": 35,
+      "text": "Jarmut, Adulam, Soco, Azeca,"
+    },
+    {
+      "id": "josue15-nbla-36",
+      "number": 36,
+      "text": "Saaraim, Aditaim, Gedera y Gederotaim; catorce ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-37",
+      "number": 37,
+      "text": "Zenán, Hadasa, Migdal Gad,"
+    },
+    {
+      "id": "josue15-nbla-38",
+      "number": 38,
+      "text": "Dileán, Mizpa, Jocteel,"
+    },
+    {
+      "id": "josue15-nbla-39",
+      "number": 39,
+      "text": "Laquis, Boscat, Eglón,"
+    },
+    {
+      "id": "josue15-nbla-40",
+      "number": 40,
+      "text": "Cabón, Lahmam, Quitlis,"
+    },
+    {
+      "id": "josue15-nbla-41",
+      "number": 41,
+      "text": "Gederot, Bet Dagón, Naama y Maceda; dieciséis ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-42",
+      "number": 42,
+      "text": "Libna, Eter, Asán,"
+    },
+    {
+      "id": "josue15-nbla-43",
+      "number": 43,
+      "text": "Jifta, Asena, Nezib,"
+    },
+    {
+      "id": "josue15-nbla-44",
+      "number": 44,
+      "text": "Keila, Aczib y Maresa; nueve ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-45",
+      "number": 45,
+      "text": "Ecrón con sus pueblos y sus aldeas;"
+    },
+    {
+      "id": "josue15-nbla-46",
+      "number": 46,
+      "text": "desde Ecrón hasta el mar, todas las que estaban cerca de Asdod, con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-47",
+      "number": 47,
+      "text": "Asdod, sus pueblos y sus aldeas; Gaza, sus pueblos y sus aldeas; hasta el torrente de Egipto y el Mar Grande y sus costas."
+    },
+    {
+      "id": "josue15-nbla-48",
+      "number": 48,
+      "text": "Y en la región montañosa: Samir, Jatir, Soco,"
+    },
+    {
+      "id": "josue15-nbla-49",
+      "number": 49,
+      "text": "Dana, Quiriat Sana, es decir, Debir,"
+    },
+    {
+      "id": "josue15-nbla-50",
+      "number": 50,
+      "text": "Anab, Estemoa, Anim,"
+    },
+    {
+      "id": "josue15-nbla-51",
+      "number": 51,
+      "text": "Gosén, Holón y Gilo; once ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-52",
+      "number": 52,
+      "text": "Arab, Duma, Esán,"
+    },
+    {
+      "id": "josue15-nbla-53",
+      "number": 53,
+      "text": "Janum, Bet Tapúa, Afeca,"
+    },
+    {
+      "id": "josue15-nbla-54",
+      "number": 54,
+      "text": "Humta, Quiriat Arba, es decir, Hebrón, y Sior; nueve ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-55",
+      "number": 55,
+      "text": "Maón, Carmel, Zif, Juta,"
+    },
+    {
+      "id": "josue15-nbla-56",
+      "number": 56,
+      "text": "Jezreel, Jocdeam, Zanoa,"
+    },
+    {
+      "id": "josue15-nbla-57",
+      "number": 57,
+      "text": "Caín, Guibeá y Timna; diez ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-58",
+      "number": 58,
+      "text": "Halhul, Bet Sur, Gedor,"
+    },
+    {
+      "id": "josue15-nbla-59",
+      "number": 59,
+      "text": "Maarat, Bet Anot y Eltecón; seis ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-60",
+      "number": 60,
+      "text": "Quiriat Baal, es decir, Quiriat Jearim, y Rabá; dos ciudades con sus aldeas."
+    },
+    {
+      "id": "josue15-nbla-61",
+      "number": 61,
+      "text": "En el desierto: Bet Arabá, Midín, Secaca,"
+    },
+    {
+      "id": "josue15-nbla-62",
+      "number": 62,
+      "text": "Nibsán, la Ciudad de la Sal y Engadi; seis ciudades con sus aldeas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue15-nbla-63a",
+          "order": 1,
+          "text": "Pero a los jebuseos, habitantes de Jerusalén, los hijos de Judá no pudieron expulsarlos;"
+        },
+        {
+          "id": "josue15-nbla-63b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "por tanto, los jebuseos habitan hasta hoy en Jerusalén con los hijos de Judá."
+        }
+      ],
+      "id": "josue15-nbla-63",
+      "number": 63
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

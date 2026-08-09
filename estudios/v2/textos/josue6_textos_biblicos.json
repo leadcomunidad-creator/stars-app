@@ -1,0 +1,681 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La ciudad parece inaccesible, pero su encierro también revela el temor producido por la acción previa de Dios. La NBLA confirma que Jericó estaba cerrada por miedo a Israel; MSG vuelve visible la firmeza de aquella clausura. La imagen no minimiza el obstáculo: prepara el contraste entre una muralla humana sólida y la palabra soberana que la derribará.",
+      "id": "josue6-joya-01",
+      "msg": {
+        "en": "\"Jericho was shut up tight as a drum\"",
+        "es": "\"Jericó estaba cerrada a cal y canto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-01a"
+          ],
+          "verseId": "josue6-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios establece la victoria como don antes de que Israel observe su cumplimiento. La NBLA fija la declaración de entrega, mientras MSG subraya que, desde la perspectiva divina, la acción ya está decidida. Esto no convierte toda meta deseada en una promesa; la seguridad de Josué descansa en una palabra específica del Señor.",
+      "id": "josue6-joya-02",
+      "msg": {
+        "en": "\"I’ve already given Jericho to you\"",
+        "es": "\"Yo ya te he entregado Jericó\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-02b"
+          ],
+          "verseId": "josue6-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2-5"
+    },
+    {
+      "explanation": "La obediencia incluye gobernar la voz mientras Dios determina el momento del grito. La NBLA establece el silencio completo exigido al pueblo, y MSG vuelve concreta su intensidad. El silencio no es una técnica mágica para obtener resultados; forma parte de una instrucción particular que enseña a Israel a esperar bajo autoridad.",
+      "id": "josue6-joya-03",
+      "msg": {
+        "en": "\"Don’t shout. In fact, don’t even speak—not so much as a whisper\"",
+        "es": "\"No griten. De hecho, no digan una sola palabra, ni siquiera un susurro\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-10b"
+          ],
+          "verseId": "josue6-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10"
+    },
+    {
+      "explanation": "El grito responde a la entrega declarada por Dios, no intenta producirla mediante fuerza emocional. La NBLA conserva la razón del mandato: el Señor ha dado la ciudad. MSG comunica la energía del momento. La fe celebra y actúa sobre la palabra divina, pero no manipula a Dios mediante volumen, entusiasmo o repetición.",
+      "id": "josue6-joya-04",
+      "msg": {
+        "en": "\"Shout!—GOD has given you the city!\"",
+        "es": "\"¡Griten! ¡DIOS les ha entregado la ciudad!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-16b"
+          ],
+          "verseId": "josue6-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "15-17"
+    },
+    {
+      "explanation": "Dios protege a Israel del deseo de convertir una victoria santa en provecho privado. La NBLA identifica la codicia como el peligro que precede a tomar lo consagrado; MSG la presenta como una advertencia urgente. La amenaza principal no se encuentra únicamente detrás de las murallas, sino también dentro del corazón del vencedor.",
+      "id": "josue6-joya-05",
+      "msg": {
+        "en": "\"Be careful that you don’t covet anything in it\"",
+        "es": "\"Tengan cuidado de no codiciar nada\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-18b"
+          ],
+          "verseId": "josue6-nbla-18"
+        }
+      ],
+      "order": 5,
+      "range": "18-19"
+    },
+    {
+      "explanation": "La misericordia hacia Rahab produce una pertenencia nueva y duradera. La NBLA confirma su permanencia en Israel, mientras MSG expresa que su vida continúa dentro de la comunidad. El texto no reduce la salvación a escapar del peligro; Rahab pasa a formar parte del pueblo cuyo Dios había confesado.",
+      "id": "josue6-joya-06",
+      "msg": {
+        "en": "\"She is still alive and well in Israel\"",
+        "es": "\"Ella sigue viviendo en Israel hasta hoy\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-25b"
+          ],
+          "verseId": "josue6-nbla-25"
+        }
+      ],
+      "order": 6,
+      "range": "25"
+    },
+    {
+      "explanation": "La presencia de Dios, no la caída de Jericó por sí sola, explica la autoridad y el reconocimiento de Josué. Ambas versiones coinciden directamente en esa verdad. La fama del líder es secundaria y derivada; el centro permanece en el Señor que acompaña y confirma la misión.",
+      "id": "josue6-joya-07",
+      "msg": {
+        "en": "\"GOD was with Joshua.\"",
+        "es": "\"DIOS estaba con Josué\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue6-nbla-27a"
+          ],
+          "verseId": "josue6-nbla-27"
+        }
+      ],
+      "order": 7,
+      "range": "27"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 6,
+    "studyId": "josue-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "josue6-msg-01",
+      "msg": {
+        "en": "Jericho was shut up tight as a drum because of the People of Israel: no one going in, no one coming out.",
+        "es": "Jericó estaba cerrada a cal y canto por causa del pueblo de Israel: nadie entraba y nadie salía."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-5",
+      "id": "josue6-msg-02",
+      "msg": {
+        "en": "GOD spoke to Joshua, “Look sharp now. I’ve already given Jericho to you, along with its king and its crack troops. Here’s what you are to do: March around the city, all your soldiers. Circle the city once. Repeat this for six days. Have seven priests carry seven ram’s horn trumpets in front of the Chest. On the seventh day march around the city seven times, the priests blowing away on the trumpets. And then, a long blast on the ram’s horn—when you hear that, all the people are to shout at the top of their lungs. The city wall will collapse at once. All the people are to enter, every man straight on in.”",
+        "es": "DIOS le dijo a Josué: «Mira bien. Yo ya te he entregado Jericó, junto con su rey y sus tropas de élite. Esto es lo que deben hacer: todos los soldados marcharán alrededor de la ciudad y le darán una vuelta. Repitan esto durante seis días. Siete sacerdotes llevarán siete trompetas de cuerno de carnero delante del Cofre.\n\n»El séptimo día marcharán siete veces alrededor de la ciudad, mientras los sacerdotes tocan las trompetas. Entonces darán un toque largo con el cuerno de carnero. Cuando lo escuchen, todo el pueblo gritará con todas sus fuerzas. La muralla de la ciudad se desplomará de golpe y cada hombre entrará directamente hacia adelante»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6",
+      "id": "josue6-msg-03",
+      "msg": {
+        "en": "So Joshua son of Nun called the priests and told them, “Take up the Chest of the Covenant. Seven priests are to carry seven ram’s horn trumpets leading GOD’s Chest.”",
+        "es": "Entonces Josué, hijo de Nun, llamó a los sacerdotes y les dijo: «Levanten el Cofre del Pacto. Siete sacerdotes llevarán siete trompetas de cuerno de carnero delante del Cofre de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "josue6-msg-04",
+      "msg": {
+        "en": "Then he told the people, “Set out! March around the city. Have the armed guard march before the Chest of GOD.”",
+        "es": "Después le dijo al pueblo: «¡En marcha! Rodeen la ciudad. Que la guardia armada marche delante del Cofre de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "josue6-msg-05",
+      "msg": {
+        "en": "And it happened. Joshua spoke, the people moved: Seven priests with their seven ram’s horn trumpets set out before GOD. They blew the trumpets, leading GOD’s Chest of the Covenant. The armed guard marched ahead of the trumpet-blowing priests; the rear guard was marching after the Chest, marching and blowing their trumpets.",
+        "es": "Y así sucedió: Josué habló y el pueblo se puso en movimiento. Siete sacerdotes con sus siete trompetas de cuerno de carnero avanzaron delante de DIOS. Tocaban las trompetas mientras guiaban el Cofre del Pacto de DIOS. La guardia armada marchaba delante de los sacerdotes que tocaban las trompetas, y la retaguardia avanzaba detrás del Cofre, mientras las trompetas seguían sonando."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "josue6-msg-06",
+      "msg": {
+        "en": "Joshua had given orders to the people, “Don’t shout. In fact, don’t even speak—not so much as a whisper until you hear me say, ‘Shout!’—then shout away!”",
+        "es": "Josué había dado esta orden al pueblo: «No griten. De hecho, no digan una sola palabra, ni siquiera un susurro, hasta que me oigan decir: “¡Griten!”. Entonces gritarán con todas sus fuerzas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "josue6-msg-07",
+      "msg": {
+        "en": "He sent the Chest of GOD on its way around the city. It circled once, came back to camp, and stayed for the night. Joshua was up early the next morning and the priests took up the Chest of GOD. The seven priests carrying the seven ram’s horn trumpets marched before the Chest of GOD, marching and blowing the trumpets, with the armed guard marching before and the rear guard marching after. Marching and blowing of trumpets!",
+        "es": "Josué envió el Cofre de DIOS alrededor de la ciudad. Dio una vuelta, regresó al campamento y permaneció allí durante la noche. A la mañana siguiente, Josué se levantó temprano y los sacerdotes levantaron el Cofre de DIOS.\n\nLos siete sacerdotes que llevaban las siete trompetas de cuerno de carnero marchaban delante del Cofre de DIOS, avanzando y tocando las trompetas. La guardia armada iba delante y la retaguardia marchaba detrás. ¡Marcha y sonido de trompetas sin cesar!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14",
+      "id": "josue6-msg-08",
+      "msg": {
+        "en": "On the second day they again circled the city once and returned to camp. They did this six days.",
+        "es": "El segundo día volvieron a rodear la ciudad una vez y regresaron al campamento. Así lo hicieron durante seis días."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15-17",
+      "id": "josue6-msg-09",
+      "msg": {
+        "en": "When the seventh day came, they got up early and marched around the city this same way but seven times—yes, this day they circled the city seven times. On the seventh time around the priests blew the trumpets and Joshua signaled the people, “Shout!—GOD has given you the city! The city and everything in it is under a holy curse and offered up to GOD.\n“Except for Rahab the harlot—she is to live, she and everyone in her house with her, because she hid the agents we sent.",
+        "es": "Cuando llegó el séptimo día, se levantaron temprano y marcharon alrededor de la ciudad de la misma manera, pero siete veces. Sí, aquel día dieron siete vueltas a la ciudad. En la séptima vuelta, los sacerdotes tocaron las trompetas y Josué dio la señal al pueblo:\n\n«¡Griten! ¡DIOS les ha entregado la ciudad! La ciudad y todo lo que hay en ella quedan consagrados a la destrucción y entregados a DIOS.\n\n»Solo Rahab, la prostituta, vivirá, junto con todos los que estén con ella dentro de su casa, porque escondió a los enviados que mandamos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-17"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "josue6-msg-10",
+      "msg": {
+        "en": "“As for you, watch yourselves in the city under holy curse. Be careful that you don’t covet anything in it and take something that’s cursed, endangering the camp of Israel with the curse and making trouble for everyone. All silver and gold, all vessels of bronze and iron are holy to GOD. Put them in GOD’s treasury.”",
+        "es": "«En cuanto a ustedes, vigílense mientras estén en la ciudad consagrada a la destrucción. Tengan cuidado de no codiciar nada ni tomar algo de lo que ha sido apartado, porque pondrían bajo maldición al campamento de Israel y causarían desgracia para todos. Toda la plata, el oro y los utensilios de bronce y hierro están consagrados a DIOS. Deposítenlos en el tesoro de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-19"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "20",
+      "id": "josue6-msg-11",
+      "msg": {
+        "en": "The priests blew the trumpets.\nWhen the people heard the blast of the trumpets, they gave a thunderclap shout. The wall fell at once. The people rushed straight into the city and took it.",
+        "es": "Los sacerdotes tocaron las trompetas.\n\nCuando el pueblo oyó el toque de las trompetas, lanzó un grito como un trueno. La muralla cayó de inmediato. El pueblo entró directamente en la ciudad y la tomó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21",
+      "id": "josue6-msg-12",
+      "msg": {
+        "en": "They put everything in the city under the holy curse, killing man and woman, young and old, ox and sheep and donkey.",
+        "es": "Entregaron todo lo que había en la ciudad a la destrucción consagrada: mataron a hombres y mujeres, jóvenes y ancianos, bueyes, ovejas y asnos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "josue6-msg-13",
+      "msg": {
+        "en": "Joshua ordered the two men who had spied out the land, “Enter the house of the harlot and rescue the woman and everyone connected with her, just as you promised her.” So the young spies went in and brought out Rahab, her father, mother, and brothers—everyone connected with her. They got the whole family out and gave them a place outside the camp of Israel. But they burned down the city and everything in it, except for the gold and silver and the bronze and iron vessels—all that they put in the treasury of GOD’s house.",
+        "es": "Josué ordenó a los dos hombres que habían explorado la tierra: «Entren en la casa de la prostituta y rescaten a la mujer y a todos los suyos, tal como se lo prometieron».\n\nLos jóvenes espías entraron y sacaron a Rahab, a su padre, a su madre, a sus hermanos y a todos los que estaban relacionados con ella. Sacaron a toda la familia y les dieron un lugar fuera del campamento de Israel.\n\nDespués incendiaron la ciudad y todo lo que había en ella. Solo conservaron el oro, la plata y los utensilios de bronce y hierro, que depositaron en el tesoro de la casa de DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-24"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "25",
+      "id": "josue6-msg-14",
+      "msg": {
+        "en": "But Joshua let Rahab the harlot live—Rahab and her father’s household and everyone connected to her. She is still alive and well in Israel because she hid the agents whom Joshua sent to spy out Jericho.",
+        "es": "Pero Josué dejó con vida a Rahab, la prostituta, junto con la familia de su padre y todos los suyos. Ella sigue viviendo en Israel hasta hoy porque escondió a los enviados que Josué mandó a explorar Jericó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26",
+      "id": "josue6-msg-15",
+      "msg": {
+        "en": "Joshua swore a solemn oath at that time:\nCursed before GOD is the man\nwho sets out to rebuild this city Jericho.\nHe’ll pay for the foundation with his firstborn son,\nhe’ll pay for the gates with his youngest son.",
+        "es": "En aquel tiempo Josué hizo este juramento solemne:\n\nMaldito delante de DIOS el hombre\nque se disponga a reconstruir esta ciudad de Jericó.\nPagará sus cimientos con la vida de su hijo mayor\ny sus puertas con la vida de su hijo menor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-26"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "27",
+      "id": "josue6-msg-16",
+      "msg": {
+        "en": "GOD was with Joshua. He became famous all over the land.",
+        "es": "DIOS estaba con Josué, y su fama se extendió por toda la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue6-nbla-27"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-01a",
+          "order": 1,
+          "text": "Jericó estaba muy bien cerrada por miedo a los israelitas."
+        },
+        {
+          "id": "josue6-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Nadie salía ni entraba."
+        }
+      ],
+      "id": "josue6-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-02a",
+          "order": 1,
+          "text": "Pero el SEÑOR dijo a Josué: «Mira,"
+        },
+        {
+          "id": "josue6-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "he entregado en tu mano a Jericó"
+        },
+        {
+          "id": "josue6-nbla-02c",
+          "order": 3,
+          "text": ", y a su rey con sus valientes guerreros."
+        }
+      ],
+      "id": "josue6-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "josue6-nbla-03",
+      "number": 3,
+      "text": "Ustedes marcharán alrededor de la ciudad, todos los hombres de guerra rodeando la ciudad una vez. Así lo harás por seis días."
+    },
+    {
+      "id": "josue6-nbla-04",
+      "number": 4,
+      "text": "»Siete sacerdotes llevarán siete trompetas de cuerno de carnero delante del arca. Al séptimo día ustedes marcharán alrededor de la ciudad siete veces, y los sacerdotes tocarán las trompetas."
+    },
+    {
+      "id": "josue6-nbla-05",
+      "number": 5,
+      "text": "Y sucederá que cuando toquen un sonido prolongado con el cuerno de carnero, y ustedes oigan el sonido de la trompeta, todo el pueblo gritará a gran voz, y la muralla de la ciudad se vendrá abajo. Entonces el pueblo subirá, cada hombre derecho hacia adelante»."
+    },
+    {
+      "id": "josue6-nbla-06",
+      "number": 6,
+      "text": "Josué, hijo de Nun, llamó a los sacerdotes, y les dijo: «Tomen el arca del pacto, y que siete sacerdotes lleven siete trompetas de cuerno de carnero delante del arca del SEÑOR»."
+    },
+    {
+      "id": "josue6-nbla-07",
+      "number": 7,
+      "text": "Entonces dijo al pueblo: «Pasen, y marchen alrededor de la ciudad, y que los hombres armados vayan delante del arca del SEÑOR»."
+    },
+    {
+      "id": "josue6-nbla-08",
+      "number": 8,
+      "text": "Después que Josué había hablado al pueblo, los siete sacerdotes que llevaban las siete trompetas de cuerno de carnero delante del SEÑOR, se adelantaron y tocaron las trompetas. Y el arca del pacto del SEÑOR los seguía."
+    },
+    {
+      "id": "josue6-nbla-09",
+      "number": 9,
+      "text": "Los hombres armados iban delante de los sacerdotes que tocaban las trompetas, y la retaguardia iba detrás del arca, mientras ellos continuaban tocando las trompetas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-10a",
+          "order": 1,
+          "text": "Pero Josué dio órdenes al pueblo: «"
+        },
+        {
+          "id": "josue6-nbla-10b",
+          "order": 2,
+          "text": "No gritarán ni dejarán oír su voz, ni saldrá palabra de su boca"
+        },
+        {
+          "id": "josue6-nbla-10c",
+          "order": 3,
+          "text": ", hasta el día que yo les diga: “¡Griten!”. Entonces gritarán»."
+        }
+      ],
+      "id": "josue6-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "josue6-nbla-11",
+      "number": 11,
+      "text": "Así hizo que el arca del SEÑOR fuera alrededor de la ciudad, rodeándola una vez. Entonces volvieron al campamento, y pasaron la noche en el campamento."
+    },
+    {
+      "id": "josue6-nbla-12",
+      "number": 12,
+      "text": "Josué se levantó muy de mañana, y los sacerdotes tomaron el arca del SEÑOR."
+    },
+    {
+      "id": "josue6-nbla-13",
+      "number": 13,
+      "text": "Los siete sacerdotes llevando las siete trompetas de cuerno de carnero iban delante del arca del SEÑOR, andando continuamente y tocando las trompetas. Los hombres armados iban delante de ellos y la retaguardia iba detrás del arca del SEÑOR mientras ellos seguían tocando las trompetas."
+    },
+    {
+      "id": "josue6-nbla-14",
+      "number": 14,
+      "text": "Así que el segundo día marcharon una vez alrededor de la ciudad y volvieron al campamento. Así lo hicieron por seis días."
+    },
+    {
+      "id": "josue6-nbla-15",
+      "number": 15,
+      "text": "Entonces en el séptimo día se levantaron temprano, al despuntar el día, y marcharon alrededor de la ciudad de la misma manera, pero siete veces. Solo aquel día marcharon siete veces alrededor de la ciudad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-16a",
+          "order": 1,
+          "text": "A la séptima vez, cuando los sacerdotes tocaron las trompetas, Josué dijo al pueblo: «"
+        },
+        {
+          "id": "josue6-nbla-16b",
+          "order": 2,
+          "text": "¡Griten! Pues el SEÑOR les ha entregado la ciudad."
+        }
+      ],
+      "id": "josue6-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "josue6-nbla-17",
+      "number": 17,
+      "text": "La ciudad será dedicada al anatema, ella y todo lo que hay en ella pertenece al SEÑOR. Solo Rahab la ramera y todos los que están en su casa vivirán, porque ella escondió a los mensajeros que enviamos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-18a",
+          "order": 1,
+          "text": "Pero ustedes, tengan mucho cuidado en cuanto a las cosas dedicadas al anatema,"
+        },
+        {
+          "id": "josue6-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no sea que las codicien"
+        },
+        {
+          "id": "josue6-nbla-18c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y tomando de las cosas del anatema, hagan maldito el campamento de Israel y traigan desgracia sobre él."
+        }
+      ],
+      "id": "josue6-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "josue6-nbla-19",
+      "number": 19,
+      "text": "Toda la plata y el oro, y los utensilios de bronce y de hierro, están consagrados al SEÑOR. Entrarán en el tesoro del SEÑOR»."
+    },
+    {
+      "id": "josue6-nbla-20",
+      "number": 20,
+      "text": "Entonces el pueblo gritó y los sacerdotes tocaron las trompetas; y sucedió que cuando el pueblo oyó el sonido de la trompeta, el pueblo gritó a gran voz y la muralla se vino abajo. El pueblo subió a la ciudad, cada hombre derecho hacia adelante, y tomaron la ciudad."
+    },
+    {
+      "id": "josue6-nbla-21",
+      "number": 21,
+      "text": "Destruyeron por completo, a filo de espada, todo lo que había en la ciudad: hombres y mujeres, jóvenes y ancianos, bueyes, ovejas y asnos."
+    },
+    {
+      "id": "josue6-nbla-22",
+      "number": 22,
+      "text": "Pero Josué dijo a los dos hombres que habían reconocido la tierra: «Entren en la casa de la ramera y saquen de allí a la mujer y todo lo que posea, tal como se lo juraron»."
+    },
+    {
+      "id": "josue6-nbla-23",
+      "number": 23,
+      "text": "Entraron, pues, los jóvenes espías y sacaron a Rahab, a su padre, a su madre, a sus hermanos, y todo lo que poseía. También sacaron a todos sus parientes y los colocaron fuera del campamento de Israel."
+    },
+    {
+      "id": "josue6-nbla-24",
+      "number": 24,
+      "text": "Entonces prendieron fuego a la ciudad y a todo lo que en ella había. Solo pusieron en el tesoro de la casa del SEÑOR, la plata, el oro y los utensilios de bronce y de hierro."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-25a",
+          "order": 1,
+          "text": "Pero Josué dejó vivir a Rahab la ramera, a la casa de su padre y todo lo que ella tenía."
+        },
+        {
+          "id": "josue6-nbla-25b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Ella ha habitado en medio de Israel hasta hoy"
+        },
+        {
+          "id": "josue6-nbla-25c",
+          "order": 3,
+          "text": ", porque escondió a los mensajeros a quienes Josué había enviado a reconocer a Jericó."
+        }
+      ],
+      "id": "josue6-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "josue6-nbla-26",
+      "number": 26,
+      "text": "Entonces Josué les hizo un juramento en aquel tiempo y dijo: «Maldito sea delante del SEÑOR el hombre que se levante y reedifique esta ciudad de Jericó. Con la pérdida de su primogénito echará su cimiento, y con la pérdida de su hijo menor colocará sus puertas»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue6-nbla-27a",
+          "order": 1,
+          "text": "El SEÑOR estaba con Josué"
+        },
+        {
+          "id": "josue6-nbla-27b",
+          "order": 2,
+          "text": ", y su fama se extendió por toda la tierra."
+        }
+      ],
+      "id": "josue6-nbla-27",
+      "number": 27
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

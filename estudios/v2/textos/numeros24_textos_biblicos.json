@@ -1,0 +1,588 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "el tercer oráculo no nace del control técnico de Balaam, sino de la iniciativa soberana de Dios. La NBLA afirma directamente que el Espíritu viene sobre él; MSG conserva la misma acción y la coloca después de que Balaam abandona la búsqueda de presagios. El texto no convierte a Balaam en modelo moral: demuestra que Dios puede gobernar incluso la boca de un personaje ambiguo para hacer avanzar Su palabra.",
+      "id": "numeros24-joya-01",
+      "msg": {
+        "en": "\"The Spirit of God came on him\"",
+        "es": "\"El Espíritu de Dios vino sobre él\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-02b"
+          ],
+          "verseId": "numeros24-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "el oráculo retoma el patrón de la promesa dada a Abraham y muestra que el proyecto de Balac está condenado desde su raíz. La NBLA conserva la correspondencia entre quienes bendicen o maldicen a Israel y el resultado que reciben; MSG la expresa con la misma reciprocidad. No debe utilizarse como arma para declarar maldito a cualquiera que critique a una persona, ministerio o nación moderna; en el texto forma parte de la fidelidad de Dios al pueblo de Su pacto.",
+      "id": "numeros24-joya-02",
+      "msg": {
+        "en": "\"Whoever blesses you is blessed, whoever curses you is cursed.\"",
+        "es": "\"Quien te bendiga será bendecido; quien te maldiga será maldecido.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-09b"
+          ],
+          "verseId": "numeros24-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "3-9"
+    },
+    {
+      "explanation": "Balaam reconoce que ni la recompensa de Balac ni su propia iniciativa pueden colocarse por encima del mandato de Dios. La NBLA subraya la imposibilidad de traspasar ese mandamiento; MSG hace visible el contraste entre actuar por cuenta propia y someterse a la orden divina. Aunque Balaam no siempre encarne plenamente lo que declara, la verdad pronunciada permanece: el mensajero no posee autoridad para fabricar una palabra distinta.",
+      "id": "numeros24-joya-03",
+      "msg": {
+        "en": "\"I couldn’t do anything on my own, whether good or bad, that went against GOD’S command\"",
+        "es": "\"yo no podría hacer nada por mi propia cuenta, ni bueno ni malo, que fuera contra la orden de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-13b"
+          ],
+          "verseId": "numeros24-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "12-15"
+    },
+    {
+      "explanation": "la bendición se concentra aquí en una figura real futura. La NBLA conserva las dos imágenes —estrella y cetro— y MSG mantiene el movimiento de una autoridad que surge desde Jacob e Israel. En su horizonte histórico, el oráculo se relaciona con la monarquía y las victorias sobre Moab y Edom; dentro del desarrollo canónico, esta expectativa real se integra en la esperanza mesiánica que culmina en Cristo.",
+      "id": "numeros24-joya-04",
+      "msg": {
+        "en": "\"A star rises from Jacob a scepter from Israel\"",
+        "es": "\"Una estrella se alza desde Jacob, un cetro desde Israel\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-17b"
+          ],
+          "verseId": "numeros24-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "15-19"
+    },
+    {
+      "explanation": "el futuro de Israel no queda definido solamente por sobrevivir a Balac, sino por la llegada de un gobernante. La NBLA enfatiza el dominio de quien sale de Jacob; MSG lo expresa como alguien que viene. Esta expectativa debe leerse primero dentro de la historia real de Israel y después dentro del arco bíblico mayor, evitando reducirla a una predicción aislada desconectada del desarrollo de la promesa davídica.",
+      "id": "numeros24-joya-05",
+      "msg": {
+        "en": "\"A ruler is coming from Jacob\"",
+        "es": "\"Un gobernante viene de Jacob\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-19a"
+          ],
+          "verseId": "numeros24-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "15-19"
+    },
+    {
+      "explanation": "Amalec es presentado como un poder que ocupa el primer lugar y, sin embargo, no posee el futuro. La NBLA concentra la sentencia en su destrucción final; MSG intensifica el contraste entre estar primero ahora y terminar arruinado. El texto recuerda que ninguna posición histórica de fuerza constituye garantía de permanencia cuando el juicio de Dios entra en la historia.",
+      "id": "numeros24-joya-06",
+      "msg": {
+        "en": "\"you’re going to come in last, ruined.\"",
+        "es": "\"terminarás en el último, arruinado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-20b"
+          ],
+          "verseId": "numeros24-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "20"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 24,
+    "studyId": "numeros-24"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "numeros24-msg-01",
+      "msg": {
+        "en": "By now Balaam realized that GOD wanted to bless Israel. So he didn’t work in any sorcery as he had done earlier. He turned and looked out over the wilderness. As Balaam looked, he saw Israel camped tribe by tribe. The Spirit of God came on him, and he spoke his oracle-message:",
+        "es": "A estas alturas, Balaam ya había comprendido que DIOS quería bendecir a Israel. Así que no recurrió a ninguna hechicería como había hecho antes. Se volvió y miró hacia el desierto. Al mirar, vio a Israel acampado tribu por tribu. El Espíritu de Dios vino sobre él, y pronunció su mensaje-oráculo:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-02"
+        },
+        {
+          "clauseIds": [
+            "numeros24-nbla-03a"
+          ],
+          "verseId": "numeros24-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-9",
+      "id": "numeros24-msg-02",
+      "msg": {
+        "en": "Decree of Balaam son of Beor,\nyes, decree of a man with 20/20 vision;\nDecree of a man who hears God speak,\nwho sees what The Strong God shows him,\nWho falls on his face in worship,\nwho sees what’s really going on.\nWhat beautiful tents, Jacob,\noh, your homes, Israel!\nLike valleys stretching out in the distance,\nlike gardens planted by rivers,\nLike sweet herbs planted by the gardener GOD,\nlike red cedars by pools and springs,\nTheir buckets will brim with water,\ntheir seed will spread life everywhere.\nTheir king will tower over Agag and his ilk,\ntheir kingdom surpassingly majestic.\nGod brought them out of Egypt,\nrampaging like a wild ox,\nGulping enemies like morsels of meat,\ncrushing their bones, snapping their arrows.\nIsrael crouches like a lion and naps,\nking-of-the-beasts—who dares disturb him?\nWhoever blesses you is blessed,\nwhoever curses you is cursed.",
+        "es": "Decreto de Balaam, hijo de Beor,\nsí, decreto de un hombre con visión 20/20;\ndecreto de un hombre que escucha hablar a Dios,\nque ve lo que el Dios Fuerte le muestra,\nque cae rostro en tierra en adoración\ny ve lo que realmente está ocurriendo.\n¡Qué hermosas son tus tiendas, Jacob,\nqué hermosos tus hogares, Israel!\nComo valles que se extienden a lo lejos,\ncomo jardines plantados junto a ríos,\ncomo hierbas aromáticas plantadas por DIOS, el Jardinero,\ncomo cedros rojos junto a estanques y manantiales.\nSus baldes rebosarán de agua,\nsu descendencia esparcirá vida por todas partes.\nSu rey se elevará por encima de Agag y los suyos,\nsu reino será extraordinariamente majestuoso.\nDios los sacó de Egipto,\narremetiendo con la fuerza de un buey salvaje,\ndevorando enemigos como bocados de carne,\ntriturando sus huesos, partiendo sus flechas.\nIsrael se agazapa como un león y descansa,\nrey de las bestias: ¿quién se atreve a molestarlo?\nQuien te bendiga será bendecido;\nquien te maldiga será maldecido."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-03b"
+          ],
+          "verseId": "numeros24-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "numeros24-msg-03",
+      "msg": {
+        "en": "Balak lost his temper with Balaam. He shook his fist. He said to Balaam: “I got you in here to curse my enemies and what have you done? Blessed them! Blessed them three times! Get out of here! Go home! I told you I would pay you well, but you’re getting nothing. You can blame GOD.”",
+        "es": "Balac perdió los estribos con Balaam. Agitó el puño y le dijo: «Te traje aquí para maldecir a mis enemigos, ¿y qué has hecho? ¡Los bendijiste! ¡Los bendijiste tres veces! ¡Lárgate de aquí! ¡Vuelve a casa! Te dije que te pagaría bien, pero no recibirás nada. Puedes culpar a DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12-15",
+      "id": "numeros24-msg-04",
+      "msg": {
+        "en": "Balaam said to Balak, “Didn’t I tell you up front when you sent your emissaries, ‘Even if Balak gave me his palace stuffed with silver and gold, I couldn’t do anything on my own, whether good or bad, that went against GOD’S command’? I’m leaving for home and my people, but I warn you of what this people will do to your people in the days to come.” Then he spoke his oracle-message:",
+        "es": "Balaam le dijo a Balac: «¿No te lo dije desde el principio cuando enviaste a tus mensajeros? “Aunque Balac me diera su palacio atiborrado de plata y oro, yo no podría hacer nada por mi propia cuenta, ni bueno ni malo, que fuera contra la orden de DIOS”. Ahora regreso a casa, con mi pueblo, pero antes te advertiré lo que este pueblo hará al tuyo en los días que vienen». Entonces pronunció su mensaje-oráculo:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-14"
+        },
+        {
+          "clauseIds": [
+            "numeros24-nbla-15a"
+          ],
+          "verseId": "numeros24-nbla-15"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15-19",
+      "id": "numeros24-msg-05",
+      "msg": {
+        "en": "Decree of Balaam son of Beor,\ndecree of the man with 20/20 vision,\nDecree of the man who hears godly speech,\nwho knows what’s going on with the High God,\nWho sees what The Strong God reveals,\nwho bows in worship and sees what’s real.\nI see him, but not right now,\nI perceive him, but not right here;\nA star rises from Jacob\na scepter from Israel,\nCrushing the heads of Moab,\nthe skulls of all the noisy windbags;\nI see Edom sold off at auction,\nenemy Seir marked down at the flea market,\nwhile Israel walks off with the trophies.\nA ruler is coming from Jacob\nwho’ll destroy what’s left in the city.",
+        "es": "Decreto de Balaam, hijo de Beor,\ndecreto del hombre con visión 20/20,\ndecreto del hombre que escucha palabras divinas,\nque sabe lo que ocurre con el Dios Altísimo,\nque ve lo que el Dios Fuerte revela,\nque se inclina en adoración y ve lo que es real.\nLo veo, pero no ahora;\nlo percibo, pero no aquí cerca.\nUna estrella se alza desde Jacob,\nun cetro desde Israel,\naplastando las cabezas de Moab,\nlos cráneos de todos esos bocones alborotadores.\nVeo a Edom vendido en subasta,\nal enemigo Seir rebajado en el mercado de pulgas,\nmientras Israel se marcha con los trofeos.\nUn gobernante viene de Jacob,\ny destruirá lo que quede en la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros24-nbla-15b"
+          ],
+          "verseId": "numeros24-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-19"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "20",
+      "id": "numeros24-msg-06",
+      "msg": {
+        "en": "Then Balaam spotted Amalek and delivered an oracle-message. He said,\nAmalek, you’re in first place among nations right now,\nbut you’re going to come in last, ruined.",
+        "es": "Entonces Balaam vio a Amalec y pronunció un mensaje-oráculo:\nAmalec, ahora estás en primer lugar entre las naciones,\npero terminarás en el último, arruinado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-20"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "numeros24-msg-07",
+      "msg": {
+        "en": "He saw the Kenites and delivered his oracle-message to them:\nYour home is in a nice secure place,\nlike a nest high on the face of a cliff.\nStill, you Kenites will look stupid\nwhen Asshur takes you prisoner.",
+        "es": "Vio a los quenitas y les dirigió su mensaje-oráculo:\nSu hogar está en un lugar seguro,\ncomo un nido en lo alto de un peñasco.\nAun así, ustedes, quenitas, quedarán en ridículo\ncuando Asiria los lleve prisioneros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-22"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "numeros24-msg-08",
+      "msg": {
+        "en": "Balaam spoke his final oracle-message:\nDoom! Who stands a chance\nwhen God starts in?\nSea-Peoples, raiders from across the sea,\nwill harass Asshur and Eber,\nBut they’ll also come to nothing,\njust like all the rest.",
+        "es": "Balaam pronunció su último mensaje-oráculo:\n¡Desastre! ¿Quién tiene alguna posibilidad\ncuando Dios comienza a actuar?\nPueblos del mar, invasores venidos de más allá del mar,\nhostigarán a Asiria y a Heber,\npero ellos también terminarán en nada,\nigual que todos los demás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-24"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "25",
+      "id": "numeros24-msg-09",
+      "msg": {
+        "en": "Balaam got up and went home. Balak also went on his way.",
+        "es": "Balaam se levantó y regresó a casa. Balac también siguió su camino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros24-nbla-25"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros24-nbla-01",
+      "number": 1,
+      "text": "Cuando Balaam vio que agradaba al SEÑOR bendecir a Israel, no fue como otras veces a buscar presagios, sino que puso su rostro hacia el desierto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-02a",
+          "order": 1,
+          "text": "Y levantó Balaam sus ojos y vio a Israel acampado por tribus; y"
+        },
+        {
+          "id": "numeros24-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "vino sobre él el Espíritu de Dios."
+        }
+      ],
+      "id": "numeros24-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-03a",
+          "order": 1,
+          "text": "Y comenzando su discurso, dijo:"
+        },
+        {
+          "id": "numeros24-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "«Oráculo de Balaam, hijo de Beor,\nY oráculo del hombre de ojos abiertos;"
+        }
+      ],
+      "id": "numeros24-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "numeros24-nbla-04",
+      "number": 4,
+      "text": "Oráculo del que escucha las palabras de Dios,\nDel que ve la visión del Todopoderoso;\nCaído, pero con los ojos descubiertos."
+    },
+    {
+      "id": "numeros24-nbla-05",
+      "number": 5,
+      "text": "¡Cuán hermosas son tus tiendas, oh Jacob;\nTus moradas, oh Israel!"
+    },
+    {
+      "id": "numeros24-nbla-06",
+      "number": 6,
+      "text": "Como valles que se extienden,\nComo jardines junto al río,\nComo áloes plantados por el SEÑOR,\nComo cedros junto a las aguas."
+    },
+    {
+      "id": "numeros24-nbla-07",
+      "number": 7,
+      "text": "Agua correrá de sus baldes,\nY su simiente estará junto a muchas aguas;\nMás grande que Agag será su rey,\nY su reino será exaltado."
+    },
+    {
+      "id": "numeros24-nbla-08",
+      "number": 8,
+      "text": "Dios lo saca de Egipto;\nEs para Israel como los cuernos del búfalo.\nDevorará a las naciones que son sus adversarios,\nY desmenuzará sus huesos,\nY los traspasará con sus flechas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-09a",
+          "order": 1,
+          "text": "Se agazapa, se echa como león,\nO como leona ¿quién se atreverá a despertarlo?"
+        },
+        {
+          "id": "numeros24-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Benditos los que te bendigan,\nY malditos los que te maldigan»."
+        }
+      ],
+      "id": "numeros24-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "numeros24-nbla-10",
+      "number": 10,
+      "text": "Entonces se encendió la ira de Balac contra Balaam, y palmoteando, dijo Balac a Balaam: «Te llamé para maldecir a mis enemigos, pero los has llenado de bendiciones estas tres veces."
+    },
+    {
+      "id": "numeros24-nbla-11",
+      "number": 11,
+      "text": "Ahora pues, huye a tu lugar. Yo dije que te colmaría de honores, pero mira, el SEÑOR te ha privado de honores»."
+    },
+    {
+      "id": "numeros24-nbla-12",
+      "number": 12,
+      "text": "Y Balaam dijo a Balac: «¿No les hablé yo también a los mensajeros que me enviaste y les dije:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-13a",
+          "order": 1,
+          "text": "“Aunque Balac me diera su casa llena de plata y oro,"
+        },
+        {
+          "id": "numeros24-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no podría yo traspasar el mandamiento del SEÑOR para hacer lo bueno o lo malo de mi propia iniciativa"
+        },
+        {
+          "id": "numeros24-nbla-13c",
+          "order": 3,
+          "text": ". Lo que hable el SEÑOR, eso hablaré”?"
+        }
+      ],
+      "id": "numeros24-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "numeros24-nbla-14",
+      "number": 14,
+      "text": "Ahora, mira, me voy a mi pueblo; pero ven, y te advertiré lo que este pueblo hará a tu pueblo en los días venideros»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-15a",
+          "order": 1,
+          "text": "Y comenzando su discurso, dijo:"
+        },
+        {
+          "id": "numeros24-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "«Oráculo de Balaam, hijo de Beor,\nY oráculo del hombre de ojos abiertos."
+        }
+      ],
+      "id": "numeros24-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "numeros24-nbla-16",
+      "number": 16,
+      "text": "Oráculo del que escucha las palabras de Dios,\nY conoce la sabiduría del Altísimo;\nDel que ve la visión del Todopoderoso,\nCaído, pero con los ojos descubiertos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-17a",
+          "order": 1,
+          "text": "Lo veo, pero no ahora;\nLo contemplo, pero no cerca;"
+        },
+        {
+          "id": "numeros24-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Una estrella saldrá de Jacob,\nY un cetro se levantará de Israel"
+        },
+        {
+          "id": "numeros24-nbla-17c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Que aplastará la frente de Moab\nY derrumbará a todos los hijos de Set."
+        }
+      ],
+      "id": "numeros24-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "numeros24-nbla-18",
+      "number": 18,
+      "text": "Edom será una posesión,\nTambién será una posesión Seir, su enemigo;\nMientras que Israel se conducirá con valor."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-19a",
+          "order": 1,
+          "text": "De Jacob saldrá el que tendrá dominio"
+        },
+        {
+          "id": "numeros24-nbla-19b",
+          "order": 2,
+          "text": ",\nY destruirá al remanente de la ciudad»."
+        }
+      ],
+      "id": "numeros24-nbla-19",
+      "number": 19
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros24-nbla-20a",
+          "order": 1,
+          "text": "Al ver a Amalec, continuó su discurso, y dijo:\n«Amalec fue la primera de las naciones,"
+        },
+        {
+          "id": "numeros24-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero su fin será destrucción»."
+        }
+      ],
+      "id": "numeros24-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "numeros24-nbla-21",
+      "number": 21,
+      "text": "Después vio al quenita, y continuó su discurso, y dijo:\n«Perdurable es tu morada,\nY en la peña está puesto tu nido."
+    },
+    {
+      "id": "numeros24-nbla-22",
+      "number": 22,
+      "text": "No obstante, el quenita será consumido;\n¿Hasta cuándo te tendrá cautivo Asiria?»."
+    },
+    {
+      "id": "numeros24-nbla-23",
+      "number": 23,
+      "text": "Y continuando su discurso, dijo:\n«¡Ay! ¿Quién puede vivir, si Dios no lo ha ordenado?"
+    },
+    {
+      "id": "numeros24-nbla-24",
+      "number": 24,
+      "text": "Pero las naves vendrán de la costa de Quitim,\nY afligirán a Asiria y afligirán a Heber;\nPero él también perecerá para siempre»."
+    },
+    {
+      "id": "numeros24-nbla-25",
+      "number": 25,
+      "text": "Entonces se levantó Balaam y se marchó, y volvió a su lugar; también Balac se fue por su camino."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

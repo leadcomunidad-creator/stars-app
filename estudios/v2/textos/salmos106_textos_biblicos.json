@@ -1,0 +1,772 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La alabanza descansa primero en el carácter de Dios. La NBLA afirma que Su bondad y misericordia permanecen para siempre. MSG concentra esa verdad en una confesión directa: Su amor dura. El resto del capítulo mostrará una comunidad profundamente inconstante, por lo que esta frase no describe la estabilidad humana, sino la fidelidad divina que sostiene la esperanza.",
+      "id": "salmos106-joya-01",
+      "msg": {
+        "en": "“Because he’s good, because his love lasts.”",
+        "es": "“Porque Él es bueno, porque Su amor permanece.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos106-nbla-01b"
+          ],
+          "verseId": "salmos106-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La confesión bíblica reconoce tanto la continuidad histórica como la responsabilidad presente. La NBLA une explícitamente al pueblo actual con sus antepasados. MSG hace audible el peso acumulado del pecado mediante una admisión sin defensas. La frase no enseña que una persona sea culpable automáticamente de todo lo realizado por generaciones anteriores; exige reconocer y abandonar los patrones que la comunidad continúa practicando.",
+      "id": "salmos106-joya-02",
+      "msg": {
+        "en": "“We’ve sinned a lot, both we and our parents;”",
+        "es": "“Hemos pecado mucho, tanto nosotros como nuestros padres;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos106-nbla-06a"
+          ],
+          "verseId": "salmos106-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6"
+    },
+    {
+      "explanation": "Recibir lo que deseamos no siempre significa experimentar la bendición de Dios. La NBLA identifica una consecuencia concreta y severa: una plaga mortal. MSG interpreta pastoralmente la tragedia como la experiencia de obtener el objeto deseado sin recibir plenitud interior. La imagen del corazón vacío ayuda a exponer el deseo desordenado, pero la NBLA impide sustituir el juicio histórico del pasaje por una simple sensación emocional.",
+      "id": "salmos106-joya-03",
+      "msg": {
+        "en": "“but along with it they got an empty heart.”",
+        "es": "“pero junto con ello recibieron un corazón vacío.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "13-15"
+    },
+    {
+      "explanation": "La idolatría intercambia la gloria del Dios vivo por algo fabricado y limitado. La NBLA conserva el contraste entre la gloria y la imagen de un animal. MSG expone la insensatez del cambio al llamar barata a la escultura y recordar que representa a un toro que come hierba. La fuerza de la frase no está en despreciar el arte, sino en mostrar la degradación de adorar una obra creada en lugar del Creador.",
+      "id": "salmos106-joya-04",
+      "msg": {
+        "en": "“They traded the Glory for a cheap piece of sculpture—a grass-chewing bull!”",
+        "es": "“Cambiaron la Gloria por una escultura barata: ¡un toro que come hierba!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "19-20"
+    },
+    {
+      "explanation": "Dios permitió que un intercesor se colocara entre el juicio y el pueblo. La NBLA presenta a Moisés poniéndose en la brecha para apartar el furor divino. MSG convierte la escena en una acción visible de protección. El texto no presenta a Moisés como más misericordioso que Dios; el mismo Señor había escogido al mediador e incorporado su intercesión dentro de Su relación de pacto.",
+      "id": "salmos106-joya-05",
+      "msg": {
+        "en": "“But Moses stood in the gap and deflected God’s anger,”",
+        "es": "“Pero Moisés se puso en la brecha y desvió la ira de Dios,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos106-nbla-23b"
+          ],
+          "verseId": "salmos106-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "23"
+    },
+    {
+      "explanation": "La restauración nace de la fidelidad compasiva de Dios. La NBLA afirma que recordó el pacto y se arrepintió conforme a Su misericordia; en este contexto, el lenguaje describe que desistió del curso de juicio y cambió Su trato, no que confesara una falta moral. MSG vuelve cercana esa compasión al mostrarlo tomando al pueblo de la mano. La imagen no elimina las consecuencias históricas, pero revela que el juicio no agotó Su amor.",
+      "id": "salmos106-joya-06",
+      "msg": {
+        "en": "“He remembered his Covenant with them, and, immense with love, took them by the hand.”",
+        "es": "“recordó Su pacto con ellos y, inmenso en amor, los tomó de la mano.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-45"
+        }
+      ],
+      "order": 6,
+      "range": "44-45"
+    },
+    {
+      "explanation": "La confesión conduce hacia una petición concreta de restauración comunitaria. La NBLA pide que Dios reúna a Su pueblo disperso entre las naciones. MSG nombra esa dispersión como exilio y expresa el deseo de regresar. La salvación buscada no termina en bienestar individual; pretende reconstruir una comunidad capaz de agradecer, alabar y vivir nuevamente delante de Dios.",
+      "id": "salmos106-joya-07",
+      "msg": {
+        "en": "“Gather us back out of exile”",
+        "es": "“Reúnenos de nuevo y sácanos del exilio,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos106-nbla-47b"
+          ],
+          "verseId": "salmos106-nbla-47"
+        }
+      ],
+      "order": 7,
+      "range": "47-48"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 106,
+    "studyId": "salmos-106"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos106-msg-01",
+      "msg": {
+        "en": "Hallelujah!\nThank GOD! And why?\nBecause he’s good, because his love lasts.\nBut who on earth can do it—\ndeclaim GOD’S mighty acts, broadcast all his praises?\nYou’re one happy man when you do what’s right,\none happy woman when you form the habit of justice.",
+        "es": "¡Aleluya!\n¡Den gracias a DIOS! ¿Y por qué?\nPorque Él es bueno, porque Su amor permanece.\nPero ¿quién en la tierra puede hacerlo:\nproclamar los poderosos actos de DIOS y difundir toda Su alabanza?\nFeliz el hombre que hace lo correcto;\nfeliz la mujer que convierte la justicia en un hábito."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos106-msg-02",
+      "msg": {
+        "en": "Remember me, GOD, when you enjoy your people;\ninclude me when you save them;\nI want to see your chosen succeed,\ncelebrate with your celebrating nation,\njoin the Hallelujahs of your pride and joy!",
+        "es": "Acuérdate de mí, DIOS, cuando te complazcas en Tu pueblo;\ninclúyeme cuando vengas a salvarlo.\nQuiero ver prosperar a Tus escogidos,\ncelebrar con Tu nación llena de alegría\ny unirme a los aleluyas de quienes son Tu orgullo y Tu alegría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-12",
+      "id": "salmos106-msg-03",
+      "msg": {
+        "en": "We’ve sinned a lot, both we and our parents;\nWe’ve fallen short, hurt a lot of people.\nAfter our parents left Egypt,\nthey took your wonders for granted,\nforgot your great and wonderful love.\nThey were barely beyond the Red Sea\nwhen they defied the High God\n—the very place he saved them!\n—the place he revealed his amazing power!\nHe rebuked the Red Sea so that it dried up on the spot\n—he paraded them right through!\n—no one so much as got wet feet!\nHe saved them from a life of oppression,\npried them loose from the grip of the enemy.\nThen the waters flowed back on their oppressors;\nthere wasn’t a single survivor.\nThen they believed his words were true\nand broke out in songs of praise.",
+        "es": "Hemos pecado mucho, tanto nosotros como nuestros padres;\nhemos fallado y herido a mucha gente.\nDespués de que nuestros padres salieron de Egipto,\ndieron por sentadas Tus maravillas\ny olvidaron Tu grande y maravilloso amor.\nApenas habían pasado el Mar Rojo\ncuando desafiaron al Dios Altísimo:\n¡precisamente en el lugar donde Él los salvó!,\n¡el lugar donde reveló Su asombroso poder!\nReprendió al Mar Rojo y este se secó en el acto;\n¡los hizo pasar en desfile por en medio!\n¡Ni siquiera se les mojaron los pies!\nLos salvó de una vida de opresión;\nlos arrancó de las garras del enemigo.\nEntonces las aguas volvieron sobre sus opresores;\nno quedó un solo sobreviviente.\nSolo entonces creyeron que Sus palabras eran verdaderas\ny estallaron en canciones de alabanza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "salmos106-msg-04",
+      "msg": {
+        "en": "But it wasn’t long before they forgot the whole thing,\nwouldn’t wait to be told what to do.\nThey only cared about pleasing themselves in that desert,\nprovoked God with their insistent demands.\nHe gave them exactly what they asked for—\nbut along with it they got an empty heart.\nOne day in camp some grew jealous of Moses,\nalso of Aaron, holy priest of GOD.\nThe ground opened and swallowed Dathan,\nthen buried Abiram’s gang.\nFire flared against that rebel crew\nand torched them to a cinder.",
+        "es": "Pero no pasó mucho tiempo antes de que lo olvidaran todo;\nno quisieron esperar a que Dios les dijera qué hacer.\nEn el desierto solo se preocuparon por complacerse a sí mismos\ny provocaron a Dios con sus demandas insistentes.\nÉl les dio exactamente lo que pidieron,\npero junto con ello recibieron un corazón vacío.\nUn día, algunos en el campamento sintieron celos de Moisés\ny también de Aarón, sacerdote santo de DIOS.\nLa tierra se abrió y se tragó a Datán;\ndespués sepultó al grupo de Abiram.\nEl fuego se encendió contra aquella cuadrilla rebelde\ny los redujo a cenizas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-18"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "19-22",
+      "id": "salmos106-msg-05",
+      "msg": {
+        "en": "They cast in metal a bull calf at Horeb\nand worshiped the statue they’d made.\nThey traded the Glory\nfor a cheap piece of sculpture—a grass-chewing bull!\nThey forgot God, their very own Savior,\nwho turned things around in Egypt,\nWho created a world of wonders in the Land of Ham,\nwho gave that stunning performance at the Red Sea.",
+        "es": "Fundieron un becerro de metal en Horeb\ny adoraron la estatua que ellos mismos habían hecho.\nCambiaron la Gloria\npor una escultura barata: ¡un toro que come hierba!\nOlvidaron a Dios, su propio Salvador,\nquien dio vuelta a la situación en Egipto,\ncreó un mundo de maravillas en la tierra de Cam\ny realizó aquella asombrosa demostración en el Mar Rojo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-22"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "23-27",
+      "id": "salmos106-msg-06",
+      "msg": {
+        "en": "Fed up, God decided to get rid of them—\nand except for Moses, his chosen, he would have.\nBut Moses stood in the gap and deflected God’s anger,\nprevented it from destroying them utterly.\nThey went on to reject the Blessed Land,\ndidn’t believe a word of what God promised.\nThey found fault with the life they had\nand turned a deaf ear to GOD’S voice.\nExasperated, God swore\nthat he’d lay them low in the desert,\nScattering their children hither and yon,\nstrewing them all over the earth.",
+        "es": "Harto de ellos, Dios decidió acabar con el pueblo,\ny lo habría hecho de no ser por Moisés, Su escogido.\nPero Moisés se puso en la brecha y desvió la ira de Dios,\nimpidiendo que los destruyera por completo.\nDespués rechazaron la tierra bendecida;\nno creyeron ni una palabra de lo que Dios había prometido.\nSe quejaron de la vida que tenían\ny cerraron sus oídos a la voz de DIOS.\nExasperado, Dios juró\nque los abatiría en el desierto,\nque dispersaría a sus hijos de un lugar a otro\ny los esparciría por toda la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-27"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "salmos106-msg-07",
+      "msg": {
+        "en": "Then they linked up with Baal Peor,\nattending funeral banquets and eating idol food.\nThat made God so angry\nthat a plague spread through their ranks;\nPhinehas stood up and pled their case\nand the plague was stopped.\nThis was counted to his credit;\nhis descendants will never forget it.",
+        "es": "Después se unieron a Baal Peor,\nparticiparon en banquetes funerarios y comieron alimentos ofrecidos a ídolos.\nEso provocó tanto la ira de Dios\nque una plaga se extendió entre sus filas.\nFinees se levantó y abogó por ellos,\ny la plaga se detuvo.\nEsto le fue contado a su favor;\nsus descendientes nunca lo olvidarán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-31"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "salmos106-msg-08",
+      "msg": {
+        "en": "They angered God again at Meribah Springs;\nthis time Moses got mixed up in their evil;\nBecause they defied GOD yet again,\nMoses exploded and lost his temper.",
+        "es": "Volvieron a provocar a Dios junto a las aguas de Meriba;\nesta vez Moisés quedó enredado en su maldad.\nComo desafiaron nuevamente a DIOS,\nMoisés estalló y perdió los estribos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-33"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "34-39",
+      "id": "salmos106-msg-09",
+      "msg": {
+        "en": "They didn’t wipe out those godless cultures\nas ordered by GOD;\nInstead they intermarried with the heathen,\nand in time became just like them.\nThey worshiped their idols,\nwere caught in the trap of idols.\nThey sacrificed their sons and daughters\nat the altars of demon gods.\nThey slit the throats of their babies,\nmurdered their infant girls and boys.\nThey offered their babies to Canaan’s gods;\nthe blood of their babies stained the land.\nTheir way of life stank to high heaven;\nthey lived like whores.",
+        "es": "No eliminaron aquellas culturas sin Dios\ncomo DIOS les había ordenado.\nEn cambio, se mezclaron mediante matrimonios con las naciones\ny, con el tiempo, llegaron a ser como ellas.\nAdoraron sus ídolos\ny quedaron atrapados en la trampa de la idolatría.\nSacrificaron a sus hijos y a sus hijas\nen los altares de dioses demoníacos.\nDegollaron a sus bebés;\nasesinaron a sus niñas y niños pequeños.\nOfrecieron a sus bebés a los dioses de Canaán;\nla sangre de sus hijos manchó la tierra.\nSu manera de vivir apestaba hasta el cielo;\nvivieron como prostitutas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-39"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "40-43",
+      "id": "salmos106-msg-10",
+      "msg": {
+        "en": "And GOD was furious—a wildfire anger;\nhe couldn’t stand even to look at his people.\nHe turned them over to the heathen\nso that the people who hated them ruled them.\nTheir enemies made life hard for them;\nthey were tyrannized under that rule.\nOver and over God rescued them, but they never learned—\nuntil finally their sins destroyed them.",
+        "es": "DIOS se enfureció con una ira semejante a un incendio;\nya ni siquiera soportaba mirar a Su pueblo.\nLos entregó en manos de las naciones,\nde modo que quienes los odiaban gobernaron sobre ellos.\nSus enemigos les hicieron la vida imposible;\nvivieron tiranizados bajo aquel dominio.\nUna y otra vez Dios los rescató, pero nunca aprendieron,\nhasta que finalmente sus propios pecados los destruyeron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-43"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "44-46",
+      "id": "salmos106-msg-11",
+      "msg": {
+        "en": "Still, when God saw the trouble they were in\nand heard their cries for help,\nHe remembered his Covenant with them,\nand, immense with love, took them by the hand.\nHe poured out his mercy on them\nwhile their captors looked on, amazed.",
+        "es": "Aun así, cuando Dios vio la angustia en la que estaban\ny escuchó sus gritos de auxilio,\nrecordó Su pacto con ellos\ny, inmenso en amor, los tomó de la mano.\nDerramó Su misericordia sobre ellos\nmientras sus captores observaban asombrados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-46"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "47-48",
+      "id": "salmos106-msg-12",
+      "msg": {
+        "en": "Save us, GOD, our God!\nGather us back out of exile\nSo we can give thanks to your holy name\nand join in the glory when you are praised!\nBlessed be GOD, Israel’s God!\nBless now, bless always!\nOh! Let everyone say Amen!\nHallelujah!",
+        "es": "¡Sálvanos, DIOS, Dios nuestro!\nReúnenos de nuevo y sácanos del exilio,\npara que demos gracias a Tu santo nombre\ny participemos de la gloria cuando seas alabado.\n¡Bendito sea DIOS, el Dios de Israel!\n¡Bendito ahora y bendito para siempre!\n¡Que todo el pueblo diga: «Amén»!\n¡Aleluya!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos106-nbla-48"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos106-nbla-01a",
+          "order": 1,
+          "text": "¡Aleluya!"
+        },
+        {
+          "id": "salmos106-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Den gracias al SEÑOR, porque es bueno;\nPorque para siempre es Su misericordia."
+        }
+      ],
+      "id": "salmos106-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos106-nbla-02",
+      "number": 2,
+      "text": "¿Quién puede relatar los poderosos hechos del SEÑOR,\nO expresar toda Su alabanza?"
+    },
+    {
+      "id": "salmos106-nbla-03",
+      "number": 3,
+      "text": "Bienaventurados los que guardan el juicio,\nLos que practican la justicia en todo tiempo."
+    },
+    {
+      "id": "salmos106-nbla-04",
+      "number": 4,
+      "text": "Acuérdate de mí, oh SEÑOR, en Tu bondad hacia Tu pueblo;\nVisítame con Tu salvación,"
+    },
+    {
+      "id": "salmos106-nbla-05",
+      "number": 5,
+      "text": "Para que yo vea la prosperidad de Tus escogidos,\nPara que me regocije en la alegría de Tu nación,\nPara que me gloríe con Tu heredad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos106-nbla-06a",
+          "order": 1,
+          "text": "Nosotros hemos pecado como nuestros padres,"
+        },
+        {
+          "id": "salmos106-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Hemos hecho iniquidad, nos hemos conducido impíamente."
+        }
+      ],
+      "id": "salmos106-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "salmos106-nbla-07",
+      "number": 7,
+      "text": "Nuestros padres en Egipto no entendieron Tus maravillas;\nNo se acordaron de Tu infinito amor,\nSino que se rebelaron junto al mar, en el Mar Rojo."
+    },
+    {
+      "id": "salmos106-nbla-08",
+      "number": 8,
+      "text": "No obstante, los salvó por amor de Su nombre,\nPara manifestar Su poder."
+    },
+    {
+      "id": "salmos106-nbla-09",
+      "number": 9,
+      "text": "Reprendió al Mar Rojo, y se secó;\nY los condujo por las profundidades, como por un desierto."
+    },
+    {
+      "id": "salmos106-nbla-10",
+      "number": 10,
+      "text": "Los salvó de mano del que los odiaba,\nY los redimió de mano del enemigo."
+    },
+    {
+      "id": "salmos106-nbla-11",
+      "number": 11,
+      "text": "Las aguas cubrieron a sus adversarios,\nNi uno de ellos escapó."
+    },
+    {
+      "id": "salmos106-nbla-12",
+      "number": 12,
+      "text": "Entonces ellos creyeron en Sus palabras,\nY cantaron Su alabanza."
+    },
+    {
+      "id": "salmos106-nbla-13",
+      "number": 13,
+      "text": "Pero pronto se olvidaron de Sus obras;\nNo esperaron Su consejo."
+    },
+    {
+      "id": "salmos106-nbla-14",
+      "number": 14,
+      "text": "Tuvieron apetitos desenfrenados en el desierto,\nY tentaron a Dios en las soledades."
+    },
+    {
+      "id": "salmos106-nbla-15",
+      "number": 15,
+      "text": "Él les concedió lo que pedían,\nPero envió una plaga mortal sobre ellos."
+    },
+    {
+      "id": "salmos106-nbla-16",
+      "number": 16,
+      "text": "Cuando en el campamento tuvieron envidia de Moisés,\nY de Aarón, el santo del SEÑOR,"
+    },
+    {
+      "id": "salmos106-nbla-17",
+      "number": 17,
+      "text": "La tierra se abrió y tragó a Datán,\nY se cerró sobre el grupo de Abiram."
+    },
+    {
+      "id": "salmos106-nbla-18",
+      "number": 18,
+      "text": "Un fuego ardió contra su grupo,\nLa llama consumió a los impíos."
+    },
+    {
+      "id": "salmos106-nbla-19",
+      "number": 19,
+      "text": "Hicieron un becerro en Horeb,\nY adoraron una imagen de fundición;"
+    },
+    {
+      "id": "salmos106-nbla-20",
+      "number": 20,
+      "text": "Cambiaron su gloria\nPor la imagen de un buey que come hierba."
+    },
+    {
+      "id": "salmos106-nbla-21",
+      "number": 21,
+      "text": "Se olvidaron de Dios su Salvador,\nQue había hecho grandes cosas en Egipto,"
+    },
+    {
+      "id": "salmos106-nbla-22",
+      "number": 22,
+      "text": "Maravillas en la tierra de Cam,\nY cosas asombrosas en el Mar Rojo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos106-nbla-23a",
+          "order": 1,
+          "text": "Él dijo que los hubiera destruido,"
+        },
+        {
+          "id": "salmos106-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "De no haberse puesto Moisés, Su escogido, en la brecha delante de Él,\nA fin de apartar Su furor para que no los destruyera."
+        }
+      ],
+      "id": "salmos106-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "salmos106-nbla-24",
+      "number": 24,
+      "text": "Aborrecieron la tierra deseable,\nNo creyeron en Su palabra,"
+    },
+    {
+      "id": "salmos106-nbla-25",
+      "number": 25,
+      "text": "Sino que murmuraron en sus tiendas,\nY no escucharon la voz del SEÑOR."
+    },
+    {
+      "id": "salmos106-nbla-26",
+      "number": 26,
+      "text": "Por tanto, les juró\nAbatirlos en el desierto,"
+    },
+    {
+      "id": "salmos106-nbla-27",
+      "number": 27,
+      "text": "Y esparcir su simiente entre las naciones,\nY dispersarlos por las tierras."
+    },
+    {
+      "id": "salmos106-nbla-28",
+      "number": 28,
+      "text": "Se unieron también a Baal Peor,\nY comieron sacrificios ofrecidos a los muertos."
+    },
+    {
+      "id": "salmos106-nbla-29",
+      "number": 29,
+      "text": "Lo provocaron a ira con sus actos,\nY la plaga se desató entre ellos."
+    },
+    {
+      "id": "salmos106-nbla-30",
+      "number": 30,
+      "text": "Entonces Finees se levantó e intervino,\nY cesó la plaga."
+    },
+    {
+      "id": "salmos106-nbla-31",
+      "number": 31,
+      "text": "Y le fue contado por justicia\nPor todas las generaciones para siempre."
+    },
+    {
+      "id": "salmos106-nbla-32",
+      "number": 32,
+      "text": "También hicieron que Él se enojara en las aguas de Meriba,\nY le fue mal a Moisés por culpa de ellos,"
+    },
+    {
+      "id": "salmos106-nbla-33",
+      "number": 33,
+      "text": "Puesto que fueron rebeldes contra Su Espíritu,\nY él habló precipitadamente con sus labios."
+    },
+    {
+      "id": "salmos106-nbla-34",
+      "number": 34,
+      "text": "No destruyeron a los pueblos,\nComo el SEÑOR les había mandado,"
+    },
+    {
+      "id": "salmos106-nbla-35",
+      "number": 35,
+      "text": "Sino que se mezclaron con las naciones,\nAprendieron sus costumbres,"
+    },
+    {
+      "id": "salmos106-nbla-36",
+      "number": 36,
+      "text": "Y sirvieron a sus ídolos\nQue se convirtieron en lazo para ellos."
+    },
+    {
+      "id": "salmos106-nbla-37",
+      "number": 37,
+      "text": "Sacrificaron a sus hijos y a sus hijas a los demonios,"
+    },
+    {
+      "id": "salmos106-nbla-38",
+      "number": 38,
+      "text": "Y derramaron sangre inocente,\nLa sangre de sus hijos y de sus hijas,\nA quienes sacrificaron a los ídolos de Canaán,\nY la tierra fue contaminada con sangre."
+    },
+    {
+      "id": "salmos106-nbla-39",
+      "number": 39,
+      "text": "Así se contaminaron en sus costumbres,\nY fueron infieles en sus hechos."
+    },
+    {
+      "id": "salmos106-nbla-40",
+      "number": 40,
+      "text": "Entonces se encendió la ira del SEÑOR contra Su pueblo,\nY Él aborreció Su heredad."
+    },
+    {
+      "id": "salmos106-nbla-41",
+      "number": 41,
+      "text": "Los entregó en mano de las naciones,\nY los que los aborrecían se enseñorearon sobre ellos."
+    },
+    {
+      "id": "salmos106-nbla-42",
+      "number": 42,
+      "text": "Sus enemigos también los oprimieron,\nY fueron subyugados bajo su poder."
+    },
+    {
+      "id": "salmos106-nbla-43",
+      "number": 43,
+      "text": "Muchas veces los libró;\nPero ellos fueron rebeldes en sus propósitos,\nY se hundieron en su iniquidad."
+    },
+    {
+      "id": "salmos106-nbla-44",
+      "number": 44,
+      "text": "Sin embargo, Él vio su angustia\nAl escuchar su clamor,"
+    },
+    {
+      "id": "salmos106-nbla-45",
+      "number": 45,
+      "text": "Y se acordó de Su pacto por amor a ellos,\nY se arrepintió conforme a la grandeza de Su misericordia."
+    },
+    {
+      "id": "salmos106-nbla-46",
+      "number": 46,
+      "text": "Los hizo también objeto de compasión\nEn presencia de todos los que los tenían cautivos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos106-nbla-47a",
+          "order": 1,
+          "text": "Sálvanos, oh SEÑOR, Dios nuestro,"
+        },
+        {
+          "id": "salmos106-nbla-47b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y reúnenos de entre las naciones,"
+        },
+        {
+          "id": "salmos106-nbla-47c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Para dar gracias a Tu santo nombre,\nY para gloriarnos en Tu alabanza."
+        }
+      ],
+      "id": "salmos106-nbla-47",
+      "number": 47
+    },
+    {
+      "id": "salmos106-nbla-48",
+      "number": 48,
+      "text": "Bendito sea el SEÑOR, Dios de Israel,\nDesde la eternidad y hasta la eternidad.\nY todo el pueblo diga: «Amén».\n¡Aleluya!"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

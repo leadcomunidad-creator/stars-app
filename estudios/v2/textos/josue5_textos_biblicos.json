@@ -1,0 +1,475 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios ha debilitado el ánimo de los reyes antes del enfrentamiento. La NBLA fija la pérdida de valor de los habitantes, mientras MSG comunica de manera gráfica el colapso interior producido por las noticias del Jordán. El temor de Canaán no autoriza a Israel a confiarse ni a actuar independientemente; el resto del capítulo muestra que todavía necesita obedecer, recordar y someterse.",
+      "id": "josue5-joya-01",
+      "msg": {
+        "en": "“their hearts sank; the courage drained out of them”.",
+        "es": "“se les vino el corazón al suelo; con solo pensar en los israelitas, se quedaron sin valor”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-01b"
+          ],
+          "verseId": "josue5-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios declara el cierre de una identidad marcada por la esclavitud y el desierto. La NBLA establece que el Señor quitó el oprobio, mientras MSG conserva la imagen de hacerlo rodar lejos, relacionada con el nombre Gilgal. La frase no enseña que una ceremonia humana borre automáticamente la culpa; dentro del pacto, Dios mismo interpreta lo ocurrido como una obra Suya sobre el pueblo.",
+      "id": "josue5-joya-02",
+      "msg": {
+        "en": "“Today I have rolled away the reproach of Egypt.”",
+        "es": "“Hoy he hecho rodar lejos de ustedes la vergüenza de Egipto”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-09b"
+          ],
+          "verseId": "josue5-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "9"
+    },
+    {
+      "explanation": "La provisión extraordinaria del desierto termina cuando Israel comienza a alimentarse de Canaán. La NBLA ubica con precisión el momento del cambio, y MSG permite sentir la brusquedad de la transición. El cese del maná no significa que Dios haya dejado de proveer; indica que Su cuidado adopta una nueva forma dentro de la promesa cumplida.",
+      "id": "josue5-joya-03",
+      "msg": {
+        "en": "“And then no more manna; the manna stopped.”",
+        "es": "“Y entonces no hubo más maná; el maná se acabó”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-12a"
+          ],
+          "verseId": "josue5-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "11-12"
+    },
+    {
+      "explanation": "Josué intenta comprender la aparición mediante las categorías humanas del conflicto. Las dos versiones conservan su pregunta directa, pero el contexto mostrará que la autoridad divina no puede reducirse a esas alternativas. La pregunta expone una tendencia permanente: buscar que Dios confirme nuestro bando en lugar de someternos primero a Su gobierno.",
+      "id": "josue5-joya-04",
+      "msg": {
+        "en": "“Whose side are you on—ours or our enemies’?”",
+        "es": "“¿De qué lado estás: del nuestro o del de nuestros enemigos?”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-13b"
+          ],
+          "verseId": "josue5-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "13"
+    },
+    {
+      "explanation": "El comandante no se presenta como refuerzo subordinado a Josué, sino como autoridad del ejército del Señor. La NBLA protege el centro de la declaración: él viene como capitán del ejército divino. MSG vuelve explícito el rechazo de las categorías planteadas por Josué. El texto no afirma que Dios sea moralmente neutral; enseña que Su autoridad no puede ser apropiada por ningún bando humano.",
+      "id": "josue5-joya-05",
+      "msg": {
+        "en": "“Neither. I’m commander of GOD’s army. I’ve just arrived.”",
+        "es": "“Ninguno de los dos. Soy el comandante del ejército de DIOS. Acabo de llegar”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-14b"
+          ],
+          "verseId": "josue5-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14"
+    },
+    {
+      "explanation": "La preparación decisiva para Jericó es reconocer la santidad de la presencia divina. La NBLA conserva el mandato y su razón; MSG comunica la orden con fuerza inmediata. La santidad no procede del suelo en sí mismo, sino de la presencia del Señor. Josué no recibe primero una táctica, sino una postura: debe humillarse y obedecer.",
+      "id": "josue5-joya-06",
+      "msg": {
+        "en": "“Take your sandals off your feet. The place you are standing is holy.”",
+        "es": "“Quítate las sandalias. El lugar donde estás es santo”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue5-nbla-15b"
+          ],
+          "verseId": "josue5-nbla-15"
+        }
+      ],
+      "order": 6,
+      "range": "15"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 5,
+    "studyId": "josue-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "josue5-msg-01",
+      "msg": {
+        "en": "When all the Amorite kings west of the Jordan and the Canaanite kings along the seacoast heard how GOD had stopped the Jordan River before the People of Israel until they had crossed over, their hearts sank; the courage drained out of them just thinking about the People of Israel.",
+        "es": "Cuando todos los reyes amorreos al occidente del Jordán y los reyes cananeos de la costa oyeron cómo DIOS había detenido el río Jordán delante del pueblo de Israel hasta que terminaron de cruzar, se les vino el corazón al suelo; con solo pensar en los israelitas, se quedaron sin valor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "josue5-msg-02",
+      "msg": {
+        "en": "At that time GOD said to Joshua, “Make stone knives and circumcise the People of Israel a second time.” So Joshua made stone knives and circumcised the People of Israel at Foreskins Hill.",
+        "es": "En aquel tiempo DIOS le dijo a Josué: «Haz cuchillos de piedra y circuncida de nuevo al pueblo de Israel». Josué hizo los cuchillos de piedra y circuncidó a los israelitas en la Colina de los Prepucios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "josue5-msg-03",
+      "msg": {
+        "en": "This is why Joshua conducted the circumcision. All the males who had left Egypt, the soldiers, had died in the wilderness on the journey out of Egypt. All the people who had come out of Egypt, of course, had been circumcised, but all those born in the wilderness along the way since leaving Egypt had not been. The fact is that the People of Israel had walked through that wilderness for forty years until the entire nation died out, all the men of military age who had come out of Egypt but had disobeyed the call of GOD. GOD vowed that these would never lay eyes on the land GOD had solemnly promised their ancestors to give us, a land flowing with milk and honey. But their children had replaced them. These are the ones Joshua circumcised. They had never been circumcised; no one had circumcised them along the way.",
+        "es": "Esta es la razón por la que Josué realizó la circuncisión. Todos los varones que habían salido de Egipto, los soldados, murieron en el desierto durante el viaje. Quienes salieron de Egipto habían sido circuncidados, por supuesto, pero no los que nacieron en el desierto después de la salida.\n\nEl pueblo de Israel recorrió aquel desierto durante cuarenta años, hasta que murió toda aquella generación: todos los hombres en edad militar que habían salido de Egipto y desobedecieron el llamado de DIOS. DIOS juró que nunca verían la tierra que había prometido solemnemente a sus antepasados entregarnos, una tierra rebosante de leche y miel.\n\nSus hijos ocuparon su lugar. A ellos circuncidó Josué. Nunca habían sido circuncidados; nadie lo había hecho durante el camino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "josue5-msg-04",
+      "msg": {
+        "en": "When they had completed the circumcising of the whole nation, they stayed where they were in camp until they were healed.",
+        "es": "Cuando terminaron de circuncidar a toda la nación, permanecieron en el campamento hasta que sanaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "josue5-msg-05",
+      "msg": {
+        "en": "GOD said to Joshua, “Today I have rolled away the reproach of Egypt.” That’s why the place is called The Gilgal. It’s still called that.",
+        "es": "DIOS le dijo a Josué: «Hoy he hecho rodar lejos de ustedes la vergüenza de Egipto». Por eso aquel lugar recibió el nombre de Gilgal. Todavía se llama así."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "josue5-msg-06",
+      "msg": {
+        "en": "The People of Israel continued to camp at The Gilgal. They celebrated the Passover on the evening of the fourteenth day of the month on the plains of Jericho.",
+        "es": "El pueblo de Israel permaneció acampado en Gilgal. Allí celebraron la Pascua al anochecer del día catorce del mes, en los llanos de Jericó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "josue5-msg-07",
+      "msg": {
+        "en": "Right away, the day after the Passover, they started eating the produce of that country, unraised bread and roasted grain. And then no more manna; the manna stopped. As soon as they started eating food grown in the land, there was no more manna for the People of Israel. That year they ate from the crops of Canaan.",
+        "es": "Inmediatamente, al día siguiente de la Pascua, comenzaron a comer de los productos de aquella tierra: pan sin levadura y grano tostado. Y entonces no hubo más maná; el maná se acabó. En cuanto comenzaron a comer los alimentos producidos en la tierra, el pueblo de Israel no volvió a recibir maná. Aquel año comieron de las cosechas de Canaán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "josue5-msg-08",
+      "msg": {
+        "en": "And then this, while Joshua was there near Jericho: He looked up and saw right in front of him a man standing, holding his drawn sword. Joshua stepped up to him and said, “Whose side are you on—ours or our enemies’?”",
+        "es": "Entonces ocurrió esto mientras Josué estaba cerca de Jericó: levantó la mirada y vio frente a él a un hombre de pie, con la espada desenvainada en la mano. Josué se acercó y le preguntó: «¿De qué lado estás: del nuestro o del de nuestros enemigos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14",
+      "id": "josue5-msg-09",
+      "msg": {
+        "en": "He said, “Neither. I’m commander of GOD’s army. I’ve just arrived.” Joshua fell, face to the ground, and worshiped. He asked, “What orders does my Master have for his servant?”",
+        "es": "Él respondió: «Ninguno de los dos. Soy el comandante del ejército de DIOS. Acabo de llegar». Josué cayó rostro en tierra y adoró. Luego preguntó: «¿Qué órdenes tiene mi Señor para su servidor?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-14"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "15",
+      "id": "josue5-msg-10",
+      "msg": {
+        "en": "GOD’s army commander ordered Joshua, “Take your sandals off your feet. The place you are standing is holy.”\nJoshua did it.",
+        "es": "El comandante del ejército de DIOS le ordenó a Josué: «Quítate las sandalias. El lugar donde estás es santo».\nJosué lo hizo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue5-nbla-15"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-01a",
+          "order": 1,
+          "text": "Cuando todos los reyes de los amorreos que estaban al otro lado del Jordán hacia el occidente, y todos los reyes de los cananeos que estaban junto al mar, oyeron cómo el SEÑOR había secado las aguas del Jordán delante de los israelitas hasta que ellos habían pasado,"
+        },
+        {
+          "id": "josue5-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "sus corazones se acobardaron, y ya no había ánimo en ellos"
+        },
+        {
+          "id": "josue5-nbla-01c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "a causa de los israelitas."
+        }
+      ],
+      "id": "josue5-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "josue5-nbla-02",
+      "number": 2,
+      "text": "En aquel tiempo el SEÑOR dijo a Josué: «Hazte cuchillos de pedernal y vuelve a hacer la circuncisión, por segunda vez, a los israelitas»."
+    },
+    {
+      "id": "josue5-nbla-03",
+      "number": 3,
+      "text": "Entonces Josué hizo cuchillos de pedernal y circuncidó a los israelitas en la colina de Aralot."
+    },
+    {
+      "id": "josue5-nbla-04",
+      "number": 4,
+      "text": "Esta es la razón por la cual Josué los circuncidó: todos los del pueblo que salieron de Egipto que eran varones, todos los hombres de guerra, murieron en el desierto, por el camino, después que salieron de Egipto."
+    },
+    {
+      "id": "josue5-nbla-05",
+      "number": 5,
+      "text": "Porque todos los del pueblo que salieron fueron circuncidados, pero todos los del pueblo que nacieron en el desierto, por el camino, después de salir de Egipto, no habían sido circuncidados."
+    },
+    {
+      "id": "josue5-nbla-06",
+      "number": 6,
+      "text": "Pues los israelitas anduvieron por el desierto cuarenta años, hasta que pereció toda la nación, es decir, los hombres de guerra que salieron de Egipto, porque no escucharon la voz del SEÑOR. A ellos el SEÑOR les juró que no les permitiría ver la tierra que el SEÑOR había jurado a sus padres que nos daría, una tierra que mana leche y miel."
+    },
+    {
+      "id": "josue5-nbla-07",
+      "number": 7,
+      "text": "Y a los hijos de ellos, que Él levantó en su lugar, Josué los circuncidó; pues eran incircuncisos, porque no los habían circuncidado en el camino."
+    },
+    {
+      "id": "josue5-nbla-08",
+      "number": 8,
+      "text": "Cuando terminaron de circuncidar a toda la nación, permanecieron en sus lugares en el campamento hasta que sanaron."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-09a",
+          "order": 1,
+          "text": "Entonces el SEÑOR dijo a Josué: «"
+        },
+        {
+          "id": "josue5-nbla-09b",
+          "order": 2,
+          "text": "Hoy he quitado de ustedes el oprobio de Egipto"
+        },
+        {
+          "id": "josue5-nbla-09c",
+          "order": 3,
+          "text": "». Por eso aquel lugar se ha llamado Gilgal hasta hoy."
+        }
+      ],
+      "id": "josue5-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "josue5-nbla-10",
+      "number": 10,
+      "text": "Estando los israelitas acampados en Gilgal, celebraron la Pascua en la noche del día catorce del mes en los llanos de Jericó."
+    },
+    {
+      "id": "josue5-nbla-11",
+      "number": 11,
+      "text": "El día después de la Pascua, ese mismo día, comieron del producto de la tierra, panes sin levadura y cereal tostado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-12a",
+          "order": 1,
+          "text": "El maná cesó el día después que habían comido del producto de la tierra"
+        },
+        {
+          "id": "josue5-nbla-12b",
+          "order": 2,
+          "text": ", y los israelitas no tuvieron más maná, sino que comieron del producto de la tierra de Canaán durante aquel año."
+        }
+      ],
+      "id": "josue5-nbla-12",
+      "number": 12
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-13a",
+          "order": 1,
+          "text": "Cuando Josué estaba ya cerca de Jericó, levantó los ojos y vio que un hombre estaba frente a él con una espada desenvainada en la mano, y Josué fue hacia él y le dijo: «"
+        },
+        {
+          "id": "josue5-nbla-13b",
+          "order": 2,
+          "text": "¿Es usted de los nuestros o de nuestros enemigos?»."
+        }
+      ],
+      "id": "josue5-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-14a",
+          "order": 1,
+          "text": "«No», respondió; «"
+        },
+        {
+          "id": "josue5-nbla-14b",
+          "order": 2,
+          "text": "más bien yo vengo ahora como capitán del ejército del SEÑOR"
+        },
+        {
+          "id": "josue5-nbla-14c",
+          "order": 3,
+          "text": "». Y Josué se postró en tierra, le hizo reverencia, y dijo: «¿Qué tiene que decirle mi señor a su siervo?»."
+        }
+      ],
+      "id": "josue5-nbla-14",
+      "number": 14
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue5-nbla-15a",
+          "order": 1,
+          "text": "Entonces el capitán del ejército del SEÑOR dijo a Josué: «"
+        },
+        {
+          "id": "josue5-nbla-15b",
+          "order": 2,
+          "text": "Quítate las sandalias de tus pies, porque el lugar donde estás es santo"
+        },
+        {
+          "id": "josue5-nbla-15c",
+          "order": 3,
+          "text": "». Y así lo hizo Josué."
+        }
+      ],
+      "id": "josue5-nbla-15",
+      "number": 15
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

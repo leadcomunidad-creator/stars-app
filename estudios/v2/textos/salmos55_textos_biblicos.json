@@ -1,0 +1,494 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios puede ser buscado como alguien cercano en medio de la angustia. La NBLA fija la petición de atención y respuesta. MSG vuelve esa necesidad más íntima mediante la imagen de Dios acercándose y susurrando. La expresión no implica que toda respuesta divina llegará como una voz perceptible; comunica el anhelo de una presencia personal que atraviese el ruido del conflicto.",
+      "id": "salmos55-joya-01",
+      "msg": {
+        "en": "“Come close and whisper your answer.”",
+        "es": "“Acércate y susúrrame tu respuesta.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos55-nbla-02a"
+          ],
+          "verseId": "salmos55-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "El agotamiento puede producir un deseo legítimo de distancia y descanso. La NBLA expresa el anhelo de volar y hallar reposo. MSG conserva la pregunta desesperada de quien quiere escapar del entorno que lo está quebrando. El texto no convierte toda evasión en sabiduría, pero reconoce que buscar seguridad puede ser necesario cuando una persona está siendo sometida a violencia.",
+      "id": "salmos55-joya-02",
+      "msg": {
+        "en": "“Who will give me wings,” I ask— “wings like a dove?”",
+        "es": "“«¿Quién me dará alas?», pregunto; «¿alas como las de una paloma?».”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos55-nbla-06b"
+          ],
+          "verseId": "salmos55-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "4-8"
+    },
+    {
+      "explanation": "La cercanía aumenta el peso de la traición porque existía confianza compartida. La NBLA define al responsable como compañero e íntimo amigo. MSG vuelve visible la incredulidad del salmista al reconocer quién lo hirió. El texto no enseña a sospechar de toda amistad, sino que valida el dolor particular producido cuando alguien utiliza la intimidad para quebrantar un pacto.",
+      "id": "salmos55-joya-03",
+      "msg": {
+        "en": "“It’s you! We grew up together! You! My best friend!”",
+        "es": "“¡Eres tú! ¡Crecimos juntos! ¡Tú, mi mejor amigo!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "12-14"
+    },
+    {
+      "explanation": "David responde a una situación que no puede controlar dirigiéndose continuamente a Dios. La NBLA establece su decisión de invocar al Señor. MSG conserva la sencillez del movimiento: frente a quienes conspiran y traicionan, él clama. La oración no reemplaza medidas responsables de protección, pero impide que el miedo y la venganza se conviertan en sus únicos consejeros.",
+      "id": "salmos55-joya-04",
+      "msg": {
+        "en": "“I call to God;”",
+        "es": "“Yo clamo a Dios;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos55-nbla-16a"
+          ],
+          "verseId": "salmos55-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16-19"
+    },
+    {
+      "explanation": "Las palabras agradables no garantizan intenciones pacíficas. La NBLA contrasta la suavidad externa con las espadas ocultas. MSG presenta el cambio experimentado por la víctima: aquello que antes parecía música termina revelándose como un arma. El texto llama a discernir la coherencia entre palabras, conducta y fidelidad al pacto, sin convertir toda amabilidad en motivo de sospecha.",
+      "id": "salmos55-joya-05",
+      "msg": {
+        "en": "“His words, which were music to my ears, turned to daggers in my heart.”",
+        "es": "“Sus palabras, que eran música para mis oídos, se convirtieron en dagas dentro de mi corazón.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos55-nbla-21b"
+          ],
+          "verseId": "salmos55-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "20-21"
+    },
+    {
+      "explanation": "Dios no exige que el herido sostenga indefinidamente un peso que lo sobrepasa. La NBLA promete que el Señor sustentará a quien deposita en Él su carga. MSG hace visible esa acción mediante los hombros capaces de llevar aquello que nosotros ya no podemos cargar. La promesa no elimina automáticamente el proceso, las consecuencias o la necesidad de ayuda comunitaria; afirma que Dios participa activamente sosteniendo la vida.",
+      "id": "salmos55-joya-06",
+      "msg": {
+        "en": "“Pile your troubles on GOD’S shoulders— he’ll carry your load, he’ll help you out.”",
+        "es": "“Pon tus problemas sobre los hombros de Dios: él llevará tu carga, él te ayudará.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos55-nbla-22a"
+          ],
+          "verseId": "salmos55-nbla-22"
+        }
+      ],
+      "order": 6,
+      "range": "22-23"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 55,
+    "studyId": "salmos-55"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos55-msg-01",
+      "msg": {
+        "en": "Open your ears, God, to my prayer;\ndon’t pretend you don’t hear me knocking.\nCome close and whisper your answer.\nI really need you.\nI shudder at the mean voice,\nquail before the evil eye,\nAs they pile on the guilt,\nstockpile angry slander.",
+        "es": "Abre tus oídos, Dios, a mi oración;\nno finjas que no me oyes tocar la puerta.\nAcércate y susúrrame tu respuesta.\nDe verdad te necesito.\nTiemblo ante esa voz cruel,\nme acobardo ante esa mirada maligna,\nmientras acumulan culpa sobre mí\ny almacenan calumnias llenas de rabia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-8",
+      "id": "salmos55-msg-02",
+      "msg": {
+        "en": "My insides are turned inside out;\nspecters of death have me down.\nI shake with fear,\nI shudder from head to foot.\n“Who will give me wings,” I ask—\n“wings like a dove?”\nGet me out of here on dove wings;\nI want some peace and quiet.\nI want a walk in the country,\nI want a cabin in the woods.\nI’m desperate for a change\nfrom rage and stormy weather.",
+        "es": "Siento que se me revuelven las entrañas;\nlas sombras de la muerte me tienen abatido.\nTiemblo de miedo,\nme estremezco de pies a cabeza.\n«¿Quién me dará alas?», pregunto;\n«¿alas como las de una paloma?».\nSácame de aquí sobre alas de paloma;\nquiero un poco de paz y silencio.\nQuiero caminar por el campo,\nquiero una cabaña en el bosque.\nEstoy desesperado por escapar\nde tanta furia y de este tiempo tempestuoso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "salmos55-msg-03",
+      "msg": {
+        "en": "Come down hard, Lord—slit their tongues.\nI’m appalled how they’ve split the city\nInto rival gangs\nprowling the alleys\nDay and night spoiling for a fight,\ntrash piled in the streets,\nEven shopkeepers gouging and cheating\nin broad daylight.",
+        "es": "Actúa con firmeza, Señor: córtales la lengua.\nMe horroriza ver cómo han dividido la ciudad\nen grupos rivales\nque merodean por los callejones\ndía y noche, buscando pelea,\ncon basura amontonada en las calles\ny comerciantes que estafan y engañan\na plena luz del día."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "salmos55-msg-04",
+      "msg": {
+        "en": "This isn’t the neighborhood bully\nmocking me—I could take that.\nThis isn’t a foreign devil spitting\ninvective—I could tune that out.\nIt’s you! We grew up together!\nYou! My best friend!\nThose long hours of leisure as we walked\narm in arm, God a third party to our conversation.",
+        "es": "No es el abusivo del vecindario\nquien se burla de mí; eso podría soportarlo.\nNo es un enemigo extranjero que me escupe\ninsultos; podría dejar de escucharlo.\n¡Eres tú! ¡Crecimos juntos!\n¡Tú, mi mejor amigo!\nCuántas horas tranquilas pasamos caminando\ndel brazo, con Dios como tercero en nuestra conversación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15",
+      "id": "salmos55-msg-05",
+      "msg": {
+        "en": "Haul my betrayers off alive to hell—let them\nexperience the horror, let them\nfeel every desolate detail of a damned life.",
+        "es": "Arrastra vivos al infierno a quienes me traicionaron;\nque experimenten el horror,\nque sientan cada detalle desolador\nde una vida condenada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-15"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "salmos55-msg-06",
+      "msg": {
+        "en": "I call to God;\nGOD in the middle of danger\nEven while thousands\nare lined up against me.\nGod hears it all, and from his judge’s bench\nputs them in their place.\nBut, set in their ways, they won’t change;\nthey pay him no mind.",
+        "es": "Yo clamo a Dios;\nen medio del peligro,\naunque miles se alineen contra mí,\nDios lo oye todo y, desde su tribunal,\npone a cada uno en su lugar.\nPero ellos, aferrados a sus costumbres, no cambiarán;\nno le prestan atención."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-19"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "salmos55-msg-07",
+      "msg": {
+        "en": "And this, my best friend, betrayed his best friends;\nhis life betrayed his word.\nAll my life I’ve been charmed by his speech,\nnever dreaming he’d turn on me.\nHis words, which were music to my ears,\nturned to daggers in my heart.",
+        "es": "Y este, mi mejor amigo, traicionó a sus amigos más cercanos;\nsu vida contradijo su palabra.\nToda mi vida me había cautivado su manera de hablar,\nsin imaginar jamás que se volvería contra mí.\nSus palabras, que eran música para mis oídos,\nse convirtieron en dagas dentro de mi corazón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-21"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "salmos55-msg-08",
+      "msg": {
+        "en": "Pile your troubles on GOD’S shoulders—\nhe’ll carry your load, he’ll help you out.\nHe’ll never let good people\ntopple into ruin.\nBut you, God, will throw the others\ninto a muddy bog,\nCut the lifespan of assassins\nand traitors in half.\nAnd I trust in you.",
+        "es": "Pon tus problemas sobre los hombros de Dios:\nél llevará tu carga, él te ayudará.\nNunca permitirá que la gente justa\ncaiga hasta la ruina.\nPero tú, Dios, arrojarás a los demás\na un pantano de lodo;\nacortarás a la mitad la vida\nde asesinos y traidores.\nY yo confío en ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos55-nbla-23"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos55-nbla-01",
+      "number": 1,
+      "text": "Escucha, oh Dios, mi oración,\nY no te escondas de mi súplica."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos55-nbla-02a",
+          "order": 1,
+          "text": "Atiéndeme y respóndeme;"
+        },
+        {
+          "id": "salmos55-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Conmovido estoy en mi queja y muy conturbado,"
+        }
+      ],
+      "id": "salmos55-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "salmos55-nbla-03",
+      "number": 3,
+      "text": "A causa de la voz del enemigo,\nPor la opresión del impío;\nPorque echan iniquidad sobre mí,\nY con furia me persiguen."
+    },
+    {
+      "id": "salmos55-nbla-04",
+      "number": 4,
+      "text": "Angustiado está mi corazón dentro de mí,\nY sobre mí han caído los terrores de la muerte."
+    },
+    {
+      "id": "salmos55-nbla-05",
+      "number": 5,
+      "text": "Terror y temblor me invaden,\nY horror me ha cubierto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos55-nbla-06a",
+          "order": 1,
+          "text": "Y dije: «"
+        },
+        {
+          "id": "salmos55-nbla-06b",
+          "order": 2,
+          "text": "¡Quién me diera alas como de paloma!\nVolaría y hallaría reposo."
+        }
+      ],
+      "id": "salmos55-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "salmos55-nbla-07",
+      "number": 7,
+      "text": "Ciertamente huiría muy lejos;\nMoraría en el desierto. (Selah)"
+    },
+    {
+      "id": "salmos55-nbla-08",
+      "number": 8,
+      "text": "Me apresuraría a buscar mi lugar de refugio\nContra el viento borrascoso y la tempestad»."
+    },
+    {
+      "id": "salmos55-nbla-09",
+      "number": 9,
+      "text": "Confunde, Señor, divide sus lenguas,\nPorque he visto violencia y rencilla en la ciudad."
+    },
+    {
+      "id": "salmos55-nbla-10",
+      "number": 10,
+      "text": "Día y noche la rondan sobre sus muros,\nY en medio de ella hay iniquidad y malicia."
+    },
+    {
+      "id": "salmos55-nbla-11",
+      "number": 11,
+      "text": "Hay destrucción en medio de ella,\nY la opresión y el engaño no se alejan de sus calles."
+    },
+    {
+      "id": "salmos55-nbla-12",
+      "number": 12,
+      "text": "Porque no es un enemigo el que me reprocha,\nSi así fuera, podría soportarlo;\nNi es uno que me odia el que se ha alzado contra mí,\nSi así fuera, podría ocultarme de él;"
+    },
+    {
+      "id": "salmos55-nbla-13",
+      "number": 13,
+      "text": "Sino tú, que eres mi igual,\nMi compañero, mi íntimo amigo;"
+    },
+    {
+      "id": "salmos55-nbla-14",
+      "number": 14,
+      "text": "Nosotros que juntos teníamos dulce comunión,\nQue con la multitud andábamos en la casa de Dios."
+    },
+    {
+      "id": "salmos55-nbla-15",
+      "number": 15,
+      "text": "Que la muerte sorprenda a mis enemigos,\nQue desciendan vivos al Seol,\nPorque la maldad está en su morada, en medio de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos55-nbla-16a",
+          "order": 1,
+          "text": "En cuanto a mí, a Dios invocaré,"
+        },
+        {
+          "id": "salmos55-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el SEÑOR me salvará."
+        }
+      ],
+      "id": "salmos55-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "salmos55-nbla-17",
+      "number": 17,
+      "text": "Tarde, mañana y mediodía me lamentaré y gemiré,\nY Él oirá mi voz."
+    },
+    {
+      "id": "salmos55-nbla-18",
+      "number": 18,
+      "text": "En paz redimirá mi alma de la guerra que hay contra mí,\nPues son muchos los que están contra mí."
+    },
+    {
+      "id": "salmos55-nbla-19",
+      "number": 19,
+      "text": "Dios oirá y les responderá,\nÉl, que reina desde la antigüedad, (Selah)\nPorque no hay cambio en ellos\nNi temen a Dios."
+    },
+    {
+      "id": "salmos55-nbla-20",
+      "number": 20,
+      "text": "Aquel ha extendido sus manos contra los que estaban en paz con él,\nHa violado su pacto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos55-nbla-21a",
+          "order": 1,
+          "text": "Las palabras de su boca eran más blandas que la mantequilla,\nPero en su corazón había guerra;"
+        },
+        {
+          "id": "salmos55-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Más suaves que el aceite eran sus palabras,\nSin embargo, eran espadas desnudas."
+        }
+      ],
+      "id": "salmos55-nbla-21",
+      "number": 21
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos55-nbla-22a",
+          "order": 1,
+          "text": "Echa sobre el SEÑOR tu carga, y Él te sustentará;"
+        },
+        {
+          "id": "salmos55-nbla-22b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Él nunca permitirá que el justo sea sacudido."
+        }
+      ],
+      "id": "salmos55-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "salmos55-nbla-23",
+      "number": 23,
+      "text": "Pero Tú, oh Dios, harás caer a los malvados en el pozo de la destrucción;\nLos hombres sanguinarios y engañadores no vivirán la mitad de sus días;\nPero yo en Ti confiaré."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

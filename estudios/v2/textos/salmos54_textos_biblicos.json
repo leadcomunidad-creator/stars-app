@@ -1,0 +1,297 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La salvación se apoya en la identidad y el carácter de Dios. La NBLA fija esta verdad mediante la apelación al nombre divino. MSG la vuelve pastoralmente directa: David pide ayuda por causa de quien Dios es, no porque él pueda presentarse como autosuficiente. La expresión no convierte el nombre de Dios en una fórmula automática; es una confianza rendida en su carácter.",
+      "id": "salmos54-joya-01",
+      "msg": {
+        "en": "“God, for your sake, help me!”",
+        "es": "“Dios, por causa de quien eres, ¡ayúdame!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos54-nbla-01a"
+          ],
+          "verseId": "salmos54-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "David necesita la atención personal de Dios en medio de la desesperación. La NBLA expresa directamente la petición de ser oído. MSG utiliza el lenguaje cotidiano de alguien que teme no encontrar espacio para su clamor. La imagen no enseña que Dios pueda distraerse o quedar sobrecargado; comunica la urgencia humana de saber que nuestra oración ha sido recibida.",
+      "id": "salmos54-joya-02",
+      "msg": {
+        "en": "“Don’t be too busy to hear me.”",
+        "es": "“No estés tan ocupado que no puedas oírme.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos54-nbla-02b"
+          ],
+          "verseId": "salmos54-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La violencia de los enemigos nace de vivir sin considerar la presencia ni el juicio de Dios. La NBLA fija la idea de no colocar a Dios delante de la conciencia. MSG la expresa como una indiferencia práctica: Dios no tiene peso en sus decisiones. El texto no pretende juzgar cada duda intelectual, sino exponer una vida en la que Dios ha sido excluido deliberadamente de la conducta.",
+      "id": "salmos54-joya-03",
+      "msg": {
+        "en": "“God means nothing to them.”",
+        "es": "“Dios no significa nada para ellos.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos54-nbla-03b"
+          ],
+          "verseId": "salmos54-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3"
+    },
+    {
+      "explanation": "La presencia de Dios constituye el giro del salmo. La NBLA declara que Él es el ayudador de David. MSG comunica esa verdad con asombro e inmediatez: en medio del peligro, David descubre que Dios ya está allí. Esto no promete que toda amenaza desaparecerá de inmediato; afirma que el creyente nunca enfrenta la angustia fuera del alcance de la ayuda divina.",
+      "id": "salmos54-joya-04",
+      "msg": {
+        "en": "“Oh, look! God’s right here helping!”",
+        "es": "“¡Mira! ¡Dios está aquí mismo, ayudándome!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos54-nbla-04a"
+          ],
+          "verseId": "salmos54-nbla-04"
+        }
+      ],
+      "order": 4,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La ayuda de Dios despierta una adoración libre y agradecida. La NBLA establece el carácter voluntario del sacrificio. MSG muestra la disposición interior de David: ya no está paralizado únicamente por la amenaza, sino preparado para responder a la bondad de Dios. La adoración no compra la liberación; nace de haber reconocido al Dios que sostiene y rescata.",
+      "id": "salmos54-joya-05",
+      "msg": {
+        "en": "“I’m ready now to worship, so ready.”",
+        "es": "“Ahora estoy listo para adorarte, completamente listo.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos54-nbla-06a"
+          ],
+          "verseId": "salmos54-nbla-06"
+        }
+      ],
+      "order": 5,
+      "range": "6-7"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 54,
+    "studyId": "salmos-54"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos54-msg-01",
+      "msg": {
+        "en": "God, for your sake, help me!\nUse your influence to clear me.\nListen, God—I’m desperate.\nDon’t be too busy to hear me.",
+        "es": "Dios, por causa de quien eres, ¡ayúdame!\nUsa tu influencia para reivindicarme.\nEscúchame, Dios; estoy desesperado.\nNo estés tan ocupado que no puedas oírme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "salmos54-msg-02",
+      "msg": {
+        "en": "Outlaws are out to get me,\nhit men are trying to kill me.\nNothing will stop them;\nGod means nothing to them.",
+        "es": "Los criminales vienen por mí;\nunos sicarios intentan matarme.\nNada los detendrá;\nDios no significa nada para ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos54-msg-03",
+      "msg": {
+        "en": "Oh, look! God’s right here helping!\nGOD’S on my side,\nEvil is looping back on my enemies.\nDon’t let up! Finish them off!",
+        "es": "¡Mira! ¡Dios está aquí mismo, ayudándome!\nDios está de mi lado.\nEl mal está volviendo sobre mis enemigos.\n¡No aflojes! ¡Acaba con ellos!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos54-msg-04",
+      "msg": {
+        "en": "I’m ready now to worship, so ready.\nI thank you, GOD—you’re so good.\nYou got me out of every scrape,\nand I saw my enemies get it.",
+        "es": "Ahora estoy listo para adorarte, completamente listo.\nTe doy gracias, Dios: eres tan bueno.\nMe sacaste de cada aprieto\ny vi cómo mis enemigos recibían su merecido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos54-nbla-07"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos54-nbla-01a",
+          "order": 1,
+          "text": "¡Sálvame! Oh Dios, por Tu nombre,"
+        },
+        {
+          "id": "salmos54-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y hazme justicia con Tu poder."
+        }
+      ],
+      "id": "salmos54-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos54-nbla-02a",
+          "order": 1,
+          "text": "Escucha mi oración, oh Dios,"
+        },
+        {
+          "id": "salmos54-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Presta oído a las palabras de mi boca."
+        }
+      ],
+      "id": "salmos54-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos54-nbla-03a",
+          "order": 1,
+          "text": "Porque extraños se han levantado contra mí,\nY hombres violentos buscan mi vida;"
+        },
+        {
+          "id": "salmos54-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "No han puesto a Dios delante de sí."
+        },
+        {
+          "id": "salmos54-nbla-03c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "(Selah)"
+        }
+      ],
+      "id": "salmos54-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos54-nbla-04a",
+          "order": 1,
+          "text": "Pero Dios es el que me ayuda;"
+        },
+        {
+          "id": "salmos54-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El Señor es el que sostiene mi alma."
+        }
+      ],
+      "id": "salmos54-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos54-nbla-05",
+      "number": 5,
+      "text": "Él devolverá el mal a mis enemigos;\nDestrúyelos por Tu fidelidad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos54-nbla-06a",
+          "order": 1,
+          "text": "Voluntariamente sacrificaré a Ti;"
+        },
+        {
+          "id": "salmos54-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Alabaré Tu nombre, oh SEÑOR, porque es bueno."
+        }
+      ],
+      "id": "salmos54-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "salmos54-nbla-07",
+      "number": 7,
+      "text": "Porque Él me ha librado de toda angustia,\nY mis ojos han visto a mis enemigos derrotados."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

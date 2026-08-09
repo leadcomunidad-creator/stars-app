@@ -1,0 +1,389 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La primera verdad del capítulo es que Dios toma la iniciativa. La NBLA conserva con sencillez el hecho textual: el SEÑOR llama y habla desde el santuario. MSG mantiene ese mismo movimiento con fuerza inmediata. Antes de la respuesta del adorador está la palabra de Dios; por eso el sacrificio no nace de creatividad religiosa, sino de una invitación revelada por Él.",
+      "id": "levitico1-joya-01",
+      "msg": {
+        "en": "\"GOD called Moses and spoke to him from the Tent of Meeting\"",
+        "es": "\"DIOS llamó a Moisés y le habló desde la Tienda de Reunión\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El acercamiento es personal. La NBLA fija la acción concreta que Dios ordena: el oferente pone su mano sobre el animal. MSG conserva esa cercanía física y directa. El gesto no permite que el adorador observe el sacrificio como un trámite que realizan otros; participa personalmente en la ofrenda presentada delante de Dios.",
+      "id": "levitico1-joya-02",
+      "msg": {
+        "en": "\"Lay your hand on the head of the Whole-Burnt-Offering\"",
+        "es": "\"Pon tu mano sobre la cabeza de la Ofrenda Totalmente Quemada\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico1-nbla-04a"
+          ],
+          "verseId": "levitico1-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-9"
+    },
+    {
+      "explanation": "La aceptación delante de Dios está vinculada a la expiación que Él ha dispuesto. La NBLA protege el sentido preciso: el holocausto es aceptado para expiación del oferente. MSG hace visible la dimensión personal con «en tu favor» y «por ti». No debemos ampliar esta frase hasta convertir Levítico 1 en una explicación completa de toda la doctrina de la expiación, pero tampoco podemos reducir el rito a mera expresión emocional de entrega.",
+      "id": "levitico1-joya-03",
+      "msg": {
+        "en": "\"so that it may be accepted on your behalf to make atonement for you\"",
+        "es": "\"para que sea aceptada en tu favor y haga expiación por ti\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico1-nbla-04b"
+          ],
+          "verseId": "levitico1-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-9"
+    },
+    {
+      "explanation": "El holocausto es una ofrenda completa. La NBLA establece explícitamente que todo es quemado como holocausto; MSG resalta la totalidad con una frase directa: «lo quemará todo». La fuerza pastoral de la imagen está en la ausencia de reservas, pero el texto no enseña que la aceptación se compre mediante sacrificio personal extremo. Primero está la provisión de Dios; después, la entrega total.",
+      "id": "levitico1-joya-04",
+      "msg": {
+        "en": "\"The priest will burn it all on the Altar\"",
+        "es": "\"El sacerdote lo quemará todo sobre el Altar\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico1-nbla-09b"
+          ],
+          "verseId": "levitico1-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "3-9"
+    },
+    {
+      "explanation": "Dios autoriza también aves para el holocausto. La NBLA confirma las especies permitidas y MSG expresa la opción de manera sencilla. Levítico 1 no dice que la razón de esta alternativa sea la pobreza; esa relación aparece explícitamente en Levítico 5:7 y 12:8. Por eso la aplicación económica es legítima dentro del sistema levítico, pero no debe presentarse como una afirmación explícita de este versículo.",
+      "id": "levitico1-joya-05",
+      "msg": {
+        "en": "\"it can be either a dove or a pigeon\"",
+        "es": "\"puede ser una tórtola o un pichón\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico1-nbla-14b"
+          ],
+          "verseId": "levitico1-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14-17"
+    },
+    {
+      "explanation": "El capítulo termina cada forma de holocausto con aceptación, no con repulsión. La NBLA conserva el lenguaje ritual de «aroma agradable» y MSG lo mantiene de forma directa. No significa que Dios disfrute físicamente del olor de carne quemada; es lenguaje sacrificial que comunica que la ofrenda realizada conforme a Su palabra es recibida favorablemente.",
+      "id": "levitico1-joya-06",
+      "msg": {
+        "en": "\"a pleasing fragrance to GOD\"",
+        "es": "\"un aroma agradable para DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico1-nbla-17b"
+          ],
+          "verseId": "levitico1-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "14-17"
+    }
+  ],
+  "meta": {
+    "book": "LEVÍTICO",
+    "bookId": "levitico",
+    "chapter": 1,
+    "studyId": "levitico-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "levitico1-msg-01",
+      "msg": {
+        "en": "GOD called Moses and spoke to him from the Tent of Meeting: “Speak to the People of Israel. Tell them, When anyone presents an offering to GOD, present an animal from either the herd or the flock.",
+        "es": "DIOS llamó a Moisés y le habló desde la Tienda de Reunión: «Habla al pueblo de Israel. Diles: Cuando alguien presente una ofrenda a DIOS, que presente un animal del ganado o del rebaño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-9",
+      "id": "levitico1-msg-02",
+      "msg": {
+        "en": "“If the offering is a Whole-Burnt-Offering from the herd, present a male without a defect at the entrance to the Tent of Meeting that it may be accepted by GOD. Lay your hand on the head of the Whole-Burnt-Offering so that it may be accepted on your behalf to make atonement for you. Slaughter the bull in GOD’S presence. Aaron’s sons, the priests, will make an offering of the blood by splashing it against all sides of the Altar that stands at the entrance to the Tent of Meeting. Next, skin the Whole-Burnt-Offering and cut it up. Aaron’s sons, the priests, will prepare a fire on the Altar, carefully laying out the wood, and then arrange the body parts, including the head and the suet, on the wood prepared for the fire on the Altar. Scrub the entrails and legs clean. The priest will burn it all on the Altar: a Whole-Burnt-Offering, a Fire-Gift, a pleasing fragrance to GOD.",
+        "es": "«Si la ofrenda es una Ofrenda Totalmente Quemada del ganado, presenta un macho sin defecto a la entrada de la Tienda de Reunión, para que DIOS lo acepte. Pon tu mano sobre la cabeza de la Ofrenda Totalmente Quemada para que sea aceptada en tu favor y haga expiación por ti. Degüella el novillo en presencia de DIOS. Los hijos de Aarón, los sacerdotes, ofrecerán la sangre rociándola por todos los lados del Altar que está a la entrada de la Tienda de Reunión. Después, desuella la Ofrenda Totalmente Quemada y córtala en pedazos. Los hijos de Aarón, los sacerdotes, prepararán fuego sobre el Altar, acomodarán cuidadosamente la leña y luego pondrán sobre ella los pedazos del animal, incluida la cabeza y el sebo. Lava bien las entrañas y las patas. El sacerdote lo quemará todo sobre el Altar: una Ofrenda Totalmente Quemada, una Ofrenda al Fuego, un aroma agradable para DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-13",
+      "id": "levitico1-msg-03",
+      "msg": {
+        "en": "“If the Whole-Burnt-Offering comes from the flock, whether sheep or goat, present a male without defect. Slaughter it on the north side of the Altar in GOD’S presence. The sons of Aaron, the priests, will throw the blood against all sides of the Altar. Cut it up and the priest will arrange the pieces, including the head and the suet, on the wood prepared for burning on the Altar. Scrub the entrails and legs clean. The priest will offer it all, burning it on the Altar: a Whole-Burnt-Offering, a Fire-Gift, a pleasing fragrance to GOD.",
+        "es": "«Si la Ofrenda Totalmente Quemada viene del rebaño, sea una oveja o una cabra, presenta un macho sin defecto. Degüéllalo al lado norte del Altar, en presencia de DIOS. Los hijos de Aarón, los sacerdotes, arrojarán la sangre por todos los lados del Altar. Córtalo en pedazos y el sacerdote acomodará las partes, incluida la cabeza y el sebo, sobre la leña preparada para arder en el Altar. Lava bien las entrañas y las patas. El sacerdote lo ofrecerá todo, quemándolo sobre el Altar: una Ofrenda Totalmente Quemada, una Ofrenda al Fuego, un aroma agradable para DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "14-17",
+      "id": "levitico1-msg-04",
+      "msg": {
+        "en": "“If a bird is presented to GOD for the Whole-Burnt-Offering it can be either a dove or a pigeon. The priest will bring it to the Altar, wring off its head, and burn it on the Altar. But he will first drain the blood on the side of the Altar, remove the gizzard and its contents, and throw them on the east side of the Altar where the ashes are piled. Then rip it open by its wings but leave it in one piece and burn it on the Altar on the wood prepared for the fire: a Whole-Burnt-Offering, a Fire-Gift, a pleasing fragrance to GOD.”",
+        "es": "«Si se presenta un ave a DIOS como Ofrenda Totalmente Quemada, puede ser una tórtola o un pichón. El sacerdote la llevará al Altar, le quitará la cabeza y la quemará sobre el Altar. Pero primero dejará escurrir su sangre por un costado del Altar, retirará el buche con su contenido y lo arrojará al lado oriental del Altar, donde se acumulan las cenizas. Después abrirá el ave por las alas sin partirla en dos y la quemará sobre el Altar, sobre la leña preparada para el fuego: una Ofrenda Totalmente Quemada, una Ofrenda al Fuego, un aroma agradable para DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico1-nbla-17"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "levitico1-nbla-01",
+      "number": 1,
+      "text": "El SEÑOR llamó a Moisés y le habló desde la tienda de reunión:"
+    },
+    {
+      "id": "levitico1-nbla-02",
+      "number": 2,
+      "text": "«Di a los israelitas: “Cuando alguien de ustedes traiga una ofrenda al SEÑOR, traerán su ofrenda de animales del ganado o del rebaño."
+    },
+    {
+      "id": "levitico1-nbla-03",
+      "number": 3,
+      "text": "Si su ofrenda es un holocausto del ganado, ofrecerá un macho sin defecto; lo ofrecerá a la entrada de la tienda de reunión, para que sea aceptado delante del SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico1-nbla-04a",
+          "order": 1,
+          "text": "Pondrá su mano sobre la cabeza del holocausto"
+        },
+        {
+          "id": "levitico1-nbla-04b",
+          "order": 2,
+          "text": ", y le será aceptado para expiación suya."
+        }
+      ],
+      "id": "levitico1-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "levitico1-nbla-05",
+      "number": 5,
+      "text": "Entonces degollará el novillo delante del SEÑOR; y los sacerdotes hijos de Aarón ofrecerán la sangre y la rociarán por todos los lados sobre el altar que está a la entrada de la tienda de reunión."
+    },
+    {
+      "id": "levitico1-nbla-06",
+      "number": 6,
+      "text": "”Después desollará el holocausto y lo cortará en pedazos."
+    },
+    {
+      "id": "levitico1-nbla-07",
+      "number": 7,
+      "text": "Y los hijos del sacerdote Aarón pondrán fuego en el altar, y colocarán leña sobre el fuego."
+    },
+    {
+      "id": "levitico1-nbla-08",
+      "number": 8,
+      "text": "Luego los sacerdotes hijos de Aarón arreglarán los pedazos, la cabeza y el sebo sobre la leña que está en el fuego sobre el altar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico1-nbla-09a",
+          "order": 1,
+          "text": "El que presenta el holocausto lavará las entrañas y las patas con agua, y"
+        },
+        {
+          "id": "levitico1-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el sacerdote lo quemará todo sobre el altar como holocausto"
+        },
+        {
+          "id": "levitico1-nbla-09c",
+          "order": 3,
+          "text": ". Es una ofrenda encendida de aroma agradable para el SEÑOR."
+        }
+      ],
+      "id": "levitico1-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "levitico1-nbla-10",
+      "number": 10,
+      "text": "”Pero si su ofrenda para holocausto es del rebaño, de los corderos o de las cabras, ofrecerá un macho sin defecto."
+    },
+    {
+      "id": "levitico1-nbla-11",
+      "number": 11,
+      "text": "Lo degollará al lado norte del altar, delante del SEÑOR; y los sacerdotes hijos de Aarón rociarán la sangre sobre el altar, por todos los lados."
+    },
+    {
+      "id": "levitico1-nbla-12",
+      "number": 12,
+      "text": "Después lo cortará en pedazos, con su cabeza y el sebo, y el sacerdote los colocará sobre la leña que está en el fuego sobre el altar."
+    },
+    {
+      "id": "levitico1-nbla-13",
+      "number": 13,
+      "text": "Las entrañas y las patas las lavará con agua, y el sacerdote lo ofrecerá todo, quemándolo sobre el altar. Es un holocausto, una ofrenda encendida de aroma agradable para el SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico1-nbla-14a",
+          "order": 1,
+          "text": "”Pero si su ofrenda para el SEÑOR es un holocausto de aves,"
+        },
+        {
+          "id": "levitico1-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "entonces traerá su ofrenda de tórtolas o de pichones."
+        }
+      ],
+      "id": "levitico1-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "levitico1-nbla-15",
+      "number": 15,
+      "text": "Y el sacerdote la traerá al altar, le quitará la cabeza y la quemará sobre el altar; y su sangre será exprimida sobre el costado del altar."
+    },
+    {
+      "id": "levitico1-nbla-16",
+      "number": 16,
+      "text": "Le quitará también el buche con sus plumas y lo echará junto al altar, hacia el oriente, en el lugar de las cenizas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico1-nbla-17a",
+          "order": 1,
+          "text": "La partirá después por las alas, sin dividirla. Entonces el sacerdote la quemará en el altar, sobre la leña que está en el fuego. Es un holocausto,"
+        },
+        {
+          "id": "levitico1-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "una ofrenda encendida de aroma agradable para el SEÑOR."
+        }
+      ],
+      "id": "levitico1-nbla-17",
+      "number": 17
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

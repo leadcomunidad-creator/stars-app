@@ -1,0 +1,424 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Incluso en el extremo del sufrimiento, el salmista continúa identificando a Dios con la salvación. La NBLA fija esa verdad desde la primera línea: el Señor sigue siendo «Dios de mi salvación». MSG convierte esa dependencia en una expresión límite: Dios es su última esperanza. La frase no enseña que Dios sea simplemente una opción final después de agotar otras alternativas; comunica la desesperación de alguien que ya no ve ningún otro lugar al cual acudir.",
+      "id": "salmos88-joya-01",
+      "msg": {
+        "en": "“GOD, you’re my last chance of the day.”",
+        "es": "“DIOS, eres mi última esperanza del día.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-01a"
+          ],
+          "verseId": "salmos88-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-9"
+    },
+    {
+      "explanation": "El sufrimiento puede producir una experiencia real de encierro y desorientación. La NBLA expresa directamente que el salmista está encerrado y no puede salir. MSG vuelve visible esa sensación mediante la imagen de un laberinto sin salida. La imagen no define objetivamente que no exista futuro; describe honestamente cómo se experimenta una crisis desde dentro.",
+      "id": "salmos88-joya-02",
+      "msg": {
+        "en": "“I’m caught in a maze and can’t find my way out,”",
+        "es": "“Estoy atrapado en un laberinto y no encuentro la salida,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-08b"
+          ],
+          "verseId": "salmos88-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "1-9"
+    },
+    {
+      "explanation": "La persistencia en la oración es una de las evidencias de fe más fuertes del capítulo. La NBLA muestra al salmista invocando al Señor cada día, y MSG conserva la repetición insistente del llamado. No existe todavía una respuesta visible, pero la ausencia de resolución no ha conseguido romper completamente la relación.",
+      "id": "salmos88-joya-03",
+      "msg": {
+        "en": "“I call to you, GOD; all day I call.”",
+        "es": "“Te llamo, DIOS; todo el día te llamo.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-09b"
+          ],
+          "verseId": "salmos88-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9-12"
+    },
+    {
+      "explanation": "El salmista apela a la misericordia de Dios desde el límite de la muerte. La NBLA expresa su pregunta en términos de si la misericordia será proclamada en el sepulcro; MSG la vuelve provocadora preguntando qué diferencia hace el amor de Dios en un cementerio. No es una negación doctrinal de la misericordia divina más allá de la muerte, sino una súplica poética para poder seguir viviendo y proclamando las obras del Señor entre los vivos.",
+      "id": "salmos88-joya-04",
+      "msg": {
+        "en": "“Does your love make any difference in a graveyard?”",
+        "es": "“¿Tu amor hace alguna diferencia en un cementerio?”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-11a"
+          ],
+          "verseId": "salmos88-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "9-12"
+    },
+    {
+      "explanation": "La perseverancia del salmista no consiste en fingir fortaleza, sino en continuar pidiendo auxilio. La NBLA mantiene la dirección de la súplica exclusivamente hacia el SEÑOR. MSG hace visible la resistencia de alguien que, pese a todo, sigue allí gritando. La fe de este capítulo no se mide por serenidad emocional, sino por la negativa a dejar de dirigirse a Dios.",
+      "id": "salmos88-joya-05",
+      "msg": {
+        "en": "“I’m standing my ground, GOD, shouting for help,”",
+        "es": "“Aquí sigo, DIOS, gritando por ayuda,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-13a"
+          ],
+          "verseId": "salmos88-nbla-13"
+        }
+      ],
+      "order": 5,
+      "range": "13-18"
+    },
+    {
+      "explanation": "El capítulo termina sin alivio narrativo y obliga al lector a permanecer dentro del dolor del salmista. La NBLA cierra con sus conocidos en tinieblas; MSG personifica esa oscuridad como la única compañía que permanece. Esa expansión no debe convertirse en doctrina sobre el abandono definitivo de Dios. La verdad pastoral es que la Biblia reconoce temporadas en las que una persona puede sentirse completamente sola sin quedar por ello expulsada del lenguaje de la fe.",
+      "id": "salmos88-joya-06",
+      "msg": {
+        "en": "“the only friend I have left is Darkness.”",
+        "es": "“el único amigo que me queda es la Oscuridad.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-18b"
+          ],
+          "verseId": "salmos88-nbla-18"
+        }
+      ],
+      "order": 6,
+      "range": "13-18"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 88,
+    "studyId": "salmos-88"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-9",
+      "id": "salmos88-msg-01",
+      "msg": {
+        "en": "GOD, you’re my last chance of the day.\nI spend the night on my knees before you.\nPut me on your salvation agenda;\ntake notes on the trouble I’m in.\nI’ve had my fill of trouble;\nI’m camped on the edge of hell.\nI’m written off as a lost cause,\none more statistic, a hopeless case.\nAbandoned as already dead,\none more body in a stack of corpses,\nAnd not so much as a gravestone—\nI’m a black hole in oblivion.\nYou’ve dropped me into a bottomless pit,\nsunk me in a pitch-black abyss.\nI’m battered senseless by your rage,\nrelentlessly pounded by your waves of anger.\nYou turned my friends against me,\nmade me horrible to them.\nI’m caught in a maze and can’t find my way out,\nblinded by tears of pain and frustration.",
+        "es": "DIOS, eres mi última esperanza del día.\nPaso la noche de rodillas delante de Ti.\nInclúyeme en Tu agenda de salvación;\ntoma nota del problema en el que estoy.\nYa estoy lleno de problemas;\nacampo al borde del infierno.\nMe han dado por perdido,\nuna estadística más, un caso sin esperanza.\nAbandonado como si ya estuviera muerto,\nun cuerpo más en una pila de cadáveres,\ny ni siquiera una lápida:\nsoy un agujero negro en el olvido.\nMe has dejado caer en un pozo sin fondo,\nhundido en un abismo de oscuridad total.\nTu ira me golpea hasta dejarme aturdido,\nTus olas de enojo me azotan sin descanso.\nAlejaste de mí a mis amigos,\nhiciste que me vieran con horror.\nEstoy atrapado en un laberinto y no encuentro la salida,\ncegado por lágrimas de dolor y frustración."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-08"
+        },
+        {
+          "clauseIds": [
+            "salmos88-nbla-09a"
+          ],
+          "verseId": "salmos88-nbla-09"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "9-12",
+      "id": "salmos88-msg-02",
+      "msg": {
+        "en": "I call to you, GOD; all day I call.\nI wring my hands, I plead for help.\nAre the dead a live audience for your miracles?\nDo ghosts ever join the choirs that praise you?\nDoes your love make any difference in a graveyard?\nIs your faithful presence noticed in the corridors of hell?\nAre your marvelous wonders ever seen in the dark,\nyour righteous ways noticed in the Land of No Memory?",
+        "es": "Te llamo, DIOS; todo el día te llamo.\nRetuerzo las manos; suplico ayuda.\n¿Acaso los muertos son público vivo para Tus milagros?\n¿Los fantasmas alguna vez se unen a los coros que te alaban?\n¿Tu amor hace alguna diferencia en un cementerio?\n¿Se nota Tu presencia fiel en los corredores del infierno?\n¿Se ven alguna vez Tus maravillosas obras en la oscuridad,\nTus caminos justos en la Tierra Sin Memoria?"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos88-nbla-09b",
+            "salmos88-nbla-09c"
+          ],
+          "verseId": "salmos88-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-12"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "salmos88-msg-03",
+      "msg": {
+        "en": "I’m standing my ground, GOD, shouting for help,\nat my prayers every morning, on my knees each daybreak.\nWhy, GOD, do you turn a deaf ear?\nWhy do you make yourself scarce?\nFor as long as I remember I’ve been hurting;\nI’ve taken the worst you can hand out, and I’ve had it.\nYour wildfire anger has blazed through my life;\nI’m bleeding, black-and-blue.\nYou’ve attacked me fiercely from every side,\nraining down blows till I’m nearly dead.\nYou made lover and neighbor alike dump me;\nthe only friend I have left is Darkness.",
+        "es": "Aquí sigo, DIOS, gritando por ayuda,\ncada mañana vuelvo a orar, de rodillas al amanecer.\n¿Por qué, DIOS, haces oídos sordos?\n¿Por qué te mantienes lejos?\nDesde que tengo memoria he vivido herido;\nhe soportado lo peor que puedes descargar sobre mí, y ya no doy más.\nTu ira como un incendio ha arrasado mi vida;\nestoy herido, cubierto de golpes.\nMe has atacado ferozmente desde todos los lados,\nhaciendo llover golpes sobre mí hasta dejarme casi muerto.\nTanto el ser amado como el vecino me abandonaron;\nel único amigo que me queda es la Oscuridad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos88-nbla-18"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-01a",
+          "order": 1,
+          "text": "Oh SEÑOR, Dios de mi salvación,"
+        },
+        {
+          "id": "salmos88-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "De día y de noche he clamado delante de Ti."
+        }
+      ],
+      "id": "salmos88-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos88-nbla-02",
+      "number": 2,
+      "text": "Llegue mi oración a Tu presencia;\nInclina Tu oído a mi clamor."
+    },
+    {
+      "id": "salmos88-nbla-03",
+      "number": 3,
+      "text": "Porque mi alma está llena de males,\nY mi vida se ha acercado al Seol."
+    },
+    {
+      "id": "salmos88-nbla-04",
+      "number": 4,
+      "text": "Soy contado entre los que descienden a la fosa;\nHe llegado a ser como hombre sin fuerza,"
+    },
+    {
+      "id": "salmos88-nbla-05",
+      "number": 5,
+      "text": "Abandonado entre los muertos;\nComo los caídos a espada que yacen en el sepulcro,\nDe quienes ya no te acuerdas,\nY que han sido arrancados de Tu mano."
+    },
+    {
+      "id": "salmos88-nbla-06",
+      "number": 6,
+      "text": "Me has puesto en la fosa más profunda,\nEn lugares tenebrosos, en las profundidades."
+    },
+    {
+      "id": "salmos88-nbla-07",
+      "number": 7,
+      "text": "Ha reposado sobre mí Tu furor,\nY me has afligido con todas Tus olas. (Selah)"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-08a",
+          "order": 1,
+          "text": "Has alejado de mí mis amistades,\nMe has hecho objeto de repugnancia para ellos;"
+        },
+        {
+          "id": "salmos88-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Encerrado estoy y no puedo salir."
+        }
+      ],
+      "id": "salmos88-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-09a",
+          "order": 1,
+          "text": "Han languidecido mis ojos a causa de la aflicción;"
+        },
+        {
+          "id": "salmos88-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Oh SEÑOR, cada día te he invocado,"
+        },
+        {
+          "id": "salmos88-nbla-09c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "He extendido mis manos hacia Ti."
+        }
+      ],
+      "id": "salmos88-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "salmos88-nbla-10",
+      "number": 10,
+      "text": "¿Harás maravillas a los muertos?\n¿Se levantarán los muertos y te alabarán? (Selah)"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-11a",
+          "order": 1,
+          "text": "¿Se hablará de Tu misericordia en el sepulcro,"
+        },
+        {
+          "id": "salmos88-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y de Tu fidelidad en el Abadón?"
+        }
+      ],
+      "id": "salmos88-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "salmos88-nbla-12",
+      "number": 12,
+      "text": "¿Se darán a conocer Tus maravillas en las tinieblas,\nY Tu justicia en la tierra del olvido?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-13a",
+          "order": 1,
+          "text": "Pero yo, a Ti pido auxilio, SEÑOR,"
+        },
+        {
+          "id": "salmos88-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y mi oración llega ante Ti por la mañana."
+        }
+      ],
+      "id": "salmos88-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "salmos88-nbla-14",
+      "number": 14,
+      "text": "¿Por qué, SEÑOR, rechazas mi alma?\n¿Por qué escondes de mí Tu rostro?"
+    },
+    {
+      "id": "salmos88-nbla-15",
+      "number": 15,
+      "text": "He estado afligido y a punto de morir desde mi juventud;\nSufro Tus terrores, estoy abatido."
+    },
+    {
+      "id": "salmos88-nbla-16",
+      "number": 16,
+      "text": "Sobre mí ha pasado Tu ardiente ira;\nTus terrores me han destruido."
+    },
+    {
+      "id": "salmos88-nbla-17",
+      "number": 17,
+      "text": "Me han rodeado como aguas todo el día;\nA una me han cercado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos88-nbla-18a",
+          "order": 1,
+          "text": "Has alejado de mí al compañero y al amigo;"
+        },
+        {
+          "id": "salmos88-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Mis conocidos están en tinieblas."
+        }
+      ],
+      "id": "salmos88-nbla-18",
+      "number": 18
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La herencia territorial de José entra ahora en la etapa de distribución concreta. La NBLA fija la acción mediante el lenguaje del sorteo, y MSG mantiene el foco en el pueblo descendiente de José. El punto no es atribuir la herencia al azar, sino reconocer que dentro del proceso establecido para Israel la tierra es recibida como una porción asignada, no como una posesión producida únicamente por iniciativa humana.",
+      "id": "josue16-joya-01",
+      "msg": {
+        "en": "\"The lot for the people of Joseph\"",
+        "es": "\"La porción sorteada para el pueblo de José\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue16-nbla-01a"
+          ],
+          "verseId": "josue16-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "El centro teológico del capítulo es la recepción de una herencia. La NBLA conserva el lenguaje formal de la heredad y MSG lo expresa de manera directa. Manasés y Efraín están recibiendo algo cuya historia comenzó antes de ellos. La herencia no borra su responsabilidad posterior, pero establece que el punto de partida es algo recibido.",
+      "id": "josue16-joya-02",
+      "msg": {
+        "en": "\"got their inheritance\"",
+        "es": "\"recibió su herencia\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue16-nbla-04a"
+          ],
+          "verseId": "josue16-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4"
+    },
+    {
+      "explanation": "Dios trata con un pueblo real organizado en familias y generaciones. La NBLA identifica la distribución conforme a sus familias, mientras MSG vuelve visible esa misma realidad con «clan por clan». El texto no presenta una espiritualidad desarraigada: la fidelidad del pacto entra en estructuras comunitarias concretas.",
+      "id": "josue16-joya-03",
+      "msg": {
+        "en": "\"This was the inheritance of the tribe of Ephraim by clans\"",
+        "es": "\"Esta fue la herencia de la tribu de Efraín, clan por clan\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue16-nbla-08b"
+          ],
+          "verseId": "josue16-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "5-9"
+    },
+    {
+      "explanation": "La distribución tribal combina identidad particular e interdependencia. La NBLA confirma que existían ciudades de Efraín dentro de la heredad de Manasés, y MSG hace igualmente visible esa relación. La diferencia de porciones no significa aislamiento; ambas tribus continúan formando parte de una misma historia familiar y nacional.",
+      "id": "josue16-joya-04",
+      "msg": {
+        "en": "\"including the cities set aside for Ephraim within the inheritance of Manasseh\"",
+        "es": "\"incluyendo las ciudades apartadas para Efraín dentro de la herencia de Manasés\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue16-nbla-09a"
+          ],
+          "verseId": "josue16-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "5-9"
+    },
+    {
+      "explanation": "La ocupación de la herencia queda incompleta en Gezer. La NBLA y MSG coinciden directamente en el hecho: Efraín no expulsó a los habitantes cananeos. El resto del versículo muestra que sí pudo someterlos a trabajos forzados, de modo que la dificultad no puede describirse simplemente como ausencia total de poder. El texto registra una tensión que seguirá teniendo consecuencias y evita presentar la posesión de la tierra como un proceso ya terminado.",
+      "id": "josue16-joya-05",
+      "msg": {
+        "en": "\"they didn’t get rid of the Canaanites who were living in Gezer\"",
+        "es": "\"no expulsaron a los cananeos que vivían en Gezer\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue16-nbla-10b"
+          ],
+          "verseId": "josue16-nbla-10"
+        }
+      ],
+      "order": 5,
+      "range": "10"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 16,
+    "studyId": "josue-16"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "josue16-msg-01",
+      "msg": {
+        "en": "The lot for the people of Joseph went from the Jordan near Jericho, east of the spring of Jericho, north through the desert mountains to Bethel. It went on from Bethel (that is, Luz) to the territory of the Arkites in Ataroth. It then descended westward to the territory of the Japhletites to the region of Lower Beth Horon and on to Gezer, ending at the Sea.",
+        "es": "La porción sorteada para el pueblo de José partía del Jordán cerca de Jericó, al este del manantial de Jericó, y subía hacia el norte por las montañas del desierto hasta Betel. Continuaba desde Betel —es decir, Luz— hasta el territorio de los arquitas en Atarot. Luego descendía hacia el oeste, al territorio de los jafletitas, hasta la región de Bet Horón de abajo y seguía hasta Gezer, terminando en el Mar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "josue16-msg-02",
+      "msg": {
+        "en": "This is the region from which the people of Joseph—Manasseh and Ephraim—got their inheritance.",
+        "es": "Esta es la región de la cual el pueblo de José —Manasés y Efraín— recibió su herencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-9",
+      "id": "josue16-msg-03",
+      "msg": {
+        "en": "Ephraim’s territory by clans:\nThe boundary of their inheritance went from Ataroth Addar in the east to Upper Beth Horon and then west to the Sea. From Micmethath on the north it turned eastward to Taanath Shiloh and passed along, still eastward, to Janoah. The border then descended from Janoah to Ataroth and Naarah; it touched Jericho and came out at the Jordan. From Tappuah the border went westward to the Brook Kanah and ended at the Sea. This was the inheritance of the tribe of Ephraim by clans, including the cities set aside for Ephraim within the inheritance of Manasseh—all those towns and their villages.",
+        "es": "Territorio de Efraín, clan por clan: el límite de su herencia iba desde Atarot Adar, al oriente, hasta Bet Horón de arriba y luego hacia el oeste hasta el Mar. Desde Micmetat, al norte, giraba hacia el oriente hasta Taanat Silo y continuaba, todavía hacia el este, hasta Janoa. Después la frontera descendía desde Janoa hasta Atarot y Naarat; tocaba Jericó y salía al Jordán. Desde Tapúa, la frontera seguía hacia el oeste hasta el arroyo de Caná y terminaba en el Mar. Esta fue la herencia de la tribu de Efraín, clan por clan, incluyendo las ciudades apartadas para Efraín dentro de la herencia de Manasés, con todos sus pueblos y aldeas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-09"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "10",
+      "id": "josue16-msg-04",
+      "msg": {
+        "en": "But they didn’t get rid of the Canaanites who were living in Gezer. Canaanites are still living among the people of Ephraim, but they are made to do forced labor.",
+        "es": "Pero no expulsaron a los cananeos que vivían en Gezer. Los cananeos siguen viviendo entre el pueblo de Efraín, aunque los obligaron a realizar trabajos forzados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue16-nbla-10"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "josue16-nbla-01a",
+          "order": 1,
+          "text": "Tocó en suerte a los hijos de José"
+        },
+        {
+          "id": "josue16-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "desde el Jordán frente a Jericó (las aguas de Jericó) al oriente, hacia el desierto, subiendo desde Jericó por la región montañosa a Betel."
+        }
+      ],
+      "id": "josue16-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "josue16-nbla-02",
+      "number": 2,
+      "text": "Seguía desde Betel a Luz, y continuaba hasta la frontera de los arquitas en Atarot."
+    },
+    {
+      "id": "josue16-nbla-03",
+      "number": 3,
+      "text": "Y descendía hacia el occidente al territorio de los jafletitas, hasta el territorio de Bet Horón de abajo, y hasta Gezer, y terminaba en el mar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue16-nbla-04a",
+          "order": 1,
+          "text": "Recibieron, pues, su heredad"
+        },
+        {
+          "id": "josue16-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los hijos de José, Manasés y Efraín."
+        }
+      ],
+      "id": "josue16-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "josue16-nbla-05",
+      "number": 5,
+      "text": "Este fue el territorio de los hijos de Efraín conforme a sus familias: el límite de su heredad hacia el oriente era Atarot Adar, hasta Bet Horón de arriba."
+    },
+    {
+      "id": "josue16-nbla-06",
+      "number": 6,
+      "text": "El límite iba hacia el occidente en Micmetat al norte, girando hacia el oriente en Taanat Silo, y continuaba más allá al oriente de Janoa."
+    },
+    {
+      "id": "josue16-nbla-07",
+      "number": 7,
+      "text": "Descendía de Janoa a Atarot y a Naarat, llegaba a Jericó y salía al Jordán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue16-nbla-08a",
+          "order": 1,
+          "text": "De Tapúa el límite continuaba hacia el occidente hasta el arroyo de Caná, y terminaba en el mar."
+        },
+        {
+          "id": "josue16-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Esta es la heredad de la tribu de los hijos de Efraín, conforme a sus familias,"
+        }
+      ],
+      "id": "josue16-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue16-nbla-09a",
+          "order": 1,
+          "text": "junto con las ciudades que fueron apartadas para los hijos de Efraín en medio de la heredad de los hijos de Manasés"
+        },
+        {
+          "id": "josue16-nbla-09b",
+          "order": 2,
+          "text": ", todas las ciudades con sus aldeas."
+        }
+      ],
+      "id": "josue16-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue16-nbla-10a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "josue16-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los de Efraín no expulsaron a los cananeos que habitaban en Gezer"
+        },
+        {
+          "id": "josue16-nbla-10c",
+          "order": 3,
+          "text": ". Por tanto, los cananeos habitan en medio de Efraín hasta hoy, pero fueron sometidos a trabajos forzados."
+        }
+      ],
+      "id": "josue16-nbla-10",
+      "number": 10
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

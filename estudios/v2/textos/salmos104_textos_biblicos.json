@@ -1,0 +1,618 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La creación manifiesta la majestad del Dios que permanece por encima de ella. La NBLA presenta la luz como manto y los cielos como cortina extendida por el Señor. MSG vuelve la imagen más cotidiana al mostrarlo vestido de sol y usando el cielo como tienda. La poesía no describe literalmente el cuerpo de Dios; comunica Su gloria y soberanía mediante elementos creados.",
+      "id": "salmos104-joya-01",
+      "msg": {
+        "en": "“Dressed up in sunshine, and all heaven stretched out for your tent.”",
+        "es": "“envuelto en luz de sol, con todo el cielo extendido como Tu tienda.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Dios convierte el agua en provisión para comunidades enteras de vida. La NBLA afirma que Él hace brotar los manantiales y los dirige entre los montes. MSG presenta los ríos como corrientes iniciadas y enviadas por Dios. La imagen no elimina los procesos naturales; los reconoce como parte del orden providencial del Creador.",
+      "id": "salmos104-joya-02",
+      "msg": {
+        "en": "“You started the springs and rivers, sent them flowing among the hills.”",
+        "es": "“Hiciste brotar manantiales y ríos; los enviaste a correr entre las colinas.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "10-12"
+    },
+    {
+      "explanation": "La provisión divina incluye alimento, fortaleza y alegría. La NBLA conecta el cultivo humano con lo que Dios hace brotar de la tierra. MSG enfatiza pastoralmente que el grano y el vino llegan como dones que sostienen y alegran. El texto no legitima el exceso ni la irresponsabilidad; sitúa los bienes de la creación dentro de la gratitud y el uso ordenado.",
+      "id": "salmos104-joya-03",
+      "msg": {
+        "en": "“Oh yes, God brings grain from the land, wine to make people happy,”",
+        "es": "“Sí, Dios hace brotar grano de la tierra y vino para alegrar a la gente;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-14b"
+          ],
+          "verseId": "salmos104-nbla-14"
+        },
+        {
+          "clauseIds": [
+            "salmos104-nbla-15a"
+          ],
+          "verseId": "salmos104-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "14-15"
+    },
+    {
+      "explanation": "La diversidad de la creación procede de la sabiduría de Dios y no del caos sin propósito. La NBLA afirma directamente que todas Sus obras fueron hechas con sabiduría. MSG personifica esa sabiduría como una compañía cercana al Creador. La imagen ayuda a percibir intención y belleza, pero no debe usarse por sí sola para construir una doctrina independiente de la Sabiduría.",
+      "id": "salmos104-joya-04",
+      "msg": {
+        "en": "“You made it all, with Wisdom at your side,”",
+        "es": "“Lo hiciste todo, con la Sabiduría a Tu lado;”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-24b"
+          ],
+          "verseId": "salmos104-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24"
+    },
+    {
+      "explanation": "Toda criatura vive de la generosidad de Dios. La NBLA muestra que Su mano abierta produce saciedad. MSG acerca la escena al presentar a los seres vivos comiendo directamente de ella. La imagen no promete que cada criatura estará libre de escasez o sufrimiento en un mundo quebrantado; proclama que Dios continúa siendo la fuente última de toda provisión.",
+      "id": "salmos104-joya-05",
+      "msg": {
+        "en": "“you open your hand and they eat from it.”",
+        "es": "“abres la mano y comen de ella.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-28b"
+          ],
+          "verseId": "salmos104-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "27-28"
+    },
+    {
+      "explanation": "La vida depende del Espíritu de Dios. La NBLA vincula Su envío con la creación y renovación de la tierra. MSG convierte esa acción en el brote inmediato de vida. El texto muestra al Espíritu como dador de vida; no enseña que cada ciclo biológico constituya una nueva salvación espiritual, aunque sí prepara el lenguaje bíblico de renovación y nueva creación.",
+      "id": "salmos104-joya-06",
+      "msg": {
+        "en": "“Send out your Spirit and they spring to life—”",
+        "es": "“Envías Tu Espíritu y vuelven a la vida:”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-30a"
+          ],
+          "verseId": "salmos104-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "29-30"
+    },
+    {
+      "explanation": "Dios no contempla Sus obras con indiferencia. La NBLA expresa el deseo de que el Señor se alegre en ellas. MSG lo comunica como el disfrute del Creador ante Su mundo. La frase no atribuye a Dios una necesidad emocional dependiente de la creación; celebra que Sus obras son buenas y corresponden a Su sabiduría y propósito.",
+      "id": "salmos104-joya-07",
+      "msg": {
+        "en": "“Let GOD enjoy his creation!”",
+        "es": "“¡Que DIOS disfrute de Su creación!”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-31b"
+          ],
+          "verseId": "salmos104-nbla-31"
+        }
+      ],
+      "order": 7,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 104,
+    "studyId": "salmos-104"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-14",
+      "id": "salmos104-msg-01",
+      "msg": {
+        "en": "O my soul, bless GOD!\nGOD, my God, how great you are!\nbeautifully, gloriously robed,\nDressed up in sunshine,\nand all heaven stretched out for your tent.\nYou built your palace on the ocean deeps,\nmade a chariot out of clouds and took off on wind-wings.\nYou commandeered winds as messengers,\nappointed fire and flame as ambassadors.\nYou set earth on a firm foundation\nso that nothing can shake it, ever.\nYou blanketed earth with ocean,\ncovered the mountains with deep waters;\nThen you roared and the water ran away—\nyour thunder crash put it to flight.\nMountains pushed up, valleys spread out\nin the places you assigned them.\nYou set boundaries between earth and sea;\nnever again will earth be flooded.\nYou started the springs and rivers,\nsent them flowing among the hills.\nAll the wild animals now drink their fill,\nwild donkeys quench their thirst.\nAlong the riverbanks the birds build nests,\nravens make their voices heard.\nYou water the mountains from your heavenly cisterns;\nearth is supplied with plenty of water.\nYou make grass grow for the livestock,\nhay for the animals that plow the ground.",
+        "es": "¡Alma mía, bendice a DIOS!\nDIOS, Dios mío, ¡qué grande eres!\nVestido de belleza y gloria,\nenvuelto en luz de sol,\ncon todo el cielo extendido como Tu tienda.\nEdificaste Tu palacio sobre las profundidades del océano;\nhiciste de las nubes Tu carroza y despegaste sobre alas de viento.\nReclutaste los vientos como mensajeros;\nnombraste al fuego y a las llamas como embajadores.\nAsentaste la tierra sobre un fundamento firme\npara que nada pueda sacudirla jamás.\nCubriste la tierra con el océano como con una manta;\nlas aguas profundas cubrieron las montañas.\nEntonces rugiste y las aguas huyeron:\nel estruendo de Tu trueno las puso en fuga.\nLas montañas se levantaron y los valles se extendieron\nen los lugares que les asignaste.\nTrazaste fronteras entre la tierra y el mar;\nnunca más se inundará la tierra.\nHiciste brotar manantiales y ríos;\nlos enviaste a correr entre las colinas.\nAhora todos los animales salvajes beben hasta saciarse;\nlos asnos monteses calman su sed.\nA lo largo de las riberas, las aves construyen sus nidos;\nlos cuervos dejan oír sus voces.\nRiegas las montañas desde Tus cisternas celestiales;\nla tierra recibe agua en abundancia.\nHaces crecer pasto para el ganado\ny heno para los animales que trabajan la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-13"
+        },
+        {
+          "clauseIds": [
+            "salmos104-nbla-14a"
+          ],
+          "verseId": "salmos104-nbla-14"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "14-23",
+      "id": "salmos104-msg-02",
+      "msg": {
+        "en": "Oh yes, God brings grain from the land,\nwine to make people happy,\nTheir faces glowing with health,\na people well-fed and hearty.\nGOD’S trees are well-watered—\nthe Lebanon cedars he planted.\nBirds build their nests in those trees;\nlook—the stork at home in the treetop.\nMountain goats climb about the cliffs;\nbadgers burrow among the rocks.\nThe moon keeps track of the seasons,\nthe sun is in charge of each day.\nWhen it’s dark and night takes over,\nall the forest creatures come out.\nThe young lions roar for their prey,\nclamoring to God for their supper.\nWhen the sun comes up, they vanish,\nlazily stretched out in their dens.\nMeanwhile, men and women go out to work,\nbusy at their jobs until evening.",
+        "es": "Sí, Dios hace brotar grano de la tierra\ny vino para alegrar a la gente;\nsus rostros brillan de salud:\nun pueblo bien alimentado y lleno de vigor.\nLos árboles de DIOS están bien regados:\nlos cedros del Líbano que Él plantó.\nLas aves construyen allí sus nidos;\nmira: la cigüeña está en casa en la copa de los árboles.\nLas cabras monteses trepan por los riscos;\nlos tejones hacen madrigueras entre las rocas.\nLa luna marca las estaciones;\nel sol rige cada día.\nCuando oscurece y la noche toma el control,\nsalen todas las criaturas del bosque.\nLos leones jóvenes rugen tras su presa,\nclamando a Dios por su cena.\nCuando sale el sol, desaparecen,\ntendidos perezosamente en sus guaridas.\nMientras tanto, hombres y mujeres salen a trabajar,\nocupados en sus labores hasta el atardecer."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos104-nbla-14b"
+          ],
+          "verseId": "salmos104-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-23"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "24-30",
+      "id": "salmos104-msg-03",
+      "msg": {
+        "en": "What a wildly wonderful world, GOD!\nYou made it all, with Wisdom at your side,\nmade earth overflow with your wonderful creations.\nOh, look—the deep, wide sea,\nbrimming with fish past counting,\nsardines and sharks and salmon.\nShips plow those waters,\nand Leviathan, your pet dragon, romps in them.\nAll the creatures look expectantly to you\nto give them their meals on time.\nYou come, and they gather around;\nyou open your hand and they eat from it.\nIf you turned your back,\nthey’d die in a minute—\nTake back your Spirit and they die,\nrevert to original mud;\nSend out your Spirit and they spring to life—\nthe whole countryside in bloom and blossom.",
+        "es": "¡Qué mundo tan salvaje y maravilloso, DIOS!\nLo hiciste todo, con la Sabiduría a Tu lado;\nllenaste la tierra hasta desbordarla de Tus maravillosas creaciones.\nMira ese mar profundo y ancho,\nrebosante de peces imposibles de contar:\nsardinas, tiburones y salmones.\nLos barcos surcan esas aguas,\ny Leviatán, Tu dragón mascota, juega en ellas.\nTodas las criaturas te miran expectantes,\nesperando que les des su comida a tiempo.\nTú llegas y se reúnen a Tu alrededor;\nabres la mano y comen de ella.\nSi les dieras la espalda,\nmorirían en un instante.\nRetiras Tu Espíritu y mueren;\nvuelven al barro del que salieron.\nEnvías Tu Espíritu y vuelven a la vida:\ntodo el campo se llena de brotes y flores."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-30"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "salmos104-msg-04",
+      "msg": {
+        "en": "The glory of GOD—let it last forever!\nLet GOD enjoy his creation!\nHe takes one look at earth and triggers an earthquake,\npoints a finger at the mountains, and volcanoes erupt.",
+        "es": "¡Que la gloria de DIOS dure para siempre!\n¡Que DIOS disfrute de Su creación!\nBasta una mirada Suya a la tierra para provocar un terremoto;\nseñala las montañas con un dedo y los volcanes entran en erupción."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-32"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "33-35",
+      "id": "salmos104-msg-05",
+      "msg": {
+        "en": "Oh, let me sing to GOD all my life long,\nsing hymns to my God as long as I live!\nOh, let my song please him;\nI’m so pleased to be singing to GOD.\nBut clear the ground of sinners—\nno more godless men and women!\nO my soul, bless GOD!",
+        "es": "¡Déjame cantarle a DIOS toda mi vida,\nentonar himnos a mi Dios mientras viva!\n¡Que mi canción le agrade!\nMe alegra tanto cantarle a DIOS.\nPero despeja la tierra de pecadores:\n¡que no haya más hombres ni mujeres sin Dios!\n¡Alma mía, bendice a DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos104-nbla-35"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos104-nbla-01",
+      "number": 1,
+      "text": "Bendice, alma mía, al SEÑOR.\nSEÑOR, Dios mío, cuán grande eres;\nTe has vestido de esplendor y de majestad,"
+    },
+    {
+      "id": "salmos104-nbla-02",
+      "number": 2,
+      "text": "Cubriéndote de luz como con un manto,\nExtendiendo los cielos como una cortina."
+    },
+    {
+      "id": "salmos104-nbla-03",
+      "number": 3,
+      "text": "Él es el que pone las vigas de Sus altos aposentos en las aguas;\nEl que hace de las nubes Su carroza;\nEl que anda sobre las alas del viento;"
+    },
+    {
+      "id": "salmos104-nbla-04",
+      "number": 4,
+      "text": "Que hace de los vientos Sus mensajeros,\nY de las llamas de fuego Sus ministros."
+    },
+    {
+      "id": "salmos104-nbla-05",
+      "number": 5,
+      "text": "Él estableció la tierra sobre sus cimientos,\nPara que jamás sea sacudida."
+    },
+    {
+      "id": "salmos104-nbla-06",
+      "number": 6,
+      "text": "La cubriste con el abismo como con un vestido;\nLas aguas estaban sobre los montes."
+    },
+    {
+      "id": "salmos104-nbla-07",
+      "number": 7,
+      "text": "A Tu reprensión huyeron,\nAl sonido de Tu trueno se precipitaron."
+    },
+    {
+      "id": "salmos104-nbla-08",
+      "number": 8,
+      "text": "Se levantaron los montes, se hundieron los valles,\nAl lugar que Tú estableciste para ellos."
+    },
+    {
+      "id": "salmos104-nbla-09",
+      "number": 9,
+      "text": "Pusiste un límite que no pueden cruzar,\nPara que no vuelvan a cubrir la tierra."
+    },
+    {
+      "id": "salmos104-nbla-10",
+      "number": 10,
+      "text": "Él hace brotar manantiales en los valles,\nCorren entre los montes;"
+    },
+    {
+      "id": "salmos104-nbla-11",
+      "number": 11,
+      "text": "Dan de beber a todas las bestias del campo,\nLos asnos monteses mitigan su sed."
+    },
+    {
+      "id": "salmos104-nbla-12",
+      "number": 12,
+      "text": "Junto a ellos habitan las aves de los cielos,\nElevan sus trinos entre las ramas."
+    },
+    {
+      "id": "salmos104-nbla-13",
+      "number": 13,
+      "text": "Él riega los montes desde Sus aposentos,\nDel fruto de Sus obras se sacia la tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-14a",
+          "order": 1,
+          "text": "Él hace brotar la hierba para el ganado,\nY las plantas para el servicio del hombre,"
+        },
+        {
+          "id": "salmos104-nbla-14b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que él saque alimento de la tierra,"
+        }
+      ],
+      "id": "salmos104-nbla-14",
+      "number": 14
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-15a",
+          "order": 1,
+          "text": "Y vino que alegra el corazón del hombre,"
+        },
+        {
+          "id": "salmos104-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que haga brillar con aceite su rostro,\nY alimento que fortalece el corazón del hombre."
+        }
+      ],
+      "id": "salmos104-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "salmos104-nbla-16",
+      "number": 16,
+      "text": "Los árboles del SEÑOR se sacian,\nLos cedros del Líbano que Él plantó,"
+    },
+    {
+      "id": "salmos104-nbla-17",
+      "number": 17,
+      "text": "Donde hacen sus nidos las aves,\nY la cigüeña, cuya morada está en los cipreses."
+    },
+    {
+      "id": "salmos104-nbla-18",
+      "number": 18,
+      "text": "Los montes altos son para las cabras monteses;\nLas peñas son refugio para los tejones."
+    },
+    {
+      "id": "salmos104-nbla-19",
+      "number": 19,
+      "text": "Él hizo la luna para señalar las estaciones;\nEl sol conoce el lugar de su ocaso."
+    },
+    {
+      "id": "salmos104-nbla-20",
+      "number": 20,
+      "text": "Tú ordenas la oscuridad y se hace de noche,\nEn ella andan todas las bestias del bosque."
+    },
+    {
+      "id": "salmos104-nbla-21",
+      "number": 21,
+      "text": "Rugen los leoncillos tras su presa,\nY buscan de Dios su comida."
+    },
+    {
+      "id": "salmos104-nbla-22",
+      "number": 22,
+      "text": "Al salir el sol se esconden,\nY se echan en sus guaridas."
+    },
+    {
+      "id": "salmos104-nbla-23",
+      "number": 23,
+      "text": "Sale el hombre a su trabajo,\nY a su labor hasta el atardecer."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-24a",
+          "order": 1,
+          "text": "¡Cuán numerosas son Tus obras, oh SEÑOR!"
+        },
+        {
+          "id": "salmos104-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Con sabiduría las has hecho todas;"
+        },
+        {
+          "id": "salmos104-nbla-24c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Llena está la tierra de Tus posesiones."
+        }
+      ],
+      "id": "salmos104-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "salmos104-nbla-25",
+      "number": 25,
+      "text": "He allí el mar, grande y anchuroso,\nEn el cual se mueve un sinnúmero\nDe animales tanto pequeños como grandes."
+    },
+    {
+      "id": "salmos104-nbla-26",
+      "number": 26,
+      "text": "Allí surcan las naves,\nY el Leviatán que hiciste para que jugara en él."
+    },
+    {
+      "id": "salmos104-nbla-27",
+      "number": 27,
+      "text": "Todos ellos esperan en Ti\nPara que les des su comida a su tiempo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-28a",
+          "order": 1,
+          "text": "Tú les das, ellos recogen;"
+        },
+        {
+          "id": "salmos104-nbla-28b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Abres Tu mano, se sacian de bienes."
+        }
+      ],
+      "id": "salmos104-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "salmos104-nbla-29",
+      "number": 29,
+      "text": "Escondes Tu rostro, se turban;\nLes quitas el aliento, expiran,\nY vuelven al polvo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-30a",
+          "order": 1,
+          "text": "Envías Tu Espíritu, son creados,"
+        },
+        {
+          "id": "salmos104-nbla-30b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y renuevas la superficie de la tierra."
+        }
+      ],
+      "id": "salmos104-nbla-30",
+      "number": 30
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos104-nbla-31a",
+          "order": 1,
+          "text": "¡Sea para siempre la gloria del SEÑOR!"
+        },
+        {
+          "id": "salmos104-nbla-31b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¡Alégrese el SEÑOR en sus obras!"
+        }
+      ],
+      "id": "salmos104-nbla-31",
+      "number": 31
+    },
+    {
+      "id": "salmos104-nbla-32",
+      "number": 32,
+      "text": "Él mira a la tierra, y ella tiembla;\nToca los montes, y humean."
+    },
+    {
+      "id": "salmos104-nbla-33",
+      "number": 33,
+      "text": "Al SEÑOR cantaré mientras yo viva;\nCantaré alabanzas a mi Dios mientras yo exista."
+    },
+    {
+      "id": "salmos104-nbla-34",
+      "number": 34,
+      "text": "Séale agradable mi meditación;\nYo me alegraré en el SEÑOR."
+    },
+    {
+      "id": "salmos104-nbla-35",
+      "number": 35,
+      "text": "Sean consumidos de la tierra los pecadores,\nY los impíos dejen de ser.\nBendice, alma mía, al SEÑOR.\n¡Aleluya!"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

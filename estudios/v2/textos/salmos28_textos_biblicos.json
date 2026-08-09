@@ -1,0 +1,343 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La relación con Dios permite nombrar con honestidad la experiencia de Su silencio. La NBLA fija el peligro que David percibe si Dios no responde; MSG vuelve tangible esa angustia mediante la paradoja de un silencio ensordecedor. La imagen expresa la experiencia del salmista, pero no demuestra que Dios realmente lo haya abandonado.",
+      "id": "salmos28-joya-01",
+      "msg": {
+        "en": "\"If all I get from you is deafening silence,\"",
+        "es": "\"Si lo único que recibo de Ti es un silencio ensordecedor,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos28-nbla-01b"
+          ],
+          "verseId": "salmos28-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La oración bíblica puede ser específica, intensa y corporal. La NBLA presenta una súplica dirigida al SEÑOR y un pedido de auxilio; MSG enfatiza que David dice lo que necesita y clama abiertamente. Esa franqueza no convierte la oración en exigencia manipuladora: sigue siendo dependencia ante Dios.",
+      "id": "salmos28-joya-02",
+      "msg": {
+        "en": "\"I’m letting you know what I need, calling out for help\"",
+        "es": "\"Te estoy diciendo lo que necesito, pidiendo ayuda a gritos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos28-nbla-02a"
+          ],
+          "verseId": "salmos28-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "Dios juzga la hipocresía que separa el discurso pacífico de una práctica malvada. La NBLA fija el contraste entre las palabras al prójimo y el corazón; MSG lo convierte en la imagen de personas que trabajan horas extra para el mal. «El taller del Diablo» es lenguaje expresivo de MSG y no una descripción literal de estructuras demoníacas.",
+      "id": "salmos28-joya-03",
+      "msg": {
+        "en": "\"They talk a good line of “peace,” then moonlight for the Devil.\"",
+        "es": "\"Hablan muy bonito de «paz», pero hacen horas extra para el Diablo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos28-nbla-03b"
+          ],
+          "verseId": "salmos28-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La confianza del corazón descansa en la ayuda efectiva de Dios. La NBLA une confianza y socorro; MSG vuelve esa relación visible como comprometer el propio destino con el SEÑOR y descubrir Su apoyo. La frase no convierte a Dios en aliado de todos nuestros intereses, sino que celebra Su fidelidad al salmista que se refugia en Él.",
+      "id": "salmos28-joya-04",
+      "msg": {
+        "en": "\"He proved he’s on my side; I’ve thrown my lot in with him.\"",
+        "es": "\"Me demostró que está de mi lado; he ligado mi suerte a Él.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos28-nbla-07b"
+          ],
+          "verseId": "salmos28-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La fuerza salvadora de Dios se expresa como cuidado pastoral. La NBLA fija la petición de pastorear y llevar al pueblo; MSG comunica cercanía mediante un buen pastor que carga a quienes cuida. La imagen no promete ausencia de disciplina o caminos difíciles, sino presencia, protección y sostén continuo.",
+      "id": "salmos28-joya-05",
+      "msg": {
+        "en": "\"Care for them; carry them like a good shepherd.\"",
+        "es": "\"Cuídalos; llévalos en brazos como un buen pastor.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos28-nbla-09b"
+          ],
+          "verseId": "salmos28-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "8-9"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 28,
+    "studyId": "salmos-28"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "salmos28-msg-01",
+      "msg": {
+        "en": "Don’t turn a deaf ear\nwhen I call you, GOD.\nIf all I get from you is\ndeafening silence,\nI’d be better off\nin the Black Hole.",
+        "es": "No te hagas el sordo\ncuando te llamo, DIOS.\nSi lo único que recibo de Ti es\nun silencio ensordecedor,\nmás me valdría estar\nen el Agujero Negro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "salmos28-msg-02",
+      "msg": {
+        "en": "I’m letting you know what I need,\ncalling out for help\nAnd lifting my arms\ntoward your inner sanctum.",
+        "es": "Te estoy diciendo lo que necesito,\npidiendo ayuda a gritos\ny levantando los brazos\nhacia Tu santuario interior."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos28-msg-03",
+      "msg": {
+        "en": "Don’t shove me into\nthe same jail cell with those crooks,\nWith those who are\nfull-time employees of evil.\nThey talk a good line of “peace,”\nthen moonlight for the Devil.\nPay them back for what they’ve done,\nfor how bad they’ve been.\nPay them back for their long hours\nin the Devil’s workshop;\nThen cap it with a huge bonus.",
+        "es": "No me empujes\na la misma celda con esos delincuentes,\ncon quienes trabajan\na tiempo completo para el mal.\nHablan muy bonito de «paz»,\npero hacen horas extra para el Diablo.\nPágales por lo que han hecho,\npor lo malos que han sido.\nPágales por todas esas largas horas\nen el taller del Diablo;\ny remátalo con una enorme bonificación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos28-msg-04",
+      "msg": {
+        "en": "Because they have no idea how God works\nor what he is up to,\nGod will smash them to smithereens\nand walk away from the ruins.",
+        "es": "Como no tienen idea de cómo obra Dios\nni de lo que está haciendo,\nDios los hará añicos\ny se alejará de las ruinas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos28-msg-05",
+      "msg": {
+        "en": "Blessed be GOD—\nhe heard me praying.\nHe proved he’s on my side;\nI’ve thrown my lot in with him.\nNow I’m jumping for joy,\nand shouting and singing my thanks to him.",
+        "es": "Bendito sea DIOS:\nescuchó mi oración.\nMe demostró que está de mi lado;\nhe ligado mi suerte a Él.\nAhora salto de alegría,\ngrito y canto para darle gracias."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "salmos28-msg-06",
+      "msg": {
+        "en": "GOD is all strength for his people,\nample refuge for his chosen leader;\nSave your people\nand bless your heritage.\nCare for them;\ncarry them like a good shepherd.",
+        "es": "DIOS es toda la fuerza que Su pueblo necesita,\nun refugio más que suficiente para Su líder escogido.\nSalva a Tu pueblo\ny bendice Tu heredad.\nCuídalos;\nllévalos en brazos como un buen pastor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos28-nbla-09"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos28-nbla-01a",
+          "order": 1,
+          "text": "A Ti clamo, oh SEÑOR;\nRoca mía, no seas sordo para conmigo,"
+        },
+        {
+          "id": "salmos28-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "No sea que si guardas silencio hacia mí,"
+        },
+        {
+          "id": "salmos28-nbla-01c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Venga a ser semejante a los que descienden a la fosa."
+        }
+      ],
+      "id": "salmos28-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos28-nbla-02a",
+          "order": 1,
+          "text": "Escucha la voz de mis súplicas cuando a Ti pido auxilio;"
+        },
+        {
+          "id": "salmos28-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Cuando levanto mis manos hacia el Lugar Santísimo de Tu santuario."
+        }
+      ],
+      "id": "salmos28-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos28-nbla-03a",
+          "order": 1,
+          "text": "No me arrastres con los impíos\nNi con los que obran iniquidad,"
+        },
+        {
+          "id": "salmos28-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que hablan de paz con su prójimo,\nMientras hay maldad en su corazón."
+        }
+      ],
+      "id": "salmos28-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos28-nbla-04",
+      "number": 4,
+      "text": "Dales conforme a su obra y según la maldad de sus hechos;\nDales conforme a la obra de sus manos;\nPágales su merecido."
+    },
+    {
+      "id": "salmos28-nbla-05",
+      "number": 5,
+      "text": "Porque no tienen en cuenta los hechos del SEÑOR\nNi la obra de Sus manos,\nÉl los derribará y no los edificará."
+    },
+    {
+      "id": "salmos28-nbla-06",
+      "number": 6,
+      "text": "Bendito sea el SEÑOR,\nPorque ha oído la voz de mis súplicas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos28-nbla-07a",
+          "order": 1,
+          "text": "El SEÑOR es mi fuerza y mi escudo;"
+        },
+        {
+          "id": "salmos28-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "En Él confía mi corazón, y soy socorrido;"
+        },
+        {
+          "id": "salmos28-nbla-07c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Por tanto, mi corazón se regocija,\nY le daré gracias con mi cántico."
+        }
+      ],
+      "id": "salmos28-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos28-nbla-08",
+      "number": 8,
+      "text": "El SEÑOR es la fuerza de su pueblo,\nY Él es defensa salvadora de Su ungido."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos28-nbla-09a",
+          "order": 1,
+          "text": "Salva a Tu pueblo y bendice a Tu heredad,"
+        },
+        {
+          "id": "salmos28-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pastoréalos y llévalos en Tus brazos para siempre."
+        }
+      ],
+      "id": "salmos28-nbla-09",
+      "number": 9
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

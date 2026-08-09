@@ -1,0 +1,563 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El pecado interpersonal también es una falta delante de Dios. La NBLA fija esa relación explícita entre «contra el SEÑOR» y «engañando a su prójimo»; MSG la vuelve especialmente visible al hablar de traicionar la confianza de Dios. El texto no afirma que toda disputa humana tenga la misma gravedad o intención, pero sí elimina la posibilidad de considerar el fraude contra otro como asunto espiritualmente neutral.",
+      "id": "levitico6-joya-01",
+      "msg": {
+        "en": "\"betraying trust with GOD by deceiving his neighbor\"",
+        "es": "\"traicionando la confianza de DIOS al engañar a su prójimo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico6-nbla-02b"
+          ],
+          "verseId": "levitico6-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-6"
+    },
+    {
+      "explanation": "El arrepentimiento incluye reparar el daño cuando existe una restitución posible. La NBLA establece la devolución completa y la quinta parte adicional; MSG expresa la misma obligación en lenguaje directo. Esta reparación no compra la expiación, pero impide usar la religión como refugio para conservar los beneficios obtenidos mediante el pecado.",
+      "id": "levitico6-joya-02",
+      "msg": {
+        "en": "\"He must make full compensation, add twenty percent to it\"",
+        "es": "\"Deberá hacer restitución completa, añadirle un veinte por ciento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico6-nbla-05b"
+          ],
+          "verseId": "levitico6-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "1-6"
+    },
+    {
+      "explanation": "Después de la restitución, el texto todavía habla de expiación y perdón. La NBLA confirma que la reparación humana no sustituye la necesidad de reconciliación con Dios; MSG conserva con claridad el resultado: «será perdonado». La gracia no elimina responsabilidad, y la responsabilidad no reemplaza la gracia.",
+      "id": "levitico6-joya-03",
+      "msg": {
+        "en": "\"the priest will make atonement for him before GOD and he’s forgiven\"",
+        "es": "\"el sacerdote hará expiación por él delante de DIOS, y será perdonado\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico6-nbla-07b"
+          ],
+          "verseId": "levitico6-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "El servicio del altar requiere continuidad. La NBLA establece literalmente que el fuego no debe apagarse y MSG conserva la fuerza repetitiva de la orden. El texto habla del fuego físico del altar, no de un estado emocional permanente del creyente. Pastoralmente, sí permite ver que la fidelidad sostenida depende de prácticas concretas y repetidas.",
+      "id": "levitico6-joya-04",
+      "msg": {
+        "en": "\"Keep the fire burning on the Altar continuously. It must not go out.\"",
+        "es": "\"Mantengan el fuego ardiendo continuamente sobre el Altar. No debe apagarse.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "8-13"
+    },
+    {
+      "explanation": "Aquello que Dios aparta para Su servicio no se vuelve ordinario por estar en manos humanas. La NBLA y MSG coinciden en la intensidad de la categoría «santísima». La santidad aquí no es una sensación espiritual, sino una condición que determina dónde se come, quién puede participar y cómo debe tratarse la ofrenda.",
+      "id": "levitico6-joya-05",
+      "msg": {
+        "en": "\"It is very holy\"",
+        "es": "\"Es cosa santísima\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico6-nbla-17b"
+          ],
+          "verseId": "levitico6-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "14-18"
+    },
+    {
+      "explanation": "No todas las ofrendas por el pecado se manejan de la misma manera. La NBLA fija la excepción ligada a la sangre llevada al lugar santo, y MSG la expresa con la misma claridad. El límite muestra que el sacerdocio no dispone libremente de las cosas santas; el modo de expiación determina también qué puede hacerse con la ofrenda.",
+      "id": "levitico6-joya-06",
+      "msg": {
+        "en": "\"any Absolution-Offering whose blood is brought into the Tent of Meeting to make atonement in the Sanctuary must not be eaten\"",
+        "es": "\"ninguna Ofrenda de Absolución cuya sangre sea llevada a la Tienda de Reunión para hacer expiación en el Santuario podrá comerse\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico6-nbla-30b"
+          ],
+          "verseId": "levitico6-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "24-30"
+    }
+  ],
+  "meta": {
+    "book": "LEVÍTICO",
+    "bookId": "levitico",
+    "chapter": 6,
+    "studyId": "levitico-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "levitico6-msg-01",
+      "msg": {
+        "en": "GOD spoke to Moses: “When anyone sins by betraying trust with GOD by deceiving his neighbor regarding something entrusted to him, or by robbing or cheating or threatening him; or if he has found something lost and lies about it and swears falsely regarding any of these sins that people commonly commit—when he sins and is found guilty, he must return what he stole or extorted, restore what was entrusted to him, return the lost thing he found, or anything else about which he swore falsely. He must make full compensation, add twenty percent to it, and hand it over to the owner on the same day he brings his Compensation-Offering. He must present to GOD as his Compensation-Offering a ram without any defect from the flock, assessed at the value of a Compensation-Offering.",
+        "es": "DIOS habló a Moisés: «Cuando alguien peque traicionando la confianza de DIOS al engañar a su prójimo respecto de algo que le fue confiado, o robándole, estafándolo o amenazándolo; o si encuentra algo perdido y miente sobre ello y jura falsamente acerca de cualquiera de estos pecados que la gente suele cometer, cuando peque y sea declarado culpable deberá devolver lo que robó o extorsionó, restituir lo que le fue confiado, devolver lo perdido que encontró o cualquier otra cosa sobre la cual juró falsamente. Deberá hacer restitución completa, añadirle un veinte por ciento y entregárselo al dueño el mismo día en que lleve su Ofrenda de Compensación. Presentará a DIOS como Ofrenda de Compensación un carnero sin defecto del rebaño, valorado conforme al valor de una Ofrenda de Compensación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7",
+      "id": "levitico6-msg-02",
+      "msg": {
+        "en": "“Thus the priest will make atonement for him before GOD and he’s forgiven of any of the things that one does that bring guilt.”",
+        "es": "«Así el sacerdote hará expiación por él delante de DIOS, y será perdonado de cualquiera de las cosas que una persona hace y que la hacen culpable»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-13",
+      "id": "levitico6-msg-03",
+      "msg": {
+        "en": "GOD spoke to Moses: “Command Aaron and his sons. Tell them, These are the instructions for the Whole-Burnt-Offering. Leave the Whole-Burnt-Offering on the Altar hearth through the night until morning, with the fire kept burning on the Altar. Then dress in your linen clothes with linen underwear next to your body. Remove the ashes remaining from the Whole-Burnt-Offering and place them beside the Altar. Then change clothes and carry the ashes outside the camp to a clean place. Meanwhile keep the fire on the Altar burning; it must not go out. Replenish the wood for the fire every morning, arrange the Whole-Burnt-Offering on it, and burn the fat of the Peace-Offering on top of it all. Keep the fire burning on the Altar continuously. It must not go out.",
+        "es": "DIOS habló a Moisés: «Ordena a Aarón y a sus hijos. Diles: Estas son las instrucciones para la Ofrenda Totalmente Quemada. Dejen la Ofrenda Totalmente Quemada sobre el fuego del Altar durante toda la noche hasta la mañana, manteniendo encendido el fuego del Altar. Después, el sacerdote se vestirá con sus ropas de lino, con la ropa interior de lino junto a su cuerpo. Retirará las cenizas que queden de la Ofrenda Totalmente Quemada y las colocará junto al Altar. Luego se cambiará de ropa y llevará las cenizas fuera del campamento, a un lugar limpio. Mientras tanto, mantengan ardiendo el fuego del Altar; no debe apagarse. Repongan la leña cada mañana, acomoden sobre ella la Ofrenda Totalmente Quemada y quemen encima la grasa de la Ofrenda de Paz. Mantengan el fuego ardiendo continuamente sobre el Altar. No debe apagarse."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "14-18",
+      "id": "levitico6-msg-04",
+      "msg": {
+        "en": "“These are the instructions for the Grain-Offering. Aaron’s sons are to present it to GOD in front of the Altar. The priest takes a handful of the fine flour of the Grain-Offering with its oil and all its incense and burns this as a memorial on the Altar, a pleasing fragrance to GOD. Aaron and his sons eat the rest of it. It is unraised bread and so eaten in a holy place—in the Courtyard of the Tent of Meeting. They must not bake it with yeast. I have designated it as their share of the gifts presented to me. It is very holy, like the Absolution-Offering and the Compensation-Offering. Any male descendant among Aaron’s sons may eat it. This is a fixed rule regarding GOD’S gifts, stretching down the generations. Anyone who touches these offerings must be holy.”",
+        "es": "«Estas son las instrucciones para la Ofrenda de Cereal. Los hijos de Aarón deberán presentarla delante de DIOS, frente al Altar. El sacerdote tomará un puñado de la flor de harina de la Ofrenda de Cereal, con su aceite y todo su incienso, y lo quemará como memorial sobre el Altar, un aroma agradable para DIOS. Aarón y sus hijos comerán el resto. Es pan sin levadura y deberá comerse en un lugar santo, en el atrio de la Tienda de Reunión. No deberán hornearlo con levadura. Yo lo he destinado como la porción que les corresponde de las ofrendas que se me presentan. Es cosa santísima, como la Ofrenda de Absolución y la Ofrenda de Compensación. Todo descendiente varón de Aarón podrá comerla. Esta es una norma permanente respecto de las ofrendas para DIOS, de generación en generación. Todo el que toque estas ofrendas deberá ser santo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-18"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "19-23",
+      "id": "levitico6-msg-05",
+      "msg": {
+        "en": "GOD spoke to Moses: “This is the offering which Aaron and his sons each are to present to GOD on the day he is anointed: two quarts of fine flour as a regular Grain-Offering, half in the morning and half in the evening. Prepare it with oil on a griddle. Bring it well-mixed and then present it crumbled in pieces as a pleasing fragrance to GOD. Aaron’s son who is anointed to succeed him offers it to GOD—this is a fixed rule. The whole thing is burned. Every Grain-Offering of a priest is burned completely; it must not be eaten.”",
+        "es": "DIOS habló a Moisés: «Esta es la ofrenda que Aarón y cada uno de sus hijos deberán presentar a DIOS el día de su unción: unos dos litros de flor de harina como Ofrenda de Cereal regular, la mitad por la mañana y la mitad por la tarde. Prepárenla con aceite sobre una plancha. Llévenla bien mezclada y preséntenla desmenuzada en pedazos como aroma agradable para DIOS. El hijo de Aarón que sea ungido para sucederlo la ofrecerá a DIOS; esta es una norma permanente. Toda la ofrenda será quemada. Toda Ofrenda de Cereal presentada por un sacerdote será quemada por completo; no deberá comerse»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-23"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "24-30",
+      "id": "levitico6-msg-06",
+      "msg": {
+        "en": "GOD spoke to Moses: “Tell Aaron and his sons, These are the instructions for the Absolution-Offering. Slaughter the Absolution-Offering in the place where the Whole-Burnt-Offering is slaughtered before GOD—the offering is most holy. The priest in charge eats it in a holy place, the Courtyard of the Tent of Meeting. Anyone who touches any of the meat must be holy. A garment that gets blood spattered on it must be washed in a holy place. Break the clay pot in which the meat was cooked. If it was cooked in a bronze pot, scour it and rinse it with water. Any male among the priestly families may eat it; it is most holy. But any Absolution-Offering whose blood is brought into the Tent of Meeting to make atonement in the Sanctuary must not be eaten, it has to be burned.”",
+        "es": "DIOS habló a Moisés: «Diles a Aarón y a sus hijos: Estas son las instrucciones para la Ofrenda de Absolución. Degüellen la Ofrenda de Absolución en el mismo lugar donde se degüella la Ofrenda Totalmente Quemada delante de DIOS; la ofrenda es cosa santísima. El sacerdote encargado de ofrecerla la comerá en un lugar santo, en el atrio de la Tienda de Reunión. Todo el que toque su carne deberá ser santo. La ropa sobre la que salpique su sangre deberá lavarse en un lugar santo. Rompan la vasija de barro en la que se cocine la carne. Si se cocina en una vasija de bronce, restriéguenla y enjuáguenla con agua. Todo varón de las familias sacerdotales podrá comerla; es cosa santísima. Pero ninguna Ofrenda de Absolución cuya sangre sea llevada a la Tienda de Reunión para hacer expiación en el Santuario podrá comerse; deberá ser quemada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico6-nbla-30"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "levitico6-nbla-01",
+      "number": 1,
+      "text": "Entonces el SEÑOR le dijo a Moisés:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico6-nbla-02a",
+          "order": 1,
+          "text": "«Cuando alguien peque y"
+        },
+        {
+          "id": "levitico6-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "cometa una falta contra el SEÑOR, engañando a su prójimo"
+        },
+        {
+          "id": "levitico6-nbla-02c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "en cuanto a un depósito o alguna cosa que se le ha confiado, o por robo, o por haber extorsionado a su prójimo,"
+        }
+      ],
+      "id": "levitico6-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "levitico6-nbla-03",
+      "number": 3,
+      "text": "o ha encontrado lo que estaba perdido y ha mentido acerca de ello, y ha jurado falsamente, de manera que peca en cualquiera de las cosas que suele hacer el hombre,"
+    },
+    {
+      "id": "levitico6-nbla-04",
+      "number": 4,
+      "text": "será, entonces, que cuando peque y sea culpable, devolverá lo que tomó al robar, o lo que obtuvo mediante extorsión, o el depósito que le fue confiado, o la cosa perdida que ha encontrado,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico6-nbla-05a",
+          "order": 1,
+          "text": "o cualquier cosa acerca de la cual juró falsamente;"
+        },
+        {
+          "id": "levitico6-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hará completa restitución de ello y le añadirá una quinta parte más"
+        },
+        {
+          "id": "levitico6-nbla-05c",
+          "order": 3,
+          "text": ". Se la dará al que le pertenece el día que presente su ofrenda por la culpa."
+        }
+      ],
+      "id": "levitico6-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "levitico6-nbla-06",
+      "number": 6,
+      "text": "Entonces traerá al sacerdote su ofrenda por la culpa para el SEÑOR, un carnero sin defecto del rebaño, conforme a tu valuación como ofrenda por la culpa,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico6-nbla-07a",
+          "order": 1,
+          "text": "y"
+        },
+        {
+          "id": "levitico6-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el sacerdote hará expiación por él delante del SEÑOR, y le será perdonada"
+        },
+        {
+          "id": "levitico6-nbla-07c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "cualquier cosa que haya hecho por la cual sea culpable»."
+        }
+      ],
+      "id": "levitico6-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "levitico6-nbla-08",
+      "number": 8,
+      "text": "Entonces el SEÑOR le dijo a Moisés:"
+    },
+    {
+      "id": "levitico6-nbla-09",
+      "number": 9,
+      "text": "«Ordena a Aarón y a sus hijos, y diles: “Esta es la ley del holocausto: el holocausto mismo permanecerá sobre el fuego, sobre el altar, toda la noche hasta la mañana, y el fuego del altar ha de mantenerse encendido en él."
+    },
+    {
+      "id": "levitico6-nbla-10",
+      "number": 10,
+      "text": "El sacerdote vestirá su túnica de lino y se pondrá calzoncillos de lino fino sobre su cuerpo. Tomará las cenizas a que el fuego ha reducido el holocausto sobre el altar y las pondrá junto al altar."
+    },
+    {
+      "id": "levitico6-nbla-11",
+      "number": 11,
+      "text": "Después se quitará sus vestiduras, se pondrá otras vestiduras y llevará las cenizas fuera del campamento a un lugar limpio."
+    },
+    {
+      "id": "levitico6-nbla-12",
+      "number": 12,
+      "text": "El fuego del altar se mantendrá encendido sobre el altar; no se apagará, sino que el sacerdote quemará leña en él todas las mañanas, y pondrá sobre él el holocausto, y quemará sobre él la grasa de las ofrendas de paz."
+    },
+    {
+      "id": "levitico6-nbla-13",
+      "number": 13,
+      "text": "El fuego se mantendrá encendido continuamente en el altar; no se apagará."
+    },
+    {
+      "id": "levitico6-nbla-14",
+      "number": 14,
+      "text": "”Esta es la ley de la ofrenda de cereal: los hijos de Aarón la presentarán delante del SEÑOR frente al altar."
+    },
+    {
+      "id": "levitico6-nbla-15",
+      "number": 15,
+      "text": "Entonces uno de los sacerdotes tomará de ella un puñado de flor de harina de la ofrenda de cereal, con su aceite y todo el incienso que hay en la ofrenda de cereal, y la quemará sobre el altar. Es aroma agradable, su ofrenda memorial para el SEÑOR."
+    },
+    {
+      "id": "levitico6-nbla-16",
+      "number": 16,
+      "text": "Y lo que quede de ella, Aarón y sus hijos lo comerán. Debe comerse como tortas sin levadura en lugar santo; en el atrio de la tienda de reunión lo comerán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico6-nbla-17a",
+          "order": 1,
+          "text": "No se cocerá con levadura. Se la he dado como parte de Mis ofrendas encendidas;"
+        },
+        {
+          "id": "levitico6-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "es cosa santísima"
+        },
+        {
+          "id": "levitico6-nbla-17c",
+          "order": 3,
+          "text": ", lo mismo que la ofrenda por el pecado y la ofrenda por la culpa."
+        }
+      ],
+      "id": "levitico6-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "levitico6-nbla-18",
+      "number": 18,
+      "text": "Todo varón entre los hijos de Aarón puede comerla; es una ordenanza perpetua por todas las generaciones de ustedes tocante a las ofrendas encendidas para el SEÑOR. Todo lo que las toque quedará consagrado”»."
+    },
+    {
+      "id": "levitico6-nbla-19",
+      "number": 19,
+      "text": "Y el SEÑOR le dijo a Moisés:"
+    },
+    {
+      "id": "levitico6-nbla-20",
+      "number": 20,
+      "text": "«Esta es la ofrenda que Aarón y sus hijos han de ofrecer al SEÑOR el día de su unción: la décima parte de un efa (2.2 litros) de flor de harina como ofrenda perpetua de cereal, la mitad por la mañana y la mitad por la tarde."
+    },
+    {
+      "id": "levitico6-nbla-21",
+      "number": 21,
+      "text": "Se preparará con aceite en una sartén, y cuando se haya mezclado bien la traerás. Ofrecerás la ofrenda de cereal en pedazos cocidos al horno como aroma agradable para el SEÑOR."
+    },
+    {
+      "id": "levitico6-nbla-22",
+      "number": 22,
+      "text": "La ofrecerá el sacerdote, que de entre los hijos de Aarón sea ungido en su lugar. Por ordenanza perpetua será totalmente quemada para el SEÑOR."
+    },
+    {
+      "id": "levitico6-nbla-23",
+      "number": 23,
+      "text": "Así que toda ofrenda de cereal del sacerdote será totalmente quemada. No se comerá»."
+    },
+    {
+      "id": "levitico6-nbla-24",
+      "number": 24,
+      "text": "Entonces el SEÑOR habló a Moisés:"
+    },
+    {
+      "id": "levitico6-nbla-25",
+      "number": 25,
+      "text": "«Di a Aarón y a sus hijos: “Esta es la ley de la ofrenda por el pecado: la ofrenda por el pecado será ofrecida delante del SEÑOR en el mismo lugar donde el holocausto es ofrecido; es cosa santísima."
+    },
+    {
+      "id": "levitico6-nbla-26",
+      "number": 26,
+      "text": "El sacerdote que la ofrezca por el pecado la comerá. Se comerá en un lugar santo, en el atrio de la tienda de reunión."
+    },
+    {
+      "id": "levitico6-nbla-27",
+      "number": 27,
+      "text": "Todo el que toque su carne quedará consagrado; y si la sangre salpica sobre una vestidura, lavarás en un lugar santo lo que fue salpicado."
+    },
+    {
+      "id": "levitico6-nbla-28",
+      "number": 28,
+      "text": "Y la vasija de barro en la cual fue hervida, será quebrada; y si se hirvió en una vasija de bronce, se restregará y se lavará con agua."
+    },
+    {
+      "id": "levitico6-nbla-29",
+      "number": 29,
+      "text": "Todo varón de entre los sacerdotes puede comer de ella; es cosa santísima."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico6-nbla-30a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "levitico6-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no se comerá de ninguna ofrenda por el pecado, cuya sangre se haya traído a la tienda de reunión para hacer expiación en el lugar santo"
+        },
+        {
+          "id": "levitico6-nbla-30c",
+          "order": 3,
+          "text": "; al fuego será quemada."
+        }
+      ],
+      "id": "levitico6-nbla-30",
+      "number": 30
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

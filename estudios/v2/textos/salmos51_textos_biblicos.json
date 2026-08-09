@@ -1,0 +1,412 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La confesión comienza cuando el pecado deja de ser una abstracción y la persona acepta mirarlo sin defensas. La NBLA fija el sentido: David reconoce que su pecado permanece delante de él. MSG convierte esa conciencia en una imagen directa y confrontadora: el pecado que intentó esconder ahora lo mira de frente. La imagen no significa que la culpa tenga vida propia, sino que David ya no puede continuar negando lo que Dios ha expuesto.",
+      "id": "salmos51-joya-01",
+      "msg": {
+        "en": "“my sins are staring me down.”",
+        "es": "“mis pecados me miran de frente.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos51-nbla-03b"
+          ],
+          "verseId": "salmos51-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Dios no busca una confesión cuidadosamente calculada, sino verdad en el centro de la persona. La NBLA establece que esa verdad debe existir «en lo más íntimo». MSG muestra el movimiento pastoral de esa obra: la verdad comienza dentro y transforma hacia afuera. La expresión no autoriza una espiritualidad meramente subjetiva; el contexto exige que la verdad interior produzca confesión, obediencia y reparación visibles.",
+      "id": "salmos51-joya-02",
+      "msg": {
+        "en": "“What you’re after is truth from the inside out.”",
+        "es": "“Lo que buscas es verdad de adentro hacia afuera.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos51-nbla-06a"
+          ],
+          "verseId": "salmos51-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "4-6"
+    },
+    {
+      "explanation": "El arrepentimiento necesita una obra creadora de Dios, no una simple mejora de conducta. La NBLA fija la petición teológica: crear un corazón limpio y renovar un espíritu recto. MSG hace visible esa verdad mediante la imagen de una semana de Génesis que transforma caos en orden. La imagen ayuda a comprender la profundidad de la renovación, pero no debe convertirse en una doctrina independiente sobre etapas específicas de restauración.",
+      "id": "salmos51-joya-03",
+      "msg": {
+        "en": "“God, make a fresh start in me, shape a Genesis week from the chaos of my life.”",
+        "es": "“Dios, comienza de nuevo en mí; forma una semana de Génesis a partir del caos de mi vida.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "7-15"
+    },
+    {
+      "explanation": "El pecado roba gozo, estabilidad y capacidad para avanzar con Dios. La NBLA define la necesidad: restitución del gozo y sostenimiento interior. MSG convierte esa pérdida en la experiencia de un exilio gris y la restauración en viento fresco que vuelve a impulsar la vida. El fundamento no es recuperar entusiasmo por sí mismo, sino ser sostenido nuevamente por la salvación y la obra de Dios.",
+      "id": "salmos51-joya-04",
+      "msg": {
+        "en": "“Bring me back from gray exile, put a fresh wind in my sails!”",
+        "es": "“Tráeme de vuelta de este exilio gris; ¡pon viento fresco en mis velas!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "7-15"
+    },
+    {
+      "explanation": "La adoración verdadera comienza cuando el orgullo deja de controlar la relación con Dios. La NBLA identifica el sacrificio aceptable como un espíritu contrito. MSG muestra pastoralmente lo que esa contrición produce: el derrumbe de la autosuficiencia que permite aprender nuevamente a adorar. Esto no glorifica la destrucción emocional ni convierte todo sufrimiento en virtud; se refiere al quebrantamiento del orgullo que se resistía a reconocer el pecado.",
+      "id": "salmos51-joya-05",
+      "msg": {
+        "en": "“I learned God-worship when my pride was shattered.”",
+        "es": "“Aprendí a adorar a Dios cuando mi orgullo quedó hecho pedazos.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos51-nbla-17a"
+          ],
+          "verseId": "salmos51-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    },
+    {
+      "explanation": "La adoración agradable a Dios está inseparablemente unida a la justicia y a la restauración de la comunidad. La NBLA precisa que se trata de «sacrificios de justicia», no simplemente de ceremonias emotivas. MSG resume pastoralmente el resultado como adoración verdadera. El texto no elimina las expresiones externas de culto; las devuelve a su lugar correcto, después del arrepentimiento y no como sustituto de este.",
+      "id": "salmos51-joya-06",
+      "msg": {
+        "en": "“Then you’ll get real worship from us,”",
+        "es": "“Entonces recibirás de nosotros adoración verdadera,”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos51-nbla-19a"
+          ],
+          "verseId": "salmos51-nbla-19"
+        }
+      ],
+      "order": 6,
+      "range": "18-19"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 51,
+    "studyId": "salmos-51"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos51-msg-01",
+      "msg": {
+        "en": "Generous in love—God, give grace!\nI Huge in mercy—wipe out my bad record.\nScrub away my guilt,\nsoak out my sins in your laundry.\nI know how bad I’ve been;\nmy sins are staring me down.",
+        "es": "Generoso en amor—Dios, ¡concédeme gracia!\nInmenso en misericordia—borra mi mal historial.\nRestriega mi culpa,\nremoja mis pecados en tu lavandería.\nSé lo mal que he estado;\nmis pecados me miran de frente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "salmos51-msg-02",
+      "msg": {
+        "en": "You’re the One I’ve violated, and you’ve seen\nit all, seen the full extent of my evil.\nYou have all the facts before you;\nwhatever you decide about me is fair.\nI’ve been out of step with you for a long time,\nin the wrong since before I was born.\nWhat you’re after is truth from the inside out.\nEnter me, then; conceive a new, true life.",
+        "es": "Es a ti a quien he ofendido, y tú lo has visto\ntodo, has visto el alcance completo de mi maldad.\nTienes todos los hechos delante de ti;\ncualquier decisión que tomes sobre mí es justa.\nLlevo mucho tiempo fuera de sintonía contigo,\nen el error desde antes de nacer.\nLo que buscas es verdad de adentro hacia afuera.\nEntra en mí, entonces; concibe una vida nueva y verdadera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-15",
+      "id": "salmos51-msg-03",
+      "msg": {
+        "en": "Soak me in your laundry and I’ll come out clean,\nscrub me and I’ll have a snow-white life.\nTune me in to foot-tapping songs,\nset these once-broken bones to dancing.\nDon’t look too close for blemishes,\ngive me a clean bill of health.\nGod, make a fresh start in me,\nshape a Genesis week from the chaos of my life.\nDon’t throw me out with the trash,\nor fail to breathe holiness in me.\nBring me back from gray exile,\nput a fresh wind in my sails!\nGive me a job teaching rebels your ways\nso the lost can find their way home.\nCommute my death sentence, God, my salvation God,\nand I’ll sing anthems to your life-giving ways.\nUnbutton my lips, dear God;\nI’ll let loose with your praise.",
+        "es": "Remójame en tu lavandería y saldré limpio;\nrestriégame y tendré una vida blanca como la nieve.\nHaz que vuelva a escuchar canciones que pongan mis pies a moverse;\npon a bailar estos huesos que una vez fueron quebrados.\nNo te quedes mirando de cerca mis manchas;\ndeclárame completamente sano.\nDios, comienza de nuevo en mí;\nforma una semana de Génesis a partir del caos de mi vida.\nNo me arrojes con la basura\nni dejes de soplar santidad dentro de mí.\nTráeme de vuelta de este exilio gris;\n¡pon viento fresco en mis velas!\nDame la tarea de enseñarles tus caminos a los rebeldes,\npara que los perdidos encuentren el camino de regreso a casa.\nConmuta mi sentencia de muerte, Dios, Dios de mi salvación,\ny cantaré himnos a tus caminos que dan vida.\nDesabrocha mis labios, Dios querido;\nsoltaré tu alabanza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "salmos51-msg-04",
+      "msg": {
+        "en": "Going through the motions doesn’t please you,\na flawless performance is nothing to you.\nI learned God-worship\nwhen my pride was shattered.\nHeart-shattered lives ready for love\ndon’t for a moment escape God’s notice.",
+        "es": "Cumplir mecánicamente con el ritual no te complace;\nuna actuación impecable no significa nada para ti.\nAprendí a adorar a Dios\ncuando mi orgullo quedó hecho pedazos.\nLas vidas con el corazón hecho pedazos y dispuestas a amar\nno pasan desapercibidas ni por un instante ante Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-17"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "salmos51-msg-05",
+      "msg": {
+        "en": "Make Zion the place you delight in,\nrepair Jerusalem’s broken-down walls.\nThen you’ll get real worship from us,\nacts of worship small and large,\nIncluding all the bulls\nthey can heave onto your altar!",
+        "es": "Haz de Sión el lugar de tu deleite;\nrepara los muros derrumbados de Jerusalén.\nEntonces recibirás de nosotros adoración verdadera,\nactos de adoración pequeños y grandes,\nincluidos todos los toros\nque podamos subir a tu altar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos51-nbla-19"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos51-nbla-01",
+      "number": 1,
+      "text": "Ten piedad de mí, oh Dios, conforme a Tu misericordia;\nConforme a lo inmenso de Tu compasión, borra mis transgresiones."
+    },
+    {
+      "id": "salmos51-nbla-02",
+      "number": 2,
+      "text": "Lávame por completo de mi maldad,\nY límpiame de mi pecado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos51-nbla-03a",
+          "order": 1,
+          "text": "Porque yo reconozco mis transgresiones,"
+        },
+        {
+          "id": "salmos51-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y mi pecado está siempre delante de mí."
+        }
+      ],
+      "id": "salmos51-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos51-nbla-04",
+      "number": 4,
+      "text": "Contra Ti, contra Ti solo he pecado,\nY he hecho lo malo delante de Tus ojos,\nDe manera que eres justo cuando hablas,\nY sin reproche cuando juzgas."
+    },
+    {
+      "id": "salmos51-nbla-05",
+      "number": 5,
+      "text": "Yo nací en iniquidad,\nY en pecado me concibió mi madre."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos51-nbla-06a",
+          "order": 1,
+          "text": "Tú deseas la verdad en lo más íntimo,"
+        },
+        {
+          "id": "salmos51-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en lo secreto me harás conocer sabiduría."
+        }
+      ],
+      "id": "salmos51-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "salmos51-nbla-07",
+      "number": 7,
+      "text": "Purifícame con hisopo, y seré limpio;\nLávame, y seré más blanco que la nieve."
+    },
+    {
+      "id": "salmos51-nbla-08",
+      "number": 8,
+      "text": "Hazme oír gozo y alegría,\nHaz que se regocijen los huesos que has quebrantado."
+    },
+    {
+      "id": "salmos51-nbla-09",
+      "number": 9,
+      "text": "Esconde Tu rostro de mis pecados,\nY borra todas mis iniquidades."
+    },
+    {
+      "id": "salmos51-nbla-10",
+      "number": 10,
+      "text": "Crea en mí, oh Dios, un corazón limpio,\nY renueva un espíritu recto dentro de mí."
+    },
+    {
+      "id": "salmos51-nbla-11",
+      "number": 11,
+      "text": "No me eches de Tu presencia,\nY no quites de mí Tu Santo Espíritu."
+    },
+    {
+      "id": "salmos51-nbla-12",
+      "number": 12,
+      "text": "Restitúyeme el gozo de Tu salvación,\nY sostenme con un espíritu de poder."
+    },
+    {
+      "id": "salmos51-nbla-13",
+      "number": 13,
+      "text": "Entonces enseñaré a los transgresores Tus caminos,\nY los pecadores se convertirán a Ti."
+    },
+    {
+      "id": "salmos51-nbla-14",
+      "number": 14,
+      "text": "Líbrame de delitos de sangre, oh Dios, Dios de mi salvación,\nEntonces mi lengua cantará con gozo Tu justicia."
+    },
+    {
+      "id": "salmos51-nbla-15",
+      "number": 15,
+      "text": "Abre mis labios, oh Señor,\nPara que mi boca anuncie Tu alabanza."
+    },
+    {
+      "id": "salmos51-nbla-16",
+      "number": 16,
+      "text": "Porque Tú no te deleitas en sacrificio, de lo contrario yo lo ofrecería;\nNo te agrada el holocausto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos51-nbla-17a",
+          "order": 1,
+          "text": "Los sacrificios de Dios son el espíritu contrito;"
+        },
+        {
+          "id": "salmos51-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Al corazón contrito y humillado, oh Dios, no despreciarás."
+        }
+      ],
+      "id": "salmos51-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "salmos51-nbla-18",
+      "number": 18,
+      "text": "Haz bien con Tu benevolencia a Sión;\nEdifica los muros de Jerusalén."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos51-nbla-19a",
+          "order": 1,
+          "text": "Entonces te agradarán los sacrificios de justicia,"
+        },
+        {
+          "id": "salmos51-nbla-19b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El holocausto y el sacrificio perfecto;\nEntonces se ofrecerán novillos sobre Tu altar."
+        }
+      ],
+      "id": "salmos51-nbla-19",
+      "number": 19
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

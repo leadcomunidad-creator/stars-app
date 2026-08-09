@@ -1,0 +1,354 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios se ofrece como refugio presente en medio de la tribulación. La NBLA fija la verdad mediante los términos refugio, fortaleza y pronto auxilio. MSG vuelve esa seguridad concreta al describir un lugar donde esconderse y una ayuda disponible cuando se necesita. La imagen no garantiza que la crisis desaparecerá inmediatamente; afirma que el peligro nunca deja al pueblo fuera del alcance de Dios.",
+      "id": "salmos46-joya-01",
+      "msg": {
+        "en": "\"God is a safe place to hide, ready to help when we need him.\"",
+        "es": "\"Dios es un lugar seguro donde escondernos, siempre dispuesto a ayudarnos cuando lo necesitamos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La presencia de Dios permite enfrentar escenarios extremos sin quedar gobernados por el temor. La NBLA conecta directamente el refugio divino con la decisión de no temer aunque la tierra cambie. MSG coloca al pueblo al borde del desastre, donde la seguridad humana parece agotarse. La frase no describe insensibilidad ni niega las reacciones normales del cuerpo; proclama que el miedo no recibe la autoridad final.",
+      "id": "salmos46-joya-02",
+      "msg": {
+        "en": "\"We stand fearless at the cliff-edge of doom,\"",
+        "es": "\"Permanecemos sin miedo al borde mismo del desastre,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos46-nbla-02a"
+          ],
+          "verseId": "salmos46-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La estabilidad de la ciudad procede de la presencia de Dios en medio de ella. La NBLA establece que la ciudad no será finalmente sacudida porque Dios habita allí. MSG vuelve esa verdad visible en calles seguras porque el Señor vive en medio de la comunidad. La imagen no convierte ninguna ciudad moderna en invulnerable ni garantiza protección automática a una institución religiosa; el punto teológico es que Dios, y no la infraestructura, constituye la seguridad definitiva.",
+      "id": "salmos46-joya-03",
+      "msg": {
+        "en": "\"God lives here, the streets are safe,\"",
+        "es": "\"Dios vive aquí; sus calles están seguras.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos46-nbla-05a"
+          ],
+          "verseId": "salmos46-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "4-6"
+    },
+    {
+      "explanation": "El Dios soberano se compromete personalmente con Su pueblo. La NBLA proclama la presencia del SEÑOR de los ejércitos, dueño de toda autoridad. MSG une ese poder con la historia de Jacob, recordando al Dios que confronta, hiere, bendice y transforma. Su defensa no significa que apruebe todo lo que hacemos; significa que Su fidelidad puede sostenernos mientras también nos cambia.",
+      "id": "salmos46-joya-04",
+      "msg": {
+        "en": "\"Jacob-wrestling God fights for us,\"",
+        "es": "\"El Dios que lucha con Jacob pelea por nosotros;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos46-nbla-07a"
+          ],
+          "verseId": "salmos46-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "El gobierno de Dios tiene como horizonte el fin de la guerra. La NBLA muestra al Señor haciendo cesar los conflictos y destruyendo los instrumentos de violencia. MSG dramatiza esa autoridad mediante Dios partiendo las armas sobre Su rodilla. La imagen no autoriza a un pueblo a llamar divina su propia violencia; presenta al Señor como quien finalmente desarma a todos los poderes enfrentados.",
+      "id": "salmos46-joya-05",
+      "msg": {
+        "en": "\"Bans war from pole to pole, breaks all the weapons across his knee.\"",
+        "es": "\"pone fin a la guerra de un polo al otro y parte todas las armas sobre Su rodilla.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos46-nbla-09a"
+          ],
+          "verseId": "salmos46-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "8-10"
+    },
+    {
+      "explanation": "Dios llama a detener la agitación para reconocer Su identidad y autoridad. La NBLA une quietud y conocimiento: el movimiento debe cesar para que las naciones admitan que Él es Dios. MSG traslada esa orden al tráfico, la prisa y el ruido de una humanidad ocupada en imponer su propia agenda. La frase puede alimentar una práctica contemplativa, pero su sentido contextual también confronta la lucha, la autosuficiencia y la ambición de los poderes humanos.",
+      "id": "salmos46-joya-06",
+      "msg": {
+        "en": "\"Step out of the traffic! Take a long, loving look at me,\"",
+        "es": "\"¡Salgan del tráfico! Deténganse y mírenme detenidamente, con amor —a Mí, su Dios Altísimo,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos46-nbla-10a"
+          ],
+          "verseId": "salmos46-nbla-10"
+        }
+      ],
+      "order": 6,
+      "range": "8-10"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 46,
+    "studyId": "salmos-46"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos46-msg-01",
+      "msg": {
+        "en": "God is a safe place to hide,\nready to help when we need him.\nWe stand fearless at the cliff-edge of doom,\ncourageous in seastorm and earthquake,\nBefore the rush and roar of oceans,\nthe tremors that shift mountains.\nJacob-wrestling God fights for us,\nGOD -of-Angel-Armies protects us.",
+        "es": "Dios es un lugar seguro donde escondernos,\nsiempre dispuesto a ayudarnos cuando lo necesitamos.\nPermanecemos sin miedo al borde mismo del desastre,\nvalientes en medio de tormentas marinas y terremotos,\nante el embate y el rugido de los océanos\ny los temblores que desplazan las montañas.\nEl Dios que lucha con Jacob pelea por nosotros;\nel DIOS-de-los-Ejércitos-de-Ángeles nos protege."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "salmos46-msg-02",
+      "msg": {
+        "en": "River fountains splash joy, cooling God’s city,\nthis sacred haunt of the Most High.\nGod lives here, the streets are safe,\nGod at your service from crack of dawn.\nGodless nations rant and rave, kings and kingdoms threaten,\nbut Earth does anything he says.",
+        "es": "Manantiales del río salpican alegría y refrescan la ciudad de Dios,\neste lugar sagrado del Altísimo.\nDios vive aquí; sus calles están seguras.\nDios acude en su ayuda desde el amanecer.\nNaciones sin Dios despotrican y se enfurecen; reyes y reinos amenazan,\npero la tierra hace todo lo que Él ordena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7",
+      "id": "salmos46-msg-03",
+      "msg": {
+        "en": "Jacob-wrestling God fights for us,\nGOD -of-Angel-Armies protects us.",
+        "es": "El Dios que lucha con Jacob pelea por nosotros;\nel DIOS-de-los-Ejércitos-de-Ángeles nos protege."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "salmos46-msg-04",
+      "msg": {
+        "en": "Attention, all! See the marvels of GOD!\nHe plants flowers and trees all over the earth,\nBans war from pole to pole,\nbreaks all the weapons across his knee.\n“Step out of the traffic! Take a long,\nloving look at me, your High God,\nabove politics, above everything.”",
+        "es": "¡Atención todos! ¡Contemplen las maravillas de DIOS!\nÉl planta flores y árboles por toda la tierra,\npone fin a la guerra de un polo al otro\ny parte todas las armas sobre Su rodilla.\n«¡Salgan del tráfico! Deténganse y mírenme detenidamente, con amor —a Mí, su Dios Altísimo, por encima de la política, por encima de todo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11",
+      "id": "salmos46-msg-05",
+      "msg": {
+        "en": "Jacob-wrestling God fights for us,\nGOD -of-Angel-Armies protects us.",
+        "es": "El Dios que lucha con Jacob pelea por nosotros;\nel DIOS-de-los-Ejércitos-de-Ángeles nos protege."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos46-nbla-11"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos46-nbla-01",
+      "number": 1,
+      "text": "Dios es nuestro refugio y fortaleza,\nNuestro pronto auxilio en las tribulaciones."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos46-nbla-02a",
+          "order": 1,
+          "text": "Por tanto, no temeremos aunque la tierra sufra cambios,"
+        },
+        {
+          "id": "salmos46-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y aunque los montes se deslicen al fondo de los mares;"
+        }
+      ],
+      "id": "salmos46-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "salmos46-nbla-03",
+      "number": 3,
+      "text": "Aunque bramen y se agiten sus aguas,\nAunque tiemblen los montes con creciente enojo. (Selah)"
+    },
+    {
+      "id": "salmos46-nbla-04",
+      "number": 4,
+      "text": "Hay un río cuyas corrientes alegran la ciudad de Dios,\nLas moradas santas del Altísimo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos46-nbla-05a",
+          "order": 1,
+          "text": "Dios está en medio de ella, no será sacudida;"
+        },
+        {
+          "id": "salmos46-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Dios la ayudará al romper el alba."
+        }
+      ],
+      "id": "salmos46-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "salmos46-nbla-06",
+      "number": 6,
+      "text": "Bramaron las naciones, se tambalearon los reinos;\nDio Él Su voz, y la tierra se derritió."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos46-nbla-07a",
+          "order": 1,
+          "text": "El SEÑOR de los ejércitos está con nosotros;"
+        },
+        {
+          "id": "salmos46-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Nuestro baluarte es el Dios de Jacob. (Selah)"
+        }
+      ],
+      "id": "salmos46-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "salmos46-nbla-08",
+      "number": 8,
+      "text": "Vengan, contemplen las obras del SEÑOR,\nQue ha hecho asolamientos en la tierra;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos46-nbla-09a",
+          "order": 1,
+          "text": "Que hace cesar las guerras hasta los confines de la tierra;\nQuiebra el arco, parte la lanza,"
+        },
+        {
+          "id": "salmos46-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y quema los carros en el fuego."
+        }
+      ],
+      "id": "salmos46-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos46-nbla-10a",
+          "order": 1,
+          "text": "Estén quietos, y sepan que Yo soy Dios;"
+        },
+        {
+          "id": "salmos46-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Exaltado seré entre las naciones, exaltado seré en la tierra."
+        }
+      ],
+      "id": "salmos46-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "salmos46-nbla-11",
+      "number": 11,
+      "text": "El SEÑOR de los ejércitos está con nosotros;\nNuestro baluarte es el Dios de Jacob. (Selah)"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

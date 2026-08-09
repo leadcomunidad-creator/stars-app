@@ -1,0 +1,658 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El cumplimiento de una promesa puede ser verdadero sin haber llegado todavía a su etapa final. La NBLA fija con claridad que queda «mucha tierra por conquistar», mientras MSG vuelve visible la magnitud de lo pendiente después de años de campaña. El límite interpretativo es importante: esta frase describe la ocupación histórica de Canaán y no convierte cualquier proyecto inconcluso del creyente en una tierra que Dios necesariamente haya prometido entregarle.",
+      "id": "josue13-joya-01",
+      "msg": {
+        "en": "“there is a lot of land still to be taken.”",
+        "es": "“todavía queda mucha tierra por tomar.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-01b"
+          ],
+          "verseId": "josue13-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-6"
+    },
+    {
+      "explanation": "Dios conserva la responsabilidad soberana sobre la parte de la misión que todavía falta. La NBLA fija la promesa en primera persona —«yo los expulsaré»— y MSG refuerza pastoralmente ese énfasis con «Yo mismo». Esto no elimina la futura responsabilidad de las tribus; establece que la herencia depende primero de la acción de Dios y no de la capacidad ilimitada de Josué.",
+      "id": "josue13-joya-02",
+      "msg": {
+        "en": "“I myself will drive them out before the People of Israel.”",
+        "es": "“Yo mismo los expulsaré de delante del pueblo de Israel.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-06b"
+          ],
+          "verseId": "josue13-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios redefine con precisión la responsabilidad de Josué. La NBLA fija el mandato de repartir la tierra y MSG lo vuelve muy personal al distinguir «lo que tú debes hacer» de lo que Dios mismo hará. El límite es que esta distribución corresponde al liderazgo de Josué en una etapa específica; pastoralmente, la verdad aplicable está en discernir nuestra responsabilidad real sin asumir funciones que Dios no nos ha dado.",
+      "id": "josue13-joya-03",
+      "msg": {
+        "en": "“All you have to do is allot this land to Israel as an inheritance”.",
+        "es": "“Lo que tú debes hacer es repartir esta tierra a Israel como herencia”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-06c"
+          ],
+          "verseId": "josue13-nbla-06"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "El texto conserva también lo que quedó sin resolver. La NBLA registra que Israel no desposeyó a estos pueblos, y MSG hace visible la persistencia de esa realidad al decir que «nunca» los expulsaron. El capítulo no permite romantizar el pasado como si toda obediencia hubiera sido perfecta; la memoria bíblica incluye tanto el cumplimiento como las áreas que permanecieron incompletas.",
+      "id": "josue13-joya-04",
+      "msg": {
+        "en": "“The People of Israel never did drive out the Geshurites and the Maacathites”.",
+        "es": "“El pueblo de Israel nunca expulsó a los gesureos ni a los maacateos”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-13b"
+          ],
+          "verseId": "josue13-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "9-13"
+    },
+    {
+      "explanation": "La provisión de Leví está vinculada directamente al culto y al Señor. La NBLA fija que las ofrendas dedicadas a Dios constituyen su heredad, y MSG vuelve visible la singularidad de una tribu que no recibe una porción territorial como las demás. Esta diferencia no enseña que quienes sirven a Dios deban carecer de toda propiedad; describe la estructura específica dada a Leví dentro del pacto de Israel.",
+      "id": "josue13-joya-05",
+      "msg": {
+        "en": "“The Fire-Gift-Offerings to GOD, the God of Israel, are their inheritance”.",
+        "es": "“Las ofrendas encendidas presentadas a DIOS, el Dios de Israel, son su herencia”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-14b"
+          ],
+          "verseId": "josue13-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14"
+    },
+    {
+      "explanation": "Dios mismo es presentado como la herencia de Leví. La NBLA fija esta afirmación de manera directa y MSG conserva toda su fuerza personal: la posesión fundamental no es una parcela, sino el Señor. El texto se refiere específicamente a Leví, pero dentro del desarrollo bíblico revela una verdad más amplia: ningún don recibido puede sustituir al Dios que da los dones.",
+      "id": "josue13-joya-06",
+      "msg": {
+        "en": "“GOD, the God of Israel, is their inheritance”.",
+        "es": "“DIOS, el Dios de Israel, es su herencia”."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-33b"
+          ],
+          "verseId": "josue13-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "32-33"
+    }
+  ],
+  "meta": {
+    "book": "JOSUÉ",
+    "bookId": "josue",
+    "chapter": 13,
+    "studyId": "josue-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "josue13-msg-01",
+      "msg": {
+        "en": "When Joshua had reached a venerable age, GOD said to him, “You’ve had a good, long life, but there is a lot of land still to be taken. This is the land that remains:\nall the districts of the Philistines and Geshurites;\nthe land from the Shihor River east of Egypt to the border of Ekron up north, Canaanite country (there were five Philistine tyrants—in Gaza, in Ashdod, in Ashkelon, in Gath, in Ekron); also the Avvim from the south;\nall the Canaanite land from Arah (belonging to the Sidonians) to Aphek at the Amorite border;\nthe country of the Gebalites;\nall Lebanon eastward from Baal Gad in the shadow of Mount Hermon to the Entrance of Hamath;\nall who live in the mountains, from Lebanon to Misrephoth Maim;\nall the Sidonians.",
+        "es": "Cuando Josué ya había llegado a una edad avanzada, DIOS le dijo: «Has tenido una vida buena y larga, pero todavía queda mucha tierra por tomar. Esta es la tierra que queda:\ntodos los territorios de los filisteos y gesureos;\nla tierra desde el río Sihor, al oriente de Egipto, hasta la frontera de Ecrón al norte, territorio cananeo —había cinco gobernantes filisteos: en Gaza, Asdod, Ascalón, Gat y Ecrón—; también los aveos del sur;\ntoda la tierra cananea desde Ara, perteneciente a los sidonios, hasta Afec, en la frontera amorrea;\nel territorio de los giblitas;\ntodo el Líbano hacia el oriente, desde Baal Gad, a la sombra del monte Hermón, hasta Lebo Hamat;\ntodos los que viven en las montañas, desde el Líbano hasta Misrefot Maim;\ntodos los sidonios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-05"
+        },
+        {
+          "clauseIds": [
+            "josue13-nbla-06a"
+          ],
+          "verseId": "josue13-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "josue13-msg-02",
+      "msg": {
+        "en": "“I myself will drive them out before the People of Israel. All you have to do is allot this land to Israel as an inheritance, as I have instructed you. Do it now: Allot this land as an inheritance to the nine tribes and the half-tribe of Manasseh.”",
+        "es": "«Yo mismo los expulsaré de delante del pueblo de Israel. Lo que tú debes hacer es repartir esta tierra a Israel como herencia, tal como te lo he ordenado. Hazlo ahora: reparte esta tierra como herencia a las nueve tribus y a la media tribu de Manasés»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "josue13-nbla-06b",
+            "josue13-nbla-06c",
+            "josue13-nbla-06d"
+          ],
+          "verseId": "josue13-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8",
+      "id": "josue13-msg-03",
+      "msg": {
+        "en": "The other half-tribe of Manasseh, with the Reubenites and Gadites, had been given their inheritance by Moses on the other side of the Jordan eastward. Moses the servant of GOD gave it to them.",
+        "es": "La otra media tribu de Manasés, junto con los rubenitas y gaditas, ya había recibido su herencia de Moisés al otro lado del Jordán, hacia el oriente. Moisés, servidor de DIOS, se la había dado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-13",
+      "id": "josue13-msg-04",
+      "msg": {
+        "en": "This land extended from Aroer at the edge of the Arnon Gorge and the city in the middle of the valley, taking in the entire tableland of Medeba as far as Dibon, and all the towns of Sihon king of the Amorites, who ruled from Heshbon, and out to the border of the Ammonites. It also included Gilead, the country of the people of Geshur and Maacah, all of Mount Hermon, and all Bashan as far as Salecah—the whole kingdom of Og in Bashan, who reigned in Ashtaroth and Edrei. He was one of the last survivors of the Rephaim. Moses had defeated them and taken their land. The People of Israel never did drive out the Geshurites and the Maacathites—they’re still there, living in Israel.",
+        "es": "Esta tierra se extendía desde Aroer, al borde de la garganta del Arnón, y desde la ciudad situada en medio del valle, abarcando toda la meseta de Medeba hasta Dibón, y todas las ciudades de Sehón, rey de los amorreos, que reinaba desde Hesbón, hasta la frontera de los amonitas. También incluía Galaad, el territorio de los habitantes de Gesur y Maaca, todo el monte Hermón y todo Basán hasta Salca: todo el reino de Og en Basán, que reinaba en Astarot y Edrei. Él era uno de los últimos sobrevivientes de los refaítas. Moisés los había derrotado y había tomado su tierra. El pueblo de Israel nunca expulsó a los gesureos ni a los maacateos; todavía viven allí, en medio de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "14",
+      "id": "josue13-msg-05",
+      "msg": {
+        "en": "Levi was the only tribe that did not receive an inheritance. The Fire-Gift-Offerings to GOD, the God of Israel, are their inheritance, just as he told them.",
+        "es": "Leví fue la única tribu que no recibió una herencia territorial. Las ofrendas encendidas presentadas a DIOS, el Dios de Israel, son su herencia, tal como Él les había dicho."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-22",
+      "id": "josue13-msg-06",
+      "msg": {
+        "en": "To the tribe of Reuben, clan by clan, Moses gave:\nthe land from Aroer at the edge of the Arnon Gorge and the town in the middle of the valley, including the tableland around Medeba;\nHeshbon on the tableland with all its towns (Dibon, Bamoth Baal, Beth Baal Meon, Jahaz, Kedemoth, Mephaath, Kiriathaim, Sibmah, Zereth Shahar on Valley Mountain, Beth Peor, the slopes of Pisgah, Beth Jeshimoth);\nand all the cities of the tableland, the whole kingdom of Sihon king of the Amorites, who ruled at Heshbon, whom Moses put to death along with the princes of Midian: Evi, Rekem, Zur, Hur, and Reba, who lived in that country, all puppets of Sihon. (In addition to those killed in battle, Balaam son of Beor, the soothsayer, was put to death by the People of Israel.)",
+        "es": "A la tribu de Rubén, clan por clan, Moisés le dio:\nla tierra desde Aroer, al borde de la garganta del Arnón, y la ciudad situada en medio del valle, incluyendo la meseta alrededor de Medeba;\nHesbón, en la meseta, con todas sus ciudades —Dibón, Bamot Baal, Bet Baal Meón, Jahaz, Cademot, Mefaat, Quiriataim, Sibma, Zaret Sahar en el monte del valle, Bet Peor, las laderas del Pisga y Bet Jesimot—;\ny todas las ciudades de la meseta, todo el reino de Sehón, rey de los amorreos, que reinaba en Hesbón, a quien Moisés dio muerte junto con los príncipes de Madián: Evi, Requem, Zur, Hur y Reba, que vivían en aquella tierra, todos subordinados a Sehón. Además de los muertos en batalla, el pueblo de Israel dio muerte a Balaam, hijo de Beor, el adivino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-22"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "23",
+      "id": "josue13-msg-07",
+      "msg": {
+        "en": "The boundary for the Reubenites was the bank of the Jordan River. This was the inheritance of the Reubenites, their villages and cities, according to their clans.",
+        "es": "La frontera de los rubenitas era la ribera del río Jordán. Esta fue la herencia de los rubenitas, con sus aldeas y ciudades, según sus clanes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-23"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "josue13-msg-08",
+      "msg": {
+        "en": "To the tribe of Gad, clan by clan, Moses gave:\nthe territory of Jazer and all the towns of Gilead and half the Ammonite country as far as Aroer near Rabbah;\nthe land from Heshbon to Ramath Mizpah and Betonim, and from Mahanaim to the region of Debir;\nin the valley: Beth Haram, Beth Nimrah, Succoth, and Zaphon, with the rest of the kingdom of Sihon king of Heshbon (the east side of the Jordan, north to the end of the Sea of Kinnereth).",
+        "es": "A la tribu de Gad, clan por clan, Moisés le dio:\nel territorio de Jazer y todas las ciudades de Galaad, además de la mitad del territorio amonita hasta Aroer, cerca de Rabá;\nla tierra desde Hesbón hasta Ramat Mizpa y Betonim, y desde Mahanaim hasta la región de Debir;\ny en el valle: Bet Aram, Bet Nimra, Sucot y Zafón, junto con el resto del reino de Sehón, rey de Hesbón —el lado oriental del Jordán hacia el norte, hasta el extremo del mar de Cineret—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-27"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "28",
+      "id": "josue13-msg-09",
+      "msg": {
+        "en": "This was the inheritance of the Gadites, their cities and villages, clan by clan.",
+        "es": "Esta fue la herencia de los gaditas, con sus ciudades y aldeas, clan por clan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-28"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "josue13-msg-10",
+      "msg": {
+        "en": "To the half-tribe of Manasseh, clan by clan, Moses gave:\nthe land stretching out from Mahanaim;\nall of Bashan, which is the entire kingdom of Og king of Bashan, and all the settlements of Jair in Bashan—sixty towns in all.\nHalf of Gilead with Ashtaroth and Edrei, the royal cities of Og in Bashan, belong to the descendants of Makir, a son of Manasseh (in other words, the half-tribe of the children of Makir) for their clans.",
+        "es": "A la media tribu de Manasés, clan por clan, Moisés le dio:\nla tierra que se extendía desde Mahanaim;\ntodo Basán, es decir, todo el reino de Og, rey de Basán, y todos los poblados de Jair en Basán: sesenta ciudades en total.\nLa mitad de Galaad, junto con Astarot y Edrei, las ciudades reales de Og en Basán, perteneció a los descendientes de Maquir, hijo de Manasés —es decir, a la mitad de los hijos de Maquir—, según sus clanes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-31"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "josue13-msg-11",
+      "msg": {
+        "en": "This is the inheritance that Moses gave out when he was on the plains of Moab across the Jordan east of Jericho. But Moses gave no inheritance to the tribe of Levi. GOD, the God of Israel, is their inheritance, just as he told them.",
+        "es": "Esta es la herencia que Moisés repartió cuando estaba en las llanuras de Moab, al otro lado del Jordán, al oriente de Jericó. Pero Moisés no dio herencia territorial a la tribu de Leví. DIOS, el Dios de Israel, es su herencia, tal como Él les había dicho."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "josue13-nbla-33"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "josue13-nbla-01a",
+          "order": 1,
+          "text": "Cuando Josué ya era viejo el SEÑOR le dijo: «Tú ya eres anciano y"
+        },
+        {
+          "id": "josue13-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todavía queda mucha tierra por conquistar."
+        }
+      ],
+      "id": "josue13-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "josue13-nbla-02",
+      "number": 2,
+      "text": "Esta es la tierra que queda: todos los distritos de los filisteos y todos los de los gesureos;"
+    },
+    {
+      "id": "josue13-nbla-03",
+      "number": 3,
+      "text": "desde el Sihor, que está al oriente de Egipto, hasta la frontera de Ecrón al norte (que se considera de los cananeos); los cinco príncipes de los filisteos: el gazeo, el asdodeo, el ascaloneo, el geteo, y el ecroneo; también los aveos."
+    },
+    {
+      "id": "josue13-nbla-04",
+      "number": 4,
+      "text": "Hacia el sur, toda la tierra de los cananeos, y Mehara que pertenece a los sidonios, hasta Afec, hasta la frontera de los amorreos;"
+    },
+    {
+      "id": "josue13-nbla-05",
+      "number": 5,
+      "text": "y la tierra de los giblitas, y todo el Líbano hacia el oriente, desde Baal Gad al pie del monte Hermón, hasta Lebo Hamat."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue13-nbla-06a",
+          "order": 1,
+          "text": "»A todos los habitantes de la región montañosa desde el Líbano hasta Misrefot Maim, a todos los sidonios,"
+        },
+        {
+          "id": "josue13-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "yo los expulsaré de delante de los israelitas."
+        },
+        {
+          "id": "josue13-nbla-06c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Solamente tú tienes que repartir la tierra por suerte a Israel como heredad"
+        },
+        {
+          "id": "josue13-nbla-06d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "tal como te he mandado."
+        }
+      ],
+      "id": "josue13-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "josue13-nbla-07",
+      "number": 7,
+      "text": "Ahora pues, reparte esta tierra como heredad a las nueve tribus, y a la media tribu de Manasés»."
+    },
+    {
+      "id": "josue13-nbla-08",
+      "number": 8,
+      "text": "Los rubenitas y los gaditas con la otra media tribu habían recibido ya su heredad, la cual Moisés les había dado al otro lado del Jordán, hacia el oriente, tal como se la había dado Moisés, siervo del SEÑOR:"
+    },
+    {
+      "id": "josue13-nbla-09",
+      "number": 9,
+      "text": "desde Aroer, que está a la orilla del valle del Arnón, con la ciudad que está en medio del valle, y toda la llanura de Medeba, hasta Dibón;"
+    },
+    {
+      "id": "josue13-nbla-10",
+      "number": 10,
+      "text": "todas las ciudades de Sehón, rey de los amorreos, que reinaba en Hesbón, hasta la frontera de los amonitas."
+    },
+    {
+      "id": "josue13-nbla-11",
+      "number": 11,
+      "text": "También Galaad y el territorio de los gesureos y los maacateos, y todo el monte Hermón, y todo Basán hasta Salca;"
+    },
+    {
+      "id": "josue13-nbla-12",
+      "number": 12,
+      "text": "todo el reino de Og en Basán, el cual reinaba en Astarot y en Edrei (solo él quedaba del remanente de los refaítas); porque Moisés los hirió y los desposeyó."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue13-nbla-13a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "josue13-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los israelitas no desposeyeron a los gesureos ni a los maacateos."
+        },
+        {
+          "id": "josue13-nbla-13c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Así que Gesur y Maaca habitan en medio de Israel hasta hoy."
+        }
+      ],
+      "id": "josue13-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue13-nbla-14a",
+          "order": 1,
+          "text": "Solo a la tribu de Leví no le dio Moisés heredad;"
+        },
+        {
+          "id": "josue13-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "las ofrendas encendidas al SEÑOR, Dios de Israel, son su heredad"
+        },
+        {
+          "id": "josue13-nbla-14c",
+          "order": 3,
+          "text": ", como Él le había dicho."
+        }
+      ],
+      "id": "josue13-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "josue13-nbla-15",
+      "number": 15,
+      "text": "Moisés le había dado una heredad a la tribu de los hijos de Rubén conforme a sus familias."
+    },
+    {
+      "id": "josue13-nbla-16",
+      "number": 16,
+      "text": "Y el territorio de ellos era desde Aroer, que está a la orilla del valle del Arnón, con la ciudad que está en medio del valle, y toda la llanura hasta Medeba;"
+    },
+    {
+      "id": "josue13-nbla-17",
+      "number": 17,
+      "text": "Hesbón y todas sus ciudades que están en la llanura: Dibón, Bamot Baal, Bet Baal Meón,"
+    },
+    {
+      "id": "josue13-nbla-18",
+      "number": 18,
+      "text": "Jahaza, Cademot, Mefaat,"
+    },
+    {
+      "id": "josue13-nbla-19",
+      "number": 19,
+      "text": "Quiriataim, Sibma, Zaret Sahar en el monte del valle,"
+    },
+    {
+      "id": "josue13-nbla-20",
+      "number": 20,
+      "text": "Bet Peor, las laderas de Pisga, Bet Jesimot,"
+    },
+    {
+      "id": "josue13-nbla-21",
+      "number": 21,
+      "text": "todas las ciudades de la llanura, y todo el reino de Sehón, rey de los amorreos, que reinaba en Hesbón, al cual Moisés hirió, así como a los jefes de Madián, Evi, Requem, Zur, Hur y Reba, príncipes de Sehón que habitaban en aquella tierra."
+    },
+    {
+      "id": "josue13-nbla-22",
+      "number": 22,
+      "text": "Entre los que mataron los israelitas, también dieron muerte a espada al adivino Balaam, hijo de Beor."
+    },
+    {
+      "id": "josue13-nbla-23",
+      "number": 23,
+      "text": "El límite de los rubenitas era el Jordán. Esta fue la heredad de la tribu de Rubén según sus familias: las ciudades y sus aldeas."
+    },
+    {
+      "id": "josue13-nbla-24",
+      "number": 24,
+      "text": "Moisés también había dado una heredad a la tribu de Gad, a los hijos de Gad, conforme a sus familias."
+    },
+    {
+      "id": "josue13-nbla-25",
+      "number": 25,
+      "text": "Y su territorio era Jazer, todas las ciudades de Galaad y la mitad de la tierra de los amonitas hasta Aroer, que está frente a Rabá;"
+    },
+    {
+      "id": "josue13-nbla-26",
+      "number": 26,
+      "text": "desde Hesbón hasta Ramat Mizpa y Betonim, y desde Mahanaim hasta la frontera de Debir;"
+    },
+    {
+      "id": "josue13-nbla-27",
+      "number": 27,
+      "text": "y en el valle, Bet Aram, Bet Nimra, Sucot y Zafón, el resto del reino de Sehón, rey de Hesbón, con el Jordán como límite, hasta el extremo del mar de Cineret al otro lado del Jordán, al oriente."
+    },
+    {
+      "id": "josue13-nbla-28",
+      "number": 28,
+      "text": "Esta es la heredad de los hijos de Gad según sus familias, las ciudades y sus aldeas."
+    },
+    {
+      "id": "josue13-nbla-29",
+      "number": 29,
+      "text": "Moisés también le había dado una heredad a la media tribu de Manasés. Fue para la media tribu de los hijos de Manasés, conforme a sus familias."
+    },
+    {
+      "id": "josue13-nbla-30",
+      "number": 30,
+      "text": "Su territorio abarcaba desde Mahanaim, todo Basán, todo el reino de Og, rey de Basán, y todos los pueblos de Jair que están en Basán, sesenta ciudades."
+    },
+    {
+      "id": "josue13-nbla-31",
+      "number": 31,
+      "text": "También la mitad de Galaad con Astarot y Edrei, ciudades del reino de Og en Basán, fueron para los hijos de Maquir, hijo de Manasés, para la mitad de los hijos de Maquir conforme a sus familias."
+    },
+    {
+      "id": "josue13-nbla-32",
+      "number": 32,
+      "text": "Estos son los territorios que Moisés repartió por heredad en las llanuras de Moab, al otro lado del Jordán, al oriente de Jericó."
+    },
+    {
+      "clauses": [
+        {
+          "id": "josue13-nbla-33a",
+          "order": 1,
+          "text": "Pero a la tribu de Leví, Moisés no le dio heredad."
+        },
+        {
+          "id": "josue13-nbla-33b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El SEÑOR, Dios de Israel, es su heredad"
+        },
+        {
+          "id": "josue13-nbla-33c",
+          "order": 3,
+          "text": ", como Él les había prometido."
+        }
+      ],
+      "id": "josue13-nbla-33",
+      "number": 33
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

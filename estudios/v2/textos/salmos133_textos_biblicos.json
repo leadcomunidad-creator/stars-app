@@ -1,0 +1,188 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La armonía entre el pueblo de Dios posee valor espiritual y belleza visible. La NBLA destaca que los hermanos habitan juntos, indicando una convivencia sostenida. MSG hace explícita la amplitud de la familia mediante «hermanos y hermanas» y expresa el asombro que produce verlos llevarse bien. El texto no afirma que toda diferencia deba desaparecer; celebra relaciones ordenadas por el amor y la pertenencia común.",
+      "id": "salmos133-joya-01",
+      "msg": {
+        "en": "“How wonderful, how beautiful, when brothers and sisters get along!”",
+        "es": "“¡Qué maravilloso, qué hermoso, cuando los hermanos y las hermanas se llevan bien!”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos133-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La armonía corresponde a la vocación consagrada de la comunidad. La NBLA conserva la imagen del óleo precioso sobre Aarón, mientras MSG identifica claramente su función como aceite de unción. La metáfora no enseña que la unidad produzca por sí misma la santidad ni sustituya la obra del Espíritu; muestra que la vida reconciliada es coherente con la vocación santa del pueblo.",
+      "id": "salmos133-joya-02",
+      "msg": {
+        "en": "“It’s like costly anointing oil”",
+        "es": "“Es como un aceite de unción de gran valor”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos133-nbla-02a"
+          ],
+          "verseId": "salmos133-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La armonía debe alcanzar toda la comunidad. La NBLA enfatiza el movimiento descendente del aceite hasta las vestiduras, mientras MSG hace visible su extensión sobre la ropa sacerdotal. La imagen confronta una reconciliación reservada para los líderes o para la apariencia pública: la unidad debe tocar todas las relaciones y niveles de la vida común.",
+      "id": "salmos133-joya-03",
+      "msg": {
+        "en": "“flowing down the collar of his priestly robes.”",
+        "es": "“y llega hasta el cuello de sus vestiduras sacerdotales.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos133-nbla-02c"
+          ],
+          "verseId": "salmos133-nbla-02"
+        }
+      ],
+      "order": 3,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La armonía crea condiciones donde la vida puede ser renovada y dar fruto. La NBLA conecta poéticamente el rocío abundante de Hermón con Sión, mientras MSG resalta su descenso refrescante. La imagen no describe una transferencia meteorológica literal; comunica que Dios puede llevar frescura y fecundidad a Su pueblo mediante relaciones reconciliadas.",
+      "id": "salmos133-joya-04",
+      "msg": {
+        "en": "“It’s like the dew on Mount Hermon flowing down the slopes of Zion.”",
+        "es": "“Es como el rocío del monte Hermón que desciende por las laderas de Sión.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos133-nbla-03a"
+          ],
+          "verseId": "salmos133-nbla-03"
+        }
+      ],
+      "order": 4,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La bendición y la vida proceden del mandato soberano de Dios. La NBLA identifica directamente al SEÑOR como quien ordena la bendición, mientras MSG presenta esa acción con la fuerza de un decreto de vida permanente. El texto no convierte la unidad humana en causa automática de salvación; afirma que la convivencia armoniosa corresponde al lugar donde el propósito vivificante de Dios se hace visible.",
+      "id": "salmos133-joya-05",
+      "msg": {
+        "en": "“that’s where GOD commands the blessing, ordains eternal life.”",
+        "es": "“es allí donde DIOS ordena la bendición y decreta vida para siempre.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos133-nbla-03b"
+          ],
+          "verseId": "salmos133-nbla-03"
+        }
+      ],
+      "order": 5,
+      "range": "1-3"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 133,
+    "studyId": "salmos-133"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos133-msg-01",
+      "msg": {
+        "en": "How wonderful, how beautiful,\nwhen brothers and sisters get along!\nIt’s like costly anointing oil\nflowing down head and beard,\nFlowing down Aaron’s beard,\nflowing down the collar of his priestly robes.\nIt’s like the dew on Mount Hermon\nflowing down the slopes of Zion.\nYes, that’s where GOD commands the blessing,\nordains eternal life.",
+        "es": "¡Qué maravilloso, qué hermoso,\ncuando los hermanos y las hermanas se llevan bien!\nEs como un aceite de unción de gran valor\nque corre por la cabeza y la barba,\nque baja por la barba de Aarón\ny llega hasta el cuello de sus vestiduras sacerdotales.\nEs como el rocío del monte Hermón\nque desciende por las laderas de Sión.\nSí, es allí donde DIOS ordena la bendición\ny decreta vida para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos133-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos133-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos133-nbla-03"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos133-nbla-01",
+      "number": 1,
+      "text": "Miren cuán bueno y cuán agradable es\nQue los hermanos habiten juntos en armonía."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos133-nbla-02a",
+          "order": 1,
+          "text": "Es como el óleo precioso sobre la cabeza"
+        },
+        {
+          "id": "salmos133-nbla-02b",
+          "order": 2,
+          "text": ",\nEl cual desciende sobre la barba,\nLa barba de Aarón,"
+        },
+        {
+          "id": "salmos133-nbla-02c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Que desciende hasta el borde de sus vestiduras."
+        }
+      ],
+      "id": "salmos133-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos133-nbla-03a",
+          "order": 1,
+          "text": "Es como el rocío de Hermón,\nQue desciende sobre los montes de Sión"
+        },
+        {
+          "id": "salmos133-nbla-03b",
+          "order": 2,
+          "text": ";\nPorque allí mandó el SEÑOR la bendición, la vida para siempre."
+        }
+      ],
+      "id": "salmos133-nbla-03",
+      "number": 3
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

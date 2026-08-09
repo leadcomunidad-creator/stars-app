@@ -1,0 +1,359 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Moisés contempla con sus propios ojos la fidelidad de Dios a una promesa que comenzó generaciones antes. La NBLA conserva el gesto sencillo y poderoso: el SEÑOR le mostró la tierra; MSG mantiene esa misma escena con amplitud narrativa. La promesa no depende de que Moisés la posea personalmente para ser verdadera.",
+      "id": "deuteronomio34-joya-01",
+      "msg": {
+        "en": "“GOD showed him all the land from Gilead to Dan”",
+        "es": "«El SEÑOR le mostró toda la tierra, desde Galaad hasta Dan»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "deuteronomio34-nbla-01b"
+          ],
+          "verseId": "deuteronomio34-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La santidad de Dios y Su fidelidad permanecen juntas en una sola frase. La NBLA fija el límite con claridad: Moisés ve, pero no pasa; MSG hace visible la tensión mediante la pausa «Ahí está». La disciplina es real, pero no significa que la promesa haya fallado.",
+      "id": "deuteronomio34-joya-02",
+      "msg": {
+        "en": "“I’ve let you see it with your own eyes. There it is. But you’re not going to go in.”",
+        "es": "«Te he permitido verla con tus propios ojos. Ahí está. Pero tú no vas a entrar»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "deuteronomio34-nbla-04b"
+          ],
+          "verseId": "deuteronomio34-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4"
+    },
+    {
+      "explanation": "Incluso la muerte de Moisés queda dentro de la palabra soberana de Dios. La NBLA ancla el momento «conforme a la palabra del SEÑOR», y MSG conserva esa misma obediencia de la historia al propósito divino. El gran líder muere, pero no fuera del cuidado ni del gobierno del Dios al que perteneció.",
+      "id": "deuteronomio34-joya-03",
+      "msg": {
+        "en": "“Moses died there in the land of Moab, Moses the servant of GOD, just as GOD said.”",
+        "es": "«Moisés murió allí, en la tierra de Moab, Moisés, el siervo del SEÑOR, tal como el SEÑOR había dicho.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La muerte de Moisés no es presentada como el colapso de un hombre consumido por incapacidad física. La NBLA conserva que sus ojos y vigor permanecían; MSG vuelve esa vitalidad visible en su manera de caminar. Su partida ocurre porque su misión ha llegado al límite establecido por Dios, no simplemente porque ya no pudiera continuar físicamente.",
+      "id": "deuteronomio34-joya-04",
+      "msg": {
+        "en": "“His eyesight was sharp; he still walked with a spring in his step.”",
+        "es": "«Su vista seguía aguda; todavía caminaba con paso ágil.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "deuteronomio34-nbla-07b"
+          ],
+          "verseId": "deuteronomio34-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7-8"
+    },
+    {
+      "explanation": "Dios prepara continuidad sin borrar la diferencia entre generaciones. La NBLA vincula la sabiduría de Josué con la imposición de manos de Moisés; MSG conserva esa transmisión visible. La sucesión bíblica no busca clonar al líder anterior, sino equipar a quien debe obedecer en la siguiente etapa.",
+      "id": "deuteronomio34-joya-05",
+      "msg": {
+        "en": "“Joshua son of Nun was filled with the spirit of wisdom because Moses had laid his hands on him.”",
+        "es": "«Josué hijo de Nun estaba lleno del espíritu de sabiduría porque Moisés había puesto sus manos sobre él.»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "deuteronomio34-nbla-09a"
+          ],
+          "verseId": "deuteronomio34-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "9"
+    },
+    {
+      "explanation": "La singularidad de Moisés está ligada a relación y revelación antes que a reputación humana. La NBLA centra su diferencia en ser conocido por el SEÑOR cara a cara; MSG mantiene esa misma intimidad como epitafio. El texto honra a Moisés profundamente y, al mismo tiempo, deja abierta la expectativa bíblica de un mediador aún mayor.",
+      "id": "deuteronomio34-joya-06",
+      "msg": {
+        "en": "“No prophet has risen since in Israel like Moses, whom GOD knew face-to-face.”",
+        "es": "«Desde entonces no se ha levantado en Israel ningún profeta como Moisés, a quien el SEÑOR conoció cara a cara.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-10"
+        }
+      ],
+      "order": 6,
+      "range": "10-12"
+    }
+  ],
+  "meta": {
+    "book": "DEUTERONOMIO",
+    "bookId": "deuteronomio",
+    "chapter": 34,
+    "studyId": "deuteronomio-34"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "deuteronomio34-msg-01",
+      "msg": {
+        "en": "Moses climbed from the Plains of Moab to Mount Nebo, the peak of Pisgah facing Jericho. GOD showed him all the land from Gilead to Dan, all Naphtali, Ephraim, and Manasseh; all Judah reaching to the Mediterranean Sea; the Negev and the plains which encircle Jericho, City of Palms, as far south as Zoar.",
+        "es": "Moisés subió desde las llanuras de Moab al monte Nebo, a la cumbre del Pisga frente a Jericó. El SEÑOR le mostró toda la tierra, desde Galaad hasta Dan; todo Neftalí, Efraín y Manasés; todo Judá hasta el mar Mediterráneo; el Neguev y las llanuras que rodean Jericó, Ciudad de las Palmeras, hasta Zoar al sur."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "deuteronomio34-msg-02",
+      "msg": {
+        "en": "Then and there GOD said to him, “This is the land I promised to your ancestors, to Abraham, Isaac, and Jacob with the words ‘I will give it to your descendants.’ I’ve let you see it with your own eyes. There it is. But you’re not going to go in.”",
+        "es": "Allí mismo el SEÑOR le dijo: «Esta es la tierra que prometí a tus antepasados, a Abraham, Isaac y Jacob, con las palabras: “Se la daré a tus descendientes”. Te he permitido verla con tus propios ojos. Ahí está. Pero tú no vas a entrar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "deuteronomio34-msg-03",
+      "msg": {
+        "en": "Moses died there in the land of Moab, Moses the servant of GOD, just as GOD said. God buried him in the valley in the land of Moab opposite Beth Peor. No one knows his burial site to this very day.",
+        "es": "Moisés murió allí, en la tierra de Moab, Moisés, el siervo del SEÑOR, tal como el SEÑOR había dicho. Dios lo enterró en el valle, en la tierra de Moab, frente a Bet Peor. Nadie conoce el lugar de su sepultura hasta el día de hoy."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "deuteronomio34-msg-04",
+      "msg": {
+        "en": "Moses was 120 years old when he died. His eyesight was sharp; he still walked with a spring in his step. The People of Israel wept for Moses in the Plains of Moab thirty days. Then the days of weeping and mourning for Moses came to an end.",
+        "es": "Moisés tenía 120 años cuando murió. Su vista seguía aguda; todavía caminaba con paso ágil. El pueblo de Israel lloró a Moisés en las llanuras de Moab durante treinta días. Entonces terminaron los días de llanto y duelo por Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "deuteronomio34-msg-05",
+      "msg": {
+        "en": "Joshua son of Nun was filled with the spirit of wisdom because Moses had laid his hands on him. The People of Israel listened obediently to him and did the same as when GOD had commanded Moses.",
+        "es": "Josué hijo de Nun estaba lleno del espíritu de sabiduría porque Moisés había puesto sus manos sobre él. El pueblo de Israel lo escuchó obedientemente y actuó igual que cuando el SEÑOR había dado órdenes a Moisés."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10-12",
+      "id": "deuteronomio34-msg-06",
+      "msg": {
+        "en": "No prophet has risen since in Israel like Moses, whom GOD knew face-to-face. Never since has there been anything like the signs and miracle-wonders that GOD sent him to do in Egypt, to Pharaoh, to all his servants, and to all his land—nothing to compare with that all-powerful hand of his and all the great and terrible things Moses did as every eye in Israel watched.",
+        "es": "Desde entonces no se ha levantado en Israel ningún profeta como Moisés, a quien el SEÑOR conoció cara a cara. Nunca desde entonces ha habido nada parecido a las señales y maravillas milagrosas que el SEÑOR lo envió a realizar en Egipto, contra Faraón, todos sus siervos y toda su tierra; nada comparable con aquella mano todopoderosa de Moisés y con todas las cosas grandes y terribles que hizo ante los ojos de todo Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "deuteronomio34-nbla-12"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "deuteronomio34-nbla-01a",
+          "order": 1,
+          "text": "Y subió Moisés desde la llanura de Moab al monte Nebo, a la cumbre del Pisga, que está frente a Jericó, y"
+        },
+        {
+          "id": "deuteronomio34-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR le mostró toda la tierra: Galaad hasta Dan,"
+        }
+      ],
+      "id": "deuteronomio34-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "deuteronomio34-nbla-02",
+      "number": 2,
+      "text": "todo Neftalí, la tierra de Efraín y de Manasés, toda la tierra de Judá hasta el mar occidental,"
+    },
+    {
+      "id": "deuteronomio34-nbla-03",
+      "number": 3,
+      "text": "el Neguev y la llanura del valle de Jericó, la ciudad de las palmeras, hasta Zoar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "deuteronomio34-nbla-04a",
+          "order": 1,
+          "text": "Entonces le dijo el SEÑOR: «Esta es la tierra que juré dar a Abraham, a Isaac y a Jacob: “Yo la daré a tu descendencia”."
+        },
+        {
+          "id": "deuteronomio34-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Te he permitido verla con tus ojos, pero no pasarás a ella»."
+        }
+      ],
+      "id": "deuteronomio34-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "deuteronomio34-nbla-05",
+      "number": 5,
+      "text": "Y allí murió Moisés, siervo del SEÑOR, en la tierra de Moab, conforme a la palabra del SEÑOR."
+    },
+    {
+      "id": "deuteronomio34-nbla-06",
+      "number": 6,
+      "text": "Y Él lo enterró en el valle, en la tierra de Moab, frente a Bet Peor; pero nadie sabe hasta hoy el lugar de su sepultura."
+    },
+    {
+      "clauses": [
+        {
+          "id": "deuteronomio34-nbla-07a",
+          "order": 1,
+          "text": "Aunque Moisés tenía 120 años cuando murió,"
+        },
+        {
+          "id": "deuteronomio34-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no se habían apagado sus ojos, ni había perdido su vigor."
+        }
+      ],
+      "id": "deuteronomio34-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "deuteronomio34-nbla-08",
+      "number": 8,
+      "text": "Los israelitas lloraron a Moisés por treinta días en la llanura de Moab; así se cumplieron los días de llanto y duelo por Moisés."
+    },
+    {
+      "clauses": [
+        {
+          "id": "deuteronomio34-nbla-09a",
+          "order": 1,
+          "text": "Y Josué, hijo de Nun, estaba lleno del espíritu de sabiduría, porque Moisés había puesto sus manos sobre él"
+        },
+        {
+          "id": "deuteronomio34-nbla-09b",
+          "order": 2,
+          "text": "; y los israelitas le escucharon e hicieron tal como el SEÑOR había mandado a Moisés."
+        }
+      ],
+      "id": "deuteronomio34-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "deuteronomio34-nbla-10",
+      "number": 10,
+      "text": "Desde entonces no ha vuelto a surgir en Israel un profeta como Moisés, a quien el SEÑOR conocía cara a cara,"
+    },
+    {
+      "id": "deuteronomio34-nbla-11",
+      "number": 11,
+      "text": "nadie como él por todas las señales y prodigios que el SEÑOR le mandó hacer en la tierra de Egipto, contra Faraón, contra todos sus siervos y contra toda su tierra,"
+    },
+    {
+      "id": "deuteronomio34-nbla-12",
+      "number": 12,
+      "text": "y por la mano poderosa y por todos los hechos grandiosos y terribles que Moisés realizó ante los ojos de todo Israel."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

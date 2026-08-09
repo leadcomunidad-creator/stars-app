@@ -1,0 +1,479 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría de Dios se dirige a toda persona sin quedar limitada por clase, riqueza o posición. La NBLA reúne a humildes, encumbrados, ricos y pobres bajo una misma convocatoria. MSG expresa esa universalidad mediante quienes tienen y quienes no tienen escuchando juntos. El texto no niega las desigualdades presentes; declara que ninguna de ellas exime a una persona de enfrentar la verdad acerca de su vida y su muerte.",
+      "id": "salmos49-joya-01",
+      "msg": {
+        "en": "\"All you haves and have-nots, All together now: listen.\"",
+        "es": "\"Todos ustedes, los que tienen y los que no tienen, todos juntos ahora: escuchen.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La sabiduría libera al corazón del temor producido por la prosperidad y la malicia de los arrogantes. La NBLA sitúa la pregunta dentro de los días de adversidad y frente a quienes confían en sus bienes. MSG conserva esa resistencia pastoral: el tiempo difícil es real, pero no obliga a tratar al rico poderoso como si poseyera autoridad definitiva sobre la vida.",
+      "id": "salmos49-joya-02",
+      "msg": {
+        "en": "\"So why should I fear in bad times,\"",
+        "es": "\"Entonces, ¿por qué habría de temer en tiempos difíciles,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos49-nbla-05a"
+          ],
+          "verseId": "salmos49-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La redención se encuentra fuera de la autosuficiencia humana. La NBLA afirma que nadie puede redimir a su hermano ni pagar a Dios el rescate requerido. MSG vuelve esa incapacidad personal y directa: no existe el autorrescate. La expansión no debe utilizarse para negar toda responsabilidad humana; establece que ninguna disciplina, mérito o capacidad puede vencer por sí misma el poder de la muerte.",
+      "id": "salmos49-joya-03",
+      "msg": {
+        "en": "\"There’s no such thing as self-rescue,\"",
+        "es": "\"No existe eso de rescatarse a uno mismo,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos49-nbla-07a"
+          ],
+          "verseId": "salmos49-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7-9"
+    },
+    {
+      "explanation": "La vida humana posee un valor que ninguna fortuna puede cubrir. La NBLA fija la razón del fracaso del intento: la redención del alma es demasiado costosa. MSG traduce esa verdad al lenguaje de unos recursos insuficientes frente al precio del rescate. El texto no pone una cifra monetaria a la salvación; demuestra que el dinero deja de ser una solución precisamente donde la necesidad humana se vuelve definitiva.",
+      "id": "salmos49-joya-04",
+      "msg": {
+        "en": "\"The cost of rescue is beyond our means,\"",
+        "es": "\"El costo del rescate está fuera de nuestro alcance,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos49-nbla-08a"
+          ],
+          "verseId": "salmos49-nbla-08"
+        }
+      ],
+      "order": 4,
+      "range": "7-9"
+    },
+    {
+      "explanation": "Dios puede realizar la redención que ningún ser humano puede comprar. La NBLA presenta al Señor liberando al salmista del poder del Seol y recibiéndolo. MSG vuelve visible esa acción mediante Dios arrebatando a una persona de las garras de la muerte. La imagen no describe todos los detalles de la vida después de la muerte; sostiene la esperanza central de que la relación con Dios es más fuerte que el sepulcro.",
+      "id": "salmos49-joya-05",
+      "msg": {
+        "en": "\"But me? God snatches me from the clutch of death,\"",
+        "es": "\"¿Pero yo? Dios me arrebata de las garras de la muerte;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos49-nbla-15a"
+          ],
+          "verseId": "salmos49-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "13-15"
+    },
+    {
+      "explanation": "La riqueza pierde toda capacidad de acompañar a su dueño cuando termina la vida. La NBLA declara de manera literal que nada descenderá con la persona al morir. MSG convierte esa realidad en una frase cotidiana e imposible de evadir. El texto no afirma que los bienes sean inútiles durante la vida; exige administrarlos sin tratarlos como identidad, rescate o garantía de permanencia.",
+      "id": "salmos49-joya-06",
+      "msg": {
+        "en": "\"They can’t take it with them;\"",
+        "es": "\"No pueden llevárselo consigo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos49-nbla-17a"
+          ],
+          "verseId": "salmos49-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "16-19"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 49,
+    "studyId": "salmos-49"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos49-msg-01",
+      "msg": {
+        "en": "Listen, everyone, listen—\nearth-dwellers, don’t miss this.\nAll you haves\nand have-nots,\nAll together now: listen.",
+        "es": "Escuchen todos, escuchen:\nhabitantes de la tierra, no se pierdan esto.\nTodos ustedes, los que tienen\ny los que no tienen,\ntodos juntos ahora: escuchen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos49-msg-02",
+      "msg": {
+        "en": "I set plainspoken wisdom before you,\nmy heart-seasoned understandings of life.\nI fine-tuned my ear to the sayings of the wise,\nI solve life’s riddle with the help of a harp.",
+        "es": "Pongo delante de ustedes una sabiduría expresada sin rodeos,\ncomprensiones de la vida maduradas en el corazón.\nAfiné el oído a los dichos de los sabios;\nresuelvo el enigma de la vida con ayuda de un arpa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos49-msg-03",
+      "msg": {
+        "en": "So why should I fear in bad times,\nhemmed in by enemy malice,\nShoved around by bullies,\ndemeaned by the arrogant rich?",
+        "es": "Entonces, ¿por qué habría de temer en tiempos difíciles,\nrodeado por la malicia de mis enemigos,\nzarandeado por abusadores,\nmenospreciado por ricos arrogantes?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "salmos49-msg-04",
+      "msg": {
+        "en": "Really! There’s no such thing as self-rescue,\npulling yourself up by your bootstraps.\nThe cost of rescue is beyond our means,\nand even then it doesn’t guarantee\nLife forever, or insurance\nagainst the Black Hole.",
+        "es": "¡De veras! No existe eso de rescatarse a uno mismo,\nde levantarse por sus propias fuerzas.\nEl costo del rescate está fuera de nuestro alcance,\ny ni siquiera así se garantiza\nvida para siempre ni un seguro\ncontra el Agujero Negro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "salmos49-msg-05",
+      "msg": {
+        "en": "Anyone can see that the brightest and best die,\nwiped out right along with fools and dunces.\nThey leave all their prowess behind,\nmove into their new home, The Coffin,\nThe cemetery their permanent address.\nAnd to think they named counties after themselves!",
+        "es": "Cualquiera puede ver que mueren los más brillantes y los mejores,\ny desaparecen junto con los tontos y los torpes.\nDejan atrás toda su destreza\ny se mudan a su nueva casa: El Ataúd;\nel cementerio se convierte en su dirección permanente.\n¡Y pensar que hasta pusieron su nombre a condados enteros!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-11"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "12",
+      "id": "salmos49-msg-06",
+      "msg": {
+        "en": "We aren’t immortal. We don’t last long.\nLike our dogs, we age and weaken. And die.",
+        "es": "No somos inmortales. No duramos mucho.\nIgual que nuestros perros, envejecemos, nos debilitamos. Y morimos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "salmos49-msg-07",
+      "msg": {
+        "en": "This is what happens to those who live for the moment,\nwho only look out for themselves:\nDeath herds them like sheep straight to hell;\nthey disappear down the gullet of the grave;\nThey waste away to nothing—\nnothing left but a marker in a cemetery.\nBut me? God snatches me from the clutch of death,\nhe reaches down and grabs me.",
+        "es": "Esto les ocurre a quienes viven solamente para el momento,\na quienes solo se preocupan por sí mismos:\nla muerte los arrea como ovejas directo al infierno;\ndesaparecen por las fauces de la tumba.\nSe consumen hasta no quedar nada,\nnada salvo una lápida en el cementerio.\n¿Pero yo? Dios me arrebata de las garras de la muerte;\nextiende la mano y me toma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-15"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "salmos49-msg-08",
+      "msg": {
+        "en": "So don’t be impressed with those who get rich\nand pile up fame and fortune.\nThey can’t take it with them;\nfame and fortune all get left behind.\nJust when they think they’ve arrived\nand folks praise them because they’ve made good,\nThey enter the family burial plot\nwhere they’ll never see sunshine again.",
+        "es": "Así que no te impresiones con quienes se enriquecen\ny acumulan fama y fortuna.\nNo pueden llevárselo consigo;\nla fama y la fortuna se quedan atrás.\nJusto cuando creen que han llegado\ny la gente los elogia porque les ha ido bien,\nentran en el sepulcro familiar,\ndonde nunca volverán a ver la luz del sol."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-19"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "20",
+      "id": "salmos49-msg-09",
+      "msg": {
+        "en": "We aren’t immortal. We don’t last long.\nLike our dogs, we age and weaken. And die.",
+        "es": "No somos inmortales. No duramos mucho.\nIgual que nuestros perros, envejecemos, nos debilitamos. Y morimos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos49-nbla-20"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos49-nbla-01",
+      "number": 1,
+      "text": "Oigan esto, pueblos todos;\nEscuchen, habitantes todos del mundo,"
+    },
+    {
+      "id": "salmos49-nbla-02",
+      "number": 2,
+      "text": "Tanto humildes como encumbrados,\nRicos y pobres juntos."
+    },
+    {
+      "id": "salmos49-nbla-03",
+      "number": 3,
+      "text": "Mi boca hablará sabiduría,\nY la meditación de mi corazón será entendimiento."
+    },
+    {
+      "id": "salmos49-nbla-04",
+      "number": 4,
+      "text": "Inclinaré al proverbio mi oído,\nCon el arpa declararé mi enigma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos49-nbla-05a",
+          "order": 1,
+          "text": "¿Por qué he de temer en los días de adversidad"
+        },
+        {
+          "id": "salmos49-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Cuando la iniquidad de mis enemigos me rodee,"
+        }
+      ],
+      "id": "salmos49-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "salmos49-nbla-06",
+      "number": 6,
+      "text": "De los que confían en sus bienes\nY se jactan de la abundancia de sus riquezas?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos49-nbla-07a",
+          "order": 1,
+          "text": "Nadie puede en manera alguna redimir a su hermano,"
+        },
+        {
+          "id": "salmos49-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ni dar a Dios rescate por él,"
+        }
+      ],
+      "id": "salmos49-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos49-nbla-08a",
+          "order": 1,
+          "text": "Porque la redención de su alma es muy costosa,"
+        },
+        {
+          "id": "salmos49-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y debe abandonar el intento para siempre,"
+        }
+      ],
+      "id": "salmos49-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "salmos49-nbla-09",
+      "number": 9,
+      "text": "Para que viva eternamente,\nPara que no vea corrupción."
+    },
+    {
+      "id": "salmos49-nbla-10",
+      "number": 10,
+      "text": "Porque él ve que aun los sabios mueren;\nEl torpe y el necio perecen de igual manera,\nY dejan sus riquezas a otros."
+    },
+    {
+      "id": "salmos49-nbla-11",
+      "number": 11,
+      "text": "Su íntimo pensamiento es que sus casas serán eternas,\nY sus moradas por todas las generaciones;\nA sus tierras han dado sus nombres."
+    },
+    {
+      "id": "salmos49-nbla-12",
+      "number": 12,
+      "text": "Pero el hombre, en su vanagloria, no permanecerá;\nEs como las bestias que perecen."
+    },
+    {
+      "id": "salmos49-nbla-13",
+      "number": 13,
+      "text": "Este es el camino de los insensatos,\nY de los que después de ellos aprueban sus palabras. (Selah)"
+    },
+    {
+      "id": "salmos49-nbla-14",
+      "number": 14,
+      "text": "Como ovejas son destinados para el Seol,\nLa muerte los pastoreará,\nLos rectos los regirán por la mañana;\nSu forma será para que el Seol la consuma,\nDe modo que no tienen morada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos49-nbla-15a",
+          "order": 1,
+          "text": "Pero Dios redimirá mi alma del poder del Seol,"
+        },
+        {
+          "id": "salmos49-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pues Él me recibirá. (Selah)"
+        }
+      ],
+      "id": "salmos49-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "salmos49-nbla-16",
+      "number": 16,
+      "text": "No temas cuando alguien se enriquece,\nCuando la gloria de su casa aumenta;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos49-nbla-17a",
+          "order": 1,
+          "text": "Porque nada se llevará cuando muera,"
+        },
+        {
+          "id": "salmos49-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ni su gloria descenderá con él."
+        }
+      ],
+      "id": "salmos49-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "salmos49-nbla-18",
+      "number": 18,
+      "text": "Aunque mientras viva, a sí mismo se felicite\n(Y aunque los hombres te alaben cuando prosperes),"
+    },
+    {
+      "id": "salmos49-nbla-19",
+      "number": 19,
+      "text": "Irá a reunirse con la generación de sus padres,\nQuienes nunca verán la luz."
+    },
+    {
+      "id": "salmos49-nbla-20",
+      "number": 20,
+      "text": "El hombre en su vanagloria, pero sin entendimiento,\nEs como las bestias que perecen."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

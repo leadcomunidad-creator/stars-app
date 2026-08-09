@@ -1,0 +1,308 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios puede desarmar aquello que parecía destinado a destruir a Su pueblo. La NBLA enumera las flechas, el escudo, la espada y las armas que Él quebró. MSG vuelve visible la derrota mediante una hoguera alimentada por instrumentos de guerra. La imagen no debe convertirse en una promesa de que todo conflicto terminará inmediatamente, pero afirma que ninguna arma conserva poder soberano delante del Señor.",
+      "id": "salmos76-joya-01",
+      "msg": {
+        "en": "\"he made a bonfire of weapons of war.\"",
+        "es": "\"encendió una hoguera con las armas de guerra.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos76-nbla-03a"
+          ],
+          "verseId": "salmos76-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Una sola reprensión de Dios puede detener la fuerza coordinada del poder militar. La NBLA presenta a jinete y caballo cayendo ante Su palabra. MSG representa esa reprensión como un rugido que les quita el aliento. La imagen no define literalmente el sonido de la voz divina; comunica que la autoridad de Dios supera toda maquinaria construida para intimidar.",
+      "id": "salmos76-joya-02",
+      "msg": {
+        "en": "\"Your sudden roar, God of Jacob, knocked the wind out of horse and rider.\"",
+        "es": "\"Tu rugido repentino, Dios de Jacob, dejó sin aliento a caballo y jinete.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "4-6"
+    },
+    {
+      "explanation": "La creación reconoce la seriedad del juicio de Dios. La NBLA declara que la tierra teme y queda en silencio; MSG convierte ese silencio en la imagen de alguien arrodillado que contiene la respiración. No se trata de pánico ante un Dios impredecible, sino de reverencia frente al Juez cuya autoridad no puede ser discutida mediante arrogancia humana.",
+      "id": "salmos76-joya-03",
+      "msg": {
+        "en": "\"earth falls to her knees and holds her breath.\"",
+        "es": "\"la tierra cae de rodillas y contiene la respiración.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos76-nbla-08b"
+          ],
+          "verseId": "salmos76-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "7-10"
+    },
+    {
+      "explanation": "El juicio de Dios tiene como propósito poner las cosas en su lugar y salvar al humilde. La NBLA une directamente Su levantarse para juzgar con la salvación de los humildes. MSG hace visible esa intervención mediante el Juez que se pone en pie. La frase no promete que toda víctima experimentará reparación completa dentro del presente, pero afirma que la justicia divina está orientada contra aquello que la oprime.",
+      "id": "salmos76-joya-04",
+      "msg": {
+        "en": "\"God stands tall and makes things right, he saves all the wretched on earth.\"",
+        "es": "\"Dios se pone en pie y pone las cosas en su lugar; salva a todos los desdichados de la tierra.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos76-nbla-09a"
+          ],
+          "verseId": "salmos76-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "7-10"
+    },
+    {
+      "explanation": "Ninguna posición permite tratar a Dios como si Su autoridad fuera negociable. La NBLA afirma que Él corta el espíritu de los príncipes y es temido por los reyes. MSG traslada esa verdad al lenguaje cotidiano: nadie se sale con la suya. La expresión no enseña que cada acto malo reciba consecuencias visibles inmediatas, pero sí que ningún poder quedará finalmente fuera del juicio del Señor.",
+      "id": "salmos76-joya-05",
+      "msg": {
+        "en": "\"Nobody gets by with anything, no one plays fast and loose with him.\"",
+        "es": "\"Nadie se sale con la suya; nadie puede tratarlo a la ligera.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-12"
+        }
+      ],
+      "order": 5,
+      "range": "11-12"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 76,
+    "studyId": "salmos-76"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "salmos76-msg-01",
+      "msg": {
+        "en": "God is well-known in Judah;\nin Israel, he’s a household name.\nHe keeps a house in Salem,\nhis own suite of rooms in Zion.\nThat’s where, using arrows for kindling,\nhe made a bonfire of weapons of war.",
+        "es": "Dios es muy conocido en Judá;\nen Israel, Su nombre es conocido en cada hogar.\nTiene una casa en Salem,\nSus propios aposentos en Sión.\nAllí usó las flechas como leña\ny encendió una hoguera con las armas de guerra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "salmos76-msg-02",
+      "msg": {
+        "en": "Oh, how bright you shine!\nOutshining their huge piles of loot!\nThe warriors were plundered\nand left there impotent.\nAnd now there’s nothing to them,\nnothing to show for their swagger and threats.\nYour sudden roar, God of Jacob,\nknocked the wind out of horse and rider.",
+        "es": "¡Oh, cómo resplandeces!\n¡Resplandeces más que sus enormes montones de botín!\nLos guerreros fueron despojados\ny quedaron allí sin fuerzas.\nAhora no queda nada de ellos,\nnada que mostrar de toda su fanfarronería y sus amenazas.\nTu rugido repentino, Dios de Jacob,\ndejó sin aliento a caballo y jinete."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-10",
+      "id": "salmos76-msg-03",
+      "msg": {
+        "en": "Fierce you are, and fearsome!\nWho can stand up to your rising anger?\nFrom heaven you thunder judgment;\nearth falls to her knees and holds her breath.\nGod stands tall and makes things right,\nhe saves all the wretched on earth.\nInstead of smoldering rage—God-praise!\nAll that sputtering rage—now a garland for God!",
+        "es": "¡Eres feroz e imponente!\n¿Quién puede permanecer en pie cuando se levanta Tu ira?\nDesde el cielo haces resonar Tu juicio;\nla tierra cae de rodillas y contiene la respiración.\nDios se pone en pie y pone las cosas en su lugar;\nsalva a todos los desdichados de la tierra.\nLa ira humeante se vuelve alabanza a Dios;\ntoda esa furia que crepita se convierte en una guirnalda para Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "salmos76-msg-04",
+      "msg": {
+        "en": "Do for GOD what you said you’d do—\nhe is, after all, your God.\nLet everyone in town bring offerings\nto the One Who Watches our every move.\nNobody gets by with anything,\nno one plays fast and loose with him.",
+        "es": "Cumplan a DIOS lo que prometieron;\ndespués de todo, Él es su Dios.\nQue todos los que viven alrededor traigan ofrendas\na Aquel que vigila cada uno de nuestros movimientos.\nNadie se sale con la suya;\nnadie puede tratarlo a la ligera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos76-nbla-12"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos76-nbla-01",
+      "number": 1,
+      "text": "Dios es conocido en Judá;\nGrande es Su nombre en Israel."
+    },
+    {
+      "id": "salmos76-nbla-02",
+      "number": 2,
+      "text": "En Salem está Su tabernáculo,\nY en Sión Su morada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos76-nbla-03a",
+          "order": 1,
+          "text": "Allí quebró las flechas encendidas del arco,\nEl escudo, la espada y las armas de guerra."
+        },
+        {
+          "id": "salmos76-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "(Selah)"
+        }
+      ],
+      "id": "salmos76-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos76-nbla-04",
+      "number": 4,
+      "text": "Resplandeciente eres,\nMás majestuoso que los montes de caza."
+    },
+    {
+      "id": "salmos76-nbla-05",
+      "number": 5,
+      "text": "Fueron despojados los fuertes de corazón;\nDurmieron su sueño,\nY ninguno de los guerreros pudo usar sus manos."
+    },
+    {
+      "id": "salmos76-nbla-06",
+      "number": 6,
+      "text": "A Tu reprensión, oh Dios de Jacob,\nJinete y caballo cayeron en profundo sueño."
+    },
+    {
+      "id": "salmos76-nbla-07",
+      "number": 7,
+      "text": "Tú, solo Tú, has de ser temido;\n¿Y quién podrá estar en pie en Tu presencia en el momento de Tu ira?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos76-nbla-08a",
+          "order": 1,
+          "text": "Hiciste oír juicio desde los cielos;"
+        },
+        {
+          "id": "salmos76-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Temió la tierra y enmudeció"
+        }
+      ],
+      "id": "salmos76-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos76-nbla-09a",
+          "order": 1,
+          "text": "Cuando Dios se levantó para juzgar,\nPara salvar a todos los humildes de la tierra."
+        },
+        {
+          "id": "salmos76-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "(Selah)"
+        }
+      ],
+      "id": "salmos76-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "salmos76-nbla-10",
+      "number": 10,
+      "text": "Pues el furor del hombre te alabará;\nCon un residuo de furor te ceñirás."
+    },
+    {
+      "id": "salmos76-nbla-11",
+      "number": 11,
+      "text": "Hagan votos ustedes al SEÑOR su Dios, y cúmplanlos;\nTodos los que están alrededor de Él traigan presentes al que debe ser temido."
+    },
+    {
+      "id": "salmos76-nbla-12",
+      "number": 12,
+      "text": "Él cortará el espíritu de los príncipes;\nTemido es por los reyes de la tierra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

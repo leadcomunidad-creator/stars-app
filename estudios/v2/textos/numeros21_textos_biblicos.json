@@ -1,0 +1,704 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "el desgaste del camino se convierte en el contexto de una nueva rebelión. La NBLA identifica directamente la impaciencia producida por el viaje; MSG hace visible cómo esa impaciencia comienza a dominar el ánimo de la comunidad. El cansancio es real, pero el texto muestra el peligro de permitir que el cansancio determine lo que creemos acerca de Dios y de Su provisión.",
+      "id": "numeros21-joya-01",
+      "msg": {
+        "en": "\"The people became irritable and cross as they traveled.\"",
+        "es": "\"Durante el viaje, el pueblo se volvió impaciente y malhumorado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros21-nbla-04b"
+          ],
+          "verseId": "numeros21-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4-5"
+    },
+    {
+      "explanation": "por primera vez en esta escena, el pueblo deja de explicar su sufrimiento culpando a otros y reconoce su propia responsabilidad. La NBLA y MSG conservan una confesión concreta: el pecado estuvo en hablar contra Dios y contra Moisés. La confesión bíblica no es una sensación vaga de culpa; nombra la rebelión y abre espacio para buscar la misericordia de Dios.",
+      "id": "numeros21-joya-02",
+      "msg": {
+        "en": "\"We sinned when we spoke out against GOD and you.\"",
+        "es": "\"Pecamos cuando hablamos contra DIOS y contra ti.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros21-nbla-07b"
+          ],
+          "verseId": "numeros21-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios proporciona vida a personas que ya han sido alcanzadas por el juicio. La NBLA fija la promesa en la acción de mirar; MSG conserva la misma sencillez: el mordido que mira vivirá. El poder no está en la capacidad de la persona para sanar por sí misma ni en una propiedad autónoma de la serpiente de metal, sino en la promesa de Dios vinculada al medio que Él mismo establece.",
+      "id": "numeros21-joya-03",
+      "msg": {
+        "en": "\"Whoever is bitten and looks at it will live.\"",
+        "es": "\"todo el que haya sido mordido y la mire vivirá\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros21-nbla-08b"
+          ],
+          "verseId": "numeros21-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "después de una escena donde el pueblo desprecia la provisión divina, Dios vuelve a presentarse como quien da lo necesario. NBLA y MSG coinciden en que la iniciativa es de Dios: Él reúne y Él da agua. La respuesta posterior es una canción, mostrando que la dependencia puede ser vivida no solo como carencia, sino también como ocasión para reconocer al Dador.",
+      "id": "numeros21-joya-04",
+      "msg": {
+        "en": "\"Gather the people; I’ll give them water.\"",
+        "es": "\"Reúne al pueblo; Yo les daré agua\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros21-nbla-16b"
+          ],
+          "verseId": "numeros21-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16-18"
+    },
+    {
+      "explanation": "antes de enfrentar a Og, Dios habla primero al temor de Moisés. La NBLA ancla la seguridad en la entrega que Dios promete; MSG la expresa con la imagen de un regalo ya puesto en sus manos. Dentro de este episodio histórico, la victoria pertenece a la acción de Dios y no simplemente a la superioridad militar de Israel. La frase no debe convertirse en una promesa genérica de triunfo sobre cualquier adversario personal.",
+      "id": "numeros21-joya-05",
+      "msg": {
+        "en": "\"Don’t be afraid of him. I’m making a present of him to you\"",
+        "es": "\"No le tengas miedo. Te lo entrego como regalo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros21-nbla-34b"
+          ],
+          "verseId": "numeros21-nbla-34"
+        }
+      ],
+      "order": 5,
+      "range": "34"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 21,
+    "studyId": "numeros-21"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "numeros21-msg-01",
+      "msg": {
+        "en": "The Canaanite king of Arad, ruling in the Negev, heard that Israel was advancing up the road to Atharim. He attacked Israel and took prisoners of war.",
+        "es": "El rey cananeo de Arad, que gobernaba en el Neguev, oyó que Israel avanzaba por el camino de Atarim. Atacó a Israel y tomó prisioneros de guerra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "numeros21-msg-02",
+      "msg": {
+        "en": "Israel vowed a vow to GOD: “If you will give this people into our power, we’ll destroy their towns and present the ruins to you as a holy destruction.”",
+        "es": "Israel hizo un voto a DIOS: «Si entregas a este pueblo en nuestro poder, destruiremos sus ciudades y te presentaremos sus ruinas como una destrucción consagrada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "numeros21-msg-03",
+      "msg": {
+        "en": "GOD listened to Israel’s prayer and gave them the Canaanites. They destroyed both them and their towns, a holy destruction. They named the place Hormah (Holy Destruction).",
+        "es": "DIOS escuchó la oración de Israel y les entregó a los cananeos. Destruyeron tanto a ellos como sus ciudades como una destrucción consagrada. Llamaron a aquel lugar Horma —Destrucción Consagrada—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "numeros21-msg-04",
+      "msg": {
+        "en": "They set out from Mount Hor along the Red Sea Road, a detour around the land of Edom. The people became irritable and cross as they traveled. They spoke out against God and Moses: “Why did you drag us out of Egypt to die in this godforsaken country? No decent food; no water—we can’t stomach this stuff any longer.”",
+        "es": "Partieron del monte Hor por el camino del Mar Rojo, dando un rodeo alrededor de la tierra de Edom. Durante el viaje, el pueblo se volvió impaciente y malhumorado. Hablaron contra Dios y contra Moisés: «¿Por qué nos sacaron de Egipto para morir en este lugar abandonado? No hay comida decente ni agua; ya no soportamos este alimento»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "numeros21-msg-05",
+      "msg": {
+        "en": "So GOD sent poisonous snakes among the people; they bit them and many in Israel died. The people came to Moses and said, “We sinned when we spoke out against GOD and you. Pray to GOD; ask him to take these snakes from us.”\nMoses prayed for the people.",
+        "es": "Entonces DIOS envió serpientes venenosas entre el pueblo; las serpientes los mordieron y muchos israelitas murieron. El pueblo fue a Moisés y dijo: «Pecamos cuando hablamos contra DIOS y contra ti. Ora a DIOS; pídele que quite estas serpientes de entre nosotros».\nMoisés oró por el pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "numeros21-msg-06",
+      "msg": {
+        "en": "GOD said to Moses, “Make a snake and put it on a flagpole: Whoever is bitten and looks at it will live.”",
+        "es": "DIOS dijo a Moisés: «Haz una serpiente y colócala sobre un asta: todo el que haya sido mordido y la mire vivirá»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9",
+      "id": "numeros21-msg-07",
+      "msg": {
+        "en": "So Moses made a snake of fiery copper and put it on top of a flagpole. Anyone bitten by a snake who then looked at the copper snake lived.",
+        "es": "Así que Moisés hizo una serpiente de cobre ardiente y la colocó en lo alto de un asta. Cualquiera que hubiera sido mordido por una serpiente y luego mirara la serpiente de cobre vivía."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10-15",
+      "id": "numeros21-msg-08",
+      "msg": {
+        "en": "The People of Israel set out and camped at Oboth. They left Oboth and camped at Iye Abarim in the wilderness that faces Moab on the east. They went from there and pitched camp in the Zered Valley. Their next camp was alongside the Arnon River, which marks the border between Amorite country and Moab. The Book of the Wars of GOD refers to this place:\nWaheb in Suphah,\nthe canyons of Arnon;\nAlong the canyon ravines\nthat lead to the village Ar\nAnd lean hard against\nthe border of Moab.",
+        "es": "El pueblo de Israel partió y acampó en Obot. Salieron de Obot y acamparon en Iye Abarim, en el desierto que mira hacia Moab por el oriente. Desde allí siguieron adelante y acamparon en el valle de Zered. Su siguiente campamento estuvo junto al río Arnón, que marca la frontera entre el territorio amorreo y Moab. El Libro de las Guerras de DIOS se refiere a este lugar:\nVaheb en Sufa,\nlos cañones del Arnón;\nA lo largo de las quebradas del cañón\nque conducen al poblado de Ar\ny se apoyan firmemente\ncontra la frontera de Moab."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "numeros21-msg-09",
+      "msg": {
+        "en": "They went on to Beer (The Well), where GOD said to Moses, “Gather the people; I’ll give them water.” That’s where Israel sang this song:\nErupt, Well!\nSing the Song of the Well,\nthe well sunk by princes,\nDug out by the peoples’ leaders\ndigging with their scepters and staffs.",
+        "es": "Siguieron hasta Beer —El Pozo—, donde DIOS dijo a Moisés: «Reúne al pueblo; Yo les daré agua». Allí Israel cantó esta canción:\n¡Brota, pozo!\nCanten la Canción del Pozo,\nel pozo abierto por príncipes,\ncavado por los líderes del pueblo\ncon sus cetros y sus bastones."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "numeros21-msg-10",
+      "msg": {
+        "en": "From the wilderness their route went from Mattanah to Nahaliel to Bamoth (The Heights) to the valley that opens into the fields of Moab from where Pisgah (The Summit) rises and overlooks Jeshimon (Wasteland).",
+        "es": "Desde el desierto, su ruta pasó de Mataná a Nahaliel, luego a Bamot —Las Alturas— y después al valle que se abre hacia los campos de Moab, desde donde se eleva Pisga —La Cumbre— y domina Jesimón —El Desierto—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-20"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "numeros21-msg-11",
+      "msg": {
+        "en": "Israel sent emissaries to Sihon, king of the Amorites, saying, “Let us cross your land. We won’t trespass into your fields or drink water in your vineyards. We’ll keep to the main road, the King’s Road, until we’re through your land.”",
+        "es": "Israel envió mensajeros a Sehón, rey de los amorreos: «Déjanos atravesar tu tierra. No entraremos en tus campos ni beberemos agua de tus viñedos. Nos mantendremos en el camino principal, el Camino del Rey, hasta haber cruzado tu territorio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-22"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "23-27",
+      "id": "numeros21-msg-12",
+      "msg": {
+        "en": "But Sihon wouldn’t let Israel go through. Instead he got his army together and marched into the wilderness to fight Israel. At Jahaz he attacked Israel. But Israel fought hard, beat him soundly, and took possession of his land from the Arnon all the way to the Jabbok right up to the Ammonite border. They stopped there because the Ammonite border was fortified. Israel took and occupied all the Amorite cities, including Heshbon and all its surrounding villages. Heshbon was the capital city of Sihon king of the Amorites. He had attacked the former king of Moab and captured all his land as far north as the river Arnon. That is why the folk singers sing,\nCome to Heshbon to rebuild the city,\nrestore Sihon’s town.",
+        "es": "Pero Sehón no permitió que Israel pasara. En lugar de eso reunió a su ejército y marchó al desierto para combatir contra Israel. En Jahaza atacó a Israel. Pero Israel peleó con fuerza, lo derrotó por completo y tomó posesión de su territorio desde el Arnón hasta el Jaboc, llegando hasta la frontera amonita. Se detuvieron allí porque la frontera de los amonitas estaba fortificada. Israel tomó y ocupó todas las ciudades amorreas, incluida Hesbón y todas las aldeas de sus alrededores. Hesbón era la capital de Sehón, rey de los amorreos. Él había atacado al anterior rey de Moab y le había arrebatado todo su territorio hasta el río Arnón. Por eso cantan los cantores populares:\nVengan a Hesbón para reconstruir la ciudad,\nrestauren la ciudad de Sehón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "numeros21-msg-13",
+      "msg": {
+        "en": "Fire once poured out of Heshbon,\nflames from the city of Sihon;\nBurning up Ar of Moab,\nthe natives of Arnon’s heights.\nDoom, Moab!\nThe people of Chemosh, done for!\nSons turned out as fugitives, daughters abandoned as captives\nto the king of the Amorites, to Sihon.",
+        "es": "Una vez salió fuego de Hesbón,\nllamas de la ciudad de Sehón;\nquemaron Ar de Moab,\na los habitantes de las alturas del Arnón.\n¡Condenado estás, Moab!\n¡El pueblo de Quemos está acabado!\nHijos convertidos en fugitivos, hijas abandonadas como cautivas\nal rey de los amorreos, a Sehón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-29"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "30",
+      "id": "numeros21-msg-14",
+      "msg": {
+        "en": "Oh, but we finished them off:\nNothing left of Heshbon as far as Dibon;\nDevastation as far off as Nophah,\nscorched earth all the way to Medeba.",
+        "es": "Ah, pero nosotros acabamos con ellos:\nnada quedó de Hesbón hasta Dibón;\ndevastación hasta Nofa,\ntierra arrasada hasta Medeba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-30"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "numeros21-msg-15",
+      "msg": {
+        "en": "Israel moved in and lived in Amorite country. Moses sent men to scout out Jazer. They captured its villages and drove away the Amorites who lived there.",
+        "es": "Israel se estableció y vivió en territorio amorreo. Moisés envió hombres a explorar Jazer. Capturaron sus aldeas y expulsaron a los amorreos que vivían allí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-32"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "33",
+      "id": "numeros21-msg-16",
+      "msg": {
+        "en": "Then they turned north on the road to Bashan. Og king of Bashan marched out with his entire army to meet Moses in battle at Edrei.",
+        "es": "Después giraron hacia el norte por el camino de Basán. Og, rey de Basán, salió con todo su ejército para enfrentarse a Moisés en batalla en Edrei."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-33"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "34",
+      "id": "numeros21-msg-17",
+      "msg": {
+        "en": "GOD said to Moses, “Don’t be afraid of him. I’m making a present of him to you, him and all his people and his land. Treat him the same as Sihon king of the Amorites who ruled in Heshbon.”",
+        "es": "DIOS dijo a Moisés: «No le tengas miedo. Te lo entrego como regalo, a él, a todo su pueblo y a su tierra. Haz con él lo mismo que hiciste con Sehón, rey de los amorreos que gobernaba en Hesbón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-34"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "35",
+      "id": "numeros21-msg-18",
+      "msg": {
+        "en": "So they attacked him, his sons, and all the people—there was not a single survivor. Israel took the land.",
+        "es": "Así que atacaron a Og, a sus hijos y a todo su pueblo; no quedó un solo sobreviviente. Israel tomó posesión de la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros21-nbla-35"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros21-nbla-01",
+      "number": 1,
+      "text": "Cuando el cananeo, el rey de Arad, que habitaba en el Neguev, oyó que Israel subía por el camino de Atarim, peleó contra Israel y le tomó algunos prisioneros."
+    },
+    {
+      "id": "numeros21-nbla-02",
+      "number": 2,
+      "text": "Entonces Israel hizo un voto al SEÑOR y dijo: «Si en verdad entregas a este pueblo en mis manos, yo destruiré por completo sus ciudades»."
+    },
+    {
+      "id": "numeros21-nbla-03",
+      "number": 3,
+      "text": "Y oyó el SEÑOR la voz de Israel y les entregó a los cananeos; e Israel los destruyó por completo, a ellos y a sus ciudades. Por eso se llamó a aquel lugar Horma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros21-nbla-04a",
+          "order": 1,
+          "text": "Partieron del monte Hor, por el camino del Mar Rojo, para rodear la tierra de Edom, y"
+        },
+        {
+          "id": "numeros21-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el pueblo se impacientó por causa del viaje."
+        }
+      ],
+      "id": "numeros21-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "numeros21-nbla-05",
+      "number": 5,
+      "text": "Y el pueblo habló contra Dios y Moisés: «¿Por qué nos han sacado de Egipto para morir en el desierto? Pues no hay comida ni agua, y detestamos este alimento tan miserable»."
+    },
+    {
+      "id": "numeros21-nbla-06",
+      "number": 6,
+      "text": "Y el SEÑOR envió serpientes abrasadoras entre el pueblo, y mordieron al pueblo, y mucha gente de Israel murió."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros21-nbla-07a",
+          "order": 1,
+          "text": "Entonces el pueblo vino a Moisés y dijo: «"
+        },
+        {
+          "id": "numeros21-nbla-07b",
+          "order": 2,
+          "text": "Hemos pecado, porque hemos hablado contra el SEÑOR y contra ti"
+        },
+        {
+          "id": "numeros21-nbla-07c",
+          "order": 3,
+          "text": "; intercede con el SEÑOR para que quite las serpientes de entre nosotros». Y Moisés intercedió por el pueblo."
+        }
+      ],
+      "id": "numeros21-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros21-nbla-08a",
+          "order": 1,
+          "text": "El SEÑOR dijo a Moisés: «Hazte una serpiente abrasadora y ponla sobre un asta; y acontecerá que"
+        },
+        {
+          "id": "numeros21-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "cuando todo el que sea mordido la mire, vivirá»."
+        }
+      ],
+      "id": "numeros21-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "numeros21-nbla-09",
+      "number": 9,
+      "text": "Y Moisés hizo una serpiente de bronce y la puso sobre el asta; y sucedía que cuando una serpiente mordía a alguien, y este miraba a la serpiente de bronce, vivía."
+    },
+    {
+      "id": "numeros21-nbla-10",
+      "number": 10,
+      "text": "Después los israelitas salieron y acamparon en Obot."
+    },
+    {
+      "id": "numeros21-nbla-11",
+      "number": 11,
+      "text": "Y salieron de Obot y acamparon en Ije Abarim, en el desierto que está frente a Moab, al oriente."
+    },
+    {
+      "id": "numeros21-nbla-12",
+      "number": 12,
+      "text": "De allí salieron y acamparon en el valle de Zered."
+    },
+    {
+      "id": "numeros21-nbla-13",
+      "number": 13,
+      "text": "De allí salieron y acamparon al otro lado del Arnón, que está en el desierto y que sale del territorio de los amorreos, pues el Arnón es la frontera de Moab, entre Moab y los amorreos."
+    },
+    {
+      "id": "numeros21-nbla-14",
+      "number": 14,
+      "text": "Por tanto se dice en el Libro de las Guerras del SEÑOR:\n«Vaheb que está en Sufa\nY los arroyos del Arnón,"
+    },
+    {
+      "id": "numeros21-nbla-15",
+      "number": 15,
+      "text": "Y la ladera de los arroyos\nQue llega hasta el sitio de Ar\nY descansa en la frontera de Moab»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros21-nbla-16a",
+          "order": 1,
+          "text": "Y de allí continuaron hasta Beer; este es el pozo donde el SEÑOR le dijo a Moisés: «"
+        },
+        {
+          "id": "numeros21-nbla-16b",
+          "order": 2,
+          "text": "Reúne al pueblo y les daré agua»."
+        }
+      ],
+      "id": "numeros21-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "numeros21-nbla-17",
+      "number": 17,
+      "text": "Entonces cantó Israel este cántico:\n«¡Salta, oh pozo! A él canten."
+    },
+    {
+      "id": "numeros21-nbla-18",
+      "number": 18,
+      "text": "El pozo que cavaron los jefes,\nQue los nobles del pueblo hicieron\nCon el cetro y con sus báculos».\nY desde el desierto fueron a Mataná."
+    },
+    {
+      "id": "numeros21-nbla-19",
+      "number": 19,
+      "text": "Y de Mataná a Nahaliel, y de Nahaliel a Bamot,"
+    },
+    {
+      "id": "numeros21-nbla-20",
+      "number": 20,
+      "text": "y de Bamot al valle que está en la tierra de Moab, en la cumbre del Pisga, que da al desierto."
+    },
+    {
+      "id": "numeros21-nbla-21",
+      "number": 21,
+      "text": "Entonces Israel envió mensajeros a Sehón, rey de los amorreos, diciéndole:"
+    },
+    {
+      "id": "numeros21-nbla-22",
+      "number": 22,
+      "text": "«Déjeme pasar por su tierra. No nos desviaremos, ni por campos ni por viñedos, ni beberemos agua de pozo. Iremos por el camino real hasta que hayamos cruzado sus fronteras»."
+    },
+    {
+      "id": "numeros21-nbla-23",
+      "number": 23,
+      "text": "Pero Sehón no permitió a Israel pasar por su territorio. Y reunió Sehón a todo su pueblo y salió al encuentro de Israel en el desierto, y llegó a Jahaza y peleó contra Israel."
+    },
+    {
+      "id": "numeros21-nbla-24",
+      "number": 24,
+      "text": "Pero Israel lo hirió a filo de espada y tomó posesión de su tierra desde el Arnón hasta el Jaboc, hasta la frontera con los amonitas, porque Jazer era la frontera de los amonitas."
+    },
+    {
+      "id": "numeros21-nbla-25",
+      "number": 25,
+      "text": "Israel tomó todas estas ciudades, y habitó Israel en todas las ciudades de los amorreos, en Hesbón y en todas sus aldeas."
+    },
+    {
+      "id": "numeros21-nbla-26",
+      "number": 26,
+      "text": "Porque Hesbón era la ciudad de Sehón, rey de los amorreos, quien había peleado contra el rey anterior de Moab y le había quitado de su mano toda su tierra, hasta el Arnón."
+    },
+    {
+      "id": "numeros21-nbla-27",
+      "number": 27,
+      "text": "Por eso dicen los que usan proverbios:\n«Vengan a Hesbón. Sea edificada.\nSea establecida la ciudad de Sehón."
+    },
+    {
+      "id": "numeros21-nbla-28",
+      "number": 28,
+      "text": "Porque fuego salió de Hesbón,\nUna llama del pueblo de Sehón;\nDevoró a Ar de Moab,\nA los señores de las alturas del Arnón."
+    },
+    {
+      "id": "numeros21-nbla-29",
+      "number": 29,
+      "text": "¡Ay de ti, Moab!\n¡Destruido eres, oh pueblo de Quemos!\nHa dado a sus hijos como fugitivos\nY a sus hijas a la cautividad,\nA un rey amorreo, Sehón."
+    },
+    {
+      "id": "numeros21-nbla-30",
+      "number": 30,
+      "text": "Pero nosotros los hemos arrojado;\nHesbón está destruido hasta Dibón;\nDespués también asolamos hasta Nofa,\nLa que llega hasta Medeba»."
+    },
+    {
+      "id": "numeros21-nbla-31",
+      "number": 31,
+      "text": "Así habitó Israel en la tierra de los amorreos."
+    },
+    {
+      "id": "numeros21-nbla-32",
+      "number": 32,
+      "text": "Moisés envió a reconocer a Jazer, y tomaron sus villas y expulsaron a los amorreos que vivían allí."
+    },
+    {
+      "id": "numeros21-nbla-33",
+      "number": 33,
+      "text": "Después se volvieron y subieron por el camino de Basán; y Og, rey de Basán, salió con todo su pueblo para presentarles batalla en Edrei."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros21-nbla-34a",
+          "order": 1,
+          "text": "Pero el SEÑOR dijo a Moisés: «"
+        },
+        {
+          "id": "numeros21-nbla-34b",
+          "order": 2,
+          "text": "No le tengas miedo porque lo he entregado en tu mano"
+        },
+        {
+          "id": "numeros21-nbla-34c",
+          "order": 3,
+          "text": ", y a todo su pueblo y a su tierra. Harás con él como hiciste con Sehón, rey de los amorreos, el que habitaba en Hesbón»."
+        }
+      ],
+      "id": "numeros21-nbla-34",
+      "number": 34
+    },
+    {
+      "id": "numeros21-nbla-35",
+      "number": 35,
+      "text": "Así que lo mataron a él, a sus hijos y a todo su pueblo, hasta que no le quedó remanente; y tomaron posesión de su tierra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

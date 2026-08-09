@@ -1,0 +1,244 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El nacimiento del niño se inserta inmediatamente dentro de la historia del pacto. La NBLA fija la acción concreta de la circuncisión en el octavo día y MSG conserva la misma orden con lenguaje directo. La frase no convierte la circuncisión en el tema principal de todo el capítulo, pero conecta la purificación posparto con la identidad pactal que Israel había recibido desde Abraham.",
+      "id": "levitico12-joya-01",
+      "msg": {
+        "en": "\"On the eighth day circumcise the boy.\"",
+        "es": "\"Al octavo día circunciden al niño.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-5"
+    },
+    {
+      "explanation": "La consecuencia explícita de la impureza es una restricción temporal respecto de lo santo. La NBLA delimita con precisión aquello que no puede hacerse y MSG vuelve visible la misma frontera. El texto no describe una condena moral de la madre ni afirma que deba ser despreciada por la comunidad; regula su relación temporal con lo consagrado y el santuario.",
+      "id": "levitico12-joya-02",
+      "msg": {
+        "en": "\"She may not touch anything consecrated or enter the Sanctuary until the days of her purification are complete.\"",
+        "es": "\"No podrá tocar nada consagrado ni entrar al Santuario hasta que se completen los días de su purificación.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico12-nbla-04b"
+          ],
+          "verseId": "levitico12-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "1-5"
+    },
+    {
+      "explanation": "El proceso de purificación tiene un final definido: la ofrenda es presentada, el sacerdote hace expiación y la mujer queda limpia. La NBLA muestra que la limpieza está relacionada específicamente con el flujo de sangre; MSG conserva ese mismo vínculo. Por eso no debe deducirse que el parto mismo sea un pecado moral. La ofrenda funciona dentro del sistema de purificación que regula el acceso al santuario.",
+      "id": "levitico12-joya-03",
+      "msg": {
+        "en": "\"He will offer it to GOD and make atonement for her. She is then clean from her flow of blood.\"",
+        "es": "\"El sacerdote los presentará a DIOS y hará expiación por ella. Entonces quedará limpia de su flujo de sangre.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico12-nbla-07a"
+          ],
+          "verseId": "levitico12-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios contempla explícitamente la limitación económica dentro de la ley. La NBLA deja claro que la alternativa existe cuando «no le alcanzan los recursos», y MSG lo comunica de manera igualmente directa. La verdad teológica no es que la santidad dependa menos de Dios para los pobres, sino que el propio Dios impide que la falta de dinero cierre por completo el camino ritual que Él ha establecido.",
+      "id": "levitico12-joya-04",
+      "msg": {
+        "en": "\"If she can’t afford a lamb, she can bring two doves or two pigeons\"",
+        "es": "\"Si no puede costear un cordero, puede llevar dos tórtolas o dos pichones\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "levitico12-nbla-08a"
+          ],
+          "verseId": "levitico12-nbla-08"
+        }
+      ],
+      "order": 4,
+      "range": "8"
+    }
+  ],
+  "meta": {
+    "book": "LEVÍTICO",
+    "bookId": "levitico",
+    "chapter": 12,
+    "studyId": "levitico-12"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "levitico12-msg-01",
+      "msg": {
+        "en": "“GOD spoke to Moses: “Tell the People of Israel, A woman who conceives and gives birth to a boy is ritually unclean for seven days, the same as during her menstruation. On the eighth day circumcise the boy. The mother must stay home another thirty-three days for purification from her bleeding. She may not touch anything consecrated or enter the Sanctuary until the days of her purification are complete. If she gives birth to a girl, she is unclean for fourteen days, the same as during her menstruation. She must stay home for sixty-six days for purification from her bleeding.",
+        "es": "«DIOS habló a Moisés: “Dile al pueblo de Israel: Una mujer que concibe y da a luz un niño queda ritualmente impura durante siete días, igual que durante su menstruación. Al octavo día circunciden al niño. La madre deberá permanecer en casa otros treinta y tres días para purificarse de su sangrado. No podrá tocar nada consagrado ni entrar al Santuario hasta que se completen los días de su purificación. Si da a luz una niña, quedará impura durante catorce días, igual que durante su menstruación. Deberá permanecer en casa sesenta y seis días para purificarse de su sangrado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "levitico12-msg-02",
+      "msg": {
+        "en": "“When the days for her purification for either a boy or a girl are complete, she will bring a yearling lamb for a Whole-Burnt-Offering and a pigeon or dove for an Absolution-Offering to the priest at the entrance of the Tent of Meeting. He will offer it to GOD and make atonement for her. She is then clean from her flow of blood.\n“These are the instructions for a woman who gives birth to either a boy or a girl.",
+        "es": "«Cuando se completen los días de su purificación, ya sea por un niño o por una niña, llevará al sacerdote, a la entrada de la Tienda de Reunión, un cordero de un año para una Ofrenda Totalmente Quemada y un pichón o una tórtola para una Ofrenda de Absolución. El sacerdote los presentará a DIOS y hará expiación por ella. Entonces quedará limpia de su flujo de sangre.\n»Estas son las instrucciones para una mujer que da a luz un niño o una niña."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8",
+      "id": "levitico12-msg-03",
+      "msg": {
+        "en": "“If she can’t afford a lamb, she can bring two doves or two pigeons, one for the Whole-Burnt-Offering and one for the Absolution-Offering. The priest will make atonement for her and she will be clean.”",
+        "es": "«Si no puede costear un cordero, puede llevar dos tórtolas o dos pichones, uno para la Ofrenda Totalmente Quemada y otro para la Ofrenda de Absolución. El sacerdote hará expiación por ella y quedará limpia»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "levitico12-nbla-08"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "levitico12-nbla-01",
+      "number": 1,
+      "text": "Entonces el SEÑOR habló a Moisés:"
+    },
+    {
+      "id": "levitico12-nbla-02",
+      "number": 2,
+      "text": "«Di a los israelitas: “Cuando una mujer dé a luz y tenga varón, quedará impura por siete días; como en los días de su menstruación, será impura."
+    },
+    {
+      "id": "levitico12-nbla-03",
+      "number": 3,
+      "text": "Al octavo día la carne del prepucio del niño será circuncidada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico12-nbla-04a",
+          "order": 1,
+          "text": "Y ella permanecerá en la sangre de su purificación por treinta y tres días;"
+        },
+        {
+          "id": "levitico12-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no tocará ninguna cosa consagrada ni entrará al santuario hasta que los días de su purificación sean cumplidos."
+        }
+      ],
+      "id": "levitico12-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "levitico12-nbla-05",
+      "number": 5,
+      "text": "Pero si da a luz una niña, quedará impura por dos semanas, como en los días de su menstruación; y permanecerá en la sangre de su purificación por sesenta y seis días."
+    },
+    {
+      "id": "levitico12-nbla-06",
+      "number": 6,
+      "text": "”Cuando se cumplan los días de su purificación por un hijo o por una hija, traerá al sacerdote, a la entrada de la tienda de reunión, un cordero de un año como holocausto, y un pichón o una tórtola como ofrenda por el pecado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico12-nbla-07a",
+          "order": 1,
+          "text": "Entonces él los ofrecerá delante del SEÑOR y hará expiación por ella, y quedará limpia del flujo de su sangre."
+        },
+        {
+          "id": "levitico12-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Esta es la ley para la que da a luz, sea hijo o hija."
+        }
+      ],
+      "id": "levitico12-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "levitico12-nbla-08a",
+          "order": 1,
+          "text": "Pero si no le alcanzan los recursos para ofrecer un cordero, entonces tomará dos tórtolas o dos pichones"
+        },
+        {
+          "id": "levitico12-nbla-08b",
+          "order": 2,
+          "text": ", uno para el holocausto y el otro para la ofrenda por el pecado; y el sacerdote hará expiación por ella, y quedará limpia”»."
+        }
+      ],
+      "id": "levitico12-nbla-08",
+      "number": 8
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

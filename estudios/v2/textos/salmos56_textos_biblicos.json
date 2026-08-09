@@ -1,0 +1,380 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La confianza bíblica puede coexistir con una experiencia real de temor. La NBLA fija el movimiento: cuando llega el miedo, David confía en Dios. MSG lo vuelve todavía más personal al mostrarlo acercándose a Dios precisamente cuando «de verdad» tiene miedo. El texto no glorifica la ansiedad ni enseña que debemos permanecer en situaciones peligrosas sin protección; muestra hacia quién llevar el temor cuando aparece.",
+      "id": "salmos56-joya-01",
+      "msg": {
+        "en": "“When I get really afraid I come to you in trust.”",
+        "es": "“Cuando de verdad tengo miedo, vengo a ti y confío.”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "La confianza se alimenta de la palabra de Dios. La NBLA conecta explícitamente la alabanza de esa palabra con la decisión de no vivir dominado por el temor. MSG comunica el cambio interior que ocurre cuando la confianza desplaza al miedo del centro. Esto no significa que nunca vuelva a sentirse temor, sino que ya no se le concede la autoridad final.",
+      "id": "salmos56-joya-02",
+      "msg": {
+        "en": "“I’m proud to praise God; fearless now, I trust in God.”",
+        "es": "“Me enorgullece alabar a Dios; ahora, sin miedo, confío en Dios.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos56-nbla-04a"
+          ],
+          "verseId": "salmos56-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "1-4"
+    },
+    {
+      "explanation": "Dios conoce de manera personal el sufrimiento de quien clama. La NBLA utiliza las imágenes del frasco y del libro para expresar que las lágrimas no son olvidadas. MSG las presenta como registradas cuidadosamente junto con cada dolor. Estas imágenes no enseñan literalmente un sistema celestial de contabilidad emocional; revelan que ninguna herida sufrida delante de Dios queda fuera de su atención.",
+      "id": "salmos56-joya-03",
+      "msg": {
+        "en": "“Each tear entered in your ledger, each ache written in your book.”",
+        "es": "“cada lágrima está registrada en tu libro de cuentas, cada dolor escrito en tu libro.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos56-nbla-08b"
+          ],
+          "verseId": "salmos56-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "David encuentra seguridad en la certeza de que Dios está a su favor. La NBLA expresa directamente esa convicción y MSG conserva su fuerza relacional. Esto no significa que Dios respalde automáticamente cualquier deseo o conflicto personal de David; el salmo se refiere al Dios que escucha al perseguido y actúa conforme a su justicia y fidelidad.",
+      "id": "salmos56-joya-04",
+      "msg": {
+        "en": "“Then I’ll know that God is on my side.”",
+        "es": "“entonces sabré que Dios está de mi lado.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos56-nbla-09b"
+          ],
+          "verseId": "salmos56-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "9"
+    },
+    {
+      "explanation": "La confianza relativiza el poder humano sin negar su capacidad de producir dolor. La NBLA enfrenta directamente el temor al hombre desde la confianza en Dios. MSG destaca la diferencia entre Dios y «simples mortales». El texto no afirma que los seres humanos sean incapaces de herir o matar, sino que ninguna acción humana puede desplazar a Dios de su autoridad final ni destruir la esperanza que Él sostiene.",
+      "id": "salmos56-joya-05",
+      "msg": {
+        "en": "“Fearless now, I trust in God; what can mere mortals do to me?”",
+        "es": "“Ahora, sin miedo, confío en Dios; ¿qué pueden hacerme simples mortales?”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "10-11"
+    },
+    {
+      "explanation": "El propósito de la liberación es una vida nuevamente vivida delante de Dios. La NBLA establece claramente ese destino: andar delante de Él en la luz de la vida. MSG convierte la imagen en una escena de libertad después de la amenaza. No promete una existencia permanentemente tranquila, sino una vida recuperada para caminar en comunión con Dios.",
+      "id": "salmos56-joya-06",
+      "msg": {
+        "en": "“Now I stroll at leisure with God in the sunlit fields of life.”",
+        "es": "“Ahora camino tranquilamente con Dios por los campos iluminados de la vida.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos56-nbla-13b"
+          ],
+          "verseId": "salmos56-nbla-13"
+        }
+      ],
+      "order": 6,
+      "range": "12-13"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 56,
+    "studyId": "salmos-56"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "salmos56-msg-01",
+      "msg": {
+        "en": "Take my side, God—I’m getting kicked around,\nstomped on every day.\nNot a day goes by\nbut somebody beats me up;\nThey make it their duty\nto beat me up.\nWhen I get really afraid\nI come to you in trust.\nI’m proud to praise God;\nfearless now, I trust in God.\nWhat can mere mortals do?",
+        "es": "Ponte de mi lado, Dios; me están golpeando,\nme pisotean cada día.\nNo pasa un solo día\nsin que alguien me ataque;\nparece que se hubieran propuesto\ngolpearme sin descanso.\nCuando de verdad tengo miedo,\nvengo a ti y confío.\nMe enorgullece alabar a Dios;\nahora, sin miedo, confío en Dios.\n¿Qué pueden hacerme simples mortales?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "salmos56-msg-02",
+      "msg": {
+        "en": "They don’t let up—\nthey smear my reputation\nand huddle to plot my collapse.\nThey gang up,\nsneak together through the alleys\nTo take me by surprise,\nwait their chance to get me.",
+        "es": "No aflojan:\nensucian mi reputación\ny se reúnen para planear mi caída.\nSe agrupan,\nse deslizan juntos por los callejones\npara tomarme por sorpresa,\nesperando la oportunidad para atraparme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7",
+      "id": "salmos56-msg-03",
+      "msg": {
+        "en": "Pay them back in evil!\nGet angry, God!\nDown with these people!",
+        "es": "¡Hazles pagar por su maldad!\n¡Indígnate, Dios!\n¡Derriba a esta gente!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "salmos56-msg-04",
+      "msg": {
+        "en": "You’ve kept track of my every toss and turn\nthrough the sleepless nights,\nEach tear entered in your ledger,\neach ache written in your book.",
+        "es": "Has llevado cuenta de cada vuelta que doy\ndurante mis noches sin dormir;\ncada lágrima está registrada en tu libro de cuentas,\ncada dolor escrito en tu libro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "salmos56-msg-05",
+      "msg": {
+        "en": "If my enemies run away,\nturn tail when I yell at them,\nThen I’ll know\nthat God is on my side.",
+        "es": "Si mis enemigos salen huyendo,\nsi dan media vuelta cuando clamo,\nentonces sabré\nque Dios está de mi lado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "salmos56-msg-06",
+      "msg": {
+        "en": "I’m proud to praise God,\nproud to praise GOD.\nFearless now, I trust in God;\nwhat can mere mortals do to me?",
+        "es": "Me enorgullece alabar a Dios,\nme enorgullece alabar al SEÑOR.\nAhora, sin miedo, confío en Dios;\n¿qué pueden hacerme simples mortales?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "salmos56-msg-07",
+      "msg": {
+        "en": "God, you did everything you promised,\nand I’m thanking you with all my heart.\nYou pulled me from the brink of death,\nmy feet from the cliff-edge of doom.\nNow I stroll at leisure with God\nin the sunlit fields of life.",
+        "es": "Dios, hiciste todo lo que prometiste,\ny te doy gracias con todo mi corazón.\nMe sacaste del borde de la muerte,\napartaste mis pies del precipicio de la destrucción.\nAhora camino tranquilamente con Dios\npor los campos iluminados de la vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos56-nbla-13"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos56-nbla-01",
+      "number": 1,
+      "text": "Ten piedad de mí, oh Dios, porque el hombre me ha pisoteado;\nMe oprime combatiéndome todo el día."
+    },
+    {
+      "id": "salmos56-nbla-02",
+      "number": 2,
+      "text": "Mis enemigos me han pisoteado todo el día,\nPorque muchos son los que con soberbia pelean contra mí."
+    },
+    {
+      "id": "salmos56-nbla-03",
+      "number": 3,
+      "text": "El día en que temo,\nYo en Ti confío."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos56-nbla-04a",
+          "order": 1,
+          "text": "En Dios, cuya palabra alabo,\nEn Dios he confiado, no temeré."
+        },
+        {
+          "id": "salmos56-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Qué puede hacerme el hombre?"
+        }
+      ],
+      "id": "salmos56-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos56-nbla-05",
+      "number": 5,
+      "text": "Todo el día pervierten mis palabras;\nTodos sus pensamientos contra mí son para mal."
+    },
+    {
+      "id": "salmos56-nbla-06",
+      "number": 6,
+      "text": "Atacan, se esconden,\nEspían mis pasos,\nComo esperando para quitarme la vida."
+    },
+    {
+      "id": "salmos56-nbla-07",
+      "number": 7,
+      "text": "Por causa de la iniquidad, arrójalos,\nEn Tu ira humilla a los pueblos, oh Dios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos56-nbla-08a",
+          "order": 1,
+          "text": "Tú has tomado en cuenta mi vida errante;"
+        },
+        {
+          "id": "salmos56-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pon mis lágrimas en Tu frasco;\n¿Acaso no están en Tu libro?"
+        }
+      ],
+      "id": "salmos56-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos56-nbla-09a",
+          "order": 1,
+          "text": "Entonces mis enemigos retrocederán el día en que yo te invoque."
+        },
+        {
+          "id": "salmos56-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Esto sé: que Dios está a favor mío."
+        }
+      ],
+      "id": "salmos56-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "salmos56-nbla-10",
+      "number": 10,
+      "text": "En Dios, cuya palabra alabo,\nEn el SEÑOR, cuya palabra honro;"
+    },
+    {
+      "id": "salmos56-nbla-11",
+      "number": 11,
+      "text": "En Dios he confiado, no temeré.\n¿Qué puede hacerme el hombre?"
+    },
+    {
+      "id": "salmos56-nbla-12",
+      "number": 12,
+      "text": "Están sobre mí, oh Dios, los votos que te hice;\nOfrendas de acción de gracias te ofreceré."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos56-nbla-13a",
+          "order": 1,
+          "text": "Pues Tú has librado mi alma de la muerte,\nY mis pies de tropiezo,"
+        },
+        {
+          "id": "salmos56-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que yo pueda andar delante de Dios\nEn la luz de la vida."
+        }
+      ],
+      "id": "salmos56-nbla-13",
+      "number": 13
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

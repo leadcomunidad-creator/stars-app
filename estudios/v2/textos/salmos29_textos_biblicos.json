@@ -1,0 +1,368 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La gloria del SEÑOR exige una respuesta reverente y completa. La NBLA fija la adoración en la majestad de la santidad; MSG la vuelve corporal mediante la postura firme y la preparación para honrarlo. La imagen no establece un código de vestuario religioso: comunica atención, dignidad y entrega ante Dios.",
+      "id": "salmos29-joya-01",
+      "msg": {
+        "en": "\"Stand at attention! Dress your best to honor him!\"",
+        "es": "\"¡Pónganse firmes! ¡Vístanse con lo mejor para honrarlo!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos29-nbla-02b"
+          ],
+          "verseId": "salmos29-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La voz de Dios gobierna las fuerzas que superan al ser humano. La NBLA identifica directamente la voz del SEÑOR sobre las aguas; MSG intensifica la escena mediante el trueno. El lenguaje no enseña que todo trueno sea un mensaje específico para descifrar, sino que la creación entera permanece bajo la autoridad divina.",
+      "id": "salmos29-joya-02",
+      "msg": {
+        "en": "\"GOD thunders across the waters,\"",
+        "es": "\"DIOS truena sobre las aguas,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos29-nbla-03a"
+          ],
+          "verseId": "salmos29-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "La manifestación del poder divino conduce a la adoración. La NBLA sitúa la respuesta en el templo y la hace universal; MSG la expresa como caer de rodillas y clamar. Esa postura no convierte la emoción intensa en medida de espiritualidad. El punto central es reconocer que toda gloria pertenece al SEÑOR.",
+      "id": "salmos29-joya-03",
+      "msg": {
+        "en": "\"We fall to our knees—we call out, “Glory!”\"",
+        "es": "\"Caemos de rodillas y gritamos: «¡Gloria!».\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos29-nbla-09b"
+          ],
+          "verseId": "salmos29-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9"
+    },
+    {
+      "explanation": "Dios reina sobre aquello que parece caótico e incontrolable. La NBLA fija Su posición como Rey durante el diluvio y para siempre; MSG vuelve visible el trono por encima de las aguas. La imagen no promete que el pueblo evitará todo desastre, sino que ninguna fuerza desplaza la soberanía del SEÑOR.",
+      "id": "salmos29-joya-04",
+      "msg": {
+        "en": "\"Above the floodwaters is GOD’S throne\"",
+        "es": "\"Sobre las aguas desbordadas está el trono de DIOS,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos29-nbla-10a"
+          ],
+          "verseId": "salmos29-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "El poder del Rey se orienta al bien de Su pueblo. La NBLA une fuerza, bendición y paz; MSG lo comunica con dos declaraciones directas. La paz no depende de que la tormenta desaparezca inmediatamente, sino de la fidelidad del Dios que fortalece a quienes le pertenecen.",
+      "id": "salmos29-joya-05",
+      "msg": {
+        "en": "\"GOD makes his people strong. GOD gives his people peace.\"",
+        "es": "\"DIOS fortalece a Su pueblo. DIOS da paz a Su pueblo.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 29,
+    "studyId": "salmos-29"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos29-msg-01",
+      "msg": {
+        "en": "Bravo, GOD, bravo!\nGods and all angels shout, “Encore!”\nIn awe before the glory,\nin awe before God’s visible power.\nStand at attention!\nDress your best to honor him!",
+        "es": "¡Bravo, DIOS, bravo!\nDioses y todos los ángeles gritan: «¡Otra vez!».\nSobrecogidos ante la gloria,\nsobrecogidos ante el poder visible de Dios.\n¡Pónganse firmes!\n¡Vístanse con lo mejor para honrarlo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "salmos29-msg-02",
+      "msg": {
+        "en": "GOD thunders across the waters,\nBrilliant, his voice and his face, streaming brightness—\nGOD, across the flood waters.",
+        "es": "DIOS truena sobre las aguas,\nradiante: Su voz y Su rostro irradian luz—\nDIOS, sobre las aguas desbordadas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "salmos29-msg-03",
+      "msg": {
+        "en": "GOD’S thunder tympanic,\nGOD’S thunder symphonic.",
+        "es": "El trueno de DIOS retumba en los tímpanos;\nel trueno de DIOS es sinfónico."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "salmos29-msg-04",
+      "msg": {
+        "en": "GOD’S thunder smashes cedars,\nGOD topples the northern cedars.",
+        "es": "El trueno de DIOS destroza cedros;\nDIOS derriba los cedros del norte."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "salmos29-msg-05",
+      "msg": {
+        "en": "The mountain ranges skip like spring colts,\nThe high ridges jump like wild kid goats.",
+        "es": "Las cordilleras saltan como potros jóvenes;\nlas altas cumbres brincan como cabritos salvajes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "salmos29-msg-06",
+      "msg": {
+        "en": "GOD’S thunder spits fire.\nGOD thunders, the wilderness quakes;\nHe makes the desert of Kadesh shake.",
+        "es": "El trueno de DIOS escupe fuego.\nDIOS truena y el desierto tiembla;\nhace sacudirse el desierto de Cades."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9",
+      "id": "salmos29-msg-07",
+      "msg": {
+        "en": "GOD’S thunder sets the oak trees dancing\nA wild dance, whirling; the pelting rain strips their branches.\nWe fall to our knees—we call out, “Glory!”",
+        "es": "El trueno de DIOS pone a bailar a los robles:\nun baile salvaje, dando vueltas;\nla lluvia azotadora desnuda sus ramas.\nCaemos de rodillas y gritamos: «¡Gloria!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10",
+      "id": "salmos29-msg-08",
+      "msg": {
+        "en": "Above the floodwaters is GOD’S throne\nfrom which his power flows,\nfrom which he rules the world.",
+        "es": "Sobre las aguas desbordadas está el trono de DIOS,\ndesde donde fluye Su poder,\ndesde donde gobierna el mundo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-10"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "11",
+      "id": "salmos29-msg-09",
+      "msg": {
+        "en": "GOD makes his people strong.\nGOD gives his people peace.",
+        "es": "DIOS fortalece a Su pueblo.\nDIOS da paz a Su pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos29-nbla-11"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "salmos29-nbla-01",
+      "number": 1,
+      "text": "Tributen al SEÑOR, oh hijos de los poderosos,\nTributen al SEÑOR gloria y poder."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos29-nbla-02a",
+          "order": 1,
+          "text": "Tributen al SEÑOR la gloria debida a Su nombre;"
+        },
+        {
+          "id": "salmos29-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Adoren al SEÑOR en la majestad de la santidad."
+        }
+      ],
+      "id": "salmos29-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos29-nbla-03a",
+          "order": 1,
+          "text": "Voz del SEÑOR sobre las aguas."
+        },
+        {
+          "id": "salmos29-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El Dios de gloria truena,\nEl SEÑOR está sobre las muchas aguas."
+        }
+      ],
+      "id": "salmos29-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "salmos29-nbla-04",
+      "number": 4,
+      "text": "La voz del SEÑOR es poderosa,\nLa voz del SEÑOR es majestuosa."
+    },
+    {
+      "id": "salmos29-nbla-05",
+      "number": 5,
+      "text": "La voz del SEÑOR rompe los cedros;\nSí, el SEÑOR hace pedazos los cedros del Líbano;"
+    },
+    {
+      "id": "salmos29-nbla-06",
+      "number": 6,
+      "text": "Y como becerro hace saltar al monte Líbano;\nY al monte Sirión como cría de búfalo."
+    },
+    {
+      "id": "salmos29-nbla-07",
+      "number": 7,
+      "text": "La voz del SEÑOR levanta llamas de fuego."
+    },
+    {
+      "id": "salmos29-nbla-08",
+      "number": 8,
+      "text": "La voz del SEÑOR hace temblar el desierto;\nEl SEÑOR hace temblar el desierto de Cades."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos29-nbla-09a",
+          "order": 1,
+          "text": "La voz del SEÑOR hace parir a las ciervas\nY deja los bosques desnudos,"
+        },
+        {
+          "id": "salmos29-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en Su templo todo dice: «¡Gloria!»."
+        }
+      ],
+      "id": "salmos29-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos29-nbla-10a",
+          "order": 1,
+          "text": "El SEÑOR se sentó como Rey durante el diluvio;"
+        },
+        {
+          "id": "salmos29-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sí, como Rey se sienta el SEÑOR para siempre."
+        }
+      ],
+      "id": "salmos29-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "salmos29-nbla-11",
+      "number": 11,
+      "text": "El SEÑOR dará fuerza a Su pueblo;\nEl SEÑOR bendecirá a Su pueblo con paz."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

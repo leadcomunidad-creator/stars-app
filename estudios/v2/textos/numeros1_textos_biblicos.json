@@ -1,0 +1,972 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios forma una comunidad en la que pertenencia colectiva e identidad personal permanecen unidas. La NBLA conserva la precisión del registro «uno por uno» dentro de familias y casas paternas. MSG hace visible la dimensión personal al destacar que debían anotar cada nombre. El punto teológico no es que Dios necesite información numérica, sino que el pueblo de Su pacto debe reconocerse como una comunidad concreta, ordenada y responsable.",
+      "id": "numeros1-joya-01",
+      "msg": {
+        "en": "“Number the congregation of the People of Israel by clans and families, writing down the names of every male.”",
+        "es": "«Haz un censo de la congregación del pueblo de Israel por clanes y familias, anotando el nombre de cada varón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "La obediencia del pueblo incluye asumir conscientemente su lugar dentro de la comunidad. La NBLA fija la estructura genealógica y familiar del registro; MSG expresa la participación activa del pueblo al señalar que ellos mismos se registraron. Esto no convierte la ascendencia en una fuente de superioridad, sino que muestra que la misión compartida exige saber a qué historia pertenecemos y con quién caminamos.",
+      "id": "numeros1-joya-02",
+      "msg": {
+        "en": "“The people registered themselves in their tribes according to their ancestral families”",
+        "es": "«El pueblo se registró por tribus y familias ancestrales»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros1-nbla-18b"
+          ],
+          "verseId": "numeros1-nbla-18"
+        }
+      ],
+      "order": 2,
+      "range": "17-19"
+    },
+    {
+      "explanation": "La promesa de Dios ha convertido a una familia vulnerable en una nación numerosa. La NBLA establece exactamente quiénes integran la cifra: hombres de veinte años en adelante capaces de salir a la guerra. MSG ayuda a percibir la magnitud del pueblo preparado para avanzar. Sin embargo, la cifra no debe convertirse en doctrina de autosuficiencia: el resto de Números demostrará que una gran capacidad humana no reemplaza la confianza en Dios.",
+      "id": "numeros1-joya-03",
+      "msg": {
+        "en": "“The sum total of the People of Israel twenty years old and over who were able to fight in the army, counted by ancestral family, was 603,550.”",
+        "es": "«El total del pueblo de Israel de veinte años en adelante que estaba en condiciones de combatir en el ejército, contado por familias ancestrales, fue de 603,550 hombres»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-46"
+        }
+      ],
+      "order": 3,
+      "range": "44-46"
+    },
+    {
+      "explanation": "Dios asigna responsabilidades diferentes dentro del mismo pueblo. La NBLA deja claro que los levitas quedan fuera de este censo particular, mientras MSG hace visible la excepción deliberada establecida por Dios. La diferencia no significa que Leví quede excluido de Israel ni que sea espiritualmente superior; significa que su servicio estará orientado al cuidado del tabernáculo y no a la organización militar.",
+      "id": "numeros1-joya-04",
+      "msg": {
+        "en": "“The tribe of Levi is an exception: Don’t register them.”",
+        "es": "«La tribu de Leví es una excepción: no la registres»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-49"
+        }
+      ],
+      "order": 4,
+      "range": "49"
+    },
+    {
+      "explanation": "La presencia santa de Dios debe ser atendida conforme a Su palabra. La NBLA fija la responsabilidad de los levitas sobre el tabernáculo; MSG vuelve concreta esa tarea mediante la imagen de custodiar la Morada. La expresión no autoriza a pensar que Dios necesita protección humana. Son la congregación y el orden del culto los que necesitan ser protegidos de una aproximación irreverente a la santidad divina.",
+      "id": "numeros1-joya-05",
+      "msg": {
+        "en": "“The Levites are responsible for the security of The Dwelling of The Testimony.”",
+        "es": "«Los levitas serán responsables de custodiar la Morada del Testimonio»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "numeros1-nbla-53b"
+          ],
+          "verseId": "numeros1-nbla-53"
+        }
+      ],
+      "order": 5,
+      "range": "53"
+    },
+    {
+      "explanation": "La respuesta apropiada a la palabra de Dios es una obediencia completa. La NBLA repite «así hicieron» para mostrar la correspondencia entre el mandato y la acción. MSG concentra esa verdad en la frase «Lo hicieron todo», subrayando que el pueblo no seleccionó únicamente las instrucciones más cómodas. El texto no enseña perfección permanente de Israel, sino obediencia real en este momento decisivo de preparación.",
+      "id": "numeros1-joya-06",
+      "msg": {
+        "en": "“The People of Israel did everything that GOD commanded Moses. They did it all.”",
+        "es": "«El pueblo de Israel hizo todo lo que DIOS le había ordenado a Moisés. Lo hicieron todo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-54"
+        }
+      ],
+      "order": 6,
+      "range": "54"
+    }
+  ],
+  "meta": {
+    "book": "NÚMEROS",
+    "bookId": "numeros",
+    "chapter": 1,
+    "studyId": "numeros-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "numeros1-msg-01",
+      "msg": {
+        "en": "GOD spoke to Moses in the Wilderness of Sinai at the Tent of Meeting on the first day of the second month in the second year after they had left Egypt. He said, “Number the congregation of the People of Israel by clans and families, writing down the names of every male. You and Aaron are to register, company by company, every man who is twenty years and older who is able to fight in the army. Pick one man from each tribe who is head of his family to help you. These are the names of the men who will help you:\nfrom Reuben: Elizur son of Shedeur",
+        "es": "DIOS habló con Moisés en el desierto de Sinaí, en la Tienda de Reunión, el primer día del segundo mes del segundo año después de que salieron de Egipto. Le dijo: «Haz un censo de la congregación del pueblo de Israel por clanes y familias, anotando el nombre de cada varón. Tú y Aarón deben registrar, compañía por compañía, a todo hombre de veinte años en adelante que esté en condiciones de combatir en el ejército. Elijan a un hombre de cada tribu, jefe de su familia, para que los ayude. Estos son los nombres de los hombres que los ayudarán:\nde Rubén, Elisur, hijo de Sedeur"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6",
+      "id": "numeros1-msg-02",
+      "msg": {
+        "en": "from Simeon: Shelumiel son of Zurishaddai",
+        "es": "de Simeón, Selumiel, hijo de Zurisadai"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7",
+      "id": "numeros1-msg-03",
+      "msg": {
+        "en": "from Judah: Nahshon son of Amminadab",
+        "es": "de Judá, Naasón, hijo de Aminadab"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "numeros1-msg-04",
+      "msg": {
+        "en": "from Issachar: Nethanel son of Zuar",
+        "es": "de Isacar, Natanael, hijo de Zuar"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "numeros1-msg-05",
+      "msg": {
+        "en": "from Zebulun: Eliab son of Helon",
+        "es": "de Zabulón, Eliab, hijo de Helón"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "numeros1-msg-06",
+      "msg": {
+        "en": "from the sons of Joseph,\nfrom Ephraim: Elishama son of Ammihud\nfrom Manasseh: Gamaliel son of Pedahzur",
+        "es": "de los hijos de José,\nde Efraín, Elisama, hijo de Amiud;\nde Manasés, Gamaliel, hijo de Pedasur"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11",
+      "id": "numeros1-msg-07",
+      "msg": {
+        "en": "from Benjamin: Abidan son of Gideoni",
+        "es": "de Benjamín, Abidán, hijo de Gedeoni"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12",
+      "id": "numeros1-msg-08",
+      "msg": {
+        "en": "from Dan: Ahiezer son of Ammishaddai",
+        "es": "de Dan, Ahiezer, hijo de Amisadai"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "13",
+      "id": "numeros1-msg-09",
+      "msg": {
+        "en": "from Asher: Pagiel son of Ocran",
+        "es": "de Aser, Pagiel, hijo de Ocrán"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-13"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "14",
+      "id": "numeros1-msg-10",
+      "msg": {
+        "en": "from Gad: Eliasaph son of Deuel",
+        "es": "de Gad, Eliasaf, hijo de Deuel"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-14"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "15",
+      "id": "numeros1-msg-11",
+      "msg": {
+        "en": "from Naphtali: Ahira son of Enan.”",
+        "es": "de Neftalí, Ahira, hijo de Enán»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-15"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "16",
+      "id": "numeros1-msg-12",
+      "msg": {
+        "en": "These were the men chosen from the congregation, leaders of their ancestral tribes, heads of Israel’s military divisions.",
+        "es": "Estos fueron los hombres escogidos de entre la congregación, líderes de sus tribus ancestrales y jefes de las divisiones militares de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-16"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "numeros1-msg-13",
+      "msg": {
+        "en": "Moses and Aaron took these men who had been named to help and gathered the whole congregation together on the first day of the second month. The people registered themselves in their tribes according to their ancestral families, putting down the names of those who were twenty years old and older, just as GOD commanded Moses. He numbered them in the Wilderness of Sinai.",
+        "es": "Moisés y Aarón reunieron a los hombres que habían sido nombrados para ayudarlos y convocaron a toda la congregación el primer día del segundo mes. El pueblo se registró por tribus y familias ancestrales, anotando los nombres de quienes tenían veinte años o más, tal como DIOS se lo había ordenado a Moisés. Así los contó en el desierto de Sinaí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-19"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "numeros1-msg-14",
+      "msg": {
+        "en": "The line of Reuben, Israel’s firstborn: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by tribes according to their ancestral families. The tribe of Reuben numbered 46,500.",
+        "es": "La descendencia de Rubén, el primogénito de Israel: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por tribus según sus familias ancestrales. La tribu de Rubén sumó 46,500 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-21"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "numeros1-msg-15",
+      "msg": {
+        "en": "The line of Simeon: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Simeon numbered 59,300.",
+        "es": "La descendencia de Simeón: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Simeón sumó 59,300 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-23"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "numeros1-msg-16",
+      "msg": {
+        "en": "The line of Gad: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Gad numbered 45,650.",
+        "es": "La descendencia de Gad: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Gad sumó 45,650 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-25"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "numeros1-msg-17",
+      "msg": {
+        "en": "The line of Judah: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Judah numbered 74,600.",
+        "es": "La descendencia de Judá: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Judá sumó 74,600 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-27"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "numeros1-msg-18",
+      "msg": {
+        "en": "The line of Issachar: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Issachar numbered 54,400.",
+        "es": "La descendencia de Isacar: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Isacar sumó 54,400 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-29"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "30-31",
+      "id": "numeros1-msg-19",
+      "msg": {
+        "en": "The line of Zebulun: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Zebulun numbered 57,400.",
+        "es": "La descendencia de Zabulón: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Zabulón sumó 57,400 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-31"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "numeros1-msg-20",
+      "msg": {
+        "en": "The line of Joseph: From son Ephraim the men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Ephraim numbered 40,500.",
+        "es": "La descendencia de José: de su hijo Efraín, los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Efraín sumó 40,500 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-33"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "numeros1-msg-21",
+      "msg": {
+        "en": "And from son Manasseh the men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Manasseh numbered 32,200.",
+        "es": "Y de su hijo Manasés, los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Manasés sumó 32,200 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-35"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "36-37",
+      "id": "numeros1-msg-22",
+      "msg": {
+        "en": "The line of Benjamin: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Benjamin numbered 35,400.",
+        "es": "La descendencia de Benjamín: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Benjamín sumó 35,400 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-37"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "38-39",
+      "id": "numeros1-msg-23",
+      "msg": {
+        "en": "The line of Dan: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Dan numbered 62,700.",
+        "es": "La descendencia de Dan: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Dan sumó 62,700 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-39"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "40-41",
+      "id": "numeros1-msg-24",
+      "msg": {
+        "en": "The line of Asher: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Asher numbered 41,500.",
+        "es": "La descendencia de Aser: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Aser sumó 41,500 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-41"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "42-43",
+      "id": "numeros1-msg-25",
+      "msg": {
+        "en": "The line of Naphtali: The men were counted off head by head, every male twenty years and older who was able to fight in the army, registered by clans and families. The tribe of Naphtali numbered 53,400.",
+        "es": "La descendencia de Neftalí: los hombres fueron contados uno por uno, todo varón de veinte años en adelante que estuviera en condiciones de combatir en el ejército, registrado por clanes y familias. La tribu de Neftalí sumó 53,400 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-43"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "44-46",
+      "id": "numeros1-msg-26",
+      "msg": {
+        "en": "These are the numbers of those registered by Moses and Aaron, registered with the help of the leaders of Israel, twelve men, each representing his ancestral family. The sum total of the People of Israel twenty years old and over who were able to fight in the army, counted by ancestral family, was 603,550.",
+        "es": "Estas son las cifras de los registrados por Moisés y Aarón, con la ayuda de los líderes de Israel: doce hombres, cada uno representante de su familia ancestral. El total del pueblo de Israel de veinte años en adelante que estaba en condiciones de combatir en el ejército, contado por familias ancestrales, fue de 603,550 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-46"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "47-51",
+      "id": "numeros1-msg-27",
+      "msg": {
+        "en": "The Levites, however, were not counted by their ancestral family along with the others. GOD had told Moses, “The tribe of Levi is an exception: Don’t register them. Don’t count the tribe of Levi; don’t include them in the general census of the People of Israel. Instead, appoint the Levites to be in charge of The Dwelling of The Testimony—over all its furnishings and everything connected with it. Their job is to carry The Dwelling and all its furnishings, maintain it, and camp around it. When it’s time to move The Dwelling, the Levites will take it down, and when it’s time to set it up, the Levites will do it. Anyone else who even goes near it will be put to death.",
+        "es": "Los levitas, sin embargo, no fueron contados con los demás según su familia ancestral. DIOS le había dicho a Moisés: «La tribu de Leví es una excepción: no la registres. No cuentes a la tribu de Leví ni la incluyas en el censo general del pueblo de Israel. En cambio, encarga a los levitas el cuidado de la Morada del Testimonio, de todos sus muebles y de todo lo relacionado con ella. Su trabajo será transportar la Morada y todos sus muebles, cuidarla y acampar a su alrededor. Cuando llegue el momento de trasladar la Morada, los levitas la desmontarán; y cuando llegue el momento de instalarla, ellos volverán a levantarla. Cualquier otra persona que se acerque será ejecutada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-49"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-51"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "52-53",
+      "id": "numeros1-msg-28",
+      "msg": {
+        "en": "“The rest of the People of Israel will set up their tents in companies, every man in his own camp under its own flag. But the Levites will set up camp around The Dwelling of The Testimony so that wrath will not fall on the community of Israel. The Levites are responsible for the security of The Dwelling of The Testimony.”",
+        "es": "«El resto del pueblo de Israel levantará sus tiendas por compañías, cada hombre en su propio campamento y bajo su propia bandera. Pero los levitas acamparán alrededor de la Morada del Testimonio, para que la ira no caiga sobre la comunidad de Israel. Los levitas serán responsables de custodiar la Morada del Testimonio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-53"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "54",
+      "id": "numeros1-msg-29",
+      "msg": {
+        "en": "The People of Israel did everything that GOD commanded Moses. They did it all.",
+        "es": "El pueblo de Israel hizo todo lo que DIOS le había ordenado a Moisés. Lo hicieron todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "numeros1-nbla-54"
+        }
+      ],
+      "order": 29
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "numeros1-nbla-01",
+      "number": 1,
+      "text": "El SEÑOR habló a Moisés en el desierto de Sinaí, en la tienda de reunión, el primer día del mes segundo, en el segundo año de su salida de la tierra de Egipto y le dijo:"
+    },
+    {
+      "id": "numeros1-nbla-02",
+      "number": 2,
+      "text": "«Haz un censo de toda la congregación de los israelitas por sus familias, por sus casas paternas, según el número de los nombres, de todo varón, uno por uno;"
+    },
+    {
+      "id": "numeros1-nbla-03",
+      "number": 3,
+      "text": "de veinte años arriba, todos los que pueden salir a la guerra en Israel, tú y Aarón los contarán por sus ejércitos."
+    },
+    {
+      "id": "numeros1-nbla-04",
+      "number": 4,
+      "text": "Con ustedes estará además, un hombre de cada tribu, cada uno jefe de su casa paterna."
+    },
+    {
+      "id": "numeros1-nbla-05",
+      "number": 5,
+      "text": "»Estos son los nombres de los hombres que estarán con ustedes: de Rubén, Elisur, hijo de Sedeur;"
+    },
+    {
+      "id": "numeros1-nbla-06",
+      "number": 6,
+      "text": "de Simeón, Selumiel, hijo de Zurisadai;"
+    },
+    {
+      "id": "numeros1-nbla-07",
+      "number": 7,
+      "text": "de Judá, Naasón, hijo de Aminadab;"
+    },
+    {
+      "id": "numeros1-nbla-08",
+      "number": 8,
+      "text": "de Isacar, Natanael, hijo de Zuar;"
+    },
+    {
+      "id": "numeros1-nbla-09",
+      "number": 9,
+      "text": "de Zabulón, Eliab, hijo de Helón;"
+    },
+    {
+      "id": "numeros1-nbla-10",
+      "number": 10,
+      "text": "de los hijos de José: de Efraín, Elisama, hijo de Amiud, y de Manasés, Gamaliel, hijo de Pedasur;"
+    },
+    {
+      "id": "numeros1-nbla-11",
+      "number": 11,
+      "text": "de Benjamín, Abidán, hijo de Gedeoni;"
+    },
+    {
+      "id": "numeros1-nbla-12",
+      "number": 12,
+      "text": "de Dan, Ahiezer, hijo de Amisadai;"
+    },
+    {
+      "id": "numeros1-nbla-13",
+      "number": 13,
+      "text": "de Aser, Pagiel, hijo de Ocrán;"
+    },
+    {
+      "id": "numeros1-nbla-14",
+      "number": 14,
+      "text": "de Gad, Eliasaf, hijo de Deuel;"
+    },
+    {
+      "id": "numeros1-nbla-15",
+      "number": 15,
+      "text": "de Neftalí, Ahira, hijo de Enán."
+    },
+    {
+      "id": "numeros1-nbla-16",
+      "number": 16,
+      "text": "Estos son los que fueron llamados de la congregación, los principales de las tribus de sus padres; ellos eran los jefes de las divisiones de Israel»."
+    },
+    {
+      "id": "numeros1-nbla-17",
+      "number": 17,
+      "text": "Entonces Moisés y Aarón tomaron a estos hombres que habían sido designados por sus nombres,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros1-nbla-18a",
+          "order": 1,
+          "text": "y reunieron a toda la congregación el primer día del mes segundo."
+        },
+        {
+          "id": "numeros1-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y se registraron según sus antepasados por familias, por sus casas paternas, según el número de nombres"
+        },
+        {
+          "id": "numeros1-nbla-18c",
+          "order": 3,
+          "text": ", de veinte años arriba, uno por uno."
+        }
+      ],
+      "id": "numeros1-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "numeros1-nbla-19",
+      "number": 19,
+      "text": "Tal como el SEÑOR se lo había mandado, Moisés los contó en el desierto de Sinaí."
+    },
+    {
+      "id": "numeros1-nbla-20",
+      "number": 20,
+      "text": "De los descendientes de Rubén, primogénito de Israel, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, uno por uno, todo varón de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-21",
+      "number": 21,
+      "text": "los enumerados de la tribu de Rubén fueron 46,500."
+    },
+    {
+      "id": "numeros1-nbla-22",
+      "number": 22,
+      "text": "De los descendientes de Simeón, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, sus enumerados, según el número de nombres, uno por uno, todo varón de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-23",
+      "number": 23,
+      "text": "los enumerados de la tribu de Simeón fueron 59,300."
+    },
+    {
+      "id": "numeros1-nbla-24",
+      "number": 24,
+      "text": "De los descendientes de Gad, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-25",
+      "number": 25,
+      "text": "los enumerados de la tribu de Gad fueron 45,650."
+    },
+    {
+      "id": "numeros1-nbla-26",
+      "number": 26,
+      "text": "De los descendientes de Judá, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-27",
+      "number": 27,
+      "text": "los enumerados de la tribu de Judá fueron 74,600."
+    },
+    {
+      "id": "numeros1-nbla-28",
+      "number": 28,
+      "text": "De los descendientes de Isacar, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-29",
+      "number": 29,
+      "text": "los enumerados de la tribu de Isacar fueron 54,400."
+    },
+    {
+      "id": "numeros1-nbla-30",
+      "number": 30,
+      "text": "De los descendientes de Zabulón, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-31",
+      "number": 31,
+      "text": "los enumerados de la tribu de Zabulón fueron 57,400."
+    },
+    {
+      "id": "numeros1-nbla-32",
+      "number": 32,
+      "text": "De los descendientes de José: de los descendientes de Efraín, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-33",
+      "number": 33,
+      "text": "los enumerados de la tribu de Efraín fueron 40,500."
+    },
+    {
+      "id": "numeros1-nbla-34",
+      "number": 34,
+      "text": "De los descendientes de Manasés, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-35",
+      "number": 35,
+      "text": "los enumerados de la tribu de Manasés fueron 32,200."
+    },
+    {
+      "id": "numeros1-nbla-36",
+      "number": 36,
+      "text": "De los descendientes de Benjamín, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-37",
+      "number": 37,
+      "text": "los enumerados de la tribu de Benjamín fueron 35,400."
+    },
+    {
+      "id": "numeros1-nbla-38",
+      "number": 38,
+      "text": "De los descendientes de Dan, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-39",
+      "number": 39,
+      "text": "los enumerados de la tribu de Dan fueron 62,700."
+    },
+    {
+      "id": "numeros1-nbla-40",
+      "number": 40,
+      "text": "De los descendientes de Aser, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-41",
+      "number": 41,
+      "text": "los enumerados de la tribu de Aser fueron 41,500."
+    },
+    {
+      "id": "numeros1-nbla-42",
+      "number": 42,
+      "text": "De los descendientes de Neftalí, fueron contados por su registro genealógico, por sus familias, por sus casas paternas, según el número de nombres, de veinte años arriba, todo el que podía salir a la guerra;"
+    },
+    {
+      "id": "numeros1-nbla-43",
+      "number": 43,
+      "text": "los enumerados de la tribu de Neftalí fueron 53,400."
+    },
+    {
+      "id": "numeros1-nbla-44",
+      "number": 44,
+      "text": "Estos son los que fueron enumerados, los que Moisés y Aarón contaron con los principales de Israel, doce hombres, cada uno de los cuales era jefe de su casa paterna."
+    },
+    {
+      "id": "numeros1-nbla-45",
+      "number": 45,
+      "text": "Así que todos los enumerados de los israelitas por sus casas paternas, de veinte años arriba, todo el que podía salir a la guerra en Israel,"
+    },
+    {
+      "id": "numeros1-nbla-46",
+      "number": 46,
+      "text": "fueron en total 603,550."
+    },
+    {
+      "id": "numeros1-nbla-47",
+      "number": 47,
+      "text": "Pero los levitas no fueron enumerados con ellos según la tribu de sus padres."
+    },
+    {
+      "id": "numeros1-nbla-48",
+      "number": 48,
+      "text": "Porque el SEÑOR le había dicho a Moisés:"
+    },
+    {
+      "id": "numeros1-nbla-49",
+      "number": 49,
+      "text": "«Solamente la tribu de Leví no enumerarás, ni los contarás con los israelitas;"
+    },
+    {
+      "id": "numeros1-nbla-50",
+      "number": 50,
+      "text": "sino que pondrás a los levitas a cargo del tabernáculo del testimonio, de todos sus utensilios y de todo lo que le pertenece. Ellos llevarán el tabernáculo y todos sus utensilios, y lo cuidarán; además, acamparán alrededor del tabernáculo."
+    },
+    {
+      "id": "numeros1-nbla-51",
+      "number": 51,
+      "text": "Y cuando el tabernáculo haya de ser trasladado, los levitas lo desarmarán; y cuando el tabernáculo acampe, los levitas lo armarán. Pero el extraño que se acerque, morirá."
+    },
+    {
+      "id": "numeros1-nbla-52",
+      "number": 52,
+      "text": "Los israelitas acamparán, cada uno en su campamento, y cada uno junto a su bandera, según sus ejércitos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "numeros1-nbla-53a",
+          "order": 1,
+          "text": "Pero los levitas acamparán alrededor del tabernáculo del testimonio, para que no venga la ira sobre la congregación de los israelitas."
+        },
+        {
+          "id": "numeros1-nbla-53b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Los levitas, pues, tendrán a su cargo el tabernáculo del testimonio»."
+        }
+      ],
+      "id": "numeros1-nbla-53",
+      "number": 53
+    },
+    {
+      "id": "numeros1-nbla-54",
+      "number": 54,
+      "text": "Así hicieron los israelitas; conforme a todo lo que el SEÑOR había mandado a Moisés, así lo hicieron."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
