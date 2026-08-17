@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v32
+   S · T · A · R · S · Service Worker v33
    Activación inmediata y actualización al abrir o retomar la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const SW_VERSION = 'stars-v32';
+const SW_VERSION = 'stars-v33';
 const CACHE_NAME = SW_VERSION;
 const SHELL_FILES = [
   '/',
