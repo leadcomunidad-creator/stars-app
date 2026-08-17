@@ -9335,12 +9335,12 @@ function estudioV2PintarClasica(ctx,W,H,paleta,frase,referencia,fuenteFrase='Geo
   ctx.strokeStyle = estudioV2ColorAlpha(paleta.acento,.6);
   ctx.beginPath();ctx.moveTo(cx-130,vertical?246:174);ctx.lineTo(cx+130,vertical?246:174);ctx.stroke();
   const headline=estudioV2EsFuenteHeadline(fuenteFrase);
-  const size = vertical ? (headline?50:62) : (headline?44:50);
+  const size = vertical ? (headline?62:58) : (headline?48:44);
   ctx.fillStyle = paleta.tinta;
   estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
   const maxWidth = headline ? W-(vertical?380:260) : W-(vertical?200:160);
   const lines = estudioV2WrapCanvas(ctx,'“' + frase + '”',maxWidth);
-  const lineH = size * (headline?1.2:1.32);
+  const lineH = size * 1.2;
   const mid = vertical ? H*.5 : H*.52;
   let y = mid - (lines.length * lineH)/2 + lineH/2;
   lines.forEach(line => {ctx.fillText(line,cx,y);y += lineH;});
@@ -9369,7 +9369,7 @@ function estudioV2PintarEditorial(ctx,W,H,paleta,frase,referencia,fuenteFrase='G
   const size=H>W?(headline?62:58):(headline?48:44);
   ctx.fillStyle=paleta.tinta;estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
   const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',content-26);
-  const lineH=size*(headline?1.2:1.28), start=H*.34;
+  const lineH=size*1.2, start=H*.34;
   lines.forEach((line,i)=>ctx.fillText(line,left+26,start+i*lineH));
   estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.strokeStyle=paleta.acento;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(left+26,start+lines.length*lineH+20);ctx.lineTo(left+66,start+lines.length*lineH+20);ctx.stroke();
@@ -9392,10 +9392,10 @@ function estudioV2PintarContemplativa(ctx,W,H,paleta,frase,referencia,logo,fuent
   ctx.restore();
   ctx.textAlign='center';
   const headline=estudioV2EsFuenteHeadline(fuenteFrase);
-  const size=H>W?(headline?38:34):(headline?34:30);
+  const size=H>W?(headline?62:58):(headline?48:44);
   ctx.fillStyle=paleta.tinta;estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
   const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',W*.62);
-  const lineH=size*(headline?1.2:1.5), total=lines.length*lineH, start=H*.72-total/2+lineH/2;
+  const lineH=size*1.2, total=lines.length*lineH, start=H*.72-total/2+lineH/2;
   lines.forEach((line,i)=>ctx.fillText(line,cx,start+i*lineH));
   estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.fillStyle=paleta.acento2;estudioV2AplicarFuenteReferencia(ctx,fuenteFrase,vertical?22:20,500);ctx.fillText(headline?String(referencia || ''):String(referencia || '').toUpperCase(),cx,start+total+38);estudioV2RestaurarEspaciadoCanvas(ctx);

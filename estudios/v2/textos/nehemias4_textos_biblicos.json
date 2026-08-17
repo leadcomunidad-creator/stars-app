@@ -1,0 +1,554 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La restauración avanza porque una comunidad completa se compromete con la tarea. La NBLA fija el sentido en el ánimo dispuesto para trabajar; MSG lo vuelve visible mediante la imagen del corazón puesto en la obra. El texto no enseña que el entusiasmo humano garantice el éxito, sino que la disposición interior del pueblo se expresa en obediencia perseverante.",
+      "id": "nehemias4-joya-01",
+      "msg": {
+        "en": "\"because the people had a heart for the work.\"",
+        "es": "\"porque el pueblo tenía el corazón puesto en el trabajo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias4-nbla-06b"
+          ],
+          "verseId": "nehemias4-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "6"
+    },
+    {
+      "explanation": "La dependencia de Dios y la responsabilidad humana aparecen inseparablemente unidas. La NBLA establece con precisión las dos acciones: oración y guardia. MSG concentra ambas en una respuesta inmediata a la amenaza. Ninguna de las dos reemplaza a la otra: el pueblo ora porque depende de Dios y vigila porque esa dependencia no elimina su responsabilidad.",
+      "id": "nehemias4-joya-02",
+      "msg": {
+        "en": "\"We countered with prayer to our God and set a round-the-clock guard against them.\"",
+        "es": "\"Respondimos orando a nuestro Dios y pusimos guardia día y noche contra ellos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "7-9"
+    },
+    {
+      "explanation": "El capítulo reconoce la fragilidad humana sin disfrazarla. La NBLA registra directamente la confesión de incapacidad; MSG hace palpable la sensación de estar sobrepasados por la situación. El texto no convierte el cansancio en pecado automático. Muestra, más bien, cómo una comunidad agotada necesita recuperar perspectiva antes de que su agotamiento determine lo que cree posible.",
+      "id": "nehemias4-joya-03",
+      "msg": {
+        "en": "\"We’re in over our heads, we can’t build this wall.\"",
+        "es": "\"esto nos queda demasiado grande, no podemos levantar esta muralla.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias4-nbla-10b"
+          ],
+          "verseId": "nehemias4-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10"
+    },
+    {
+      "explanation": "El antídoto que Nehemías ofrece al miedo es la memoria de Dios. La NBLA conserva explícitamente el mandato «Acuérdense del Señor»; MSG comunica pastoralmente lo que implica ese recuerdo: volver a poner la mente en Él. No se trata de negar la amenaza, sino de evitar que la amenaza se convierta en la realidad más grande dentro de la conciencia del pueblo.",
+      "id": "nehemias4-joya-04",
+      "msg": {
+        "en": "\"Don’t be afraid of them. Put your minds on the Master, great and awesome\"",
+        "es": "\"No les tengan miedo. Fijen la mente en el Señor, grande y temible\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias4-nbla-14b"
+          ],
+          "verseId": "nehemias4-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "13-14"
+    },
+    {
+      "explanation": "Dios frustra el plan enemigo y el pueblo responde regresando a su tarea. La NBLA deja clara tanto la acción divina como la responsabilidad individual de volver al trabajo. MSG acentúa la rapidez de ese regreso. La intervención de Dios no produce pasividad; libera al pueblo para continuar aquello que había sido llamado a hacer.",
+      "id": "nehemias4-joya-05",
+      "msg": {
+        "en": "\"God had frustrated it. And we went back to the wall and went to work.\"",
+        "es": "\"Dios lo había frustrado. Y nosotros volvimos a la muralla y al trabajo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias4-nbla-15b"
+          ],
+          "verseId": "nehemias4-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15-18"
+    },
+    {
+      "explanation": "La seguridad última del pueblo no está en sus armas, su organización ni su número, sino en Dios. Ambas versiones coinciden directamente en esa confesión. El contexto impide interpretarla como permiso para la inactividad: quienes la pronuncian están trabajando, vigilando y preparados para reunirse. La confianza está en Dios; la obediencia sigue siendo responsabilidad del pueblo.",
+      "id": "nehemias4-joya-06",
+      "msg": {
+        "en": "\"our God will fight for us.\"",
+        "es": "\"nuestro Dios peleará por nosotros\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias4-nbla-20b"
+          ],
+          "verseId": "nehemias4-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "19-20"
+    }
+  ],
+  "meta": {
+    "book": "NEHEMÍAS",
+    "bookId": "nehemias",
+    "chapter": 4,
+    "studyId": "nehemias-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "nehemias4-msg-01",
+      "msg": {
+        "en": "When Sanballat heard that we were rebuilding the wall he exploded in anger, vilifying the Jews. In the company of his Samaritan cronies and military he let loose: “What are these miserable Jews doing? Do they think they can get everything back to normal overnight? Make building stones out of make-believe?”",
+        "es": "Cuando Sanbalat se enteró de que estábamos reconstruyendo la muralla, estalló de ira y comenzó a insultar a los judíos. Delante de sus compinches samaritanos y de los militares, soltó: «¿Qué se creen que están haciendo estos miserables judíos? ¿Piensan que pueden dejarlo todo como antes de la noche a la mañana? ¿Sacar piedras para construir de un montón de fantasías?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "nehemias4-msg-02",
+      "msg": {
+        "en": "At his side, Tobiah the Ammonite jumped in and said, “That’s right! What do they think they’re building? Why, if a fox climbed that wall, it would fall to pieces under his weight.”",
+        "es": "A su lado, Tobías el amonita intervino: «¡Eso mismo! ¿Qué creen que están construyendo? Si un zorro se subiera a esa muralla, se vendría abajo bajo su peso»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "nehemias4-msg-03",
+      "msg": {
+        "en": "Nehemiah prayed, “Oh listen to us, dear God. We’re so despised: Boomerang their ridicule on their heads; have their enemies cart them off as war trophies to a land of no return; don’t forgive their iniquity, don’t wipe away their sin—they’ve insulted the builders!”",
+        "es": "Nehemías oró: «Escúchanos, querido Dios. Nos desprecian tanto. Haz que sus burlas se les devuelvan como un búmeran; que sus enemigos se los lleven como botín de guerra a una tierra de la que no regresen. No perdones su maldad, no borres su pecado: ¡han insultado a los que están construyendo!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "nehemias4-msg-04",
+      "msg": {
+        "en": "We kept at it, repairing and rebuilding the wall. The whole wall was soon joined together and halfway to its intended height because the people had a heart for the work.",
+        "es": "Seguimos adelante, reparando y reconstruyendo la muralla. Muy pronto toda la muralla quedó unida y llegó hasta la mitad de la altura prevista, porque el pueblo tenía el corazón puesto en el trabajo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "nehemias4-msg-05",
+      "msg": {
+        "en": "When Sanballat, Tobiah, the Arabs, the Ammonites, and the Ashdodites heard that the repairs of the walls of Jerusalem were going so well—that the breaks in the wall were being fixed—they were absolutely furious. They put their heads together and decided to fight against Jerusalem and create as much trouble as they could. We countered with prayer to our God and set a round-the-clock guard against them.",
+        "es": "Cuando Sanbalat, Tobías, los árabes, los amonitas y los de Asdod se enteraron de que las reparaciones de las murallas de Jerusalén avanzaban tan bien, y de que las brechas estaban siendo cerradas, se pusieron furiosos. Se reunieron para planear cómo atacar Jerusalén y causar todos los problemas que pudieran. Respondimos orando a nuestro Dios y pusimos guardia día y noche contra ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "nehemias4-msg-06",
+      "msg": {
+        "en": "But soon word was going around in Judah,\nThe builders are pooped,\nthe rubbish piles up;\nWe’re in over our heads,\nwe can’t build this wall.",
+        "es": "Pero pronto empezó a correr la voz en Judá:\nLos constructores están rendidos,\nlos escombros se amontonan;\nesto nos queda demasiado grande,\nno podemos levantar esta muralla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "nehemias4-msg-07",
+      "msg": {
+        "en": "And all this time our enemies were saying, “They won’t know what hit them. Before they know it we’ll be at their throats, killing them right and left. That will put a stop to the work!” The Jews who were their neighbors kept reporting, “They have us surrounded; they’re going to attack!” If we heard it once, we heard it ten times.",
+        "es": "Mientras tanto, nuestros enemigos decían: «Ni siquiera sabrán qué les cayó encima. Antes de que se den cuenta, nos les echaremos encima y los mataremos a diestra y siniestra. ¡Así acabaremos con el trabajo!». Los judíos que vivían cerca de ellos no dejaban de advertirnos: «Nos tienen rodeados; ¡van a atacar!». Si lo escuchamos una vez, lo escuchamos diez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "nehemias4-msg-08",
+      "msg": {
+        "en": "So I stationed armed guards at the most vulnerable places of the wall and assigned people by families with their swords, lances, and bows. After looking things over I stood up and spoke to the nobles, officials, and everyone else: “Don’t be afraid of them. Put your minds on the Master, great and awesome, and then fight for your brothers, your sons, your daughters, your wives, and your homes.”",
+        "es": "Así que puse guardias armados en los lugares más vulnerables de la muralla y organicé al pueblo por familias, con sus espadas, lanzas y arcos. Después de revisar la situación, me levanté y les hablé a los nobles, a los oficiales y a todos los demás: «No les tengan miedo. Fijen la mente en el Señor, grande y temible, y luego luchen por sus hermanos, sus hijos, sus hijas, sus esposas y sus hogares»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15-18",
+      "id": "nehemias4-msg-09",
+      "msg": {
+        "en": "Our enemies learned that we knew all about their plan and that God had frustrated it. And we went back to the wall and went to work. From then on half of my young men worked while the other half stood guard with lances, shields, bows, and mail armor. Military officers served as backup for everyone in Judah who was at work rebuilding the wall. The common laborers held a tool in one hand and a spear in the other. Each of the builders had a sword strapped to his side as he worked. I kept the trumpeter at my side to sound the alert.",
+        "es": "Nuestros enemigos supieron que conocíamos todo su plan y que Dios lo había frustrado. Y nosotros volvimos a la muralla y al trabajo. Desde entonces, la mitad de mis hombres trabajaba mientras la otra mitad hacía guardia con lanzas, escudos, arcos y cotas de malla. Los oficiales militares respaldaban a todos los de Judá que trabajaban reconstruyendo la muralla. Los obreros comunes sostenían una herramienta en una mano y una lanza en la otra. Cada constructor trabajaba con una espada ceñida a su costado. Yo mantenía al trompetista junto a mí para que diera la señal de alarma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "nehemias4-msg-10",
+      "msg": {
+        "en": "Then I spoke to the nobles and officials and everyone else: “There’s a lot of work going on and we are spread out all along the wall, separated from each other. When you hear the trumpet call, join us there; our God will fight for us.”",
+        "es": "Entonces les dije a los nobles, a los oficiales y a todos los demás: «Hay muchísimo trabajo y estamos dispersos a lo largo de toda la muralla, lejos unos de otros. Cuando escuchen el sonido de la trompeta, reúnanse con nosotros allí; nuestro Dios peleará por nosotros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-20"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "21",
+      "id": "nehemias4-msg-11",
+      "msg": {
+        "en": "And so we kept working, from first light until the stars came out, half of us holding lances.",
+        "es": "Y así seguimos trabajando, desde las primeras luces del día hasta que salían las estrellas, con la mitad de nosotros empuñando lanzas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22",
+      "id": "nehemias4-msg-12",
+      "msg": {
+        "en": "I also instructed the people, “Each person and his helper is to stay inside Jerusalem—guards by night and workmen by day.”",
+        "es": "También le indiqué al pueblo: «Cada persona y su ayudante deberán quedarse dentro de Jerusalén: guardias de noche y trabajadores de día»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23",
+      "id": "nehemias4-msg-13",
+      "msg": {
+        "en": "We all slept in our clothes—I, my brothers, my workmen, and the guards backing me up. And each one kept his spear in his hand, even when getting water.",
+        "es": "Todos dormíamos vestidos: yo, mis hermanos, mis trabajadores y los guardias que nos respaldaban. Y cada uno mantenía su lanza en la mano, incluso cuando iba por agua."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias4-nbla-23"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "nehemias4-nbla-01",
+      "number": 1,
+      "text": "Cuando Sanbalat se enteró de que estábamos reedificando la muralla, se enfureció y se enojó mucho. Y burlándose de los judíos,"
+    },
+    {
+      "id": "nehemias4-nbla-02",
+      "number": 2,
+      "text": "habló en presencia de sus hermanos y de los ricos de Samaria, y dijo: «¿Qué hacen estos débiles judíos? ¿La restaurarán para sí mismos? ¿Podrán ofrecer sacrificios? ¿Terminarán en un día? ¿Harán revivir las piedras de los escombros polvorientos, aun las quemadas?»."
+    },
+    {
+      "id": "nehemias4-nbla-03",
+      "number": 3,
+      "text": "Tobías el amonita estaba cerca de él, y dijo: «Aun lo que están edificando, si un zorro saltara sobre ello, derribaría su muralla de piedra»."
+    },
+    {
+      "id": "nehemias4-nbla-04",
+      "number": 4,
+      "text": "Oye, oh Dios nuestro, cómo somos despreciados. Devuelve su oprobio sobre sus cabezas y entrégalos por despojo en una tierra de cautividad."
+    },
+    {
+      "id": "nehemias4-nbla-05",
+      "number": 5,
+      "text": "No perdones su iniquidad, ni su pecado sea borrado de delante de Ti, porque han desmoralizado a los que edifican."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias4-nbla-06a",
+          "order": 1,
+          "text": "Y edificamos la muralla hasta que toda la muralla estaba unida hasta la mitad de su altura,"
+        },
+        {
+          "id": "nehemias4-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque el pueblo tuvo ánimo para trabajar."
+        }
+      ],
+      "id": "nehemias4-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "nehemias4-nbla-07",
+      "number": 7,
+      "text": "Cuando Sanbalat, Tobías, los árabes, los amonitas y los de Asdod se enteraron que continuaba la reparación de las murallas de Jerusalén, que las brechas comenzaban a ser cerradas, se enojaron mucho."
+    },
+    {
+      "id": "nehemias4-nbla-08",
+      "number": 8,
+      "text": "Y todos ellos conspiraron juntos para venir a luchar contra Jerusalén y causar disturbio en ella."
+    },
+    {
+      "id": "nehemias4-nbla-09",
+      "number": 9,
+      "text": "Entonces oramos a nuestro Dios, y para defendernos montamos guardia contra ellos de día y de noche."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias4-nbla-10a",
+          "order": 1,
+          "text": "Pero se decía en Judá:\n«Desfallecen las fuerzas de los cargadores,\nY queda mucho escombro;"
+        },
+        {
+          "id": "nehemias4-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Nosotros no podemos\nReedificar la muralla»."
+        }
+      ],
+      "id": "nehemias4-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "nehemias4-nbla-11",
+      "number": 11,
+      "text": "Y nuestros enemigos decían: «No sabrán ni verán hasta que entremos en medio de ellos y los matemos y hagamos cesar la obra»."
+    },
+    {
+      "id": "nehemias4-nbla-12",
+      "number": 12,
+      "text": "Así que cuando los judíos que habitaban cerca de ellos vinieron y nos dijeron diez veces: «Subirán contra nosotros de todo lugar adonde ustedes se vuelvan»,"
+    },
+    {
+      "id": "nehemias4-nbla-13",
+      "number": 13,
+      "text": "entonces aposté hombres en las partes más bajas del lugar, detrás de la muralla y en los sitios descubiertos; aposté al pueblo por familias con sus espadas, sus lanzas y sus arcos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias4-nbla-14a",
+          "order": 1,
+          "text": "Cuando vi su temor, me levanté y dije a los nobles, a los oficiales y al resto del pueblo: «"
+        },
+        {
+          "id": "nehemias4-nbla-14b",
+          "order": 2,
+          "text": "No les tengan miedo. Acuérdense del Señor, que es grande y temible"
+        },
+        {
+          "id": "nehemias4-nbla-14c",
+          "order": 3,
+          "text": ", y luchen por sus hermanos, sus hijos, sus hijas, sus mujeres y sus casas»."
+        }
+      ],
+      "id": "nehemias4-nbla-14",
+      "number": 14
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias4-nbla-15a",
+          "order": 1,
+          "text": "Sucedió que nuestros enemigos se enteraron que conocíamos sus propósitos y que"
+        },
+        {
+          "id": "nehemias4-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios había desbaratado sus planes; entonces todos nosotros volvimos a la muralla, cada uno a su trabajo."
+        }
+      ],
+      "id": "nehemias4-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "nehemias4-nbla-16",
+      "number": 16,
+      "text": "Desde aquel día la mitad de mis hombres trabajaban en la obra mientras que la otra mitad portaba las lanzas, los escudos, los arcos y las corazas; y los capitanes estaban detrás de toda la casa de Judá."
+    },
+    {
+      "id": "nehemias4-nbla-17",
+      "number": 17,
+      "text": "Los que reedificaban la muralla y los que llevaban cargas llevaban la carga en una mano trabajando en la obra, y en la otra empuñaban un arma."
+    },
+    {
+      "id": "nehemias4-nbla-18",
+      "number": 18,
+      "text": "Cada uno de los que reedificaban tenía ceñida al lado su espada mientras edificaba. El que tocaba la trompeta estaba junto a mí."
+    },
+    {
+      "id": "nehemias4-nbla-19",
+      "number": 19,
+      "text": "Y dije a los nobles, a los oficiales y al resto del pueblo: «La obra es grande y extensa, y estamos separados en la muralla, lejos el uno del otro."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias4-nbla-20a",
+          "order": 1,
+          "text": "En el lugar que oigan el sonido de la trompeta, reúnanse allí con nosotros;"
+        },
+        {
+          "id": "nehemias4-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "nuestro Dios peleará por nosotros»."
+        }
+      ],
+      "id": "nehemias4-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "nehemias4-nbla-21",
+      "number": 21,
+      "text": "Hacíamos el trabajo con la mitad empuñando lanzas desde el despuntar del alba hasta que salían las estrellas."
+    },
+    {
+      "id": "nehemias4-nbla-22",
+      "number": 22,
+      "text": "En aquel tiempo dije también al pueblo: «Cada hombre con su ayudante pase la noche dentro de Jerusalén, para que nos sirvan de centinela por la noche y de obrero por el día»."
+    },
+    {
+      "id": "nehemias4-nbla-23",
+      "number": 23,
+      "text": "Ni yo, ni mis hermanos, ni mis criados, ni los hombres de la guardia que me seguían, ninguno de nosotros se quitó la ropa; cada uno llevaba su arma aun en el agua."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

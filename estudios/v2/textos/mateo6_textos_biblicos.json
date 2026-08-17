@@ -1,0 +1,669 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La oración auténtica descentra al ser humano y vuelve a colocar a Dios en el centro. La NBLA fija el movimiento fundamental: la oración está dirigida al Padre, no a una audiencia. MSG vuelve visible pastoralmente ese cambio de foco. No significa que toda conciencia personal desaparezca al orar, sino que dejamos de usar la oración para construir nuestra propia importancia.",
+      "id": "mateo6-joya-01",
+      "msg": {
+        "en": "“The focus will shift from you to God”",
+        "es": "“El centro dejará de estar en ustedes y pasará a Dios”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo6-nbla-06b"
+          ],
+          "verseId": "mateo6-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "6"
+    },
+    {
+      "explanation": "La sencillez de la oración descansa en el conocimiento previo y el cuidado del Padre. La NBLA establece con precisión que Él conoce nuestras necesidades antes de que las expresemos. MSG convierte esa verdad en una imagen relacional inmediata: no estamos negociando con una fuerza impersonal, sino hablando con el Padre. El texto no elimina la petición; elimina la idea de que muchas palabras obligarán a Dios a responder.",
+      "id": "mateo6-joya-02",
+      "msg": {
+        "en": "“This is your Father you are dealing with”",
+        "es": "“Con quien están tratando es con su Padre”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo6-nbla-08b"
+          ],
+          "verseId": "mateo6-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-13"
+    },
+    {
+      "explanation": "El tesoro posee una fuerza formativa sobre el corazón. La NBLA establece la relación directa entre aquello que valoramos y el lugar hacia el cual se mueve nuestro corazón. MSG hace visible ese proceso como deseo: terminamos queriendo estar donde hemos invertido aquello que consideramos valioso. No se trata de afirmar que toda posesión terrenal sea mala, sino de reconocer que nuestras inversiones revelan y moldean nuestras lealtades.",
+      "id": "mateo6-joya-03",
+      "msg": {
+        "en": "“The place where your treasure is, is the place you will most want to be”",
+        "es": "“Donde esté su tesoro será el lugar donde más querrán estar”"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-21"
+        }
+      ],
+      "order": 3,
+      "range": "19-21"
+    },
+    {
+      "explanation": "Dios reclama una lealtad que no puede compartirse con las riquezas como señor. La NBLA fija el sentido mediante el verbo “servir”: el conflicto es de señorío y obediencia. MSG utiliza “adorar” para hacer visible la dimensión espiritual que puede adquirir el dinero cuando organiza confianza, identidad y deseo. No significa que poseer dinero equivalga automáticamente a idolatría; el límite aparece cuando las riquezas reciben la lealtad que pertenece a Dios.",
+      "id": "mateo6-joya-04",
+      "msg": {
+        "en": "“You can’t worship God and Money both.”",
+        "es": "“No pueden adorar a Dios y al Dinero a la vez.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo6-nbla-24b"
+          ],
+          "verseId": "mateo6-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24"
+    },
+    {
+      "explanation": "La respuesta de Jesús a la preocupación es una nueva prioridad: el Reino y la justicia de Dios ocupan el primer lugar. La NBLA establece con precisión ese mandato. MSG lo expresa como una vida completamente impregnada por la realidad y la acción de Dios. Esa imagen no sustituye el contenido concreto de “Su reino y Su justicia”; lo vuelve pastoralmente visible: no se trata de añadir a Dios a una agenda ya llena, sino de permitir que Su gobierno determine la vida entera.",
+      "id": "mateo6-joya-05",
+      "msg": {
+        "en": "“Steep your life in God-reality, God-initiative, God-provisions.”",
+        "es": "“Empapen su vida en la realidad de Dios, en la iniciativa de Dios y en las provisiones de Dios.”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo6-nbla-33a"
+          ],
+          "verseId": "mateo6-nbla-33"
+        }
+      ],
+      "order": 5,
+      "range": "30-33"
+    },
+    {
+      "explanation": "Jesús llama a vivir fielmente el presente sin intentar cargar anticipadamente el futuro. La NBLA mantiene el mandato sobrio: no vivir preocupados por mañana, porque cada día traerá sus propios problemas. MSG expresa positivamente dónde colocar la atención liberada de esa preocupación: en lo que Dios está haciendo ahora. Esto no prohíbe planificar; prohíbe entregar el presente al dominio de un futuro que todavía no ha llegado.",
+      "id": "mateo6-joya-06",
+      "msg": {
+        "en": "“Give your entire attention to what God is doing right now”",
+        "es": "“Pongan toda su atención en lo que Dios está haciendo ahora mismo”"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo6-nbla-34b"
+          ],
+          "verseId": "mateo6-nbla-34"
+        }
+      ],
+      "order": 6,
+      "range": "34"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 6,
+    "studyId": "mateo-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "mateo6-msg-01",
+      "msg": {
+        "en": "“Be especially careful when you are trying to be good so that you don’t make a performance out of it. It might be good theater, but the God who made you won’t be applauding.",
+        "es": "“Tengan especial cuidado cuando intenten hacer el bien, para no convertirlo en una actuación. Puede ser buen teatro, pero el Dios que los hizo no estará aplaudiendo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-4",
+      "id": "mateo6-msg-02",
+      "msg": {
+        "en": "“When you do something for someone else, don’t call attention to yourself. You’ve seen them in action, I’m sure—‘playactors’ I call them—treating prayer meeting and street corner alike as a stage, acting compassionate as long as someone is watching, playing to the crowds. They get applause, true, but that’s all they get. When you help someone out, don’t think about how it looks. Just do it—quietly and unobtrusively. That is the way your God, who conceived you in love, working behind the scenes, helps you out.",
+        "es": "“Cuando hagan algo por alguien, no llamen la atención sobre ustedes mismos. Seguro los han visto en acción —yo los llamo ‘actores’— usando por igual la reunión de oración y la esquina de la calle como un escenario, aparentando compasión mientras alguien los esté mirando y actuando para el público. Reciben aplausos, es verdad, pero eso es todo lo que reciben. Cuando ayuden a alguien, no piensen en cómo se ve. Simplemente háganlo, en silencio y sin llamar la atención. Así es como su Dios, que les dio origen en amor y trabaja entre bastidores, los ayuda a ustedes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "mateo6-msg-03",
+      "msg": {
+        "en": "“And when you come before God, don’t turn that into a theatrical production either. All these people making a regular show out of their prayers, hoping for stardom! Do you think God sits in a box seat?",
+        "es": "“Y cuando se presenten delante de Dios, tampoco conviertan eso en una producción teatral. Toda esa gente haciendo un espectáculo habitual de sus oraciones, ¡esperando alcanzar fama! ¿Creen que Dios está sentado en un palco?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "mateo6-msg-04",
+      "msg": {
+        "en": "“Here’s what I want you to do: Find a quiet, secluded place so you won’t be tempted to role-play before God. Just be there as simply and honestly as you can manage. The focus will shift from you to God, and you will begin to sense his grace.",
+        "es": "“Esto es lo que quiero que hagan: busquen un lugar tranquilo y apartado, donde no tengan la tentación de representar un papel delante de Dios. Simplemente estén allí con toda la sencillez y honestidad que puedan. El centro dejará de estar en ustedes y pasará a Dios, y comenzarán a percibir Su gracia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-13",
+      "id": "mateo6-msg-05",
+      "msg": {
+        "en": "“The world is full of so-called prayer warriors who are prayer-ignorant. They’re full of formulas and programs and advice, peddling techniques for getting what you want from God. Don’t fall for that nonsense. This is your Father you are dealing with, and he knows better than you what you need. With a God like this loving you, you can pray very simply. Like this:\nOur Father in heaven,\nReveal who you are.\nSet the world right;\nDo what’s best—\nas above, so below.\nKeep us alive with three square meals.\nKeep us forgiven with you and forgiving others.\nKeep us safe from ourselves and the Devil.\nYou’re in charge!\nYou can do anything you want!\nYou’re ablaze in beauty!\nYes. Yes. Yes.",
+        "es": "“El mundo está lleno de los llamados ‘guerreros de oración’ que, en realidad, no saben orar. Están llenos de fórmulas, programas y consejos, vendiendo técnicas para conseguir de Dios lo que quieren. No caigan en ese absurdo. Con quien están tratando es con su Padre, y Él sabe mejor que ustedes lo que necesitan. Con un Dios así amándolos, pueden orar con mucha sencillez. Así:\nPadre nuestro que estás en el cielo,\nmuéstranos quién eres.\nPon el mundo en orden;\nhaz lo que es mejor,\naquí abajo como allá arriba.\nMantennos vivos con tres buenas comidas al día.\nMantennos en Tu perdón y mantennos perdonando a otros.\nProtégenos de nosotros mismos y del Diablo.\n¡Tú estás a cargo!\n¡Puedes hacer todo lo que quieras!\n¡Resplandeces de belleza!\nSí. Sí. Sí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "mateo6-msg-06",
+      "msg": {
+        "en": "“In prayer there is a connection between what God does and what you do. You can’t get forgiveness from God, for instance, without also forgiving others. If you refuse to do your part, you cut yourself off from God’s part.",
+        "es": "“En la oración existe una conexión entre lo que Dios hace y lo que ustedes hacen. Por ejemplo, no pueden recibir el perdón de Dios sin perdonar también a otros. Si se niegan a hacer su parte, se desconectan de lo que Dios hace por ustedes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "mateo6-msg-07",
+      "msg": {
+        "en": "“When you practice some appetite-denying discipline to better concentrate on God, don’t make a production out of it. It might turn you into a small-time celebrity but it won’t make you a saint. If you ‘go into training’ inwardly, act normal outwardly. Shampoo and comb your hair, brush your teeth, wash your face. God doesn’t require attention-getting devices. He won’t overlook what you are doing; he’ll reward you well.",
+        "es": "“Cuando practiquen alguna disciplina que niegue sus apetitos para concentrarse mejor en Dios, no hagan un espectáculo de ello. Tal vez los convierta en celebridades de poca monta, pero no los hará santos. Si están ‘entrenando’ por dentro, compórtense normalmente por fuera. Lávense y péinense el cabello, cepíllense los dientes, lávense la cara. Dios no les pide recursos para llamar la atención. Él no pasará por alto lo que están haciendo; los recompensará bien."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "mateo6-msg-08",
+      "msg": {
+        "en": "“Don’t hoard treasure down here where it gets eaten by moths and corroded by rust or—worse!—stolen by burglars. Stockpile treasure in heaven, where it’s safe from moth and rust and burglars. It’s obvious, isn’t it? The place where your treasure is, is the place you will most want to be, and end up being.",
+        "es": "“No amontonen tesoros aquí abajo, donde las polillas se los comen, el óxido los corroe o —¡peor todavía!— los ladrones se los roban. Acumulen tesoro en el cielo, donde está a salvo de polillas, óxido y ladrones. Es evidente, ¿no? Donde esté su tesoro será el lugar donde más querrán estar y donde terminarán estando."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "mateo6-msg-09",
+      "msg": {
+        "en": "“Your eyes are windows into your body. If you open your eyes wide in wonder and belief, your body fills up with light. If you live squinty-eyed in greed and distrust, your body is a dank cellar. If you pull the blinds on your windows, what a dark life you will have!",
+        "es": "“Sus ojos son ventanas hacia su cuerpo. Si abren bien los ojos con asombro y confianza, todo su cuerpo se llena de luz. Si viven mirando con los ojos entrecerrados por la codicia y la desconfianza, su cuerpo se convierte en un sótano húmedo y oscuro. Si bajan las persianas de sus ventanas, ¡qué vida tan oscura tendrán!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-23"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "24",
+      "id": "mateo6-msg-10",
+      "msg": {
+        "en": "“You can’t worship two gods at once. Loving one god, you’ll end up hating the other. Adoration of one feeds contempt for the other. You can’t worship God and Money both.",
+        "es": "“No pueden adorar a dos dioses al mismo tiempo. Al amar a uno terminarán odiando al otro. La adoración de uno alimentará el desprecio por el otro. No pueden adorar a Dios y al Dinero a la vez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "mateo6-msg-11",
+      "msg": {
+        "en": "“If you decide for God, living a life of God-worship, it follows that you don’t fuss about what’s on the table at mealtimes or whether the clothes in your closet are in fashion. There is far more to your life than the food you put in your stomach, more to your outer appearance than the clothes you hang on your body. Look at the birds, free and unfettered, not tied down to a job description, careless in the care of God. And you count far more to him than birds.",
+        "es": "“Si se deciden por Dios y viven una vida de adoración a Él, entonces no anden angustiados por lo que habrá sobre la mesa a la hora de comer o por si la ropa de su armario está de moda. Su vida es mucho más que la comida que ponen en el estómago, y su apariencia es mucho más que la ropa que cuelgan sobre el cuerpo. Miren las aves: libres, sin ataduras, sin estar sujetas a una descripción de trabajo, despreocupadas dentro del cuidado de Dios. Y para Él ustedes valen mucho más que las aves."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-26"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "27-29",
+      "id": "mateo6-msg-12",
+      "msg": {
+        "en": "“Has anyone by fussing in front of the mirror ever gotten taller by so much as an inch? All this time and money wasted on fashion—do you think it makes that much difference? Instead of looking at the fashions, walk out into the fields and look at the wildflowers. They never primp or shop, but have you ever seen color and design quite like it? The ten best-dressed men and women in the country look shabby alongside them.",
+        "es": "“¿Alguno de ustedes, por preocuparse frente al espejo, ha logrado crecer siquiera unos centímetros? Todo ese tiempo y dinero gastados en la apariencia, ¿de verdad creen que hacen tanta diferencia? En lugar de mirar las modas, salgan al campo y observen las flores silvestres. Nunca se arreglan ni salen de compras, pero ¿han visto alguna vez colores y diseños como esos? Las diez personas mejor vestidas del país se verían deslucidas junto a ellas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-29"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "30-33",
+      "id": "mateo6-msg-13",
+      "msg": {
+        "en": "“If God gives such attention to the appearance of wildflowers—most of which are never even seen—don’t you think he’ll attend to you, take pride in you, do his best for you? What I’m trying to do here is to get you to relax, to not be so preoccupied with getting, so you can respond to God’s giving. People who don’t know God and the way he works fuss over these things, but you know both God and how he works. Steep your life in God-reality, God-initiative, God-provisions. Don’t worry about missing out. You’ll find all your everyday human concerns will be met.",
+        "es": "“Si Dios presta tanta atención a la apariencia de las flores silvestres —la mayoría de las cuales ni siquiera llega a ser vista—, ¿no creen que también se ocupará de ustedes, se alegrará de ustedes y hará lo mejor por ustedes? Lo que intento es que se relajen, que dejen de estar tan obsesionados con conseguir cosas, para que puedan responder a lo que Dios da. Las personas que no conocen a Dios ni saben cómo obra viven preocupadas por estas cosas, pero ustedes conocen tanto a Dios como Su manera de obrar. Empapen su vida en la realidad de Dios, en la iniciativa de Dios y en las provisiones de Dios. No se preocupen por quedarse por fuera. Descubrirán que todas sus necesidades humanas cotidianas serán atendidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-33"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "34",
+      "id": "mateo6-msg-14",
+      "msg": {
+        "en": "“Give your entire attention to what God is doing right now, and don’t get worked up about what may or may not happen tomorrow. God will help you deal with whatever hard things come up when the time comes.",
+        "es": "“Pongan toda su atención en lo que Dios está haciendo ahora mismo, y no se alteren por lo que pueda o no pasar mañana. Dios los ayudará a enfrentar las dificultades que lleguen cuando llegue el momento."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo6-nbla-34"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo6-nbla-01",
+      "number": 1,
+      "text": "»Cuídense de no practicar su justicia delante de los hombres para ser vistos por ellos; de otra manera no tendrán recompensa de su Padre que está en los cielos."
+    },
+    {
+      "id": "mateo6-nbla-02",
+      "number": 2,
+      "text": "»Por eso, cuando des limosna, no toques trompeta delante de ti, como hacen los hipócritas en las sinagogas y en las calles, para ser alabados por los hombres. En verdad les digo que ya han recibido su recompensa."
+    },
+    {
+      "id": "mateo6-nbla-03",
+      "number": 3,
+      "text": "Pero tú, cuando des limosna, que no sepa tu mano izquierda lo que hace tu derecha,"
+    },
+    {
+      "id": "mateo6-nbla-04",
+      "number": 4,
+      "text": "para que tu limosna sea en secreto; y tu Padre, que ve en lo secreto, te recompensará."
+    },
+    {
+      "id": "mateo6-nbla-05",
+      "number": 5,
+      "text": "»Cuando ustedes oren, no sean como los hipócritas; porque a ellos les gusta ponerse en pie y orar en las sinagogas y en las esquinas de las calles, para ser vistos por los hombres. En verdad les digo que ya han recibido su recompensa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo6-nbla-06a",
+          "order": 1,
+          "text": "Pero tú, cuando ores, entra en tu aposento, y cuando hayas cerrado la puerta,"
+        },
+        {
+          "id": "mateo6-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ora a tu Padre que está en secreto"
+        },
+        {
+          "id": "mateo6-nbla-06c",
+          "order": 3,
+          "text": ", y tu Padre, que ve en lo secreto, te recompensará."
+        }
+      ],
+      "id": "mateo6-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "mateo6-nbla-07",
+      "number": 7,
+      "text": "»Y al orar, no usen ustedes repeticiones sin sentido, como los gentiles, porque ellos se imaginan que serán oídos por su palabrería."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo6-nbla-08a",
+          "order": 1,
+          "text": "Por tanto, no se hagan semejantes a ellos; porque"
+        },
+        {
+          "id": "mateo6-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "su Padre sabe lo que ustedes necesitan antes que ustedes lo pidan."
+        }
+      ],
+      "id": "mateo6-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "mateo6-nbla-09",
+      "number": 9,
+      "text": "»Ustedes, pues, oren de esta manera:\n“Padre nuestro que estás en los cielos,\nSantificado sea Tu nombre."
+    },
+    {
+      "id": "mateo6-nbla-10",
+      "number": 10,
+      "text": "Venga Tu reino.\nHágase Tu voluntad,\nAsí en la tierra como en el cielo."
+    },
+    {
+      "id": "mateo6-nbla-11",
+      "number": 11,
+      "text": "Danos hoy el pan nuestro de cada día."
+    },
+    {
+      "id": "mateo6-nbla-12",
+      "number": 12,
+      "text": "Y perdónanos nuestras deudas, como también nosotros hemos perdonado a nuestros deudores."
+    },
+    {
+      "id": "mateo6-nbla-13",
+      "number": 13,
+      "text": "Y no nos dejes caer en tentación, sino líbranos del mal. Porque Tuyo es el reino y el poder y la gloria para siempre. Amén”."
+    },
+    {
+      "id": "mateo6-nbla-14",
+      "number": 14,
+      "text": "Porque si ustedes perdonan a los hombres sus transgresiones, también su Padre celestial les perdonará a ustedes."
+    },
+    {
+      "id": "mateo6-nbla-15",
+      "number": 15,
+      "text": "Pero si no perdonan a los hombres, tampoco su Padre les perdonará a ustedes sus transgresiones."
+    },
+    {
+      "id": "mateo6-nbla-16",
+      "number": 16,
+      "text": "»Y cuando ayunen, no pongan cara triste, como los hipócritas; porque ellos desfiguran sus rostros para mostrar a los hombres que están ayunando. En verdad les digo que ya han recibido su recompensa."
+    },
+    {
+      "id": "mateo6-nbla-17",
+      "number": 17,
+      "text": "Pero tú, cuando ayunes, unge tu cabeza y lava tu rostro,"
+    },
+    {
+      "id": "mateo6-nbla-18",
+      "number": 18,
+      "text": "para no hacer ver a los hombres que ayunas, sino a tu Padre que está en secreto; y tu Padre, que ve en lo secreto, te recompensará."
+    },
+    {
+      "id": "mateo6-nbla-19",
+      "number": 19,
+      "text": "»No acumulen para sí tesoros en la tierra, donde la polilla y la herrumbre destruyen, y donde ladrones penetran y roban;"
+    },
+    {
+      "id": "mateo6-nbla-20",
+      "number": 20,
+      "text": "sino acumulen tesoros en el cielo, donde ni la polilla ni la herrumbre destruyen, y donde ladrones no penetran ni roban;"
+    },
+    {
+      "id": "mateo6-nbla-21",
+      "number": 21,
+      "text": "porque donde esté tu tesoro, allí estará también tu corazón."
+    },
+    {
+      "id": "mateo6-nbla-22",
+      "number": 22,
+      "text": "»La lámpara del cuerpo es el ojo; por eso, si tu ojo está sano, todo tu cuerpo estará lleno de luz."
+    },
+    {
+      "id": "mateo6-nbla-23",
+      "number": 23,
+      "text": "Pero si tu ojo está malo, todo tu cuerpo estará lleno de oscuridad. Así que, si la luz que hay en ti es oscuridad, ¡cuán grande será la oscuridad!"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo6-nbla-24a",
+          "order": 1,
+          "text": "»Nadie puede servir a dos señores; porque o aborrecerá a uno y amará al otro, o apreciará a uno y despreciará al otro."
+        },
+        {
+          "id": "mateo6-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Ustedes no pueden servir a Dios y a las riquezas."
+        }
+      ],
+      "id": "mateo6-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "mateo6-nbla-25",
+      "number": 25,
+      "text": "»Por eso les digo, no se preocupen por su vida, qué comerán o qué beberán; ni por su cuerpo, qué vestirán. ¿No es la vida más que el alimento y el cuerpo más que la ropa?"
+    },
+    {
+      "id": "mateo6-nbla-26",
+      "number": 26,
+      "text": "Miren las aves del cielo, que no siembran, ni siegan, ni recogen en graneros, y sin embargo, el Padre celestial las alimenta. ¿No son ustedes de mucho más valor que ellas?"
+    },
+    {
+      "id": "mateo6-nbla-27",
+      "number": 27,
+      "text": "¿Quién de ustedes, por ansioso que esté, puede añadir una hora al curso de su vida?"
+    },
+    {
+      "id": "mateo6-nbla-28",
+      "number": 28,
+      "text": "Y por la ropa, ¿por qué se preocupan? Observen cómo crecen los lirios del campo; no trabajan, ni hilan."
+    },
+    {
+      "id": "mateo6-nbla-29",
+      "number": 29,
+      "text": "Pero les digo que ni Salomón en toda su gloria se vistió como uno de ellos."
+    },
+    {
+      "id": "mateo6-nbla-30",
+      "number": 30,
+      "text": "Y si Dios así viste la hierba del campo, que hoy es y mañana es echada al horno, ¿no hará Él mucho más por ustedes, hombres de poca fe?"
+    },
+    {
+      "id": "mateo6-nbla-31",
+      "number": 31,
+      "text": "»Por tanto, no se preocupen, diciendo: “¿Qué comeremos?” o “¿qué beberemos?” o “¿con qué nos vestiremos?”."
+    },
+    {
+      "id": "mateo6-nbla-32",
+      "number": 32,
+      "text": "Porque los gentiles buscan ansiosamente todas estas cosas; que el Padre celestial sabe que ustedes necesitan todas estas cosas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo6-nbla-33a",
+          "order": 1,
+          "text": "Pero busquen primero Su reino y Su justicia"
+        },
+        {
+          "id": "mateo6-nbla-33b",
+          "order": 2,
+          "text": ", y todas estas cosas les serán añadidas."
+        }
+      ],
+      "id": "mateo6-nbla-33",
+      "number": 33
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo6-nbla-34a",
+          "order": 1,
+          "text": "Por tanto,"
+        },
+        {
+          "id": "mateo6-nbla-34b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no se preocupen por el día de mañana"
+        },
+        {
+          "id": "mateo6-nbla-34c",
+          "order": 3,
+          "text": "; porque el día de mañana se cuidará de sí mismo. Bástenle a cada día sus propios problemas."
+        }
+      ],
+      "id": "mateo6-nbla-34",
+      "number": 34
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
