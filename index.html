@@ -15,7 +15,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="S · T · A · R · S">
 <title>S · T · A · R · S</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/ivb1oso.css">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 :root{
@@ -1362,7 +1363,7 @@ body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-bor
 .pd2-image-fonts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.5rem}
 .pd2-image-body .est-v2-image-style,.pd2-image-body .est-v2-image-format,.pd2-image-font{width:100%;min-width:0;min-height:2.5rem;padding:.65rem .5rem;background:transparent!important;border:1px solid var(--est-v2-line2)!important;border-radius:8px;color:var(--est-v2-soft)!important;font-size:.6875rem;line-height:1.2;white-space:normal;overflow-wrap:anywhere;text-align:center}
 .pd2-image-body .est-v2-image-style.is-active,.pd2-image-body .est-v2-image-format.is-active,.pd2-image-font.is-active{background:var(--est-v2-dim)!important;border-color:var(--est-v2-accent)!important;color:var(--est-v2-accent2)!important;box-shadow:inset 0 0 0 1px rgba(201,168,76,.08)}
-.pd2-image-font[data-pd2-frase-fuente="clasica"]{font-family:Georgia,serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="actual"]{font-family:'Outfit',sans-serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="editorial"]{font-family:'Playfair Display',serif!important;font-style:normal;font-weight:700;font-size:.8rem;letter-spacing:-.02em}
+.pd2-image-font[data-pd2-frase-fuente="clasica"]{font-family:Georgia,serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="actual"]{font-family:'Outfit',sans-serif!important;font-style:italic}.pd2-image-font[data-pd2-frase-fuente="editorial"]{font-family:'ivypresto-display',serif!important;font-style:normal;font-weight:400;font-size:.8rem;letter-spacing:-.02em}
 .pd2-image-preview{display:flex;flex-direction:column;align-items:center}
 .pd2-image-preview-label{font-family:'Outfit',sans-serif;font-size:.625rem;letter-spacing:.12em;text-transform:uppercase;color:var(--white3);margin-bottom:.75rem}
 .pd2-image-body .est-v2-canvas-wrap{width:min(280px,72vw);max-width:280px;margin:0 auto 1rem;border-radius:8px;box-shadow:0 18px 45px rgba(0,0,0,.35)}
@@ -4375,8 +4376,11 @@ async function pasoDiarioPintarFraseCanvas(canvas,contexto){
   };
   const frase=String(devo.frase).replace(/^["'«“”]+|["'»“”]+$/g,'').trim();
   const referencia=pasoDiarioReferenciaFrase(devo.versiculo);
-  const fuenteFrase=estado.fuente==='clasica'?'Georgia, serif':estado.fuente==='editorial'?'Playfair Display, serif':'Outfit, sans-serif';
-  if(estado.fuente==='editorial' && document.fonts?.load) await document.fonts.load('700 64px "Playfair Display"');
+  const fuenteFrase=estado.fuente==='clasica'?'Georgia, serif':estado.fuente==='editorial'?'ivypresto-display, serif':'Outfit, sans-serif';
+  if(estado.fuente==='editorial' && document.fonts?.load) await Promise.all([
+    document.fonts.load('400 64px "ivypresto-display"'),
+    document.fonts.load('300 28px "arboria"')
+  ]);
   if(estado.estilo==='editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,referencia,fuenteFrase);
   else if(estado.estilo==='contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,referencia,await estudioV2CargarLogoCanvas(),fuenteFrase);
   else estudioV2PintarClasica(ctx,W,H,paleta,frase,referencia,fuenteFrase);
@@ -9240,9 +9244,12 @@ async function estudioV2DibujarFrase(contexto, estudioActual, canvasActual){
       suave:estudioV2ColorVar('--white2', '#cabf9f')
     };
     const frase = String(sec.content.quote || '').replace(/^["'«“”]+|["'»“”]+$/g,'').trim();
-    const fuentes = { clasica:'Georgia, serif', actual:'Outfit, sans-serif', editorial:'Playfair Display, serif' };
+    const fuentes = { clasica:'Georgia, serif', actual:'Outfit, sans-serif', editorial:'ivypresto-display, serif' };
     const fuente = fuentes[imagen.fuente] || fuentes.actual;
-    if(imagen.fuente === 'editorial' && document.fonts?.load) await document.fonts.load('700 64px "Playfair Display"');
+    if(imagen.fuente === 'editorial' && document.fonts?.load) await Promise.all([
+      document.fonts.load('400 64px "ivypresto-display"'),
+      document.fonts.load('300 28px "arboria"')
+    ]);
     if(imagen.estilo === 'editorial') estudioV2PintarEditorial(ctx,W,H,paleta,frase,sec.content.reference,fuente);
     else if(imagen.estilo === 'contemplativo') estudioV2PintarContemplativa(ctx,W,H,paleta,frase,sec.content.reference,await estudioV2CargarLogoCanvas(),fuente);
     else estudioV2PintarClasica(ctx,W,H,paleta,frase,sec.content.reference,fuente);
@@ -9291,15 +9298,23 @@ function estudioV2PintarMarcaCanvas(ctx,x,y,tracking,alineacion){
 }
 
 function estudioV2EsFuenteHeadline(fuenteFrase){
-  return String(fuenteFrase || '').includes('Playfair Display');
+  return String(fuenteFrase || '').includes('ivypresto-display');
 }
 
 function estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size){
   const headline=estudioV2EsFuenteHeadline(fuenteFrase);
-  ctx.font=(headline?'normal 700 ':'italic 600 ')+size+'px '+fuenteFrase;
+  ctx.font=(headline?'normal 400 ':'italic 600 ')+size+'px '+fuenteFrase;
   ctx.fontKerning='normal';
-  if('letterSpacing' in ctx) ctx.letterSpacing=headline?'-0.5px':'0px';
+  if('letterSpacing' in ctx) ctx.letterSpacing=headline?(size*-.02)+'px':'0px';
   return headline;
+}
+
+function estudioV2AplicarFuenteReferencia(ctx,fuenteFrase,size,pesoFallback=500){
+  const editorial=estudioV2EsFuenteHeadline(fuenteFrase);
+  ctx.font=(editorial?'normal 300 ':'normal '+pesoFallback+' ')+size+'px '+(editorial?'arboria, sans-serif':'Outfit, sans-serif');
+  ctx.fontKerning='normal';
+  if('letterSpacing' in ctx) ctx.letterSpacing=editorial?(size*-.04)+'px':'0px';
+  return editorial;
 }
 
 function estudioV2RestaurarEspaciadoCanvas(ctx){
@@ -9323,16 +9338,17 @@ function estudioV2PintarClasica(ctx,W,H,paleta,frase,referencia,fuenteFrase='Geo
   const size = vertical ? (headline?50:62) : (headline?44:50);
   ctx.fillStyle = paleta.tinta;
   estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
-  const maxWidth = headline ? W-(vertical?210:160) : W-(vertical?200:160);
+  const maxWidth = headline ? W-(vertical?380:260) : W-(vertical?200:160);
   const lines = estudioV2WrapCanvas(ctx,'“' + frase + '”',maxWidth);
-  const lineH = size * (headline?1.25:1.32);
+  const lineH = size * (headline?1.2:1.32);
   const mid = vertical ? H*.5 : H*.52;
   let y = mid - (lines.length * lineH)/2 + lineH/2;
   lines.forEach(line => {ctx.fillText(line,cx,y);y += lineH;});
   estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.fillStyle = paleta.acento2;
-  ctx.font = '500 26px Outfit, sans-serif';
-  ctx.fillText(String(referencia || '').toUpperCase(),cx,mid+(lines.length*lineH)/2+(vertical?84:60));
+  estudioV2AplicarFuenteReferencia(ctx,fuenteFrase,26,500);
+  ctx.fillText(headline?String(referencia || ''):String(referencia || '').toUpperCase(),cx,mid+(lines.length*lineH)/2+(vertical?84:60));
+  estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.fillStyle = estudioV2ColorAlpha(paleta.suave,.55);
   ctx.font = '300 22px Outfit, sans-serif';
   ctx.fillText(ESTUDIO_V2_BRANDING.usuario,cx,H-(vertical?110:58));
@@ -9347,13 +9363,13 @@ function estudioV2PintarEditorial(ctx,W,H,paleta,frase,referencia,fuenteFrase='G
   rule.addColorStop(1,estudioV2ColorAlpha(paleta.acento,0));
   ctx.fillStyle=rule;ctx.fillRect(left,H*.10,2,H*.80);
   ctx.textAlign='left';ctx.fillStyle=paleta.acento2;ctx.font='600 21px Outfit, sans-serif';estudioV2PintarMarcaCanvas(ctx,left+26,H*.145,7,'left');
-  ctx.textAlign='right';ctx.fillStyle=paleta.acento2;ctx.font='500 20px Outfit, sans-serif';ctx.fillText(String(referencia || '').toUpperCase(),W-right,H*.145);
+  ctx.textAlign='right';ctx.fillStyle=paleta.acento2;estudioV2AplicarFuenteReferencia(ctx,fuenteFrase,20,500);ctx.fillText(estudioV2EsFuenteHeadline(fuenteFrase)?String(referencia || ''):String(referencia || '').toUpperCase(),W-right,H*.145);estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.textAlign='left';
   const headline=estudioV2EsFuenteHeadline(fuenteFrase);
   const size=H>W?(headline?62:58):(headline?48:44);
   ctx.fillStyle=paleta.tinta;estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
   const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',content-26);
-  const lineH=size*(headline?1.08:1.28), start=H*.34;
+  const lineH=size*(headline?1.2:1.28), start=H*.34;
   lines.forEach((line,i)=>ctx.fillText(line,left+26,start+i*lineH));
   estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.strokeStyle=paleta.acento;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(left+26,start+lines.length*lineH+20);ctx.lineTo(left+66,start+lines.length*lineH+20);ctx.stroke();
@@ -9379,10 +9395,10 @@ function estudioV2PintarContemplativa(ctx,W,H,paleta,frase,referencia,logo,fuent
   const size=H>W?(headline?38:34):(headline?34:30);
   ctx.fillStyle=paleta.tinta;estudioV2AplicarFuenteFrase(ctx,fuenteFrase,size);
   const lines=estudioV2WrapCanvas(ctx,'“'+frase+'”',W*.62);
-  const lineH=size*(headline?1.12:1.5), total=lines.length*lineH, start=H*.72-total/2+lineH/2;
+  const lineH=size*(headline?1.2:1.5), total=lines.length*lineH, start=H*.72-total/2+lineH/2;
   lines.forEach((line,i)=>ctx.fillText(line,cx,start+i*lineH));
   estudioV2RestaurarEspaciadoCanvas(ctx);
-  ctx.fillStyle=paleta.acento2;ctx.font='500 '+(vertical?22:20)+'px Outfit, sans-serif';ctx.fillText(String(referencia || '').toUpperCase(),cx,start+total+38);
+  ctx.fillStyle=paleta.acento2;estudioV2AplicarFuenteReferencia(ctx,fuenteFrase,vertical?22:20,500);ctx.fillText(headline?String(referencia || ''):String(referencia || '').toUpperCase(),cx,start+total+38);estudioV2RestaurarEspaciadoCanvas(ctx);
   ctx.fillStyle=estudioV2ColorAlpha(paleta.suave,.55);ctx.font='300 22px Outfit, sans-serif';ctx.fillText(ESTUDIO_V2_BRANDING.usuario,cx,H-H*.06);
 }
 
