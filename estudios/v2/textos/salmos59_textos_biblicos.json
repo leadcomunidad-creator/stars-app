@@ -1,0 +1,439 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La oración bíblica permite nombrar el peligro sin maquillarlo. NBLA fija el sentido como una petición directa de liberación dirigida a Dios; MSG conserva esa misma verdad y la vuelve inmediata con el grito «¡Dios mío!». El punto no es que toda oposición personal convierta automáticamente al otro en enemigo de Dios, sino que una amenaza real puede llevarse con absoluta franqueza ante Él.",
+      "id": "salmos59-joya-01",
+      "msg": {
+        "en": "\"My God! Rescue me from my enemies\"",
+        "es": "\"¡Dios mío! Rescátame de mis enemigos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-01a"
+          ],
+          "verseId": "salmos59-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "David apela a la intervención de Dios porque se encuentra humanamente expuesto. NBLA deja claro que «despierta» es lenguaje de súplica: David pide ayuda y atención, no está enseñando que Dios duerma o ignore literalmente lo que ocurre. MSG conserva la fuerza emocional de alguien que necesita que la justicia divina se haga visible ahora.",
+      "id": "salmos59-joya-02",
+      "msg": {
+        "en": "\"Wake up and see for yourself!\"",
+        "es": "\"¡Despierta y míralo tú mismo!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-04b"
+          ],
+          "verseId": "salmos59-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La confianza de David tiene un objeto definido: Dios mismo. NBLA expresa esa seguridad mediante la imagen firme del baluarte; MSG traduce pastoralmente esa estabilidad como alguien con quien siempre se puede contar. La confianza no depende de que David pueda controlar a sus perseguidores, sino de que el carácter de Dios permanezca estable.",
+      "id": "salmos59-joya-03",
+      "msg": {
+        "en": "\"I can always count on you.\"",
+        "es": "\"siempre puedo contar contigo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-09b"
+          ],
+          "verseId": "salmos59-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "8-10"
+    },
+    {
+      "explanation": "El horizonte de la oración supera la seguridad individual de David. NBLA establece el centro teológico: el juicio debe hacer visible que Dios gobierna. MSG amplía la escena hacia un mundo que observa ese gobierno. El texto no autoriza a usar el juicio divino como instrumento para satisfacer resentimientos privados; lo relaciona con la vindicación pública del reinado justo de Dios.",
+      "id": "salmos59-joya-04",
+      "msg": {
+        "en": "\"Then all the world will see that God rules well in Jacob\"",
+        "es": "\"Entonces el mundo entero verá que Dios gobierna bien en Jacob\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-13b"
+          ],
+          "verseId": "salmos59-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "11-13"
+    },
+    {
+      "explanation": "David termina interpretando su historia desde la fidelidad de Dios, no desde la actividad de sus enemigos. NBLA nombra a Dios como baluarte y refugio precisamente «en el día de mi angustia»; MSG hace tangible esa misma verdad describiéndolo como un lugar seguro donde esconderse. El refugio de Dios no significa ausencia de angustia, sino presencia protectora dentro de ella.",
+      "id": "salmos59-joya-05",
+      "msg": {
+        "en": "\"For you’ve been a safe place for me, a good place to hide.\"",
+        "es": "\"porque has sido un lugar seguro para mí, un buen sitio donde esconderme.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-16b"
+          ],
+          "verseId": "salmos59-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 59,
+    "studyId": "salmos-59"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "salmos59-msg-01",
+      "msg": {
+        "en": "My God! Rescue me from my enemies,\ndefend me from these mutineers.\nRescue me from their dirty tricks,\nsave me from their hit men.",
+        "es": "¡Dios mío! Rescátame de mis enemigos,\ndefiéndeme de estos rebeldes.\nLíbrame de sus sucios trucos,\nsálvame de sus sicarios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "salmos59-msg-02",
+      "msg": {
+        "en": "Desperadoes have ganged up on me,\nthey’re hiding in ambush for me.\nI did nothing to deserve this, GOD,\ncrossed no one, wronged no one.\nAll the same, they’re after me,\ndetermined to get me.",
+        "es": "Una banda de violentos se ha unido contra mí;\nestán agazapados, esperando emboscarme.\nNo hice nada para merecer esto, DIOS;\nno traicioné a nadie, no le hice mal a nadie.\nAun así, vienen tras de mí,\ndecididos a atraparme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-03"
+        },
+        {
+          "clauseIds": [
+            "salmos59-nbla-04a"
+          ],
+          "verseId": "salmos59-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "salmos59-msg-03",
+      "msg": {
+        "en": "Wake up and see for yourself! You’re GOD,\nGOD -of-Angel-Armies, Israel’s God!\nGet on the job and take care of these pagans,\ndon’t be soft on these hard cases.",
+        "es": "¡Despierta y míralo tú mismo! Tú eres DIOS,\nel Dios de los Ejércitos de Ángeles, ¡el Dios de Israel!\nPonte en acción y encárgate de estas naciones paganas;\nno seas blando con estos hombres endurecidos."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos59-nbla-04b"
+          ],
+          "verseId": "salmos59-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "salmos59-msg-04",
+      "msg": {
+        "en": "They return when the sun goes down,\nThey howl like coyotes, ringing the city.\nThen suddenly they’re all at the gate,\nSnarling invective, drawn daggers in their teeth.\nThey think they’ll never get caught.",
+        "es": "Regresan cuando cae el sol;\naúllan como coyotes, rondando la ciudad.\nDe pronto están todos en la entrada,\ngruñendo insultos, con dagas desenvainadas entre los dientes.\nCreen que jamás los atraparán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "salmos59-msg-05",
+      "msg": {
+        "en": "But you, GOD, break out laughing;\nyou treat the godless nations like jokes.\nStrong God, I’m watching you do it,\nI can always count on you.\nGod in dependable love shows up on time,\nshows me my enemies in ruin.",
+        "es": "Pero tú, DIOS, te echas a reír;\ntratas a las naciones sin Dios como un chiste.\nDios fuerte, tengo los ojos puestos en ti;\nsiempre puedo contar contigo.\nEl Dios de amor confiable llega justo a tiempo\ny me deja ver a mis enemigos en ruinas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "salmos59-msg-06",
+      "msg": {
+        "en": "Don’t make quick work of them, GOD,\nlest my people forget.\nBring them down in slow motion,\ntake them apart piece by piece.\nLet all their mean-mouthed arrogance\ncatch up with them,\nCatch them out and bring them down\n—every muttered curse\n—every barefaced lie.\nFinish them off in fine style!\nFinish them off for good!\nThen all the world will see\nthat God rules well in Jacob,\neverywhere that God’s in charge.",
+        "es": "No acabes con ellos de golpe, DIOS,\nno sea que mi pueblo lo olvide.\nDerríbalos poco a poco;\ndesármalos pieza por pieza.\nQue toda la arrogancia venenosa de su boca\ntermine alcanzándolos.\nDescúbrelos y hazlos caer:\n—cada maldición murmurada,\n—cada mentira descarada.\n¡Acaba con ellos de manera contundente!\n¡Acaba con ellos de una vez por todas!\nEntonces el mundo entero verá\nque Dios gobierna bien en Jacob,\nque Dios está al mando en todas partes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "salmos59-msg-07",
+      "msg": {
+        "en": "They return when the sun goes down,\nThey howl like coyotes, ringing the city.\nThey scavenge for bones,\nAnd bite the hand that feeds them.",
+        "es": "Regresan cuando cae el sol;\naúllan como coyotes, rondando la ciudad.\nRebuscan huesos\ny muerden la mano que les da de comer."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-15"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "salmos59-msg-08",
+      "msg": {
+        "en": "And me? I’m singing your prowess,\nshouting at cockcrow your largesse,\nFor you’ve been a safe place for me,\na good place to hide.\nStrong God, I’m watching you do it,\nI can always count on you—\nGod, my dependable love.",
+        "es": "¿Y yo? Yo canto tu poder;\nal canto del gallo proclamo a gritos tu generosidad,\nporque has sido un lugar seguro para mí,\nun buen sitio donde esconderme.\nDios fuerte, tengo los ojos puestos en ti;\nsiempre puedo contar contigo:\nDios, mi amor confiable."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos59-nbla-17"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos59-nbla-01a",
+          "order": 1,
+          "text": "Líbrame de mis enemigos, Dios mío;"
+        },
+        {
+          "id": "salmos59-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ponme a salvo en lo alto, lejos de los que se levantan contra mí."
+        }
+      ],
+      "id": "salmos59-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos59-nbla-02",
+      "number": 2,
+      "text": "Líbrame de los que hacen iniquidad,\nY sálvame de los hombres sanguinarios."
+    },
+    {
+      "id": "salmos59-nbla-03",
+      "number": 3,
+      "text": "Porque han puesto emboscada contra mi vida;\nHombres feroces me atacan,\nPero no es por mi transgresión, ni por mi pecado, SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos59-nbla-04a",
+          "order": 1,
+          "text": "Sin culpa mía, corren y se preparan contra mí."
+        },
+        {
+          "id": "salmos59-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Despierta para ayudarme, y mira."
+        }
+      ],
+      "id": "salmos59-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "salmos59-nbla-05",
+      "number": 5,
+      "text": "Tú, SEÑOR, Dios de los ejércitos, Dios de Israel,\nDespierta para castigar a todas las naciones;\nNo tengas piedad de ningún malvado traidor. (Selah)"
+    },
+    {
+      "id": "salmos59-nbla-06",
+      "number": 6,
+      "text": "Regresan al anochecer, aúllan como perros,\nY rondan por la ciudad."
+    },
+    {
+      "id": "salmos59-nbla-07",
+      "number": 7,
+      "text": "Mira, echan espuma por la boca;\nHay espadas en sus labios,\nPues dicen: «¿Quién oye?»."
+    },
+    {
+      "id": "salmos59-nbla-08",
+      "number": 8,
+      "text": "Pero Tú, oh SEÑOR, te ríes de ellos;\nTe burlas de todas las naciones."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos59-nbla-09a",
+          "order": 1,
+          "text": "A causa de su fuerza esperaré en Ti,"
+        },
+        {
+          "id": "salmos59-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque Dios es mi baluarte."
+        }
+      ],
+      "id": "salmos59-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "salmos59-nbla-10",
+      "number": 10,
+      "text": "Mi Dios en Su misericordia vendrá a mi encuentro;\nDios me permitirá verme victorioso sobre mis enemigos."
+    },
+    {
+      "id": "salmos59-nbla-11",
+      "number": 11,
+      "text": "No los mates, para que mi pueblo no se olvide;\nDispérsalos con Tu poder, y humíllalos,\nOh Señor, escudo nuestro."
+    },
+    {
+      "id": "salmos59-nbla-12",
+      "number": 12,
+      "text": "Por el pecado de su boca y la palabra de sus labios,\nSean presos en su orgullo,\nY a causa de las maldiciones y mentiras que profieren."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos59-nbla-13a",
+          "order": 1,
+          "text": "Acábalos en Tu furor, acábalos, para que ya no existan;"
+        },
+        {
+          "id": "salmos59-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que los hombres sepan que Dios gobierna en Jacob"
+        },
+        {
+          "id": "salmos59-nbla-13c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta los confines de la tierra. (Selah)"
+        }
+      ],
+      "id": "salmos59-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "salmos59-nbla-14",
+      "number": 14,
+      "text": "Regresan al anochecer, aúllan como perros,\nY rondan por la ciudad;"
+    },
+    {
+      "id": "salmos59-nbla-15",
+      "number": 15,
+      "text": "Merodean buscando qué devorar,\nY si no se sacian, gruñen."
+    },
+    {
+      "clauses": [
+        {
+          "id": "salmos59-nbla-16a",
+          "order": 1,
+          "text": "Pero yo cantaré de Tu poder;\nSí, gozoso cantaré por la mañana Tu misericordia;"
+        },
+        {
+          "id": "salmos59-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque Tú has sido mi baluarte\nY refugio en el día de mi angustia."
+        }
+      ],
+      "id": "salmos59-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "salmos59-nbla-17",
+      "number": 17,
+      "text": "Oh fortaleza mía, a Ti cantaré alabanzas;\nPorque mi baluarte es Dios, el Dios que me muestra misericordia."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios debe ser alabado tanto en el espacio consagrado de reunión como bajo la amplitud de Su creación. NBLA fija las imágenes del santuario y el firmamento; MSG hace visible ese movimiento desde la casa de adoración hasta el cielo abierto. La verdad central no es que cualquier lugar tenga exactamente la misma función litúrgica, sino que la grandeza de Dios no queda encerrada dentro de un lugar.",
+      "id": "salmos150-joya-01",
+      "msg": {
+        "en": "\"Praise God in his holy house of worship, praise him under the open skies;\"",
+        "es": "\"Alaben a Dios en su santa casa de adoración, alábenlo bajo el cielo abierto;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "salmos150-nbla-01b"
+          ],
+          "verseId": "salmos150-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La adoración tiene fundamento objetivo. Dios es alabado por Sus obras y por Su propia grandeza. NBLA mantiene esas dos razones claramente diferenciadas; MSG conserva la misma estructura y hace resonar la magnificencia de quien Dios es. El salmo no basa la alabanza solamente en cómo se siente el adorador.",
+      "id": "salmos150-joya-02",
+      "msg": {
+        "en": "\"Praise him for his acts of power, praise him for his magnificent greatness;\"",
+        "es": "\"alábenlo por sus actos de poder, alábenlo por su magnífica grandeza;\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La alabanza puede involucrar sonido, ritmo y movimiento corporal. NBLA conserva las categorías textuales de pandero, danza, instrumentos de cuerda y flauta; MSG recrea pastoralmente esa diversidad con instrumentos reconocibles para sus lectores. Es NBLA, junto con el contexto, la que impide convertir cada instrumento específico usado por MSG en una prescripción bíblica. El punto teológico es la amplitud expresiva de una adoración centrada en Dios.",
+      "id": "salmos150-joya-03",
+      "msg": {
+        "en": "\"Praise him with castanets and dance, praise him with banjo and flute;\"",
+        "es": "\"alábenlo con castañuelas y danza, alábenlo con banjo y flauta;\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4"
+    },
+    {
+      "explanation": "El salmo culmina extendiendo la alabanza a todo lo que tiene aliento. NBLA expresa la convocatoria con una sencillez absoluta: todo lo que respira. MSG hace visible la escena como una creación viva respirando y alabando. La expansión expresiva no cambia el punto: la vida recibida de Dios debe volverse reconocimiento de Dios.",
+      "id": "salmos150-joya-04",
+      "msg": {
+        "en": "\"Let every living, breathing creature praise GOD! Hallelujah!\"",
+        "es": "\"¡Que toda criatura viviente, todo ser que respira, alabe a DIOS! ¡Aleluya!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-06"
+        }
+      ],
+      "order": 4,
+      "range": "6"
+    }
+  ],
+  "meta": {
+    "book": "SALMOS",
+    "bookId": "salmos",
+    "chapter": 150,
+    "studyId": "salmos-150"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "salmos150-msg-01",
+      "msg": {
+        "en": "Praise God in his holy house of worship,\npraise him under the open skies;\nPraise him for his acts of power,\npraise him for his magnificent greatness;\nPraise with a blast on the trumpet,\npraise by strumming soft strings;\nPraise him with castanets and dance,\npraise him with banjo and flute;\nPraise him with cymbals and a big bass drum,\npraise him with fiddles and mandolin.\nLet every living, breathing creature praise GOD!\nHallelujah!",
+        "es": "Alaben a Dios en su santa casa de adoración,\nalábenlo bajo el cielo abierto;\nalábenlo por sus actos de poder,\nalábenlo por su magnífica grandeza;\nalábenlo con un potente toque de trompeta,\nalábenlo pulsando suavemente las cuerdas;\nalábenlo con castañuelas y danza,\nalábenlo con banjo y flauta;\nalábenlo con címbalos y un gran bombo,\nalábenlo con violines y mandolina.\n¡Que toda criatura viviente, todo ser que respira, alabe a DIOS!\n¡Aleluya!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "salmos150-nbla-06"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "salmos150-nbla-01a",
+          "order": 1,
+          "text": "¡Aleluya!"
+        },
+        {
+          "id": "salmos150-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Alaben a Dios en Su santuario;\nAlábenlo en Su majestuoso firmamento."
+        }
+      ],
+      "id": "salmos150-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "salmos150-nbla-02",
+      "number": 2,
+      "text": "Alaben a Dios por Sus hechos poderosos;\nAlábenlo según la excelencia de Su grandeza."
+    },
+    {
+      "id": "salmos150-nbla-03",
+      "number": 3,
+      "text": "Alaben a Dios con sonido de trompeta;\nAlábenlo con arpa y lira."
+    },
+    {
+      "id": "salmos150-nbla-04",
+      "number": 4,
+      "text": "Alaben a Dios con pandero y danza;\nAlábenlo con instrumentos de cuerda y flauta."
+    },
+    {
+      "id": "salmos150-nbla-05",
+      "number": 5,
+      "text": "Alaben a Dios con címbalos sonoros;\nAlábenlo con címbalos resonantes."
+    },
+    {
+      "id": "salmos150-nbla-06",
+      "number": 6,
+      "text": "Todo lo que respira alabe al SEÑOR.\n¡Aleluya!"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
