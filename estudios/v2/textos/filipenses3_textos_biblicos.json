@@ -1,0 +1,497 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El centro teológico es el valor incomparable de Cristo. NBLA fija con precisión que Pablo reevalúa todas las cosas “en vista del incomparable valor de conocer” a Jesús; MSG vuelve visible esa relación como un conocimiento “de primera mano”. El punto no es despreciar toda experiencia, logro o herencia humana, sino reconocer que ninguna de ellas puede competir con Cristo como fundamento de identidad, justicia y vida.",
+      "id": "filipenses3-joya-01",
+      "msg": {
+        "en": "\"Compared to the high privilege of knowing Christ Jesus as my Master, firsthand\"",
+        "es": "\"Comparado con el enorme privilegio de conocer de primera mano a Cristo Jesús como mi Maestro\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "filipenses3-nbla-08b"
+          ],
+          "verseId": "filipenses3-nbla-08"
+        }
+      ],
+      "order": 1,
+      "range": "7-9"
+    },
+    {
+      "explanation": "La salvación coloca al creyente en una relación de pertenencia a Cristo. NBLA protege el sentido con las expresiones “ganar a Cristo” y “ser hallado en Él”; MSG lo hace pastoralmente palpable mediante la imagen de abrazar y ser abrazado. Esa imagen comunica cercanía, pero no debe convertirse en una doctrina independiente: el ancla del texto es la unión con Cristo y la justicia recibida en Él.",
+      "id": "filipenses3-joya-02",
+      "msg": {
+        "en": "\"so that I could embrace Christ and be embraced by him\"",
+        "es": "\"para poder abrazar a Cristo y ser abrazado por él\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "filipenses3-nbla-08d"
+          ],
+          "verseId": "filipenses3-nbla-08"
+        },
+        {
+          "clauseIds": [
+            "filipenses3-nbla-09a"
+          ],
+          "verseId": "filipenses3-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "7-9"
+    },
+    {
+      "explanation": "Conocer a Cristo implica comunión con toda la forma de Su vida: resurrección y padecimiento. NBLA mantiene juntas esas realidades y evita presentar el poder de la resurrección como una promesa de comodidad. MSG hace más directa la experiencia relacional, pero el límite teológico permanece claro: la comunión con Jesús no elimina la cruz; atraviesa el sufrimiento sostenida por la esperanza de resurrección.",
+      "id": "filipenses3-joya-03",
+      "msg": {
+        "en": "\"know Christ personally, experience his resurrection power, be a partner in his suffering\"",
+        "es": "\"conocer personalmente a Cristo, experimentar el poder de su resurrección, participar en sus sufrimientos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "filipenses3-nbla-10b"
+          ],
+          "verseId": "filipenses3-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10-11"
+    },
+    {
+      "explanation": "La iniciativa de Cristo precede la perseverancia de Pablo. NBLA lo expresa de forma decisiva: Pablo busca alcanzar porque primero fue alcanzado por Cristo. MSG vuelve visible esa prioridad de la gracia mediante la imagen de Cristo extendiéndose hacia Pablo. La disciplina cristiana, entonces, no compra la gracia; responde a una gracia que ya tomó la iniciativa.",
+      "id": "filipenses3-joya-04",
+      "msg": {
+        "en": "\"reaching out for Christ, who has so wondrously reached out for me\"",
+        "es": "\"extendiéndome hacia Cristo, quien de manera tan maravillosa se ha extendido hacia mí\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "filipenses3-nbla-12b"
+          ],
+          "verseId": "filipenses3-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "12-14"
+    },
+    {
+      "explanation": "La vida cristiana tiene dirección. NBLA identifica la meta dentro del “supremo llamamiento de Dios en Cristo Jesús”, mientras MSG convierte esa orientación en una imagen fácilmente habitable: ojos fijos y movimiento hacia delante. La meta no es una versión mejorada del yo ni un logro religioso autónomo; toda la carrera está definida por Cristo.",
+      "id": "filipenses3-joya-05",
+      "msg": {
+        "en": "\"I’ve got my eye on the goal, where God is beckoning us onward—to Jesus\"",
+        "es": "\"tengo los ojos puestos en la meta, hacia donde Dios nos llama a seguir adelante: hacia Jesús\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "12-14"
+    },
+    {
+      "explanation": "La identidad del creyente está determinada por una ciudadanía que trasciende las lealtades y apetitos del presente. NBLA establece directamente la afirmación teológica; MSG la proclama con fuerza. Esa ciudadanía no autoriza desprecio por la tierra ni evasión de responsabilidades. El propio contexto la conecta con esperar al Salvador y con la transformación futura del cuerpo.",
+      "id": "filipenses3-joya-06",
+      "msg": {
+        "en": "\"We’re citizens of high heaven!\"",
+        "es": "\"¡Somos ciudadanos del cielo!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "filipenses3-nbla-20a"
+          ],
+          "verseId": "filipenses3-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "20-21"
+    }
+  ],
+  "meta": {
+    "book": "FILIPENSES",
+    "bookId": "filipenses",
+    "chapter": 3,
+    "studyId": "filipenses-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "filipenses3-msg-01",
+      "msg": {
+        "en": "And that’s about it, friends. Be glad in God! I don’t mind repeating what I have written in earlier letters, and I hope you don’t mind hearing it again. Better safe than sorry—so here goes.",
+        "es": "Y eso es más o menos todo, amigos. ¡Alégrense en Dios! No me molesta repetir lo que ya les he escrito antes, y espero que a ustedes tampoco les moleste oírlo otra vez. Más vale prevenir que lamentar, así que aquí va de nuevo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-6",
+      "id": "filipenses3-msg-02",
+      "msg": {
+        "en": "Steer clear of the barking dogs, those religious busybodies, all bark and no bite. All they’re interested in is appearances—knife-happy circumcisers, I call them. The real believers are the ones the Spirit of God leads to work away at this ministry, filling the air with Christ’s praise as we do it. We couldn’t carry this off by our own efforts, and we know it—even though we can list what many might think are impressive credentials. You know my pedigree: a legitimate birth, circumcised on the eighth day; an Israelite from the elite tribe of Benjamin; a strict and devout adherent to God’s law; a fiery defender of the purity of my religion, even to the point of persecuting the church; a meticulous observer of everything set down in God’s law Book.",
+        "es": "Aléjense de esos perros que no paran de ladrar, esos entrometidos religiosos: mucho ruido y nada más. Lo único que les interesa son las apariencias; yo los llamo fanáticos del cuchillo y la circuncisión. Los verdaderos creyentes somos los que, guiados por el Espíritu de Dios, nos entregamos a este servicio y llenamos el ambiente con alabanzas a Cristo mientras lo hacemos. Sabemos que no podríamos lograrlo con nuestros propios esfuerzos, aunque podríamos enumerar credenciales que muchos considerarían impresionantes. Ustedes conocen mi historial: nacimiento legítimo, circuncidado al octavo día; israelita de la distinguida tribu de Benjamín; estricto y devoto seguidor de la ley de Dios; defensor apasionado de la pureza de mi religión, hasta el punto de perseguir a la iglesia; observador meticuloso de todo lo que está escrito en el libro de la ley de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "filipenses3-msg-03",
+      "msg": {
+        "en": "The very credentials these people are waving around as something special, I’m tearing up and throwing out with the trash—along with everything else I used to take credit for. And why? Because of Christ. Yes, all the things I once thought were so important are gone from my life. Compared to the high privilege of knowing Christ Jesus as my Master, firsthand, everything I once thought I had going for me is insignificant—dog dung. I’ve dumped it all in the trash so that I could embrace Christ and be embraced by him. I didn’t want some petty, inferior brand of righteousness that comes from keeping a list of rules when I could get the robust kind that comes from trusting Christ—God’s righteousness.",
+        "es": "Precisamente esas credenciales que ellos exhiben como algo especial, yo las estoy rompiendo y tirando a la basura, junto con todo aquello de lo que antes me sentía orgulloso. ¿Por qué? Por Cristo. Sí, todo lo que antes consideraba tan importante ya no cuenta en mi vida. Comparado con el enorme privilegio de conocer de primera mano a Cristo Jesús como mi Maestro, todo lo que antes creía tener a mi favor es insignificante: excremento de perro. Lo he arrojado todo a la basura para poder abrazar a Cristo y ser abrazado por él. No quería esa versión mezquina e inferior de justicia que viene de cumplir una lista de reglas, cuando podía recibir la justicia robusta que viene de confiar en Cristo: la justicia de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-09"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "filipenses3-msg-04",
+      "msg": {
+        "en": "I gave up all that inferior stuff so I could know Christ personally, experience his resurrection power, be a partner in his suffering, and go all the way with him to death itself. If there was any way to get in on the resurrection from the dead, I wanted to do it.",
+        "es": "Renuncié a todo eso inferior para poder conocer personalmente a Cristo, experimentar el poder de su resurrección, participar en sus sufrimientos y acompañarlo hasta el final, hasta la muerte misma. Si había alguna manera de participar en la resurrección de entre los muertos, yo quería hacerlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "filipenses3-msg-05",
+      "msg": {
+        "en": "I’m not saying that I have this all together, that I have it made. But I am well on my way, reaching out for Christ, who has so wondrously reached out for me. Friends, don’t get me wrong: By no means do I count myself an expert in all of this, but I’ve got my eye on the goal, where God is beckoning us onward—to Jesus. I’m off and running, and I’m not turning back.",
+        "es": "No estoy diciendo que ya tenga todo esto resuelto, que ya haya llegado. Pero voy bien encaminado, extendiéndome hacia Cristo, quien de manera tan maravillosa se ha extendido hacia mí. Amigos, no me malinterpreten: de ninguna manera me considero un experto en todo esto. Pero tengo los ojos puestos en la meta, hacia donde Dios nos llama a seguir adelante: hacia Jesús. Ya estoy corriendo, y no voy a volver atrás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "filipenses3-msg-06",
+      "msg": {
+        "en": "So let’s keep focused on that goal, those of us who want everything God has for us. If any of you have something else in mind, something less than total commitment, God will clear your blurred vision—you’ll see it yet! Now that we’re on the right track, let’s stay on it.",
+        "es": "Así que mantengamos la mirada en esa meta, los que queremos todo lo que Dios tiene para nosotros. Si alguno piensa de otra manera, si se conforma con menos que un compromiso total, Dios aclarará su visión borrosa; ¡ya lo verá! Ahora que estamos en el camino correcto, permanezcamos en él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-16"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "filipenses3-msg-07",
+      "msg": {
+        "en": "Stick with me, friends. Keep track of those you see running this same course, headed for this same goal. There are many out there taking other paths, choosing other goals, and trying to get you to go along with them. I’ve warned you of them many times; sadly, I’m having to do it again. All they want is easy street. They hate Christ’s Cross. But easy street is a dead-end street. Those who live there make their bellies their gods; belches are their praise; all they can think of is their appetites.",
+        "es": "Sigan conmigo, amigos. Fíjense en los que ven corriendo esta misma carrera, rumbo a la misma meta. Hay muchos por ahí tomando otros caminos, escogiendo otras metas e intentando que ustedes se vayan con ellos. Se los he advertido muchas veces y, con tristeza, tengo que repetirlo. Lo único que quieren es una vida fácil. Odian la cruz de Cristo. Pero el camino fácil termina en un callejón sin salida. Quienes viven allí hacen de su vientre su dios; sus eructos son su alabanza; lo único en lo que piensan es en satisfacer sus apetitos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "filipenses3-msg-08",
+      "msg": {
+        "en": "But there’s far more to life for us. We’re citizens of high heaven! We’re waiting the arrival of the Savior, the Master, Jesus Christ, who will transform our earthy bodies into glorious bodies like his own. He’ll make us beautiful and whole with the same powerful skill by which he is putting everything as it should be, under and around him.",
+        "es": "Pero para nosotros la vida es mucho más que eso. ¡Somos ciudadanos del cielo! Esperamos la llegada del Salvador, el Maestro, Jesucristo, quien transformará nuestros cuerpos terrenales en cuerpos gloriosos como el suyo. Nos hará hermosos y completos con el mismo poder con que está poniendo todo en su lugar, bajo su autoridad y alrededor de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "filipenses3-nbla-21"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "filipenses3-nbla-01",
+      "number": 1,
+      "text": "Por lo demás, hermanos míos, regocíjense en el Señor. A mí no me es molesto escribirles otra vez lo mismo, y para ustedes es motivo de seguridad."
+    },
+    {
+      "id": "filipenses3-nbla-02",
+      "number": 2,
+      "text": "Cuídense de esos perros, cuídense de los malos obreros, cuídense de la falsa circuncisión."
+    },
+    {
+      "id": "filipenses3-nbla-03",
+      "number": 3,
+      "text": "Porque nosotros somos la verdadera circuncisión, que adoramos en el Espíritu de Dios y nos gloriamos en Cristo Jesús, no poniendo la confianza en la carne,"
+    },
+    {
+      "id": "filipenses3-nbla-04",
+      "number": 4,
+      "text": "aunque yo mismo podría confiar también en la carne. Si algún otro cree tener motivo para confiar en la carne, yo mucho más:"
+    },
+    {
+      "id": "filipenses3-nbla-05",
+      "number": 5,
+      "text": "circuncidado a los ocho días de nacer, del linaje de Israel, de la tribu de Benjamín, hebreo de hebreos; en cuanto a la ley, fariseo;"
+    },
+    {
+      "id": "filipenses3-nbla-06",
+      "number": 6,
+      "text": "en cuanto al celo, perseguidor de la iglesia; en cuanto a la justicia de la ley, hallado irreprensible."
+    },
+    {
+      "id": "filipenses3-nbla-07",
+      "number": 7,
+      "text": "Pero todo lo que para mí era ganancia, lo he estimado como pérdida por amor de Cristo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "filipenses3-nbla-08a",
+          "order": 1,
+          "text": "Y aún más,"
+        },
+        {
+          "id": "filipenses3-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "yo estimo como pérdida todas las cosas en vista del incomparable valor de conocer a Cristo Jesús, mi Señor"
+        },
+        {
+          "id": "filipenses3-nbla-08c",
+          "order": 3,
+          "text": ". Por Él lo he perdido todo, y lo considero como basura"
+        },
+        {
+          "id": "filipenses3-nbla-08d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "a fin de ganar a Cristo,"
+        }
+      ],
+      "id": "filipenses3-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "filipenses3-nbla-09a",
+          "order": 1,
+          "text": "y ser hallado en Él"
+        },
+        {
+          "id": "filipenses3-nbla-09b",
+          "order": 2,
+          "text": ", no teniendo mi propia justicia derivada de la ley, sino la que es por la fe en Cristo, la justicia que procede de Dios sobre la base de la fe,"
+        }
+      ],
+      "id": "filipenses3-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "filipenses3-nbla-10a",
+          "order": 1,
+          "text": "y"
+        },
+        {
+          "id": "filipenses3-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "conocerlo a Él, el poder de Su resurrección y la participación en Sus padecimientos"
+        },
+        {
+          "id": "filipenses3-nbla-10c",
+          "order": 3,
+          "text": ", llegando a ser como Él en Su muerte,"
+        }
+      ],
+      "id": "filipenses3-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "filipenses3-nbla-11",
+      "number": 11,
+      "text": "a fin de llegar a la resurrección de entre los muertos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "filipenses3-nbla-12a",
+          "order": 1,
+          "text": "No es que ya lo haya alcanzado o que ya haya llegado a ser perfecto, sino que sigo adelante,"
+        },
+        {
+          "id": "filipenses3-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "a fin de poder alcanzar aquello para lo cual también fui alcanzado por Cristo Jesús."
+        }
+      ],
+      "id": "filipenses3-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "filipenses3-nbla-13",
+      "number": 13,
+      "text": "Hermanos, yo mismo no considero haberlo ya alcanzado. Pero una cosa hago: olvidando lo que queda atrás y extendiéndome a lo que está delante,"
+    },
+    {
+      "id": "filipenses3-nbla-14",
+      "number": 14,
+      "text": "prosigo hacia la meta para obtener el premio del supremo llamamiento de Dios en Cristo Jesús."
+    },
+    {
+      "id": "filipenses3-nbla-15",
+      "number": 15,
+      "text": "Así que todos los que somos perfectos, tengamos esta misma actitud; y si en algo tienen una actitud distinta, eso también se lo revelará Dios."
+    },
+    {
+      "id": "filipenses3-nbla-16",
+      "number": 16,
+      "text": "Sin embargo, continuemos viviendo según la misma norma que hemos alcanzado."
+    },
+    {
+      "id": "filipenses3-nbla-17",
+      "number": 17,
+      "text": "Hermanos, sean imitadores míos, y observen a los que andan según el ejemplo que tienen en nosotros."
+    },
+    {
+      "id": "filipenses3-nbla-18",
+      "number": 18,
+      "text": "Porque muchos andan como les he dicho muchas veces, y ahora se lo digo aun llorando, que son enemigos de la cruz de Cristo,"
+    },
+    {
+      "id": "filipenses3-nbla-19",
+      "number": 19,
+      "text": "cuyo fin es perdición, cuyo dios es su apetito y cuya gloria está en su vergüenza, los cuales piensan solo en las cosas terrenales."
+    },
+    {
+      "clauses": [
+        {
+          "id": "filipenses3-nbla-20a",
+          "order": 1,
+          "text": "Porque nuestra ciudadanía está en los cielos"
+        },
+        {
+          "id": "filipenses3-nbla-20b",
+          "order": 2,
+          "text": ", de donde también ansiosamente esperamos a un Salvador, el Señor Jesucristo,"
+        }
+      ],
+      "id": "filipenses3-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "filipenses3-nbla-21",
+      "number": 21,
+      "text": "el cual transformará el cuerpo de nuestro estado de humillación en conformidad al cuerpo de Su gloria, por el ejercicio del poder que tiene aun para sujetar todas las cosas a Él mismo."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
