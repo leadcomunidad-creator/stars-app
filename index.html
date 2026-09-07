@@ -921,11 +921,13 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .cal-day{width:100%;aspect-ratio:1;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:0.75rem;font-weight:500;cursor:pointer;transition:all 0.15s;position:relative;background:var(--black4);color:var(--white3);border:1px solid transparent}
 .cal-day.empty{background:transparent;cursor:default;border:none}
 .cal-day.today{border-color:var(--gold-border);color:var(--gold)}
-.cal-day.done{background:var(--green-dim);border-color:var(--green-border);color:var(--green2)}
-.cal-day.week-gold{background:rgba(201,168,76,0.2);border-color:var(--gold-border);color:var(--gold2)}
+.cal-day.done{background:rgba(201,168,76,0.2);border-color:var(--gold-border);color:var(--gold2)}
+.cal-day.week-green{background:rgba(45,122,79,0.18);border-color:rgba(45,122,79,0.45);color:#3a9962}
 .cal-day.month-purple{background:rgba(139,92,246,0.2);border-color:rgba(139,92,246,0.4);color:#a78bfa}
+.cal-day.restored::after{content:'★';position:absolute;right:3px;top:1px;font-size:0.4375rem;color:var(--gold)}
 .cal-day.future{opacity:0.3;cursor:default}
 .cal-day:not(.empty):not(.future):hover{transform:scale(1.08)}
+.wday-dot.selected{box-shadow:0 0 0 2px var(--gold);transform:scale(1.08)}
 .cal-racha-info{margin:12px 16px;padding:12px 14px;background:var(--black3);border-radius:var(--radius-sm);border:1px solid var(--gold-border2)}
 .cal-racha-num{font-family:'Cormorant Garamond',serif;font-size:2.0rem;color:var(--gold);font-weight:500}
 .cal-racha-label{font-size:0.6875rem;color:var(--white3);margin-top:2px}
@@ -933,6 +935,73 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .cal-sorteo-title{font-size:0.625rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px}
 .cal-sorteo-num{font-family:'Cormorant Garamond',serif;font-size:1.75rem;color:#a78bfa;font-weight:500}
 .cal-sorteo-desc{font-size:0.625rem;color:var(--white3);margin-top:2px}
+/* ══ Acciones del Paso Diario: estrellas de restauración, guardar día, días guardados ══
+   Integradas como pie de la tarjeta paso-card (ver .paso-actions más abajo).
+   .devo-context-btn se conserva como clase de apoyo para las mismas acciones
+   dentro del calendario de racha y de las tarjetas de "Mis días guardados",
+   para que compartan un único sistema visual.
+   Área táctil: cada control usa position:relative + un ::before absoluto de
+   ≥44×44px centrado sobre sí mismo (ver regla compartida más abajo), de forma
+   que el tamaño visual no cambia pero el área tocable en móvil sí cumple 44px. */
+.paso-actions{display:flex;flex-wrap:wrap;align-items:center;row-gap:16px;column-gap:18px;padding:13px 18px;border-top:1px solid rgba(255,255,255,0.06)}
+.paso-actions-start{display:flex;align-items:center;flex-wrap:wrap;gap:12px;min-width:0}
+.paso-actions-end{display:flex;align-items:center;flex-wrap:wrap;gap:18px;margin-left:auto}
+.paso-star-status{position:relative;background:none;border:0;padding:0;margin:0;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;font-family:'Outfit',sans-serif;color:var(--gold);white-space:nowrap}
+.paso-star-status span{font-size:0.75rem;font-weight:700;letter-spacing:0.01em}
+.paso-star-status small{font-size:0.5625rem;color:var(--white3);font-weight:500;letter-spacing:0.06em;text-transform:uppercase}
+.paso-save-btn{position:relative;display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:6px 8px;margin:-6px -8px;border-radius:8px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.8125rem;font-weight:700;color:var(--gold2);white-space:nowrap;transition:background .15s ease}
+.paso-save-btn svg{flex-shrink:0}
+.paso-save-btn:hover{background:rgba(201,168,76,0.09)}
+.paso-save-btn.is-saved{background:rgba(201,168,76,0.16)}
+/* "Días guardados": navegación secundaria, pero legible y con affordance de enlace
+   (subrayado tenue permanente + color más claro que antes) — ya no se lee "deshabilitada". */
+.paso-bank-link{position:relative;display:inline-flex;align-items:center;gap:6px;background:none;border:0;padding:6px 2px;margin:-6px -2px;cursor:pointer;font-family:'Outfit',sans-serif;font-size:0.75rem;font-weight:650;color:var(--white2);letter-spacing:0.01em;white-space:nowrap;text-decoration:underline;text-decoration-color:rgba(255,255,255,0.25);text-underline-offset:3px;transition:color .15s ease,text-decoration-color .15s ease}
+.paso-bank-link svg{flex-shrink:0;opacity:0.9}
+.paso-bank-link:hover{color:var(--gold);text-decoration-color:var(--gold-border)}
+.paso-today-chip{position:relative;display:inline-block;background:var(--gold-dim);border:1px solid var(--gold-border);color:var(--gold2);border-radius:20px;padding:6px 12px 6px 10px;font-family:'Outfit',sans-serif;font-size:0.75rem;font-weight:700;cursor:pointer;white-space:nowrap;transition:background .15s ease}
+/* Nota: el JS existente alterna esta acción con style.display='inline-block' (nunca inline-flex),
+   por eso el icono se alinea con vertical-align en vez de con flexbox. */
+.paso-today-chip svg{vertical-align:-2px;margin-right:5px}
+.paso-today-chip:hover{background:rgba(201,168,76,0.22)}
+/* Acciones compartidas: calendario de racha ("Ver días guardados" + saldo de estrellas)
+   y tarjetas de "Mis días guardados" (Abrir Paso Diario / Quitar). El primer elemento de
+   cada fila es la acción principal; el segundo es un estado o una acción secundaria. */
+.devo-context-btn{position:relative;border:0;background:none;color:var(--white2);border-radius:8px;padding:8px 10px;font-family:'Outfit',sans-serif;font-size:0.75rem;font-weight:650;cursor:pointer;white-space:nowrap;text-align:center;transition:background .15s ease,color .15s ease}
+.devo-context-btn:first-child{background:var(--gold-dim);color:var(--gold);border:1px solid var(--gold-border)}
+.devo-context-btn:first-child:hover{background:rgba(201,168,76,0.2)}
+div.devo-context-btn:last-child{color:var(--gold);font-weight:700;cursor:default}
+button.devo-context-btn:last-child{color:var(--white2)}
+button.devo-context-btn:last-child:hover{background:rgba(255,255,255,0.06);color:var(--white)}
+/* Área táctil ≥44px sin cambiar el tamaño visual (ver nota de .paso-actions). */
+.paso-star-status::before,.paso-save-btn::before,.paso-bank-link::before,.paso-today-chip::before,.devo-context-btn::before{
+  content:"";position:absolute;top:50%;left:50%;width:max(100%,44px);height:max(100%,44px);transform:translate(-50%,-50%);
+}
+/* Foco visible por teclado, sin alterar el tamaño de cada control. */
+.paso-star-status:focus-visible,.paso-save-btn:focus-visible,.paso-bank-link:focus-visible,.paso-today-chip:focus-visible,.devo-context-btn:focus-visible{
+  outline:2px solid var(--gold2);outline-offset:2px;border-radius:8px;
+}
+/* Composición móvil: por debajo de 600px el pie pasa a dos filas deliberadas
+   (saldo/"Volver a Hoy" arriba, Guardar/Días guardados abajo, con espaciado
+   simétrico) para que nunca dependa de un salto de línea accidental. */
+@media(max-width:599px){
+  .paso-actions-start{flex:1 1 100%}
+  .paso-actions-end{flex:1 1 100%;margin-left:0;justify-content:space-between}
+}
+.bank-modal{position:fixed;inset:0;z-index:620;display:none;align-items:flex-end;justify-content:center}
+.bank-modal.open{display:flex}
+.bank-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,0.88);backdrop-filter:blur(6px)}
+.bank-sheet{position:relative;width:100%;max-width:520px;max-height:88vh;display:flex;flex-direction:column;background:var(--black2);border:1px solid var(--gold-border2);border-radius:20px 20px 0 0;overflow:hidden}
+.bank-head{display:flex;align-items:center;justify-content:space-between;padding:18px 20px 12px;border-bottom:1px solid var(--black5)}
+.bank-title{font-family:'Cormorant Garamond',serif;font-size:1.375rem;color:var(--gold)}
+.bank-sub{font-size:0.625rem;color:var(--white3);margin-top:3px}
+.bank-list{padding:14px 16px 24px;overflow-y:auto}
+.bank-item{padding:14px;border:1px solid var(--gold-border2);background:var(--black3);border-radius:12px;margin-bottom:10px}
+.bank-item-date{font-size:0.5625rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:5px}
+.bank-item-title{font-family:'Cormorant Garamond',serif;font-size:1.0625rem;color:var(--white);line-height:1.3}
+.bank-item-ref{font-size:0.6875rem;color:var(--white3);margin-top:4px}
+.bank-item-actions{display:flex;gap:8px;margin-top:12px}
+.bank-empty{text-align:center;padding:36px 18px;color:var(--white3);font-size:0.75rem;line-height:1.7}
+@media(min-width:768px){.bank-modal{align-items:center}.bank-sheet{border-radius:20px;max-height:78vh}}
 
 /* ══ EXEGÉTICO ══ */
 .exeg-btn{
@@ -2595,7 +2664,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
 
   // ── Guardar dato en Firestore (merge) ──
   async function fbSet(data){
-    if(!_uid) return;
+    if(!_uid || _uid==='local-test-uid') return;
     try { await setDoc(userRef(), data, {merge:true}); } catch(e){ console.error('fbSet',e); }
   }
 
@@ -2675,6 +2744,33 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({estudio_current_chapter: value});
     },
     getCurrentChapter: () => String(fbGet('estudio_current_chapter', '') || ''),
+    // Estrellas de restauración, días restaurados y Banco S.T.A.R.S.
+    getRachaStars: () => Math.max(0, Math.min(3, parseInt(fbGet('racha_estrellas', 1), 10) || 0)),
+    setRachaStars: (cantidad) => {
+      const value = Math.max(0, Math.min(3, parseInt(cantidad, 10) || 0));
+      _userData.racha_estrellas = value;
+      fbSet({racha_estrellas:value});
+      return value;
+    },
+    getRachaStarCapacity: () => Math.max(1, Math.min(3, parseInt(fbGet('racha_capacidad_estrellas', 1), 10) || 1)),
+    setRachaStarCapacity: (cantidad) => {
+      const value = Math.max(1, Math.min(3, parseInt(cantidad, 10) || 1));
+      _userData.racha_capacidad_estrellas = value;
+      fbSet({racha_capacidad_estrellas:value});
+      return value;
+    },
+    getRachaMap: (campo) => ({...(fbGet(campo, {}) || {})}),
+    setRachaMap: (campo, value) => {
+      const safe = value && typeof value === 'object' ? value : {};
+      _userData[campo] = safe;
+      fbSet({[campo]:safe});
+    },
+    getBancoStars: () => ({...(fbGet('banco_stars', {}) || {})}),
+    setBancoStars: (value) => {
+      const safe = value && typeof value === 'object' ? value : {};
+      _userData.banco_stars = safe;
+      fbSet({banco_stars:safe});
+    },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
       const hoy = window.ADMIN_DATE || new Date();
@@ -2684,13 +2780,14 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         const dd = String(d.getDate()).padStart(2,'0');
         return yyyy+'-'+mm+'-'+dd;
       };
+      const invalidos = fbGet('racha_invalidos', {}) || {};
       const keyHoy = toKey(hoy);
       const pasosHoy = fbGet('pasos_' + keyHoy, {});
       let hoyCompleto = true;
       for(let s=0; s<5; s++){
         if(pasosHoy[s] !== '1'){ hoyCompleto = false; break; }
       }
-      const inicio = hoyCompleto ? 0 : 1;
+      const inicio = hoyCompleto && !invalidos[keyHoy] ? 0 : 1;
       let racha = 0;
       for(let i=inicio; i<365; i++){
         const d = new Date(hoy);
@@ -2701,7 +2798,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         for(let s=0; s<5; s++){
           if(pasos[s] !== '1'){ completo = false; break; }
         }
-        if(completo) racha++;
+        if(completo && !invalidos[key]) racha++;
         else break;
       }
       return racha;
@@ -2761,6 +2858,15 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         const snap = await getDoc(userRef());
         _userData = snap.exists() ? snap.data() : {};
       } catch(e){ _userData = {}; }
+      // Toda persona comienza con una estrella de restauración.
+      if(_userData.racha_estrellas === undefined){
+        _userData.racha_estrellas = 1;
+        fbSet({racha_estrellas:1});
+      }
+      if(_userData.racha_capacidad_estrellas === undefined){
+        _userData.racha_capacidad_estrellas = 1;
+        fbSet({racha_capacidad_estrellas:1});
+      }
       // Escuchar cambios en tiempo real (sync entre dispositivos)
       _unsubscribe = onSnapshot(userRef(), (snap) => {
         if(snap.exists()){
@@ -2771,6 +2877,8 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof updateRachaUI === 'function') updateRachaUI();
+            if(typeof actualizarDevoContextoUI === 'function') actualizarDevoContextoUI();
+            if(typeof renderBancoStars === 'function' && document.getElementById('bank-modal')?.classList.contains('open')) renderBancoStars();
             if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
             if(typeof dskRenderCaps === 'function') dskRenderCaps(document.getElementById('dsk-cap-search')?.value || '');
           }
@@ -3082,6 +3190,24 @@ window.addEventListener('DOMContentLoaded', ()=>{
               <div class="step-sub">Ejercicio para hoy</div>
             </div>
             <div class="step-circle" id="sc-4"></div>
+          </div>
+        </div>
+
+        <!-- Acciones del Paso Diario: volver a hoy, estrellas de restauración, guardar día, días guardados -->
+        <div class="paso-actions">
+          <div class="paso-actions-start">
+            <button class="paso-today-chip" id="devo-today-mobile" onclick="volverAlDiaActual()" style="display:none">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="12 19 5 12 12 5"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+              Volver a Hoy
+            </button>
+            <button class="paso-star-status" id="racha-stars-mobile" onclick="mostrarInfoEstrellas()"><span>★ 1 de 3</span><small>para restaurar</small></button>
+          </div>
+          <div class="paso-actions-end">
+            <button class="paso-save-btn" id="devo-save-mobile" onclick="toggleBancoDiaActivo()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span></button>
+            <button class="paso-bank-link" onclick="abrirBancoStars()">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3h13A1.5 1.5 0 0 1 20 4.5V21l-8-4.5-8 4.5V4.5z"/></svg>
+              Días guardados
+            </button>
           </div>
         </div>
       </div>
@@ -3763,9 +3889,13 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
     </div>
     <div class="cal-legend" style="padding:0 16px 8px">
-      <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--green2)"></div>Día completado</div>
-      <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Semana completa</div>
+      <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Día completado</div>
+      <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#3a9962"></div>Semana completa</div>
       <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#8b5cf6"></div>Mes completo</div>
+    </div>
+    <div style="display:flex;gap:8px;padding:0 16px 10px">
+      <button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button>
+      <div class="devo-context-btn" style="cursor:default"><span id="cal-stars-balance">★ 1 de 3</span></div>
     </div>
     <div class="cal-nav">
       <button class="cal-nav-btn" onclick="cambiarMes(-1)">‹</button>
@@ -3775,6 +3905,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div class="cal-body">
       <div class="cal-grid" id="cal-grid"></div>
     </div>
+  </div>
+</div>
+
+<!-- ══ BANCO S.T.A.R.S. ══ -->
+<div class="bank-modal" id="bank-modal">
+  <div class="bank-modal-bg" onclick="cerrarBancoStars()"></div>
+  <div class="bank-sheet">
+    <div class="bank-head">
+      <div><div class="bank-title">Mis días guardados</div><div class="bank-sub">Pasos Diarios para volver a estudiar cuando quieras</div></div>
+      <button class="cal-close" onclick="cerrarBancoStars()">×</button>
+    </div>
+    <div class="bank-list" id="bank-list"></div>
   </div>
 </div>
 
@@ -4422,7 +4564,7 @@ function initPasoDiario(){
   const d = getDevoHoy();
   if(!d){
     const titulo=document.getElementById('pd-titulo');const versiculo=document.getElementById('pd-versiculo');
-    if(titulo) titulo.textContent='Devocional en camino…';if(versiculo) versiculo.textContent='Próximamente';return;
+    if(titulo) titulo.textContent='Paso Diario en camino…';if(versiculo) versiculo.textContent='Próximamente';return;
   }
   document.getElementById('pd-titulo').textContent=d.titulo;
   const dDt=document.getElementById('dsk-pd-titulo');if(dDt)dDt.textContent=d.titulo;
@@ -4481,7 +4623,7 @@ function calcularRacha(){
   }
 
   // Si hoy no está completo, empezar desde ayer para no romper la racha
-  const inicio = hoyCompleto ? 0 : 1;
+  const inicio = hoyCompleto && !esDiaInvalidoParaRacha(keyHoy) ? 0 : 1;
   let racha = 0;
 
   for(let i=inicio; i<365; i++){
@@ -4492,7 +4634,7 @@ function calcularRacha(){
     for(let s=0; s<5; s++){
       if(localStorage.getItem('stars_paso_'+key+'_'+s) !== '1'){ completado = false; break; }
     }
-    if(completado) racha++;
+    if(completado && !esDiaInvalidoParaRacha(key)) racha++;
     else break;
   }
   return racha;
@@ -4851,7 +4993,7 @@ function initDesktop(){
 
   // Fecha
   const fEl = document.getElementById('dsk-fecha');
-  if(fEl) fEl.textContent = new Date().toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).toUpperCase();
+  if(fEl) fEl.textContent = fechaDesdeKey(getTodayKey()).toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'}).toUpperCase();
 
   // Racha
   updateRachaUI();
@@ -4865,7 +5007,7 @@ function initDesktop(){
     if(titEl) titEl.textContent = devo.titulo;
     if(verEl) verEl.textContent = devo.versiculo;
   } else {
-    if(titEl) titEl.textContent = 'Devocional en camino…';
+    if(titEl) titEl.textContent = 'Paso Diario en camino…';
   }
 
   // Pasos
@@ -5617,7 +5759,7 @@ function dskRenderHistorial(){
     const isProf = e._tipo==='paso_profundo';
     const chipClass = isPaso?'diario':isProf?'profundo':'diario';
     const chipLabel = isPaso?'Paso Diario':isProf?'Paso Profundo':'Diario';
-    const titulo = isPaso?(e.titulo||'Devocional'):isProf?'Paso Profundo':(e.r1||'Entrada').substring(0,30);
+    const titulo = isPaso?(e.titulo||'Paso Diario'):isProf?'Paso Profundo':(e.r1||'Entrada').substring(0,30);
     const preview = (isPaso?(e.reflexion||e.sembrar||''):isProf?(e.reflexion||''):(e.r1||'')).substring(0,80);
     return `<div class="dsk-hist-entry" onclick="dskVerEntrada('${e.id}')">
       <div class="dsk-hist-entry-top">
@@ -5731,7 +5873,7 @@ function dsk_descargar(){
 
 /* ══════════ FECHA ══════════ */
 function initFecha(){
-  const d=window.ADMIN_DATE || new Date();
+  const d=fechaDesdeKey(getTodayKey());
   const dias=['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
   const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
   const fechaTxt = `${dias[d.getDay()]} ${d.getDate()} de ${meses[d.getMonth()]} de ${d.getFullYear()}`;
@@ -5745,11 +5887,125 @@ function initFecha(){
 }
 
 /* ══════════ WEEK ══════════ */
-function getTodayKey(){ return dateToKey(window.ADMIN_DATE || new Date()); }
+let FECHA_DEVOCIONAL_ACTIVA = null;
+function fechaActualBase(){ return window.ADMIN_DATE ? new Date(window.ADMIN_DATE) : new Date(); }
+function getActualTodayKey(){ return dateToKey(fechaActualBase()); }
+function getTodayKey(){ return FECHA_DEVOCIONAL_ACTIVA || getActualTodayKey(); }
+function fechaDesdeKey(key){
+  const [y,m,d]=String(key||'').split('-').map(Number);
+  return new Date(y,m-1,d,12,0,0,0);
+}
 function getDateKey(date){
   // Devuelve "YYYY-MM-DD" para cualquier fecha
-  return date.toISOString().slice(0,10);
+  return dateToKey(date);
 }
+
+function leerMapaRacha(campo){
+  if(window.FB) return window.FB.getRachaMap(campo);
+  try{return JSON.parse(localStorage.getItem('stars_'+campo)||'{}')||{};}catch(_){return {};}
+}
+function guardarMapaRacha(campo,value){
+  if(window.FB) window.FB.setRachaMap(campo,value);
+  else localStorage.setItem('stars_'+campo,JSON.stringify(value||{}));
+}
+function getRachaStars(){
+  if(window.FB) return window.FB.getRachaStars();
+  const raw=localStorage.getItem('stars_racha_estrellas');
+  if(raw===null){localStorage.setItem('stars_racha_estrellas','1');return 1;}
+  return Math.max(0,Math.min(3,parseInt(raw,10)||0));
+}
+function setRachaStars(cantidad){
+  const value=Math.max(0,Math.min(3,parseInt(cantidad,10)||0));
+  if(window.FB) window.FB.setRachaStars(value);
+  else localStorage.setItem('stars_racha_estrellas',String(value));
+  actualizarDevoContextoUI();
+  return value;
+}
+function getRachaStarCapacity(){
+  if(window.FB) return window.FB.getRachaStarCapacity();
+  const raw=localStorage.getItem('stars_racha_capacidad_estrellas');
+  if(raw===null){localStorage.setItem('stars_racha_capacidad_estrellas','1');return 1;}
+  return Math.max(1,Math.min(3,parseInt(raw,10)||1));
+}
+function setRachaStarCapacity(cantidad){
+  const value=Math.max(1,Math.min(3,parseInt(cantidad,10)||1));
+  if(window.FB) window.FB.setRachaStarCapacity(value);
+  else localStorage.setItem('stars_racha_capacidad_estrellas',String(value));
+  return value;
+}
+function esDiaRestaurado(key){return Boolean(leerMapaRacha('racha_restaurados')[key]);}
+function esDiaInvalidoParaRacha(key){return Boolean(leerMapaRacha('racha_invalidos')[key]);}
+function marcarDiaRestaurado(key){
+  const restaurados=leerMapaRacha('racha_restaurados');restaurados[key]=Date.now();guardarMapaRacha('racha_restaurados',restaurados);
+  const invalidos=leerMapaRacha('racha_invalidos');if(invalidos[key]){delete invalidos[key];guardarMapaRacha('racha_invalidos',invalidos);}
+}
+function marcarDiaInvalidoParaRacha(key){
+  const invalidos=leerMapaRacha('racha_invalidos');invalidos[key]=Date.now();guardarMapaRacha('racha_invalidos',invalidos);
+}
+function diasEntreClaves(desde,hasta){return Math.round((fechaDesdeKey(hasta)-fechaDesdeKey(desde))/86400000);}
+
+function getBancoStars(){
+  if(window.FB) return window.FB.getBancoStars();
+  try{return JSON.parse(localStorage.getItem('stars_banco_stars')||'{}')||{};}catch(_){return {};}
+}
+function setBancoStars(value){
+  if(window.FB) window.FB.setBancoStars(value);
+  else localStorage.setItem('stars_banco_stars',JSON.stringify(value||{}));
+}
+function estaEnBancoStars(key){return Boolean(getBancoStars()[key]);}
+function descripcionFechaDevocional(key){return fechaDesdeKey(key).toLocaleDateString('es-CO',{weekday:'long',day:'numeric',month:'long',year:'numeric'});}
+
+function actualizarDevoContextoUI(){
+  const key=getTodayKey();const esHoy=key===getActualTodayKey();const guardado=estaEnBancoStars(key);const stars=getRachaStars();
+  ['mobile','desktop'].forEach(ctx=>{
+    const saldo=document.getElementById('racha-stars-'+ctx);if(saldo) saldo.innerHTML=`<span>★ ${stars} de 3</span><small>para restaurar</small>`;
+    const save=document.getElementById('devo-save-'+ctx);if(save){save.innerHTML=guardado?'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Día guardado</span>':'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span>';save.classList.toggle('is-saved',guardado);}
+    const hoy=document.getElementById('devo-today-'+ctx);if(hoy) hoy.style.display=esHoy?'none':'inline-block';
+  });
+  const cal=document.getElementById('cal-stars-balance');if(cal) cal.textContent='★ '+stars+' de 3';
+}
+function mostrarInfoEstrellas(){showToast('Estas estrellas sirven para restaurar un día pendiente. Tienes '+getRachaStars()+' de 3.');}
+
+function toggleBancoDiaActivo(){
+  const key=getTodayKey();const devo=getDevoHoy();if(!devo)return;
+  const banco=getBancoStars();
+  if(banco[key]){delete banco[key];showToast('Día retirado de tus guardados');}
+  else{banco[key]={fecha:key,titulo:devo.titulo||'',versiculo:devo.versiculo||'',guardadoEn:Date.now()};showToast('Día guardado');}
+  setBancoStars(banco);actualizarDevoContextoUI();renderBancoStars();
+}
+function renderBancoStars(contenedorId='bank-list'){
+  const list=document.getElementById(contenedorId);if(!list)return;
+  const items=Object.values(getBancoStars()).sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha)));
+  if(!items.length){list.innerHTML='<div class="bank-empty"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><br><br>Aún no has guardado ningún día.<br>Usa “Guardar este día” en cualquier Paso Diario.</div>';return;}
+  list.innerHTML=items.map(item=>`<div class="bank-item"><div class="bank-item-date">${escaparHTML(descripcionFechaDevocional(item.fecha))}${esDiaRestaurado(item.fecha)?' · ★ Restaurado':''}</div><div class="bank-item-title">${escaparHTML(item.titulo||'Paso Diario')}</div><div class="bank-item-ref">${escaparHTML(item.versiculo||'')}</div><div class="bank-item-actions"><button class="devo-context-btn" style="flex:1" onclick="abrirDevocionalGuardado('${item.fecha}')">Abrir Paso Diario</button><button class="devo-context-btn" onclick="quitarDelBancoStars('${item.fecha}')">Quitar</button></div></div>`).join('');
+}
+function abrirBancoStars(){
+  cerrarCalendario();
+  if(typeof isDesktop==='function'&&isDesktop()){
+    dskWsShow('Mis días guardados','<div class="bank-list" id="dsk-bank-list" style="padding:0"></div>');renderBancoStars('dsk-bank-list');return;
+  }
+  renderBancoStars();document.getElementById('bank-modal').classList.add('open');document.body.style.overflow='hidden';
+}
+function cerrarBancoStars(){document.getElementById('bank-modal')?.classList.remove('open');document.body.style.overflow='';}
+function quitarDelBancoStars(key){const banco=getBancoStars();delete banco[key];setBancoStars(banco);renderBancoStars();renderBancoStars('dsk-bank-list');actualizarDevoContextoUI();showToast('Día retirado de tus guardados');}
+
+function semanaISOConAnio(date){
+  const d=new Date(Date.UTC(date.getFullYear(),date.getMonth(),date.getDate()));const day=d.getUTCDay()||7;d.setUTCDate(d.getUTCDate()+4-day);
+  return {year:d.getUTCFullYear(),week:getISOWeek(date)};
+}
+function estaEnSemanaActual(key){return getWeekDates().some(d=>dateToKey(d)===key);}
+async function activarDiaDevocional(key,{desdeBanco=false}={}){
+  const actual=getActualTodayKey();if(key>actual){showToast('Ese día todavía no está disponible');return false;}
+  if(!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)){showToast('Los días anteriores permanecen disponibles si los guardas en Mis días');return false;}
+  if(!DEVOCIONALES[key]){const info=semanaISOConAnio(fechaDesdeKey(key));await cargarDevocionalSemana(info.year,info.week);}
+  if(!DEVOCIONALES[key]){showToast('Sin Paso Diario disponible para ese día');return false;}
+  FECHA_DEVOCIONAL_ACTIVA=key===actual?null:key;
+  initFecha();initPasoDiario();initSteps();initWeek();actualizarDevoContextoUI();
+  if(isDesktop()){dskTab('hoy');initDesktop();dskWsEmpty();}else{navTo('hoy');}
+  return true;
+}
+async function abrirDevocionalGuardado(key){cerrarBancoStars();await activarDiaDevocional(key,{desdeBanco:true});}
+async function volverAlDiaActual(){await activarDiaDevocional(getActualTodayKey(),{desdeBanco:true});}
 
 function getDayOfWeek(date){
   // Lunes=0 ... Domingo=6
@@ -5763,6 +6019,48 @@ function isDayComplete(dateKey){
     if(!(window.FB ? window.FB.getPaso(dateKey,i) : localStorage.getItem('stars_paso_'+dateKey+'_'+i)==='1')) return false;
   }
   return true;
+}
+
+function fechasSemanaDe(key){
+  const base=fechaDesdeKey(key);const idx=getDayOfWeek(base);const lunes=new Date(base);lunes.setDate(base.getDate()-idx);
+  return Array.from({length:7},(_,i)=>{const d=new Date(lunes);d.setDate(lunes.getDate()+i);return dateToKey(d);});
+}
+function premiarConstanciaSiCorresponde(key){
+  const recompensas=leerMapaRacha('racha_recompensas');let saldo=getRachaStars();let capacidad=getRachaStarCapacity();let cambio=false;
+  const semana=fechasSemanaDe(key);const info=semanaISOConAnio(fechaDesdeKey(key));const premioSemana='semana_'+info.year+'_'+String(info.week).padStart(2,'0');
+  const semanaPerfecta=semana.every(isDayComplete)&&semana.every(d=>!esDiaRestaurado(d));
+  if(semanaPerfecta&&!recompensas[premioSemana]){
+    recompensas[premioSemana]=Date.now();
+    if(capacidad<2){capacidad=setRachaStarCapacity(2);saldo=Math.min(capacidad,saldo+1);}
+    else if(saldo<capacidad){saldo++;}
+    cambio=true;
+  }
+
+  if(!recompensas.primer_mes){
+    const fecha=fechaDesdeKey(key);const y=fecha.getFullYear();const m=fecha.getMonth();const total=new Date(y,m+1,0).getDate();
+    const mesCompleto=Array.from({length:total},(_,i)=>dateToKey(new Date(y,m,i+1,12))).every(isDayComplete);
+    if(mesCompleto){recompensas.primer_mes=key;capacidad=setRachaStarCapacity(3);saldo=Math.min(capacidad,saldo+1);cambio=true;}
+  }
+  if(cambio){
+    guardarMapaRacha('racha_recompensas',recompensas);
+    const antes=getRachaStars();const despues=setRachaStars(saldo);
+    if(despues>antes) showToast(despues===3?'★ Tienes tus 3 estrellas de restauración':'★ Ganaste una estrella de restauración');
+  }
+}
+function procesarFinalizacionDia(key){
+  const hoy=getActualTodayKey();
+  if(key<hoy&&!esDiaRestaurado(key)&&!esDiaInvalidoParaRacha(key)){
+    const diferencia=diasEntreClaves(key,hoy);const saldo=getRachaStars();
+    if(diferencia<=2&&saldo>0){
+      const usar=confirm('Completaste el día pendiente. ¿Usar 1 estrella para restaurar tu racha?');
+      if(usar){setRachaStars(saldo-1);marcarDiaRestaurado(key);showToast('★ Racha restaurada');}
+      else{marcarDiaInvalidoParaRacha(key);showToast('Día completado sin restaurar la racha');}
+    }else{
+      marcarDiaInvalidoParaRacha(key);
+      showToast(diferencia>2?'Día completado; ya pasó la ventana de restauración':'Día completado; no tienes estrellas disponibles');
+    }
+  }
+  premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
 }
 
 function getWeekDates(){
@@ -5792,6 +6090,7 @@ function initWeek(){
     const done = isDayComplete(dateKey);
     const isToday = i===todayIdx;
     const isFuture = i > todayIdx;
+    const isSelected = dateKey===getTodayKey();
 
     const d=document.createElement('div'); d.className='wday';
     const dot=document.createElement('div');
@@ -5799,11 +6098,13 @@ function initWeek(){
     else if(isToday) dot.className='wday-dot today';
     else if(isFuture) dot.className='wday-dot future';
     else dot.className='wday-dot past';
+    if(isSelected) dot.classList.add('selected');
 
     dot.textContent = done ? '⭐' : labels[i];
-    dot.style.cursor='default';
+    dot.style.cursor=isFuture?'default':'pointer';
     const lbl=document.createElement('div'); lbl.className='wday-label'; lbl.textContent=labels[i];
     d.appendChild(lbl); d.appendChild(dot);
+    if(!isFuture){d.setAttribute('role','button');d.setAttribute('tabindex','0');d.setAttribute('onclick',`activarDiaDevocional('${dateKey}')`);}
     row.appendChild(d);
     dskRows.forEach(r=>r.appendChild(d.cloneNode(true)));
   }
@@ -5831,11 +6132,10 @@ function pintarPasoDone(i, done=true){
 
 function initSteps(){
   for(let i=0;i<5;i++){
-    if(isStepDone(i)){
-      pintarPasoDone(i, true);
-    }
+    pintarPasoDone(i, isStepDone(i));
   }
   updatePasoPct(false);
+  actualizarDevoContextoUI();
 }
 
 function updateRachaUI(){
@@ -5857,14 +6157,16 @@ function updatePasoPct(notificarDia=false){
   if(notificarDia && pct===100){
     initWeek();
     updateRachaUI();
-    showToast('¡Día completado! ⭐ Racha actualizada');
+    if(getTodayKey()===getActualTodayKey()) showToast('¡Día completado! ⭐ Racha actualizada');
   }
 }
 
 function marcarPaso(i, opts={}){
   const fecha = getTodayKey();
+  const diaYaEstabaCompleto = isDayComplete(fecha);
   const yaEstaba = isPasoDone(fecha, i);
   if(!yaEstaba) guardarPasoDone(fecha, i);
+  if(!diaYaEstabaCompleto && isDayComplete(fecha)) procesarFinalizacionDia(fecha);
   pintarPasoDone(i, true);
   updatePasoPct(!yaEstaba && opts.notificarDia !== false);
   pasoDiarioActualizarTrackEstado(i);
@@ -6770,9 +7072,9 @@ function initDashboard(){
       if(pt){ pt.textContent = devo.paso_profundo.titulo || 'Estudio exegético'; }
     }
   } else {
-    devoTit.textContent = 'Devocional en camino…';
+    devoTit.textContent = 'Paso Diario en camino…';
     devoVer.textContent = 'El contenido de hoy estará disponible pronto.';
-    stepsList.innerHTML = '<div class="db-empty">No hay devocional para hoy.</div>';
+    stepsList.innerHTML = '<div class="db-empty">No hay Paso Diario disponible para hoy.</div>';
   }
 
   // Tracker
@@ -7587,10 +7889,11 @@ function calendarioHTML(prefix){
         </div>
       </div>
       <div class="cal-legend" style="padding:0 0 12px">
-        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--green2)"></div>Día completado</div>
-        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Semana completa</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Día completado</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#3a9962"></div>Semana completa</div>
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#8b5cf6"></div>Mes completo</div>
       </div>
+      <div style="display:flex;gap:8px;margin-bottom:12px"><button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button><div class="devo-context-btn" style="cursor:default">★ ${getRachaStars()} de 3</div></div>
       <div class="cal-nav" style="padding:0 0 12px">
         <button class="cal-nav-btn" onclick="cambiarMes(-1)">‹</button>
         <div class="cal-month-label" id="${prefix}-month-label"></div>
@@ -7759,7 +8062,7 @@ function renderCalendario(prefix='cal'){
       el.className='cal-day month-purple';
       el.title='Mes completo';
     } else if(semanasCompletas.has(d)){
-      el.className='cal-day week-gold';
+      el.className='cal-day week-green';
       el.title='Semana completa';
     } else if(diasCompletos[d-1]){
       el.className='cal-day done';
@@ -7767,9 +8070,11 @@ function renderCalendario(prefix='cal'){
     } else {
       el.className='cal-day'+(esHoy?' today':'');
     }
+    const fechaKey=dateToKey(fecha);
+    if(esDiaRestaurado(fechaKey)) el.classList.add('restored');
 
-    // Solo permitir ver días pasados (no marcar)
-    if(!esFuturo && !esHoy){
+    // Abrir el mismo Paso Diario para cualquier día transcurrido permitido.
+    if(!esFuturo){
       el.onclick=()=>verDiaAnterior(calAnio,calMes,d);
     }
     grid.appendChild(el);
@@ -7779,63 +8084,10 @@ function renderCalendario(prefix='cal'){
 /* ══════════════════════════════════════
    VER DÍAS ANTERIORES
 ══════════════════════════════════════ */
-function verDiaAnterior(anio, mes, dia){
+async function verDiaAnterior(anio, mes, dia){
   const key = anio+'-'+String(mes+1).padStart(2,'0')+'-'+String(dia).padStart(2,'0');
-  const devo = DEVOCIONALES[key];
-  if(!devo){
-    showToast('Sin devocional para ese día');
-    return;
-  }
-  // Abrir el exegético con el contenido del día seleccionado
   cerrarCalendario();
-  setTimeout(()=>{
-    // Cargar devocional del día seleccionado en modo lectura
-    const meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-    const fechaDisplay = dia+' de '+meses[mes]+' de '+anio;
-
-    const content = document.getElementById('exeg-content');
-    // Botones de completar racha para admin
-    const adminRachaHTML = window.ADMIN_MODE ? (() => {
-      const NOMBRES = ['Silencio','Texto','Análisis','Reflexión','Sembrar'];
-      const btns = NOMBRES.map((n,i) => {
-        const done = window.FB ? window.FB.getPaso(key,i) : localStorage.getItem('stars_paso_'+key+'_'+i)==='1';
-        const bg  = done ? 'var(--green-dim)'   : 'var(--gold-dim)';
-        const bc  = done ? 'var(--green-border)' : 'var(--gold-border)';
-        const col = done ? 'var(--green2)'       : 'var(--gold)';
-        return '<button onclick="adminMarcarPaso(\''+key+'\','+i+',this)" data-n="'+n+'"' +
-          ' style="flex:1;padding:7px 4px;border-radius:8px;font-size:0.625rem;font-weight:700;' +
-          'font-family:Outfit,sans-serif;cursor:pointer;transition:all 0.2s;' +
-          'background:'+bg+';border:1px solid '+bc+';color:'+col+'">' +
-          (done?'✓ '+n:n)+'</button>';
-      }).join('');
-      return '<div style="margin-bottom:16px">' +
-        '<div style="font-size:0.5625rem;color:var(--green2);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px;font-weight:600">Completar pasos · '+fechaDisplay+'</div>' +
-        '<div style="display:flex;gap:5px;flex-wrap:wrap">'+btns+'</div>' +
-        '</div>';
-    })() : '';
-    content.innerHTML = adminRachaHTML + `
-      <div style="font-size:0.5625rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px">${fechaDisplay} · Lectura</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--gold);margin-bottom:4px;line-height:1.3">${escaparHTML(devo.titulo)}</div>
-      <div style="font-size:0.75rem;color:var(--white3);margin-bottom:16px">${escaparHTML(devo.versiculo)}</div>
-      <div style="height:1px;background:rgba(255,255,255,0.06);margin-bottom:16px"></div>
-      <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Oración de silencio</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">"${escaparHTML(devo.oracion)}"</div>
-      <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">El texto</div>
-      <div style="font-family:'Cormorant Garamond',serif;font-size:0.9375rem;color:var(--white);line-height:1.7;font-style:italic;margin-bottom:4px;border-left:2px solid var(--gold-border);padding-left:12px">${escaparHTML(devo.texto_msg.cuerpo)}</div>
-      <div style="font-size:0.625rem;color:var(--white3);margin-bottom:16px">${escaparHTML(devo.texto_msg.ref)}</div>
-      <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Análisis</div>
-      ${devo.analisis.map(p=>'<div style="font-size:0.8125rem;color:var(--white2);line-height:1.75;margin-bottom:12px">'+sanearHTMLPermitido(p)+'</div>').join('')}
-      <div style="height:1px;background:rgba(255,255,255,0.06);margin:16px 0"></div>
-      <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Pregunta de reflexión</div>
-      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic;margin-bottom:16px">${sanearHTMLPermitido(devo.reflexion)}</div>
-      <div style="font-size:0.625rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">Práctica</div>
-      <div style="font-size:0.8125rem;color:var(--white2);line-height:1.7;font-style:italic">${sanearHTMLPermitido(devo.sembrar)}</div>
-    `;
-    const titleEl = document.getElementById('exeg-modal-title');
-    if(titleEl) titleEl.textContent = 'Paso Diario';
-    document.getElementById('exeg-modal').classList.add('open');
-    document.body.style.overflow='hidden';
-  },300);
+  await activarDiaDevocional(key,{desdeBanco:estaEnBancoStars(key)});
 }
 
 /* ══════════════════════════════════════
@@ -7850,7 +8102,7 @@ function construirHTMLExegetico(d){
     return `<div style="text-align:center;padding:32px 20px;color:var(--white3)">
       <div style="font-size:2.0rem;margin-bottom:12px">📖</div>
       <div style="font-size:0.875rem;color:var(--white2);margin-bottom:8px">Estudio no disponible</div>
-      <div style="font-size:0.75rem;line-height:1.6">El Paso Profundo de hoy se agregará junto con el devocional de esta semana.</div>
+      <div style="font-size:0.75rem;line-height:1.6">El Paso Profundo de hoy se agregará junto con el Paso Diario de esta semana.</div>
     </div>`;
   }
   const refMatch=String(d.titulo||'').match(/^(.+?)\s+(\d+)\s*:/);
@@ -10045,6 +10297,24 @@ function dskIlSec(btn, idx){
                 <div class="step-icon-box" id="dsk-si-4"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V12"/><path d="M12 12C12 8 9 5 5 5c0 4 2.5 7 7 7"/><path d="M12 12c0-4 3-7 7-7 0 4-2.5 7-7 7"/></svg></div>
                 <div class="step-body"><div class="step-letter">S — Sembrar</div><div class="step-name">Práctica del día</div><div class="step-sub">Ejercicio para hoy</div></div>
                 <div class="step-circle" id="dsk-sc-4"></div>
+              </div>
+            </div>
+
+            <!-- Acciones del Paso Diario: volver a hoy, estrellas de restauración, guardar día, días guardados -->
+            <div class="paso-actions">
+              <div class="paso-actions-start">
+                <button class="paso-today-chip" id="devo-today-desktop" onclick="volverAlDiaActual()" style="display:none">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="12 19 5 12 12 5"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                  Volver a Hoy
+                </button>
+                <button class="paso-star-status" id="racha-stars-desktop" onclick="mostrarInfoEstrellas()"><span>★ 1 de 3</span><small>para restaurar</small></button>
+              </div>
+              <div class="paso-actions-end">
+                <button class="paso-save-btn" id="devo-save-desktop" onclick="toggleBancoDiaActivo()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span></button>
+                <button class="paso-bank-link" id="devo-bank-desktop" onclick="abrirBancoStars()">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3h13A1.5 1.5 0 0 1 20 4.5V21l-8-4.5-8 4.5V4.5z"/></svg>
+                  Días guardados
+                </button>
               </div>
             </div>
           </div>
