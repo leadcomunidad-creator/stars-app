@@ -2538,6 +2538,41 @@ body.modo-dia .frase-estudio-dl{
 .config-row-icon.red{background:rgba(239,68,68,0.1);border-color:rgba(239,68,68,0.25)}
 .config-row-label{font-size:0.875rem;font-weight:500;color:var(--white)}
 .config-row-sub{font-size:0.6875rem;color:var(--white3);margin-top:2px}
+
+/* ── AVISO DE NOVEDADES ── */
+.novedades-modal{position:fixed;inset:0;z-index:950;display:none;align-items:flex-end;justify-content:center;padding:10px}
+.novedades-modal.open{display:flex}
+.novedades-modal-bg{position:absolute;inset:0;background:rgba(0,0,0,.76);backdrop-filter:blur(4px)}
+.novedades-sheet{
+  position:relative;width:100%;max-width:430px;max-height:calc(100% - 20px);overflow-y:auto;
+  background:var(--black2);border:1px solid var(--gold-border);border-radius:22px;
+  padding:12px 18px calc(18px + env(safe-area-inset-bottom,0px));
+  box-shadow:0 -12px 45px rgba(0,0,0,.42);animation:slideUp .3s ease;
+}
+.novedades-handle{width:36px;height:4px;border-radius:99px;background:var(--black5);margin:0 auto 15px}
+.novedades-kicker{font-size:.6875rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.novedades-title{font-family:'Cormorant Garamond',serif;font-size:1.75rem;line-height:1.05;color:var(--white);margin:7px 0}
+.novedades-intro{font-size:.8125rem;line-height:1.55;color:var(--white3);margin-bottom:14px}
+.novedades-item{display:grid;grid-template-columns:38px 1fr;gap:11px;align-items:start;padding:11px 0;border-top:1px solid rgba(255,255,255,.06)}
+.novedades-icon{width:38px;height:38px;border-radius:12px;background:var(--gold-dim);color:var(--gold);display:flex;align-items:center;justify-content:center}
+.novedades-icon svg{width:18px;height:18px}
+.novedades-item-title{font-size:.875rem;font-weight:600;color:var(--white);margin:1px 0 3px}
+.novedades-item-copy{font-size:.75rem;line-height:1.5;color:var(--white3)}
+.novedades-colors{display:flex;gap:10px;flex-wrap:wrap;margin-top:7px}
+.novedades-color{display:inline-flex;align-items:center;gap:5px;font-size:.6875rem;color:var(--white3)}
+.novedades-color-dot{width:8px;height:8px;border-radius:3px}
+.novedades-color-dot.day{background:#c9a84c}.novedades-color-dot.week{background:#2d7a4f}.novedades-color-dot.month{background:#8b5cf6}
+.novedades-actions{display:grid;grid-template-columns:1fr auto;gap:9px;margin-top:12px}
+.novedades-primary,.novedades-secondary{min-height:46px;border-radius:12px;font-family:'Outfit',sans-serif;font-size:.8125rem;font-weight:600;cursor:pointer}
+.novedades-primary{border:0;background:var(--gold);color:var(--black)}
+.novedades-secondary{padding:0 15px;border:1px solid rgba(255,255,255,.09);background:transparent;color:var(--white3)}
+.novedades-primary:focus-visible,.novedades-secondary:focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
+.novedades-note{text-align:center;font-size:.6875rem;line-height:1.4;color:var(--white3);margin-top:10px}
+@media (min-width:700px){
+  .novedades-modal{align-items:center;padding:24px}
+  .novedades-sheet{max-width:560px;max-height:calc(100% - 48px);padding:20px 24px 22px;box-shadow:0 24px 70px rgba(0,0,0,.48);animation:none}
+  .novedades-handle{display:none}.novedades-title{font-size:2rem}
+}
 /* Toggle switch */
 .config-toggle{position:relative;width:44px;height:26px;flex-shrink:0}
 .config-toggle input{opacity:0;width:0;height:0;position:absolute}
@@ -2615,7 +2650,8 @@ body.admin-mode.admin-bar-visible .frase-estudio-modal,
 body.admin-mode.admin-bar-visible .estudio-cap-modal,
 body.admin-mode.admin-bar-visible .chapter-reader-modal,
 body.admin-mode.admin-bar-visible #blog-modal,
-body.admin-mode.admin-bar-visible .config-modal{
+body.admin-mode.admin-bar-visible .config-modal,
+body.admin-mode.admin-bar-visible .novedades-modal{
   top:var(--admin-bar-h,46px);
   bottom:0;
   height:auto;
@@ -2770,6 +2806,12 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       const safe = value && typeof value === 'object' ? value : {};
       _userData.banco_stars = safe;
       fbSet({banco_stars:safe});
+    },
+    // Aviso de novedades visto por el usuario
+    getNovedadesRachaVista: () => fbGet('novedades_racha_v1_vista', '') === '1',
+    setNovedadesRachaVista: () => {
+      _userData.novedades_racha_v1_vista = '1';
+      fbSet({novedades_racha_v1_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4025,6 +4067,78 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
 <div class="toast" id="toast"></div>
 
+<!-- ══ AVISO DE NOVEDADES ══ -->
+<div class="novedades-modal" id="novedades-modal" aria-hidden="true">
+  <div class="novedades-modal-bg"></div>
+  <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
+    <div class="novedades-handle" aria-hidden="true"></div>
+    <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
+    <h2 class="novedades-title" id="novedades-title">Tu camino ahora guarda más.</h2>
+    <p class="novedades-intro">Estas son las nuevas maneras de cuidar tu proceso y volver a lo que Dios te habló.</p>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Un calendario con significado</div>
+        <p class="novedades-item-copy">La semana va de lunes a domingo. El mes cuenta desde su primer hasta su último día, aunque empiece o termine a mitad de semana.</p>
+        <div class="novedades-colors" aria-label="Significado de los colores">
+          <span class="novedades-color"><span class="novedades-color-dot day"></span>Día</span>
+          <span class="novedades-color"><span class="novedades-color-dot week"></span>Semana</span>
+          <span class="novedades-color"><span class="novedades-color-dot month"></span>Mes</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Estrellas para restaurar tu racha</div>
+        <p class="novedades-item-copy">Comienzas con una estrella. La primera semana completa te da la segunda y el primer mes completo, la tercera.</p>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Recupera un día perdido</div>
+        <p class="novedades-item-copy">Tienes hasta dos días para completarlo usando una estrella. Después puedes recuperarla con una semana perfecta, sin restauraciones.</p>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Vuelve a los días de esta semana</div>
+        <p class="novedades-item-copy">Abre cualquier día anterior ya transcurrido y recórrelo con el mismo formato visual del Paso Diario de hoy.</p>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4.8A1.8 1.8 0 0 1 7.8 3h8.4A1.8 1.8 0 0 1 18 4.8V21l-6-3-6 3V4.8Z"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Guarda lo que quieras conservar</div>
+        <p class="novedades-item-copy">Guardar no cuesta estrellas. Tus lecturas favoritas quedan en Mis días guardados para volver a ellas cuando quieras.</p>
+      </div>
+    </div>
+
+    <div class="novedades-actions">
+      <button class="novedades-primary" id="novedades-entendido" type="button" onclick="cerrarNovedades('entendido')">Entendido</button>
+      <button class="novedades-secondary" type="button" onclick="cerrarNovedades('mas-tarde')">Más tarde</button>
+    </div>
+    <p class="novedades-note">Puedes volver a abrir este aviso desde Configuración → Novedades.</p>
+  </section>
+</div>
+
 <!-- ══ MODAL CONFIGURACIÓN ══ -->
 <div class="config-modal" id="config-modal">
   <div class="config-modal-bg" onclick="cerrarConfig()"></div>
@@ -4098,6 +4212,19 @@ window.addEventListener('DOMContentLoaded', ()=>{
             <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
           </button>
         </div>
+      </div>
+      <!-- Novedades -->
+      <div class="config-row" onclick="abrirNovedades(true)">
+        <div class="config-row-left">
+          <div class="config-row-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/><path d="m5.6 5.6 12.8 12.8M18.4 5.6 5.6 18.4"/></svg>
+          </div>
+          <div>
+            <div class="config-row-label">Novedades</div>
+            <div class="config-row-sub">Conoce las nuevas funciones de S.T.A.R.S</div>
+          </div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
       <!-- Cerrar sesión -->
       <div class="config-row" onclick="cerrarSesion()">
@@ -4868,8 +4995,11 @@ window._initApp = function(){
         if(sessionStorage.getItem(STARS_SW_UPDATED_KEY)){
           sessionStorage.removeItem(STARS_SW_UPDATED_KEY);
           showToast('App actualizada');
+          setTimeout(mostrarNovedadesSiCorresponde, 3000);
+        }else{
+          setTimeout(mostrarNovedadesSiCorresponde, 700);
         }
-      }catch(_){}
+      }catch(_){ setTimeout(mostrarNovedadesSiCorresponde, 700); }
     }, 120);
   });
 };
@@ -7806,6 +7936,56 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_racha_v1_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_racha_v1_pospuesta';
+let _novedadesFocusAnterior = null;
+let _novedadesOverflowAnterior = '';
+
+function novedadesRachaYaVistas(){
+  if(window.FB && typeof window.FB.getNovedadesRachaVista === 'function') return window.FB.getNovedadesRachaVista();
+  return localStorage.getItem(NOVEDADES_RACHA_LOCAL_KEY) === '1';
+}
+
+function abrirNovedades(manual=false){
+  const modal = document.getElementById('novedades-modal');
+  if(!modal || modal.classList.contains('open')) return;
+  if(manual && document.getElementById('config-modal')?.classList.contains('open')) cerrarConfig();
+  _novedadesFocusAnterior = document.activeElement;
+  _novedadesOverflowAnterior = document.body.style.overflow;
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow='hidden';
+  setTimeout(()=>document.getElementById('novedades-entendido')?.focus(), 0);
+}
+
+function cerrarNovedades(accion='mas-tarde'){
+  const modal = document.getElementById('novedades-modal');
+  if(!modal?.classList.contains('open')) return;
+  if(accion === 'entendido'){
+    if(window.FB && typeof window.FB.setNovedadesRachaVista === 'function') window.FB.setNovedadesRachaVista();
+    else localStorage.setItem(NOVEDADES_RACHA_LOCAL_KEY,'1');
+  }else{
+    sessionStorage.setItem(NOVEDADES_RACHA_SESSION_KEY,'1');
+  }
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow = _novedadesOverflowAnterior;
+  if(_novedadesFocusAnterior?.isConnected) _novedadesFocusAnterior.focus();
+}
+
+function mostrarNovedadesSiCorresponde(){
+  const modal = document.getElementById('novedades-modal');
+  if(!modal || modal.classList.contains('open') || novedadesRachaYaVistas()) return;
+  if(sessionStorage.getItem(NOVEDADES_RACHA_SESSION_KEY) === '1') return;
+  const otroDialogo = document.querySelector('.modal.open,.cal-modal.open,.bank-modal.open,.exeg-modal.open,.frase-modal.open,.frase-estudio-modal.open,.estudio-cap-modal.open,.chapter-reader-modal.open,.intro-libro-modal.open,#blog-modal.open,.config-modal.open');
+  if(otroDialogo) return;
+  abrirNovedades(false);
+}
+
+document.addEventListener('keydown', event=>{
+  if(event.key === 'Escape' && document.getElementById('novedades-modal')?.classList.contains('open')) cerrarNovedades('mas-tarde');
+});
+
 function toggleModo(forzarNoche){
   if(_currentTema !== 'dorado'){
     document.querySelectorAll('#config-toggle-modo,#dsk-config-toggle-modo').forEach(toggle=>{ toggle.checked = true; });
@@ -10613,6 +10793,19 @@ function dskIlSec(btn, idx){
                   <span class="cfg-tema-dot" style="background:#A8FF3E"></span>La Sala
                 </button>
               </div>
+            </div>
+
+            <div class="config-row" onclick="abrirNovedades(true)">
+              <div class="config-row-left">
+                <div class="config-row-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M3 12h18"/><path d="m5.6 5.6 12.8 12.8M18.4 5.6 5.6 18.4"/></svg>
+                </div>
+                <div>
+                  <div class="config-row-label">Novedades</div>
+                  <div class="config-row-sub">Conoce las nuevas funciones de S.T.A.R.S</div>
+                </div>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
             </div>
 
             <div class="config-row" onclick="cerrarSesion()">
