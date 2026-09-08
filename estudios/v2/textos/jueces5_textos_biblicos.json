@@ -1,0 +1,624 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La respuesta voluntaria del pueblo es presentada como motivo de alabanza a Dios. NBLA fija claramente la relación entre ofrecerse y bendecir al SEÑOR; MSG vuelve palpable esa disposición con «sin reservas». La frase no convierte toda actividad religiosa en obediencia automática: dentro del contexto, celebra una respuesta concreta al llamado de Dios en favor de Su pueblo.",
+      "id": "jueces5-joya-01",
+      "msg": {
+        "en": "“The people volunteered with abandon, bless GOD!”",
+        "es": "«el pueblo se ofreció sin reservas: ¡bendigan a DIOS!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "jueces5-nbla-02b"
+          ],
+          "verseId": "jueces5-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "La teología del cántico comienza con la presencia soberana de Dios. NBLA fija la imagen de los montes estremeciéndose delante del SEÑOR; MSG intensifica poéticamente la escena diciendo que «saltaron». Esa ampliación no debe convertirse en una descripción física independiente: ambas versiones comunican la misma verdad, que la creación misma queda sometida ante la presencia del Dios de Israel.",
+      "id": "jueces5-joya-02",
+      "msg": {
+        "en": "“Mountains leapt before GOD, the Sinai God”",
+        "es": "«Los montes saltaron delante de DIOS, el Dios del Sinaí»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "jueces5-nbla-05a"
+          ],
+          "verseId": "jueces5-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La canción honra la disposición costosa de quienes respondieron. NBLA establece que Zabulón expuso su vida hasta la muerte y que Neftalí hizo lo mismo; MSG vuelve esa entrega más inmediata con el lenguaje de arriesgar la vida. El punto no es glorificar la temeridad, sino mostrar que, en esta convocatoria específica, la lealtad al pueblo de Dios tuvo un costo real.",
+      "id": "jueces5-joya-03",
+      "msg": {
+        "en": "“But Zebulun risked life and limb, defied death, as did Naphtali on the battle heights.”",
+        "es": "«Pero Zabulón arriesgó la vida y desafió a la muerte, igual que Neftalí en las alturas del campo de batalla»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-18"
+        }
+      ],
+      "order": 3,
+      "range": "13-18"
+    },
+    {
+      "explanation": "La victoria es narrada como una intervención en la que incluso el entorno participa contra Sísara. NBLA y MSG coinciden literalmente en la fuerza del torrente. La imagen refuerza que el resultado no dependió exclusivamente del ejército israelita; el cántico reconoce una acción de Dios que desarma la ventaja del enemigo y convierte el terreno mismo en parte de su derrota.",
+      "id": "jueces5-joya-04",
+      "msg": {
+        "en": "“The torrent Kishon swept them away”",
+        "es": "«El torrente Cisón los barrió»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "jueces5-nbla-21a"
+          ],
+          "verseId": "jueces5-nbla-21"
+        }
+      ],
+      "order": 4,
+      "range": "19-23"
+    },
+    {
+      "explanation": "La repetición poética subraya la caída total de Sísara. NBLA conserva la secuencia de encorvarse, caer y quedar tendido; MSG mantiene ese mismo movimiento con ritmo abrupto. La doctrina no debe construirse a partir de la crudeza de la imagen, sino del punto que el cántico está celebrando: el opresor que parecía dominante ha sido finalmente derribado.",
+      "id": "jueces5-joya-05",
+      "msg": {
+        "en": "“He slumped at her feet. He fell. He sprawled.”",
+        "es": "«A sus pies se desplomó. Cayó. Quedó tendido»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "jueces5-nbla-27a"
+          ],
+          "verseId": "jueces5-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "24-27"
+    },
+    {
+      "explanation": "El cierre contrasta el fin de los enemigos del SEÑOR con el futuro de quienes lo aman. NBLA fija la imagen del sol saliendo «en toda su fuerza»; MSG la vuelve visual con un cielo despejado. El texto no promete una vida sin aflicción, sino que dentro del cántico presenta el amor al SEÑOR como una lealtad situada bajo la luz y la victoria de Dios.",
+      "id": "jueces5-joya-06",
+      "msg": {
+        "en": "“while his lovers be like the unclouded sun.”",
+        "es": "«mientras los que lo aman sean como el sol sin una nube»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "jueces5-nbla-31b"
+          ],
+          "verseId": "jueces5-nbla-31"
+        }
+      ],
+      "order": 6,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "JUECES",
+    "bookId": "jueces",
+    "chapter": 5,
+    "studyId": "jueces-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "jueces5-msg-01",
+      "msg": {
+        "en": "That day Deborah and Barak son of Abinoam sang this song:",
+        "es": "Aquel día Débora y Barac hijo de Abinoam cantaron esta canción:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "jueces5-msg-02",
+      "msg": {
+        "en": "When they let down their hair in Israel,\nthey let it blow wild in the wind.\nThe people volunteered with abandon,\nbless GOD!",
+        "es": "Cuando en Israel soltaron el cabello\ny lo dejaron volar libre al viento,\nel pueblo se ofreció sin reservas:\n¡bendigan a DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "jueces5-msg-03",
+      "msg": {
+        "en": "Hear O kings! Listen O princes!\nTo GOD, yes to GOD, I’ll sing,\nMake music to GOD,\nto the God of Israel.",
+        "es": "¡Oigan, reyes! ¡Escuchen, príncipes!\nA DIOS, sí, a DIOS cantaré;\nharé música para DIOS,\npara el Dios de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "jueces5-msg-04",
+      "msg": {
+        "en": "GOD, when you left Seir,\nmarched across the fields of Edom,\nEarth quaked, yes, the skies poured rain,\noh, the clouds made rivers.\nMountains leapt before GOD, the Sinai God,\nbefore GOD, the God of Israel.",
+        "es": "DIOS, cuando saliste de Seír\ny marchaste por los campos de Edom,\nla tierra tembló; sí, los cielos derramaron lluvia,\nlas nubes se volvieron ríos.\nLos montes saltaron delante de DIOS, el Dios del Sinaí,\ndelante de DIOS, el Dios de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "jueces5-msg-05",
+      "msg": {
+        "en": "In the time of Shamgar son of Anath,\nand in the time of Jael,\nPublic roads were abandoned,\ntravelers went by backroads.\nWarriors became fat and sloppy,\nno fight left in them.\nThen you, Deborah, rose up;\nyou got up, a mother in Israel.\nGod chose new leaders,\nwho then fought at the gates.\nAnd not a shield or spear to be seen\namong the forty companies of Israel.",
+        "es": "En tiempos de Samgar hijo de Anat,\ny en tiempos de Jael,\nlos caminos principales quedaron abandonados;\nlos viajeros tomaban senderos secundarios.\nLos guerreros se volvieron gordos y descuidados;\nya no les quedaba ánimo para pelear.\nEntonces tú, Débora, te levantaste;\nte pusiste en pie como madre en Israel.\nDios escogió nuevos líderes,\ny entonces la guerra llegó a las puertas.\nY no se veía ni escudo ni lanza\nentre las cuarenta unidades de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "jueces5-msg-06",
+      "msg": {
+        "en": "Lift your hearts high, O Israel,\nwith abandon, volunteering yourselves with the people—bless GOD!",
+        "es": "Levanten el corazón, Israel;\nentréguense sin reservas junto con el pueblo: ¡bendigan a DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "jueces5-msg-07",
+      "msg": {
+        "en": "You who ride on prize donkeys\ncomfortably mounted on blankets\nAnd you who walk down the roads,\nponder, attend!\nGather at the town well\nand listen to them sing,\nChanting the tale of GOD’s victories,\nhis victories accomplished in Israel.\nThen the people of GOD\nwent down to the city gates.",
+        "es": "Ustedes que cabalgan en asnas de primera,\ncómodamente sentados sobre mantas,\ny ustedes que recorren los caminos:\n¡deténganse, piensen, presten atención!\nReúnanse junto al pozo del pueblo\ny escuchen cómo cantan,\nrepitiendo la historia de las victorias de DIOS,\nlas victorias que realizó en Israel.\nEntonces el pueblo de DIOS\nbajó a las puertas de la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12",
+      "id": "jueces5-msg-08",
+      "msg": {
+        "en": "Wake up, wake up, Deborah!\nWake up, wake up, sing a song!\nOn your feet, Barak!\nTake your prisoners, son of Abinoam!",
+        "es": "¡Despierta, despierta, Débora!\n¡Despierta, despierta, canta una canción!\n¡Ponte en pie, Barac!\n¡Llévate a tus cautivos, hijo de Abinoam!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "jueces5-msg-09",
+      "msg": {
+        "en": "Then the remnant went down to greet the brave ones.\nThe people of GOD joined the mighty ones.\nThe captains from Ephraim came to the valley,\nbehind you, Benjamin, with your troops.\nCaptains marched down from Makir,\nfrom Zebulun high-ranking leaders came down.\nIssachar’s princes rallied to Deborah,\nIssachar stood fast with Barak,\nbacking him up on the field of battle.\nBut in Reuben’s divisions there was much second-guessing.\nWhy all those campfire discussions?\nDiverted and distracted,\nReuben’s divisions couldn’t make up their minds.\nGilead played it safe across the Jordan,\nand Dan, why did he go off sailing?\nAsher kept his distance on the seacoast,\nsafe and secure in his harbors.\nBut Zebulun risked life and limb, defied death,\nas did Naphtali on the battle heights.",
+        "es": "Entonces el remanente bajó al encuentro de los valientes;\nel pueblo de DIOS se unió a los poderosos.\nLos capitanes de Efraín descendieron al valle;\ndetrás de ti, Benjamín, llegaron tus tropas.\nDe Maquir bajaron capitanes;\nde Zabulón descendieron líderes de alto rango.\nLos príncipes de Isacar se reunieron con Débora;\nIsacar se mantuvo firme con Barac,\nrespaldándolo en el campo de batalla.\nPero entre las divisiones de Rubén hubo demasiadas dudas.\n¿Para qué tantas conversaciones alrededor de la fogata?\nDistraídas y divididas,\nlas divisiones de Rubén no lograban decidirse.\nGalaad prefirió quedarse seguro al otro lado del Jordán;\ny Dan, ¿por qué se fue a navegar?\nAser mantuvo su distancia en la costa,\nseguro y tranquilo en sus puertos.\nPero Zabulón arriesgó la vida y desafió a la muerte,\nigual que Neftalí en las alturas del campo de batalla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19-23",
+      "id": "jueces5-msg-10",
+      "msg": {
+        "en": "The kings came, they fought,\nthe kings of Canaan fought.\nAt Taanach they fought, at Megiddo’s brook,\nbut they took no silver, no plunder.\nThe stars in the sky joined the fight,\nfrom their courses they fought against Sisera.\nThe torrent Kishon swept them away,\nthe torrent attacked them, the torrent Kishon.\nOh, you’ll stomp on the necks of the strong!\nThen the hoofs of the horses pounded,\ncharging, stampeding stallions.\n“Curse Meroz,” says GOD’s angel.\n“Curse, double curse, its people,\nBecause they didn’t come when GOD needed them,\ndidn’t rally to GOD’s side with valiant fighters.”",
+        "es": "Vinieron los reyes y pelearon;\nlos reyes de Canaán entraron en batalla.\nPelearon en Taanac, junto al arroyo de Meguido,\npero no se llevaron plata ni botín.\nLas estrellas del cielo se unieron a la lucha;\ndesde sus órbitas pelearon contra Sísara.\nEl torrente Cisón los barrió;\nel torrente los atacó, el torrente Cisón.\n¡Oh, pisotearás los cuellos de los fuertes!\nEntonces retumbaron los cascos de los caballos,\nlos sementales cargando y galopando en estampida.\n«Maldigan a Meroz», dice el ángel de DIOS.\n«Maldigan, maldigan a sus habitantes,\nporque no acudieron cuando DIOS los necesitó;\nno se unieron al lado de DIOS con los guerreros valientes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-23"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "jueces5-msg-11",
+      "msg": {
+        "en": "Most blessed of all women is Jael,\nwife of Heber the Kenite,\nmost blessed of homemaking women.\nHe asked for water,\nshe brought milk;\nIn a handsome bowl,\nshe offered cream.\nShe grabbed a tent peg in her left hand,\nwith her right hand she seized a hammer.\nShe hammered Sisera, she smashed his head,\nshe drove a hole through his temple.\nHe slumped at her feet. He fell. He sprawled.\nHe slumped at her feet. He fell.\nSlumped. Fallen. Dead.",
+        "es": "Bendita entre todas las mujeres es Jael,\nesposa de Heber el quenita;\nbendita entre las mujeres dedicadas al hogar.\nÉl pidió agua;\nella le trajo leche.\nEn una hermosa taza\nle ofreció crema.\nCon la mano izquierda tomó una estaca de tienda;\ncon la derecha agarró un martillo.\nGolpeó a Sísara, le destrozó la cabeza;\nle perforó la sien.\nA sus pies se desplomó. Cayó. Quedó tendido.\nA sus pies se desplomó. Cayó.\nDesplomado. Caído. Muerto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-27"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "jueces5-msg-12",
+      "msg": {
+        "en": "Sisera’s mother waited at the window,\na weary, anxious watch.\n“What’s keeping his chariot?\nWhat delays his chariot’s rumble?”\nThe wisest of her ladies-in-waiting answers\nwith calm, reassuring words,\n“Don’t you think they’re busy at plunder,\ndividing up the loot?\nA girl, maybe two girls,\nfor each man,\nAnd for Sisera a bright silk shirt,\na prize, fancy silk shirt!\nAnd a colorful scarf—make it two scarves—\nto grace the neck of the plunderer.”",
+        "es": "La madre de Sísara esperaba junto a la ventana,\ncansada y ansiosa de tanto mirar.\n«¿Qué demora su carro?\n¿Por qué tarda en escucharse el estruendo de sus ruedas?».\nLa más sabia de sus damas le responde\ncon palabras tranquilas y consoladoras:\n«¿No estarán ocupados repartiendo el botín,\ndividiéndose el saqueo?\nUna muchacha, tal vez dos,\npara cada hombre;\ny para Sísara una camisa de seda brillante,\nun premio, ¡una elegante camisa de seda!\nY un pañuelo de colores —mejor dos—\npara adornar el cuello del saqueador»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-30"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "31",
+      "id": "jueces5-msg-13",
+      "msg": {
+        "en": "Thus may all GOD’s enemies perish,\nwhile his lovers be like the unclouded sun.\nThe land was quiet for forty years.",
+        "es": "Así perezcan todos los enemigos de DIOS,\nmientras los que lo aman sean como el sol sin una nube.\nLa tierra tuvo tranquilidad durante cuarenta años."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "jueces5-nbla-31"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "jueces5-nbla-01",
+      "number": 1,
+      "text": "Entonces Débora y Barac, hijo de Abinoam, cantaron en aquel día y dijeron:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "jueces5-nbla-02a",
+          "order": 1,
+          "text": "«¡Por haberse puesto al frente los jefes en Israel,"
+        },
+        {
+          "id": "jueces5-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Por haberse ofrecido el pueblo voluntariamente,\nBendigan al SEÑOR!"
+        }
+      ],
+      "id": "jueces5-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "jueces5-nbla-03",
+      "number": 3,
+      "text": "¡Oigan, reyes; presten oído, príncipes!\nYo al SEÑOR, yo cantaré,\nCantaré alabanzas al SEÑOR, Dios de Israel."
+    },
+    {
+      "id": "jueces5-nbla-04",
+      "number": 4,
+      "text": "SEÑOR, cuando saliste de Seir,\nCuando marchaste del campo de Edom,\nLa tierra tembló, también cayeron gotas del cielo,\nY las nubes destilaron agua."
+    },
+    {
+      "clauses": [
+        {
+          "id": "jueces5-nbla-05a",
+          "order": 1,
+          "text": "Los montes se estremecieron ante la presencia del SEÑOR"
+        },
+        {
+          "id": "jueces5-nbla-05b",
+          "order": 2,
+          "text": ",\nAquel Sinaí, ante la presencia del SEÑOR, Dios de Israel."
+        }
+      ],
+      "id": "jueces5-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "jueces5-nbla-06",
+      "number": 6,
+      "text": "»En los días de Samgar, hijo de Anat,\nEn los días de Jael, quedaron desiertos los caminos,\nY los viajeros andaban por sendas tortuosas."
+    },
+    {
+      "id": "jueces5-nbla-07",
+      "number": 7,
+      "text": "Se habían terminado los campesinos, se habían terminado en Israel,\nHasta que yo, Débora, me levanté,\nHasta que me levanté, como madre en Israel."
+    },
+    {
+      "id": "jueces5-nbla-08",
+      "number": 8,
+      "text": "Habían escogido nuevos dioses;\nEntonces la guerra estaba a las puertas.\nNo se veía escudo ni lanza\nEntre 40,000 en Israel."
+    },
+    {
+      "id": "jueces5-nbla-09",
+      "number": 9,
+      "text": "Mi corazón está con los jefes de Israel,\nLos voluntarios entre el pueblo.\n¡Bendigan al SEÑOR!"
+    },
+    {
+      "id": "jueces5-nbla-10",
+      "number": 10,
+      "text": "Ustedes que cabalgan en asnas blancas,\nQue se sientan en ricos tapices,\nQue viajan por el camino, canten."
+    },
+    {
+      "id": "jueces5-nbla-11",
+      "number": 11,
+      "text": "Al sonido de los que dividen las manadas entre los abrevaderos,\nAllí repetirán los actos de justicia del SEÑOR,\nLos actos de justicia para con Sus campesinos en Israel.\nEntonces el pueblo del SEÑOR descendió a las puertas."
+    },
+    {
+      "id": "jueces5-nbla-12",
+      "number": 12,
+      "text": "»Despierta, despierta, Débora.\nDespierta, despierta, entona un cántico.\nLevántate, Barac, y lleva a tus cautivos, hijo de Abinoam."
+    },
+    {
+      "id": "jueces5-nbla-13",
+      "number": 13,
+      "text": "Entonces los sobrevivientes descendieron sobre los nobles.\nEl pueblo del SEÑOR vino a mí como guerreros."
+    },
+    {
+      "id": "jueces5-nbla-14",
+      "number": 14,
+      "text": "De Efraín descendieron los arraigados en Amalec,\nEn pos de ti, Benjamín, con tus pueblos.\nDe Maquir descendieron jefes,\nY de Zabulón los que manejan vara de mando."
+    },
+    {
+      "id": "jueces5-nbla-15",
+      "number": 15,
+      "text": "Los príncipes de Isacar estaban con Débora;\nComo estaba Isacar, así estaba Barac.\nAl valle se apresuraron pisándole los talones.\nEntre las divisiones de Rubén\nHabía grandes resoluciones de corazón."
+    },
+    {
+      "id": "jueces5-nbla-16",
+      "number": 16,
+      "text": "¿Por qué te sentaste entre los rediles,\nEscuchando los toques de flauta para los rebaños?\nEntre las divisiones de Rubén\nHabía grandes indecisiones de corazón."
+    },
+    {
+      "id": "jueces5-nbla-17",
+      "number": 17,
+      "text": "Galaad se quedó al otro lado del Jordán.\n¿Y por qué se quedó Dan en las naves?\nAser se sentó a la orilla del mar,\nY se quedó junto a sus puertos."
+    },
+    {
+      "id": "jueces5-nbla-18",
+      "number": 18,
+      "text": "Zabulón era pueblo que despreció su vida hasta la muerte.\nY también Neftalí, en las alturas del campo."
+    },
+    {
+      "id": "jueces5-nbla-19",
+      "number": 19,
+      "text": "»Vinieron los reyes y pelearon;\nPelearon entonces los reyes de Canaán\nEn Taanac, cerca de las aguas de Meguido.\nNo tomaron despojos de plata."
+    },
+    {
+      "id": "jueces5-nbla-20",
+      "number": 20,
+      "text": "Desde los cielos las estrellas pelearon,\nDesde sus órbitas pelearon contra Sísara."
+    },
+    {
+      "clauses": [
+        {
+          "id": "jueces5-nbla-21a",
+          "order": 1,
+          "text": "El torrente Cisón los barrió"
+        },
+        {
+          "id": "jueces5-nbla-21b",
+          "order": 2,
+          "text": ",\nEl antiguo torrente, el torrente Cisón.\nMarcha, alma mía con poder."
+        }
+      ],
+      "id": "jueces5-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "jueces5-nbla-22",
+      "number": 22,
+      "text": "Entonces resonaron los cascos de los caballos\nPor el galopar, el galopar de sus valientes corceles."
+    },
+    {
+      "id": "jueces5-nbla-23",
+      "number": 23,
+      "text": "“Maldigan a Meroz”, dijo el ángel del SEÑOR,\n“Maldigan, maldigan a sus moradores;\nPorque no vinieron en ayuda del SEÑOR,\nEn ayuda del SEÑOR contra los guerreros”."
+    },
+    {
+      "id": "jueces5-nbla-24",
+      "number": 24,
+      "text": "»Bendita entre las mujeres es Jael,\nMujer de Heber el quenita;\nBendita sea entre las mujeres de la tienda."
+    },
+    {
+      "id": "jueces5-nbla-25",
+      "number": 25,
+      "text": "Él pidió agua, y ella le dio leche.\nEn taza de nobles le trajo cuajada."
+    },
+    {
+      "id": "jueces5-nbla-26",
+      "number": 26,
+      "text": "Extendió ella la mano hacia la estaca de la tienda,\nY su diestra hacia el martillo de trabajadores.\nEntonces golpeó a Sísara, desbarató su cabeza.\nDestruyó y perforó sus sienes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "jueces5-nbla-27a",
+          "order": 1,
+          "text": "A sus pies él se encorvó, cayó, quedó tendido"
+        },
+        {
+          "id": "jueces5-nbla-27b",
+          "order": 2,
+          "text": ";\nA sus pies se encorvó y cayó.\nDonde se encorvó, allí quedó muerto."
+        }
+      ],
+      "id": "jueces5-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "jueces5-nbla-28",
+      "number": 28,
+      "text": "»Miraba por la ventana y se lamentaba\nLa madre de Sísara, por entre la celosía:\n“¿Por qué se tarda en venir su carro?\n¿Por qué se retrasa el trotar de sus carros?”."
+    },
+    {
+      "id": "jueces5-nbla-29",
+      "number": 29,
+      "text": "Sus sabias princesas le respondían,\nAun a sí misma ella repite sus palabras:"
+    },
+    {
+      "id": "jueces5-nbla-30",
+      "number": 30,
+      "text": "“¿Acaso no han hallado el botín y se lo están repartiendo?\n¿Una doncella, dos doncellas para cada guerrero.\nPara Sísara un botín de tela de colores,\nUn botín de tela de colores bordada,\nTela de colores de doble bordadura en el cuello del victorioso?”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "jueces5-nbla-31a",
+          "order": 1,
+          "text": "Así perezcan todos Tus enemigos, oh SEÑOR."
+        },
+        {
+          "id": "jueces5-nbla-31b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero sean los que te aman como la salida del sol en toda su fuerza"
+        },
+        {
+          "id": "jueces5-nbla-31c",
+          "order": 3,
+          "text": "».\nY el país tuvo descanso por cuarenta años."
+        }
+      ],
+      "id": "jueces5-nbla-31",
+      "number": 31
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

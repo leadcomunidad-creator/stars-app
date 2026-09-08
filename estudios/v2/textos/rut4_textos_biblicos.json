@@ -1,0 +1,591 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Booz convierte su promesa en agenda concreta. MSG comunica urgencia práctica; NBLA muestra la convocatoria formal de testigos. El amor leal no deja indefinidamente pendiente lo que está en su poder resolver.\nLa presencia de los ancianos impide que la decisión dependa solo de él. Su prontitud está acompañada por responsabilidad comunitaria.",
+      "id": "rut4-joya-01",
+      "msg": {
+        "en": "\"we’ve got some business to take care of\"",
+        "es": "\"tenemos un asunto que resolver\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-02b"
+          ],
+          "verseId": "rut4-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "Booz reconoce el derecho que precede al suyo. Aunque desea redimir, no esconde información ni desplaza al otro. La justicia mide la fidelidad de sus intenciones.\nRespetar un límite puede poner en riesgo el resultado deseado. Precisamente por eso revela carácter: Booz prefiere un futuro verdadero a uno obtenido mediante manipulación.",
+      "id": "rut4-joya-02",
+      "msg": {
+        "en": "\"You have first redeemer rights.\"",
+        "es": "\"Tú tienes el primer derecho de redención.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-04b"
+          ],
+          "verseId": "rut4-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La redención mira más allá de la propiedad y protege memoria y pertenencia. NBLA habla de preservar el nombre; MSG hace visible su continuidad familiar y comunitaria. Booz acepta vivir de manera que la historia de otro no sea borrada.\nEl amor leal honra a quienes ya no pueden defender su legado. No usa la muerte ajena para absorber bienes y fama, sino que mantiene abierta una línea de memoria y futuro.",
+      "id": "rut4-joya-03",
+      "msg": {
+        "en": "\"The memory and reputation of the deceased is not going to disappear\"",
+        "es": "\"La memoria y la reputación del difunto no desaparecerán\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-10b"
+          ],
+          "verseId": "rut4-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La comunidad sitúa a Rut dentro de la historia fundadora de Israel. La moabita recibe una bendición que la vincula con las matriarcas. Su inclusión no es tolerancia periférica; es reconocimiento de que Dios edifica Su pueblo también mediante ella.\nLa bendición corrige la mirada comunitaria. Quien fue presentada repetidamente como extranjera llega a ser nombrada como mujer que construye casa, pueblo y futuro.",
+      "id": "rut4-joya-04",
+      "msg": {
+        "en": "\"May GOD make this woman who is coming into your household like Rachel and Leah\"",
+        "es": "\"¡Que DIOS haga a esta mujer que entra en tu casa como Raquel y Lea\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-11b"
+          ],
+          "verseId": "rut4-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11-12"
+    },
+    {
+      "explanation": "Siete hijos representaban plenitud familiar, pero las mujeres afirman que el amor de Rut supera ese ideal. El texto honra a una nuera extranjera por encima de la medida cultural más alta de seguridad y descendencia.\nNoemí había dicho que quedó sin sus hijos; la comunidad no niega esa pérdida. Reconoce que la fidelidad de Rut ha creado una forma de familia que las categorías tradicionales no podían anticipar.",
+      "id": "rut4-joya-05",
+      "msg": {
+        "en": "\"she’s worth more to you than seven sons!\"",
+        "es": "\"¡vale para ti más que siete hijos!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-15b"
+          ],
+          "verseId": "rut4-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "14-15"
+    },
+    {
+      "explanation": "Una escena doméstica desemboca en el nombre del rey. Ambas versiones revelan de pronto el alcance nacional de la historia. Dios ha usado la fidelidad de Rut, Noemí y Booz para preparar el futuro de Israel.\nLa genealogía no disminuye el valor de haber alimentado y acompañado a Noemí. Muestra que Dios une cuidado particular y propósito amplio. La gran historia avanza mediante actos que parecían destinados a una sola casa.",
+      "id": "rut4-joya-06",
+      "msg": {
+        "en": "\"Obed was the father of Jesse, and Jesse the father of David.\"",
+        "es": "\"Obed fue padre de Isaí, e Isaí fue padre de David.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut4-nbla-17b"
+          ],
+          "verseId": "rut4-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "17"
+    }
+  ],
+  "meta": {
+    "book": "RUT",
+    "bookId": "rut",
+    "chapter": 4,
+    "studyId": "rut-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "rut4-msg-01",
+      "msg": {
+        "en": "Boaz went straight to the public square and took his place there. Before long the “closer relative,” the one mentioned earlier by Boaz, strolled by.\n“Step aside, old friend,” said Boaz. “Take a seat.” The man sat down.",
+        "es": "Booz fue directamente a la plaza pública y ocupó allí su lugar. Poco después pasó por allí el «pariente más cercano» que Booz había mencionado. «Ven acá, amigo —dijo Booz—. Toma asiento». El hombre se sentó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "rut4-msg-02",
+      "msg": {
+        "en": "Boaz then gathered ten of the town elders together and said, “Sit down here with us; we’ve got some business to take care of.” And they sat down.",
+        "es": "Luego Booz reunió a diez ancianos del pueblo y dijo: «Siéntense aquí con nosotros; tenemos un asunto que resolver». Y ellos se sentaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "rut4-msg-03",
+      "msg": {
+        "en": "Boaz then said to his relative, “The piece of property that belonged to our relative Elimelech is being sold by his widow Naomi, who has just returned from the country of Moab. I thought you ought to know about it. Buy it back if you want it—you can make it official in the presence of those sitting here and before the town elders. You have first redeemer rights. If you don’t want it, tell me so I’ll know where I stand. You’re first in line to do this and I’m next after you.”\nHe said, “I’ll buy it.”",
+        "es": "Booz dijo entonces a su pariente: «Noemí, la viuda que acaba de regresar del territorio de Moab, está vendiendo la parcela que perteneció a nuestro pariente Elimelec. Pensé que debías saberlo. Cómprala si quieres; puedes hacerlo oficial en presencia de quienes están aquí sentados y de los ancianos del pueblo. Tú tienes el primer derecho de redención. Si no la quieres, dímelo para saber a qué atenerme. Tú eres el primero en la línea y yo vengo después». Él dijo: «La compraré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "rut4-msg-04",
+      "msg": {
+        "en": "Then Boaz added, “You realize, don’t you, that when you buy the field from Naomi, you also get Ruth the Moabite, the widow of our dead relative, along with the redeemer responsibility to have children with her to carry on the family inheritance.”",
+        "es": "Entonces Booz añadió: «Comprendes, ¿verdad?, que cuando compres el campo de Noemí también recibes a Rut la moabita, viuda de nuestro pariente difunto, junto con la responsabilidad del redentor de tener descendencia con ella para dar continuidad a la herencia familiar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "rut4-msg-05",
+      "msg": {
+        "en": "Then the relative said, “Oh, I can’t do that—I’d jeopardize my own family’s inheritance. You go ahead and buy it—you can have my rights—I can’t do it.”",
+        "es": "Entonces el pariente dijo: «No, no puedo hacerlo; pondría en riesgo la herencia de mi propia familia. Hazlo tú; puedes quedarte con mis derechos. Yo no puedo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7",
+      "id": "rut4-msg-06",
+      "msg": {
+        "en": "In the olden times in Israel, this is how they handled official business regarding matters of property and inheritance: a man would take off his shoe and give it to the other person. This was the same as an official seal or personal signature in Israel.",
+        "es": "Antiguamente, así se resolvían en Israel los asuntos oficiales relacionados con propiedad y herencia: un hombre se quitaba la sandalia y se la entregaba al otro. Aquello equivalía a un sello oficial o una firma personal en Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-07"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "8",
+      "id": "rut4-msg-07",
+      "msg": {
+        "en": "So when Boaz’s “redeemer” relative said, “Go ahead and buy it,” he signed the deal by pulling off his shoe.",
+        "es": "Así que, cuando el pariente «redentor» de Booz dijo: «Adelante, cómprala», confirmó el acuerdo quitándose la sandalia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-08"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "rut4-msg-08",
+      "msg": {
+        "en": "Boaz then addressed the elders and all the people in the town square that day: “You are witnesses today that I have bought from Naomi everything that belonged to Elimelech and Kilion and Mahlon, including responsibility for Ruth the foreigner, the widow of Mahlon—I’ll take her as my wife and keep the name of the deceased alive along with his inheritance. The memory and reputation of the deceased is not going to disappear out of this family or from his hometown. To all this you are witnesses this very day.”",
+        "es": "Entonces Booz se dirigió a los ancianos y a toda la gente reunida aquel día en la plaza: «Ustedes son testigos hoy de que he comprado de Noemí todo lo que perteneció a Elimelec, Quelión y Mahlón. También asumo la responsabilidad por Rut la extranjera, viuda de Mahlón; la tomaré como esposa y mantendré vivo el nombre del difunto junto con su herencia. La memoria y la reputación del difunto no desaparecerán de su familia ni de su pueblo. De todo esto ustedes son testigos hoy mismo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-10"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "rut4-msg-09",
+      "msg": {
+        "en": "All the people in the town square that day, backing up the elders, said, “Yes, we are witnesses. May GOD make this woman who is coming into your household like Rachel and Leah, the two women who built the family of Israel. May GOD make you a pillar in Ephrathah and famous in Bethlehem! With the children GOD gives you from this young woman, may your family rival the family of Perez, the son Tamar bore to Judah.”",
+        "es": "Todo el pueblo reunido aquel día en la plaza, junto con los ancianos, dijo: «Sí, somos testigos. ¡Que DIOS haga a esta mujer que entra en tu casa como Raquel y Lea, las dos mujeres que edificaron la familia de Israel! ¡Que DIOS te haga un pilar en Efrata y te dé renombre en Belén! Por medio de los hijos que DIOS te conceda con esta joven, que tu familia llegue a ser como la familia de Fares, el hijo que Tamar dio a Judá»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-12"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "13",
+      "id": "rut4-msg-10",
+      "msg": {
+        "en": "Boaz married Ruth. She became his wife. Boaz slept with her. By GOD’s gracious gift she conceived and had a son.",
+        "es": "Booz se casó con Rut y ella llegó a ser su esposa. Booz se unió a ella. Por el regalo bondadoso de DIOS, Rut concibió y tuvo un hijo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-13"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "rut4-msg-11",
+      "msg": {
+        "en": "The town women said to Naomi, “Blessed be GOD! He didn’t leave you without family to carry on your life. May this baby grow up to be famous in Israel! He’ll make you young again! He’ll take care of you in old age. And this daughter-in-law who has brought him into the world and loves you so much, why, she’s worth more to you than seven sons!”",
+        "es": "Las mujeres del pueblo dijeron a Noemí: «¡Bendito sea DIOS! No te dejó sin familia que dé continuidad a tu vida. ¡Que este niño crezca y llegue a ser famoso en Israel! ¡Él renovará tu juventud y cuidará de ti en la vejez! Y esta nuera que lo ha traído al mundo y que tanto te ama, ¡vale para ti más que siete hijos!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-15"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "16",
+      "id": "rut4-msg-12",
+      "msg": {
+        "en": "Naomi took the baby and held him in her arms, cuddling him, cooing over him, waiting on him hand and foot.",
+        "es": "Noemí tomó al niño y lo sostuvo en sus brazos; lo abrazaba, le hablaba con ternura y lo atendía con todo cuidado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-16"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "17",
+      "id": "rut4-msg-13",
+      "msg": {
+        "en": "The neighborhood women started calling him “Naomi’s baby boy!” But his real name was Obed. Obed was the father of Jesse, and Jesse the father of David.",
+        "es": "Las vecinas comenzaron a llamarlo «¡el niño de Noemí!». Pero su verdadero nombre fue Obed. Obed fue padre de Isaí, e Isaí fue padre de David."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-17"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "18-22",
+      "id": "rut4-msg-14",
+      "msg": {
+        "en": "This is the family tree of Perez:\nPerez had Hezron,\nHezron had Ram,\nRam had Amminadab,\nAmminadab had Nahshon,\nNahshon had Salmon,\nSalmon had Boaz,\nBoaz had Obed,\nObed had Jesse,\nand Jesse had David.",
+        "es": "Este es el árbol familiar de Fares:\nFares fue padre de Hezrón,\nHezrón fue padre de Ram,\nRam fue padre de Aminadab,\nAminadab fue padre de Naasón,\nNaasón fue padre de Salmón,\nSalmón fue padre de Booz,\nBooz fue padre de Obed,\nObed fue padre de Isaí,\ne Isaí fue padre de David."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut4-nbla-22"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "rut4-nbla-01",
+      "number": 1,
+      "text": "Booz subió a la puerta y allí se sentó, y cuando el pariente más cercano de quien Booz había hablado iba pasando, le dijo: «Oye, amigo, ven acá y siéntate». Y él vino y se sentó."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-02a",
+          "order": 1,
+          "text": "Y Booz tomó diez hombres de los ancianos de la ciudad, y les dijo: «"
+        },
+        {
+          "id": "rut4-nbla-02b",
+          "order": 2,
+          "text": "Siéntense aquí"
+        },
+        {
+          "id": "rut4-nbla-02c",
+          "order": 3,
+          "text": "». Y ellos se sentaron."
+        }
+      ],
+      "id": "rut4-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "rut4-nbla-03",
+      "number": 3,
+      "text": "Entonces dijo al pariente más cercano: «Noemí, que volvió de la tierra de Moab, tiene que vender la parte de la tierra que pertenecía a nuestro hermano Elimelec."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-04a",
+          "order": 1,
+          "text": "Y pensé informarte, diciéndote: “Cómprala en presencia de los que están aquí sentados, y en presencia de los ancianos de mi pueblo. Si la vas a redimir, redímela; y si no, dímelo para que yo lo sepa; porque"
+        },
+        {
+          "id": "rut4-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no hay otro aparte de ti que la redima, y yo después de ti"
+        },
+        {
+          "id": "rut4-nbla-04c",
+          "order": 3,
+          "text": "”». Él dijo: «La redimiré»."
+        }
+      ],
+      "id": "rut4-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "rut4-nbla-05",
+      "number": 5,
+      "text": "Entonces Booz dijo: «El día que compres el campo de manos de Noemí, también debes adquirir a Rut la moabita, viuda del difunto, a fin de conservar el nombre del difunto en su heredad»."
+    },
+    {
+      "id": "rut4-nbla-06",
+      "number": 6,
+      "text": "Y el pariente más cercano respondió: «No puedo redimirla para mí mismo, no sea que perjudique mi heredad. Redímela para ti; usa tú mi derecho de redención, pues yo no puedo redimirla»."
+    },
+    {
+      "id": "rut4-nbla-07",
+      "number": 7,
+      "text": "Y la costumbre en tiempos pasados en Israel tocante a la redención y el intercambio de tierras para confirmar cualquier asunto era esta: uno se quitaba la sandalia y se la daba al otro; y esta era la manera de confirmar tratos en Israel."
+    },
+    {
+      "id": "rut4-nbla-08",
+      "number": 8,
+      "text": "El pariente más cercano dijo a Booz: «Cómprala para ti». Y se quitó la sandalia."
+    },
+    {
+      "id": "rut4-nbla-09",
+      "number": 9,
+      "text": "Entonces Booz dijo a los ancianos y a todo el pueblo: «Ustedes son testigos hoy que he comprado de la mano de Noemí todo lo que pertenecía a Elimelec y todo lo que pertenecía a Quelión y a Mahlón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-10a",
+          "order": 1,
+          "text": "Además, he adquirido a Rut la moabita, la viuda de Mahlón, para que sea mi mujer a fin de preservar el nombre del difunto en su heredad,"
+        },
+        {
+          "id": "rut4-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para que el nombre del difunto no sea cortado"
+        },
+        {
+          "id": "rut4-nbla-10c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "de entre sus hermanos, ni del atrio de su lugar de nacimiento; ustedes son testigos hoy»."
+        }
+      ],
+      "id": "rut4-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-11a",
+          "order": 1,
+          "text": "Y todo el pueblo que estaba en el atrio, y los ancianos, dijeron: «Somos testigos."
+        },
+        {
+          "id": "rut4-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Haga el SEÑOR a la mujer que entra en tu casa como a Raquel y a Lea"
+        },
+        {
+          "id": "rut4-nbla-11c",
+          "order": 3,
+          "text": ", las cuales edificaron la casa de Israel; y que tú adquieras riquezas en Efrata y seas célebre en Belén."
+        }
+      ],
+      "id": "rut4-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "rut4-nbla-12",
+      "number": 12,
+      "text": "Además, sea tu casa como la casa de Fares, el que Tamar dio a luz a Judá, por medio de la descendencia que el SEÑOR te dará de esta joven»."
+    },
+    {
+      "id": "rut4-nbla-13",
+      "number": 13,
+      "text": "Booz tomó a Rut y ella fue su mujer, y se llegó a ella. Y el SEÑOR hizo que concibiera, y ella dio a luz un hijo."
+    },
+    {
+      "id": "rut4-nbla-14",
+      "number": 14,
+      "text": "Entonces las mujeres dijeron a Noemí: «Bendito sea el SEÑOR que no te ha dejado hoy sin redentor; que su nombre sea célebre en Israel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-15a",
+          "order": 1,
+          "text": "Que el niño también sea para ti restaurador de tu vida y sustentador de tu vejez; porque tu nuera, que te ama y que"
+        },
+        {
+          "id": "rut4-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "es de más valor para ti que siete hijos"
+        },
+        {
+          "id": "rut4-nbla-15c",
+          "order": 3,
+          "text": ", lo ha dado a luz»."
+        }
+      ],
+      "id": "rut4-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "rut4-nbla-16",
+      "number": 16,
+      "text": "Entonces Noemí tomó al niño, lo puso en su regazo y se encargó de criarlo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut4-nbla-17a",
+          "order": 1,
+          "text": "Las mujeres vecinas le dieron un nombre y dijeron: «Le ha nacido un hijo a Noemí». Y lo llamaron Obed."
+        },
+        {
+          "id": "rut4-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Él es el padre de Isaí, padre de David."
+        }
+      ],
+      "id": "rut4-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "rut4-nbla-18",
+      "number": 18,
+      "text": "Estas son las generaciones de Fares: Fares fue el padre de Hezrón,"
+    },
+    {
+      "id": "rut4-nbla-19",
+      "number": 19,
+      "text": "Hezrón el padre de Ram, Ram el padre de Aminadab,"
+    },
+    {
+      "id": "rut4-nbla-20",
+      "number": 20,
+      "text": "Aminadab el padre de Naasón, Naasón el padre de Salmón,"
+    },
+    {
+      "id": "rut4-nbla-21",
+      "number": 21,
+      "text": "Salmón el padre de Booz, Booz el padre de Obed,"
+    },
+    {
+      "id": "rut4-nbla-22",
+      "number": 22,
+      "text": "Obed el padre de Isaí e Isaí fue el padre de David."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

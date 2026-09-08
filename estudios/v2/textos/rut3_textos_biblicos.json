@@ -1,0 +1,512 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Noemí vuelve a imaginar bienestar. NBLA enfatiza seguridad; MSG hace visible un hogar y una vida buena. La mujer que antes no veía futuro ahora dirige su atención hacia el futuro de Rut. La restauración empieza a liberar su capacidad de cuidar.\nSu plan requiere discernimiento, pero su propósito es generoso. La esperanza sana no encierra a la persona en su propia recuperación; abre nuevamente los ojos para procurar descanso a otros.",
+      "id": "rut3-joya-01",
+      "msg": {
+        "en": "\"isn’t it about time I arranged a good home for you so you can have a happy life?\"",
+        "es": "\"¿no es hora de que te busque un buen hogar para que puedas tener una vida feliz?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-01b"
+          ],
+          "verseId": "rut3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "MSG explicita el simbolismo protector y NBLA conserva la imagen concreta del manto. Rut pide que Booz transforme la bendición de las alas de Dios en una responsabilidad de pacto. La oración del capítulo anterior vuelve ahora como vocación humana.\nPedir refugio no disminuye a Rut. Ella nombra el vínculo y llama a Booz a responder. Su voz muestra que la vulnerabilidad y la agencia pueden coexistir.",
+      "id": "rut3-joya-02",
+      "msg": {
+        "en": "\"take me under your protecting wing\"",
+        "es": "\"recíbame bajo su ala protectora\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-09b"
+          ],
+          "verseId": "rut3-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "9"
+    },
+    {
+      "explanation": "NBLA traduce el carácter de Rut como virtud; MSG resalta su valentía. El término abarca fortaleza, capacidad y valor. El pueblo ya no puede definirla solamente como moabita: su fidelidad ha creado una reputación pública.\nLa honra del texto no depende de belleza, riqueza ni origen. Nace de decisiones sostenidas: permanecer con Noemí, trabajar y buscar redención sin manipular. La comunidad aprende a reconocer grandeza donde antes solo veía extranjería.",
+      "id": "rut3-joya-03",
+      "msg": {
+        "en": "\"Everybody in town knows what a courageous woman you are\"",
+        "es": "\"Todo el pueblo sabe que eres una mujer valiente\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-11b"
+          ],
+          "verseId": "rut3-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "10-13"
+    },
+    {
+      "explanation": "Booz introduce un límite capaz de frustrar su propio deseo. Ambas versiones conservan con claridad el derecho anterior de otro. Su sinceridad muestra que el amor leal no se apropia del resultado bajo la excusa de estar haciendo el bien.\nDecir la verdad en ese momento protege a Rut de una promesa falsa. La integridad no garantiza el desenlace que queremos; garantiza que no construiremos el futuro sobre ocultamiento o abuso.",
+      "id": "rut3-joya-04",
+      "msg": {
+        "en": "\"there is one even closer than I am\"",
+        "es": "\"hay otro aún más cercano que yo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-12b"
+          ],
+          "verseId": "rut3-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "10-13"
+    },
+    {
+      "explanation": "El regalo alcanza a Noemí y conversa con su lamento de haber vuelto vacía. Todavía no es la redención completa, pero es una señal material de intención. Booz no envía a Rut solo con palabras; acompaña su compromiso con provisión.\nLa gracia suele dar anticipos que sostienen durante la espera. No son garantías fabricadas por nosotros, sino evidencias del carácter de quien prometió actuar.",
+      "id": "rut3-joya-05",
+      "msg": {
+        "en": "\"You can’t go back empty-handed to your mother-in-law!\"",
+        "es": "\"No puedes regresar con las manos vacías a tu suegra\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-17b"
+          ],
+          "verseId": "rut3-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    },
+    {
+      "explanation": "Noemí interpreta correctamente el carácter de Booz. MSG comunica determinación práctica; NBLA subraya que no descansará hasta resolver. La espera de Rut tiene un fundamento personal: alguien responsable está trabajando por el asunto.\nLa confiabilidad se construye mediante conducta repetida. Booz puede ser creído porque ya ha protegido, dado y hablado con verdad. La fe comunitaria necesita personas cuya palabra permita a otros descansar.",
+      "id": "rut3-joya-06",
+      "msg": {
+        "en": "\"that man isn’t going to fool around\"",
+        "es": "\"ese hombre no va a perder el tiempo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "rut3-nbla-18b"
+          ],
+          "verseId": "rut3-nbla-18"
+        }
+      ],
+      "order": 6,
+      "range": "18"
+    }
+  ],
+  "meta": {
+    "book": "RUT",
+    "bookId": "rut",
+    "chapter": 3,
+    "studyId": "rut-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "rut3-msg-01",
+      "msg": {
+        "en": "One day her mother-in-law Naomi said to Ruth, “My dear daughter, isn’t it about time I arranged a good home for you so you can have a happy life? And isn’t Boaz our close relative, the one with whose young women you’ve been working? Maybe it’s time to make our move. Tonight is the night of Boaz’s barley harvest at the threshing floor.",
+        "es": "Un día Noemí, su suegra, dijo a Rut: «Querida hija, ¿no es hora de que te busque un buen hogar para que puedas tener una vida feliz? ¿Y no es Booz nuestro pariente cercano, aquel con cuyas jóvenes has estado trabajando? Tal vez sea el momento de dar nuestro paso. Esta noche Booz aventará la cebada en la era."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "rut3-msg-02",
+      "msg": {
+        "en": "“Take a bath. Put on some perfume. Get all dressed up and go to the threshing floor. But don’t let him know you’re there until the party is well under way and he’s had plenty of food and drink. When you see him slipping off to sleep, watch where he lies down and then go there. Lie at his feet to let him know that you are available to him for marriage. Then wait and see what he says. He’ll tell you what to do.”",
+        "es": "«Báñate. Ponte perfume. Vístete bien y baja a la era. Pero no dejes que él sepa que estás allí hasta que la celebración esté avanzada y haya comido y bebido bastante. Cuando lo veas apartarse para dormir, fíjate dónde se acuesta y luego ve allí. Acuéstate a sus pies para hacerle saber que estás disponible para casarte con él. Después espera a ver qué dice. Él te dirá lo que debes hacer»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "rut3-msg-03",
+      "msg": {
+        "en": "Ruth said, “If you say so, I’ll do it, just as you’ve told me.”",
+        "es": "Rut dijo: «Si tú lo dices, lo haré tal como me has indicado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "rut3-msg-04",
+      "msg": {
+        "en": "She went down to the threshing floor and put her mother-in-law’s plan into action.",
+        "es": "Bajó a la era y puso en práctica el plan de su suegra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "rut3-msg-05",
+      "msg": {
+        "en": "Boaz had a good time, eating and drinking his fill—he felt great. Then he went off to get some sleep, lying down at the end of a stack of barley. Ruth quietly followed; she lay down to signal her availability for marriage.",
+        "es": "Booz disfrutó, comió y bebió hasta quedar satisfecho; se sentía muy bien. Después se apartó para dormir al extremo de un montón de cebada. Rut lo siguió en silencio y se acostó para indicar que estaba disponible para casarse."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "rut3-msg-06",
+      "msg": {
+        "en": "In the middle of the night the man was suddenly startled and sat up. Surprise! This woman asleep at his feet!",
+        "es": "A medianoche el hombre se sobresaltó de repente y se incorporó. ¡Qué sorpresa! ¡Había una mujer dormida a sus pies!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9",
+      "id": "rut3-msg-07",
+      "msg": {
+        "en": "He said, “And who are you?”\nShe said, “I am Ruth, your maiden; take me under your protecting wing. You’re my close relative, you know, in the circle of covenant redeemers—you do have the right to marry me.”",
+        "es": "Él preguntó: «¿Quién eres?». Ella respondió: «Soy Rut, su sierva; recíbame bajo su ala protectora. Usted es mi pariente cercano, pertenece al círculo de redentores del pacto y tiene el derecho de casarse conmigo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10-13",
+      "id": "rut3-msg-08",
+      "msg": {
+        "en": "He said, “GOD bless you, my dear daughter! What a splendid expression of love! And when you could have had your pick of any of the young men around. And now, my dear daughter, don’t you worry about a thing; I’ll do all you could want or ask. Everybody in town knows what a courageous woman you are—a real prize! You’re right, I am a close relative to you, but there is one even closer than I am. So stay the rest of the night. In the morning, if he wants to exercise his customary rights and responsibilities as the closest covenant redeemer, he’ll have his chance; but if he isn’t interested, as GOD lives, I’ll do it. Now go back to sleep until morning.”",
+        "es": "Él dijo: «¡Que DIOS te bendiga, querida hija! ¡Qué expresión tan espléndida de amor! Y eso cuando podrías haber escogido a cualquiera de los jóvenes de aquí. Ahora, querida hija, no te preocupes por nada; haré todo lo que quieras o pidas. Todo el pueblo sabe que eres una mujer valiente, un verdadero tesoro. Tienes razón: soy pariente cercano, pero hay otro aún más cercano que yo. Quédate aquí el resto de la noche. Por la mañana, si él quiere ejercer sus derechos y responsabilidades acostumbrados como el redentor más cercano, tendrá su oportunidad; pero si no le interesa, tan cierto como que DIOS vive, yo lo haré. Ahora vuelve a dormir hasta la mañana»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14",
+      "id": "rut3-msg-09",
+      "msg": {
+        "en": "Ruth slept at his feet until dawn, but she got up while it was still dark and wouldn’t be recognized. Then Boaz said to himself, “No one must know that Ruth came to the threshing floor.”",
+        "es": "Rut durmió a sus pies hasta el amanecer, pero se levantó cuando aún estaba oscuro y no podían reconocerla. Entonces Booz se dijo: «Nadie debe saber que Rut vino a la era»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-14"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "15",
+      "id": "rut3-msg-10",
+      "msg": {
+        "en": "So Boaz said, “Bring the shawl you’re wearing and spread it out.”\nShe spread it out and he poured it full of barley, six measures, and put it on her shoulders. Then she went back to town.",
+        "es": "Booz dijo: «Trae el manto que llevas puesto y extiéndelo». Ella lo extendió, y él lo llenó con seis medidas de cebada y se lo puso sobre los hombros. Después ella regresó a la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-15"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "rut3-msg-11",
+      "msg": {
+        "en": "When she came to her mother-in-law, Naomi asked, “And how did things go, my dear daughter?”\nRuth told her everything that the man had done for her, adding, “And he gave me all this barley besides—six quarts! He told me, ‘You can’t go back empty-handed to your mother-in-law!’”",
+        "es": "Cuando llegó donde estaba su suegra, Noemí preguntó: «¿Y cómo te fue, querida hija?». Rut le contó todo lo que el hombre había hecho por ella y añadió: «Además me dio toda esta cebada, ¡seis medidas! Me dijo: “No puedes regresar con las manos vacías a tu suegra”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-17"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "18",
+      "id": "rut3-msg-12",
+      "msg": {
+        "en": "Naomi said, “Sit back and relax, my dear daughter, until we find out how things turn out; that man isn’t going to fool around. Mark my words, he’s going to get everything wrapped up today.”",
+        "es": "Noemí dijo: «Siéntate y descansa, querida hija, hasta que sepamos cómo resulta todo; ese hombre no va a perder el tiempo. Recuerda mis palabras: hoy mismo dejará todo resuelto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "rut3-nbla-18"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-01a",
+          "order": 1,
+          "text": "Después su suegra Noemí le dijo: «Hija mía,"
+        },
+        {
+          "id": "rut3-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿no he de buscar seguridad para ti, para que te vaya bien?"
+        }
+      ],
+      "id": "rut3-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "rut3-nbla-02",
+      "number": 2,
+      "text": "Ahora pues, ¿no es Booz nuestro pariente, con cuyas criadas estabas? Mira, él va a aventar cebada en la era esta noche."
+    },
+    {
+      "id": "rut3-nbla-03",
+      "number": 3,
+      "text": "Lávate, pues, perfúmate y ponte tu mejor vestido y baja a la era; pero no te des a conocer al hombre hasta que haya acabado de comer y beber."
+    },
+    {
+      "id": "rut3-nbla-04",
+      "number": 4,
+      "text": "Y sucederá que cuando él se acueste, notarás el lugar donde se acuesta; irás, descubrirás sus pies y te acostarás; entonces él te dirá lo que debes hacer»."
+    },
+    {
+      "id": "rut3-nbla-05",
+      "number": 5,
+      "text": "Ella respondió: «Todo lo que me dices, haré»."
+    },
+    {
+      "id": "rut3-nbla-06",
+      "number": 6,
+      "text": "Descendió, pues, Rut a la era e hizo todo lo que su suegra le había mandado."
+    },
+    {
+      "id": "rut3-nbla-07",
+      "number": 7,
+      "text": "Cuando Booz hubo comido y bebido, y su corazón estaba contento, fue a acostarse al pie del montón de grano; y ella vino calladamente, le destapó los pies y se acostó."
+    },
+    {
+      "id": "rut3-nbla-08",
+      "number": 8,
+      "text": "A medianoche Booz se sorprendió, y al voltearse notó que una mujer estaba acostada a sus pies."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-09a",
+          "order": 1,
+          "text": "Booz le preguntó: «¿Quién eres?». Y ella respondió: «Soy Rut, su sierva."
+        },
+        {
+          "id": "rut3-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Extienda, pues, su manto sobre su sierva"
+        },
+        {
+          "id": "rut3-nbla-09c",
+          "order": 3,
+          "text": ", por cuanto es pariente cercano»."
+        }
+      ],
+      "id": "rut3-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "rut3-nbla-10",
+      "number": 10,
+      "text": "Entonces él dijo: «Bendita seas del SEÑOR, hija mía. Has hecho tu última bondad mejor que la primera, al no ir en pos de los jóvenes, ya sean pobres o ricos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-11a",
+          "order": 1,
+          "text": "Ahora, hija mía, no temas. Haré por ti todo lo que me pidas, pues"
+        },
+        {
+          "id": "rut3-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todo mi pueblo en la ciudad sabe que eres una mujer virtuosa."
+        }
+      ],
+      "id": "rut3-nbla-11",
+      "number": 11
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-12a",
+          "order": 1,
+          "text": "Ahora bien, es verdad que soy pariente cercano, pero"
+        },
+        {
+          "id": "rut3-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hay un pariente más cercano que yo."
+        }
+      ],
+      "id": "rut3-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "rut3-nbla-13",
+      "number": 13,
+      "text": "Quédate esta noche, y cuando venga la mañana, si él quiere redimirte, bien, que te redima. Pero si no quiere redimirte, entonces, como que el SEÑOR vive, yo te redimiré. Acuéstate hasta la mañana»."
+    },
+    {
+      "id": "rut3-nbla-14",
+      "number": 14,
+      "text": "Ella se acostó a sus pies hasta la mañana, y se levantó antes que una persona pudiera reconocer a otra; y él dijo: «Que no se sepa que ha venido mujer a la era»."
+    },
+    {
+      "id": "rut3-nbla-15",
+      "number": 15,
+      "text": "Luego Booz le dijo: «Dame el manto que tienes puesto y sujétalo». Y ella lo sujetó, y él midió seis porciones de cebada y se las puso encima. Entonces ella entró en la ciudad."
+    },
+    {
+      "id": "rut3-nbla-16",
+      "number": 16,
+      "text": "Cuando llegó a donde estaba su suegra, esta le preguntó: «¿Cómo te fue, hija mía?». Y Rut le contó todo lo que Booz había hecho por ella."
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-17a",
+          "order": 1,
+          "text": "Y añadió: «Me dio estas seis porciones de cebada, pues dijo: “"
+        },
+        {
+          "id": "rut3-nbla-17b",
+          "order": 2,
+          "text": "No vayas a tu suegra con las manos vacías”»."
+        }
+      ],
+      "id": "rut3-nbla-17",
+      "number": 17
+    },
+    {
+      "clauses": [
+        {
+          "id": "rut3-nbla-18a",
+          "order": 1,
+          "text": "Entonces Noemí dijo: «Espera, hija mía, hasta que sepas cómo se resolverá el asunto; porque"
+        },
+        {
+          "id": "rut3-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "este hombre no descansará hasta que lo haya arreglado hoy mismo»."
+        }
+      ],
+      "id": "rut3-nbla-18",
+      "number": 18
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
