@@ -2810,10 +2810,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_racha_v1_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v2_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_racha_v1_vista = '1';
-      fbSet({novedades_racha_v1_vista:'1'});
+      _userData.novedades_contenido_v2_vista = '1';
+      fbSet({novedades_contenido_v2_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4075,8 +4075,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">Tu camino ahora guarda más.</h2>
-    <p class="novedades-intro">Estas son las nuevas maneras de cuidar tu proceso y volver a lo que Dios te habló.</p>
+    <h2 class="novedades-title" id="novedades-title">Tu camino guarda más y sigue creciendo.</h2>
+    <p class="novedades-intro">Estas novedades cuidan tu proceso y amplían el recorrido por la Escritura.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
@@ -4130,6 +4130,26 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div>
         <div class="novedades-item-title">Guarda lo que quieras conservar</div>
         <p class="novedades-item-copy">Guardar no cuesta estrellas. Tus lecturas favoritas quedan en Mis días guardados para volver a ellas cuando quieras.</p>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5Z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Jueces y Rut, capítulo por capítulo</div>
+        <p class="novedades-item-copy">Ya puedes recorrer Jueces 1–21 y Rut 1–4 con diez estaciones por capítulo y lectura MSG + NBLA.</p>
+      </div>
+    </div>
+
+    <div class="novedades-item">
+      <div class="novedades-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v10l8 4 8-4V7l-8-4Z"/><path d="m4 7 8 4 8-4M12 11v10"/></svg>
+      </div>
+      <div>
+        <div class="novedades-item-title">Tres nuevas introducciones</div>
+        <p class="novedades-item-copy">Antes de comenzar, explora Deuteronomio, Jueces y Rut con contexto, recorrido, temas y recursos seleccionados.</p>
       </div>
     </div>
 
@@ -4223,7 +4243,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
           </div>
           <div>
             <div class="config-row-label">Novedades</div>
-            <div class="config-row-sub">Conoce las nuevas funciones de S.T.A.R.S</div>
+            <div class="config-row-sub">Conoce los contenidos recién incorporados</div>
           </div>
         </div>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
@@ -7951,8 +7971,8 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_racha_v1_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_racha_v1_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v2_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v2_pospuesta';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
 
@@ -10817,7 +10837,7 @@ function dskIlSec(btn, idx){
                 </div>
                 <div>
                   <div class="config-row-label">Novedades</div>
-                  <div class="config-row-sub">Conoce las nuevas funciones de S.T.A.R.S</div>
+                  <div class="config-row-sub">Conoce los contenidos recién incorporados</div>
                 </div>
               </div>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
