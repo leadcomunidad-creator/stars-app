@@ -79,7 +79,7 @@ body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);
 .wday-label{font-size:0.5625rem;letter-spacing:0.1em;color:var(--white3);text-transform:uppercase}
 .wday-dot{width:30px;height:30px;border-radius:50%;border:1.5px solid var(--black5);display:flex;align-items:center;justify-content:center;font-size:0.6875rem;color:var(--white3);transition:all 0.25s;cursor:pointer;font-weight:500}
 .wday-dot.today{border-color:var(--gold);color:var(--gold)}
-.wday-dot.done{background:var(--gold);border-color:var(--gold);color:var(--black);font-size:0.8125rem}
+.wday-dot.done{background:var(--gold);border-color:var(--gold);color:var(--black);font-size:0.6875rem;line-height:1;overflow:hidden}
 
 /* ── SECTION LABEL ── */
 .sec-label{font-size:0.625rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--white3);padding:0 20px;margin-bottom:10px;display:flex;align-items:center;justify-content:space-between}
@@ -6072,6 +6072,13 @@ function marcarDiaRestaurado(key){
 function marcarDiaInvalidoParaRacha(key){
   const invalidos=leerMapaRacha('racha_invalidos');invalidos[key]=Date.now();guardarMapaRacha('racha_invalidos',invalidos);
 }
+function validarDiaAdminParaRacha(key){
+  if(!window.ADMIN_MODE) return;
+  const invalidos=leerMapaRacha('racha_invalidos');
+  if(invalidos[key]){delete invalidos[key];guardarMapaRacha('racha_invalidos',invalidos);}
+  const restaurados=leerMapaRacha('racha_restaurados');
+  if(restaurados[key]){delete restaurados[key];guardarMapaRacha('racha_restaurados',restaurados);}
+}
 function diasEntreClaves(desde,hasta){return Math.round((fechaDesdeKey(hasta)-fechaDesdeKey(desde))/86400000);}
 
 function getBancoStars(){
@@ -6125,8 +6132,8 @@ function semanaISOConAnio(date){
 }
 function estaEnSemanaActual(key){return getWeekDates().some(d=>dateToKey(d)===key);}
 async function activarDiaDevocional(key,{desdeBanco=false}={}){
-  const actual=getActualTodayKey();if(key>actual){showToast('Ese día todavía no está disponible');return false;}
-  if(!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)){showToast('Los días anteriores permanecen disponibles si los guardas en Mis días');return false;}
+  const actual=getActualTodayKey();if(key>actual&&!window.ADMIN_MODE){showToast('Ese día todavía no está disponible');return false;}
+  if(!window.ADMIN_MODE&&!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)){showToast('Los días anteriores permanecen disponibles si los guardas en Mis días');return false;}
   if(!DEVOCIONALES[key]){const info=semanaISOConAnio(fechaDesdeKey(key));await cargarDevocionalSemana(info.year,info.week);}
   if(!DEVOCIONALES[key]){showToast('Sin Paso Diario disponible para ese día');return false;}
   FECHA_DEVOCIONAL_ACTIVA=key===actual?null:key;
@@ -6179,6 +6186,12 @@ function premiarConstanciaSiCorresponde(key){
 }
 function procesarFinalizacionDia(key){
   const hoy=getActualTodayKey();
+  if(window.ADMIN_MODE&&key<hoy){
+    validarDiaAdminParaRacha(key);
+    premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
+    showToast('Día completado · ajuste de administrador');
+    return;
+  }
   if(key<hoy&&!esDiaRestaurado(key)&&!esDiaInvalidoParaRacha(key)){
     const diferencia=diasEntreClaves(key,hoy);const saldo=getRachaStars();
     if(diferencia<=2&&saldo>0){
@@ -6230,7 +6243,7 @@ function initWeek(){
     else dot.className='wday-dot past';
     if(isSelected) dot.classList.add('selected');
 
-    dot.textContent = done ? '⭐' : labels[i];
+    dot.textContent = done ? '★' : labels[i];
     dot.style.cursor=isFuture?'default':'pointer';
     const lbl=document.createElement('div'); lbl.className='wday-label'; lbl.textContent=labels[i];
     d.appendChild(lbl); d.appendChild(dot);
