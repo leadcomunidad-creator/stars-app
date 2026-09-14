@@ -1,0 +1,670 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El narrador subraya una distancia que será moral además de geográfica. David conserva el mando y delega el riesgo. La frase no enseña que todo descanso sea infidelidad; señala el marco en el que el rey actuará como si el palacio lo separara de su responsabilidad.",
+      "id": "2samuel11-joya-01",
+      "msg": {
+        "en": "“but David stayed in Jerusalem.”",
+        "es": "«pero David se quedó en Jerusalén»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-01b"
+          ],
+          "verseId": "2samuel11-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La identificación no es un dato decorativo. Le dice a David que la mujer pertenece a una historia y que existe un pacto matrimonial que debe honrar. El rey no peca por ignorancia: recibe información suficiente para detenerse y decide atravesar el límite.",
+      "id": "2samuel11-joya-02",
+      "msg": {
+        "en": "“Isn’t this Bathsheba, daughter of Eliam and wife of Uriah the Hittite?”",
+        "es": "«¿No es Betsabé, hija de Eliam y esposa de Urías el hitita?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-03b"
+          ],
+          "verseId": "2samuel11-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-5"
+    },
+    {
+      "explanation": "La voz directa de Betsabé aparece en una frase breve que desarma el control del rey. El embarazo hace visible una realidad que David intentará cubrir. La concisión también impide llenar el silencio de Betsabé con suposiciones que el texto no autoriza.",
+      "id": "2samuel11-joya-03",
+      "msg": {
+        "en": "“I’m pregnant.”",
+        "es": "«Estoy embarazada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-05b"
+          ],
+          "verseId": "2samuel11-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "2-5"
+    },
+    {
+      "explanation": "Urías limita voluntariamente su privilegio por solidaridad con quienes sirven en el frente. Sin saberlo, su lealtad confronta al rey. David pretende usar la vida matrimonial de Urías como cobertura; Urías la sitúa dentro de una responsabilidad comunitaria más amplia.",
+      "id": "2samuel11-joya-04",
+      "msg": {
+        "en": "“So, how can I go home and eat and drink and enjoy my wife?”",
+        "es": "«¿Cómo podría yo ir a mi casa, comer, beber y disfrutar de mi esposa?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-11b"
+          ],
+          "verseId": "2samuel11-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11"
+    },
+    {
+      "explanation": "La carta elimina toda ambigüedad sobre la intención de David. La muerte no será un accidente inevitable de la guerra. El rey diseña una situación para matar conservando distancia suficiente como para negar su intervención.",
+      "id": "2samuel11-joya-05",
+      "msg": {
+        "en": "“Then pull back and leave him exposed so that he’s sure to be killed.”",
+        "es": "«Después retrocedan y déjenlo expuesto, para asegurarse de que lo maten»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-15b"
+          ],
+          "verseId": "2samuel11-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "14-15"
+    },
+    {
+      "explanation": "David usa una verdad general sobre la guerra para ocultar una decisión particular. El lenguaje impersonal convierte responsabilidad en fatalidad. Las comunidades deben desconfiar de explicaciones que describen un daño como inevitable cuando alguien organizó las condiciones para producirlo.",
+      "id": "2samuel11-joya-06",
+      "msg": {
+        "en": "“War kills—sometimes one, sometimes another—you never know who’s next.”",
+        "es": "«La guerra mata: a veces a uno, a veces a otro; nunca se sabe quién será el siguiente»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-25b"
+          ],
+          "verseId": "2samuel11-nbla-25"
+        }
+      ],
+      "order": 6,
+      "range": "25"
+    },
+    {
+      "explanation": "Antes de que el palacio la incorpore a otra historia, el texto preserva su relación y su dolor. Betsabé no es simplemente la solución del problema dinástico de David. Es una mujer que perdió a su marido por una orden que todavía desconoce.",
+      "id": "2samuel11-joya-07",
+      "msg": {
+        "en": "“she grieved for her husband.”",
+        "es": "«hizo duelo por él»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-26b"
+          ],
+          "verseId": "2samuel11-nbla-26"
+        }
+      ],
+      "order": 7,
+      "range": "26-27"
+    }
+  ],
+  "meta": {
+    "book": "2 SAMUEL",
+    "bookId": "2samuel",
+    "chapter": 11,
+    "studyId": "2samuel-11"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "2samuel11-msg-01",
+      "msg": {
+        "en": "When that time of year came around again, the anniversary of the Ammonite aggression, David dispatched Joab and his fighting men of Israel in full force to destroy the Ammonites for good. They laid siege to Rabbah, but David stayed in Jerusalem.",
+        "es": "Cuando volvió a llegar esa época del año, en el aniversario de la agresión amonita, David envió a Joab con sus combatientes y con todo el ejército de Israel para acabar definitivamente con los amonitas. Pusieron sitio a Rabá, pero David se quedó en Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-5",
+      "id": "2samuel11-msg-02",
+      "msg": {
+        "en": "One late afternoon, David got up from taking his nap and was strolling on the roof of the palace. From his vantage point on the roof he saw a woman bathing. The woman was stunningly beautiful. David sent to ask about her, and was told, “Isn’t this Bathsheba, daughter of Eliam and wife of Uriah the Hittite?” David sent his agents to get her. After she arrived, he went to bed with her. (This occurred during the time of “purification” following her period.) Then she returned home. Before long she realized she was pregnant.\nLater she sent word to David: “I’m pregnant.”",
+        "es": "Una tarde, David se levantó de la siesta y caminaba por la azotea del palacio. Desde allí vio a una mujer que se bañaba. Era de una belleza deslumbrante. David mandó preguntar quién era, y le respondieron: «¿No es Betsabé, hija de Eliam y esposa de Urías el hitita?». David envió a sus agentes para que la trajeran. Cuando llegó, se acostó con ella. Esto ocurrió durante el tiempo de «purificación» que seguía a su menstruación. Después ella regresó a su casa. No pasó mucho tiempo antes de que comprendiera que estaba embarazada. Más tarde envió este mensaje a David: «Estoy embarazada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6",
+      "id": "2samuel11-msg-03",
+      "msg": {
+        "en": "David then got in touch with Joab: “Send Uriah the Hittite to me.” Joab sent him.",
+        "es": "Entonces David se comunicó con Joab: «Envíame a Urías el hitita». Y Joab se lo envió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "2samuel11-msg-04",
+      "msg": {
+        "en": "When he arrived, David asked him for news from the front—how things were going with Joab and the troops and with the fighting. Then he said to Uriah, “Go home. Have a refreshing bath and a good night’s rest.”",
+        "es": "Cuando Urías llegó, David le pidió noticias del frente: cómo estaban Joab, las tropas y el curso de la batalla. Luego le dijo: «Ve a tu casa. Toma un baño reparador y descansa bien esta noche»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-07"
+        },
+        {
+          "clauseIds": [
+            "2samuel11-nbla-08a"
+          ],
+          "verseId": "2samuel11-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "2samuel11-msg-05",
+      "msg": {
+        "en": "After Uriah left the palace, an informant of the king was sent after him. But Uriah didn’t go home. He slept that night at the palace entrance, along with the king’s servants.",
+        "es": "Cuando Urías salió del palacio, un informante del rey fue enviado tras él. Pero Urías no fue a su casa. Esa noche durmió a la entrada del palacio junto con los servidores del rey."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel11-nbla-08b"
+          ],
+          "verseId": "2samuel11-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "2samuel11-msg-06",
+      "msg": {
+        "en": "David was told that Uriah had not gone home. He asked Uriah, “Didn’t you just come off a hard trip? So why didn’t you go home?”",
+        "es": "Le informaron a David que Urías no había ido a su casa. David le preguntó: «¿No acabas de regresar de un viaje agotador? Entonces, ¿por qué no fuiste a tu casa?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11",
+      "id": "2samuel11-msg-07",
+      "msg": {
+        "en": "Uriah replied to David, “The Chest is out there with the fighting men of Israel and Judah—in tents. My master Joab and his servants are roughing it out in the fields. So, how can I go home and eat and drink and enjoy my wife? On your life, I’ll not do it!”",
+        "es": "Urías respondió a David: «El Cofre está allá con los combatientes de Israel y Judá, viviendo en tiendas. Mi señor Joab y sus servidores soportan la dureza del campo. ¿Cómo podría yo ir a mi casa, comer, beber y disfrutar de mi esposa? ¡Por tu vida, no lo haré!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "2samuel11-msg-08",
+      "msg": {
+        "en": "“All right,” said David, “have it your way. Stay for the day and I’ll send you back tomorrow.” So Uriah stayed in Jerusalem the rest of the day.\nThe next day David invited him to eat and drink with him, and David got him drunk. But in the evening Uriah again went out and slept with his master’s servants. He didn’t go home.",
+        "es": "«Está bien —dijo David—, hazlo a tu manera. Quédate hoy y mañana te enviaré de regreso». Así que Urías permaneció en Jerusalén el resto de ese día. Al día siguiente David lo invitó a comer y beber con él, y lo emborrachó. Pero al caer la noche, Urías volvió a salir y durmió con los servidores de su señor. No fue a su casa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "2samuel11-msg-09",
+      "msg": {
+        "en": "In the morning David wrote a letter to Joab and sent it with Uriah. In the letter he wrote, “Put Uriah in the front lines where the fighting is the fiercest.\nThen pull back and leave him exposed so that he’s sure to be killed.”",
+        "es": "A la mañana siguiente David escribió una carta a Joab y la envió por medio de Urías. En ella escribió: «Pon a Urías en la primera línea, donde el combate sea más intenso. Después retrocedan y déjenlo expuesto, para asegurarse de que lo maten»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "2samuel11-msg-10",
+      "msg": {
+        "en": "So Joab, holding the city under siege, put Uriah in a place where he knew there were fierce enemy fighters. When the city’s defenders came out to fight Joab, some of David’s soldiers were killed, including Uriah the Hittite.",
+        "es": "Así que Joab, mientras mantenía sitiada la ciudad, colocó a Urías en un lugar donde sabía que había combatientes enemigos muy fuertes. Cuando los defensores de la ciudad salieron a luchar contra Joab, murieron varios soldados de David, entre ellos Urías el hitita."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-21",
+      "id": "2samuel11-msg-11",
+      "msg": {
+        "en": "Joab sent David a full report on the battle. He instructed the messenger, “After you have given to the king a detailed report on the battle, if he flares in anger, say, ‘And by the way, your servant Uriah the Hittite is dead.’”",
+        "es": "Joab envió a David un informe completo de la batalla. Dio esta instrucción al mensajero: «Después de presentar al rey un informe detallado del combate, si estalla de ira, dile: “Y, por cierto, tu servidor Urías el hitita ha muerto”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "2samuel11-msg-12",
+      "msg": {
+        "en": "Joab’s messenger arrived in Jerusalem and gave the king a full report. He said, “The enemy was too much for us. They advanced on us in the open field, and we pushed them back to the city gate. But then arrows came hot and heavy on us from the city wall, and eighteen of the king’s soldiers died.”",
+        "es": "El mensajero de Joab llegó a Jerusalén y presentó al rey el informe completo. Dijo: «El enemigo fue demasiado fuerte para nosotros. Avanzaron contra nosotros en campo abierto y los hicimos retroceder hasta la puerta de la ciudad. Pero desde la muralla nos lanzaron una lluvia intensa de flechas y murieron dieciocho soldados del rey»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-24"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "25",
+      "id": "2samuel11-msg-13",
+      "msg": {
+        "en": "When the messenger completed his report of the battle, David got angry at Joab. He vented it on the messenger: “Why did you get so close to the city? Didn’t you know you’d be attacked from the wall? Didn’t you remember how Abimelech son of Jerub-Besheth got killed? Wasn’t it a woman who dropped a millstone on him from the wall and crushed him at Thebez? Why did you go close to the wall!”\n“By the way,” said Joab’s messenger, “your servant Uriah the Hittite is dead.”\nThen David told the messenger, “Oh. I see. Tell Joab, ‘Don’t trouble yourself over this. War kills—sometimes one, sometimes another—you never know who’s next. Redouble your assault on the city and destroy it.’ Encourage Joab.”",
+        "es": "Cuando el mensajero terminó su informe de la batalla, David se enfureció con Joab y descargó su enojo sobre él: «¿Por qué se acercaron tanto a la ciudad? ¿No sabían que los atacarían desde la muralla? ¿No recordaban cómo murió Abimélec hijo de Jerobaal? ¿No fue una mujer quien dejó caer una piedra de molino desde la muralla y lo aplastó en Tebes? ¿Por qué se acercaron a la muralla?». «Y, por cierto —dijo el mensajero de Joab—, tu servidor Urías el hitita ha muerto». Entonces David le dijo: «Ah, comprendo. Dile a Joab: “No te angusties por esto. La guerra mata: a veces a uno, a veces a otro; nunca se sabe quién será el siguiente. Redobla el ataque contra la ciudad y destrúyela”. Anima a Joab»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-25"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "2samuel11-msg-14",
+      "msg": {
+        "en": "When Uriah’s wife heard that her husband was dead, she grieved for her husband. When the time of mourning was over, David sent someone to bring her to his house. She became his wife and bore him a son.",
+        "es": "Cuando la esposa de Urías supo que su marido había muerto, hizo duelo por él. Al terminar el tiempo de luto, David envió a alguien para llevarla a su casa. Ella se convirtió en su esposa y le dio un hijo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel11-nbla-27"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-01a",
+          "order": 1,
+          "text": "Aconteció que en la primavera, en el tiempo cuando los reyes salen a la batalla, David envió a Joab y con él a sus siervos y a todo Israel, y destruyeron a los amonitas y sitiaron a Rabá."
+        },
+        {
+          "id": "2samuel11-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Pero David permaneció en Jerusalén."
+        }
+      ],
+      "id": "2samuel11-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "2samuel11-nbla-02",
+      "number": 2,
+      "text": "Al atardecer David se levantó de su lecho y se paseaba por el terrado de la casa del rey, y desde el terrado vio a una mujer que se estaba bañando; y la mujer era de aspecto muy hermoso."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-03a",
+          "order": 1,
+          "text": "David mandó a preguntar acerca de aquella mujer. Y alguien dijo: «"
+        },
+        {
+          "id": "2samuel11-nbla-03b",
+          "order": 2,
+          "text": "¿No es esta Betsabé, hija de Eliam, mujer de Urías el hitita?»."
+        }
+      ],
+      "id": "2samuel11-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "2samuel11-nbla-04",
+      "number": 4,
+      "text": "David envió mensajeros y la tomaron; y cuando ella vino a él, él durmió con ella. Después que ella se purificó de su inmundicia, regresó a su casa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-05a",
+          "order": 1,
+          "text": "Y Betsabé concibió; y envió aviso a David diciéndole: «"
+        },
+        {
+          "id": "2samuel11-nbla-05b",
+          "order": 2,
+          "text": "Estoy encinta»."
+        }
+      ],
+      "id": "2samuel11-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "2samuel11-nbla-06",
+      "number": 6,
+      "text": "Entonces David envió a decir a Joab: «Envíame a Urías el hitita». Y Joab envió a Urías a David."
+    },
+    {
+      "id": "2samuel11-nbla-07",
+      "number": 7,
+      "text": "Cuando Urías vino a él, David le preguntó por Joab, por el pueblo y por el estado de la guerra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-08a",
+          "order": 1,
+          "text": "Después dijo David a Urías: «Desciende a tu casa, y lava tus pies»."
+        },
+        {
+          "id": "2samuel11-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Salió Urías de la casa del rey, y tras él fue enviado un obsequio del rey."
+        }
+      ],
+      "id": "2samuel11-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "2samuel11-nbla-09",
+      "number": 9,
+      "text": "Pero Urías durmió a la entrada de la casa del rey con todos los siervos de su señor, y no bajó a su casa."
+    },
+    {
+      "id": "2samuel11-nbla-10",
+      "number": 10,
+      "text": "Cuando se lo contaron a David, le dijeron: «Urías no bajó a su casa», David dijo a Urías: «¿No has venido de hacer un viaje? ¿Por qué no bajaste a tu casa?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-11a",
+          "order": 1,
+          "text": "Urías respondió a David: «El arca, Israel y Judá están bajo tiendas, y mi señor Joab y los siervos de mi señor acampan a campo abierto."
+        },
+        {
+          "id": "2samuel11-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿He de ir yo a mi casa para comer, beber y acostarme con mi mujer?"
+        },
+        {
+          "id": "2samuel11-nbla-11c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Por su vida y la vida de su alma, que no haré tal cosa»."
+        }
+      ],
+      "id": "2samuel11-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "2samuel11-nbla-12",
+      "number": 12,
+      "text": "Entonces David dijo a Urías: «Quédate aquí hoy también, y mañana te dejaré ir». Y se quedó Urías en Jerusalén aquel día y el siguiente."
+    },
+    {
+      "id": "2samuel11-nbla-13",
+      "number": 13,
+      "text": "Y David lo convidó a comer y a beber con él, y lo embriagó. Al anochecer Urías salió a acostarse en su cama con los siervos de su señor, pero no descendió a su casa."
+    },
+    {
+      "id": "2samuel11-nbla-14",
+      "number": 14,
+      "text": "A la mañana siguiente, David escribió una carta a Joab, y la envió por mano de Urías."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-15a",
+          "order": 1,
+          "text": "En la carta había escrito: «Pongan a Urías al frente de la batalla más reñida y"
+        },
+        {
+          "id": "2samuel11-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "retírense de él, para que sea herido y muera»."
+        }
+      ],
+      "id": "2samuel11-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "2samuel11-nbla-16",
+      "number": 16,
+      "text": "Así que cuando Joab asediaba la ciudad, puso a Urías en el lugar donde sabía que había hombres valientes."
+    },
+    {
+      "id": "2samuel11-nbla-17",
+      "number": 17,
+      "text": "Y los hombres de la ciudad salieron y pelearon contra Joab, y algunos de los siervos de David cayeron, y murió también Urías el hitita."
+    },
+    {
+      "id": "2samuel11-nbla-18",
+      "number": 18,
+      "text": "Joab envió a informar a David de todos los sucesos de la guerra,"
+    },
+    {
+      "id": "2samuel11-nbla-19",
+      "number": 19,
+      "text": "y dio orden al mensajero: «Cuando hayas acabado de contar al rey todos los sucesos de la guerra,"
+    },
+    {
+      "id": "2samuel11-nbla-20",
+      "number": 20,
+      "text": "si sucede que el furor del rey se enciende y te dice: “¿Por qué se acercaron tanto a la ciudad para pelear? ¿No sabían que dispararían desde el muro?"
+    },
+    {
+      "id": "2samuel11-nbla-21",
+      "number": 21,
+      "text": "¿Quién mató a Abimelec, hijo de Jerobaal? ¿No arrojó una mujer sobre él una muela de molino desde lo alto del muro de manera que murió en Tebes? ¿Por qué se acercaron tanto al muro?”. Entonces le dirás: “También su siervo Urías el hitita ha muerto”»."
+    },
+    {
+      "id": "2samuel11-nbla-22",
+      "number": 22,
+      "text": "Partió, pues, el mensajero, y llegó e informó a David todo lo que Joab le había enviado a decir."
+    },
+    {
+      "id": "2samuel11-nbla-23",
+      "number": 23,
+      "text": "Y el mensajero dijo a David: «Los hombres prevalecieron contra nosotros y salieron al campo contra nosotros, pero los rechazamos hasta la entrada de la puerta."
+    },
+    {
+      "id": "2samuel11-nbla-24",
+      "number": 24,
+      "text": "Pero los arqueros tiraron contra sus siervos desde la muralla; y algunos de los siervos del rey han muerto, y también su siervo Urías el hitita ha muerto»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-25a",
+          "order": 1,
+          "text": "Entonces David dijo al mensajero: «Así dirás a Joab: “No tengas pesar por esto, porque"
+        },
+        {
+          "id": "2samuel11-nbla-25b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la espada devora tanto a uno como al otro"
+        },
+        {
+          "id": "2samuel11-nbla-25c",
+          "order": 3,
+          "text": ". Haz más fuerte tu combate contra la ciudad y destrúyela”; y tú aliéntalo»."
+        }
+      ],
+      "id": "2samuel11-nbla-25",
+      "number": 25
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel11-nbla-26a",
+          "order": 1,
+          "text": "Al oír la mujer de Urías que su marido Urías había muerto,"
+        },
+        {
+          "id": "2samuel11-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hizo duelo por su marido."
+        }
+      ],
+      "id": "2samuel11-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "2samuel11-nbla-27",
+      "number": 27,
+      "text": "Cuando pasó el luto, David mandó traerla a su casa, y ella fue su mujer; y dio a luz un hijo. Pero lo que David había hecho fue malo a los ojos del SEÑOR."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

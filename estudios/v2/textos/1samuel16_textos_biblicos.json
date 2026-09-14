@@ -1,0 +1,621 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios reconoce el duelo de Samuel y lo llama a moverse. La frase no desprecia el dolor ni exige olvidar a Saúl. Señala que la fidelidad tiene un siguiente paso: el mismo recipiente asociado con una historia que terminó mal debe llenarse otra vez para participar en lo nuevo que Dios prepara.",
+      "id": "1samuel16-joya-01",
+      "msg": {
+        "en": "\"Fill your flask with anointing oil and get going.\"",
+        "es": "\"Llena tu frasco con aceite de unción y ponte en marcha\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel16-nbla-01b"
+          ],
+          "verseId": "1samuel16-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Samuel no recibe el plan entero antes de salir. Dios le entrega dirección suficiente para llegar a Belén y promete mostrarle el paso siguiente. La obediencia suele crecer de esa manera: claridad real para hoy, dependencia renovada mañana y una negativa a convertir la falta de control total en excusa para permanecer quietos.",
+      "id": "1samuel16-joya-02",
+      "msg": {
+        "en": "\"I’ll let you know what to do next.\"",
+        "es": "\"Yo te indicaré qué hacer después\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "2-3"
+    },
+    {
+      "explanation": "MSG expresa con sencillez la corrección al profeta. La apariencia comunica algo, pero no puede cargar el peso de una evaluación completa. Cuando presencia, estatura, elocuencia o imagen ocupan el lugar del carácter, podemos llamar «ungido» a quien simplemente coincide con nuestras expectativas visibles.",
+      "id": "1samuel16-joya-03",
+      "msg": {
+        "en": "\"But GOD told Samuel, “Looks aren’t everything.\"",
+        "es": "\"La apariencia no lo es todo\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "La diferencia no exalta una intuición humana más profunda, sino el conocimiento de Dios. Él ve la totalidad interior que nosotros no podemos inspeccionar. La frase invita a confiar en Su criterio y a revisar la facilidad con que tratamos primeras impresiones como veredictos espirituales.",
+      "id": "1samuel16-joya-04",
+      "msg": {
+        "en": "\"Men and women look at the face; GOD looks into the heart.”\"",
+        "es": "\"Hombres y mujeres miran el rostro; DIOS mira el corazón\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "Después de siete negativas, la palabra de Dios identifica al pastor que faltaba. David no se presenta a sí mismo ni persuade a Samuel. La elección descansa en la iniciativa divina. El llamado interrumpe el orden esperado de la familia y coloca en el centro a quien estaba sirviendo fuera de la reunión.",
+      "id": "1samuel16-joya-05",
+      "msg": {
+        "en": "\"Up on your feet! Anoint him! This is the one.\"",
+        "es": "\"¡Ponte de pie! ¡Úngelo! Este es\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel16-nbla-12b"
+          ],
+          "verseId": "1samuel16-nbla-12"
+        }
+      ],
+      "order": 5,
+      "range": "12"
+    },
+    {
+      "explanation": "La imagen comunica fuerza, presencia y vida. La unción con aceite señala exteriormente lo que Dios hace al capacitar a David. El futuro rey no recibe solo una designación; recibe la presencia que necesitará para atravesar años de formación, oposición y espera.",
+      "id": "1samuel16-joya-06",
+      "msg": {
+        "en": "\"The Spirit of GOD entered David like a rush of wind, God vitally empowering him for the rest of his life.\"",
+        "es": "\"El Espíritu de DIOS entró en David como una ráfaga de viento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel16-nbla-13b"
+          ],
+          "verseId": "1samuel16-nbla-13"
+        }
+      ],
+      "order": 6,
+      "range": "13"
+    },
+    {
+      "explanation": "El servidor enumera capacidades de David, pero termina con la realidad decisiva. Destreza, valor, prudencia y presencia pueden impresionar; la compañía de Dios da sentido a esos dones. La frase tampoco promete facilidad: el Dios que está con David lo conduce precisamente al servicio del rey que más tarde intentará matarlo.",
+      "id": "1samuel16-joya-07",
+      "msg": {
+        "en": "\"And GOD is with him.”\"",
+        "es": "\"Y DIOS está con él\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-18"
+        }
+      ],
+      "order": 7,
+      "range": "18"
+    }
+  ],
+  "meta": {
+    "book": "1 SAMUEL",
+    "bookId": "1samuel",
+    "chapter": 16,
+    "studyId": "1samuel-16"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "1samuel16-msg-01",
+      "msg": {
+        "en": "GOD addressed Samuel: “So, how long are you going to mope over Saul? You know I’ve rejected him as king over Israel. Fill your flask with anointing oil and get going. I’m sending you to Jesse of Bethlehem. I’ve spotted the very king I want among his sons.”.",
+        "es": "DIOS se dirigió a Samuel: «¿Hasta cuándo vas a seguir lamentándote por Saúl? Sabes que lo he rechazado como rey de Israel. Llena tu frasco con aceite de unción y ponte en marcha. Te envío a Isaí de Belén. Entre sus hijos he visto al rey que quiero»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "1samuel16-msg-02",
+      "msg": {
+        "en": "“I can’t do that,” said Samuel. “Saul will hear about it and kill me.”\nGOD said, “Take a heifer with you and announce, ’I’ve come to lead you in worship of GOD, with this heifer as a sacrifice.’ Make sure Jesse gets invited. I’ll let you know what to do next. I’ll point out the one you are to anoint.”",
+        "es": "«No puedo hacerlo —respondió Samuel—. Saúl se enterará y me matará».\nDIOS dijo: «Lleva contigo una novilla y anuncia: “He venido a guiarlos en la adoración a DIOS, ofreciendo esta novilla como sacrificio”. Asegúrate de invitar a Isaí. Yo te indicaré qué hacer después. Te señalaré a quien debes ungir»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "1samuel16-msg-03",
+      "msg": {
+        "en": "Samuel did what GOD told him. When he arrived at Bethlehem, the town fathers greeted him, but apprehensively. “Is there something wrong?”",
+        "es": "Samuel hizo lo que DIOS le ordenó. Cuando llegó a Belén, los ancianos de la ciudad salieron a recibirlo con temor: «¿Ocurre algo malo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "1samuel16-msg-04",
+      "msg": {
+        "en": "“Nothing’s wrong. I’ve come to sacrifice this heifer and lead you in the worship of GOD. Prepare yourselves, be consecrated, and join me in worship.” He made sure Jesse and his sons were also consecrated and called to worship.",
+        "es": "«No ocurre nada malo. He venido a sacrificar esta novilla y a guiarlos en la adoración a DIOS. Prepárense, conságrense y únanse a mí en la adoración». Samuel se aseguró de que Isaí y sus hijos también fueran consagrados y llamados al sacrificio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "1samuel16-msg-05",
+      "msg": {
+        "en": "When they arrived, Samuel took one look at Eliab and thought, “Here he is! GOD’s anointed!”",
+        "es": "Cuando llegaron, Samuel miró una sola vez a Eliab y pensó: «¡Aquí está! ¡El ungido de DIOS!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7",
+      "id": "1samuel16-msg-06",
+      "msg": {
+        "en": "But GOD told Samuel, “Looks aren’t everything. Don’t be impressed with his looks and stature. I’ve already eliminated him. GOD judges persons differently than humans do. Men and women look at the face; GOD looks into the heart.”",
+        "es": "Pero DIOS dijo a Samuel: «La apariencia no lo es todo. No te impresiones por su aspecto ni por su estatura. Ya lo he descartado. DIOS juzga a las personas de manera diferente a los seres humanos. Hombres y mujeres miran el rostro; DIOS mira el corazón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-07"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "8",
+      "id": "1samuel16-msg-07",
+      "msg": {
+        "en": "Jesse then called up Abinadab and presented him to Samuel. Samuel said, “This man isn’t GOD’s choice either.”",
+        "es": "Entonces Isaí llamó a Abinadab y lo presentó ante Samuel. Samuel dijo: «Este hombre tampoco es la elección de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-08"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "9",
+      "id": "1samuel16-msg-08",
+      "msg": {
+        "en": "Next Jesse presented Shammah. Samuel said, “No, this man isn’t either.”",
+        "es": "Después Isaí presentó a Sama. Samuel dijo: «No, este tampoco»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-09"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "10",
+      "id": "1samuel16-msg-09",
+      "msg": {
+        "en": "Jesse presented his seven sons to Samuel. Samuel was blunt with Jesse, “GOD hasn’t chosen any of these.”",
+        "es": "Isaí presentó a sus siete hijos delante de Samuel. Samuel fue directo con él: «DIOS no ha escogido a ninguno de ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-10"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "11",
+      "id": "1samuel16-msg-10",
+      "msg": {
+        "en": "Then he asked Jesse, “Is this it? Are there no more sons?” “Well, yes, there’s the runt. But he’s out tending the sheep.”\nSamuel ordered Jesse, “Go get him. We’re not moving from this spot until he’s here.”",
+        "es": "Entonces preguntó a Isaí: «¿Estos son todos? ¿No tienes más hijos?». «Bueno, sí, queda el más pequeño, pero está cuidando las ovejas».\nSamuel ordenó: «Ve a buscarlo. No nos moveremos de aquí hasta que llegue»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-11"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "12",
+      "id": "1samuel16-msg-11",
+      "msg": {
+        "en": "Jesse sent for him. He was brought in, the very picture of health—bright-eyed, good-looking.\nGOD said, “Up on your feet! Anoint him! This is the one.”",
+        "es": "Isaí mandó a buscarlo. Lo trajeron: era la imagen misma de la salud, de ojos brillantes y buen parecer.\nDIOS dijo: «¡Ponte de pie! ¡Úngelo! Este es»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-12"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "13",
+      "id": "1samuel16-msg-12",
+      "msg": {
+        "en": "Samuel took his flask of oil and anointed him, with his brothers standing around watching. The Spirit of GOD entered David like a rush of wind, God vitally empowering him for the rest of his life.\nSamuel left and went home to Ramah.",
+        "es": "Samuel tomó su frasco de aceite y ungió a David mientras sus hermanos observaban alrededor. El Espíritu de DIOS entró en David como una ráfaga de viento, y Dios lo llenó de poder vital para el resto de su vida.\nDespués Samuel partió y regresó a Ramá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-13"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "14",
+      "id": "1samuel16-msg-13",
+      "msg": {
+        "en": "At that very moment the Spirit of GOD left Saul and in its place a black mood sent by GOD settled on him. He was terrified.",
+        "es": "En ese mismo momento, el Espíritu de DIOS dejó a Saúl y, en Su lugar, se apoderó de él un ánimo oscuro enviado por DIOS. Saúl quedó aterrorizado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-14"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "1samuel16-msg-14",
+      "msg": {
+        "en": "Saul’s advisors said, “This awful tormenting depression from God is making your life miserable. O Master, let us help. Let us look for someone who can play the harp. When the black mood from God moves in, he’ll play his music and you’ll feel better.”",
+        "es": "Los consejeros de Saúl dijeron: «Esta terrible depresión atormentadora procedente de Dios te está haciendo la vida miserable. Señor, permítenos ayudarte. Busquemos a alguien que sepa tocar el arpa. Cuando ese ánimo oscuro procedente de Dios venga sobre ti, tocará su música y te sentirás mejor»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-16"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "17",
+      "id": "1samuel16-msg-15",
+      "msg": {
+        "en": "Saul told his servants, “Go ahead. Find me someone who can play well and bring him to me.”",
+        "es": "Saúl dijo a sus siervos: «Adelante. Encuentren a alguien que toque bien y tráiganlo ante mí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-17"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "18",
+      "id": "1samuel16-msg-16",
+      "msg": {
+        "en": "One of the young men spoke up, “I know someone. I’ve seen him myself: the son of Jesse of Bethlehem, an excellent musician. He’s also courageous, of age, well-spoken, and good-looking. And GOD is with him.”",
+        "es": "Uno de los jóvenes intervino: «Conozco a alguien. Yo mismo lo he visto: es el hijo de Isaí de Belén, un músico excelente. También es valiente, maduro, prudente al hablar y bien parecido. Y DIOS está con él»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-18"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "19",
+      "id": "1samuel16-msg-17",
+      "msg": {
+        "en": "So Saul sent messengers to Jesse requesting, “Send your son David to me, the one who tends the sheep.”",
+        "es": "Entonces Saúl envió mensajeros a Isaí con esta petición: «Envíame a tu hijo David, el que cuida las ovejas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-19"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "21",
+      "id": "1samuel16-msg-18",
+      "msg": {
+        "en": "Jesse took a donkey, loaded it with a couple of loaves of bread, a flask of wine, and a young goat, and sent his son David with it to Saul. David came to Saul and stood before him. Saul liked him immediately and made him his right-hand man.",
+        "es": "Isaí tomó un asno, lo cargó con un par de panes, un recipiente de vino y un cabrito, y lo envió con su hijo David a Saúl. David llegó ante Saúl y quedó a su servicio. Saúl sintió afecto por él de inmediato y lo convirtió en su hombre de confianza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-21"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "22",
+      "id": "1samuel16-msg-19",
+      "msg": {
+        "en": "Saul sent word back to Jesse: “Thank you. David will stay here. He’s just the one I was looking for. I’m very impressed by him.”",
+        "es": "Saúl envió esta respuesta a Isaí: «Gracias. David se quedará aquí. Es exactamente la persona que buscaba. Me ha impresionado mucho»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-22"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "23",
+      "id": "1samuel16-msg-20",
+      "msg": {
+        "en": "After that, whenever the bad depression from God tormented Saul, David got out his harp and played. That would calm Saul down, and he would feel better as the moodiness lifted.",
+        "es": "Después de eso, cada vez que la depresión oscura procedente de Dios atormentaba a Saúl, David sacaba el arpa y tocaba. La música calmaba a Saúl, él se sentía mejor y el ánimo sombrío se retiraba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel16-nbla-23"
+        }
+      ],
+      "order": 20
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "1samuel16-nbla-01a",
+          "order": 1,
+          "text": "Y el SEÑOR dijo a Samuel: «¿Hasta cuándo te lamentarás por Saúl, después que Yo lo he desechado para que no reine sobre Israel?"
+        },
+        {
+          "id": "1samuel16-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Llena tu cuerno de aceite y ve; te enviaré a Isaí, el de Belén, porque de entre sus hijos he escogido un rey para Mí»."
+        }
+      ],
+      "id": "1samuel16-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "1samuel16-nbla-02",
+      "number": 2,
+      "text": "Samuel respondió: «¿Cómo puedo ir? Cuando Saúl lo sepa, me matará». Y el SEÑOR dijo: «Toma contigo una novilla y di: “He venido a ofrecer sacrificio al SEÑOR”."
+    },
+    {
+      "id": "1samuel16-nbla-03",
+      "number": 3,
+      "text": "Invitarás a Isaí al sacrificio y Yo te mostraré lo que habrás de hacer; entonces me ungirás a aquel que Yo te indique»."
+    },
+    {
+      "id": "1samuel16-nbla-04",
+      "number": 4,
+      "text": "Samuel hizo lo que el SEÑOR dijo, y fue a Belén. Y los ancianos de la ciudad vinieron a su encuentro temblando y dijeron: «¿Vienes en paz?»."
+    },
+    {
+      "id": "1samuel16-nbla-05",
+      "number": 5,
+      "text": "Y él respondió: «En paz. He venido a ofrecer sacrificio al SEÑOR. Conságrense y vengan conmigo al sacrificio». Samuel consagró también a Isaí y a sus hijos y los invitó al sacrificio."
+    },
+    {
+      "id": "1samuel16-nbla-06",
+      "number": 6,
+      "text": "Cuando ellos entraron, Samuel vio a Eliab, y se dijo: «Ciertamente el ungido del SEÑOR está delante de Él»."
+    },
+    {
+      "id": "1samuel16-nbla-07",
+      "number": 7,
+      "text": "Pero el SEÑOR dijo a Samuel: «No mires a su apariencia, ni a lo alto de su estatura, porque lo he desechado; porque Dios no ve como el hombre ve, pues el hombre mira la apariencia exterior, pero el SEÑOR mira el corazón»."
+    },
+    {
+      "id": "1samuel16-nbla-08",
+      "number": 8,
+      "text": "Entonces Isaí llamó a Abinadab y lo hizo pasar delante de Samuel, y dijo: «Tampoco a este ha escogido el SEÑOR»."
+    },
+    {
+      "id": "1samuel16-nbla-09",
+      "number": 9,
+      "text": "Después Isaí hizo pasar a Sama. Y Samuel dijo: «Tampoco a este ha escogido el SEÑOR»."
+    },
+    {
+      "id": "1samuel16-nbla-10",
+      "number": 10,
+      "text": "Así Isaí hizo pasar a siete de sus hijos delante de Samuel. Pero Samuel dijo a Isaí: «El SEÑOR no ha escogido a estos»."
+    },
+    {
+      "id": "1samuel16-nbla-11",
+      "number": 11,
+      "text": "Samuel preguntó: «¿Son estos todos tus hijos?». Isaí respondió: «Aún queda el menor, es el que está apacentando las ovejas». Samuel insistió: «Manda a buscarlo, pues no nos sentaremos a la mesa hasta que él venga acá»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel16-nbla-12a",
+          "order": 1,
+          "text": "Y envió a buscarlo y lo hizo entrar. Era rubio, de ojos hermosos y bien parecido."
+        },
+        {
+          "id": "1samuel16-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y el SEÑOR dijo: «Levántate, úngelo; porque este es»."
+        }
+      ],
+      "id": "1samuel16-nbla-12",
+      "number": 12
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel16-nbla-13a",
+          "order": 1,
+          "text": "Entonces Samuel tomó el cuerno de aceite y lo ungió en medio de sus hermanos."
+        },
+        {
+          "id": "1samuel16-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y el Espíritu del SEÑOR vino poderosamente sobre David desde aquel día en adelante."
+        },
+        {
+          "id": "1samuel16-nbla-13c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Luego Samuel se levantó y se fue a Ramá."
+        }
+      ],
+      "id": "1samuel16-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "1samuel16-nbla-14",
+      "number": 14,
+      "text": "El Espíritu del SEÑOR se apartó de Saúl, y un espíritu malo de parte del SEÑOR lo atormentaba."
+    },
+    {
+      "id": "1samuel16-nbla-15",
+      "number": 15,
+      "text": "Entonces los siervos de Saúl le dijeron: «Puesto que un espíritu malo de parte de Dios lo está atormentando,"
+    },
+    {
+      "id": "1samuel16-nbla-16",
+      "number": 16,
+      "text": "ordena ahora nuestro señor a sus siervos que están delante de usted, que busquen un hombre que sepa tocar el arpa, y cuando el espíritu malo de parte de Dios esté sobre usted, él tocará con su mano y le pondrá bien»."
+    },
+    {
+      "id": "1samuel16-nbla-17",
+      "number": 17,
+      "text": "Entonces Saúl dijo a sus siervos: «Búsquenme ahora un hombre que toque bien y tráiganmelo»."
+    },
+    {
+      "id": "1samuel16-nbla-18",
+      "number": 18,
+      "text": "Y respondió uno de los mancebos: «Yo he visto a un hijo de Isaí, el de Belén, que sabe tocar, es poderoso y valiente, un hombre de guerra, prudente en su hablar, hombre bien parecido y el SEÑOR está con él»."
+    },
+    {
+      "id": "1samuel16-nbla-19",
+      "number": 19,
+      "text": "Entonces Saúl envió mensajeros a Isaí y dijo: «Envíame a tu hijo David, el que está con el rebaño»."
+    },
+    {
+      "id": "1samuel16-nbla-20",
+      "number": 20,
+      "text": "Isaí tomó un asno cargado de pan, un odre de vino y un cabrito, y los envió a Saúl con su hijo David."
+    },
+    {
+      "id": "1samuel16-nbla-21",
+      "number": 21,
+      "text": "David fue a Saúl y le servía; y Saúl lo amó grandemente y lo hizo su escudero."
+    },
+    {
+      "id": "1samuel16-nbla-22",
+      "number": 22,
+      "text": "Y Saúl envió a decir a Isaí: «Te ruego que David se quede delante de mí, pues ha hallado gracia ante mis ojos»."
+    },
+    {
+      "id": "1samuel16-nbla-23",
+      "number": 23,
+      "text": "Sucedía que cuando el espíritu malo de parte de Dios venía a Saúl, David tomaba el arpa, la tocaba hábilmente con su mano, y Saúl se calmaba y se ponía bien, y el espíritu malo se apartaba de él."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

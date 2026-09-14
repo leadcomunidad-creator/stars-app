@@ -1,0 +1,596 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El pecado de la casa real tiene consecuencias dentro de una historia política que comienza a deshacerse. La NBLA fija la rebelión como hecho; la brevedad de MSG hace sentir el golpe inmediato que sigue a la muerte de Acab. El versículo no explica toda la política de Moab, pero sí anuncia que el poder de Israel ya no es estable.",
+      "id": "2reyes1-joya-01",
+      "msg": {
+        "en": "“Moab rebelled against Israel.”",
+        "es": "«Moab se rebeló contra Israel»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-01b"
+          ],
+          "verseId": "2reyes1-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La vulnerabilidad obliga al rey a enfrentar una pregunta que su poder no puede responder. La NBLA concentra la consulta en la sanidad; MSG la sitúa en el accidente que rompió su sensación de control. El problema no es preguntar por la recuperación, sino buscar esa respuesta lejos del Señor.",
+      "id": "2reyes1-joya-02",
+      "msg": {
+        "en": "“Am I going to recover from this accident?”",
+        "es": "«¿Voy a recuperarme de este accidente?»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-02b"
+          ],
+          "verseId": "2reyes1-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "Dios interpreta la idolatría como una negación práctica de Su presencia entre el pueblo. La NBLA conserva la pregunta acusadora y MSG la vuelve frontal. Ocozías no ha formulado una doctrina atea; vive y decide como si el Dios del pacto no estuviera disponible ni tuviera derecho a ser consultado.",
+      "id": "2reyes1-joya-03",
+      "msg": {
+        "en": "“Is it because there’s no God in Israel”",
+        "es": "«¿Es porque no hay Dios en Israel»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-03b"
+          ],
+          "verseId": "2reyes1-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La palabra de Dios alcanza al rey que intenta evitarla. La NBLA establece que el mensaje procede del Señor; MSG hace visible el movimiento de evasión de Ocozías. La expresión no enseña que toda consulta equivocada reciba una intervención idéntica, pero sí que ninguna estrategia puede volver irrelevante la autoridad divina.",
+      "id": "2reyes1-joya-04",
+      "msg": {
+        "en": "“the GOD you’ve tried to bypass”",
+        "es": "«el DIOS a quien has tratado de pasar por alto»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-04b"
+          ],
+          "verseId": "2reyes1-nbla-04"
+        }
+      ],
+      "order": 4,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La confrontación pregunta cuál palabra gobierna al hombre de Dios. La NBLA conserva la orden real y MSG subraya su tono imperioso. El título religioso pronunciado por el capitán no produce reverencia cuando la orden del rey sigue ocupando el lugar supremo.",
+      "id": "2reyes1-joya-05",
+      "msg": {
+        "en": "“King’s orders: Come down!”",
+        "es": "«Órdenes del rey: ¡Baja!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-09b"
+          ],
+          "verseId": "2reyes1-nbla-09"
+        }
+      ],
+      "order": 5,
+      "range": "9"
+    },
+    {
+      "explanation": "La humildad se expresa al reconocer el valor de vidas que el conflicto podría consumir. La NBLA nombra su valor y MSG convierte la petición en un ruego personal. El capitán no reclama inmunidad ni usa a sus hombres como escudo; se postra y pide misericordia para todos.",
+      "id": "2reyes1-joya-06",
+      "msg": {
+        "en": "“have respect for my life and the souls of these fifty men”",
+        "es": "«ten consideración por mi vida y por la vida de estos cincuenta hombres»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-13b"
+          ],
+          "verseId": "2reyes1-nbla-13"
+        }
+      ],
+      "order": 6,
+      "range": "13-14"
+    },
+    {
+      "explanation": "Elías desciende por dirección divina y no por coerción real. La NBLA une el descenso con la ausencia de temor; MSG conserva la autorización cercana de Dios. La obediencia puede llevar al profeta ante el poder, pero lo hace sostenido por la presencia del Señor y libre de someter la verdad a la amenaza.",
+      "id": "2reyes1-joya-07",
+      "msg": {
+        "en": "“Go ahead; and don’t be afraid.”",
+        "es": "«Ve con él; no tengas miedo»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes1-nbla-15b"
+          ],
+          "verseId": "2reyes1-nbla-15"
+        }
+      ],
+      "order": 7,
+      "range": "15"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 1,
+    "studyId": "2reyes-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "2reyes1-msg-01",
+      "msg": {
+        "en": "After Ahab died, Moab rebelled against Israel.",
+        "es": "Después de la muerte de Acab, Moab se rebeló contra Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "2reyes1-msg-02",
+      "msg": {
+        "en": "One day Ahaziah fell through the balcony railing on the rooftop of his house in Samaria and was injured. He sent messengers off to consult Baal-Zebub, the god of Ekron, “Am I going to recover from this accident?”",
+        "es": "Un día, Ocozías cayó a través de la baranda del balcón que había en la azotea de su casa en Samaria y quedó herido. Envió mensajeros a consultar a Baal Zebub, el dios de Ecrón: «¿Voy a recuperarme de este accidente?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "2reyes1-msg-03",
+      "msg": {
+        "en": "GOD’s angel spoke to Elijah the Tishbite: “Up on your feet! Go out and meet the messengers of the king of Samaria with this word, ‘Is it because there’s no God in Israel that you’re running off to consult Baal-Zebub god of Ekron?’ Here’s a message from the GOD you’ve tried to bypass: ‘You’re not going to get out of that bed you’re in—you’re as good as dead already.’” Elijah delivered the message and was gone.",
+        "es": "El ángel de DIOS habló con Elías el tisbita: «¡Ponte de pie! Sal al encuentro de los mensajeros del rey de Samaria y diles: “¿Es porque no hay Dios en Israel que corres a consultar a Baal Zebub, dios de Ecrón?”. Este es el mensaje del DIOS a quien has tratado de pasar por alto: “No vas a levantarte de la cama en la que estás; puedes darte por muerto”». Elías entregó el mensaje y se fue."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "2reyes1-msg-04",
+      "msg": {
+        "en": "The messengers went back. The king said, “So why are you back so soon—what’s going on?”",
+        "es": "Los mensajeros regresaron. El rey les preguntó: «¿Por qué volvieron tan pronto? ¿Qué está pasando?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "2reyes1-msg-05",
+      "msg": {
+        "en": "They told him, “A man met us and said, ‘Turn around and go back to the king who sent you; tell him, GOD’s message: Is it because there’s no God in Israel that you’re running off to consult Baal-Zebub god of Ekron? You needn’t bother. You’re not going to get out of that bed you’re in—you’re as good as dead already.’”",
+        "es": "Ellos le dijeron: «Un hombre salió a nuestro encuentro y nos dijo: “Den la vuelta y regresen al rey que los envió. Díganle: Este es el mensaje de DIOS: ¿Es porque no hay Dios en Israel que corres a consultar a Baal Zebub, dios de Ecrón? No necesitas molestarte. No vas a levantarte de la cama en la que estás; puedes darte por muerto”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7",
+      "id": "2reyes1-msg-06",
+      "msg": {
+        "en": "The king said, “Tell me more about this man who met you and said these things to you. What was he like?”",
+        "es": "El rey dijo: «Cuéntenme más acerca del hombre que salió a su encuentro y les dijo esas cosas. ¿Qué aspecto tenía?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-07"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "8",
+      "id": "2reyes1-msg-07",
+      "msg": {
+        "en": "“Shaggy,” they said, “and wearing a leather belt.”\nHe said, “That has to be Elijah the Tishbite!”",
+        "es": "«Era un hombre velludo», respondieron, «y llevaba un cinturón de cuero».\nEl rey dijo: «¡Tiene que ser Elías el tisbita!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-08"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "9",
+      "id": "2reyes1-msg-08",
+      "msg": {
+        "en": "The king sent a captain with fifty men to Elijah. Meanwhile Elijah was sitting, big as life, on top of a hill. The captain said, “O Holy Man! King’s orders: Come down!”",
+        "es": "El rey envió a un capitán con cincuenta hombres para buscar a Elías. Mientras tanto, Elías estaba sentado allá arriba, muy campante, en la cima de una colina. El capitán le dijo: «¡Hombre santo! Órdenes del rey: ¡Baja!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-09"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "10",
+      "id": "2reyes1-msg-09",
+      "msg": {
+        "en": "Elijah answered the captain of the fifty, “If it’s true that I’m a ‘holy man,’ lightning strike you and your fifty men!” Out of the blue lightning struck and incinerated the captain and his fifty.",
+        "es": "Elías respondió al capitán de los cincuenta: «Si es cierto que soy un “hombre santo”, ¡que un rayo caiga sobre ti y tus cincuenta hombres!». De la nada cayó un rayo y calcinó al capitán y a sus cincuenta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-10"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "11",
+      "id": "2reyes1-msg-10",
+      "msg": {
+        "en": "The king sent another captain with his fifty men, “O Holy Man! King’s orders: Come down. And right now!”",
+        "es": "El rey envió a otro capitán con sus cincuenta hombres: «¡Hombre santo! Órdenes del rey: baja. ¡Y hazlo ahora mismo!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-11"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "12",
+      "id": "2reyes1-msg-11",
+      "msg": {
+        "en": "Elijah answered, “If it’s true that I’m a ‘holy man,’ lightning strike you and your fifty men!” Immediately a divine lightning bolt struck and incinerated the captain and his fifty.",
+        "es": "Elías respondió: «Si es cierto que soy un “hombre santo”, ¡que un rayo caiga sobre ti y tus cincuenta hombres!». De inmediato cayó un rayo divino y calcinó al capitán y a sus cincuenta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-12"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "2reyes1-msg-12",
+      "msg": {
+        "en": "The king then sent a third captain with his fifty men. For a third time, a captain with his fifty approached Elijah. This one fell on his knees in supplication: “O Holy Man, have respect for my life and the souls of these fifty men! Twice now lightning from out of the blue has struck and incinerated captains with their fifty men; please, I beg you, respect my life!”",
+        "es": "Entonces el rey envió a un tercer capitán con sus cincuenta hombres. Por tercera vez, un capitán acompañado de sus cincuenta se acercó a Elías. Este cayó de rodillas y le suplicó: «Hombre santo, ¡ten consideración por mi vida y por la vida de estos cincuenta hombres! Ya dos veces un rayo caído de la nada ha calcinado a los capitanes junto con sus cincuenta hombres. Por favor, te lo ruego, ¡ten consideración por mi vida!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-14"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "15",
+      "id": "2reyes1-msg-13",
+      "msg": {
+        "en": "The angel of GOD told Elijah, “Go ahead; and don’t be afraid.” Elijah got up and went down with him to the king.",
+        "es": "El ángel de DIOS le dijo a Elías: «Ve con él; no tengas miedo». Elías se levantó y bajó con el capitán para presentarse ante el rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-15"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "16",
+      "id": "2reyes1-msg-14",
+      "msg": {
+        "en": "Elijah told him, “GOD’S word: Because you sent messengers to consult Baal-Zebub the god of Ekron, as if there were no God in Israel to whom you could pray, you’ll never get out of that bed alive—already you’re as good as dead.”",
+        "es": "Elías le dijo: «Esta es la palabra de DIOS: Por haber enviado mensajeros a consultar a Baal Zebub, el dios de Ecrón, como si en Israel no hubiera un Dios a quien pudieras orar, jamás saldrás vivo de esa cama; puedes darte por muerto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-16"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "17",
+      "id": "2reyes1-msg-15",
+      "msg": {
+        "en": "And he died, exactly as GOD’s word spoken by Elijah had said.\nBecause Ahaziah had no son, his brother Joram became the next king. The succession took place in the second year of the reign of Jehoram son of Jehoshaphat king of Judah.",
+        "es": "Y murió, exactamente como había dicho la palabra de DIOS anunciada por Elías.\nComo Ocozías no tenía hijos, su hermano Joram se convirtió en el siguiente rey. La sucesión ocurrió durante el segundo año del reinado de Joram hijo de Josafat, rey de Judá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-17"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "18",
+      "id": "2reyes1-msg-16",
+      "msg": {
+        "en": "The rest of Ahaziah’s life is recorded in The Chronicles of the Kings of Israel.",
+        "es": "El resto de la vida de Ocozías está registrado en Las Crónicas de los Reyes de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes1-nbla-18"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-01a",
+          "order": 1,
+          "text": "Después de la muerte de Acab,"
+        },
+        {
+          "id": "2reyes1-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Moab se rebeló contra Israel."
+        }
+      ],
+      "id": "2reyes1-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-02a",
+          "order": 1,
+          "text": "En Samaria, Ocozías se cayó por la ventana de su aposento alto, y se enfermó. Entonces envió mensajeros diciéndoles: «Vayan, consulten a Baal Zebub, dios de Ecrón,"
+        },
+        {
+          "id": "2reyes1-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "si he de sanar de esta enfermedad»."
+        }
+      ],
+      "id": "2reyes1-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-03a",
+          "order": 1,
+          "text": "Pero el ángel del SEÑOR dijo a Elías el tisbita: «Levántate, sube al encuentro de los mensajeros del rey de Samaria y diles: “"
+        },
+        {
+          "id": "2reyes1-nbla-03b",
+          "order": 2,
+          "text": "¿Acaso no hay Dios en Israel"
+        },
+        {
+          "id": "2reyes1-nbla-03c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para que ustedes vayan a consultar a Baal Zebub, dios de Ecrón?”."
+        }
+      ],
+      "id": "2reyes1-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-04a",
+          "order": 1,
+          "text": "Por tanto,"
+        },
+        {
+          "id": "2reyes1-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "así dice el SEÑOR"
+        },
+        {
+          "id": "2reyes1-nbla-04c",
+          "order": 3,
+          "text": ": “No te levantarás del lecho donde te has acostado, sino que ciertamente morirás”». Entonces Elías se fue."
+        }
+      ],
+      "id": "2reyes1-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "2reyes1-nbla-05",
+      "number": 5,
+      "text": "Cuando los mensajeros volvieron al rey, este les dijo: «¿Por qué han vuelto?»."
+    },
+    {
+      "id": "2reyes1-nbla-06",
+      "number": 6,
+      "text": "Ellos le respondieron: «Un hombre vino a nuestro encuentro y nos dijo: “Vayan, vuelvan al rey que los envió, y díganle: ‘Así dice el SEÑOR: “¿Acaso no hay Dios en Israel para que envíes a consultar a Baal Zebub, dios de Ecrón? Por tanto, no te levantarás del lecho donde te has acostado, sino que ciertamente morirás”’”»."
+    },
+    {
+      "id": "2reyes1-nbla-07",
+      "number": 7,
+      "text": "Y él rey les preguntó: «¿Qué aspecto tenía el hombre que subió al encuentro de ustedes y les habló estas palabras?»."
+    },
+    {
+      "id": "2reyes1-nbla-08",
+      "number": 8,
+      "text": "«Era un hombre cubierto de pelo, con un cinturón de cuero ceñido a sus lomos», respondieron ellos. «Es Elías el tisbita», dijo el rey."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-09a",
+          "order": 1,
+          "text": "Entonces el rey envió un capitán de cincuenta con sus cincuenta hombres a buscarlo. El capitán subió a él, y allí estaba Elías sentado en la cumbre del monte, y le dijo: «Hombre de Dios,"
+        },
+        {
+          "id": "2reyes1-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el rey dice: “Desciende”»."
+        }
+      ],
+      "id": "2reyes1-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "2reyes1-nbla-10",
+      "number": 10,
+      "text": "Elías respondió al capitán de cincuenta: «Si yo soy hombre de Dios, que descienda fuego del cielo y te consuma a ti y a tus cincuenta». Entonces descendió fuego del cielo, y lo consumió a él y a sus cincuenta."
+    },
+    {
+      "id": "2reyes1-nbla-11",
+      "number": 11,
+      "text": "De nuevo el rey envió a él otro capitán de cincuenta con sus cincuenta que le habló: «Hombre de Dios, así dice el rey: “Desciende inmediatamente”»."
+    },
+    {
+      "id": "2reyes1-nbla-12",
+      "number": 12,
+      "text": "«Si yo soy hombre de Dios», respondió Elías, «que descienda fuego del cielo y te consuma a ti y a tus cincuenta». Entonces el fuego de Dios descendió del cielo y lo consumió a él y a sus cincuenta."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-13a",
+          "order": 1,
+          "text": "De nuevo el rey le envió al tercer capitán de cincuenta con sus cincuenta. Cuando el tercer capitán de cincuenta subió, vino y se postró de rodillas delante de Elías y le rogó, diciéndole: «Hombre de Dios, le ruego"
+        },
+        {
+          "id": "2reyes1-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "que mi vida y la vida de estos cincuenta siervos suyos sean de valor ante sus ojos."
+        }
+      ],
+      "id": "2reyes1-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "2reyes1-nbla-14",
+      "number": 14,
+      "text": "Ya que ha descendido fuego del cielo y ha consumido a los dos primeros capitanes de cincuenta con sus cincuenta; pero ahora, sea mi vida preciosa ante sus ojos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes1-nbla-15a",
+          "order": 1,
+          "text": "Entonces el ángel del SEÑOR dijo a Elías: «"
+        },
+        {
+          "id": "2reyes1-nbla-15b",
+          "order": 2,
+          "text": "Desciende con él y no le tengas miedo"
+        },
+        {
+          "id": "2reyes1-nbla-15c",
+          "order": 3,
+          "text": "». Se levantó Elías y descendió con él a ver al rey,"
+        }
+      ],
+      "id": "2reyes1-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "2reyes1-nbla-16",
+      "number": 16,
+      "text": "y le dijo: «Así dice el SEÑOR: “Por cuanto has enviado mensajeros a consultar a Baal Zebub, dios de Ecrón (¿acaso no hay Dios en Israel para consultar Su palabra?), por tanto no bajarás del lecho al que has subido, sino que ciertamente morirás”»."
+    },
+    {
+      "id": "2reyes1-nbla-17",
+      "number": 17,
+      "text": "Ocozías murió conforme a la palabra del SEÑOR que Elías había hablado. Y Joram reinó en su lugar durante el año segundo de Joram, hijo de Josafat, rey de Judá, porque Ocozías no tenía ningún hijo."
+    },
+    {
+      "id": "2reyes1-nbla-18",
+      "number": 18,
+      "text": "Los demás hechos de Ocozías, lo que hizo, ¿no están escritos en el libro de las Crónicas de los reyes de Israel?"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,875 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La rendición nace del terror, no de convicción. Los responsables entregan su juicio moral a Jehú y pronto asesinan a quienes debían proteger. La obediencia absoluta a un líder humano es peligrosa cuando reemplaza responsabilidad, conciencia y temor de Dios.",
+      "id": "2reyes10-joya-01",
+      "msg": {
+        "en": "“We are your servants. Whatever you say, we’ll do.”",
+        "es": "«Somos tus siervos. Haremos todo lo que digas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-05b"
+          ],
+          "verseId": "2reyes10-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5"
+    },
+    {
+      "explanation": "La palabra de juicio permanece después de años de demora. Jehú la usa dentro de un discurso que también distribuye culpa, de modo que el lector debe afirmar la fidelidad de Dios sin aceptar toda autointerpretación del rey como neutral.",
+      "id": "2reyes10-joya-02",
+      "msg": {
+        "en": "“Not a single syllable that GOD spoke in judgment on the family of Ahab is canceled”",
+        "es": "«no se ha cancelado ni una sola sílaba de lo que DIOS habló en juicio contra la familia de Acab»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-10b"
+          ],
+          "verseId": "2reyes10-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Jehú busca apoyo moral y público en Jonadab. MSG destaca alineación y NBLA habla de rectitud del corazón. El resto del capítulo preguntará si el corazón de Jehú es realmente recto ante Dios o solo coincide con un aliado en una campaña particular.",
+      "id": "2reyes10-joya-03",
+      "msg": {
+        "en": "“Are we together and of one mind in this?”",
+        "es": "«¿Estamos juntos y tenemos un mismo sentir en esto?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-15b"
+          ],
+          "verseId": "2reyes10-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "15"
+    },
+    {
+      "explanation": "Jehú desea que su celo sea visto. La frase puede describir una acción decidida, pero los versículos 29-31 revelan su límite. La pasión pública debe ser evaluada por obediencia completa, no por la intensidad con que ataca el pecado de otros.",
+      "id": "2reyes10-joya-04",
+      "msg": {
+        "en": "“and witness my zeal for GOD.”",
+        "es": "«y contempla mi celo por DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-16b"
+          ],
+          "verseId": "2reyes10-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16"
+    },
+    {
+      "explanation": "El giro «a pesar de todo» interpreta la reforma. Destruir a Baal no produjo retorno pleno. El pecado tolerado era antiguo, nacional y políticamente conveniente. Una victoria espiritual visible no sustituye el arrepentimiento en la zona que seguimos protegiendo.",
+      "id": "2reyes10-joya-05",
+      "msg": {
+        "en": "“But for all that, Jehu didn’t turn back from the sins of Jeroboam son of Nebat”",
+        "es": "«A pesar de todo, Jehú no se apartó de los pecados de Jeroboam hijo de Nabat»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-29b"
+          ],
+          "verseId": "2reyes10-nbla-29"
+        }
+      ],
+      "order": 5,
+      "range": "29"
+    },
+    {
+      "explanation": "Dios reconoce una tarea cumplida y promete una consecuencia histórica concreta. Esta aprobación delimitada no contradice la crítica siguiente. Enseña a recibir una evaluación precisa: un acto correcto puede ser realmente reconocido sin convertir toda la vida del actor en modelo.",
+      "id": "2reyes10-joya-06",
+      "msg": {
+        "en": "“You did what I ordered against the family of Ahab.”",
+        "es": "«Cumpliste lo que ordené contra la familia de Acab»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-30b"
+          ],
+          "verseId": "2reyes10-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "30"
+    },
+    {
+      "explanation": "El problema no es falta de energía, sino falta de cuidado sostenido. Jehú sabe actuar con rapidez contra enemigos, pero no ordena su vida por la ley. La fidelidad requiere atención cotidiana y un corazón entero, no solo momentos espectaculares de celo.",
+      "id": "2reyes10-joya-07",
+      "msg": {
+        "en": "“Jehu wasn’t careful to walk in GOD’s ways”",
+        "es": "«Jehú no tuvo cuidado de caminar en los caminos de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes10-nbla-31b"
+          ],
+          "verseId": "2reyes10-nbla-31"
+        }
+      ],
+      "order": 7,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 10,
+    "studyId": "2reyes-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2reyes10-msg-01",
+      "msg": {
+        "en": "Ahab had seventy sons still living in Samaria. Jehu wrote letters addressed to the officers of Jezreel, the city elders, and those in charge of Ahab’s sons, and posted them to Samaria. The letters read:",
+        "es": "Acab todavía tenía setenta hijos que vivían en Samaria. Jehú escribió cartas dirigidas a los oficiales de Jezreel, a los ancianos de la ciudad y a quienes estaban a cargo de los hijos de Acab, y las envió a Samaria. Las cartas decían:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "2reyes10-msg-02",
+      "msg": {
+        "en": "This letter is fair warning. You’re in charge of your master’s children, chariots, horses, fortifications, and weapons. Pick the best and most capable of your master’s sons and put him on the throne. Prepare to fight for your master’s position.",
+        "es": "Esta carta es una advertencia clara. Ustedes tienen a su cargo los hijos de su señor, carros, caballos, fortificaciones y armas. Escojan al mejor y más capaz de los hijos de su señor, pónganlo en el trono y prepárense para luchar por la casa de su señor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "2reyes10-msg-03",
+      "msg": {
+        "en": "They were absolutely terrified at the letter. They said, “Two kings have already been wiped out by him; what hope do we have?”",
+        "es": "La carta los aterrorizó por completo. Dijeron: «Ya acabó con dos reyes; ¿qué esperanza tenemos nosotros?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "2reyes10-msg-04",
+      "msg": {
+        "en": "So they sent the warden of the palace, the mayor of the city, the elders, and the guardians to Jehu with this message: “We are your servants. Whatever you say, we’ll do. We’re not making anyone king here. You’re in charge—do what you think best.”",
+        "es": "Entonces el administrador del palacio, el gobernador de la ciudad, los ancianos y los tutores enviaron este mensaje a Jehú: «Somos tus siervos. Haremos todo lo que digas. No proclamaremos rey a nadie. Tú estás al mando; haz lo que consideres mejor»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "2reyes10-msg-05",
+      "msg": {
+        "en": "Then Jehu wrote a second letter:\nIf you are on my side and are willing to follow my orders, here’s what you do: Decapitate the sons of your master and bring the heads to me by this time tomorrow in Jezreel.\nThe king’s sons numbered seventy. The leaders of the city had taken responsibility for them. When they got the letter, they took the king’s sons and killed all seventy. Then they put the heads in baskets and sent them to Jehu in Jezreel.",
+        "es": "Entonces Jehú escribió una segunda carta:\nSi están de mi lado y dispuestos a seguir mis órdenes, hagan esto: decapiten a los hijos de su señor y tráiganme las cabezas mañana a esta hora en Jezreel.\nLos hijos del rey eran setenta. Los dirigentes de la ciudad habían asumido la responsabilidad de cuidarlos. Cuando recibieron la carta, tomaron a los setenta hijos del rey y los mataron. Luego pusieron sus cabezas en canastas y las enviaron a Jehú en Jezreel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "2reyes10-msg-06",
+      "msg": {
+        "en": "A messenger reported to Jehu: “They’ve delivered the heads of the king’s sons.”\nHe said, “Stack them in two piles at the city gate until morning.”",
+        "es": "Un mensajero informó a Jehú: «Han entregado las cabezas de los hijos del rey».\nÉl dijo: «Apílenlas en dos montones junto a la puerta de la ciudad hasta la mañana»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "2reyes10-msg-07",
+      "msg": {
+        "en": "In the morning Jehu came out, stood before the people, and addressed them formally: “Do you realize that this very day you are participants in GOD’s righteous workings? True, I am the one who conspired against my master and assassinated him. But who, do you suppose, is responsible for this pile of skulls? Know this for certain: Not a single syllable that GOD spoke in judgment on the family of Ahab is canceled; you’re seeing it with your own eyes—GOD doing what, through Elijah, he said he’d do.”",
+        "es": "Por la mañana, Jehú salió, se puso delante del pueblo y les habló formalmente: «¿Comprenden que hoy mismo participan en las obras justas de DIOS? Es verdad: yo conspiré contra mi señor y lo asesiné. Pero ¿quién, creen ustedes, es responsable de este montón de cráneos? Sepan con certeza que no se ha cancelado ni una sola sílaba de lo que DIOS habló en juicio contra la familia de Acab. Lo están viendo con sus propios ojos: DIOS hace lo que dijo que haría por medio de Elías»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11",
+      "id": "2reyes10-msg-08",
+      "msg": {
+        "en": "Then Jehu proceeded to kill everyone who had anything to do with Ahab’s family in Jezreel—leaders, friends, priests. He wiped out the entire lot.",
+        "es": "Entonces Jehú mató en Jezreel a todos los que tenían relación con la familia de Acab: dirigentes, amigos y sacerdotes. Acabó con todos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-11"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "2reyes10-msg-09",
+      "msg": {
+        "en": "That done, he brushed himself off and set out for Samaria. Along the way, at Beth Eked (Binding House) of the Shepherds, he met up with some relatives of Ahaziah king of Judah.\nJehu said, “Who are you?”\nThey said, “We’re relatives of Ahaziah and we’ve come down to a reunion of the royal family.”",
+        "es": "Terminado aquello, siguió su camino hacia Samaria. En Bet Eked, la Casa de Reunión de los Pastores, encontró a algunos parientes de Ocozías, rey de Judá.\nJehú preguntó: «¿Quiénes son ustedes?».\nRespondieron: «Somos parientes de Ocozías y hemos venido a reunirnos con la familia real»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-13"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "14",
+      "id": "2reyes10-msg-10",
+      "msg": {
+        "en": "“Grab them!” ordered Jehu. They were taken and then massacred at the well of Beth Eked. Forty-two of them—no survivors.",
+        "es": "«¡Captúrenlos!», ordenó Jehú. Los apresaron y luego los masacraron junto al pozo de Bet Eked. Eran cuarenta y dos; no hubo sobrevivientes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-14"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "15",
+      "id": "2reyes10-msg-11",
+      "msg": {
+        "en": "He went on from there and came upon Jehonadab the Recabite who was on his way to meet him. Greeting him, he said, “Are we together and of one mind in this?”\nJehonadab said, “We are—count on me.”\n“Then give me your hand,” said Jehu.\nThey shook hands on it and Jehonadab stepped up into the chariot with Jehu.",
+        "es": "Siguió adelante y encontró a Jonadab recabita, que venía a su encuentro. Después de saludarlo, preguntó: «¿Estamos juntos y tenemos un mismo sentir en esto?».\nJonadab respondió: «Sí, puedes contar conmigo».\n«Entonces dame la mano», dijo Jehú.\nSe dieron la mano y Jonadab subió al carro con Jehú."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-15"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "16",
+      "id": "2reyes10-msg-12",
+      "msg": {
+        "en": "“Come along with me,” said Jehu, “and witness my zeal for GOD.” Together they proceeded in the chariot.",
+        "es": "«Ven conmigo», dijo Jehú, «y contempla mi celo por DIOS». Juntos siguieron adelante en el carro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-16"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "17",
+      "id": "2reyes10-msg-13",
+      "msg": {
+        "en": "When they arrived in Samaria, Jehu massacred everyone left in Samaria who was in any way connected with Ahab—a mass execution, just as GOD had told Elijah.",
+        "es": "Cuando llegaron a Samaria, Jehú masacró a todos los que quedaban allí y tenían alguna relación con Acab: una ejecución masiva, conforme a lo que DIOS había dicho a Elías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-17"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "2reyes10-msg-14",
+      "msg": {
+        "en": "Next, Jehu got all the people together and addressed them:\nAhab served Baal small-time;\nJehu will serve him big-time.\n“Get all the prophets of Baal here—everyone who served him, all his priests. Get everyone here; don’t leave anyone out. I have a great sacrifice to offer Baal. If you don’t show up, you won’t live to tell about it.” (Jehu was lying, of course. He planned to destroy all the worshipers of Baal.)",
+        "es": "Después, Jehú reunió a todo el pueblo y dijo:\nAcab sirvió a Baal en pequeña escala;\nJehú lo servirá en grande.\n«Traigan aquí a todos los profetas de Baal, a todos sus servidores y a todos sus sacerdotes. Que no falte nadie. Tengo un gran sacrificio para Baal. Quien no venga no vivirá para contarlo». Por supuesto, Jehú mentía: planeaba destruir a todos los adoradores de Baal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-19"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "20",
+      "id": "2reyes10-msg-15",
+      "msg": {
+        "en": "Jehu ordered, “Make preparation for a holy convocation for Baal.” They did and posted the date.",
+        "es": "Jehú ordenó: «Preparen una santa convocación para Baal». Así lo hicieron y anunciaron la fecha."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-20"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "21",
+      "id": "2reyes10-msg-16",
+      "msg": {
+        "en": "Jehu then summoned everyone in Israel. They came in droves—every worshiper of Baal in the country. Nobody stayed home. They came and packed the temple of Baal to capacity.",
+        "es": "Entonces Jehú convocó a todos en Israel. Acudieron en masa todos los adoradores de Baal del país. Nadie se quedó en casa. Llegaron y llenaron el templo de Baal de un extremo al otro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-21"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "22",
+      "id": "2reyes10-msg-17",
+      "msg": {
+        "en": "Jehu directed the keeper of the wardrobe, “Get robes for all the servants of Baal.” He brought out their robes.",
+        "es": "Jehú ordenó al encargado del vestuario: «Trae túnicas para todos los servidores de Baal». Él sacó las túnicas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-22"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "2reyes10-msg-18",
+      "msg": {
+        "en": "Jehu and Jehonadab the Recabite now entered the temple of Baal and said, “Double-check and make sure that there are no worshipers of GOD in here; only Baal-worshipers are allowed.” Then they launched the worship, making the sacrifices and burnt offerings.\nMeanwhile, Jehu had stationed eighty men outside with orders: “Don’t let a single person escape; if you do, it’s your life for his life.”",
+        "es": "Jehú y Jonadab recabita entraron en el templo de Baal y dijeron: «Revisen bien y asegúrense de que no haya aquí ningún adorador de DIOS; solo se permite la presencia de adoradores de Baal». Entonces iniciaron el culto y ofrecieron sacrificios y holocaustos.\nMientras tanto, Jehú había colocado ochenta hombres afuera con esta orden: «No permitan que escape una sola persona; si alguien escapa, la vida de ustedes responderá por la suya»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-24"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "2reyes10-msg-19",
+      "msg": {
+        "en": "When Jehu had finished with the sacrificial solemnities, he signaled to the officers and guards, “Enter and kill! No survivors!”\nAnd the bloody slaughter began. The officers and guards threw the corpses outside and cleared the way to enter the inner shrine of Baal. They hauled out the sacred phallic stone from the temple of Baal and pulverized it. They smashed the Baal altars and tore down the Baal temple. It’s been a public toilet ever since.",
+        "es": "Cuando Jehú terminó las solemnidades del sacrificio, dio la señal a los oficiales y guardias: «¡Entren y maten! ¡Que no haya sobrevivientes!».\nEntonces comenzó la sangrienta matanza. Los oficiales y guardias arrojaron los cadáveres afuera y abrieron paso hasta el santuario interior de Baal. Sacaron la piedra fálica sagrada del templo y la pulverizaron. Destruyeron los altares de Baal y derribaron su templo. Desde entonces ha sido una letrina pública."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-27"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "28",
+      "id": "2reyes10-msg-20",
+      "msg": {
+        "en": "And that’s the story of Jehu’s wasting of Baal in Israel.",
+        "es": "Así fue como Jehú acabó con Baal en Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-28"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "29",
+      "id": "2reyes10-msg-21",
+      "msg": {
+        "en": "But for all that, Jehu didn’t turn back from the sins of Jeroboam son of Nebat, the sins that had dragged Israel into a life of sin—the golden calves in Bethel and Dan stayed.",
+        "es": "A pesar de todo, Jehú no se apartó de los pecados de Jeroboam hijo de Nabat, los pecados que habían arrastrado a Israel a una vida de pecado: los becerros de oro en Betel y Dan permanecieron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-29"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "30",
+      "id": "2reyes10-msg-22",
+      "msg": {
+        "en": "GOD commended Jehu: “You did well to do what I saw was best. You did what I ordered against the family of Ahab. As reward, your sons will occupy the throne of Israel for four generations.”",
+        "es": "DIOS reconoció a Jehú: «Hiciste bien al realizar lo que consideré correcto. Cumpliste lo que ordené contra la familia de Acab. Como recompensa, tus hijos ocuparán el trono de Israel durante cuatro generaciones»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-30"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "31",
+      "id": "2reyes10-msg-23",
+      "msg": {
+        "en": "Even then, though, Jehu wasn’t careful to walk in GOD’s ways and honor the God of Israel from an undivided heart. He didn’t turn back from the sins of Jeroboam son of Nebat, who led Israel into a life of sin.",
+        "es": "Aun así, Jehú no tuvo cuidado de caminar en los caminos de DIOS ni de honrar al Dios de Israel con un corazón íntegro. No se apartó de los pecados de Jeroboam hijo de Nabat, quien condujo a Israel a una vida de pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-31"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "2reyes10-msg-24",
+      "msg": {
+        "en": "It was about this time that GOD began to shrink Israel. Hazael hacked away at the borders of Israel from the Jordan to the east—all the territory of Gilead, Gad, Reuben, and Manasseh from Aroer near the Brook Arnon. In effect, all Gilead and Bashan.",
+        "es": "Por ese tiempo, DIOS comenzó a reducir el territorio de Israel. Hazael fue arrancando sus fronteras desde el Jordán hacia el oriente: todo Galaad, Gad, Rubén y Manasés, desde Aroer junto al arroyo Arnón; en efecto, todo Galaad y Basán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-33"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "34-36",
+      "id": "2reyes10-msg-25",
+      "msg": {
+        "en": "The rest of the life and times of Jehu, his accomplishments and fame, are written in The Chronicles of the Kings of Israel. Jehu died and was buried in the family plot in Samaria. His son Jehoahaz was the next king. Jehu ruled Israel from Samaria for twenty-eight years.",
+        "es": "El resto de la vida y los tiempos de Jehú, sus logros y su fama, está escrito en las Crónicas de los reyes de Israel. Jehú murió y fue sepultado en la tumba familiar en Samaria. Su hijo Joacaz fue el siguiente rey. Jehú gobernó Israel desde Samaria durante veintiocho años."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes10-nbla-36"
+        }
+      ],
+      "order": 25
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes10-nbla-01",
+      "number": 1,
+      "text": "Acab tenía setenta hijos en Samaria. Y Jehú escribió cartas y las envió a Samaria, a los príncipes de Jezreel, a los ancianos y a los preceptores de los hijos de Acab, diciendo:"
+    },
+    {
+      "id": "2reyes10-nbla-02",
+      "number": 2,
+      "text": "«Ahora, cuando esta carta llegue a ustedes, como los hijos de su señor están con ustedes, así como también los carros y los caballos y una ciudad fortificada y las armas,"
+    },
+    {
+      "id": "2reyes10-nbla-03",
+      "number": 3,
+      "text": "escojan al mejor y más capaz de entre los hijos de su señor, y pónganlo en el trono de su padre, y luchen por la casa de su señor»."
+    },
+    {
+      "id": "2reyes10-nbla-04",
+      "number": 4,
+      "text": "Pero ellos temieron en gran manera y dijeron: «Si los dos reyes no pudieron sostenerse delante de él; ¿cómo, pues, podremos sostenernos nosotros?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-05a",
+          "order": 1,
+          "text": "Y el que estaba a cargo de la casa, y el que estaba sobre la ciudad, los ancianos, y los preceptores de los hijos, enviaron palabra a Jehú, diciendo: «"
+        },
+        {
+          "id": "2reyes10-nbla-05b",
+          "order": 2,
+          "text": "Somos sus siervos, haremos todo lo que nos digas"
+        },
+        {
+          "id": "2reyes10-nbla-05c",
+          "order": 3,
+          "text": ", a nadie proclamaremos rey. Haga usted lo que le parezca bien»."
+        }
+      ],
+      "id": "2reyes10-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "2reyes10-nbla-06",
+      "number": 6,
+      "text": "Entonces por segunda vez les escribió una carta, diciendo: «Si están de mi parte y escuchan mi voz, tomen las cabezas de los hombres, de los hijos de su señor, y vengan a verme a Jezreel mañana a estas horas». Y los hijos del rey, setenta personas, estaban con los principales de la ciudad, que los criaban."
+    },
+    {
+      "id": "2reyes10-nbla-07",
+      "number": 7,
+      "text": "Cuando les llegó la carta, tomaron a los hijos del rey y los degollaron, setenta personas, pusieron sus cabezas en canastas y se las enviaron a Jehú en Jezreel."
+    },
+    {
+      "id": "2reyes10-nbla-08",
+      "number": 8,
+      "text": "Cuando el mensajero vino y le avisó: «Han traído las cabezas de los hijos del rey», él dijo: «Pónganlas en dos montones a la entrada de la puerta hasta la mañana»."
+    },
+    {
+      "id": "2reyes10-nbla-09",
+      "number": 9,
+      "text": "Por la mañana, Jehú salió, y estando en pie, dijo a todo el pueblo: «Ustedes son inocentes; porque yo conspiré contra mi señor y lo maté, pero, ¿quién mató a todos estos?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-10a",
+          "order": 1,
+          "text": "Sepan entonces que"
+        },
+        {
+          "id": "2reyes10-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no caerá a tierra ninguna de las palabras del SEÑOR"
+        },
+        {
+          "id": "2reyes10-nbla-10c",
+          "order": 3,
+          "text": ", las cuales el SEÑOR habló acerca de la casa de Acab. El SEÑOR ha hecho lo que habló por medio de Su siervo Elías»."
+        }
+      ],
+      "id": "2reyes10-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2reyes10-nbla-11",
+      "number": 11,
+      "text": "Jehú mató a todos los que quedaban de la casa de Acab en Jezreel, y a todos sus grandes, a sus amigos íntimos y a sus sacerdotes, hasta que no le dejó ningún sobreviviente."
+    },
+    {
+      "id": "2reyes10-nbla-12",
+      "number": 12,
+      "text": "Después Jehú se levantó y partió, y fue a Samaria. En el camino mientras estaba en Bet Eked de los pastores,"
+    },
+    {
+      "id": "2reyes10-nbla-13",
+      "number": 13,
+      "text": "se encontró con los parientes de Ocozías, rey de Judá, y les preguntó: «¿Quiénes son ustedes?». Y ellos respondieron: «Somos parientes de Ocozías; y hemos descendido para saludar a los hijos del rey y a los hijos de la reina madre»."
+    },
+    {
+      "id": "2reyes10-nbla-14",
+      "number": 14,
+      "text": "Entonces Jehú dijo: «Tómenlos vivos». Y los tomaron vivos, y los mataron en el foso de Bet Eked, cuarenta y dos hombres. No dejó ninguno de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-15a",
+          "order": 1,
+          "text": "Cuando partió de allí, Jehú se encontró con Jonadab, hijo de Recab, que venía a su encuentro, lo saludó y le dijo: «"
+        },
+        {
+          "id": "2reyes10-nbla-15b",
+          "order": 2,
+          "text": "¿Es recto tu corazón como mi corazón es con el tuyo?"
+        },
+        {
+          "id": "2reyes10-nbla-15c",
+          "order": 3,
+          "text": "». Y Jonadab respondió: «Lo es». Y Jehú dijo: «Si lo es, dame la mano». Y le dio su mano y lo hizo subir al carro."
+        }
+      ],
+      "id": "2reyes10-nbla-15",
+      "number": 15
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-16a",
+          "order": 1,
+          "text": "Y él dijo: «"
+        },
+        {
+          "id": "2reyes10-nbla-16b",
+          "order": 2,
+          "text": "Ven conmigo y verás mi celo por el SEÑOR"
+        },
+        {
+          "id": "2reyes10-nbla-16c",
+          "order": 3,
+          "text": "». Y lo hizo ir con él en su carro."
+        }
+      ],
+      "id": "2reyes10-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "2reyes10-nbla-17",
+      "number": 17,
+      "text": "Cuando llegó a Samaria, mató a todos los que quedaban de Acab en Samaria, hasta acabar con ellos, conforme a la palabra que el SEÑOR había hablado a Elías."
+    },
+    {
+      "id": "2reyes10-nbla-18",
+      "number": 18,
+      "text": "Entonces Jehú reunió a todo el pueblo, y les dijo: «Acab sirvió a Baal un poco, Jehú lo servirá mucho."
+    },
+    {
+      "id": "2reyes10-nbla-19",
+      "number": 19,
+      "text": "Llamen ahora a todos los profetas de Baal, a todos sus adoradores y a todos sus sacerdotes. Que no falte ninguno, porque tengo un gran sacrificio para Baal; todo el que falte no vivirá». Pero Jehú lo hizo con astucia para poder destruir a los adoradores de Baal."
+    },
+    {
+      "id": "2reyes10-nbla-20",
+      "number": 20,
+      "text": "Y Jehú dijo: «Santifiquen una asamblea solemne para Baal». Y ellos la convocaron."
+    },
+    {
+      "id": "2reyes10-nbla-21",
+      "number": 21,
+      "text": "Entonces Jehú envió aviso por todo Israel y vinieron todos los adoradores de Baal, y no quedó ninguno que no viniera. Y cuando entraron en la casa de Baal, la casa de Baal se llenó de un extremo al otro."
+    },
+    {
+      "id": "2reyes10-nbla-22",
+      "number": 22,
+      "text": "Y dijo al que estaba encargado del vestuario: «Saca vestiduras para todos los adoradores de Baal». Y él les sacó vestiduras."
+    },
+    {
+      "id": "2reyes10-nbla-23",
+      "number": 23,
+      "text": "Jehú entró en la casa de Baal con Jonadab, hijo de Recab; y dijo a los adoradores de Baal: «Busquen y vean que no haya aquí con ustedes ninguno de los siervos del SEÑOR, sino solo los adoradores de Baal»."
+    },
+    {
+      "id": "2reyes10-nbla-24",
+      "number": 24,
+      "text": "Entonces entraron a ofrecer sacrificios y holocaustos. Y Jehú había colocado ochenta hombres afuera, y había dicho: «El que permita escapar a uno de los hombres que yo ponga en manos de ustedes, dará su vida por la de él»."
+    },
+    {
+      "id": "2reyes10-nbla-25",
+      "number": 25,
+      "text": "Tan pronto como acabó de ofrecer el holocausto, Jehú dijo a la guardia y a los oficiales reales: «Entren, mátenlos; que ninguno salga». Y los mataron a filo de espada; y la guardia y los oficiales reales los echaron fuera, y llegaron hasta el aposento interior de la casa de Baal."
+    },
+    {
+      "id": "2reyes10-nbla-26",
+      "number": 26,
+      "text": "Sacaron los pilares sagrados de la casa de Baal, y los quemaron."
+    },
+    {
+      "id": "2reyes10-nbla-27",
+      "number": 27,
+      "text": "También derribaron el pilar sagrado de Baal y demolieron la casa de Baal, y la convirtieron en una letrina, hasta hoy."
+    },
+    {
+      "id": "2reyes10-nbla-28",
+      "number": 28,
+      "text": "Así Jehú extirpó a Baal de Israel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-29a",
+          "order": 1,
+          "text": "Sin embargo, en cuanto a los pecados con que Jeroboam, hijo de Nabat, hizo pecar a Israel,"
+        },
+        {
+          "id": "2reyes10-nbla-29b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Jehú no se apartó de estos"
+        },
+        {
+          "id": "2reyes10-nbla-29c",
+          "order": 3,
+          "text": ", o sea, de los becerros de oro que estaban en Betel y en Dan."
+        }
+      ],
+      "id": "2reyes10-nbla-29",
+      "number": 29
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-30a",
+          "order": 1,
+          "text": "Y el SEÑOR dijo a Jehú: «Porque has hecho bien al hacer lo recto ante Mis ojos, y"
+        },
+        {
+          "id": "2reyes10-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "has hecho a la casa de Acab conforme a todo lo que estaba en Mi corazón"
+        },
+        {
+          "id": "2reyes10-nbla-30c",
+          "order": 3,
+          "text": ", tus hijos hasta la cuarta generación se sentarán en el trono de Israel»."
+        }
+      ],
+      "id": "2reyes10-nbla-30",
+      "number": 30
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes10-nbla-31a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "2reyes10-nbla-31b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Jehú no se cuidó de andar en la ley del SEÑOR"
+        },
+        {
+          "id": "2reyes10-nbla-31c",
+          "order": 3,
+          "text": ", Dios de Israel, con todo su corazón, ni se apartó de los pecados con que Jeroboam hizo pecar a Israel."
+        }
+      ],
+      "id": "2reyes10-nbla-31",
+      "number": 31
+    },
+    {
+      "id": "2reyes10-nbla-32",
+      "number": 32,
+      "text": "En aquellos días el SEÑOR comenzó a cortar partes de Israel; y Hazael los derrotó por todo el territorio de Israel:"
+    },
+    {
+      "id": "2reyes10-nbla-33",
+      "number": 33,
+      "text": "desde el Jordán hacia el oriente, toda la tierra de Galaad, de Gad, de Rubén y de Manasés; desde Aroer, que está junto al valle del Arnón, y hasta Galaad y Basán."
+    },
+    {
+      "id": "2reyes10-nbla-34",
+      "number": 34,
+      "text": "Los demás hechos de Jehú, y todo lo que hizo y todo su poder, ¿no están escritos en el libro de las Crónicas de los reyes de Israel?"
+    },
+    {
+      "id": "2reyes10-nbla-35",
+      "number": 35,
+      "text": "Y durmió Jehú con sus padres, y lo sepultaron en Samaria. Y su hijo Joacaz reinó en su lugar."
+    },
+    {
+      "id": "2reyes10-nbla-36",
+      "number": 36,
+      "text": "El tiempo que Jehú reinó sobre Israel en Samaria fue de veintiocho años."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

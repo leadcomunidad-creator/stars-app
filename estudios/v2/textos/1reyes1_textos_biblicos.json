@@ -1,0 +1,955 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Adonías convierte su deseo en anuncio público. La frase descubre una ambición que no espera llamado, confirmación ni servicio: decide que el reino debe pertenecerle.",
+      "id": "1reyes1-joya-01",
+      "msg": {
+        "en": "“I’m the next king!”",
+        "es": "«¡Yo seré el próximo rey!»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-05b"
+          ],
+          "verseId": "1reyes1-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5"
+    },
+    {
+      "explanation": "La hermosura y posición de Adonías no sustituyeron la formación. El afecto que nunca pregunta «¿por qué?» puede dejar a una persona sin límites para reconocer que el mundo no gira a su alrededor.",
+      "id": "1reyes1-joya-02",
+      "msg": {
+        "en": "“His father had spoiled him rotten as a child, never once reprimanding him.”",
+        "es": "«Su padre lo había consentido desde niño y nunca lo confrontó preguntándole por qué actuaba así»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-06a"
+          ],
+          "verseId": "1reyes1-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6"
+    },
+    {
+      "explanation": "La lista ausente dice la verdad sobre la fiesta. Cuando un proyecto necesita escoger cuidadosamente quién puede mirar y hablar, su aparente unidad merece ser examinada.",
+      "id": "1reyes1-joya-03",
+      "msg": {
+        "en": "“but he did not invite the prophet Nathan, Benaiah, the bodyguards, or his brother Solomon.”",
+        "es": "«No invitó al profeta Natán, a Benaía, a la guardia real ni a su hermano Salomón»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Natán distingue entre información y conciencia. David necesita conocer lo que ocurre; Betsabé necesita comprender el peligro. La verdad se comunica para mover a una respuesta fiel.",
+      "id": "1reyes1-joya-04",
+      "msg": {
+        "en": "“Did you know that Adonijah, Haggith’s son, has taken over as king, and our master David doesn’t know a thing about it?”",
+        "es": "«¿No sabes que Adonías hijo de Haguit se ha proclamado rey y que nuestro señor David no sabe nada?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-11b"
+          ],
+          "verseId": "1reyes1-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11-14"
+    },
+    {
+      "explanation": "David deja de aplazar la transición. Una promesa verdadera requiere una acción concreta en el tiempo oportuno, especialmente cuando la demora permite crecer a la injusticia.",
+      "id": "1reyes1-joya-05",
+      "msg": {
+        "en": "“I’ll make sure it happens this very day.”",
+        "es": "«Haré que suceda hoy mismo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-30b"
+          ],
+          "verseId": "1reyes1-nbla-30"
+        }
+      ],
+      "order": 5,
+      "range": "29-30"
+    },
+    {
+      "explanation": "El gozo público contrasta con el banquete restringido de Adonías. La llegada del rey recibido produce una celebración que se extiende más allá del círculo que intentaba controlar el poder.",
+      "id": "1reyes1-joya-06",
+      "msg": {
+        "en": "“the very earth reverberating to the sound.”",
+        "es": "«la tierra se estremecía con el sonido»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-40b"
+          ],
+          "verseId": "1reyes1-nbla-40"
+        }
+      ],
+      "order": 6,
+      "range": "38-40"
+    },
+    {
+      "explanation": "Salomón ofrece vida sin negar la gravedad de la rebelión. El futuro mostrará si Adonías usa esa misericordia para vivir con honor o para continuar buscando el trono.",
+      "id": "1reyes1-joya-07",
+      "msg": {
+        "en": "“If he proves to be a man of honor, not a hair of his head will be hurt”",
+        "es": "«Si demuestra ser un hombre honorable, ni un cabello de su cabeza será tocado»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes1-nbla-52b"
+          ],
+          "verseId": "1reyes1-nbla-52"
+        }
+      ],
+      "order": 7,
+      "range": "52-53"
+    }
+  ],
+  "meta": {
+    "book": "1 REYES",
+    "bookId": "1reyes",
+    "chapter": 1,
+    "studyId": "1reyes-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "1reyes1-msg-01",
+      "msg": {
+        "en": "King David grew old. The years had caught up with him. Even though they piled blankets on him, he couldn’t keep warm. So his servants said to him, “We’re going to get a young virgin for our master the king to be at his side and look after him; she’ll get in bed with you and arouse our master the king.” So they searched the country of Israel for the most ravishing girl they could find; they found Abishag the Shunammite and brought her to the king. The girl was stunningly beautiful; she stayed at his side and looked after the king, but the king did not have sex with her.",
+        "es": "El rey David envejeció y los años lo alcanzaron. Aunque lo cubrían con mantas, no lograba entrar en calor. Sus servidores propusieron buscar una joven virgen que permaneciera a su lado, lo atendiera y se acostara junto a él para darle calor. Recorrieron Israel y encontraron a Abisag la sunamita, una joven de extraordinaria belleza. Ella cuidó al rey y le sirvió, pero David no tuvo relaciones sexuales con ella."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "1reyes1-msg-02",
+      "msg": {
+        "en": "At this time Adonijah, whose mother was Haggith, puffed himself up saying, “I’m the next king!” He made quite a splash, with chariots and riders and fifty men to run ahead of him. His father had spoiled him rotten as a child, never once reprimanding him. Besides that, he was very good-looking and the next in line after Absalom.",
+        "es": "En ese tiempo Adonías, hijo de Haguit, se exaltó diciendo: «¡Yo seré el próximo rey!». Organizó una exhibición con carros, jinetes y cincuenta hombres que corrían delante de él. Su padre lo había consentido desde niño y nunca lo confrontó preguntándole por qué actuaba así. Además, Adonías era muy apuesto y había nacido después de Absalón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "1reyes1-msg-03",
+      "msg": {
+        "en": "Adonijah talked with Joab son of Zeruiah and with Abiathar the priest, and they threw their weight on his side. But neither the priest Zadok, nor Benaiah son of Jehoiada, nor Nathan the prophet, nor Shimei and Rei, nor David’s personal bodyguards supported Adonijah.",
+        "es": "Adonías habló con Joab hijo de Sarvia y con el sacerdote Abiatar, quienes pusieron su influencia a favor de él. Pero el sacerdote Sadoc, Benaía hijo de Joiada, el profeta Natán, Simei, Rei y la guardia personal de David no apoyaron a Adonías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "1reyes1-msg-04",
+      "msg": {
+        "en": "Next Adonijah held a coronation feast, sacrificing sheep, cattle, and grain-fed heifers at the Stone of Zoheleth near the Rogel Spring. He invited all his brothers, the king’s sons, and everyone in Judah who had position and influence—but he did not invite the prophet Nathan, Benaiah, the bodyguards, or his brother Solomon.",
+        "es": "Luego Adonías celebró un banquete de coronación y sacrificó ovejas, ganado y animales engordados junto a la piedra de Zohélet, cerca de la fuente de Rogel. Invitó a sus hermanos, los hijos del rey, y a los hombres influyentes de Judá. No invitó al profeta Natán, a Benaía, a la guardia real ni a su hermano Salomón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-14",
+      "id": "1reyes1-msg-05",
+      "msg": {
+        "en": "Nathan went to Bathsheba, Solomon’s mother, “Did you know that Adonijah, Haggith’s son, has taken over as king, and our master David doesn’t know a thing about it? Quickly now, let me tell you how you can save both your own life and Solomon’s. Go immediately to King David. Speak up: ‘Didn’t you, my master the king, promise me, “Your son Solomon will be king after me and sit on my throne”? So why is Adonijah now king?’ While you’re there talking with the king, I’ll come in and corroborate your story.”",
+        "es": "Natán fue a ver a Betsabé, madre de Salomón: «¿No sabes que Adonías hijo de Haguit se ha proclamado rey y que nuestro señor David no sabe nada? Déjame aconsejarte cómo salvar tu vida y la de Salomón. Ve inmediatamente al rey y dile: “¿No prometiste que mi hijo Salomón reinaría después de ti y se sentaría en tu trono? ¿Por qué reina ahora Adonías?”. Mientras hablas, yo entraré y confirmaré tus palabras»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "1reyes1-msg-06",
+      "msg": {
+        "en": "Bathsheba went at once to the king in his palace bedroom. He was so old! Abishag was at his side making him comfortable. As Bathsheba bowed low, honoring the king, he said, “What do you want?”",
+        "es": "Betsabé fue enseguida a la alcoba del palacio. El rey era muy anciano y Abisag permanecía a su lado atendiéndolo. Betsabé se inclinó profundamente ante David, y él preguntó: «¿Qué deseas?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-16"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "17-21",
+      "id": "1reyes1-msg-07",
+      "msg": {
+        "en": "“My master,” she said, “you promised me in GOD’s name, ‘Your son Solomon will be king after me and sit on my throne.’ And now look what’s happened—Adonijah has taken over as king, and my master the king doesn’t even know it! He has thrown a huge coronation feast—cattle and grain-fed heifers and sheep—inviting all the king’s sons, the priest Abiathar, and Joab head of the army. But your servant Solomon was not invited. My master the king, every eye in Israel is watching you to see what you’ll do—to see who will sit on the throne of my master the king after him. If you fail to act, the moment you’re buried my son Solomon and I are as good as dead.”",
+        "es": "«Mi señor —dijo ella—, prometiste en el nombre de DIOS: “Tu hijo Salomón reinará después de mí y se sentará en mi trono”. Pero Adonías se ha proclamado rey y mi señor ni siquiera lo sabe. Ha ofrecido un gran banquete con ganado y ovejas; invitó a los hijos del rey, al sacerdote Abiatar y a Joab, pero no invitó a tu siervo Salomón. Todo Israel observa para saber quién se sentará en el trono. Si no actúas, cuando mueras, mi hijo Salomón y yo seremos tratados como culpables»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-21"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "1reyes1-msg-08",
+      "msg": {
+        "en": "Abruptly, while she was telling the king all this, Nathan the prophet came in and was announced: “Nathan the prophet is here.” He came before the king, honoring him by bowing deeply, his face touching the ground.",
+        "es": "Mientras ella hablaba, llegó el profeta Natán. Anunciaron al rey: «Aquí está Natán». Él entró y honró al rey inclinándose rostro en tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-23"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "1reyes1-msg-09",
+      "msg": {
+        "en": "“My master the king,” Nathan began, “did you say, ‘Adonijah shall be king after me and sit on my throne’? Because that’s what’s happening. He’s thrown a huge coronation feast—cattle, grain-fed heifers, sheep—inviting all the king’s sons, the army officers, and Abiathar the priest. They’re having a grand time, eating and drinking and shouting, ‘Long live King Adonijah!’ But I wasn’t invited, nor was the priest Zadok, nor Benaiah son of Jehoiada, nor your servant Solomon. Is this something that my master the king has done behind our backs, not telling your servants who you intended to be king after you?”",
+        "es": "Natán comenzó: «Mi señor el rey, ¿dijiste que Adonías reinaría después de ti? Eso es lo que está ocurriendo. Ha ofrecido un gran banquete e invitó a los hijos del rey, a los oficiales y a Abiatar. Comen, beben y gritan: “¡Viva el rey Adonías!”. Pero no invitó a Sadoc, Benaía, Salomón ni a mí. ¿Has hecho esto sin decir a tus servidores quién debía sucederte?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-27"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "28",
+      "id": "1reyes1-msg-10",
+      "msg": {
+        "en": "King David took action: “Get Bathsheba back in here.” She entered and stood before the king.",
+        "es": "El rey David actuó: «Hagan volver a Betsabé». Ella entró y permaneció delante del rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-28"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "1reyes1-msg-11",
+      "msg": {
+        "en": "The king solemnly promised, “As GOD lives, the God who delivered me from every kind of trouble, I’ll do exactly what I promised in GOD’s name, the God of Israel: Your son Solomon will be king after me and take my place on the throne. And I’ll make sure it happens this very day.”",
+        "es": "El rey prometió solemnemente: «Vive DIOS, quien me libró de toda angustia: cumpliré exactamente lo que prometí en Su nombre. Tu hijo Salomón reinará después de mí y ocupará mi lugar en el trono. Haré que suceda hoy mismo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-30"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "31",
+      "id": "1reyes1-msg-12",
+      "msg": {
+        "en": "Bathsheba bowed low, her face to the ground. Kneeling in reverence before the king she said, “Oh, may my master, King David, live forever!”",
+        "es": "Betsabé se inclinó rostro en tierra y dijo reverentemente: «¡Que mi señor, el rey David, viva para siempre!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-31"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "32",
+      "id": "1reyes1-msg-13",
+      "msg": {
+        "en": "King David said, “Call Zadok the priest, Nathan the prophet, and Benaiah son of Jehoiada.” They came to the king.",
+        "es": "David dijo: «Llamen al sacerdote Sadoc, al profeta Natán y a Benaía hijo de Joiada». Ellos se presentaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-32"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "33-35",
+      "id": "1reyes1-msg-14",
+      "msg": {
+        "en": "Then he ordered, “Gather my servants, then mount my son Solomon on my royal mule and lead him in procession down to Gihon. When you get there, Zadok the priest and Nathan the prophet will anoint him king over Israel. Then blow the ram’s horn trumpet and shout, ‘Long live King Solomon!’ You will then accompany him as he enters and takes his place on my throne, succeeding me as king. I have named him ruler over Israel and Judah.”",
+        "es": "Ordenó: «Reúnan a mis servidores, monten a mi hijo Salomón en mi mula real y llévenlo en procesión a Gihón. Allí Sadoc y Natán lo ungirán rey sobre Israel. Toquen la trompeta y griten: “¡Viva el rey Salomón!”. Después acompáñenlo hasta mi trono. Él me sucederá; lo he nombrado gobernante de Israel y Judá»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-35"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "36-37",
+      "id": "1reyes1-msg-15",
+      "msg": {
+        "en": "Benaiah son of Jehoiada backed the king: “Yes! And may GOD, the God of my master the king, confirm it! Just as GOD has been with my master the king, may he also be with Solomon and make his rule even greater than that of my master King David!”",
+        "es": "Benaía respaldó al rey: «¡Amén! Que DIOS, el Dios de mi señor, lo confirme. Así como estuvo contigo, que esté con Salomón y haga su gobierno aún mayor que el de mi señor David»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-37"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "38-40",
+      "id": "1reyes1-msg-16",
+      "msg": {
+        "en": "Then Zadok the priest, Nathan the prophet, Benaiah son of Jehoiada, and the king’s personal bodyguard (the Kerethites and Pelethites) went down, mounted Solomon on King David’s mule, and paraded with him to Gihon. Zadok the priest brought a flask of oil from the sanctuary and anointed Solomon. They blew the ram’s horn trumpet and everyone shouted, “Long live King Solomon!” Everyone joined the fanfare, the band playing and the people singing, the very earth reverberating to the sound.",
+        "es": "Sadoc, Natán, Benaía y la guardia del rey hicieron montar a Salomón en la mula de David y lo llevaron a Gihón. Sadoc tomó aceite del santuario y lo ungió. Tocaron la trompeta y todos gritaron: «¡Viva el rey Salomón!». El pueblo se unió con música y alegría, y la tierra se estremecía con el sonido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-40"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "41",
+      "id": "1reyes1-msg-17",
+      "msg": {
+        "en": "Adonijah and his retinue of guests were just finishing their “coronation” feast when they heard it. When Joab heard the blast of the ram’s horn trumpet he said, “What’s going on here? What’s all this uproar?”",
+        "es": "Adonías y sus invitados terminaban su «coronación» cuando oyeron el estruendo. Joab escuchó la trompeta y preguntó: «¿Qué sucede? ¿Por qué hay tanto alboroto?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-41"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "42",
+      "id": "1reyes1-msg-18",
+      "msg": {
+        "en": "Suddenly, in the midst of the questioning, Jonathan son of Abiathar the priest, showed up. Adonijah said, “Welcome! A brave and good man like you must have good news.”",
+        "es": "En medio de las preguntas llegó Jonatán hijo del sacerdote Abiatar. Adonías dijo: «¡Bienvenido! Un hombre valiente y bueno como tú debe traer buenas noticias»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-42"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "43-48",
+      "id": "1reyes1-msg-19",
+      "msg": {
+        "en": "But Jonathan answered, “Hardly! Our master King David has just made Solomon king! And the king has surrounded him with Zadok the priest, Nathan the prophet, Benaiah son of Jehoiada, with the Kerethites and Pelethites; and they’ve mounted Solomon on the royal mule. Zadok the priest and Nathan the prophet have anointed him king at Gihon and the parade is headed up this way singing—a great fanfare! The city is rocking! That’s what you’re hearing. Here’s the crowning touch—Solomon is seated on the throne of the kingdom! And that’s not all: The king’s servants have come to give their blessing to our master King David saying, ‘God make Solomon’s name even more honored than yours, and make his rule greater than yours!’ On his deathbed the king worshiped God and prayed, ‘Blessed be GOD, Israel’s God, who has provided a successor to my throne, and I’ve lived to see it!’”",
+        "es": "Jonatán respondió: «¡Todo lo contrario! El rey David acaba de hacer rey a Salomón. Lo envió con Sadoc, Natán, Benaía, los cereteos y peleteos, montado en la mula real. Sadoc y Natán lo ungieron en Gihón y la procesión sube cantando. ¡La ciudad se estremece! Salomón ya está sentado en el trono. Los servidores bendijeron a David pidiendo que Dios engrandezca el nombre y el gobierno de Salomón. El rey adoró y dijo: “Bendito sea DIOS, Dios de Israel, quien me ha dado un sucesor y me permitió verlo”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-48"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "49-50",
+      "id": "1reyes1-msg-20",
+      "msg": {
+        "en": "Panicked, Adonijah’s guests got out of there, scattering every which way. But Adonijah himself, afraid for his life because of Solomon, fled to the sanctuary and grabbed the horns of the Altar.",
+        "es": "Aterrados, los invitados de Adonías huyeron en todas direcciones. Adonías, temiendo por su vida, corrió al santuario y se aferró a los cuernos del altar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-49"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-50"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "51",
+      "id": "1reyes1-msg-21",
+      "msg": {
+        "en": "Solomon was told, “Adonijah, fearful of King Solomon, has taken sanctuary and seized the horns of the Altar and is saying, ‘I’m not leaving until King Solomon promises that he won’t kill me.’”",
+        "es": "Informaron a Salomón: «Adonías teme al rey Salomón. Se ha refugiado y se aferra a los cuernos del altar diciendo que no saldrá hasta que Salomón prometa no matarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-51"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "52-53",
+      "id": "1reyes1-msg-22",
+      "msg": {
+        "en": "Solomon then said, “If he proves to be a man of honor, not a hair of his head will be hurt; but if there is evil in him, he’ll die.” Solomon summoned him and they brought him from the Altar. Adonijah came and bowed down, honoring the king. Solomon dismissed him, “Go home.”",
+        "es": "Salomón dijo: «Si demuestra ser un hombre honorable, ni un cabello de su cabeza será tocado; pero si se encuentra maldad en él, morirá». Lo hicieron bajar del altar. Adonías se inclinó ante el rey y Salomón lo despidió: «Vete a tu casa»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes1-nbla-53"
+        }
+      ],
+      "order": 22
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1reyes1-nbla-01",
+      "number": 1,
+      "text": "El rey David ya era muy anciano, entrado en días; lo cubrían de ropas pero no entraba en calor."
+    },
+    {
+      "id": "1reyes1-nbla-02",
+      "number": 2,
+      "text": "Entonces sus siervos le dijeron: «Que se busque para mi señor el rey una joven virgen para que atienda al rey y sea quien lo cuide; que ella se acueste en su seno, para que mi señor el rey entre en calor»."
+    },
+    {
+      "id": "1reyes1-nbla-03",
+      "number": 3,
+      "text": "Por toda la tierra de Israel se buscó a una joven hermosa, y hallaron a Abisag la sunamita y la trajeron al rey."
+    },
+    {
+      "id": "1reyes1-nbla-04",
+      "number": 4,
+      "text": "La joven era muy hermosa; ella cuidaba al rey y le servía, pero el rey no tuvo relaciones con ella."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-05a",
+          "order": 1,
+          "text": "Entretanto Adonías, hijo de Haguit, se ensalzaba diciendo: «"
+        },
+        {
+          "id": "1reyes1-nbla-05b",
+          "order": 2,
+          "text": "Yo seré rey"
+        },
+        {
+          "id": "1reyes1-nbla-05c",
+          "order": 3,
+          "text": "». Y preparó para sí carros, hombres de a caballo y cincuenta hombres que corrieran delante de él."
+        }
+      ],
+      "id": "1reyes1-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-06a",
+          "order": 1,
+          "text": "Su padre nunca lo había contrariado preguntándole: «¿Por qué has hecho esto?"
+        },
+        {
+          "id": "1reyes1-nbla-06b",
+          "order": 2,
+          "text": "». Él era también hombre de muy hermoso parecer, y había nacido después de Absalón."
+        }
+      ],
+      "id": "1reyes1-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "1reyes1-nbla-07",
+      "number": 7,
+      "text": "Y había consultado con Joab, hijo de Sarvia, y con el sacerdote Abiatar, que respaldaban a Adonías."
+    },
+    {
+      "id": "1reyes1-nbla-08",
+      "number": 8,
+      "text": "Pero el sacerdote Sadoc, Benaía, hijo de Joiada, el profeta Natán, Simei, Rei y los valientes que tenía David, no estaban con Adonías."
+    },
+    {
+      "id": "1reyes1-nbla-09",
+      "number": 9,
+      "text": "Adonías sacrificó ovejas, bueyes y animales cebados junto a la piedra de Zohélet, que está al lado de En Rogel. Invitó a todos sus hermanos, los hijos del rey David, y a todos los hombres de Judá, siervos del rey."
+    },
+    {
+      "id": "1reyes1-nbla-10",
+      "number": 10,
+      "text": "Pero no invitó al profeta Natán, ni a Benaía, ni a los valientes, ni a Salomón su hermano."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-11a",
+          "order": 1,
+          "text": "Entonces Natán habló a Betsabé, madre de Salomón y dijo: «"
+        },
+        {
+          "id": "1reyes1-nbla-11b",
+          "order": 2,
+          "text": "¿No has oído que Adonías, hijo de Haguit, se ha hecho rey y que David nuestro señor no lo sabe?"
+        }
+      ],
+      "id": "1reyes1-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "1reyes1-nbla-12",
+      "number": 12,
+      "text": "Ahora pues, ven, voy a darte un consejo para que salves tu vida y la vida de tu hijo Salomón."
+    },
+    {
+      "id": "1reyes1-nbla-13",
+      "number": 13,
+      "text": "Ve ahora mismo al rey David y dile: “¿No ha jurado usted, oh rey mi señor, a su sierva, diciendo: ‘Ciertamente tu hijo Salomón será rey después de mí y se sentará en mi trono?’. ¿Por qué, pues, se ha hecho rey Adonías?”."
+    },
+    {
+      "id": "1reyes1-nbla-14",
+      "number": 14,
+      "text": "Así que mientras estés aún hablando con el rey, yo entraré tras de ti y confirmaré tus palabras»."
+    },
+    {
+      "id": "1reyes1-nbla-15",
+      "number": 15,
+      "text": "Betsabé vino a ver al rey en la alcoba. El rey ya era muy anciano, y Abisag la sunamita le servía."
+    },
+    {
+      "id": "1reyes1-nbla-16",
+      "number": 16,
+      "text": "Entonces Betsabé se inclinó y se postró ante el rey. Y el rey le preguntó: «¿Qué deseas?»."
+    },
+    {
+      "id": "1reyes1-nbla-17",
+      "number": 17,
+      "text": "Ella le respondió: «Mi señor, usted juró a su sierva por el SEÑOR su Dios: “Ciertamente su hijo Salomón será rey después de mí y se sentará en mi trono”."
+    },
+    {
+      "id": "1reyes1-nbla-18",
+      "number": 18,
+      "text": "Sin embargo, ahora Adonías es rey; y usted, mi señor el rey, hasta ahora no lo sabe."
+    },
+    {
+      "id": "1reyes1-nbla-19",
+      "number": 19,
+      "text": "Él ha sacrificado bueyes, animales cebados y ovejas en abundancia, y ha invitado a todos los hijos del rey, al sacerdote Abiatar y a Joab, jefe del ejército, pero no ha invitado a Salomón su siervo."
+    },
+    {
+      "id": "1reyes1-nbla-20",
+      "number": 20,
+      "text": "En cuanto a usted, mi señor el rey, los ojos de todo Israel están sobre usted, para que les haga saber quién ha de sentarse en el trono de mi señor el rey después de él."
+    },
+    {
+      "id": "1reyes1-nbla-21",
+      "number": 21,
+      "text": "Pues sucederá que en cuanto mi señor el rey duerma con sus padres, yo y mi hijo Salomón seremos tenidos por culpables»."
+    },
+    {
+      "id": "1reyes1-nbla-22",
+      "number": 22,
+      "text": "Sucedió que mientras ella estaba aún hablando con el rey, entró el profeta Natán."
+    },
+    {
+      "id": "1reyes1-nbla-23",
+      "number": 23,
+      "text": "Y le informaron al rey: «Aquí está el profeta Natán». Cuando este entró a la presencia del rey, se postró ante el rey rostro en tierra."
+    },
+    {
+      "id": "1reyes1-nbla-24",
+      "number": 24,
+      "text": "Entonces Natán dijo: «Mi señor el rey, ¿acaso ha dicho usted: “Adonías será rey después de mí y se sentará en mi trono”?"
+    },
+    {
+      "id": "1reyes1-nbla-25",
+      "number": 25,
+      "text": "Porque él ha descendido hoy y ha sacrificado bueyes, animales cebados y ovejas en abundancia, ha invitado a todos los hijos del rey, a los jefes del ejército y al sacerdote Abiatar, y allí están comiendo y bebiendo en su presencia, y gritando: “¡Viva el rey Adonías!”."
+    },
+    {
+      "id": "1reyes1-nbla-26",
+      "number": 26,
+      "text": "Pero ni a mí, su siervo, ni al sacerdote Sadoc, ni a Benaía, hijo de Joiada, ni a su siervo Salomón ha invitado."
+    },
+    {
+      "id": "1reyes1-nbla-27",
+      "number": 27,
+      "text": "¿Ha sido hecho esto por mi señor el rey, y no ha declarado a sus siervos quién había de sentarse en el trono de mi señor el rey después de él?»."
+    },
+    {
+      "id": "1reyes1-nbla-28",
+      "number": 28,
+      "text": "Entonces el rey David respondió: «Llamen a Betsabé». Y ella entró a la presencia del rey, y se puso delante del rey."
+    },
+    {
+      "id": "1reyes1-nbla-29",
+      "number": 29,
+      "text": "Y el rey juró: «Vive el SEÑOR, que ha redimido mi vida de toda angustia,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-30a",
+          "order": 1,
+          "text": "que ciertamente como te juré por el SEÑOR, Dios de Israel: “Tu hijo Salomón será rey después de mí, y él se sentará sobre mi trono en mi lugar”,"
+        },
+        {
+          "id": "1reyes1-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "así lo haré hoy mismo»."
+        }
+      ],
+      "id": "1reyes1-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "1reyes1-nbla-31",
+      "number": 31,
+      "text": "Betsabé se inclinó rostro en tierra, se postró ante el rey y dijo: «Viva para siempre mi señor el rey David»."
+    },
+    {
+      "id": "1reyes1-nbla-32",
+      "number": 32,
+      "text": "Entonces el rey David dijo: «Llamen al sacerdote Sadoc, al profeta Natán y a Benaía, hijo de Joiada». Ellos entraron a la presencia del rey,"
+    },
+    {
+      "id": "1reyes1-nbla-33",
+      "number": 33,
+      "text": "y el rey les dijo: «Tomen con ustedes a los siervos de su señor, hagan montar a mi hijo Salomón en mi propia mula y llévenlo a Gihón."
+    },
+    {
+      "id": "1reyes1-nbla-34",
+      "number": 34,
+      "text": "Que allí el sacerdote Sadoc y el profeta Natán lo unjan como rey sobre Israel; y toquen trompeta y digan: “¡Viva el rey Salomón!”."
+    },
+    {
+      "id": "1reyes1-nbla-35",
+      "number": 35,
+      "text": "Después subirán tras él, y él vendrá, se sentará en mi trono y reinará en mi lugar; porque lo he escogido para que sea príncipe sobre Israel y sobre Judá»."
+    },
+    {
+      "id": "1reyes1-nbla-36",
+      "number": 36,
+      "text": "Y Benaía, hijo de Joiada, respondió al rey: «¡Amén! Así lo diga también el SEÑOR, el Dios de mi señor el rey."
+    },
+    {
+      "id": "1reyes1-nbla-37",
+      "number": 37,
+      "text": "Como el SEÑOR ha estado con mi señor el rey, así esté con Salomón, y haga su trono más grande que el trono de mi señor el rey David»."
+    },
+    {
+      "id": "1reyes1-nbla-38",
+      "number": 38,
+      "text": "Entonces el sacerdote Sadoc, el profeta Natán, Benaía, hijo de Joiada, los cereteos y los peleteos, descendieron e hicieron que Salomón montara en la mula del rey David, y lo llevaron a Gihón."
+    },
+    {
+      "id": "1reyes1-nbla-39",
+      "number": 39,
+      "text": "El sacerdote Sadoc tomó el cuerno de aceite de la tienda y ungió a Salomón. Entonces tocaron trompeta, y todo el pueblo gritó: «¡Viva el rey Salomón!»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-40a",
+          "order": 1,
+          "text": "Luego todo el pueblo subió tras él. El pueblo tocaba flautas y se regocijaba con gran alegría, de modo que"
+        },
+        {
+          "id": "1reyes1-nbla-40b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la tierra se estremecía con su sonido."
+        }
+      ],
+      "id": "1reyes1-nbla-40",
+      "number": 40
+    },
+    {
+      "id": "1reyes1-nbla-41",
+      "number": 41,
+      "text": "Y lo oyó Adonías y todos los invitados que estaban con él cuando habían terminado de comer. Al oír Joab el sonido de la trompeta, dijo: «¿Por qué hace la ciudad tal alboroto?»."
+    },
+    {
+      "id": "1reyes1-nbla-42",
+      "number": 42,
+      "text": "Estaba aún hablando, cuando llegó Jonatán, hijo del sacerdote Abiatar. Y Adonías le dijo: «Entra, pues tú eres hombre valiente y traerás buenas noticias»."
+    },
+    {
+      "id": "1reyes1-nbla-43",
+      "number": 43,
+      "text": "Pero Jonatán respondió a Adonías: «Al contrario. Nuestro señor el rey David ha hecho rey a Salomón."
+    },
+    {
+      "id": "1reyes1-nbla-44",
+      "number": 44,
+      "text": "El rey también ha enviado con él al sacerdote Sadoc, al profeta Natán, a Benaía, hijo de Joiada, a los cereteos y a los peleteos, y ellos lo han montado en la mula del rey."
+    },
+    {
+      "id": "1reyes1-nbla-45",
+      "number": 45,
+      "text": "Y el sacerdote Sadoc y el profeta Natán lo han ungido rey en Gihón, y de allí han subido gozosos y se ha alborotado la ciudad. Este es el ruido que han oído."
+    },
+    {
+      "id": "1reyes1-nbla-46",
+      "number": 46,
+      "text": "Además, Salomón ya se ha sentado en el trono del reino,"
+    },
+    {
+      "id": "1reyes1-nbla-47",
+      "number": 47,
+      "text": "y aun los siervos del rey han ido a bendecir a nuestro señor el rey David, diciéndole: “Que su Dios haga el nombre de Salomón más célebre que su nombre y su trono más grande que el trono de usted”. Y el rey ha adorado en el lecho."
+    },
+    {
+      "id": "1reyes1-nbla-48",
+      "number": 48,
+      "text": "El rey también ha dicho así: “Bendito sea el SEÑOR, Dios de Israel, que ha concedido que se siente hoy en mi trono un descendiente mío mientras mis ojos lo ven”»."
+    },
+    {
+      "id": "1reyes1-nbla-49",
+      "number": 49,
+      "text": "Entonces todos los invitados de Adonías se aterrorizaron, y se levantaron y cada uno se fue por su camino."
+    },
+    {
+      "id": "1reyes1-nbla-50",
+      "number": 50,
+      "text": "Adonías tuvo miedo de Salomón, y se levantó, se fue y se agarró de los cuernos del altar."
+    },
+    {
+      "id": "1reyes1-nbla-51",
+      "number": 51,
+      "text": "Y avisaron a Salomón, diciéndole: «Adonías tiene miedo del rey Salomón, y se ha asido de los cuernos del altar, diciendo: “Que el rey Salomón me jure hoy que no matará a espada a su siervo”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes1-nbla-52a",
+          "order": 1,
+          "text": "Y Salomón dijo: «"
+        },
+        {
+          "id": "1reyes1-nbla-52b",
+          "order": 2,
+          "text": "Si es hombre digno, ni uno de sus cabellos caerá en tierra"
+        },
+        {
+          "id": "1reyes1-nbla-52c",
+          "order": 3,
+          "text": "; pero si se halla maldad en él, morirá»."
+        }
+      ],
+      "id": "1reyes1-nbla-52",
+      "number": 52
+    },
+    {
+      "id": "1reyes1-nbla-53",
+      "number": 53,
+      "text": "Entonces el rey Salomón envió que lo hicieran descender del altar. Y él vino y se postró ante el rey Salomón, y Salomón le dijo: «Vete a tu casa»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

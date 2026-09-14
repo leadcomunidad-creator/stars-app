@@ -1,0 +1,703 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El arrepentimiento incompleto conserva aquello que finalmente gobierna la vida. NBLA fija que Joram no se apartó de los pecados de Jeroboam y MSG vuelve visible su resistencia voluntaria. Quitar el pilar de Baal importa, pero no reemplaza la renuncia a un sistema que sigue alejando a Israel del Señor.",
+      "id": "2reyes3-joya-01",
+      "msg": {
+        "en": "“He wasn’t about to give them up.”",
+        "es": "«No estaba dispuesto a abandonarlas»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-03b"
+          ],
+          "verseId": "2reyes3-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Los recursos de tres reinos no pueden sostener la vida más elemental. NBLA incluye al ejército y a los animales en la necesidad; MSG concentra el momento en el agotamiento total. La crisis descubre el límite de una alianza formada y movilizada antes de buscar dirección divina.",
+      "id": "2reyes3-joya-02",
+      "msg": {
+        "en": "“they had run out of water”",
+        "es": "«se quedaron sin agua»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-09b"
+          ],
+          "verseId": "2reyes3-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "9"
+    },
+    {
+      "explanation": "Joram usa el nombre de Dios para atribuirle el desastre de una campaña no consultada. Ambas versiones conservan su acusación, pero el contexto no la confirma como palabra profética. El lenguaje religioso puede servir para evadir responsabilidad cuando interpreta la consecuencia antes de examinar la decisión.",
+      "id": "2reyes3-joya-03",
+      "msg": {
+        "en": "“GOD has gotten us three kings out here”",
+        "es": "«DIOS nos ha traído hasta aquí a los tres reyes»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-10b"
+          ],
+          "verseId": "2reyes3-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10"
+    },
+    {
+      "explanation": "La crisis vuelve necesaria una voz que los planes dejaron fuera. NBLA declara el propósito de consultar al Señor por medio del profeta y MSG comunica la urgencia de buscarlo cerca. Josafat formula la pregunta correcta, aunque demasiado tarde para presentar su proceso como modelo de discernimiento previo.",
+      "id": "2reyes3-joya-04",
+      "msg": {
+        "en": "“Isn’t there a prophet of GOD anywhere around”",
+        "es": "«¿No hay por aquí algún profeta de DIOS»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-11b"
+          ],
+          "verseId": "2reyes3-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11"
+    },
+    {
+      "explanation": "La autoridad de Eliseo nace de permanecer delante del Señor. NBLA conserva la fórmula profética de presencia y MSG explicita su postura de servicio. El profeta puede hablar con libertad ante tres reyes porque no recibe de ellos su identidad, su palabra ni su comisión.",
+      "id": "2reyes3-joya-05",
+      "msg": {
+        "en": "“before whom I stand ready to serve”",
+        "es": "«delante de quien estoy listo para servir»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-14b"
+          ],
+          "verseId": "2reyes3-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14-15"
+    },
+    {
+      "explanation": "La provisión de Dios no queda limitada a las señales que los reyes saben reconocer. NBLA fija la ausencia de viento y lluvia visibles; MSG conserva la tensión sensorial antes de prometer el valle lleno. Cavar zanjas expresa obediencia a la palabra, no una técnica para producir milagros.",
+      "id": "2reyes3-joya-06",
+      "msg": {
+        "en": "“you won’t hear the wind, you won’t see the rain”",
+        "es": "«No oirán el viento ni verán la lluvia»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-17b"
+          ],
+          "verseId": "2reyes3-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "16-19"
+    },
+    {
+      "explanation": "Dios cumple la provisión anunciada y utiliza una corriente que llega desde el territorio recorrido. NBLA identifica el camino del agua y MSG subraya que ya estaba presente al amanecer. La gracia precede la capacidad del ejército para explicar, fabricar o merecer lo recibido.",
+      "id": "2reyes3-joya-07",
+      "msg": {
+        "en": "“the water had arrived”",
+        "es": "«el agua había llegado»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-20b"
+          ],
+          "verseId": "2reyes3-nbla-20"
+        }
+      ],
+      "order": 7,
+      "range": "20"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 3,
+    "studyId": "2reyes-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "2reyes3-msg-01",
+      "msg": {
+        "en": "Joram son of Ahab began his rule over Israel in Samaria in the eighteenth year of Jehoshaphat king of Judah. He was king for twelve years. In GOD’s sight he was a bad king. But he wasn’t as bad as his father and mother—to his credit he destroyed the obscene Baal stone that his father had made. But he hung on to the sinful practices of Jeroboam son of Nebat, the ones that had corrupted Israel for so long. He wasn’t about to give them up.",
+        "es": "Joram hijo de Acab comenzó a gobernar Israel desde Samaria durante el año dieciocho de Josafat, rey de Judá. Reinó doce años. A los ojos de DIOS fue un mal rey, aunque no tan malo como su padre y su madre. Hay que reconocer que destruyó la repugnante piedra de Baal que su padre había levantado. Sin embargo, se aferró a las prácticas pecaminosas de Jeroboam hijo de Nabat, las mismas que habían corrompido a Israel durante tanto tiempo. No estaba dispuesto a abandonarlas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "2reyes3-msg-02",
+      "msg": {
+        "en": "King Mesha of Moab raised sheep. He was forced to give the king of Israel 100,000 lambs and another 100,000 rams. When Ahab died, the king of Moab rebelled against the king of Israel. So King Joram set out from Samaria and prepared Israel for war. His first move was to send a message to Jehoshaphat king of Judah: “The king of Moab has rebelled against me. Would you join me and fight him?”",
+        "es": "Mesa, rey de Moab, criaba ovejas. Estaba obligado a entregar al rey de Israel 100,000 corderos y otros 100,000 carneros. Cuando Acab murió, el rey de Moab se rebeló contra el rey de Israel. Entonces el rey Joram salió de Samaria y preparó a Israel para la guerra. Su primera acción fue enviar un mensaje a Josafat, rey de Judá: «El rey de Moab se ha rebelado contra mí. ¿Te unirías a mí para pelear contra él?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-06"
+        },
+        {
+          "clauseIds": [
+            "2reyes3-nbla-07a"
+          ],
+          "verseId": "2reyes3-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "2reyes3-msg-03",
+      "msg": {
+        "en": "“I’m with you all the way,” said Jehoshaphat. “My troops are your troops, my horses are your horses. Which route shall we take?”\n“Through the badlands of Edom.”",
+        "es": "«Cuenta conmigo hasta el final», respondió Josafat. «Mis tropas son tus tropas y mis caballos son tus caballos. ¿Qué camino tomaremos?».\n«Atravesaremos las tierras desoladas de Edom»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes3-nbla-07b"
+          ],
+          "verseId": "2reyes3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9",
+      "id": "2reyes3-msg-04",
+      "msg": {
+        "en": "The king of Israel, the king of Judah, and the king of Edom started out on what proved to be a looping detour. After seven days they had run out of water for both army and animals.",
+        "es": "El rey de Israel, el rey de Judá y el rey de Edom emprendieron lo que terminó siendo un largo rodeo. Después de siete días se quedaron sin agua para el ejército y para los animales."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10",
+      "id": "2reyes3-msg-05",
+      "msg": {
+        "en": "The king of Israel said, “Bad news! GOD has gotten us three kings out here to dump us into the hand of Moab.”",
+        "es": "El rey de Israel dijo: «¡Malas noticias! DIOS nos ha traído hasta aquí a los tres reyes para entregarnos en manos de Moab»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "2reyes3-msg-06",
+      "msg": {
+        "en": "But Jehoshaphat said, “Isn’t there a prophet of GOD anywhere around through whom we can consult GOD?”\nOne of the servants of the king of Israel said, “Elisha son of Shaphat is around somewhere—the one who was Elijah’s right-hand man.”",
+        "es": "Pero Josafat preguntó: «¿No hay por aquí algún profeta de DIOS por medio de quien podamos consultar a DIOS?».\nUno de los siervos del rey de Israel respondió: «Eliseo hijo de Safat debe estar cerca; él era la mano derecha de Elías»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12",
+      "id": "2reyes3-msg-07",
+      "msg": {
+        "en": "Jehoshaphat said, “Good! A man we can trust!” So the three of them—the king of Israel, Jehoshaphat, and the king of Edom—went to meet him.",
+        "es": "Josafat dijo: «¡Bien! ¡Es un hombre en quien podemos confiar!». Entonces los tres —el rey de Israel, Josafat y el rey de Edom— fueron a encontrarse con él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "2reyes3-msg-08",
+      "msg": {
+        "en": "Elisha addressed the king of Israel, “What do you and I have in common? Go consult the puppet-prophets of your father and mother.”\n“Never!” said the king of Israel. “It’s GOD who has gotten us into this fix, dumping all three of us kings into the hand of Moab.”",
+        "es": "Eliseo se dirigió al rey de Israel: «¿Qué tenemos tú y yo en común? Ve a consultar a los profetas títeres de tu padre y de tu madre».\n«¡De ninguna manera!», respondió el rey de Israel. «Fue DIOS quien nos metió en este aprieto para entregar a los tres reyes en manos de Moab»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "2reyes3-msg-09",
+      "msg": {
+        "en": "Elisha said, “As GOD-of-the-Angel-Armies lives, and before whom I stand ready to serve, if it weren’t for the respect I have for Jehoshaphat king of Judah, I wouldn’t give you the time of day. But considering—bring me a minstrel.” (When a minstrel played, the power of GOD came on Elisha.)",
+        "es": "Eliseo dijo: «Tan cierto como vive el DIOS de los Ejércitos de Ángeles, delante de quien estoy listo para servir, si no fuera por el respeto que tengo por Josafat, rey de Judá, ni siquiera te prestaría atención. Pero, dadas las circunstancias, tráiganme un músico». Mientras el músico tocaba, el poder de DIOS vino sobre Eliseo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "2reyes3-msg-10",
+      "msg": {
+        "en": "He then said, “GOD’s word: Dig ditches all over this valley. Here’s what will happen—you won’t hear the wind, you won’t see the rain, but this valley is going to fill up with water and your army and your animals will drink their fill. This is easy for GOD to do; he will also hand over Moab to you. You will ravage the country: Knock out its fortifications, level the key villages, clear-cut the orchards, clog the springs, and litter the cultivated fields with stones.”",
+        "es": "Entonces dijo: «Esta es la palabra de DIOS: Abran zanjas por todo este valle. Esto es lo que sucederá: No oirán el viento ni verán la lluvia, pero este valle va a llenarse de agua, y su ejército y sus animales beberán hasta saciarse. Esto es fácil para DIOS; también entregará a Moab en sus manos. Devastarán el territorio: derribarán sus fortificaciones, arrasarán las poblaciones principales, talarán los huertos, cegarán los manantiales y cubrirán de piedras los campos cultivados»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-19"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "20",
+      "id": "2reyes3-msg-11",
+      "msg": {
+        "en": "In the morning—it was at the hour of morning sacrifice—the water had arrived, water pouring in from the west, from Edom, a flash flood filling the valley with water.",
+        "es": "Por la mañana —justo a la hora del sacrificio matutino— el agua había llegado. Una corriente bajaba desde el occidente, desde Edom, y una crecida repentina llenaba de agua el valle."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "2reyes3-msg-12",
+      "msg": {
+        "en": "By this time everyone in Moab had heard that the kings had come up to make war against them. Everyone who was able to handle a sword was called into service and took a stand at the border. They were up and ready early in the morning when the sun rose over the water. From where the Moabites stood, the water reflecting the sun looked red, like blood.",
+        "es": "Para entonces, todos en Moab se habían enterado de que los reyes habían subido para hacerles la guerra. Todo el que podía empuñar una espada fue llamado al servicio y tomó posición en la frontera. Estaban levantados y listos desde muy temprano cuando el sol salió sobre el agua. Desde donde se encontraban los moabitas, el agua que reflejaba el sol se veía roja como la sangre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23",
+      "id": "2reyes3-msg-13",
+      "msg": {
+        "en": "“Blood! Look at the blood!” they said. “The kings must have fought each other—a bloody massacre! Go for the loot, Moab!”",
+        "es": "«¡Sangre! ¡Miren la sangre!», dijeron. «Los reyes deben haber peleado entre ellos; ¡fue una masacre sangrienta! ¡Vamos por el botín, Moab!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-23"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "2reyes3-msg-14",
+      "msg": {
+        "en": "When Moab entered the camp of Israel, the Israelites were up on their feet killing Moabites right and left, the Moabites running for their lives, Israelites relentless in pursuit—a slaughter. They leveled the towns, littered the cultivated fields with rocks, clogged the springs, and clear-cut the orchards. Only the capital, Kir Hareseth, was left intact, and that not for long; it too was surrounded and attacked with thrown and flung rocks.",
+        "es": "Cuando Moab entró en el campamento de Israel, los israelitas ya estaban en pie, matando moabitas a diestra y siniestra. Los moabitas corrían para salvar la vida, mientras Israel los perseguía sin descanso: fue una matanza. Arrasaron las poblaciones, cubrieron de piedras los campos cultivados, cegaron los manantiales y talaron los huertos. Solo quedó intacta la capital, Kir Hareset, y no por mucho tiempo: también fue rodeada y atacada con piedras lanzadas por los honderos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "2reyes3-msg-15",
+      "msg": {
+        "en": "When the king of Moab realized that he was fighting a losing battle, he took seven hundred swordsmen to hack a corridor past the king of Edom, but they didn’t make it. Then he took his son, his firstborn who would succeed him as king, and sacrificed him on the city wall. That set off furious anger against Israel. Israel pulled back and returned home.",
+        "es": "Cuando el rey de Moab comprendió que estaba perdiendo la batalla, tomó setecientos hombres armados con espada para abrirse paso por la fuerza junto al rey de Edom, pero no lo lograron. Entonces tomó a su hijo, el primogénito que lo sucedería como rey, y lo sacrificó sobre la muralla de la ciudad. Aquello desató una ira feroz contra Israel. Israel se retiró y regresó a su tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes3-nbla-27"
+        }
+      ],
+      "order": 15
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes3-nbla-01",
+      "number": 1,
+      "text": "Joram, hijo de Acab, comenzó a reinar sobre Israel en Samaria en el año dieciocho de Josafat, rey de Judá; y reinó doce años."
+    },
+    {
+      "id": "2reyes3-nbla-02",
+      "number": 2,
+      "text": "Hizo lo malo ante los ojos del SEÑOR, aunque no como su padre y su madre, pues quitó el pilar sagrado de Baal que su padre había hecho."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-03a",
+          "order": 1,
+          "text": "Sin embargo, se aferró a los pecados de Jeroboam, hijo de Nabat, con los que hizo pecar a Israel, y"
+        },
+        {
+          "id": "2reyes3-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no se apartó de ellos."
+        }
+      ],
+      "id": "2reyes3-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "2reyes3-nbla-04",
+      "number": 4,
+      "text": "Y Mesa, rey de Moab, era criador de ovejas, y pagaba al rey de Israel 100,000 corderos y la lana de 100,000 carneros."
+    },
+    {
+      "id": "2reyes3-nbla-05",
+      "number": 5,
+      "text": "Pero cuando Acab murió, el rey de Moab se rebeló contra el rey de Israel."
+    },
+    {
+      "id": "2reyes3-nbla-06",
+      "number": 6,
+      "text": "Y aquel mismo día el rey Joram salió de Samaria y alistó a todo Israel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-07a",
+          "order": 1,
+          "text": "Y fue y envió palabra a Josafat, rey de Judá, diciendo: «El rey de Moab se ha rebelado contra mí. ¿Irás conmigo a pelear contra Moab?»."
+        },
+        {
+          "id": "2reyes3-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y él respondió: «Subiré. Yo soy como tú, mi pueblo como tu pueblo, mis caballos como tus caballos»."
+        }
+      ],
+      "id": "2reyes3-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "2reyes3-nbla-08",
+      "number": 8,
+      "text": "Y le preguntó: «¿Por qué camino subiremos?». Y Joram respondió: «Por el camino del desierto de Edom»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-09a",
+          "order": 1,
+          "text": "Entonces el rey de Israel fue con el rey de Judá y el rey de Edom; y después de dar un rodeo de siete días de camino,"
+        },
+        {
+          "id": "2reyes3-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no había agua para el ejército ni para los animales"
+        },
+        {
+          "id": "2reyes3-nbla-09c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "que los seguían."
+        }
+      ],
+      "id": "2reyes3-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-10a",
+          "order": 1,
+          "text": "Así que el rey de Israel dijo: «¡Ah! Porque"
+        },
+        {
+          "id": "2reyes3-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR ha llamado a estos tres reyes"
+        },
+        {
+          "id": "2reyes3-nbla-10c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para entregarlos en manos de Moab»."
+        }
+      ],
+      "id": "2reyes3-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-11a",
+          "order": 1,
+          "text": "Pero Josafat dijo: «"
+        },
+        {
+          "id": "2reyes3-nbla-11b",
+          "order": 2,
+          "text": "¿No hay aquí un profeta del SEÑOR"
+        },
+        {
+          "id": "2reyes3-nbla-11c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para que consultemos al SEÑOR por medio de él?». Y uno de los siervos del rey de Israel respondió: «Aquí está Eliseo, hijo de Safat, el que vertía agua en las manos de Elías»."
+        }
+      ],
+      "id": "2reyes3-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "2reyes3-nbla-12",
+      "number": 12,
+      "text": "Y Josafat dijo: «La palabra del SEÑOR está con él». Así que el rey de Israel y Josafat y el rey de Edom fueron adonde estaba Eliseo."
+    },
+    {
+      "id": "2reyes3-nbla-13",
+      "number": 13,
+      "text": "Entonces Eliseo dijo al rey de Israel: «¿Qué tengo que ver con usted? Vaya a los profetas de su padre y a los profetas de su madre». Y el rey de Israel le dijo: «No, porque el SEÑOR ha llamado a estos tres reyes para entregarlos en mano de Moab»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-14a",
+          "order": 1,
+          "text": "Y Eliseo dijo: «Vive el SEÑOR de los ejércitos,"
+        },
+        {
+          "id": "2reyes3-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ante quien estoy"
+        },
+        {
+          "id": "2reyes3-nbla-14c",
+          "order": 3,
+          "text": ", que si no fuera por respeto a la presencia de Josafat, rey de Judá, no lo miraría ni lo atendería."
+        }
+      ],
+      "id": "2reyes3-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2reyes3-nbla-15",
+      "number": 15,
+      "text": "Pero tráiganme ahora un músico».\nY sucedió que mientras el músico tocaba, la mano del SEÑOR vino sobre Eliseo,"
+    },
+    {
+      "id": "2reyes3-nbla-16",
+      "number": 16,
+      "text": "y él dijo: «Así dice el SEÑOR: “Hagan en este valle muchas zanjas”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-17a",
+          "order": 1,
+          "text": "Pues así dice el SEÑOR: “"
+        },
+        {
+          "id": "2reyes3-nbla-17b",
+          "order": 2,
+          "text": "No verán viento, ni verán lluvias"
+        },
+        {
+          "id": "2reyes3-nbla-17c",
+          "order": 3,
+          "text": "; sin embargo ese valle se llenará de agua, y beberán ustedes y sus ganados y sus bestias."
+        }
+      ],
+      "id": "2reyes3-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "2reyes3-nbla-18",
+      "number": 18,
+      "text": "Aun esto es poco ante los ojos del SEÑOR; también entregará en manos de ustedes a los moabitas."
+    },
+    {
+      "id": "2reyes3-nbla-19",
+      "number": 19,
+      "text": "Ustedes destruirán toda ciudad fortificada y toda ciudad principal, talarán todo árbol bueno, cegarán todas las fuentes de agua y dañarán con piedras todo terreno fértil”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes3-nbla-20a",
+          "order": 1,
+          "text": "Y aconteció que por la mañana, a la hora de ofrecer el sacrificio,"
+        },
+        {
+          "id": "2reyes3-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el agua vino por el camino de Edom"
+        },
+        {
+          "id": "2reyes3-nbla-20c",
+          "order": 3,
+          "text": ", y la tierra se llenó de agua."
+        }
+      ],
+      "id": "2reyes3-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "2reyes3-nbla-21",
+      "number": 21,
+      "text": "Y todos los moabitas oyeron que los reyes habían subido a pelear contra ellos. Y convocaron a todos, desde los que podían ponerse armadura en adelante, y se colocaron en la frontera."
+    },
+    {
+      "id": "2reyes3-nbla-22",
+      "number": 22,
+      "text": "Se levantaron muy de mañana, y cuando el sol brilló sobre el agua, los moabitas vieron el agua frente a ellos tan roja como la sangre."
+    },
+    {
+      "id": "2reyes3-nbla-23",
+      "number": 23,
+      "text": "Entonces dijeron: «Esto es sangre; sin duda los reyes han peleado entre sí, y se han matado unos a otros. Ahora pues, ¡Moab, al despojo!»."
+    },
+    {
+      "id": "2reyes3-nbla-24",
+      "number": 24,
+      "text": "Pero cuando llegaron al campamento de Israel, los israelitas se levantaron e hirieron a los moabitas, y estos huyeron delante de ellos; y los israelitas invadieron el país matando a los moabitas."
+    },
+    {
+      "id": "2reyes3-nbla-25",
+      "number": 25,
+      "text": "Destruyeron las ciudades, y cada uno arrojó su piedra en toda parcela de tierra buena, y las llenaron. Cegaron todas las fuentes de agua y talaron todos los árboles buenos, hasta dejar en Kir Hareset solo sus piedras; no obstante, los honderos la rodearon y la destruyeron."
+    },
+    {
+      "id": "2reyes3-nbla-26",
+      "number": 26,
+      "text": "Al ver el rey de Moab que la batalla arreciaba contra él, tomó consigo 700 hombres que sacaban espada, para abrir brecha hacia el rey de Edom, pero no pudieron."
+    },
+    {
+      "id": "2reyes3-nbla-27",
+      "number": 27,
+      "text": "Entonces tomó a su hijo primogénito que había de reinar en su lugar, y lo ofreció en holocausto sobre la muralla. Y hubo gran ira contra los israelitas, quienes se apartaron de allí y regresaron a su tierra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

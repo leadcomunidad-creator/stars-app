@@ -1,0 +1,653 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La respuesta es sorprendente porque Joacaz continúa dentro del pecado de Jeroboam. Dios escucha y ve la opresión. Su misericordia precede a una reforma completa, pero el resto del bloque advierte que el alivio recibido no transformó la vida del pueblo.",
+      "id": "2reyes13-joya-01",
+      "msg": {
+        "en": "“GOD listened.”",
+        "es": "«DIOS escuchó»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-04b"
+          ],
+          "verseId": "2reyes13-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4-6"
+    },
+    {
+      "explanation": "El texto no identifica al libertador, por lo que la atención permanece en el Dador. Israel no produce su rescate desde un ejército devastado. Dios abre espacio para volver a los hogares, aunque esa libertad debería haber conducido al arrepentimiento.",
+      "id": "2reyes13-joya-02",
+      "msg": {
+        "en": "“GOD provided a savior for Israel”",
+        "es": "«DIOS proporcionó un libertador»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-05b"
+          ],
+          "verseId": "2reyes13-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-6"
+    },
+    {
+      "explanation": "El rey reconoce en Eliseo una defensa más decisiva que las fuerzas militares. La frase repite el clamor de Eliseo por Elías. Ahora el profeta que recibió el manto llega a su propia muerte, y otro debe aprender a depender del Dios que habló por medio de él.",
+      "id": "2reyes13-joya-03",
+      "msg": {
+        "en": "“My father, my father! Chariot and horsemen of Israel!”",
+        "es": "«¡Padre mío, padre mío! ¡Carro y jinetes de Israel!»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-14b"
+          ],
+          "verseId": "2reyes13-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "Eliseo interpreta el disparo como señal de una victoria que pertenece al Señor. La flecha no contiene poder mágico. Dios usará la acción militar de Joás, pero el origen de la liberación está en Su palabra y no en la destreza del rey.",
+      "id": "2reyes13-joya-04",
+      "msg": {
+        "en": "“The arrow of GOD’s salvation!”",
+        "es": "«¡La flecha de la salvación de DIOS!»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-17b"
+          ],
+          "verseId": "2reyes13-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "17"
+    },
+    {
+      "explanation": "El texto registra la detención sin explicar su motivo. No hace falta inventar miedo, pereza o incredulidad específicos. La respuesta resulta menor que la posibilidad ofrecida y establece el límite simbólico de las victorias futuras.",
+      "id": "2reyes13-joya-05",
+      "msg": {
+        "en": "“The king struck the ground three times and then quit.”",
+        "es": "«El rey golpeó el suelo tres veces y se detuvo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-18b"
+          ],
+          "verseId": "2reyes13-nbla-18"
+        }
+      ],
+      "order": 5,
+      "range": "18"
+    },
+    {
+      "explanation": "La muerte es revertida de manera inesperada. Nadie realiza un rito ni busca una reliquia. La señal confirma que el Dios de Eliseo sigue vivo y que Su capacidad para dar vida supera la muerte de Sus mensajeros.",
+      "id": "2reyes13-joya-06",
+      "msg": {
+        "en": "“the man came alive, stood up, and walked out on his own two feet.”",
+        "es": "«el hombre volvió a la vida, se puso de pie y salió caminando por sus propios medios»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-21b"
+          ],
+          "verseId": "2reyes13-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "20-21"
+    },
+    {
+      "explanation": "La preservación se explica por el carácter de Dios y Su pacto, no por la calidad de los reyes. Gracia, piedad y compasión mantienen al pueblo en Su presencia mientras la disciplina continúa y el llamado al arrepentimiento permanece abierto.",
+      "id": "2reyes13-joya-07",
+      "msg": {
+        "en": "“GOD was gracious and showed mercy to them.”",
+        "es": "«DIOS fue bondadoso y tuvo misericordia de ellos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes13-nbla-23b"
+          ],
+          "verseId": "2reyes13-nbla-23"
+        }
+      ],
+      "order": 7,
+      "range": "22-24"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 13,
+    "studyId": "2reyes-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "2reyes13-msg-01",
+      "msg": {
+        "en": "In the twenty-third year of Joash son of Ahaziah king of Judah, Jehoahaz son of Jehu became king of Israel in Samaria—a rule of seventeen years. He lived an evil life before GOD, walking step for step in the tracks of Jeroboam son of Nebat who led Israel into a life of sin, swerving neither left or right. Exasperated, GOD was furious with Israel and turned them over to Hazael king of Aram and Ben-Hadad son of Hazael. This domination went on for a long time.",
+        "es": "En el año veintitrés de Joás hijo de Ocozías, rey de Judá, Joacaz hijo de Jehú comenzó a reinar en Israel desde Samaria durante diecisiete años. Vivió una vida mala delante de DIOS, siguiendo paso a paso las huellas de Jeroboam hijo de Nabat, quien condujo a Israel al pecado, sin apartarse a derecha ni izquierda. Exasperado, DIOS se indignó con Israel y los entregó a Hazael, rey de Aram, y a Ben Adad, hijo de Hazael. Este dominio duró mucho tiempo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "2reyes13-msg-02",
+      "msg": {
+        "en": "Then Jehoahaz prayed for a softening of GOD’s anger, and GOD listened. He realized how wretched Israel had become under the brutalities of the king of Aram. So GOD provided a savior for Israel who brought them out from under Aram’s oppression. The children of Israel were again able to live at peace in their own homes. But it didn’t make any difference: They didn’t change their lives, didn’t turn away from the Jeroboam-sins that now characterized Israel, including the sex-and-religion shrines of Asherah still flourishing in Samaria.",
+        "es": "Entonces Joacaz oró pidiendo que se suavizara la ira de DIOS, y DIOS escuchó. Vio cuán miserable se había vuelto Israel bajo las brutalidades del rey de Aram. Así que DIOS proporcionó un libertador que los sacó de la opresión aramea. Los israelitas pudieron volver a vivir en paz en sus hogares. Pero aquello no produjo diferencia: no cambiaron su manera de vivir ni se apartaron de los pecados de Jeroboam que caracterizaban a Israel, y el santuario de Asera todavía permanecía en Samaria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7",
+      "id": "2reyes13-msg-03",
+      "msg": {
+        "en": "Nothing was left of Jehoahaz’s army after Hazael’s oppression except for fifty cavalry, ten chariots, and ten thousand infantry. The king of Aram had decimated the rest, leaving behind him mostly chaff.",
+        "es": "Después de la opresión de Hazael, del ejército de Joacaz solo quedaban cincuenta jinetes, diez carros y diez mil soldados de infantería. El rey de Aram había destruido el resto, dejándolo como paja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "2reyes13-msg-04",
+      "msg": {
+        "en": "The rest of the life and times of Jehoahaz, the record of his accomplishments, are written in The Chronicles of the Kings of Israel. Jehoahaz died and was buried with his ancestors in Samaria. His son Jehoash succeeded him as king.",
+        "es": "El resto de la vida y los tiempos de Joacaz, el registro de sus logros, está escrito en las Crónicas de los reyes de Israel. Joacaz murió y fue sepultado con sus antepasados en Samaria. Su hijo Joás lo sucedió como rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "2reyes13-msg-05",
+      "msg": {
+        "en": "In the thirty-seventh year of Joash king of Judah, Jehoash son of Jehoahaz became king of Israel in Samaria—a reign of sixteen years. In GOD’s eyes he lived an evil life. He didn’t deviate one bit from the sins of Jeroboam son of Nebat, who led Israel into a life of sin. He plodded along in the same tracks, step after step.",
+        "es": "En el año treinta y siete de Joás, rey de Judá, Joás hijo de Joacaz comenzó a reinar en Israel desde Samaria durante dieciséis años. Ante los ojos de DIOS vivió una vida mala. No se apartó en absoluto de los pecados de Jeroboam hijo de Nabat, quien condujo a Israel al pecado. Continuó por las mismas huellas, paso tras paso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-11"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "2reyes13-msg-06",
+      "msg": {
+        "en": "The rest of the life and times of Jehoash, the record of his accomplishments and his war against Amaziah king of Judah, are written in The Chronicles of the Kings of Israel. Jehoash died and joined his ancestors. Jeroboam took over his throne. Jehoash was buried in Samaria in the royal cemetery.",
+        "es": "El resto de la vida y los tiempos de Joás, el registro de sus logros y de su guerra contra Amasías, rey de Judá, está escrito en las Crónicas de los reyes de Israel. Joás murió y se reunió con sus antepasados. Jeroboam ocupó su trono, y Joás fue sepultado en Samaria, en el cementerio real."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14",
+      "id": "2reyes13-msg-07",
+      "msg": {
+        "en": "Elisha came down sick. It was the sickness of which he would soon die. Jehoash king of Israel paid him a visit. When he saw him he wept openly, crying, “My father, my father! Chariot and horsemen of Israel!”",
+        "es": "Eliseo enfermó de la enfermedad por la cual pronto moriría. Joás, rey de Israel, fue a visitarlo. Cuando lo vio, lloró abiertamente y exclamó: «¡Padre mío, padre mío! ¡Carro y jinetes de Israel!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-14"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "15",
+      "id": "2reyes13-msg-08",
+      "msg": {
+        "en": "Elisha told him, “Go and get a bow and some arrows.” The king brought him the bow and arrows.",
+        "es": "Eliseo le dijo: «Ve y trae un arco y algunas flechas». El rey le llevó el arco y las flechas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16",
+      "id": "2reyes13-msg-09",
+      "msg": {
+        "en": "Then he told the king, “Put your hand on the bow.” He put his hand on the bow. Then Elisha put his hand over the hand of the king.",
+        "es": "Luego dijo al rey: «Pon tu mano sobre el arco». Él puso la mano sobre el arco, y Eliseo colocó su mano sobre la mano del rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17",
+      "id": "2reyes13-msg-10",
+      "msg": {
+        "en": "Elisha said, “Now open the east window.” He opened it.\nThen he said, “Shoot!” And he shot.\n“The arrow of GOD’s salvation!” exclaimed Elisha. “The arrow of deliverance from Aram! You will do battle against Aram until there’s nothing left of it.”",
+        "es": "Eliseo dijo: «Ahora abre la ventana que mira al oriente». Él la abrió.\nLuego dijo: «¡Dispara!». Y el rey disparó.\n«¡La flecha de la salvación de DIOS!», exclamó Eliseo. «¡La flecha de liberación contra Aram! Combatirás contra Aram hasta acabar con él»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18",
+      "id": "2reyes13-msg-11",
+      "msg": {
+        "en": "“Now pick up the other arrows,” said Elisha. He picked them up.\nThen he said to the king of Israel, “Strike the ground.”\nThe king struck the ground three times and then quit.",
+        "es": "«Ahora toma las otras flechas», dijo Eliseo. El rey las tomó.\nEntonces dijo al rey de Israel: «Golpea el suelo».\nEl rey golpeó el suelo tres veces y se detuvo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-18"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "19",
+      "id": "2reyes13-msg-12",
+      "msg": {
+        "en": "The Holy Man became angry with him: “Why didn’t you hit the ground five or six times? Then you would beat Aram until he was finished. As it is, you’ll defeat him three times only.”",
+        "es": "El hombre santo se enojó con él: «¿Por qué no golpeaste el suelo cinco o seis veces? Entonces habrías derrotado a Aram hasta acabar con él. Tal como lo hiciste, solo lo derrotarás tres veces»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-19"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "2reyes13-msg-13",
+      "msg": {
+        "en": "Then Elisha died and they buried him.\nSometime later, raiding bands of Moabites, as they often did, invaded the country. One day, some men were burying a man and spotted the raiders. They threw the man into Elisha’s tomb and got away. When the body touched Elisha’s bones, the man came alive, stood up, and walked out on his own two feet.",
+        "es": "Entonces Eliseo murió y lo sepultaron.\nTiempo después, bandas de moabitas invadieron el país, como solían hacerlo. Un día, unos hombres sepultaban a alguien cuando vieron a los invasores. Arrojaron el cuerpo en la tumba de Eliseo y huyeron. Cuando el cuerpo tocó los huesos de Eliseo, el hombre volvió a la vida, se puso de pie y salió caminando por sus propios medios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-21"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "2reyes13-msg-14",
+      "msg": {
+        "en": "Hazael king of Aram badgered and bedeviled Israel all through the reign of Jehoahaz. But GOD was gracious and showed mercy to them. He stuck with them out of respect for his covenant with Abraham, Isaac, and Jacob. He never gave up on them, never even considered discarding them, even to this day. Hazael king of Aram died. His son Ben-Hadad was the next king.",
+        "es": "Hazael, rey de Aram, hostigó y atormentó a Israel durante todo el reinado de Joacaz. Pero DIOS fue bondadoso y tuvo misericordia de ellos. Permaneció con ellos por respeto a Su pacto con Abraham, Isaac y Jacob. Nunca los abandonó ni consideró desecharlos, hasta aquel día. Hazael murió y su hijo Ben Adad fue el siguiente rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-24"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "25",
+      "id": "2reyes13-msg-15",
+      "msg": {
+        "en": "Jehoash son of Jehoahaz turned things around and took back the cities that Ben-Hadad son of Hazael had taken from his father Jehoahaz. Jehoash went to war three times and defeated him each time, recapturing the cities of Israel.",
+        "es": "Joás hijo de Joacaz cambió la situación y recuperó las ciudades que Ben Adad hijo de Hazael había quitado a su padre. Joás fue a la guerra tres veces, lo derrotó en cada ocasión y recuperó las ciudades de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes13-nbla-25"
+        }
+      ],
+      "order": 15
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes13-nbla-01",
+      "number": 1,
+      "text": "En el año veintitrés de Joás, hijo de Ocozías, rey de Judá, comenzó a reinar Joacaz, hijo de Jehú, sobre Israel en Samaria, y reinó diecisiete años."
+    },
+    {
+      "id": "2reyes13-nbla-02",
+      "number": 2,
+      "text": "Hizo lo malo ante los ojos del SEÑOR, y siguió tras los pecados con que Jeroboam, hijo de Nabat, hizo pecar a Israel; no se apartó de ellos."
+    },
+    {
+      "id": "2reyes13-nbla-03",
+      "number": 3,
+      "text": "Y la ira del SEÑOR se encendió contra Israel, y los entregó día tras día en mano de Hazael, rey de Aram, y en mano de Ben Adad, hijo de Hazael."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-04a",
+          "order": 1,
+          "text": "Entonces Joacaz imploró el favor del SEÑOR, y"
+        },
+        {
+          "id": "2reyes13-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR lo oyó"
+        },
+        {
+          "id": "2reyes13-nbla-04c",
+          "order": 3,
+          "text": "; porque Él vio la opresión de Israel, de cómo el rey de Aram los oprimía."
+        }
+      ],
+      "id": "2reyes13-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-05a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "2reyes13-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR dio a Israel un libertador"
+        },
+        {
+          "id": "2reyes13-nbla-05c",
+          "order": 3,
+          "text": ", y escaparon del poder de los arameos; y habitaron los israelitas en sus tiendas como antes."
+        }
+      ],
+      "id": "2reyes13-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "2reyes13-nbla-06",
+      "number": 6,
+      "text": "Con todo, no se apartaron de los pecados con que la casa de Jeroboam hizo pecar a Israel, sino que anduvieron en ellos; y también la Asera permaneció en pie en Samaria."
+    },
+    {
+      "id": "2reyes13-nbla-07",
+      "number": 7,
+      "text": "Pues a Joacaz no le había quedado del ejército más que cincuenta hombres de a caballo, diez carros y 10,000 hombres de a pie, porque el rey de Aram los había destruido y los había hecho como polvo de trilla."
+    },
+    {
+      "id": "2reyes13-nbla-08",
+      "number": 8,
+      "text": "Los demás hechos de Joacaz y todo lo que hizo y su poder, ¿no están escritos en el libro de las Crónicas de los reyes de Israel?"
+    },
+    {
+      "id": "2reyes13-nbla-09",
+      "number": 9,
+      "text": "Y durmió Joacaz con sus padres y lo sepultaron en Samaria, y su hijo Joás reinó en su lugar."
+    },
+    {
+      "id": "2reyes13-nbla-10",
+      "number": 10,
+      "text": "En el año treinta y siete de Joás, rey de Judá, Joás, hijo de Joacaz, comenzó a reinar sobre Israel en Samaria, y reinó dieciséis años."
+    },
+    {
+      "id": "2reyes13-nbla-11",
+      "number": 11,
+      "text": "E hizo lo malo ante los ojos del SEÑOR; no se apartó de todos los pecados con que Jeroboam, hijo de Nabat, hizo pecar a Israel, sino que anduvo en ellos."
+    },
+    {
+      "id": "2reyes13-nbla-12",
+      "number": 12,
+      "text": "Los demás hechos de Joás, y todo lo que hizo, y el poder con que peleó contra Amasías, rey de Judá, ¿no están escritos en el libro de las Crónicas de los reyes de Israel?"
+    },
+    {
+      "id": "2reyes13-nbla-13",
+      "number": 13,
+      "text": "Y durmió Joás con sus padres, y Jeroboam se sentó en su trono; y Joás fue sepultado en Samaria con los reyes de Israel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-14a",
+          "order": 1,
+          "text": "Cuando Eliseo se enfermó con la enfermedad de la cual había de morir, Joás, rey de Israel, descendió a él y lloró sobre su rostro, y dijo: «"
+        },
+        {
+          "id": "2reyes13-nbla-14b",
+          "order": 2,
+          "text": "¡Padre mío, padre mío, los carros de Israel y sus hombres de a caballo!»."
+        }
+      ],
+      "id": "2reyes13-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2reyes13-nbla-15",
+      "number": 15,
+      "text": "Y Eliseo le dijo: «Toma un arco y flechas». Y él tomó un arco y flechas."
+    },
+    {
+      "id": "2reyes13-nbla-16",
+      "number": 16,
+      "text": "Entonces dijo al rey de Israel: «Pon tu mano en el arco». Y él puso su mano sobre el arco; entonces Eliseo colocó sus manos sobre las manos del rey."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-17a",
+          "order": 1,
+          "text": "Y dijo: «Abre la ventana hacia el oriente, y él la abrió». Entonces Eliseo dijo: «Tira». Y él tiró. Y Eliseo dijo: «"
+        },
+        {
+          "id": "2reyes13-nbla-17b",
+          "order": 2,
+          "text": "Flecha de victoria del SEÑOR"
+        },
+        {
+          "id": "2reyes13-nbla-17c",
+          "order": 3,
+          "text": ", y flecha de victoria sobre Aram, porque derrotarás a los arameos en Afec hasta exterminarlos.»"
+        }
+      ],
+      "id": "2reyes13-nbla-17",
+      "number": 17
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-18a",
+          "order": 1,
+          "text": "Entonces añadió: «Toma las flechas»; y él las tomó. Y dijo al rey de Israel: «Golpea la tierra»; y él"
+        },
+        {
+          "id": "2reyes13-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la golpeó tres veces y se detuvo."
+        }
+      ],
+      "id": "2reyes13-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "2reyes13-nbla-19",
+      "number": 19,
+      "text": "Y el hombre de Dios se enojó con él, y dijo: «Deberías haber golpeado cinco o seis veces, entonces hubieras herido a Aram hasta exterminarlo. Pero ahora herirás a Aram solo tres veces»."
+    },
+    {
+      "id": "2reyes13-nbla-20",
+      "number": 20,
+      "text": "Eliseo murió y lo sepultaron. Las bandas de los moabitas solían invadir la tierra en la primavera de cada año."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-21a",
+          "order": 1,
+          "text": "Y una vez cuando estaban sepultando a un hombre, vieron que una banda de merodeadores se les acercaba; así que arrojaron al hombre en la tumba de Eliseo. Cuando el hombre cayó y tocó los huesos de Eliseo,"
+        },
+        {
+          "id": "2reyes13-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "revivió, y se puso en pie."
+        }
+      ],
+      "id": "2reyes13-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "2reyes13-nbla-22",
+      "number": 22,
+      "text": "Hazael, rey de Aram, había oprimido a Israel todos los días de Joacaz."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes13-nbla-23a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "2reyes13-nbla-23b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR tuvo piedad de ellos, y les tuvo compasión"
+        },
+        {
+          "id": "2reyes13-nbla-23c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y se volvió a ellos a causa de su pacto con Abraham, Isaac y Jacob, y no quiso destruirlos ni echarlos de su presencia hasta hoy."
+        }
+      ],
+      "id": "2reyes13-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "2reyes13-nbla-24",
+      "number": 24,
+      "text": "Al morir Hazael, rey de Aram, su hijo Ben Adad reinó en su lugar."
+    },
+    {
+      "id": "2reyes13-nbla-25",
+      "number": 25,
+      "text": "Entonces Joás, hijo de Joacaz, recobró de nuevo de mano de Ben Adad, hijo de Hazael, las ciudades que este había tomado en guerra de mano de su padre Joacaz. Tres veces Joás lo derrotó y recobró las ciudades de Israel."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

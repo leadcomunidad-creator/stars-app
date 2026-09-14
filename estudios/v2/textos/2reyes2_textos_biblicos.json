@@ -1,0 +1,710 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La fidelidad de Eliseo se expresa acompañando a su maestro hasta el final. NBLA fija la decisión de no separarse y MSG la vuelve inmediata y afectiva. La perseverancia no compra el don de Dios, pero muestra que Eliseo recibe la sucesión como fruto de un camino compartido y no como una oportunidad impersonal.",
+      "id": "2reyes2-joya-01",
+      "msg": {
+        "en": "“I’m not letting you out of my sight!”",
+        "es": "«¡No voy a perderte de vista!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-02b"
+          ],
+          "verseId": "2reyes2-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El Dios del éxodo sigue abriendo caminos que Sus siervos no pueden fabricar. NBLA conserva el eco concreto de tierra seca y MSG destaca a los dos caminando juntos. El manto participa como señal, pero la división de las aguas pertenece al Señor.",
+      "id": "2reyes2-joya-02",
+      "msg": {
+        "en": "“the two men walked through on dry land”",
+        "es": "«los dos hombres cruzaron por tierra seca»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-08b"
+          ],
+          "verseId": "2reyes2-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "Eliseo pide la herencia necesaria para continuar el llamado. NBLA protege el sentido mediante la expresión «doble porción» y MSG hace visible su dimensión relacional. La petición no busca clonar a Elías ni garantizar el doble de milagros; reconoce una tarea que solo puede recibirse por don.",
+      "id": "2reyes2-joya-03",
+      "msg": {
+        "en": "“Your life repeated in my life.”",
+        "es": "«Que tu vida se reproduzca en la mía»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-09b"
+          ],
+          "verseId": "2reyes2-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9"
+    },
+    {
+      "explanation": "El Espíritu y la sucesión profética no están bajo control humano. Ambas versiones conservan la dificultad, y el resto de la respuesta muestra que Elías no promete lo que no puede otorgar por sí mismo. Un mentor fiel conoce el límite de su autoridad y remite el futuro del discípulo a Dios.",
+      "id": "2reyes2-joya-04",
+      "msg": {
+        "en": "“That’s a hard one!”",
+        "es": "«¡Has pedido algo difícil!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-10b"
+          ],
+          "verseId": "2reyes2-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "La pregunta de Eliseo busca al Dios vivo en medio de una ausencia irreversible. NBLA nombra al Señor y MSG deja oír la urgencia repetida del duelo. La respuesta llega cuando las aguas se abren: Elías ya no está, pero Dios no se ha retirado con Su siervo.",
+      "id": "2reyes2-joya-05",
+      "msg": {
+        "en": "“Now where is the GOD of Elijah? Where is he?”",
+        "es": "«Ahora, ¿dónde está el DIOS de Elías? ¿Dónde está?»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-14b"
+          ],
+          "verseId": "2reyes2-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "11-14"
+    },
+    {
+      "explanation": "La comunidad reconoce una continuidad que Dios ya confirmó en el Jordán. NBLA habla del espíritu que reposa y MSG expresa la continuidad de la vida ministerial. Ninguna formulación convierte a Eliseo en reencarnación de Elías; ambas señalan que la misión profética continúa por obra de Dios.",
+      "id": "2reyes2-joya-06",
+      "msg": {
+        "en": "“The spirit of Elijah lives in Elisha!”",
+        "es": "«¡El espíritu de Elías vive en Eliseo!»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-15b"
+          ],
+          "verseId": "2reyes2-nbla-15"
+        }
+      ],
+      "order": 6,
+      "range": "15"
+    },
+    {
+      "explanation": "Dios se atribuye la restauración de la fuente. NBLA fija la purificación y MSG la comunica como sanidad que alcanza a personas y tierra. La sal es una señal obediente, no el agente autónomo; la permanencia del agua sana confirma la fidelidad de la palabra del Señor.",
+      "id": "2reyes2-joya-07",
+      "msg": {
+        "en": "“I’ve healed this water.”",
+        "es": "«He sanado esta agua»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes2-nbla-21b"
+          ],
+          "verseId": "2reyes2-nbla-21"
+        }
+      ],
+      "order": 7,
+      "range": "21-22"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 2,
+    "studyId": "2reyes-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2reyes2-msg-01",
+      "msg": {
+        "en": "Just before GOD took Elijah to heaven in a whirlwind, Elijah and Elisha were on a walk out of Gilgal. Elijah said to Elisha, “Stay here. GOD has sent me on an errand to Bethel.” Elisha said, “Not on your life! I’m not letting you out of my sight!” So they both went to Bethel.",
+        "es": "Poco antes de que DIOS llevara a Elías al cielo en un torbellino, Elías y Eliseo salieron caminando de Gilgal. Elías le dijo a Eliseo: «Quédate aquí. DIOS me ha enviado a cumplir una misión en Betel». Eliseo respondió: «¡Ni pensarlo! ¡No voy a perderte de vista!». Así que ambos fueron a Betel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "2reyes2-msg-02",
+      "msg": {
+        "en": "The guild of prophets at Bethel met Elisha and said, “Did you know that GOD is going to take your master away from you today?”\n“Yes,” he said, “I know it. But keep it quiet.”",
+        "es": "La comunidad de profetas de Betel salió al encuentro de Eliseo y le preguntó: «¿Sabes que hoy DIOS va a quitarte a tu maestro?».\n«Sí», respondió él, «lo sé. Pero guarden silencio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "2reyes2-msg-03",
+      "msg": {
+        "en": "Then Elijah said to Elisha, “Stay here. GOD has sent me on an errand to Jericho.”\nElisha said, “Not on your life! I’m not letting you out of my sight!” So they both went to Jericho.",
+        "es": "Luego Elías le dijo a Eliseo: «Quédate aquí. DIOS me ha enviado a cumplir una misión en Jericó».\nEliseo respondió: «¡Ni pensarlo! ¡No voy a perderte de vista!». Así que ambos fueron a Jericó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "2reyes2-msg-04",
+      "msg": {
+        "en": "The guild of prophets at Jericho came to Elisha and said, “Did you know that GOD is going to take your master away from you today?”\n“Yes,” he said, “I know it. But keep it quiet.”",
+        "es": "La comunidad de profetas de Jericó se acercó a Eliseo y le preguntó: «¿Sabes que hoy DIOS va a quitarte a tu maestro?».\n«Sí», respondió él, «lo sé. Pero guarden silencio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "2reyes2-msg-05",
+      "msg": {
+        "en": "Then Elijah said to Elisha, “Stay here. GOD has sent me on an errand to the Jordan.”\nElisha said, “Not on your life! I’m not letting you out of my sight!” And so the two of them went their way together.",
+        "es": "Entonces Elías le dijo a Eliseo: «Quédate aquí. DIOS me ha enviado a cumplir una misión en el Jordán».\nEliseo respondió: «¡Ni pensarlo! ¡No voy a perderte de vista!». Y los dos siguieron juntos su camino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7",
+      "id": "2reyes2-msg-06",
+      "msg": {
+        "en": "Meanwhile, fifty men from the guild of prophets gathered some distance away while the two of them stood at the Jordan.",
+        "es": "Mientras tanto, cincuenta hombres de la comunidad de profetas se reunieron a cierta distancia, mientras los dos permanecían junto al Jordán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-07"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "8",
+      "id": "2reyes2-msg-07",
+      "msg": {
+        "en": "Elijah took his cloak, rolled it up, and hit the water with it. The river divided and the two men walked through on dry land.",
+        "es": "Elías tomó su manto, lo enrolló y golpeó el agua con él. El río se abrió y los dos hombres cruzaron por tierra seca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-08"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "9",
+      "id": "2reyes2-msg-08",
+      "msg": {
+        "en": "When they reached the other side, Elijah said to Elisha, “What can I do for you before I’m taken from you? Ask anything.”\nElisha said, “Your life repeated in my life. I want to be a holy man just like you.”",
+        "es": "Cuando llegaron al otro lado, Elías le dijo a Eliseo: «¿Qué puedo hacer por ti antes de que me aparten de tu lado? Pide lo que quieras».\nEliseo respondió: «Que tu vida se reproduzca en la mía. Quiero ser un hombre santo como tú»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-09"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "10",
+      "id": "2reyes2-msg-09",
+      "msg": {
+        "en": "“That’s a hard one!” said Elijah. “But if you’re watching when I’m taken from you, you’ll get what you’ve asked for. But only if you’re watching.”",
+        "es": "«¡Has pedido algo difícil!», dijo Elías. «Pero si estás mirando cuando me aparten de tu lado, recibirás lo que has pedido. Solo lo recibirás si estás mirando»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-10"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "11-14",
+      "id": "2reyes2-msg-10",
+      "msg": {
+        "en": "And so it happened. They were walking along and talking. Suddenly a chariot and horses of fire came between them and Elijah went up in a whirlwind to heaven. Elisha saw it all and shouted, “My father, my father! You—the chariot and cavalry of Israel!” When he could no longer see anything, he grabbed his robe and ripped it to pieces. Then he picked up Elijah’s cloak that had fallen from him, returned to the shore of the Jordan, and stood there. He took Elijah’s cloak—all that was left of Elijah!—and hit the river with it, saying, “Now where is the GOD of Elijah? Where is he?”\nWhen he struck the water, the river divided and Elisha walked through.",
+        "es": "Y así sucedió. Iban caminando y conversando cuando, de repente, un carro y unos caballos de fuego se interpusieron entre ellos, y Elías subió al cielo en un torbellino. Eliseo lo vio todo y gritó: «¡Padre mío, padre mío! ¡Tú, el carro y la caballería de Israel!». Cuando ya no pudo ver nada, tomó su propia túnica y la rasgó en dos. Luego recogió el manto de Elías que había caído, regresó a la orilla del Jordán y se detuvo allí. Tomó el manto de Elías —¡todo lo que quedaba de Elías!—, golpeó el río con él y preguntó: «Ahora, ¿dónde está el DIOS de Elías? ¿Dónde está?».\nCuando golpeó el agua, el río se abrió y Eliseo cruzó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-14"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "15",
+      "id": "2reyes2-msg-11",
+      "msg": {
+        "en": "The guild of prophets from Jericho saw the whole thing from where they were standing. They said, “The spirit of Elijah lives in Elisha!” They welcomed and honored him.",
+        "es": "La comunidad de profetas de Jericó vio todo desde el lugar donde estaba. Dijeron: «¡El espíritu de Elías vive en Eliseo!». Entonces salieron a recibirlo y lo honraron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-15"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "16",
+      "id": "2reyes2-msg-12",
+      "msg": {
+        "en": "They then said, “We’re at your service. We have fifty reliable men here; let’s send them out to look for your master. Maybe GOD’s spirit has swept him off to some mountain or dropped him into a remote ravine.”\nElisha said, “No. Don’t send them.”",
+        "es": "Luego dijeron: «Estamos a tu servicio. Aquí tenemos cincuenta hombres confiables; permítenos enviarlos a buscar a tu maestro. Tal vez el Espíritu de DIOS lo haya llevado hasta alguna montaña o lo haya dejado en un barranco apartado».\nEliseo respondió: «No. No los envíen»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-16"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "17",
+      "id": "2reyes2-msg-13",
+      "msg": {
+        "en": "But they pestered him until he caved in: “Go ahead then. Send them.”\nSo they sent the fifty men off. For three days they looked, searching high and low. Nothing.",
+        "es": "Pero insistieron hasta que Eliseo terminó cediendo: «Está bien. Envíenlos».\nAsí que enviaron a los cincuenta hombres. Buscaron por todas partes durante tres días. Nada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-17"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "18",
+      "id": "2reyes2-msg-14",
+      "msg": {
+        "en": "Finally, they returned to Elisha in Jericho. He told them, “So there—didn’t I tell you?”",
+        "es": "Por fin regresaron a donde estaba Eliseo en Jericó. Él les dijo: «Ahí lo tienen, ¿no se los dije?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-18"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "19",
+      "id": "2reyes2-msg-15",
+      "msg": {
+        "en": "One day the men of the city said to Elisha, “You can see for yourself, master, how well our city is located. But the water is polluted and nothing grows.”",
+        "es": "Un día, los hombres de la ciudad le dijeron a Eliseo: «Tú mismo puedes ver, maestro, lo bien ubicada que está nuestra ciudad. Pero el agua está contaminada y aquí no crece nada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-19"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "20",
+      "id": "2reyes2-msg-16",
+      "msg": {
+        "en": "He said, “Bring me a brand-new bowl and put some salt in it.” They brought it to him.",
+        "es": "Él dijo: «Tráiganme un recipiente completamente nuevo y pongan sal en él». Se lo llevaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-20"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "2reyes2-msg-17",
+      "msg": {
+        "en": "He then went to the spring, sprinkled the salt into it, and proclaimed, “GOD’s word: I’ve healed this water. It will no longer kill you or poison your land.” And sure enough, the water was healed—and remains so to this day, just as Elisha said.",
+        "es": "Luego fue al manantial, echó la sal en él y proclamó: «Esta es la palabra de DIOS: He sanado esta agua. Ya no volverá a matarlos ni a envenenar su tierra». Y, tal como Eliseo había dicho, el agua quedó sana y así permanece hasta el día de hoy."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-22"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "23",
+      "id": "2reyes2-msg-18",
+      "msg": {
+        "en": "Another time, Elisha was on his way to Bethel and some little kids came out from the town and taunted him, “What’s up, old baldhead! Out of our way, skinhead!”",
+        "es": "En otra ocasión, Eliseo iba camino a Betel cuando unos niños pequeños salieron del pueblo y comenzaron a burlarse de él: «¿Qué te pasa, viejo calvo? ¡Fuera de nuestro camino, cabeza pelada!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-23"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "24",
+      "id": "2reyes2-msg-19",
+      "msg": {
+        "en": "Elisha turned, took one look at them, and cursed them in the name of GOD. Two bears charged out of the underbrush and knocked them about, ripping them limb from limb—forty-two children in all!",
+        "es": "Eliseo se volvió, los miró y los maldijo en el nombre de DIOS. Dos osas salieron con violencia de entre la maleza, se lanzaron contra ellos y despedazaron a cuarenta y dos de aquellos niños."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-24"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "25",
+      "id": "2reyes2-msg-20",
+      "msg": {
+        "en": "Elisha went on to Mount Carmel, and then returned to Samaria.",
+        "es": "Eliseo siguió hasta el monte Carmelo y después regresó a Samaria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes2-nbla-25"
+        }
+      ],
+      "order": 20
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes2-nbla-01",
+      "number": 1,
+      "text": "Y sucedió que cuando el SEÑOR iba a llevarse a Elías al cielo en un torbellino, Elías venía de Gilgal con Eliseo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-02a",
+          "order": 1,
+          "text": "Y Elías le dijo a Eliseo: «Te ruego que te quedes aquí, porque el SEÑOR me ha enviado hasta Betel». Pero Eliseo le dijo: «Vive el SEÑOR y vive tu alma, que"
+        },
+        {
+          "id": "2reyes2-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no me apartaré de ti"
+        },
+        {
+          "id": "2reyes2-nbla-02c",
+          "order": 3,
+          "text": "». Así que ambos descendieron a Betel."
+        }
+      ],
+      "id": "2reyes2-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "2reyes2-nbla-03",
+      "number": 3,
+      "text": "Entonces los hijos de los profetas que estaban en Betel salieron al encuentro de Eliseo y le dijeron: «¿Sabes que hoy el SEÑOR va a quitarte a tu señor?». Y él dijo: «Sí, yo lo sé; cállense»."
+    },
+    {
+      "id": "2reyes2-nbla-04",
+      "number": 4,
+      "text": "Elías entonces le dijo: «Eliseo, te ruego que te quedes aquí, porque el SEÑOR me ha enviado a Jericó». Pero él dijo: «Vive el SEÑOR y vive tu alma, que no me apartaré de ti». Y fueron juntos a Jericó."
+    },
+    {
+      "id": "2reyes2-nbla-05",
+      "number": 5,
+      "text": "También los hijos de los profetas que estaban en Jericó se acercaron a Eliseo y le dijeron: «¿Sabes que hoy el SEÑOR va a quitarte a tu señor?». Y él respondió: «Sí, yo lo sé; cállense»."
+    },
+    {
+      "id": "2reyes2-nbla-06",
+      "number": 6,
+      "text": "Entonces Elías le dijo: «Te ruego que te quedes aquí, porque el SEÑOR me ha enviado al Jordán». Pero Eliseo dijo: «Vive el SEÑOR y vive tu alma, que no me apartaré de ti». Y los dos siguieron caminando."
+    },
+    {
+      "id": "2reyes2-nbla-07",
+      "number": 7,
+      "text": "Y cincuenta hombres de los hijos de los profetas fueron y se pararon frente a ellos, a lo lejos, mientras ellos dos se detuvieron junto al Jordán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-08a",
+          "order": 1,
+          "text": "Entonces Elías tomó su manto, lo dobló y golpeó las aguas, y estas se dividieron a uno y a otro lado, y"
+        },
+        {
+          "id": "2reyes2-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los dos pasaron por tierra seca."
+        }
+      ],
+      "id": "2reyes2-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-09a",
+          "order": 1,
+          "text": "Cuando ya habían pasado, Elías le dijo a Eliseo: «Pide lo que quieras que yo haga por ti antes de que yo sea separado de ti». Y Eliseo le respondió: «Te ruego"
+        },
+        {
+          "id": "2reyes2-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "que una doble porción de tu espíritu sea sobre mí»."
+        }
+      ],
+      "id": "2reyes2-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-10a",
+          "order": 1,
+          "text": "Elías le dijo: «"
+        },
+        {
+          "id": "2reyes2-nbla-10b",
+          "order": 2,
+          "text": "Has pedido una cosa difícil"
+        },
+        {
+          "id": "2reyes2-nbla-10c",
+          "order": 3,
+          "text": ". Sin embargo, si me ves cuando sea llevado de tu lado, así te sucederá; pero si no, no será así.»"
+        }
+      ],
+      "id": "2reyes2-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2reyes2-nbla-11",
+      "number": 11,
+      "text": "Mientras ellos iban andando y hablando, de pronto, apareció un carro de fuego y caballos de fuego que separó a los dos. Y Elías subió al cielo en un torbellino."
+    },
+    {
+      "id": "2reyes2-nbla-12",
+      "number": 12,
+      "text": "Eliseo lo vio y clamó: «Padre mío, padre mío, los carros de Israel y su gente de a caballo». Y no lo vio más. Entonces tomó sus vestidos y los rasgó en dos pedazos."
+    },
+    {
+      "id": "2reyes2-nbla-13",
+      "number": 13,
+      "text": "También recogió el manto de Elías que se le había caído, y regresó y se paró a la orilla del Jordán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-14a",
+          "order": 1,
+          "text": "Y tomando el manto de Elías que se le había caído, golpeó las aguas, y dijo: «"
+        },
+        {
+          "id": "2reyes2-nbla-14b",
+          "order": 2,
+          "text": "¿Dónde está el SEÑOR, el Dios de Elías?"
+        },
+        {
+          "id": "2reyes2-nbla-14c",
+          "order": 3,
+          "text": "». Y cuando él golpeó también las aguas, estas se dividieron a uno y a otro lado, y Eliseo pasó."
+        }
+      ],
+      "id": "2reyes2-nbla-14",
+      "number": 14
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-15a",
+          "order": 1,
+          "text": "Cuando lo vieron los hijos de los profetas que estaban en Jericó frente a él, dijeron: «"
+        },
+        {
+          "id": "2reyes2-nbla-15b",
+          "order": 2,
+          "text": "El espíritu de Elías reposa sobre Eliseo"
+        },
+        {
+          "id": "2reyes2-nbla-15c",
+          "order": 3,
+          "text": "». Entonces fueron a su encuentro y se postraron ante él,"
+        }
+      ],
+      "id": "2reyes2-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "2reyes2-nbla-16",
+      "number": 16,
+      "text": "y le dijeron: «Aquí entre tus siervos hay cincuenta hombres fuertes; te rogamos que los dejes ir a buscar a tu señor; tal vez el Espíritu del SEÑOR lo ha levantado y lo ha echado en algún monte o en algún valle». Y él dijo: «No los envíen»."
+    },
+    {
+      "id": "2reyes2-nbla-17",
+      "number": 17,
+      "text": "Pero cuando le insistieron hasta la saciedad, dijo: «Envíenlos». Entonces enviaron cincuenta hombres; y buscaron durante tres días, pero no lo hallaron."
+    },
+    {
+      "id": "2reyes2-nbla-18",
+      "number": 18,
+      "text": "Volvieron a Eliseo que se había quedado en Jericó, y él les dijo: «¿No les dije: “No vayan”?»."
+    },
+    {
+      "id": "2reyes2-nbla-19",
+      "number": 19,
+      "text": "Entonces los hombres de la ciudad dijeron a Eliseo: «El emplazamiento de esta ciudad es bueno, como mi señor ve, pero el agua es mala y la tierra estéril»."
+    },
+    {
+      "id": "2reyes2-nbla-20",
+      "number": 20,
+      "text": "Y él dijo: «Tráiganme una vasija nueva, y pongan sal en ella». Y se la trajeron."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes2-nbla-21a",
+          "order": 1,
+          "text": "Eliseo fue al manantial de las aguas, echó sal en él, y dijo: «Así dice el SEÑOR: “"
+        },
+        {
+          "id": "2reyes2-nbla-21b",
+          "order": 2,
+          "text": "He purificado estas aguas"
+        },
+        {
+          "id": "2reyes2-nbla-21c",
+          "order": 3,
+          "text": "; de allí no saldrá más muerte ni esterilidad”»."
+        }
+      ],
+      "id": "2reyes2-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "2reyes2-nbla-22",
+      "number": 22,
+      "text": "Y las aguas han quedado purificadas hasta hoy, conforme a la palabra que habló Eliseo."
+    },
+    {
+      "id": "2reyes2-nbla-23",
+      "number": 23,
+      "text": "Después subió de allí a Betel; y mientras subía por el camino, unos muchachos salieron de la ciudad y se burlaban de él, diciéndole: «¡Sube, calvo; sube, calvo!»."
+    },
+    {
+      "id": "2reyes2-nbla-24",
+      "number": 24,
+      "text": "Cuando él miró hacia atrás y los vio, los maldijo en el nombre del SEÑOR. Entonces salieron dos osas del bosque y despedazaron de ellos a cuarenta y dos muchachos."
+    },
+    {
+      "id": "2reyes2-nbla-25",
+      "number": 25,
+      "text": "De allí, Eliseo fue al monte Carmelo, y desde allí regresó a Samaria."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

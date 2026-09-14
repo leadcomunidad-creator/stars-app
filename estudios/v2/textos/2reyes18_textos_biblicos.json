@@ -1,0 +1,825 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Un objeto ligado a una antigua liberación se había convertido en receptor de incienso. Ezequías reconoce que la gratitud por lo que Dios usó no autoriza adorarlo. La reforma protege la memoria al devolver la gloria al Señor que realmente sanó.",
+      "id": "2reyes18-joya-01",
+      "msg": {
+        "en": "“he pulverized the ancient bronze serpent that Moses had made”",
+        "es": "«pulverizó la antigua serpiente de bronce que Moisés había hecho»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-04b"
+          ],
+          "verseId": "2reyes18-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "La confianza recibe contenido en el versículo siguiente: apego y obediencia. No es confianza en la capacidad psicológica de creer, sino en el Dios del pacto. Esa relación será atacada directamente por el discurso asirio.",
+      "id": "2reyes18-joya-02",
+      "msg": {
+        "en": "“Hezekiah put his whole trust in the GOD of Israel.”",
+        "es": "«Ezequías puso toda su confianza en el DIOS de Israel»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-05a"
+          ],
+          "verseId": "2reyes18-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La caída de Samaria une oído y práctica. Israel poseía la palabra, pero la trató con desprecio. Escuchar bíblicamente implica recibirla de modo que transforme la conducta y la lealtad.",
+      "id": "2reyes18-joya-03",
+      "msg": {
+        "en": "“They refused either to listen or do”",
+        "es": "«Se negaron a escuchar y a cumplir»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-12b"
+          ],
+          "verseId": "2reyes18-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "12"
+    },
+    {
+      "explanation": "Ezequías reconoce ante Senaquerib que su rebelión política ha provocado la respuesta imperial. La admisión conduce a un tributo costoso, pero no resuelve la amenaza. Reconocer un error es necesario; depositar luego la esperanza en el pago sigue siendo insuficiente.",
+      "id": "2reyes18-joya-04",
+      "msg": {
+        "en": "“I’ve done wrong; I admit it.”",
+        "es": "«He hecho mal y lo reconozco»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-14b"
+          ],
+          "verseId": "2reyes18-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "13-14"
+    },
+    {
+      "explanation": "El Rabsaces formula la pregunta decisiva, aunque pretende controlar sus respuestas. Egipto no puede sostener a Judá y Ezequías no tiene fuerza equivalente. La posibilidad que el portavoz descarta es precisamente la confianza en el Señor.",
+      "id": "2reyes18-joya-05",
+      "msg": {
+        "en": "“Now that you’ve revolted against me, who can you expect to help you?”",
+        "es": "«Ahora que te rebelaste, ¿quién esperas que te ayude?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-20b"
+          ],
+          "verseId": "2reyes18-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "19-22"
+    },
+    {
+      "explanation": "El invasor reclama autorización divina, pero la afirmación no recibe confirmación en este capítulo. Usar el nombre de Dios puede ser parte de la intimidación. La comunidad debe probar las palabras religiosas por la revelación y el carácter de Dios.",
+      "id": "2reyes18-joya-06",
+      "msg": {
+        "en": "“GOD expressly ordered me, ‘Attack and destroy this country!’”",
+        "es": "«DIOS me ordenó: “¡Ataca y destruye este país!”»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-25b"
+          ],
+          "verseId": "2reyes18-nbla-25"
+        }
+      ],
+      "order": 6,
+      "range": "25"
+    },
+    {
+      "explanation": "El silencio evita que la provocación dicte una reacción pública. No es todavía la respuesta completa; los funcionarios regresan rasgando sus vestidos. Hay momentos en que la obediencia comienza por no discutir dentro del marco impuesto por quien busca manipular.",
+      "id": "2reyes18-joya-07",
+      "msg": {
+        "en": "“The people were silent.”",
+        "es": "«El pueblo guardó silencio»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-36b"
+          ],
+          "verseId": "2reyes18-nbla-36"
+        }
+      ],
+      "order": 7,
+      "range": "36"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 18,
+    "studyId": "2reyes-18"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "2reyes18-msg-01",
+      "msg": {
+        "en": "In the third year of Hoshea son of Elah king of Israel, Hezekiah son of Ahaz began his rule over Judah. He was twenty-five years old when he became king and he ruled for twenty-nine years in Jerusalem. His mother’s name was Abijah daughter of Zechariah. In GOD’s opinion he was a good king; he kept to the standards of his ancestor David. He got rid of the local fertility shrines, smashed the phallic stone monuments, and cut down the sex-and-religion Asherah groves. As a final stroke he pulverized the ancient bronze serpent that Moses had made; at that time the Israelites had taken up the practice of sacrificing to it—they had even dignified it with a name, Nehushtan (The Old Serpent).",
+        "es": "En el año tercero de Oseas hijo de Ela, rey de Israel, Ezequías hijo de Acaz comenzó a reinar sobre Judá. Tenía veinticinco años cuando empezó a gobernar y reinó veintinueve años en Jerusalén. Su madre se llamaba Abí y era hija de Zacarías. En opinión de DIOS fue un buen rey; se mantuvo dentro del modelo de su antepasado David. Eliminó los santuarios locales de fertilidad, destrozó los pilares sagrados y cortó las Aseras. Finalmente pulverizó la antigua serpiente de bronce que Moisés había hecho, porque para entonces los israelitas le ofrecían incienso y hasta la habían dignificado con un nombre: Nehustán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "2reyes18-msg-02",
+      "msg": {
+        "en": "Hezekiah put his whole trust in the GOD of Israel. There was no king quite like him, either before or after. He held fast to GOD—never loosened his grip—and obeyed to the letter everything GOD had commanded Moses. And GOD, for his part, held fast to him through all his adventures.",
+        "es": "Ezequías puso toda su confianza en el DIOS de Israel. No hubo otro rey como él, ni antes ni después. Se aferró a DIOS sin soltarlo y obedeció cuidadosamente todo lo que DIOS había ordenado a Moisés. Y DIOS, por Su parte, permaneció con él en todas sus empresas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-06"
+        },
+        {
+          "clauseIds": [
+            "2reyes18-nbla-07a"
+          ],
+          "verseId": "2reyes18-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "2reyes18-msg-03",
+      "msg": {
+        "en": "He revolted against the king of Assyria; he refused to serve him one more day. And he drove back the Philistines, whether in sentry outposts or fortress cities, all the way to Gaza and its borders.",
+        "es": "Se rebeló contra el rey de Asiria y se negó a servirle un día más. También hizo retroceder a los filisteos desde las torres de vigilancia hasta las ciudades fortificadas, llegando a Gaza y sus fronteras."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-07b"
+          ],
+          "verseId": "2reyes18-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "2reyes18-msg-04",
+      "msg": {
+        "en": "In the fourth year of Hezekiah and the seventh year of Hoshea son of Elah king of Israel, Shalmaneser king of Assyria attacked Samaria. He threw a siege around it and after three years captured it. It was in the sixth year of Hezekiah and the ninth year of Hoshea that Samaria fell to Assyria. The king of Assyria took Israel into exile and relocated them in Halah, in Gozan on the Habor River, and in towns of the Medes.",
+        "es": "En el año cuarto de Ezequías, que era el séptimo de Oseas hijo de Ela, rey de Israel, Salmanasar, rey de Asiria, atacó Samaria. La sitió y la capturó después de tres años. En el año sexto de Ezequías y noveno de Oseas, Samaria cayó ante Asiria. El rey asirio llevó a Israel al exilio y lo reubicó en Halah, en Gozán junto al río Habor y en las ciudades de los medos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12",
+      "id": "2reyes18-msg-05",
+      "msg": {
+        "en": "All this happened because they wouldn’t listen to the voice of their GOD and treated his covenant with careless contempt. They refused either to listen or do a word of what Moses, the servant of GOD, commanded.",
+        "es": "Todo esto ocurrió porque no quisieron escuchar la voz de su DIOS y trataron Su pacto con desprecio negligente. Se negaron a escuchar y a cumplir lo que Moisés, siervo de DIOS, había ordenado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "2reyes18-msg-06",
+      "msg": {
+        "en": "In the fourteenth year of King Hezekiah, Sennacherib king of Assyria attacked all the outlying fortress cities of Judah and captured them. King Hezekiah sent a message to the king of Assyria at his headquarters in Lachish: “I’ve done wrong; I admit it. Pull back your army; I’ll pay whatever tribute you set.”",
+        "es": "En el año catorce del rey Ezequías, Senaquerib, rey de Asiria, atacó y capturó todas las ciudades fortificadas de Judá. Ezequías envió este mensaje al cuartel del rey asirio en Laquis: «He hecho mal y lo reconozco. Retira tu ejército y pagaré el tributo que establezcas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-13"
+        },
+        {
+          "clauseIds": [
+            "2reyes18-nbla-14a",
+            "2reyes18-nbla-14b",
+            "2reyes18-nbla-14c"
+          ],
+          "verseId": "2reyes18-nbla-14"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "2reyes18-msg-07",
+      "msg": {
+        "en": "The king of Assyria demanded tribute from Hezekiah king of Judah—eleven tons of silver and a ton of gold. Hezekiah turned over all the silver he could find in The Temple of GOD and in the palace treasuries. Hezekiah even took down the doors of The Temple of GOD and the doorposts that he had overlaid with gold and gave them to the king of Assyria.",
+        "es": "El rey de Asiria exigió a Ezequías once toneladas de plata y una tonelada de oro. Ezequías entregó toda la plata que encontró en el templo de DIOS y en los tesoros del palacio. Incluso quitó el oro de las puertas y de los postes del templo que él mismo había revestido y se lo dio al rey asirio."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes18-nbla-14d"
+          ],
+          "verseId": "2reyes18-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-16"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "17",
+      "id": "2reyes18-msg-08",
+      "msg": {
+        "en": "So the king of Assyria sent his top three military chiefs (the Tartan, the Rabsaris, and the Rabshakeh) from Lachish with a strong military force to King Hezekiah in Jerusalem. When they arrived at Jerusalem, they stopped at the aqueduct of the Upper Pool on the road to the laundry commons.",
+        "es": "Entonces el rey de Asiria envió desde Laquis a sus tres principales jefes militares, el Tartán, el Rabsaris y el Rabsaces, con un gran ejército contra Ezequías en Jerusalén. Al llegar se detuvieron junto al acueducto del estanque superior, en el camino del campo del Batanero."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-17"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "18",
+      "id": "2reyes18-msg-09",
+      "msg": {
+        "en": "They called loudly for the king. Eliakim son of Hilkiah who was in charge of the palace, Shebna the royal secretary, and Joah son of Asaph the court historian went out to meet them.",
+        "es": "Llamaron al rey a grandes voces. Eliaquim hijo de Hilcías, encargado del palacio, Sebna, secretario real, y Joa hijo de Asaf, cronista de la corte, salieron a recibirlos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19-22",
+      "id": "2reyes18-msg-10",
+      "msg": {
+        "en": "The third officer, the Rabshakeh, was spokesman. He said, “Tell Hezekiah: A message from The Great King, the king of Assyria: You’re living in a world of make-believe, of pious fantasy. Do you think that mere words are any substitute for military strategy and troops? Now that you’ve revolted against me, who can you expect to help you? You thought Egypt would, but Egypt’s nothing but a paper tiger—one puff of wind and she collapses; Pharaoh king of Egypt is nothing but bluff and bluster. Or are you going to tell me, ‘We rely on GOD’? But Hezekiah has just eliminated most of the people’s access to God by getting rid of all the local God-shrines, ordering everyone in Judah and Jerusalem, ‘You must worship at the Jerusalem altar only.’",
+        "es": "El tercer oficial, el Rabsaces, actuó como portavoz: «Digan a Ezequías: mensaje del gran rey de Asiria. Vives en un mundo de fantasía piadosa. ¿Crees que unas simples palabras sustituyen estrategia militar y tropas? Ahora que te rebelaste, ¿quién esperas que te ayude? Pensaste en Egipto, pero es un tigre de papel: un soplo y se desploma; el faraón es pura apariencia. ¿Dirás que confían en DIOS? Pero Ezequías eliminó el acceso de la gente a Dios al quitar los santuarios locales y ordenar a Judá y Jerusalén que adoren únicamente ante el altar de Jerusalén»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-22"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "2reyes18-msg-11",
+      "msg": {
+        "en": "“So be reasonable. Make a deal with my master, the king of Assyria. I’ll give you two thousand horses if you think you can provide riders for them. You can’t do it? Well, then, how do you think you’re going to turn back even one raw buck private from my master’s troops? How long are you going to hold on to that figment of your imagination, these hoped-for Egyptian chariots and horses?",
+        "es": "«Sean razonables. Hagan un trato con mi señor, el rey de Asiria. Les daré dos mil caballos, si creen que pueden encontrar jinetes para ellos. ¿No pueden? Entonces, ¿cómo rechazarán siquiera al menor oficial de las tropas de mi señor? ¿Hasta cuándo se aferrarán a esa ilusión de carros y caballos egipcios?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-24"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "25",
+      "id": "2reyes18-msg-12",
+      "msg": {
+        "en": "“Do you think I’ve come up here to destroy this country without the express approval of GOD? The fact is that GOD expressly ordered me, ‘Attack and destroy this country!’”",
+        "es": "«¿Creen que vine a destruir este país sin la aprobación expresa de DIOS? La verdad es que DIOS me ordenó: “¡Ataca y destruye este país!”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-25"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "26",
+      "id": "2reyes18-msg-13",
+      "msg": {
+        "en": "Eliakim son of Hilkiah and Shebna and Joah said to the Rabshakeh, “Please, speak to us in the Aramaic language. We understand Aramaic. Don’t speak in Hebrew—everyone crowded on the city wall can hear you.”",
+        "es": "Eliaquim hijo de Hilcías, Sebna y Joa dijeron al Rabsaces: «Por favor, háblanos en arameo; lo entendemos. No hables en hebreo, porque toda la gente reunida sobre la muralla puede oírte»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-26"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "27",
+      "id": "2reyes18-msg-14",
+      "msg": {
+        "en": "But the Rabshakeh said, “We weren’t sent with a private message to your master and you; this is public—a message to everyone within earshot. After all, they’re involved in this as well as you; if you don’t come to terms, they’ll be eating their own turds and drinking their own pee right along with you.”",
+        "es": "Pero el Rabsaces respondió: «No fuimos enviados con un mensaje privado para tu señor y para ti. Es un mensaje público dirigido a todos los que pueden oír. Ellos también están involucrados; si no llegan a un acuerdo, comerán su propio excremento y beberán su propia orina junto con ustedes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-27"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "28-32",
+      "id": "2reyes18-msg-15",
+      "msg": {
+        "en": "Then he stepped forward and spoke in Hebrew loud enough for everyone to hear, “Listen carefully to the words of The Great King, the king of Assyria: Don’t let Hezekiah fool you; he can’t save you. And don’t let Hezekiah give you that line about trusting in GOD, telling you, ‘GOD will save us—this city will never be abandoned to the king of Assyria.’ Don’t listen to Hezekiah—he doesn’t know what he’s talking about. Listen to the king of Assyria—deal with me and live the good life; I’ll guarantee everyone your own plot of ground—a garden and a well! I’ll take you to a land sweeter by far than this one, a land of grain and wine, bread and vineyards, olive orchards and honey. You only live once—so live, really live!",
+        "es": "Entonces se adelantó y habló en hebreo con voz suficientemente fuerte para que todos oyeran: «Escuchen con atención las palabras del gran rey de Asiria. No permitan que Ezequías los engañe; él no puede salvarlos. Tampoco crean su discurso sobre confiar en DIOS: “DIOS nos salvará y esta ciudad no será entregada al rey de Asiria”. No escuchen a Ezequías. Escuchen al rey de Asiria: hagan un trato conmigo y vivan bien. Cada uno tendrá su propio terreno, una huerta y un pozo. Los llevaré a una tierra aún más dulce, tierra de grano y vino, pan y viñedos, olivos y miel. Solo viven una vez; vivan de verdad»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-32"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "32-35",
+      "id": "2reyes18-msg-16",
+      "msg": {
+        "en": "“No. Don’t listen to Hezekiah. Don’t listen to his lies, telling you ‘GOD will save us.’ Has there ever been a god anywhere who delivered anyone from the king of Assyria? Where are the gods of Hamath and Arpad? Where are the gods of Sepharvaim, Hena, and Ivvah? And Samaria—did their gods save them? Can you name a god who saved anyone anywhere from me, the king of Assyria? So what makes you think that GOD can save Jerusalem from me?”",
+        "es": "«No escuchen a Ezequías ni sus afirmaciones de que DIOS los salvará. ¿Ha existido algún dios que librara a alguien del rey de Asiria? ¿Dónde están los dioses de Hamat y Arfad, de Sefarvaim, Hena e Iva? ¿Salvaron sus dioses a Samaria? ¿Pueden nombrar un dios que haya salvado a alguien de mí? Entonces, ¿qué les hace pensar que DIOS puede salvar a Jerusalén de mi mano?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-35"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "36",
+      "id": "2reyes18-msg-17",
+      "msg": {
+        "en": "The people were silent. No one spoke a word for the king had ordered, “Don’t anyone say a word—not one word!”",
+        "es": "El pueblo guardó silencio. Nadie respondió una sola palabra, porque el rey había ordenado: «¡No le respondan nada, ni una palabra!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-36"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "37",
+      "id": "2reyes18-msg-18",
+      "msg": {
+        "en": "Then Eliakim son of Hilkiah, the palace administrator, and Shebna the royal secretary, and Joah son of Asaph the court historian went back to Hezekiah. They had ripped their robes in despair; they reported to Hezekiah the speech of the Rabshakeh.",
+        "es": "Entonces Eliaquim hijo de Hilcías, administrador del palacio, Sebna, secretario real, y Joa hijo de Asaf, cronista de la corte, regresaron a Ezequías. Habían rasgado sus vestidos en señal de angustia y le informaron el discurso del Rabsaces."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes18-nbla-37"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes18-nbla-01",
+      "number": 1,
+      "text": "En el año tercero de Oseas, hijo de Ela, rey de Israel, comenzó a reinar Ezequías, hijo de Acaz, rey de Judá."
+    },
+    {
+      "id": "2reyes18-nbla-02",
+      "number": 2,
+      "text": "Tenía veinticinco años cuando comenzó a reinar, y reinó veintinueve años en Jerusalén. El nombre de su madre era Abi, hija de Zacarías."
+    },
+    {
+      "id": "2reyes18-nbla-03",
+      "number": 3,
+      "text": "Hizo lo recto ante los ojos del SEÑOR, conforme a todo lo que su padre David había hecho."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-04a",
+          "order": 1,
+          "text": "Quitó los lugares altos, derribó los pilares sagrados y cortó la Asera. También"
+        },
+        {
+          "id": "2reyes18-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hizo pedazos la serpiente de bronce que Moisés había hecho"
+        },
+        {
+          "id": "2reyes18-nbla-04c",
+          "order": 3,
+          "text": ", porque hasta aquellos días los israelitas le quemaban incienso; y la llamaban Nehustán."
+        }
+      ],
+      "id": "2reyes18-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-05a",
+          "order": 1,
+          "text": "Ezequías confió en el SEÑOR, Dios de Israel"
+        },
+        {
+          "id": "2reyes18-nbla-05b",
+          "order": 2,
+          "text": ". Después de él, no hubo ninguno como él entre todos los reyes de Judá, ni entre los que fueron antes de él,"
+        }
+      ],
+      "id": "2reyes18-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "2reyes18-nbla-06",
+      "number": 6,
+      "text": "porque se apegó al SEÑOR; no se apartó de Él, sino que guardó los mandamientos que el SEÑOR había ordenado a Moisés."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-07a",
+          "order": 1,
+          "text": "El SEÑOR estaba con él; adondequiera que iba prosperaba."
+        },
+        {
+          "id": "2reyes18-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Se rebeló contra el rey de Asiria y no le sirvió."
+        }
+      ],
+      "id": "2reyes18-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "2reyes18-nbla-08",
+      "number": 8,
+      "text": "Derrotó a los filisteos hasta Gaza y su territorio, desde las torres de atalaya hasta las ciudades fortificadas."
+    },
+    {
+      "id": "2reyes18-nbla-09",
+      "number": 9,
+      "text": "En el año cuarto del rey Ezequías, que era el año séptimo de Oseas, hijo de Ela, rey de Israel, Salmanasar, rey de Asiria, subió contra Samaria y la sitió,"
+    },
+    {
+      "id": "2reyes18-nbla-10",
+      "number": 10,
+      "text": "y después de tres años la tomaron. En el año sexto de Ezequías, que era el año noveno de Oseas, rey de Israel, Samaria fue tomada."
+    },
+    {
+      "id": "2reyes18-nbla-11",
+      "number": 11,
+      "text": "Y el rey de Asiria llevó a Israel al destierro en Asiria, y los puso en Halah y en el Habor, río de Gozán, y en las ciudades de los medos,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-12a",
+          "order": 1,
+          "text": "porque no obedecieron la voz del SEÑOR su Dios, sino que quebrantaron Su pacto, es decir, todo lo que Moisés, siervo del SEÑOR, había ordenado;"
+        },
+        {
+          "id": "2reyes18-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no escucharon, ni lo cumplieron."
+        }
+      ],
+      "id": "2reyes18-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "2reyes18-nbla-13",
+      "number": 13,
+      "text": "En el año catorce del rey Ezequías, subió Senaquerib, rey de Asiria, contra todas las ciudades fortificadas de Judá, y las tomó."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-14a",
+          "order": 1,
+          "text": "Entonces Ezequías, rey de Judá, envió a decir al rey de Asiria en Laquis: «"
+        },
+        {
+          "id": "2reyes18-nbla-14b",
+          "order": 2,
+          "text": "He hecho lo malo"
+        },
+        {
+          "id": "2reyes18-nbla-14c",
+          "order": 3,
+          "text": ". Retírate de mí; lo que me impongas, aceptaré»."
+        },
+        {
+          "id": "2reyes18-nbla-14d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "Y el rey de Asiria impuso a Ezequías, rey de Judá, 10.2 toneladas de plata y una tonelada de oro."
+        }
+      ],
+      "id": "2reyes18-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2reyes18-nbla-15",
+      "number": 15,
+      "text": "Y Ezequías le dio toda la plata que se hallaba en la casa del SEÑOR y en los tesoros de la casa del rey."
+    },
+    {
+      "id": "2reyes18-nbla-16",
+      "number": 16,
+      "text": "En aquel tiempo Ezequías quitó el oro de las puertas del templo del SEÑOR, y de los postes de las puertas que el mismo Ezequías, rey de Judá, había revestido de oro, y lo entregó al rey de Asiria."
+    },
+    {
+      "id": "2reyes18-nbla-17",
+      "number": 17,
+      "text": "Desde Laquis el rey de Asiria envió a Jerusalén, al Tartán, al Rabsaris y al Rabsaces con un gran ejército contra el rey Ezequías. Y subieron y llegaron a Jerusalén. Y cuando subieron, llegaron y se colocaron junto al acueducto del estanque superior que está en la calzada del campo del Batanero."
+    },
+    {
+      "id": "2reyes18-nbla-18",
+      "number": 18,
+      "text": "Llamaron al rey, y salió a ellos Eliaquim, hijo de Hilcías, que era mayordomo, con el escriba Sebna y el cronista Joa, hijo de Asaf."
+    },
+    {
+      "id": "2reyes18-nbla-19",
+      "number": 19,
+      "text": "Entonces el Rabsaces les dijo: «Digan ahora a Ezequías: “Así dice el gran rey, el rey de Asiria: ‘¿Qué confianza es esta que tú tienes?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-20a",
+          "order": 1,
+          "text": "Tú dices (pero solo son palabras vanas): “Tengo consejo y poder para la guerra”. Pero ahora,"
+        },
+        {
+          "id": "2reyes18-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿en quién confías que te has rebelado contra mí?"
+        }
+      ],
+      "id": "2reyes18-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "2reyes18-nbla-21",
+      "number": 21,
+      "text": "Yo sé que tú confías en el báculo de esta caña quebrada, es decir, en Egipto, en el cual, si un hombre se apoya, penetrará en su mano y la traspasará. Así es Faraón, rey de Egipto, para todos los que confían en él."
+    },
+    {
+      "id": "2reyes18-nbla-22",
+      "number": 22,
+      "text": "Pero si ustedes me dicen: “Nosotros confiamos en el SEÑOR nuestro Dios”, ¿no es Él aquel cuyos lugares altos y cuyos altares Ezequías ha quitado y ha dicho a Judá y a Jerusalén: “Adorarán delante de este altar en Jerusalén”?"
+    },
+    {
+      "id": "2reyes18-nbla-23",
+      "number": 23,
+      "text": "Ahora pues, te ruego que llegues a un acuerdo con mi señor el rey de Asiria, y yo te daré 2,000 caballos, si por tu parte puedes poner jinetes sobre ellos."
+    },
+    {
+      "id": "2reyes18-nbla-24",
+      "number": 24,
+      "text": "¿Cómo, pues, puedes rechazar a un oficial de los menores de los siervos de mi señor, y confiar en Egipto para tener carros y hombres de a caballo?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-25a",
+          "order": 1,
+          "text": "¿He subido ahora sin el consentimiento del SEÑOR contra este lugar para destruirlo?"
+        },
+        {
+          "id": "2reyes18-nbla-25b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El SEÑOR me dijo: “Sube contra esta tierra y destrúyela”’”»."
+        }
+      ],
+      "id": "2reyes18-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "2reyes18-nbla-26",
+      "number": 26,
+      "text": "Entonces Eliaquim, hijo de Hilcías, Sebna y Joa dijeron al Rabsaces: «Le rogamos que hable a sus siervos en arameo, porque nosotros lo entendemos, y no nos hable en la lengua de Judá a oídos del pueblo que está sobre la muralla»."
+    },
+    {
+      "id": "2reyes18-nbla-27",
+      "number": 27,
+      "text": "Pero el Rabsaces les dijo: «¿Acaso me ha enviado mi señor para hablar estas palabras solo a tu señor y a ti, y no a los hombres que están sentados en la muralla, condenados a comer sus propios excrementos y beber su propia orina con ustedes?»."
+    },
+    {
+      "id": "2reyes18-nbla-28",
+      "number": 28,
+      "text": "El Rabsaces se puso en pie, gritó a gran voz en la lengua de Judá, y dijo: «Escuchen la palabra del gran rey, el rey de Asiria."
+    },
+    {
+      "id": "2reyes18-nbla-29",
+      "number": 29,
+      "text": "Así dice el rey: “Que no los engañe Ezequías, porque él no los podrá librar de mi mano;"
+    },
+    {
+      "id": "2reyes18-nbla-30",
+      "number": 30,
+      "text": "ni que Ezequías les haga confiar en el SEÑOR, diciendo: ‘Ciertamente el SEÑOR nos librará, y esta ciudad no será entregada en manos del rey de Asiria’."
+    },
+    {
+      "id": "2reyes18-nbla-31",
+      "number": 31,
+      "text": "No escuchen a Ezequías, porque así dice el rey de Asiria: ‘Hagan la paz conmigo y salgan a mí, y coma cada uno de su vid y cada uno de su higuera, y beba cada cual de las aguas de su cisterna,"
+    },
+    {
+      "id": "2reyes18-nbla-32",
+      "number": 32,
+      "text": "hasta que yo venga y los lleve a una tierra como la tierra de ustedes, tierra de grano y de vino nuevo, tierra de pan y de viñas, tierra de olivos y de miel, para que vivan y no mueran’.\nPero no escuchen a Ezequías porque los engaña, diciendo: ‘El SEÑOR nos librará’."
+    },
+    {
+      "id": "2reyes18-nbla-33",
+      "number": 33,
+      "text": "¿Acaso alguno de los dioses de las naciones ha librado su tierra de la mano del rey de Asiria?"
+    },
+    {
+      "id": "2reyes18-nbla-34",
+      "number": 34,
+      "text": "¿Dónde están los dioses de Hamat y de Arfad? ¿Dónde están los dioses de Sefarvaim, de Hena y de Iva? ¿Cuándo han librado ellos a Samaria de mi mano?"
+    },
+    {
+      "id": "2reyes18-nbla-35",
+      "number": 35,
+      "text": "¿Quiénes de entre todos los dioses de estas tierras han librado su tierra de mi mano, para que el SEÑOR libre a Jerusalén de mi mano?”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes18-nbla-36a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "2reyes18-nbla-36b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el pueblo se quedó callado"
+        },
+        {
+          "id": "2reyes18-nbla-36c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y no le respondió palabra alguna, porque la orden del rey era: «No le respondan»."
+        }
+      ],
+      "id": "2reyes18-nbla-36",
+      "number": 36
+    },
+    {
+      "id": "2reyes18-nbla-37",
+      "number": 37,
+      "text": "Entonces Eliaquim, hijo de Hilcías, mayordomo de la casa real, el escriba Sebna y el cronista Joa, hijo de Asaf, fueron a Ezequías con sus vestidos rasgados, y le relataron las palabras del Rabsaces."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

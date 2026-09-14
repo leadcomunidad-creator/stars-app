@@ -1,0 +1,961 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Un mismo acontecimiento puede ser liberación para muchos y pérdida devastadora para otro. La comunidad no debe imponer una sola emoción. Debe aprender a celebrar con humildad y lamentar sin negar el bien recibido.",
+      "id": "2samuel19-joya-01",
+      "msg": {
+        "en": "“The day’s victory turned into a day of mourning”",
+        "es": "«La victoria de aquel día se convirtió en duelo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-02b"
+          ],
+          "verseId": "2samuel19-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "David necesita volver a mirar a quienes lo sostuvieron. Dar ánimo no significa ocultar su duelo, sino reconocer que el valor y el dolor de otros también reclaman su presencia.",
+      "id": "2samuel19-joya-02",
+      "msg": {
+        "en": "“get out there and put some heart into your servants!”",
+        "es": "«sal y devuelve el ánimo a tus siervos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-07b"
+          ],
+          "verseId": "2samuel19-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "5-7"
+    },
+    {
+      "explanation": "El cambio decisivo es corporal y visible: levantarse, salir, sentarse. David no pronuncia un gran discurso. Su presencia en el lugar público empieza a restaurar el vínculo con el pueblo.",
+      "id": "2samuel19-joya-03",
+      "msg": {
+        "en": "“the king came out and took his place at the city gate.”",
+        "es": "«el rey salió y ocupó su lugar junto a la puerta de la ciudad»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-08b"
+          ],
+          "verseId": "2samuel19-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "La unidad de Judá permite el regreso, pero fue alcanzada mediante negociación política. El resultado favorable no elimina la necesidad de examinar los medios ni garantiza la reconciliación con las otras tribus.",
+      "id": "2samuel19-joya-04",
+      "msg": {
+        "en": "“He captured the hearts of everyone in Judah.”",
+        "es": "«David conquistó el corazón de todos los hombres de Judá»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-14b"
+          ],
+          "verseId": "2samuel19-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "14"
+    },
+    {
+      "explanation": "David limita el impulso de Abisai y define el regreso como día de vida. El rey demuestra autoridad al renunciar a la ejecución inmediata de quien lo humilló cuando estaba débil.",
+      "id": "2samuel19-joya-05",
+      "msg": {
+        "en": "“Nobody is going to be killed today.”",
+        "es": "«Hoy no se matará a nadie»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-22b"
+          ],
+          "verseId": "2samuel19-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22"
+    },
+    {
+      "explanation": "Mefiboset afirma que la presencia del rey vale más que la tierra disputada. Sus palabras pueden expresar una lealtad profunda; también dejan al lector sintiendo el costo de una resolución que quizá no hizo justicia.",
+      "id": "2samuel19-joya-06",
+      "msg": {
+        "en": "“All I care about is that my master the king is home safe and sound!”",
+        "es": "«Lo único que me importa es que mi señor el rey haya regresado sano y salvo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-30b"
+          ],
+          "verseId": "2samuel19-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "30"
+    },
+    {
+      "explanation": "El poder agradece a quien lo sostuvo durante la vulnerabilidad. El beso y la bendición reconocen una relación que no se basó en oportunismo. La despedida honra los límites del anciano y el futuro de Quimam.",
+      "id": "2samuel19-joya-07",
+      "msg": {
+        "en": "“The king kissed and blessed Barzillai”",
+        "es": "«David besó y bendijo a Barzilai»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-39b"
+          ],
+          "verseId": "2samuel19-nbla-39"
+        }
+      ],
+      "order": 7,
+      "range": "39-40"
+    }
+  ],
+  "meta": {
+    "book": "2 SAMUEL",
+    "bookId": "2samuel",
+    "chapter": 19,
+    "studyId": "2samuel-19"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "2samuel19-msg-01",
+      "msg": {
+        "en": "Joab was told that David was weeping and lamenting over Absalom. The day’s victory turned into a day of mourning as word passed through the army, “David is grieving over his son.” The army straggled back to the city that day demoralized, dragging their tails. And the king held his face in his hands and lamented loudly,\nO my son Absalom,\nAbsalom my dear, dear son!",
+        "es": "Informaron a Joab que David lloraba y se lamentaba por Absalón. La victoria de aquel día se convirtió en duelo cuando corrió entre el ejército la noticia: «David está afligido por su hijo». Las tropas regresaron desmoralizadas a la ciudad, a escondidas y con la cabeza baja. El rey se cubría el rostro con las manos y se lamentaba en voz alta:\n¡Oh, hijo mío Absalón,\nAbsalón, mi querido, querido hijo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "2samuel19-msg-02",
+      "msg": {
+        "en": "But in private Joab rebuked the king: “Now you’ve done it—knocked the wind out of your loyal servants who have just saved your life, to say nothing of the lives of your sons and daughters, wives and concubines. What is this—loving those who hate you and hating those who love you? Your actions give a clear message: officers and soldiers mean nothing to you. You know that if Absalom were alive right now, we’d all be dead—would that make you happy? Get hold of yourself; get out there and put some heart into your servants! I swear to GOD that if you don’t go to them they’ll desert; not a soldier will be left here by nightfall. And that will be the worst thing that has happened yet.”",
+        "es": "Pero Joab reprendió al rey en privado: «Ahora sí lo has hecho: les quitaste todo ánimo a tus siervos leales, quienes acaban de salvarte la vida, además de salvar a tus hijos, hijas, esposas y concubinas. ¿Qué es esto de amar a quienes te odian y odiar a quienes te aman? Tus acciones dejan un mensaje claro: los oficiales y los soldados no significan nada para ti. Sabes que si Absalón estuviera vivo ahora y todos nosotros muertos, estarías contento. Recobra el dominio de ti mismo; sal y devuelve el ánimo a tus siervos. Juro por DIOS que, si no sales a recibirlos, te abandonarán y no quedará contigo un solo soldado esta noche. Eso será peor que todo lo que te ha sucedido hasta ahora»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8",
+      "id": "2samuel19-msg-03",
+      "msg": {
+        "en": "So the king came out and took his place at the city gate. Soon everyone knew: “Oh, look! The king has come out to receive us.” And his whole army came and presented itself to the king. But the Israelites had fled the field of battle and gone home.",
+        "es": "Entonces el rey salió y ocupó su lugar junto a la puerta de la ciudad. Pronto todos supieron: «¡Miren! El rey ha salido a recibirnos». Todo el ejército se presentó delante de él. Mientras tanto, los israelitas habían huido del campo de batalla y regresado a sus hogares."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "2samuel19-msg-04",
+      "msg": {
+        "en": "Meanwhile, the whole populace was now complaining to its leaders, “Wasn’t it the king who saved us time and again from our enemies, and rescued us from the Philistines? And now he has had to flee the country on account of Absalom. And now this Absalom whom we made king is dead in battle. So what are you waiting for? Why don’t you bring the king back?”",
+        "es": "Mientras tanto, el pueblo discutía con sus dirigentes: «¿No fue el rey quien nos salvó una y otra vez de nuestros enemigos y nos libró de los filisteos? Después tuvo que huir del país por causa de Absalón. Ahora Absalón, a quien hicimos rey, ha muerto en batalla. Entonces, ¿qué están esperando? ¿Por qué no hacen regresar al rey?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "2samuel19-msg-05",
+      "msg": {
+        "en": "When David heard what was being said, he sent word to Zadok and Abiathar, the priests, “Ask the elders of Judah, ‘Why are you so laggard in bringing the king back home? You’re my brothers! You’re my own flesh and blood! So why are you the last ones to bring the king back home?’ And tell Amasa, ‘You, too, are my flesh and blood. As God is my witness, I’m making you the permanent commander of the army in place of Joab.’”",
+        "es": "Cuando David oyó lo que se decía, envió este mensaje a los sacerdotes Sadoc y Abiatar: «Pregunten a los ancianos de Judá: “¿Por qué tardan tanto en hacer regresar al rey a su casa? ¡Ustedes son mis hermanos, mi propia carne y sangre! ¿Por qué habrían de ser los últimos en traer de vuelta al rey?”. Y digan a Amasa: “Tú también eres mi carne y sangre. Que Dios me castigue severamente si no te nombro comandante permanente del ejército en lugar de Joab”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14",
+      "id": "2samuel19-msg-06",
+      "msg": {
+        "en": "He captured the hearts of everyone in Judah. They were unanimous in sending for the king: “Come back, you and all your servants.”",
+        "es": "Así David conquistó el corazón de todos los hombres de Judá. Unánimes, enviaron a decir al rey: «Regresa con todos tus siervos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-14"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "15-18",
+      "id": "2samuel19-msg-07",
+      "msg": {
+        "en": "So the king returned. He arrived at the Jordan just as Judah reached Gilgal on their way to welcome the king and escort him across the Jordan. Even Shimei son of Gera, the Benjaminite from Bahurim, hurried down to join the men of Judah so he could welcome the king, a thousand Benjaminites with him. And Ziba, Saul’s steward, with his fifteen sons and twenty servants, waded across the Jordan to meet the king and brought his entourage across, doing whatever they could to make the king comfortable.",
+        "es": "El rey emprendió el regreso y llegó al Jordán cuando Judá alcanzaba Gilgal para recibirlo y acompañarlo al otro lado del río. Incluso Simei hijo de Gera, el benjamita de Bahurim, bajó apresuradamente con los hombres de Judá para dar la bienvenida al rey, acompañado por mil benjaminitas. También llegó Siba, administrador de la casa de Saúl, con sus quince hijos y veinte siervos. Cruzaron el Jordán para encontrarse con el rey, ayudaron a pasar a toda su comitiva e hicieron cuanto pudieron para atenderlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-17"
+        },
+        {
+          "clauseIds": [
+            "2samuel19-nbla-18a"
+          ],
+          "verseId": "2samuel19-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "2samuel19-msg-08",
+      "msg": {
+        "en": "Shimei son of Gera bowed deeply in homage to the king as soon as he was across the Jordan and said, “Don’t think badly of me, my master! Overlook my irresponsible outburst on the day my master the king left Jerusalem—don’t hold it against me! I know I sinned, but look at me now—the first of all the tribe of Joseph to come down and welcome back my master the king!”",
+        "es": "Simei hijo de Gera se inclinó profundamente ante el rey tan pronto este cruzó el Jordán y dijo: «¡No piense mal de mí, mi señor! Pase por alto mi arrebato irresponsable del día en que mi señor el rey salió de Jerusalén; no me lo tome en cuenta. Sé que pequé, pero míreme ahora: soy el primero de toda la casa de José que ha bajado a recibir a mi señor el rey»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-18b"
+          ],
+          "verseId": "2samuel19-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-20"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "21",
+      "id": "2samuel19-msg-09",
+      "msg": {
+        "en": "Abishai son of Zeruiah interrupted, “Enough of this! Shouldn’t we kill him outright? Why, he cursed GOD’s anointed!”",
+        "es": "Abisai hijo de Sarvia interrumpió: «¡Ya basta! ¿No deberíamos matarlo de una vez? ¡Maldijo al ungido de DIOS!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-21"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "22",
+      "id": "2samuel19-msg-10",
+      "msg": {
+        "en": "But David said, “What is it with you sons of Zeruiah? Why do you insist on being so contentious? Nobody is going to be killed today. I am again king over Israel!”",
+        "es": "Pero David respondió: «¿Qué sucede con ustedes, hijos de Sarvia? ¿Por qué insisten en ser tan hostiles? Hoy no se matará a nadie. ¡Yo vuelvo a ser rey de Israel!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-22"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "23",
+      "id": "2samuel19-msg-11",
+      "msg": {
+        "en": "Then the king turned to Shimei, “You’re not going to die.” And the king gave him his word.",
+        "es": "Entonces el rey se volvió hacia Simei: «No vas a morir». Y le dio su palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-23"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "2samuel19-msg-12",
+      "msg": {
+        "en": "Next Mephibosheth grandson of Saul arrived from Jerusalem to welcome the king. He hadn’t combed his hair or trimmed his beard or washed his clothes from the day the king left until the day he returned safe and sound. The king said, “And why didn’t you come with me, Mephibosheth?”",
+        "es": "Después Mefiboset, nieto de Saúl, llegó desde Jerusalén para recibir al rey. No se había aseado los pies, arreglado la barba ni lavado la ropa desde el día en que el rey partió hasta el día en que regresó sano y salvo. El rey preguntó: «¿Por qué no viniste conmigo, Mefiboset?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-25"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "26-28",
+      "id": "2samuel19-msg-13",
+      "msg": {
+        "en": "“My master the king,” he said, “my servant betrayed me. I told him to saddle my donkey so I could ride it and go with the king, for, as you know, I am lame. And then he lied to you about me. But my master the king has been like one of God’s angels: he knew what was right and did it. Wasn’t everyone in my father’s house doomed? But you took me in and gave me a place at your table. What more could I ever expect or ask?”",
+        "es": "«Mi señor el rey —respondió—, mi siervo me traicionó. Le dije que ensillara mi asno para poder montarlo e ir con el rey, pues, como sabes, soy inválido. Después él te mintió acerca de mí. Pero mi señor el rey es como uno de los ángeles de Dios: sabe lo que es justo y lo hace. ¿No estaba condenada toda la casa de mi padre? Sin embargo, me recibiste y me diste un lugar en tu mesa. ¿Qué más podría esperar o pedir?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-28"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "29",
+      "id": "2samuel19-msg-14",
+      "msg": {
+        "en": "“That’s enough,” said the king. “Say no more. Here’s my decision: You and Ziba divide the property between you.”",
+        "es": "«Es suficiente —dijo el rey—. No digas más. Esta es mi decisión: tú y Siba se repartirán las propiedades»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-29"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "30",
+      "id": "2samuel19-msg-15",
+      "msg": {
+        "en": "Mephibosheth said, “Oh, let him have it all! All I care about is that my master the king is home safe and sound!”",
+        "es": "Mefiboset respondió: «¡Que él se quede con todo! Lo único que me importa es que mi señor el rey haya regresado sano y salvo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-30"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "2samuel19-msg-16",
+      "msg": {
+        "en": "Barzillai the Gileadite had come down from Rogelim. He crossed the Jordan with the king to give him a good send-off. Barzillai was a very old man—eighty years old! He had supplied the king’s needs all the while he was in Mahanaim since he was very wealthy.",
+        "es": "Barzilai el galaadita había bajado desde Rogelim. Cruzó el Jordán con el rey para despedirlo debidamente. Barzilai era un hombre muy anciano, de ochenta años. Como poseía grandes recursos, había suplido las necesidades del rey durante toda su permanencia en Mahanaim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-32"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "33",
+      "id": "2samuel19-msg-17",
+      "msg": {
+        "en": "“Join me in Jerusalem,” the king said to Barzillai. “Let me take care of you.”",
+        "es": "«Ven conmigo a Jerusalén —dijo el rey a Barzilai—. Permíteme cuidar de ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-33"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "34-37",
+      "id": "2samuel19-msg-18",
+      "msg": {
+        "en": "But Barzillai declined the offer, “How long do you think I’d live if I went with the king to Jerusalem? I’m eighty years old and not much good anymore to anyone. Can’t taste food; can’t hear music. So why add to the burdens of my master the king? I’ll just go a little way across the Jordan with the king. But why would the king need to make a great thing of that? Let me go back and die in my hometown and be buried with my father and mother. But my servant Kimham here; let him go with you in my place. But treat him well!”",
+        "es": "Pero Barzilai rechazó la oferta: «¿Cuánto tiempo cree que viviría si fuera con el rey a Jerusalén? Tengo ochenta años y ya no soy de mucha utilidad para nadie. No puedo saborear la comida ni escuchar la música. ¿Por qué añadir otra carga a mi señor el rey? Solo acompañaré al rey un corto trayecto al otro lado del Jordán. ¿Por qué tendría que hacer el rey algo extraordinario por eso? Déjame regresar, morir en mi pueblo y ser sepultado junto a mi padre y mi madre. Pero aquí está mi siervo Quimam; que él vaya contigo en mi lugar. ¡Trátalo bien!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-37"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "38",
+      "id": "2samuel19-msg-19",
+      "msg": {
+        "en": "The king said, “That’s settled; Kimham goes with me. And I will treat him well! If you think of anything else, I’ll do that for you, too.”",
+        "es": "El rey respondió: «Queda acordado: Quimam vendrá conmigo y lo trataré bien. Si deseas cualquier otra cosa, también la haré por ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-38"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "39-40",
+      "id": "2samuel19-msg-20",
+      "msg": {
+        "en": "The army crossed the Jordan but the king stayed. The king kissed and blessed Barzillai, who then returned home. Then the king, Kimham with him, crossed over at Gilgal.",
+        "es": "El ejército cruzó el Jordán, pero el rey se detuvo. David besó y bendijo a Barzilai, quien regresó a su casa. Después el rey cruzó en Gilgal acompañado por Quimam."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-39"
+        },
+        {
+          "clauseIds": [
+            "2samuel19-nbla-40a"
+          ],
+          "verseId": "2samuel19-nbla-40"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "40-41",
+      "id": "2samuel19-msg-21",
+      "msg": {
+        "en": "The whole army of Judah and half the army of Israel processed with the king. The men of Israel came to the king and said, “Why have our brothers, the men of Judah, taken over as if they owned the king, escorting the king and his family and close associates across the Jordan?”",
+        "es": "Todo el ejército de Judá y la mitad del ejército de Israel avanzaron en procesión con el rey. Los hombres de Israel se acercaron y reclamaron: «¿Por qué nuestros hermanos de Judá se han apoderado del rey como si fuera propiedad suya, acompañándolo al otro lado del Jordán con su familia y sus allegados?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel19-nbla-40b"
+          ],
+          "verseId": "2samuel19-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-41"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "42",
+      "id": "2samuel19-msg-22",
+      "msg": {
+        "en": "The men of Judah retorted, “Because the king is related to us, that’s why! But why make a scene? You don’t see us getting treated special because of it, do you?”",
+        "es": "Los hombres de Judá replicaron: «¡Porque el rey es pariente nuestro! ¿Por qué arman semejante alboroto? No nos han dado comida ni un trato especial por hacerlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-42"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "43",
+      "id": "2samuel19-msg-23",
+      "msg": {
+        "en": "The men of Israel shot back, “We have ten shares in the king to your one. Besides we’re the firstborn—so why are we having to play second fiddle? It was our idea to bring him back.”\nBut the men of Judah took a harder line than the men of Israel.",
+        "es": "Los hombres de Israel respondieron: «Nosotros tenemos diez partes en el rey frente a la de ustedes. Además, somos los primogénitos. ¿Por qué tenemos que quedar en segundo plano? La idea de hacerlo regresar fue nuestra». Pero los hombres de Judá hablaron con mayor dureza que los hombres de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel19-nbla-43"
+        }
+      ],
+      "order": 23
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2samuel19-nbla-01",
+      "number": 1,
+      "text": "Entonces dieron aviso a Joab: «El rey está llorando y se lamenta por Absalón»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-02a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "2samuel19-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la victoria aquel día se convirtió en duelo"
+        },
+        {
+          "id": "2samuel19-nbla-02c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para todo el pueblo, porque el pueblo oyó decir aquel día: «El rey está entristecido por su hijo»."
+        }
+      ],
+      "id": "2samuel19-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "2samuel19-nbla-03",
+      "number": 3,
+      "text": "Aquel día el pueblo entró calladamente en la ciudad, como pueblo que humillado, entra a escondidas cuando huye de la batalla."
+    },
+    {
+      "id": "2samuel19-nbla-04",
+      "number": 4,
+      "text": "Y el rey con su rostro cubierto, clamaba en alta voz: «¡Oh hijo mío Absalón, oh Absalón, hijo mío, hijo mío!»."
+    },
+    {
+      "id": "2samuel19-nbla-05",
+      "number": 5,
+      "text": "Entonces Joab entró en la casa del rey, y dijo: «Hoy usted ha cubierto de vergüenza el rostro de todos sus siervos que han salvado hoy su vida, la vida de sus hijos e hijas, la vida de sus mujeres y la vida de sus concubinas,"
+    },
+    {
+      "id": "2samuel19-nbla-06",
+      "number": 6,
+      "text": "al amar a aquellos que lo odian y al odiar a aquellos que lo aman. Pues hoy ha demostrado que príncipes y siervos no son nada para usted; porque ahora en este día sé que si Absalón estuviera vivo y todos nosotros hoy estuviéramos muertos, entonces usted estaría complacido."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-07a",
+          "order": 1,
+          "text": "Ahora pues, levántese,"
+        },
+        {
+          "id": "2samuel19-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "salga y hable bondadosamente a sus siervos"
+        },
+        {
+          "id": "2samuel19-nbla-07c",
+          "order": 3,
+          "text": ", porque juro por el SEÑOR que si no sale, ciertamente ni un solo hombre pasará la noche con usted, y esto le será peor que todo el mal que ha venido sobre usted desde su juventud hasta ahora»."
+        }
+      ],
+      "id": "2samuel19-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-08a",
+          "order": 1,
+          "text": "Entonces"
+        },
+        {
+          "id": "2samuel19-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el rey se levantó y se sentó a la puerta"
+        },
+        {
+          "id": "2samuel19-nbla-08c",
+          "order": 3,
+          "text": ". Y cuando avisaron a todo el pueblo, diciendo: «Miren, el rey está sentado a la puerta», entonces todo el pueblo vino delante del rey.\nPero los de Israel habían huido, cada uno a su tienda."
+        }
+      ],
+      "id": "2samuel19-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "2samuel19-nbla-09",
+      "number": 9,
+      "text": "Y todo el pueblo reñía en todas las tribus de Israel, diciendo: «El rey nos ha librado de mano de nuestros enemigos y nos ha salvado de mano de los filisteos, pero ahora ha huido de la tierra por causa de Absalón."
+    },
+    {
+      "id": "2samuel19-nbla-10",
+      "number": 10,
+      "text": "Sin embargo, Absalón, a quien ungimos sobre nosotros, ha muerto en combate. Ahora pues, ¿por qué guardan silencio respecto a restaurar al rey?»."
+    },
+    {
+      "id": "2samuel19-nbla-11",
+      "number": 11,
+      "text": "Entonces el rey David envió mensaje a los sacerdotes Sadoc y Abiatar y dijo: «Hablen a los ancianos de Judá, y díganles: “¿Por qué son los últimos en hacer volver al rey a su casa, ya que la palabra de todo Israel ha llegado al rey, a su casa?"
+    },
+    {
+      "id": "2samuel19-nbla-12",
+      "number": 12,
+      "text": "Ustedes son mis hermanos; mi hueso y mi carne son. ¿Por qué, pues, son los últimos en hacer volver al rey?”."
+    },
+    {
+      "id": "2samuel19-nbla-13",
+      "number": 13,
+      "text": "Y díganle a Amasa: “¿No eres hueso mío y carne mía? Así haga Dios conmigo y aun más si no has de ser comandante del ejército delante de mí para siempre en lugar de Joab”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-14a",
+          "order": 1,
+          "text": "Así"
+        },
+        {
+          "id": "2samuel19-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "inclinó el corazón de todos los hombres de Judá como el de un solo hombre"
+        },
+        {
+          "id": "2samuel19-nbla-14c",
+          "order": 3,
+          "text": ", y enviaron palabra al rey, diciendo: «Regresa, tú y todos tus siervos»."
+        }
+      ],
+      "id": "2samuel19-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2samuel19-nbla-15",
+      "number": 15,
+      "text": "Volvió el rey y llegó hasta el Jordán. Y Judá vino a Gilgal para ir al encuentro del rey, para conducir al rey al otro lado del Jordán."
+    },
+    {
+      "id": "2samuel19-nbla-16",
+      "number": 16,
+      "text": "Entonces Simei, hijo de Gera, el benjamita que era de Bahurim, se dio prisa y descendió con los hombres de Judá al encuentro del rey David."
+    },
+    {
+      "id": "2samuel19-nbla-17",
+      "number": 17,
+      "text": "Con él había 1,000 hombres de Benjamín, y Siba, siervo de la casa de Saúl, y con él sus quince hijos y sus veinte siervos; y se apresuraron a pasar el Jordán delante del rey."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-18a",
+          "order": 1,
+          "text": "Y seguían cruzando el vado para pasar a toda la casa del rey, y hacer lo que le pareciera bien."
+        },
+        {
+          "id": "2samuel19-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y Simei, hijo de Gera, se postró ante el rey cuando este iba a pasar el Jordán."
+        }
+      ],
+      "id": "2samuel19-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "2samuel19-nbla-19",
+      "number": 19,
+      "text": "Y dijo al rey: «No me considere culpable mi señor, ni se acuerde del mal que su siervo hizo el día en que mi señor el rey salió de Jerusalén. Que el rey no lo guarde en su corazón."
+    },
+    {
+      "id": "2samuel19-nbla-20",
+      "number": 20,
+      "text": "Pues yo su siervo reconozco que he pecado; por tanto, hoy he venido, el primero de toda la casa de José, para descender al encuentro de mi señor el rey»."
+    },
+    {
+      "id": "2samuel19-nbla-21",
+      "number": 21,
+      "text": "Pero Abisai, hijo de Sarvia, respondió: «¿No ha de morir Simei por esto, porque maldijo al ungido del SEÑOR?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-22a",
+          "order": 1,
+          "text": "Entonces David dijo: «¿Qué tengo yo que ver con ustedes, hijos de Sarvia, para que en este día me sean adversarios?"
+        },
+        {
+          "id": "2samuel19-nbla-22b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿Ha de morir hoy hombre alguno en Israel?"
+        },
+        {
+          "id": "2samuel19-nbla-22c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "¿Acaso no sé que hoy soy rey sobre Israel?»."
+        }
+      ],
+      "id": "2samuel19-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "2samuel19-nbla-23",
+      "number": 23,
+      "text": "Y el rey dijo a Simei: «No morirás». Así el rey se lo juró."
+    },
+    {
+      "id": "2samuel19-nbla-24",
+      "number": 24,
+      "text": "También Mefiboset, nieto de Saúl, descendió al encuentro del rey; y no se había aseado los pies, ni recortado el bigote, ni lavado la ropa, desde el día en que el rey se marchó hasta el día en que volvió en paz."
+    },
+    {
+      "id": "2samuel19-nbla-25",
+      "number": 25,
+      "text": "Y cuando vino de Jerusalén al encuentro del rey, este le dijo: «¿Por qué no fuiste conmigo, Mefiboset?»."
+    },
+    {
+      "id": "2samuel19-nbla-26",
+      "number": 26,
+      "text": "Y él respondió: «Oh rey, señor mío, mi siervo me engañó; pues su siervo se dijo: “Me aparejaré un asno para montar en él e ir con el rey”, porque su siervo es cojo."
+    },
+    {
+      "id": "2samuel19-nbla-27",
+      "number": 27,
+      "text": "Además, ha calumniado a su siervo ante mi señor el rey; pero mi señor el rey es como el ángel de Dios; haga, pues, lo que le parezca bien."
+    },
+    {
+      "id": "2samuel19-nbla-28",
+      "number": 28,
+      "text": "Porque toda la casa de mi padre no era más que hombres muertos ante mi señor el rey. Con todo, puso a su siervo entre los que comían a su propia mesa. ¿Qué derecho tengo todavía para quejarme más al rey?»."
+    },
+    {
+      "id": "2samuel19-nbla-29",
+      "number": 29,
+      "text": "Y el rey le dijo: «¿Por qué sigues hablando de tus asuntos? Yo he decidido: “Tú y Siba se repartirán las tierras”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-30a",
+          "order": 1,
+          "text": "«Que él las tome todas,"
+        },
+        {
+          "id": "2samuel19-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ya que mi señor el rey ha vuelto en paz a su propia casa"
+        },
+        {
+          "id": "2samuel19-nbla-30c",
+          "order": 3,
+          "text": "», dijo Mefiboset al rey."
+        }
+      ],
+      "id": "2samuel19-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "2samuel19-nbla-31",
+      "number": 31,
+      "text": "Barzilai el galaadita también había descendido de Rogelim, y había cruzado el Jordán con el rey para despedirlo en el Jordán."
+    },
+    {
+      "id": "2samuel19-nbla-32",
+      "number": 32,
+      "text": "Barzilai era muy anciano, de ochenta años, y había dado provisiones al rey mientras este permanecía en Mahanaim, porque era hombre muy poderoso."
+    },
+    {
+      "id": "2samuel19-nbla-33",
+      "number": 33,
+      "text": "Y el rey dijo a Barzilai: «Pasa conmigo y yo te sustentaré junto a mí en Jerusalén»."
+    },
+    {
+      "id": "2samuel19-nbla-34",
+      "number": 34,
+      "text": "Pero Barzilai respondió al rey: «¿Cuánto tiempo me queda de vida para que yo suba con el rey a Jerusalén?"
+    },
+    {
+      "id": "2samuel19-nbla-35",
+      "number": 35,
+      "text": "Ahora tengo ochenta años. ¿Puedo distinguir entre lo bueno y lo malo? ¿Puede su siervo saborear lo que come o bebe? ¿Puede oír aún la voz de los cantores o de las cantoras? ¿Por qué, pues, ha de ser su siervo otra carga más para mi señor el rey?"
+    },
+    {
+      "id": "2samuel19-nbla-36",
+      "number": 36,
+      "text": "Su siervo no haría más que pasar el Jordán con el rey. ¿Por qué ha de concederme el rey esta recompensa?"
+    },
+    {
+      "id": "2samuel19-nbla-37",
+      "number": 37,
+      "text": "Permita que su siervo vuelva, para morir en mi ciudad junto al sepulcro de mi padre y de mi madre. Sin embargo, aquí tiene a su siervo Quimam; que pase él con mi señor el rey, y haz por él lo que le parezca bien»."
+    },
+    {
+      "id": "2samuel19-nbla-38",
+      "number": 38,
+      "text": "Y el rey respondió: «Quimam pasará conmigo, y haré por él lo que te parezca bien; y todo lo que me pidas, lo haré por ti»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-39a",
+          "order": 1,
+          "text": "Todo el pueblo pasó el Jordán y el rey también pasó. Entonces"
+        },
+        {
+          "id": "2samuel19-nbla-39b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el rey besó a Barzilai y lo bendijo"
+        },
+        {
+          "id": "2samuel19-nbla-39c",
+          "order": 3,
+          "text": ", y este regresó a su lugar."
+        }
+      ],
+      "id": "2samuel19-nbla-39",
+      "number": 39
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel19-nbla-40a",
+          "order": 1,
+          "text": "El rey siguió hasta Gilgal y Quimam fue con él;"
+        },
+        {
+          "id": "2samuel19-nbla-40b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y todo el pueblo de Judá y también la mitad del pueblo de Israel acompañaban al rey."
+        }
+      ],
+      "id": "2samuel19-nbla-40",
+      "number": 40
+    },
+    {
+      "id": "2samuel19-nbla-41",
+      "number": 41,
+      "text": "Y todos los hombres de Israel vinieron al rey y le dijeron: «¿Por qué te han secuestrado nuestros hermanos, los hombres de Judá, y han hecho pasar el Jordán al rey y a su casa, y a todos los hombres de David con él?»."
+    },
+    {
+      "id": "2samuel19-nbla-42",
+      "number": 42,
+      "text": "Entonces todos los hombres de Judá respondieron a los hombres de Israel: «Porque el rey es pariente cercano nuestro. ¿Por qué, pues, están enojados por esto? ¿Acaso hemos comido algo a costa del rey, o se nos ha dado algo?»."
+    },
+    {
+      "id": "2samuel19-nbla-43",
+      "number": 43,
+      "text": "Pero los hombres de Israel respondieron a los hombres de Judá: «Nosotros tenemos diez partes en el rey, y por eso también tenemos más derecho que ustedes sobre David. ¿Por qué, pues, nos han despreciado? ¿No fue nuestro consejo el primero que se dio para hacer volver a nuestro rey?». Pero las palabras de los hombres de Judá fueron más duras que las palabras de los hombres de Israel."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

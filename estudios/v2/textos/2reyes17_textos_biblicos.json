@@ -1,0 +1,814 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La caída tiene factores militares y políticos, pero el narrador revela la raíz del pacto. Israel pecó contra su Libertador. La frase no autoriza atribuir toda migración o derrota moderna a un pecado específico; interpreta este acontecimiento dentro de la palabra dada a Israel.",
+      "id": "2reyes17-joya-01",
+      "msg": {
+        "en": "“The exile came about because of sin”",
+        "es": "«El exilio ocurrió a causa del pecado»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-07a"
+          ],
+          "verseId": "2reyes17-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "7-12"
+    },
+    {
+      "explanation": "Antes del exilio hubo llamados repetidos a volver. La voz profética no anuncia fatalismo; busca arrepentimiento. Dios recuerda mandamientos conocidos y ofrece tiempo para cambiar el rumbo antes de que el camino madure en destrucción.",
+      "id": "2reyes17-joya-02",
+      "msg": {
+        "en": "“Turn away from your evil way of life.”",
+        "es": "«Apártense de su mala manera de vivir»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-13b"
+          ],
+          "verseId": "2reyes17-nbla-13"
+        }
+      ],
+      "order": 2,
+      "range": "13"
+    },
+    {
+      "explanation": "Los ídolos forman a quienes los siguen. La frase describe futilidad espiritual, no pérdida de dignidad humana. Israel entrega su vida a poderes vacíos y termina reflejando su incapacidad para dar verdad, libertad o futuro.",
+      "id": "2reyes17-joya-03",
+      "msg": {
+        "en": "“They lived a ‘nothing’ life and became ‘nothings’”",
+        "es": "«Siguieron la nada y se convirtieron en nada»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-15b"
+          ],
+          "verseId": "2reyes17-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "14-15"
+    },
+    {
+      "explanation": "El juicio no llega como capricho inesperado. La predicación profética muestra paciencia y responsabilidad. Dios habló durante generaciones; el pueblo tuvo oportunidades reales de escuchar y prefirió conservar el camino de Jeroboam.",
+      "id": "2reyes17-joya-04",
+      "msg": {
+        "en": "“He had given them fair warning, and plenty of time”",
+        "es": "«Había dado advertencias claras y tiempo abundante»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-23b"
+          ],
+          "verseId": "2reyes17-nbla-23"
+        }
+      ],
+      "order": 4,
+      "range": "21-23"
+    },
+    {
+      "explanation": "La instrucción religiosa por sí sola no produce fidelidad. El sacerdote enseña en Betel, centro del antiguo culto rival, y los pueblos añaden la nueva información a sus prácticas. Conocer una costumbre no equivale a entrar en obediencia de pacto.",
+      "id": "2reyes17-joya-05",
+      "msg": {
+        "en": "“He taught them how to honor and worship GOD.”",
+        "es": "«Les enseñó cómo honrar y adorar a DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-28b"
+          ],
+          "verseId": "2reyes17-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "28"
+    },
+    {
+      "explanation": "El problema se expresa en una conjunción: «pero». El Señor recibe cierta reverencia mientras los ídolos conservan servicio y lealtad. El narrador niega que esa mezcla sea verdadero temor de Dios.",
+      "id": "2reyes17-joya-06",
+      "msg": {
+        "en": "“They honored and worshiped GOD, but not exclusively”",
+        "es": "«Honraban y adoraban a DIOS, pero no exclusivamente»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-33a"
+          ],
+          "verseId": "2reyes17-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "32-33"
+    },
+    {
+      "explanation": "La costumbre puede resistir incluso después de instrucción, peligro y traslado. Lo familiar adquiere fuerza formativa y pasa a hijos y nietos. La conversión bíblica requiere más que agregar una práctica; demanda abandonar la lealtad anterior.",
+      "id": "2reyes17-joya-07",
+      "msg": {
+        "en": "“They kept doing what they’d always done.”",
+        "es": "«Continuaron haciendo lo de siempre»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes17-nbla-40b"
+          ],
+          "verseId": "2reyes17-nbla-40"
+        }
+      ],
+      "order": 7,
+      "range": "40-41"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 17,
+    "studyId": "2reyes-17"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2reyes17-msg-01",
+      "msg": {
+        "en": "In the twelfth year of Ahaz king of Judah, Hoshea son of Elah became king of Israel. He ruled in Samaria for nine years. As far as GOD was concerned, he lived a bad life, but not nearly as bad as the kings who had preceded him.",
+        "es": "En el año doce de Acaz, rey de Judá, Oseas hijo de Ela comenzó a reinar en Israel. Gobernó en Samaria durante nueve años. Ante DIOS vivió una vida mala, aunque no tan mala como la de los reyes que lo precedieron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "2reyes17-msg-02",
+      "msg": {
+        "en": "Then Shalmaneser king of Assyria attacked. Hoshea was already a puppet of the Assyrian king and regularly sent him tribute, but Shalmaneser discovered that Hoshea had been operating traitorously behind his back—having worked out a deal with King So of Egypt. And, adding insult to injury, Hoshea was way behind on his annual payments of tribute to Assyria. So the king of Assyria arrested him and threw him in prison, then proceeded to invade the entire country. He attacked Samaria and threw up a siege against it. The siege lasted three years.",
+        "es": "Entonces Salmanasar, rey de Asiria, atacó. Oseas ya era vasallo del rey asirio y le enviaba tributo con regularidad, pero Salmanasar descubrió que actuaba a sus espaldas y había negociado con So, rey de Egipto. Además, Oseas dejó de pagar el tributo anual. El rey de Asiria lo arrestó y lo encerró en prisión; luego invadió todo el país, atacó Samaria y la sitió durante tres años."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6",
+      "id": "2reyes17-msg-03",
+      "msg": {
+        "en": "In the ninth year of Hoshea’s reign the king of Assyria captured Samaria and took the people into exile in Assyria. He relocated them in Halah, in Gozan along the Habor River, and in the towns of the Medes.",
+        "es": "En el año noveno del reinado de Oseas, el rey de Asiria capturó Samaria y llevó al pueblo al exilio en Asiria. Los reubicó en Halah, en Gozán junto al río Habor y en las ciudades de los medos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-12",
+      "id": "2reyes17-msg-04",
+      "msg": {
+        "en": "The exile came about because of sin: The children of Israel sinned against GOD, their God, who had delivered them from Egypt and the brutal oppression of Pharaoh king of Egypt. They took up with other gods, fell in with the ways of life of the pagan nations GOD had chased off, and went along with whatever their kings did. They did all kinds of things on the sly, things offensive to their GOD, then openly and shamelessly built local sex-and-religion shrines at every available site. They set up their sex-and-religion symbols at practically every crossroads. Everywhere you looked there was smoke from their pagan offerings to the deities—the identical offerings that had gotten the pagan nations off into exile. They had accumulated a long list of evil actions and GOD was fed up, fed up with their persistent worship of gods carved out of deadwood or shaped out of clay, even though GOD had plainly said, “Don’t do this—ever!”",
+        "es": "El exilio ocurrió a causa del pecado. Los israelitas pecaron contra DIOS, su Dios, quien los había librado de Egipto y de la brutal opresión del faraón. Se unieron a otros dioses, adoptaron la manera de vivir de las naciones que DIOS había expulsado y siguieron las prácticas introducidas por sus reyes. A escondidas hicieron cosas ofensivas contra su DIOS y luego levantaron abierta y descaradamente santuarios locales de fertilidad en toda clase de lugares. Erigieron símbolos idolátricos por todas partes. Dondequiera que se miraba había humo de ofrendas paganas, las mismas prácticas que habían llevado al exilio a las naciones anteriores. Acumularon una larga lista de malas acciones y DIOS se cansó de su adoración persistente a dioses tallados en madera muerta o moldeados en barro, aunque había dicho con claridad: «¡No hagan esto jamás!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-12"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "13",
+      "id": "2reyes17-msg-05",
+      "msg": {
+        "en": "GOD had taken a stand against Israel and Judah, speaking clearly through countless holy prophets and seers time and time again, “Turn away from your evil way of life. Do what I tell you and have been telling you in The Revelation I gave your ancestors and of which I’ve kept reminding you ever since through my servants the prophets.”",
+        "es": "DIOS había amonestado a Israel y Judá, hablando con claridad una y otra vez por medio de numerosos profetas y videntes: «Apártense de su mala manera de vivir. Hagan lo que les ordeno y lo que les he venido diciendo en la revelación que di a sus antepasados y que he continuado recordándoles por medio de mis siervos los profetas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "2reyes17-msg-06",
+      "msg": {
+        "en": "But they wouldn’t listen. If anything, they were even more bullheaded than their stubborn ancestors, if that’s possible. They were contemptuous of his instructions, the solemn and holy covenant he had made with their ancestors, and of his repeated reminders and warnings. They lived a “nothing” life and became “nothings”—just like the pagan peoples all around them. They were well-warned: GOD said, “Don’t!” but they did it anyway.",
+        "es": "Pero no quisieron escuchar. Se volvieron incluso más tercos que sus obstinados antepasados. Despreciaron Sus instrucciones, el pacto solemne y santo que había hecho con sus padres y Sus repetidos recordatorios y advertencias. Siguieron la nada y se convirtieron en nada, igual que los pueblos paganos que los rodeaban. Habían sido advertidos: DIOS dijo «¡No!», pero lo hicieron de todos modos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "2reyes17-msg-07",
+      "msg": {
+        "en": "They threw out everything GOD, their God, had told them, and replaced him with two statue-gods shaped like bull-calves and then a phallic pole for the whore goddess Asherah. They worshiped cosmic forces—sky gods and goddesses—and frequented the sex-and-religion shrines of Baal. They even sank so low as to offer their own sons and daughters as sacrificial burnt offerings! They indulged in all the black arts of magic and sorcery. In short, they prostituted themselves to every kind of evil available to them. And GOD had had enough.",
+        "es": "Desecharon todo lo que DIOS, su Dios, les había ordenado y lo reemplazaron con dos imágenes en forma de becerros y un poste de Asera. Adoraron las fuerzas del cielo y frecuentaron los santuarios de Baal. Cayeron tan bajo que ofrecieron a sus propios hijos e hijas como sacrificios quemados. Practicaron la adivinación y la hechicería. En resumen, se entregaron a toda clase de mal disponible. Y DIOS había llegado al límite."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "2reyes17-msg-08",
+      "msg": {
+        "en": "GOD was so thoroughly angry that he got rid of them, got them out of the country for good until only one tribe was left—Judah. (Judah, actually, wasn’t much better, for Judah also failed to keep GOD’s commands, falling into the same way of life that Israel had adopted.) GOD rejected everyone connected with Israel, made life hard for them, and permitted anyone with a mind to exploit them to do so. And then this final No as he threw them out of his sight.",
+        "es": "DIOS se indignó de tal manera que los quitó del país hasta que solo quedó una tribu: Judá. En realidad, Judá tampoco estaba mucho mejor, porque no guardó los mandamientos de DIOS y siguió la misma manera de vivir que Israel había adoptado. DIOS rechazó a los descendientes de Israel, los afligió y permitió que los saqueadores los explotaran. Finalmente los arrojó de Su presencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-20"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "2reyes17-msg-09",
+      "msg": {
+        "en": "Back at the time that God ripped Israel out of their place in the family of David, they had made Jeroboam son of Nebat king. Jeroboam debauched Israel—turned them away from serving GOD and led them into a life of total sin. The children of Israel went along with all the sins that Jeroboam did, never murmured so much as a word of protest. In the end, GOD spoke a final No to Israel and turned his back on them. He had given them fair warning, and plenty of time, through the preaching of all his servants the prophets. Then he exiled Israel from her land to Assyria. And that’s where they are now.",
+        "es": "Cuando Dios separó a Israel de la casa de David, el pueblo hizo rey a Jeroboam hijo de Nabat. Jeroboam corrompió a Israel, lo apartó de servir a DIOS y lo condujo a una vida de pecado completo. Los israelitas siguieron todos sus pecados sin apartarse de ellos. Al final, DIOS pronunció un no definitivo sobre Israel y lo quitó de Su presencia. Había dado advertencias claras y tiempo abundante por medio de Sus siervos los profetas. Entonces llevó a Israel de su tierra al exilio en Asiria, donde permanece hasta hoy."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-23"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "2reyes17-msg-10",
+      "msg": {
+        "en": "The king of Assyria brought in people from Babylon, Cuthah, Avva, Hamath, and Sepharvaim, and relocated them in the towns of Samaria, replacing the exiled Israelites. They moved in as if they owned the place and made themselves at home. When the Assyrians first moved in, GOD was just another god to them; they neither honored nor worshiped him. Then GOD sent lions among them and people were mauled and killed.",
+        "es": "El rey de Asiria trajo gente de Babilonia, Cuta, Ava, Hamat y Sefarvaim y la reubicó en las ciudades de Samaria para reemplazar a los israelitas exiliados. Tomaron posesión y se establecieron. Al principio, DIOS era para ellos simplemente otro dios; no lo honraban ni lo adoraban. Entonces DIOS envió leones y algunas personas fueron atacadas y murieron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-25"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "26",
+      "id": "2reyes17-msg-11",
+      "msg": {
+        "en": "This message was then sent back to the king of Assyria: “The people you brought in to occupy the towns of Samaria don’t know what’s expected of them from the god of the land, and now he’s sent lions and they’re killing people right and left because nobody knows what the god of the land expects of them.”",
+        "es": "Entonces enviaron este mensaje al rey de Asiria: «Los pueblos que llevaste a las ciudades de Samaria no conocen lo que espera de ellos el dios de la tierra. Por eso envió leones que los están matando, pues nadie conoce las exigencias del dios de la tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-26"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "27",
+      "id": "2reyes17-msg-12",
+      "msg": {
+        "en": "The king of Assyria ordered, “Send back some priests who were taken into exile from there. They can go back and live there and instruct the people in what the god of the land expects of them.”",
+        "es": "El rey de Asiria ordenó: «Hagan regresar a uno de los sacerdotes que llevaron al exilio. Que vuelva a vivir allí y enseñe al pueblo lo que el dios de la tierra espera de ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28",
+      "id": "2reyes17-msg-13",
+      "msg": {
+        "en": "One of the priests who had been exiled from Samaria came back and moved into Bethel. He taught them how to honor and worship GOD.",
+        "es": "Uno de los sacerdotes exiliados de Samaria regresó y se estableció en Betel. Les enseñó cómo honrar y adorar a DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-28"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "2reyes17-msg-14",
+      "msg": {
+        "en": "But each people that Assyria had settled went ahead anyway making its own gods and setting them up in the neighborhood sex-and-religion shrines that the citizens of Samaria had left behind—a local custom-made god for each people:\nfor Babylon, Succoth Benoth;\nfor Cuthah, Nergal;\nfor Hamath, Ashima;\nfor Avva, Nibhaz and Tartak;\nfor Sepharvaim, Adrammelech and Anammelech (people burned their children in sacrificial offerings to these gods!).",
+        "es": "Pero cada pueblo establecido por Asiria continuó fabricando sus propios dioses y los colocó en los santuarios locales que los habitantes de Samaria habían dejado: un dios hecho a la medida de cada nación. Babilonia hizo a Sucot Benot; Cuta, a Nergal; Hamat, a Asima; Ava, a Nibhaz y Tartac; y Sefarvaim, a Adramelec y Anamelec. A estos últimos les quemaban sus hijos como ofrendas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-31"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "2reyes17-msg-15",
+      "msg": {
+        "en": "They honored and worshiped GOD, but not exclusively—they also appointed all sorts of priests, regardless of qualification, to conduct a variety of rites at the local fertility shrines. They honored and worshiped GOD, but they also kept up their devotions to the old gods of the places they had come from.",
+        "es": "Honraban y adoraban a DIOS, pero no exclusivamente. También nombraron toda clase de sacerdotes, sin atender a sus requisitos, para realizar diversos ritos en los santuarios locales. Honraban y adoraban a DIOS, pero mantenían su devoción a los antiguos dioses de los lugares de donde procedían."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-33"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "34-39",
+      "id": "2reyes17-msg-16",
+      "msg": {
+        "en": "And they’re still doing it, still worshiping any old god that has nostalgic appeal to them. They don’t really worship GOD—they don’t take seriously what he says regarding how to behave and what to believe, what he revealed to the children of Jacob whom he named Israel. GOD made a covenant with his people and ordered them, “Don’t honor other gods: Don’t worship them, don’t serve them, don’t offer sacrifices to them. Worship GOD, the God who delivered you from Egypt in great and personal power. Reverence and fear him. Worship him. Sacrifice to him. And only him! All the things he had written down for you, directing you in what to believe and how to behave—well, do them for as long as you live. And whatever you do, don’t worship other gods! And the covenant he made with you, don’t forget your part in that. And don’t worship other gods! Worship GOD, and GOD only—he’s the one who will save you from enemy oppression.”",
+        "es": "Y todavía continuaban haciéndolo, adorando cualquier dios antiguo que despertara nostalgia. En realidad no adoraban a DIOS, porque no tomaban en serio lo que Él decía sobre cómo vivir y qué creer, lo que había revelado a los hijos de Jacob, a quien llamó Israel. DIOS hizo pacto con Su pueblo y ordenó: «No honren a otros dioses; no los adoren, no les sirvan ni les ofrezcan sacrificios. Adoren a DIOS, quien los sacó de Egipto con gran poder. Revérenlo y témanlo; adórenlo y ofrézcanle sacrificios solo a Él. Cumplan durante toda la vida las instrucciones que dejó por escrito. No adoren a otros dioses ni olviden el pacto. Adoren únicamente a DIOS; Él los salvará de la opresión enemiga»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-39"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "40-41",
+      "id": "2reyes17-msg-17",
+      "msg": {
+        "en": "But they didn’t pay any attention. They kept doing what they’d always done. As it turned out, all the time these people were putting on a front of worshiping GOD, they were at the same time involved with their local idols. And they’re still doing it. Like father, like son.",
+        "es": "Pero no prestaron atención. Continuaron haciendo lo de siempre. Mientras aparentaban adorar a DIOS, seguían involucrados con sus ídolos locales. Y todavía lo hacen: de padres a hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes17-nbla-41"
+        }
+      ],
+      "order": 17
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes17-nbla-01",
+      "number": 1,
+      "text": "En el año doce de Acaz, rey de Judá, Oseas, hijo de Ela, comenzó a reinar sobre Israel en Samaria, y reinó nueve años."
+    },
+    {
+      "id": "2reyes17-nbla-02",
+      "number": 2,
+      "text": "Hizo lo malo ante los ojos del SEÑOR, aunque no como los reyes de Israel que habían sido antes de él."
+    },
+    {
+      "id": "2reyes17-nbla-03",
+      "number": 3,
+      "text": "Subió contra él Salmanasar, rey de Asiria, y Oseas fue hecho su siervo, y le pagaba tributo."
+    },
+    {
+      "id": "2reyes17-nbla-04",
+      "number": 4,
+      "text": "Pero el rey de Asiria descubrió una conspiración de Oseas, quien había enviado mensajeros a So, rey de Egipto, y no había pagado tributo al rey de Asiria como había hecho año tras año. Por tanto el rey de Asiria lo detuvo y lo encadenó en la cárcel."
+    },
+    {
+      "id": "2reyes17-nbla-05",
+      "number": 5,
+      "text": "Entonces el rey de Asiria invadió todo el país y subió a Samaria, y le puso sitio por tres años."
+    },
+    {
+      "id": "2reyes17-nbla-06",
+      "number": 6,
+      "text": "En el año noveno de Oseas, el rey de Asiria tomó Samaria y se llevó a Israel al destierro en Asiria, y los puso en Halah y en Habor, río de Gozán, y en las ciudades de los medos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-07a",
+          "order": 1,
+          "text": "Esto sucedió porque los israelitas habían pecado contra el SEÑOR su Dios"
+        },
+        {
+          "id": "2reyes17-nbla-07b",
+          "order": 2,
+          "text": ", que los había sacado de la tierra de Egipto de bajo la mano de Faraón, rey de Egipto, y habían reverenciado a otros dioses;"
+        }
+      ],
+      "id": "2reyes17-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "2reyes17-nbla-08",
+      "number": 8,
+      "text": "y anduvieron en las costumbres de las naciones que el SEÑOR había arrojado de delante de los israelitas, y en las costumbres de los reyes de Israel que ellos habían introducido."
+    },
+    {
+      "id": "2reyes17-nbla-09",
+      "number": 9,
+      "text": "Los israelitas secretamente hicieron cosas que no eran rectas contra el SEÑOR su Dios. Además se edificaron lugares altos en todas sus ciudades, desde las torres de atalaya hasta las ciudades fortificadas."
+    },
+    {
+      "id": "2reyes17-nbla-10",
+      "number": 10,
+      "text": "Se erigieron pilares sagrados y Aseras sobre toda colina alta y bajo todo árbol frondoso."
+    },
+    {
+      "id": "2reyes17-nbla-11",
+      "number": 11,
+      "text": "Quemaron incienso allí en todos los lugares altos, como las naciones que el SEÑOR se había llevado al destierro de delante de ellos; e hicieron cosas malas provocando al SEÑOR."
+    },
+    {
+      "id": "2reyes17-nbla-12",
+      "number": 12,
+      "text": "Y sirvieron a ídolos, acerca de los cuales el SEÑOR les había dicho: «Ustedes no harán esto»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-13a",
+          "order": 1,
+          "text": "El SEÑOR amonestaba a Israel y a Judá por medio de todos Sus profetas y de todo vidente, diciendo: «"
+        },
+        {
+          "id": "2reyes17-nbla-13b",
+          "order": 2,
+          "text": "Vuélvanse de sus malos caminos"
+        },
+        {
+          "id": "2reyes17-nbla-13c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y guarden Mis mandamientos, Mis estatutos conforme a toda la ley que ordené a sus padres y que les envié por medio de Mis siervos los profetas»."
+        }
+      ],
+      "id": "2reyes17-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "2reyes17-nbla-14",
+      "number": 14,
+      "text": "Sin embargo, ellos no escucharon, sino que fueron tercos como sus padres, que no creyeron en el SEÑOR su Dios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-15a",
+          "order": 1,
+          "text": "Desecharon Sus estatutos y el pacto que Él había hecho con sus padres, y Sus advertencias con las cuales los había amonestado."
+        },
+        {
+          "id": "2reyes17-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Siguieron la vanidad y se hicieron vanos"
+        },
+        {
+          "id": "2reyes17-nbla-15c",
+          "order": 3,
+          "text": ", y fueron en pos de las naciones que los rodeaban, respecto de las cuales el SEÑOR les había ordenado que no hicieran como ellas."
+        }
+      ],
+      "id": "2reyes17-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "2reyes17-nbla-16",
+      "number": 16,
+      "text": "Y abandonaron todos los mandamientos del SEÑOR su Dios, y se hicieron imágenes fundidas de dos becerros; hicieron una Asera, adoraron a todo el ejército de los cielos y sirvieron a Baal."
+    },
+    {
+      "id": "2reyes17-nbla-17",
+      "number": 17,
+      "text": "Hicieron pasar por el fuego a sus hijos y a sus hijas. Practicaron la adivinación y los encantamientos, y se entregaron a hacer lo malo ante los ojos del SEÑOR, provocándolo."
+    },
+    {
+      "id": "2reyes17-nbla-18",
+      "number": 18,
+      "text": "Y el SEÑOR se enojó en gran manera contra Israel y los quitó de su presencia. Solo quedó la tribu de Judá."
+    },
+    {
+      "id": "2reyes17-nbla-19",
+      "number": 19,
+      "text": "Tampoco Judá guardó los mandamientos del SEÑOR su Dios, sino que anduvieron en las costumbres que Israel había introducido."
+    },
+    {
+      "id": "2reyes17-nbla-20",
+      "number": 20,
+      "text": "Y el SEÑOR desechó a toda la descendencia de Israel, y los afligió y los entregó en mano de saqueadores, hasta que los echó de su presencia."
+    },
+    {
+      "id": "2reyes17-nbla-21",
+      "number": 21,
+      "text": "Cuando Él arrancó a Israel de la casa de David, ellos hicieron rey a Jeroboam, hijo de Nabat. Entonces Jeroboam apartó a Israel de seguir al SEÑOR, y les hizo cometer un gran pecado."
+    },
+    {
+      "id": "2reyes17-nbla-22",
+      "number": 22,
+      "text": "Los israelitas anduvieron en todos los pecados que había cometido Jeroboam; no se apartaron de ellos,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-23a",
+          "order": 1,
+          "text": "hasta que el SEÑOR quitó a Israel de Su presencia,"
+        },
+        {
+          "id": "2reyes17-nbla-23b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "como Él había hablado por medio de todos Sus siervos los profetas"
+        },
+        {
+          "id": "2reyes17-nbla-23c",
+          "order": 3,
+          "text": ". E Israel fue llevado de su propia tierra al destierro, a Asiria, hasta hoy."
+        }
+      ],
+      "id": "2reyes17-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "2reyes17-nbla-24",
+      "number": 24,
+      "text": "El rey de Asiria trajo hombres de Babilonia, de Cuta, de Ava, de Hamat y de Sefarvaim, y los puso en las ciudades de Samaria en lugar de los israelitas. Y tomaron posesión de Samaria y habitaron en sus ciudades."
+    },
+    {
+      "id": "2reyes17-nbla-25",
+      "number": 25,
+      "text": "Al principio de habitar ellos allí, no temieron al SEÑOR, así que el SEÑOR envió leones entre ellos que mataron a muchos de ellos."
+    },
+    {
+      "id": "2reyes17-nbla-26",
+      "number": 26,
+      "text": "Entonces hablaron al rey de Asiria: «Las naciones que ha llevado al destierro a las ciudades de Samaria, no conocen la costumbre del dios de la tierra; por eso él ha enviado leones entre ellos, y es la causa por la que los leones los matan porque ellos no conocen la costumbre del dios de la tierra»."
+    },
+    {
+      "id": "2reyes17-nbla-27",
+      "number": 27,
+      "text": "Y el rey de Asiria ordenó: «Lleven allá a uno de los sacerdotes que ustedes llevaron al destierro, y que él vaya y habite allí; y que les enseñe la costumbre del dios de la tierra»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-28a",
+          "order": 1,
+          "text": "Y vino uno de los sacerdotes que habían llevado al destierro desde Samaria, y habitó en Betel, y"
+        },
+        {
+          "id": "2reyes17-nbla-28b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les enseñó cómo habían de temer al SEÑOR."
+        }
+      ],
+      "id": "2reyes17-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "2reyes17-nbla-29",
+      "number": 29,
+      "text": "Pero cada nación continuó haciendo sus propios dioses, y los pusieron en las casas de los lugares altos que los samaritanos habían hecho, cada nación en las ciudades en que habitaban."
+    },
+    {
+      "id": "2reyes17-nbla-30",
+      "number": 30,
+      "text": "Y los hombres de Babilonia hicieron a Sucot Benot; los hombres de Cuta hicieron a Nergal; los hombres de Hamat hicieron a Asima;"
+    },
+    {
+      "id": "2reyes17-nbla-31",
+      "number": 31,
+      "text": "y los aveos hicieron a Nibhaz y a Tartac; y los de Sefarvaim quemaban a sus hijos en el fuego como ofrenda a Adramelec y Anamelec, dioses de Sefarvaim."
+    },
+    {
+      "id": "2reyes17-nbla-32",
+      "number": 32,
+      "text": "También temían al SEÑOR pero nombraron de entre sí sacerdotes de los lugares altos, que oficiaban por ellos en las casas de los lugares altos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-33a",
+          "order": 1,
+          "text": "Temían al SEÑOR pero servían a sus dioses"
+        },
+        {
+          "id": "2reyes17-nbla-33b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "conforme a la costumbre de las naciones de donde habían sido llevados al destierro."
+        }
+      ],
+      "id": "2reyes17-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "2reyes17-nbla-34",
+      "number": 34,
+      "text": "Hasta el día de hoy siguen haciendo conforme a sus antiguas costumbres. No temen al SEÑOR, ni siguen sus estatutos ni sus ordenanzas ni la ley ni el mandamiento que el SEÑOR había ordenado a los hijos de Jacob, a quien puso el nombre de Israel,"
+    },
+    {
+      "id": "2reyes17-nbla-35",
+      "number": 35,
+      "text": "con los cuales el SEÑOR hizo un pacto y les ordenó: «No temerán a otros dioses ni se inclinarán ante ellos, no los servirán ni les ofrecerán sacrificios."
+    },
+    {
+      "id": "2reyes17-nbla-36",
+      "number": 36,
+      "text": "Sino que al SEÑOR, que los hizo subir de la tierra de Egipto con gran poder y con brazo extendido, a Él temerán y ante Él se inclinarán y a Él ofrecerán sacrificios."
+    },
+    {
+      "id": "2reyes17-nbla-37",
+      "number": 37,
+      "text": "Y los estatutos, las ordenanzas, la ley y el mandamiento que Él les escribió, cuidarán de cumplirlos siempre, y no temerán a otros dioses."
+    },
+    {
+      "id": "2reyes17-nbla-38",
+      "number": 38,
+      "text": "Y el pacto que he hecho con ustedes, no lo olvidarán, ni temerán a otros dioses."
+    },
+    {
+      "id": "2reyes17-nbla-39",
+      "number": 39,
+      "text": "Sino que al SEÑOR su Dios temerán, y Él los librará de mano de todos sus enemigos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes17-nbla-40a",
+          "order": 1,
+          "text": "Pero ellos no escucharon, sino que"
+        },
+        {
+          "id": "2reyes17-nbla-40b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hicieron conforme a su antigua costumbre."
+        }
+      ],
+      "id": "2reyes17-nbla-40",
+      "number": 40
+    },
+    {
+      "id": "2reyes17-nbla-41",
+      "number": 41,
+      "text": "Y aunque estas naciones temían al SEÑOR, también servían a sus ídolos; y de la misma manera que hicieron sus padres, así hacen hasta hoy sus hijos y sus nietos."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

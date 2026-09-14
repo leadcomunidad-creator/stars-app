@@ -1,0 +1,654 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El comienzo favorable debe leerse como una etapa, no como garantía. Reyes observará si la estructura que Salomón construye permanece bajo la palabra de Dios.",
+      "id": "1reyes4-joya-01",
+      "msg": {
+        "en": "“King Solomon was off to a good start ruling Israel.”",
+        "es": "«El rey Salomón comenzó bien su gobierno sobre Israel»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El calendario distribuye la carga y asegura continuidad. La sabiduría administrativa convierte una necesidad enorme en responsabilidades identificables.",
+      "id": "1reyes4-joya-02",
+      "msg": {
+        "en": "“Each was in charge of bringing supplies for one month of the year.”",
+        "es": "«cada uno llevaba provisiones durante un mes del año»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-07b"
+          ],
+          "verseId": "1reyes4-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "7-19"
+    },
+    {
+      "explanation": "La alegría del pueblo importa en la evaluación del reino. La promesa de Dios toca mesa, comunidad y capacidad de disfrutar el bien recibido.",
+      "id": "1reyes4-joya-03",
+      "msg": {
+        "en": "“they ate and drank and were happy.”",
+        "es": "«comían, bebían y se alegraban»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-20b"
+          ],
+          "verseId": "1reyes4-nbla-20"
+        }
+      ],
+      "order": 3,
+      "range": "20-21"
+    },
+    {
+      "explanation": "La paz es una bendición real dentro del relato. Su fragilidad posterior no la vuelve falsa, pero enseña que debe ser guardada mediante fidelidad y justicia.",
+      "id": "1reyes4-joya-04",
+      "msg": {
+        "en": "“Peace reigned everywhere.”",
+        "es": "«Había paz por todas partes»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-24b"
+          ],
+          "verseId": "1reyes4-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24-25"
+    },
+    {
+      "explanation": "La mirada baja desde el palacio hasta cada familia. Un reino sano permite que las personas vivan sin que el poder invada continuamente su hogar y fruto.",
+      "id": "1reyes4-joya-05",
+      "msg": {
+        "en": "“everyone in Israel and Judah lived safe and sound”",
+        "es": "«todos en Israel y Judá, desde Dan hasta Beerseba, vivían seguros»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-25b"
+          ],
+          "verseId": "1reyes4-nbla-25"
+        }
+      ],
+      "order": 5,
+      "range": "24-25"
+    },
+    {
+      "explanation": "La amplitud de corazón permite comprender realidades diversas sin perder el centro. La sabiduría es regalo antes que logro del rey.",
+      "id": "1reyes4-joya-06",
+      "msg": {
+        "en": "“God gave Solomon wisdom—the deepest of understanding and the largest of hearts.”",
+        "es": "«Dios dio a Salomón sabiduría, profundo entendimiento y un corazón inmenso»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-29a"
+          ],
+          "verseId": "1reyes4-nbla-29"
+        }
+      ],
+      "order": 6,
+      "range": "29-34"
+    },
+    {
+      "explanation": "El don dado para gobernar Israel se vuelve testimonio entre las naciones. La fama encuentra su propósito cuando conduce a otros hacia la sabiduría que Dios concede.",
+      "id": "1reyes4-joya-07",
+      "msg": {
+        "en": "“people came from far and near to listen to the wisdom of Solomon.”",
+        "es": "«Personas enviadas por reyes de toda la tierra venían desde lejos para escuchar su sabiduría»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-34b"
+          ],
+          "verseId": "1reyes4-nbla-34"
+        }
+      ],
+      "order": 7,
+      "range": "29-34"
+    }
+  ],
+  "meta": {
+    "book": "1 REYES",
+    "bookId": "1reyes",
+    "chapter": 4,
+    "studyId": "1reyes-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "1reyes4-msg-01",
+      "msg": {
+        "en": "King Solomon was off to a good start ruling Israel.\nThese were the leaders in his government:",
+        "es": "El rey Salomón comenzó bien su gobierno sobre Israel. Estos eran los dirigentes de su administración:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "1reyes4-nbla-02a"
+          ],
+          "verseId": "1reyes4-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-6",
+      "id": "1reyes4-msg-02",
+      "msg": {
+        "en": "Azariah son of Zadok—the priest;\nElihoreph and Ahijah, sons of Shisha—secretaries;\nJehoshaphat son of Ahilud—historian;\nBenaiah son of Jehoiada—commander of the army;\nZadok and Abiathar—priests;\nAzariah son of Nathan—in charge of the regional managers;\nZabud son of Nathan—priest and friend to the king;\nAhishar—manager of the palace;\nAdoniram son of Abda—manager of the slave labor.",
+        "es": "Azarías hijo de Sadoc, sacerdote; Elihoref y Ahías, hijos de Sisa, secretarios; Josafat hijo de Ahilud, cronista; Benaía hijo de Joiada, comandante del ejército; Sadoc y Abiatar, sacerdotes; Azarías hijo de Natán, encargado de los administradores regionales; Zabud hijo de Natán, sacerdote y amigo del rey; Ahisar, administrador del palacio; y Adoniram hijo de Abda, encargado del trabajo forzado."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1reyes4-nbla-02b"
+          ],
+          "verseId": "1reyes4-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-19",
+      "id": "1reyes4-msg-03",
+      "msg": {
+        "en": "Solomon had twelve regional managers distributed throughout Israel.\nThey were responsible for supplying provisions for the king and his administration. Each was in charge of bringing supplies for one month of the year. These are the names:\nBen-Hur in the Ephraim hills;\nBen-Deker in Makaz, Shaalbim, Beth Shemesh, and Elon Bethhanan;\nBen-Hesed in Arubboth—this included Socoh and all of Hepher;\nBen-Abinadab in Naphoth Dor (he was married to Solomon’s daughter Taphath);\nBaana son of Ahilud in Taanach and Megiddo, all of Beth Shan next to Zarethan below Jezreel, and from Beth Shan to Abel Meholah over to Jokmeam;\nBen-Geber in Ramoth Gilead—this included the villages of Jair son of Manasseh in Gilead and the region of Argob in Bashan with its sixty large walled cities with bronze-studded gates;\nAhinadab son of Iddo in Mahanaim;\nAhimaaz in Naphtali (he was married to Solomon’s daughter Basemath);\nBaana son of Hushai in Asher and Aloth;\nJehoshaphat son of Paruah in Issachar;\nShimei son of Ela in Benjamin;\nGeber son of Uri in Gilead—this was the country of Sihon king of the Amorites and also of Og king of Bashan; he managed the whole district by himself.",
+        "es": "Salomón distribuyó doce administradores regionales por todo Israel. Debían abastecer al rey y a su gobierno, y cada uno llevaba provisiones durante un mes del año. Estos eran: Ben Hur en las montañas de Efraín; Ben Decar en Macaz, Saalbim, Bet Semes y Elón Bet Hanán; Ben Hesed en Arubot, incluyendo Soco y Hefer; Ben Abinadab en Nafat Dor, casado con Tafat hija de Salomón; Baana hijo de Ahilud en Taanac, Meguido y Bet Seán hasta Abel Mehola y Jocmeam; Ben Geber en Ramot de Galaad, incluidas las aldeas de Jair y las sesenta ciudades fortificadas de Argob en Basán; Ahinadab hijo de Iddo en Mahanaim; Ahimaas en Neftalí, casado con Basemat hija de Salomón; Baana hijo de Husai en Aser y Bealot; Josafat hijo de Parúa en Isacar; Simei hijo de Ela en Benjamín; y Geber hijo de Uri en Galaad, territorio de Sehón y Og, como único gobernador de aquella región."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-19"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "1reyes4-msg-04",
+      "msg": {
+        "en": "Judah and Israel were densely populated—like sand on an ocean beach! All their needs were met; they ate and drank and were happy. Solomon was sovereign over all the kingdoms from the River Euphrates in the east to the country of the Philistines in the west, all the way to the border of Egypt. They brought tribute and were vassals of Solomon all his life.",
+        "es": "Judá e Israel eran tan numerosos como la arena junto al mar. Tenían lo necesario; comían, bebían y se alegraban. Salomón gobernaba los reinos desde el río Éufrates hasta la tierra de los filisteos y la frontera de Egipto. Le llevaban tributo y le estuvieron sujetos durante toda su vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-21"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "1reyes4-msg-05",
+      "msg": {
+        "en": "One day’s food supply for Solomon’s household was:\n185 bushels of fine flour\n375 bushels of meal\n10 grain-fed cattle\n20 range cattle\n100 sheep\nand miscellaneous deer, gazelles, roebucks, and choice fowl.",
+        "es": "La provisión diaria para la casa de Salomón era de 185 medidas de flor de harina, 375 de harina común, diez reses engordadas, veinte reses de pasto, cien ovejas, además de ciervos, gacelas, corzos y aves escogidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-23"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "1reyes4-msg-06",
+      "msg": {
+        "en": "Solomon was sovereign over everything, countries and kings, west of the River Euphrates from Tiphsah to Gaza. Peace reigned everywhere. Throughout Solomon’s life, everyone in Israel and Judah lived safe and sound, all of them from Dan in the north to Beersheba in the south—content with what they had.",
+        "es": "Salomón dominaba los territorios y reyes al oeste del Éufrates, desde Tifsa hasta Gaza. Había paz por todas partes. Durante su vida, todos en Israel y Judá, desde Dan hasta Beerseba, vivían seguros y satisfechos con lo que tenían."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-25"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "26-28",
+      "id": "1reyes4-msg-07",
+      "msg": {
+        "en": "Solomon had forty thousand stalls for chariot horses and twelve thousand horsemen. The district managers, each according to his assigned month, delivered food supplies for King Solomon and all who sat at the king’s table; there was always plenty. They also brought to the designated place their assigned quota of barley and straw for the horses.",
+        "es": "Salomón tenía cuarenta mil establos para caballos de carros y doce mil jinetes. Cada administrador llevaba durante su mes alimento para el rey y quienes comían a su mesa; nunca faltaba nada. También entregaban en el lugar asignado la cebada y la paja correspondientes para los caballos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-28"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "29-34",
+      "id": "1reyes4-msg-08",
+      "msg": {
+        "en": "God gave Solomon wisdom—the deepest of understanding and the largest of hearts. There was nothing beyond him, nothing he couldn’t handle. Solomon’s wisdom outclassed the vaunted wisdom of wise men of the East, outshone the famous wisdom of Egypt. He was wiser than anyone—wiser than Ethan the Ezrahite, wiser than Heman, wiser than Calcol and Darda the sons of Mahol. He became famous among all the surrounding nations. He created 3,000 proverbs; his songs added up to 1,005. He knew all about plants, from the huge cedar that grows in Lebanon to the tiny hyssop that grows in the cracks of a wall. He understood everything about animals and birds, reptiles and fish. Sent by kings from all over the earth who had heard of his reputation, people came from far and near to listen to the wisdom of Solomon.",
+        "es": "Dios dio a Salomón sabiduría, profundo entendimiento y un corazón inmenso. Nada parecía quedar fuera de su alcance. Su sabiduría superó la de los sabios de Oriente y Egipto; fue mayor que la de Etán, Hemán, Calcol y Darda, y su fama se extendió entre las naciones. Compuso tres mil proverbios y mil cinco canciones. Conocía las plantas, desde el gran cedro del Líbano hasta el pequeño hisopo que crece en una pared, y comprendía los animales, las aves, los reptiles y los peces. Personas enviadas por reyes de toda la tierra venían desde lejos para escuchar su sabiduría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1reyes4-nbla-34"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1reyes4-nbla-01",
+      "number": 1,
+      "text": "El rey Salomón fue rey sobre todo Israel,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-02a",
+          "order": 1,
+          "text": "y estos eran sus oficiales:"
+        },
+        {
+          "id": "1reyes4-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Azarías, hijo de Sadoc, era el sacerdote;"
+        }
+      ],
+      "id": "1reyes4-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "1reyes4-nbla-03",
+      "number": 3,
+      "text": "Elihoref y Ahías, hijos de Sisa, eran secretarios; Josafat, hijo de Ahilud, era el cronista;"
+    },
+    {
+      "id": "1reyes4-nbla-04",
+      "number": 4,
+      "text": "Benaía, hijo de Joiada, estaba sobre el ejército; y Sadoc y Abiatar eran sacerdotes;"
+    },
+    {
+      "id": "1reyes4-nbla-05",
+      "number": 5,
+      "text": "Azarías, hijo de Natán, estaba sobre los oficiales; y Zabud, hijo de Natán, un sacerdote, era amigo del rey;"
+    },
+    {
+      "id": "1reyes4-nbla-06",
+      "number": 6,
+      "text": "Ahisar, era el mayordomo; y Adoniram, hijo de Abda, estaba sobre los hombres que hacían trabajos forzados."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-07a",
+          "order": 1,
+          "text": "Salomón tenía doce oficiales sobre todo Israel, los cuales abastecían al rey y a su casa."
+        },
+        {
+          "id": "1reyes4-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Cada uno tenía que hacerlo un mes en el año."
+        }
+      ],
+      "id": "1reyes4-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "1reyes4-nbla-08",
+      "number": 8,
+      "text": "Y estos son sus nombres: Ben Hur, en la región montañosa de Efraín;"
+    },
+    {
+      "id": "1reyes4-nbla-09",
+      "number": 9,
+      "text": "Ben Decar en Macaz, en Saalbim, en Bet Semes y en Elón Bet Hanán;"
+    },
+    {
+      "id": "1reyes4-nbla-10",
+      "number": 10,
+      "text": "Ben Hesed en Arubot (de él eran Soco y toda la tierra de Hefer);"
+    },
+    {
+      "id": "1reyes4-nbla-11",
+      "number": 11,
+      "text": "Ben Abinadab, en toda la altura de Dor (Tafat, hija de Salomón, era su mujer);"
+    },
+    {
+      "id": "1reyes4-nbla-12",
+      "number": 12,
+      "text": "Baana, hijo de Ahilud, en Taanac y Meguido y todo Bet Seán, que está junto a Saretán, más abajo de Jezreel, desde Bet Seán hasta Abel Mehola, hasta el otro lado de Jocmeam;"
+    },
+    {
+      "id": "1reyes4-nbla-13",
+      "number": 13,
+      "text": "Ben Geber en Ramot de Galaad (las aldeas de Jair, hijo de Manasés, que están en Galaad eran de él: la región de Argob que está en Basán, sesenta ciudades grandes con muros y cerrojos de bronce eran de él);"
+    },
+    {
+      "id": "1reyes4-nbla-14",
+      "number": 14,
+      "text": "Ahinadab, hijo de Iddo, en Mahanaim;"
+    },
+    {
+      "id": "1reyes4-nbla-15",
+      "number": 15,
+      "text": "Ahimaas en Neftalí (también se casó con Basemat, hija de Salomón);"
+    },
+    {
+      "id": "1reyes4-nbla-16",
+      "number": 16,
+      "text": "Baana, hijo de Husai, en Aser y Bealot;"
+    },
+    {
+      "id": "1reyes4-nbla-17",
+      "number": 17,
+      "text": "Josafat, hijo de Parúa, en Isacar;"
+    },
+    {
+      "id": "1reyes4-nbla-18",
+      "number": 18,
+      "text": "Simei, hijo de Ela, en Benjamín;"
+    },
+    {
+      "id": "1reyes4-nbla-19",
+      "number": 19,
+      "text": "Geber, hijo de Uri, en la tierra de Galaad, la región de Sehón, rey de los amorreos, y de Og, rey de Basán; él era el único gobernador que estaba en aquella tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-20a",
+          "order": 1,
+          "text": "Judá e Israel eran tan numerosos como la arena que está en abundancia a la orilla del mar;"
+        },
+        {
+          "id": "1reyes4-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "comían, bebían y se alegraban."
+        }
+      ],
+      "id": "1reyes4-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "1reyes4-nbla-21",
+      "number": 21,
+      "text": "Salomón gobernaba todos los reinos desde el Río hasta la tierra de los filisteos y hasta la frontera de Egipto. Ellos trajeron tributo y sirvieron a Salomón todos los días de su vida."
+    },
+    {
+      "id": "1reyes4-nbla-22",
+      "number": 22,
+      "text": "La provisión de Salomón para un día era de 30 coros (6,600 litros) de flor de harina y 60 coros (13,200 litros) de harina,"
+    },
+    {
+      "id": "1reyes4-nbla-23",
+      "number": 23,
+      "text": "diez bueyes cebados, veinte bueyes de pasto y cien ovejas, sin contar los ciervos, gacelas, corzos y aves cebadas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-24a",
+          "order": 1,
+          "text": "Porque Salomón tenía dominio sobre todos los reinos al oeste del Río, desde Tifsa hasta Gaza, sobre todos los reyes al oeste del Río; y"
+        },
+        {
+          "id": "1reyes4-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "tuvo paz por todos lados a su alrededor."
+        }
+      ],
+      "id": "1reyes4-nbla-24",
+      "number": 24
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-25a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "1reyes4-nbla-25b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Judá e Israel vivieron seguros"
+        },
+        {
+          "id": "1reyes4-nbla-25c",
+          "order": 3,
+          "text": ", cada uno bajo su parra y bajo su higuera, desde Dan hasta Beerseba, todos los días de Salomón."
+        }
+      ],
+      "id": "1reyes4-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "1reyes4-nbla-26",
+      "number": 26,
+      "text": "Salomón tenía 40,000 establos de caballos para sus carros y 12,000 jinetes."
+    },
+    {
+      "id": "1reyes4-nbla-27",
+      "number": 27,
+      "text": "Y los gobernadores abastecían, cada uno un mes, al rey Salomón y a todos los que venían a la mesa del rey Salomón. No dejaban que faltara nada."
+    },
+    {
+      "id": "1reyes4-nbla-28",
+      "number": 28,
+      "text": "También llevaban, cada uno según su obligación, cebada y paja para los caballos de tiro y los corceles al lugar donde debieran estar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-29a",
+          "order": 1,
+          "text": "Dios dio a Salomón sabiduría, gran discernimiento y amplitud de corazón"
+        },
+        {
+          "id": "1reyes4-nbla-29b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "como la arena que está a la orilla del mar."
+        }
+      ],
+      "id": "1reyes4-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "1reyes4-nbla-30",
+      "number": 30,
+      "text": "Y la sabiduría de Salomón sobrepasó la sabiduría de todos los hijos del oriente y toda la sabiduría de Egipto."
+    },
+    {
+      "id": "1reyes4-nbla-31",
+      "number": 31,
+      "text": "Porque era más sabio que todos los hombres, más que Etán el ezraíta, Hemán, Calcol y Darda, hijos de Mahol; y su fama fue conocida por todas las naciones de alrededor."
+    },
+    {
+      "id": "1reyes4-nbla-32",
+      "number": 32,
+      "text": "También pronunció 3,000 proverbios, y sus cantares fueron 1,005."
+    },
+    {
+      "id": "1reyes4-nbla-33",
+      "number": 33,
+      "text": "Disertó sobre los árboles, desde el cedro que está en el Líbano hasta el hisopo que crece en la pared. También habló de ganados, aves, reptiles y peces."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1reyes4-nbla-34a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "1reyes4-nbla-34b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "venían de todos los pueblos para oír la sabiduría de Salomón"
+        },
+        {
+          "id": "1reyes4-nbla-34c",
+          "order": 3,
+          "text": ", de parte de todos los reyes de la tierra que habían oído de su sabiduría."
+        }
+      ],
+      "id": "1reyes4-nbla-34",
+      "number": 34
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

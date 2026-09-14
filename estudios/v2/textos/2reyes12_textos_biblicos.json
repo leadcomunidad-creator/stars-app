@@ -1,0 +1,554 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La formación sacerdotal sostiene el buen comienzo de Joás. MSG destaca enseñanza y entrenamiento; NBLA señala la duración de la dirección. El elogio es verdadero, pero su formulación prepara la pregunta por una fidelidad capaz de continuar cuando el mentor ya no está.",
+      "id": "2reyes12-joya-01",
+      "msg": {
+        "en": "“Taught and trained by Jehoiada the priest, Joash did what pleased GOD”",
+        "es": "«Enseñado y formado por el sacerdote Joiada, Joás hizo lo que agradaba a DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-02b"
+          ],
+          "verseId": "2reyes12-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "Años de recaudación no han producido el resultado encargado. La frase obliga a evaluar una obra religiosa por su fruto real. La intención, la antigüedad del sistema y el cargo de quienes lo administran no sustituyen el cumplimiento responsable.",
+      "id": "2reyes12-joya-02",
+      "msg": {
+        "en": "“The Temple was as dilapidated as ever.”",
+        "es": "«el templo seguía tan deteriorado como antes»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-06b"
+          ],
+          "verseId": "2reyes12-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6"
+    },
+    {
+      "explanation": "Joás formula una pregunta necesaria y específica. No acusa de delitos que el texto no demuestra; señala la diferencia entre recursos recibidos y trabajo ausente. La rendición de cuentas comienza nombrando con claridad lo que debía ocurrir y no ocurrió.",
+      "id": "2reyes12-joya-03",
+      "msg": {
+        "en": "“Why haven’t you renovated this sorry-looking Temple?”",
+        "es": "«¿Por qué no han renovado este templo tan deteriorado?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-07b"
+          ],
+          "verseId": "2reyes12-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "El conteo no queda en manos de una sola esfera de autoridad. Palacio y sacerdocio participan juntos. La práctica hace visible el recurso y crea un punto de verificación antes de entregarlo al proyecto.",
+      "id": "2reyes12-joya-04",
+      "msg": {
+        "en": "“the king’s secretary and the chief priest would empty the chest and count the offerings”",
+        "es": "«el secretario del rey y el sumo sacerdote vaciaban el cofre y contaban las ofrendas»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-10b"
+          ],
+          "verseId": "2reyes12-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "9-16"
+    },
+    {
+      "explanation": "La confianza final descansa en carácter comprobado. Honestidad y estructura no compiten: los trabajadores reciben fondos ya contados y destinados. La fidelidad personal permite que el proyecto avance sin vigilancia opresiva, mientras el sistema conserva claridad.",
+      "id": "2reyes12-joya-05",
+      "msg": {
+        "en": "“they were honest men.”",
+        "es": "«eran honestos»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-15b"
+          ],
+          "verseId": "2reyes12-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "9-16"
+    },
+    {
+      "explanation": "Los tesoros acumulados por generaciones abandonan templo y palacio para comprar la retirada enemiga. La brevedad de la frase contrasta con el cuidado anterior por reparar la casa. La seguridad inmediata consume lo que había sido dedicado.",
+      "id": "2reyes12-joya-06",
+      "msg": {
+        "en": "“sent it to Hazael king of Aram.”",
+        "es": "«Lo envió todo a Hazael»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-18b"
+          ],
+          "verseId": "2reyes12-nbla-18"
+        }
+      ],
+      "order": 6,
+      "range": "17-18"
+    },
+    {
+      "explanation": "El reinado termina dentro de la misma casa que debía protegerlo. El niño salvado de una matanza vive cuarenta años, pero su trayectoria no concluye en paz. Un comienzo providencial y una obra valiosa no eliminan la necesidad de perseverar.",
+      "id": "2reyes12-joya-07",
+      "msg": {
+        "en": "“his palace staff formed a conspiracy and assassinated Joash”",
+        "es": "«miembros del personal del palacio conspiraron y asesinaron a Joás»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2reyes12-nbla-20b"
+          ],
+          "verseId": "2reyes12-nbla-20"
+        }
+      ],
+      "order": 7,
+      "range": "19-21"
+    }
+  ],
+  "meta": {
+    "book": "2 REYES",
+    "bookId": "2reyes",
+    "chapter": 12,
+    "studyId": "2reyes-12"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "2reyes12-msg-01",
+      "msg": {
+        "en": "In the seventh year of Jehu, Joash began his kingly rule. He was king for forty years in Jerusalem. His mother’s name was Gazelle. She was from Beersheba.",
+        "es": "En el séptimo año de Jehú, Joás comenzó su gobierno como rey. Reinó cuarenta años en Jerusalén. Su madre se llamaba Sibia y era de Beerseba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "2reyes12-msg-02",
+      "msg": {
+        "en": "Taught and trained by Jehoiada the priest, Joash did what pleased GOD for as long as he lived. (Even so, he didn’t get rid of the sacred fertility shrines—people still frequented them, sacrificing and burning incense.)",
+        "es": "Enseñado y formado por el sacerdote Joiada, Joás hizo lo que agradaba a DIOS mientras vivió. Aun así, no eliminó los santuarios de fertilidad: la gente todavía acudía a ellos, ofrecía sacrificios y quemaba incienso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "2reyes12-msg-03",
+      "msg": {
+        "en": "Joash instructed the priests: “Take the money that is brought into The Temple of GOD for holy offerings—both mandatory offerings and freewill offerings—and, keeping a careful accounting, use them to renovate The Temple wherever it has fallen into disrepair.”",
+        "es": "Joás instruyó a los sacerdotes: «Tomen el dinero que se lleva al templo de DIOS como ofrenda sagrada, tanto las contribuciones obligatorias como las voluntarias, y, llevando una contabilidad cuidadosa, úsenlo para renovar el templo en todo lugar que se encuentre deteriorado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "2reyes12-msg-04",
+      "msg": {
+        "en": "But by the twenty-third year of Joash’s rule, the priests hadn’t done one thing—The Temple was as dilapidated as ever.",
+        "es": "Pero para el año veintitrés del reinado de Joás, los sacerdotes no habían hecho nada: el templo seguía tan deteriorado como antes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "2reyes12-msg-05",
+      "msg": {
+        "en": "King Joash called Jehoiada the priest and the company of priests and said, “Why haven’t you renovated this sorry-looking Temple? You are forbidden to take any more money for Temple repairs—from now on, hand over everything you get.”",
+        "es": "El rey Joás llamó al sacerdote Joiada y al grupo de sacerdotes y les dijo: «¿Por qué no han renovado este templo tan deteriorado? Desde ahora tienen prohibido recibir más dinero para sus reparaciones; entreguen todo lo que reciban»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "2reyes12-msg-06",
+      "msg": {
+        "en": "The priests agreed not to take any more money or to be involved in The Temple renovation.",
+        "es": "Los sacerdotes aceptaron no recibir más dinero ni encargarse de la renovación del templo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9-16",
+      "id": "2reyes12-msg-07",
+      "msg": {
+        "en": "Then Jehoiada took a single chest and bored a hole in the lid and placed it to the right of the main entrance into The Temple of GOD. All the offerings that were brought to The Temple of GOD were placed in the chest by the priests who guarded the entrance. When they saw that a large sum of money had accumulated in the chest, the king’s secretary and the chief priest would empty the chest and count the offerings. They would give the money accounted for to the managers of The Temple project; they in turn would pay the carpenters, construction workers, masons, stoneworkers, and the buyers of timber and quarried stone for the repair and renovation of The Temple of GOD— any expenses connected with fixing up The Temple. But none of the money brought into The Temple of GOD was used for liturgical “extras” (silver chalices, candle snuffers, trumpets, various gold and silver vessels, etc.). It was given to the workmen to pay for their repairing GOD’s Temple. And no one even had to check on the men who handled the money given for the project—they were honest men. Offerings designated for Compensation Offerings and Absolution Offerings didn’t go into the building project—those went directly to the priests.",
+        "es": "Entonces Joiada tomó un cofre, abrió un agujero en la tapa y lo puso a la derecha de la entrada principal del templo de DIOS. Los sacerdotes que guardaban la entrada depositaban allí todas las ofrendas llevadas al templo. Cuando veían que se había acumulado una gran suma, el secretario del rey y el sumo sacerdote vaciaban el cofre y contaban las ofrendas. Entregaban el dinero contabilizado a los administradores del proyecto, quienes pagaban a carpinteros, constructores, albañiles, canteros y compradores de madera y piedra labrada, además de cualquier gasto relacionado con la reparación del templo de DIOS. El dinero no se usaba para elementos litúrgicos adicionales —copas de plata, despabiladeras, trompetas u otros utensilios de oro y plata—, sino para pagar a los trabajadores. No era necesario exigir cuentas a los hombres encargados del dinero porque eran honestos. Las ofrendas de compensación y absolución no entraban en el proyecto de construcción; correspondían directamente a los sacerdotes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-16"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "2reyes12-msg-08",
+      "msg": {
+        "en": "Around this time Hazael king of Aram ventured out and attacked Gath, and he captured it. Then he decided to try for Jerusalem. Joash king of Judah countered by gathering up all the sacred memorials—gifts dedicated for holy use by his ancestors, the kings of Judah, Jehoshaphat, Jehoram, and Ahaziah, along with the holy memorials he himself had received, plus all the gold that he could find in the temple and palace storerooms—and sent it to Hazael king of Aram. Appeased, Hazael went on his way and didn’t bother Jerusalem.",
+        "es": "Por ese tiempo, Hazael, rey de Aram, salió, atacó Gat y la capturó. Luego decidió avanzar contra Jerusalén. Joás, rey de Judá, respondió reuniendo todos los objetos sagrados: los regalos dedicados por sus antepasados Josafat, Joram y Ocozías, reyes de Judá, junto con sus propias ofrendas y todo el oro que encontró en los depósitos del templo y del palacio. Lo envió todo a Hazael. Satisfecho, Hazael se retiró y no atacó Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-18"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "2reyes12-msg-09",
+      "msg": {
+        "en": "The rest of the life and times of Joash and all that he did are written in The Chronicles of the Kings of Judah. At the last his palace staff formed a conspiracy and assassinated Joash as he was strolling along the ramp of the fortified outside city wall. Jozabad son of Shimeath and Jehozabad son of Shomer were the assassins. And so Joash died and was buried in the family plot in the City of David. His son Amaziah was king after him.",
+        "es": "El resto de la vida y los tiempos de Joás y todo lo que hizo está escrito en las Crónicas de los reyes de Judá. Al final, miembros del personal del palacio conspiraron y asesinaron a Joás mientras caminaba por la rampa de la muralla fortificada exterior. Los asesinos fueron Josacar hijo de Simeat y Jozabad hijo de Somer. Joás murió y fue sepultado en la tumba familiar en la Ciudad de David. Su hijo Amasías reinó después de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2reyes12-nbla-21"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2reyes12-nbla-01",
+      "number": 1,
+      "text": "En el séptimo año de Jehú, Joás comenzó a reinar, y reinó cuarenta años en Jerusalén; y el nombre de su madre era Sibia de Beerseba."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-02a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "2reyes12-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Joás hizo lo recto ante los ojos del SEÑOR todos los días en que el sacerdote Joiada lo dirigió."
+        }
+      ],
+      "id": "2reyes12-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "2reyes12-nbla-03",
+      "number": 3,
+      "text": "Solo que los lugares altos no fueron quitados. El pueblo aún sacrificaba y quemaba incienso en los lugares altos."
+    },
+    {
+      "id": "2reyes12-nbla-04",
+      "number": 4,
+      "text": "Entonces Joás dijo a los sacerdotes: «Todo el dinero de las cosas sagradas que se trae a la casa del SEÑOR en moneda corriente, tanto el dinero estipulado a cada persona, como todo el dinero que cada uno voluntariamente traiga a la casa del SEÑOR,"
+    },
+    {
+      "id": "2reyes12-nbla-05",
+      "number": 5,
+      "text": "que los sacerdotes lo tomen para sí, cada cual de sus conocidos; y ellos repararán los daños de la casa dondequiera que se encuentre algún daño»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-06a",
+          "order": 1,
+          "text": "Pero en el año veintitrés del rey Joás,"
+        },
+        {
+          "id": "2reyes12-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los sacerdotes aún no habían reparado los daños de la casa."
+        }
+      ],
+      "id": "2reyes12-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-07a",
+          "order": 1,
+          "text": "Entonces el rey Joás llamó al sacerdote Joiada y a los otros sacerdotes, y les dijo: «"
+        },
+        {
+          "id": "2reyes12-nbla-07b",
+          "order": 2,
+          "text": "¿Por qué no reparan los daños de la casa?"
+        },
+        {
+          "id": "2reyes12-nbla-07c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Ahora pues, no tomen más dinero de sus conocidos, sino entréguenlo para los daños de la casa»."
+        }
+      ],
+      "id": "2reyes12-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "2reyes12-nbla-08",
+      "number": 8,
+      "text": "Y consintieron los sacerdotes en no tomar más dinero del pueblo, ni reparar ellos los daños de la casa."
+    },
+    {
+      "id": "2reyes12-nbla-09",
+      "number": 9,
+      "text": "Entonces el sacerdote Joiada tomó un cofre e hizo un agujero en la tapa, y lo puso junto al altar, al lado derecho conforme se entra a la casa del SEÑOR; y los sacerdotes que custodiaban el umbral depositaban en él todo el dinero que se traía a la casa del SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-10a",
+          "order": 1,
+          "text": "Cuando veían que había mucho dinero en el cofre,"
+        },
+        {
+          "id": "2reyes12-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el escriba del rey y el sumo sacerdote subían y lo ponían en sacos, y contaban el dinero"
+        },
+        {
+          "id": "2reyes12-nbla-10c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "que se encontraba en la casa del SEÑOR."
+        }
+      ],
+      "id": "2reyes12-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2reyes12-nbla-11",
+      "number": 11,
+      "text": "Y entregaban el dinero que había sido contado en manos de los que hacían el trabajo, los cuales tenían a su cargo la casa del SEÑOR, y ellos lo traían para pagar a los carpinteros y a los constructores que trabajaban en la casa del SEÑOR,"
+    },
+    {
+      "id": "2reyes12-nbla-12",
+      "number": 12,
+      "text": "y a los albañiles y canteros, y para comprar madera y piedra de cantería para reparar los daños de la casa del SEÑOR, y para todo lo que se gastaba para la casa, a fin de repararla."
+    },
+    {
+      "id": "2reyes12-nbla-13",
+      "number": 13,
+      "text": "Pero del dinero que se traía a la casa del SEÑOR, no se hicieron ni copas de plata, ni despabiladeras, ni tazones, ni trompetas, ni ninguna vasija de oro, ni vasijas de plata para la casa del SEÑOR;"
+    },
+    {
+      "id": "2reyes12-nbla-14",
+      "number": 14,
+      "text": "porque lo daban a los que hacían el trabajo, y con él reparaban la casa del SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-15a",
+          "order": 1,
+          "text": "Y no se pedían cuentas a los hombres en cuyas manos se ponía el dinero para dárselo a los que hacían el trabajo, porque"
+        },
+        {
+          "id": "2reyes12-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "procedían fielmente."
+        }
+      ],
+      "id": "2reyes12-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "2reyes12-nbla-16",
+      "number": 16,
+      "text": "No se traía a la casa del SEÑOR el dinero de las ofrendas por la culpa ni el dinero de las ofrendas por el pecado; era para los sacerdotes."
+    },
+    {
+      "id": "2reyes12-nbla-17",
+      "number": 17,
+      "text": "Entonces Hazael, rey de Aram, subió y peleó contra Gat y la tomó; y Hazael se propuso subir contra Jerusalén."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-18a",
+          "order": 1,
+          "text": "Y Joás, rey de Judá, tomó todas las cosas sagradas que Josafat, Joram y Ocozías, sus padres, reyes de Judá, habían consagrado, y sus propias cosas sagradas y todo el oro que se encontraba en las tesorerías de la casa del SEÑOR y de la casa del rey, y"
+        },
+        {
+          "id": "2reyes12-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "las envió a Hazael, rey de Aram"
+        },
+        {
+          "id": "2reyes12-nbla-18c",
+          "order": 3,
+          "text": ". Entonces él se retiró de Jerusalén."
+        }
+      ],
+      "id": "2reyes12-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "2reyes12-nbla-19",
+      "number": 19,
+      "text": "Los demás hechos de Joás, y todo lo que hizo, ¿no están escritos en el libro de las Crónicas de los reyes de Judá?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2reyes12-nbla-20a",
+          "order": 1,
+          "text": "Y"
+        },
+        {
+          "id": "2reyes12-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "sus siervos se levantaron y tramaron una conspiración, y mataron a Joás"
+        },
+        {
+          "id": "2reyes12-nbla-20c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "en la casa de Milo, cuando descendía a Sila."
+        }
+      ],
+      "id": "2reyes12-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "2reyes12-nbla-21",
+      "number": 21,
+      "text": "Pues sus siervos Josacar, hijo de Simeat, y Jozabad, hijo de Somer, lo hirieron y murió; y lo sepultaron con sus padres en la ciudad de David, y Amasías su hijo reinó en su lugar."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

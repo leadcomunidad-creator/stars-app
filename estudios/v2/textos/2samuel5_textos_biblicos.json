@@ -1,0 +1,639 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El orden une cuidado y autoridad. David no recibe primero un derecho a ser servido, sino una vocación de pastor. El pueblo sigue perteneciendo a Dios. Todo liderazgo bíblico debe conservar esa posesión divina como límite contra el abuso y como llamado a buscar el bien de personas concretas.",
+      "id": "2samuel5-joya-01",
+      "msg": {
+        "en": "“You will shepherd my people Israel and you’ll be the prince.”",
+        "es": "«Tú pastorearás a Mi pueblo Israel y serás su príncipe»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-02b"
+          ],
+          "verseId": "2samuel5-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La unión nacional se expresa mediante compromiso, no solo mediante victoria. Dios es testigo del acuerdo entre rey y pueblo. La autoridad queda ligada a palabra dada y responsabilidad mutua. Un pacto delante del Señor no puede reducirse a ceremonia; deberá reflejarse en la forma cotidiana de gobernar.",
+      "id": "2samuel5-joya-02",
+      "msg": {
+        "en": "“the king made a treaty with them in the presence of GOD.”",
+        "es": "«el rey hizo un pacto con ellos en presencia de DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-03b"
+          ],
+          "verseId": "2samuel5-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "El crecimiento de David se explica por presencia antes que por talento. El título divino comunica poder soberano. Esa presencia no convierte al rey en dueño de Dios ni garantiza aprobación de cada decisión; lo coloca bajo el Comandante verdadero, de quien recibe fuerza y ante quien responde.",
+      "id": "2samuel5-joya-03",
+      "msg": {
+        "en": "“the GOD-of-the-Angel-Armies was with him.”",
+        "es": "«el DIOS-de-los-Ejércitos-Angelicales estaba con él»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-10b"
+          ],
+          "verseId": "2samuel5-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Ambas versiones colocan al pueblo como propósito de la exaltación real. La casa de David, sus alianzas y su reconocimiento poseen una finalidad pastoral. La bendición se deforma cuando el líder la interpreta como certificación de grandeza personal y olvida a quienes debía servir.",
+      "id": "2samuel5-joya-04",
+      "msg": {
+        "en": "“for the sake of Israel, his people.”",
+        "es": "«por amor a Israel, Su pueblo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-12b"
+          ],
+          "verseId": "2samuel5-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "11-12"
+    },
+    {
+      "explanation": "La coronación sobre todo Israel no vuelve innecesaria la oración. MSG expresa relación; NBLA subraya consulta. El enemigo llega precisamente después de la confirmación, y David responde colocando la batalla bajo la palabra de Dios. La autoridad crece con seguridad cuando también crece su dependencia.",
+      "id": "2samuel5-joya-05",
+      "msg": {
+        "en": "“Then David prayed to GOD”",
+        "es": "«Entonces David oró a DIOS»"
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-19a"
+          ],
+          "verseId": "2samuel5-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "19"
+    },
+    {
+      "explanation": "La palabra «volvió» es decisiva. David no trata la victoria anterior como permiso permanente ni la estrategia pasada como receta. Consultar otra vez reconoce que la similitud de las circunstancias no elimina la libertad del Señor para guiar de manera distinta.",
+      "id": "2samuel5-joya-06",
+      "msg": {
+        "en": "“David again prayed to GOD.”",
+        "es": "«David volvió a orar a DIOS»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-23a"
+          ],
+          "verseId": "2samuel5-nbla-23"
+        }
+      ],
+      "order": 6,
+      "range": "22-23"
+    },
+    {
+      "explanation": "La escucha culmina en correspondencia concreta. David no ajusta la instrucción para recuperar protagonismo. Espera, rodea y actúa. La espiritualidad del capítulo no consiste solo en consultar, sino en permitir que la respuesta cambie el plan y determine el momento de avanzar.",
+      "id": "2samuel5-joya-07",
+      "msg": {
+        "en": "“David did exactly what GOD told him.”",
+        "es": "«David hizo exactamente lo que DIOS le ordenó»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-25b"
+          ],
+          "verseId": "2samuel5-nbla-25"
+        }
+      ],
+      "order": 7,
+      "range": "25"
+    }
+  ],
+  "meta": {
+    "book": "2 SAMUEL",
+    "bookId": "2samuel",
+    "chapter": 5,
+    "studyId": "2samuel-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2samuel5-msg-01",
+      "msg": {
+        "en": "Before long all the tribes of Israel approached David in Hebron and said, “Look at us—your own flesh and blood! In time past when Saul was our king, you were the one who really ran the country. Even then GOD said to you, ‘You will shepherd my people Israel and you’ll be the prince.’”",
+        "es": "Poco después, todas las tribus de Israel se acercaron a David en Hebrón y dijeron: «Míranos: ¡somos de tu misma carne y sangre! Ya antes, cuando Saúl era nuestro rey, tú eras quien realmente dirigía al país. Incluso entonces DIOS te dijo: “Tú pastorearás a Mi pueblo Israel y serás su príncipe”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "2samuel5-msg-02",
+      "msg": {
+        "en": "All the leaders of Israel met with King David at Hebron, and the king made a treaty with them in the presence of GOD. And so they anointed David king over Israel.",
+        "es": "Todos los dirigentes de Israel se reunieron con el rey David en Hebrón, y el rey hizo un pacto con ellos en presencia de DIOS. Entonces ungieron a David como rey sobre Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "2samuel5-msg-03",
+      "msg": {
+        "en": "David was thirty years old when he became king, and ruled for forty years. In Hebron he ruled Judah for seven and a half years. In Jerusalem he ruled all Israel and Judah for thirty-three years.",
+        "es": "David tenía treinta años cuando llegó a ser rey y gobernó durante cuarenta años. En Hebrón gobernó a Judá durante siete años y medio. En Jerusalén gobernó a todo Israel y Judá durante treinta y tres años."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "2samuel5-msg-04",
+      "msg": {
+        "en": "David and his men immediately set out for Jerusalem to take on the Jebusites, who lived in that country. But they said, “You might as well go home! Even the blind and the lame could keep you out. You can’t get in here!” They had convinced themselves that David couldn’t break through.",
+        "es": "David y sus hombres salieron de inmediato hacia Jerusalén para enfrentarse con los jebuseos que vivían allí. Pero ellos dijeron: «¡Más vale que regreses a casa! Hasta los ciegos y los cojos podrían impedirte la entrada. ¡No puedes entrar aquí!». Estaban convencidos de que David no lograría abrirse paso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "2samuel5-msg-05",
+      "msg": {
+        "en": "But David went right ahead and captured the fortress of Zion, known ever since as the City of David. That day David said, “To get the best of these Jebusites, one must target the water system, not to mention this so-called lame and blind bunch that David hates.” (In fact, he was so sick and tired of it, people coined the expression, “No lame and blind allowed in the palace.”)",
+        "es": "Pero David siguió adelante y conquistó la fortaleza de Sión, conocida desde entonces como la Ciudad de David. Aquel día David dijo: «Para vencer a estos jebuseos hay que atacar por el sistema de agua, sin olvidar a este supuesto grupo de cojos y ciegos que David aborrece». De hecho, la expresión «No se permiten cojos ni ciegos en el palacio» llegó a hacerse común."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "2samuel5-msg-06",
+      "msg": {
+        "en": "David made the fortress city his home and named it “City of David.” He developed the city from the outside terraces inward. David proceeded with a longer stride, a larger embrace since the GOD-of-the-Angel-Armies was with him.",
+        "es": "David estableció su hogar en la ciudad fortificada y la llamó «Ciudad de David». Desarrolló la ciudad desde las terrazas exteriores hacia adentro. David avanzaba con pasos cada vez más grandes y con un alcance mayor porque el DIOS-de-los-Ejércitos-Angelicales estaba con él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "2samuel5-msg-07",
+      "msg": {
+        "en": "It was at this time that Hiram, king of Tyre, sent messengers to David, along with timbers of cedar. He also sent carpenters and masons to build a house for David. David took this as a sign that GOD had confirmed him as king of Israel, giving his kingship world prominence for the sake of Israel, his people.",
+        "es": "Por ese tiempo Hiram, rey de Tiro, envió mensajeros a David junto con madera de cedro. También mandó carpinteros y canteros para construirle una casa. David entendió esto como señal de que DIOS lo había confirmado como rey de Israel y había dado proyección internacional a su reino por amor a Israel, Su pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-16",
+      "id": "2samuel5-msg-08",
+      "msg": {
+        "en": "David took on more concubines and wives from Jerusalem after he left Hebron. And more sons and daughters were born to him. These are the names of those born to him in Jerusalem:\nShammua,\nShobab,\nNathan,\nSolomon,\nIbhar,\nElishua,\nNepheg,\nJaphia,\nElishama,\nEliada,\nEliphelet.",
+        "es": "Después de salir de Hebrón, David tomó más concubinas y esposas en Jerusalén, y le nacieron más hijos e hijas. Estos son los nombres de quienes le nacieron en Jerusalén: Samúa, Sobab, Natán, Salomón, Ibhar, Elisúa, Nefeg, Jafía, Elisama, Eliada y Elifelet."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-16"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "2samuel5-msg-09",
+      "msg": {
+        "en": "When the Philistines got word that David had been made king over all Israel, they came on the hunt for him. David heard of it and went down to the stronghold. When the Philistines arrived, they deployed their forces in Raphaim Valley.",
+        "es": "Cuando los filisteos supieron que David había sido hecho rey sobre todo Israel, salieron a perseguirlo. David se enteró y bajó a la fortaleza. Al llegar, los filisteos desplegaron sus fuerzas en el valle de Refaim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19",
+      "id": "2samuel5-msg-10",
+      "msg": {
+        "en": "Then David prayed to GOD: “Shall I go up and fight the Philistines? Will you help me beat them?”",
+        "es": "Entonces David oró a DIOS: «¿Debo subir a luchar contra los filisteos? ¿Me ayudarás a vencerlos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-19"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "2samuel5-msg-11",
+      "msg": {
+        "en": "“Go up,” GOD replied. “Count on me. I’ll help you beat them.”\nDavid then went straight to Baal Perazim, and smashed them to pieces. Afterward David said, “GOD exploded on my enemies like a gush of water.” That’s why David named the place Baal Perazim (The-Master-Who-Explodes). The retreating Philistines dumped their idols, and David and his soldiers took them away.",
+        "es": "«Sube», respondió DIOS. «Cuenta conmigo. Yo te ayudaré a vencerlos». David fue directamente a Baal Perazim y los derrotó por completo. Después dijo: «DIOS abrió una brecha entre mis enemigos como una corriente impetuosa». Por eso llamó al lugar Baal Perazim, «el Señor que abre brechas». Los filisteos abandonaron sus ídolos durante la retirada, y David y sus soldados se los llevaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "2samuel5-msg-12",
+      "msg": {
+        "en": "Later there was a repeat performance. The Philistines came up again and deployed their troops in the Rephaim Valley. David again prayed to GOD.",
+        "es": "Más tarde la escena se repitió. Los filisteos volvieron a subir y desplegaron sus tropas en el valle de Refaim. David volvió a orar a DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-22"
+        },
+        {
+          "clauseIds": [
+            "2samuel5-nbla-23a"
+          ],
+          "verseId": "2samuel5-nbla-23"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "2samuel5-msg-13",
+      "msg": {
+        "en": "This time GOD said, “Don’t attack them head-on. Instead, circle around behind them and ambush them from the grove of sacred trees. When you hear the sound of shuffling in the trees, get ready to move out. It’s a signal that GOD is going ahead of you to smash the Philistine camp.”",
+        "es": "Esta vez DIOS dijo: «No los ataques de frente. Rodéalos, llega por detrás y atácalos desde el bosque de árboles sagrados. Cuando escuches el sonido de pasos entre las copas, prepárate para avanzar. Será la señal de que DIOS va delante de ti para derrotar el campamento filisteo»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2samuel5-nbla-23b"
+          ],
+          "verseId": "2samuel5-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-24"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "25",
+      "id": "2samuel5-msg-14",
+      "msg": {
+        "en": "David did exactly what GOD told him. He routed the Philistines all the way from Gibeon to Gezer.",
+        "es": "David hizo exactamente lo que DIOS le ordenó. Derrotó a los filisteos desde Gabaón hasta Gezer."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2samuel5-nbla-25"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2samuel5-nbla-01",
+      "number": 1,
+      "text": "Entonces todas las tribus de Israel fueron a David, en Hebrón, y le dijeron: «Aquí estamos, hueso suyo y carne suya somos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-02a",
+          "order": 1,
+          "text": "Ya desde antes, cuando Saúl aún era rey sobre nosotros, usted era el que guiaba a Israel en sus salidas y entradas. Y el SEÑOR le dijo: “"
+        },
+        {
+          "id": "2samuel5-nbla-02b",
+          "order": 2,
+          "text": "Tú pastorearás a Mi pueblo Israel, y serás príncipe sobre Israel”»."
+        }
+      ],
+      "id": "2samuel5-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-03a",
+          "order": 1,
+          "text": "Vinieron, pues, todos los ancianos de Israel al rey en Hebrón, y"
+        },
+        {
+          "id": "2samuel5-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el rey David hizo un pacto con ellos en Hebrón delante del SEÑOR"
+        },
+        {
+          "id": "2samuel5-nbla-03c",
+          "order": 3,
+          "text": "; luego ungieron a David como rey sobre Israel."
+        }
+      ],
+      "id": "2samuel5-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "2samuel5-nbla-04",
+      "number": 4,
+      "text": "David tenía treinta años cuando llegó a ser rey, y reinó cuarenta años."
+    },
+    {
+      "id": "2samuel5-nbla-05",
+      "number": 5,
+      "text": "En Hebrón reinó sobre Judá siete años y seis meses, y en Jerusalén reinó treinta y tres años sobre todo Israel y Judá."
+    },
+    {
+      "id": "2samuel5-nbla-06",
+      "number": 6,
+      "text": "Y el rey y sus hombres fueron a Jerusalén para atacar a los jebuseos, los habitantes de la tierra. Los jebuseos le dijeron a David: «Usted no entrará aquí; aun los ciegos y los cojos lo rechazarán»; pues pensaban: «David no puede entrar aquí»."
+    },
+    {
+      "id": "2samuel5-nbla-07",
+      "number": 7,
+      "text": "No obstante, David conquistó la fortaleza de Sión, es decir, la ciudad de David."
+    },
+    {
+      "id": "2samuel5-nbla-08",
+      "number": 8,
+      "text": "Y dijo David aquel día: «Todo el que quiera herir a los jebuseos, que suba por el túnel del agua y llegue adonde están los cojos y los ciegos, a los cuales el alma de David aborrece». Por eso se dice: «Ni los ciegos ni los cojos entrarán en la casa»."
+    },
+    {
+      "id": "2samuel5-nbla-09",
+      "number": 9,
+      "text": "David habitó en la fortaleza, y la llamó la ciudad de David. Y edificó David la muralla en derredor desde el Milo hacia adentro."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-10a",
+          "order": 1,
+          "text": "David se engrandecía cada vez más, porque"
+        },
+        {
+          "id": "2samuel5-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR, Dios de los ejércitos, estaba con él."
+        }
+      ],
+      "id": "2samuel5-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2samuel5-nbla-11",
+      "number": 11,
+      "text": "Entonces Hiram, rey de Tiro, envió mensajeros a David con madera de cedros, carpinteros y canteros, y construyeron una casa para David."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-12a",
+          "order": 1,
+          "text": "Y comprendió David que el SEÑOR lo había confirmado por rey sobre Israel, y que había exaltado Su reino"
+        },
+        {
+          "id": "2samuel5-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "por amor a Su pueblo Israel."
+        }
+      ],
+      "id": "2samuel5-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "2samuel5-nbla-13",
+      "number": 13,
+      "text": "Después que vino de Hebrón, David tomó más concubinas y mujeres de Jerusalén; y le nacieron a David más hijos e hijas."
+    },
+    {
+      "id": "2samuel5-nbla-14",
+      "number": 14,
+      "text": "Estos son los nombres de los que le nacieron en Jerusalén: Samúa, Sobab, Natán, Salomón,"
+    },
+    {
+      "id": "2samuel5-nbla-15",
+      "number": 15,
+      "text": "Ibhar, Elisúa, Nefeg, Jafía,"
+    },
+    {
+      "id": "2samuel5-nbla-16",
+      "number": 16,
+      "text": "Elisama, Eliada y Elifelet."
+    },
+    {
+      "id": "2samuel5-nbla-17",
+      "number": 17,
+      "text": "Al oír los filisteos que David había sido ungido rey sobre Israel, todos los filisteos subieron a buscar a David; y cuando David se enteró, bajó a la fortaleza."
+    },
+    {
+      "id": "2samuel5-nbla-18",
+      "number": 18,
+      "text": "Los filisteos llegaron y se esparcieron por el valle de Refaim."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-19a",
+          "order": 1,
+          "text": "Entonces David consultó al SEÑOR"
+        },
+        {
+          "id": "2samuel5-nbla-19b",
+          "order": 2,
+          "text": ": «¿Subiré contra los filisteos? ¿Los entregarás en mi mano?». Y el SEÑOR dijo a David: «Sube, porque ciertamente entregaré a los filisteos en tu mano»."
+        }
+      ],
+      "id": "2samuel5-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "2samuel5-nbla-20",
+      "number": 20,
+      "text": "Así que David fue a Baal Perazim, y allí los derrotó; y dijo: «El SEÑOR ha abierto brecha entre mis enemigos delante de mí, como brecha de aguas». Por eso llamó a aquel lugar Baal Perazim."
+    },
+    {
+      "id": "2samuel5-nbla-21",
+      "number": 21,
+      "text": "Los filisteos abandonaron allí sus ídolos, y David y sus hombres se los llevaron."
+    },
+    {
+      "id": "2samuel5-nbla-22",
+      "number": 22,
+      "text": "Después los filisteos subieron de nuevo, y se esparcieron por el valle de Refaim."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-23a",
+          "order": 1,
+          "text": "Cuando David consultó al SEÑOR,"
+        },
+        {
+          "id": "2samuel5-nbla-23b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Él le dijo: «No subas directamente; da un rodeo por detrás de ellos y sal a ellos frente a las balsameras."
+        }
+      ],
+      "id": "2samuel5-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "2samuel5-nbla-24",
+      "number": 24,
+      "text": "Y cuando oigas el sonido de marcha en las copas de las balsameras, entonces actuarás rápidamente, ya que el SEÑOR habrá salido delante de ti para herir al ejército de los filisteos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2samuel5-nbla-25a",
+          "order": 1,
+          "text": "Entonces"
+        },
+        {
+          "id": "2samuel5-nbla-25b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "David lo hizo así, tal como el SEÑOR le había ordenado"
+        },
+        {
+          "id": "2samuel5-nbla-25c",
+          "order": 3,
+          "text": ", e hirió a los filisteos desde Geba hasta Gezer."
+        }
+      ],
+      "id": "2samuel5-nbla-25",
+      "number": 25
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

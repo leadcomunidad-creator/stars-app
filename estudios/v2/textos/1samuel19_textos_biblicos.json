@@ -1,0 +1,572 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Jonatán no suaviza el peligro para proteger la imagen familiar. Nombra la intención de Saúl y entrega a David información que puede salvarle la vida. El amor de pacto dice la verdad a tiempo, incluso cuando esa verdad expone el pecado de alguien cercano.",
+      "id": "1samuel19-joya-01",
+      "msg": {
+        "en": "\"But because Jonathan treasured David, he went and warned him: “My father is looking for a way to kill you.\"",
+        "es": "\"Mi padre busca la manera de matarte\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel19-nbla-02a"
+          ],
+          "verseId": "1samuel19-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "Los celos de Saúl han reducido a David a amenaza. Jonatán recupera el panorama completo y obliga a recordar el bien. La defensa de una persona injustamente acusada puede comenzar restituyendo hechos que el relato dominante decidió olvidar.",
+      "id": "1samuel19-joya-02",
+      "msg": {
+        "en": "\"And just look at all the good he has done!\"",
+        "es": "\"Mira todo el bien que ha realizado\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "Jonatán lleva la conversación desde conveniencia hasta responsabilidad delante de Dios. Matar a David no sería una decisión política desafortunada, sino pecado contra sangre inocente. La claridad moral ayuda a romper el lenguaje que normaliza daño.",
+      "id": "1samuel19-joya-03",
+      "msg": {
+        "en": "\"So why would you even think of sinning against an innocent person, killing David for no reason whatever?”\"",
+        "es": "\"Por qué pensarías siquiera en pecar contra una persona inocente\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel19-nbla-05b"
+          ],
+          "verseId": "1samuel19-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La frase parece anunciar restauración, pero el siguiente ataque revela su fragilidad. Volver a rutinas conocidas no prueba que la raíz haya cambiado. La apariencia de normalidad puede convivir con un peligro que solo está esperando otro desencadenante.",
+      "id": "1samuel19-joya-04",
+      "msg": {
+        "en": "\"Then he brought David back to Saul and everything was as it was before.\"",
+        "es": "\"todo volvió a ser como antes\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel19-nbla-07b"
+          ],
+          "verseId": "1samuel19-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "Mical entiende que el tiempo importa. No responde a una amenaza mortal con abstracciones; ayuda a David a salir. La protección puede requerir decisiones inmediatas antes de que todas las preguntas relacionales y morales encuentren respuesta.",
+      "id": "1samuel19-joya-05",
+      "msg": {
+        "en": "\"Quickly now—make your escape tonight.\"",
+        "es": "\"Rápido, escapa esta noche\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11-14"
+    },
+    {
+      "explanation": "David llega ante Samuel y narra la historia completa. Contar a una persona confiable rompe el aislamiento que la persecución busca producir. El testimonio permite recibir acompañamiento, discernir el patrón y construir un refugio con otros.",
+      "id": "1samuel19-joya-06",
+      "msg": {
+        "en": "\"David made good his escape and went to Samuel at Ramah and told him everything Saul had done to him.\"",
+        "es": "\"le contó todo lo que Saúl le había hecho\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel19-nbla-18a"
+          ],
+          "verseId": "1samuel19-nbla-18"
+        }
+      ],
+      "order": 6,
+      "range": "18"
+    },
+    {
+      "explanation": "Saúl llega para capturar y termina detenido por la misma presencia que capacita a los profetas. El Espíritu no está bajo control del rey ni de sus mensajeros. Dios puede atravesar la voluntad hostil de una persona y frustrar su acción sin depender de su cooperación.",
+      "id": "1samuel19-joya-07",
+      "msg": {
+        "en": "\"As he headed out for Naioth in Ramah, the Spirit of God was on him, too.\"",
+        "es": "\"el Espíritu de Dios vino también sobre él\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-23"
+        }
+      ],
+      "order": 7,
+      "range": "23-24"
+    }
+  ],
+  "meta": {
+    "book": "1 SAMUEL",
+    "bookId": "1samuel",
+    "chapter": 19,
+    "studyId": "1samuel-19"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "1samuel19-msg-01",
+      "msg": {
+        "en": "Saul called his son Jonathan together with his servants and ordered them to kill David. But because Jonathan treasured David, he went and warned him: “My father is looking for a way to kill you. Here’s what you are to do. Tomorrow morning, hide and stay hidden. I’ll go out with my father into the field where you are hiding. I’ll talk about you with my father and we’ll see what he says. Then I’ll report back to you.”.",
+        "es": "Saúl reunió a su hijo Jonatán y a sus servidores, y les ordenó matar a David. Pero como Jonatán apreciaba profundamente a David, fue a advertirle: «Mi padre busca la manera de matarte. Esto es lo que debes hacer: mañana por la mañana escóndete y permanece oculto. Yo saldré con mi padre al campo donde estés escondido. Hablaré con él acerca de ti, veremos qué dice y luego te informaré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "1samuel19-msg-02",
+      "msg": {
+        "en": "Jonathan brought up David with his father, speaking well of him. “Please,” he said to his father, “don’t attack David. He hasn’t wronged you, has he? And just look at all the good he has done! He put his life on the line when he killed the Philistine. What a great victory GOD gave Israel that day! You were there. You saw it and were on your feet applauding with everyone else. So why would you even think of sinning against an innocent person, killing David for no reason whatever?”",
+        "es": "Jonatán habló bien de David ante su padre: «Por favor, no ataques a David. Él no te ha hecho ningún mal, ¿verdad? ¡Mira todo el bien que ha realizado! Puso su vida en peligro cuando mató al filisteo. ¡Qué gran victoria dio DIOS a Israel aquel día! Tú estabas allí, la viste y te levantaste a celebrar con todos. ¿Por qué pensarías siquiera en pecar contra una persona inocente y matar a David sin razón alguna?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6",
+      "id": "1samuel19-msg-03",
+      "msg": {
+        "en": "Saul listened to Jonathan and said, “You’re right. As GOD lives, David lives. He will not be killed.”",
+        "es": "Saúl escuchó a Jonatán y dijo: «Tienes razón. Tan cierto como que DIOS vive, David vivirá. No será muerto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "1samuel19-msg-04",
+      "msg": {
+        "en": "Jonathan sent for David and reported to him everything that was said. Then he brought David back to Saul and everything was as it was before.",
+        "es": "Jonatán mandó a buscar a David y le contó todo lo que se había dicho. Después lo llevó de regreso ante Saúl y todo volvió a ser como antes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "1samuel19-msg-05",
+      "msg": {
+        "en": "War broke out again and David went out to fight Philistines. He beat them badly, and they ran for their lives.",
+        "es": "La guerra estalló de nuevo y David salió a combatir contra los filisteos. Los derrotó severamente y ellos huyeron para salvar la vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "1samuel19-msg-06",
+      "msg": {
+        "en": "But then a black mood from God settled over Saul and took control of him. He was sitting at home, his spear in his hand, while David was playing music. Suddenly, Saul tried to skewer David with his spear, but David ducked. The spear stuck in the wall and David got away. It was night.",
+        "es": "Pero entonces un ánimo oscuro procedente de Dios se apoderó de Saúl y tomó control de él. Estaba sentado en su casa con una lanza en la mano mientras David tocaba música. De repente Saúl intentó atravesarlo con la lanza, pero David se agachó. La lanza quedó clavada en la pared y David escapó. Era de noche."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-14",
+      "id": "1samuel19-msg-07",
+      "msg": {
+        "en": "Saul sent men to David’s house to stake it out and then, first thing in the morning, to kill him. But Michal, David’s wife, told him what was going on. “Quickly now—make your escape tonight. If not, you’ll be dead by morning!” She let him out of a window, and he made his escape. Then Michal took a dummy god and put it in the bed, placed a wig of goat’s hair on its head, and threw a quilt over it. When Saul’s men arrived to get David, she said, “He’s sick in bed.”",
+        "es": "Saúl envió hombres a vigilar la casa de David para matarlo a primera hora de la mañana. Pero Mical, esposa de David, le contó lo que ocurría: «Rápido, escapa esta noche. Si no lo haces, estarás muerto al amanecer». Lo bajó por una ventana y David huyó. Entonces Mical tomó un ídolo doméstico, lo puso en la cama, colocó una peluca de pelo de cabra sobre su cabeza y lo cubrió con una manta. Cuando los hombres de Saúl llegaron para llevarse a David, ella dijo: «Está enfermo en cama»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-14"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "1samuel19-msg-08",
+      "msg": {
+        "en": "Saul sent his men back, ordering them, “Bring him, bed and all, so I can kill him.” When the men entered the room, all they found in the bed was the dummy god with its goat-hair wig!",
+        "es": "Saúl envió de nuevo a sus hombres y ordenó: «Tráiganlo con cama y todo para que pueda matarlo». Cuando entraron en la habitación, lo único que encontraron en la cama fue el ídolo doméstico con su peluca de pelo de cabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-16"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "17",
+      "id": "1samuel19-msg-09",
+      "msg": {
+        "en": "Saul stormed at Michal: “How could you play tricks on me like this? You sided with my enemy, and now he’s gotten away!”",
+        "es": "Saúl arremetió contra Mical: «¿Cómo pudiste engañarme de esta manera? Te pusiste del lado de mi enemigo y ahora ha escapado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-17"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "18",
+      "id": "1samuel19-msg-10",
+      "msg": {
+        "en": "Michal said, “He threatened me. He said, ‘Help me out of here or I’ll kill you.’”\nDavid made good his escape and went to Samuel at Ramah and told him everything Saul had done to him. Then he and Samuel withdrew to the privacy of Naioth.",
+        "es": "Mical respondió: «Me amenazó. Dijo: “Ayúdame a salir de aquí o te mataré”».\nDavid logró escapar, fue hasta Samuel en Ramá y le contó todo lo que Saúl le había hecho. Después él y Samuel se retiraron a la tranquilidad de Naiot."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-18"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "1samuel19-msg-11",
+      "msg": {
+        "en": "Saul was told, “David’s at Naioth in Ramah.” He immediately sent his men to capture him. They saw a band of prophets prophesying with Samuel presiding over them. Before they knew it, the Spirit of God was on them, too, and they were ranting and raving right along with the prophets!",
+        "es": "Le dijeron a Saúl: «David está en Naiot de Ramá». Inmediatamente envió hombres para capturarlo. Ellos vieron a un grupo de profetas profetizando bajo la dirección de Samuel. Antes de darse cuenta, el Espíritu de Dios vino también sobre ellos y comenzaron a profetizar junto con los demás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21",
+      "id": "1samuel19-msg-12",
+      "msg": {
+        "en": "That was reported back to Saul, and he dispatched more men. They, too, were soon prophesying. So Saul tried a third time—a third set of men—and they ended up mindlessly raving as well!",
+        "es": "Cuando informaron a Saúl, envió más hombres. Ellos también comenzaron pronto a profetizar. Así que Saúl lo intentó por tercera vez con otro grupo, y estos terminaron igualmente hablando fuera de sí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22",
+      "id": "1samuel19-msg-13",
+      "msg": {
+        "en": "Fed up, Saul went to Ramah himself. He came to the big cistern at Secu and inquired, “Where are Samuel and David?”\nA bystander said, “over at Naioth in Ramah.”.",
+        "es": "Harto de todo, Saúl fue personalmente a Ramá. Llegó a la gran cisterna de Secú y preguntó: «¿Dónde están Samuel y David?».\nAlguien respondió: «Allá en Naiot de Ramá»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-22"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "1samuel19-msg-14",
+      "msg": {
+        "en": "As he headed out for Naioth in Ramah, the Spirit of God was on him, too. All the way to Naioth he was caught up in a babbling trance! He ripped off his clothes and lay there rambling gibberish before Samuel for a day and a night, stretched out naked. People are still talking about it: “Saul among the prophets! Who would have guessed?”",
+        "es": "Mientras se dirigía a Naiot de Ramá, el Espíritu de Dios vino también sobre él. Durante todo el camino quedó atrapado en un trance de palabras desbordadas. Se quitó la ropa y permaneció tendido, desnudo delante de Samuel, hablando incoherentemente durante un día y una noche. La gente todavía comentaba: «¿Saúl entre los profetas? ¿Quién lo habría imaginado?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel19-nbla-24"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1samuel19-nbla-01",
+      "number": 1,
+      "text": "Saúl les dijo a su hijo Jonatán y a todos sus siervos que dieran muerte a David; pero Jonatán, hijo de Saúl, apreciaba grandemente a David."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel19-nbla-02a",
+          "order": 1,
+          "text": "Así que Jonatán le avisó a David: «Saúl mi padre procura matarte."
+        },
+        {
+          "id": "1samuel19-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Ahora pues, te ruego que estés alerta por la mañana, y permanezcas en un lugar secreto y te escondas."
+        }
+      ],
+      "id": "1samuel19-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "1samuel19-nbla-03",
+      "number": 3,
+      "text": "Yo saldré y me pondré al lado de mi padre en el campo donde tú te encuentres, y hablaré con mi padre de ti. Si descubro algo, te avisaré»."
+    },
+    {
+      "id": "1samuel19-nbla-04",
+      "number": 4,
+      "text": "Entonces Jonatán habló bien de David a Saúl su padre, y le dijo: «No peque el rey contra David su siervo, puesto que él no ha pecado contra usted, y puesto que sus hechos han sido de mucho beneficio para usted."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel19-nbla-05a",
+          "order": 1,
+          "text": "Porque puso su vida en peligro e hirió al filisteo, y el SEÑOR trajo una gran liberación a todo Israel; usted lo vio y se regocijó."
+        },
+        {
+          "id": "1samuel19-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿Por qué, pues, pecará contra sangre inocente, dando muerte a David sin causa?»."
+        }
+      ],
+      "id": "1samuel19-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "1samuel19-nbla-06",
+      "number": 6,
+      "text": "Y escuchó Saúl la voz de Jonatán, y juró: «Vive el SEÑOR que no morirá»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel19-nbla-07a",
+          "order": 1,
+          "text": "Entonces Jonatán llamó a David y le comunicó todas estas palabras."
+        },
+        {
+          "id": "1samuel19-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y Jonatán llevó a David ante Saúl, y estuvo en su presencia como antes."
+        }
+      ],
+      "id": "1samuel19-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "1samuel19-nbla-08",
+      "number": 8,
+      "text": "Cuando hubo guerra de nuevo, David salió y peleó contra los filisteos, y los derrotó con gran matanza, y huyeron delante de él."
+    },
+    {
+      "id": "1samuel19-nbla-09",
+      "number": 9,
+      "text": "Y vino un espíritu malo de parte del SEÑOR sobre Saúl; y estaba él sentado en su casa con su lanza en la mano mientras David tocaba el arpa."
+    },
+    {
+      "id": "1samuel19-nbla-10",
+      "number": 10,
+      "text": "Y Saúl trató de clavar a David en la pared con la lanza, pero este se echó de la presencia de Saúl, y la lanza se clavó en la pared. David huyó y escapó aquella noche."
+    },
+    {
+      "id": "1samuel19-nbla-11",
+      "number": 11,
+      "text": "Saúl envió mensajeros a la casa de David para vigilarlo a fin de matarlo por la mañana; pero Mical, mujer de David, le avisó: «Si no pones a salvo tu vida esta noche, mañana te darán muerte»."
+    },
+    {
+      "id": "1samuel19-nbla-12",
+      "number": 12,
+      "text": "Mical descolgó a David por una ventana, y él salió, huyó y escapó."
+    },
+    {
+      "id": "1samuel19-nbla-13",
+      "number": 13,
+      "text": "Entonces Mical tomó el ídolo doméstico y lo puso en la cama, después puso a su cabecera una almohada de pelo de cabra y lo cubrió con ropa."
+    },
+    {
+      "id": "1samuel19-nbla-14",
+      "number": 14,
+      "text": "Cuando Saúl envió mensajeros para llevarse a David, ella dijo: «Está enfermo»."
+    },
+    {
+      "id": "1samuel19-nbla-15",
+      "number": 15,
+      "text": "Pero Saúl envió a los mensajeros a ver a David, diciéndoles: «Tráiganmelo en la cama, para que yo lo mate»."
+    },
+    {
+      "id": "1samuel19-nbla-16",
+      "number": 16,
+      "text": "Cuando los mensajeros entraron, vieron que el ídolo doméstico era lo que estaba sobre la cama con la almohada de pelo de cabra en su cabecera."
+    },
+    {
+      "id": "1samuel19-nbla-17",
+      "number": 17,
+      "text": "Entonces Saúl dijo a Mical: «¿Por qué me has engañado de esta manera y has dejado ir a mi enemigo, de modo que ha escapado?». Y Mical dijo a Saúl: «Él me dijo: “Déjame ir, porque si no te mato”»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel19-nbla-18a",
+          "order": 1,
+          "text": "Huyó, pues, David y escapó, y fue a donde estaba Samuel en Ramá, y le contó todo lo que Saúl le había hecho."
+        },
+        {
+          "id": "1samuel19-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y David y Samuel fueron y se quedaron en Naiot."
+        }
+      ],
+      "id": "1samuel19-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "1samuel19-nbla-19",
+      "number": 19,
+      "text": "Y se le informó a Saúl: «David está en Naiot, en Ramá»."
+    },
+    {
+      "id": "1samuel19-nbla-20",
+      "number": 20,
+      "text": "Así que Saúl envió mensajeros para llevarse a David, pero cuando vieron al grupo de los profetas profetizando, y a Samuel de pie presidiéndolos, el Espíritu de Dios vino sobre los mensajeros de Saúl, y ellos también profetizaron."
+    },
+    {
+      "id": "1samuel19-nbla-21",
+      "number": 21,
+      "text": "Cuando se lo dijeron a Saúl, envió otros mensajeros, y también ellos profetizaron. Y por tercera vez Saúl envió mensajeros, y ellos también profetizaron."
+    },
+    {
+      "id": "1samuel19-nbla-22",
+      "number": 22,
+      "text": "Entonces él mismo fue a Ramá, y llegó hasta el pozo grande que está en Secú; y preguntó: «¿Dónde están Samuel y David?». Y alguien dijo: «Están en Naiot en Ramá»."
+    },
+    {
+      "id": "1samuel19-nbla-23",
+      "number": 23,
+      "text": "Y él prosiguió hasta Naiot en Ramá; y el Espíritu de Dios también vino sobre él, e iba profetizando continuamente hasta llegar a Naiot en Ramá."
+    },
+    {
+      "id": "1samuel19-nbla-24",
+      "number": 24,
+      "text": "Se quitó además la ropa, también profetizó delante de Samuel, y estuvo echado desnudo todo aquel día y toda la noche. Por lo que suele decirse: «¿También está Saúl entre los profetas?»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

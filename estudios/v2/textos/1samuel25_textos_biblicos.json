@@ -1,0 +1,815 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La nación se detiene para llorar a Samuel. El duelo compartido reconoce que una vida y una etapa terminaron. La fe no necesita apresurarse a convertir toda pérdida en lección antes de llorarla.",
+      "id": "1samuel25-joya-01",
+      "msg": {
+        "en": "\"Everyone grieved over his death, and he was buried in his hometown of Ramah.\"",
+        "es": "\"Todos lamentaron su muerte\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel25-nbla-01a"
+          ],
+          "verseId": "1samuel25-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "David abre con una bendición amplia. El saludo revela el bien que pudo gobernar el encuentro. La respuesta de Nabal mostrará cuán lejos está su casa de esa paz.",
+      "id": "1samuel25-joya-02",
+      "msg": {
+        "en": "\"Peace to your household, peace to everyone here!\"",
+        "es": "\"Paz para tu casa y paz para todos los que están aquí\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "4-8"
+    },
+    {
+      "explanation": "Una orden breve expone la rapidez con que el insulto se convierte en movilización armada. La ira de un líder puede multiplicarse en cientos de manos. Por eso necesita límites antes de hablar y personas capaces de interrumpirlo.",
+      "id": "1samuel25-joya-03",
+      "msg": {
+        "en": "\"David said, “Strap on your swords!”\"",
+        "es": "\"Pónganse las espadas\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel25-nbla-13a"
+          ],
+          "verseId": "1samuel25-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "12-13"
+    },
+    {
+      "explanation": "Su rapidez no es pánico sin dirección. Reúne información, provisión, personas y una estrategia de conversación. La sabiduría puede moverse con urgencia sin abandonar el pensamiento.",
+      "id": "1samuel25-joya-04",
+      "msg": {
+        "en": "\"Abigail flew into action.\"",
+        "es": "\"Abigail actuó de inmediato\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "18-19"
+    },
+    {
+      "explanation": "Abigail anuncia la salida moral antes de que David la acepte. Le permite verse desde la obra de Dios, no solo desde su furia. La corrección eficaz puede nombrar tanto el mal inminente como la gracia disponible para detenerlo.",
+      "id": "1samuel25-joya-05",
+      "msg": {
+        "en": "\"And now, my master, as GOD lives and as you live, GOD has kept you from this avenging murder—and may your enemies, all who seek my master’s harm, end up like Nabal!\"",
+        "es": "\"DIOS te ha impedido cometer este asesinato por venganza\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel25-nbla-26b"
+          ],
+          "verseId": "1samuel25-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "25-27"
+    },
+    {
+      "explanation": "David honra el razonamiento de una mujer que contradijo su decisión. No atribuye todo a una intervención abstracta: bendice a Dios, el discernimiento y a la persona concreta. La espiritualidad madura reconoce los instrumentos humanos de la gracia.",
+      "id": "1samuel25-joya-06",
+      "msg": {
+        "en": "\"And blessed be your good sense!\"",
+        "es": "\"bendito sea tu buen juicio\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "32-34"
+    },
+    {
+      "explanation": "Al final, David no reescribe su intención como justicia. La llama maldad. La gratitud por haber sido detenido es una forma de arrepentimiento que protege la memoria contra la autojustificación.",
+      "id": "1samuel25-joya-07",
+      "msg": {
+        "en": "\"When David heard that Nabal was dead he said, “Blessed be GOD who has stood up for me against Nabal’s insults, kept me from an evil act, and let Nabal’s evil boomerang back on him.”\"",
+        "es": "\"me guardó de cometer una acción malvada\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1samuel25-nbla-39a"
+          ],
+          "verseId": "1samuel25-nbla-39"
+        }
+      ],
+      "order": 7,
+      "range": "39-40"
+    }
+  ],
+  "meta": {
+    "book": "1 SAMUEL",
+    "bookId": "1samuel",
+    "chapter": 25,
+    "studyId": "1samuel-25"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "1samuel25-msg-01",
+      "msg": {
+        "en": "Samuel died. The whole country came to his funeral. Everyone grieved over his death, and he was buried in his hometown of Ramah. Meanwhile, David moved again, this time to the wilder ness of Maon.",
+        "es": "Samuel murió. Todo el país asistió a su funeral. Todos lamentaron su muerte, y fue sepultado en su ciudad natal, Ramá. Mientras tanto, David volvió a trasladarse, esta vez al desierto de Maón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "1samuel25-msg-02",
+      "msg": {
+        "en": "There was a certain man in Maon who carried on his business in the region of Carmel. He was very prosperous—three thousand sheep and a thousand goats, and it was sheep-shearing time in Carmel. The man’s name was Nabal (Fool), a Calebite, and his wife’s name was Abigail. The woman was intelligent and good-looking, the man brutish and mean.",
+        "es": "Había un hombre en Maón que manejaba sus negocios en la región de Carmel. Era muy próspero: tenía tres mil ovejas y mil cabras, y había llegado el tiempo de esquilar en Carmel. El hombre se llamaba Nabal —Necio—, era calebita, y su esposa se llamaba Abigail. La mujer era inteligente y hermosa; el hombre era brutal y mezquino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-8",
+      "id": "1samuel25-msg-03",
+      "msg": {
+        "en": "David, out in the backcountry, heard that Nabal was shearing his sheep and sent ten of his young men off with these instructions: “Go to Carmel and approach Nabal. Greet him in my name, ‘Peace! Life and peace to you. Peace to your household, peace to everyone here! I heard that it’s sheep-shearing time. Here’s the point: When your shepherds were camped near us we didn’t take advantage of them. They didn’t lose a thing all the time they were with us in Carmel. Ask your young men—they’ll tell you. What I’m asking is that you be generous with my men—share the feast! Give whatever your heart tells you to your servants and to me, David your son.’”",
+        "es": "David, que estaba en aquella región apartada, oyó que Nabal esquilaba sus ovejas y envió a diez de sus jóvenes con estas instrucciones: «Vayan a Carmel y preséntense ante Nabal. Salúdenlo en mi nombre: “¡Paz! Vida y paz para ti. Paz para tu casa y paz para todos los que están aquí. Supe que ha llegado el tiempo de esquilar. Este es el asunto: cuando tus pastores acampaban cerca de nosotros, no nos aprovechamos de ellos. No perdieron nada durante todo el tiempo que estuvieron con nosotros en Carmel. Pregunta a tus jóvenes; ellos te lo dirán. Lo que pido es que seas generoso con mis hombres: ¡comparte la fiesta! Da lo que tu corazón te indique a tus siervos y a mí, David, tu hijo”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "1samuel25-msg-04",
+      "msg": {
+        "en": "David’s young men went and delivered his message word for word to Nabal. Nabal tore into them, “Who is this David? Who is this son of Jesse? The country is full of runaway servants these days. Do you think I’m going to take good bread and wine and meat freshly butchered for my sheepshearers and give it to men I’ve never laid eyes on? Who knows where they’ve come from?”",
+        "es": "Los jóvenes de David fueron y entregaron a Nabal el mensaje palabra por palabra. Nabal se lanzó contra ellos: «¿Quién es ese David? ¿Quién es ese hijo de Isaí? En estos días el país está lleno de siervos que huyen de sus amos. ¿Creen que voy a tomar mi buen pan, mi vino y la carne recién preparada para mis esquiladores y dárselos a hombres que jamás he visto? ¿Quién sabe de dónde han salido?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "1samuel25-msg-05",
+      "msg": {
+        "en": "David’s men got out of there and went back and told David what he had said. David said, “Strap on your swords!” They all strapped on their swords, David and his men, and set out, four hundred of them. Two hundred stayed behind to guard the camp.",
+        "es": "Los hombres de David salieron de allí, regresaron y le contaron lo que Nabal había dicho. David ordenó: «¡Pónganse las espadas!». Todos se ciñeron las espadas; también David se ciñó la suya, y cuatrocientos hombres partieron con él. Doscientos se quedaron cuidando el campamento."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14-17",
+      "id": "1samuel25-msg-06",
+      "msg": {
+        "en": "Meanwhile, one of the young shepherds told Abigail, Nabal’s wife, what had happened: “David sent messengers from the backcountry to salute our master, but he tore into them with insults. Yet these men treated us very well. They took nothing from us and didn’t take advantage of us all the time we were in the fields. They formed a wall around us, protecting us day and night all the time we were out tending the sheep. Do something quickly because big trouble is ahead for our master and all of us. Nobody can talk to him. He’s impossible—a real brute!”",
+        "es": "Mientras tanto, uno de los jóvenes pastores le contó a Abigail, esposa de Nabal, lo ocurrido: «David envió mensajeros desde aquella región apartada para saludar a nuestro amo, pero él los atacó con insultos. Sin embargo, esos hombres nos trataron muy bien. No nos quitaron nada ni se aprovecharon de nosotros durante todo el tiempo que estuvimos en los campos. Formaron un muro alrededor nuestro y nos protegieron día y noche mientras cuidábamos las ovejas. Haz algo pronto, porque se acerca un gran desastre contra nuestro amo y contra todos nosotros. Nadie puede hablar con él. Es imposible, ¡un verdadero bruto!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "1samuel25-msg-07",
+      "msg": {
+        "en": "Abigail flew into action. She took two hundred loaves of bread, two skins of wine, five sheep dressed out and ready for cooking, a bushel of roasted grain, a hundred raisin cakes, and two hundred fig cakes, and she had it all loaded on some donkeys. Then she said to her young servants, “Go ahead and pave the way for me. I’m right behind you.” But she said nothing to her husband Nabal.",
+        "es": "Abigail actuó de inmediato. Tomó doscientos panes, dos odres de vino, cinco ovejas preparadas para cocinar, una medida de grano tostado, cien tortas de pasas y doscientas tortas de higos, y lo hizo cargar todo sobre unos asnos. Luego dijo a sus jóvenes siervos: «Adelántense y prepárenme el camino. Yo voy detrás de ustedes». Pero no le dijo nada a su esposo Nabal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20-22",
+      "id": "1samuel25-msg-08",
+      "msg": {
+        "en": "As she was riding her donkey, descending into a ravine, David and his men were descending from the other end, so they met there on the road. David had just said, “That sure was a waste, guarding everything this man had out in the wild so that nothing he had was lost—and now he rewards me with insults. A real slap in the face! May God do his worst to me if Nabal and every cur in his misbegotten brood aren’t dead meat by morning!”",
+        "es": "Mientras cabalgaba en su asno y descendía por un barranco, David y sus hombres bajaban desde el otro extremo, y se encontraron en el camino. David acababa de decir: «¡Vaya desperdicio! Protegí todo lo que este hombre tenía en el campo para que no perdiera nada, y ahora me paga con insultos. ¡Una verdadera bofetada! ¡Que Dios me castigue con toda severidad si para la mañana Nabal y cada varón de su miserable casa no están muertos!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-22"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "23-25",
+      "id": "1samuel25-msg-09",
+      "msg": {
+        "en": "As soon as Abigail saw David, she got off her donkey and fell on her knees at his feet, her face to the ground in homage, saying, “My master, let me take the blame! Let me speak to you. Listen to what I have to say. Don’t dwell on what that brute Nabal did. He acts out the meaning of his name: Nabal, Fool. Foolishness oozes from him.",
+        "es": "En cuanto Abigail vio a David, bajó del asno y cayó de rodillas a sus pies, con el rostro en tierra en señal de homenaje. Dijo: «Mi señor, ¡permite que yo cargue con la culpa! Déjame hablarte. Escucha lo que tengo que decir. No te detengas en lo que hizo ese bruto de Nabal. Él representa el significado de su nombre: Nabal, Necio. De él brota la insensatez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-25"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "1samuel25-msg-10",
+      "msg": {
+        "en": "“I wasn’t there when the young men my master sent arrived. I didn’t see them. And now, my master, as GOD lives and as you live, GOD has kept you from this avenging murder—and may your enemies, all who seek my master’s harm, end up like Nabal! Now take this gift that I, your servant girl, have brought to my master, and give it to the young men who follow in the steps of my master.",
+        "es": "«Yo no estaba allí cuando llegaron los jóvenes que enviaste, mi señor. No los vi. Y ahora, mi señor, tan cierto como vive DIOS y como tú vives, DIOS te ha impedido cometer este asesinato por venganza. ¡Que tus enemigos, todos los que buscan hacerte daño, terminen como Nabal! Recibe ahora este regalo que yo, tu sierva, he traído a mi señor y entrégalo a los jóvenes que siguen los pasos de mi señor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-27"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "1samuel25-msg-11",
+      "msg": {
+        "en": "“Forgive my presumption! But GOD is at work in my master, developing a rule solid and dependable. My master fights GOD’s battles! As long as you live no evil will stick to you.\nIf anyone stands in your way,\nif anyone tries to get you out of the way,\nKnow this: Your God-honored life is tightly bound\nin the bundle of God-protected life;\nBut the lives of your enemies will be hurled aside\nas a stone is thrown from a sling.",
+        "es": "«¡Perdona mi atrevimiento! Pero DIOS está obrando en mi señor y está formando un gobierno firme y confiable. ¡Mi señor pelea las batallas de DIOS! Mientras vivas, ningún mal se adherirá a ti.\nSi alguien se interpone en tu camino,\nsi alguien intenta quitarte de en medio,\nten esto por cierto: tu vida, honrada por Dios, está bien atada\nen el haz de la vida protegida por Dios;\npero las vidas de tus enemigos serán arrojadas lejos,\ncomo una piedra lanzada con una honda."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-29"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "30-31",
+      "id": "1samuel25-msg-12",
+      "msg": {
+        "en": "“When GOD completes all the goodness he has promised my master and sets you up as prince over Israel, my master will not have this dead weight in his heart, the guilt of an avenging murder. And when GOD has worked things for good for my master, remember me.”",
+        "es": "«Cuando DIOS complete todo el bien que ha prometido a mi señor y te establezca como príncipe sobre Israel, mi señor no tendrá este peso muerto en el corazón: la culpa de un asesinato cometido por venganza. Y cuando DIOS haya hecho bien a mi señor, acuérdate de mí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-31"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "32-34",
+      "id": "1samuel25-msg-13",
+      "msg": {
+        "en": "And David said, “Blessed be GOD, the God of Israel. He sent you to meet me! And blessed be your good sense! Bless you for keeping me from murder and taking charge of looking out for me. A close call! As GOD lives, the God of Israel who kept me from hurting you, if you had not come as quickly as you did, stopping me in my tracks, by morning there would have been nothing left of Nabal but dead meat.”",
+        "es": "David respondió: «Bendito sea DIOS, el Dios de Israel. ¡Él te envió a mi encuentro! ¡Y bendito sea tu buen juicio! Bendita seas tú por impedirme cometer un asesinato y por tomar la iniciativa de cuidarme. ¡Por poco! Tan cierto como vive DIOS, el Dios de Israel, que me impidió hacerte daño: si no hubieras venido tan pronto a mi encuentro y me hubieras detenido en seco, para la mañana no habría quedado vivo ni un solo varón de Nabal»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-34"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "35",
+      "id": "1samuel25-msg-14",
+      "msg": {
+        "en": "Then David accepted the gift she brought him and said, “Return home in peace. I’ve heard what you’ve said and I’ll do what you’ve asked.”.",
+        "es": "Entonces David aceptó el regalo que ella le había llevado y dijo: «Regresa en paz a tu casa. He escuchado lo que dijiste y haré lo que pediste»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-35"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "36-38",
+      "id": "1samuel25-msg-15",
+      "msg": {
+        "en": "When Abigail got home she found Nabal presiding over a huge banquet. He was in high spirits—and very, very drunk. So she didn’t tell him anything of what she’d done until morning. But in the morning, after Nabal had sobered up, she told him the whole story. Right then and there he had a heart attack and fell into a coma. About ten days later GOD finished him off and he died.",
+        "es": "Cuando Abigail regresó a casa, encontró a Nabal presidiendo un enorme banquete. Estaba de muy buen ánimo y sumamente borracho. Así que ella no le contó nada de lo que había hecho hasta la mañana. Pero al amanecer, después de que Nabal recuperó la sobriedad, le contó toda la historia. En ese mismo momento sufrió un ataque y cayó en coma. Unos diez días después DIOS acabó con él, y murió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-38"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "39-40",
+      "id": "1samuel25-msg-16",
+      "msg": {
+        "en": "When David heard that Nabal was dead he said, “Blessed be GOD who has stood up for me against Nabal’s insults, kept me from an evil act, and let Nabal’s evil boomerang back on him.”\nThen David sent for Abigail to tell her that he wanted her for his wife. David’s servants went to Abigail at Carmel with the message, “David sent us to bring you to marry him.”",
+        "es": "Cuando David supo que Nabal había muerto, dijo: «Bendito sea DIOS, que defendió mi causa frente a los insultos de Nabal, me guardó de cometer una acción malvada e hizo que la maldad de Nabal se volviera contra él».\nEntonces David mandó buscar a Abigail para decirle que quería tomarla por esposa. Los siervos de David fueron a verla en Carmel con este mensaje: «David nos envió para llevarte y que te cases con él»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-40"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "41",
+      "id": "1samuel25-msg-17",
+      "msg": {
+        "en": "She got up, and then bowed down, face to the ground, saying, “I’m your servant, ready to do anything you want. I’ll even wash the feet of my master’s servants!”",
+        "es": "Ella se levantó y luego se inclinó rostro en tierra, diciendo: «Soy tu sierva, dispuesta a hacer cualquier cosa que quieras. ¡Hasta lavaré los pies de los siervos de mi señor!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-41"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "42",
+      "id": "1samuel25-msg-18",
+      "msg": {
+        "en": "Abigail didn’t linger. She got on her donkey and, with her five maids in attendance, went with the messengers to David and became his wife.",
+        "es": "Abigail no se demoró. Subió a su asno y, acompañada por sus cinco criadas, fue con los mensajeros de David y se convirtió en su esposa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-42"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "43-44",
+      "id": "1samuel25-msg-19",
+      "msg": {
+        "en": "David also married Ahinoam of Jezreel. Both women were his wives. Saul had married off David’s wife Michal to Palti (Paltiel) son of Laish, who was from Gallim.",
+        "es": "David también se casó con Ahinoam de Jezreel. Ambas mujeres fueron sus esposas. Saúl había entregado como esposa a Mical, mujer de David, a Palti —Paltiel—, hijo de Lais, de Galim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1samuel25-nbla-44"
+        }
+      ],
+      "order": 19
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "1samuel25-nbla-01a",
+          "order": 1,
+          "text": "Murió Samuel, y se reunió todo Israel; lo lloraron, y lo sepultaron en su casa en Ramá."
+        },
+        {
+          "id": "1samuel25-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Después David se levantó y descendió al desierto de Parán."
+        }
+      ],
+      "id": "1samuel25-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "1samuel25-nbla-02",
+      "number": 2,
+      "text": "Había un hombre en Maón que tenía sus bienes en Carmel; el hombre era muy rico y tenía 3,000 ovejas y 1,000 cabras; y estaba en Carmel trasquilando sus ovejas."
+    },
+    {
+      "id": "1samuel25-nbla-03",
+      "number": 3,
+      "text": "El hombre se llamaba Nabal, y su mujer se llamaba Abigail. Y la mujer era inteligente y de hermosa apariencia, pero el hombre era áspero y malo en sus tratos, y era calebita."
+    },
+    {
+      "id": "1samuel25-nbla-04",
+      "number": 4,
+      "text": "Y David oyó en el desierto que Nabal estaba trasquilando sus ovejas."
+    },
+    {
+      "id": "1samuel25-nbla-05",
+      "number": 5,
+      "text": "Entonces David envió diez jóvenes, y les dijo: «Suban a Carmel, visiten a Nabal y salúdenlo en mi nombre;"
+    },
+    {
+      "id": "1samuel25-nbla-06",
+      "number": 6,
+      "text": "y le dirán así: “Ten una larga vida, paz para ti, paz para tu casa y paz para todo lo que tienes."
+    },
+    {
+      "id": "1samuel25-nbla-07",
+      "number": 7,
+      "text": "He oído que tienes esquiladores. Ahora bien, tus pastores han estado con nosotros, y no los hemos maltratado, ni les ha faltado nada todos los días que estuvieron en Carmel."
+    },
+    {
+      "id": "1samuel25-nbla-08",
+      "number": 8,
+      "text": "Pregunta a tus criados, y ellos te lo dirán. Por tanto, permite que mis criados hallen gracia ante tus ojos, porque hemos llegado en un día de fiesta. Te ruego que de lo que tengas a mano, des a tus siervos y a tu hijo David”»."
+    },
+    {
+      "id": "1samuel25-nbla-09",
+      "number": 9,
+      "text": "Cuando llegaron los jóvenes de David, dijeron a Nabal todas estas palabras en nombre de David; entonces esperaron."
+    },
+    {
+      "id": "1samuel25-nbla-10",
+      "number": 10,
+      "text": "Pero Nabal respondió a los siervos de David: «¿Quién es David y quién es el hijo de Isaí? Hay muchos siervos hoy día que huyen de su señor."
+    },
+    {
+      "id": "1samuel25-nbla-11",
+      "number": 11,
+      "text": "¿He de tomar mi pan, mi agua y la carne que he preparado para mis esquiladores, y he de dárselos a hombres cuyo origen no conozco?»."
+    },
+    {
+      "id": "1samuel25-nbla-12",
+      "number": 12,
+      "text": "Entonces los jóvenes de David se volvieron por su camino, y regresaron; y llegaron y le comunicaron todas estas palabras."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel25-nbla-13a",
+          "order": 1,
+          "text": "Y David dijo a sus hombres: «Cíñase cada uno su espada»."
+        },
+        {
+          "id": "1samuel25-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y cada hombre se la ciñó. David también se ciñó la suya, y unos 400 hombres subieron tras David, mientras que otros 200 se quedaron cuidando el equipaje."
+        }
+      ],
+      "id": "1samuel25-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "1samuel25-nbla-14",
+      "number": 14,
+      "text": "Pero uno de los criados avisó a Abigail, mujer de Nabal: «David envió mensajeros desde el desierto a saludar a nuestro señor, pero él los ha tratado mal."
+    },
+    {
+      "id": "1samuel25-nbla-15",
+      "number": 15,
+      "text": "Sin embargo, los hombres fueron muy buenos con nosotros; no nos maltrataron ni nos faltó nada cuando andábamos con ellos, mientras estábamos en el campo."
+    },
+    {
+      "id": "1samuel25-nbla-16",
+      "number": 16,
+      "text": "Como muro fueron para nosotros tanto de noche como de día, todo el tiempo que estuvimos con ellos apacentando las ovejas."
+    },
+    {
+      "id": "1samuel25-nbla-17",
+      "number": 17,
+      "text": "Ahora pues, reflexione y mire lo que ha de hacer, porque el mal ya está determinado contra nuestro señor y contra toda su casa, y él es un hombre tan indigno que nadie puede hablarle»."
+    },
+    {
+      "id": "1samuel25-nbla-18",
+      "number": 18,
+      "text": "Entonces Abigail se dio prisa y tomó 200 panes, dos odres de vino, cinco ovejas ya preparadas, cinco medidas de grano tostado, 100 racimos de uvas pasas, y 200 tortas de higos, y los puso sobre asnos."
+    },
+    {
+      "id": "1samuel25-nbla-19",
+      "number": 19,
+      "text": "Y dijo a sus criados: «Vayan delante de mí; porque yo los seguiré». Pero no dijo nada a su marido Nabal."
+    },
+    {
+      "id": "1samuel25-nbla-20",
+      "number": 20,
+      "text": "Cuando ella cabalgaba en su asno y descendía por la parte encubierta del monte, David y sus hombres venían bajando hacia ella, y se encontró con ellos."
+    },
+    {
+      "id": "1samuel25-nbla-21",
+      "number": 21,
+      "text": "Y David había dicho: «Ciertamente, en vano he guardado todo lo que este hombre tiene en el desierto, de modo que nada se perdió de todo lo suyo; y él me ha devuelto mal por bien."
+    },
+    {
+      "id": "1samuel25-nbla-22",
+      "number": 22,
+      "text": "Así haga Dios a los enemigos de David, y aun más, si al llegar la mañana he dejado tan solo un varón de los suyos»."
+    },
+    {
+      "id": "1samuel25-nbla-23",
+      "number": 23,
+      "text": "Cuando Abigail vio a David se dio prisa y bajó de su asno, y cayendo sobre su rostro delante de David, se postró en tierra."
+    },
+    {
+      "id": "1samuel25-nbla-24",
+      "number": 24,
+      "text": "Y se echó a sus pies y le dijo: «Señor mío, solo sobre mí sea la culpa. Le ruego que permita que su sierva le hable, y que escuche las palabras de su sierva."
+    },
+    {
+      "id": "1samuel25-nbla-25",
+      "number": 25,
+      "text": "Ruego a mi señor que no haga caso a este hombre indigno, Nabal, porque conforme a su nombre, así es. Se llama Nabal, y la insensatez está con él; pero yo su sierva no vi a los jóvenes que usted, mi señor, envió."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel25-nbla-26a",
+          "order": 1,
+          "text": "Ahora pues, señor mío, vive el SEÑOR y vive su alma."
+        },
+        {
+          "id": "1samuel25-nbla-26b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Puesto que el SEÑOR le ha impedido derramar sangre y vengarse por su propia mano, sean pues como Nabal sus enemigos y los que buscan el mal contra mi señor."
+        }
+      ],
+      "id": "1samuel25-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "1samuel25-nbla-27",
+      "number": 27,
+      "text": "Y ahora permita que este presente que su sierva ha traído para mi señor se dé a los jóvenes que acompañan a mi señor."
+    },
+    {
+      "id": "1samuel25-nbla-28",
+      "number": 28,
+      "text": "Le ruego que perdone la ofensa de su sierva, porque el SEÑOR ciertamente establecerá una casa duradera para mi señor, pues mi señor pelea las batallas del SEÑOR, y el mal no se hallará en usted en todos sus días."
+    },
+    {
+      "id": "1samuel25-nbla-29",
+      "number": 29,
+      "text": "Y si alguien se levanta para perseguirlo y buscar su vida, entonces la vida de mi señor estará bien atada en el haz de los que viven con el SEÑOR su Dios; pero Él lanzará la vida de sus enemigos como de en medio de una honda."
+    },
+    {
+      "id": "1samuel25-nbla-30",
+      "number": 30,
+      "text": "Y sucederá que cuando el SEÑOR haga por mi señor conforme a todo el bien que Él ha hablado de usted, y se ponga por príncipe sobre Israel,"
+    },
+    {
+      "id": "1samuel25-nbla-31",
+      "number": 31,
+      "text": "esto no causará pesar ni remordimiento a mi señor, tanto por haber derramado sangre sin causa como por haberse vengado mi señor. Cuando el SEÑOR haya hecho bien a mi señor, entonces acuérdese de su sierva»."
+    },
+    {
+      "id": "1samuel25-nbla-32",
+      "number": 32,
+      "text": "Entonces David dijo a Abigail: «Bendito sea el SEÑOR, Dios de Israel, que te envió hoy a encontrarme,"
+    },
+    {
+      "id": "1samuel25-nbla-33",
+      "number": 33,
+      "text": "bendito sea tu razonamiento, y bendita seas tú, que me has impedido derramar sangre hoy y vengarme por mi propia mano."
+    },
+    {
+      "id": "1samuel25-nbla-34",
+      "number": 34,
+      "text": "Sin embargo, vive el SEÑOR, Dios de Israel, que me ha impedido hacerte mal, que si tú no hubieras venido pronto a encontrarme, ciertamente, para la luz del alba, no le hubiera quedado a Nabal ni un varón»."
+    },
+    {
+      "id": "1samuel25-nbla-35",
+      "number": 35,
+      "text": "Recibió David de su mano lo que ella había traído y le dijo: «Sube en paz a tu casa. Mira, te he escuchado y te he concedido tu petición»."
+    },
+    {
+      "id": "1samuel25-nbla-36",
+      "number": 36,
+      "text": "Entonces Abigail regresó a Nabal, y este tenía un banquete en su casa, como el banquete de un rey. Y el corazón de Nabal estaba alegre, pues estaba muy ebrio, por lo cual ella no le comunicó nada hasta el amanecer."
+    },
+    {
+      "id": "1samuel25-nbla-37",
+      "number": 37,
+      "text": "Pero sucedió que por la mañana, cuando se le pasó el vino a Nabal, su mujer le contó estas cosas, y su corazón se quedó como muerto dentro de él, y se puso como una piedra."
+    },
+    {
+      "id": "1samuel25-nbla-38",
+      "number": 38,
+      "text": "Y unos diez días después, sucedió que el SEÑOR hirió a Nabal, y murió."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1samuel25-nbla-39a",
+          "order": 1,
+          "text": "Cuando David supo que Nabal había muerto, dijo: «Bendito sea el SEÑOR, que ha defendido la causa de mi afrenta de manos de Nabal, y ha preservado a Su siervo del mal."
+        },
+        {
+          "id": "1samuel25-nbla-39b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El SEÑOR también ha devuelto la maldad de Nabal sobre su propia cabeza». Entonces David envió un mensaje a Abigail, para tomarla para sí por mujer."
+        }
+      ],
+      "id": "1samuel25-nbla-39",
+      "number": 39
+    },
+    {
+      "id": "1samuel25-nbla-40",
+      "number": 40,
+      "text": "Y los siervos de David fueron a casa de Abigail en Carmel, y le hablaron diciendo: «David nos ha enviado a usted, para tomarla para sí por mujer»."
+    },
+    {
+      "id": "1samuel25-nbla-41",
+      "number": 41,
+      "text": "Ella se levantó y postrándose rostro en tierra, dijo: «Miren, su sierva es una criada para lavar los pies de los siervos de mi señor»."
+    },
+    {
+      "id": "1samuel25-nbla-42",
+      "number": 42,
+      "text": "Abigail se levantó apresuradamente, montó en un asno, y con sus cinco doncellas que la atendían siguió a los mensajeros de David, y fue su mujer."
+    },
+    {
+      "id": "1samuel25-nbla-43",
+      "number": 43,
+      "text": "David había tomado también a Ahinoam de Jezreel, y ambas fueron mujeres suyas."
+    },
+    {
+      "id": "1samuel25-nbla-44",
+      "number": 44,
+      "text": "Pues Saúl había dado a su hija Mical, mujer de David, a Palti, hijo de Lais, que era de Galim."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
