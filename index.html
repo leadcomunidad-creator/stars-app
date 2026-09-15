@@ -924,6 +924,8 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .cal-day.done{background:rgba(201,168,76,0.2);border-color:var(--gold-border);color:var(--gold2)}
 .cal-day.week-green{background:rgba(45,122,79,0.18);border-color:rgba(45,122,79,0.45);color:#3a9962}
 .cal-day.month-purple{background:rgba(139,92,246,0.2);border-color:rgba(139,92,246,0.4);color:#a78bfa}
+.cal-day.restorable{border-color:var(--gold);box-shadow:inset 0 0 0 1px rgba(201,168,76,0.3);color:var(--gold2)}
+.cal-day.restorable::after{content:'★';position:absolute;right:3px;top:1px;font-size:0.4375rem;color:var(--gold)}
 .cal-day.restored::after{content:'★';position:absolute;right:3px;top:1px;font-size:0.4375rem;color:var(--gold)}
 .cal-day.future{opacity:0.3;cursor:default}
 .cal-day:not(.empty):not(.future):hover{transform:scale(1.08)}
@@ -1082,11 +1084,15 @@ button.devo-context-btn:last-child:hover{background:rgba(255,255,255,0.06);color
 .profundizar-access:hover{background:var(--black4);border-color:rgba(139,92,246,.5)}
 .profundizar-access-icon{width:38px;height:38px;border-radius:10px;background:rgba(139,92,246,.12);color:#a78bfa;display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .profundizar-access-go{color:#a78bfa;flex-shrink:0}
-body.modo-dia .profundizar-access{border-color:var(--gold-border)}
-body.modo-dia .profundizar-access:hover{border-color:var(--gold);background:var(--black4)}
-body.modo-dia .profundizar-access-icon{background:var(--gold-dim);color:var(--gold)}
-body.modo-dia .profundizar-access-go{color:var(--gold)}
+body.modo-dia .profundizar-access{border-color:rgba(109,40,217,.35)}
+body.modo-dia .profundizar-access:hover{border-color:rgba(109,40,217,.58);background:var(--black4)}
+body.modo-dia .profundizar-access-icon{background:rgba(109,40,217,.12);color:#6d28d9}
+body.modo-dia .profundizar-access-go{color:#6d28d9}
 body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-border:var(--gold-border);--pt-line:var(--gold-border)}
+body.modo-dia .pt-root.pt-root--profundizar{--pt-accent:#6d28d9;--pt-dim:rgba(109,40,217,.12);--pt-border:rgba(109,40,217,.36);--pt-line:rgba(109,40,217,.24)}
+body.modo-dia .pt-root--profundizar .pt-hero,
+body.modo-dia .pt-root--profundizar .pt-sec + .pt-sec,
+body.modo-dia .pt-root--profundizar .pt-foot{border-color:var(--pt-line)!important}
 .dsk-ws-inner.dsk-ws-inner--profundizar{max-width:1000px;padding:0 0 60px}
 @media (min-width:620px) and (max-width:1024px) and (orientation:portrait),
        (orientation:landscape) and (max-height:600px) and (max-width:1023px){
@@ -6082,6 +6088,15 @@ function validarDiaAdminParaRacha(key){
   if(restaurados[key]){delete restaurados[key];guardarMapaRacha('racha_restaurados',restaurados);}
 }
 function diasEntreClaves(desde,hasta){return Math.round((fechaDesdeKey(hasta)-fechaDesdeKey(desde))/86400000);}
+function esDiaEnVentanaRestauracion(key){
+  const hoy=getActualTodayKey();
+  if(!key||key>=hoy)return false;
+  const diferencia=diasEntreClaves(key,hoy);
+  return diferencia>=1&&diferencia<=2;
+}
+function puedeAbrirDiaParaRestaurar(key){
+  return esDiaEnVentanaRestauracion(key)&&getRachaStars()>0&&!esDiaRestaurado(key);
+}
 
 function getBancoStars(){
   if(window.FB) return window.FB.getBancoStars();
@@ -6103,7 +6118,18 @@ function actualizarDevoContextoUI(){
   });
   const cal=document.getElementById('cal-stars-balance');if(cal) cal.textContent='★ '+stars+' de 3';
 }
-function mostrarInfoEstrellas(){showToast('Estas estrellas sirven para restaurar un día pendiente. Tienes '+getRachaStars()+' de 3.');}
+function mostrarInfoEstrellas(){
+  const key=getTodayKey();
+  if(esDiaEnVentanaRestauracion(key)&&isDayComplete(key)&&esDiaInvalidoParaRacha(key)&&getRachaStars()>0){
+    intentarCanjearEstrella(key);
+    return;
+  }
+  if(esDiaEnVentanaRestauracion(key)&&!isDayComplete(key)&&getRachaStars()>0){
+    showToast('Complete los cinco pasos de este día para usar una estrella');
+    return;
+  }
+  showToast('Estas estrellas sirven para restaurar un día pendiente. Tiene '+getRachaStars()+' de 3.');
+}
 
 function toggleBancoDiaActivo(){
   const key=getTodayKey();const devo=getDevoHoy();if(!devo)return;
@@ -6135,12 +6161,17 @@ function semanaISOConAnio(date){
 function estaEnSemanaActual(key){return getWeekDates().some(d=>dateToKey(d)===key);}
 async function activarDiaDevocional(key,{desdeBanco=false}={}){
   const actual=getActualTodayKey();if(key>actual&&!window.ADMIN_MODE){showToast('Ese día todavía no está disponible');return false;}
-  if(!window.ADMIN_MODE&&!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)){showToast('Los días anteriores permanecen disponibles si los guardas en Mis días');return false;}
+  const accesoRestauracion=!window.ADMIN_MODE&&puedeAbrirDiaParaRestaurar(key);
+  if(!window.ADMIN_MODE&&!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)&&!accesoRestauracion){showToast('Los días anteriores permanecen disponibles si los guarda en Mis días');return false;}
   if(!DEVOCIONALES[key]){const info=semanaISOConAnio(fechaDesdeKey(key));await cargarDevocionalSemana(info.year,info.week);}
   if(!DEVOCIONALES[key]){showToast('Sin Paso Diario disponible para ese día');return false;}
   FECHA_DEVOCIONAL_ACTIVA=key===actual?null:key;
   initFecha();initPasoDiario();initSteps();initWeek();actualizarDevoContextoUI();
   if(isDesktop()){dskTab('hoy');initDesktop();dskWsEmpty();}else{navTo('hoy');}
+  if(accesoRestauracion){
+    if(isDayComplete(key)&&esDiaInvalidoParaRacha(key)) setTimeout(()=>intentarCanjearEstrella(key),0);
+    else if(!isDayComplete(key)) showToast('Día pendiente: complete los cinco pasos para restaurar la racha');
+  }
   return true;
 }
 async function abrirDevocionalGuardado(key){cerrarBancoStars();await activarDiaDevocional(key,{desdeBanco:true});}
@@ -6167,7 +6198,7 @@ function fechasSemanaDe(key){
 function premiarConstanciaSiCorresponde(key){
   const recompensas=leerMapaRacha('racha_recompensas');let saldo=getRachaStars();let capacidad=getRachaStarCapacity();let cambio=false;
   const semana=fechasSemanaDe(key);const info=semanaISOConAnio(fechaDesdeKey(key));const premioSemana='semana_'+info.year+'_'+String(info.week).padStart(2,'0');
-  const semanaPerfecta=semana.every(isDayComplete)&&semana.every(d=>!esDiaRestaurado(d));
+  const semanaPerfecta=semana.every(isDayComplete)&&semana.every(d=>!esDiaRestaurado(d)&&!esDiaInvalidoParaRacha(d));
   if(semanaPerfecta&&!recompensas[premioSemana]){
     recompensas[premioSemana]=Date.now();
     if(capacidad<2){capacidad=setRachaStarCapacity(2);saldo=Math.min(capacidad,saldo+1);}
@@ -6186,6 +6217,18 @@ function premiarConstanciaSiCorresponde(key){
     if(despues>antes) showToast(despues===3?'★ Tienes tus 3 estrellas de restauración':'★ Ganaste una estrella de restauración');
   }
 }
+function intentarCanjearEstrella(key){
+  if(!esDiaEnVentanaRestauracion(key)){showToast('Ya pasó la ventana de restauración');return false;}
+  if(esDiaRestaurado(key)){showToast('Este día ya fue restaurado');return true;}
+  const saldo=getRachaStars();
+  if(saldo<=0){marcarDiaInvalidoParaRacha(key);showToast('No tiene estrellas disponibles');return false;}
+  const usar=confirm('¿Usar 1 estrella para restaurar la racha con este día?');
+  if(!usar){marcarDiaInvalidoParaRacha(key);showToast('Puede intentarlo nuevamente mientras continúe dentro del plazo');return false;}
+  setRachaStars(saldo-1);marcarDiaRestaurado(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
+  showToast('★ Racha restaurada');
+  return true;
+}
+
 function procesarFinalizacionDia(key){
   const hoy=getActualTodayKey();
   if(window.ADMIN_MODE&&key<hoy){
@@ -6197,12 +6240,10 @@ function procesarFinalizacionDia(key){
   if(key<hoy&&!esDiaRestaurado(key)&&!esDiaInvalidoParaRacha(key)){
     const diferencia=diasEntreClaves(key,hoy);const saldo=getRachaStars();
     if(diferencia<=2&&saldo>0){
-      const usar=confirm('Completaste el día pendiente. ¿Usar 1 estrella para restaurar tu racha?');
-      if(usar){setRachaStars(saldo-1);marcarDiaRestaurado(key);showToast('★ Racha restaurada');}
-      else{marcarDiaInvalidoParaRacha(key);showToast('Día completado sin restaurar la racha');}
+      intentarCanjearEstrella(key);
     }else{
       marcarDiaInvalidoParaRacha(key);
-      showToast(diferencia>2?'Día completado; ya pasó la ventana de restauración':'Día completado; no tienes estrellas disponibles');
+      showToast(diferencia>2?'Día completado; ya pasó la ventana de restauración':'Día completado; no tiene estrellas disponibles');
     }
   }
   premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
@@ -8087,6 +8128,7 @@ function calendarioHTML(prefix){
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Día completado</div>
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#3a9962"></div>Semana completa</div>
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#8b5cf6"></div>Mes completo</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="border:1px solid var(--gold)"></div>Se puede restaurar</div>
       </div>
       <div style="display:flex;gap:8px;margin-bottom:12px"><button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button><div class="devo-context-btn" style="cursor:default">★ ${getRachaStars()} de 3</div></div>
       <div class="cal-nav" style="padding:0 0 12px">
@@ -8266,6 +8308,10 @@ function renderCalendario(prefix='cal'){
       el.className='cal-day'+(esHoy?' today':'');
     }
     const fechaKey=dateToKey(fecha);
+    if(puedeAbrirDiaParaRestaurar(fechaKey)&&(!diasCompletos[d-1]||esDiaInvalidoParaRacha(fechaKey))){
+      el.classList.add('restorable');
+      el.title=diasCompletos[d-1]?'Completado sin restaurar · todavía puede usar una estrella':'Pendiente · se puede restaurar';
+    }
     if(esDiaRestaurado(fechaKey)) el.classList.add('restored');
 
     // Abrir el mismo Paso Diario para cualquier día transcurrido permitido.
@@ -8322,7 +8368,7 @@ function construirHTMLExegetico(d){
       <div class="pt-layer"><div class="pt-layer-label">Explicación</div><div class="pt-layer-exp">${sanearHTMLPermitido(cuerpo)}${cierre}</div></div>
     </div>`;
   }).join('');
-  return `<div class="pt-root">
+  return `<div class="pt-root pt-root--profundizar">
     <div class="pt-hero"><div class="pt-hero-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg></div><div class="pt-eyebrow">Profundizar texto</div><div class="pt-title">${escaparHTML(d.titulo||'')}</div><div class="pt-sub">Estudio opcional · no cuenta para tu racha diaria</div></div>
     <div class="pt-content">
       <section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Texto</div><div class="pt-label">MSG · English</div><div class="pt-msg-en">${escaparHTML(d.texto_en||'')}</div><div class="pt-msg-es-wrap"><div class="pt-label">MSG · Español</div><div class="pt-reading">${escaparHTML(d.texto_es||'')}</div></div></section>
