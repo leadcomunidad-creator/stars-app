@@ -2810,10 +2810,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v2_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v3_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v2_vista = '1';
-      fbSet({novedades_contenido_v2_vista:'1'});
+      _userData.novedades_contenido_v3_vista = '1';
+      fbSet({novedades_contenido_v3_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4075,21 +4075,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">Tu camino guarda más y sigue creciendo.</h2>
-    <p class="novedades-intro">Estas novedades cuidan tu proceso y amplían el recorrido por la Escritura.</p>
+    <h2 class="novedades-title" id="novedades-title">La historia de Israel se abre ante ti.</h2>
+    <p class="novedades-intro">Esta semana estrenamos nuevos recorridos para seguir conociendo la Verdad en las Escrituras.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Un calendario con significado</div>
-        <p class="novedades-item-copy">La semana va de lunes a domingo. El mes cuenta desde su primer hasta su último día, aunque empiece o termine a mitad de semana.</p>
-        <div class="novedades-colors" aria-label="Significado de los colores">
-          <span class="novedades-color"><span class="novedades-color-dot day"></span>Día</span>
-          <span class="novedades-color"><span class="novedades-color-dot week"></span>Semana</span>
-          <span class="novedades-color"><span class="novedades-color-dot month"></span>Mes</span>
-        </div>
+        <div class="novedades-item-title">Una nueva semana: Corazón valiente</div>
+        <p class="novedades-item-copy">Durante siete días recorreremos el camino que lleva la Verdad de la mente al corazón, hasta convertirla en confianza, valentía, perseverancia y obediencia.</p>
       </div>
     </div>
 
@@ -4098,8 +4093,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Estrellas para restaurar tu racha</div>
-        <p class="novedades-item-copy">Comienzas con una estrella. La primera semana completa te da la segunda y el primer mes completo, la tercera.</p>
+        <div class="novedades-item-title">Tierra, Reino y Exilio ya está completa</div>
+        <p class="novedades-item-copy">Recorre los 127 capítulos de Jueces, Rut, 1 y 2 Samuel, y 1 y 2 Reyes con estudios profundos, preguntas para la vida y lectura bíblica MSG + NBLA.</p>
       </div>
     </div>
 
@@ -4108,8 +4103,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Recupera un día perdido</div>
-        <p class="novedades-item-copy">Tienes hasta dos días para completarlo usando una estrella. Después puedes recuperarla con una semana perfecta, sin restauraciones.</p>
+        <div class="novedades-item-title">Seis introducciones para comprender el recorrido</div>
+        <p class="novedades-item-copy">Antes de leer cada libro, conoce su contexto, estructura, grandes temas y recursos seleccionados para observar mejor el desarrollo de la historia.</p>
       </div>
     </div>
 
@@ -4118,38 +4113,23 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Vuelve a los días de esta semana</div>
-        <p class="novedades-item-copy">Abre cualquier día anterior ya transcurrido y recórrelo con el mismo formato visual del Paso Diario de hoy.</p>
+        <div class="novedades-item-title">Profundiza en los textos de esta semana</div>
+        <p class="novedades-item-copy">Desde cada Paso Diario puedes estudiar los capítulos que acompañan este recorrido: Lucas 6, Mateo 5, Números 13–14 y Josué 14.</p>
       </div>
     </div>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4.8A1.8 1.8 0 0 1 7.8 3h8.4A1.8 1.8 0 0 1 18 4.8V21l-6-3-6 3V4.8Z"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Guarda lo que quieras conservar</div>
-        <p class="novedades-item-copy">Guardar no cuesta estrellas. Tus lecturas favoritas quedan en Mis días guardados para volver a ellas cuando quieras.</p>
-      </div>
-    </div>
-
-    <div class="novedades-item">
-      <div class="novedades-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H11v17H6.5A2.5 2.5 0 0 0 4 22V5.5Z"/><path d="M20 5.5A2.5 2.5 0 0 0 17.5 3H13v17h4.5A2.5 2.5 0 0 1 20 22V5.5Z"/></svg>
-      </div>
-      <div>
-        <div class="novedades-item-title">Jueces y Rut, capítulo por capítulo</div>
-        <p class="novedades-item-copy">Ya puedes recorrer Jueces 1–21 y Rut 1–4 con diez estaciones por capítulo y lectura MSG + NBLA.</p>
-      </div>
-    </div>
-
-    <div class="novedades-item">
-      <div class="novedades-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v10l8 4 8-4V7l-8-4Z"/><path d="m4 7 8 4 8-4M12 11v10"/></svg>
-      </div>
-      <div>
-        <div class="novedades-item-title">Tres nuevas introducciones</div>
-        <p class="novedades-item-copy">Antes de comenzar, explora Deuteronomio, Jueces y Rut con contexto, recorrido, temas y recursos seleccionados.</p>
+        <div class="novedades-item-title">Recuerda cómo funciona tu racha</div>
+        <p class="novedades-item-copy">Completa los cinco pasos para sumar el día. El dorado marca un día, el verde una semana y el morado un mes completo. Comienzas con una estrella para restaurar un día reciente; ganas más al completar tu primera semana y tu primer mes, y recuperas una estrella con una semana perfecta.</p>
+        <div class="novedades-colors" aria-label="Significado de los colores de la racha">
+          <span class="novedades-color"><span class="novedades-color-dot day"></span>Día</span>
+          <span class="novedades-color"><span class="novedades-color-dot week"></span>Semana</span>
+          <span class="novedades-color"><span class="novedades-color-dot month"></span>Mes</span>
+        </div>
       </div>
     </div>
 
@@ -7971,8 +7951,8 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v2_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v2_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v3_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v3_pospuesta';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
 
@@ -7990,7 +7970,7 @@ function abrirNovedades(manual=false){
   modal.classList.add('open');
   modal.setAttribute('aria-hidden','false');
   document.body.style.overflow='hidden';
-  setTimeout(()=>document.getElementById('novedades-entendido')?.focus(), 0);
+  setTimeout(()=>document.getElementById('novedades-entendido')?.focus({preventScroll:true}), 0);
 }
 
 function cerrarNovedades(accion='mas-tarde'){
