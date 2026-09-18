@@ -2927,6 +2927,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
             if(typeof initSteps === 'function') initSteps();
             if(typeof updateTracker === 'function') updateTracker();
             if(typeof updateRachaUI === 'function') updateRachaUI();
+            if(typeof programarRevisionRacha === 'function') programarRevisionRacha();
             if(typeof actualizarDevoContextoUI === 'function') actualizarDevoContextoUI();
             if(typeof renderBancoStars === 'function' && document.getElementById('bank-modal')?.classList.contains('open')) renderBancoStars();
             if(typeof renderCapitulos === 'function') renderCapitulos(document.getElementById('cap-search')?.value || '');
@@ -4995,6 +4996,7 @@ window._initApp = function(){
   initSteps(); updateTracker(); initDiario();
   renderTrackerEstudio();
   updateRachaUI();
+  programarRevisionRacha();
   Promise.resolve(initContenido()).finally(() => {
     setTimeout(() => {
       restaurarEstadoDespuesDeActualizar();
@@ -6073,9 +6075,26 @@ function setRachaStarCapacity(cantidad){
 }
 function esDiaRestaurado(key){return Boolean(leerMapaRacha('racha_restaurados')[key]);}
 function esDiaInvalidoParaRacha(key){return Boolean(leerMapaRacha('racha_invalidos')[key]);}
+function quitarDiaInvalidoParaRacha(key,motivo='correccion'){
+  const invalidos=leerMapaRacha('racha_invalidos');
+  if(!invalidos[key]) return false;
+  delete invalidos[key];
+  guardarMapaRacha('racha_invalidos',invalidos);
+  const revisiones=leerMapaRacha('racha_revisiones');
+  revisiones[key]={revisadoEn:Date.now(),motivo};
+  guardarMapaRacha('racha_revisiones',revisiones);
+  return true;
+}
+function registrarFinalizacionRacha(key){
+  const completados=leerMapaRacha('racha_completados_en');
+  if(!completados[key]){
+    completados[key]=Date.now();
+    guardarMapaRacha('racha_completados_en',completados);
+  }
+}
 function marcarDiaRestaurado(key){
   const restaurados=leerMapaRacha('racha_restaurados');restaurados[key]=Date.now();guardarMapaRacha('racha_restaurados',restaurados);
-  const invalidos=leerMapaRacha('racha_invalidos');if(invalidos[key]){delete invalidos[key];guardarMapaRacha('racha_invalidos',invalidos);}
+  quitarDiaInvalidoParaRacha(key,'restaurado_con_estrella');
 }
 function marcarDiaInvalidoParaRacha(key){
   const invalidos=leerMapaRacha('racha_invalidos');invalidos[key]=Date.now();guardarMapaRacha('racha_invalidos',invalidos);
@@ -6096,6 +6115,80 @@ function esDiaEnVentanaRestauracion(key){
 }
 function puedeAbrirDiaParaRestaurar(key){
   return esDiaEnVentanaRestauracion(key)&&getRachaStars()>0&&!esDiaRestaurado(key);
+}
+
+function reconciliarRachaConFinalizaciones(){
+  const invalidos=leerMapaRacha('racha_invalidos');
+  const completados=leerMapaRacha('racha_completados_en');
+  const revisiones=leerMapaRacha('racha_revisiones');
+  let cambio=false;
+  Object.keys(invalidos).forEach(key=>{
+    const marca=Number(completados[key]);
+    if(!marca||!isDayComplete(key)) return;
+    const fechaMarca=new Date(marca);
+    if(!Number.isNaN(fechaMarca.getTime())&&dateToKey(fechaMarca)===key){
+      delete invalidos[key];
+      revisiones[key]={revisadoEn:Date.now(),motivo:'finalizacion_registrada_en_fecha'};
+      cambio=true;
+    }
+  });
+  if(cambio){
+    guardarMapaRacha('racha_invalidos',invalidos);
+    guardarMapaRacha('racha_revisiones',revisiones);
+    updateRachaUI();
+    initWeek();
+  }
+  return cambio;
+}
+
+function diasCompletosPendientesDeRevision(){
+  const hoy=fechaDesdeKey(getActualTodayKey());
+  const inicio=isDayComplete(getActualTodayKey())?0:1;
+  const completados=leerMapaRacha('racha_completados_en');
+  const candidatos=[];
+  for(let i=inicio;i<7;i++){
+    const fecha=new Date(hoy);fecha.setDate(hoy.getDate()-i);
+    const key=dateToKey(fecha);
+    if(!isDayComplete(key)) break;
+    if(esDiaInvalidoParaRacha(key)&&!esDiaRestaurado(key)&&esDiaEnVentanaRestauracion(key)){
+      const marca=Number(completados[key]);
+      const fechaMarca=new Date(marca);
+      const finalizacionRegistrada=marca&&!Number.isNaN(fechaMarca.getTime());
+      // Una finalización nueva ya tiene hora verificable: si fue tardía, conserva
+      // el flujo normal de restauración. La revisión manual queda para datos
+      // anteriores a esta corrección, que no guardaban ese momento.
+      if(!finalizacionRegistrada) candidatos.push(key);
+    }
+  }
+  return candidatos;
+}
+
+let _revisionRachaTimer=null;
+function programarRevisionRacha(){
+  clearTimeout(_revisionRachaTimer);
+  _revisionRachaTimer=setTimeout(()=>{
+    reconciliarRachaConFinalizaciones();
+    revisarRachaInconsistente(false);
+  },1600);
+}
+
+function revisarRachaInconsistente(forzar=false){
+  const candidatos=diasCompletosPendientesDeRevision();
+  if(!candidatos.length) return false;
+  const firma=candidatos.join('|');
+  if(!forzar&&sessionStorage.getItem('stars_revision_racha_pospuesta')===firma) return false;
+  const fechas=candidatos.map(descripcionFechaDevocional).join(', ');
+  const plural=candidatos.length===1?'un día completo no está contando':'varios días completos no están contando';
+  const confirmar=confirm(`Notamos que ${plural} en tu racha (${fechas}).\n\nSi completaste ${candidatos.length===1?'ese día':'esos días'} en su fecha, pulsa Aceptar para corregir la racha sin gastar estrellas. Si los completaste después, pulsa Cancelar y conserva la restauración normal.`);
+  if(!confirmar){
+    sessionStorage.setItem('stars_revision_racha_pospuesta',firma);
+    return false;
+  }
+  candidatos.forEach(key=>quitarDiaInvalidoParaRacha(key,'confirmacion_usuario_completado_en_fecha'));
+  sessionStorage.removeItem('stars_revision_racha_pospuesta');
+  updateRachaUI();initWeek();actualizarDevoContextoUI();
+  showToast(candidatos.length===1?'✓ Día recuperado en tu racha':'✓ Días recuperados en tu racha');
+  return true;
 }
 
 function getBancoStars(){
@@ -6231,6 +6324,8 @@ function intentarCanjearEstrella(key){
 
 function procesarFinalizacionDia(key){
   const hoy=getActualTodayKey();
+  registrarFinalizacionRacha(key);
+  if(key===hoy&&esDiaInvalidoParaRacha(key)) quitarDiaInvalidoParaRacha(key,'completado_en_fecha');
   if(window.ADMIN_MODE&&key<hoy){
     validarDiaAdminParaRacha(key);
     premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
@@ -6329,6 +6424,14 @@ function updateRachaUI(){
   ['streak-n','streak-n-est','streak-n-dia','dsk-racha-n','dsk-streak-n','cal-racha-num','dsk-cal-racha-num'].forEach(id=>{
     const el = document.getElementById(id);
     if(el) el.textContent = r;
+  });
+  const mobileLabel=document.querySelector('#streak-n + .streak-label');
+  if(mobileLabel) mobileLabel.textContent=r===1?'día':'días';
+  const desktopLabel=document.querySelector('#dsk-racha-n + span');
+  if(desktopLabel) desktopLabel.textContent=r===1?'día':'días';
+  ['cal-racha-num','dsk-cal-racha-num'].forEach(id=>{
+    const label=document.getElementById(id)?.nextElementSibling;
+    if(label?.classList.contains('cal-racha-label')) label.textContent=r===1?'día consecutivo':'días consecutivos';
   });
   return r;
 }
@@ -8168,6 +8271,7 @@ function actualizarSorteoCalendario(prefix='cal'){
 }
 
 function abrirCalendario(){
+  reconciliarRachaConFinalizaciones();
   const ahora = window.ADMIN_DATE || new Date();
   calMes = ahora.getMonth();
   calAnio = ahora.getFullYear();
@@ -8178,6 +8282,7 @@ function abrirCalendario(){
     document.getElementById('dsk-ws-inner')?.classList.add('dsk-ws-inner--wide');
     renderCalendario(_calTargetPrefix);
     updateRachaUI();
+    if(diasCompletosPendientesDeRevision().length) setTimeout(()=>revisarRachaInconsistente(true),250);
     actualizarSorteoCalendario(_calTargetPrefix);
     return;
   }
@@ -8185,6 +8290,7 @@ function abrirCalendario(){
   _calTargetPrefix = 'cal';
   renderCalendario(_calTargetPrefix);
   updateRachaUI();
+  if(diasCompletosPendientesDeRevision().length) setTimeout(()=>revisarRachaInconsistente(true),250);
   actualizarSorteoCalendario(_calTargetPrefix);
   document.getElementById('cal-modal').classList.add('open');
   document.body.style.overflow='hidden';
