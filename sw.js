@@ -3,7 +3,7 @@
    Activación inmediata y actualización al abrir o retomar la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const SW_VERSION = 'stars-v42';
+const SW_VERSION = 'stars-v43';
 const CACHE_NAME = SW_VERSION;
 const SHELL_FILES = [
   '/',
