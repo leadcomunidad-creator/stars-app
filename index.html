@@ -1089,6 +1089,17 @@ body.modo-dia .profundizar-access{border-color:rgba(109,40,217,.35)}
 body.modo-dia .profundizar-access:hover{border-color:rgba(109,40,217,.58);background:var(--black4)}
 body.modo-dia .profundizar-access-icon{background:rgba(109,40,217,.12);color:#6d28d9}
 body.modo-dia .profundizar-access-go{color:#6d28d9}
+
+/* ══ ACCESO AL ESTUDIO DEL CAPÍTULO DEL DÍA ══ */
+.estudio-hoy-access{background:linear-gradient(135deg,rgba(76,29,149,.58),rgba(63,24,119,.38)),var(--black3);border-color:rgba(167,139,250,.58)}
+.estudio-hoy-access:hover{background:linear-gradient(135deg,rgba(91,33,182,.68),rgba(76,29,149,.48)),var(--black4);border-color:rgba(167,139,250,.86)}
+.estudio-hoy-access .estudio-hoy-access-icon{background:rgba(124,58,237,.24);border-color:rgba(167,139,250,.22);color:#b67cff}
+.estudio-hoy-access-title{font-size:.8125rem;font-weight:600;color:#b67cff}
+.estudio-hoy-access-sub{font-size:.6875rem;color:var(--white3);margin-top:2px;line-height:1.45}
+.estudio-hoy-access .profundizar-access-go{color:#b67cff}
+body.modo-dia .estudio-hoy-access{background:linear-gradient(135deg,rgba(109,40,217,.25),rgba(76,29,149,.16)),var(--black3);border-color:rgba(109,40,217,.58)}
+body.modo-dia .estudio-hoy-access:hover{background:linear-gradient(135deg,rgba(109,40,217,.34),rgba(76,29,149,.22)),var(--black4);border-color:rgba(109,40,217,.82)}
+body.modo-dia .estudio-hoy-access .estudio-hoy-access-icon,body.modo-dia .estudio-hoy-access-title,body.modo-dia .estudio-hoy-access .profundizar-access-go{color:#8b5cf6}
 body.modo-dia .pt-root{--pt-accent:var(--gold);--pt-dim:var(--gold-dim);--pt-border:var(--gold-border);--pt-line:var(--gold-border)}
 body.modo-dia .pt-root.pt-root--profundizar{--pt-accent:#6d28d9;--pt-dim:rgba(109,40,217,.12);--pt-border:rgba(109,40,217,.36);--pt-line:rgba(109,40,217,.24)}
 body.modo-dia .pt-root--profundizar .pt-hero,
@@ -1405,8 +1416,13 @@ body.modo-dia .pt-root--profundizar .pt-foot{border-color:var(--pt-line)!importa
 .pd2-sec{max-width:35rem;margin:0 auto;padding:0 0 2rem}.pd2-sec+.pd2-sec{border-top:1px solid var(--est-v2-line);padding-top:2rem}.pd2-sec:last-child{padding-bottom:0}.pd2-center{text-align:center}
 .pd2-eyebrow{font-family:'Outfit',sans-serif;font-size:.6875rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:1.125rem;text-align:center}
 .pd2-opening{font-size:1.375rem;line-height:1.7;font-style:italic;color:var(--white);text-align:center}.pd2-opening-ref{font-family:'Outfit',sans-serif;font-size:.75rem;color:var(--white3);text-align:center;margin-top:.875rem}
-.pd2-music-card{display:flex;align-items:center;gap:.875rem;text-align:left;background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius-sm);padding:.875rem 1rem;margin-top:1.5rem}
-.pd2-music-icon{font-size:1.125rem;flex-shrink:0}.pd2-music-info{flex:1;min-width:0}.pd2-music-title{font-family:'Outfit',sans-serif;font-size:.8125rem;font-weight:600;color:var(--white)}.pd2-music-sub{font-family:'Outfit',sans-serif;font-size:.6875rem;color:var(--white3);margin-top:.125rem}.pd2-music-btn{flex-shrink:0;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;padding:.5rem .875rem;border-radius:1rem;border:1px solid var(--gold-border);color:var(--gold);background:var(--gold-dim)}
+.pd2-music-card{width:100%;display:flex;align-items:center;gap:14px;text-align:left;background:linear-gradient(135deg,rgba(76,29,149,.58),rgba(63,24,119,.38)),var(--black3);border:1px solid rgba(167,139,250,.58);border-radius:var(--radius-sm);padding:14px 16px;margin-top:1.5rem;cursor:pointer;color:inherit;font-family:'Outfit',sans-serif;transition:background .2s,border-color .2s}
+.pd2-music-card:hover{background:linear-gradient(135deg,rgba(91,33,182,.68),rgba(76,29,149,.48)),var(--black4);border-color:rgba(167,139,250,.86)}
+.pd2-music-icon{width:38px;height:38px;border-radius:10px;background:rgba(124,58,237,.24);border:1px solid rgba(167,139,250,.22);display:flex;align-items:center;justify-content:center;color:#b67cff;flex-shrink:0}.pd2-music-icon svg{width:18px;height:18px}.pd2-music-info{flex:1;min-width:0;display:block}.pd2-music-title{display:block;font-family:'Outfit',sans-serif;font-size:.8125rem;font-weight:600;color:var(--white)}.pd2-music-sub{display:block;font-family:'Outfit',sans-serif;font-size:.6875rem;color:rgba(203,184,255,.78);margin-top:2px;line-height:1.45}.pd2-music-go{color:#b67cff;flex-shrink:0}
+body.modo-dia .pd2-music-card{background:linear-gradient(135deg,rgba(109,40,217,.25),rgba(76,29,149,.16)),var(--black3);border-color:rgba(109,40,217,.58)}
+body.modo-dia .pd2-music-card:hover{background:linear-gradient(135deg,rgba(109,40,217,.34),rgba(76,29,149,.22)),var(--black4);border-color:rgba(109,40,217,.82)}
+body.modo-dia .pd2-music-icon,body.modo-dia .pd2-music-go{color:#8b5cf6}
+body.modo-dia .pd2-music-sub{color:#7c3aed}
 .pd2-timer-wrap{display:flex;flex-direction:column;align-items:center;gap:1rem}.pd2-root .timer-ring{margin:.25rem auto}.pd2-timer-hint{font-family:'Outfit',sans-serif;text-align:center;font-size:.5625rem;letter-spacing:.14em;text-transform:uppercase;color:var(--white3);opacity:.55}
 .pd2-version-row{display:flex;justify-content:center;margin:0 0 1.75rem;font-family:'Outfit',sans-serif}.pd2-root .texto-version-tabs{display:flex;gap:.375rem;padding:.1875rem;border:1px solid var(--est-v2-line);border-radius:1.25rem;background:var(--black3);margin:0}.pd2-root .version-tab{min-width:5.25rem;flex:0 0 auto;padding:.4375rem .875rem;border:1px solid transparent;border-radius:1rem;background:none;color:var(--white3);font-size:.6875rem;letter-spacing:.06em;text-transform:uppercase}.pd2-root .version-tab.active{background:var(--gold-dim);border-color:var(--gold-border);color:var(--gold2)}
 .pd2-text-content{text-align:center}.pd2-root .texto-versiculo{display:inline-block;font-family:'Outfit',sans-serif;font-size:.6875rem;font-weight:600;letter-spacing:.04em;color:var(--black);background:var(--gold);padding:.125rem .5625rem;border-radius:.625rem;margin-bottom:.75rem}.pd2-layer-label{font-family:'Outfit',sans-serif;font-size:.625rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-bottom:.5rem;text-align:center}.pd2-root .texto-italic{font-size:1.375rem;line-height:1.7;color:var(--white);text-align:center}.pd2-root #texto-ntv .texto-italic,.pd2-nbla-reading{font-size:1.375rem;line-height:1.8;color:var(--white);font-style:normal;text-align:center}
@@ -1584,6 +1600,10 @@ body.modo-dia .pt-root--profundizar .pt-foot{border-color:var(--pt-line)!importa
 @container estudio-v2 (min-width:680px){.est-v2-nav-shell{padding:12px 24px 14px}.est-v2-verse-blocks{padding:64px 40px 72px}.est-v2-paragraphs{padding:64px 64px 72px}.est-v2-timeline-section{padding:64px 42px 56px}.est-v2-stop{grid-template-columns:34px minmax(0,1fr);column-gap:22px}.est-v2-stop-num{width:31px;height:31px}.est-v2-idea-btn{padding:22px 48px}.est-v2-idea-body{padding:0 48px 26px 80px}.est-v2-lexical{padding:60px 48px 72px}.est-v2-connections{padding:58px 42px 70px}.est-v2-connection-btn{padding:20px 24px 20px 26px}.est-v2-connection-body{padding:0 26px 24px}.est-v2-narrative{padding:68px 60px 76px}.est-v2-teaching{padding:60px 48px 72px}.est-v2-questions{padding:64px 48px 76px}.est-v2-closing{padding:76px 40px}}
 .est-v2-stage>section{width:100%;max-width:var(--est-v2-frame-max);margin-inline:auto;padding-left:var(--est-v2-frame-gutter);padding-right:var(--est-v2-frame-gutter)}
 @media(max-width:620px){.est-v2-root{border-left:0;border-right:0}.est-v2-footer{grid-template-columns:1fr 1fr;padding:16px;gap:10px}.est-v2-footer-center{grid-column:1/-1;grid-row:1}.est-v2-footer button{width:100%;padding:10px 12px}.est-v2-footer .est-v2-primary{min-width:0}.est-v2-progress-wrap{padding-left:18px;padding-right:18px}.est-v2-progress-top{margin-bottom:38px}.est-v2-nav-shell{padding:8px 10px 10px}.est-v2-nav-shell.has-overflow{grid-template-columns:28px minmax(0,1fr) 28px}.est-v2-nav-arrow{width:28px;height:34px}.est-v2-nav button{flex-basis:106px;min-width:106px;min-height:34px;padding:5px 7px;font-size:10px;gap:4px}.est-v2-version-btn{min-height:38px;min-width:92px}.est-v2-msg-es{font-size:18.5px}}
+
+/* M01 · legibilidad aprobada para el Estudio V2 */
+.est-v2-lede{font-size:19px;font-weight:600}.est-v2-p{font-size:19px}.est-v2-stop-title,.est-v2-stop-text{font-size:19px}.est-v2-anchor{font-size:19px}.est-v2-idea-preview{font-size:19px;font-weight:600}.est-v2-idea-body{font-size:19px}.est-v2-lex-explanation{font-size:19px}.est-v2-lex-msg-en{font-size:16px}.est-v2-lex-msg-es{font-size:19px;font-weight:500}.est-v2-lex-nbla{font-size:19px}.est-v2-connection-preview{font-size:19px;font-weight:600}.est-v2-connection-body{font-size:19px}.est-v2-narrative-p,.est-v2-narrative-anchor{font-size:19px}.est-v2-teaching-title,.est-v2-teaching-p{font-size:19px}.est-v2-question-text,.est-v2-question-all-item .est-v2-question-text{font-size:19px}.est-v2-reflection{font-size:19px}
+@media(max-width:620px){.est-v2-lede,.est-v2-lex-msg-es{font-size:18.5px}}
 
 .cap-bloque{margin-bottom:12px}
 .cap-bloque-hdr{
@@ -3277,6 +3297,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
 
+      <div id="estudio-hoy-access" class="profundizar-access estudio-hoy-access" onclick="abrirEstudioCapituloHoy()" style="display:none">
+        <div class="profundizar-access-icon estudio-hoy-access-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H11V5.5A2.5 2.5 0 0 0 8.5 3H4z"/><path d="M20 19.5A2.5 2.5 0 0 0 17.5 17H13V5.5A2.5 2.5 0 0 1 15.5 3H20z"/><path d="M11 17h2"/></svg>
+        </div>
+        <div style="flex:1;min-width:0">
+          <div class="estudio-hoy-access-title" id="estudio-hoy-title">Estudiar capítulo →</div>
+          <div class="estudio-hoy-access-sub">Ir al estudio del capítulo de hoy</div>
+        </div>
+        <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+
       <!-- Frase para hoy · acceso al generador -->
       <div class="frase-card" id="mobile-frase-card">
         <div class="frase-card-inner">
@@ -3795,11 +3826,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <div class="pd2-eyebrow">Oración de apertura</div>
         <div class="oracion-text pd2-opening"></div>
         <div class="oracion-firma pd2-opening-ref">— Oración de apertura · El Paso Diario</div>
-        <div id="musica-hint" class="pd2-music-card" style="display:none">
-          <div class="pd2-music-icon">🎵</div>
-          <div class="pd2-music-info"><div class="pd2-music-title">Música sugerida esta semana</div><div class="pd2-music-sub">Se abre al iniciar · YouTube</div></div>
-          <button class="pd2-music-btn" onclick="abrirMusicaSilencio()">Abrir ↗</button>
-        </div>
+        <button id="musica-hint" type="button" class="pd2-music-card" onclick="abrirMusicaSilencio()" style="display:none" aria-label="Ir a la sección de música">
+          <span class="pd2-music-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg></span>
+          <span class="pd2-music-info"><span class="pd2-music-title">Música para meditar</span><span class="pd2-music-sub">Ir a la sección de música</span></span>
+          <svg class="pd2-music-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
       </div>
       <div class="pd2-sec pd2-center">
         <div class="pd2-timer-wrap">
@@ -4554,6 +4585,41 @@ function pasoDiarioReferenciaFrase(referencia){
   return String(referencia||'').replace(/\s*(?:\(|·|-)\s*(?:NBLA|MSG)\s*\)?\s*$/i,'').trim();
 }
 
+function pasoDiarioCapituloDesdeReferencia(referencia){
+  const limpia=pasoDiarioReferenciaFrase(referencia);
+  const match=limpia.match(/^(.+?)\s+(\d+)(?::|$)/);
+  if(!match) return null;
+  const libroEntrada=match[1].trim();
+  const capitulo=parseInt(match[2],10);
+  if(!Number.isInteger(capitulo)||capitulo<1) return null;
+  const normalizar=valor=>String(valor||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]/g,'');
+  const alias={salmo:'Salmos'};
+  const aliasLibro=alias[normalizar(libroEntrada)]||libroEntrada;
+  const libros=(typeof LIBROS_CAPS!=='undefined'?LIBROS_CAPS:[]).flatMap(b=>b.libros||[]);
+  const encontrado=libros.find(item=>normalizar(item.n)===normalizar(aliasLibro));
+  const libro=encontrado?encontrado.n:aliasLibro;
+  if(encontrado&&capitulo>encontrado.caps) return null;
+  return {libro,capitulo,key:getCapKey(libro,capitulo)};
+}
+
+function actualizarAccesoEstudioHoy(){
+  const devo=getDevoHoy();
+  const destino=pasoDiarioCapituloDesdeReferencia(devo?.versiculo);
+  const mobile=document.getElementById('estudio-hoy-access');
+  const desktop=document.getElementById('dsk-estudio-hoy-access');
+  [mobile,desktop].forEach(el=>{if(el) el.style.display=destino?'flex':'none';});
+  if(!destino) return;
+  const texto='Estudiar '+destino.libro+' '+destino.capitulo+' →';
+  const mt=document.getElementById('estudio-hoy-title');if(mt)mt.textContent=texto;
+  const dt=document.getElementById('dsk-estudio-hoy-title');if(dt)dt.textContent=texto;
+}
+
+async function abrirEstudioCapituloHoy(){
+  const destino=pasoDiarioCapituloDesdeReferencia(getDevoHoy()?.versiculo);
+  if(!destino){showToast('No se pudo identificar el capítulo de hoy');return;}
+  await abrirEstudioDesdeProfundizar(destino.libro,destino.capitulo);
+}
+
 function pasoDiarioEditorFraseHTML(contexto,devo){
   if(!devo?.frase) return '';
   const estado = _pd2FraseEstado[contexto] || _pd2FraseEstado.mobile;
@@ -4702,6 +4768,7 @@ function initPasoDiario(){
   const referenciaProfunda=profundo?.titulo||d.versiculo?.replace(/\s*\([^)]*\)\s*$/,'')||'Versículo del día';
   const profTitulo=document.getElementById('prof-titulo');if(profTitulo)profTitulo.textContent=referenciaProfunda;
   const profTituloDsk=document.getElementById('dsk-prof-titulo');if(profTituloDsk)profTituloDsk.textContent=referenciaProfunda;
+  actualizarAccesoEstudioHoy();
   const tagEl=document.getElementById('pd-tag');if(tagEl&&d.tag)tagEl.textContent=d.tag;
   const orEl=document.querySelector('#modal-0 .oracion-text');if(orEl)orEl.textContent='“'+d.oracion+'”';
   const msgRef=document.querySelector('#texto-msg .texto-versiculo');const msgBody=document.querySelector('#texto-msg .texto-italic');
@@ -5181,6 +5248,7 @@ function initDesktop(){
     if(pt) pt.textContent = referenciaProfunda;
     const ptMobile = document.getElementById('prof-titulo');
     if(ptMobile) ptMobile.textContent = referenciaProfunda;
+    actualizarAccesoEstudioHoy();
   }
 
   // Tracker
@@ -5310,7 +5378,7 @@ function dskWsPaso(idx){
     const timerLabel=timerTerminado?'✓':Math.floor(_dskTimerSecs/60)+':'+String(_dskTimerSecs%60).padStart(2,'0');
     const timerHint=timerTerminado?'Finalizado':(_dskTimerRunning?'':'Toca el círculo para iniciar');
     contenido=`<div class="pd2-sec pd2-center"><div class="pd2-eyebrow">Oración de apertura</div><div class="pd2-opening">“${escaparHTML(devo.oracion)}”</div><div class="pd2-opening-ref">— Oración de apertura · El Paso Diario</div>
-      ${devo.musica_url?`<div class="pd2-music-card"><div class="pd2-music-icon">🎵</div><div class="pd2-music-info"><div class="pd2-music-title">Música sugerida esta semana</div><div class="pd2-music-sub">Se abre al iniciar · YouTube</div></div><button class="pd2-music-btn" onclick="abrirMusicaSilencio()">Abrir ↗</button></div>`:''}</div>
+      ${devo.musica_url?`<button type="button" class="pd2-music-card" onclick="abrirMusicaSilencio()" aria-label="Ir a la sección de música"><span class="pd2-music-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg></span><span class="pd2-music-info"><span class="pd2-music-title">Música para meditar</span><span class="pd2-music-sub">Ir a la sección de música</span></span><svg class="pd2-music-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>`:''}</div>
       <div class="pd2-sec pd2-center"><div class="pd2-timer-wrap"><div class="timer-ring" id="dsk-timer-ring-tap" onclick="dskIniciarTimer()" style="cursor:${timerTerminado||_dskTimerRunning?'default':'pointer'}" title="Tocar para iniciar"><svg width="100" height="100" viewBox="0 0 100 100"><circle class="timer-ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/><circle class="timer-ring-fill" id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="${timerStroke}" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="${timerOffset}"/></svg><div class="timer-label" id="dsk-timer-label">${timerLabel}</div></div><div id="dsk-timer-hint" class="pd2-timer-hint" style="${timerHint?'':'display:none'}">${timerHint}</div></div></div>${dskBtnConfirmar(0)}`;
   }else if(idx===1){
     contenido=`<div class="pd2-version-row"><div class="texto-version-tabs"><button class="version-tab ${_pd2TextoDesktop==='msg'?'active':''}" data-pd2-dsk-version="msg" onclick="pasoDiarioTextoDesktop('msg')">MSG</button><button class="version-tab ${_pd2TextoDesktop==='ntv'?'active':''}" data-pd2-dsk-version="ntv" onclick="pasoDiarioTextoDesktop('ntv')">NBLA</button></div></div>
@@ -6586,10 +6654,12 @@ function avisarTimerFinalizado(){
 }
 
 function abrirMusicaSilencio(){
-  const devo = getDevoHoy();
-  if(!devo?.musica_url) return;
-  try { window.open(devo.musica_url, '_blank', 'noopener'); }
-  catch(e){}
+  if(isDesktop()){
+    dskTab('musica');
+    return;
+  }
+  cerrarModal(0);
+  navTo('musica');
 }
 
 
@@ -8506,7 +8576,8 @@ function cerrarExegetico(){
 
 async function abrirEstudioDesdeProfundizar(libro,capitulo){
   cerrarExegetico();
-  const key=getCapKey(libro,capitulo);
+  const libroCanonico=String(libro||'').trim().toLowerCase()==='salmo'?'Salmos':libro;
+  const key=getCapKey(libroCanonico,capitulo);
   if(window.matchMedia('(min-width:1025px), (min-width:1024px) and (orientation:landscape)').matches){
     await dskAbrirCap(key);
   }else{
@@ -10663,6 +10734,17 @@ function dskIlSec(btn, idx){
               <div style="font-size:0.6875rem;color:var(--white3);margin-top:2px;line-height:1.45" id="dsk-prof-titulo">Versículo del día</div>
             </div>
             <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </div>
+
+          <div id="dsk-estudio-hoy-access" class="profundizar-access estudio-hoy-access" onclick="abrirEstudioCapituloHoy()" style="display:none">
+            <div class="profundizar-access-icon estudio-hoy-access-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H11V5.5A2.5 2.5 0 0 0 8.5 3H4z"/><path d="M20 19.5A2.5 2.5 0 0 0 17.5 17H13V5.5A2.5 2.5 0 0 1 15.5 3H20z"/><path d="M11 17h2"/></svg>
+            </div>
+            <div style="flex:1;min-width:0">
+              <div class="estudio-hoy-access-title" id="dsk-estudio-hoy-title">Estudiar capítulo →</div>
+              <div class="estudio-hoy-access-sub">Ir al estudio del capítulo de hoy</div>
+            </div>
+            <svg class="profundizar-access-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
           </div>
 
           <!-- Frase mini -->
