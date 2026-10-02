@@ -39,6 +39,10 @@
   --green-border:rgba(45,122,79,0.35);
   --radius:14px;
   --radius-sm:9px;
+  /* Tamaños fijos de lectura V2 sincronizados con Configuración. */
+  --est-v2-reading-size:19px;
+  --est-v2-heading-size:16px;
+  --est-v2-quote-size:22px;
 }
 html,body{height:100%;overflow:hidden}
 body{font-family:'Outfit',sans-serif;background:var(--black);color:var(--white);overscroll-behavior:none;
@@ -1606,6 +1610,18 @@ body.modo-dia .pd2-music-card:hover{background:rgba(139,92,246,.24);border-color
 .pd2-root .texto-italic{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1875rem;line-height:1.9;font-style:italic;font-weight:500}.pd2-root #texto-ntv .texto-italic,.pd2-root #pd2-dsk-texto-ntv .texto-italic,.pd2-root .pd2-nbla-reading{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1875rem;line-height:1.9;font-weight:500;font-style:normal}.pd2-idea-text{font-size:1.375rem;line-height:1.5;font-weight:400}.pd2-welcome{font-size:1rem;line-height:1.7;font-weight:400}.pd2-lede,.pd2-root .analisis-block p.pd2-lede{font-size:1rem;font-weight:500;line-height:1.7}.pd2-paragraph,.pd2-root .analisis-block p.pd2-paragraph{font-size:1rem;font-weight:400;line-height:1.7}.pd2-question{font-size:1.1875rem;line-height:1.7;font-weight:400}.pd2-practice{font-size:1rem;font-weight:400;line-height:1.7}.pd2-boxed .oracion-cierre-texto{font-family:'Cormorant Garamond',Georgia,serif;font-size:1.1875rem;font-weight:400;font-style:italic}.pd2-root .est-v2-quote{font-size:1.375rem;line-height:1.5;font-weight:400;font-style:italic}
 .est-v2-lede{font-size:19px;font-weight:500;line-height:1.7}.est-v2-p{font-size:19px;font-weight:400;line-height:1.7}.est-v2-stop-title{font-size:16px;font-weight:600}.est-v2-stop-text{font-size:19px;font-weight:400;line-height:1.7}.est-v2-anchor{font-size:19px;font-weight:400;line-height:1.7}.est-v2-idea-preview{font-size:16px;font-weight:600}.est-v2-idea-body{font-size:19px;font-weight:400;line-height:1.7}.est-v2-msg-en{font-size:19px;font-weight:400;font-style:italic;line-height:1.7}.est-v2-msg-es{font-size:19px;font-weight:500;font-style:italic;line-height:1.9}.est-v2-nbla-reading{font-size:19px;font-weight:500;font-style:normal;line-height:1.9}.est-v2-lex-explanation{font-size:19px;line-height:1.75}.est-v2-lex-msg-en{font-size:19px;font-weight:400;line-height:1.7}.est-v2-lex-msg-es{font-size:19px;font-weight:500;font-style:italic;line-height:1.9}.est-v2-lex-nbla{font-size:19px;font-weight:500;font-style:normal;line-height:1.9}.est-v2-connection-preview{font-size:16px;font-weight:600}.est-v2-connection-body{font-size:19px;font-weight:400;line-height:1.7}.est-v2-narrative-p{font-size:19px;font-weight:400;line-height:1.7}.est-v2-narrative-anchor{font-size:19px;font-weight:400;line-height:1.7}.est-v2-teaching-title{font-size:16px;font-weight:600}.est-v2-teaching-p{font-size:19px;font-weight:400;line-height:1.7}.est-v2-question-text,.est-v2-question-all-item .est-v2-question-text{font-size:19px;font-weight:400;line-height:1.7}.est-v2-quote{font-size:22px;line-height:1.5;font-weight:400;font-style:italic}.est-v2-reflection{font-size:19px;font-weight:400;line-height:1.7}
 @media(max-width:620px){.pd2-question{font-size:1.1875rem}.pd2-root .est-v2-quote{font-size:1.375rem}.est-v2-msg-es,.est-v2-lede,.est-v2-lex-msg-es{font-size:19px}}
+
+/* Configuración global: conserva la escala de lectura en las estaciones V2
+   que usan tamaños editoriales fijos en píxeles. */
+.est-v2-lede,.est-v2-p,.est-v2-stop-text,.est-v2-anchor,.est-v2-idea-body,
+.est-v2-msg-en,.est-v2-msg-es,.est-v2-nbla-reading,.est-v2-lex-explanation,
+.est-v2-lex-msg-en,.est-v2-lex-msg-es,.est-v2-lex-nbla,.est-v2-connection-body,
+.est-v2-narrative-p,.est-v2-narrative-anchor,.est-v2-teaching-p,
+.est-v2-question-text,.est-v2-question-all-item .est-v2-question-text,
+.est-v2-reflection{font-size:var(--est-v2-reading-size)}
+.est-v2-stop-title,.est-v2-idea-preview,.est-v2-connection-preview,
+.est-v2-teaching-title{font-size:var(--est-v2-heading-size)}
+.est-v2-quote{font-size:var(--est-v2-quote-size)}
 
 .cap-bloque{margin-bottom:12px}
 .cap-bloque-hdr{
@@ -8097,6 +8113,11 @@ function _aplicarFontSize(idx){
   // Cambiar font-size en html — todos los rem escalan proporcionalmente
   // Sin zoom, sin transform, sin efectos en el layout ni en el nav
   document.documentElement.style.fontSize = (16 * scale) + 'px';
+  // Estudio V2 conserva medidas base en px para la lectura; sincronizarlas
+  // aquí evita que quede fuera del ajuste global de tamaño.
+  document.documentElement.style.setProperty('--est-v2-reading-size', (19 * scale) + 'px');
+  document.documentElement.style.setProperty('--est-v2-heading-size', (16 * scale) + 'px');
+  document.documentElement.style.setProperty('--est-v2-quote-size', (22 * scale) + 'px');
   localStorage.setItem('stars_font', idx);
   _actualizarFontUI();
 }
