@@ -1,0 +1,512 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El conflicto comienza con una petición de alivio, no con una negativa inicial a servir. La NBLA fija la gravedad del problema mediante «dura servidumbre» y «pesado yugo»; MSG hace audible la petición humana: «Danos un respiro». La aplicación pastoral debe respetar ese contexto: escuchar una queja real no significa aceptar automáticamente toda demanda, pero sí reconocer el peso antes de responder desde la autoridad.",
+      "id": "2-cronicas10-joya-01",
+      "msg": {
+        "en": "\"Give us a break; lighten up on us and we’ll willingly serve you.\"",
+        "es": "\"Danos un respiro; aligera nuestra carga y te serviremos con gusto.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-04b"
+          ],
+          "verseId": "2-cronicas10-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El buen gobierno busca el bien de las personas. La NBLA ancla el consejo en tratar bien al pueblo, complacerlo y hablarle favorablemente; MSG expresa ese movimiento con el lenguaje de servicio. Como NBLA no usa aquí literalmente «servidor», la doctrina del liderazgo servidor no debe depender solo de esta expansión de MSG, aunque el arco bíblico posterior —especialmente Jesús— confirma ampliamente ese principio.",
+      "id": "2-cronicas10-joya-02",
+      "msg": {
+        "en": "\"If you will be a servant to this people\"",
+        "es": "\"Si te haces servidor de este pueblo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-07b"
+          ],
+          "verseId": "2-cronicas10-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "7"
+    },
+    {
+      "explanation": "La insensatez de Roboam no nace de falta de orientación, sino de rechazar una orientación que podía haber evitado la ruptura. NBLA y MSG coinciden en ese movimiento deliberado. El texto advierte que escuchar consejo implica estar dispuesto a recibir una respuesta que no confirme nuestra inclinación inicial.",
+      "id": "2-cronicas10-joya-03",
+      "msg": {
+        "en": "\"he rejected the counsel of the elders\"",
+        "es": "\"rechazó el consejo de los ancianos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-08b"
+          ],
+          "verseId": "2-cronicas10-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "Roboam redefine autoridad como capacidad de aumentar el dolor. La NBLA fija el contenido: añadirá peso al yugo existente; MSG vuelve visible la arrogancia competitiva de querer superar la dureza de su padre. La fuerza del lenguaje no debe distraer del punto teológico: el poder se vuelve destructivo cuando necesita demostrar superioridad a costa de quienes ya están cargados.",
+      "id": "2-cronicas10-joya-04",
+      "msg": {
+        "en": "\"If you think life under my father was hard, you haven’t seen the half of it.\"",
+        "es": "\"Si creen que la vida bajo mi padre fue dura, todavía no han visto ni la mitad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-11a"
+          ],
+          "verseId": "2-cronicas10-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "10-11"
+    },
+    {
+      "explanation": "La ruptura está ligada directamente a la negativa del rey a escuchar. La NBLA lo afirma de manera sobria y MSG convierte esa negativa en una imagen cotidiana: hizo oídos sordos. El mismo versículo también afirma la soberanía de Dios sobre el desarrollo de la historia, pero esa soberanía no borra la responsabilidad humana que el texto acaba de describir.",
+      "id": "2-cronicas10-joya-05",
+      "msg": {
+        "en": "\"Rehoboam turned a deaf ear to the people.\"",
+        "es": "\"Roboam hizo oídos sordos al pueblo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-15a"
+          ],
+          "verseId": "2-cronicas10-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15"
+    },
+    {
+      "explanation": "La fractura se vuelve pública cuando el pueblo concluye que su voz no tiene lugar delante del rey. NBLA y MSG sitúan la falta de escucha inmediatamente antes del rechazo de la casa de David. No toda ruptura comunitaria puede explicarse por una sola causa, pero aquí el narrador sí establece una conexión explícita entre liderazgo sordo y pérdida de lealtad.",
+      "id": "2-cronicas10-joya-06",
+      "msg": {
+        "en": "\"the king hadn’t listened to a word they’d said\"",
+        "es": "\"el rey no había escuchado ni una palabra de lo que le habían dicho\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas10-nbla-16a"
+          ],
+          "verseId": "2-cronicas10-nbla-16"
+        }
+      ],
+      "order": 6,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "2 CRÓNICAS",
+    "bookId": "2-cronicas",
+    "chapter": 10,
+    "studyId": "2-cronicas-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2-cronicas10-msg-01",
+      "msg": {
+        "en": "Rehoboam traveled to Shechem where all Israel had gathered to inaugurate him as king. Jeroboam was then in Egypt, where he had taken asylum from King Solomon; when he got the report of Solomon’s death, he came back.",
+        "es": "Roboam viajó a Siquem, donde todo Israel se había reunido para proclamarlo rey. Jeroboam estaba entonces en Egipto, donde se había refugiado huyendo del rey Salomón; cuando recibió la noticia de la muerte de Salomón, regresó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "2-cronicas10-msg-02",
+      "msg": {
+        "en": "Summoned by Israel, Jeroboam and all Israel went to Rehoboam and said, “Your father made life hard for us—worked our fingers to the bone. Give us a break; lighten up on us and we’ll willingly serve you.”",
+        "es": "Israel mandó llamar a Jeroboam, y él fue con todo Israel a Roboam y le dijeron: «Tu padre nos hizo la vida muy dura; nos hizo trabajar hasta dejarnos las manos destrozadas. Danos un respiro; aligera nuestra carga y te serviremos con gusto»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "2-cronicas10-msg-03",
+      "msg": {
+        "en": "“Give me,” said Rehoboam, “three days to think it over; then come back.” So the people left.",
+        "es": "«Denme tres días para pensarlo —dijo Roboam— y luego regresen». Y el pueblo se fue."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "2-cronicas10-msg-04",
+      "msg": {
+        "en": "King Rehoboam talked it over with the elders who had advised his father when he was alive: “What’s your counsel? How do you suggest that I answer the people?”",
+        "es": "El rey Roboam habló del asunto con los ancianos que habían aconsejado a su padre mientras vivía: «¿Qué me aconsejan? ¿Cómo sugieren que responda a este pueblo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "2-cronicas10-msg-05",
+      "msg": {
+        "en": "They said, “If you will be a servant to this people, be considerate of their needs and respond with compassion, work things out with them, they’ll end up doing anything for you.”",
+        "es": "Ellos le dijeron: «Si te haces servidor de este pueblo, tomas en serio sus necesidades y les respondes con compasión, buscando una solución con ellos, al final estarán dispuestos a hacer cualquier cosa por ti»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "2-cronicas10-msg-06",
+      "msg": {
+        "en": "But he rejected the counsel of the elders and asked the young men he’d grown up with who were now currying his favor, “What do you think? What should I say to these people who are saying, ‘Give us a break from your father’s harsh ways—lighten up on us’?”",
+        "es": "Pero rechazó el consejo de los ancianos y consultó a los jóvenes con quienes había crecido, que ahora buscaban ganarse su favor: «¿Qué piensan ustedes? ¿Qué debo decirle a este pueblo que me pide: “Danos un respiro de las duras maneras de tu padre; aligera nuestra carga”?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "2-cronicas10-msg-07",
+      "msg": {
+        "en": "The young turks he’d grown up with said, “These people who complain, ‘Your father was too hard on us; lighten up’—well, tell them this: ‘My little finger is thicker than my father’s waist. If you think life under my father was hard, you haven’t seen the half of it. My father thrashed you with whips; I’ll beat you bloody with chains!’”",
+        "es": "Los jóvenes gallitos con los que había crecido le dijeron: «Esta gente se queja: “Tu padre fue demasiado duro con nosotros; aligera nuestra carga”. Pues diles esto: “Mi dedo meñique es más grueso que la cintura de mi padre. Si creen que la vida bajo mi padre fue dura, todavía no han visto ni la mitad. Mi padre los azotó con látigos; ¡yo los dejaré ensangrentados a golpes de cadenas!”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "2-cronicas10-msg-08",
+      "msg": {
+        "en": "Three days later Jeroboam and the people showed up, just as Rehoboam had directed when he said, “Give me three days to think it over; then come back.” The king’s answer was harsh and rude. He spurned the counsel of the elders and went with the advice of the younger set: “If you think life under my father was hard, you haven’t seen the half of it: my father thrashed you with whips; I’ll beat you bloody with chains!”",
+        "es": "Tres días después, Jeroboam y el pueblo se presentaron, tal como Roboam había indicado cuando dijo: «Denme tres días para pensarlo y luego regresen». La respuesta del rey fue dura y grosera. Despreció el consejo de los ancianos y siguió el de los más jóvenes: «Si creen que la vida bajo mi padre fue dura, todavía no han visto ni la mitad: mi padre los azotó con látigos; ¡yo los dejaré ensangrentados a golpes de cadenas!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "2-cronicas10-msg-09",
+      "msg": {
+        "en": "Rehoboam turned a deaf ear to the people. God was behind all this, confirming the message that he had given to Jeroboam son of Nebat through Ahijah of Shiloh.",
+        "es": "Roboam hizo oídos sordos al pueblo. Dios estaba detrás de todo esto, confirmando el mensaje que había dado a Jeroboam, hijo de Nabat, por medio de Ahías de Silo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "2-cronicas10-msg-10",
+      "msg": {
+        "en": "When all Israel realized that the king hadn’t listened to a word they’d said, they stood up to him and said,\nGet lost, David!\nWe’ve had it with you, son of Jesse!\nLet’s get out of here, Israel, and fast!\nFrom now on, David, mind your own business.\nAnd with that they left. Rehoboam continued to rule only those who lived in the towns of Judah.",
+        "es": "Cuando todo Israel se dio cuenta de que el rey no había escuchado ni una palabra de lo que le habían dicho, se le plantaron de frente y dijeron:\n¡Fuera de aquí, David!\n¡Estamos hartos de ti, hijo de Isaí!\n¡Vámonos de aquí, Israel, y rápido!\nDesde ahora, David, ocúpate de tus propios asuntos.\nY con eso se fueron. Roboam siguió gobernando únicamente sobre quienes vivían en las ciudades de Judá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "2-cronicas10-msg-11",
+      "msg": {
+        "en": "When King Rehoboam next sent out Adoniram, head of the workforce, the Israelites ganged up on him, pelted him with stones, and killed him. King Rehoboam jumped in his chariot and escaped to Jerusalem as fast as he could. Israel has been in rebellion against the Davidic dynasty ever since.",
+        "es": "Cuando el rey Roboam envió después a Adoniram, jefe de la fuerza laboral, los israelitas se abalanzaron sobre él, lo apedrearon y lo mataron. El rey Roboam saltó a su carro y escapó a Jerusalén tan rápido como pudo. Desde entonces Israel ha permanecido en rebelión contra la dinastía de David."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas10-nbla-19"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2-cronicas10-nbla-01",
+      "number": 1,
+      "text": "Entonces Roboam fue a Siquem, porque todo Israel había ido a Siquem para hacerlo rey."
+    },
+    {
+      "id": "2-cronicas10-nbla-02",
+      "number": 2,
+      "text": "Y cuando lo oyó Jeroboam, hijo de Nabat (porque él estaba en Egipto adonde había huido de la presencia del rey Salomón), volvió Jeroboam de Egipto."
+    },
+    {
+      "id": "2-cronicas10-nbla-03",
+      "number": 3,
+      "text": "Y enviaron a llamarlo. Entonces vino con todo Israel, y hablaron a Roboam:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-04a",
+          "order": 1,
+          "text": "«Su padre hizo pesado nuestro yugo; ahora pues,"
+        },
+        {
+          "id": "2-cronicas10-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "aligere la dura servidumbre de su padre y el pesado yugo que puso sobre nosotros y le serviremos»."
+        }
+      ],
+      "id": "2-cronicas10-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "2-cronicas10-nbla-05",
+      "number": 5,
+      "text": "Entonces él les dijo: «Vuelvan otra vez a mí dentro de tres días». Y el pueblo se fue."
+    },
+    {
+      "id": "2-cronicas10-nbla-06",
+      "number": 6,
+      "text": "El rey Roboam pidió consejo a los ancianos que habían servido a su padre Salomón cuando aún vivía, diciendo: «¿Qué me aconsejan que responda a este pueblo?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-07a",
+          "order": 1,
+          "text": "Y ellos le respondieron: «"
+        },
+        {
+          "id": "2-cronicas10-nbla-07b",
+          "order": 2,
+          "text": "Si usted es bueno con este pueblo"
+        },
+        {
+          "id": "2-cronicas10-nbla-07c",
+          "order": 3,
+          "text": ", les complace y les dice buenas palabras, entonces ellos serán sus siervos para siempre»."
+        }
+      ],
+      "id": "2-cronicas10-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-08a",
+          "order": 1,
+          "text": "Pero"
+        },
+        {
+          "id": "2-cronicas10-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "él abandonó el consejo que le habían dado los ancianos"
+        },
+        {
+          "id": "2-cronicas10-nbla-08c",
+          "order": 3,
+          "text": ", y pidió consejo a los jóvenes que se habían criado con él y le servían."
+        }
+      ],
+      "id": "2-cronicas10-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "2-cronicas10-nbla-09",
+      "number": 9,
+      "text": "«¿Qué aconsejan», les pregunto, «que respondamos a este pueblo que me ha hablado: “Aligere el yugo que su padre puso sobre nosotros”?»."
+    },
+    {
+      "id": "2-cronicas10-nbla-10",
+      "number": 10,
+      "text": "Y los jóvenes que se habían criado con él le respondieron: «Así dirá al pueblo que le ha hablado: “Su padre hizo pesado nuestro yugo, pero usted hágalo más ligero para nosotros”. Así usted les dirá: “Mi dedo meñique es más grueso que los lomos de mi padre."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-11a",
+          "order": 1,
+          "text": "Por cuanto mi padre los cargó con un pesado yugo, yo añadiré a su yugo"
+        },
+        {
+          "id": "2-cronicas10-nbla-11b",
+          "order": 2,
+          "text": "; mi padre los castigó con látigos, pero yo los castigaré con escorpiones”»."
+        }
+      ],
+      "id": "2-cronicas10-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "2-cronicas10-nbla-12",
+      "number": 12,
+      "text": "Entonces vino Jeroboam con todo el pueblo a Roboam al tercer día como el rey lo había dicho: «Vuelvan a mí al tercer día»."
+    },
+    {
+      "id": "2-cronicas10-nbla-13",
+      "number": 13,
+      "text": "El rey les respondió con dureza, pues el rey Roboam había despreciado el consejo de los ancianos,"
+    },
+    {
+      "id": "2-cronicas10-nbla-14",
+      "number": 14,
+      "text": "y les habló conforme al consejo de los jóvenes, diciendo: «Mi padre les hizo pesado su yugo, pero yo lo haré más pesado; mi padre los castigó con látigos, pero yo los castigaré con escorpiones»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-15a",
+          "order": 1,
+          "text": "El rey no escuchó al pueblo"
+        },
+        {
+          "id": "2-cronicas10-nbla-15b",
+          "order": 2,
+          "text": ", porque esto venía de parte de Dios, para que el SEÑOR confirmara la palabra que Él había hablado por medio de Ahías el silonita a Jeroboam, hijo de Nabat."
+        }
+      ],
+      "id": "2-cronicas10-nbla-15",
+      "number": 15
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas10-nbla-16a",
+          "order": 1,
+          "text": "Cuando todo Israel vio que el rey no los escuchaba"
+        },
+        {
+          "id": "2-cronicas10-nbla-16b",
+          "order": 2,
+          "text": ", el pueblo respondió al rey:\n«¿Qué parte tenemos nosotros con David?\nNo tenemos herencia con el hijo de Isaí.\n¡Cada uno a su tienda, Israel!\n¡Mire ahora por su casa, David!».\nY todo Israel se fue a sus tiendas."
+        }
+      ],
+      "id": "2-cronicas10-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "2-cronicas10-nbla-17",
+      "number": 17,
+      "text": "Pero en cuanto a los israelitas que habitaban en las ciudades de Judá, Roboam reinó sobre ellos."
+    },
+    {
+      "id": "2-cronicas10-nbla-18",
+      "number": 18,
+      "text": "Entonces el rey Roboam envió a Adoram, que estaba a cargo de los trabajos forzados, pero los israelitas lo mataron a pedradas; y el rey Roboam se apresuró a subir a su carro para huir a Jerusalén."
+    },
+    {
+      "id": "2-cronicas10-nbla-19",
+      "number": 19,
+      "text": "Así Israel ha estado en rebeldía contra la casa de David hasta hoy."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

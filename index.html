@@ -1702,8 +1702,9 @@ body.modo-dia .pd2-music-card:hover{background:rgba(139,92,246,.24);border-color
 .intro-v2 .iv2-cta-primary{box-shadow:0 8px 24px var(--gold-dim,rgba(201,162,74,.18))}
 .intro-v2-modal-close{background:var(--black2,#0c0a06);border-color:var(--gold-border,rgba(201,162,74,.35));color:var(--gold2,#e7c877)}
 .intro-v2-poster-actions a{color:var(--gold2,#e7c877);border-bottom-color:var(--gold-border,rgba(201,162,74,.35))}
+.intro-v2 .iv2-subgroup,.intro-v2 .iv2-fact-title,.intro-v2 .iv2-range,.intro-v2 .iv2-resource-source,.intro-v2 .iv2-video-eyebrow,.intro-v2 .iv2-episode-num,.intro-v2 .iv2-episode-chap,.intro-v2 .iv2-proposal{text-transform:none}
 .intro-v2 .iv2-rightnow-card{width:100%;max-width:100%}
-.intro-v2 .iv2-rightnow-trailer{width:100%;max-width:400px;align-items:stretch}
+.intro-v2 .iv2-rightnow-trailer{width:100%;max-width:none;align-items:stretch}
 .intro-v2 .iv2-rightnow-trailer .iv2-video-card{width:100%;align-self:stretch;justify-self:stretch}
 .intro-v2 .iv2-access-wrap{margin-top:14px;width:100%;display:flex;flex-direction:column;gap:7px;align-items:flex-start}
 .intro-v2 .iv2-access-cta{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:11px 16px;border-radius:3px;border:1px solid var(--iv2-line2);background:var(--gold-dim,rgba(201,162,74,.12));color:var(--iv2-gold2);font-family:'Outfit',sans-serif;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
@@ -9074,7 +9075,11 @@ async function cargarEstudioV2(key){
 
 function validarEstudioV2(data, datos){
   if(!data || data.schemaVersion !== '1.0.0') throw new Error('schemaVersion V2 invalido');
-  if(!data.meta || data.meta.studyId !== datos.slug + '-' + datos.chapter) throw new Error('studyId V2 invalido');
+  if(!data.meta) throw new Error('meta V2 invalido');
+  const bookId = typeof data.meta.bookId === 'string' ? data.meta.bookId : '';
+  const legacyStudyId = datos.slug + '-' + datos.chapter;
+  const canonicalStudyId = estudioV2SlugLibro(bookId) === datos.slug ? bookId + '-' + datos.chapter : null;
+  if(data.meta.studyId !== legacyStudyId && data.meta.studyId !== canonicalStudyId) throw new Error('studyId V2 invalido');
   if(estudioV2SlugLibro(data.meta.book) !== datos.slug || data.meta.chapter !== datos.chapter) throw new Error('meta V2 invalido');
   if(!Array.isArray(data.sections) || data.sections.length !== 10) throw new Error(datos.title + ' V2 debe tener 10 secciones');
   const ids = new Set();

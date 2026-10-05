@@ -1,0 +1,599 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "NBLA fija que estas casas paternas de Geba fueron llevadas al destierro a Manahat; MSG concentra la escena en familias que vivían en un lugar y luego aparecen exiliadas en otro. El aporte pastoral es reconocer desplazamiento dentro de una genealogía, pero el límite es decisivo: el texto no explica la causa ni declara aquí un juicio divino. No debe usarse esta frase para diagnosticar espiritualmente a refugiados, migrantes o familias desplazadas.",
+      "id": "1-cronicas8-joya-01",
+      "msg": {
+        "en": "\"These are the families of Ehud that lived in Geba and were exiled to Manahath\"",
+        "es": "\"Estas son las familias de Aod que vivían en Geba y fueron llevadas al destierro a Manahat\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas8-nbla-06b"
+          ],
+          "verseId": "1-cronicas8-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "6-7"
+    },
+    {
+      "explanation": "NBLA fija el repudio de Husim y Baara y MSG usa el lenguaje contemporáneo de divorcio para hacer visible la ruptura familiar. La genealogía no oculta esa complejidad, pero tampoco pronuncia aquí una evaluación completa de sus causas. La inferencia que debe evitarse es tratar el registro como aprobación del divorcio o, en el extremo contrario, usar una sola línea para reconstruir culpas y motivaciones que el texto no entrega.",
+      "id": "1-cronicas8-joya-02",
+      "msg": {
+        "en": "\"In the land of Moab, Shaharaim had children after he divorced his wives Hushim and Baara.\"",
+        "es": "\"En la tierra de Moab, Saharaim tuvo hijos después de divorciarse de sus esposas Husim y Baara.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "NBLA fija el dato concreto de Semed como constructor de Ono y Lod con sus aldeas, y MSG conserva la misma acción con una formulación directa. En una genealogía, construir ciudades convierte un nombre en una contribución visible al espacio comunitario. El límite es no convertir esa construcción en prueba automática de virtud, bendición económica o derecho territorial moderno; el versículo dice qué hizo Semed, no todo lo que debemos concluir sobre él.",
+      "id": "1-cronicas8-joya-03",
+      "msg": {
+        "en": "\"Shemed, who built Ono and Lod with all their villages.\"",
+        "es": "\"Semed, quien construyó Ono y Lod con todas sus aldeas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas8-nbla-12b"
+          ],
+          "verseId": "1-cronicas8-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "12"
+    },
+    {
+      "explanation": "NBLA fija la continuidad genealógica desde Ner hasta Saúl, Jonatán y Merib Baal; MSG vuelve esa cadena casi rítmica y permite sentir que la historia sigue avanzando más allá del rey. La Joya es importante porque Crónicas no borra la casa de Saúl aunque el trono haya pasado a David. El límite es no confundir continuidad familiar con restauración de la monarquía ni convertir a cada descendiente en portador de una promesa real.",
+      "id": "1-cronicas8-joya-04",
+      "msg": {
+        "en": "\"Ner had Kish, Kish had Saul, and Saul had Jonathan, Malki-Shua, Abinadab, and Esh-Baal. Jonathan had Merib-Baal\"",
+        "es": "\"Ner tuvo a Cis, Cis tuvo a Saúl, y Saúl tuvo a Jonatán, Malquisúa, Abinadab y Es Baal. Jonatán tuvo a Merib Baal\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-33"
+        },
+        {
+          "clauseIds": [
+            "1-cronicas8-nbla-34a"
+          ],
+          "verseId": "1-cronicas8-nbla-34"
+        }
+      ],
+      "order": 4,
+      "range": "33-34"
+    },
+    {
+      "explanation": "NBLA fija valor militar, habilidad con el arco y una descendencia de 150; MSG hace visible reputación y abundancia familiar. Nada de esto equivale a recuperar el trono de Saúl ni a demostrar aprobación espiritual automática. Debe evitarse convertir fuerza, notoriedad o crecimiento familiar en fórmula de bendición. El capítulo termina con continuidad real, no con una teología de éxito.",
+      "id": "1-cronicas8-joya-05",
+      "msg": {
+        "en": "\"Ulam’s sons were warriors well known as archers. They had lots of sons and grandsons—at least 150.\"",
+        "es": "\"Los hijos de Ulam fueron guerreros muy conocidos como arqueros. Tuvieron muchos hijos y nietos: por lo menos 150.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas8-nbla-40a"
+          ],
+          "verseId": "1-cronicas8-nbla-40"
+        }
+      ],
+      "order": 5,
+      "range": "40"
+    }
+  ],
+  "meta": {
+    "book": "1 CRÓNICAS",
+    "bookId": "1-cronicas",
+    "chapter": 8,
+    "studyId": "1-cronicas-8"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "1-cronicas8-msg-01",
+      "msg": {
+        "en": "Benjamin’s firstborn son was Bela, followed by Ashbel, Aharah, Nohah, and Rapha—five in all. Bela’s sons were Addar, Gera, Abihud, Abishua, Naaman, Ahoah, Gera, Shephuphan, and Huram.",
+        "es": "El primogénito de Benjamín fue Bela, seguido por Asbel, Ahara, Noha y Rafa: cinco en total. Los hijos de Bela fueron Adar, Gera, Abiud, Abisúa, Naamán, Ahoa, Gera, Sefufán e Hiram."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "1-cronicas8-msg-02",
+      "msg": {
+        "en": "These are the families of Ehud that lived in Geba and were exiled to Manahath: Naaman, Ahijah, and Gera, who led them to exile and had Uzza and Ahihud.",
+        "es": "Estas son las familias de Aod que vivían en Geba y fueron llevadas al destierro a Manahat: Naamán, Ahías y Gera, quien los condujo al destierro y tuvo a Uza y Ahiud."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-12",
+      "id": "1-cronicas8-msg-03",
+      "msg": {
+        "en": "In the land of Moab, Shaharaim had children after he divorced his wives Hushim and Baara. From his new wife Hodesh he had Jobab, Zibia, Mesha, Malcam, Jeuz, Sakia, and Mirmah—sons who became heads of families. From his earlier wife Hushim he had Abitub and Elpaal. Elpaal’s sons were Eber, Misham, and Shemed, who built Ono and Lod with all their villages.",
+        "es": "En la tierra de Moab, Saharaim tuvo hijos después de divorciarse de sus esposas Husim y Baara. Con su nueva esposa Hodes tuvo a Jobab, Sibia, Mesa, Malcam, Jeúz, Saquías y Mirma: hijos que llegaron a ser jefes de familias. Con su esposa anterior Husim tuvo a Abitob y Elpaal. Los hijos de Elpaal fueron Heber, Misam y Semed, quien construyó Ono y Lod con todas sus aldeas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-28",
+      "id": "1-cronicas8-msg-04",
+      "msg": {
+        "en": "Beriah and Shema were family chiefs who lived at Aijalon. They drove out the citizens of Gath. Their brothers were Shashak and Jeremoth. The sons of Beriah were Zebadiah, Arad, Eder, Michael, Ishpah, and Joha. The sons of Elpaal were Zebadiah, Meshullam, Hizki, Heber, Ishmerai, Izliah, and Jobab. The sons of Shimei were Jakim, Zicri, Zabdi, Elienai, Zillethai, Eliel, Adaiah, Beraiah, and Shimrath. The sons of Shashak were Ishpan, Eber, Eliel, Abdon, Zicri, Hanan, Hananiah, Elam, Anthothijah, Iphdeiah, and Penuel. The sons of Jeroham were Shamsherai, Shehariah, Athaliah, Jaareshiah, Elijah, and Zicri. These were the chiefs of the families as listed in their family tree. They lived in Jerusalem.",
+        "es": "Bería y Sema fueron jefes de familia que vivían en Ajalón. Ellos expulsaron a los habitantes de Gat. Sus hermanos fueron Sasac y Jeremot. Los hijos de Bería fueron Zebadías, Arad, Ader, Micael, Ispa y Joha. Los hijos de Elpaal fueron Zebadías, Mesulam, Hizqui, Heber, Ishmerai, Jezlías y Jobab. Los hijos de Simei fueron Jaquim, Zicri, Zabdi, Elienai, Ziletai, Eliel, Adaías, Beraías y Simrat. Los hijos de Sasac fueron Ispán, Heber, Eliel, Abdón, Zicri, Hanán, Hananías, Elam, Anatotías, Ifdaías y Peniel. Los hijos de Jeroham fueron Samserai, Seharías, Atalías, Jaresías, Elías y Zicri. Estos fueron los jefes de las familias según estaban registrados en su árbol familiar. Vivían en Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-28"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "29-32",
+      "id": "1-cronicas8-msg-05",
+      "msg": {
+        "en": "Jeiel the father of Gibeon lived in Gibeon. His wife’s name was Maacah. Abdon was his firstborn son, followed by Zur, Kish, Baal, Nadab, Gedor, Ahio, Zeker, and Mikloth. Mikloth had Shimeah. They lived in the neighborhood of their extended families in Jerusalem.",
+        "es": "Jehiel, padre de Gabaón, vivía en Gabaón. Su esposa se llamaba Maaca. Abdón fue su primogénito, seguido por Zur, Cis, Baal, Nadab, Gedor, Ahío, Zequer y Miclot. Miclot tuvo a Simea. Ellos vivían cerca de sus familias extendidas en Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-32"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "33-40",
+      "id": "1-cronicas8-msg-06",
+      "msg": {
+        "en": "Ner had Kish, Kish had Saul, and Saul had Jonathan, Malki-Shua, Abinadab, and Esh-Baal. Jonathan had Merib-Baal, and Merib-Baal had Micah. Micah’s sons were Pithon, Melech, Tarea, and Ahaz. Ahaz had Jehoaddah and Jehoaddah had Alemeth, Azmaveth, and Zimri. Zimri had Moza and Moza had Binea. Raphah was his son, Eleasah his son, and Azel his son. Azel had six sons named Azrikam, Bokeru, Ishmael, Sheariah, Obadiah, and Hanan. His brother Eshek’s sons were Ulam his firstborn, followed by Jeush and Eliphelet. Ulam’s sons were warriors well known as archers. They had lots of sons and grandsons—at least 150. These were all in Benjamin’s family tree.",
+        "es": "Ner tuvo a Cis, Cis tuvo a Saúl, y Saúl tuvo a Jonatán, Malquisúa, Abinadab y Es Baal. Jonatán tuvo a Merib Baal, y Merib Baal tuvo a Micaía. Los hijos de Micaía fueron Pitón, Melec, Tarea y Acaz. Acaz tuvo a Joada, y Joada tuvo a Alemet, Azmavet y Zimri. Zimri tuvo a Mosa, y Mosa tuvo a Bina. Rafa fue su hijo, Elasa su hijo y Azel su hijo. Azel tuvo seis hijos llamados Azricam, Bocru, Ismael, Searías, Obadías y Hanán. Los hijos de su hermano Esec fueron Ulam, su primogénito, seguido por Jehús y Elifelet. Los hijos de Ulam fueron guerreros muy conocidos como arqueros. Tuvieron muchos hijos y nietos: por lo menos 150. Todos ellos pertenecían al árbol familiar de Benjamín."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas8-nbla-40"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1-cronicas8-nbla-01",
+      "number": 1,
+      "text": "Benjamín fue el padre de Bela su primogénito, Asbel el segundo, Ahara el tercero,"
+    },
+    {
+      "id": "1-cronicas8-nbla-02",
+      "number": 2,
+      "text": "Noha el cuarto, y Rafa el quinto."
+    },
+    {
+      "id": "1-cronicas8-nbla-03",
+      "number": 3,
+      "text": "Y Bela tuvo hijos: Adar, Gera, Abiud,"
+    },
+    {
+      "id": "1-cronicas8-nbla-04",
+      "number": 4,
+      "text": "Abisúa, Naamán, Ahoa,"
+    },
+    {
+      "id": "1-cronicas8-nbla-05",
+      "number": 5,
+      "text": "Gera, Sefufán e Hiram."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas8-nbla-06a",
+          "order": 1,
+          "text": "Y estos son los hijos de Aod:"
+        },
+        {
+          "id": "1-cronicas8-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "estos son los jefes de las casas paternas de los habitantes de Geba, y que fueron llevados al destierro a Manahat,"
+        }
+      ],
+      "id": "1-cronicas8-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "1-cronicas8-nbla-07",
+      "number": 7,
+      "text": "es decir, Naamán, Ahías y Gera; este los llevó al destierro, y fue el padre de Uza y de Ahiud."
+    },
+    {
+      "id": "1-cronicas8-nbla-08",
+      "number": 8,
+      "text": "Saharaim tuvo hijos en la tierra de Moab, después de repudiar a sus mujeres Husim y Baara."
+    },
+    {
+      "id": "1-cronicas8-nbla-09",
+      "number": 9,
+      "text": "Y de su mujer Hodes tuvo a Jobab, Sibia, Mesa, Malcam,"
+    },
+    {
+      "id": "1-cronicas8-nbla-10",
+      "number": 10,
+      "text": "Jeúz, Saquías y Mirma. Estos fueron sus hijos, jefes de las casas paternas."
+    },
+    {
+      "id": "1-cronicas8-nbla-11",
+      "number": 11,
+      "text": "Y de Husim tuvo a Abitob y a Elpaal."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas8-nbla-12a",
+          "order": 1,
+          "text": "Los hijos de Elpaal fueron Heber, Misam y"
+        },
+        {
+          "id": "1-cronicas8-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Semed, que edificó a Ono y Lod con sus aldeas;"
+        }
+      ],
+      "id": "1-cronicas8-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "1-cronicas8-nbla-13",
+      "number": 13,
+      "text": "Bería y Sema, que fueron jefes de las casas paternas de los habitantes de Ajalón, hicieron huir a los habitantes de Gat;"
+    },
+    {
+      "id": "1-cronicas8-nbla-14",
+      "number": 14,
+      "text": "y Ahío, Sasac y Jeremot."
+    },
+    {
+      "id": "1-cronicas8-nbla-15",
+      "number": 15,
+      "text": "Zebadías, Arad, Ader,"
+    },
+    {
+      "id": "1-cronicas8-nbla-16",
+      "number": 16,
+      "text": "Micael, Ispa y Joha fueron los hijos de Bería."
+    },
+    {
+      "id": "1-cronicas8-nbla-17",
+      "number": 17,
+      "text": "Zebadías, Mesulam, Hizqui, Heber,"
+    },
+    {
+      "id": "1-cronicas8-nbla-18",
+      "number": 18,
+      "text": "Ishmerai, Jezlías y Jobab fueron los hijos de Elpaal."
+    },
+    {
+      "id": "1-cronicas8-nbla-19",
+      "number": 19,
+      "text": "Jaquim, Zicri, Zabdi,"
+    },
+    {
+      "id": "1-cronicas8-nbla-20",
+      "number": 20,
+      "text": "Elienai, Ziletai, Eliel,"
+    },
+    {
+      "id": "1-cronicas8-nbla-21",
+      "number": 21,
+      "text": "Adaías, Beraías y Simrat fueron los hijos de Simei."
+    },
+    {
+      "id": "1-cronicas8-nbla-22",
+      "number": 22,
+      "text": "Ispán, Heber, Eliel,"
+    },
+    {
+      "id": "1-cronicas8-nbla-23",
+      "number": 23,
+      "text": "Abdón, Zicri, Hanán,"
+    },
+    {
+      "id": "1-cronicas8-nbla-24",
+      "number": 24,
+      "text": "Hananías, Elam, Anatotías,"
+    },
+    {
+      "id": "1-cronicas8-nbla-25",
+      "number": 25,
+      "text": "Ifdaías y Peniel fueron los hijos de Sasac."
+    },
+    {
+      "id": "1-cronicas8-nbla-26",
+      "number": 26,
+      "text": "Samserai, Seharías, Atalías,"
+    },
+    {
+      "id": "1-cronicas8-nbla-27",
+      "number": 27,
+      "text": "Jaresías, Elías y Zicri fueron los hijos de Jeroham."
+    },
+    {
+      "id": "1-cronicas8-nbla-28",
+      "number": 28,
+      "text": "Estos fueron jefes de las casas paternas conforme a sus generaciones, hombres principales que vivieron en Jerusalén."
+    },
+    {
+      "id": "1-cronicas8-nbla-29",
+      "number": 29,
+      "text": "En Gabaón habitaba Jehiel, padre de Gabaón, y el nombre de su mujer era Maaca;"
+    },
+    {
+      "id": "1-cronicas8-nbla-30",
+      "number": 30,
+      "text": "y su primogénito fue Abdón; después Zur, Cis, Baal, Nadab,"
+    },
+    {
+      "id": "1-cronicas8-nbla-31",
+      "number": 31,
+      "text": "Gedor, Ahío y Zequer."
+    },
+    {
+      "id": "1-cronicas8-nbla-32",
+      "number": 32,
+      "text": "Miclot fue el padre de Simea. Y habitaban también con sus parientes en Jerusalén enfrente de sus otros parientes."
+    },
+    {
+      "id": "1-cronicas8-nbla-33",
+      "number": 33,
+      "text": "Ner fue el padre de Cis, Cis fue padre de Saúl y Saúl fue el padre de Jonatán, Malquisúa, Abinadab y Es Baal."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas8-nbla-34a",
+          "order": 1,
+          "text": "El hijo de Jonatán fue Merib Baal"
+        },
+        {
+          "id": "1-cronicas8-nbla-34b",
+          "order": 2,
+          "text": ", y Merib Baal fue el padre de Micaía."
+        }
+      ],
+      "id": "1-cronicas8-nbla-34",
+      "number": 34
+    },
+    {
+      "id": "1-cronicas8-nbla-35",
+      "number": 35,
+      "text": "Los hijos de Micaía fueron Pitón, Melec, Tarea y Acaz."
+    },
+    {
+      "id": "1-cronicas8-nbla-36",
+      "number": 36,
+      "text": "Acaz fue el padre de Joada, Joada fue padre de Alemet, Azmavet y Zimri, y Zimri engendró a Mosa;"
+    },
+    {
+      "id": "1-cronicas8-nbla-37",
+      "number": 37,
+      "text": "y Mosa fue el padre de Bina; Rafa fue su hijo, Elasa su hijo, Azel su hijo."
+    },
+    {
+      "id": "1-cronicas8-nbla-38",
+      "number": 38,
+      "text": "Azel tuvo seis hijos y estos eran sus nombres: Azricam, Bocru, Ismael, Searías, Obadías y Hanán. Todos estos fueron hijos de Azel."
+    },
+    {
+      "id": "1-cronicas8-nbla-39",
+      "number": 39,
+      "text": "Los hijos de Esec su hermano fueron Ulam su primogénito, Jehús el segundo, y Elifelet el tercero."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas8-nbla-40a",
+          "order": 1,
+          "text": "Los hijos de Ulam eran hombres fuertes de gran valor, arqueros, y tuvieron muchos hijos y nietos, 150 en total."
+        },
+        {
+          "id": "1-cronicas8-nbla-40b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Todos estos fueron de los hijos de Benjamín."
+        }
+      ],
+      "id": "1-cronicas8-nbla-40",
+      "number": 40
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

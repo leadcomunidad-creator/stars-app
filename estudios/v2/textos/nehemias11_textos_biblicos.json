@@ -1,0 +1,679 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La restauración requiere personas dispuestas a asumir costos por el bien de la comunidad. NBLA destaca que el pueblo bendijo a quienes se ofrecieron para habitar Jerusalén; MSG vuelve visible el reconocimiento público hacia ellos. El texto no convierte toda mudanza o voluntariado en mandato divino, pero sí honra una disponibilidad concreta para ocupar un lugar necesario.",
+      "id": "nehemias11-joya-01",
+      "msg": {
+        "en": "\"The people applauded those who voluntarily offered to live in Jerusalem.\"",
+        "es": "\"El pueblo aplaudió a quienes se ofrecieron voluntariamente a vivir en Jerusalén.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La vida de adoración incluye trabajo real sostenido por personas concretas. NBLA identifica a quienes hacían la obra del templo; MSG subraya que eran responsables de ese trabajo. El énfasis no está en la cifra como símbolo, sino en una comunidad donde el servicio tiene responsables identificables.",
+      "id": "nehemias11-joya-02",
+      "msg": {
+        "en": "\"along with their associates responsible for work in The Temple: 822 men.\"",
+        "es": "\"junto con sus compañeros responsables del trabajo en el Templo: 822 hombres.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias11-nbla-12a"
+          ],
+          "verseId": "nehemias11-nbla-12"
+        }
+      ],
+      "order": 2,
+      "range": "10-14"
+    },
+    {
+      "explanation": "La gratitud y la oración ocupan un lugar organizado dentro de la vida comunitaria. NBLA muestra a Matanías con una responsabilidad concreta en la acción de gracias y la oración; MSG vuelve especialmente visible su función de dirección. El texto no hace de un cargo particular una norma universal, pero sí muestra que la adoración puede ser cuidada intencionalmente.",
+      "id": "nehemias11-joya-03",
+      "msg": {
+        "en": "\"the director who led in thanksgiving and prayer;\"",
+        "es": "\"el director que dirigía la acción de gracias y la oración;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias11-nbla-17b"
+          ],
+          "verseId": "nehemias11-nbla-17"
+        }
+      ],
+      "order": 3,
+      "range": "15-18"
+    },
+    {
+      "explanation": "Cuidar los accesos también forma parte de la vida restaurada. NBLA y MSG coinciden en la función de guardar las puertas. La tarea puede parecer menos visible que dirigir oración o servir en el Templo, pero el capítulo la registra porque la comunidad necesita tanto expresión espiritual como protección y cuidado práctico.",
+      "id": "nehemias11-joya-04",
+      "msg": {
+        "en": "\"who kept watch over the gates: 172 men.\"",
+        "es": "\"que vigilaban las puertas: 172 hombres.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias11-nbla-19b"
+          ],
+          "verseId": "nehemias11-nbla-19"
+        }
+      ],
+      "order": 4,
+      "range": "19"
+    },
+    {
+      "explanation": "La adoración comunitaria puede requerir estructura y constancia. NBLA fija la existencia de un mandato y un reglamento diario para los cantores; MSG lo expresa como un horario establecido. El principio no es que toda adoración deba copiar ese modelo administrativo, sino que la espontaneidad espiritual y la responsabilidad organizada no son enemigas.",
+      "id": "nehemias11-joya-05",
+      "msg": {
+        "en": "\"The singers got their orders from the king, who drew up their daily schedule.\"",
+        "es": "\"Los cantores recibían órdenes del rey, quien establecía su horario diario.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "22-23"
+    },
+    {
+      "explanation": "La restauración se extiende más allá de Jerusalén. NBLA y MSG muestran al pueblo habitando un territorio amplio. El capítulo recuerda que la fidelidad de Israel no se reducía al centro religioso; también debía vivirse en aldeas, campos y comunidades dispersas donde transcurría la vida cotidiana.",
+      "id": "nehemias11-joya-06",
+      "msg": {
+        "en": "\"They were living all the way from Beersheba to the Valley of Hinnom.\"",
+        "es": "\"Vivían desde Beerseba hasta el valle de Hinom.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias11-nbla-30b"
+          ],
+          "verseId": "nehemias11-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "25-30"
+    }
+  ],
+  "meta": {
+    "book": "NEHEMÍAS",
+    "bookId": "nehemias",
+    "chapter": 11,
+    "studyId": "nehemias-11"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "nehemias11-msg-01",
+      "msg": {
+        "en": "The leaders of the people were already living in Jerusalem, so the rest of the people drew lots to get one out of ten to move to Jerusalem, the holy city, while the other nine remained in their towns. The people applauded those who voluntarily offered to live in Jerusalem.",
+        "es": "Los líderes del pueblo ya vivían en Jerusalén, así que el resto del pueblo echó suertes para que uno de cada diez se mudara a Jerusalén, la ciudad santa, mientras los otros nueve permanecían en sus ciudades. El pueblo aplaudió a quienes se ofrecieron voluntariamente a vivir en Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "nehemias11-msg-02",
+      "msg": {
+        "en": "These are the leaders in the province who resided in Jerusalem (some Israelites, priests, Levites, Temple staff, and descendants of Solomon’s slaves lived in the towns of Judah on their own property in various towns; others from both Judah and Benjamin lived in Jerusalem):",
+        "es": "Estos son los dirigentes de la provincia que residían en Jerusalén (algunos israelitas, sacerdotes, levitas, personal del Templo y descendientes de los siervos de Salomón vivían en las ciudades de Judá, cada uno en su propiedad familiar, en distintas ciudades; otros de Judá y Benjamín vivían en Jerusalén):"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-03"
+        },
+        {
+          "clauseIds": [
+            "nehemias11-nbla-04a"
+          ],
+          "verseId": "nehemias11-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "nehemias11-msg-03",
+      "msg": {
+        "en": "From the family of Judah:\nAthaiah son of Uzziah, the son of Zechariah, the son of Amariah, the son of Shephatiah, the son of Mahalalel, from the family line of Perez; Maaseiah son of Baruch, the son of Col-Hozeh, the son of Hazaiah, the son of Adaiah, the son of Joiarib, the son of Zechariah, the son of the Shilonite. The descendants of Perez who lived in Jerusalem numbered 468 valiant men.",
+        "es": "De la familia de Judá:\nAtaías, hijo de Uzías, hijo de Zacarías, hijo de Amarías, hijo de Sefatías, hijo de Mahalaleel, de la línea familiar de Fares; Maasías, hijo de Baruc, hijo de Col Hoze, hijo de Hazaías, hijo de Adaías, hijo de Joiarib, hijo de Zacarías, hijo del silonita. Los descendientes de Fares que vivían en Jerusalén sumaban 468 hombres valientes."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias11-nbla-04b"
+          ],
+          "verseId": "nehemias11-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "nehemias11-msg-04",
+      "msg": {
+        "en": "From the family of Benjamin:\nSallu son of Meshullam, the son of Joed, the son of Pedaiah, the son of Kolaiah, the son of Maaseiah, the son of Ithiel, the son of Jeshaiah, and his brothers Gabbai and Sallai: 928 men. Joel son of Zicri was their chief and Judah son of Hassenuah was second in command over the city.",
+        "es": "De la familia de Benjamín:\nSalú, hijo de Mesulam, hijo de Joed, hijo de Pedaías, hijo de Colaías, hijo de Maasías, hijo de Itiel, hijo de Jesaías, y sus hermanos Gabai y Salai: 928 hombres. Joel, hijo de Zicri, era su jefe, y Judá, hijo de Hasenúa, era segundo al mando de la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-14",
+      "id": "nehemias11-msg-05",
+      "msg": {
+        "en": "From the priests:\nJedaiah son of Joiarib; Jakin; Seraiah son of Hilkiah, the son of Meshullam, the son of Zadok, the son of Meraioth, the son of Ahitub, supervisor of The Temple of God, along with their associates responsible for work in The Temple: 822 men. Also Adaiah son of Jeroham, the son of Pelaliah, the son of Amzi, the son of Zechariah, the son of Pashhur, the son of Malkijah, and his associates who were heads of families: 242 men; Amashsai son of Azarel, the son of Ahzai, the son of Meshillemoth, the son of Immer, and his associates, all valiant men: 128 men. Their commander was Zabdiel son of Haggedolim.",
+        "es": "De los sacerdotes:\nJedaías, hijo de Joiarib; Jaquín; Seraías, hijo de Hilcías, hijo de Mesulam, hijo de Sadoc, hijo de Meraiot, hijo de Ahitob, supervisor de la casa de Dios, junto con sus compañeros responsables del trabajo en el Templo: 822 hombres. También Adaías, hijo de Jeroham, hijo de Pelalías, hijo de Amsi, hijo de Zacarías, hijo de Pasur, hijo de Malquías, y sus compañeros, que eran jefes de familias: 242 hombres; Amasai, hijo de Azareel, hijo de Azai, hijo de Mesilemot, hijo de Imer, y sus compañeros, todos hombres valientes: 128 hombres. Su comandante era Zabdiel, hijo de Gedolim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-18",
+      "id": "nehemias11-msg-06",
+      "msg": {
+        "en": "From the Levites:\nShemaiah son of Hasshub, the son of Azrikam, the son of Hashabiah, the son of Bunni; Shabbethai and Jozabad, two of the leaders of the Levites who were in charge of the outside work of The Temple of God; Mattaniah son of Mica, the son of Zabdi, the son of Asaph, the director who led in thanksgiving and prayer; Bakbukiah, second among his associates; and Abda son of Shammua, the son of Galal, the son of Jeduthun. The Levites in the holy city totaled 284.",
+        "es": "De los levitas:\nSemaías, hijo de Hasub, hijo de Azricam, hijo de Hasabías, hijo de Buni; Sabetai y Jozabad, dos de los líderes de los levitas encargados del trabajo exterior de la casa de Dios; Matanías, hijo de Micaía, hijo de Zabdi, hijo de Asaf, el director que dirigía la acción de gracias y la oración; Bacbuquías, segundo entre sus compañeros; y Abda, hijo de Samúa, hijo de Galal, hijo de Jedutún. El total de levitas en la ciudad santa era de 284."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-18"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "19",
+      "id": "nehemias11-msg-07",
+      "msg": {
+        "en": "From the security guards:\nAkkub, Talmon, and their associates who kept watch over the gates: 172 men.",
+        "es": "De los guardias de seguridad:\nAcub, Talmón y sus compañeros que vigilaban las puertas: 172 hombres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20",
+      "id": "nehemias11-msg-08",
+      "msg": {
+        "en": "The rest of the Israelites, priests, and Levites were in all the towns of Judah, each on his own family property.",
+        "es": "El resto de los israelitas, sacerdotes y levitas estaba en todas las ciudades de Judá, cada uno en la propiedad de su familia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-20"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "21",
+      "id": "nehemias11-msg-09",
+      "msg": {
+        "en": "The Temple staff lived on the hill Ophel. Ziha and Gishpa were responsible for them.",
+        "es": "El personal del Templo vivía en la colina de Ofel. Ziha y Gispa estaban a cargo de ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-21"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "nehemias11-msg-10",
+      "msg": {
+        "en": "The chief officer over the Levites in Jerusalem was Uzzi son of Bani, the son of Hashabiah, the son of Mattaniah, the son of Mica. Uzzi was one of Asaph’s descendants, singers who led worship in The Temple of God. The singers got their orders from the king, who drew up their daily schedule.",
+        "es": "El principal responsable de los levitas en Jerusalén era Uzi, hijo de Bani, hijo de Hasabías, hijo de Matanías, hijo de Micaía. Uzi era uno de los descendientes de Asaf, cantores que dirigían la adoración en la casa de Dios. Los cantores recibían órdenes del rey, quien establecía su horario diario."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-23"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24",
+      "id": "nehemias11-msg-11",
+      "msg": {
+        "en": "Pethahiah son of Meshezabel, a descendant of Zerah son of Judah, represented the people’s concerns at the royal court.",
+        "es": "Petaías, hijo de Mesezabeel, descendiente de Zera, hijo de Judá, representaba los asuntos del pueblo en la corte real."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-24"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "25-30",
+      "id": "nehemias11-msg-12",
+      "msg": {
+        "en": "Some of the Judeans lived in the villages near their farms:\nKiriath Arba (Hebron) and suburbs\nDibon and suburbs\nJekabzeel and suburbs\nJeshua\nMoladah\nBeth Pelet\nHazar Shual\nBeersheba and suburbs\nZiklag\nMeconah and suburbs\nEn Rimmon\nZorah\nJarmuth\nZanoah\nAdullam and their towns\nLachish and its fields\nAzekah and suburbs.\nThey were living all the way from Beersheba to the Valley of Hinnom.",
+        "es": "Algunos de los judíos vivían en las aldeas cercanas a sus campos:\nQuiriat Arba (Hebrón) y sus alrededores,\nDibón y sus alrededores,\nJecabseel y sus alrededores,\nJesúa,\nMolada,\nBet Pelet,\nHazar Sual,\nBeerseba y sus alrededores,\nSiclag,\nMecona y sus alrededores,\nEn Rimón,\nZora,\nJarmut,\nZanoa,\nAdulam y sus poblaciones,\nLaquis y sus campos,\nAzeca y sus alrededores.\nVivían desde Beerseba hasta el valle de Hinom."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-30"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "31-36",
+      "id": "nehemias11-msg-13",
+      "msg": {
+        "en": "The Benjaminites from Geba lived in:\nMicmash\nAijah\nBethel and its suburbs\nAnathoth\nNob and Ananiah\nHazor\nRamah and Gittaim\nHadid, Zeboim, and Neballat\nLod and Ono and the Valley of the Craftsmen.\nAlso some of the Levitical groups of Judah were assigned to Benjamin.",
+        "es": "Los benjaminitas de Geba vivían en:\nMicmas,\nAía,\nBetel y sus alrededores,\nAnatot,\nNob y Ananías,\nHazor,\nRamá y Gitaim,\nHadid, Seboim y Nebalat,\nLod y Ono y el valle de los Artesanos.\nTambién algunos grupos levíticos de Judá fueron asignados a Benjamín."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias11-nbla-36"
+        }
+      ],
+      "order": 13
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "nehemias11-nbla-01",
+      "number": 1,
+      "text": "Los jefes del pueblo habitaron en Jerusalén, pero el resto del pueblo echó suertes a fin de traer uno de cada diez para que habitara en Jerusalén, la ciudad santa, mientras los otros nueve se quedarían en las otras ciudades."
+    },
+    {
+      "id": "nehemias11-nbla-02",
+      "number": 2,
+      "text": "Y el pueblo bendijo a todos los hombres que se ofrecieron para habitar en Jerusalén."
+    },
+    {
+      "id": "nehemias11-nbla-03",
+      "number": 3,
+      "text": "Estos son los jefes de la provincia que habitaron en Jerusalén (en las ciudades de Judá cada cual habitó en su propiedad, en sus ciudades; los israelitas, los sacerdotes, los levitas, los sirvientes del templo, los descendientes de los siervos de Salomón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias11-nbla-04a",
+          "order": 1,
+          "text": "Algunos de los hijos de Judá y algunos de los hijos de Benjamín habitaron en Jerusalén):"
+        },
+        {
+          "id": "nehemias11-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "De los hijos de Judá: Ataías, hijo de Uzías, hijo de Zacarías, hijo de Amarías, hijo de Sefatías, hijo de Mahalaleel, de los hijos de Fares,"
+        }
+      ],
+      "id": "nehemias11-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "nehemias11-nbla-05",
+      "number": 5,
+      "text": "y Maasías, hijo de Baruc, hijo de Col Hoze, hijo de Hazaías, hijo de Adaías, hijo de Joiarib, hijo de Zacarías, hijo de Siloni."
+    },
+    {
+      "id": "nehemias11-nbla-06",
+      "number": 6,
+      "text": "Todos los hijos de Fares que habitaron en Jerusalén fueron 468 hombres fuertes."
+    },
+    {
+      "id": "nehemias11-nbla-07",
+      "number": 7,
+      "text": "Estos son los hijos de Benjamín: Salú, hijo de Mesulam, hijo de Joed, hijo de Pedaías, hijo de Colaías, hijo de Maasías, hijo de Itiel, hijo de Jesaías;"
+    },
+    {
+      "id": "nehemias11-nbla-08",
+      "number": 8,
+      "text": "y después de él, Gabai y Salai, 928."
+    },
+    {
+      "id": "nehemias11-nbla-09",
+      "number": 9,
+      "text": "Joel, hijo de Zicri, era su superintendente, y Judá, hijo de Senúa, era segundo en el mando de la ciudad."
+    },
+    {
+      "id": "nehemias11-nbla-10",
+      "number": 10,
+      "text": "De los sacerdotes: Jedaías, hijo de Joiarib, Jaquín,"
+    },
+    {
+      "id": "nehemias11-nbla-11",
+      "number": 11,
+      "text": "Seraías, hijo de Hilcías, hijo de Mesulam, hijo de Sadoc, hijo de Meraiot, hijo de Ahitob, jefe de la casa de Dios,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias11-nbla-12a",
+          "order": 1,
+          "text": "y sus parientes que hacían la obra del templo, 822;"
+        },
+        {
+          "id": "nehemias11-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y Adaías, hijo de Jeroham, hijo de Pelalías, hijo de Amsi, hijo de Zacarías, hijo de Pasur, hijo de Malquías,"
+        }
+      ],
+      "id": "nehemias11-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "nehemias11-nbla-13",
+      "number": 13,
+      "text": "y sus parientes, jefes de casas paternas, 242; y Amasai, hijo de Azareel, hijo de Azai, hijo de Mesilemot, hijo de Imer,"
+    },
+    {
+      "id": "nehemias11-nbla-14",
+      "number": 14,
+      "text": "y sus parientes, guerreros valientes, 128. Su superintendente era Zabdiel, hijo de Gedolim."
+    },
+    {
+      "id": "nehemias11-nbla-15",
+      "number": 15,
+      "text": "De los levitas: Semaías, hijo de Hasub, hijo de Azricam, hijo de Hasabías, hijo de Buni;"
+    },
+    {
+      "id": "nehemias11-nbla-16",
+      "number": 16,
+      "text": "Sabetai y Jozabad, de los jefes de los levitas, encargados de la obra fuera de la casa de Dios;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias11-nbla-17a",
+          "order": 1,
+          "text": "Matanías, hijo de Micaía, hijo de Zabdi, hijo de Asaf,"
+        },
+        {
+          "id": "nehemias11-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "que era jefe para comenzar la acción de gracias en la oración,"
+        },
+        {
+          "id": "nehemias11-nbla-17c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y Bacbuquías, el segundo entre sus hermanos; y Abda, hijo de Samúa, hijo de Galal, hijo de Jedutún."
+        }
+      ],
+      "id": "nehemias11-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "nehemias11-nbla-18",
+      "number": 18,
+      "text": "El total de los levitas en la ciudad santa era de 284."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias11-nbla-19a",
+          "order": 1,
+          "text": "Y los porteros, Acub, Talmón y sus parientes,"
+        },
+        {
+          "id": "nehemias11-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "que guardaban las puertas, eran 172."
+        }
+      ],
+      "id": "nehemias11-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "nehemias11-nbla-20",
+      "number": 20,
+      "text": "El resto de Israel, de los sacerdotes y de los levitas estaban en todas las ciudades de Judá, cada uno en su heredad."
+    },
+    {
+      "id": "nehemias11-nbla-21",
+      "number": 21,
+      "text": "Pero los sirvientes del templo habitaban en Ofel; y Ziha y Gispa estaban encargados de los sirvientes del templo."
+    },
+    {
+      "id": "nehemias11-nbla-22",
+      "number": 22,
+      "text": "El superintendente de los levitas en Jerusalén era Uzi, hijo de Bani, hijo de Hasabías, hijo de Matanías, hijo de Micaía, de los hijos de Asaf, cantores para el servicio de la casa de Dios."
+    },
+    {
+      "id": "nehemias11-nbla-23",
+      "number": 23,
+      "text": "Porque había un mandato del rey acerca de ellos y un reglamento fijo para los cantores de cada día."
+    },
+    {
+      "id": "nehemias11-nbla-24",
+      "number": 24,
+      "text": "Y Petaías, hijo de Mesezabeel, de los hijos de Zera, hijo de Judá, era representante del rey en todos los asuntos del pueblo."
+    },
+    {
+      "id": "nehemias11-nbla-25",
+      "number": 25,
+      "text": "En cuanto a las aldeas con sus campos, algunos de los hijos de Judá habitaron en Quiriat Arba y sus ciudades, en Dibón y sus ciudades, en Jecabseel y sus aldeas,"
+    },
+    {
+      "id": "nehemias11-nbla-26",
+      "number": 26,
+      "text": "en Jesúa, en Molada y Bet Pelet,"
+    },
+    {
+      "id": "nehemias11-nbla-27",
+      "number": 27,
+      "text": "en Hazar Sual, en Beerseba y sus ciudades,"
+    },
+    {
+      "id": "nehemias11-nbla-28",
+      "number": 28,
+      "text": "en Siclag, en Mecona y sus ciudades,"
+    },
+    {
+      "id": "nehemias11-nbla-29",
+      "number": 29,
+      "text": "en En Rimón, en Zora, en Jarmut,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias11-nbla-30a",
+          "order": 1,
+          "text": "Zanoa, Adulam y sus aldeas, Laquis y sus campos, Azeca y sus ciudades."
+        },
+        {
+          "id": "nehemias11-nbla-30b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y ellos acamparon desde Beerseba hasta el valle de Hinom."
+        }
+      ],
+      "id": "nehemias11-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "nehemias11-nbla-31",
+      "number": 31,
+      "text": "Los hijos de Benjamín habitaron también desde Geba, en Micmas y Aía, en Betel y sus ciudades,"
+    },
+    {
+      "id": "nehemias11-nbla-32",
+      "number": 32,
+      "text": "en Anatot, Nob, Ananías,"
+    },
+    {
+      "id": "nehemias11-nbla-33",
+      "number": 33,
+      "text": "Hazor, Ramá, Gitaim,"
+    },
+    {
+      "id": "nehemias11-nbla-34",
+      "number": 34,
+      "text": "Hadid, Seboim, Nebalat,"
+    },
+    {
+      "id": "nehemias11-nbla-35",
+      "number": 35,
+      "text": "Lod y Ono, el valle de los artífices."
+    },
+    {
+      "id": "nehemias11-nbla-36",
+      "number": 36,
+      "text": "Y de los levitas, algunos grupos de Judá habitaban en Benjamín."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

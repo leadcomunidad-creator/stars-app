@@ -1,0 +1,194 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La historia termina con el imperio todavía funcionando. NBLA confirma el tributo impuesto por Asuero y MSG comunica la extensión de su autoridad imperial. La verdad teológica no es que Persia se haya convertido en un reino ideal, sino que la preservación del pueblo ocurre dentro de una realidad política que continúa siendo humana e imperfecta. La fidelidad no necesita fingir que las tensiones han desaparecido.",
+      "id": "ester10-joya-01",
+      "msg": {
+        "en": "\"King Xerxes imposed taxes from one end of his empire to the other.\"",
+        "es": "\"El rey Jerjes estableció impuestos de un extremo al otro de su imperio.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester10-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El ascenso de Mardoqueo forma parte del cierre público de la historia. La NBLA afirma su grandeza y que el rey lo engrandeció; MSG resalta que su trayectoria quedó registrada. El contraste con los capítulos anteriores es profundo: el hombre destinado a la horca termina reconocido en las crónicas del reino. Sin embargo, su posición no será la última palabra sobre su carácter; el versículo siguiente mostrará para qué utiliza esa influencia.",
+      "id": "ester10-joya-02",
+      "msg": {
+        "en": "\"a detailed account of the brilliance of Mordecai, whom the king had promoted\"",
+        "es": "\"un relato detallado de la grandeza de Mardoqueo, a quien el rey había ascendido\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester10-nbla-02b"
+          ],
+          "verseId": "ester10-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El liderazgo de Mardoqueo recibe una definición profundamente práctica: buscar el bien de otros. La NBLA fija esa orientación y MSG intensifica la imagen de un trabajo sostenido en favor del pueblo. La grandeza bíblica no queda reducida a rango o reconocimiento; la autoridad adquiere peso moral cuando se transforma en servicio concreto para quienes están bajo su influencia.",
+      "id": "ester10-joya-03",
+      "msg": {
+        "en": "\"He worked hard for the good of his people\"",
+        "es": "\"Trabajó arduamente por el bien de su pueblo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester10-nbla-03b"
+          ],
+          "verseId": "ester10-nbla-03"
+        }
+      ],
+      "order": 3,
+      "range": "3"
+    },
+    {
+      "explanation": "El último retrato de Mardoqueo es el de un hombre orientado al bienestar colectivo. NBLA resume esa preocupación como procurar el bienestar de toda su gente; MSG la expresa mediante paz y prosperidad. El capítulo no convierte el éxito personal en meta final. Su imagen de liderazgo apunta a una influencia que protege, cuida y busca condiciones de vida mejores para una comunidad entera.",
+      "id": "ester10-joya-04",
+      "msg": {
+        "en": "\"he cared for the peace and prosperity of his race.\"",
+        "es": "\"cuidaba la paz y la prosperidad de los suyos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester10-nbla-03d"
+          ],
+          "verseId": "ester10-nbla-03"
+        }
+      ],
+      "order": 4,
+      "range": "3"
+    }
+  ],
+  "meta": {
+    "book": "Ester",
+    "bookId": "ester",
+    "chapter": 10,
+    "studyId": "ester-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "ester10-msg-01",
+      "msg": {
+        "en": "King Xerxes imposed taxes from one end of his empire to the other. For the rest of it, King Xerxes’ extensive accomplishments, along with a detailed account of the brilliance of Mordecai, whom the king had promoted, that’s all written in The Chronicles of the Kings of Media and Persia.",
+        "es": "El rey Jerjes estableció impuestos de un extremo al otro de su imperio. En cuanto a lo demás, los grandes logros del rey Jerjes, junto con un relato detallado de la grandeza de Mardoqueo, a quien el rey había ascendido, todo está escrito en Las Crónicas de los Reyes de Media y Persia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester10-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester10-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "ester10-msg-02",
+      "msg": {
+        "en": "Mordecai the Jew ranked second in command to King Xerxes. He was popular among the Jews and greatly respected by them. He worked hard for the good of his people; he cared for the peace and prosperity of his race.",
+        "es": "Mardoqueo el judío ocupaba el segundo lugar en autoridad después del rey Jerjes. Era muy querido entre los judíos y profundamente respetado por ellos. Trabajó arduamente por el bien de su pueblo; cuidaba la paz y la prosperidad de los suyos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester10-nbla-03"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "ester10-nbla-01",
+      "number": 1,
+      "text": "El rey Asuero impuso tributo sobre la tierra y sobre las costas del mar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester10-nbla-02a",
+          "order": 1,
+          "text": "Y todos los actos de su autoridad y poder, y"
+        },
+        {
+          "id": "ester10-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todo el relato de la grandeza de Mardoqueo, con que el rey le engrandeció"
+        },
+        {
+          "id": "ester10-nbla-02c",
+          "order": 3,
+          "text": ", ¿no están escritos en el libro de las Crónicas de los reyes de Media y Persia?"
+        }
+      ],
+      "id": "ester10-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester10-nbla-03a",
+          "order": 1,
+          "text": "Porque el judío Mardoqueo era el segundo después del rey Asuero, grande entre los judíos y estimado por la multitud de sus hermanos, el cual"
+        },
+        {
+          "id": "ester10-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "buscó el bien de su pueblo"
+        },
+        {
+          "id": "ester10-nbla-03c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "y"
+        },
+        {
+          "id": "ester10-nbla-03d",
+          "order": 4,
+          "separatorBefore": " ",
+          "text": "procuró el bienestar de toda su gente."
+        }
+      ],
+      "id": "ester10-nbla-03",
+      "number": 3
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

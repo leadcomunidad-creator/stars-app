@@ -1,0 +1,456 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La verdad teológica es que el pecado puede volver a ser percibido como algo grave cuando la conciencia ha sido formada por la palabra de Dios. NBLA fija la reacción de Esdras como un estado de asombro profundo; MSG hace visible el peso emocional de esa reacción. El límite es importante: el texto no convierte la intensidad física de Esdras en una fórmula obligatoria de arrepentimiento, sino que muestra cuánto le afecta la infidelidad del pueblo.",
+      "id": "esdras9-joya-01",
+      "msg": {
+        "en": "\"I slumped to the ground, appalled.\"",
+        "es": "\"me desplomé en el suelo, horrorizado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-03b"
+          ],
+          "verseId": "esdras9-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3"
+    },
+    {
+      "explanation": "La confesión de Esdras no minimiza la gravedad acumulada del pecado. NBLA establece la magnitud de la culpa; MSG conserva la misma imagen con una fuerza inmediata. La verdad no es que una persona arrepentida deba vivir permanentemente aplastada por culpa, sino que el arrepentimiento comienza cuando dejamos de reducir lo que Dios revela como serio.",
+      "id": "esdras9-joya-02",
+      "msg": {
+        "en": "\"our guilt touches the skies.\"",
+        "es": "\"nuestra culpa toca el cielo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-06c"
+          ],
+          "verseId": "esdras9-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La misericordia de Dios permanece visible incluso dentro de una oración dominada por la culpa. NBLA fija que Dios no abandonó a Su pueblo en la servidumbre; MSG concentra esa verdad en una declaración breve y pastoral. Esa misericordia no elimina la necesidad de arrepentimiento; precisamente hace posible que el pueblo vuelva a presentarse delante de Dios.",
+      "id": "esdras9-joya-03",
+      "msg": {
+        "en": "\"our God didn’t abandon us.\"",
+        "es": "\"nuestro Dios no nos abandonó.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-09b"
+          ],
+          "verseId": "esdras9-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "El pecado es presentado como rechazo real de la voluntad conocida de Dios. NBLA fija el sentido con “hemos abandonado”; MSG vuelve visible esa acción mediante la imagen de arrojar los mandamientos al viento. La expansión expresiva no debe convertirse en una doctrina adicional: ambas versiones sostienen la misma verdad, que la crisis nació de desobedecer aquello que Dios había comunicado.",
+      "id": "esdras9-joya-04",
+      "msg": {
+        "en": "\"we have thrown your commands to the wind\"",
+        "es": "\"Hemos arrojado tus mandamientos al viento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-10b"
+          ],
+          "verseId": "esdras9-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10-12"
+    },
+    {
+      "explanation": "La oración reconoce que el remanente existe por misericordia, no por mérito. NBLA establece que el juicio recibido fue menor que lo merecido; MSG hace pastoralmente evidente la desproporción entre culpa y misericordia. Esta verdad evita tanto la autosuficiencia como la desesperación: Israel no puede presumir de inocencia, pero tampoco puede negar que Dios ya había mostrado compasión.",
+      "id": "esdras9-joya-05",
+      "msg": {
+        "en": "\"punished us far less than we deserved\"",
+        "es": "\"nos castigaste muchísimo menos de lo que merecíamos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-13b"
+          ],
+          "verseId": "esdras9-nbla-13"
+        }
+      ],
+      "order": 5,
+      "range": "13-15"
+    },
+    {
+      "explanation": "La confesión culmina en una presencia sin escondites delante de Dios. NBLA fija la realidad: están delante de Él con su culpa; MSG intensifica la escena con la imagen de permanecer abiertamente expuestos. La verdad teológica no es que la culpa sea la identidad final del pueblo, sino que la restauración no puede comenzar mientras esa culpa siga siendo negada o encubierta.",
+      "id": "esdras9-joya-06",
+      "msg": {
+        "en": "\"Look at us, openly standing here, guilty before you.\"",
+        "es": "\"Míranos: aquí estamos, abiertamente, culpables delante de ti.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-15b"
+          ],
+          "verseId": "esdras9-nbla-15"
+        }
+      ],
+      "order": 6,
+      "range": "13-15"
+    }
+  ],
+  "meta": {
+    "book": "ESDRAS",
+    "bookId": "esdras",
+    "chapter": 9,
+    "studyId": "esdras-9"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "esdras9-msg-01",
+      "msg": {
+        "en": "After all this was done, the leaders came to me and said, “The People of Israel, priests and Levites included, have not kept themselves separate from the neighboring people around here with all their vulgar obscenities—Canaanites, Hittites, Perizzites, Jebusites, Ammonites, Moabites, Egyptians, Amorites. They have given some of their daughters in marriage to them and have taken some of their daughters for marriage to their sons. The holy seed is now all mixed in with these other peoples. And our leaders have led the way in this betrayal.”",
+        "es": "Después de que todo esto terminó, los líderes vinieron a verme y me dijeron: “El pueblo de Israel, incluidos los sacerdotes y los levitas, no se ha mantenido separado de los pueblos vecinos y de todas sus obscenidades degradantes: cananeos, hititas, ferezeos, jebuseos, amonitas, moabitas, egipcios y amorreos. Han dado algunas de sus hijas en matrimonio a ellos y han tomado algunas de las hijas de ellos para casarlas con sus hijos. La descendencia santa ha quedado mezclada con esos otros pueblos. Y nuestros líderes han encabezado esta traición”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "esdras9-msg-02",
+      "msg": {
+        "en": "When I heard all this, I ripped my clothes and my cape; I pulled hair from my head and out of my beard; I slumped to the ground, appalled.",
+        "es": "Cuando escuché todo esto, rasgué mi ropa y mi manto; me arranqué cabello de la cabeza y de la barba; me desplomé en el suelo, horrorizado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "esdras9-msg-03",
+      "msg": {
+        "en": "Many were in fear and trembling because of what God was saying about the betrayal by the exiles. They gathered around me as I sat there in despair, waiting for the evening sacrifice. At the evening sacrifice I picked myself up from my utter devastation, and in my ripped clothes and cape fell to my knees and stretched out my hands to GOD, my God. And I prayed:",
+        "es": "Muchos temblaban de temor por lo que Dios estaba diciendo acerca de la traición de los desterrados. Se reunieron a mi alrededor mientras yo permanecía allí desesperado, esperando el sacrificio de la tarde. A la hora del sacrificio de la tarde me levanté en medio de mi absoluta devastación y, con la ropa y el manto rasgados, caí de rodillas, extendí mis manos hacia DIOS, mi Dios, y oré:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-05"
+        },
+        {
+          "clauseIds": [
+            "esdras9-nbla-06a"
+          ],
+          "verseId": "esdras9-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "esdras9-msg-04",
+      "msg": {
+        "en": "“My dear God, I’m so totally ashamed, I can’t bear to face you. O my God—our iniquities are piled up so high that we can’t see out; our guilt touches the skies. We’ve been stuck in a muck of guilt since the time of our ancestors until right now; we and our kings and priests, because of our sins, have been turned over to foreign kings, to killing, to captivity, to looting, and to public shame—just as you see us now.",
+        "es": "“Mi querido Dios, estoy tan profundamente avergonzado que no puedo soportar levantar el rostro ante ti. Oh Dios mío: nuestras iniquidades se han amontonado tan alto que ya no podemos ver por encima de ellas; nuestra culpa toca el cielo. Desde el tiempo de nuestros antepasados hasta este mismo momento hemos estado atrapados en un lodazal de culpa; nosotros, nuestros reyes y nuestros sacerdotes, por nuestros pecados, hemos sido entregados a reyes extranjeros, a la matanza, al cautiverio, al saqueo y a la vergüenza pública, tal como nos ves ahora."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "esdras9-nbla-06b",
+            "esdras9-nbla-06c"
+          ],
+          "verseId": "esdras9-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "esdras9-msg-05",
+      "msg": {
+        "en": "“Now for a brief time GOD, our God, has allowed us, this battered band, to get a firm foothold in his holy place so that our God may brighten our eyes and lighten our burdens as we serve out this hard sentence. We were slaves; yet even as slaves, our God didn’t abandon us. He has put us in the good graces of the kings of Persia and given us the heart to build The Temple of our God, restore its ruins, and construct a defensive wall in Judah and Jerusalem.",
+        "es": "“Ahora, por un breve tiempo, DIOS, nuestro Dios, nos ha permitido a nosotros, este grupo golpeado, encontrar un punto de apoyo firme en su lugar santo, para que nuestro Dios ilumine nuestros ojos y alivie nuestras cargas mientras cumplimos esta dura condena. Éramos esclavos; pero aun siendo esclavos, nuestro Dios no nos abandonó. Nos ha concedido el favor de los reyes de Persia y nos ha dado ánimo para reconstruir el Templo de nuestro Dios, restaurar sus ruinas y levantar un muro protector en Judá y Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10-12",
+      "id": "esdras9-msg-06",
+      "msg": {
+        "en": "“And now, our God, after all this what can we say for ourselves? For we have thrown your commands to the wind, the commands you gave us through your servants the prophets. They told us, ’The land you’re taking over is a polluted land, polluted with the obscene vulgarities of the people who live there; they’ve filled it with their moral rot from one end to the other. Whatever you do, don’t give your daughters in marriage to their sons nor marry your sons to their daughters. Don’t cultivate their good opinion; don’t make over them and get them to like you so you can make a lot of money and build up a tidy estate to hand down to your children.’",
+        "es": "“Y ahora, Dios nuestro, después de todo esto, ¿qué podemos decir en nuestra defensa? Hemos arrojado tus mandamientos al viento, los mandamientos que nos diste por medio de tus siervos los profetas. Ellos nos dijeron: ‘La tierra que están entrando a poseer es una tierra contaminada, contaminada por las obscenidades degradantes de los pueblos que viven allí; la han llenado de su podredumbre moral de un extremo al otro. Hagan lo que hagan, no den sus hijas en matrimonio a los hijos de ellos ni casen a sus hijos con las hijas de ellos. No busquen ganarse su aprobación; no los adulen para conseguir que los favorezcan y así hacer mucho dinero y acumular una buena herencia para dejar a sus hijos’."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "esdras9-msg-07",
+      "msg": {
+        "en": "“And now this, on top of all we’ve already suffered because of our evil ways and accumulated guilt, even though you, dear God, punished us far less than we deserved and even went ahead and gave us this present escape. Yet here we are, at it again, breaking your commandments by intermarrying with the people who practice all these obscenities! Are you angry to the point of wiping us out completely, without even a few stragglers, with no way out at all? You are the righteous GOD of Israel. We are, right now, a small band of escapees. Look at us, openly standing here, guilty before you. No one can last long like this.”",
+        "es": "“Y ahora esto, encima de todo lo que ya hemos sufrido por nuestros malos caminos y nuestra culpa acumulada, aunque tú, querido Dios, nos castigaste muchísimo menos de lo que merecíamos e incluso nos concediste este escape que hoy tenemos. Y sin embargo aquí estamos otra vez, quebrantando tus mandamientos al emparentarnos con pueblos que practican todas estas obscenidades. ¿Estás enojado hasta el punto de borrarnos por completo, sin dejar siquiera unos pocos sobrevivientes, sin ninguna salida? Tú eres el DIOS justo de Israel. Nosotros somos ahora mismo un pequeño grupo de sobrevivientes. Míranos: aquí estamos, abiertamente, culpables delante de ti. Nadie puede permanecer así por mucho tiempo”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "esdras9-nbla-15"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "esdras9-nbla-01",
+      "number": 1,
+      "text": "Acabadas estas cosas, se me acercaron los príncipes y me dijeron: «El pueblo de Israel, los sacerdotes y los levitas no se han separado de los pueblos de las tierras y sus abominaciones: de los cananeos, hititas, ferezeos, jebuseos, amonitas, moabitas, egipcios y amorreos;"
+    },
+    {
+      "id": "esdras9-nbla-02",
+      "number": 2,
+      "text": "sino que han tomado mujeres de entre las hijas de ellos para sí y para sus hijos, y el linaje santo se ha mezclado con los pueblos de las tierras; es más, la mano de los príncipes y de los gobernantes ha sido la primera en cometer esta infidelidad»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-03a",
+          "order": 1,
+          "text": "Cuando oí de este asunto, rasgué mi vestido y mi manto, y arranqué pelo de mi cabeza y de mi barba, y"
+        },
+        {
+          "id": "esdras9-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "me senté atónito."
+        }
+      ],
+      "id": "esdras9-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "esdras9-nbla-04",
+      "number": 4,
+      "text": "Entonces se reunieron conmigo todos los que temblaban ante las palabras del Dios de Israel por causa de la infidelidad de los desterrados, y estuve sentado atónito hasta la ofrenda de la tarde."
+    },
+    {
+      "id": "esdras9-nbla-05",
+      "number": 5,
+      "text": "Pero a la hora de la ofrenda de la tarde, me levanté de mi humillación con mi vestido y mi manto rasgados, y caí de rodillas y extendí mis manos al SEÑOR mi Dios;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-06a",
+          "order": 1,
+          "text": "y dije:"
+        },
+        {
+          "id": "esdras9-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "«Dios mío, estoy avergonzado y confuso para poder levantar mi rostro a Ti, mi Dios, porque nuestras iniquidades se han multiplicado por encima de nuestras cabezas, y"
+        },
+        {
+          "id": "esdras9-nbla-06c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "nuestra culpa ha crecido hasta los cielos."
+        }
+      ],
+      "id": "esdras9-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "esdras9-nbla-07",
+      "number": 7,
+      "text": "Desde los días de nuestros padres hasta el día de hoy hemos estado bajo gran culpa, y a causa de nuestras iniquidades, nosotros, nuestros reyes y nuestros sacerdotes hemos sido entregados en mano de los reyes de estas tierras, a la espada, al cautiverio, al saqueo y a la vergüenza pública, como en este día."
+    },
+    {
+      "id": "esdras9-nbla-08",
+      "number": 8,
+      "text": "Pero ahora, por un breve momento, ha habido misericordia de parte del SEÑOR nuestro Dios, para dejarnos un remanente que ha escapado y darnos un refugio en Su lugar santo, para que nuestro Dios ilumine nuestros ojos y nos conceda un poco de vida en nuestra servidumbre."
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-09a",
+          "order": 1,
+          "text": "Porque siervos somos; pero en nuestra servidumbre,"
+        },
+        {
+          "id": "esdras9-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "nuestro Dios no nos ha abandonado"
+        },
+        {
+          "id": "esdras9-nbla-09c",
+          "order": 3,
+          "text": ", sino que ha extendido Su misericordia sobre nosotros ante los ojos de los reyes de Persia, dándonos ánimo para levantar la casa de nuestro Dios y para restaurar sus ruinas, y dándonos una muralla en Judá y en Jerusalén."
+        }
+      ],
+      "id": "esdras9-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-10a",
+          "order": 1,
+          "text": "»Y ahora, Dios nuestro, ¿qué diremos después de esto? Porque"
+        },
+        {
+          "id": "esdras9-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hemos abandonado Tus mandamientos,"
+        }
+      ],
+      "id": "esdras9-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "esdras9-nbla-11",
+      "number": 11,
+      "text": "que por medio de Tus siervos los profetas nos ordenaste: “La tierra a la cual ustedes entran para poseerla es una tierra inmunda con la impureza de los pueblos de estas tierras, con sus abominaciones que la han llenado de un extremo a otro, y con su impureza."
+    },
+    {
+      "id": "esdras9-nbla-12",
+      "number": 12,
+      "text": "Ahora pues, no den sus hijas a sus hijos ni tomen sus hijas para sus hijos, y nunca procuren la paz de ellos ni su prosperidad, para que ustedes sean fuertes y coman lo mejor de la tierra y la dejen por heredad a sus hijos para siempre”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-13a",
+          "order": 1,
+          "text": "»Y después de todo lo que nos ha sobrevenido a causa de nuestras malas obras y nuestra gran culpa, puesto que Tú, nuestro Dios,"
+        },
+        {
+          "id": "esdras9-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "nos has pagado menos de lo que nuestras iniquidades merecen"
+        },
+        {
+          "id": "esdras9-nbla-13c",
+          "order": 3,
+          "text": ", y nos has dado un remanente que ha escapado como este,"
+        }
+      ],
+      "id": "esdras9-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "esdras9-nbla-14",
+      "number": 14,
+      "text": "¿hemos de quebrantar de nuevo Tus mandamientos emparentándonos con los pueblos que cometen estas abominaciones? ¿No te enojarías con nosotros hasta destruirnos, sin que quedara remanente ni quien escapara?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "esdras9-nbla-15a",
+          "order": 1,
+          "text": "Oh SEÑOR, Dios de Israel, Tú eres justo, porque hemos quedado un remanente que ha escapado, como en este día."
+        },
+        {
+          "id": "esdras9-nbla-15b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Ahora, estamos delante de Ti con nuestra culpa"
+        },
+        {
+          "id": "esdras9-nbla-15c",
+          "order": 3,
+          "text": ", porque nadie puede estar delante de Ti a causa de esto»."
+        }
+      ],
+      "id": "esdras9-nbla-15",
+      "number": 15
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

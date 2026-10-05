@@ -1,0 +1,557 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La monarquía davídica se entiende dentro del gobierno de Dios, no como propiedad autónoma de una familia humana. La NBLA ancla el argumento en la entrega del reino a David y sus hijos, mientras MSG hace explícita la relación entre el Reino de Dios y el rey delegado. El límite es indispensable: ningún rey davídico individual puede identificarse sin más con la perfección del gobierno de Dios.",
+      "id": "2-cronicas13-joya-01",
+      "msg": {
+        "en": "\"GOD’S kingdom ruled by GOD’S king\"",
+        "es": "\"el Reino de DIOS gobernado por el rey de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-05b"
+          ],
+          "verseId": "2-cronicas13-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "4-7"
+    },
+    {
+      "explanation": "La rebelión de Jeroboam tiene una dimensión espiritual porque ha construido un orden religioso alternativo y ahora enfrenta la línea davídica. La NBLA formula el punto como resistencia al reinado del SEÑOR; MSG lo vuelve más directo. Esta afirmación pertenece al marco concreto del pacto davídico y no autoriza a cualquier líder contemporáneo a identificar su propia autoridad con el gobierno de Dios.",
+      "id": "2-cronicas13-joya-02",
+      "msg": {
+        "en": "\"you are asserting yourself against the very rule of GOD\"",
+        "es": "\"se están levantando contra el mismo gobierno de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-08b"
+          ],
+          "verseId": "2-cronicas13-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La fidelidad se expresa aquí como permanecer con el Dios recibido en vez de reemplazarlo por un sistema construido para conveniencia humana. La NBLA fija el sentido con la confesión «no lo hemos abandonado» y MSG le da una fuerza conversacional inmediata: «seguimos firmes». El texto conecta esa lealtad con una adoración que procura conservar la ordenanza recibida.",
+      "id": "2-cronicas13-joya-03",
+      "msg": {
+        "en": "\"we’re sticking with GOD\"",
+        "es": "\"seguimos firmes con DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-10b"
+          ],
+          "verseId": "2-cronicas13-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10-11"
+    },
+    {
+      "explanation": "La afirmación central no es que Judá pueda apropiarse de Dios como insignia nacional, sino que reconoce a Dios como quien va a la cabeza. La NBLA protege precisamente ese énfasis al colocarlo como líder del pueblo. Leída responsablemente, esta frase llama a someternos al gobierno de Dios, no a utilizar Su nombre para validar cualquier causa que ya hemos decidido defender.",
+      "id": "2-cronicas13-joya-04",
+      "msg": {
+        "en": "\"God is on our side; he’s our leader.\"",
+        "es": "\"Dios está de nuestro lado; él es nuestro líder.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-12b"
+          ],
+          "verseId": "2-cronicas13-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "12"
+    },
+    {
+      "explanation": "La teología del discurso se convierte en dependencia real cuando Judá queda rodeado. La NBLA registra el clamor al SEÑOR y MSG permite sentir su urgencia. La fe no consiste en actuar como si el peligro no existiera; consiste en saber hacia dónde dirigir el corazón cuando el peligro supera nuestra capacidad de controlarlo.",
+      "id": "2-cronicas13-joya-05",
+      "msg": {
+        "en": "\"They prayed desperately to GOD\"",
+        "es": "\"Clamaron desesperadamente a DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-14b"
+          ],
+          "verseId": "2-cronicas13-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "13-18"
+    },
+    {
+      "explanation": "El narrador ofrece una interpretación explícita de la victoria: Judá se apoyó en el SEÑOR. La NBLA usa precisamente el lenguaje de apoyarse, mientras MSG lo expresa como confianza. La conclusión no es que confiar garantice cualquier resultado militar que deseemos, sino que dentro de esta historia la dependencia de Dios, y no la superioridad numérica, explica el desenlace.",
+      "id": "2-cronicas13-joya-06",
+      "msg": {
+        "en": "\"because they trusted GOD, the God of their ancestors.\"",
+        "es": "\"porque confiaron en DIOS, el Dios de sus antepasados.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-18b"
+          ],
+          "verseId": "2-cronicas13-nbla-18"
+        }
+      ],
+      "order": 6,
+      "range": "13-18"
+    }
+  ],
+  "meta": {
+    "book": "2 CRÓNICAS",
+    "bookId": "2-cronicas",
+    "chapter": 13,
+    "studyId": "2-cronicas-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2-cronicas13-msg-01",
+      "msg": {
+        "en": "In the eighteenth year of the rule of King Jeroboam, Abijah took over the throne of Judah. He ruled in Jerusalem three years. His mother was Maacah daughter of Uriel of Gibeah.",
+        "es": "En el año dieciocho del reinado del rey Jeroboam, Abías ocupó el trono de Judá. Reinó tres años en Jerusalén. Su madre era Maaca, hija de Uriel de Guibeá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-02a"
+          ],
+          "verseId": "2-cronicas13-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "2-cronicas13-msg-02",
+      "msg": {
+        "en": "War broke out between Abijah and Jeroboam. Abijah started out with 400,000 of his best soldiers; Jeroboam countered with 800,000 of his best.",
+        "es": "Estalló la guerra entre Abías y Jeroboam. Abías salió con cuatrocientos mil de sus mejores soldados; Jeroboam respondió con ochocientos mil de los suyos."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas13-nbla-02b"
+          ],
+          "verseId": "2-cronicas13-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "2-cronicas13-msg-03",
+      "msg": {
+        "en": "Abijah took a prominent position on Mount Zemaraim in the hill country of Ephraim and gave this speech: “Listen, Jeroboam and all Israel! Don’t you realize that GOD, the one and only God of Israel, established David and his sons as the permanent rulers of Israel, ratified by a ‘covenant of salt’—GOD’S kingdom ruled by GOD’S king? And what happened? Jeroboam, the son of Solomon’s slave Nebat, rebelled against his master. All the riffraff joined his cause and were too much for Rehoboam, Solomon’s true heir. Rehoboam didn’t know his way around—besides he was a real wimp; he couldn’t stand up against them.",
+        "es": "Abías tomó una posición destacada en el monte Zemaraim, en la región montañosa de Efraín, y pronunció este discurso: «¡Escuchen, Jeroboam y todo Israel! ¿No se dan cuenta de que DIOS, el único Dios de Israel, estableció a David y a sus hijos como gobernantes permanentes de Israel y lo ratificó mediante un “pacto de sal”: el Reino de DIOS gobernado por el rey de DIOS? ¿Y qué ocurrió? Jeroboam, hijo de Nabat, esclavo de Salomón, se rebeló contra su señor. Toda la gentuza se unió a su causa y pudo más que Roboam, el verdadero heredero de Salomón. Roboam no sabía cómo manejar la situación; además, era un verdadero cobarde y no pudo hacerles frente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "2-cronicas13-msg-04",
+      "msg": {
+        "en": "“Taking advantage of that weakness, you are asserting yourself against the very rule of GOD that is delegated to David’s descendants—you think you are so big with your huge army backed up by the golden-calf idols that Jeroboam made for you as gods! But just look at what you’ve done—you threw out the priests of GOD, the sons of Aaron, and the Levites, and made priests to suit yourselves, priests just like the pagans have. Anyone who shows up with enough money to pay for it can be a priest! A priest of No-God!",
+        "es": "«Aprovechándose de aquella debilidad, ahora se están levantando contra el mismo gobierno de DIOS, delegado a los descendientes de David. Se creen muy poderosos con su enorme ejército respaldado por los ídolos de becerros de oro que Jeroboam les hizo como dioses. Pero miren lo que han hecho: expulsaron a los sacerdotes de DIOS, los hijos de Aarón, y a los levitas, y se hicieron sacerdotes a su medida, sacerdotes como los de los paganos. ¡Cualquiera que llegue con suficiente dinero para pagar puede convertirse en sacerdote! ¡Sacerdote de un No-Dios!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "2-cronicas13-msg-05",
+      "msg": {
+        "en": "“But for the rest of us in Judah, we’re sticking with GOD. We have not traded him in for the latest model—we’re keeping the tried-and-true priests of Aaron to lead us to GOD and the Levites to lead us in worship by sacrificing Whole-Burnt-Offerings and aromatic incense to GOD at the daily morning and evening prayers, setting out fresh holy bread on a clean table, and lighting the lamps on the golden Lampstand every night. We continue doing what GOD told us to in the way he told us to do it; but you have rid yourselves of him.",
+        "es": "«Pero nosotros, los de Judá, seguimos firmes con DIOS. No lo hemos cambiado por el modelo más reciente: conservamos a los probados sacerdotes de Aarón para guiarnos hacia DIOS y a los levitas para dirigirnos en la adoración, ofreciendo cada mañana y cada tarde ofrendas totalmente quemadas e incienso aromático a DIOS, colocando pan santo fresco sobre una mesa limpia y encendiendo cada noche las lámparas del candelabro de oro. Seguimos haciendo lo que DIOS nos mandó, de la manera en que nos dijo que lo hiciéramos; ustedes, en cambio, se han deshecho de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-11"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "12",
+      "id": "2-cronicas13-msg-06",
+      "msg": {
+        "en": "“Can’t you see the obvious? God is on our side; he’s our leader. And his priests with trumpets are all ready to blow the signal to battle. O Israel—don’t fight against GOD, the God of your ancestors. You will not win this battle.”",
+        "es": "«¿No ven lo evidente? Dios está de nuestro lado; él es nuestro líder. Y sus sacerdotes, con las trompetas, están listos para dar la señal de batalla. Israel, no peleen contra DIOS, el Dios de sus antepasados. No ganarán esta batalla»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "2-cronicas13-msg-07",
+      "msg": {
+        "en": "While Abijah was speaking, Jeroboam had sent men around to take them by surprise from the rear: Jeroboam in front of Judah and the ambush behind. When Judah looked back, they saw they were attacked front and back. They prayed desperately to GOD, the priests blew their trumpets, and the soldiers of Judah shouted their battle cry. At the battle cry, God routed Jeroboam and all Israel before Abijah and Judah. The army of Israel scattered before Judah; God gave them the victory. Abijah and his troops slaughtered them—500,000 of Israel’s best fighters were killed that day. The army of Israel fell flat on its face—a humiliating defeat. The army of Judah won hands down because they trusted GOD, the God of their ancestors.",
+        "es": "Mientras Abías hablaba, Jeroboam había enviado hombres para sorprenderlos por la retaguardia: Jeroboam estaba frente a Judá y la emboscada detrás. Cuando Judá miró hacia atrás, vio que lo atacaban por delante y por detrás. Clamaron desesperadamente a DIOS, los sacerdotes tocaron sus trompetas y los soldados de Judá lanzaron su grito de batalla. Al oír el grito de guerra, Dios derrotó a Jeroboam y a todo Israel delante de Abías y Judá. El ejército de Israel huyó delante de Judá; Dios les dio la victoria. Abías y sus tropas los masacraron: quinientos mil de los mejores combatientes de Israel murieron aquel día. El ejército de Israel quedó por el suelo en una derrota humillante. El ejército de Judá ganó con total contundencia porque confiaron en DIOS, el Dios de sus antepasados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-18"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "2-cronicas13-msg-08",
+      "msg": {
+        "en": "Abijah followed up his victory by pursuing Jeroboam, taking the towns of Bethel, Jeshanah, and Ephron with their surrounding villages. Jeroboam never did recover from his defeat while Abijah lived. Later on GOD struck him down and he died. Meanwhile Abijah flourished; he married fourteen wives and ended up with a family of twenty-two sons and sixteen daughters.",
+        "es": "Abías aprovechó su victoria persiguiendo a Jeroboam y tomando las ciudades de Betel, Jesana y Efrón con sus aldeas vecinas. Jeroboam nunca se recuperó de aquella derrota mientras vivió Abías. Más tarde DIOS lo derribó y Jeroboam murió. Mientras tanto, Abías prosperó; se casó con catorce mujeres y llegó a tener una familia de veintidós hijos y dieciséis hijas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22",
+      "id": "2-cronicas13-msg-09",
+      "msg": {
+        "en": "The rest of the history of Abijah, what he did and said, is written in the study written by Iddo the prophet.",
+        "es": "El resto de la historia de Abías, lo que hizo y dijo, está escrito en el estudio redactado por el profeta Iddo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas13-nbla-22"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2-cronicas13-nbla-01",
+      "number": 1,
+      "text": "En el año dieciocho del rey Jeroboam, Abías comenzó a reinar sobre Judá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-02a",
+          "order": 1,
+          "text": "Reinó tres años en Jerusalén. El nombre de su madre era Micaías, hija de Uriel, de Guibeá."
+        },
+        {
+          "id": "2-cronicas13-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y hubo guerra entre Abías y Jeroboam."
+        }
+      ],
+      "id": "2-cronicas13-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "2-cronicas13-nbla-03",
+      "number": 3,
+      "text": "Abías comenzó la batalla con un ejército de valientes guerreros, 400,000 hombres escogidos, mientras que Jeroboam se puso en orden de batalla contra él con 800,000 hombres escogidos, valientes y fuertes."
+    },
+    {
+      "id": "2-cronicas13-nbla-04",
+      "number": 4,
+      "text": "Entonces Abías se levantó en el monte Zemaraim que está en la región montañosa de Efraín, y dijo: «Escúchenme, Jeroboam y todo Israel:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-05a",
+          "order": 1,
+          "text": "¿No saben ustedes que"
+        },
+        {
+          "id": "2-cronicas13-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR, Dios de Israel, dio a David el reino sobre Israel para siempre"
+        },
+        {
+          "id": "2-cronicas13-nbla-05c",
+          "order": 3,
+          "text": ", a él y a sus hijos con pacto de sal?"
+        }
+      ],
+      "id": "2-cronicas13-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "2-cronicas13-nbla-06",
+      "number": 6,
+      "text": "Pero Jeroboam, hijo de Nabat, siervo de Salomón, hijo de David, se alzó y se rebeló contra su señor."
+    },
+    {
+      "id": "2-cronicas13-nbla-07",
+      "number": 7,
+      "text": "Con él se juntaron hombres indignos y malvados que prevalecieron sobre Roboam, hijo de Salomón, cuando Roboam era joven y tímido, y no pudo prevalecer contra ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-08a",
+          "order": 1,
+          "text": "Y ahora"
+        },
+        {
+          "id": "2-cronicas13-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ustedes intentan resistir al reinado del SEÑOR"
+        },
+        {
+          "id": "2-cronicas13-nbla-08c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "que está en manos de los hijos de David, porque son una gran multitud y tienen con ustedes los becerros de oro que Jeroboam les hizo por dioses."
+        }
+      ],
+      "id": "2-cronicas13-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "2-cronicas13-nbla-09",
+      "number": 9,
+      "text": "¿No han echado fuera ustedes a los hijos de Aarón, y a los sacerdotes del SEÑOR, y a los levitas, y se han hecho sacerdotes como los pueblos de otras tierras? Cualquiera que venga a consagrarse con un novillo y siete carneros, aun este puede llegar a ser sacerdote de los que no son dioses."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-10a",
+          "order": 1,
+          "text": "»Pero en cuanto a nosotros,"
+        },
+        {
+          "id": "2-cronicas13-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el SEÑOR es nuestro Dios, y no lo hemos abandonado"
+        },
+        {
+          "id": "2-cronicas13-nbla-10c",
+          "order": 3,
+          "text": "; y los hijos de Aarón sirven al SEÑOR como sacerdotes, y los levitas en sus funciones."
+        }
+      ],
+      "id": "2-cronicas13-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2-cronicas13-nbla-11",
+      "number": 11,
+      "text": "Y cada mañana y cada tarde ellos queman holocaustos e incienso aromático al SEÑOR; y el pan está colocado sobre la mesa limpia, y el candelabro de oro con sus lámparas para ser encendidas cada tarde. Porque nosotros guardamos la ordenanza del SEÑOR nuestro Dios, pero ustedes lo han abandonado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-12a",
+          "order": 1,
+          "text": "Así que"
+        },
+        {
+          "id": "2-cronicas13-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios está con nosotros a la cabeza"
+        },
+        {
+          "id": "2-cronicas13-nbla-12c",
+          "order": 3,
+          "text": ", y Sus sacerdotes con las trompetas de aviso para tocar la alarma contra ustedes. ¡Oh israelitas!, no luchen contra el SEÑOR, Dios de sus padres, porque nada lograrán»."
+        }
+      ],
+      "id": "2-cronicas13-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "2-cronicas13-nbla-13",
+      "number": 13,
+      "text": "Mientras tanto Jeroboam había puesto una emboscada para atacar por detrás, así que aunque Israel estaba frente a Judá, la emboscada estaba detrás de estos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-14a",
+          "order": 1,
+          "text": "Cuando Judá se volvió, vieron que eran atacados por delante y por detrás."
+        },
+        {
+          "id": "2-cronicas13-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Clamaron, pues, al SEÑOR"
+        },
+        {
+          "id": "2-cronicas13-nbla-14c",
+          "order": 3,
+          "text": ", y los sacerdotes tocaron las trompetas."
+        }
+      ],
+      "id": "2-cronicas13-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2-cronicas13-nbla-15",
+      "number": 15,
+      "text": "Entonces los hombres de Judá lanzaron el grito de guerra; y mientras los hombres de Judá lanzaban el grito de guerra, Dios hirió a Jeroboam y a todo Israel delante de Abías y de Judá."
+    },
+    {
+      "id": "2-cronicas13-nbla-16",
+      "number": 16,
+      "text": "Cuando los israelitas huyeron delante de Judá, Dios los entregó en sus manos."
+    },
+    {
+      "id": "2-cronicas13-nbla-17",
+      "number": 17,
+      "text": "Abías y su gente los derrotaron con una gran matanza, y cayeron muertos 500,000 hombres escogidos de Israel."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas13-nbla-18a",
+          "order": 1,
+          "text": "Así fueron humillados los israelitas en aquel tiempo, y los hijos de Judá prevalecieron"
+        },
+        {
+          "id": "2-cronicas13-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque se apoyaron en el SEÑOR, Dios de sus padres."
+        }
+      ],
+      "id": "2-cronicas13-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "2-cronicas13-nbla-19",
+      "number": 19,
+      "text": "Abías persiguió a Jeroboam, y le tomó varias ciudades: Betel con sus aldeas, Jesana con sus aldeas y Efraín con sus aldeas."
+    },
+    {
+      "id": "2-cronicas13-nbla-20",
+      "number": 20,
+      "text": "Jeroboam no volvió a recuperar poder en los días de Abías; y el SEÑOR lo hirió y murió."
+    },
+    {
+      "id": "2-cronicas13-nbla-21",
+      "number": 21,
+      "text": "Abías se hizo poderoso. Tomó para sí catorce mujeres, y tuvo veintidós hijos y dieciséis hijas."
+    },
+    {
+      "id": "2-cronicas13-nbla-22",
+      "number": 22,
+      "text": "Los demás hechos de Abías, y sus caminos y sus palabras están escritos en la historia del profeta Iddo."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

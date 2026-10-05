@@ -1,0 +1,986 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El carácter forma parte de la responsabilidad espiritual. NBLA fija dos rasgos claros —fidelidad y temor de Dios— como razón para confiar liderazgo a Hananías; MSG comunica la misma verdad destacando su integridad. El texto no enseña que estas dos cualidades sean las únicas capacidades necesarias para dirigir, pero sí impide separar competencia de carácter.",
+      "id": "nehemias7-joya-01",
+      "msg": {
+        "en": "\"because he was an honest man and feared God more than most men.\"",
+        "es": "\"porque era un hombre íntegro y temía a Dios más que la mayoría.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-02b"
+          ],
+          "verseId": "nehemias7-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La organización del pueblo aparece dentro de la dirección de Dios, no como una actividad meramente burocrática. NBLA precisa que el propósito era inscribirlos por genealogías; MSG conserva el movimiento interior de Nehemías hacia una acción concreta. La aplicación debe respetar el contexto: no toda idea administrativa procede automáticamente de Dios, pero aquí el narrador atribuye expresamente esta iniciativa a Él.",
+      "id": "nehemias7-joya-02",
+      "msg": {
+        "en": "\"God put it in my heart to gather the nobles, the officials, and the people in general to be registered.\"",
+        "es": "\"Dios puso en mi corazón reunir a los nobles, a los oficiales y al pueblo en general para registrarlos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-05a"
+          ],
+          "verseId": "nehemias7-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5"
+    },
+    {
+      "explanation": "El regreso del exilio es presentado como restauración concreta de personas y lugares. NBLA mantiene la dirección histórica del regreso a Jerusalén, Judá y las ciudades propias; MSG vuelve visible el movimiento de familias que recuperan un lugar dentro de su tierra. La verdad no está en idealizar territorio o genealogía, sino en reconocer la fidelidad de Dios al preservar una comunidad después del exilio.",
+      "id": "nehemias7-joya-03",
+      "msg": {
+        "en": "\"they came back to Jerusalem and Judah, each going to his own town.\"",
+        "es": "\"volvieron a Jerusalén y Judá, cada una a su propia ciudad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-06b"
+          ],
+          "verseId": "nehemias7-nbla-06"
+        }
+      ],
+      "order": 3,
+      "range": "6-60"
+    },
+    {
+      "explanation": "Las funciones santas dentro de Israel estaban vinculadas a responsabilidades y límites reales. NBLA confirma que la ausencia del registro afectó específicamente la condición sacerdotal; MSG hace palpable la búsqueda infructuosa. El pasaje no autoriza a medir el valor espiritual de las personas por ascendencia hoy; describe el orden particular del sacerdocio de Israel en ese momento histórico.",
+      "id": "nehemias7-joya-04",
+      "msg": {
+        "en": "\"They looked high and low for their family records but couldn’t find them.\"",
+        "es": "\"Buscaron por todas partes sus registros familiares, pero no pudieron encontrarlos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-64a"
+          ],
+          "verseId": "nehemias7-nbla-64"
+        }
+      ],
+      "order": 4,
+      "range": "64-65"
+    },
+    {
+      "explanation": "La restauración comunitaria incluye generosidad material. NBLA ancla la acción en una contribución concreta para la obra; MSG hace explícito su carácter voluntario en la narración. El texto no establece una fórmula financiera universal ni convierte el monto en medida de espiritualidad; muestra a personas que participan con sus recursos en una responsabilidad compartida.",
+      "id": "nehemias7-joya-05",
+      "msg": {
+        "en": "\"Some of the heads of families made voluntary offerings for the work.\"",
+        "es": "\"Algunos de los jefes de familia hicieron ofrendas voluntarias para la obra.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-70a"
+          ],
+          "verseId": "nehemias7-nbla-70"
+        }
+      ],
+      "order": 5,
+      "range": "70-72"
+    },
+    {
+      "explanation": "La reconstrucción alcanza un punto de estabilidad cuando el pueblo vuelve a habitar sus ciudades. NBLA afirma sobriamente que Israel se estableció; MSG expresa esa misma realidad como encontrar un lugar donde vivir. No es todavía el final de la renovación espiritual, porque el capítulo siguiente llevará a la comunidad reunida hacia la escucha de la Palabra.",
+      "id": "nehemias7-joya-06",
+      "msg": {
+        "en": "\"all found a place to live in their own towns.\"",
+        "es": "\"encontraron un lugar donde vivir en sus propias ciudades.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias7-nbla-73b"
+          ],
+          "verseId": "nehemias7-nbla-73"
+        }
+      ],
+      "order": 6,
+      "range": "73"
+    }
+  ],
+  "meta": {
+    "book": "NEHEMÍAS",
+    "bookId": "nehemias",
+    "chapter": 7,
+    "studyId": "nehemias-7"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "nehemias7-msg-01",
+      "msg": {
+        "en": "After the wall was rebuilt and I had installed the doors, and the security guards, the singers, and the Levites were appointed, I put my brother Hanani, along with Hananiah the captain of the citadel, in charge of Jerusalem because he was an honest man and feared God more than most men.",
+        "es": "Después de que la muralla quedó reconstruida y yo instalé las puertas, y fueron nombrados los guardias de seguridad, los cantores y los levitas, puse a mi hermano Hananí, junto con Hananías, comandante de la fortaleza, a cargo de Jerusalén, porque era un hombre íntegro y temía a Dios más que la mayoría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "nehemias7-msg-02",
+      "msg": {
+        "en": "I gave them this order: “Don’t open the gates of Jerusalem until the sun is up. And shut and bar the gates while the guards are still on duty. Appoint the guards from the citizens of Jerusalem and assign them to posts in front of their own homes.”",
+        "es": "Les di esta orden: «No abran las puertas de Jerusalén hasta que haya salido el sol. Y cierren y aseguren las puertas mientras los guardias todavía estén en sus puestos. Designen guardias entre los habitantes de Jerusalén y asígnenlos a puestos, algunos frente a sus propias casas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "nehemias7-msg-03",
+      "msg": {
+        "en": "The city was large and spacious with only a few people in it and the houses not yet rebuilt.",
+        "es": "La ciudad era grande y espaciosa, pero había poca gente dentro y las casas todavía no habían sido reconstruidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "nehemias7-msg-04",
+      "msg": {
+        "en": "God put it in my heart to gather the nobles, the officials, and the people in general to be registered. I found the genealogical record of those who were in the first return from exile. This is the record I found:",
+        "es": "Dios puso en mi corazón reunir a los nobles, a los oficiales y al pueblo en general para registrarlos. Encontré el registro genealógico de los que habían regresado primero del exilio. Este es el registro que encontré:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-60",
+      "id": "nehemias7-msg-05",
+      "msg": {
+        "en": "These are the people of the province who returned from the captivity of the Exile, the ones Nebuchadnezzar king of Babylon had carried off captive; they came back to Jerusalem and Judah, each going to his own town. They came back in the company of Zerubbabel, Jeshua, Nehemiah, Azariah, Raamiah, Nahamani, Mordecai, Bilshan, Mispereth, Bigvai, Nehum, and Baanah.\nThe numbers of the men of the People of Israel by families of origin:\nParosh, 2,172\nShephatiah, 372 Arah, 652\nPahath-Moab (sons of Jeshua and Joab), 2,818\nElam, 1,254\nZattu, 845\nZaccai, 760\nBinnui, 648\nBebai, 628\nAzgad, 2,322 Adonikam, 667\nBigvai, 2,067 Adin, 655\nAter (sons of Hezekiah), 98\nHashum, 328\nBezai, 324\nHariph, 112\nGibeon, 95.\nIsraelites identified by place of origin:\nBethlehem and Netophah, 188\nAnathoth, 128\nBeth Azmaveth, 42\nKiriath Jearim, Kephirah, and Beeroth, 743\nRamah and Geba, 621\nMicmash, 122\nBethel and Ai, 123\nNebo (the other one), 52\nElam (the other one), 1,254\nHarim, 320\nJericho, 345\nLod, Hadid, and Ono, 721\nSenaah, 3,930.\nPriestly families:\nJedaiah (sons of Jeshua), 973\nImmer, 1,052\nPashhur, 1,247\nHarim, 1,017.\nLevitical families:\nJeshua (sons of Kadmiel and of Hodaviah), 74.\nSingers:\nAsaph’s family line, 148.\nSecurity guard families:\nShallum, Ater, Talmon, Akkub, Hatita, and Shobai, 138.\nFamilies of support staff:\nZiha, Hasupha, Tabbaoth,\nKeros, Sia, Padon,\nLebana, Hagaba, Shalmai,\nHanan, Giddel, Gahar,\nReaiah, Rezin, Nekoda,\nGazzam, Uzza, Paseah,\nBesai, Meunim, Nephussim,\nBakbuk, Hakupha, Harhur,\nBazluth, Mehida, Harsha,\nBarkos, Sisera, Temah,\nNeziah, and Hatipha.\nFamilies of Solomon’s servants:\nSotai, Sophereth, Perida,\nJaala, Darkon, Giddel,\nShephatiah, Hattil, Pokereth-Hazzebaim, and Amon.\nThe Temple support staff and Solomon’s servants added up to 392.",
+        "es": "Estas son las personas de la provincia que regresaron del cautiverio del Exilio, aquellas que Nabucodonosor, rey de Babilonia, había llevado cautivas; volvieron a Jerusalén y Judá, cada una a su propia ciudad. Regresaron en compañía de Zorobabel, Jesúa, Nehemías, Azarías, Raamías, Nahamaní, Mardoqueo, Bilsán, Misperet, Bigvai, Nehum y Baana.\nEl número de los hombres del pueblo de Israel, según sus familias de origen:\nParos, 2.172\nSefatías, 372; Ara, 652\nPahat Moab (descendientes de Jesúa y Joab), 2.818\nElam, 1.254\nZatu, 845\nZacai, 760\nBinúi, 648\nBebai, 628\nAzgad, 2.322; Adonicam, 667\nBigvai, 2.067; Adín, 655\nAter (descendientes de Ezequías), 98\nHasum, 328\nBezai, 324\nHarif, 112\nGabaón, 95.\nIsraelitas identificados por su lugar de origen:\nBelén y Netofa, 188\nAnatot, 128\nBet Azmavet, 42\nQuiriat Jearim, Quefira y Beerot, 743\nRamá y Geba, 621\nMicmas, 122\nBetel y Hai, 123\nNebo (el otro), 52\nElam (el otro), 1.254\nHarim, 320\nJericó, 345\nLod, Hadid y Ono, 721\nSenaa, 3.930.\nFamilias sacerdotales:\nJedaías (descendientes de Jesúa), 973\nImer, 1.052\nPasur, 1.247\nHarim, 1.017.\nFamilias levíticas:\nJesúa (descendientes de Cadmiel y de Hodavías), 74.\nCantores:\nla línea familiar de Asaf, 148.\nFamilias de guardias de seguridad:\nSalum, Ater, Talmón, Acub, Hatita y Sobai, 138.\nFamilias del personal de apoyo:\nZiha, Hasufa, Tabaot,\nQueros, Sia, Padón,\nLebana, Hagaba, Salmai,\nHanán, Gidel, Gahar,\nReaía, Rezín, Necoda,\nGazam, Uza, Paseah,\nBesai, Mehunim, Nefisesim,\nBacbuc, Hacufa, Harhur,\nBazlut, Mehída, Harsa,\nBarcos, Sísara, Tema,\nNezía y Hatifa.\nFamilias de los siervos de Salomón:\nSotai, Soferet, Perida,\nJaala, Darcón, Gidel,\nSefatías, Hatil, Poqueret Hazebaim y Amón.\nEl personal de apoyo del Templo y los siervos de Salomón sumaban 392."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-49"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-51"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-53"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-54"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-55"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-56"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-57"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-58"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-59"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-60"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "61-63",
+      "id": "nehemias7-msg-06",
+      "msg": {
+        "en": "These are those who came from Tel Melah, Tel Harsha, Kerub, Addon, and Immer. They weren’t able to prove their ancestry, whether they were true Israelites or not:\nThe sons of Delaiah, Tobiah, and Nekoda, 642.\nLikewise with these priestly families:\nThe sons of Hobaiah, Hakkoz, and Barzillai, who had married a\ndaughter of Barzillai the Gileadite and took that name.",
+        "es": "Estos son los que llegaron de Tel Mela, Tel Harsa, Querub, Adón e Imer. No pudieron demostrar su ascendencia, es decir, si realmente eran israelitas o no:\nlos descendientes de Delaía, Tobías y Necoda, 642.\nLo mismo ocurrió con estas familias sacerdotales:\nlos descendientes de Habaía, Cos y Barzilai, quien se había casado con una hija de Barzilai el galaadita y había adoptado ese nombre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-61"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-62"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-63"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "64-65",
+      "id": "nehemias7-msg-07",
+      "msg": {
+        "en": "They looked high and low for their family records but couldn’t find them. And so they were barred from priestly work as ritually unclean. The governor ruled that they could not eat from the holy food until a priest could determine their status by using the Urim and Thummim.",
+        "es": "Buscaron por todas partes sus registros familiares, pero no pudieron encontrarlos. Por eso fueron excluidos del servicio sacerdotal por ser considerados ritualmente impuros. El gobernador determinó que no podían comer de los alimentos santos hasta que un sacerdote pudiera establecer su condición usando el Urim y el Tumim."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-64"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-65"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "66-69",
+      "id": "nehemias7-msg-08",
+      "msg": {
+        "en": "The total count for the congregation was 42,360. That did not include the male and female slaves who numbered 7,337. There were also 245 male and female singers. And there were 736 horses, 245 mules, 435 camels, and 6,720 donkeys.",
+        "es": "El total de la congregación era de 42.360 personas. Esa cifra no incluía a los esclavos y esclavas, que eran 7.337. También había 245 cantores y cantoras. Además tenían 736 caballos, 245 mulas, 435 camellos y 6.720 asnos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-66"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-67"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-68"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-69"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "70-72",
+      "id": "nehemias7-msg-09",
+      "msg": {
+        "en": "Some of the heads of families made voluntary offerings for the work. The governor made a gift to the treasury of 1,000 drachmas of gold (about nineteen pounds), 50 bowls, and 530 garments for the priests. Some of the heads of the families made gifts to the treasury for the work; it came to 20,000 drachmas of gold and 2,200 minas of silver (about one and a third tons). Gifts from the rest of the people totaled 20,000 drachmas of gold (about 375 pounds), 2,000 minas of silver, and 67 garments for the priests.",
+        "es": "Algunos de los jefes de familia hicieron ofrendas voluntarias para la obra. El gobernador entregó al tesoro 1.000 dracmas de oro —unas diecinueve libras—, 50 tazones y 530 vestiduras para los sacerdotes. Algunos jefes de familia hicieron aportes al tesoro para la obra; en total fueron 20.000 dracmas de oro y 2.200 minas de plata —aproximadamente una tonelada y un tercio—. Las ofrendas del resto del pueblo sumaron 20.000 dracmas de oro —unas 375 libras—, 2.000 minas de plata y 67 vestiduras para los sacerdotes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-70"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-71"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-72"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "73",
+      "id": "nehemias7-msg-10",
+      "msg": {
+        "en": "The priests, Levites, security guards, singers, and Temple support staff, along with some others, and the rest of the People of Israel, all found a place to live in their own towns.",
+        "es": "Los sacerdotes, los levitas, los guardias de seguridad, los cantores y el personal de apoyo del Templo, junto con algunos otros y el resto del pueblo de Israel, encontraron un lugar donde vivir en sus propias ciudades."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias7-nbla-73"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "nehemias7-nbla-01",
+      "number": 1,
+      "text": "Cuando la muralla quedó reconstruida y yo había asentado las puertas, y habían sido designados los porteros, los cantores y los levitas,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-02a",
+          "order": 1,
+          "text": "puse al frente de Jerusalén a mi hermano Hananí y a Hananías, jefe de la fortaleza,"
+        },
+        {
+          "id": "nehemias7-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque este era hombre fiel y temeroso de Dios más que muchos."
+        }
+      ],
+      "id": "nehemias7-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "nehemias7-nbla-03",
+      "number": 3,
+      "text": "Entonces les dije: «No se abrirán las puertas de Jerusalén hasta que caliente el sol; y estando todavía los porteros en sus puestos, se cerrarán y atrancarán las puertas. Designen también guardias de los habitantes de Jerusalén, unos en su puesto de guardia, y otros delante de su casa»."
+    },
+    {
+      "id": "nehemias7-nbla-04",
+      "number": 4,
+      "text": "La ciudad era espaciosa y grande, pero el pueblo dentro de ella era poco y no había casas reedificadas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-05a",
+          "order": 1,
+          "text": "Entonces mi Dios puso en mi corazón reunir a los nobles, a los oficiales y al pueblo para que fueran inscritos por genealogías."
+        },
+        {
+          "id": "nehemias7-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y encontré el libro de la genealogía de los que habían subido primero, y hallé escrito en él:"
+        }
+      ],
+      "id": "nehemias7-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-06a",
+          "order": 1,
+          "text": "Estos son los hijos de la provincia que subieron de la cautividad, aquellos que Nabucodonosor, rey de Babilonia, había llevado cautivos y"
+        },
+        {
+          "id": "nehemias7-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "que volvieron a Jerusalén y a Judá, cada uno a su ciudad,"
+        }
+      ],
+      "id": "nehemias7-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "nehemias7-nbla-07",
+      "number": 7,
+      "text": "los cuales vinieron con Zorobabel, Jesúa, Nehemías, Azarías, Raamías, Nahamaní, Mardoqueo, Bilsán, Misperet, Bigvai, Nehum y Baana.\nEl número de hombres del pueblo de Israel:"
+    },
+    {
+      "id": "nehemias7-nbla-08",
+      "number": 8,
+      "text": "los hijos de Paros, 2,172;"
+    },
+    {
+      "id": "nehemias7-nbla-09",
+      "number": 9,
+      "text": "los hijos de Sefatías, 372;"
+    },
+    {
+      "id": "nehemias7-nbla-10",
+      "number": 10,
+      "text": "los hijos de Ara, 652;"
+    },
+    {
+      "id": "nehemias7-nbla-11",
+      "number": 11,
+      "text": "los hijos de Pahat Moab, de los hijos de Jesúa y de Joab, 2,818;"
+    },
+    {
+      "id": "nehemias7-nbla-12",
+      "number": 12,
+      "text": "los hijos de Elam, 1,254;"
+    },
+    {
+      "id": "nehemias7-nbla-13",
+      "number": 13,
+      "text": "los hijos de Zatu, 845;"
+    },
+    {
+      "id": "nehemias7-nbla-14",
+      "number": 14,
+      "text": "los hijos de Zacai, 760;"
+    },
+    {
+      "id": "nehemias7-nbla-15",
+      "number": 15,
+      "text": "los hijos de Binúi, 648;"
+    },
+    {
+      "id": "nehemias7-nbla-16",
+      "number": 16,
+      "text": "los hijos de Bebai, 628;"
+    },
+    {
+      "id": "nehemias7-nbla-17",
+      "number": 17,
+      "text": "los hijos de Azgad, 2,322;"
+    },
+    {
+      "id": "nehemias7-nbla-18",
+      "number": 18,
+      "text": "los hijos de Adonicam, 667;"
+    },
+    {
+      "id": "nehemias7-nbla-19",
+      "number": 19,
+      "text": "los hijos de Bigvai, 2,077;"
+    },
+    {
+      "id": "nehemias7-nbla-20",
+      "number": 20,
+      "text": "los hijos de Adín, 655;"
+    },
+    {
+      "id": "nehemias7-nbla-21",
+      "number": 21,
+      "text": "los hijos de Ater, de Ezequías, 98;"
+    },
+    {
+      "id": "nehemias7-nbla-22",
+      "number": 22,
+      "text": "los hijos de Hasum, 328;"
+    },
+    {
+      "id": "nehemias7-nbla-23",
+      "number": 23,
+      "text": "los hijos de Bezai, 324;"
+    },
+    {
+      "id": "nehemias7-nbla-24",
+      "number": 24,
+      "text": "los hijos de Harif, 112;"
+    },
+    {
+      "id": "nehemias7-nbla-25",
+      "number": 25,
+      "text": "los hijos de Gabaón, 95;"
+    },
+    {
+      "id": "nehemias7-nbla-26",
+      "number": 26,
+      "text": "los hombres de Belén y Netofa, 188;"
+    },
+    {
+      "id": "nehemias7-nbla-27",
+      "number": 27,
+      "text": "los hombres de Anatot, 128;"
+    },
+    {
+      "id": "nehemias7-nbla-28",
+      "number": 28,
+      "text": "los hombres de Bet Azmavet, 42;"
+    },
+    {
+      "id": "nehemias7-nbla-29",
+      "number": 29,
+      "text": "los hombres de Quiriat Jearim, Cafira y Beerot, 743;"
+    },
+    {
+      "id": "nehemias7-nbla-30",
+      "number": 30,
+      "text": "los hombres de Ramá y Geba, 621;"
+    },
+    {
+      "id": "nehemias7-nbla-31",
+      "number": 31,
+      "text": "los hombres de Micmas, 122;"
+    },
+    {
+      "id": "nehemias7-nbla-32",
+      "number": 32,
+      "text": "los hombres de Betel y Hai, 123;"
+    },
+    {
+      "id": "nehemias7-nbla-33",
+      "number": 33,
+      "text": "los hombres del otro Nebo, 52;"
+    },
+    {
+      "id": "nehemias7-nbla-34",
+      "number": 34,
+      "text": "los hijos del otro Elam, 1,254;"
+    },
+    {
+      "id": "nehemias7-nbla-35",
+      "number": 35,
+      "text": "los hijos de Harim, 320;"
+    },
+    {
+      "id": "nehemias7-nbla-36",
+      "number": 36,
+      "text": "los hombres de Jericó, 345;"
+    },
+    {
+      "id": "nehemias7-nbla-37",
+      "number": 37,
+      "text": "los hijos de Lod, Hadid y Ono, 721;"
+    },
+    {
+      "id": "nehemias7-nbla-38",
+      "number": 38,
+      "text": "los hijos de Senaa, 3,930."
+    },
+    {
+      "id": "nehemias7-nbla-39",
+      "number": 39,
+      "text": "Los sacerdotes: los hijos de Jedaías de la casa de Jesúa, 973;"
+    },
+    {
+      "id": "nehemias7-nbla-40",
+      "number": 40,
+      "text": "los hijos de Imer, 1,052;"
+    },
+    {
+      "id": "nehemias7-nbla-41",
+      "number": 41,
+      "text": "los hijos de Pasur, 1,247;"
+    },
+    {
+      "id": "nehemias7-nbla-42",
+      "number": 42,
+      "text": "los hijos de Harim, 1,017."
+    },
+    {
+      "id": "nehemias7-nbla-43",
+      "number": 43,
+      "text": "Los levitas: los hijos de Jesúa y de Cadmiel, de los hijos de Hodavías, 74."
+    },
+    {
+      "id": "nehemias7-nbla-44",
+      "number": 44,
+      "text": "Los cantores: los hijos de Asaf, 148."
+    },
+    {
+      "id": "nehemias7-nbla-45",
+      "number": 45,
+      "text": "Los porteros: los hijos de Salum, los hijos de Ater, los hijos de Talmón, los hijos de Acub, los hijos de Hatita, los hijos de Sobai, 138."
+    },
+    {
+      "id": "nehemias7-nbla-46",
+      "number": 46,
+      "text": "Los sirvientes del templo: los hijos de Ziha, los hijos de Hasufa, los hijos de Tabaot,"
+    },
+    {
+      "id": "nehemias7-nbla-47",
+      "number": 47,
+      "text": "los hijos de Queros, los hijos de Siaha, los hijos de Padón,"
+    },
+    {
+      "id": "nehemias7-nbla-48",
+      "number": 48,
+      "text": "los hijos de Lebana, los hijos de Hagaba, los hijos de Salmai,"
+    },
+    {
+      "id": "nehemias7-nbla-49",
+      "number": 49,
+      "text": "los hijos de Hanán, los hijos de Gidel, los hijos de Gahar,"
+    },
+    {
+      "id": "nehemias7-nbla-50",
+      "number": 50,
+      "text": "los hijos de Reaía, los hijos de Rezín, los hijos de Necoda,"
+    },
+    {
+      "id": "nehemias7-nbla-51",
+      "number": 51,
+      "text": "los hijos de Gazam, los hijos de Uza, los hijos de Paseah,"
+    },
+    {
+      "id": "nehemias7-nbla-52",
+      "number": 52,
+      "text": "los hijos de Besai, los hijos de Mehunim, los hijos de Nefisesim,"
+    },
+    {
+      "id": "nehemias7-nbla-53",
+      "number": 53,
+      "text": "los hijos de Bacbuc, los hijos de Hacufa, los hijos de Harhur,"
+    },
+    {
+      "id": "nehemias7-nbla-54",
+      "number": 54,
+      "text": "los hijos de Bazlut, los hijos de Mehída, los hijos de Harsa,"
+    },
+    {
+      "id": "nehemias7-nbla-55",
+      "number": 55,
+      "text": "los hijos de Barcos, los hijos de Sísara, los hijos de Tema,"
+    },
+    {
+      "id": "nehemias7-nbla-56",
+      "number": 56,
+      "text": "los hijos de Nezía, los hijos de Hatifa."
+    },
+    {
+      "id": "nehemias7-nbla-57",
+      "number": 57,
+      "text": "Los hijos de los siervos de Salomón: los hijos de Sotai, los hijos de Soferet, los hijos de Perida,"
+    },
+    {
+      "id": "nehemias7-nbla-58",
+      "number": 58,
+      "text": "los hijos de Jaala, los hijos de Darcón, los hijos de Gidel,"
+    },
+    {
+      "id": "nehemias7-nbla-59",
+      "number": 59,
+      "text": "los hijos de Sefatías, los hijos de Hatil, los hijos de Poqueret Hazebaim, los hijos de Amón."
+    },
+    {
+      "id": "nehemias7-nbla-60",
+      "number": 60,
+      "text": "El total de los sirvientes del templo y de los hijos de los siervos de Salomón era de 392."
+    },
+    {
+      "id": "nehemias7-nbla-61",
+      "number": 61,
+      "text": "Estos fueron los que subieron de Tel Mela, Tel Harsa, Querub, Adón e Imer, aunque no pudieron demostrar si sus casas paternas o su descendencia eran de Israel:"
+    },
+    {
+      "id": "nehemias7-nbla-62",
+      "number": 62,
+      "text": "los hijos de Delaía, los hijos de Tobías, los hijos de Necoda, 642."
+    },
+    {
+      "id": "nehemias7-nbla-63",
+      "number": 63,
+      "text": "De los sacerdotes: los hijos de Habaía, los hijos de Cos, los hijos de Barzilai, que había tomado por mujer a una de las hijas de Barzilai el galaadita, con cuyo nombre fue llamado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-64a",
+          "order": 1,
+          "text": "Estos buscaron en su registro de genealogías pero no se hallaron"
+        },
+        {
+          "id": "nehemias7-nbla-64b",
+          "order": 2,
+          "text": ", y fueron considerados inmundos y excluidos del sacerdocio."
+        }
+      ],
+      "id": "nehemias7-nbla-64",
+      "number": 64
+    },
+    {
+      "id": "nehemias7-nbla-65",
+      "number": 65,
+      "text": "Y el gobernador les dijo que no comieran de las cosas santísimas hasta que un sacerdote se levantara con Urim y Tumim."
+    },
+    {
+      "id": "nehemias7-nbla-66",
+      "number": 66,
+      "text": "Toda la asamblea reunida era de 42,360,"
+    },
+    {
+      "id": "nehemias7-nbla-67",
+      "number": 67,
+      "text": "sin contar sus siervos y siervas, que eran 7,337; y tenían 245 cantores y cantoras."
+    },
+    {
+      "id": "nehemias7-nbla-68",
+      "number": 68,
+      "text": "Sus caballos eran 736; sus mulos, 245;"
+    },
+    {
+      "id": "nehemias7-nbla-69",
+      "number": 69,
+      "text": "sus camellos, 435; sus asnos, 6,720."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-70a",
+          "order": 1,
+          "text": "Algunos de los jefes de casas paternas contribuyeron para la obra."
+        },
+        {
+          "id": "nehemias7-nbla-70b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El gobernador dio para el tesoro 1,000 dracmas (8.5 kilos) de oro, 50 tazones y 530 túnicas sacerdotales."
+        }
+      ],
+      "id": "nehemias7-nbla-70",
+      "number": 70
+    },
+    {
+      "id": "nehemias7-nbla-71",
+      "number": 71,
+      "text": "Los jefes de casas paternas dieron para el tesoro de la obra 20,000 dracmas (170 kilos) de oro y 2,200 minas (1,254 kilos) de plata."
+    },
+    {
+      "id": "nehemias7-nbla-72",
+      "number": 72,
+      "text": "Lo que dio el resto del pueblo fue 170 kilos de oro, 1,140 kilos de plata y 67 túnicas sacerdotales."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias7-nbla-73a",
+          "order": 1,
+          "text": "Y los sacerdotes, los levitas, los porteros, los cantores, algunos del pueblo, los sirvientes del templo y el resto de Israel"
+        },
+        {
+          "id": "nehemias7-nbla-73b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "habitaron en sus ciudades."
+        },
+        {
+          "id": "nehemias7-nbla-73c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Cuando llegó el mes séptimo, los israelitas ya estaban en sus ciudades."
+        }
+      ],
+      "id": "nehemias7-nbla-73",
+      "number": 73
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

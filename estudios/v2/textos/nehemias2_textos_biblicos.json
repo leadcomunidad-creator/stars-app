@@ -1,0 +1,577 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Nehemías muestra una dependencia de Dios que puede expresarse incluso en medio de una conversación decisiva. NBLA fija la acción concreta: Nehemías oró antes de responder. MSG vuelve visible la brevedad e inmediatez de esa oración. El texto no enseña una técnica secreta para recibir respuestas instantáneas; muestra que una vida que ha orado largamente puede volver a Dios incluso en segundos de presión.",
+      "id": "nehemias2-joya-01",
+      "msg": {
+        "en": "\"Praying under my breath to the God-of-Heaven\"",
+        "es": "\"Mientras oraba en silencio al Dios del Cielo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-04b"
+          ],
+          "verseId": "nehemias2-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La provisión recibida es interpretada teológicamente como evidencia de la bondad de Dios. NBLA fija la imagen bíblica de la mano de Dios sobre Nehemías; MSG acentúa su generosidad. El punto no es que toda petición bien planificada deba terminar con recursos abundantes, sino que Nehemías reconoce a Dios como la fuente última de la oportunidad que se ha abierto.",
+      "id": "nehemias2-joya-02",
+      "msg": {
+        "en": "\"The generous hand of my God was with me in this\"",
+        "es": "\"La mano generosa de mi Dios estaba conmigo en todo esto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-08c"
+          ],
+          "verseId": "nehemias2-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La visión de Nehemías tiene una dimensión interior que él atribuye a Dios. NBLA y MSG coinciden en que había una convicción puesta en su corazón antes de que fuera comunicada públicamente. Sin embargo, el capítulo también muestra que esa convicción es inspeccionada, planificada y sometida a la realidad. Una impresión interior no queda autorizada automáticamente como mandato divino; aquí aparece acompañada por oración, providencia, permiso y discernimiento concreto.",
+      "id": "nehemias2-joya-03",
+      "msg": {
+        "en": "\"what my God had put in my heart to do for Jerusalem\"",
+        "es": "\"lo que mi Dios había puesto en mi corazón hacer por Jerusalén\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-12b"
+          ],
+          "verseId": "nehemias2-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "11-12"
+    },
+    {
+      "explanation": "La visión se convierte en invitación comunitaria. NBLA fija la convocatoria directa a reedificar; MSG conserva el mismo movimiento con lenguaje inmediato. Nehemías no dice «reconstruyan», sino «reconstruyamos». La obra de restauración requiere participación compartida y una identidad común frente al problema.",
+      "id": "nehemias2-joya-04",
+      "msg": {
+        "en": "\"Come—let’s build the wall of Jerusalem\"",
+        "es": "\"Vengan, reconstruyamos la muralla de Jerusalén\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-17b"
+          ],
+          "verseId": "nehemias2-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "17-18"
+    },
+    {
+      "explanation": "La fe se convierte en disposición concreta para trabajar. NBLA expresa literalmente el fortalecimiento de las manos para la obra; MSG lo vuelve visible con la imagen cotidiana de arremangarse. No debe construirse doctrina a partir de esa imagen particular, pero sí puede percibirse con claridad la verdad compartida por ambas versiones: la convicción del pueblo desemboca en acción responsable.",
+      "id": "nehemias2-joya-05",
+      "msg": {
+        "en": "\"They rolled up their sleeves, ready for the good work.\"",
+        "es": "\"Se arremangaron, listos para la buena obra.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-18b"
+          ],
+          "verseId": "nehemias2-nbla-18"
+        }
+      ],
+      "order": 5,
+      "range": "17-18"
+    },
+    {
+      "explanation": "Frente a la burla y la acusación, Nehemías reafirma que el resultado último de la obra depende de Dios. NBLA fija la declaración de confianza en el Dios del cielo; MSG la vuelve directa y desafiante. El límite es importante: este versículo no promete éxito automático a cualquier proyecto religioso. La afirmación pertenece a esta misión concreta dentro de la historia de restauración de Jerusalén.",
+      "id": "nehemias2-joya-06",
+      "msg": {
+        "en": "\"The God-of-Heaven will make sure we succeed.\"",
+        "es": "\"El Dios del Cielo se encargará de que salgamos adelante.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-20b"
+          ],
+          "verseId": "nehemias2-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "20"
+    }
+  ],
+  "meta": {
+    "book": "NEHEMÍAS",
+    "bookId": "nehemias",
+    "chapter": 2,
+    "studyId": "nehemias-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "nehemias2-msg-01",
+      "msg": {
+        "en": "It was the month of Nisan in the twentieth year of Artaxerxes the king. At the hour for serving wine I brought it in and gave it to the king. I had never been hangdog in his presence before, so he asked me, “Why the long face? You’re not sick are you? Or are you depressed?”",
+        "es": "Era el mes de Nisán, en el año veinte del rey Artajerjes. A la hora de servir el vino, lo llevé y se lo entregué al rey. Nunca antes me había mostrado abatido delante de él, así que me preguntó: «¿Por qué esa cara? No estás enfermo, ¿verdad? ¿O estás deprimido?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-01"
+        },
+        {
+          "clauseIds": [
+            "nehemias2-nbla-02a"
+          ],
+          "verseId": "nehemias2-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "nehemias2-msg-02",
+      "msg": {
+        "en": "That made me all the more agitated. I said, “Long live the king! And why shouldn’t I be depressed when the city, the city where all my family is buried, is in ruins and the city gates have been reduced to cinders?”",
+        "es": "Eso me puso todavía más nervioso. Le dije: «¡Viva el rey! ¿Y cómo no voy a estar abatido si la ciudad donde están enterrados mis antepasados está en ruinas y sus puertas han quedado reducidas a cenizas?»."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-02b"
+          ],
+          "verseId": "nehemias2-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "nehemias2-msg-03",
+      "msg": {
+        "en": "The king then asked me, “So what do you want?”\nPraying under my breath to the God-of-Heaven, I said, “If it please the king, and if the king thinks well of me, send me to Judah, to the city where my family is buried, so that I can rebuild it.”",
+        "es": "Entonces el rey me preguntó: «¿Y qué es lo que quieres?».\nMientras oraba en silencio al Dios del Cielo, respondí: «Si al rey le parece bien, y si el rey tiene buena opinión de mí, envíeme a Judá, a la ciudad donde está enterrada mi familia, para que pueda reconstruirla»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6",
+      "id": "nehemias2-msg-04",
+      "msg": {
+        "en": "The king, with the queen sitting alongside him, said, “How long will your work take and when would you expect to return?”\nI gave him a time, and the king gave his approval to send me.",
+        "es": "El rey, con la reina sentada a su lado, me preguntó: «¿Cuánto tiempo tomará tu trabajo y cuándo esperas regresar?».\nLe di un plazo, y el rey aprobó enviarme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "nehemias2-msg-05",
+      "msg": {
+        "en": "Then I said, “If it please the king, provide me with letters to the governors across the Euphrates that authorize my travel through to Judah; and also an order to Asaph, keeper of the king’s forest, to supply me with timber for the beams of The Temple fortress, the wall of the city, and the house where I’ll be living.”",
+        "es": "Entonces añadí: «Si al rey le parece bien, deme cartas para los gobernadores del otro lado del Éufrates que autoricen mi paso hasta Judá; y también una orden para Asaf, encargado del bosque del rey, para que me suministre madera para las vigas de la fortaleza del Templo, para la muralla de la ciudad y para la casa donde viviré»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-07"
+        },
+        {
+          "clauseIds": [
+            "nehemias2-nbla-08a"
+          ],
+          "verseId": "nehemias2-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "nehemias2-msg-06",
+      "msg": {
+        "en": "The generous hand of my God was with me in this and the king gave them to me. When I met the governors across The River (the Euphrates) I showed them the king’s letters. The king even sent along a cavalry escort.",
+        "es": "La mano generosa de mi Dios estaba conmigo en todo esto, y el rey me concedió lo que pedí. Cuando me encontré con los gobernadores del otro lado del Río —el Éufrates—, les mostré las cartas del rey. El rey incluso envió conmigo una escolta de caballería."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "nehemias2-nbla-08b",
+            "nehemias2-nbla-08c"
+          ],
+          "verseId": "nehemias2-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10",
+      "id": "nehemias2-msg-07",
+      "msg": {
+        "en": "When Sanballat the Horonite and Tobiah the Ammonite official heard about this, they were very upset, angry that anyone would come to look after the interests of the People of Israel.",
+        "es": "Cuando Sanbalat el horonita y Tobías, el oficial amonita, se enteraron, se disgustaron muchísimo; les enfurecía que alguien hubiera venido a ocuparse del bienestar del pueblo de Israel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "nehemias2-msg-08",
+      "msg": {
+        "en": "And so I arrived in Jerusalem. After I had been there three days, I got up in the middle of the night, I and a few men who were with me. I hadn’t told anyone what my God had put in my heart to do for Jerusalem. The only animal with us was the one I was riding.",
+        "es": "Así llegué a Jerusalén. Después de estar allí tres días, me levanté en plena noche acompañado por unos pocos hombres. No le había contado a nadie lo que mi Dios había puesto en mi corazón hacer por Jerusalén. El único animal que llevábamos era el que yo montaba."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "13-16",
+      "id": "nehemias2-msg-09",
+      "msg": {
+        "en": "Under cover of night I went past the Valley Gate toward the Dragon’s Fountain to the Dung Gate looking over the walls of Jerusalem, which had been broken through and whose gates had been burned up. I then crossed to the Fountain Gate and headed for the King’s Pool but there wasn’t enough room for the donkey I was riding to get through. So I went up the valley in the dark continuing my inspection of the wall. I came back in through the Valley Gate. The local officials had no idea where I’d gone or what I was doing—I hadn’t breathed a word to the Jews, priests, nobles, local officials, or anyone else who would be working on the job.",
+        "es": "Al amparo de la noche pasé por la puerta del Valle, en dirección a la fuente del Dragón y a la puerta del Muladar, examinando las murallas de Jerusalén, abiertas en varios puntos, y las puertas consumidas por el fuego. Después crucé hacia la puerta de la Fuente y me dirigí al Estanque del Rey, pero no había espacio suficiente para que pasara el burro que montaba. Así que subí por el valle en medio de la oscuridad, continuando mi inspección de la muralla. Luego regresé por la puerta del Valle. Los oficiales locales no tenían idea de dónde había estado ni de lo que estaba haciendo; todavía no había dicho una palabra a los judíos, sacerdotes, nobles, oficiales locales ni a nadie más que participaría en la obra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "nehemias2-msg-10",
+      "msg": {
+        "en": "Then I gave them my report: “Face it: we’re in a bad way here. Jerusalem is a wreck; its gates are burned up. Come—let’s build the wall of Jerusalem and not live with this disgrace any longer.” I told them how God was supporting me and how the king was backing me up.\nThey said, “We’re with you. Let’s get started.” They rolled up their sleeves, ready for the good work.",
+        "es": "Entonces les di mi informe: «Reconozcámoslo: estamos en una situación terrible. Jerusalén está destruida y sus puertas fueron consumidas por el fuego. Vengan, reconstruyamos la muralla de Jerusalén y dejemos de vivir bajo esta vergüenza». Les conté cómo Dios me había respaldado y cómo el rey también me había apoyado.\nEllos respondieron: «Estamos contigo. Comencemos». Se arremangaron, listos para la buena obra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-18"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "19",
+      "id": "nehemias2-msg-11",
+      "msg": {
+        "en": "When Sanballat the Horonite, Tobiah the Ammonite official, and Geshem the Arab heard about it, they laughed at us, mocking, “Ha! What do you think you’re doing? Do you think you can cross the king?”",
+        "es": "Cuando Sanbalat el horonita, Tobías el oficial amonita y Gesem el árabe se enteraron, se rieron de nosotros y se burlaron: «¡Ja! ¿Qué creen que están haciendo? ¿Piensan rebelarse contra el rey?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20",
+      "id": "nehemias2-msg-12",
+      "msg": {
+        "en": "I shot back, “The God-of-Heaven will make sure we succeed. We’re his servants and we’re going to work, rebuilding. You can keep your nose out of it. You get no say in this—Jerusalem’s none of your business!”",
+        "es": "Les respondí de inmediato: «El Dios del Cielo se encargará de que salgamos adelante. Somos sus siervos y vamos a ponernos a trabajar en la reconstrucción. No se metan en esto. No tienen voz en esto: Jerusalén no es asunto suyo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "nehemias2-nbla-20"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "nehemias2-nbla-01",
+      "number": 1,
+      "text": "Aconteció que en el mes de Nisán, en el año veinte del rey Artajerjes, estando ya el vino delante de él, tomé el vino y se lo di al rey. Yo nunca había estado triste en su presencia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-02a",
+          "order": 1,
+          "text": "Así que el rey me preguntó: «¿Por qué está triste tu rostro? Tú no estás enfermo; eso no es más que tristeza de corazón»."
+        },
+        {
+          "id": "nehemias2-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Entonces tuve mucho temor,"
+        }
+      ],
+      "id": "nehemias2-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "nehemias2-nbla-03",
+      "number": 3,
+      "text": "y le dije al rey: «Viva para siempre el rey. ¿Cómo no ha de estar triste mi rostro cuando la ciudad, lugar de los sepulcros de mis padres, está desolada y sus puertas han sido consumidas por el fuego?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-04a",
+          "order": 1,
+          "text": "Entonces el rey me dijo: «¿Qué es lo que pides?»."
+        },
+        {
+          "id": "nehemias2-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Así que oré al Dios del cielo,"
+        }
+      ],
+      "id": "nehemias2-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "nehemias2-nbla-05",
+      "number": 5,
+      "text": "y respondí al rey: «Si le place al rey, y si su siervo ha hallado gracia delante de usted, envíeme a Judá, a la ciudad de los sepulcros de mis padres, para que yo la reedifique»."
+    },
+    {
+      "id": "nehemias2-nbla-06",
+      "number": 6,
+      "text": "Entonces el rey me dijo, estando la reina sentada junto a él: «¿Cuánto durará tu viaje, y cuándo volverás?». Y le agradó al rey enviarme, y yo le di un plazo fijo."
+    },
+    {
+      "id": "nehemias2-nbla-07",
+      "number": 7,
+      "text": "Y le dije al rey: «Si le agrada al rey, que se me den cartas para los gobernadores de las provincias más allá del Río, para que me dejen pasar hasta que llegue a Judá,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-08a",
+          "order": 1,
+          "text": "y una carta para Asaf, guarda del bosque del rey, a fin de que me dé madera para hacer las vigas de las puertas de la fortaleza que está junto al templo, para la muralla de la ciudad y para la casa a la cual iré»."
+        },
+        {
+          "id": "nehemias2-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y el rey me lo concedió, porque"
+        },
+        {
+          "id": "nehemias2-nbla-08c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "la mano bondadosa de mi Dios estaba sobre mí."
+        }
+      ],
+      "id": "nehemias2-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "nehemias2-nbla-09",
+      "number": 9,
+      "text": "Fui entonces a los gobernadores de más allá del Río y les entregué las cartas del rey. El rey también había enviado conmigo oficiales del ejército y hombres de a caballo."
+    },
+    {
+      "id": "nehemias2-nbla-10",
+      "number": 10,
+      "text": "Cuando se enteraron Sanbalat el horonita y Tobías el oficial amonita, les disgustó mucho que alguien hubiera venido a procurar el bienestar de los israelitas."
+    },
+    {
+      "id": "nehemias2-nbla-11",
+      "number": 11,
+      "text": "Llegué a Jerusalén y después de estar allí tres días,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-12a",
+          "order": 1,
+          "text": "me levanté de noche, yo y unos pocos hombres conmigo, pero no informé a nadie"
+        },
+        {
+          "id": "nehemias2-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "lo que mi Dios había puesto en mi corazón que hiciera por Jerusalén"
+        },
+        {
+          "id": "nehemias2-nbla-12c",
+          "order": 3,
+          "text": ". No llevaba conmigo ningún animal excepto el animal sobre el cual yo iba montado."
+        }
+      ],
+      "id": "nehemias2-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "nehemias2-nbla-13",
+      "number": 13,
+      "text": "Salí de noche por la puerta del Valle hacia la fuente del Dragón y hacia la puerta del Muladar, inspeccionando las murallas de Jerusalén que estaban derribadas y sus puertas que estaban consumidas por el fuego."
+    },
+    {
+      "id": "nehemias2-nbla-14",
+      "number": 14,
+      "text": "Pasé luego hacia la puerta de la Fuente y hacia el Estanque del Rey, pero no había lugar para que pasara mi cabalgadura."
+    },
+    {
+      "id": "nehemias2-nbla-15",
+      "number": 15,
+      "text": "Así que subí de noche por el torrente e inspeccioné la muralla. Entonces entré de nuevo por la puerta del Valle y regresé."
+    },
+    {
+      "id": "nehemias2-nbla-16",
+      "number": 16,
+      "text": "Los oficiales no sabían adónde yo había ido ni qué había hecho. Tampoco se lo había hecho saber todavía a los judíos, ni a los sacerdotes, ni a los nobles, ni a los oficiales, ni a los demás que hacían la obra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-17a",
+          "order": 1,
+          "text": "Entonces les dije: «Ustedes ven la mala situación en que estamos, que Jerusalén está desolada y sus puertas quemadas a fuego."
+        },
+        {
+          "id": "nehemias2-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Vengan, reedifiquemos la muralla de Jerusalén"
+        },
+        {
+          "id": "nehemias2-nbla-17c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "para que no seamos más motivo de burla»."
+        }
+      ],
+      "id": "nehemias2-nbla-17",
+      "number": 17
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-18a",
+          "order": 1,
+          "text": "Les conté cómo la mano de mi Dios había sido bondadosa conmigo, y también las palabras que el rey me había dicho. Entonces dijeron: «Levantémonos y edifiquemos»."
+        },
+        {
+          "id": "nehemias2-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y esforzaron sus manos en la buena obra."
+        }
+      ],
+      "id": "nehemias2-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "nehemias2-nbla-19",
+      "number": 19,
+      "text": "Pero cuando se enteraron Sanbalat el horonita, Tobías el oficial amonita y Gesem el árabe, se burlaron de nosotros, nos despreciaron y dijeron: «¿Qué es esto que están haciendo? ¿Se están rebelando contra el rey?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "nehemias2-nbla-20a",
+          "order": 1,
+          "text": "Yo les respondí: «"
+        },
+        {
+          "id": "nehemias2-nbla-20b",
+          "order": 2,
+          "text": "El Dios del cielo nos dará éxito."
+        },
+        {
+          "id": "nehemias2-nbla-20c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Por tanto, nosotros Sus siervos nos levantaremos y edificaremos, pero ustedes no tienen parte ni derecho ni memorial en Jerusalén»."
+        }
+      ],
+      "id": "nehemias2-nbla-20",
+      "number": 20
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

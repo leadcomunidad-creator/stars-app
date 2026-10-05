@@ -1,0 +1,460 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El texto establece desde el comienzo que la corte está organizada alrededor de la exhibición de grandeza. La NBLA fija con precisión el énfasis en las riquezas, la gloria del reino y el esplendor de la majestad durante 180 días. MSG vuelve visible la dimensión casi escénica de esa acción al hablar de poner la riqueza “en exhibición”. La conclusión teológica no es que toda demostración de riqueza sea pecado, sino que el capítulo prepara un contraste entre la majestad que el rey muestra y la fragilidad interior que pronto quedará expuesta.",
+      "id": "ester1-joya-01",
+      "msg": {
+        "en": "\"For six months he put on exhibit the huge wealth of his empire and its stunningly beautiful royal splendors.\"",
+        "es": "\"Durante seis meses exhibió la enorme riqueza de su imperio y el impresionante esplendor de su realeza.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "4-7"
+    },
+    {
+      "explanation": "La verdad central aquí es que Vasti entra en la escena como parte de aquello que el rey quiere mostrar. La NBLA establece el propósito explícito: mostrar su belleza al pueblo y a los príncipes. MSG hace más perceptible la dinámica de exhibición con un verbo más directo. El límite interpretativo es importante: el texto no explica todos los motivos del rey ni permite afirmar más de lo que narra, pero sí muestra que su deseo es presentarla públicamente como parte de la demostración real.",
+      "id": "ester1-joya-02",
+      "msg": {
+        "en": "\"He wanted to show off her beauty to the guests and officials.\"",
+        "es": "\"Quería exhibir su belleza ante los invitados y funcionarios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester1-nbla-11b"
+          ],
+          "verseId": "ester1-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "10-11"
+    },
+    {
+      "explanation": "El punto teológico comienza con un límite inesperado al poder humano: Vasti se rehúsa a obedecer. La NBLA confirma el hecho sin añadir motivos, y ese silencio debe gobernar la interpretación. MSG refuerza la contundencia narrativa de la negativa, pero no autoriza a convertirla automáticamente en heroísmo, rebeldía pecaminosa o manifiesto ideológico. La fuerza del pasaje está en observar lo que la negativa provoca y cómo responde el poder cuando descubre que no puede controlar todas las voluntades.",
+      "id": "ester1-joya-03",
+      "msg": {
+        "en": "\"But Queen Vashti refused to come, refused the summons delivered by the eunuchs.\"",
+        "es": "\"Pero la reina Vasti se negó a venir; rechazó la orden que le llevaron los eunucos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester1-nbla-12a"
+          ],
+          "verseId": "ester1-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "12-15"
+    },
+    {
+      "explanation": "Memucán amplía deliberadamente la escala del conflicto. La NBLA deja claro que él presenta la conducta de Vasti como una ofensa contra todos los príncipes y pueblos, no solo contra el rey. MSG hace palpable la expansión retórica del problema. El límite teológico consiste en no confundir la interpretación de Memucán con la voz normativa de Dios: el relato registra su argumento; no lo declara verdadero. Precisamente por eso el lector debe discernir cómo el miedo político puede convertir una ofensa percibida en amenaza colectiva.",
+      "id": "ester1-joya-04",
+      "msg": {
+        "en": "\"It’s not only the king Queen Vashti has insulted, it’s all of us, leaders and people alike in every last one of King Xerxes’ provinces.\"",
+        "es": "\"La reina Vasti no ha insultado solamente al rey; nos ha insultado a todos nosotros, tanto a los líderes como al pueblo de cada una de las provincias del rey Jerjes.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester1-nbla-16b"
+          ],
+          "verseId": "ester1-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16-18"
+    },
+    {
+      "explanation": "La decisión final no surge de una revelación divina, sino del consejo de un cortesano que el rey acepta. La NBLA fija esa relación de causa: Memucán propone y el rey actúa. MSG la expresa con la misma claridad. El peso teológico está en recordar que la autoridad formal no garantiza sabiduría moral; un decreto puede ser perfectamente legal dentro de un sistema y seguir nacido de temor, orgullo o presión. El texto invita a evaluar no solo si una decisión puede hacerse, sino desde qué espíritu se está tomando.",
+      "id": "ester1-joya-05",
+      "msg": {
+        "en": "\"The king did what Memucan proposed.\"",
+        "es": "\"El rey hizo lo que Memucán había aconsejado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "ester1-nbla-21b"
+          ],
+          "verseId": "ester1-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "21-22"
+    }
+  ],
+  "meta": {
+    "book": "Ester",
+    "bookId": "ester",
+    "chapter": 1,
+    "studyId": "ester-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "ester1-msg-01",
+      "msg": {
+        "en": "This is the story of something that happened in the time of Xerxes, the Xerxes who ruled from India to Ethiopia—127 provinces in all. King Xerxes ruled from his royal throne in the palace complex of Susa. In the third year of his reign he gave a banquet for all his officials and ministers. The military brass of Persia and Media were also there, along with the princes and governors of the provinces.",
+        "es": "Esta es la historia de algo que sucedió en tiempos de Jerjes, el Jerjes que gobernaba desde la India hasta Etiopía: 127 provincias en total. El rey Jerjes gobernaba desde su trono real en el complejo palaciego de Susa. En el tercer año de su reinado ofreció un banquete para todos sus funcionarios y ministros. También estaban allí la cúpula militar de Persia y Media, junto con los príncipes y gobernadores de las provincias."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "ester1-msg-02",
+      "msg": {
+        "en": "For six months he put on exhibit the huge wealth of his empire and its stunningly beautiful royal splendors. At the conclusion of the exhibit, the king threw a weeklong party for everyone living in Susa, the capital—important and unimportant alike. The party was in the garden courtyard of the king’s summer house. The courtyard was elaborately decorated with white and blue cotton curtains tied with linen and purple cords to silver rings on marble columns. Silver and gold couches were arranged on a mosaic pavement of porphyry, marble, mother-of-pearl, and colored stones. Drinks were served in gold chalices, each chalice one-of-a-kind. The royal wine flowed freely—a generous king!",
+        "es": "Durante seis meses exhibió la enorme riqueza de su imperio y el impresionante esplendor de su realeza. Al terminar aquella exhibición, el rey organizó una fiesta de una semana para todos los habitantes de Susa, la capital: importantes y no importantes por igual. La fiesta se celebró en el patio del jardín de la casa de verano del rey. El lugar estaba decorado con esmero: cortinas blancas y azules sujetas con cordones de lino y púrpura a anillos de plata sobre columnas de mármol. Había divanes de plata y oro dispuestos sobre un piso de mosaico de pórfido, mármol, nácar y piedras de colores. Las bebidas se servían en copas de oro, cada una diferente. El vino real corría libremente: ¡un rey generoso!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "ester1-msg-03",
+      "msg": {
+        "en": "The guests could drink as much as they liked—king’s orders!—with waiters at their elbows to refill the drinks. Meanwhile, Queen Vashti was throwing a separate party for women inside King Xerxes’ royal palace.",
+        "es": "Los invitados podían beber todo lo que quisieran —¡órdenes del rey!—, con criados siempre a su lado para volver a llenar las copas. Mientras tanto, la reina Vasti ofrecía una fiesta aparte para las mujeres dentro del palacio real del rey Jerjes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-09"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "ester1-msg-04",
+      "msg": {
+        "en": "On the seventh day of the party, the king, high on the wine, ordered the seven eunuchs who were his personal servants (Mehuman, Biztha, Harbona, Bigtha, Abagtha, Zethar, and Carcas) to bring him Queen Vashti resplendent in her royal crown. He wanted to show off her beauty to the guests and officials. She was extremely good-looking.",
+        "es": "El séptimo día de la fiesta, con el vino subido, el rey ordenó a los siete eunucos que eran sus servidores personales —Mehumán, Bizta, Harbona, Bigta, Abagta, Zetar y Carcas— que le trajeran a la reina Vasti, espléndida con su corona real. Quería exhibir su belleza ante los invitados y funcionarios. Era extraordinariamente hermosa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-15",
+      "id": "ester1-msg-05",
+      "msg": {
+        "en": "But Queen Vashti refused to come, refused the summons delivered by the eunuchs. The king lost his temper. Seething with anger over her insolence, the king called in his counselors, all experts in legal matters. It was the king’s practice to consult his expert advisors. Those closest to him were Carshena, Shethar, Admatha, Tarshish, Meres, Marsena, and Memucan, the seven highest-ranking princes of Persia and Media, the inner circle with access to the king’s ear. He asked them what legal recourse they had against Queen Vashti for not obeying King Xerxes’ summons delivered by the eunuchs.",
+        "es": "Pero la reina Vasti se negó a venir; rechazó la orden que le llevaron los eunucos. El rey perdió los estribos. Hirviendo de ira por su insolencia, llamó a sus consejeros, todos expertos en asuntos legales. Era costumbre del rey consultar a sus asesores expertos. Los más cercanos a él eran Carsena, Setar, Admata, Tarsis, Meres, Marsena y Memucán, los siete príncipes de más alto rango de Persia y Media, el círculo íntimo con acceso directo al rey. Les preguntó qué recurso legal tenían contra la reina Vasti por no obedecer la orden del rey Jerjes comunicada por los eunucos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-15"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "ester1-msg-06",
+      "msg": {
+        "en": "Memucan spoke up in the council of the king and princes: “It’s not only the king Queen Vashti has insulted, it’s all of us, leaders and people alike in every last one of King Xerxes’ provinces. The word’s going to get out: ‘Did you hear the latest about Queen Vashti? King Xerxes ordered her to be brought before him and she wouldn’t do it!’ When the women hear it, they’ll start treating their husbands with contempt. The day the wives of the Persian and Mede officials get wind of the queen’s insolence, they’ll be out of control. Is that what we want, a country of angry women who don’t know their place?",
+        "es": "Memucán tomó la palabra ante el consejo del rey y los príncipes: «La reina Vasti no ha insultado solamente al rey; nos ha insultado a todos nosotros, tanto a los líderes como al pueblo de cada una de las provincias del rey Jerjes. La noticia va a correr: “¿Ya supiste lo último sobre la reina Vasti? El rey Jerjes ordenó que la llevaran ante él, ¡y ella se negó!”. Cuando las mujeres se enteren, comenzarán a tratar a sus maridos con desprecio. El día que las esposas de los funcionarios persas y medos se enteren de la insolencia de la reina, se saldrán de control. ¿Eso es lo que queremos: un país lleno de mujeres enojadas que no saben cuál es su lugar?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-18"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "ester1-msg-07",
+      "msg": {
+        "en": "“So, if the king agrees, let him pronounce a royal ruling and have it recorded in the laws of the Persians and Medes so that it cannot be revoked, that Vashti is permanently banned from King Xerxes’ presence. And then let the king give her royal position to a woman who knows her place. When the king’s ruling becomes public knowledge throughout the kingdom, extensive as it is, every woman, regardless of her social position, will show proper respect to her husband.”",
+        "es": "«Así que, si al rey le parece bien, que emita una resolución real y la haga registrar en las leyes de los persas y los medos para que no pueda revocarse: Vasti quedará expulsada permanentemente de la presencia del rey Jerjes. Y después, que el rey entregue su posición real a una mujer que sepa cuál es su lugar. Cuando la resolución del rey se conozca públicamente en todo el reino, tan extenso como es, toda mujer, sin importar su posición social, mostrará el debido respeto a su marido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-20"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "ester1-msg-08",
+      "msg": {
+        "en": "The king and the princes liked this. The king did what Memucan proposed. He sent bulletins to every part of the kingdom, to each province in its own script, to each people in their own language: “Every man is master of his own house; whatever he says, goes.”",
+        "es": "Al rey y a los príncipes les gustó la propuesta. El rey hizo lo que Memucán había aconsejado. Envió comunicados a cada rincón del reino, a cada provincia en su propia escritura y a cada pueblo en su propia lengua: «Cada hombre es amo de su propia casa; lo que él diga, se hace»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "ester1-nbla-22"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "ester1-nbla-01",
+      "number": 1,
+      "text": "Eran los días de Asuero, el rey Asuero que reinó desde la India hasta Etiopía sobre 127 provincias."
+    },
+    {
+      "id": "ester1-nbla-02",
+      "number": 2,
+      "text": "En aquellos días, estando el rey Asuero reinando desde su trono real, en la fortaleza de Susa,"
+    },
+    {
+      "id": "ester1-nbla-03",
+      "number": 3,
+      "text": "en el año tercero de su reinado, ofreció un banquete para todos sus príncipes y servidores, estando en su presencia los oficiales del ejército de Persia y Media, los nobles y los príncipes de sus provincias."
+    },
+    {
+      "id": "ester1-nbla-04",
+      "number": 4,
+      "text": "Y él les mostró las riquezas de la gloria de su reino y el magnífico esplendor de su majestad durante muchos días, 180 días."
+    },
+    {
+      "id": "ester1-nbla-05",
+      "number": 5,
+      "text": "Cuando se cumplieron estos días, el rey ofreció un banquete de siete días para todo el pueblo que se encontraba en la fortaleza de Susa, desde el mayor hasta el menor, en el atrio del jardín del palacio del rey."
+    },
+    {
+      "id": "ester1-nbla-06",
+      "number": 6,
+      "text": "Había colgaduras de lino blanco y violeta, sostenidas por cordones de lino fino y púrpura en anillos de plata y columnas de mármol, y lechos de oro y plata sobre un pavimento mosaico de pórfido, de mármol, de alabastro y de piedras preciosas."
+    },
+    {
+      "id": "ester1-nbla-07",
+      "number": 7,
+      "text": "Las bebidas se servían en vasijas de oro de diferentes formas, y el vino real abundaba conforme a la liberalidad del rey."
+    },
+    {
+      "id": "ester1-nbla-08",
+      "number": 8,
+      "text": "Se bebía conforme a la ley, no había obligación, porque así el rey había dado órdenes a todos los oficiales de su casa para que hicieran conforme a los deseos de cada persona."
+    },
+    {
+      "id": "ester1-nbla-09",
+      "number": 9,
+      "text": "La reina Vasti también hizo un banquete para las mujeres en el palacio del rey Asuero."
+    },
+    {
+      "id": "ester1-nbla-10",
+      "number": 10,
+      "text": "Al séptimo día, cuando el corazón del rey estaba alegre a causa del vino, él ordenó a Mehumán, a Bizta, a Harbona, a Bigta, a Abagta, a Zetar y a Carcas, los siete eunucos que servían en la presencia del rey Asuero,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester1-nbla-11a",
+          "order": 1,
+          "text": "que trajeran a la reina Vasti a la presencia del rey con su corona real,"
+        },
+        {
+          "id": "ester1-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para mostrar al pueblo y a los príncipes su belleza"
+        },
+        {
+          "id": "ester1-nbla-11c",
+          "order": 3,
+          "text": ", porque era muy hermosa."
+        }
+      ],
+      "id": "ester1-nbla-11",
+      "number": 11
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester1-nbla-12a",
+          "order": 1,
+          "text": "Pero la reina Vasti rehusó venir al mandato del rey comunicado por los eunucos."
+        },
+        {
+          "id": "ester1-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Entonces el rey se enojó mucho y se encendió su furor en él."
+        }
+      ],
+      "id": "ester1-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "ester1-nbla-13",
+      "number": 13,
+      "text": "Entonces el rey dijo a los sabios que conocían los tiempos (pues era costumbre del rey consultar así a todos los que conocían la ley y el derecho,"
+    },
+    {
+      "id": "ester1-nbla-14",
+      "number": 14,
+      "text": "y estaban junto a él Carsena, Setar, Admata, Tarsis, Meres, Marsena y Memucán, los siete príncipes de Persia y Media que tenían entrada a la presencia del rey y que ocupaban los primeros puestos en el reino):"
+    },
+    {
+      "id": "ester1-nbla-15",
+      "number": 15,
+      "text": "Conforme a la ley, ¿qué se debe hacer con la reina Vasti, por no haber obedecido el mandato del rey Asuero comunicado por los eunucos?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester1-nbla-16a",
+          "order": 1,
+          "text": "En presencia del rey y de los príncipes, Memucán dijo: «"
+        },
+        {
+          "id": "ester1-nbla-16b",
+          "order": 2,
+          "text": "La reina Vasti no solo ha ofendido al rey sino también a todos los príncipes y a todos los pueblos que están en todas las provincias del rey Asuero."
+        }
+      ],
+      "id": "ester1-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "ester1-nbla-17",
+      "number": 17,
+      "text": "Porque la conducta de la reina llegará a conocerse por todas las mujeres y hará que ellas miren con desdén a sus maridos, y digan: “El rey Asuero ordenó que la reina Vasti fuera llevada a su presencia, pero ella no fue”."
+    },
+    {
+      "id": "ester1-nbla-18",
+      "number": 18,
+      "text": "Y desde hoy las señoras de Persia y Media que han oído de la conducta de la reina hablarán de la misma manera a todos los príncipes del rey, y habrá mucho desdén y enojo."
+    },
+    {
+      "id": "ester1-nbla-19",
+      "number": 19,
+      "text": "Si le place al rey, proclame él un decreto real y que se escriba en las leyes de Persia y Media para que no sea revocado, que Vasti no entre más a la presencia del rey Asuero, y que el rey dé su título de reina a otra que sea más digna que ella."
+    },
+    {
+      "id": "ester1-nbla-20",
+      "number": 20,
+      "text": "Y cuando el decreto que haga el rey sea oído por todo su reino, inmenso como es, entonces todas las mujeres darán honra a sus maridos, desde el mayor hasta el menor»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "ester1-nbla-21a",
+          "order": 1,
+          "text": "Esta palabra pareció bien al rey y a los príncipes, y"
+        },
+        {
+          "id": "ester1-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el rey hizo conforme a lo que fue dicho por Memucán."
+        }
+      ],
+      "id": "ester1-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "ester1-nbla-22",
+      "number": 22,
+      "text": "Y envió cartas a todas las provincias del rey, a cada provincia conforme a su escritura y a cada pueblo conforme a su lengua, para que todo hombre fuera señor en su casa y que en ella se hablara la lengua de su pueblo."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

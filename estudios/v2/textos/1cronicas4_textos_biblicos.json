@@ -1,0 +1,799 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La historia de Jabes se vuelve significativa cuando su dolor lo conduce hacia Dios. NBLA fija con precisión que Jabes invocó al Dios de Israel, y MSG expresa esa misma acción como oración. El centro del pasaje no es una técnica para obtener territorio, sino una persona que dirige su necesidad al Dios de su pueblo y depende de Él.",
+      "id": "1-cronicas4-joya-01",
+      "msg": {
+        "en": "\"Jabez prayed to the God of Israel\"",
+        "es": "\"Jabes oró al Dios de Israel\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-10a"
+          ],
+          "verseId": "1-cronicas4-nbla-10"
+        }
+      ],
+      "order": 1,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Dios responde realmente a la oración de Jabes. Tanto NBLA como MSG afirman el hecho sin explicar un mecanismo ni convertirlo en promesa universal sobre toda petición. La verdad teológica es que Dios escucha y puede responder concretamente; el límite necesario es no transformar un relato particular en una fórmula automática de prosperidad.",
+      "id": "1-cronicas4-joya-02",
+      "msg": {
+        "en": "\"God gave him what he asked.\"",
+        "es": "\"Dios le concedió lo que pidió.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-10c"
+          ],
+          "verseId": "1-cronicas4-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La memoria de Judá incluye una comunidad identificada por su oficio. NBLA destaca que eran artífices, mientras MSG vuelve visible la idea de una comunidad de artesanos. El texto no espiritualiza su trabajo; precisamente por eso resulta significativo. La historia del pueblo también se construye mediante vocaciones ordinarias y capacidades concretas.",
+      "id": "1-cronicas4-joya-03",
+      "msg": {
+        "en": "\"the founder of Ge Harashim (Colony of Artisans).\"",
+        "es": "\"fundador de Gue Jarasim —Colonia de Artesanos—.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-14b"
+          ],
+          "verseId": "1-cronicas4-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "Estos descendientes de Judá son recordados por su lugar y por su trabajo. NBLA conserva ambos datos y MSG mantiene la imagen sencilla de los alfareros establecidos allí. La genealogía honra una realidad que fácilmente pasa inadvertida: la vida de una comunidad depende también de personas cuyo aporte ocurre fuera de los espacios de mayor visibilidad.",
+      "id": "1-cronicas4-joya-04",
+      "msg": {
+        "en": "\"They were the potters who lived at Netaim and Gederah\"",
+        "es": "\"Eran alfareros que vivían en Netaím y Gedera\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-23a"
+          ],
+          "verseId": "1-cronicas4-nbla-23"
+        }
+      ],
+      "order": 4,
+      "range": "21-23"
+    },
+    {
+      "explanation": "La memoria importa porque la identidad de Israel estaba vinculada a familias, tribus y lugares concretos. NBLA afirma la existencia de su genealogía y MSG vuelve explícito el cuidado con que esa memoria se conservaba. En el contexto de Crónicas, recordar de dónde viene el pueblo es parte del proceso de comprender quién es después de las rupturas de su historia.",
+      "id": "1-cronicas4-joya-05",
+      "msg": {
+        "en": "\"And they kept good family records.\"",
+        "es": "\"Y llevaban buenos registros familiares.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-33b"
+          ],
+          "verseId": "1-cronicas4-nbla-33"
+        }
+      ],
+      "order": 5,
+      "range": "27-33"
+    },
+    {
+      "explanation": "Las familias de Simeón enfrentan una necesidad práctica y encuentran un territorio adecuado para sus rebaños. NBLA describe literalmente la calidad y tranquilidad de la tierra; MSG hace visible la amplitud del lugar. El pasaje es descriptivo y no debe convertirse en una promesa de expansión territorial para el creyente. Sí muestra que la genealogía bíblica incluye necesidades materiales reales, decisiones comunitarias y búsqueda de sustento.",
+      "id": "1-cronicas4-joya-06",
+      "msg": {
+        "en": "\"And they found it—lush pasture, lots of elbow room, peaceful and quiet.\"",
+        "es": "\"Y los encontraron: pastos abundantes, mucho espacio, paz y tranquilidad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-40a"
+          ],
+          "verseId": "1-cronicas4-nbla-40"
+        }
+      ],
+      "order": 6,
+      "range": "34-40"
+    }
+  ],
+  "meta": {
+    "book": "1 CRÓNICAS",
+    "bookId": "1-cronicas",
+    "chapter": 4,
+    "studyId": "1-cronicas-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "1-cronicas4-msg-01",
+      "msg": {
+        "en": "Sons of Judah: Perez, Hezron, Carmi, Hur, and Shobal. Reaiah, Shobal’s son, had Jahath; and Jahath had Ahumai and Lahad. These made up the families of the Zorathites.",
+        "es": "Hijos de Judá: Pérez, Hezrón, Carmi, Hur y Sobal. Reaía, hijo de Sobal, tuvo a Jahat; y Jahat tuvo a Ahumai y Lahad. Ellos formaron las familias de los zoratitas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "1-cronicas4-msg-02",
+      "msg": {
+        "en": "Sons of Etam: Jezreel, Ishma, and Idbash. Their sister was named Hazzelelponi. Penuel had Gedor and Ezer had Hushah. These were the sons of Hur, firstborn son of Ephrathah, who was the father of Bethlehem.",
+        "es": "Hijos de Etam: Jezreel, Isma e Ibdas. Su hermana se llamaba Hazelelponi. Penuel tuvo a Gedor y Ezer tuvo a Husa. Estos fueron los hijos de Hur, primogénito de Efrata, padre de Belén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-8",
+      "id": "1-cronicas4-msg-03",
+      "msg": {
+        "en": "Ashhur the father of Tekoa had two wives, Helah and Naarah. Naarah gave birth to Ahuzzam, Hepher, Temeni, and Haahashtari—Naarah’s children. Helah’s sons were Zereth, Zohar, Ethnan, and Koz, who had Anub, Hazzobebah, and the families of Aharhel son of Harum.",
+        "es": "Asur, padre de Tecoa, tuvo dos esposas: Hela y Naara. Naara dio a luz a Ahuzam, Hefer, Temeni y Ahastari; estos fueron los hijos de Naara. Los hijos de Hela fueron Zeret, Zohar, Etnán y Cos, quien tuvo a Anub, Zobeba y las familias de Aharhel, hijo de Harum."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "1-cronicas4-msg-04",
+      "msg": {
+        "en": "Jabez was a better man than his brothers, a man of honor. His mother had named him Jabez (Oh, the pain!), saying, “A painful birth! I bore him in great pain!” Jabez prayed to the God of Israel: “Bless me, O bless me! Give me land, large tracts of land. And provide your personal protection—don’t let evil hurt me.” God gave him what he asked.",
+        "es": "Jabes fue un hombre mejor que sus hermanos, un hombre honorable. Su madre lo había llamado Jabes —¡qué dolor!—, diciendo: «¡Qué parto tan doloroso! Lo di a luz con mucho dolor». Jabes oró al Dios de Israel: «¡Bendíceme, sí, bendíceme! Dame tierra, grandes extensiones de tierra. Y protégeme personalmente; no permitas que el mal me haga daño». Dios le concedió lo que pidió."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "1-cronicas4-msg-05",
+      "msg": {
+        "en": "Kelub, Shuhah’s brother, had Mehir; Mehir had Eshton; Eshton had Beth Rapha, Paseah, and Tehinnah, who founded Ir Nahash (City of Smiths). These were known as the men of Recah.",
+        "es": "Quelub, hermano de Súa, tuvo a Mehir; Mehir tuvo a Estón; Estón tuvo a Bet Rafa, Paseah y Tehina, quien fundó Ir Nahas —Ciudad de los Herreros—. Estos fueron conocidos como los hombres de Reca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13",
+      "id": "1-cronicas4-msg-06",
+      "msg": {
+        "en": "The sons of Kenaz: Othniel and Seraiah.\nThe sons of Othniel: Hathath and Meonothai.",
+        "es": "Los hijos de Quenaz fueron Otoniel y Seraías. Los hijos de Otoniel fueron Hatat y Meonotai."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-13"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "14",
+      "id": "1-cronicas4-msg-07",
+      "msg": {
+        "en": "Meonothai had Ophrah; Seraiah had Joab, the founder of Ge Harashim (Colony of Artisans).",
+        "es": "Meonotai tuvo a Ofra; Seraías tuvo a Joab, fundador de Gue Jarasim —Colonia de Artesanos—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-14"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "15",
+      "id": "1-cronicas4-msg-08",
+      "msg": {
+        "en": "The sons of Caleb son of Jephunneh: Iru, Elah, and Naam.\nThe son of Elah: Kenaz.",
+        "es": "Los hijos de Caleb, hijo de Jefone, fueron Iru, Ela y Naam. El hijo de Ela fue Quenaz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16",
+      "id": "1-cronicas4-msg-09",
+      "msg": {
+        "en": "The sons of Jehallelel: Ziph, Ziphah, Tiria, and Asarel.",
+        "es": "Los hijos de Jehalelel fueron Zif, Zifa, Tiría y Asareel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "1-cronicas4-msg-10",
+      "msg": {
+        "en": "The sons of Ezrah: Jether, Mered, Epher, and Jalon. One of Mered’s wives, Pharaoh’s daughter Bithiah, gave birth to Miriam, Shammai, and Ishbah the father of Eshtemoa. His Judean wife gave birth to Jered father of Gedor, Heber father of Soco, and Jekuthiel father of Zanoah.",
+        "es": "Los hijos de Esdras fueron Jeter, Mered, Efer y Jalón. Una de las esposas de Mered, Bitia, hija de Faraón, dio a luz a Miriam, Samai e Isba, padre de Estemoa. Su esposa de Judá dio a luz a Jered, padre de Gedor; a Heber, padre de Soco; y a Jecutiel, padre de Zanoa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-18"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "19",
+      "id": "1-cronicas4-msg-11",
+      "msg": {
+        "en": "The sons of Hodiah’s wife, Naham’s sister: the father of Keilah the Garmite, and Eshtemoa the Maacathite.",
+        "es": "Los hijos de la esposa de Hodías, hermana de Naham, fueron el padre de Keila el garmita y Estemoa el maacateo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20",
+      "id": "1-cronicas4-msg-12",
+      "msg": {
+        "en": "The sons of Shimon: Amnon, Rinnah, Ben-Hanan, and Tilon.\nThe sons of Ishi: Zoheth and Ben-Zoheth.",
+        "es": "Los hijos de Simón fueron Amnón, Rina, Ben Hanán y Tilón. Los hijos de Isi fueron Zohet y Benzohet."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-20"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "1-cronicas4-msg-13",
+      "msg": {
+        "en": "The sons of Shelah son of Judah: Er the father of Lecah, Laadah the father of Mareshah and the family of linen workers at Beth Ashbea, Jokim, the men of Cozeba, and Joash and Saraph, who ruled in Moab and Jashubi Lehem. (These records are from very old traditions.) They were the potters who lived at Netaim and Gederah, resident potters who worked for the king.",
+        "es": "Los hijos de Sela, hijo de Judá, fueron Er, padre de Leca; Laada, padre de Maresa y de la familia de trabajadores del lino en Bet Asbea; Joacim; los hombres de Cozeba; y Joás y Saraf, que gobernaron en Moab y Jasubi Lehem. Estos registros proceden de tradiciones muy antiguas. Eran alfareros que vivían en Netaím y Gedera, alfareros residentes que trabajaban para el rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-23"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "1-cronicas4-msg-14",
+      "msg": {
+        "en": "The Simeon family tree: Nemuel, Jamin, Jarib, Zerah, and Shaul; Shaul had Shallum, Shallum had Mibsam, and Mibsam had Mishma.",
+        "es": "El árbol familiar de Simeón: Nemuel, Jamín, Jarib, Zera y Saúl. Saúl tuvo a Salum, Salum tuvo a Mibsam y Mibsam tuvo a Misma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26",
+      "id": "1-cronicas4-msg-15",
+      "msg": {
+        "en": "The sons of Mishma: Hammuel had Zaccur and Zaccur had Shimei.",
+        "es": "Los descendientes de Misma: Hamuel tuvo a Zacur, y Zacur tuvo a Simei."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-26"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "27-33",
+      "id": "1-cronicas4-msg-16",
+      "msg": {
+        "en": "Shimei had sixteen sons and six daughters, but his brothers were not nearly as prolific and never became a large family like Judah. They lived in Beersheba, Moladah, Hazar Shual, Bilhah, Ezem, Tolad, Bethuel, Hormah, Ziklag, Beth Marcaboth, Hazar Susim, Beth Biri, and Shaaraim. They lived in these towns until David became king. Other settlements in the vicinity were the five towns of Etam, Ain, Rimmon, Token, and Ashan, and all the villages around these towns as far as Baalath. These were their settlements. And they kept good family records.",
+        "es": "Simei tuvo dieciséis hijos y seis hijas, pero sus hermanos no tuvieron tantos hijos y nunca llegaron a formar una familia tan grande como Judá. Vivieron en Beerseba, Molada, Hazar Sual, Bilha, Ezem, Tolad, Betuel, Horma, Siclag, Bet Marcabot, Hazar Susim, Bet Birai y Saaraim. Vivieron en estas ciudades hasta que David llegó a ser rey. Otros asentamientos cercanos fueron las cinco ciudades de Etam, Aín, Rimón, Toquén y Asán, además de todas las aldeas alrededor de estas ciudades hasta Baalat. Estos fueron sus asentamientos. Y llevaban buenos registros familiares."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-33"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "34-40",
+      "id": "1-cronicas4-msg-17",
+      "msg": {
+        "en": "Meshobab; Jamlech; Joshah the son of Amaziah; Joel; Jehu the son of Joshibiah, the son of Seraiah, the son of Asiel; Elioenai; Jaakobah; Jeshohaiah; Asaiah; Adiel; Jesimiel; Benaiah; and Ziza the son of Shiphi, the son of Allon, the son of Jedaiah, the son of Shimri, the son of Shemaiah—all these were the leaders in their families. They prospered and increased in numbers so that they had to go as far as Gedor (Gerar) to the east of the valley looking for pasture for their flocks. And they found it—lush pasture, lots of elbow room, peaceful and quiet.",
+        "es": "Mesobab; Jamlec; Josías, hijo de Amasías; Joel; Jehú, hijo de Josibías, hijo de Seraías, hijo de Asiel; Elioenai; Jaacoba; Jesohaía; Asaías; Adiel; Jesimiel; Benaía; y Ziza, hijo de Sifi, hijo de Alón, hijo de Jedaías, hijo de Simri, hijo de Semaías: todos ellos fueron líderes de sus familias. Prosperaron y aumentaron en número, de modo que tuvieron que ir hasta Gedor —Gerar—, al oriente del valle, buscando pastos para sus rebaños. Y los encontraron: pastos abundantes, mucho espacio, paz y tranquilidad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-39"
+        },
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-40a"
+          ],
+          "verseId": "1-cronicas4-nbla-40"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "40-43",
+      "id": "1-cronicas4-msg-18",
+      "msg": {
+        "en": "Some Hamites had lived there in former times. But the men in these family trees came when Hezekiah was king of Judah and attacked the Hamites, tearing down their tents and houses. There was nothing left of them, as you can see today. Then they moved in and took over because of the great pastureland. Five hundred of these Simeonites went on and invaded the hill country of Seir, led by Pelatiah, Neariah, Rephaiah, and Uzziel, the sons of Ishi. They killed all the escaped Amalekites who were still around. And they still live there.",
+        "es": "Algunos descendientes de Cam habían vivido allí anteriormente. Pero los hombres de estas genealogías llegaron cuando Ezequías era rey de Judá y atacaron a los descendientes de Cam, destruyendo sus tiendas y viviendas. No quedó nada de ellos, como puede verse hasta hoy. Entonces ocuparon el lugar porque tenía excelentes pastos. Quinientos de estos simeonitas siguieron adelante e invadieron la región montañosa de Seir, dirigidos por Pelatías, Nearías, Refaías y Uziel, hijos de Isi. Mataron al resto de los amalecitas que habían logrado escapar. Y todavía viven allí."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas4-nbla-40b"
+          ],
+          "verseId": "1-cronicas4-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-42"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas4-nbla-43"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1-cronicas4-nbla-01",
+      "number": 1,
+      "text": "Los hijos de Judá fueron Pérez, Hazrón, Carmi, Hur y Sobal."
+    },
+    {
+      "id": "1-cronicas4-nbla-02",
+      "number": 2,
+      "text": "Reaía, hijo de Sobal, fue padre de Jahat, y Jahat fue el padre de Ahumai y de Lahad. Estas fueron las familias de los zoratitas."
+    },
+    {
+      "id": "1-cronicas4-nbla-03",
+      "number": 3,
+      "text": "Estos fueron los hijos de Etam: Jezreel, Isma e Ibdas; y el nombre de su hermana era Hazelelponi."
+    },
+    {
+      "id": "1-cronicas4-nbla-04",
+      "number": 4,
+      "text": "Penuel fue el padre de Gedor, y Ezer, padre de Husa. Estos fueron los hijos de Hur, primogénito de Efrata, padre de Belén."
+    },
+    {
+      "id": "1-cronicas4-nbla-05",
+      "number": 5,
+      "text": "Asur, padre de Tecoa, tuvo dos mujeres: Hela y Naara."
+    },
+    {
+      "id": "1-cronicas4-nbla-06",
+      "number": 6,
+      "text": "Naara dio a luz a Ahuzam, Hefer, Temeni y Ahastari. Estos fueron los hijos de Naara."
+    },
+    {
+      "id": "1-cronicas4-nbla-07",
+      "number": 7,
+      "text": "Los hijos de Hela fueron Zeret, Izhar y Etnán."
+    },
+    {
+      "id": "1-cronicas4-nbla-08",
+      "number": 8,
+      "text": "Cos fue el padre de Anub y Zobeba y de las familias de Aharhel, hijo de Harum."
+    },
+    {
+      "id": "1-cronicas4-nbla-09",
+      "number": 9,
+      "text": "Jabes fue más ilustre que sus hermanos, y su madre lo llamó Jabes, diciendo: «Porque lo di a luz con dolor»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas4-nbla-10a",
+          "order": 1,
+          "text": "Jabes invocó al Dios de Israel"
+        },
+        {
+          "id": "1-cronicas4-nbla-10b",
+          "order": 2,
+          "text": ", diciendo: «¡Oh, si en verdad me bendijeras, ensancharas mi territorio, y Tu mano estuviera conmigo y me guardaras del mal para que no me causara dolor!»."
+        },
+        {
+          "id": "1-cronicas4-nbla-10c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "Y Dios le concedió lo que pidió."
+        }
+      ],
+      "id": "1-cronicas4-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "1-cronicas4-nbla-11",
+      "number": 11,
+      "text": "Quelub, hermano de Súa, fue el padre de Mehir, que fue padre de Estón."
+    },
+    {
+      "id": "1-cronicas4-nbla-12",
+      "number": 12,
+      "text": "Estón fue el padre de Bet Rafa, de Paseah y de Tehina, padre de Ir Nahas. Estos son los hombres de Reca."
+    },
+    {
+      "id": "1-cronicas4-nbla-13",
+      "number": 13,
+      "text": "Los hijos de Quenaz fueron Otoniel y Seraías. Y los hijos de Otoniel fueron Hatat y Meonotai."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas4-nbla-14a",
+          "order": 1,
+          "text": "Meonotai el padre de Ofra, y Seraías fue el padre de Joab,"
+        },
+        {
+          "id": "1-cronicas4-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "padre de Gue Jarasim, porque eran artífices."
+        }
+      ],
+      "id": "1-cronicas4-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "1-cronicas4-nbla-15",
+      "number": 15,
+      "text": "Los hijos de Caleb, hijo de Jefone, fueron Iru, Ela y Naam; y el hijo de Ela fue Quenaz."
+    },
+    {
+      "id": "1-cronicas4-nbla-16",
+      "number": 16,
+      "text": "Los hijos de Jehalelel fueron Zif y Zifa, Tirías y Asareel."
+    },
+    {
+      "id": "1-cronicas4-nbla-17",
+      "number": 17,
+      "text": "Los hijos de Esdras fueron Jeter, Mered, Efer y Jalón. (Estos son los hijos de Bitia, hija de Faraón, que Mered tomó por mujer). Bitia concibió y dio a luz a Miriam, a Samai y a Isba, padre de Estemoa."
+    },
+    {
+      "id": "1-cronicas4-nbla-18",
+      "number": 18,
+      "text": "Y su mujer Jehudaía dio a luz a Jered, padre de Gedor, a Heber, padre de Soco, y a Jecutiel, padre de Zanoa."
+    },
+    {
+      "id": "1-cronicas4-nbla-19",
+      "number": 19,
+      "text": "Los hijos de la mujer de Hodías, hermana de Naham, fueron los padres de Keila el garmita y Estemoa el maacateo."
+    },
+    {
+      "id": "1-cronicas4-nbla-20",
+      "number": 20,
+      "text": "Los hijos de Simón fueron Amnón y Rina, Ben Hanán y Tilón. Y los hijos de Isi fueron Zohet y Benzohet."
+    },
+    {
+      "id": "1-cronicas4-nbla-21",
+      "number": 21,
+      "text": "Los hijos de Sela, hijo de Judá, fueron Er, padre de Leca, y Laada, padre de Maresa, y las familias de la casa de los que trabajaban el lino en Bet Asbea;"
+    },
+    {
+      "id": "1-cronicas4-nbla-22",
+      "number": 22,
+      "text": "y Joacim, los hombres de Cozeba, Joás y Saraf, que gobernaban en Moab, y Jasubi Lehem. Y los registros son antiguos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas4-nbla-23a",
+          "order": 1,
+          "text": "Estos eran alfareros y habitantes de Netaím y Gedera"
+        },
+        {
+          "id": "1-cronicas4-nbla-23b",
+          "order": 2,
+          "text": "; moraban allí con el rey para hacer su trabajo."
+        }
+      ],
+      "id": "1-cronicas4-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "1-cronicas4-nbla-24",
+      "number": 24,
+      "text": "Los hijos de Simeón fueron Nemuel, Jamín, Jarib, Zera, Saúl;"
+    },
+    {
+      "id": "1-cronicas4-nbla-25",
+      "number": 25,
+      "text": "Salum su hijo, Mibsam su hijo, Misma su hijo."
+    },
+    {
+      "id": "1-cronicas4-nbla-26",
+      "number": 26,
+      "text": "Los hijos de Misma fueron Hamuel su hijo, Zacur su hijo, Simei su hijo."
+    },
+    {
+      "id": "1-cronicas4-nbla-27",
+      "number": 27,
+      "text": "Simei tuvo dieciséis hijos y seis hijas, pero sus hermanos no tuvieron muchos hijos, ni se multiplicaron todas sus familias como los hijos de Judá."
+    },
+    {
+      "id": "1-cronicas4-nbla-28",
+      "number": 28,
+      "text": "Y habitaron en Beerseba, Molada y Hazar Sual,"
+    },
+    {
+      "id": "1-cronicas4-nbla-29",
+      "number": 29,
+      "text": "en Bilha, Ezem, Tolad,"
+    },
+    {
+      "id": "1-cronicas4-nbla-30",
+      "number": 30,
+      "text": "Betuel, Horma, Siclag,"
+    },
+    {
+      "id": "1-cronicas4-nbla-31",
+      "number": 31,
+      "text": "Bet Marcabot, Hazar Susim, Bet Birai y Saaraim. Estas fueron sus ciudades hasta el reinado de David."
+    },
+    {
+      "id": "1-cronicas4-nbla-32",
+      "number": 32,
+      "text": "Y sus aldeas fueron Etam, Aín, Rimón, Toquén y Asán, cinco ciudades;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas4-nbla-33a",
+          "order": 1,
+          "text": "y todas sus aldeas que estaban alrededor de las mismas ciudades hasta Baal. Estas fueron sus moradas,"
+        },
+        {
+          "id": "1-cronicas4-nbla-33b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y tienen su genealogía."
+        }
+      ],
+      "id": "1-cronicas4-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "1-cronicas4-nbla-34",
+      "number": 34,
+      "text": "Y Mesobab, Jamlec, Josías, hijo de Amasías,"
+    },
+    {
+      "id": "1-cronicas4-nbla-35",
+      "number": 35,
+      "text": "Joel, Jehú, hijo de Josibías, hijo de Seraías, hijo de Asiel,"
+    },
+    {
+      "id": "1-cronicas4-nbla-36",
+      "number": 36,
+      "text": "Elioenai, Jaacoba, Jesohaía, Asaías, Adiel, Jesimiel, Benaía,"
+    },
+    {
+      "id": "1-cronicas4-nbla-37",
+      "number": 37,
+      "text": "Ziza, hijo de Sifi, hijo de Alón, hijo de Jedaías, hijo de Simri, hijo de Semaías;"
+    },
+    {
+      "id": "1-cronicas4-nbla-38",
+      "number": 38,
+      "text": "estos, mencionados por nombre, fueron jefes de sus familias; y sus casas paternas aumentaron en gran manera."
+    },
+    {
+      "id": "1-cronicas4-nbla-39",
+      "number": 39,
+      "text": "Ellos fueron a la entrada de Gedor, hasta el lado oriental del valle, para buscar pastos para sus ganados."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas4-nbla-40a",
+          "order": 1,
+          "text": "Allí encontraron pastos abundantes y buenos, y la tierra era espaciosa, tranquila y reposada,"
+        },
+        {
+          "id": "1-cronicas4-nbla-40b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque los que habitaban antes allí eran los de Cam."
+        }
+      ],
+      "id": "1-cronicas4-nbla-40",
+      "number": 40
+    },
+    {
+      "id": "1-cronicas4-nbla-41",
+      "number": 41,
+      "text": "Estos, registrados por nombre, llegaron en los días de Ezequías, rey de Judá, y atacaron sus tiendas y a los meunitas que se encontraban allí, y los destruyeron completamente hasta el día de hoy, y habitaron en su lugar, porque allí había pastos para sus ganados."
+    },
+    {
+      "id": "1-cronicas4-nbla-42",
+      "number": 42,
+      "text": "Y de ellos, de los hijos de Simeón, 500 hombres fueron al monte Seir, con Pelatías, Nearías, Refaías y Uziel, hijos de Isi, como sus jefes."
+    },
+    {
+      "id": "1-cronicas4-nbla-43",
+      "number": 43,
+      "text": "Y destruyeron al remanente de los de Amalec, que habían escapado, y allí han habitado hasta el día de hoy."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

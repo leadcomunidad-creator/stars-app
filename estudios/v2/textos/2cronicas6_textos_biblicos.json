@@ -1,0 +1,854 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La fidelidad de Dios es el fundamento de todo el capítulo. La NBLA fija la afirmación con precisión: el SEÑOR cumplió la palabra que había dicho. MSG la vuelve directa y cotidiana: Dios hizo lo que dijo que haría. La fe de Salomón no nace de optimismo religioso, sino de mirar una promesa que ya se ha vuelto historia delante de sus ojos.",
+      "id": "2-cronicas6-joya-01",
+      "msg": {
+        "en": "\"GOD has done what he said he would do\"",
+        "es": "\"DIOS hizo lo que dijo que haría\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-10a"
+          ],
+          "verseId": "2-cronicas6-nbla-10"
+        }
+      ],
+      "order": 1,
+      "range": "10-11"
+    },
+    {
+      "explanation": "Dios es incomparable. La NBLA ancla la confesión de Salomón en la singularidad del SEÑOR; MSG conserva esa misma afirmación con una expresión espacial más conversacional. El punto no es simplemente que Dios sea superior dentro de una escala de divinidades, sino que Su fidelidad al pacto y Su amor lo revelan como absolutamente único.",
+      "id": "2-cronicas6-joya-02",
+      "msg": {
+        "en": "\"there is no God like you in the skies above or on the earth below\"",
+        "es": "\"no hay Dios como tú ni en los cielos arriba ni en la tierra abajo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-14b"
+          ],
+          "verseId": "2-cronicas6-nbla-14"
+        }
+      ],
+      "order": 2,
+      "range": "12-16"
+    },
+    {
+      "explanation": "Ninguna estructura puede contener a Dios. La NBLA fija la verdad teológica con claridad: ni los cielos de los cielos pueden contenerlo. MSG vuelve esa inmensidad perceptible con una imagen deliberadamente atrevida. La imagen no enseña que Dios necesite literalmente «espacio para respirar»; comunica pastoralmente Su trascendencia y debe interpretarse dentro del límite que establece la NBLA.",
+      "id": "2-cronicas6-joya-03",
+      "msg": {
+        "en": "\"the cosmos itself isn’t large enough to give you breathing room\"",
+        "es": "\"el cosmos entero ni siquiera es suficientemente grande para darte espacio\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-18b"
+          ],
+          "verseId": "2-cronicas6-nbla-18"
+        }
+      ],
+      "order": 3,
+      "range": "18-21"
+    },
+    {
+      "explanation": "La oración de Israel descansa en un Dios que oye y perdona. La NBLA establece el movimiento completo: Dios escucha desde Su morada y responde con perdón. MSG lo concentra en una frase sencilla que se vuelve casi el estribillo teológico de toda la oración. El templo orienta la plegaria, pero el perdón viene de Dios, no del edificio.",
+      "id": "2-cronicas6-joya-04",
+      "msg": {
+        "en": "\"Listen from your home in heaven and when you hear, forgive.\"",
+        "es": "\"Escucha desde tu hogar en el cielo y, cuando escuches, perdona.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-21b"
+          ],
+          "verseId": "2-cronicas6-nbla-21"
+        }
+      ],
+      "order": 4,
+      "range": "18-21"
+    },
+    {
+      "explanation": "El perdón de Dios tiene una dirección formativa. La NBLA expresa que Dios enseña «el buen camino» por el que Su pueblo debe andar; MSG vuelve ese aprendizaje muy concreto: aprender a vivir bien y rectamente. La misericordia no termina en salir de una crisis; busca formar una vida diferente.",
+      "id": "2-cronicas6-joya-05",
+      "msg": {
+        "en": "\"train them to live right and well\"",
+        "es": "\"enséñales a vivir bien y rectamente\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-27b"
+          ],
+          "verseId": "2-cronicas6-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "26-27"
+    },
+    {
+      "explanation": "Dios quiere que Su Nombre sea conocido más allá de Israel. La NBLA protege el énfasis bíblico en el conocimiento del Nombre de Dios entre todos los pueblos; MSG despliega esa idea como conocer quién es Dios y cómo es. Esa expansión es pastoralmente útil, siempre que permanezca anclada al propósito textual: que las naciones conozcan al SEÑOR y vivan en reverencia delante de Él.",
+      "id": "2-cronicas6-joya-06",
+      "msg": {
+        "en": "\"people all over the world will know who you are and what you’re like\"",
+        "es": "\"la gente de todo el mundo sepa quién eres y cómo eres\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-33b"
+          ],
+          "verseId": "2-cronicas6-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "33"
+    },
+    {
+      "explanation": "La oración de Salomón parte de una visión realista de la humanidad. La NBLA afirma sin rodeos que no hay persona que no peque; MSG lo convierte en una exclamación imposible de ignorar. Esta verdad no normaliza el pecado ni elimina la responsabilidad: prepara el terreno para comprender por qué arrepentimiento, perdón y restauración son necesidades universales.",
+      "id": "2-cronicas6-joya-07",
+      "msg": {
+        "en": "\"there’s no one without sin!\"",
+        "es": "\"¡no hay nadie sin pecado!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "2-cronicas6-nbla-36b"
+          ],
+          "verseId": "2-cronicas6-nbla-36"
+        }
+      ],
+      "order": 7,
+      "range": "36-39"
+    }
+  ],
+  "meta": {
+    "book": "2 CRÓNICAS",
+    "bookId": "2-cronicas",
+    "chapter": 6,
+    "studyId": "2-cronicas-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "2-cronicas6-msg-01",
+      "msg": {
+        "en": "Then Solomon said,\nGOD said he would dwell in a cloud,\nBut I’ve built a temple most splendid,\nA place for you to live in forever.",
+        "es": "Entonces Salomón dijo:\nDIOS dijo que habitaría en una nube,\npero yo he construido un templo magnífico,\nun lugar para que vivas para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "2-cronicas6-msg-02",
+      "msg": {
+        "en": "The king then turned to face the congregation that had come together and blessed them:",
+        "es": "Entonces el rey se volvió hacia la congregación reunida y la bendijo:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "2-cronicas6-msg-03",
+      "msg": {
+        "en": "“Blessed be GOD, the God of Israel, who spoke personally to my father David. Now he has done what he promised when he said, ‘From the day I brought my people Israel up from Egypt, I haven’t set apart one city among the tribes of Israel in which to build a temple to honor my Name, or chosen one person to be the leader. But now I have chosen both a city and a person: Jerusalem for honoring my Name and David to lead my people Israel.’",
+        "es": "«Bendito sea DIOS, el Dios de Israel, que habló personalmente con mi padre David. Ahora ha hecho lo que prometió cuando dijo: “Desde el día en que saqué de Egipto a mi pueblo Israel, no había apartado ninguna ciudad entre las tribus de Israel para construir un templo que honrara mi Nombre, ni había escogido a una persona para liderar. Pero ahora he escogido ambas cosas: una ciudad y una persona. Jerusalén para honrar mi Nombre, y David para liderar a mi pueblo Israel”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-9",
+      "id": "2-cronicas6-msg-04",
+      "msg": {
+        "en": "“My father David very much wanted to build a temple honoring the Name of GOD, the God of Israel, but GOD told him, ‘It was good that you wanted to build a temple in my honor—most commendable! But you are not the one to do it. Your son, who will carry on your dynasty, will build it for my Name.’",
+        "es": "«Mi padre David deseaba muchísimo construir un templo que honrara el Nombre de DIOS, el Dios de Israel, pero DIOS le dijo: “Fue bueno que quisieras construir un templo en mi honor; ¡fue un deseo muy valioso! Pero tú no eres quien lo hará. Tu hijo, quien continuará tu dinastía, lo construirá para mi Nombre”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "2-cronicas6-msg-05",
+      "msg": {
+        "en": "“And now you see the promise completed. GOD has done what he said he would do; I have succeeded David my father and now rule Israel; and I have built a temple to honor GOD, the God of Israel, and have secured a place for the Chest that holds the Covenant of GOD, the covenant he made with the people of Israel.”",
+        "es": "«Y ahora ustedes ven la promesa cumplida. DIOS hizo lo que dijo que haría; yo sucedí a David, mi padre, y ahora gobierno a Israel. He construido un templo para honrar a DIOS, el Dios de Israel, y he preparado un lugar para el Cofre que guarda el Pacto de DIOS, el pacto que hizo con el pueblo de Israel»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-11"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "12-16",
+      "id": "2-cronicas6-msg-06",
+      "msg": {
+        "en": "Before the entire congregation of Israel, Solomon took his position at the Altar of GOD and stretched out his hands. Solomon had made a bronze dais seven and a half feet square and four and a half feet high and placed it inside the court; that’s where he now stood. Then he knelt in full view of the whole congregation, stretched his hands to heaven, and prayed:\nGOD, O God of Israel, there is no God like you in the skies above or on the earth below, who unswervingly keeps covenant with his servants and unfailingly loves them while they sincerely live in obedience to your way. You kept your word to David my father, your promise. You did exactly what you promised—every detail. The proof is before us today!\nKeep it up, GOD, O God of Israel! Continue to keep the promises you made to David my father when you said, “You’ll always have a descendant to represent my rule on Israel’s throne, on the one condition that your sons are as careful to live obediently in my presence as you have.”",
+        "es": "Delante de toda la congregación de Israel, Salomón tomó su lugar ante el Altar de DIOS y extendió las manos. Había hecho una plataforma de bronce de siete pies y medio por lado y cuatro pies y medio de alto, y la había colocado dentro del atrio; allí se puso de pie. Luego, a la vista de toda la congregación, se arrodilló, extendió las manos hacia el cielo y oró:\nDIOS, Dios de Israel, no hay Dios como tú ni en los cielos arriba ni en la tierra abajo. Tú mantienes tu pacto sin desviarte y amas sin fallar a tus siervos mientras ellos viven sinceramente en obediencia a tu camino. Cumpliste tu palabra a David, mi padre, tu promesa. Hiciste exactamente lo que prometiste, ¡hasta el último detalle! La prueba está delante de nosotros hoy.\nSigue haciéndolo, DIOS, Dios de Israel. Continúa cumpliendo las promesas que hiciste a David, mi padre, cuando dijiste: “Siempre tendrás un descendiente que represente mi gobierno en el trono de Israel, con una condición: que tus hijos sean tan cuidadosos de vivir obedientemente en mi presencia como tú lo has sido”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-16"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "17",
+      "id": "2-cronicas6-msg-07",
+      "msg": {
+        "en": "O GOD, God of Israel, let this all happen—\nconfirm and establish it!",
+        "es": "Oh DIOS, Dios de Israel, haz que todo esto suceda;\n¡confírmalo y establécelo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-21",
+      "id": "2-cronicas6-msg-08",
+      "msg": {
+        "en": "Can it be that God will actually move into our neighborhood? Why, the cosmos itself isn’t large enough to give you breathing room, let alone this Temple I’ve built. Even so, I’m bold to ask: Pay attention to these my prayers, both intercessory and personal, O GOD, my God. Listen to my prayers, energetic and devout, that I’m setting before you right now. Keep your eyes open to this Temple day and night, this place you promised to dignify with your Name. And listen to the prayers that I pray in this place. And listen to your people Israel when they pray at this place.\nListen from your home in heaven\nand when you hear, forgive.",
+        "es": "¿De verdad Dios va a mudarse a nuestro vecindario? ¡Si el cosmos entero ni siquiera es suficientemente grande para darte espacio, mucho menos este Templo que he construido! Aun así, me atrevo a pedirte: presta atención a estas oraciones mías, tanto de intercesión como personales, oh DIOS, mi Dios. Escucha las oraciones intensas y sinceras que pongo delante de ti ahora mismo. Mantén tus ojos abiertos sobre este Templo día y noche, este lugar que prometiste honrar con tu Nombre. Escucha las oraciones que hago en este lugar. Y escucha a tu pueblo Israel cuando ore en este lugar.\nEscucha desde tu hogar en el cielo y, cuando escuches, perdona."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22",
+      "id": "2-cronicas6-msg-09",
+      "msg": {
+        "en": "When someone hurts a neighbor and promises to make things right, and then comes and repeats the promise before your Altar in this Temple,",
+        "es": "Cuando alguien hace daño a su prójimo, promete arreglar las cosas y luego viene a repetir esa promesa delante de tu Altar en este Templo,"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "23",
+      "id": "2-cronicas6-msg-10",
+      "msg": {
+        "en": "Listen from heaven and act;\njudge your servants, making the offender pay for the offense\nAnd set the offended free,\ndismissing all charges.",
+        "es": "escucha desde el cielo y actúa;\njuzga a tus siervos, haciendo que el culpable responda por su falta,\ny deja libre al ofendido,\nquitando toda acusación sobre él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-23"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "2-cronicas6-msg-11",
+      "msg": {
+        "en": "When your people Israel are beaten by an enemy because they’ve sinned against you, but then turn to you and acknowledge your rule in prayers desperate and devout in this Temple,\nListen from your home in heaven;\nforgive the sin of your people Israel,\nreturn them to the land you gave to them and their ancestors.",
+        "es": "Cuando tu pueblo Israel sea derrotado por un enemigo porque ha pecado contra ti, pero luego vuelva a ti y reconozca tu gobierno con oraciones desesperadas y sinceras en este Templo,\nescucha desde tu hogar en el cielo;\nperdona el pecado de tu pueblo Israel\ny hazlo volver a la tierra que le diste a él y a sus antepasados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-25"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "2-cronicas6-msg-12",
+      "msg": {
+        "en": "When the skies shrivel up and there is no rain because your people have sinned against you, but then they pray at this place, acknowledging your rule and quit their sins because you have scourged them,\nListen from your home in heaven,\nforgive the sins of your servants, your people Israel.\nThen start over with them;\ntrain them to live right and well;\nSend rain on the land\nyou gave as inheritance to your people.",
+        "es": "Cuando los cielos se sequen y no haya lluvia porque tu pueblo ha pecado contra ti, pero entonces ellos oren en este lugar, reconozcan tu gobierno y abandonen sus pecados porque tú los has castigado,\nescucha desde tu hogar en el cielo;\nperdona los pecados de tus siervos, tu pueblo Israel.\nEntonces comienza de nuevo con ellos;\nenséñales a vivir bien y rectamente;\nenvía lluvia sobre la tierra\nque diste como herencia a tu pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-27"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "2-cronicas6-msg-13",
+      "msg": {
+        "en": "When disasters strike, famine or catastrophe, crop failure or disease, locust or beetle, or when an enemy attacks their defenses—calamity of any sort—any prayer that’s prayed from anyone at all among your people Israel, their hearts penetrated by disaster, hands and arms thrown out for help to this Temple,\nListen from your home in heaven, forgive and reward us:\nreward each life and circumstance,\nFor you know each life from the inside,\n(you’re the only one with such inside knowledge!),\nSo they’ll live before you in lifelong reverence and believing\nobedience on this land you gave our ancestors.",
+        "es": "Cuando lleguen desastres —hambre o catástrofe, cosechas arruinadas o enfermedad, langosta o escarabajo—, o cuando un enemigo ataque sus defensas, cualquier calamidad que sea; cuando cualquiera de tu pueblo Israel haga una oración, con el corazón atravesado por el desastre y las manos y los brazos extendidos hacia este Templo pidiendo ayuda,\nescucha desde tu hogar en el cielo, perdona y responde con justicia:\ntrata cada vida y cada circunstancia como corresponde,\nporque tú conoces cada vida desde adentro\n(¡eres el único que tiene ese conocimiento interior!),\npara que vivan delante de ti con reverencia toda la vida y con una obediencia llena de confianza\nen esta tierra que diste a nuestros antepasados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-31"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "32",
+      "id": "2-cronicas6-msg-14",
+      "msg": {
+        "en": "And don’t forget the foreigner who is not a member of your people Israel but has come from a far country because of your reputation—people are going to be attracted here by your great reputation, your wonderworking power—and who come to pray to this Temple.",
+        "es": "Y no olvides al extranjero que no pertenece a tu pueblo Israel, pero que viene desde un país lejano por tu reputación —la gente se sentirá atraída por tu gran fama y por tu poder que hace maravillas— y viene a orar a este Templo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-32"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "33",
+      "id": "2-cronicas6-msg-15",
+      "msg": {
+        "en": "Listen from your home in heaven\nand honor the prayers of the foreigner,\nSo that people all over the world\nwill know who you are and what you’re like,\nAnd live in reverent obedience before you,\njust as your own people Israel do,\nSo they’ll know that you personally\nmake this Temple that I’ve built what it is.",
+        "es": "escucha desde tu hogar en el cielo\ny atiende las oraciones del extranjero,\npara que la gente de todo el mundo\nsepa quién eres y cómo eres,\ny viva delante de ti en obediencia reverente,\ntal como lo hace tu propio pueblo Israel,\npara que sepan que eres tú personalmente\nquien le da sentido a este Templo que he construido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-33"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "2-cronicas6-msg-16",
+      "msg": {
+        "en": "When your people go to war against their enemies at the time and place you send them and they pray to GOD toward the city you chose and The Temple I’ve built to honor your Name,\nListen from heaven to what they pray and ask for\nand do what is right for them.",
+        "es": "Cuando tu pueblo salga a la guerra contra sus enemigos, en el momento y lugar a donde tú lo envíes, y ore a DIOS vuelto hacia la ciudad que escogiste y hacia el Templo que construí para honrar tu Nombre,\nescucha desde el cielo lo que oren y pidan\ny haz lo que es justo para ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-35"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "36-39",
+      "id": "2-cronicas6-msg-17",
+      "msg": {
+        "en": "When they sin against you—and they certainly will; there’s no one without sin!—and in anger you turn them over to the enemy and they are taken captive to the enemy’s land, whether far or near, but repent in the country of their captivity and pray with changed hearts in their exile, “We’ve sinned; we’ve done wrong; we’ve been most wicked,” and turn back to you heart and soul in the land of the enemy who conquered them, and pray to you toward their homeland, the land you gave their ancestors, toward the city you chose, and this Temple I have built to the honor of your Name,\nListen from your home in heaven\nto their prayers desperate and devout;\nDo what is best for them.\nForgive your people who have sinned against you.",
+        "es": "Cuando pequen contra ti —y seguro que lo harán; ¡no hay nadie sin pecado!— y, en tu enojo, los entregues al enemigo y sean llevados cautivos a tierra enemiga, lejana o cercana; pero luego se arrepientan en el país de su cautiverio y oren con un corazón cambiado en el exilio: “Hemos pecado; hemos hecho mal; hemos sido profundamente perversos”; y vuelvan a ti de corazón y alma en la tierra del enemigo que los conquistó, y oren hacia su tierra, la tierra que diste a sus antepasados, hacia la ciudad que escogiste y hacia este Templo que he construido en honor de tu Nombre,\nescucha desde tu hogar en el cielo\nsus oraciones desesperadas y sinceras;\nhaz lo que sea mejor para ellos.\nPerdona a tu pueblo que ha pecado contra ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-39"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "40",
+      "id": "2-cronicas6-msg-18",
+      "msg": {
+        "en": "And now, dear God, be alert and attentive to prayer, all prayer, offered in this place.",
+        "es": "Y ahora, querido Dios, mantente alerta y atento a la oración, a toda oración, ofrecida en este lugar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-40"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "41-42",
+      "id": "2-cronicas6-msg-19",
+      "msg": {
+        "en": "Up, GOD, enjoy your new place of quiet repose,\nyou and your mighty covenant Chest;\nDress your priests up in salvation clothes,\nlet your holy people celebrate goodness.\nAnd don’t, GOD, back out on your anointed ones,\nkeep in mind the love promised to David your servant.",
+        "es": "Levántate, DIOS, disfruta de tu nuevo lugar de descanso en paz,\ntú y tu poderoso Cofre del pacto;\nviste a tus sacerdotes con ropas de salvación,\ndeja que tu pueblo santo celebre tu bondad.\nY no abandones, DIOS, a tus ungidos;\nrecuerda el amor prometido a David, tu siervo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "2-cronicas6-nbla-42"
+        }
+      ],
+      "order": 19
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "2-cronicas6-nbla-01",
+      "number": 1,
+      "text": "Entonces Salomón dijo:\n«El SEÑOR ha dicho que Él moraría en la densa nube."
+    },
+    {
+      "id": "2-cronicas6-nbla-02",
+      "number": 2,
+      "text": "Yo, pues, te he edificado una casa majestuosa,\nUn lugar donde mores para siempre»."
+    },
+    {
+      "id": "2-cronicas6-nbla-03",
+      "number": 3,
+      "text": "Después el rey se volvió y bendijo a toda la asamblea de Israel, mientras toda la asamblea de Israel estaba de pie,"
+    },
+    {
+      "id": "2-cronicas6-nbla-04",
+      "number": 4,
+      "text": "y dijo: «Bendito sea el SEÑOR, Dios de Israel, que habló por Su boca a mi padre David y por Su mano lo ha cumplido, cuando dijo:"
+    },
+    {
+      "id": "2-cronicas6-nbla-05",
+      "number": 5,
+      "text": "“Desde el día en que saqué a Mi pueblo de la tierra de Egipto, no escogí ninguna ciudad de entre todas las tribus de Israel en la cual edificar una casa para que Mi nombre estuviera allí, ni escogí a hombre alguno por príncipe sobre Mi pueblo Israel;"
+    },
+    {
+      "id": "2-cronicas6-nbla-06",
+      "number": 6,
+      "text": "mas escogí a Jerusalén para que Mi nombre estuviera allí, y escogí a David para que estuviera sobre Mi pueblo Israel”."
+    },
+    {
+      "id": "2-cronicas6-nbla-07",
+      "number": 7,
+      "text": "»Mi padre David tuvo en su corazón edificar una casa al nombre del SEÑOR, Dios de Israel."
+    },
+    {
+      "id": "2-cronicas6-nbla-08",
+      "number": 8,
+      "text": "Pero el SEÑOR dijo a mi padre David: “Ya que tuviste en tu corazón edificar una casa a Mi nombre, bien hiciste en desearlo en tu corazón."
+    },
+    {
+      "id": "2-cronicas6-nbla-09",
+      "number": 9,
+      "text": "Sin embargo, tú no edificarás la casa, sino que tu hijo que te nacerá, él edificará la casa a Mi nombre”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-10a",
+          "order": 1,
+          "text": "Ahora el SEÑOR ha cumplido la palabra que había dicho"
+        },
+        {
+          "id": "2-cronicas6-nbla-10b",
+          "order": 2,
+          "text": "; pues yo me he levantado en lugar de mi padre David y me he sentado en el trono de Israel, como el SEÑOR prometió, y he edificado la casa al nombre del SEÑOR, Dios de Israel."
+        }
+      ],
+      "id": "2-cronicas6-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "2-cronicas6-nbla-11",
+      "number": 11,
+      "text": "Y he puesto allí el arca, en la cual está el pacto que el SEÑOR hizo con los israelitas»."
+    },
+    {
+      "id": "2-cronicas6-nbla-12",
+      "number": 12,
+      "text": "Entonces Salomón se puso delante del altar del SEÑOR en presencia de toda la asamblea de Israel y extendió las manos."
+    },
+    {
+      "id": "2-cronicas6-nbla-13",
+      "number": 13,
+      "text": "Porque Salomón había hecho un estrado de bronce de 5 codos (2.25 metros) de largo, 5 codos de ancho y 3 codos (1.35 metros) de alto, y lo había puesto en medio del atrio; se puso sobre él, se hincó de rodillas en presencia de toda la asamblea de Israel y extendiendo las manos al cielo,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-14a",
+          "order": 1,
+          "text": "dijo: «Oh SEÑOR, Dios de Israel,"
+        },
+        {
+          "id": "2-cronicas6-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no hay Dios como Tú ni en el cielo ni en la tierra"
+        },
+        {
+          "id": "2-cronicas6-nbla-14c",
+          "order": 3,
+          "text": ", que guardas el pacto y muestras misericordia a Tus siervos que andan delante de Ti con todo su corazón;"
+        }
+      ],
+      "id": "2-cronicas6-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "2-cronicas6-nbla-15",
+      "number": 15,
+      "text": "que has cumplido con Tu siervo David mi padre lo que le prometiste; ciertamente has hablado con Tu boca y lo has cumplido con Tu mano, como sucede hoy."
+    },
+    {
+      "id": "2-cronicas6-nbla-16",
+      "number": 16,
+      "text": "Ahora pues, oh SEÑOR, Dios de Israel, cumple con Tu siervo David mi padre lo que le prometiste, diciendo: “No te faltará quién se siente en el trono de Israel, con tal que tus hijos guarden sus caminos para andar en Mi ley como Tú has andado delante de Mí”."
+    },
+    {
+      "id": "2-cronicas6-nbla-17",
+      "number": 17,
+      "text": "Ahora pues, oh SEÑOR, Dios de Israel, que se cumpla la palabra que hablaste a Tu siervo David."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-18a",
+          "order": 1,
+          "text": "»Pero, ¿morará verdaderamente Dios con los hombres en la tierra? Si"
+        },
+        {
+          "id": "2-cronicas6-nbla-18b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "los cielos y los cielos de los cielos no te pueden contener"
+        },
+        {
+          "id": "2-cronicas6-nbla-18c",
+          "order": 3,
+          "text": ", cuánto menos esta casa que yo he edificado."
+        }
+      ],
+      "id": "2-cronicas6-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "2-cronicas6-nbla-19",
+      "number": 19,
+      "text": "No obstante, atiende a la oración de Tu siervo y a su súplica, oh SEÑOR Dios mío, para que oigas el clamor y la oración que Tu siervo hace delante de Ti."
+    },
+    {
+      "id": "2-cronicas6-nbla-20",
+      "number": 20,
+      "text": "Que Tus ojos estén abiertos día y noche sobre esta casa, sobre el lugar del cual has dicho que allí pondrías Tu nombre, para que oigas la oración que Tu siervo hará hacia este lugar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-21a",
+          "order": 1,
+          "text": "Y escucha las súplicas de Tu siervo y de Tu pueblo Israel cuando oren hacia este lugar;"
+        },
+        {
+          "id": "2-cronicas6-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "escucha Tú desde el lugar de Tu morada, desde los cielos; escucha y perdona."
+        }
+      ],
+      "id": "2-cronicas6-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "2-cronicas6-nbla-22",
+      "number": 22,
+      "text": "»Si alguien peca contra su prójimo, y se le exige juramento, y viene y jura delante de Tu altar en esta casa,"
+    },
+    {
+      "id": "2-cronicas6-nbla-23",
+      "number": 23,
+      "text": "escucha Tú desde los cielos y obra y juzga a Tus siervos, castigando al impío, haciendo recaer su conducta sobre su cabeza, y justificando al justo dándole conforme a su justicia."
+    },
+    {
+      "id": "2-cronicas6-nbla-24",
+      "number": 24,
+      "text": "»Y si Tu pueblo Israel es derrotado delante del enemigo por haber pecado contra Ti, y se vuelven a Ti y confiesan Tu nombre, y oran y hacen súplica delante de Ti en esta casa,"
+    },
+    {
+      "id": "2-cronicas6-nbla-25",
+      "number": 25,
+      "text": "escucha Tú desde los cielos y perdona el pecado de Tu pueblo Israel, y hazlos volver a la tierra que diste a ellos y a sus padres."
+    },
+    {
+      "id": "2-cronicas6-nbla-26",
+      "number": 26,
+      "text": "»Cuando los cielos estén cerrados y no haya lluvia por haber ellos pecado contra Ti, y oren hacia este lugar y confiesen Tu nombre, y se vuelvan de su pecado cuando Tú los aflijas,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-27a",
+          "order": 1,
+          "text": "escucha Tú desde los cielos y perdona el pecado de Tus siervos y de Tu pueblo Israel; sí,"
+        },
+        {
+          "id": "2-cronicas6-nbla-27b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "enséñales el buen camino por el que deben andar"
+        },
+        {
+          "id": "2-cronicas6-nbla-27c",
+          "order": 3,
+          "text": ", y envía lluvia sobre Tu tierra, la que diste a Tu pueblo por heredad."
+        }
+      ],
+      "id": "2-cronicas6-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "2-cronicas6-nbla-28",
+      "number": 28,
+      "text": "»Si hay hambre en la tierra, si hay pestilencia, si hay pestes o plagas, langosta o saltamontes, si sus enemigos los sitian en la tierra de sus ciudades, cualquier plaga o cualquier enfermedad que haya,"
+    },
+    {
+      "id": "2-cronicas6-nbla-29",
+      "number": 29,
+      "text": "toda oración o toda súplica que sea hecha por cualquier hombre o por todo Tu pueblo Israel, conociendo cada cual su aflicción y su dolor, y extendiendo sus manos hacia esta casa,"
+    },
+    {
+      "id": "2-cronicas6-nbla-30",
+      "number": 30,
+      "text": "escucha Tú desde los cielos, el lugar de Tu morada, y perdona y da a cada uno conforme a todos sus caminos, ya que conoces su corazón (porque solo Tú conoces el corazón de los hijos de los hombres),"
+    },
+    {
+      "id": "2-cronicas6-nbla-31",
+      "number": 31,
+      "text": "para que te teman y anden en Tus caminos todos los días que vivan sobre la superficie de la tierra que diste a nuestros padres."
+    },
+    {
+      "id": "2-cronicas6-nbla-32",
+      "number": 32,
+      "text": "»También en cuanto al extranjero que no es de Tu pueblo Israel, cuando venga de una tierra lejana a causa de Tu gran nombre y de Tu mano poderosa y de Tu brazo extendido, cuando ellos vengan a orar a esta casa,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-33a",
+          "order": 1,
+          "text": "escucha Tú desde los cielos, desde el lugar de Tu morada, y haz conforme a todo lo que el extranjero te pida,"
+        },
+        {
+          "id": "2-cronicas6-nbla-33b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "para que todos los pueblos de la tierra conozcan Tu nombre"
+        },
+        {
+          "id": "2-cronicas6-nbla-33c",
+          "order": 3,
+          "text": ", para que te teman, como te teme Tu pueblo Israel, y para que sepan que Tu nombre es invocado sobre esta casa que he edificado."
+        }
+      ],
+      "id": "2-cronicas6-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "2-cronicas6-nbla-34",
+      "number": 34,
+      "text": "»Cuando Tu pueblo salga a la batalla contra sus enemigos, por cualquier camino que los envíes, y oren a Ti vueltos hacia esta ciudad que has escogido, y hacia la casa que he edificado a Tu nombre,"
+    },
+    {
+      "id": "2-cronicas6-nbla-35",
+      "number": 35,
+      "text": "escucha desde los cielos su oración y su súplica, y hazles justicia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "2-cronicas6-nbla-36a",
+          "order": 1,
+          "text": "»Cuando pequen contra Ti ("
+        },
+        {
+          "id": "2-cronicas6-nbla-36b",
+          "order": 2,
+          "text": "pues no hay hombre que no peque"
+        },
+        {
+          "id": "2-cronicas6-nbla-36c",
+          "order": 3,
+          "text": ") y estés lleno de ira contra ellos, y los entregues delante del enemigo, y estos los lleven cautivos a una tierra, lejana o cercana,"
+        }
+      ],
+      "id": "2-cronicas6-nbla-36",
+      "number": 36
+    },
+    {
+      "id": "2-cronicas6-nbla-37",
+      "number": 37,
+      "text": "si recapacitan en la tierra adonde hayan sido llevados cautivos, y se arrepienten y te suplican en la tierra de su cautiverio, diciendo: “Hemos pecado, hemos cometido iniquidad y hemos obrado perversamente”;"
+    },
+    {
+      "id": "2-cronicas6-nbla-38",
+      "number": 38,
+      "text": "si se vuelven a Ti con todo su corazón y con toda su alma en la tierra de su cautiverio adonde hayan sido llevados cautivos, y oran vueltos hacia la tierra que diste a sus padres, hacia la ciudad que has escogido y hacia la casa que he edificado a Tu nombre,"
+    },
+    {
+      "id": "2-cronicas6-nbla-39",
+      "number": 39,
+      "text": "escucha Tú desde los cielos, desde el lugar de tu morada, su oración y sus súplicas, hazles justicia y perdona a Tu pueblo que ha pecado contra Ti."
+    },
+    {
+      "id": "2-cronicas6-nbla-40",
+      "number": 40,
+      "text": "»Ahora, oh Dios mío, te ruego que Tus ojos estén abiertos y Tus oídos atentos a la oración elevada en este lugar."
+    },
+    {
+      "id": "2-cronicas6-nbla-41",
+      "number": 41,
+      "text": "Ahora pues, levántate, oh SEÑOR Dios, hacia Tu reposo, Tú y el arca de Tu poder; que Tus sacerdotes, oh SEÑOR Dios, se revistan de salvación y Tus santos se regocijen en lo que es bueno."
+    },
+    {
+      "id": "2-cronicas6-nbla-42",
+      "number": 42,
+      "text": "Oh SEÑOR Dios, no rechaces el rostro de Tu ungido; acuérdate de Tus misericordias para con Tu siervo David»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

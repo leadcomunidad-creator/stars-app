@@ -1,0 +1,917 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La genealogía no convierte pertenencia familiar en inmunidad moral. Er pertenece a Judá, pero eso no elimina la responsabilidad delante de Dios. La NBLA fija con claridad el juicio moral del texto y MSG hace explícita su gravedad. El punto teológico no es construir una doctrina completa del juicio a partir de una línea genealógica, sino reconocer que la historia escogida por Dios no está exenta de Su santidad.",
+      "id": "1-cronicas2-joya-01",
+      "msg": {
+        "en": "\"Er, Judah’s firstborn, was so bad before GOD that GOD killed him.\"",
+        "es": "\"Er, primogénito de Judá, fue tan malo ante DIOS que DIOS le dio muerte.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas2-nbla-03b"
+          ],
+          "verseId": "1-cronicas2-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-9"
+    },
+    {
+      "explanation": "La línea que posteriormente conducirá a David atraviesa la historia de Tamar. NBLA establece el dato genealógico sin esconder la relación familiar, y MSG conserva esa misma realidad de forma directa. La teología aquí no consiste en aprobar las decisiones humanas que rodean Génesis 38, sino en reconocer que Dios puede hacer avanzar Su propósito a través de historias humanas profundamente quebradas.",
+      "id": "1-cronicas2-joya-02",
+      "msg": {
+        "en": "\"Judah also had Perez and Zerah by his daughter-in-law Tamar\"",
+        "es": "\"Judá también tuvo a Pérez y Zera por medio de Tamar, su nuera\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas2-nbla-04a"
+          ],
+          "verseId": "1-cronicas2-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-9"
+    },
+    {
+      "explanation": "La historia de David se sostiene sobre generaciones anteriores. La NBLA fija la continuidad genealógica y MSG la expresa con una sencillez que permite percibir el movimiento de una generación hacia otra. Dentro del arco bíblico, estos nombres cargan historias mucho más amplias, especialmente la de Booz y Rut. La línea hacia David no aparece de repente; Dios la ha venido tejiendo a través de vidas concretas.",
+      "id": "1-cronicas2-joya-03",
+      "msg": {
+        "en": "\"Boaz had Obed and Obed had Jesse.\"",
+        "es": "\"Booz tuvo a Obed, y Obed tuvo a Isaí.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "10-17"
+    },
+    {
+      "explanation": "David entra por primera vez en esta genealogía sin títulos ni hazañas. Es simplemente el séptimo hijo de Isaí dentro de una familia. NBLA mantiene esa ubicación precisa y MSG hace sentir la llegada del nombre que será decisivo para el resto del libro. El texto recuerda que el llamado de Dios puede reposar sobre alguien que, dentro de la estructura familiar, todavía parece uno más entre varios.",
+      "id": "1-cronicas2-joya-04",
+      "msg": {
+        "en": "\"and finally David; David was the seventh.\"",
+        "es": "\"y finalmente David; David fue el séptimo.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "10-17"
+    },
+    {
+      "explanation": "Una aparente interrupción de la genealogía se convierte en una nueva forma de continuidad. NBLA establece cuidadosamente la situación familiar y la identidad egipcia de Jarha; MSG vuelve visible la tensión narrativa. El texto no desarrolla aquí una teoría social, pero sí muestra que la continuidad familiar ocurre por una vía que el lector quizá no habría anticipado.",
+      "id": "1-cronicas2-joya-05",
+      "msg": {
+        "en": "\"Sheshan had no sons, only daughters. But Sheshan had an Egyptian servant, Jarha.\"",
+        "es": "\"Sesán no tuvo hijos varones, solo hijas. Pero Sesán tenía un siervo egipcio llamado Jarha.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-34"
+        }
+      ],
+      "order": 5,
+      "range": "34-41"
+    },
+    {
+      "explanation": "La genealogía comienza a unir personas con lugares. NBLA conserva la relación entre Salma y Belén, mientras MSG la expresa dentro del movimiento familiar del pasaje. El capítulo todavía no explica la importancia futura de Belén, por lo que no debe cargarse esta línea con más significado del que tiene aquí. Sin embargo, dentro del arco completo de la Escritura, ese lugar terminará profundamente ligado tanto a David como a Jesús.",
+      "id": "1-cronicas2-joya-06",
+      "msg": {
+        "en": "\"Salma who had Bethlehem\"",
+        "es": "\"Salma, quien tuvo a Belén\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas2-nbla-51a"
+          ],
+          "verseId": "1-cronicas2-nbla-51"
+        }
+      ],
+      "order": 6,
+      "range": "50-51"
+    }
+  ],
+  "meta": {
+    "book": "1 CRÓNICAS",
+    "bookId": "1-cronicas",
+    "chapter": 2,
+    "studyId": "1-cronicas-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "1-cronicas2-msg-01",
+      "msg": {
+        "en": "Israel’s (that is, Jacob’s) sons: Reuben, Simeon, Levi, Judah, Issachar, Zebulun, Dan, Joseph, Benjamin, Naphtali, Gad, and Asher.",
+        "es": "Los hijos de Israel —es decir, Jacob— fueron: Rubén, Simeón, Leví, Judá, Isacar, Zabulón, Dan, José, Benjamín, Neftalí, Gad y Aser."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-9",
+      "id": "1-cronicas2-msg-02",
+      "msg": {
+        "en": "Judah had Er, Onan, and Shelah; their mother was Bathshua the Canaanite. Er, Judah’s firstborn, was so bad before GOD that GOD killed him. Judah also had Perez and Zerah by his daughter-in-law Tamar—a total of five sons. Perez had Hezron and Hamul; Zerah had Zimri, Ethan, Heman, Calcol, and Darda—five sons. Carmi had Achar, who brought doom on Israel when he violated a holy ban. Ethan’s son was Azariah. And Hezron had Jerahmeel, Ram, and Chelubai.",
+        "es": "Judá tuvo a Er, Onán y Sela; su madre fue Bet Súa la cananea. Er, primogénito de Judá, fue tan malo ante DIOS que DIOS le dio muerte. Judá también tuvo a Pérez y Zera por medio de Tamar, su nuera: cinco hijos en total. Pérez tuvo a Hezrón y Hamul; Zera tuvo a Zimri, Etán, Hemán, Calcol y Dara: cinco hijos. Carmi tuvo a Acar, quien trajo desgracia sobre Israel cuando quebrantó una prohibición sagrada. El hijo de Etán fue Azarías. Y Hezrón tuvo a Jerameel, Ram y Quelubai."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-17",
+      "id": "1-cronicas2-msg-03",
+      "msg": {
+        "en": "Ram had Amminadab and Amminadab had Nahshon, a prominent leader in the Judah family. Nahshon had Salmon and Salmon had Boaz. Boaz had Obed and Obed had Jesse. Jesse’s firstborn was Eliab, followed by Abinadab, Shimea, Nethanel, Raddai, Ozem, and finally David; David was the seventh. Their sisters were Zeruiah and Abigail. Zeruiah gave birth to three sons: Abishai, Joab, and Asahel; Abigail was the mother of Amasa (the father was Jether the Ishmaelite).",
+        "es": "Ram tuvo a Aminadab, y Aminadab tuvo a Naasón, un líder destacado de la familia de Judá. Naasón tuvo a Salmón, y Salmón tuvo a Booz. Booz tuvo a Obed, y Obed tuvo a Isaí. El primogénito de Isaí fue Eliab, seguido por Abinadab, Simea, Natanael, Radai, Ozem y finalmente David; David fue el séptimo. Sus hermanas fueron Sarvia y Abigail. Sarvia dio a luz a tres hijos: Abisai, Joab y Asael; Abigail fue la madre de Amasa —su padre fue Jeter el ismaelita—."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-17"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "18-24",
+      "id": "1-cronicas2-msg-04",
+      "msg": {
+        "en": "Caleb son of Hezron had children by his wife Azubah and also by Jerioth. Azubah’s sons were Jesher, Shobab, and Ardon. After Azubah died, Caleb married Ephrath, who gave birth to Hur. Hur had Uri and Uri had Bezalel. Sometime later Hezron married the daughter of Makir the father of Gilead; he was sixty years old when he married her; she gave birth to Segub. Then Segub had Jair who owned twenty-three cities in the land of Gilead. Geshur and Aram captured the nomadic villages of Jair and Kenath and their satellite settlements—sixty towns. These all belonged to Makir the father of Gilead. After the death of Hezron, Caleb married Ephrathah the wife of his father Hezron; she then gave birth to Ashhur the father of Tekoa.",
+        "es": "Caleb, hijo de Hezrón, tuvo hijos con su esposa Azuba y también con Jeriot. Los hijos de Azuba fueron Jeser, Sobab y Ardón. Después de que Azuba murió, Caleb se casó con Efrata, quien dio a luz a Hur. Hur tuvo a Uri, y Uri tuvo a Bezalel. Tiempo después, Hezrón se casó con la hija de Maquir, padre de Galaad; tenía sesenta años cuando se casó con ella, y ella dio a luz a Segub. Segub tuvo a Jair, quien poseía veintitrés ciudades en la tierra de Galaad. Gesur y Aram capturaron las aldeas de Jair, junto con Kenat y sus poblaciones vecinas: sesenta ciudades. Todas pertenecían a Maquir, padre de Galaad. Después de la muerte de Hezrón, Caleb se casó con Efrata, la esposa de su padre Hezrón; ella dio a luz a Asur, padre de Tecoa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-24"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "25-26",
+      "id": "1-cronicas2-msg-05",
+      "msg": {
+        "en": "The sons of Jerahmeel, Hezron’s firstborn: Ram his firstborn, followed by Bunah, Oren, Ozem, and Ahijah. Jerahmeel had another wife whose name was Atarah; she gave birth to Onam.",
+        "es": "Los hijos de Jerameel, primogénito de Hezrón, fueron: Ram, su primogénito, seguido por Buna, Orén, Ozem y Ahías. Jerameel tuvo otra esposa llamada Atara; ella dio a luz a Onam."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-26"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "27",
+      "id": "1-cronicas2-msg-06",
+      "msg": {
+        "en": "The sons of Ram, Jerahmeel’s firstborn: Maaz, Jamin, and Eker.",
+        "es": "Los hijos de Ram, primogénito de Jerameel, fueron Maaz, Jamín y Equer."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-27"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "1-cronicas2-msg-07",
+      "msg": {
+        "en": "The sons of Onam: Shammai and Jada.\nThe sons of Shammai: Nadab and Abishur. Abishur’s wife was Abihail; she gave birth to Ahban and Molid.",
+        "es": "Los hijos de Onam fueron Samai y Jada. Los hijos de Samai fueron Nadab y Abisur. La esposa de Abisur fue Abihail; ella dio a luz a Ahbán y Molid."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-29"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "30",
+      "id": "1-cronicas2-msg-08",
+      "msg": {
+        "en": "Nadab had Seled and Appaim. Seled died leaving no sons.",
+        "es": "Nadab tuvo a Seled y Apaim. Seled murió sin dejar hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-30"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "31",
+      "id": "1-cronicas2-msg-09",
+      "msg": {
+        "en": "Appaim had Ishi; Ishi had Sheshan; and Sheshan had Ahlai.",
+        "es": "Apaim tuvo a Isi; Isi tuvo a Sesán; y Sesán tuvo a Ahlai."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-31"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "32",
+      "id": "1-cronicas2-msg-10",
+      "msg": {
+        "en": "Jada, Shammai’s brother, had Jether and Jonathan. Jether died leaving no sons.",
+        "es": "Jada, hermano de Samai, tuvo a Jeter y Jonatán. Jeter murió sin dejar hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-32"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "33",
+      "id": "1-cronicas2-msg-11",
+      "msg": {
+        "en": "Jonathan had Peleth and Zaza.\nThis is the family tree of the sons of Jerahmeel.",
+        "es": "Jonatán tuvo a Pelet y Zaza. Este es el árbol familiar de los hijos de Jerameel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-33"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "34-41",
+      "id": "1-cronicas2-msg-12",
+      "msg": {
+        "en": "Sheshan had no sons, only daughters. But Sheshan had an Egyptian servant, Jarha. Sheshan married his daughter to Jarha and she gave birth to Attai. Attai had Nathan, Nathan had Zabad, Zabad had Ephlal, Ephlal had Obed, Obed had Jehu, Jehu had Azariah, Azariah had Helez, Helez had Eleasah, Eleasah had Sismai, Sismai had Shallum, Shallum had Jekamiah, and Jekamiah had Elishama.",
+        "es": "Sesán no tuvo hijos varones, solo hijas. Pero Sesán tenía un siervo egipcio llamado Jarha. Sesán dio a su hija por esposa a Jarha, y ella dio a luz a Atai. Atai tuvo a Natán, Natán tuvo a Zabad, Zabad tuvo a Eflal, Eflal tuvo a Obed, Obed tuvo a Jehú, Jehú tuvo a Azarías, Azarías tuvo a Heles, Heles tuvo a Elasa, Elasa tuvo a Sismai, Sismai tuvo a Salum, Salum tuvo a Jecamías, y Jecamías tuvo a Elisama."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-41"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "42",
+      "id": "1-cronicas2-msg-13",
+      "msg": {
+        "en": "Jerahmeel’s brother Caleb had a son, his firstborn, named Mesha; Mesha had Ziph; Ziph’s son was Mareshah the father of Hebron.",
+        "es": "Caleb, hermano de Jerameel, tuvo un hijo primogénito llamado Mesa; Mesa tuvo a Zif; el hijo de Zif fue Maresa, padre de Hebrón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-42"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "43-44",
+      "id": "1-cronicas2-msg-14",
+      "msg": {
+        "en": "The sons of Hebron: Korah, Tappuah, Rekem, and Shema. Shema had Raham the father of Jorkeam; Rekem had Shammai.",
+        "es": "Los hijos de Hebrón fueron Coré, Tapúa, Requem y Sema. Sema tuvo a Raham, padre de Jorcoam; Requem tuvo a Samai."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-44"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "45",
+      "id": "1-cronicas2-msg-15",
+      "msg": {
+        "en": "Shammai’s son was Maon and Maon was the father of Beth Zur.",
+        "es": "El hijo de Samai fue Maón, y Maón fue padre de Bet Sur."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-45"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "46",
+      "id": "1-cronicas2-msg-16",
+      "msg": {
+        "en": "Caleb’s concubine Ephah gave birth to Haran, Moza, and Gazez; Haran had Gazez.",
+        "es": "Efa, concubina de Caleb, dio a luz a Harán, Mosa y Gazez; Harán tuvo a Gazez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-46"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "47",
+      "id": "1-cronicas2-msg-17",
+      "msg": {
+        "en": "The sons of Jahdai: Regem, Jotham, Geshan, Pelet, Ephah, and Shaaph.",
+        "es": "Los hijos de Jahdai fueron Regem, Jotam, Gesam, Pelet, Efa y Saaf."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-47"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "48-50",
+      "id": "1-cronicas2-msg-18",
+      "msg": {
+        "en": "Another concubine of Caleb, Maacah, gave birth to Sheber and Tirhanah. She also bore Shaaph the father of Madmannah and Sheva the father of Macbenah and Gibea. Caleb’s daughter was Acsah. These made up the Caleb branch of the family tree.",
+        "es": "Otra concubina de Caleb, Maaca, dio a luz a Seber y Tirhana. También dio a luz a Saaf, padre de Madmana, y a Seva, padre de Macbena y Gibea. La hija de Caleb fue Acsa. Ellos formaron la rama familiar de Caleb."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-49"
+        },
+        {
+          "clauseIds": [
+            "1-cronicas2-nbla-50a"
+          ],
+          "verseId": "1-cronicas2-nbla-50"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "50-51",
+      "id": "1-cronicas2-msg-19",
+      "msg": {
+        "en": "The sons of Hur, Ephrathah’s firstborn: Shobal who had Kiriath Jearim, Salma who had Bethlehem, and Hareph father of Beth Gader.",
+        "es": "Los hijos de Hur, primogénito de Efrata, fueron: Sobal, quien tuvo a Quiriat Jearim; Salma, quien tuvo a Belén; y Haref, padre de Bet Gader."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas2-nbla-50b"
+          ],
+          "verseId": "1-cronicas2-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-51"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "52-53",
+      "id": "1-cronicas2-msg-20",
+      "msg": {
+        "en": "The family of Shobal, father of Kiriath Jearim: Haroeh, half of the population of Manahath, the families of Kiriath Jearim, the Ithrites, the Puthites, the Shumathites, and the Mishraites. The Zorathites and Eshtaolites also came from this line.",
+        "es": "La familia de Sobal, padre de Quiriat Jearim: Haroe, la mitad de la población de Manahat, las familias de Quiriat Jearim, los itritas, los futitas, los sumatitas y los misraítas. De esta línea también procedieron los zoratitas y los estaolitas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-53"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "54-55",
+      "id": "1-cronicas2-msg-21",
+      "msg": {
+        "en": "The sons of Salma: Bethlehem, the Netophathites, Atroth Beth Joab, half of the Manahathites, the Zorites, and the families of Sopherim who lived at Jabez—the Tirathites, the Shimeathites, and the Sucathites. They made up the Kenites who came from Hammath the father of the house of Recab.",
+        "es": "Los hijos de Salma fueron: Belén, los netofatitas, Atrot Bet Joab, la mitad de los manahetitas, los zoritas y las familias de escribas que vivían en Jabes: los tirateos, los simeateos y los sucateos. Ellos formaron los quenitas que procedían de Hamat, padre de la casa de Recab."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-54"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas2-nbla-55"
+        }
+      ],
+      "order": 21
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "1-cronicas2-nbla-01",
+      "number": 1,
+      "text": "Estos son los hijos de Israel: Rubén, Simeón, Leví, Judá, Isacar, Zabulón,"
+    },
+    {
+      "id": "1-cronicas2-nbla-02",
+      "number": 2,
+      "text": "Dan, José, Benjamín, Neftalí, Gad y Aser."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas2-nbla-03a",
+          "order": 1,
+          "text": "Los hijos de Judá fueron Er, Onán, y Sela; estos tres le nacieron de Bet Súa la cananea."
+        },
+        {
+          "id": "1-cronicas2-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y Er, primogénito de Judá, fue malo ante los ojos del SEÑOR, quien le dio muerte."
+        }
+      ],
+      "id": "1-cronicas2-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas2-nbla-04a",
+          "order": 1,
+          "text": "Tamar, su nuera, dio a luz a Pérez y a Zera."
+        },
+        {
+          "id": "1-cronicas2-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Judá tuvo cinco hijos en total."
+        }
+      ],
+      "id": "1-cronicas2-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "1-cronicas2-nbla-05",
+      "number": 5,
+      "text": "Los hijos de Pérez fueron Hezrón y Hamul."
+    },
+    {
+      "id": "1-cronicas2-nbla-06",
+      "number": 6,
+      "text": "Los hijos de Zera fueron Zimri, Etán, Hemán, Calcol y Dara: cinco en total."
+    },
+    {
+      "id": "1-cronicas2-nbla-07",
+      "number": 7,
+      "text": "El hijo de Carmi fue Acar, el perturbador de Israel, que hizo mal en cuanto al anatema."
+    },
+    {
+      "id": "1-cronicas2-nbla-08",
+      "number": 8,
+      "text": "El hijo de Etán fue Azarías."
+    },
+    {
+      "id": "1-cronicas2-nbla-09",
+      "number": 9,
+      "text": "Los hijos que le nacieron a Hezrón fueron Jerameel, Ram y Quelubai."
+    },
+    {
+      "id": "1-cronicas2-nbla-10",
+      "number": 10,
+      "text": "Ram fue el padre de Aminadab y Aminadab fue el padre de Naasón, jefe de los hijos de Judá;"
+    },
+    {
+      "id": "1-cronicas2-nbla-11",
+      "number": 11,
+      "text": "Naasón fue el padre de Salmón y Salmón fue padre de Booz;"
+    },
+    {
+      "id": "1-cronicas2-nbla-12",
+      "number": 12,
+      "text": "Booz fue el padre de Obed y Obed el padre de Isaí,"
+    },
+    {
+      "id": "1-cronicas2-nbla-13",
+      "number": 13,
+      "text": "e Isaí fue el padre de Eliab su primogénito, luego Abinadab el segundo y Simea el tercero."
+    },
+    {
+      "id": "1-cronicas2-nbla-14",
+      "number": 14,
+      "text": "Natanael el cuarto, Radai el quinto,"
+    },
+    {
+      "id": "1-cronicas2-nbla-15",
+      "number": 15,
+      "text": "Ozem el sexto, y David el séptimo;"
+    },
+    {
+      "id": "1-cronicas2-nbla-16",
+      "number": 16,
+      "text": "y sus hermanas fueron Sarvia y Abigail. Y los tres hijos de Sarvia fueron Abisai, Joab y Asael."
+    },
+    {
+      "id": "1-cronicas2-nbla-17",
+      "number": 17,
+      "text": "Abigail dio a luz a Amasa, y el padre de Amasa fue Jeter el ismaelita."
+    },
+    {
+      "id": "1-cronicas2-nbla-18",
+      "number": 18,
+      "text": "Y Caleb, hijo de Hezrón, tuvo hijos de Azuba su mujer, y de Jeriot; y estos fueron los hijos de ella: Jeser, Sobab y Ardón."
+    },
+    {
+      "id": "1-cronicas2-nbla-19",
+      "number": 19,
+      "text": "Cuando Azuba murió, Caleb tomó por mujer a Efrata, la cual dio a luz a Hur."
+    },
+    {
+      "id": "1-cronicas2-nbla-20",
+      "number": 20,
+      "text": "Hur fue el padre de Uri y Uri fue el padre de Bezalel."
+    },
+    {
+      "id": "1-cronicas2-nbla-21",
+      "number": 21,
+      "text": "Después Hezrón se unió a la hija de Maquir, padre de Galaad, y la tomó por mujer cuando él tenía sesenta años; y ella dio a luz a Segub."
+    },
+    {
+      "id": "1-cronicas2-nbla-22",
+      "number": 22,
+      "text": "Segub fue el padre de Jair, que tuvo veintitrés ciudades en la tierra de Galaad."
+    },
+    {
+      "id": "1-cronicas2-nbla-23",
+      "number": 23,
+      "text": "Pero Gesur y Aram les tomaron las aldeas de Jair, con Kenat y sus aldeas, sesenta ciudades. Todos estos fueron los hijos de Maquir, padre de Galaad."
+    },
+    {
+      "id": "1-cronicas2-nbla-24",
+      "number": 24,
+      "text": "Después de la muerte de Hezrón en Caleb Efrata, Abías, mujer de Hezrón, dio a luz a Asur, padre de Tecoa."
+    },
+    {
+      "id": "1-cronicas2-nbla-25",
+      "number": 25,
+      "text": "Los hijos de Jerameel, primogénito de Hezrón, fueron Ram el primogénito, luego Buna, Orén, Ozem y Ahías."
+    },
+    {
+      "id": "1-cronicas2-nbla-26",
+      "number": 26,
+      "text": "Jerameel tuvo otra mujer, cuyo nombre era Atara; ella fue la madre de Onam."
+    },
+    {
+      "id": "1-cronicas2-nbla-27",
+      "number": 27,
+      "text": "Los hijos de Ram, primogénito de Jerameel, fueron Maaz, Jamín y Equer."
+    },
+    {
+      "id": "1-cronicas2-nbla-28",
+      "number": 28,
+      "text": "Los hijos de Onam fueron Samai y Jada. Y los hijos de Samai fueron Nadab y Abisur."
+    },
+    {
+      "id": "1-cronicas2-nbla-29",
+      "number": 29,
+      "text": "Y el nombre de la mujer de Abisur era Abihail, y ella dio a luz a Ahbán y a Molid."
+    },
+    {
+      "id": "1-cronicas2-nbla-30",
+      "number": 30,
+      "text": "Los hijos de Nadab fueron Seled y Apaim, y Seled murió sin hijos."
+    },
+    {
+      "id": "1-cronicas2-nbla-31",
+      "number": 31,
+      "text": "El hijo de Apaim fue Isi, el hijo de Isi fue Sesán, y el hijo de Sesán fue Ahlai."
+    },
+    {
+      "id": "1-cronicas2-nbla-32",
+      "number": 32,
+      "text": "Los hijos de Jada, hermano de Samai, fueron Jeter y Jonatán. Jeter murió sin hijos."
+    },
+    {
+      "id": "1-cronicas2-nbla-33",
+      "number": 33,
+      "text": "Los hijos de Jonatán fueron Pelet y Zaza. Estos fueron los hijos de Jerameel."
+    },
+    {
+      "id": "1-cronicas2-nbla-34",
+      "number": 34,
+      "text": "Sesán no tuvo hijos, sino hijas. Sesán tenía un siervo egipcio cuyo nombre era Jarha."
+    },
+    {
+      "id": "1-cronicas2-nbla-35",
+      "number": 35,
+      "text": "Sesán dio a su hija por mujer a Jarha su siervo, y ella dio a luz a Atai."
+    },
+    {
+      "id": "1-cronicas2-nbla-36",
+      "number": 36,
+      "text": "Atai fue el padre de Natán y Natán fue el padre de Zabad,"
+    },
+    {
+      "id": "1-cronicas2-nbla-37",
+      "number": 37,
+      "text": "Zabad fue el padre de Eflal y Eflal fue el padre de Obed,"
+    },
+    {
+      "id": "1-cronicas2-nbla-38",
+      "number": 38,
+      "text": "Obed fue el padre de Jehú y Jehú fue el padre de Azarías,"
+    },
+    {
+      "id": "1-cronicas2-nbla-39",
+      "number": 39,
+      "text": "Azarías fue el padre de Heles y Heles fue el padre de Elasa,"
+    },
+    {
+      "id": "1-cronicas2-nbla-40",
+      "number": 40,
+      "text": "Elasa fue el padre de Sismai y Sismai fue el padre de Salum,"
+    },
+    {
+      "id": "1-cronicas2-nbla-41",
+      "number": 41,
+      "text": "Salum fue el padre de Jecamías y Jecamías fue el padre de Elisama."
+    },
+    {
+      "id": "1-cronicas2-nbla-42",
+      "number": 42,
+      "text": "Los hijos de Caleb, hermano de Jerameel, fueron Mesa su primogénito, que fue el padre de Zif; y su hijo fue Maresa, padre de Hebrón."
+    },
+    {
+      "id": "1-cronicas2-nbla-43",
+      "number": 43,
+      "text": "Los hijos de Hebrón fueron Coré, Tapúa, Requem y Sema."
+    },
+    {
+      "id": "1-cronicas2-nbla-44",
+      "number": 44,
+      "text": "Sema fue el padre de Raham, padre de Jorcoam; y Requem fue el padre de Samai."
+    },
+    {
+      "id": "1-cronicas2-nbla-45",
+      "number": 45,
+      "text": "El hijo de Samai fue Maón, y Maón fue el padre de Bet Sur."
+    },
+    {
+      "id": "1-cronicas2-nbla-46",
+      "number": 46,
+      "text": "Efa, concubina de Caleb, dio a luz a Harán, a Mosa y a Gazez. Y Harán fue el padre de Gazez."
+    },
+    {
+      "id": "1-cronicas2-nbla-47",
+      "number": 47,
+      "text": "Los hijos de Jahdai fueron Regem, Jotam, Gesam, Pelet, Efa y Saaf."
+    },
+    {
+      "id": "1-cronicas2-nbla-48",
+      "number": 48,
+      "text": "Maaca, concubina de Caleb, dio a luz a Seber y a Tirhana."
+    },
+    {
+      "id": "1-cronicas2-nbla-49",
+      "number": 49,
+      "text": "También dio a luz a Saaf, padre de Madmana, a Seva, padre de Macbena y padre de Gibea; y la hija de Caleb fue Acsa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas2-nbla-50a",
+          "order": 1,
+          "text": "Estos fueron los hijos de Caleb."
+        },
+        {
+          "id": "1-cronicas2-nbla-50b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Los hijos de Hur, primogénito de Efrata, fueron Sobal, padre de Quiriat Jearim,"
+        }
+      ],
+      "id": "1-cronicas2-nbla-50",
+      "number": 50
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas2-nbla-51a",
+          "order": 1,
+          "text": "Salma, padre de Belén"
+        },
+        {
+          "id": "1-cronicas2-nbla-51b",
+          "order": 2,
+          "text": ", y Haref, padre de Bet Gader."
+        }
+      ],
+      "id": "1-cronicas2-nbla-51",
+      "number": 51
+    },
+    {
+      "id": "1-cronicas2-nbla-52",
+      "number": 52,
+      "text": "Sobal, padre de Quiriat Jearim, tuvo hijos: Haroe, la mitad de los manahetitas,"
+    },
+    {
+      "id": "1-cronicas2-nbla-53",
+      "number": 53,
+      "text": "y las familias de Quiriat Jearim: los itritas, los futitas, los sumatitas y los misraítas; de estos salieron los zoratitas y los estaolitas."
+    },
+    {
+      "id": "1-cronicas2-nbla-54",
+      "number": 54,
+      "text": "Los hijos de Salma fueron Belén y los netofatitas, Atrot Bet Joab y la mitad de los manahetitas, los Zoraítas."
+    },
+    {
+      "id": "1-cronicas2-nbla-55",
+      "number": 55,
+      "text": "Y las familias de los escribas que habitaron en Jabes fueron los tirateos, los simeateos y los sucateos. Esos son los quenitas que vinieron de Hamat, padre de la casa de Recab."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

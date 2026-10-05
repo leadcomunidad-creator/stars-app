@@ -1,0 +1,541 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La historia de David está inseparablemente ligada a una familia concreta. La NBLA fija el dato genealógico y MSG lo sitúa dentro de la etapa de David en Hebrón. El texto no presenta al rey únicamente a través de sus logros públicos; su historia incluye relaciones familiares que más adelante tendrán consecuencias profundas. La vocación pública nunca elimina la realidad de la vida privada.",
+      "id": "1-cronicas3-joya-01",
+      "msg": {
+        "en": "\"These are the sons that David had while he lived at Hebron\"",
+        "es": "\"Estos son los hijos que David tuvo mientras vivía en Hebrón\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-01a"
+          ],
+          "verseId": "1-cronicas3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "El reinado de David tuvo etapas y procesos. NBLA conserva la duración exacta de su gobierno en Hebrón y MSG la integra dentro del movimiento de su vida. David no comenzó reinando sobre todo Israel desde el primer día. Incluso una vocación significativa puede desarrollarse progresivamente, sin que cada etapa tenga todavía la forma completa de aquello que vendrá después.",
+      "id": "1-cronicas3-joya-02",
+      "msg": {
+        "en": "\"he was king there for seven years and six months.\"",
+        "es": "\"allí fue rey durante siete años y seis meses.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-04b"
+          ],
+          "verseId": "1-cronicas3-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4-9"
+    },
+    {
+      "explanation": "La historia avanza de Hebrón a Jerusalén. NBLA establece la duración del reinado y MSG hace visible la transición entre etapas. El punto no es convertir la trayectoria de David en una fórmula de ascenso personal, sino reconocer que la historia bíblica se desarrolla en tiempos concretos y que una etapa posterior puede ampliar responsabilidades que antes eran más limitadas.",
+      "id": "1-cronicas3-joya-03",
+      "msg": {
+        "en": "\"He went on to be king in Jerusalem for another thirty-three years.\"",
+        "es": "\"Después reinó en Jerusalén otros treinta y tres años.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-04c"
+          ],
+          "verseId": "1-cronicas3-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4-9"
+    },
+    {
+      "explanation": "El reino continúa de una generación a otra, pero ningún rey permanece. NBLA fija la sucesión familiar mientras MSG subraya el cambio generacional. La continuidad de la casa de David no depende de la permanencia de un gobernante particular. Cada generación recibe una historia que comenzó antes de ella y debe responder a Dios dentro de su propio tiempo.",
+      "id": "1-cronicas3-joya-04",
+      "msg": {
+        "en": "\"In the next generation Solomon had Rehoboam\"",
+        "es": "\"En la generación siguiente, Salomón tuvo a Roboam\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-10a"
+          ],
+          "verseId": "1-cronicas3-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10-14"
+    },
+    {
+      "explanation": "El cautiverio no detiene la genealogía. NBLA identifica directamente a Jeconías como «el cautivo», y MSG sitúa el nacimiento de la siguiente generación dentro de Babilonia. La continuidad no niega la tragedia del exilio; ocurre precisamente en medio de ella. Dios puede preservar una historia aun cuando las circunstancias visibles parecen haber destruido su futuro.",
+      "id": "1-cronicas3-joya-05",
+      "msg": {
+        "en": "\"The sons of Jeconiah born while he was captive in Babylon\"",
+        "es": "\"Los hijos de Jeconías, nacidos mientras él estaba cautivo en Babilonia\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-17a"
+          ],
+          "verseId": "1-cronicas3-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "17-18"
+    },
+    {
+      "explanation": "Zorobabel representa una nueva etapa de la historia posterior al exilio. En este capítulo simplemente aparece dentro de la genealogía, y ambas versiones preservan ese vínculo familiar. El texto no necesita convertir su nombre en una explicación completa para mostrar algo importante: después de Babilonia todavía hay continuidad, todavía hay descendencia y todavía hay futuro.",
+      "id": "1-cronicas3-joya-06",
+      "msg": {
+        "en": "\"Pedaiah had Zerubbabel and Shimei\"",
+        "es": "\"Pedaías tuvo a Zorobabel y Simei\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "1-cronicas3-nbla-19a"
+          ],
+          "verseId": "1-cronicas3-nbla-19"
+        }
+      ],
+      "order": 6,
+      "range": "19-20"
+    }
+  ],
+  "meta": {
+    "book": "1 CRÓNICAS",
+    "bookId": "1-cronicas",
+    "chapter": 3,
+    "studyId": "1-cronicas-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "1-cronicas3-msg-01",
+      "msg": {
+        "en": "These are the sons that David had while he lived at Hebron:\nHis firstborn was Amnon by Ahinoam of Jezreel;\nsecond, Daniel by Abigail of Carmel;\nthird, Absalom born of Maacah, daughter of Talmai king of Geshur;\nfourth, Adonijah born of Haggith;\nfifth, Shephatiah born of Abital;\nsixth, Ithream born of his wife Eglah.",
+        "es": "Estos son los hijos que David tuvo mientras vivía en Hebrón: su primogénito fue Amnón, de Ahinoam de Jezreel; el segundo, Daniel, de Abigail de Carmel; el tercero, Absalón, nacido de Maaca, hija de Talmai, rey de Gesur; el cuarto, Adonías, nacido de Haguit; el quinto, Sefatías, nacido de Abital; y el sexto, Itream, nacido de su esposa Egla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-9",
+      "id": "1-cronicas3-msg-02",
+      "msg": {
+        "en": "He had these six sons while he was in Hebron; he was king there for seven years and six months.\nHe went on to be king in Jerusalem for another thirty-three years. These are the sons he had in Jerusalem: first Shammua, then Shobab, Nathan, and Solomon. Bathsheba daughter of Ammiel was the mother of these four. And then there were another nine sons: Ibhar, Elishua, Eliphelet, Nogah, Nepheg, Japhia, Elishama, Eliada, Eliphelet—David’s sons, plus Tamar their sister. There were other sons by his concubines.",
+        "es": "David tuvo esos seis hijos mientras estuvo en Hebrón; allí fue rey durante siete años y seis meses. Después reinó en Jerusalén otros treinta y tres años. Estos son los hijos que tuvo en Jerusalén: primero Samúa, luego Sobab, Natán y Salomón. Betsabé, hija de Amiel, fue la madre de estos cuatro. Después hubo otros nueve hijos: Ibhar, Elisúa, Elifelet, Noga, Nefeg, Jafía, Elisama, Eliada y Elifelet; todos hijos de David, además de Tamar, hermana de ellos. Hubo también otros hijos de sus concubinas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-14",
+      "id": "1-cronicas3-msg-03",
+      "msg": {
+        "en": "In the next generation Solomon had Rehoboam, who had Abijah, who had Asa, who had Jehoshaphat, who had Jehoram, who had Ahaziah, who had Joash, who had Amaziah, who had Azariah, who had Jotham, who had Ahaz, who had Hezekiah, who had Manasseh, who had Amon, who had Josiah.",
+        "es": "En la generación siguiente, Salomón tuvo a Roboam; Roboam tuvo a Abías; Abías a Asa; Asa a Josafat; Josafat a Joram; Joram a Ocozías; Ocozías a Joás; Joás a Amasías; Amasías a Azarías; Azarías a Jotam; Jotam a Acaz; Acaz a Ezequías; Ezequías a Manasés; Manasés a Amón; y Amón a Josías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-14"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "15",
+      "id": "1-cronicas3-msg-04",
+      "msg": {
+        "en": "Josiah’s firstborn was Johanan, followed by Jehoiakim, then Zedekiah, and finally Shallum.",
+        "es": "El primogénito de Josías fue Johanán, seguido por Joacim, luego Sedequías y finalmente Salum."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-15"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "16",
+      "id": "1-cronicas3-msg-05",
+      "msg": {
+        "en": "Jehoiakim’s sons were Jeconiah (Jehoiachin) and Zedekiah.",
+        "es": "Los hijos de Joacim fueron Jeconías —Joaquín— y Sedequías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "1-cronicas3-msg-06",
+      "msg": {
+        "en": "The sons of Jeconiah born while he was captive in Babylon: Shealtiel, Malkiram, Pedaiah, Shenazzar, Jekamiah, Hoshama, and Nedabiah.",
+        "es": "Los hijos de Jeconías, nacidos mientras él estaba cautivo en Babilonia, fueron Salatiel, Malquiram, Pedaías, Senazar, Jecamías, Hosama y Nedabías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-18"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "1-cronicas3-msg-07",
+      "msg": {
+        "en": "Pedaiah had Zerubbabel and Shimei; Zerubbabel had Meshullam and Hananiah. Shelomith was their sister. And then five more—Hashubah, Ohel, Berekiah, Hasadiah, and Jushab-Hesed.",
+        "es": "Pedaías tuvo a Zorobabel y Simei; Zorobabel tuvo a Mesulam y Hananías. Selomit fue hermana de ellos. Y hubo cinco más: Hasuba, Ohel, Berequías, Hasadías y Jusab Hesed."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-20"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "21",
+      "id": "1-cronicas3-msg-08",
+      "msg": {
+        "en": "Hananiah’s sons were Pelatiah and Jeshaiah. There were also sons of Rephaiah, sons of Arnan, sons of Obadiah, and sons of Shecaniah.",
+        "es": "Los hijos de Hananías fueron Pelatías y Jesaías. También estaban los hijos de Refaías, los hijos de Arnán, los hijos de Abdías y los hijos de Secanías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22",
+      "id": "1-cronicas3-msg-09",
+      "msg": {
+        "en": "Shecaniah had Shemaiah who in his turn had Hattush, Igal, Bariah, Neariah, and Shaphat—six of them.",
+        "es": "Secanías tuvo a Semaías, quien a su vez tuvo a Hatús, Igal, Barías, Nearías y Safat: seis en total."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "23",
+      "id": "1-cronicas3-msg-10",
+      "msg": {
+        "en": "Neariah had three sons: Elioenai, Hizkiah, and Azrikam.",
+        "es": "Nearías tuvo tres hijos: Elioenai, Ezequías y Azricam."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-23"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "24",
+      "id": "1-cronicas3-msg-11",
+      "msg": {
+        "en": "And Elioenai had seven sons: Hodaviah, Eliashib, Pelaiah, Akkub, Johanan, Delaiah, and Anani.",
+        "es": "Y Elioenai tuvo siete hijos: Hodavías, Eliasib, Pelaías, Acub, Johanán, Dalaías y Anani."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "1-cronicas3-nbla-24"
+        }
+      ],
+      "order": 11
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas3-nbla-01a",
+          "order": 1,
+          "text": "Estos fueron los hijos de David que le nacieron en Hebrón"
+        },
+        {
+          "id": "1-cronicas3-nbla-01b",
+          "order": 2,
+          "text": ": el primogénito, Amnón, de Ahinoam la de Jezreel; el segundo, Daniel, de Abigail la de Carmel;"
+        }
+      ],
+      "id": "1-cronicas3-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "1-cronicas3-nbla-02",
+      "number": 2,
+      "text": "el tercero, Absalón, hijo de Maaca, hija de Talmai, rey de Gesur; el cuarto, Adonías, hijo de Haguit;"
+    },
+    {
+      "id": "1-cronicas3-nbla-03",
+      "number": 3,
+      "text": "el quinto, Sefatías, de Abital; el sexto, Itream, de Egla su mujer."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas3-nbla-04a",
+          "order": 1,
+          "text": "Seis hijos le nacieron en Hebrón."
+        },
+        {
+          "id": "1-cronicas3-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Allí reinó siete años y seis meses"
+        },
+        {
+          "id": "1-cronicas3-nbla-04c",
+          "order": 3,
+          "text": ", y en Jerusalén reinó treinta y tres años."
+        }
+      ],
+      "id": "1-cronicas3-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "1-cronicas3-nbla-05",
+      "number": 5,
+      "text": "Y estos le nacieron en Jerusalén: Simea, Sobab, Natán y Salomón: los cuatro de Bet Súa, hija de Amiel."
+    },
+    {
+      "id": "1-cronicas3-nbla-06",
+      "number": 6,
+      "text": "También Ibhar, Elisama, Elifelet,"
+    },
+    {
+      "id": "1-cronicas3-nbla-07",
+      "number": 7,
+      "text": "Noga, Nefeg y Jafía."
+    },
+    {
+      "id": "1-cronicas3-nbla-08",
+      "number": 8,
+      "text": "Elisama, Eliada y Elifelet: nueve."
+    },
+    {
+      "id": "1-cronicas3-nbla-09",
+      "number": 9,
+      "text": "Todos estos fueron los hijos de David, además de los hijos de las concubinas; y Tamar fue hermana de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas3-nbla-10a",
+          "order": 1,
+          "text": "El hijo de Salomón fue Roboam"
+        },
+        {
+          "id": "1-cronicas3-nbla-10b",
+          "order": 2,
+          "text": "; Abías fue su hijo, Asa su hijo, Josafat su hijo,"
+        }
+      ],
+      "id": "1-cronicas3-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "1-cronicas3-nbla-11",
+      "number": 11,
+      "text": "Joram su hijo, Ocozías su hijo, Joás su hijo,"
+    },
+    {
+      "id": "1-cronicas3-nbla-12",
+      "number": 12,
+      "text": "Amasías su hijo, Azarías su hijo, Jotam su hijo,"
+    },
+    {
+      "id": "1-cronicas3-nbla-13",
+      "number": 13,
+      "text": "Acaz su hijo, Ezequías su hijo, Manasés su hijo,"
+    },
+    {
+      "id": "1-cronicas3-nbla-14",
+      "number": 14,
+      "text": "Amón su hijo, Josías su hijo."
+    },
+    {
+      "id": "1-cronicas3-nbla-15",
+      "number": 15,
+      "text": "Los hijos de Josías fueron Johanán el primogénito, y el segundo fue Joacim, el tercero Sedequías, el cuarto Salum."
+    },
+    {
+      "id": "1-cronicas3-nbla-16",
+      "number": 16,
+      "text": "Los hijos de Joacim fueron Jeconías su hijo, Sedequías su hijo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas3-nbla-17a",
+          "order": 1,
+          "text": "Los hijos de Jeconías, el cautivo"
+        },
+        {
+          "id": "1-cronicas3-nbla-17b",
+          "order": 2,
+          "text": ", fueron Salatiel su hijo,"
+        }
+      ],
+      "id": "1-cronicas3-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "1-cronicas3-nbla-18",
+      "number": 18,
+      "text": "y Malquiram, Pedaías, Senazar, Jecamías, Hosama y Nedabías."
+    },
+    {
+      "clauses": [
+        {
+          "id": "1-cronicas3-nbla-19a",
+          "order": 1,
+          "text": "Los hijos de Pedaías fueron Zorobabel y Simei."
+        },
+        {
+          "id": "1-cronicas3-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y los hijos de Zorobabel fueron Mesulam y Hananías, y Selomit fue su hermana;"
+        }
+      ],
+      "id": "1-cronicas3-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "1-cronicas3-nbla-20",
+      "number": 20,
+      "text": "y Hasuba, Ohel, Berequías, Hasadías y Jusab Hesed: cinco."
+    },
+    {
+      "id": "1-cronicas3-nbla-21",
+      "number": 21,
+      "text": "Los hijos de Hananías fueron Pelatías y Jesaías, los hijos de Refaías, los hijos de Arnán, los hijos de Abdías, los hijos de Secanías."
+    },
+    {
+      "id": "1-cronicas3-nbla-22",
+      "number": 22,
+      "text": "Los descendientes de Secanías fueron Semaías, y los hijos de Semaías: Hatús, Igal, Barías, Nearías y Safat: seis."
+    },
+    {
+      "id": "1-cronicas3-nbla-23",
+      "number": 23,
+      "text": "Los hijos de Nearías fueron Elioenai, Ezequías y Azricam: tres."
+    },
+    {
+      "id": "1-cronicas3-nbla-24",
+      "number": 24,
+      "text": "Los hijos de Elioenai fueron Hodavías, Eliasib, Pelaías, Acub, Johanán, Dalaías y Anani: siete."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
