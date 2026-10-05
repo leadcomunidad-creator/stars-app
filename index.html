@@ -938,9 +938,6 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .cal-racha-info{margin:12px 16px;padding:12px 14px;background:var(--black3);border-radius:var(--radius-sm);border:1px solid var(--gold-border2)}
 .cal-racha-num{font-family:'Cormorant Garamond',serif;font-size:2.0rem;color:var(--gold);font-weight:500}
 .cal-racha-label{font-size:0.6875rem;color:var(--white3);margin-top:2px}
-.cal-sorteo{margin:0 16px 16px;padding:12px 14px;background:var(--black3);border-radius:var(--radius-sm);border:1px solid rgba(139,92,246,0.3)}
-.cal-sorteo-title{font-size:0.625rem;color:#a78bfa;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px}
-.cal-sorteo-num{font-family:'Cormorant Garamond',serif;font-size:1.75rem;color:#a78bfa;font-weight:500}
 .cal-sorteo-desc{font-size:0.625rem;color:var(--white3);margin-top:2px}
 /* ══ Acciones del Paso Diario: estrellas de restauración, guardar día, días guardados ══
    Integradas como pie de la tarjeta paso-card (ver .paso-actions más abajo).
@@ -3050,6 +3047,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     background:transparent;color:#f5f0e8;border:1px solid #c9a84c88;border-radius:8px;
     padding:5px 12px;font-weight:700;font-family:inherit;font-size:0.75rem;cursor:pointer;
   ">Restaurar racha</button>
+  <button onclick="adminAbrirInformeRacha()" style="
+    background:transparent;color:#f5f0e8;border:1px solid #c9a84c88;border-radius:8px;
+    padding:5px 12px;font-weight:700;font-family:inherit;font-size:0.75rem;cursor:pointer;
+  ">Informe mensual</button>
   <span id="admin-status" style="color:#c9a84c;font-size:0.6875rem;opacity:0.8;"></span>
   <button onclick="toggleAdminBar(false)" style="
     margin-left:auto;background:transparent;color:#c9a84c;border:1px solid #c9a84c55;border-radius:8px;
@@ -3083,6 +3084,30 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       <button onclick="adminCerrarRestauracionRacha()" style="background:transparent;color:#d6cec0;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;">Cancelar</button>
       <button id="admin-racha-revisar" onclick="adminConsultarRestauracionRacha()" style="background:#c9a84c;color:#16110a;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:pointer;">Revisar caso</button>
       <button id="admin-racha-confirmar" onclick="adminConfirmarRestauracionRacha()" disabled style="background:#60451c;color:#cbb77b;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:not-allowed;">Confirmar restauración</button>
+    </div>
+  </section>
+</div>
+
+<div id="admin-informe-racha-modal" hidden aria-hidden="true" style="
+  position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.72);padding:20px;
+  align-items:center;justify-content:center;font-family:'Outfit',sans-serif;
+">
+  <section role="dialog" aria-modal="true" aria-labelledby="admin-informe-racha-titulo" style="
+    width:min(100%,760px);max-height:calc(100vh - 40px);overflow:auto;background:#16110a;
+    border:1px solid #c9a84c88;border-radius:16px;padding:22px;color:#f5f0e8;box-shadow:0 20px 60px #000;
+  ">
+    <div style="font-size:.6875rem;letter-spacing:.14em;color:#c9a84c;font-weight:700;">ADMINISTRACIÓN</div>
+    <h2 id="admin-informe-racha-titulo" style="margin:7px 0 8px;font-family:'Cormorant Garamond',serif;font-size:1.75rem;">Informe mensual de rachas</h2>
+    <p style="margin:0 0 16px;color:#d6cec0;font-size:.875rem;line-height:1.5;">Consulta quién mantuvo la racha completa durante todos los días de un mes cerrado. El sorteo se realiza una sola vez por mes entre las personas elegibles y queda auditado.</p>
+    <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Mes cerrado</label>
+    <input id="admin-informe-mes" type="month" style="box-sizing:border-box;width:190px;margin-bottom:12px;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;">
+    <div id="admin-informe-estado" role="status" style="min-height:26px;margin:2px 0 12px;color:#d6cec0;font-size:.8125rem;line-height:1.45;"></div>
+    <div id="admin-informe-resultados" style="display:none;margin:0 0 14px;"></div>
+    <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
+      <button onclick="adminCerrarInformeRacha()" style="background:transparent;color:#d6cec0;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;">Cerrar</button>
+      <button id="admin-informe-exportar" onclick="adminExportarInformeRacha()" disabled style="background:transparent;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:not-allowed;">Exportar CSV</button>
+      <button id="admin-informe-sortear" onclick="adminSortearInformeRacha()" disabled style="background:#60451c;color:#cbb77b;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:not-allowed;">Sortear 1 ganador</button>
+      <button onclick="adminConsultarInformeRacha()" style="background:#c9a84c;color:#16110a;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:pointer;">Consultar</button>
     </div>
   </section>
 </div>
@@ -3250,6 +3275,130 @@ async function adminConfirmarRestauracionRacha(){
     adminRachaCasoVerificado=null;
   }catch(error){
     adminRachaEstado(error.message||'No se pudo aplicar la corrección.',true);
+  }
+}
+
+let adminInformeRachaActual=null;
+function adminInformeCampo(id){ return document.getElementById(id); }
+function adminInformeEstado(mensaje, esError=false){
+  const el=adminInformeCampo('admin-informe-estado');
+  if(!el) return;
+  el.textContent=mensaje;
+  el.style.color=esError ? '#ee9a86' : '#d6cec0';
+}
+function adminInformeBoton(id, habilitar){
+  const btn=adminInformeCampo(id);
+  if(!btn) return;
+  btn.disabled=!habilitar;
+  btn.style.background=habilitar && id==='admin-informe-sortear' ? '#c9a84c' : (id==='admin-informe-sortear' ? '#60451c' : 'transparent');
+  btn.style.color=habilitar && id==='admin-informe-sortear' ? '#16110a' : (habilitar ? '#f5f0e8' : '#cbb77b');
+  btn.style.cursor=habilitar ? 'pointer' : 'not-allowed';
+}
+function adminMesCerradoPredeterminado(){
+  const hoy=new Date();
+  hoy.setDate(1);
+  hoy.setMonth(hoy.getMonth()-1);
+  return `${hoy.getFullYear()}-${String(hoy.getMonth()+1).padStart(2,'0')}`;
+}
+function adminAbrirInformeRacha(){
+  if(!window.ADMIN_MODE) return;
+  const modal=adminInformeCampo('admin-informe-racha-modal');
+  if(!modal) return;
+  adminInformeRachaActual=null;
+  adminInformeCampo('admin-informe-mes').value=adminMesCerradoPredeterminado();
+  adminInformeCampo('admin-informe-resultados').style.display='none';
+  adminInformeCampo('admin-informe-resultados').innerHTML='';
+  adminInformeBoton('admin-informe-exportar',false);
+  adminInformeBoton('admin-informe-sortear',false);
+  adminInformeEstado('Elige un mes cerrado y consulta las rachas completas.');
+  modal.hidden=false;
+  modal.style.display='flex';
+  modal.setAttribute('aria-hidden','false');
+  setTimeout(()=>adminInformeCampo('admin-informe-mes')?.focus(),0);
+}
+function adminCerrarInformeRacha(){
+  const modal=adminInformeCampo('admin-informe-racha-modal');
+  if(!modal) return;
+  modal.hidden=true;
+  modal.style.display='none';
+  modal.setAttribute('aria-hidden','true');
+}
+function adminEscaparHtml(valor){
+  return String(valor||'').replace(/[&<>'"]/g, caracter=>({ '&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;' }[caracter]));
+}
+async function adminLlamarInformeRacha(action, extras={}){
+  const mes=String(adminInformeCampo('admin-informe-mes')?.value||'').trim();
+  if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(mes)) throw new Error('Elige un mes válido.');
+  const token=await window.FB?.getIdToken?.();
+  if(!token) throw new Error('Inicia sesión con la cuenta administradora autorizada.');
+  const res=await fetch('/.netlify/functions/reporte-racha-mensual',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},
+    body:JSON.stringify({action,mes,...extras})
+  });
+  const body=await res.json().catch(()=>({}));
+  if(!res.ok) throw new Error(body.error||'No se pudo consultar el informe.');
+  return body;
+}
+function adminRenderInformeRacha(reporte){
+  const host=adminInformeCampo('admin-informe-resultados');
+  if(!host) return;
+  const personas=Array.isArray(reporte?.participantes) ? reporte.participantes : [];
+  const sorteo=reporte?.sorteo;
+  const filas=personas.length
+    ? personas.map((persona,index)=>`<tr><td style="padding:8px;border-top:1px solid #80662955">${index+1}</td><td style="padding:8px;border-top:1px solid #80662955">${adminEscaparHtml(persona.nombre||'—')}</td><td style="padding:8px;border-top:1px solid #80662955">${adminEscaparHtml(persona.email||'Sin correo')}</td><td style="padding:8px;border-top:1px solid #80662955">${persona.diasAdministrados?.length||0}</td></tr>`).join('')
+    : '<tr><td colspan="4" style="padding:10px;border-top:1px solid #80662955;color:#d6cec0">Ninguna cuenta completó todos los días de este mes.</td></tr>';
+  const ganadores=sorteo?.ganadores?.length
+    ? `<div style="margin:12px 0 0;padding:10px 12px;background:#2c2310;border:1px solid #c9a84c77;border-radius:8px"><strong style="color:#e6c86b">Sorteo cerrado</strong><div style="margin-top:4px">${sorteo.ganadores.map(ganador=>adminEscaparHtml(ganador.nombre||ganador.email||'Cuenta sin correo')).join(', ')}</div></div>`
+    : '';
+  host.innerHTML=`<div style="display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 10px;color:#d6cec0;font-size:.8125rem"><span><strong style="color:#f5f0e8">${reporte.cuentasConDatos}</strong> cuentas con datos</span><span><strong style="color:#f5f0e8">${reporte.completaronMes}</strong> rachas completas de ${reporte.diasMes} días</span></div><div style="overflow:auto;border:1px solid #80662977;border-radius:8px"><table style="border-collapse:collapse;width:100%;min-width:540px;font-size:.8125rem"><thead style="color:#c9a84c;text-align:left"><tr><th style="padding:8px">#</th><th style="padding:8px">Nombre</th><th style="padding:8px">Correo</th><th style="padding:8px">Días admin.</th></tr></thead><tbody>${filas}</tbody></table></div>${ganadores}`;
+  host.style.display='block';
+}
+async function adminConsultarInformeRacha(){
+  try{
+    adminInformeRachaActual=null;
+    adminInformeBoton('admin-informe-exportar',false);
+    adminInformeBoton('admin-informe-sortear',false);
+    adminInformeEstado('Consultando rachas completas…');
+    const body=await adminLlamarInformeRacha('reporte');
+    adminInformeRachaActual=body.reporte;
+    adminRenderInformeRacha(body.reporte);
+    const participantes=body.reporte?.completaronMes||0;
+    adminInformeBoton('admin-informe-exportar',participantes>0);
+    adminInformeBoton('admin-informe-sortear',participantes>0 && !body.reporte?.sorteo);
+    adminInformeEstado(body.reporte?.sorteo ? 'El sorteo de este mes ya está cerrado y no puede repetirse.' : `Informe listo: ${participantes} persona(s) elegible(s).`);
+  }catch(error){
+    adminInformeEstado(error.message||'No se pudo consultar el informe.',true);
+  }
+}
+function adminCsvCampo(valor){ return '"'+String(valor??'').replace(/"/g,'""')+'"'; }
+function adminExportarInformeRacha(){
+  const reporte=adminInformeRachaActual;
+  if(!reporte?.participantes?.length) return;
+  const filas=[['Nombre','Correo','Mes','Días del mes','Días restaurados por administración']];
+  reporte.participantes.forEach(persona=>filas.push([persona.nombre||'',persona.email||'',reporte.mes,reporte.diasMes,(persona.diasAdministrados||[]).join(', ')]));
+  const csv='\ufeff'+filas.map(fila=>fila.map(adminCsvCampo).join(';')).join('\r\n');
+  const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
+  const enlace=document.createElement('a');
+  enlace.href=url;
+  enlace.download=`stars-racha-completa-${reporte.mes}.csv`;
+  enlace.click();
+  URL.revokeObjectURL(url);
+}
+async function adminSortearInformeRacha(){
+  const reporte=adminInformeRachaActual;
+  if(!reporte?.participantes?.length) return;
+  if(!confirm(`¿Cerrar el sorteo de ${reporte.mes} entre ${reporte.participantes.length} persona(s)? El resultado no podrá repetirse.`)) return;
+  try{
+    adminInformeBoton('admin-informe-sortear',false);
+    adminInformeEstado('Cerrando sorteo auditado…');
+    const body=await adminLlamarInformeRacha('sortear',{cantidad:1,confirmacion:'SORTEAR'});
+    adminInformeRachaActual=body.reporte;
+    adminRenderInformeRacha(body.reporte);
+    adminInformeBoton('admin-informe-exportar',true);
+    adminInformeEstado(body.creado ? '✓ Sorteo cerrado y auditado.' : 'Este mes ya tenía un sorteo cerrado; se muestra el resultado existente.');
+  }catch(error){
+    adminInformeEstado(error.message||'No se pudo cerrar el sorteo.',true);
   }
 }
 
@@ -4106,11 +4255,6 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <div>
           <div class="cal-racha-num" id="cal-racha-num">0</div>
           <div class="cal-racha-label">días consecutivos</div>
-        </div>
-        <div style="text-align:right">
-          <div style="font-size:0.625rem;color:var(--white3);margin-bottom:4px">Tu número de sorteo</div>
-          <div class="cal-sorteo-num" id="cal-sorteo-num" style="font-family:Cormorant Garamond,serif;font-size:1.75rem;color:#a78bfa;font-weight:500">--</div>
-          <div style="font-size:0.5625rem;color:var(--white3)" id="cal-sorteo-desc">Días completados este mes</div>
         </div>
       </div>
     </div>
@@ -8407,27 +8551,16 @@ function abrirBlog(){
   }
 }
 
-function generarNumSorteo(seed){
-  // Genera número de sorteo determinístico basado en uid + mes
-  const base = (seed || '0000').split('').reduce((a,c)=>a+c.charCodeAt(0),0);
-  return String((base * 7919) % 100).padStart(2,'0'); // 00-99
-}
-
 let _calTargetPrefix = 'cal';
 
 function calendarioHTML(prefix){
   return `
     <div style="max-width:620px;margin:0 auto">
       <div class="cal-racha-info" style="margin:0 0 14px">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:18px">
+        <div style="display:flex;align-items:flex-start;gap:18px">
           <div>
             <div class="cal-racha-num" id="${prefix}-racha-num">0</div>
             <div class="cal-racha-label">días consecutivos</div>
-          </div>
-          <div style="text-align:right">
-            <div style="font-size:0.625rem;color:var(--white3);margin-bottom:4px">Tu número de sorteo</div>
-            <div class="cal-sorteo-num" id="${prefix}-sorteo-num">--</div>
-            <div style="font-size:0.5625rem;color:var(--white3)" id="${prefix}-sorteo-desc">Días completados este mes</div>
           </div>
         </div>
       </div>
@@ -8449,31 +8582,6 @@ function calendarioHTML(prefix){
     </div>`;
 }
 
-function actualizarSorteoCalendario(prefix='cal'){
-  const mesAnterior = calMes === 0 ? 11 : calMes - 1;
-  const anioAnterior = calMes === 0 ? calAnio - 1 : calAnio;
-  const diasEnMesAnt = new Date(anioAnterior, mesAnterior+1, 0).getDate();
-  let mesAntCompleto = true;
-  for(let d=1; d<=diasEnMesAnt; d++){
-    const k = anioAnterior+'-'+String(mesAnterior+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
-    if(!isDayComplete(k)){ mesAntCompleto=false; break; }
-  }
-
-  const mesesNombres=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-  const sorteoEl  = document.getElementById(prefix+'-sorteo-num');
-  const sorteoDesc = document.getElementById(prefix+'-sorteo-desc');
-
-  if(mesAntCompleto && diasEnMesAnt > 0){
-    const seed = (window.FB ? window.FB.uid() : 'local') + anioAnterior + mesAnterior;
-    const num = generarNumSorteo(seed);
-    if(sorteoEl)  sorteoEl.textContent  = num;
-    if(sorteoDesc) sorteoDesc.textContent = '🎉 Número de sorteo — ' + mesesNombres[mesAnterior];
-  } else {
-    if(sorteoEl)  sorteoEl.textContent  = '--';
-    if(sorteoDesc) sorteoDesc.textContent = 'Completa todos los días del mes para participar';
-  }
-}
-
 function abrirCalendario(){
   reconciliarRachaConFinalizaciones();
   const ahora = window.ADMIN_DATE || new Date();
@@ -8487,7 +8595,6 @@ function abrirCalendario(){
     renderCalendario(_calTargetPrefix);
     updateRachaUI();
     if(diasCompletosPendientesDeRevision().length) setTimeout(()=>revisarRachaInconsistente(true),250);
-    actualizarSorteoCalendario(_calTargetPrefix);
     return;
   }
 
@@ -8495,7 +8602,6 @@ function abrirCalendario(){
   renderCalendario(_calTargetPrefix);
   updateRachaUI();
   if(diasCompletosPendientesDeRevision().length) setTimeout(()=>revisarRachaInconsistente(true),250);
-  actualizarSorteoCalendario(_calTargetPrefix);
   document.getElementById('cal-modal').classList.add('open');
   document.body.style.overflow='hidden';
 }
@@ -8510,7 +8616,6 @@ function cambiarMes(delta){
   if(calMes > 11){calMes=0;calAnio++;}
   if(calMes < 0){calMes=11;calAnio--;}
   renderCalendario(_calTargetPrefix);
-  actualizarSorteoCalendario(_calTargetPrefix);
 }
 
 function diaCompletado(yyyy,mm,dd){

@@ -40,3 +40,26 @@ nota opcional y estado antes/después.
 - No modifica contenido, estudios ni devocionales.
 - Cada restauración queda distinguida en `racha_excepciones_admin` y en la
   auditoría; no queda disfrazada como actividad ordinaria de la persona.
+
+## Informe mensual y sorteo administrativo
+
+La barra `⚙ ADMIN` también incluye **Informe mensual**. Solo la misma cuenta
+administradora autorizada puede consultar meses cerrados. El informe considera
+una racha mensual completa cuando los cinco pasos están completos y no hay una
+marca inválida en cada día calendario del mes.
+
+El informe muestra el total de cuentas con datos, las personas que completaron
+el mes, nombre, correo y fechas restauradas por administración. Permite exportar
+la lista a CSV desde el navegador.
+
+El antiguo número personal de sorteo fue retirado: se calculaba entre `00` y
+`99` desde UID+mes y podía repetirse. El botón **Sortear 1 ganador** toma las
+personas elegibles del mes, elige sin repetición en el servidor y cierra el
+resultado una sola vez. Se guarda en `sorteos_mensuales/{AAAA-MM}` junto con la
+cantidad de participantes, una huella SHA-256 del grupo elegible y el
+administrador que cerró el sorteo; la auditoría queda en `auditoria_sorteos`.
+
+El sorteo no está disponible para el mes en curso y no se puede repetir una vez
+cerrado. Antes de usarlo en producción, configurar las mismas dos variables
+privadas de Netlify indicadas arriba, redeplegar y probar con una cuenta o mes
+de prueba.
