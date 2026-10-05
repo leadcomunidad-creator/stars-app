@@ -2857,10 +2857,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v5_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v6_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v5_vista = '1';
-      fbSet({novedades_contenido_v5_vista:'1'});
+      _userData.novedades_contenido_v6_vista = '1';
+      fbSet({novedades_contenido_v6_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4257,16 +4257,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">¿Quién está dirigiendo tu camino?</h2>
-    <p class="novedades-intro">Esta semana caminaremos el Buen Camino con Jesús, aprenderemos a escuchar Su palabra, permaneceremos en ella y la pondremos en práctica:</p>
+    <h2 class="novedades-title" id="novedades-title">De adentro hacia afuera</h2>
+    <p class="novedades-intro">Esta semana iniciamos un nuevo recorrido y ampliamos las formas de profundizar en la Escritura.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Una nueva semana: El buen camino</div>
-        <p class="novedades-item-copy">Durante siete días veremos que Jesús no solo muestra una ruta: Él es el Camino. Su Palabra dirige, Su Reino ordena nuestras lealtades y Su Espíritu forma desde dentro una manera nueva de vivir.</p>
+        <div class="novedades-item-title">Esta semana: renovar la mente desde la Verdad</div>
+        <p class="novedades-item-copy">Durante siete días recorreremos Romanos 12, Efesios 4, Colosenses 3 y 2 Corintios para descubrir que renovar la mente no es controlar los pensamientos ni exigirte una versión mejor de ti mismo. La renovación comienza con la misericordia de Dios y forma desde dentro una nueva manera de discernir y responder.</p>
       </div>
     </div>
 
@@ -4275,8 +4275,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Una pregunta para llevar contigo</div>
-        <p class="novedades-item-copy">¿Qué significa caminar con Jesús cuando no puedes controlar toda la ruta? No buscamos dominar cada paso, sino aprender a escuchar, ceder la dirección y andar en la verdad que ya recibimos.</p>
+        <div class="novedades-item-title">Nuevos estudios e introducciones disponibles</div>
+        <p class="novedades-item-copy">Zona Estudio ahora incluye 1 Crónicas, 2 Crónicas, Esdras, Nehemías y Ester. Cada libro cuenta con sus estudios por capítulo y una introducción visual para ayudarte a reconocer su contexto, su lugar en la historia bíblica y el hilo que lo recorre.</p>
       </div>
     </div>
 
@@ -4285,8 +4285,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Profundiza en los textos de esta semana</div>
-        <p class="novedades-item-copy">Desde cada Paso Diario puedes abrir Estudios completos de Juan 14, Lucas 10, Salmo 23, Mateo 6, Mateo 11 y Jeremías 6, con lectura bíblica MSG + NBLA, contexto, recorrido, ideas, conexiones, preguntas y una orientación para llevar la verdad a la vida.</p>
+        <div class="novedades-item-title">Estudia el capítulo de hoy desde la portada</div>
+        <p class="novedades-item-copy">En la pantalla principal encontrarás el botón «Estudiar capítulo de hoy». Te lleva directamente al estudio bíblico relacionado con el Paso Diario que estás recorriendo, para que puedas pasar de la lectura a una exploración más profunda sin tener que buscarlo manualmente.</p>
       </div>
     </div>
 
@@ -4295,8 +4295,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">¿Sabías que puedes guardar tus días favoritos?</div>
-        <p class="novedades-item-copy">En S.T.A.R.S puedes guardar cualquier Paso Diario que quieras volver a leer. Toca «Guardar este día» y luego encuéntralo en «Días guardados», sin perder el hilo de tu recorrido semanal.</p>
+        <div class="novedades-item-title">Haz de S.T.A.R.S un espacio tuyo</div>
+        <p class="novedades-item-copy">Desde Configuración puedes adaptar la experiencia a tu manera de leer: ajusta el tamaño de letra, elige colores para la app y cambia el modo de visualización. Explora estas opciones para crear un espacio que te ayude a permanecer con calma y atención en la Escritura.</p>
       </div>
     </div>
 
@@ -8299,8 +8299,8 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v5_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v5_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v6_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v6_pospuesta';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
 
