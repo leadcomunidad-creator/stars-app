@@ -3045,6 +3045,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     background:#c9a84c;color:#0a0a0a;border:none;border-radius:8px;
     padding:5px 16px;font-weight:700;font-family:inherit;font-size:0.8125rem;cursor:pointer;
   ">Cargar</button>
+  <button onclick="adminAbrirRestauracionRacha()" style="
+    background:transparent;color:#f5f0e8;border:1px solid #c9a84c88;border-radius:8px;
+    padding:5px 12px;font-weight:700;font-family:inherit;font-size:0.75rem;cursor:pointer;
+  ">Restaurar racha</button>
   <span id="admin-status" style="color:#c9a84c;font-size:0.6875rem;opacity:0.8;"></span>
   <button onclick="toggleAdminBar(false)" style="
     margin-left:auto;background:transparent;color:#c9a84c;border:1px solid #c9a84c55;border-radius:8px;
@@ -3053,6 +3057,34 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   <span style="color:#3a2010;font-size:0.625rem;letter-spacing:0.08em;">MODO ADMINISTRADOR</span>
 </div>
 <div id="admin-spacer" style="display:none;height:46px"></div>
+
+<div id="admin-racha-modal" hidden aria-hidden="true" style="
+  position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.72);padding:20px;
+  align-items:center;justify-content:center;font-family:'Outfit',sans-serif;
+">
+  <section role="dialog" aria-modal="true" aria-labelledby="admin-racha-titulo" style="
+    width:min(100%,500px);max-height:calc(100vh - 40px);overflow:auto;background:#16110a;
+    border:1px solid #c9a84c88;border-radius:16px;padding:22px;color:#f5f0e8;box-shadow:0 20px 60px #000;
+  ">
+    <div style="font-size:.6875rem;letter-spacing:.14em;color:#c9a84c;font-weight:700;">ADMINISTRACIÓN EXCEPCIONAL</div>
+    <h2 id="admin-racha-titulo" style="margin:7px 0 8px;font-family:'Cormorant Garamond',serif;font-size:1.75rem;">Restaurar racha</h2>
+    <p style="margin:0 0 18px;color:#d6cec0;font-size:.875rem;line-height:1.5;">
+      Restaura cualquier fecha de la cuenta elegida. El día quedará completo por administración y la intervención se registrará en la auditoría.
+    </p>
+    <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Correo de la persona</label>
+    <input id="admin-racha-email" type="email" autocomplete="email" placeholder="persona@correo.com" style="box-sizing:border-box;width:100%;margin-bottom:14px;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;">
+    <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Fecha a corregir</label>
+    <input id="admin-racha-fecha" type="date" style="box-sizing:border-box;width:100%;margin-bottom:14px;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;">
+    <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Nota administrativa <span style="color:#978563;">(opcional)</span></label>
+    <textarea id="admin-racha-motivo" rows="3" maxlength="500" placeholder="Opcional: deja una nota para la auditoría." style="box-sizing:border-box;width:100%;margin-bottom:12px;resize:vertical;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;"></textarea>
+    <div id="admin-racha-estado" role="status" style="min-height:38px;margin:2px 0 14px;color:#d6cec0;font-size:.8125rem;line-height:1.45;"></div>
+    <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
+      <button onclick="adminCerrarRestauracionRacha()" style="background:transparent;color:#d6cec0;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;">Cancelar</button>
+      <button id="admin-racha-revisar" onclick="adminConsultarRestauracionRacha()" style="background:#c9a84c;color:#16110a;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:pointer;">Revisar caso</button>
+      <button id="admin-racha-confirmar" onclick="adminConfirmarRestauracionRacha()" disabled style="background:#60451c;color:#cbb77b;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:not-allowed;">Confirmar restauración</button>
+    </div>
+  </section>
+</div>
 
 <script>
 (function(){
@@ -3126,6 +3158,97 @@ function adminCargar(){
     setTimeout(()=>{
       document.getElementById('admin-status').textContent = '✓ ' + dateStr + ' · S' + w;
     }, 1500);
+  }
+}
+
+let adminRachaCasoVerificado = null;
+function adminRachaCampo(id){ return document.getElementById(id); }
+function adminRachaEstado(mensaje, esError=false){
+  const el=adminRachaCampo('admin-racha-estado');
+  if(!el) return;
+  el.textContent=mensaje;
+  el.style.color=esError ? '#ee9a86' : '#d6cec0';
+}
+function adminRachaHabilitarConfirmacion(habilitar){
+  const btn=adminRachaCampo('admin-racha-confirmar');
+  if(!btn) return;
+  btn.disabled=!habilitar;
+  btn.style.background=habilitar ? '#c9a84c' : '#60451c';
+  btn.style.color=habilitar ? '#16110a' : '#cbb77b';
+  btn.style.cursor=habilitar ? 'pointer' : 'not-allowed';
+}
+function adminAbrirRestauracionRacha(){
+  if(!window.ADMIN_MODE) return;
+  const modal=adminRachaCampo('admin-racha-modal');
+  if(!modal) return;
+  adminRachaCasoVerificado=null;
+  adminRachaHabilitarConfirmacion(false);
+  adminRachaEstado('Consulta la cuenta y la fecha para confirmar la restauración.');
+  modal.hidden=false;
+  modal.style.display='flex';
+  modal.setAttribute('aria-hidden','false');
+  setTimeout(()=>adminRachaCampo('admin-racha-email')?.focus(),0);
+}
+function adminCerrarRestauracionRacha(){
+  const modal=adminRachaCampo('admin-racha-modal');
+  if(!modal) return;
+  modal.hidden=true;
+  modal.style.display='none';
+  modal.setAttribute('aria-hidden','true');
+  adminRachaCasoVerificado=null;
+  adminRachaHabilitarConfirmacion(false);
+}
+function adminRachaDatosFormulario(){
+  return {
+    email:String(adminRachaCampo('admin-racha-email')?.value||'').trim(),
+    fecha:String(adminRachaCampo('admin-racha-fecha')?.value||'').trim(),
+    motivo:String(adminRachaCampo('admin-racha-motivo')?.value||'').trim()
+  };
+}
+async function adminLlamarRestauracionRacha(action, extras={}){
+  const datos={...adminRachaDatosFormulario(),action,...extras};
+  if(!datos.email || !datos.fecha) throw new Error('Ingresa el correo y la fecha a revisar.');
+  const token=await window.FB?.getIdToken?.();
+  if(!token) throw new Error('Inicia sesión con la cuenta administradora autorizada.');
+  const res=await fetch('/.netlify/functions/restaurar-racha-excepcional',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},
+    body:JSON.stringify(datos)
+  });
+  const body=await res.json().catch(()=>({}));
+  if(!res.ok) throw new Error(body.error||'No se pudo procesar la corrección.');
+  return body;
+}
+async function adminConsultarRestauracionRacha(){
+  try{
+    adminRachaCasoVerificado=null;
+    adminRachaHabilitarConfirmacion(false);
+    adminRachaEstado('Revisando el registro…');
+    const body=await adminLlamarRestauracionRacha('revisar');
+    const caso=body.caso||{};
+    adminRachaCasoVerificado={email:body.persona?.email||adminRachaDatosFormulario().email,fecha:caso.fecha};
+    adminRachaEstado(`Listo: se restaurará ${caso.fecha} para ${body.persona?.email||'la cuenta'}. Estado actual: ${caso.mensaje}. La acción quedará auditada.`);
+    adminRachaHabilitarConfirmacion(true);
+  }catch(error){
+    adminRachaEstado(error.message||'No se pudo revisar el caso.',true);
+  }
+}
+async function adminConfirmarRestauracionRacha(){
+  const datos=adminRachaDatosFormulario();
+  if(!adminRachaCasoVerificado || adminRachaCasoVerificado.email.toLowerCase()!==datos.email.toLowerCase() || adminRachaCasoVerificado.fecha!==datos.fecha){
+    adminRachaEstado('Vuelve a revisar el caso después de cambiar los datos.',true);
+    adminRachaHabilitarConfirmacion(false);
+    return;
+  }
+  if(!confirm(`¿Restaurar la racha de ${datos.email} para el ${datos.fecha}? Esta acción quedará registrada.`)) return;
+  try{
+    adminRachaHabilitarConfirmacion(false);
+    adminRachaEstado('Aplicando corrección auditada…');
+    const body=await adminLlamarRestauracionRacha('restaurar',{confirmacion:'RESTAURAR'});
+    adminRachaEstado(`✓ Racha restaurada. Auditoría: ${body.auditoriaId}.`);
+    adminRachaCasoVerificado=null;
+  }catch(error){
+    adminRachaEstado(error.message||'No se pudo aplicar la corrección.',true);
   }
 }
 
