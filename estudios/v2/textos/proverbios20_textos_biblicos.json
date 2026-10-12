@@ -1,0 +1,833 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría sabe cuándo no alimentar un conflicto. NBLA presenta evitar discusiones como honra; MSG lo relaciona con buen carácter. Ninguna de las dos invita a encubrir injusticia, sino a distinguir entre confrontación necesaria y pelea alimentada por ego.",
+      "id": "proverbios20-joya-01",
+      "msg": {
+        "en": "\"It’s a mark of good character to avert quarrels,\"",
+        "es": "\"Evitar las peleas es señal de buen carácter,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-03a"
+          ],
+          "verseId": "proverbios20-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3"
+    },
+    {
+      "explanation": "Hay comprensión que no aparece en la superficie. NBLA habla del consejo profundo que el entendido sabe extraer; MSG vuelve visible esa interioridad mediante la imagen de un pozo. La sabiduría incluye aprender a escuchar con paciencia hasta alcanzar lo que realmente está ocurriendo dentro de una persona.",
+      "id": "proverbios20-joya-02",
+      "msg": {
+        "en": "\"Knowing what is right is like deep water in the heart;\"",
+        "es": "\"Saber lo que es correcto es como agua profunda en el corazón;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-05a"
+          ],
+          "verseId": "proverbios20-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5"
+    },
+    {
+      "explanation": "Dios toma en serio la honestidad económica. NBLA nombra pesas y medidas desiguales; MSG actualiza la imagen hacia etiquetas y cuentas infladas. La doctrina no depende de la modernización de MSG: el ancla es que el SEÑOR rechaza prácticas comerciales diseñadas para engañar.",
+      "id": "proverbios20-joya-03",
+      "msg": {
+        "en": "\"are two things GOD hates.\"",
+        "es": "\"son dos cosas que DIOS detesta.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-10b"
+          ],
+          "verseId": "proverbios20-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10"
+    },
+    {
+      "explanation": "Los planes sabios reciben aportes antes de ejecutarse. NBLA une proyecto y consejo; MSG convierte el principio en una invitación directa a formar propósito escuchando. Pedir consejo no delega responsabilidad, pero protege de la autosuficiencia.",
+      "id": "proverbios20-joya-04",
+      "msg": {
+        "en": "\"Form your purpose by asking for counsel,\"",
+        "es": "\"Define tu propósito buscando consejo,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-18a"
+          ],
+          "verseId": "proverbios20-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "18"
+    },
+    {
+      "explanation": "El punto teológico es renunciar a la venganza personal y confiar en el SEÑOR. MSG expresa esa confianza con la imagen de ajustar cuentas; NBLA limita la conclusión al mandato de esperar y a la acción salvadora de Dios. No autoriza imaginar de qué manera Dios castigará a una persona concreta.",
+      "id": "proverbios20-joya-05",
+      "msg": {
+        "en": "\"Wait for GOD; he’ll settle the score.\"",
+        "es": "\"Espera en DIOS; Él ajustará las cuentas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-22b"
+          ],
+          "verseId": "proverbios20-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22"
+    },
+    {
+      "explanation": "La providencia divina rodea la vida humana incluso cuando nuestra comprensión es limitada. NBLA afirma que los pasos son ordenados por el SEÑOR; MSG acentúa nuestra dependencia. Esto no elimina decisión ni responsabilidad, sino la fantasía de control absoluto.",
+      "id": "proverbios20-joya-06",
+      "msg": {
+        "en": "\"The very steps we take come from GOD;\"",
+        "es": "\"Los mismos pasos que damos vienen de DIOS;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-24a"
+          ],
+          "verseId": "proverbios20-nbla-24"
+        }
+      ],
+      "order": 6,
+      "range": "24"
+    },
+    {
+      "explanation": "La autoridad se sostiene mejor por fidelidad y verdad que por fuerza o apariencia. NBLA habla de lo que guarda al rey; MSG lo formula como formación del buen liderazgo. El principio no idealiza a toda autoridad: establece el tipo de carácter que una autoridad sabia necesita.",
+      "id": "proverbios20-joya-07",
+      "msg": {
+        "en": "\"Love and truth form a good leader;\"",
+        "es": "\"El amor y la verdad forman a un buen líder;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios20-nbla-28a"
+          ],
+          "verseId": "proverbios20-nbla-28"
+        }
+      ],
+      "order": 7,
+      "range": "28"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 20,
+    "studyId": "proverbios-20"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios20-msg-01",
+      "msg": {
+        "en": "Wine makes you mean, beer makes you quarrelsome—\na staggering drunk is not much fun.",
+        "es": "El vino te vuelve agresivo, la cerveza te hace pendenciero; un borracho tambaleante no tiene nada de agradable."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios20-msg-02",
+      "msg": {
+        "en": "Quick-tempered leaders are like mad dogs—\ncross them and they bite your head off.",
+        "es": "Los líderes de mal genio son como perros rabiosos: si los provocas, te arrancan la cabeza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios20-msg-03",
+      "msg": {
+        "en": "It’s a mark of good character to avert quarrels,\nbut fools love to pick fights.",
+        "es": "Evitar las peleas es señal de buen carácter, pero a los necios les encanta buscarlas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios20-msg-04",
+      "msg": {
+        "en": "A farmer too lazy to plant in the spring\nhas nothing to harvest in the fall.",
+        "es": "El agricultor demasiado perezoso para sembrar en primavera no tiene nada que cosechar en otoño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios20-msg-05",
+      "msg": {
+        "en": "Knowing what is right is like deep water in the heart;\na wise person draws from the well within.",
+        "es": "Saber lo que es correcto es como agua profunda en el corazón; la persona sabia sabe sacarla del pozo interior."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios20-msg-06",
+      "msg": {
+        "en": "Lots of people claim to be loyal and loving,\nbut where on earth can you find one?",
+        "es": "Muchos dicen ser leales y afectuosos, pero ¿dónde se encuentra de verdad a alguien así?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios20-msg-07",
+      "msg": {
+        "en": "God-loyal people, living honest lives,\nmake it much easier for their children.",
+        "es": "Las personas leales a Dios, que viven con honestidad, les hacen la vida mucho más fácil a sus hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "proverbios20-msg-08",
+      "msg": {
+        "en": "Leaders who know their business and care\nkeep a sharp eye out for the shoddy and cheap,\nFor who among us can be trusted\nto be always diligent and honest?",
+        "es": "Los líderes que saben lo que hacen y se preocupan mantienen los ojos bien abiertos ante lo mal hecho y barato, porque ¿quién de nosotros puede afirmar que siempre es diligente y honesto?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-09"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios20-msg-09",
+      "msg": {
+        "en": "Switching price tags and padding the expense account\nare two things GOD hates.",
+        "es": "Cambiar etiquetas de precio e inflar la cuenta de gastos son dos cosas que DIOS detesta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-10"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios20-msg-10",
+      "msg": {
+        "en": "Young people eventually reveal by their actions\nif their motives are on the up and up.",
+        "es": "Con el tiempo, los jóvenes revelan por sus acciones si sus motivos son realmente rectos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-11"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios20-msg-11",
+      "msg": {
+        "en": "Ears that hear and eyes that see—\nwe get our basic equipment from GOD!",
+        "es": "Oídos que oyen y ojos que ven: ¡nuestro equipo básico viene de DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-12"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios20-msg-12",
+      "msg": {
+        "en": "Don’t be too fond of sleep; you’ll end up in the poorhouse.\nWake up and get up; then there’ll be food on the table.",
+        "es": "No te aficiones demasiado a dormir; terminarás en la pobreza. Despierta y levántate; entonces habrá comida en la mesa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-13"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios20-msg-13",
+      "msg": {
+        "en": "The shopper says, “That’s junk—I’ll take it off your hands,”\nthen goes off boasting of the bargain.",
+        "es": "El comprador dice: «Eso es basura; te lo quitaré de encima», y luego se va presumiendo del negocio que hizo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-14"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios20-msg-14",
+      "msg": {
+        "en": "Drinking from the beautiful chalice of knowledge\nis better than adorning oneself with gold and rare gems.",
+        "es": "Beber de la hermosa copa del conocimiento vale más que adornarse con oro y piedras preciosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-15"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios20-msg-15",
+      "msg": {
+        "en": "Hold tight to collateral on any loan to a stranger;\nbeware of accepting what a transient has pawned.",
+        "es": "Aférrate a la garantía de cualquier préstamo hecho a un desconocido; ten cuidado al aceptar lo que un forastero haya empeñado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-16"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios20-msg-16",
+      "msg": {
+        "en": "Stolen bread tastes sweet,\nbut soon your mouth is full of gravel.",
+        "es": "El pan robado sabe dulce, pero pronto tendrás la boca llena de grava."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-17"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios20-msg-17",
+      "msg": {
+        "en": "Form your purpose by asking for counsel,\nthen carry it out using all the help you can get.",
+        "es": "Define tu propósito buscando consejo, y luego llévalo a cabo usando toda la ayuda que puedas conseguir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-18"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios20-msg-18",
+      "msg": {
+        "en": "Gossips can’t keep secrets,\nso never confide in blabbermouths.",
+        "es": "Los chismosos no saben guardar secretos, así que nunca confíes nada a los bocones."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-19"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios20-msg-19",
+      "msg": {
+        "en": "Anyone who curses father and mother\nextinguishes light and exists benighted.",
+        "es": "Quien maldice a su padre y a su madre apaga su propia luz y queda viviendo en oscuridad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-20"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios20-msg-20",
+      "msg": {
+        "en": "A bonanza at the beginning\nis no guarantee of blessing at the end.",
+        "es": "Una fortuna repentina al principio no garantiza bendición al final."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-21"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios20-msg-21",
+      "msg": {
+        "en": "Don’t ever say, “I’ll get you for that!”\nWait for GOD; he’ll settle the score.",
+        "es": "Nunca digas: «¡Ya me las pagarás!». Espera en DIOS; Él ajustará las cuentas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-22"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios20-msg-22",
+      "msg": {
+        "en": "GOD hates cheating in the marketplace;\nrigged scales are an outrage.",
+        "es": "DIOS detesta las trampas en el mercado; las balanzas manipuladas son una atrocidad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-23"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios20-msg-23",
+      "msg": {
+        "en": "The very steps we take come from GOD;\notherwise how would we know where we’re going?",
+        "es": "Los mismos pasos que damos vienen de DIOS; de otro modo, ¿cómo sabríamos adónde vamos?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-24"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios20-msg-24",
+      "msg": {
+        "en": "An impulsive vow is a trap;\nlater you’ll wish you could get out of it.",
+        "es": "Un voto impulsivo es una trampa; después desearás poder salir de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-25"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios20-msg-25",
+      "msg": {
+        "en": "After careful scrutiny, a wise leader\nmakes a clean sweep of rebels and dolts.",
+        "es": "Después de examinar con cuidado, un líder sabio hace limpieza de rebeldes y necios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-26"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios20-msg-26",
+      "msg": {
+        "en": "GOD is in charge of human life,\nwatching and examining us inside and out.",
+        "es": "DIOS está a cargo de la vida humana, observándonos y examinándonos por dentro y por fuera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-27"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios20-msg-27",
+      "msg": {
+        "en": "Love and truth form a good leader;\nsound leadership is founded on loving integrity.",
+        "es": "El amor y la verdad forman a un buen líder; un liderazgo sólido se sostiene sobre una integridad llena de amor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-28"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios20-msg-28",
+      "msg": {
+        "en": "Youth may be admired for vigor,\nbut gray hair gives prestige to old age.",
+        "es": "La juventud puede ser admirada por su vigor, pero las canas dan prestigio a la vejez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-29"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios20-msg-29",
+      "msg": {
+        "en": "A good thrashing purges evil;\npunishment goes deep within us.",
+        "es": "Una buena paliza purga el mal; el castigo llega hasta lo más profundo de nosotros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios20-nbla-30"
+        }
+      ],
+      "order": 29
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios20-nbla-01",
+      "number": 1,
+      "text": "El vino es provocador, la bebida fuerte alborotadora,\nY cualquiera que con ellos se embriaga no es sabio."
+    },
+    {
+      "id": "proverbios20-nbla-02",
+      "number": 2,
+      "text": "Como rugido de león es el furor del rey,\nEl que lo provoca a ira pone en peligro su propia vida."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-03a",
+          "order": 1,
+          "text": "Es honra para el hombre evitar las discusiones,"
+        },
+        {
+          "id": "proverbios20-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero cualquier necio se enredará en ellas."
+        }
+      ],
+      "id": "proverbios20-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios20-nbla-04",
+      "number": 4,
+      "text": "Desde el otoño, el perezoso no ara,\nAsí que pide durante la cosecha, pero no hay nada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-05a",
+          "order": 1,
+          "text": "Como aguas profundas es el consejo en el corazón del hombre,"
+        },
+        {
+          "id": "proverbios20-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el hombre de entendimiento lo sacará."
+        }
+      ],
+      "id": "proverbios20-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "proverbios20-nbla-06",
+      "number": 6,
+      "text": "Muchos hombres proclaman su propia lealtad,\nPero un hombre digno de confianza, ¿quién lo hallará?"
+    },
+    {
+      "id": "proverbios20-nbla-07",
+      "number": 7,
+      "text": "El justo anda en su integridad;\n¡Cuán dichosos son sus hijos después de él!"
+    },
+    {
+      "id": "proverbios20-nbla-08",
+      "number": 8,
+      "text": "El rey que se sienta sobre el trono del juicio,\nDisipa con sus ojos todo mal."
+    },
+    {
+      "id": "proverbios20-nbla-09",
+      "number": 9,
+      "text": "¿Quién puede decir: «Yo he limpiado mi corazón,\nLimpio estoy de mi pecado»?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-10a",
+          "order": 1,
+          "text": "Pesas desiguales y medidas desiguales,"
+        },
+        {
+          "id": "proverbios20-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ambas cosas son abominables al SEÑOR."
+        }
+      ],
+      "id": "proverbios20-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "proverbios20-nbla-11",
+      "number": 11,
+      "text": "Aun por sus hechos un muchacho se da a conocer\nSi su conducta es pura y recta."
+    },
+    {
+      "id": "proverbios20-nbla-12",
+      "number": 12,
+      "text": "El oído que oye y el ojo que ve,\nAmbos los ha hecho el SEÑOR."
+    },
+    {
+      "id": "proverbios20-nbla-13",
+      "number": 13,
+      "text": "No ames el sueño, no sea que te empobrezcas;\nAbre tus ojos y te saciarás de pan."
+    },
+    {
+      "id": "proverbios20-nbla-14",
+      "number": 14,
+      "text": "«Malo, malo», dice el comprador,\nPero cuando se marcha, entonces se jacta."
+    },
+    {
+      "id": "proverbios20-nbla-15",
+      "number": 15,
+      "text": "Hay oro y abundancia de joyas,\nPero cosa más preciosa son los labios con conocimiento."
+    },
+    {
+      "id": "proverbios20-nbla-16",
+      "number": 16,
+      "text": "Tómale la ropa al que sale fiador del extraño;\nY tómale prenda por los extranjeros."
+    },
+    {
+      "id": "proverbios20-nbla-17",
+      "number": 17,
+      "text": "El pan obtenido con falsedad es dulce al hombre,\nPero después su boca se llenará de grava."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-18a",
+          "order": 1,
+          "text": "Los proyectos con consejo se preparan,"
+        },
+        {
+          "id": "proverbios20-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y con dirección sabia se hace la guerra."
+        }
+      ],
+      "id": "proverbios20-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "proverbios20-nbla-19",
+      "number": 19,
+      "text": "El que anda murmurando revela secretos,\nPor tanto, no te asocies con el chismoso."
+    },
+    {
+      "id": "proverbios20-nbla-20",
+      "number": 20,
+      "text": "Al que maldice a su padre o a su madre,\nSe le apagará su lámpara en medio de las tinieblas."
+    },
+    {
+      "id": "proverbios20-nbla-21",
+      "number": 21,
+      "text": "La herencia adquirida de prisa al principio,\nNo será bendecida al final."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-22a",
+          "order": 1,
+          "text": "No digas: «Yo pagaré mal por mal»;"
+        },
+        {
+          "id": "proverbios20-nbla-22b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Espera en el SEÑOR, y Él te salvará."
+        }
+      ],
+      "id": "proverbios20-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "proverbios20-nbla-23",
+      "number": 23,
+      "text": "Pesas desiguales son abominación al SEÑOR,\nY no está bien usar una balanza falsa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-24a",
+          "order": 1,
+          "text": "Por el SEÑOR son ordenados los pasos del hombre,"
+        },
+        {
+          "id": "proverbios20-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Cómo puede, pues, el hombre entender su camino?"
+        }
+      ],
+      "id": "proverbios20-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "proverbios20-nbla-25",
+      "number": 25,
+      "text": "Lazo es para el hombre decir a la ligera: «Es santo»,\nY después de los votos investigar."
+    },
+    {
+      "id": "proverbios20-nbla-26",
+      "number": 26,
+      "text": "El rey sabio avienta a los impíos,\nY hace pasar la rueda de trillar sobre ellos."
+    },
+    {
+      "id": "proverbios20-nbla-27",
+      "number": 27,
+      "text": "Lámpara del SEÑOR es el espíritu del hombre\nQue escudriña lo más profundo de su ser."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios20-nbla-28a",
+          "order": 1,
+          "text": "Lealtad y verdad guardan al rey,"
+        },
+        {
+          "id": "proverbios20-nbla-28b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y por la justicia sostiene su trono."
+        }
+      ],
+      "id": "proverbios20-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "proverbios20-nbla-29",
+      "number": 29,
+      "text": "La gloria de los jóvenes es su fuerza,\nY la honra de los ancianos, sus canas."
+    },
+    {
+      "id": "proverbios20-nbla-30",
+      "number": 30,
+      "text": "Los azotes que hieren limpian del mal,\nY los golpes llegan a lo más profundo del cuerpo."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

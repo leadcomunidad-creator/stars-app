@@ -1,0 +1,503 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La vida humana se desarrolla dentro de tiempos que no inventamos. La NBLA fija la idea de un tiempo señalado para los sucesos; MSG la vuelve inmediata con «un tiempo adecuado». La verdad teológica no es que cada acción sea moralmente correcta, sino que la criatura vive dentro de una temporalidad que exige discernimiento y dependencia.",
+      "id": "eclesiastes3-joya-01",
+      "msg": {
+        "en": "\"a right time for everything on the earth\"",
+        "es": "\"un tiempo adecuado para todo lo que ocurre en la tierra\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-01b"
+          ],
+          "verseId": "eclesiastes3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios posee una perspectiva temporal que el ser humano no puede abarcar. La NBLA protege el sentido con «apropiado», evitando reducir el versículo a una afirmación estética sobre todo acontecimiento. MSG comunica la armonía de la obra de Dios. La conclusión correcta es confianza en Su sabiduría, no la negación del dolor o del mal.",
+      "id": "eclesiastes3-joya-02",
+      "msg": {
+        "en": "\"God made everything beautiful in itself and in its time\"",
+        "es": "\"Dios hizo cada cosa hermosa en sí misma y en su tiempo\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-11a"
+          ],
+          "verseId": "eclesiastes3-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "9-13"
+    },
+    {
+      "explanation": "El gozo en el trabajo y en los bienes cotidianos no aparece como una recompensa que el ser humano controla, sino como don. La NBLA fija esa procedencia; MSG la vuelve confesión sencilla. Recibir la vida como regalo cambia la postura del corazón: del derecho exigido a la gratitud responsable.",
+      "id": "eclesiastes3-joya-03",
+      "msg": {
+        "en": "\"It’s God’s gift.\"",
+        "es": "\"Es un regalo de Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-13b"
+          ],
+          "verseId": "eclesiastes3-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "9-13"
+    },
+    {
+      "explanation": "La permanencia pertenece a la obra de Dios, no a nuestros proyectos. La NBLA expresa directamente su carácter perpetuo; MSG lo acerca al lenguaje cotidiano. Esta verdad da estabilidad sin otorgarnos control: podemos confiar en Dios precisamente porque Su obra no depende de nuestra capacidad para completarla.",
+      "id": "eclesiastes3-joya-04",
+      "msg": {
+        "en": "\"whatever God does, that’s the way it’s going to be, always\"",
+        "es": "\"lo que Dios hace permanece; así será siempre\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-14b"
+          ],
+          "verseId": "eclesiastes3-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "14"
+    },
+    {
+      "explanation": "La providencia bíblica no llama bueno a todo lo que sucede. La corrupción del juicio humano será juzgada por Dios. La NBLA fija el contraste justo/impío y MSG conserva la misma afirmación. Esta promesa sostiene la responsabilidad ética: el tiempo de la injusticia no equivale a aprobación divina.",
+      "id": "eclesiastes3-joya-05",
+      "msg": {
+        "en": "\"God will judge righteous and wicked.\"",
+        "es": "\"Dios juzgará tanto al justo como al malvado\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-17b"
+          ],
+          "verseId": "eclesiastes3-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-18"
+    },
+    {
+      "explanation": "La mortalidad derriba la arrogancia de la criatura. La NBLA conserva el vínculo con el polvo y MSG lo expresa como destino común. El texto no pretende agotar aquí toda la enseñanza bíblica sobre la vida futura; dentro del argumento de Eclesiastés, obliga al ser humano a reconocer que no posee en sí mismo una ventaja capaz de vencer la muerte.",
+      "id": "eclesiastes3-joya-06",
+      "msg": {
+        "en": "\"we all came from dust, we all end up as dust\"",
+        "es": "\"todos venimos del polvo y todos volvemos al polvo\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes3-nbla-20b"
+          ],
+          "verseId": "eclesiastes3-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "19-22"
+    }
+  ],
+  "meta": {
+    "book": "ECLESIASTÉS",
+    "bookId": "eclesiastes",
+    "chapter": 3,
+    "studyId": "eclesiastes-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "eclesiastes3-msg-01",
+      "msg": {
+        "en": "There’s an opportune time to do things, a right time for everything on the earth:",
+        "es": "Hay un momento oportuno para hacer las cosas, un tiempo adecuado para todo lo que ocurre en la tierra:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-8",
+      "id": "eclesiastes3-msg-02",
+      "msg": {
+        "en": "A right time for birth and another for death,\nA right time to plant and another to reap,\nA right time to kill and another to heal,\nA right time to destroy and another to construct,\nA right time to cry and another to laugh,\nA right time to lament and another to cheer,\nA right time to make love and another to abstain,\nA right time to embrace and another to part,\nA right time to search and another to count your losses,\nA right time to hold on and another to let go,\nA right time to rip out and another to mend,\nA right time to shut up and another to speak up,\nA right time to love and another to hate,\nA right time to wage war and another to make peace.",
+        "es": "Un tiempo adecuado para nacer y otro para morir,\nun tiempo adecuado para plantar y otro para cosechar,\nun tiempo adecuado para matar y otro para sanar,\nun tiempo adecuado para destruir y otro para construir,\nun tiempo adecuado para llorar y otro para reír,\nun tiempo adecuado para lamentarse y otro para celebrar,\nun tiempo adecuado para hacer el amor y otro para abstenerse,\nun tiempo adecuado para abrazar y otro para separarse,\nun tiempo adecuado para buscar y otro para aceptar las pérdidas,\nun tiempo adecuado para aferrarse y otro para soltar,\nun tiempo adecuado para rasgar y otro para remendar,\nun tiempo adecuado para callar y otro para hablar,\nun tiempo adecuado para amar y otro para odiar,\nun tiempo adecuado para hacer la guerra y otro para hacer la paz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-13",
+      "id": "eclesiastes3-msg-03",
+      "msg": {
+        "en": "But in the end, does it really make a difference what anyone does? I’ve had a good look at what God has given us to do—busywork, mostly. True, God made everything beautiful in itself and in its time—but he’s left us in the dark, so we can never know what God is up to, whether he’s coming or going. I’ve decided that there’s nothing better to do than go ahead and have a good time and get the most we can out of life. That’s it—eat, drink, and make the most of your job. It’s God’s gift.",
+        "es": "Pero, al final, ¿realmente hace una diferencia todo lo que hacemos? He mirado de cerca la tarea que Dios nos ha dado: muchas veces parece puro trajín. Es verdad, Dios hizo cada cosa hermosa en sí misma y en su tiempo, pero no nos ha dado acceso a todo lo que Él está haciendo; nunca alcanzamos a abarcar Su obra de principio a fin. He llegado a la conclusión de que no hay nada mejor que alegrarnos y aprovechar bien la vida. Eso es: comer, beber y sacar lo mejor de nuestro trabajo. Es un regalo de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-13"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "14",
+      "id": "eclesiastes3-msg-04",
+      "msg": {
+        "en": "I’ve also concluded that whatever God does, that’s the way it’s going to be, always. No addition, no subtraction. God’s done it and that’s it. That’s so we’ll quit asking questions and simply worship in holy fear.",
+        "es": "También he llegado a esta conclusión: lo que Dios hace permanece; así será siempre. No hay nada que añadir ni nada que quitar. Dios lo ha hecho, y eso es definitivo. Lo hace para que dejemos de vivir como si pudiéramos controlarlo todo y aprendamos a adorarlo con santo temor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15",
+      "id": "eclesiastes3-msg-05",
+      "msg": {
+        "en": "Whatever was, is.\nWhatever will be, is.\nThat’s how it always is with God.",
+        "es": "Lo que fue, es.\nLo que será, ya es.\nAsí es siempre con Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-15"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "eclesiastes3-msg-06",
+      "msg": {
+        "en": "I took another good look at what’s going on: The very place of judgment—corrupt! The place of righteousness—corrupt! I said to myself, “God will judge righteous and wicked.” There’s a right time for every thing, every deed—and there’s no getting around it. I said to myself regarding the human race, “God’s testing the lot of us, showing us up as nothing but animals.”",
+        "es": "Volví a mirar con atención lo que está pasando: ¡el mismo lugar del juicio está corrompido! ¡El lugar de la justicia está corrompido! Me dije: «Dios juzgará tanto al justo como al malvado». Hay un tiempo adecuado para cada cosa y para cada acción, y nadie puede escapar de eso. También me dije acerca de la raza humana: «Dios nos está poniendo a prueba a todos, dejando al descubierto que no somos más que animales»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-18"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "19-22",
+      "id": "eclesiastes3-msg-07",
+      "msg": {
+        "en": "Humans and animals come to the same end—humans die, animals die. We all breathe the same air. So there’s really no advantage in being human. None. Everything’s smoke. We all end up in the same place—we all came from dust, we all end up as dust. Nobody knows for sure that the human spirit rises to heaven or that the animal spirit sinks into the earth. So I made up my mind that there’s nothing better for us men and women than to have a good time in whatever we do—that’s our lot. Who knows if there’s anything else to life?",
+        "es": "Los seres humanos y los animales llegan al mismo final: mueren los humanos y mueren los animales. Todos respiramos el mismo aire. Así que, visto desde aquí, el ser humano no tiene ninguna ventaja. Ninguna. Todo es humo. Todos terminamos en el mismo lugar: todos venimos del polvo y todos volvemos al polvo. ¿Quién puede demostrar, desde lo que vemos bajo el sol, que el espíritu humano sube y el del animal baja a la tierra? Así que tomé una decisión: no hay nada mejor para hombres y mujeres que disfrutar el bien de lo que hacen; esa es la porción que tienen. ¿Quién puede hacerles ver lo que vendrá después?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes3-nbla-22"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-01a",
+          "order": 1,
+          "text": "Hay un tiempo señalado para todo, y"
+        },
+        {
+          "id": "eclesiastes3-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "hay un tiempo para cada suceso bajo el cielo:"
+        }
+      ],
+      "id": "eclesiastes3-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "eclesiastes3-nbla-02",
+      "number": 2,
+      "text": "Tiempo de nacer, y tiempo de morir;\nTiempo de plantar, y tiempo de arrancar lo plantado;"
+    },
+    {
+      "id": "eclesiastes3-nbla-03",
+      "number": 3,
+      "text": "Tiempo de matar, y tiempo de curar;\nTiempo de derribar, y tiempo de edificar;"
+    },
+    {
+      "id": "eclesiastes3-nbla-04",
+      "number": 4,
+      "text": "Tiempo de llorar, y tiempo de reír;\nTiempo de lamentarse, y tiempo de bailar;"
+    },
+    {
+      "id": "eclesiastes3-nbla-05",
+      "number": 5,
+      "text": "Tiempo de lanzar piedras, y tiempo de recoger piedras;\nTiempo de abrazar, y tiempo de rechazar el abrazo;"
+    },
+    {
+      "id": "eclesiastes3-nbla-06",
+      "number": 6,
+      "text": "Tiempo de buscar, y tiempo de dar por perdido;\nTiempo de guardar, y tiempo de desechar;"
+    },
+    {
+      "id": "eclesiastes3-nbla-07",
+      "number": 7,
+      "text": "Tiempo de rasgar, y tiempo de coser;\nTiempo de callar, y tiempo de hablar;"
+    },
+    {
+      "id": "eclesiastes3-nbla-08",
+      "number": 8,
+      "text": "Tiempo de amar, y tiempo de odiar;\nTiempo de guerra, y tiempo de paz."
+    },
+    {
+      "id": "eclesiastes3-nbla-09",
+      "number": 9,
+      "text": "¿Qué saca el trabajador de aquello en que se afana?"
+    },
+    {
+      "id": "eclesiastes3-nbla-10",
+      "number": 10,
+      "text": "He visto la tarea que Dios ha dado a los hijos de los hombres para que en ella se ocupen."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-11a",
+          "order": 1,
+          "text": "Él ha hecho todo apropiado a su tiempo"
+        },
+        {
+          "id": "eclesiastes3-nbla-11b",
+          "order": 2,
+          "text": ". También ha puesto la eternidad en sus corazones, sin embargo el hombre no descubre la obra que Dios ha hecho desde el principio hasta el fin."
+        }
+      ],
+      "id": "eclesiastes3-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "eclesiastes3-nbla-12",
+      "number": 12,
+      "text": "Sé que no hay nada mejor para ellos que regocijarse y hacer el bien en su vida;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-13a",
+          "order": 1,
+          "text": "además, sé que todo hombre que coma y beba y vea lo bueno en todo su trabajo, que"
+        },
+        {
+          "id": "eclesiastes3-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "eso es don de Dios."
+        }
+      ],
+      "id": "eclesiastes3-nbla-13",
+      "number": 13
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-14a",
+          "order": 1,
+          "text": "Sé que"
+        },
+        {
+          "id": "eclesiastes3-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todo lo que Dios hace será perpetuo"
+        },
+        {
+          "id": "eclesiastes3-nbla-14c",
+          "order": 3,
+          "text": ";\nNo hay nada que añadirle\nY no hay nada que quitarle.\nDios ha obrado así\nPara que delante de Él teman los hombres."
+        }
+      ],
+      "id": "eclesiastes3-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "eclesiastes3-nbla-15",
+      "number": 15,
+      "text": "Lo que es, ya ha sido,\nY lo que será, ya fue,\nPorque Dios busca lo que ha pasado."
+    },
+    {
+      "id": "eclesiastes3-nbla-16",
+      "number": 16,
+      "text": "Aun he visto más bajo el sol:\nQue en el lugar del derecho está la impiedad,\nY en el lugar de la justicia está la iniquidad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-17a",
+          "order": 1,
+          "text": "Yo me dije:\n«"
+        },
+        {
+          "id": "eclesiastes3-nbla-17b",
+          "order": 2,
+          "text": "Al justo como al impío juzgará Dios"
+        },
+        {
+          "id": "eclesiastes3-nbla-17c",
+          "order": 3,
+          "text": "»,\nPorque hay un tiempo para cada cosa y para cada obra."
+        }
+      ],
+      "id": "eclesiastes3-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "eclesiastes3-nbla-18",
+      "number": 18,
+      "text": "Me dije también en cuanto a los hijos de los hombres: «Ciertamente Dios los ha probado para que vean que son como los animales»."
+    },
+    {
+      "id": "eclesiastes3-nbla-19",
+      "number": 19,
+      "text": "Porque la suerte de los hijos de los hombres y la suerte de los animales es la misma: como muere el uno así muere el otro. Todos tienen un mismo aliento de vida; el hombre no tiene ventaja sobre los animales, porque todo es vanidad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes3-nbla-20a",
+          "order": 1,
+          "text": "Todos van a un mismo lugar."
+        },
+        {
+          "id": "eclesiastes3-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Todos han salido del polvo"
+        },
+        {
+          "id": "eclesiastes3-nbla-20c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y todos vuelven al polvo."
+        }
+      ],
+      "id": "eclesiastes3-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "eclesiastes3-nbla-21",
+      "number": 21,
+      "text": "¿Quién sabe si el aliento de vida del hombre asciende hacia arriba y el aliento de vida del animal desciende hacia abajo, a la tierra?"
+    },
+    {
+      "id": "eclesiastes3-nbla-22",
+      "number": 22,
+      "text": "He visto que no hay nada mejor para el hombre que gozarse en sus obras, porque esa es su suerte. Porque ¿quién le hará ver lo que ha de suceder después de él?"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

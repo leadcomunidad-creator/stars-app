@@ -1,0 +1,824 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La integridad tiene un valor que el dinero no puede reemplazar. NBLA habla de andar en integridad; MSG lo vuelve la sencillez de ser honesto. El proverbio no afirma que pobreza sea virtud en sí misma, sino que riqueza sin confiabilidad es una pérdida más profunda.",
+      "id": "proverbios19-joya-01",
+      "msg": {
+        "en": "\"Better to be poor and honest\"",
+        "es": "\"Mejor ser pobre y honesto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-01a"
+          ],
+          "verseId": "proverbios19-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La energía sin comprensión no basta. NBLA afirma que carecer de conocimiento no es bueno y vincula prisa con pecado; MSG llama inútil al celo ignorante. La sabiduría no desprecia pasión: la somete a verdad y aprendizaje.",
+      "id": "proverbios19-joya-02",
+      "msg": {
+        "en": "\"Ignorant zeal is worthless;\"",
+        "es": "\"El entusiasmo sin conocimiento no sirve de nada;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-02a"
+          ],
+          "verseId": "proverbios19-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "NBLA habla de pasar por alto una ofensa; MSG añade el lenguaje de perdonar y dejar atrás. El principio es no quedar gobernados por cada agravio. No significa negar patrones abusivos ni renunciar a límites justos.",
+      "id": "proverbios19-joya-03",
+      "msg": {
+        "en": "\"their grandeur is to forgive and forget.\"",
+        "es": "\"su grandeza está en perdonar y dejar atrás la ofensa.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-11b"
+          ],
+          "verseId": "proverbios19-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "La imagen comunica cuánto valora Dios la misericordia. No convierte la generosidad en un mecanismo de interés garantizado; afirma que el SEÑOR toma en serio el bien hecho al pobre y que esa acción no es invisible para Él.",
+      "id": "proverbios19-joya-04",
+      "msg": {
+        "en": "\"Mercy to the needy is a loan to GOD,\"",
+        "es": "\"La misericordia con el necesitado es un préstamo a DIOS,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-17a"
+          ],
+          "verseId": "proverbios19-nbla-17"
+        }
+      ],
+      "order": 4,
+      "range": "17"
+    },
+    {
+      "explanation": "La madurez no es dejar de necesitar corrección. NBLA orienta hacia sabiduría para el resto de los días; MSG lo presenta como camino para vivir bien. Escuchar consejo mantiene el futuro abierto a una versión más sabia de nosotros mismos.",
+      "id": "proverbios19-joya-05",
+      "msg": {
+        "en": "\"Take good counsel and accept correction—\"",
+        "es": "\"Recibe buen consejo y acepta la corrección:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-20a"
+          ],
+          "verseId": "proverbios19-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "20"
+    },
+    {
+      "explanation": "La soberanía de Dios relativiza nuestros planes sin volverlos irrelevantes. NBLA dice que Su consejo permanece; MSG habla de propósito que prevalece. La respuesta sabia es planear con diligencia y humildad, no resignarse ni intentar controlar todo.",
+      "id": "proverbios19-joya-06",
+      "msg": {
+        "en": "\"but GOD’S purpose prevails.\"",
+        "es": "\"pero el propósito de DIOS prevalece.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-21b"
+          ],
+          "verseId": "proverbios19-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "21"
+    },
+    {
+      "explanation": "El temor del SEÑOR orienta hacia vida y satisfacción. MSG intensifica la imagen como vida misma y añade serenidad. No debe leerse como garantía de ausencia total de sufrimiento; Job y el resto de la Escritura impiden convertir un patrón sapiencial en promesa mecánica.",
+      "id": "proverbios19-joya-07",
+      "msg": {
+        "en": "\"Fear-of-GOD is life itself,\"",
+        "es": "\"El temor de DIOS es la vida misma:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios19-nbla-23a"
+          ],
+          "verseId": "proverbios19-nbla-23"
+        }
+      ],
+      "order": 7,
+      "range": "23"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 19,
+    "studyId": "proverbios-19"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios19-msg-01",
+      "msg": {
+        "en": "Better to be poor and honest\nthan a rich person no one can trust.",
+        "es": "Mejor ser pobre y honesto que una persona rica en quien nadie puede confiar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios19-msg-02",
+      "msg": {
+        "en": "Ignorant zeal is worthless;\nhaste makes waste.",
+        "es": "El entusiasmo sin conocimiento no sirve de nada; la prisa lleva al desperdicio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios19-msg-03",
+      "msg": {
+        "en": "People ruin their lives by their own stupidity,\nso why does GOD always get blamed?",
+        "es": "La gente arruina su vida por su propia estupidez; entonces, ¿por qué siempre termina culpando a DIOS?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios19-msg-04",
+      "msg": {
+        "en": "Wealth attracts friends as honey draws flies,\nbut poor people are avoided like a plague.",
+        "es": "La riqueza atrae amigos como la miel atrae moscas, pero a los pobres los evitan como a una plaga."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios19-msg-05",
+      "msg": {
+        "en": "Perjury won’t go unpunished.\nWould you let a liar go free?",
+        "es": "El perjurio no quedará sin castigo. ¿Dejarías libre a un mentiroso?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios19-msg-06",
+      "msg": {
+        "en": "Lots of people flock around a generous person;\neveryone’s a friend to the philanthropist.",
+        "es": "Muchísima gente rodea a una persona generosa; todos son amigos del filántropo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios19-msg-07",
+      "msg": {
+        "en": "When you’re down on your luck, even your family avoids you—\nyes, even your best friends wish you’d get lost.\nIf they see you coming, they look the other way—\nout of sight, out of mind.",
+        "es": "Cuando estás en mala racha, hasta tu familia te evita; sí, incluso tus mejores amigos quisieran que desaparecieras. Si te ven venir, miran hacia otro lado: ojos que no ven, corazón que no siente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios19-msg-08",
+      "msg": {
+        "en": "Grow a wise heart—you’ll do yourself a favor;\nkeep a clear head—you’ll find a good life.",
+        "es": "Cultiva un corazón sabio y te harás un favor; mantén la cabeza despejada y encontrarás una buena vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios19-msg-09",
+      "msg": {
+        "en": "The person who tells lies gets caught;\nthe person who spreads rumors is ruined.",
+        "es": "La persona que dice mentiras queda atrapada; la persona que esparce rumores termina arruinada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios19-msg-10",
+      "msg": {
+        "en": "Blockheads shouldn’t live on easy street\nany more than workers should give orders to their boss.",
+        "es": "Los cabezas huecas no deberían vivir rodeados de comodidades, como tampoco los trabajadores deberían dar órdenes a su jefe."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios19-msg-11",
+      "msg": {
+        "en": "Smart people know how to hold their tongue;\ntheir grandeur is to forgive and forget.",
+        "es": "La gente inteligente sabe contener la lengua; su grandeza está en perdonar y dejar atrás la ofensa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios19-msg-12",
+      "msg": {
+        "en": "Mean-tempered leaders are like mad dogs;\nthe good-natured are like fresh morning dew.",
+        "es": "Los líderes malhumorados son como perros rabiosos; los de buen carácter son como el rocío fresco de la mañana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios19-msg-13",
+      "msg": {
+        "en": "A parent is worn to a frazzle by a stupid child;\na nagging spouse is a leaky faucet.",
+        "es": "Un padre queda agotado por un hijo necio; un cónyuge que vive reclamando es como una llave que gotea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios19-msg-14",
+      "msg": {
+        "en": "House and land are handed down from parents,\nbut a congenial spouse comes straight from GOD.",
+        "es": "Casa y terreno se heredan de los padres, pero un cónyuge compatible viene directamente de DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios19-msg-15",
+      "msg": {
+        "en": "Life collapses on loafers;\nlazybones go hungry.",
+        "es": "La vida se derrumba para los holgazanes; los perezosos pasan hambre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios19-msg-16",
+      "msg": {
+        "en": "Keep the rules and keep your life;\ncareless living kills.",
+        "es": "Guarda las reglas y conservarás tu vida; vivir sin cuidado mata."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios19-msg-17",
+      "msg": {
+        "en": "Mercy to the needy is a loan to GOD,\nand GOD pays back those loans in full.",
+        "es": "La misericordia con el necesitado es un préstamo a DIOS, y DIOS paga esos préstamos por completo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios19-msg-18",
+      "msg": {
+        "en": "Discipline your children while you still have the chance;\nindulging them destroys them.",
+        "es": "Disciplina a tus hijos mientras aún tengas oportunidad; consentirlos los destruye."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios19-msg-19",
+      "msg": {
+        "en": "Let angry people endure the backlash of their own anger;\nif you try to make it better, you’ll only make it worse.",
+        "es": "Deja que la gente iracunda soporte las consecuencias de su propia ira; si intentas arreglarlo por ellos, solo tendrás que volver a hacerlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios19-msg-20",
+      "msg": {
+        "en": "Take good counsel and accept correction—\nthat’s the way to live wisely and well.",
+        "es": "Recibe buen consejo y acepta la corrección: ese es el camino para vivir con sabiduría y bien."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios19-msg-21",
+      "msg": {
+        "en": "We humans keep brainstorming options and plans,\nbut GOD’S purpose prevails.",
+        "es": "Los seres humanos seguimos imaginando opciones y planes, pero el propósito de DIOS prevalece."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios19-msg-22",
+      "msg": {
+        "en": "It’s only human to want to make a buck,\nbut it’s better to be poor than a liar.",
+        "es": "Es muy humano querer ganar dinero, pero es mejor ser pobre que mentiroso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios19-msg-23",
+      "msg": {
+        "en": "Fear-of-GOD is life itself,\na full life, and serene—no nasty surprises.",
+        "es": "El temor de DIOS es la vida misma: una vida plena y serena, sin sorpresas desagradables."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios19-msg-24",
+      "msg": {
+        "en": "Some people dig a fork into the pie\nbut are too lazy to raise it to their mouth.",
+        "es": "Algunas personas meten el tenedor en el pastel, pero son demasiado perezosas para llevarlo hasta la boca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios19-msg-25",
+      "msg": {
+        "en": "Punish the insolent—make an example of them.\nWho knows? Somebody might learn a good lesson.",
+        "es": "Castiga al insolente y haz de él un ejemplo. ¿Quién sabe? Tal vez alguien aprenda una buena lección."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios19-msg-26",
+      "msg": {
+        "en": "Kids who lash out against their parents\nare an embarrassment and disgrace.",
+        "es": "Los hijos que atacan a sus padres son una vergüenza y una deshonra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios19-msg-27",
+      "msg": {
+        "en": "If you quit listening, dear child, and strike off on your own,\nyou’ll soon be out of your depth.",
+        "es": "Si dejas de escuchar, querido hijo, y decides ir por tu cuenta, pronto estarás en aguas demasiado profundas para ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios19-msg-28",
+      "msg": {
+        "en": "An unprincipled witness desecrates justice;\nthe mouths of the wicked spew malice.",
+        "es": "Un testigo sin principios profana la justicia; la boca de los malvados vomita malicia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios19-msg-29",
+      "msg": {
+        "en": "The irreverent have to learn reverence the hard way;\nonly a slap in the face brings fools to attention.",
+        "es": "Los irreverentes tienen que aprender reverencia por las malas; solo una bofetada hace que los necios presten atención."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios19-nbla-29"
+        }
+      ],
+      "order": 29
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-01a",
+          "order": 1,
+          "text": "Mejor es el pobre que anda en su integridad"
+        },
+        {
+          "id": "proverbios19-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que el de labios perversos y necio."
+        }
+      ],
+      "id": "proverbios19-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-02a",
+          "order": 1,
+          "text": "Tampoco es bueno para una persona carecer de conocimiento,"
+        },
+        {
+          "id": "proverbios19-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el que se apresura con los pies peca."
+        }
+      ],
+      "id": "proverbios19-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "proverbios19-nbla-03",
+      "number": 3,
+      "text": "La insensatez del hombre pervierte su camino,\nY su corazón se irrita contra el SEÑOR."
+    },
+    {
+      "id": "proverbios19-nbla-04",
+      "number": 4,
+      "text": "La riqueza añade muchos amigos,\nPero el pobre es separado de su amigo."
+    },
+    {
+      "id": "proverbios19-nbla-05",
+      "number": 5,
+      "text": "El testigo falso no quedará sin castigo,\nY el que cuenta mentiras no escapará."
+    },
+    {
+      "id": "proverbios19-nbla-06",
+      "number": 6,
+      "text": "Muchos buscan el favor del generoso,\nY todo hombre es amigo del que da."
+    },
+    {
+      "id": "proverbios19-nbla-07",
+      "number": 7,
+      "text": "Todos los hermanos del pobre lo aborrecen,\n¡Cuánto más sus amigos se alejarán de él!\nLos persigue con palabras, pero ellos se han ido."
+    },
+    {
+      "id": "proverbios19-nbla-08",
+      "number": 8,
+      "text": "El que adquiere cordura ama su alma;\nEl que guarda la prudencia hallará el bien."
+    },
+    {
+      "id": "proverbios19-nbla-09",
+      "number": 9,
+      "text": "El testigo falso no quedará sin castigo,\nY el que cuenta mentiras perecerá."
+    },
+    {
+      "id": "proverbios19-nbla-10",
+      "number": 10,
+      "text": "Al necio no conviene la vida de lujo;\nMucho menos a un siervo gobernar a los príncipes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-11a",
+          "order": 1,
+          "text": "La discreción del hombre le hace lento para la ira,"
+        },
+        {
+          "id": "proverbios19-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y su gloria es pasar por alto una ofensa."
+        }
+      ],
+      "id": "proverbios19-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "proverbios19-nbla-12",
+      "number": 12,
+      "text": "Como rugido de león es la ira del rey,\nY su favor como rocío sobre la hierba."
+    },
+    {
+      "id": "proverbios19-nbla-13",
+      "number": 13,
+      "text": "El hijo necio es ruina de su padre,\nY gotera constante las contiendas de una esposa."
+    },
+    {
+      "id": "proverbios19-nbla-14",
+      "number": 14,
+      "text": "Casa y riqueza son herencia de los padres,\nPero la mujer prudente viene del SEÑOR."
+    },
+    {
+      "id": "proverbios19-nbla-15",
+      "number": 15,
+      "text": "La pereza hace caer en profundo sueño,\nY el alma ociosa sufrirá hambre."
+    },
+    {
+      "id": "proverbios19-nbla-16",
+      "number": 16,
+      "text": "El que guarda el mandamiento guarda su alma,\nPero el que desprecia sus caminos morirá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-17a",
+          "order": 1,
+          "text": "El que se apiada del pobre presta al SEÑOR,"
+        },
+        {
+          "id": "proverbios19-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y Él lo recompensará por su buena obra."
+        }
+      ],
+      "id": "proverbios19-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios19-nbla-18",
+      "number": 18,
+      "text": "Disciplina a tu hijo mientras hay esperanza,\nPero no desee tu alma causarle la muerte."
+    },
+    {
+      "id": "proverbios19-nbla-19",
+      "number": 19,
+      "text": "El hombre de gran ira llevará el castigo,\nPorque si tú lo rescatas, tendrás que hacerlo de nuevo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-20a",
+          "order": 1,
+          "text": "Escucha el consejo y acepta la corrección,"
+        },
+        {
+          "id": "proverbios19-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para que seas sabio el resto de tus días."
+        }
+      ],
+      "id": "proverbios19-nbla-20",
+      "number": 20
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-21a",
+          "order": 1,
+          "text": "Muchos son los planes en el corazón del hombre,"
+        },
+        {
+          "id": "proverbios19-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Mas el consejo del SEÑOR permanecerá."
+        }
+      ],
+      "id": "proverbios19-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "proverbios19-nbla-22",
+      "number": 22,
+      "text": "Lo que es deseable en un hombre es su bondad,\nY es mejor ser pobre que mentiroso."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios19-nbla-23a",
+          "order": 1,
+          "text": "El temor del SEÑOR conduce a la vida,"
+        },
+        {
+          "id": "proverbios19-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para poder dormir satisfecho, sin ser tocado por el mal."
+        }
+      ],
+      "id": "proverbios19-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "proverbios19-nbla-24",
+      "number": 24,
+      "text": "El perezoso mete su mano en el plato,\nY ni aun a su boca la llevará."
+    },
+    {
+      "id": "proverbios19-nbla-25",
+      "number": 25,
+      "text": "Golpea al insolente y el ingenuo se volverá astuto,\nPero reprende al que tiene inteligencia y ganará en conocimiento."
+    },
+    {
+      "id": "proverbios19-nbla-26",
+      "number": 26,
+      "text": "El que asalta a su padre y echa fuera a su madre\nEs un hijo que trae vergüenza y desgracia."
+    },
+    {
+      "id": "proverbios19-nbla-27",
+      "number": 27,
+      "text": "Cesa, hijo mío, de escuchar la instrucción,\nY te desviarás de las palabras de sabiduría."
+    },
+    {
+      "id": "proverbios19-nbla-28",
+      "number": 28,
+      "text": "El testigo perverso se burla de la justicia,\nY la boca de los impíos esparce iniquidad."
+    },
+    {
+      "id": "proverbios19-nbla-29",
+      "number": 29,
+      "text": "Los juicios están preparados para los insolentes,\nY los azotes para la espalda de los necios."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

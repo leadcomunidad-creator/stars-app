@@ -1,0 +1,620 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job lleva la integridad sexual hasta la mirada. NBLA fija el pacto con los ojos; MSG vuelve explícito el carácter sexual de esa mirada. La expansión no debe citarse como texto literal de NBLA, pero sí comunica la dirección moral del pasaje.",
+      "id": "job31-joya-01",
+      "msg": {
+        "en": "\"I made a solemn pact with myself\nnever to undress a girl with my eyes.\"",
+        "es": "\"Hice un pacto solemne conmigo mismo\npara nunca desnudar a una joven con la mirada.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "Job no pide favoritismo; pide una evaluación justa. La imagen de la balanza muestra que su defensa quiere ser probada. La integridad bíblica no se sostiene solo por autopercepción, sino por disposición a ser examinada.",
+      "id": "job31-joya-02",
+      "msg": {
+        "en": "\"Weigh me on a set of honest scales\nso God has proof of my integrity.\"",
+        "es": "\"Pésenme en una balanza honesta\npara que Dios tenga prueba de mi integridad.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "Job fundamenta la justicia laboral en creación compartida. El siervo no queda fuera de la mirada de Dios. La autoridad de Job no le permite negar el derecho de quien depende de él.",
+      "id": "job31-joya-03",
+      "msg": {
+        "en": "\"Didn’t the same God who made me, make them?\"",
+        "es": "\"¿No fue el mismo Dios que me hizo a mí quien los hizo a ellos?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "13-15"
+    },
+    {
+      "explanation": "MSG moderniza de forma fuerte la imagen con «adoré delante del banco». NBLA gobierna: el problema es convertir el oro en confianza y seguridad. La riqueza puede poseerse sin ser adorada, pero cuando ocupa el lugar de seguridad última se vuelve rival de Dios.",
+      "id": "job31-joya-04",
+      "msg": {
+        "en": "\"Did I set my heart on making big money\nor worship at the bank?\"",
+        "es": "\"¿Puse mi corazón en hacer mucho dinero\no adoré delante del banco?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24-25"
+    },
+    {
+      "explanation": "Job lleva su búsqueda de justicia hasta una petición formal. Quiere ser oído y está dispuesto a firmar su defensa. No está huyendo del examen divino; anhela un encuentro donde su causa pueda ser considerada con verdad.",
+      "id": "job31-joya-05",
+      "msg": {
+        "en": "\"Oh, if only someone would give me a hearing!\nI’ve signed my name to my defense—let the\nAlmighty One answer!\"",
+        "es": "\"¡Si tan solo alguien me diera una audiencia!\nHe firmado mi defensa: ¡que responda\nel Todopoderoso!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job31-nbla-35a"
+          ],
+          "verseId": "job31-nbla-35"
+        }
+      ],
+      "order": 5,
+      "range": "35-37"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 31,
+    "studyId": "job-31"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job31-msg-01",
+      "msg": {
+        "en": "“I made a solemn pact with myself\nnever to undress a girl with my eyes.\nSo what can I expect from God?\nWhat do I deserve from God Almighty above?\nIsn’t calamity reserved for the wicked?\nIsn’t disaster supposed to strike those who do wrong?\nIsn’t God looking, observing how I live?\nDoesn’t he mark every step I take?",
+        "es": "«Hice un pacto solemne conmigo mismo\npara nunca desnudar a una joven con la mirada.\nEntonces, ¿qué puedo esperar de Dios?\n¿Qué merezco del Dios Todopoderoso que está arriba?\n¿No está reservada la calamidad para los malvados?\n¿No se supone que el desastre alcanza a quienes hacen el mal?\n¿No está Dios mirando, observando cómo vivo?\n¿No registra cada paso que doy?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-8",
+      "id": "job31-msg-02",
+      "msg": {
+        "en": "“Have I walked hand in hand with falsehood,\nor hung out in the company of deceit?\nWeigh me on a set of honest scales\nso God has proof of my integrity.\nIf I’ve strayed off the straight and narrow,\nwanted things I had no right to,\nmessed around with sin,\nGo ahead, then—\ngive my portion to someone who deserves it.",
+        "es": "«¿He caminado de la mano con la falsedad\no frecuentado la compañía del engaño?\nPésenme en una balanza honesta\npara que Dios tenga prueba de mi integridad.\nSi me he apartado del camino recto,\nsi he deseado cosas a las que no tenía derecho,\nsi he jugado con el pecado,\nentonces adelante:\nden mi porción a alguien que la merezca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-12",
+      "id": "job31-msg-03",
+      "msg": {
+        "en": "“If I’ve let myself be seduced by a woman\nand conspired to go to bed with her,\nFine, my wife has every right to go ahead\nand sleep with anyone she wants to.\nFor disgusting behavior like that,\nI’d deserve the worst punishment you could hand out.\nAdultery is a fire that burns the house down;\nI wouldn’t expect anything I count dear to survive it.",
+        "es": "«Si me he dejado seducir por una mujer\ny he conspirado para acostarme con ella,\nbien, mi esposa tendría todo el derecho\nde ir y acostarse con cualquiera que quisiera.\nPor una conducta tan repugnante,\nmerecería el peor castigo que pudieran imponerme.\nEl adulterio es un fuego que incendia la casa;\nno esperaría que sobreviviera nada de lo que considero valioso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "job31-msg-04",
+      "msg": {
+        "en": "“Have I ever been unfair to my employees\nwhen they brought a complaint to me?\nWhat, then, will I do when God confronts me?\nWhen God examines my books, what can I say?\nDidn’t the same God who made me, make them?\nAren’t we all made of the same stuff, equals before God?",
+        "es": "«¿He sido alguna vez injusto con mis empleados\ncuando presentaron una queja contra mí?\nEntonces, ¿qué haré cuando Dios me confronte?\nCuando Dios revise mis cuentas, ¿qué podré decir?\n¿No fue el mismo Dios que me hizo a mí quien los hizo a ellos?\n¿No estamos hechos todos de la misma materia, iguales delante de Dios?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-15"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "job31-msg-05",
+      "msg": {
+        "en": "“Have I ignored the needs of the poor,\nturned my back on the indigent,\nTaken care of my own needs and fed my own face\nwhile they languished?\nWasn’t my home always open to them?\nWeren’t they always welcome at my table?",
+        "es": "«¿He ignorado las necesidades de los pobres,\nles he dado la espalda a los indigentes,\nme he ocupado solo de mis propias necesidades y he llenado mi propio estómago\nmientras ellos languidecían?\n¿No estuvo siempre mi casa abierta para ellos?\n¿No fueron siempre bienvenidos a mi mesa?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-18"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "job31-msg-06",
+      "msg": {
+        "en": "“Have I ever left a poor family shivering in the cold\nwhen they had no warm clothes?\nDidn’t the poor bless me when they saw me coming,\nknowing I’d brought coats from my closet?",
+        "es": "«¿He dejado alguna vez a una familia pobre temblando de frío\ncuando no tenía ropa abrigada?\n¿No me bendecían los pobres cuando me veían llegar,\nsabiendo que les llevaba abrigos de mi armario?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-20"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "job31-msg-07",
+      "msg": {
+        "en": "“If I’ve ever used my strength and influence\nto take advantage of the unfortunate,\nGo ahead, break both my arms,\ncut off all my fingers!\nThe fear of God has kept me from these things—\nhow else could I ever face him?",
+        "es": "«Si alguna vez he usado mi fuerza y mi influencia\npara aprovecharme de los desafortunados,\nentonces adelante: rómpanme ambos brazos,\n¡córtenme todos los dedos!\nEl temor de Dios me ha mantenido lejos de estas cosas:\n¿de qué otra manera podría presentarme delante de Él?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-23"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "24-28",
+      "id": "job31-msg-08",
+      "msg": {
+        "en": "“Did I set my heart on making big money\nor worship at the bank?\nDid I boast about my wealth,\nshow off because I was well-off?\nWas I ever so awed by the sun’s brilliance\nand moved by the moon’s beauty\nThat I let myself become seduced by them\nand worshiped them on the sly?\nIf so, I would deserve the worst of punishments,\nfor I would be betraying God himself.",
+        "es": "«¿Puse mi corazón en hacer mucho dinero\no adoré delante del banco?\n¿Presumí de mi riqueza,\nme exhibí porque tenía abundancia?\n¿Alguna vez quedé tan impresionado por el brillo del sol\ny tan conmovido por la belleza de la luna\nque me dejé seducir por ellos\ny los adoré a escondidas?\nSi así fuera, merecería el peor de los castigos,\nporque estaría traicionando al mismo Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-28"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "job31-msg-09",
+      "msg": {
+        "en": "“Did I ever crow over my enemy’s ruin?\nOr gloat over my rival’s bad luck?\nNo, I never said a word of detraction,\nnever cursed them, even under my breath.",
+        "es": "«¿Me alegré alguna vez de la ruina de mi enemigo?\n¿Me regocijé por la mala suerte de mi rival?\nNo, jamás pronuncié una palabra para dañarlos,\nni los maldije, ni siquiera en voz baja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-30"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "31-34",
+      "id": "job31-msg-10",
+      "msg": {
+        "en": "“Didn’t those who worked for me say,\n‘He fed us well. There were always second helpings’?\nAnd no stranger ever had to spend a night in the street;\nmy doors were always open to travelers.\nDid I hide my sin the way Adam did,\nor conceal my guilt behind closed doors\nBecause I was afraid what people would say,\nfearing the gossip of the neighbors so much\nThat I turned myself into a recluse?\nYou know good and well that I didn’t.",
+        "es": "«¿No decían quienes trabajaban para mí:\n“Nos alimentaba bien; siempre había una segunda porción”?\nY ningún extranjero tuvo que pasar una noche en la calle;\nmis puertas siempre estuvieron abiertas para los viajeros.\n¿Oculté mi pecado como lo hizo Adán,\no escondí mi culpa detrás de puertas cerradas\nporque temía lo que diría la gente,\nporque me asustaba tanto el chisme de los vecinos\nque me convertí en un recluso?\nUstedes saben muy bien que no lo hice."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-34"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "35-37",
+      "id": "job31-msg-11",
+      "msg": {
+        "en": "“Oh, if only someone would give me a hearing!\nI’ve signed my name to my defense—let the\nAlmighty One answer!\nI want to see my indictment in writing.\nAnyone’s welcome to read my defense;\nI’ll write it on a poster and carry it around town.\nI’m prepared to account for every move I’ve ever made—\nto anyone and everyone, prince or pauper.",
+        "es": "«¡Si tan solo alguien me diera una audiencia!\nHe firmado mi defensa: ¡que responda\nel Todopoderoso!\nQuiero ver por escrito la acusación contra mí.\nCualquiera puede leer mi defensa;\nla escribiré en un cartel y la llevaré por toda la ciudad.\nEstoy preparado para rendir cuentas de cada movimiento que he hecho:\nante cualquiera, príncipe o pobre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-37"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "38-40",
+      "id": "job31-msg-12",
+      "msg": {
+        "en": "“If the very ground that I farm accuses me,\nif even the furrows fill with tears from my abuse,\nIf I’ve ever raped the earth for my own profit\nor dispossessed its rightful owners,\nThen curse it with thistles instead of wheat,\ncurse it with weeds instead of barley.”\nThe words of Job to his three friends were finished.",
+        "es": "«Si la misma tierra que cultivo me acusa,\nsi hasta los surcos se llenan de lágrimas por mi abuso,\nsi alguna vez he violado la tierra para obtener mi propio beneficio\no despojado a sus legítimos dueños,\nentonces que sea maldecida con cardos en vez de trigo,\ncon maleza en vez de cebada».\nLas palabras de Job a sus tres amigos terminaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job31-nbla-40"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job31-nbla-01",
+      "number": 1,
+      "text": "»Hice un pacto con mis ojos,\n¿Cómo podía entonces mirar a una virgen?"
+    },
+    {
+      "id": "job31-nbla-02",
+      "number": 2,
+      "text": "¿Y cuál es la porción de Dios desde arriba,\nO la heredad del Todopoderoso desde las alturas?"
+    },
+    {
+      "id": "job31-nbla-03",
+      "number": 3,
+      "text": "¿No es la calamidad para el injusto,\nY el infortunio para los que obran iniquidad?"
+    },
+    {
+      "id": "job31-nbla-04",
+      "number": 4,
+      "text": "¿No ve Él mis caminos,\nY cuenta todos mis pasos?"
+    },
+    {
+      "id": "job31-nbla-05",
+      "number": 5,
+      "text": "»Si he caminado con la mentira,\nY si mi pie se ha apresurado tras el engaño,"
+    },
+    {
+      "id": "job31-nbla-06",
+      "number": 6,
+      "text": "Que Él me pese en balanzas de justicia,\nY que Dios conozca mi integridad."
+    },
+    {
+      "id": "job31-nbla-07",
+      "number": 7,
+      "text": "Si mi paso se ha apartado del camino,\nSi mi corazón se ha ido tras mis ojos,\nY si alguna mancha se ha pegado en mis manos,"
+    },
+    {
+      "id": "job31-nbla-08",
+      "number": 8,
+      "text": "Que yo siembre y otro coma,\nY sean arrancadas mis cosechas."
+    },
+    {
+      "id": "job31-nbla-09",
+      "number": 9,
+      "text": "»Si mi corazón fue seducido por mujer,\nO he estado al acecho a la puerta de mi prójimo,"
+    },
+    {
+      "id": "job31-nbla-10",
+      "number": 10,
+      "text": "Que muela para otro mi mujer,\nY otros se encorven sobre ella."
+    },
+    {
+      "id": "job31-nbla-11",
+      "number": 11,
+      "text": "Porque eso sería una terrible ofensa,\nY una iniquidad castigada por los jueces;"
+    },
+    {
+      "id": "job31-nbla-12",
+      "number": 12,
+      "text": "Porque sería fuego que consume hasta el Abadón,\nY arrancaría toda mi ganancia."
+    },
+    {
+      "id": "job31-nbla-13",
+      "number": 13,
+      "text": "»Si he negado el derecho de mi siervo o de mi sierva\nCuando presentaron queja contra mí,"
+    },
+    {
+      "id": "job31-nbla-14",
+      "number": 14,
+      "text": "¿Qué haré cuando Dios se levante?\nY cuando Él me pida cuentas, ¿qué le responderé?"
+    },
+    {
+      "id": "job31-nbla-15",
+      "number": 15,
+      "text": "¿Acaso Aquel que me hizo en el seno materno, no lo hizo también a él?\n¿No fue uno mismo el que nos formó en la matriz?"
+    },
+    {
+      "id": "job31-nbla-16",
+      "number": 16,
+      "text": "»Si he impedido a los pobres su deseo,\nO he hecho desfallecer los ojos de la viuda,"
+    },
+    {
+      "id": "job31-nbla-17",
+      "number": 17,
+      "text": "O si he comido mi bocado solo,\nY el huérfano no ha comido de él"
+    },
+    {
+      "id": "job31-nbla-18",
+      "number": 18,
+      "text": "(Aunque desde mi juventud él creció conmigo como con un padre,\nY a la viuda la guié desde mi infancia);"
+    },
+    {
+      "id": "job31-nbla-19",
+      "number": 19,
+      "text": "Si he visto a alguien perecer por falta de ropa,\nY sin abrigo al necesitado,"
+    },
+    {
+      "id": "job31-nbla-20",
+      "number": 20,
+      "text": "Si su corazón no me ha expresado gratitud,\nPues se ha calentado con el vellón de mis ovejas;"
+    },
+    {
+      "id": "job31-nbla-21",
+      "number": 21,
+      "text": "Si he alzado contra el huérfano mi mano,\nPorque vi que yo tenía apoyo en la puerta,"
+    },
+    {
+      "id": "job31-nbla-22",
+      "number": 22,
+      "text": "Que mi hombro se caiga de la coyuntura,\nY mi brazo se quiebre en el codo."
+    },
+    {
+      "id": "job31-nbla-23",
+      "number": 23,
+      "text": "Porque el castigo de Dios es terror para mí,\nY ante Su majestad nada puedo hacer."
+    },
+    {
+      "id": "job31-nbla-24",
+      "number": 24,
+      "text": "»Si he puesto en el oro mi confianza,\nY he dicho al oro fino: “Tú eres mi seguridad”;"
+    },
+    {
+      "id": "job31-nbla-25",
+      "number": 25,
+      "text": "Si me he alegrado porque mi riqueza era grande,\nY porque mi mano había adquirido mucho;"
+    },
+    {
+      "id": "job31-nbla-26",
+      "number": 26,
+      "text": "Si he mirado al sol cuando brillaba,\nO a la luna marchando en esplendor,"
+    },
+    {
+      "id": "job31-nbla-27",
+      "number": 27,
+      "text": "Y fue mi corazón seducido en secreto,\nY mi mano tiró un beso de mi boca,"
+    },
+    {
+      "id": "job31-nbla-28",
+      "number": 28,
+      "text": "Eso también hubiera sido iniquidad que merecía juicio,\nPorque habría negado al Dios de lo alto."
+    },
+    {
+      "id": "job31-nbla-29",
+      "number": 29,
+      "text": "»¿Acaso me he alegrado en la destrucción de mi enemigo,\nO me he regocijado cuando el mal le sobrevino?"
+    },
+    {
+      "id": "job31-nbla-30",
+      "number": 30,
+      "text": "No, no he permitido que mi boca peque\nPidiendo su vida en una maldición."
+    },
+    {
+      "id": "job31-nbla-31",
+      "number": 31,
+      "text": "¿Acaso no han dicho los hombres de mi tienda:\n“¿Quién puede hallar a alguien que no se haya saciado con su carne?”."
+    },
+    {
+      "id": "job31-nbla-32",
+      "number": 32,
+      "text": "El extranjero no pasa la noche afuera,\nPorque al viajero he abierto mis puertas."
+    },
+    {
+      "id": "job31-nbla-33",
+      "number": 33,
+      "text": "¿Acaso he cubierto mis transgresiones como Adán,\nOcultando en mi seno mi iniquidad,"
+    },
+    {
+      "id": "job31-nbla-34",
+      "number": 34,
+      "text": "Porque temí a la gran multitud,\nO el desprecio de las familias me aterró,\nY guardé silencio y no salí de mi puerta?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job31-nbla-35a",
+          "order": 1,
+          "text": "¡Quién me diera que alguien me oyera!\nAquí está mi firma.\n¡Que me responda el Todopoderoso!"
+        },
+        {
+          "id": "job31-nbla-35b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y la acusación que ha escrito mi adversario,"
+        }
+      ],
+      "id": "job31-nbla-35",
+      "number": 35
+    },
+    {
+      "id": "job31-nbla-36",
+      "number": 36,
+      "text": "Ciertamente yo la llevaría sobre mi hombro,\nY me la pondría como una corona."
+    },
+    {
+      "id": "job31-nbla-37",
+      "number": 37,
+      "text": "Del número de mis pasos yo le daría cuenta,\nComo a un príncipe me acercaría a Él."
+    },
+    {
+      "id": "job31-nbla-38",
+      "number": 38,
+      "text": "»Si mi tierra clama contra mí,\nY sus surcos lloran juntos;"
+    },
+    {
+      "id": "job31-nbla-39",
+      "number": 39,
+      "text": "Si he comido su fruto sin dinero,\nO si he causado que sus dueños pierdan sus vidas,"
+    },
+    {
+      "id": "job31-nbla-40",
+      "number": 40,
+      "text": "¡Que en lugar de trigo crezcan cardos,\nY en lugar de cebada, hierba maloliente!».\nAquí terminan las palabras de Job."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

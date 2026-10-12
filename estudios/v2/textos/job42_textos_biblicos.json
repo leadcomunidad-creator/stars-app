@@ -1,0 +1,361 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job termina afirmando la capacidad soberana de Dios. NBLA habla de propósitos que no pueden frustrarse; MSG vuelve esa confesión muy personal. La respuesta de Job ya no intenta administrar el plan, sino reconocer al que lo sostiene.",
+      "id": "job42-joya-01",
+      "msg": {
+        "en": "\"I’m convinced: You can do anything and everything.\nNothing and no one can upset your plans.\"",
+        "es": "\"Estoy convencido: puedes hacer absolutamente todo.\nNada ni nadie puede frustrar Tus planes.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La confesión de Job es epistemológica y espiritual. Reconoce que habló de realidades que no comprendía. Eso no convierte en verdaderas las acusaciones de los amigos; prepara la corrección que Dios hará inmediatamente después sobre ellos.",
+      "id": "job42-joya-02",
+      "msg": {
+        "en": "\"I admit it. I was the one. I babbled on about things far beyond me,\"",
+        "es": "\"Lo admito. Fui yo. Hablé sin parar de cosas que estaban muy por encima de mí,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job42-nbla-03b"
+          ],
+          "verseId": "job42-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3-6"
+    },
+    {
+      "explanation": "El centro del cambio de Job no es recibir una explicación detallada del consejo celestial de los capítulos 1–2. Es pasar de conocimiento oído a encuentro. La relación con Dios se profundiza aun cuando muchas causas siguen sin ser explicadas.",
+      "id": "job42-joya-03",
+      "msg": {
+        "en": "\"I admit I once lived by rumors of you;\nnow I have it all firsthand—from my own eyes and ears!\"",
+        "es": "\"Lo admito: antes vivía de rumores acerca de Ti;\nahora lo conozco directamente, ¡con mis propios ojos y oídos!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5-6"
+    },
+    {
+      "explanation": "Esta frase controla la lectura retrospectiva de todo el libro. Job necesitó corrección, pero Dios distingue su discurso del de los amigos. No toda frase religiosa correcta en apariencia constituye hablar rectamente de Dios.",
+      "id": "job42-joya-04",
+      "msg": {
+        "en": "\"You haven’t been honest either with me or about me—not the way my friend Job has.\"",
+        "es": "\"Ustedes no han sido honestos ni conmigo ni acerca de Mí, no como Mi amigo Job.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job42-nbla-07b"
+          ],
+          "verseId": "job42-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "Job pasa de acusado a intercesor. La restauración ocurre en ese contexto de gracia, pero el texto no establece una fórmula universal de prosperidad. El énfasis seguro es que Dios acepta a Job y restaura libremente su historia.",
+      "id": "job42-joya-05",
+      "msg": {
+        "en": "\"After Job had interceded for his friends, GOD restored his fortune—and then doubled it!\"",
+        "es": "\"Después de que Job intercedió por sus amigos, DIOS restauró su fortuna, ¡y la duplicó!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-10"
+        }
+      ],
+      "order": 5,
+      "range": "10-11"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 42,
+    "studyId": "job-42"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "job42-msg-01",
+      "msg": {
+        "en": "Job answered GOD:\n“I’m convinced: You can do anything and everything.\nNothing and no one can upset your plans.\nYou asked, ‘Who is this muddying the water,\nignorantly confusing the issue, second-guessing my purposes?’\nI admit it. I was the one. I babbled on about things far beyond me,\nmade small talk about wonders way over my head.\nYou told me, ‘Listen, and let me do the talking.\nLet me ask the questions. You give the answers.’\nI admit I once lived by rumors of you;\nnow I have it all firsthand—from my own eyes and ears!\nI’m sorry—forgive me. I’ll never do that again, I promise!\nI’ll never again live on crusts of hearsay, crumbs of rumor.”’",
+        "es": "Job respondió a DIOS:\n«Estoy convencido: puedes hacer absolutamente todo.\nNada ni nadie puede frustrar Tus planes.\nPreguntaste: “¿Quién es este que enturbia el agua,\nconfunde el asunto por ignorancia y cuestiona Mis propósitos?”.\nLo admito. Fui yo. Hablé sin parar de cosas que estaban muy por encima de mí,\nhablé con ligereza de maravillas que me sobrepasaban.\nMe dijiste: “Escucha y deja que Yo hable.\nYo haré las preguntas. Tú darás las respuestas”.\nLo admito: antes vivía de rumores acerca de Ti;\nahora lo conozco directamente, ¡con mis propios ojos y oídos!\nLo siento. Perdóname. No volveré a hacerlo, lo prometo.\nNunca volveré a vivir de cortezas de cosas oídas ni de migajas de rumores.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "job42-msg-02",
+      "msg": {
+        "en": "After GOD had finished addressing Job, he turned to Eliphaz the Temanite and said, “I’ve had it with you and your two friends. I’m fed up! You haven’t been honest either with me or about me—not the way my friend Job has. So here’s what you must do. Take seven bulls and seven rams, and go to my friend Job. Sacrifice a burnt offering on your own behalf. My friend Job will pray for you, and I will accept his prayer. He will ask me not to treat you as you deserve for talking nonsense about me, and for not being honest with me, as he has.”",
+        "es": "Después de que DIOS terminó de hablarle a Job, se volvió hacia Elifaz el temanita y dijo: «Ya estoy harto de ti y de tus dos amigos. ¡Estoy indignado! Ustedes no han sido honestos ni conmigo ni acerca de Mí, no como Mi amigo Job. Así que esto es lo que deben hacer: tomen siete toros y siete carneros y vayan donde Mi amigo Job. Ofrezcan un holocausto por ustedes mismos. Mi amigo Job orará por ustedes y Yo aceptaré su oración. Él me pedirá que no los trate como merecen por haber dicho tonterías acerca de Mí y por no haber sido honestos conmigo, como sí lo fue él»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9",
+      "id": "job42-msg-03",
+      "msg": {
+        "en": "They did it. Eliphaz the Temanite, Bildad the Shuhite, and Zophar the Naamathite did what GOD commanded. And GOD accepted Job’s prayer.",
+        "es": "Lo hicieron. Elifaz el temanita, Bildad el suhita y Zofar el naamatita hicieron lo que DIOS había ordenado. Y DIOS aceptó la oración de Job."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-09"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "job42-msg-04",
+      "msg": {
+        "en": "After Job had interceded for his friends, GOD restored his fortune—and then doubled it! All his brothers and sisters and friends came to his house and celebrated. They told him how sorry they were, and consoled him for all the trouble GOD had brought him. Each of them brought generous house-warming gifts.",
+        "es": "Después de que Job intercedió por sus amigos, DIOS restauró su fortuna, ¡y la duplicó! Todos sus hermanos, hermanas y amigos fueron a su casa y celebraron con él. Le dijeron cuánto lamentaban lo ocurrido y lo consolaron por todo el sufrimiento que DIOS había traído sobre él. Cada uno llevó generosos regalos para su nueva casa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-15",
+      "id": "job42-msg-05",
+      "msg": {
+        "en": "GOD blessed Job’s later life even more than his earlier life. He ended up with fourteen thousand sheep, six thousand camels, one thousand teams of oxen, and one thousand donkeys. He also had seven sons and three daughters. He named the first daughter Dove, the second, Cinnamon, and the third, Darkeyes. There was not a woman in that country as beautiful as Job’s daughters. Their father treated them as equals with their brothers, providing the same inheritance.",
+        "es": "DIOS bendijo la vida posterior de Job incluso más que la anterior. Terminó con catorce mil ovejas, seis mil camellos, mil yuntas de bueyes y mil asnos. También tuvo siete hijos y tres hijas. A la primera hija la llamó Paloma; a la segunda, Canela; y a la tercera, Ojos Oscuros. No había en aquella tierra mujeres tan hermosas como las hijas de Job. Su padre las trató como iguales a sus hermanos y les dio la misma herencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-15"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "job42-msg-06",
+      "msg": {
+        "en": "Job lived on another 140 years, living to see his children and grand-children—four generations of them! Then he died—an old man, a full life.",
+        "es": "Job vivió otros ciento cuarenta años y llegó a ver a sus hijos y a sus nietos: ¡cuatro generaciones! Después murió, anciano y después de una vida plena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job42-nbla-17"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job42-nbla-01",
+      "number": 1,
+      "text": "Entonces Job respondió al SEÑOR:"
+    },
+    {
+      "id": "job42-nbla-02",
+      "number": 2,
+      "text": "«Yo sé que Tú puedes hacer todas las cosas,\nY que ninguno de Tus propósitos puede ser frustrado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job42-nbla-03a",
+          "order": 1,
+          "text": "“¿Quién es este que oculta el consejo sin entendimiento?”."
+        },
+        {
+          "id": "job42-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Por tanto, he declarado lo que no comprendía,\nCosas demasiado maravillosas para mí, que yo no sabía."
+        }
+      ],
+      "id": "job42-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "job42-nbla-04",
+      "number": 4,
+      "text": "“Escucha ahora, y hablaré;\nTe preguntaré y Tú me instruirás”."
+    },
+    {
+      "id": "job42-nbla-05",
+      "number": 5,
+      "text": "He sabido de Ti solo de oídas,\nPero ahora mis ojos te ven."
+    },
+    {
+      "id": "job42-nbla-06",
+      "number": 6,
+      "text": "Por eso me retracto,\nY me arrepiento en polvo y ceniza»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job42-nbla-07a",
+          "order": 1,
+          "text": "Después que el SEÑOR habló estas palabras a Job, el SEÑOR dijo a Elifaz el temanita: «Se ha encendido Mi ira contra ti y contra tus dos amigos,"
+        },
+        {
+          "id": "job42-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque no han hablado de Mí lo que es recto, como Mi siervo Job."
+        }
+      ],
+      "id": "job42-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "job42-nbla-08",
+      "number": 8,
+      "text": "Ahora pues, tomen siete novillos y siete carneros, vayan a Mi siervo Job y ofrezcan holocausto por ustedes, y Mi siervo Job orará por ustedes. Porque ciertamente a él atenderé para no hacer con ustedes conforme a su insensatez, porque no han hablado de Mí lo que es recto, como Mi siervo Job»."
+    },
+    {
+      "id": "job42-nbla-09",
+      "number": 9,
+      "text": "Y Elifaz el temanita, y Bildad el suhita y Zofar el naamatita fueron e hicieron tal como el SEÑOR les había dicho; y el SEÑOR aceptó a Job."
+    },
+    {
+      "id": "job42-nbla-10",
+      "number": 10,
+      "text": "Y el SEÑOR restauró el bienestar de Job cuando este oró por sus amigos; y el SEÑOR aumentó al doble todo lo que Job había poseído."
+    },
+    {
+      "id": "job42-nbla-11",
+      "number": 11,
+      "text": "Entonces todos sus hermanos y todas sus hermanas y todos los que le habían conocido antes, vinieron a él y comieron con él en su casa; se condolieron de él y lo consolaron por todo el mal que el SEÑOR había traído sobre él. Cada uno le dio una moneda (11.4 gramos) de plata, y cada uno un anillo de oro."
+    },
+    {
+      "id": "job42-nbla-12",
+      "number": 12,
+      "text": "El SEÑOR bendijo los últimos días de Job más que los primeros; y tuvo 14,000 ovejas, 6,000 camellos, 1,000 yuntas de bueyes y 1,000 asnas."
+    },
+    {
+      "id": "job42-nbla-13",
+      "number": 13,
+      "text": "Tuvo además siete hijos y tres hijas."
+    },
+    {
+      "id": "job42-nbla-14",
+      "number": 14,
+      "text": "Llamó a la primera Jemina, a la segunda Cesia y a la tercera Keren Hapuc."
+    },
+    {
+      "id": "job42-nbla-15",
+      "number": 15,
+      "text": "En toda la tierra no se encontraban mujeres tan hermosas como las hijas de Job. Su padre les dio también herencia entre sus hermanos."
+    },
+    {
+      "id": "job42-nbla-16",
+      "number": 16,
+      "text": "Después de esto vivió Job 140 años, y vio a sus hijos y a los hijos de sus hijos, hasta cuatro generaciones."
+    },
+    {
+      "id": "job42-nbla-17",
+      "number": 17,
+      "text": "Y murió Job, anciano y lleno de días."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

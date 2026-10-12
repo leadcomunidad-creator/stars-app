@@ -1,0 +1,453 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El capítulo presenta el amor como un bien capaz de superar otros placeres celebratorios. NBLA fija la comparación con el vino; MSG la conserva y la vuelve parte de una experiencia sensorial más amplia. La afirmación no convierte el romance en bien supremo: celebra su valor dentro de la vida humana.",
+      "id": "cantares1-joya-01",
+      "msg": {
+        "en": "\"For your love is better than wine,\"",
+        "es": "\"Porque tu amor es mejor que el vino,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares1-nbla-02b"
+          ],
+          "verseId": "cantares1-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "La mujer no niega las marcas del sol y, al mismo tiempo, se niega a aceptar que esas marcas disminuyan su valor. NBLA protege el núcleo: morena y preciosa no son categorías incompatibles. MSG vuelve visible la resistencia frente a una mirada que confunde exposición con falta de belleza.",
+      "id": "cantares1-joya-02",
+      "msg": {
+        "en": "\"I am weathered but still elegant,\"",
+        "es": "\"Estoy curtida por el sol, pero sigo siendo elegante,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares1-nbla-05a"
+          ],
+          "verseId": "cantares1-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La mujer desea una cercanía clara y no quiere permanecer en una posición ambigua alrededor de los rebaños de otros. NBLA conserva la pregunta en su formulación poética; MSG explicita el sentimiento de quedar por fuera. Esa expansión ayuda pastoralmente, pero no debe convertirse en una regla técnica sobre relaciones que el versículo no formula.",
+      "id": "cantares1-joya-03",
+      "msg": {
+        "en": "\"Why should I be the one left out,\"",
+        "es": "\"¿Por qué habría de ser yo la que queda por fuera,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares1-nbla-07b"
+          ],
+          "verseId": "cantares1-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "El amor se expresa mediante una atención verbal que honra a la otra persona. NBLA fija la declaración directa de belleza; MSG conserva la intimidad de la amistad dentro del afecto. La relación celebrada por el capítulo sabe mirar y decir lo que ve sin convertir la belleza en una evaluación fría.",
+      "id": "cantares1-joya-04",
+      "msg": {
+        "en": "\"Oh, my dear friend! You’re so beautiful!\"",
+        "es": "\"¡Oh, mi querida amiga! ¡Eres tan hermosa!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares1-nbla-15a"
+          ],
+          "verseId": "cantares1-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "15"
+    },
+    {
+      "explanation": "La escena final une intimidad y creación mediante una imagen de verdor, cedros y cipreses. NBLA mantiene la imagen del lecho exuberante; MSG la despliega como un claro del bosque. El punto teológico no es sacralizar cada detalle de la metáfora, sino reconocer que la Escritura puede hablar positivamente de intimidad, belleza y espacio compartido.",
+      "id": "cantares1-joya-05",
+      "msg": {
+        "en": "\"And the bed we share is like a forest glen.\"",
+        "es": "\"Y el lecho que compartimos es como un claro del bosque.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares1-nbla-16b"
+          ],
+          "verseId": "cantares1-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 1,
+    "studyId": "cantares-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "cantares1-msg-01",
+      "msg": {
+        "en": "The Song—best of all songs—Solomon’s song!",
+        "es": "El Cantar —el mejor de todos los cantares—, ¡el cantar de Salomón!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "cantares1-msg-02",
+      "msg": {
+        "en": "Kiss me—full on the mouth!\nYes! For your love is better than wine,\nheadier than your aromatic oils.\nThe syllables of your name murmur like a meadow brook.\nNo wonder everyone loves to say your name!",
+        "es": "¡Bésame, directamente en la boca!\n¡Sí! Porque tu amor es mejor que el vino,\nmás embriagador que tus aceites aromáticos.\nLas sílabas de tu nombre murmuran como un arroyo entre praderas.\n¡Con razón a todos les encanta pronunciar tu nombre!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4",
+      "id": "cantares1-msg-03",
+      "msg": {
+        "en": "Take me away with you! Let’s run off together!\nAn elopement with my King-Lover!\nWe’ll celebrate, we’ll sing,\nwe’ll make great music.\nYes! For your love is better than vintage wine.\nEveryone loves you—of course! And why not?",
+        "es": "¡Llévame contigo! ¡Escapemos juntos!\n¡Una fuga con mi Rey-Amado!\nCelebraremos, cantaremos,\nharemos gran música.\n¡Sí! Porque tu amor es mejor que el vino añejo.\nTodos te aman —¡claro! ¿Y cómo no?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "cantares1-msg-04",
+      "msg": {
+        "en": "I am weathered but still elegant,\noh, dear sisters in Jerusalem,\nWeather-darkened like Kedar desert tents,\ntime-softened like Solomon’s Temple hangings.\nDon’t look down on me because I’m dark,\ndarkened by the sun’s harsh rays.\nMy brothers ridiculed me and sent me to work in the fields.\nThey made me care for the face of the earth,\nbut I had no time to care for my own face.",
+        "es": "Estoy curtida por el sol, pero sigo siendo elegante,\noh, queridas hijas de Jerusalén,\noscurecida por el clima como las tiendas del desierto de Cedar,\nsuavizada por el tiempo como las cortinas del templo de Salomón.\nNo me miren por encima del hombro porque soy oscura,\noscurecida por los duros rayos del sol.\nMis hermanos se burlaron de mí y me enviaron a trabajar en los campos.\nMe hicieron cuidar el rostro de la tierra,\npero no tuve tiempo de cuidar mi propio rostro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "cantares1-msg-05",
+      "msg": {
+        "en": "Tell me where you’re working\n—I love you so much—\nTell me where you’re tending your flocks,\nwhere you let them rest at noontime.\nWhy should I be the one left out,\noutside the orbit of your tender care?",
+        "es": "Dime dónde trabajas\n—te amo tanto—\nDime dónde cuidas tus rebaños,\ndónde los dejas descansar al mediodía.\n¿Por qué habría de ser yo la que queda por fuera,\nfuera de la órbita de tu tierno cuidado?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "cantares1-msg-06",
+      "msg": {
+        "en": "If you can’t find me, loveliest of all women,\nit’s all right. Stay with your flocks.\nLead your lambs to good pasture.\nStay with your shepherd neighbors.",
+        "es": "Si no puedes encontrarme, la más hermosa de todas las mujeres,\nno pasa nada. Quédate con tus rebaños.\nLleva tus corderos a buenos pastos.\nQuédate cerca de tus vecinos pastores."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9-11",
+      "id": "cantares1-msg-07",
+      "msg": {
+        "en": "You remind me of Pharaoh’s\nwell-groomed and satiny mares.\nPendant earrings line the elegance of your cheeks;\nstrands of jewels illumine the curve of your throat.\nI’m making jewelry for you, gold and silver jewelry\nthat will mark and accent your beauty.",
+        "es": "Me recuerdas a las yeguas del faraón,\nbien cuidadas y de pelaje satinado.\nAretes colgantes enmarcan la elegancia de tus mejillas;\nhileras de joyas iluminan la curva de tu cuello.\nVoy a hacerte joyas, joyas de oro y plata,\nque resalten y acentúen tu belleza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-11"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "cantares1-msg-08",
+      "msg": {
+        "en": "When my King-Lover lay down beside me,\nmy fragrance filled the room.\nHis head resting between my breasts—\nthe head of my lover was a sachet of sweet myrrh.\nMy beloved is a bouquet of wildflowers\npicked just for me from the fields of En Gedi.",
+        "es": "Cuando mi Rey-Amado se recostó a mi lado,\nmi fragancia llenó la habitación.\nSu cabeza descansando entre mis pechos:\nla cabeza de mi amado era como una bolsita de dulce mirra.\nMi amado es un ramo de flores silvestres\nrecogidas solo para mí en los campos de En Gadi."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "cantares1-msg-09",
+      "msg": {
+        "en": "Oh, my dear friend! You’re so beautiful!\nAnd your eyes so beautiful—like doves!",
+        "es": "¡Oh, mi querida amiga! ¡Eres tan hermosa!\nY tus ojos tan hermosos, ¡como palomas!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "cantares1-msg-10",
+      "msg": {
+        "en": "And you, my dear lover—you’re so handsome!\nAnd the bed we share is like a forest glen.\nWe enjoy a canopy of cedars\nenclosed by cypresses, fragrant and green.",
+        "es": "Y tú, mi querido amado, ¡eres tan apuesto!\nY el lecho que compartimos es como un claro del bosque.\nDisfrutamos un dosel de cedros,\nrodeados de cipreses, fragantes y verdes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares1-nbla-17"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares1-nbla-01",
+      "number": 1,
+      "text": "El cantar de los cantares de Salomón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares1-nbla-02a",
+          "order": 1,
+          "text": "«¡Que me bese con los besos de su boca!"
+        },
+        {
+          "id": "cantares1-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque mejores son tus amores que el vino."
+        }
+      ],
+      "id": "cantares1-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "cantares1-nbla-03",
+      "number": 3,
+      "text": "Tus ungüentos tienen olor agradable,\nTu nombre es como ungüento purificado;\nPor eso te aman las doncellas."
+    },
+    {
+      "id": "cantares1-nbla-04",
+      "number": 4,
+      "text": "Llévame en pos de ti y corramos juntos.\nEl rey me ha llevado a sus cámaras».\n«Nos regocijaremos y nos alegraremos en ti,\nExaltaremos tu amor más que el vino.\nCon razón te aman»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares1-nbla-05a",
+          "order": 1,
+          "text": "«Soy morena pero preciosa,"
+        },
+        {
+          "id": "cantares1-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Oh hijas de Jerusalén,\nComo las tiendas de Cedar,\nComo las cortinas de Salomón."
+        }
+      ],
+      "id": "cantares1-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "cantares1-nbla-06",
+      "number": 6,
+      "text": "No se fijen en que soy morena,\nPorque el sol me ha quemado.\nLos hijos de mi madre se enojaron conmigo;\nMe pusieron a guardar las viñas,\nPero mi propia viña no guardé."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares1-nbla-07a",
+          "order": 1,
+          "text": "Dime, amado de mi alma:\n¿Dónde apacientas tu rebaño?\n¿Dónde lo haces descansar al mediodía?"
+        },
+        {
+          "id": "cantares1-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Por qué he de ser yo como una que se cubre con velo"
+        },
+        {
+          "id": "cantares1-nbla-07c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Junto a los rebaños de tus compañeros?»."
+        }
+      ],
+      "id": "cantares1-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "cantares1-nbla-08",
+      "number": 8,
+      "text": "«Si tú no lo sabes,\n¡Oh la más hermosa de las mujeres!,\nSal tras las huellas del rebaño,\nY apacienta tus cabritas\nJunto a las cabañas de los pastores»."
+    },
+    {
+      "id": "cantares1-nbla-09",
+      "number": 9,
+      "text": "«A mi yegua, entre los carros de Faraón,\nYo te comparo, amada mía."
+    },
+    {
+      "id": "cantares1-nbla-10",
+      "number": 10,
+      "text": "Hermosas son tus mejillas entre los adornos,\nTu cuello entre los collares»."
+    },
+    {
+      "id": "cantares1-nbla-11",
+      "number": 11,
+      "text": "«Haremos para ti adornos de oro\nCon cuentas de plata»."
+    },
+    {
+      "id": "cantares1-nbla-12",
+      "number": 12,
+      "text": "«Mientras el rey estaba a la mesa,\nMi perfume esparció su fragancia."
+    },
+    {
+      "id": "cantares1-nbla-13",
+      "number": 13,
+      "text": "Mi amado es para mí como bolsita de mirra\nQue reposa toda la noche entre mis pechos."
+    },
+    {
+      "id": "cantares1-nbla-14",
+      "number": 14,
+      "text": "Ramillete de flores de alheña es mi amado para mí\nEn las viñas de En Gadi»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares1-nbla-15a",
+          "order": 1,
+          "text": "«¡Cuán hermosa eres, amada mía,"
+        },
+        {
+          "id": "cantares1-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Cuán hermosa eres!\nTus ojos son como palomas»."
+        }
+      ],
+      "id": "cantares1-nbla-15",
+      "number": 15
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares1-nbla-16a",
+          "order": 1,
+          "text": "«¡Cuán hermoso eres, amado mío,\nY tan placentero!"
+        },
+        {
+          "id": "cantares1-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ciertamente nuestro lecho es de exuberante verdor."
+        }
+      ],
+      "id": "cantares1-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "cantares1-nbla-17",
+      "number": 17,
+      "text": "Las vigas de nuestras casas son cedros,\nNuestros artesonados, cipreses»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "NBLA da la imagen central: el nombre del SEÑOR es torre fuerte. MSG la expresa como un lugar de protección al que se puede correr. La seguridad bíblica no descansa en una fórmula verbal, sino en el carácter y la fidelidad del Dios cuyo nombre representa quién Él es.",
+      "id": "proverbios18-joya-01",
+      "msg": {
+        "en": "\"GOD’S name is a place of protection—\"",
+        "es": "\"El nombre de DIOS es un lugar de protección:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-10a"
+          ],
+          "verseId": "proverbios18-nbla-10"
+        }
+      ],
+      "order": 1,
+      "range": "10"
+    },
+    {
+      "explanation": "El texto no dice que la riqueza sea inútil, sino que puede convertirse en una seguridad imaginaria. NBLA subraya que la muralla está en la imaginación del rico. El problema es pedir al dinero una protección última que no puede ofrecer.",
+      "id": "proverbios18-joya-02",
+      "msg": {
+        "en": "\"they imagine themselves safe behind it.\"",
+        "es": "\"imaginan que están seguros detrás de ella.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-11b"
+          ],
+          "verseId": "proverbios18-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "11"
+    },
+    {
+      "explanation": "La secuencia es moral: orgullo prepara caída, humildad precede honor. No toda pérdida demuestra orgullo previo; el proverbio describe el rumbo normal de una vida que se vuelve incapaz de recibir corrección.",
+      "id": "proverbios18-joya-03",
+      "msg": {
+        "en": "\"Pride first, then the crash,\"",
+        "es": "\"Primero el orgullo, luego el desastre;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-12a"
+          ],
+          "verseId": "proverbios18-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "12"
+    },
+    {
+      "explanation": "Escuchar es parte de la justicia. La respuesta rápida puede sentirse competente, pero cuando antecede a la comprensión produce necedad y vergüenza. Este principio es especialmente importante cuando una decisión afecta a otras personas.",
+      "id": "proverbios18-joya-04",
+      "msg": {
+        "en": "\"Answering before listening\"",
+        "es": "\"Responder antes de escuchar\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-13a"
+          ],
+          "verseId": "proverbios18-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "13"
+    },
+    {
+      "explanation": "La primera historia puede sonar completa y aun ser parcial. NBLA pide dejar que el otro examine; MSG usa la escena de un contrainterrogatorio. La sabiduría resiste la presión de decidir antes de escuchar evidencia suficiente.",
+      "id": "proverbios18-joya-05",
+      "msg": {
+        "en": "\"until the cross-examination starts!\"",
+        "es": "\"¡hasta que comienza el contrainterrogatorio!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-17b"
+          ],
+          "verseId": "proverbios18-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "17"
+    },
+    {
+      "explanation": "El poder de la lengua es ético y relacional. Palabras pueden iniciar violencia o detenerla, destruir confianza o reconstruirla. Este texto no promete que pronunciar frases positivas controlará circunstancias; llama a asumir responsabilidad por el fruto de nuestra boca.",
+      "id": "proverbios18-joya-06",
+      "msg": {
+        "en": "\"Words kill, words give life;\"",
+        "es": "\"Las palabras matan, las palabras dan vida;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-21a"
+          ],
+          "verseId": "proverbios18-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "21"
+    },
+    {
+      "explanation": "La sabiduría reconoce que cantidad de contactos no equivale a amistad. NBLA contrasta muchos amigos con uno que permanece más unido que un hermano; MSG lleva la imagen a la fidelidad que funciona como familia.",
+      "id": "proverbios18-joya-07",
+      "msg": {
+        "en": "\"a true friend sticks by you like family.\"",
+        "es": "\"un amigo verdadero permanece junto a ti como familia.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios18-nbla-24b"
+          ],
+          "verseId": "proverbios18-nbla-24"
+        }
+      ],
+      "order": 7,
+      "range": "24"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 18,
+    "studyId": "proverbios-18"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios18-msg-01",
+      "msg": {
+        "en": "Loners who care only for themselves\nspit on the common good.",
+        "es": "Los solitarios que solo se preocupan por sí mismos desprecian el bien común."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios18-msg-02",
+      "msg": {
+        "en": "Fools care nothing for thoughtful discourse;\nall they do is run off at the mouth.",
+        "es": "A los necios no les interesa una conversación reflexiva; lo único que hacen es soltar palabras sin parar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios18-msg-03",
+      "msg": {
+        "en": "When wickedness arrives, shame’s not far behind;\ncontempt for life is contemptible.",
+        "es": "Cuando llega la maldad, la vergüenza no tarda en aparecer; el desprecio por la vida es despreciable."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios18-msg-04",
+      "msg": {
+        "en": "Many words rush along like rivers in flood,\nbut deep wisdom flows up from artesian springs.",
+        "es": "Muchas palabras corren como ríos desbordados, pero la sabiduría profunda brota como agua de manantiales artesianos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios18-msg-05",
+      "msg": {
+        "en": "It’s not right to go easy on the guilty,\nor come down hard on the innocent.",
+        "es": "No está bien ser indulgente con el culpable ni tratar con dureza al inocente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios18-msg-06",
+      "msg": {
+        "en": "The words of a fool start fights;\ndo him a favor and gag him.",
+        "es": "Las palabras del necio comienzan peleas; hazle un favor y ponle freno a la boca."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios18-msg-07",
+      "msg": {
+        "en": "Fools are undone by their big mouths;\ntheir souls are crushed by their words.",
+        "es": "Los necios son destruidos por sus bocas desmedidas; sus propias palabras aplastan su alma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios18-msg-08",
+      "msg": {
+        "en": "Listening to gossip is like eating cheap candy;\ndo you really want junk like that in your belly?",
+        "es": "Escuchar chismes es como comer dulces baratos; ¿de verdad quieres meter esa basura en el estómago?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios18-msg-09",
+      "msg": {
+        "en": "Slack habits and sloppy work\nare as bad as vandalism.",
+        "es": "Los hábitos flojos y el trabajo descuidado son tan malos como el vandalismo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios18-msg-10",
+      "msg": {
+        "en": "GOD’S name is a place of protection—\ngood people can run there and be safe.",
+        "es": "El nombre de DIOS es un lugar de protección: la gente buena puede correr allí y estar segura."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios18-msg-11",
+      "msg": {
+        "en": "The rich think their wealth protects them;\nthey imagine themselves safe behind it.",
+        "es": "Los ricos creen que su riqueza los protege; imaginan que están seguros detrás de ella."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios18-msg-12",
+      "msg": {
+        "en": "Pride first, then the crash,\nbut humility is precursor to honor.",
+        "es": "Primero el orgullo, luego el desastre; pero la humildad precede al honor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios18-msg-13",
+      "msg": {
+        "en": "Answering before listening\nis both stupid and rude.",
+        "es": "Responder antes de escuchar es estúpido y grosero."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios18-msg-14",
+      "msg": {
+        "en": "A healthy spirit conquers adversity,\nbut what can you do when the spirit is crushed?",
+        "es": "Un espíritu sano vence la adversidad, pero ¿qué puedes hacer cuando el espíritu está quebrantado?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios18-msg-15",
+      "msg": {
+        "en": "Wise men and women are always learning,\nalways listening for fresh insights.",
+        "es": "Los hombres y mujeres sabios siempre están aprendiendo, siempre escuchando en busca de nuevas perspectivas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios18-msg-16",
+      "msg": {
+        "en": "A gift gets attention;\nit buys the attention of eminent people.",
+        "es": "Un regalo llama la atención; consigue la atención de personas importantes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios18-msg-17",
+      "msg": {
+        "en": "The first speech in a court case is always convincing—\nuntil the cross-examination starts!",
+        "es": "El primer discurso en un caso judicial siempre parece convincente, ¡hasta que comienza el contrainterrogatorio!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios18-msg-18",
+      "msg": {
+        "en": "You may have to draw straws\nwhen faced with a tough decision.",
+        "es": "Tal vez tengas que echar suertes cuando enfrentas una decisión difícil."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios18-msg-19",
+      "msg": {
+        "en": "Do a favor and win a friend forever;\nnothing can untie that bond.",
+        "es": "Haz un favor y gana un amigo para siempre; nada puede desatar ese vínculo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios18-msg-20",
+      "msg": {
+        "en": "Words satisfy the mind as much as fruit does the stomach;\ngood talk is as gratifying as a good harvest.",
+        "es": "Las palabras satisfacen la mente tanto como la fruta satisface el estómago; una buena conversación es tan gratificante como una buena cosecha."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios18-msg-21",
+      "msg": {
+        "en": "Words kill, words give life;\nthey’re either poison or fruit—you choose.",
+        "es": "Las palabras matan, las palabras dan vida; son veneno o fruto: tú eliges."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios18-msg-22",
+      "msg": {
+        "en": "Find a good spouse, you find a good life—\nand even more: the favor of GOD!",
+        "es": "Encuentra un buen cónyuge y encuentras una buena vida; y aún más: ¡el favor de DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios18-msg-23",
+      "msg": {
+        "en": "The poor speak in soft supplications;\nthe rich bark out answers.",
+        "es": "Los pobres hablan con súplicas suaves; los ricos ladran sus respuestas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios18-msg-24",
+      "msg": {
+        "en": "Friends come and friends go,\nbut a true friend sticks by you like family.",
+        "es": "Los amigos vienen y los amigos se van, pero un amigo verdadero permanece junto a ti como familia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios18-nbla-24"
+        }
+      ],
+      "order": 24
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios18-nbla-01",
+      "number": 1,
+      "text": "El que vive aislado busca su propio deseo,\nContra todo consejo se encoleriza."
+    },
+    {
+      "id": "proverbios18-nbla-02",
+      "number": 2,
+      "text": "El necio no se deleita en la prudencia,\nSino solo en revelar su corazón."
+    },
+    {
+      "id": "proverbios18-nbla-03",
+      "number": 3,
+      "text": "Cuando llega el impío, llega también el desprecio,\nY con la deshonra viene la afrenta."
+    },
+    {
+      "id": "proverbios18-nbla-04",
+      "number": 4,
+      "text": "Aguas profundas son las palabras de la boca del hombre;\nArroyo que fluye, la fuente de la sabiduría."
+    },
+    {
+      "id": "proverbios18-nbla-05",
+      "number": 5,
+      "text": "No es bueno mostrar preferencia por el impío,\nPara ignorar al justo en el juicio."
+    },
+    {
+      "id": "proverbios18-nbla-06",
+      "number": 6,
+      "text": "Los labios del necio provocan riña,\nY su boca llama a los golpes."
+    },
+    {
+      "id": "proverbios18-nbla-07",
+      "number": 7,
+      "text": "La boca del necio es su ruina,\nY sus labios una trampa para su alma."
+    },
+    {
+      "id": "proverbios18-nbla-08",
+      "number": 8,
+      "text": "Las palabras del chismoso son como bocados deliciosos,\nY penetran hasta el fondo de las entrañas."
+    },
+    {
+      "id": "proverbios18-nbla-09",
+      "number": 9,
+      "text": "También el que es negligente en su trabajo\nEs hermano del que destruye."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-10a",
+          "order": 1,
+          "text": "El nombre del SEÑOR es torre fuerte,"
+        },
+        {
+          "id": "proverbios18-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A ella corre el justo y está a salvo."
+        }
+      ],
+      "id": "proverbios18-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-11a",
+          "order": 1,
+          "text": "La fortuna del rico es su ciudad fortificada,"
+        },
+        {
+          "id": "proverbios18-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y como muralla alta en su imaginación."
+        }
+      ],
+      "id": "proverbios18-nbla-11",
+      "number": 11
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-12a",
+          "order": 1,
+          "text": "Antes de la destrucción el corazón del hombre es altivo,"
+        },
+        {
+          "id": "proverbios18-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero a la gloria precede la humildad."
+        }
+      ],
+      "id": "proverbios18-nbla-12",
+      "number": 12
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-13a",
+          "order": 1,
+          "text": "El que responde antes de escuchar,"
+        },
+        {
+          "id": "proverbios18-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Cosecha necedad y vergüenza."
+        }
+      ],
+      "id": "proverbios18-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "proverbios18-nbla-14",
+      "number": 14,
+      "text": "El espíritu del hombre puede soportar su enfermedad,\nPero el espíritu quebrantado, ¿quién lo puede sobrellevar?"
+    },
+    {
+      "id": "proverbios18-nbla-15",
+      "number": 15,
+      "text": "El corazón del prudente adquiere conocimiento,\nY el oído del sabio busca el conocimiento."
+    },
+    {
+      "id": "proverbios18-nbla-16",
+      "number": 16,
+      "text": "La dádiva del hombre le abre camino\nY lo lleva ante la presencia de los grandes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-17a",
+          "order": 1,
+          "text": "Justo parece el primero que defiende su causa"
+        },
+        {
+          "id": "proverbios18-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Hasta que otro viene y lo examina."
+        }
+      ],
+      "id": "proverbios18-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios18-nbla-18",
+      "number": 18,
+      "text": "La suerte pone fin a los pleitos\nY decide entre los poderosos."
+    },
+    {
+      "id": "proverbios18-nbla-19",
+      "number": 19,
+      "text": "El hermano ofendido es más difícil de ganar que una ciudad fortificada,\nY los pleitos son como cerrojos de fortaleza."
+    },
+    {
+      "id": "proverbios18-nbla-20",
+      "number": 20,
+      "text": "Con el fruto de su boca el hombre sacia su vientre,\nCon el producto de sus labios se saciará."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-21a",
+          "order": 1,
+          "text": "Muerte y vida están en poder de la lengua,"
+        },
+        {
+          "id": "proverbios18-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y los que la aman comerán su fruto."
+        }
+      ],
+      "id": "proverbios18-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "proverbios18-nbla-22",
+      "number": 22,
+      "text": "El que halla esposa halla algo bueno\nY alcanza el favor del SEÑOR."
+    },
+    {
+      "id": "proverbios18-nbla-23",
+      "number": 23,
+      "text": "El pobre habla suplicando,\nPero el rico responde con dureza."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios18-nbla-24a",
+          "order": 1,
+          "text": "El hombre de muchos amigos se arruina,"
+        },
+        {
+          "id": "proverbios18-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero hay amigo más unido que un hermano."
+        }
+      ],
+      "id": "proverbios18-nbla-24",
+      "number": 24
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

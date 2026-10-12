@@ -1,0 +1,447 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El capítulo comienza con una intimidad recibida y celebrada. NBLA fija la entrada al huerto dentro del vínculo con la esposa; MSG intensifica el afecto con su lenguaje de amistad y amor. La verdad principal es la recepción del don compartido, no ninguna expresión añadida exclusiva de la paráfrasis.",
+      "id": "cantares5-joya-01",
+      "msg": {
+        "en": "\"I went to my garden, dear friend, best lover!\"",
+        "es": "\"Entré en mi jardín, querida amiga, ¡amada incomparable!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-01a"
+          ],
+          "verseId": "cantares5-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La poesía coloca a la mujer en un estado de tensión entre sueño y vigilia. NBLA conserva la imagen del corazón que vela; MSG la interpreta en clave de sueño consciente. La escena debe leerse como poesía y no como una descripción clínica o como base para acusar moralmente a la mujer por todo lo que sigue.",
+      "id": "cantares5-joya-02",
+      "msg": {
+        "en": "\"I was sound asleep, but in my dreams I was wide awake.\"",
+        "es": "\"Yo dormía profundamente, pero en mis sueños estaba completamente despierta.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-02a"
+          ],
+          "verseId": "cantares5-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "El desencuentro es real: cuando ella abre, él ya no está. NBLA fija la retirada; MSG la comunica con sencillez narrativa. El texto permite hablar de oportunidades perdidas y ausencia, pero no autoriza a convertir el resto de la noche en un castigo merecido por haber tardado.",
+      "id": "cantares5-joya-03",
+      "msg": {
+        "en": "\"But when I opened the door he was gone.\"",
+        "es": "\"Pero cuando abrí la puerta, se había ido.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-06a"
+          ],
+          "verseId": "cantares5-nbla-06"
+        }
+      ],
+      "order": 3,
+      "range": "4-7"
+    },
+    {
+      "explanation": "La mujer sufre violencia a manos de los guardias. NBLA establece de forma inequívoca que fue golpeada y herida; MSG vuelve más gráfica la agresión. La conclusión teológica segura es que el texto reporta daño ejercido por quienes patrullan la ciudad. No dice que Dios lo ordenó, que ella lo mereció ni que la violencia sea una herramienta legítima de corrección.",
+      "id": "cantares5-joya-04",
+      "msg": {
+        "en": "\"They slapped and beat and bruised me,\"",
+        "es": "\"Me abofetearon, me golpearon y me dejaron moretones,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-07b"
+          ],
+          "verseId": "cantares5-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "4-7"
+    },
+    {
+      "explanation": "El deseo permanece aun después de una noche dolorosa. NBLA y MSG coinciden en el lenguaje de enfermedad de amor. La expresión es poética y comunica intensidad; no es un diagnóstico médico ni una licencia para idealizar obsesión, dependencia o conductas que ignoren límites.",
+      "id": "cantares5-joya-05",
+      "msg": {
+        "en": "\"that I’m heartsick with love for him.\"",
+        "es": "\"que estoy enferma de amor por él.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-08b"
+          ],
+          "verseId": "cantares5-nbla-08"
+        }
+      ],
+      "order": 5,
+      "range": "8"
+    },
+    {
+      "explanation": "La descripción culmina identificando a la persona buscada. NBLA añade una palabra de gran peso relacional: «amigo». MSG conserva la pertenencia afectiva con otra formulación. La lectura debe anclarse en NBLA: el deseo del capítulo no borra la amistad y el reconocimiento de la persona completa.",
+      "id": "cantares5-joya-06",
+      "msg": {
+        "en": "\"That’s my lover, that’s my man,\"",
+        "es": "\"Ese es mi amado, ese es mi hombre,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares5-nbla-16b"
+          ],
+          "verseId": "cantares5-nbla-16"
+        }
+      ],
+      "order": 6,
+      "range": "10-16"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 5,
+    "studyId": "cantares-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "cantares5-msg-01",
+      "msg": {
+        "en": "I went to my garden, dear friend, best lover!\nbreathed the sweet fragrance.\nI ate the fruit and honey,\nI drank the nectar and wine.\nCelebrate with me, friends!\nRaise your glasses—“To life! To love!”",
+        "es": "Entré en mi jardín, querida amiga, ¡amada incomparable!\nRespiré la dulce fragancia.\nComí el fruto y la miel,\nbebí el néctar y el vino.\n¡Celebren conmigo, amigos!\nAlcen sus copas: «¡Por la vida! ¡Por el amor!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "cantares5-msg-02",
+      "msg": {
+        "en": "I was sound asleep, but in my dreams I was wide awake.\nOh, listen! It’s the sound of my lover knocking, calling!\n“Let me in, dear companion, dearest friend,\nmy dove, consummate lover!\nI’m soaked with the dampness of the night,\ndrenched with dew, shivering and cold.”",
+        "es": "Yo dormía profundamente, pero en mis sueños estaba completamente despierta.\n¡Oh, escucha! ¡Es el sonido de mi amado llamando a la puerta, llamándome!\n\n«Déjame entrar, querida compañera, amiga entrañable,\npaloma mía, amada perfecta.\nEstoy empapado por la humedad de la noche,\ncubierto de rocío, temblando de frío»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "cantares5-msg-03",
+      "msg": {
+        "en": "“But I’m in my nightgown—do you expect me to get dressed?\nI’m bathed and in bed—do you want me to get dirty?”",
+        "es": "«Pero estoy en camisón, ¿esperas que vuelva a vestirme?\nYa me bañé y estoy en la cama, ¿quieres que vuelva a ensuciarme?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "cantares5-msg-04",
+      "msg": {
+        "en": "But my lover wouldn’t take no for an answer,\nand the longer he knocked, the more excited I became.\nI got up to open the door to my lover,\nsweetly ready to receive him,\nDesiring and expectant\nas I turned the door handle.\nBut when I opened the door he was gone.\nMy loved one had tired of waiting and left.\nAnd I died inside—oh, I felt so bad!\nI ran out looking for him\nBut he was nowhere to be found.\nI called into the darkness—but no answer.\nThe night watchmen found me\nas they patrolled the streets of the city.\nThey slapped and beat and bruised me,\nripping off my clothes,\nThese watchmen,\nwho were supposed to be guarding the city.",
+        "es": "Pero mi amado no aceptaba un no por respuesta,\ny cuanto más llamaba, más me emocionaba.\nMe levanté para abrirle la puerta a mi amado,\ndulcemente preparada para recibirlo,\ndeseosa y expectante\nmientras giraba la manija.\nPero cuando abrí la puerta, se había ido.\nMi amado se cansó de esperar y se marchó.\nY morí por dentro; ¡me sentí tan mal!\nSalí corriendo a buscarlo,\npero no aparecía por ninguna parte.\nLlamé en medio de la oscuridad, pero no hubo respuesta.\nLos guardias nocturnos me encontraron\nmientras patrullaban las calles de la ciudad.\nMe abofetearon, me golpearon y me dejaron moretones,\narrancándome la ropa,\nestos guardias\nque se suponía debían proteger la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "cantares5-msg-05",
+      "msg": {
+        "en": "I beg you, sisters in Jerusalem—\nif you find my lover,\nPlease tell him I want him,\nthat I’m heartsick with love for him.",
+        "es": "Les ruego, hermanas de Jerusalén:\nsi encuentran a mi amado,\npor favor díganle que lo deseo,\nque estoy enferma de amor por él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9",
+      "id": "cantares5-msg-06",
+      "msg": {
+        "en": "What’s so great about your lover, fair lady?\nWhat’s so special about him that you beg for our help?",
+        "es": "¿Qué tiene de extraordinario tu amado, hermosa mujer?\n¿Qué tiene de especial para que nos ruegues que te ayudemos?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-09"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-16",
+      "id": "cantares5-msg-07",
+      "msg": {
+        "en": "My dear lover glows with health—\nred-blooded, radiant!\nHe’s one in a million.\nThere’s no one quite like him!\nMy golden one, pure and untarnished,\nwith raven black curls tumbling across his shoulders.\nHis eyes are like doves, soft and bright,\nbut deep-set, brimming with meaning, like wells of water.\nHis face is rugged, his beard smells like sage,\nHis voice, his words, warm and reassuring.\nFine muscles ripple beneath his skin,\nquiet and beautiful.\nHis torso is the work of a sculptor,\nhard and smooth as ivory.\nHe stands tall, like a cedar,\nstrong and deep-rooted,\nA rugged mountain of a man,\naromatic with wood and stone.\nHis words are kisses, his kisses words.\nEverything about him delights me, thrills me\nthrough and through!\nThat’s my lover, that’s my man,\ndear Jerusalem sisters.",
+        "es": "Mi querido amado resplandece de salud:\n¡sonrosado, radiante!\nEs uno entre un millón.\n¡No hay nadie como él!\nMi amado dorado, puro y sin mancha,\ncon rizos negros como cuervo cayendo sobre sus hombros.\nSus ojos son como palomas, suaves y brillantes,\npero profundos, rebosantes de significado, como pozos de agua.\nSu rostro es recio, su barba huele a salvia,\nsu voz, sus palabras, cálidas y tranquilizadoras.\nMúsculos firmes se dibujan bajo su piel,\nserenos y hermosos.\nSu torso es obra de un escultor,\nduro y liso como marfil.\nSe alza alto, como un cedro,\nfuerte y profundamente arraigado,\nun hombre como una montaña, recio,\naromática a madera y piedra.\nSus palabras son besos, sus besos palabras.\nTodo en él me deleita, me estremece\nde pies a cabeza.\nEse es mi amado, ese es mi hombre,\nqueridas hermanas de Jerusalén."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares5-nbla-16"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-01a",
+          "order": 1,
+          "text": "«He entrado en mi huerto, hermana mía, esposa mía;"
+        },
+        {
+          "id": "cantares5-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "He recogido mi mirra con mi bálsamo.\nHe comido mi panal y mi miel;\nHe bebido mi vino y mi leche.\nComan, amigos;\nBeban y embriáguense, oh amados»."
+        }
+      ],
+      "id": "cantares5-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-02a",
+          "order": 1,
+          "text": "«Yo dormía, pero mi corazón velaba,"
+        },
+        {
+          "id": "cantares5-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¡Una voz! ¡Mi amado toca a la puerta!\n“Abreme, hermana mía, amada mía,\nPaloma mía, perfecta mía,\nPues mi cabeza está empapada de rocío,\nMis cabellos empapados de la humedad de la noche”."
+        }
+      ],
+      "id": "cantares5-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "cantares5-nbla-03",
+      "number": 3,
+      "text": "Me he quitado la ropa,\n¿Cómo he de vestirme de nuevo?\nMe he lavado los pies,\n¿Cómo he de ensuciarlos de nuevo?"
+    },
+    {
+      "id": "cantares5-nbla-04",
+      "number": 4,
+      "text": "Mi amado metió su mano por la abertura de la puerta,\nY se estremecieron por él mis entrañas."
+    },
+    {
+      "id": "cantares5-nbla-05",
+      "number": 5,
+      "text": "Yo me levanté para abrir a mi amado;\nY mis manos destilaron mirra,\nY mis dedos mirra líquida,\nSobre las manecillas de la cerradura."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-06a",
+          "order": 1,
+          "text": "Abrí yo a mi amado,\nPero mi amado se había retirado, se había ido."
+        },
+        {
+          "id": "cantares5-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tras su hablar salió mi alma.\nLo busqué, y no lo hallé;\nLo llamé, y no me respondió."
+        }
+      ],
+      "id": "cantares5-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-07a",
+          "order": 1,
+          "text": "Me hallaron los guardas que rondan la ciudad,"
+        },
+        {
+          "id": "cantares5-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Me golpearon y me hirieron;"
+        },
+        {
+          "id": "cantares5-nbla-07c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Me quitaron de encima mi chal los guardas de las murallas."
+        }
+      ],
+      "id": "cantares5-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-08a",
+          "order": 1,
+          "text": "Yo les ruego, oh hijas de Jerusalén,\nSi encuentran a mi amado,\n¿Qué le han de decir?:"
+        },
+        {
+          "id": "cantares5-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que estoy enferma de amor»."
+        }
+      ],
+      "id": "cantares5-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "cantares5-nbla-09",
+      "number": 9,
+      "text": "«¿Qué clase de amado es tu amado,\nOh la más hermosa de las mujeres?\n¿Qué clase de amado es tu amado,\nQue así nos ruegas?»."
+    },
+    {
+      "id": "cantares5-nbla-10",
+      "number": 10,
+      "text": "«Mi amado es apuesto y sonrosado,\nDistinguido entre diez mil."
+    },
+    {
+      "id": "cantares5-nbla-11",
+      "number": 11,
+      "text": "Su cabeza es como oro, oro puro,\nSus cabellos, como racimos de dátiles,\nNegros como el cuervo."
+    },
+    {
+      "id": "cantares5-nbla-12",
+      "number": 12,
+      "text": "Sus ojos son como palomas\nJunto a corrientes de agua,\nBañados en leche,\nColocados en su engaste."
+    },
+    {
+      "id": "cantares5-nbla-13",
+      "number": 13,
+      "text": "Sus mejillas, como eras de bálsamo,\nComo riberas de hierbas aromáticas;\nSus labios son lirios\nQue destilan mirra líquida."
+    },
+    {
+      "id": "cantares5-nbla-14",
+      "number": 14,
+      "text": "Sus manos son barras de oro\nEngastadas de berilo;\nSu vientre es marfil tallado\nRecubierto de zafiros."
+    },
+    {
+      "id": "cantares5-nbla-15",
+      "number": 15,
+      "text": "Sus piernas son columnas de alabastro\nAsentadas sobre basas de oro puro;\nSu aspecto es como el Líbano,\nGallardo como los cedros."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares5-nbla-16a",
+          "order": 1,
+          "text": "Su paladar es dulcísimo,\nY todo él, deseable."
+        },
+        {
+          "id": "cantares5-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Este es mi amado y este es mi amigo,"
+        },
+        {
+          "id": "cantares5-nbla-16c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hijas de Jerusalén»."
+        }
+      ],
+      "id": "cantares5-nbla-16",
+      "number": 16
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

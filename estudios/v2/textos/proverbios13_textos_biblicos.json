@@ -1,0 +1,714 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La vida se protege también aprendiendo a gobernar la boca. NBLA habla de guardar la boca para preservar la vida; MSG vuelve visible la relación entre palabras cuidadosas y una vida cuidadosa.",
+      "id": "proverbios13-joya-01",
+      "msg": {
+        "en": "\"Careful words make for a careful life;\"",
+        "es": "\"Las palabras cuidadosas producen una vida cuidadosa;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-03a"
+          ],
+          "verseId": "proverbios13-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3"
+    },
+    {
+      "explanation": "La sabiduría desconfía de atajos que prometen resultados sin proceso. NBLA habla de riqueza obtenida con fraude que disminuye y de acumulación mediante trabajo; MSG resume esa lógica en “easy come, easy go”.",
+      "id": "proverbios13-joya-02",
+      "msg": {
+        "en": "\"Easy come, easy go,\"",
+        "es": "\"Lo que llega fácil, fácil se va, pero la diligencia constante da fruto.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-11a"
+          ],
+          "verseId": "proverbios13-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "11"
+    },
+    {
+      "explanation": "La espera prolongada puede herir de verdad. NBLA dice que la esperanza demorada enferma el corazón; MSG habla de una decepción que no cede. La sabiduría bíblica no exige fingir que esperar no duele.",
+      "id": "proverbios13-joya-03",
+      "msg": {
+        "en": "\"Unrelenting disappointment leaves you heartsick,\"",
+        "es": "\"La decepción que no cede enferma el corazón, pero un buen giro inesperado puede darle la vuelta a la vida.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-12a"
+          ],
+          "verseId": "proverbios13-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "12"
+    },
+    {
+      "explanation": "La compañía es una fuerza formativa. NBLA declara que quien anda con sabios será sabio; MSG lo convierte en una invitación directa a caminar con quienes están aprendiendo a vivir bien.",
+      "id": "proverbios13-joya-04",
+      "msg": {
+        "en": "\"Become wise by walking with the wise;\"",
+        "es": "\"Hazte sabio caminando con los sabios;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-20a"
+          ],
+          "verseId": "proverbios13-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "20"
+    },
+    {
+      "explanation": "La pobreza no siempre es resultado de pereza o falta de virtud. NBLA dice que el campo del pobre puede producir alimento y aun así perderse por injusticia; MSG contextualiza esa injusticia con bancos y abogados, imágenes modernas que no deben confundirse con instituciones del texto antiguo.",
+      "id": "proverbios13-joya-05",
+      "msg": {
+        "en": "\"Banks foreclose on the farms of the poor,\"",
+        "es": "\"Los bancos embargan las granjas de los pobres, o los pobres pierden hasta la camisa frente a abogados corruptos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-23a"
+          ],
+          "verseId": "proverbios13-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "23"
+    },
+    {
+      "explanation": "La corrección forma parte del amor responsable, pero no legitima crueldad. NBLA habla de disciplina diligente; MSG expresa el principio en lenguaje frontal. La finalidad es formación, no descarga de ira ni control violento.",
+      "id": "proverbios13-joya-06",
+      "msg": {
+        "en": "\"A refusal to correct is a refusal to love;\"",
+        "es": "\"Negarse a corregir es negarse a amar; ama a tus hijos disciplinándolos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios13-nbla-24a"
+          ],
+          "verseId": "proverbios13-nbla-24"
+        }
+      ],
+      "order": 6,
+      "range": "24"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 13,
+    "studyId": "proverbios-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios13-msg-01",
+      "msg": {
+        "en": "Intelligent children listen to their parents;\nfoolish children do their own thing.",
+        "es": "Los hijos inteligentes escuchan a sus padres; los hijos necios hacen lo que les da la gana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios13-msg-02",
+      "msg": {
+        "en": "The good acquire a taste for helpful conversation;\nbullies push and shove their way through life.",
+        "es": "Los buenos adquieren gusto por las conversaciones que ayudan; los abusivos avanzan por la vida a empujones."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios13-msg-03",
+      "msg": {
+        "en": "Careful words make for a careful life;\ncareless talk may ruin everything.",
+        "es": "Las palabras cuidadosas producen una vida cuidadosa; hablar sin cuidado puede arruinarlo todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios13-msg-04",
+      "msg": {
+        "en": "Indolence wants it all and gets nothing;\nthe energetic have something to show for their lives.",
+        "es": "La indolencia lo quiere todo y no obtiene nada; los enérgicos tienen algo que mostrar en sus vidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios13-msg-05",
+      "msg": {
+        "en": "A good person hates false talk;\na bad person wallows in gibberish.",
+        "es": "Una buena persona detesta las palabras falsas; una mala persona se revuelca en disparates."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios13-msg-06",
+      "msg": {
+        "en": "A God-loyal life keeps you on track;\nsin dumps the wicked in the ditch.",
+        "es": "Una vida leal a Dios te mantiene en el camino; el pecado arroja a los malvados a la cuneta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios13-msg-07",
+      "msg": {
+        "en": "A pretentious, showy life is an empty life;\na plain and simple life is a full life.",
+        "es": "Una vida ostentosa y pretenciosa es una vida vacía; una vida sencilla y sin pretensiones es una vida plena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios13-msg-08",
+      "msg": {
+        "en": "The rich can be sued for everything they have,\nbut the poor are free of such threats.",
+        "es": "A los ricos pueden demandarlos por todo lo que tienen, pero los pobres están libres de esas amenazas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios13-msg-09",
+      "msg": {
+        "en": "The lives of good people are brightly lit streets;\nthe lives of the wicked are dark alleys.",
+        "es": "Las vidas de la gente buena son calles bien iluminadas; las vidas de los malvados son callejones oscuros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios13-msg-10",
+      "msg": {
+        "en": "Arrogant know-it-alls stir up discord,\nbut wise men and women listen to each other’s counsel.",
+        "es": "Los sabelotodo arrogantes provocan discordia, pero los hombres y mujeres sabios escuchan el consejo de otros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios13-msg-11",
+      "msg": {
+        "en": "Easy come, easy go,\nbut steady diligence pays off.",
+        "es": "Lo que llega fácil, fácil se va, pero la diligencia constante da fruto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios13-msg-12",
+      "msg": {
+        "en": "Unrelenting disappointment leaves you heartsick,\nbut a sudden good break can turn life around.",
+        "es": "La decepción que no cede enferma el corazón, pero un buen giro inesperado puede darle la vuelta a la vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios13-msg-13",
+      "msg": {
+        "en": "Ignore the Word and suffer;\nhonor God’s commands and grow rich.",
+        "es": "Ignora la Palabra y sufrirás; honra los mandamientos de Dios y te enriquecerás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios13-msg-14",
+      "msg": {
+        "en": "The teaching of the wise is a fountain of life,\nso, no more drinking from death-tainted wells!",
+        "es": "La enseñanza del sabio es una fuente de vida: ¡ya no bebas de pozos contaminados de muerte!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios13-msg-15",
+      "msg": {
+        "en": "Sound thinking makes for gracious living,\nbut liars walk a rough road.",
+        "es": "El buen juicio produce una vida llena de gracia, pero los mentirosos caminan por una senda áspera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios13-msg-16",
+      "msg": {
+        "en": "A commonsense person lives good sense;\nfools litter the country with silliness.",
+        "es": "Una persona con sentido común vive con sensatez; los necios llenan el país de tonterías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios13-msg-17",
+      "msg": {
+        "en": "Irresponsible talk makes a real mess of things,\nbut a reliable reporter is a healing presence.",
+        "es": "Las palabras irresponsables hacen un verdadero desastre, pero un mensajero confiable es una presencia que sana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios13-msg-18",
+      "msg": {
+        "en": "Refuse discipline and end up homeless;\nembrace correction and live an honored life.",
+        "es": "Rechaza la disciplina y terminarás sin hogar; abraza la corrección y vivirás una vida honrada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios13-msg-19",
+      "msg": {
+        "en": "Souls who follow their hearts thrive;\nfools bent on evil despise matters of soul.",
+        "es": "Las almas que siguen lo que llevan en el corazón prosperan; los necios empeñados en el mal desprecian lo que importa al alma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios13-msg-20",
+      "msg": {
+        "en": "Become wise by walking with the wise;\nhang out with fools and watch your life fall to pieces.",
+        "es": "Hazte sabio caminando con los sabios; júntate con necios y mira cómo tu vida se desmorona."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios13-msg-21",
+      "msg": {
+        "en": "Disaster entraps sinners,\nbut God-loyal people get a good life.",
+        "es": "El desastre atrapa a los pecadores, pero el pueblo leal a Dios recibe una buena vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios13-msg-22",
+      "msg": {
+        "en": "A good life gets passed on to the grandchildren;\nill-gotten wealth ends up with good people.",
+        "es": "Una buena vida se transmite a los nietos; la riqueza mal obtenida termina en manos de gente buena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios13-msg-23",
+      "msg": {
+        "en": "Banks foreclose on the farms of the poor,\nor else the poor lose their shirts to crooked lawyers.",
+        "es": "Los bancos embargan las granjas de los pobres, o los pobres pierden hasta la camisa frente a abogados corruptos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios13-msg-24",
+      "msg": {
+        "en": "A refusal to correct is a refusal to love;\nlove your children by disciplining them.",
+        "es": "Negarse a corregir es negarse a amar; ama a tus hijos disciplinándolos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios13-msg-25",
+      "msg": {
+        "en": "An appetite for good brings much satisfaction,\nbut the belly of the wicked always wants more.",
+        "es": "El apetito por el bien produce gran satisfacción, pero el vientre de los malvados siempre quiere más."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios13-nbla-25"
+        }
+      ],
+      "order": 25
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios13-nbla-01",
+      "number": 1,
+      "text": "El hijo sabio acepta la disciplina de su padre,\nPero el insolente no escucha la reprensión."
+    },
+    {
+      "id": "proverbios13-nbla-02",
+      "number": 2,
+      "text": "Del fruto de su boca el hombre comerá el bien,\nPero el deseo de los traidores es la violencia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-03a",
+          "order": 1,
+          "text": "El que guarda su boca, preserva su vida;"
+        },
+        {
+          "id": "proverbios13-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El que mucho abre sus labios, termina en ruina."
+        }
+      ],
+      "id": "proverbios13-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios13-nbla-04",
+      "number": 4,
+      "text": "El alma del perezoso desea mucho, pero nada consigue,\nSin embargo, el alma de los diligentes queda satisfecha."
+    },
+    {
+      "id": "proverbios13-nbla-05",
+      "number": 5,
+      "text": "El justo aborrece la falsedad,\nPero el impío causa repugnancia y vergüenza."
+    },
+    {
+      "id": "proverbios13-nbla-06",
+      "number": 6,
+      "text": "La justicia guarda al íntegro en su camino,\nPero la maldad destruye al pecador."
+    },
+    {
+      "id": "proverbios13-nbla-07",
+      "number": 7,
+      "text": "Hay quien pretende ser rico, y nada tiene;\nHay quien pretende ser pobre, y tiene una gran fortuna."
+    },
+    {
+      "id": "proverbios13-nbla-08",
+      "number": 8,
+      "text": "El rescate de la vida de un hombre está en sus riquezas,\nPero el pobre no oye amenazas."
+    },
+    {
+      "id": "proverbios13-nbla-09",
+      "number": 9,
+      "text": "La luz de los justos brilla alegremente,\nPero la lámpara de los impíos se apaga."
+    },
+    {
+      "id": "proverbios13-nbla-10",
+      "number": 10,
+      "text": "Por la soberbia solo viene la contienda,\nPero con los que reciben consejos está la sabiduría."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-11a",
+          "order": 1,
+          "text": "La fortuna obtenida con fraude disminuye,"
+        },
+        {
+          "id": "proverbios13-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que la recoge con trabajo la aumenta."
+        }
+      ],
+      "id": "proverbios13-nbla-11",
+      "number": 11
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-12a",
+          "order": 1,
+          "text": "La esperanza que se demora enferma el corazón,"
+        },
+        {
+          "id": "proverbios13-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el deseo cumplido es árbol de vida."
+        }
+      ],
+      "id": "proverbios13-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "proverbios13-nbla-13",
+      "number": 13,
+      "text": "El que desprecia la palabra pagará por ello,\nPero el que teme el mandamiento será recompensado."
+    },
+    {
+      "id": "proverbios13-nbla-14",
+      "number": 14,
+      "text": "La enseñanza del sabio es fuente de vida,\nPara apartarse de los lazos de la muerte."
+    },
+    {
+      "id": "proverbios13-nbla-15",
+      "number": 15,
+      "text": "El buen entendimiento produce favor,\nPero el camino de los malvados es difícil."
+    },
+    {
+      "id": "proverbios13-nbla-16",
+      "number": 16,
+      "text": "Todo hombre prudente obra con conocimiento,\nPero el necio ostenta necedad."
+    },
+    {
+      "id": "proverbios13-nbla-17",
+      "number": 17,
+      "text": "El mensajero perverso cae en la adversidad,\nPero el enviado fiel trae sanidad."
+    },
+    {
+      "id": "proverbios13-nbla-18",
+      "number": 18,
+      "text": "Pobreza y vergüenza vendrán al que desprecia la instrucción,\nPero el que acepta la reprensión será honrado."
+    },
+    {
+      "id": "proverbios13-nbla-19",
+      "number": 19,
+      "text": "Deseo cumplido es dulzura para el alma,\nPero es abominación para los necios el apartarse del mal."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-20a",
+          "order": 1,
+          "text": "El que anda con sabios será sabio,"
+        },
+        {
+          "id": "proverbios13-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el compañero de los necios sufrirá daño."
+        }
+      ],
+      "id": "proverbios13-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "proverbios13-nbla-21",
+      "number": 21,
+      "text": "A los pecadores los persigue el mal,\nPero los justos serán recompensados con el bien."
+    },
+    {
+      "id": "proverbios13-nbla-22",
+      "number": 22,
+      "text": "El hombre bueno deja herencia a los hijos de sus hijos,\nPero la riqueza del pecador está reservada para el justo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-23a",
+          "order": 1,
+          "text": "El terreno de los pobres tiene mucho de comer,"
+        },
+        {
+          "id": "proverbios13-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero se pierde por la injusticia."
+        }
+      ],
+      "id": "proverbios13-nbla-23",
+      "number": 23
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios13-nbla-24a",
+          "order": 1,
+          "text": "El que evita la vara odia a su hijo,"
+        },
+        {
+          "id": "proverbios13-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que lo ama lo disciplina con diligencia."
+        }
+      ],
+      "id": "proverbios13-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "proverbios13-nbla-25",
+      "number": 25,
+      "text": "El justo come hasta saciar su alma,\nPero el vientre de los impíos sufre escasez."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

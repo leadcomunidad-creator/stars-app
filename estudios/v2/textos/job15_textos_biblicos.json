@@ -1,0 +1,462 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Elifaz interpreta el discurso de Job como autoincriminación. NBLA fija esa acusación; MSG la vuelve lenguaje judicial explícito. El lector no debe confundir la seguridad de Elifaz con el veredicto de Dios: el prólogo y Job 42 obligan a evaluar críticamente esta conclusión.",
+      "id": "job15-joya-01",
+      "msg": {
+        "en": "\"Your own words have exposed your guilt.\nIt’s nothing I’ve said—you’ve incriminated yourself!\"",
+        "es": "\"Tus propias palabras han dejado al descubierto tu culpa.\nNo he sido yo: ¡tú mismo te has incriminado!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "5-6"
+    },
+    {
+      "explanation": "Ningún ser humano posee acceso exclusivo al consejo secreto de Dios. NBLA habla del secreto de Dios y de retener la sabiduría; MSG lo convierte en la imagen de haber estado presente cuando Dios planeaba. La ironía es que esta verdad también limita a Elifaz: él tampoco conoce el consejo celestial revelado al lector en el prólogo.",
+      "id": "job15-joya-02",
+      "msg": {
+        "en": "\"Were you listening in when God planned all this?\nDo you think you’re the only one who knows anything?\"",
+        "es": "\"¿Estabas escuchando cuando Dios planeó todo esto?\n¿Crees que eres el único que sabe algo?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8-9"
+    },
+    {
+      "explanation": "Elifaz presenta su mensaje como consuelo proveniente de Dios. NBLA habla específicamente de «los consuelos de Dios» y de una palabra dulce; MSG usa «promesas». Esa expansión no debe cambiar el sentido: el problema del capítulo es que Elifaz atribuye peso divino a una intervención que en la práctica está acusando y endureciendo a Job.",
+      "id": "job15-joya-03",
+      "msg": {
+        "en": "\"Are God’s promises not enough for you,\nspoken so gently and tenderly?\"",
+        "es": "\"¿No te bastan las promesas de Dios,\ndichas con tanta suavidad y ternura?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "La criatura humana no puede reclamar pureza absoluta delante de Dios. NBLA fija la pregunta sobre pureza y justicia; MSG la expresa como ausencia de pecado. Esa verdad general armoniza con la enseñanza canónica sobre el pecado humano, pero no demuestra que Job padezca por una transgresión secreta específica.",
+      "id": "job15-joya-04",
+      "msg": {
+        "en": "\"Do you think it’s possible for any mere mortal to be sinless\nin God’s sight,\"",
+        "es": "\"¿Crees que es posible que un simple mortal esté sin pecado\ndelante de Dios,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "14-16"
+    },
+    {
+      "explanation": "El engaño termina pagando con más engaño y vacío. NBLA fija la lógica como confiar en vanidad y recibir vanidad; MSG la convierte en una metáfora financiera. La imagen comunica bien el principio, pero no prueba que Job sea el sujeto al que debe aplicarse.",
+      "id": "job15-joya-05",
+      "msg": {
+        "en": "\"Whoever invests in lies,\ngets lies for interest,\"",
+        "es": "\"quien invierte en mentiras\nrecibe mentiras como intereses,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-31"
+        }
+      ],
+      "order": 5,
+      "range": "31-32"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 15,
+    "studyId": "job-15"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-16",
+      "id": "job15-msg-01",
+      "msg": {
+        "en": "Eliphaz of Teman spoke a second time:\n“If you were truly wise, would you sound so much like a\nwindbag, belching hot air?\nWould you talk nonsense in the middle of a serious argument,\nbabbling baloney?\nLook at you! You trivialize religion,\nturn spiritual conversation into empty gossip.\nIt’s your sin that taught you to talk this way.\nYou chose an education in fraud.\nYour own words have exposed your guilt.\nIt’s nothing I’ve said—you’ve incriminated yourself!\nDo you think you’re the first person to have to deal with\nthese things?\nHave you been around as long as the hills?\nWere you listening in when God planned all this?\nDo you think you’re the only one who knows anything?\nWhat do you know that we don’t know?\nWhat insights do you have that we’ve missed?\nGray beards and white hair back us up—\nold folks who’ve been around a lot longer than you.\nAre God’s promises not enough for you,\nspoken so gently and tenderly?\nWhy do you let your emotions take over,\nlashing out and spitting fire,\nPitting your whole being against God\nby letting words like this come out of your mouth?\nDo you think it’s possible for any mere mortal to be sinless\nin God’s sight,\nfor anyone born of a human mother to get it all together?\nWhy, God can’t even trust his holy angels.\nHe sees the flaws in the very heavens themselves,\nSo how much less we humans, smelly and foul,\nwho lap up evil like water?",
+        "es": "Elifaz de Temán habló por segunda vez:\n«Si de verdad fueras sabio, ¿sonarías tanto como un\ncharlatán inflado, soltando puro aire caliente?\n¿Hablarías tonterías en medio de una discusión seria,\nbalbuceando disparates?\n¡Mírate! Le quitas toda seriedad a la fe,\nconviertes la conversación espiritual en chisme vacío.\nEs tu pecado el que te enseñó a hablar así.\nElegiste formarte en el engaño.\nTus propias palabras han dejado al descubierto tu culpa.\nNo he sido yo: ¡tú mismo te has incriminado!\n¿Crees que eres la primera persona que ha tenido que lidiar con\nestas cosas?\n¿Has vivido desde antes que existieran las colinas?\n¿Estabas escuchando cuando Dios planeó todo esto?\n¿Crees que eres el único que sabe algo?\n¿Qué sabes tú que nosotros no sepamos?\n¿Qué entendimiento tienes que a nosotros se nos haya escapado?\nBarbas grises y cabellos blancos nos respaldan:\nancianos que han vivido mucho más que tú.\n¿No te bastan las promesas de Dios,\ndichas con tanta suavidad y ternura?\n¿Por qué dejas que tus emociones se apoderen de ti,\narremetiendo y escupiendo fuego,\nponiendo todo tu ser contra Dios\nal dejar salir de tu boca palabras como estas?\n¿Crees que es posible que un simple mortal esté sin pecado\ndelante de Dios,\nque alguien nacido de mujer tenga todo en orden?\n¡Dios ni siquiera confía plenamente en Sus santos!\nVe fallas hasta en los cielos mismos,\nasí que cuánto menos en nosotros los humanos, repugnantes y corrompidos,\nque bebemos el mal como agua."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-16"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "17-26",
+      "id": "job15-msg-02",
+      "msg": {
+        "en": "“I’ve a thing or two to tell you, so listen up!\nI’m letting you in on my views;\nIt’s what wise men and women have always taught,\nholding nothing back from what they were taught\nBy their parents, back in the days\nwhen they had this land all to themselves:\nThose who live by their own rules, not God’s, can expect\nnothing but trouble,\nand the longer they live, the worse it gets.\nEvery little sound terrifies them.\nJust when they think they have it made, disaster strikes.\nThey despair of things ever getting better—\nthey’re on the list of people for whom things always turn out\nfor the worst.\nThey wander here and there,\nnever knowing where the next meal is coming from—\nevery day is doomsday!\nThey live in constant terror,\nalways with their backs up against the wall\nBecause they insist on shaking their fists at God,\ndefying God Almighty to his face,\nAlways and ever at odds with God,\nalways on the defensive.",
+        "es": "«Tengo una o dos cosas que decirte, así que escucha.\nVoy a contarte cómo veo las cosas.\nEs lo que los sabios siempre han enseñado,\nsin esconder nada de lo que recibieron\nde sus padres, en aquellos días\ncuando tenían esta tierra para ellos solos.\nQuienes viven según sus propias reglas, y no según las de Dios, pueden esperar\nnada más que problemas,\ny cuanto más viven, peor se pone.\nCada pequeño ruido los aterroriza.\nJusto cuando creen que ya lo tienen todo asegurado, llega el desastre.\nDesesperan de que las cosas algún día mejoren:\nestán en la lista de aquellos a quienes todo les sale\nmal.\nVan de un lado para otro,\nsin saber de dónde vendrá la próxima comida:\n¡cada día parece el día del juicio!\nViven en terror constante,\nsiempre contra la pared,\nporque insisten en levantar el puño contra Dios,\ndesafiando al Dios Todopoderoso en Su propia cara,\nsiempre y para siempre en conflicto con Dios,\nsiempre a la defensiva."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-26"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "27-35",
+      "id": "job15-msg-03",
+      "msg": {
+        "en": "“Even if they’re the picture of health,\ntrim and fit and youthful,\nThey’ll end up living in a ghost town\nsleeping in a hovel not fit for a dog,\na ramshackle shack.\nThey’ll never get ahead,\nnever amount to a hill of beans.\nAnd then death—don’t think they’ll escape that!\nThey’ll end up shriveled weeds,\nbrought down by a puff of God’s breath.\nThere’s a lesson here: Whoever invests in lies,\ngets lies for interest,\nPaid in full before the due date.\nSome investment!\nThey’ll be like fruit frost-killed before it ripens,\nlike buds sheared off before they bloom.\nThe godless are fruitless—a barren crew;\na life built on bribes goes up in smoke.\nThey have sex with sin and give birth to evil.\nTheir lives are wombs for breeding deceit.”",
+        "es": "«Aunque parezcan la imagen misma de la salud,\nen forma, jóvenes y fuertes,\nterminarán viviendo en un pueblo fantasma,\ndurmiendo en una choza que ni siquiera serviría para un perro,\nuna casa destartalada.\nNunca saldrán adelante,\nnunca llegarán a ser gran cosa.\nY luego, la muerte: ¡no crean que escaparán de ella!\nTerminarán como hierba marchita,\nderribados por un soplo de Dios.\nAquí hay una lección: quien invierte en mentiras\nrecibe mentiras como intereses,\npagadas por completo antes de la fecha de vencimiento.\n¡Vaya inversión!\nSerán como fruto quemado por la helada antes de madurar,\ncomo capullos cortados antes de abrirse.\nLos impíos no dan fruto: son una gente estéril;\nuna vida construida sobre sobornos termina en humo.\nTienen relaciones con el pecado y dan a luz el mal.\nSus vidas son vientres donde se engendra el engaño»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job15-nbla-35"
+        }
+      ],
+      "order": 3
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job15-nbla-01",
+      "number": 1,
+      "text": "Entonces Elifaz, el temanita respondió:"
+    },
+    {
+      "id": "job15-nbla-02",
+      "number": 2,
+      "text": "«¿Debe responder un sabio con hueca sabiduría\nY llenarse de viento del este?"
+    },
+    {
+      "id": "job15-nbla-03",
+      "number": 3,
+      "text": "¿Debe argumentar con razones inútiles\nO con palabras sin provecho?"
+    },
+    {
+      "id": "job15-nbla-04",
+      "number": 4,
+      "text": "Ciertamente, tú rechazas la reverencia,\nE impides la meditación delante de Dios."
+    },
+    {
+      "id": "job15-nbla-05",
+      "number": 5,
+      "text": "Porque tu culpa enseña a tu boca,\nY escoges el lenguaje de los astutos."
+    },
+    {
+      "id": "job15-nbla-06",
+      "number": 6,
+      "text": "Tu propia boca te condena, y no yo,\nY tus propios labios testifican contra ti."
+    },
+    {
+      "id": "job15-nbla-07",
+      "number": 7,
+      "text": "»¿Fuiste tú el primer hombre en nacer,\nO fuiste dado a luz antes que las colinas?"
+    },
+    {
+      "id": "job15-nbla-08",
+      "number": 8,
+      "text": "¿Oyes tú el secreto de Dios,\nY retienes para ti la sabiduría?"
+    },
+    {
+      "id": "job15-nbla-09",
+      "number": 9,
+      "text": "¿Qué sabes tú que nosotros no sepamos?\n¿Qué entiendes tú que nosotros no entendamos?"
+    },
+    {
+      "id": "job15-nbla-10",
+      "number": 10,
+      "text": "También entre nosotros hay canosos y ancianos\nDe más edad que tu padre."
+    },
+    {
+      "id": "job15-nbla-11",
+      "number": 11,
+      "text": "¿Te parecen poco los consuelos de Dios,\nY la palabra hablada a ti con dulzura?"
+    },
+    {
+      "id": "job15-nbla-12",
+      "number": 12,
+      "text": "¿Por qué te arrebata el corazón,\nY por qué centellean tus ojos,"
+    },
+    {
+      "id": "job15-nbla-13",
+      "number": 13,
+      "text": "Para volver tu espíritu contra Dios\nY dejar salir de tu boca tales palabras?"
+    },
+    {
+      "id": "job15-nbla-14",
+      "number": 14,
+      "text": "¿Qué es el hombre para que sea puro,\nO el nacido de mujer para que sea justo?"
+    },
+    {
+      "id": "job15-nbla-15",
+      "number": 15,
+      "text": "Si Dios no confía en Sus santos,\nY ni los cielos son puros ante Sus ojos;"
+    },
+    {
+      "id": "job15-nbla-16",
+      "number": 16,
+      "text": "¡Cuánto menos el hombre, un ser abominable y corrompido,\nQue bebe la iniquidad como agua!"
+    },
+    {
+      "id": "job15-nbla-17",
+      "number": 17,
+      "text": "»Yo te mostraré, escúchame,\nY te contaré lo que he visto;"
+    },
+    {
+      "id": "job15-nbla-18",
+      "number": 18,
+      "text": "Lo que los sabios han dado a conocer,\nSin ocultar nada de sus padres;"
+    },
+    {
+      "id": "job15-nbla-19",
+      "number": 19,
+      "text": "A ellos solos se les dio la tierra,\nY ningún extranjero pasó entre ellos."
+    },
+    {
+      "id": "job15-nbla-20",
+      "number": 20,
+      "text": "Todos sus días el impío se retuerce de dolor,\nY contados están los años reservados para el tirano."
+    },
+    {
+      "id": "job15-nbla-21",
+      "number": 21,
+      "text": "Ruidos de espanto hay en sus oídos,\nMientras está en paz, el destructor viene sobre él."
+    },
+    {
+      "id": "job15-nbla-22",
+      "number": 22,
+      "text": "Él no cree que volverá de las tinieblas,\nY que está destinado para la espada."
+    },
+    {
+      "id": "job15-nbla-23",
+      "number": 23,
+      "text": "Vaga en busca de pan, diciendo: “¿Dónde está?”.\nSabe que es inminente el día de las tinieblas."
+    },
+    {
+      "id": "job15-nbla-24",
+      "number": 24,
+      "text": "La ansiedad y la angustia lo aterran,\nLo dominan como rey dispuesto para el ataque;"
+    },
+    {
+      "id": "job15-nbla-25",
+      "number": 25,
+      "text": "Porque él ha extendido su mano contra Dios,\nY se porta con soberbia contra el Todopoderoso."
+    },
+    {
+      "id": "job15-nbla-26",
+      "number": 26,
+      "text": "Corre contra Él con cuello erguido,\nCon su escudo macizo;"
+    },
+    {
+      "id": "job15-nbla-27",
+      "number": 27,
+      "text": "Porque ha cubierto su rostro con su gordura,\nSe le han hecho pliegues de grasa sobre la cintura,"
+    },
+    {
+      "id": "job15-nbla-28",
+      "number": 28,
+      "text": "Y ha vivido en ciudades desoladas,\nEn casas inhabitables,\nDestinadas a convertirse en ruinas."
+    },
+    {
+      "id": "job15-nbla-29",
+      "number": 29,
+      "text": "No se enriquecerá, ni sus bienes perdurarán,\nNi su espiga se inclinará a tierra."
+    },
+    {
+      "id": "job15-nbla-30",
+      "number": 30,
+      "text": "No escapará de las tinieblas,\nSecará la llama sus renuevos,\nY por el soplo de Su boca desaparecerá."
+    },
+    {
+      "id": "job15-nbla-31",
+      "number": 31,
+      "text": "Que no confíe en la vanidad, engañándose a sí mismo,\nPues vanidad será su recompensa."
+    },
+    {
+      "id": "job15-nbla-32",
+      "number": 32,
+      "text": "Antes de su tiempo se cumplirá,\nY la hoja de su palmera no reverdecerá."
+    },
+    {
+      "id": "job15-nbla-33",
+      "number": 33,
+      "text": "Dejará caer sus uvas verdes como la vid,\nY como el olivo dejará caer su flor."
+    },
+    {
+      "id": "job15-nbla-34",
+      "number": 34,
+      "text": "Porque estéril es la compañía de los impíos,\nY el fuego consume las tiendas del corrupto."
+    },
+    {
+      "id": "job15-nbla-35",
+      "number": 35,
+      "text": "Conciben malicia, dan a luz iniquidad,\nY en su mente traman engaño»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

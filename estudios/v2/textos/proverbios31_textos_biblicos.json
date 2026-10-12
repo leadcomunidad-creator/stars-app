@@ -1,0 +1,548 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La autoridad sabia usa su voz para proteger derechos de quienes no pueden hacerse oír. NBLA ordena abrir la boca por los mudos y defender al afligido; MSG vuelve visible la dimensión pública de esa responsabilidad. No significa hablar encima de las personas vulnerables, sino usar poder para que la justicia no dependa de quién tiene más influencia.",
+      "id": "proverbios31-joya-01",
+      "msg": {
+        "en": "\"Speak up for the people who have no voice,\"",
+        "es": "\"Habla por la gente que no tiene voz,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-08a"
+          ],
+          "verseId": "proverbios31-nbla-08"
+        }
+      ],
+      "order": 1,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La justicia requiere voz y acción. NBLA une hablar con juzgar justamente; MSG lo convierte en una exhortación directa. El versículo no autoriza activismo partidista automático: exige que el uso de la autoridad sea medido por justicia real hacia afligido y necesitado.",
+      "id": "proverbios31-joya-02",
+      "msg": {
+        "en": "\"Speak out for justice!\"",
+        "es": "\"¡Habla por la justicia!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-09a"
+          ],
+          "verseId": "proverbios31-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La sabiduría reconoce valor en el trabajo bien hecho. NBLA habla de notar que la ganancia es buena; MSG lo expresa como percibir el valor del trabajo. El texto honra diligencia y discernimiento económico sin enseñar que valor personal dependa de productividad.",
+      "id": "proverbios31-joya-03",
+      "msg": {
+        "en": "\"She senses the worth of her work,\"",
+        "es": "\"Percibe el valor de su trabajo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-18a"
+          ],
+          "verseId": "proverbios31-nbla-18"
+        }
+      ],
+      "order": 3,
+      "range": "10-31"
+    },
+    {
+      "explanation": "La competencia de esta mujer no la encierra en sí misma. NBLA la muestra extendiendo su mano al pobre y MSG subraya rapidez para ayudar. La generosidad aparece como parte de la excelencia, no como actividad secundaria cuando sobra tiempo o dinero.",
+      "id": "proverbios31-joya-04",
+      "msg": {
+        "en": "\"She’s quick to assist anyone in need,\"",
+        "es": "\"Se apresura a ayudar a quien lo necesita\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-20a"
+          ],
+          "verseId": "proverbios31-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "10-31"
+    },
+    {
+      "explanation": "La sabiduría también se reconoce en la palabra. NBLA añade que hay enseñanza de bondad en su lengua; MSG comunica el peso y utilidad de lo que dice. El retrato no celebra simplemente hablar mucho o con confianza, sino una voz donde sabiduría y bondad permanecen juntas.",
+      "id": "proverbios31-joya-05",
+      "msg": {
+        "en": "\"When she speaks she has something worthwhile to say,\"",
+        "es": "\"Cuando habla, tiene algo valioso que decir\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-26a"
+          ],
+          "verseId": "proverbios31-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "10-31"
+    },
+    {
+      "explanation": "El temor del SEÑOR es la raíz final del elogio. NBLA lo declara directamente y MSG lo presenta como una manera de vivir. El texto no niega belleza ni capacidad; las coloca en su sitio. Lo que da coherencia duradera a toda la vida descrita es su orientación hacia Dios.",
+      "id": "proverbios31-joya-06",
+      "msg": {
+        "en": "\"is the woman who lives in the Fear-of-GOD.\"",
+        "es": "\"es la que vive en el Temor-de-DIOS.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios31-nbla-30b"
+          ],
+          "verseId": "proverbios31-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "10-31"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 31,
+    "studyId": "proverbios-31"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios31-msg-01",
+      "msg": {
+        "en": "The words of King Lemuel,\nthe strong advice his mother gave him:",
+        "es": "Las palabras del rey Lemuel, el consejo firme que le dio su madre:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "proverbios31-msg-02",
+      "msg": {
+        "en": "“Oh, son of mine, what can you be thinking of!\nChild whom I bore! The son I dedicated to God!\nDon’t dissipate your virility on fortune-hunting women,\npromiscuous women who shipwreck leaders.",
+        "es": "«¡Ay, hijo mío, en qué estarás pensando! ¡Hijo que yo di a luz! ¡Hijo que dediqué a Dios! No malgastes tu vigor con mujeres que buscan fortuna, mujeres promiscuas que hacen naufragar a los líderes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "proverbios31-msg-03",
+      "msg": {
+        "en": "“Leaders can’t afford to make fools of themselves,\ngulping wine and swilling beer,\nLest, hung over, they don’t know right from wrong,\nand the people who depend on them are hurt.\nUse wine and beer only as sedatives,\nto kill the pain and dull the ache\nOf the terminally ill,\nfor whom life is a living death.",
+        "es": "Los líderes no pueden darse el lujo de hacer el ridículo, tragando vino y bebiendo cerveza a grandes tragos, no sea que, con resaca, ya no distingan lo correcto de lo incorrecto y perjudiquen a la gente que depende de ellos. Usen vino y cerveza solo como sedantes, para matar el dolor y amortiguar el sufrimiento de quienes están en fase terminal, para quienes la vida es una muerte en vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "proverbios31-msg-04",
+      "msg": {
+        "en": "“Speak up for the people who have no voice,\nfor the rights of all the down-and-outers.\nSpeak out for justice!\nStand up for the poor and destitute!”",
+        "es": "Habla por la gente que no tiene voz, por los derechos de todos los que están en lo más bajo. ¡Habla por la justicia! ¡Defiende a los pobres y desamparados!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-31",
+      "id": "proverbios31-msg-05",
+      "msg": {
+        "en": "A good woman is hard to find,\nand worth far more than diamonds.\nHer husband trusts her without reserve,\nand never has reason to regret it.\nNever spiteful, she treats him generously\nall her life long.\nShe shops around for the best yarns and cottons,\nand enjoys knitting and sewing.\nShe’s like a trading ship that sails to faraway places\nand brings back exotic surprises.\nShe’s up before dawn, preparing breakfast\nfor her family and organizing her day.\nShe looks over a field and buys it,\nthen, with money she’s put aside, plants a garden.\nFirst thing in the morning, she dresses for work,\nrolls up her sleeves, eager to get started.\nShe senses the worth of her work,\nis in no hurry to call it quits for the day.\nShe’s skilled in the crafts of home and hearth,\ndiligent in homemaking.\nShe’s quick to assist anyone in need,\nreaches out to help the poor.\nShe doesn’t worry about her family when it snows;\ntheir winter clothes are all mended and ready to wear.\nShe makes her own clothing,\nand dresses in colorful linens and silks.\nHer husband is greatly respected\nwhen he deliberates with the city fathers.\nShe designs gowns and sells them,\nbrings the sweaters she knits to the dress shops.\nHer clothes are well-made and elegant,\nand she always faces tomorrow with a smile.\nWhen she speaks she has something worthwhile to say,\nand she always says it kindly.\nShe keeps an eye on everyone in her household,\nand keeps them all busy and productive.\nHer children respect and bless her;\nher husband joins in with words of praise:\n“Many women have done wonderful things,\nbut you’ve outclassed them all!”\nCharm can mislead and beauty soon fades.\nThe woman to be admired and praised\nis the woman who lives in the Fear-of-GOD.\nGive her everything she deserves!\nFestoon her life with praises!",
+        "es": "Una buena mujer es difícil de encontrar y vale mucho más que los diamantes. Su esposo confía en ella sin reservas y nunca tiene razones para arrepentirse. Nunca rencorosa, lo trata con generosidad durante toda su vida. Busca las mejores lanas y algodones y disfruta tejiendo y cosiendo. Es como un barco mercante que navega a lugares lejanos y regresa con sorpresas exóticas. Se levanta antes del amanecer, prepara el desayuno para su familia y organiza su día. Examina un campo y lo compra; luego, con el dinero que ha ahorrado, planta un huerto. A primera hora de la mañana se viste para trabajar, se arremanga, con ganas de comenzar. Percibe el valor de su trabajo y no tiene prisa por dar por terminado el día. Es diestra en las labores del hogar, diligente en cuidar su casa. Se apresura a ayudar a quien lo necesita y extiende la mano al pobre. No se preocupa por su familia cuando nieva; la ropa de invierno de todos está remendada y lista para usar. Confecciona su propia ropa y viste lino y seda de colores. Su esposo es muy respetado cuando delibera con los padres de la ciudad. Diseña vestidos y los vende; lleva a las tiendas los suéteres que teje. Su ropa está bien hecha y es elegante, y siempre enfrenta el mañana con una sonrisa. Cuando habla, tiene algo valioso que decir y siempre lo dice con amabilidad. Está pendiente de todos en su casa y los mantiene ocupados y productivos. Sus hijos la respetan y la bendicen; su esposo se une a ellos con palabras de elogio: «Muchas mujeres han hecho cosas maravillosas, ¡pero tú las has superado a todas!». El encanto puede engañar y la belleza pronto se desvanece. La mujer digna de admiración y alabanza es la que vive en el Temor-de-DIOS. ¡Denle todo lo que merece! ¡Adornen su vida con alabanzas!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios31-nbla-31"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios31-nbla-01",
+      "number": 1,
+      "text": "Palabras del rey Lemuel, oráculo que le enseñó su madre."
+    },
+    {
+      "id": "proverbios31-nbla-02",
+      "number": 2,
+      "text": "¿Qué, hijo mío?\n¿Y qué, hijo de mis entrañas?\n¿Y qué, hijo de mis votos?"
+    },
+    {
+      "id": "proverbios31-nbla-03",
+      "number": 3,
+      "text": "No des tu vigor a las mujeres,\nNi tus caminos a lo que destruye a los reyes."
+    },
+    {
+      "id": "proverbios31-nbla-04",
+      "number": 4,
+      "text": "No es para los reyes, oh Lemuel,\nNo es para los reyes beber vino,\nNi para los gobernantes desear bebida fuerte;"
+    },
+    {
+      "id": "proverbios31-nbla-05",
+      "number": 5,
+      "text": "No sea que beban y olviden lo que se ha decretado,\nY perviertan los derechos de todos los afligidos."
+    },
+    {
+      "id": "proverbios31-nbla-06",
+      "number": 6,
+      "text": "Denle bebida fuerte al que está pereciendo,\nY vino a los amargados de alma."
+    },
+    {
+      "id": "proverbios31-nbla-07",
+      "number": 7,
+      "text": "Que beba y se olvide de su pobreza,\nY no recuerde más su aflicción."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-08a",
+          "order": 1,
+          "text": "Abre tu boca por los mudos,"
+        },
+        {
+          "id": "proverbios31-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Por los derechos de todos los desdichados."
+        }
+      ],
+      "id": "proverbios31-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-09a",
+          "order": 1,
+          "text": "Abre tu boca, juzga con justicia,"
+        },
+        {
+          "id": "proverbios31-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y defiende los derechos del afligido y del necesitado."
+        }
+      ],
+      "id": "proverbios31-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "proverbios31-nbla-10",
+      "number": 10,
+      "text": "Mujer hacendosa, ¿quién la hallará?\nSu valor supera en mucho al de las joyas."
+    },
+    {
+      "id": "proverbios31-nbla-11",
+      "number": 11,
+      "text": "En ella confía el corazón de su marido,\nY no carecerá de ganancias."
+    },
+    {
+      "id": "proverbios31-nbla-12",
+      "number": 12,
+      "text": "Ella le trae bien y no mal\nTodos los días de su vida."
+    },
+    {
+      "id": "proverbios31-nbla-13",
+      "number": 13,
+      "text": "Busca lana y lino,\nY con agrado trabaja con sus manos."
+    },
+    {
+      "id": "proverbios31-nbla-14",
+      "number": 14,
+      "text": "Es como las naves de mercader,\nTrae su alimento de lejos."
+    },
+    {
+      "id": "proverbios31-nbla-15",
+      "number": 15,
+      "text": "También se levanta cuando aún es de noche,\nY da alimento a los de su casa\nY tarea a sus doncellas."
+    },
+    {
+      "id": "proverbios31-nbla-16",
+      "number": 16,
+      "text": "Evalúa un campo y lo compra;\nCon sus ganancias planta una viña."
+    },
+    {
+      "id": "proverbios31-nbla-17",
+      "number": 17,
+      "text": "Ella se ciñe de fuerza\nY fortalece sus brazos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-18a",
+          "order": 1,
+          "text": "Nota que su ganancia es buena,"
+        },
+        {
+          "id": "proverbios31-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "No se apaga de noche su lámpara."
+        }
+      ],
+      "id": "proverbios31-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "proverbios31-nbla-19",
+      "number": 19,
+      "text": "Extiende sus manos a la rueca,\nY sus manos toman el huso."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-20a",
+          "order": 1,
+          "text": "Extiende su mano al pobre,"
+        },
+        {
+          "id": "proverbios31-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y alarga sus manos al necesitado."
+        }
+      ],
+      "id": "proverbios31-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "proverbios31-nbla-21",
+      "number": 21,
+      "text": "No tiene temor de la nieve por los de su casa,\nPorque todos los de su casa llevan ropa escarlata."
+    },
+    {
+      "id": "proverbios31-nbla-22",
+      "number": 22,
+      "text": "Se hace mantos para sí;\nSu ropa es de lino fino y de púrpura."
+    },
+    {
+      "id": "proverbios31-nbla-23",
+      "number": 23,
+      "text": "Su marido es conocido en las puertas de la ciudad,\nCuando se sienta con los ancianos de la tierra."
+    },
+    {
+      "id": "proverbios31-nbla-24",
+      "number": 24,
+      "text": "Hace telas de lino y las vende,\nY provee cinturones a los mercaderes."
+    },
+    {
+      "id": "proverbios31-nbla-25",
+      "number": 25,
+      "text": "Fuerza y dignidad son su vestidura,\nY sonríe al futuro."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-26a",
+          "order": 1,
+          "text": "Abre su boca con sabiduría,"
+        },
+        {
+          "id": "proverbios31-nbla-26b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y hay enseñanza de bondad en su lengua."
+        }
+      ],
+      "id": "proverbios31-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "proverbios31-nbla-27",
+      "number": 27,
+      "text": "Ella vigila la marcha de su casa,\nY no come el pan de la ociosidad."
+    },
+    {
+      "id": "proverbios31-nbla-28",
+      "number": 28,
+      "text": "Sus hijos se levantan y la llaman bienaventurada,\nTambién su marido, y la alaba diciendo:"
+    },
+    {
+      "id": "proverbios31-nbla-29",
+      "number": 29,
+      "text": "«Muchas mujeres han obrado con nobleza,\nPero tú las superas a todas»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios31-nbla-30a",
+          "order": 1,
+          "text": "Engañosa es la gracia y vana la belleza,"
+        },
+        {
+          "id": "proverbios31-nbla-30b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la mujer que teme al SEÑOR, esa será alabada."
+        }
+      ],
+      "id": "proverbios31-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "proverbios31-nbla-31",
+      "number": 31,
+      "text": "Denle el fruto de sus manos,\nY que sus obras la alaben en las puertas de la ciudad."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

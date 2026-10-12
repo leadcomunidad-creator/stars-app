@@ -1,0 +1,556 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job formula el problema central en términos de justicia delante de Dios. NBLA conserva la pregunta por ser justo y la imposibilidad de discutir con Él como si fuera un igual; MSG la vuelve una pregunta directa sobre cómo estar bien con Dios. El texto no ofrece todavía la solución completa, pero expone la insuficiencia de la autosuficiencia humana.",
+      "id": "job9-joya-01",
+      "msg": {
+        "en": "\"The question is, ‘How can mere mortals get right with God?’\nIf we wanted to bring our case before him,\nwhat chance would we have? Not one in a thousand!\"",
+        "es": "\"La pregunta es: “¿Cómo pueden simples mortales estar bien delante de Dios?”.\nSi quisiéramos presentar nuestro caso delante de Él,\n¿qué posibilidades tendríamos? ¡Ni una entre mil!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job9-nbla-02b"
+          ],
+          "verseId": "job9-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "2-4"
+    },
+    {
+      "explanation": "Dios puede estar obrando más allá de la percepción humana. NBLA fija la idea en obras inescrutables y maravillas innumerables; MSG vuelve pastoralmente visible la paradoja de que Dios pueda pasar delante de Job sin que este lo perciba. El límite es importante: la invisibilidad de la acción divina no demuestra ausencia ni hostilidad.",
+      "id": "job9-joya-02",
+      "msg": {
+        "en": "\"We’ll never comprehend all the great things he does;\nhis miracle-surprises can’t be counted.\nSomehow, though he moves right in front of me, I don’t see him;\"",
+        "es": "\"Nunca comprenderemos todas las grandes cosas que hace;\nSus sorpresas milagrosas no se pueden contar.\nDe algún modo, aunque pase justo delante de mí, no lo veo;\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-10"
+        },
+        {
+          "clauseIds": [
+            "job9-nbla-11a"
+          ],
+          "verseId": "job9-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "10-11"
+    },
+    {
+      "explanation": "Job reconoce que su relación con Dios no puede resolverse por superioridad argumentativa. NBLA habla de implorar misericordia del Juez; MSG lo expresa como arrojarse sobre esa misericordia. El texto no enseña que Dios sea injusto ni que la inocencia carezca de valor; muestra el límite de la criatura para ponerse por encima del Juez y controlar el resultado.",
+      "id": "job9-joya-03",
+      "msg": {
+        "en": "\"Even though I’m innocent I could never prove it;\nI can only throw myself on the Judge’s mercy.\"",
+        "es": "\"Aunque fuera inocente, nunca podría demostrarlo;\nsolo puedo arrojarme a la misericordia del Juez.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "15"
+    },
+    {
+      "explanation": "Job reconoce la distancia entre Dios y él y desea una tercera parte que haga posible el encuentro. NBLA fija la palabra «árbitro» y la imposibilidad de comparecer como iguales; MSG hace visible la escena del tribunal. La conexión cristológica debe hacerse canónicamente, no afirmando que Job ya identifica al árbitro con Jesús.",
+      "id": "job9-joya-04",
+      "msg": {
+        "en": "\"God and I are not equals; I can’t bring a case against him.\nWe’ll never enter a courtroom as peers.\nHow I wish we had an arbitrator\"",
+        "es": "\"Dios y yo no somos iguales; no puedo presentar un caso contra Él.\nNunca entraremos a un tribunal como iguales.\n¡Cómo quisiera que tuviéramos un árbitro\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-32"
+        },
+        {
+          "clauseIds": [
+            "job9-nbla-33a"
+          ],
+          "verseId": "job9-nbla-33"
+        }
+      ],
+      "order": 4,
+      "range": "32-33"
+    },
+    {
+      "explanation": "Job no solo desea un árbitro intelectual; desea una relación en la que pueda hablar sin terror. NBLA une la remoción del terror con la posibilidad de hablar; MSG expresa ese cambio como volver a respirar y presentar el caso con valentía. El Evangelio mostrará una confianza delante de Dios que no nace de hacer a Dios nuestro igual, sino de una mediación que nos permite acercarnos.",
+      "id": "job9-joya-05",
+      "msg": {
+        "en": "\"to free me from this terror so I could breathe again.\nThen I’d speak up and state my case boldly.\"",
+        "es": "\"y me liberara de este terror para poder respirar otra vez!\nEntonces hablaría y presentaría mi caso con valentía.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-34"
+        },
+        {
+          "clauseIds": [
+            "job9-nbla-35a"
+          ],
+          "verseId": "job9-nbla-35"
+        }
+      ],
+      "order": 5,
+      "range": "34-35"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 9,
+    "studyId": "job-9"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-13",
+      "id": "job9-msg-01",
+      "msg": {
+        "en": "Job continued by saying:\n“So what’s new? I know all this.\nThe question is, ‘How can mere mortals get right with God?’\nIf we wanted to bring our case before him,\nwhat chance would we have? Not one in a thousand!\nGod’s wisdom is so deep, God’s power so immense,\nwho could take him on and come out in one piece?\nHe moves mountains before they know what’s happened,\nflips them on their heads on a whim.\nHe gives the earth a good shaking up,\nrocks it down to its very foundations.\nHe tells the sun, ‘Don’t shine,’ and it doesn’t;\nhe pulls the blinds on the stars.\nAll by himself he stretches out the heavens\nand strides on the waves of the sea.\nHe designed the Big Dipper and Orion,\nthe Pleiades and Alpha Centauri.\nWe’ll never comprehend all the great things he does;\nhis miracle-surprises can’t be counted.\nSomehow, though he moves right in front of me, I don’t see him;\nquietly but surely he’s active, and I miss it.\nIf he steals you blind, who can stop him?\nWho’s going to say, ‘Hey, what are you doing?’\nGod doesn’t hold back on his anger;\neven dragon-bred monsters cringe before him.",
+        "es": "Job continuó diciendo:\n«¿Y qué hay de nuevo? Todo eso ya lo sé.\nLa pregunta es: “¿Cómo pueden simples mortales estar bien delante de Dios?”.\nSi quisiéramos presentar nuestro caso delante de Él,\n¿qué posibilidades tendríamos? ¡Ni una entre mil!\nLa sabiduría de Dios es profundísima y Su poder inmenso;\n¿quién podría enfrentarlo y salir entero?\nÉl mueve montañas antes de que sepan qué ocurrió,\nlas pone patas arriba en un instante.\nSacude la tierra con fuerza\ny la hace temblar hasta sus mismos cimientos.\nLe dice al sol: “No brilles”, y no brilla;\nbaja las persianas sobre las estrellas.\nÉl solo extiende los cielos\ny camina sobre las olas del mar.\nDiseñó la Osa Mayor y Orión,\nlas Pléyades y Alfa Centauri.\nNunca comprenderemos todas las grandes cosas que hace;\nSus sorpresas milagrosas no se pueden contar.\nDe algún modo, aunque pase justo delante de mí, no lo veo;\nactúa silenciosa pero seguramente, y se me escapa.\nSi te despoja por completo, ¿quién puede detenerlo?\n¿Quién va a decirle: “Oye, qué estás haciendo?”.\nDios no contiene Su ira;\nhasta los monstruos nacidos de dragones se encogen delante de Él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-13"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "14-20",
+      "id": "job9-msg-02",
+      "msg": {
+        "en": "“So how could I ever argue with him,\nconstruct a defense that would influence God?\nEven though I’m innocent I could never prove it;\nI can only throw myself on the Judge’s mercy.\nIf I called on God and he himself answered me,\nthen, and only then, would I believe that he’d heard me.\nAs it is, he knocks me about from pillar to post,\nbeating me up, black-and-blue, for no good reason.\nHe won’t even let me catch my breath,\npiles bitterness upon bitterness.\nIf it’s a question of who’s stronger, he wins, hands down!\nIf it’s a question of justice, who’ll serve him the subpoena?\nEven though innocent, anything I say incriminates me;\nblameless as I am, my defense just makes me sound worse.",
+        "es": "«Entonces, ¿cómo podría discutir con Él,\nconstruir una defensa capaz de influir en Dios?\nAunque fuera inocente, nunca podría demostrarlo;\nsolo puedo arrojarme a la misericordia del Juez.\nSi llamara a Dios y Él mismo me respondiera,\nsolo entonces creería que me escuchó.\nPero así como están las cosas, me golpea de un lado a otro,\nme deja lleno de moretones sin ninguna razón.\nNi siquiera me deja recobrar el aliento;\namontona amargura sobre amargura.\nSi se trata de quién es más fuerte, Él gana sin discusión.\nSi se trata de justicia, ¿quién podría entregarle una citación?\nAunque fuera inocente, cualquier cosa que diga me incrimina;\naunque sea intachable, mi propia defensa me hace parecer peor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-20"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "21-24",
+      "id": "job9-msg-03",
+      "msg": {
+        "en": "“Believe me, I’m blameless.\nI don’t understand what’s going on.\nI hate my life!\nSince either way it ends up the same, I can only conclude\nthat God destroys the good right along with the bad.\nWhen calamity hits and brings sudden death,\nhe folds his arms, aloof from the despair of the innocent.\nHe lets the wicked take over running the world,\nhe installs judges who can’t tell right from wrong.\nIf he’s not responsible, who is?",
+        "es": "«Créanme, soy intachable.\nNo entiendo lo que está pasando.\n¡Odio mi vida!\nComo de cualquier manera todo termina igual, solo puedo concluir\nque Dios destruye al bueno junto con el malo.\nCuando llega la calamidad y trae muerte repentina,\nÉl cruza los brazos, distante de la desesperación del inocente.\nDeja que los malvados se apoderen del mundo,\npone jueces que no distinguen lo correcto de lo incorrecto.\nSi Él no es responsable, ¿quién lo es?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-24"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "25-31",
+      "id": "job9-msg-04",
+      "msg": {
+        "en": "“My time is short—what’s left of my life races off\ntoo fast for me to even glimpse the good.\nMy life is going fast, like a ship under full sail,\nlike an eagle plummeting to its prey.\nEven if I say, ‘I’ll put all this behind me,\nI’ll look on the bright side and force a smile,’\nAll these troubles would still be like grit in my gut\nsince it’s clear you’re not going to let up.\nThe verdict has already been handed down—’Guilty!’—\nso what’s the use of protests or appeals?\nEven if I scrub myself all over\nand wash myself with the strongest soap I can find,\nIt wouldn’t last—you’d push me into a pigpen, or worse,\nso nobody could stand me for the stink.",
+        "es": "«Mi tiempo es corto: lo que queda de mi vida se va corriendo\ndemasiado rápido para que siquiera alcance a ver algo bueno.\nMi vida se va veloz, como un barco a toda vela,\ncomo un águila que se lanza sobre su presa.\nAunque dijera: “Voy a dejar todo esto atrás,\nmiraré el lado bueno y me obligaré a sonreír”,\ntodos estos problemas seguirían siendo como arena dentro de mí,\nporque está claro que no vas a aflojar.\nEl veredicto ya fue pronunciado: “¡Culpable!”.\nEntonces, ¿para qué sirven las protestas o las apelaciones?\nAunque me frotara todo el cuerpo\ny me lavara con el jabón más fuerte que pudiera encontrar,\nno duraría: me empujarías a un chiquero, o algo peor,\ny nadie soportaría estar cerca de mí por el olor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-31"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "32-35",
+      "id": "job9-msg-05",
+      "msg": {
+        "en": "“God and I are not equals; I can’t bring a case against him.\nWe’ll never enter a courtroom as peers.\nHow I wish we had an arbitrator\nto step in and let me get on with life—\nTo break God’s death grip on me,\nto free me from this terror so I could breathe again.\nThen I’d speak up and state my case boldly.\nAs things stand, there is no way I can do it.”",
+        "es": "«Dios y yo no somos iguales; no puedo presentar un caso contra Él.\nNunca entraremos a un tribunal como iguales.\n¡Cómo quisiera que tuviéramos un árbitro\nque interviniera y me permitiera seguir con mi vida,\nque rompiera el agarre mortal que siento de parte de Dios\ny me liberara de este terror para poder respirar otra vez!\nEntonces hablaría y presentaría mi caso con valentía.\nTal como están las cosas, no hay manera de que pueda hacerlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job9-nbla-35"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job9-nbla-01",
+      "number": 1,
+      "text": "Entonces Job respondió:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job9-nbla-02a",
+          "order": 1,
+          "text": "«En verdad yo sé que es así,"
+        },
+        {
+          "id": "job9-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero ¿cómo puede un hombre ser justo delante de Dios?"
+        }
+      ],
+      "id": "job9-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "job9-nbla-03",
+      "number": 3,
+      "text": "Si alguien quisiera discutir con Él,\nNo podría contestar ni una vez entre mil."
+    },
+    {
+      "id": "job9-nbla-04",
+      "number": 4,
+      "text": "Sabio de corazón y robusto de fuerzas,\n¿Quién lo ha desafiado sin sufrir daño?"
+    },
+    {
+      "id": "job9-nbla-05",
+      "number": 5,
+      "text": "Dios es el que remueve los montes, y estos no saben cómo\nCuando los vuelca en Su furor;"
+    },
+    {
+      "id": "job9-nbla-06",
+      "number": 6,
+      "text": "Él es el que sacude la tierra de su lugar,\nY sus columnas tiemblan."
+    },
+    {
+      "id": "job9-nbla-07",
+      "number": 7,
+      "text": "El que manda al sol que no brille,\nY pone sello a las estrellas;"
+    },
+    {
+      "id": "job9-nbla-08",
+      "number": 8,
+      "text": "El que solo extiende los cielos,\nY anda sobre las olas del mar;"
+    },
+    {
+      "id": "job9-nbla-09",
+      "number": 9,
+      "text": "Él es el que hace la Osa, el Orión y las Pléyades,\nY las cámaras del sur;"
+    },
+    {
+      "id": "job9-nbla-10",
+      "number": 10,
+      "text": "El que hace grandes cosas, inescrutables,\nY maravillas sin número."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job9-nbla-11a",
+          "order": 1,
+          "text": "Si Él pasara junto a mí, no lo vería;"
+        },
+        {
+          "id": "job9-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Si me pasara adelante, no lo percibiría."
+        }
+      ],
+      "id": "job9-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "job9-nbla-12",
+      "number": 12,
+      "text": "Si Él arrebatara algo, ¿quién lo impediría?\nQuién podrá decirle: “¿Qué haces?”."
+    },
+    {
+      "id": "job9-nbla-13",
+      "number": 13,
+      "text": "»Dios no retirará Su ira;\nDebajo de Él quedan humillados los que ayudan al Rahab."
+    },
+    {
+      "id": "job9-nbla-14",
+      "number": 14,
+      "text": "¿Cómo puedo yo responderle,\nY escoger mis palabras delante de Él?"
+    },
+    {
+      "id": "job9-nbla-15",
+      "number": 15,
+      "text": "Porque aunque yo tuviera razón, no podría responder;\nTendría que implorar la misericordia de mi Juez."
+    },
+    {
+      "id": "job9-nbla-16",
+      "number": 16,
+      "text": "Si yo llamara y Él me respondiera,\nNo podría creer que escuchara mi voz."
+    },
+    {
+      "id": "job9-nbla-17",
+      "number": 17,
+      "text": "Porque Él me quebranta con tempestad,\nY sin causa multiplica mis heridas."
+    },
+    {
+      "id": "job9-nbla-18",
+      "number": 18,
+      "text": "No me permite cobrar aliento,\nSino que me llena de amarguras."
+    },
+    {
+      "id": "job9-nbla-19",
+      "number": 19,
+      "text": "Si es cuestión de poder, Él es poderoso;\nY si es cuestión de justicia, ¿quién lo citará?"
+    },
+    {
+      "id": "job9-nbla-20",
+      "number": 20,
+      "text": "Aunque soy justo, mi boca me condenará;\nAunque soy inocente, Él me declarará culpable."
+    },
+    {
+      "id": "job9-nbla-21",
+      "number": 21,
+      "text": "Inocente soy,\nNo hago caso de mí mismo,\nDesprecio mi vida."
+    },
+    {
+      "id": "job9-nbla-22",
+      "number": 22,
+      "text": "Todo es lo mismo, por tanto digo:\n“Él destruye al inocente y al impío”."
+    },
+    {
+      "id": "job9-nbla-23",
+      "number": 23,
+      "text": "Si el azote mata de repente,\nÉl se burla de la desesperación del inocente."
+    },
+    {
+      "id": "job9-nbla-24",
+      "number": 24,
+      "text": "La tierra es entregada en manos de los impíos;\nÉl cubre el rostro de sus jueces;\nSi no es Él, ¿entonces quién será?"
+    },
+    {
+      "id": "job9-nbla-25",
+      "number": 25,
+      "text": "»Mis días son más ligeros que un corredor;\nHuyen, no ven el bien;"
+    },
+    {
+      "id": "job9-nbla-26",
+      "number": 26,
+      "text": "Se deslizan como barcos de juncos,\nComo águila que se arroja sobre su presa."
+    },
+    {
+      "id": "job9-nbla-27",
+      "number": 27,
+      "text": "Aunque yo diga: “Olvidaré mi queja,\nCambiaré mi triste semblante y me alegraré”,"
+    },
+    {
+      "id": "job9-nbla-28",
+      "number": 28,
+      "text": "Temeroso estoy de todos mis dolores,\nSé que Tú no me absolverás."
+    },
+    {
+      "id": "job9-nbla-29",
+      "number": 29,
+      "text": "Si soy impío,\n¿Para qué, pues, esforzarme en vano?"
+    },
+    {
+      "id": "job9-nbla-30",
+      "number": 30,
+      "text": "Si me lavara con nieve\nY limpiara mis manos con lejía,"
+    },
+    {
+      "id": "job9-nbla-31",
+      "number": 31,
+      "text": "Aun así me hundirías en la fosa,\nY mis propios vestidos me aborrecerían."
+    },
+    {
+      "id": "job9-nbla-32",
+      "number": 32,
+      "text": "Porque Él no es hombre como yo, para que le responda,\nPara que juntos vengamos a juicio."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job9-nbla-33a",
+          "order": 1,
+          "text": "No hay árbitro entre nosotros,"
+        },
+        {
+          "id": "job9-nbla-33b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que ponga su mano sobre ambos."
+        }
+      ],
+      "id": "job9-nbla-33",
+      "number": 33
+    },
+    {
+      "id": "job9-nbla-34",
+      "number": 34,
+      "text": "Que Él quite de mí Su vara,\nY no me espante Su terror."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job9-nbla-35a",
+          "order": 1,
+          "text": "Entonces yo hablaré y no le temeré;"
+        },
+        {
+          "id": "job9-nbla-35b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque en mi opinión yo no soy así."
+        }
+      ],
+      "id": "job9-nbla-35",
+      "number": 35
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

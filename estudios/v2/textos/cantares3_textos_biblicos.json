@@ -1,0 +1,325 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El amor humano incluye la experiencia real de la ausencia. NBLA expresa la falta mediante la búsqueda infructuosa; MSG hace explícito el dolor emocional que esa ausencia produce. Esa expansión pastoral ayuda a nombrar la experiencia, pero la doctrina no debe construirse sobre la frase añadida sino sobre el movimiento comprobable del poema.",
+      "id": "cantares3-joya-01",
+      "msg": {
+        "en": "\"His absence was painful.\"",
+        "es": "\"Su ausencia dolía.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "El encuentro produce alivio y deseo de retener la presencia recuperada. NBLA fija la acción de agarrar y no soltar; MSG la comunica con la imagen corporal de un abrazo fuerte. El texto celebra la cercanía, pero no convierte el apego ansioso en modelo absoluto para toda relación.",
+      "id": "cantares3-joya-02",
+      "msg": {
+        "en": "\"I threw my arms around him and held him tight,\"",
+        "es": "\"Lo abracé y lo sostuve con fuerza,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares3-nbla-04b"
+          ],
+          "verseId": "cantares3-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "1-4"
+    },
+    {
+      "explanation": "El mismo estribillo de Cantares 2 reaparece después de un encuentro intensamente deseado. NBLA preserva la prohibición; MSG la hace directa y memorable. La repetición enseña que la fuerza del sentimiento no elimina la necesidad de tiempo y libertad.",
+      "id": "cantares3-joya-03",
+      "msg": {
+        "en": "\"Don’t excite love, don’t stir it up,\"",
+        "es": "\"No exciten el amor, no lo despierten,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares3-nbla-05b"
+          ],
+          "verseId": "cantares3-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5"
+    },
+    {
+      "explanation": "La escena se vuelve pública, visible y real. NBLA habla de la litera de Salomón; MSG usa «carriage» y acentúa la entrada procesional. El punto no es hacer de la riqueza de Salomón una norma para bodas, sino reconocer el cambio de una búsqueda privada a una celebración que otros pueden contemplar.",
+      "id": "cantares3-joya-04",
+      "msg": {
+        "en": "\"Look! It’s Solomon’s carriage,\"",
+        "es": "\"¡Miren! Es la carroza de Salomón,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares3-nbla-07a"
+          ],
+          "verseId": "cantares3-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "6-10"
+    },
+    {
+      "explanation": "La culminación de la boda es alegría. NBLA nombra directamente «la alegría de su corazón»; MSG despliega esa alegría como un corazón lleno. El esplendor exterior rodea la escena, pero el texto termina en el gozo, recordando que la celebración no puede medirse solo por su costo o apariencia.",
+      "id": "cantares3-joya-05",
+      "msg": {
+        "en": "\"his heart full, bursting with joy!\"",
+        "es": "\"con el corazón lleno, ¡rebosante de alegría!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares3-nbla-11b"
+          ],
+          "verseId": "cantares3-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 3,
+    "studyId": "cantares-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "cantares3-msg-01",
+      "msg": {
+        "en": "Restless in bed and sleepless through the night,\nI longed for my lover.\nI wanted him desperately. His absence was painful.\nSo I got up, went out and roved the city,\nhunting through streets and down alleys.\nI wanted my lover in the worst way!\nI looked high and low, and didn’t find him.\nAnd then the night watchmen found me\nas they patrolled the darkened city.\n“Have you seen my dear lost love?” I asked.\nNo sooner had I left them than I found him,\nfound my dear lost love.\nI threw my arms around him and held him tight,\nwouldn’t let him go until I had him home again,\nsafe at home beside the fire.",
+        "es": "Inquieta en la cama y sin poder dormir durante la noche,\nanhelaba a mi amado.\nLo deseaba desesperadamente. Su ausencia dolía.\nAsí que me levanté, salí y recorrí la ciudad,\nbuscando por calles y callejones.\n¡Quería a mi amado como nunca!\nBusqué por todas partes y no lo encontré.\nEntonces me encontraron los vigilantes nocturnos\nmientras patrullaban la ciudad oscura.\n«¿Han visto a mi querido amor perdido?», pregunté.\nApenas los dejé atrás, lo encontré,\nencontré a mi querido amor perdido.\nLo abracé y lo sostuve con fuerza,\nno lo solté hasta llevarlo otra vez a casa,\nseguro en casa junto al fuego."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5",
+      "id": "cantares3-msg-02",
+      "msg": {
+        "en": "Oh, let me warn you, sisters in Jerusalem,\nby the gazelles, yes, by all the wild deer:\nDon’t excite love, don’t stir it up,\nuntil the time is ripe—and you’re ready.",
+        "es": "Oh, permítanme advertirles, hermanas de Jerusalén,\npor las gacelas, sí, por todos los ciervos salvajes:\nNo exciten el amor, no lo despierten,\nhasta que llegue el momento oportuno y estén listas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-10",
+      "id": "cantares3-msg-03",
+      "msg": {
+        "en": "What’s this I see, approaching from the desert,\nraising clouds of dust,\nFilling the air with sweet smells\nand pungent aromatics?\nLook! It’s Solomon’s carriage,\ncarried and guarded by sixty soldiers,\nsixty of Israel’s finest,\nAll of them armed to the teeth,\ntrained for battle,\nready for anything, anytime.\nKing Solomon once had a carriage built\nfrom fine-grained Lebanon cedar.\nHe had it framed with silver and roofed with gold.\nThe cushions were covered with a purple fabric,\nthe interior lined with tooled leather.",
+        "es": "¿Qué es eso que veo acercándose desde el desierto,\nlevantando nubes de polvo,\nllenando el aire de aromas dulces\ny perfumes penetrantes?\n¡Miren! Es la carroza de Salomón,\ntransportada y custodiada por sesenta soldados,\nsesenta de los mejores de Israel,\ntodos armados hasta los dientes,\nentrenados para la batalla,\nlistos para cualquier cosa, en cualquier momento.\nEl rey Salomón mandó construir una carroza\ncon cedro del Líbano de veta fina.\nLa hizo enmarcar con plata y techar con oro.\nLos cojines estaban cubiertos con tela púrpura,\ny el interior, revestido de cuero trabajado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11",
+      "id": "cantares3-msg-04",
+      "msg": {
+        "en": "Come and look, sisters in Jerusalem.\nOh, sisters of Zion, don’t miss this!\nMy King-Lover,\ndressed and garlanded for his wedding,\nhis heart full, bursting with joy!",
+        "es": "Vengan y miren, hermanas de Jerusalén.\nOh, hermanas de Sion, ¡no se lo pierdan!\nMi Rey-Amado,\nvestido y adornado para su boda,\ncon el corazón lleno, ¡rebosante de alegría!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares3-nbla-11"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares3-nbla-01",
+      "number": 1,
+      "text": "«En mi lecho, por las noches, he buscado\nAl que ama mi alma;\nLo busqué, pero no lo hallé."
+    },
+    {
+      "id": "cantares3-nbla-02",
+      "number": 2,
+      "text": "“Me levantaré ahora, y andaré por la ciudad;\nPor las calles y por las plazas\nBuscaré al que ama mi alma”.\nLo busqué, pero no lo hallé."
+    },
+    {
+      "id": "cantares3-nbla-03",
+      "number": 3,
+      "text": "Me hallaron los guardas que rondan la ciudad,\nY les dije: “¿Han visto al que ama mi alma?”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares3-nbla-04a",
+          "order": 1,
+          "text": "Apenas los había pasado\nCuando hallé al que ama mi alma;"
+        },
+        {
+          "id": "cantares3-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Lo agarré y no quise soltarlo,"
+        },
+        {
+          "id": "cantares3-nbla-04c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta que lo llevé a la casa de mi madre\nY a la alcoba de la que me concibió»."
+        }
+      ],
+      "id": "cantares3-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares3-nbla-05a",
+          "order": 1,
+          "text": "«Yo les ruego, oh hijas de Jerusalén,\nPor las gacelas o por las ciervas del campo,"
+        },
+        {
+          "id": "cantares3-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que no levanten ni despierten a mi amor,"
+        },
+        {
+          "id": "cantares3-nbla-05c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta que quiera»."
+        }
+      ],
+      "id": "cantares3-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "cantares3-nbla-06",
+      "number": 6,
+      "text": "«¿Qué es eso que sube del desierto\nComo columnas de humo,\nCon perfume de mirra e incienso,\nCon todos los polvos aromáticos del mercader?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares3-nbla-07a",
+          "order": 1,
+          "text": "¡Miren! Es la litera de Salomón;"
+        },
+        {
+          "id": "cantares3-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sesenta valientes la rodean,\nDe los valientes de Israel."
+        }
+      ],
+      "id": "cantares3-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "cantares3-nbla-08",
+      "number": 8,
+      "text": "Todos ellos manejan la espada,\nSon diestros en la guerra,\nCada uno tiene la espada a su lado,\nContra los peligros de la noche."
+    },
+    {
+      "id": "cantares3-nbla-09",
+      "number": 9,
+      "text": "El rey Salomón se ha hecho un carruaje\nDe madera del Líbano."
+    },
+    {
+      "id": "cantares3-nbla-10",
+      "number": 10,
+      "text": "Hizo sus columnas de plata,\nSu respaldo de oro\nY su asiento de púrpura,\nSu interior tapizado con amor\nPor las hijas de Jerusalén."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares3-nbla-11a",
+          "order": 1,
+          "text": "Salgan, hijas de Sión,\nY contemplen al rey Salomón con la corona\nCon la cual su madre lo coronó\nEl día de sus bodas,"
+        },
+        {
+          "id": "cantares3-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El día de la alegría de su corazón»."
+        }
+      ],
+      "id": "cantares3-nbla-11",
+      "number": 11
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

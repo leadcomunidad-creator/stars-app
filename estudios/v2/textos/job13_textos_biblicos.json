@@ -1,0 +1,435 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job decide que la respuesta final no puede venir de las fórmulas de sus amigos. NBLA fija el deseo de hablar y argumentar con el Todopoderoso; MSG lo vuelve una escena de llevar el caso directamente a Dios. El texto no presenta irreverencia autónoma, sino una relación tan seria que Job prefiere confrontar su pregunta delante de Dios.",
+      "id": "job13-joya-01",
+      "msg": {
+        "en": "\"I’m taking my case straight to God Almighty;\nI’ve had it with you—I’m going directly to God.\"",
+        "es": "\"Voy a llevar mi caso directamente al Dios Todopoderoso;\nya tuve suficiente de ustedes: voy directo a Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "Hay momentos en que callar es más sabio que explicar sin conocimiento suficiente. NBLA afirma directamente que el silencio sería sabiduría para los amigos; MSG intensifica la ironía. La aplicación no es despreciar la enseñanza, sino reconocer cuándo una explicación no autorizada añade carga al sufriente.",
+      "id": "job13-joya-02",
+      "msg": {
+        "en": "\"I wish you’d shut your mouths—\nsilence is your only claim to wisdom.\"",
+        "es": "\"Ojalá cerraran la boca:\nel silencio es su única posibilidad de parecer sabios.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5"
+    },
+    {
+      "explanation": "Dios no es honrado por una falsedad pronunciada en Su defensa. NBLA fija el problema como hablar injusticia y engaño por Dios; MSG lo hace pastoralmente visible como mentir «para hacerle un favor». Ninguna causa religiosa justifica atribuirle a Dios lo que Él no ha dicho.",
+      "id": "job13-joya-03",
+      "msg": {
+        "en": "\"Or are you going to keep on lying ‘to do God a service’?\"",
+        "es": "\"¿O van a seguir mintiendo “para hacerle un favor a Dios”,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7"
+    },
+    {
+      "explanation": "Job expresa una esperanza que no depende de seguridad inmediata. NBLA ancla la confianza directamente «en Él»; MSG resalta su persistencia aun frente a la muerte. Esta confesión no vuelve deseable el sufrimiento ni prueba que Dios pretenda matar a Job; muestra hacia quién sigue orientada su esperanza.",
+      "id": "job13-joya-04",
+      "msg": {
+        "en": "\"Because even if he killed me, I’d keep on hoping.\"",
+        "es": "\"Porque, aun si Él me matara, seguiría esperando.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job13-nbla-15a"
+          ],
+          "verseId": "job13-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "15"
+    },
+    {
+      "explanation": "Job desea una relación en la que la distancia y el terror no eliminen la conversación. NBLA fija el llamado y la respuesta; MSG conserva esa reciprocidad en lenguaje directo. El capítulo no promete que Dios responderá de inmediato, pero sí revela el deseo de Job de encontrarse con Dios y no simplemente con teorías acerca de Él.",
+      "id": "job13-joya-05",
+      "msg": {
+        "en": "\"Second, address me directly so I can answer you,\nor let me speak and then you answer me.\"",
+        "es": "\"Segundo, háblame directamente para que pueda responderte,\no déjame hablar y luego respóndeme Tú.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22-24"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 13,
+    "studyId": "job-13"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "job13-msg-01",
+      "msg": {
+        "en": "“Yes, I’ve seen all this with my own eyes,\nheard and understood it with my very own ears.\nEverything you know, I know,\nso I’m not taking a backseat to any of you.\nI’m taking my case straight to God Almighty;\nI’ve had it with you—I’m going directly to God.\nYou graffiti my life with lies.\nYou’re a bunch of pompous quacks!\nI wish you’d shut your mouths—\nsilence is your only claim to wisdom.",
+        "es": "«Sí, he visto todo esto con mis propios ojos,\nlo he oído y entendido con mis propios oídos.\nTodo lo que ustedes saben, yo también lo sé,\nasí que no voy a ponerme por debajo de ninguno.\nVoy a llevar mi caso directamente al Dios Todopoderoso;\nya tuve suficiente de ustedes: voy directo a Dios.\nUstedes pintarrajean mi vida con mentiras.\n¡Son un grupo de médicos pomposos e inútiles!\nOjalá cerraran la boca:\nel silencio es su única posibilidad de parecer sabios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-12",
+      "id": "job13-msg-02",
+      "msg": {
+        "en": "“Listen now while I make my case,\nconsider my side of things for a change.\nOr are you going to keep on lying ‘to do God a service’?\nto make up stories ‘to get him off the hook’?\nWhy do you always take his side?\nDo you think he needs a lawyer to defend himself?\nHow would you fare if you were in the dock?\nYour lies might convince a jury—but would they\nconvince God?\nHe’d reprimand you on the spot\nif he detected a bias in your witness.\nDoesn’t his splendor put you in awe?\nAren’t you afraid to speak cheap lies before him?\nYour wise sayings are knickknack wisdom,\ngood for nothing but gathering dust.",
+        "es": "«Escuchen ahora mientras expongo mi caso;\npor una vez, consideren también mi versión.\n¿O van a seguir mintiendo “para hacerle un favor a Dios”,\ninventando historias “para sacarlo del problema”?\n¿Por qué siempre se ponen de Su lado?\n¿Creen que Él necesita un abogado que lo defienda?\n¿Cómo les iría si ustedes fueran los acusados?\nSus mentiras podrían convencer a un jurado, ¿pero\nconvencerían a Dios?\nÉl los reprendería de inmediato\nsi descubriera parcialidad en su testimonio.\n¿No los llena de temor Su esplendor?\n¿No tienen miedo de decir mentiras baratas delante de Él?\nSus dichos sabios son sabiduría de adorno,\nbuena para nada más que acumular polvo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-12"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "13-19",
+      "id": "job13-msg-03",
+      "msg": {
+        "en": "“So hold your tongue while I have my say,\nthen I’ll take whatever I have coming to me.\nWhy do I go out on a limb like this\nand take my life in my hands?\nBecause even if he killed me, I’d keep on hoping.\nI’d defend my innocence to the very end.\nJust wait, this is going to work out for the best—my salvation!\nIf I were guilt-stricken do you think I’d be doing this—\nlaying myself on the line before God?\nYou’d better pay attention to what I’m telling you,\nlisten carefully with both ears.\nNow that I’ve laid out my defense,\nI’m sure that I’ll be acquitted.\nCan anyone prove charges against me?\nI’ve said my piece. I rest my case.",
+        "es": "«Así que guarden silencio mientras yo hablo;\ndespués aceptaré lo que tenga que venir.\n¿Por qué me arriesgo de esta manera\ny pongo mi vida en mis propias manos?\nPorque, aun si Él me matara, seguiría esperando.\nDefendería mi inocencia hasta el final.\nSolo esperen: esto terminará para bien, ¡será mi salvación!\nSi estuviera consumido por la culpa, ¿creen que haría esto:\nponerme en juego delante de Dios?\nMás vale que presten atención a lo que digo,\nescuchen cuidadosamente con ambos oídos.\nAhora que he expuesto mi defensa,\nestoy seguro de que seré absuelto.\n¿Puede alguien demostrar cargos contra mí?\nYa dije lo que tenía que decir. Doy por terminado mi caso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-19"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "20-27",
+      "id": "job13-msg-04",
+      "msg": {
+        "en": "“Please, God, I have two requests;\ngrant them so I’ll know I count with you:\nFirst, lay off the afflictions;\nthe terror is too much for me.\nSecond, address me directly so I can answer you,\nor let me speak and then you answer me.\nHow many sins have been charged against me?\nShow me the list—how bad is it?\nWhy do you stay hidden and silent?\nWhy treat me like I’m your enemy?\nWhy kick me around like an old tin can?\nWhy beat a dead horse?\nYou compile a long list of mean things about me,\neven hold me accountable for the sins of my youth.\nYou hobble me so I can’t move about.\nYou watch every move I make,\nand brand me as a dangerous character.",
+        "es": "«Por favor, Dios, tengo dos peticiones;\nconcédemelas para saber que todavía cuento contigo:\nPrimero, retira de mí estas aflicciones;\nel terror es demasiado para mí.\nSegundo, háblame directamente para que pueda responderte,\no déjame hablar y luego respóndeme Tú.\n¿Cuántos pecados se me han cargado?\nMuéstrame la lista: ¿qué tan graves son?\n¿Por qué permaneces oculto y en silencio?\n¿Por qué me tratas como si fuera Tu enemigo?\n¿Por qué me pateas como a una lata vieja?\n¿Por qué golpeas a alguien que ya está caído?\nCompilas una larga lista de cosas amargas contra mí,\nincluso me haces responsable de los pecados de mi juventud.\nMe pones trabas para que no pueda moverme.\nVigilas cada movimiento que hago\ny me marcas como si fuera un personaje peligroso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-27"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "28",
+      "id": "job13-msg-05",
+      "msg": {
+        "en": "“Like something rotten, human life fast decomposes,\nlike a moth-eaten shirt or a mildewed blouse.”",
+        "es": "«Como algo podrido, la vida humana se descompone rápidamente,\ncomo una camisa comida por la polilla o una blusa enmohecida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job13-nbla-28"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job13-nbla-01",
+      "number": 1,
+      "text": "»Todo esto han visto mis ojos,\nLo han escuchado mis oídos y lo han entendido."
+    },
+    {
+      "id": "job13-nbla-02",
+      "number": 2,
+      "text": "Lo que ustedes saben yo también lo sé;\nNo soy menos que ustedes."
+    },
+    {
+      "id": "job13-nbla-03",
+      "number": 3,
+      "text": "»Pero quiero hablarle al Todopoderoso,\nY deseo argumentar con Dios."
+    },
+    {
+      "id": "job13-nbla-04",
+      "number": 4,
+      "text": "Porque ustedes son forjadores de mentiras;\nTodos ustedes son médicos inútiles."
+    },
+    {
+      "id": "job13-nbla-05",
+      "number": 5,
+      "text": "¡Quién diera que guardaran completo silencio\nY se convirtiera esto en sabiduría suya!"
+    },
+    {
+      "id": "job13-nbla-06",
+      "number": 6,
+      "text": "Oigan, les ruego, mi razonamiento,\nY presten atención a los argumentos de mis labios."
+    },
+    {
+      "id": "job13-nbla-07",
+      "number": 7,
+      "text": "¿Hablarán ustedes por Dios lo que es injusto\nY dirán por Él lo que es engañoso?"
+    },
+    {
+      "id": "job13-nbla-08",
+      "number": 8,
+      "text": "¿Mostrarán por Él parcialidad?\n¿Lucharán ustedes por Dios?"
+    },
+    {
+      "id": "job13-nbla-09",
+      "number": 9,
+      "text": "¿Les irá bien cuando Él los escudriñe,\nO lo engañarán como se engaña a un hombre?"
+    },
+    {
+      "id": "job13-nbla-10",
+      "number": 10,
+      "text": "Ciertamente Él los reprenderá\nSi en secreto muestran parcialidad."
+    },
+    {
+      "id": "job13-nbla-11",
+      "number": 11,
+      "text": "¿No los llenará de temor Su majestad,\nY no caerá sobre ustedes Su terror?"
+    },
+    {
+      "id": "job13-nbla-12",
+      "number": 12,
+      "text": "Las máximas de ustedes son proverbios de ceniza,\nSus defensas son defensas de barro."
+    },
+    {
+      "id": "job13-nbla-13",
+      "number": 13,
+      "text": "»Cállense delante de mí para que yo pueda hablar;\nY que venga lo que venga sobre mí."
+    },
+    {
+      "id": "job13-nbla-14",
+      "number": 14,
+      "text": "¿Por qué he de quitarme la carne con mis dientes,\nY poner mi vida en mis manos?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job13-nbla-15a",
+          "order": 1,
+          "text": "Aunque Él me mate,\nEn Él esperaré."
+        },
+        {
+          "id": "job13-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sin embargo, defenderé mis caminos delante de Él;"
+        }
+      ],
+      "id": "job13-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "job13-nbla-16",
+      "number": 16,
+      "text": "Esto también será mi salvación,\nPorque un impío no comparecería en Su presencia."
+    },
+    {
+      "id": "job13-nbla-17",
+      "number": 17,
+      "text": "Escuchen atentamente mis palabras,\nY que mi declaración llene sus oídos."
+    },
+    {
+      "id": "job13-nbla-18",
+      "number": 18,
+      "text": "Pues yo he preparado mi causa;\nSé que seré justificado."
+    },
+    {
+      "id": "job13-nbla-19",
+      "number": 19,
+      "text": "¿Quién discutirá conmigo?\nPorque entonces me callaría y moriría."
+    },
+    {
+      "id": "job13-nbla-20",
+      "number": 20,
+      "text": "»Solo dos cosas deseo que Tú hagas conmigo,\nY no me esconderé de Tu rostro:"
+    },
+    {
+      "id": "job13-nbla-21",
+      "number": 21,
+      "text": "Que retires de mí Tu mano,\nY que no me espante Tu terror."
+    },
+    {
+      "id": "job13-nbla-22",
+      "number": 22,
+      "text": "Entonces llámame, y yo responderé;\nO déjame hablar, y respóndeme Tú."
+    },
+    {
+      "id": "job13-nbla-23",
+      "number": 23,
+      "text": "¿Cuántas son mis iniquidades y pecados?\nHazme conocer mi rebelión y mi pecado."
+    },
+    {
+      "id": "job13-nbla-24",
+      "number": 24,
+      "text": "¿Por qué escondes Tu rostro\nY me consideras Tu enemigo?"
+    },
+    {
+      "id": "job13-nbla-25",
+      "number": 25,
+      "text": "¿Harás que tiemble una hoja llevada por el viento,\nO perseguirás a la paja seca?"
+    },
+    {
+      "id": "job13-nbla-26",
+      "number": 26,
+      "text": "Pues escribes contra mí cosas amargas,\nY me haces responsable de las iniquidades de mi juventud."
+    },
+    {
+      "id": "job13-nbla-27",
+      "number": 27,
+      "text": "Pones mis pies en el cepo,\nY vigilas todas mis sendas;\nPones límite a las plantas de mis pies,"
+    },
+    {
+      "id": "job13-nbla-28",
+      "number": 28,
+      "text": "Mientras me deshago como cosa podrida,\nComo vestido comido de polilla."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

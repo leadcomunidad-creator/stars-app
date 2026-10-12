@@ -1,0 +1,748 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría tiene capacidad constructiva. NBLA afirma que una casa se edifica con sabiduría y se afirma con prudencia; MSG hace visible el proceso de fundamento y habitación. La imagen puede aplicarse más allá de una casa física, pero el límite es no convertirla en promesa automática de prosperidad material.",
+      "id": "proverbios24-joya-01",
+      "msg": {
+        "en": "\"It takes wisdom to build a house,\"",
+        "es": "\"Se necesita sabiduría para construir una casa,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-03a"
+          ],
+          "verseId": "proverbios24-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La verdadera fortaleza incluye consejo y estrategia. NBLA vincula dirección sabia y abundancia de consejeros con victoria; MSG subraya planificación. El texto no glorifica conflicto, sino que enseña que decisiones complejas requieren discernimiento compartido y no mera fuerza bruta.",
+      "id": "proverbios24-joya-02",
+      "msg": {
+        "en": "\"Strategic planning is the key to warfare;\"",
+        "es": "\"La planificación estratégica es la clave para la guerra;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-06a"
+          ],
+          "verseId": "proverbios24-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "La sabiduría incluye responsabilidad hacia el prójimo. NBLA ordena librar a quienes van hacia la muerte y recuerda que Dios conoce el corazón; MSG confronta la excusa de mirar hacia otro lado. El punto no es omnipotencia humana, sino negativa a usar ignorancia fingida como refugio moral.",
+      "id": "proverbios24-joya-03",
+      "msg": {
+        "en": "\"Rescue the perishing;\"",
+        "es": "\"Rescata a los que están por perecer;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-11a"
+          ],
+          "verseId": "proverbios24-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11-12"
+    },
+    {
+      "explanation": "La justicia no equivale a ausencia de caída. NBLA presenta al justo levantándose repetidamente; MSG vuelve pastoral esa resiliencia. No debe leerse como garantía de que toda crisis se resolverá rápido, sino como contraste entre una vida sostenida en el camino de Dios y el colapso final del mal.",
+      "id": "proverbios24-joya-04",
+      "msg": {
+        "en": "\"God-loyal people don’t stay down long;\"",
+        "es": "\"las personas leales a Dios no permanecen caídas mucho tiempo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-16a"
+          ],
+          "verseId": "proverbios24-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "15-16"
+    },
+    {
+      "explanation": "Dios también examina nuestra reacción ante la caída del adversario. NBLA prohíbe alegrarse de su tropiezo; MSG lo lleva al lenguaje cotidiano de la burla. La justicia bíblica permite reconocer el mal y buscar protección, pero no convierte el sufrimiento del enemigo en alimento para el orgullo.",
+      "id": "proverbios24-joya-05",
+      "msg": {
+        "en": "\"Don’t laugh when your enemy falls;\"",
+        "es": "\"No te rías cuando caiga tu enemigo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-17a"
+          ],
+          "verseId": "proverbios24-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "17-18"
+    },
+    {
+      "explanation": "La verdad dicha correctamente tiene valor relacional. NBLA compara una respuesta correcta con besar los labios; MSG la describe como abrazo cálido. La imagen no significa que toda franqueza sea automáticamente amorosa: la verdad necesita integridad, oportunidad y una intención que no manipule.",
+      "id": "proverbios24-joya-06",
+      "msg": {
+        "en": "\"An honest answer\"",
+        "es": "\"Una respuesta honesta\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-26b"
+          ],
+          "verseId": "proverbios24-nbla-26"
+        }
+      ],
+      "order": 6,
+      "range": "26"
+    },
+    {
+      "explanation": "La creación y las consecuencias cotidianas pueden convertirse en escuela de sabiduría. NBLA muestra al observador mirando y recibiendo instrucción; MSG personifica el campo como predicador. La doctrina no nace de la personificación, sino del acto sapiencial de observar, reflexionar y aprender.",
+      "id": "proverbios24-joya-07",
+      "msg": {
+        "en": "\"the fields preached me a sermon and I listened:\"",
+        "es": "\"los campos me predicaron un sermón y yo escuché:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios24-nbla-32b"
+          ],
+          "verseId": "proverbios24-nbla-32"
+        }
+      ],
+      "order": 7,
+      "range": "30-34"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 24,
+    "studyId": "proverbios-24"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "proverbios24-msg-01",
+      "msg": {
+        "en": "Don’t envy bad people;\ndon’t even want to be around them.\nAll they think about is causing a disturbance;\nall they talk about is making trouble.",
+        "es": "No envidies a la gente mala; ni siquiera quieras estar cerca de ella. Solo piensa en causar disturbios; solo habla de provocar problemas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "proverbios24-msg-02",
+      "msg": {
+        "en": "It takes wisdom to build a house,\nand understanding to set it on a firm foundation;\nIt takes knowledge to furnish its rooms\nwith fine furniture and beautiful draperies.",
+        "es": "Se necesita sabiduría para construir una casa, y entendimiento para asentarla sobre un fundamento firme; se necesita conocimiento para amueblar sus habitaciones con muebles finos y cortinas hermosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "proverbios24-msg-03",
+      "msg": {
+        "en": "It’s better to be wise than strong;\nintelligence outranks muscle any day.\nStrategic planning is the key to warfare;\nto win, you need a lot of good counsel.",
+        "es": "Es mejor ser sabio que fuerte; la inteligencia supera a la fuerza cualquier día. La planificación estratégica es la clave para la guerra; para vencer, necesitas mucho buen consejo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios24-msg-04",
+      "msg": {
+        "en": "Wise conversation is way over the head of fools;\nin a serious discussion they haven’t a clue.",
+        "es": "Una conversación sabia está muy por encima de la cabeza de los necios; en una discusión seria no tienen ni idea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "proverbios24-msg-05",
+      "msg": {
+        "en": "The person who’s always cooking up some evil\nsoon gets a reputation as prince of rogues.\nFools incubate sin;\ncynics desecrate beauty.",
+        "es": "La persona que siempre está tramando algún mal pronto se gana fama de príncipe de los bribones. Los necios incuban pecado; los cínicos profanan la belleza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios24-msg-06",
+      "msg": {
+        "en": "If you fall to pieces in a crisis,\nthere wasn’t much to you in the first place.",
+        "es": "Si te desmoronas en una crisis, es que tu fuerza era poca desde el principio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "proverbios24-msg-07",
+      "msg": {
+        "en": "Rescue the perishing;\ndon’t hesitate to step in and help.\nIf you say, “Hey, that’s none of my business,”\nwill that get you off the hook?\nSomeone is watching you closely, you know—\nSomeone not impressed with weak excuses.",
+        "es": "Rescata a los que están por perecer; no dudes en intervenir y ayudar. Si dices: «Oye, eso no es asunto mío», ¿crees que con eso te libras? Alguien te observa de cerca, ya sabes: Alguien a quien no impresionan las excusas débiles."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "proverbios24-msg-08",
+      "msg": {
+        "en": "Eat honey, dear child—it’s good for you—\nand delicacies that melt in your mouth.\nLikewise knowledge,\nand wisdom for your soul—\nGet that and your future’s secured,\nyour hope is on solid rock.",
+        "es": "Come miel, querido hijo; es buena para ti, y también esas delicias que se derriten en la boca. Así son el conocimiento y la sabiduría para tu alma: consíguelos y tu futuro estará asegurado, tu esperanza quedará sobre roca firme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "proverbios24-msg-09",
+      "msg": {
+        "en": "Don’t interfere with good people’s lives;\ndon’t try to get the best of them.\nNo matter how many times you trip them up,\nGod-loyal people don’t stay down long;\nSoon they’re up on their feet,\nwhile the wicked end up flat on their faces.",
+        "es": "No interfieras en la vida de la gente buena; no intentes sacar ventaja de quienes hacen el bien. No importa cuántas veces intentes hacerlos tropezar, las personas leales a Dios no permanecen caídas mucho tiempo; pronto vuelven a ponerse de pie, mientras los malvados terminan de bruces."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "proverbios24-msg-10",
+      "msg": {
+        "en": "Don’t laugh when your enemy falls;\ndon’t crow over his collapse.\nGOD might see, and become very provoked,\nand then take pity on his plight.",
+        "es": "No te rías cuando caiga tu enemigo; no te jactes de su desplome. DIOS podría verlo, indignarse mucho y entonces compadecerse de su situación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-18"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "proverbios24-msg-11",
+      "msg": {
+        "en": "Don’t bother your head with braggarts\nor wish you could succeed like the wicked.\nThose people have no future at all;\nthey’re headed down a dead-end street.",
+        "es": "No te llenes la cabeza con fanfarrones ni desees triunfar como los malvados. Esa gente no tiene futuro; va por una calle sin salida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "proverbios24-msg-12",
+      "msg": {
+        "en": "Fear GOD, dear child—respect your leaders;\ndon’t be defiant or mutinous.\nWithout warning your life can turn upside down,\nand who knows how or when it might happen?",
+        "es": "Teme a DIOS, querido hijo; respeta a tus líderes; no seas desafiante ni amotinado. Sin aviso, tu vida puede ponerse patas arriba, y quién sabe cómo o cuándo podría suceder."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios24-msg-13",
+      "msg": {
+        "en": "It’s wrong, very wrong,\nto go along with injustice.",
+        "es": "Está mal, muy mal, prestarse a la injusticia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-23"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "proverbios24-msg-14",
+      "msg": {
+        "en": "Whoever whitewashes the wicked\ngets a black mark in the history books,\nBut whoever exposes the wicked\nwill be thanked and rewarded.",
+        "es": "Quien blanquea al malvado recibe una mancha negra en los libros de historia, pero quien deja al descubierto al malvado será agradecido y recompensado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios24-msg-15",
+      "msg": {
+        "en": "An honest answer\nis like a warm hug.",
+        "es": "Una respuesta honesta es como un abrazo cálido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-26"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios24-msg-16",
+      "msg": {
+        "en": "First plant your fields;\nthen build your barn.",
+        "es": "Primero siembra tus campos; luego construye tu granero."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-27"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "proverbios24-msg-17",
+      "msg": {
+        "en": "Don’t talk about your neighbors behind their backs—\nno slander or gossip, please.\nDon’t say to anyone, “I’ll get back at you for what you did to me.\nI’ll make you pay for what you did!”",
+        "es": "No hables a espaldas de tus vecinos: nada de calumnias ni chismes, por favor. No le digas a nadie: «Me vengaré de ti por lo que me hiciste. Te haré pagar por lo que me hiciste»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-29"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "30-34",
+      "id": "proverbios24-msg-18",
+      "msg": {
+        "en": "One day I walked by the field of an old lazybones,\nand then passed the vineyard of a lout;\nThey were overgrown with weeds,\nthick with thistles, all the fences broken down.\nI took a long look and pondered what I saw;\nthe fields preached me a sermon and I listened:\n“A nap here, a nap there, a day off here, a day off there,\nsit back, take it easy—do you know what comes next?\nJust this: You can look forward to a dirt-poor life,\nwith poverty as your permanent houseguest!”",
+        "es": "Un día pasé junto al campo de un viejo perezoso y luego junto al viñedo de un holgazán; estaban cubiertos de maleza, espesos de cardos, con todas las cercas derribadas. Miré con detenimiento y reflexioné sobre lo que vi; los campos me predicaron un sermón y yo escuché: «Una siesta aquí, otra allá, un día libre aquí, otro allá; recuéstate, tómalo con calma. ¿Sabes qué viene después? Esto: puedes esperar una vida de pobreza extrema, con la pobreza como huésped permanente»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios24-nbla-34"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios24-nbla-01",
+      "number": 1,
+      "text": "No tengas envidia de los malvados,\nNi desees estar con ellos;"
+    },
+    {
+      "id": "proverbios24-nbla-02",
+      "number": 2,
+      "text": "Porque su corazón trama violencia,\nY sus labios hablan de hacer mal."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-03a",
+          "order": 1,
+          "text": "Con sabiduría se edifica una casa,"
+        },
+        {
+          "id": "proverbios24-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y con prudencia se afianza;"
+        }
+      ],
+      "id": "proverbios24-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios24-nbla-04",
+      "number": 4,
+      "text": "Con conocimiento se llenan las cámaras\nDe todo bien preciado y deseable."
+    },
+    {
+      "id": "proverbios24-nbla-05",
+      "number": 5,
+      "text": "El hombre sabio es fuerte,\nY el hombre de conocimiento aumenta su poder."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-06a",
+          "order": 1,
+          "text": "Porque con dirección sabia harás la guerra,"
+        },
+        {
+          "id": "proverbios24-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y en la abundancia de consejeros está la victoria."
+        }
+      ],
+      "id": "proverbios24-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "proverbios24-nbla-07",
+      "number": 7,
+      "text": "Muy alta está la sabiduría para el necio,\nEn la puerta de la ciudad no abre su boca."
+    },
+    {
+      "id": "proverbios24-nbla-08",
+      "number": 8,
+      "text": "Al que planea hacer el mal,\nLo llamarán intrigante."
+    },
+    {
+      "id": "proverbios24-nbla-09",
+      "number": 9,
+      "text": "El tramar necedad es pecado,\nY el insolente es abominación a los hombres."
+    },
+    {
+      "id": "proverbios24-nbla-10",
+      "number": 10,
+      "text": "Si eres débil en día de angustia,\nTu fuerza es limitada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-11a",
+          "order": 1,
+          "text": "Libra a los que son llevados a la muerte,"
+        },
+        {
+          "id": "proverbios24-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y retén a los que van con pasos vacilantes a la matanza."
+        }
+      ],
+      "id": "proverbios24-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "proverbios24-nbla-12",
+      "number": 12,
+      "text": "Si dices: «Mira, no sabíamos esto».\n¿No lo tiene en cuenta el que sondea los corazones?\n¿No lo sabe el que guarda tu alma?\n¿No dará a cada hombre según su obra?"
+    },
+    {
+      "id": "proverbios24-nbla-13",
+      "number": 13,
+      "text": "Come miel, hijo mío, porque es buena;\nSí, la miel del panal es dulce a tu paladar."
+    },
+    {
+      "id": "proverbios24-nbla-14",
+      "number": 14,
+      "text": "Debes saber que así es la sabiduría para tu alma;\nSi la hallas, entonces habrá un futuro,\nY tu esperanza no será cortada."
+    },
+    {
+      "id": "proverbios24-nbla-15",
+      "number": 15,
+      "text": "No aceches, oh impío, la morada del justo;\nNo destruyas su lugar de descanso;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-16a",
+          "order": 1,
+          "text": "Porque el justo cae siete veces, y vuelve a levantarse,"
+        },
+        {
+          "id": "proverbios24-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero los impíos caerán en la desgracia."
+        }
+      ],
+      "id": "proverbios24-nbla-16",
+      "number": 16
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-17a",
+          "order": 1,
+          "text": "No te regocijes cuando caiga tu enemigo,"
+        },
+        {
+          "id": "proverbios24-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y no se alegre tu corazón cuando tropiece;"
+        }
+      ],
+      "id": "proverbios24-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios24-nbla-18",
+      "number": 18,
+      "text": "No sea que el SEÑOR lo vea y le desagrade,\nY aparte de él Su ira."
+    },
+    {
+      "id": "proverbios24-nbla-19",
+      "number": 19,
+      "text": "No te impacientes a causa de los malhechores\nNi tengas envidia de los impíos;"
+    },
+    {
+      "id": "proverbios24-nbla-20",
+      "number": 20,
+      "text": "Porque no habrá futuro para el malo.\nLa lámpara de los impíos será apagada."
+    },
+    {
+      "id": "proverbios24-nbla-21",
+      "number": 21,
+      "text": "Hijo mío, teme al SEÑOR y al rey;\nNo te asocies con los que son inestables;"
+    },
+    {
+      "id": "proverbios24-nbla-22",
+      "number": 22,
+      "text": "Porque de repente se levantará su desgracia,\nY la destrucción que vendrá de ambos, ¿quién la sabe?"
+    },
+    {
+      "id": "proverbios24-nbla-23",
+      "number": 23,
+      "text": "También estos son dichos de los sabios:\n«Hacer acepción de personas en el juicio no es bueno»."
+    },
+    {
+      "id": "proverbios24-nbla-24",
+      "number": 24,
+      "text": "Al que dice al impío: «Eres justo»,\nLo maldecirán los pueblos, lo aborrecerán las naciones;"
+    },
+    {
+      "id": "proverbios24-nbla-25",
+      "number": 25,
+      "text": "Pero los que lo reprenden tendrán felicidad,\nY sobre ellos vendrá abundante bendición."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-26a",
+          "order": 1,
+          "text": "Besa los labios"
+        },
+        {
+          "id": "proverbios24-nbla-26b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El que da una respuesta correcta."
+        }
+      ],
+      "id": "proverbios24-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "proverbios24-nbla-27",
+      "number": 27,
+      "text": "Ordena tus labores de fuera\nY tenlas listas para ti en el campo,\nY después edifica tu casa."
+    },
+    {
+      "id": "proverbios24-nbla-28",
+      "number": 28,
+      "text": "No seas, sin causa, testigo contra tu prójimo,\nY no engañes con tus labios."
+    },
+    {
+      "id": "proverbios24-nbla-29",
+      "number": 29,
+      "text": "No digas: «Como él me ha hecho, así le haré;\nPagaré al hombre según su obra»."
+    },
+    {
+      "id": "proverbios24-nbla-30",
+      "number": 30,
+      "text": "He pasado junto al campo del perezoso\nY junto a la viña del hombre falto de entendimiento,"
+    },
+    {
+      "id": "proverbios24-nbla-31",
+      "number": 31,
+      "text": "Y vi que todo estaba lleno de cardos,\nSu superficie cubierta de ortigas,\nY su cerca de piedras, derribada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios24-nbla-32a",
+          "order": 1,
+          "text": "Cuando lo vi, reflexioné sobre ello;"
+        },
+        {
+          "id": "proverbios24-nbla-32b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Miré, y recibí instrucción."
+        }
+      ],
+      "id": "proverbios24-nbla-32",
+      "number": 32
+    },
+    {
+      "id": "proverbios24-nbla-33",
+      "number": 33,
+      "text": "«Un poco de dormir, otro poco de dormitar,\nOtro poco de cruzar las manos para descansar»,"
+    },
+    {
+      "id": "proverbios24-nbla-34",
+      "number": 34,
+      "text": "Y llegará tu pobreza como ladrón,\nY tu necesidad como hombre armado."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

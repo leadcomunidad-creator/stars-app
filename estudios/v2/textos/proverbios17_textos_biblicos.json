@@ -1,0 +1,804 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La comparación redefine qué significa vivir bien. NBLA coloca tranquilidad frente a una casa llena de banquetes con discordia; MSG lo vuelve una mesa mínima de pan y agua. La enseñanza no glorifica pobreza, sino que afirma que abundancia sin paz puede ser una forma de miseria.",
+      "id": "proverbios17-joya-01",
+      "msg": {
+        "en": "\"A meal of bread and water in contented peace\"",
+        "es": "\"Una comida de pan y agua en paz y contentamiento\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-01a"
+          ],
+          "verseId": "proverbios17-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "NBLA ubica la prueba de Dios en el corazón; MSG expresa esa evaluación sobre la vida. Dios no se limita a observar apariencia o resultado. La sabiduría acepta que motivos, lealtades y carácter quedan expuestos ante Él.",
+      "id": "proverbios17-joya-02",
+      "msg": {
+        "en": "\"so our lives are assayed by GOD.\"",
+        "es": "\"DIOS pone a prueba nuestras vidas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-03b"
+          ],
+          "verseId": "proverbios17-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "Ambas versiones coinciden en el vínculo entre dignidad del pobre y honor al Creador. El texto no permite una fe que adore a Dios mientras desprecia a quienes poseen menos poder o recursos.",
+      "id": "proverbios17-joya-03",
+      "msg": {
+        "en": "\"Whoever mocks poor people insults their Creator;\"",
+        "es": "\"Quien se burla de los pobres insulta a su Creador;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-05a"
+          ],
+          "verseId": "proverbios17-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5"
+    },
+    {
+      "explanation": "La sabiduría protege relaciones evitando alimentar agravios. Sin embargo, el contexto del capítulo también defiende justicia; por eso este proverbio no autoriza encubrir abuso o delito. Habla de una disposición que no convierte cada falta interpersonal en combustible para separación.",
+      "id": "proverbios17-joya-04",
+      "msg": {
+        "en": "\"Overlook an offense and bond a friendship;\"",
+        "es": "\"Pasa por alto una ofensa y afianzas una amistad;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-09a"
+          ],
+          "verseId": "proverbios17-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "9"
+    },
+    {
+      "explanation": "El conflicto pequeño puede adquirir una fuerza que después resulta difícil contener. La sabiduría actúa temprano: no espera a que la discusión se vuelva inundación. Detener una pelea antes de que crezca no es cobardía, sino gobierno propio.",
+      "id": "proverbios17-joya-05",
+      "msg": {
+        "en": "\"The start of a quarrel is like a leak in a dam,\"",
+        "es": "\"Comenzar una pelea es como abrir una fuga en una represa;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-14a"
+          ],
+          "verseId": "proverbios17-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14"
+    },
+    {
+      "explanation": "La amistad bíblica se reconoce por permanencia. MSG convierte «en todo tiempo» en la imagen de distintos climas; NBLA mantiene la formulación directa. El punto no es tolerar cualquier conducta, sino que el amor verdadero no desaparece apenas la relación entra en dificultad.",
+      "id": "proverbios17-joya-06",
+      "msg": {
+        "en": "\"Friends love through all kinds of weather,\"",
+        "es": "\"Los amigos aman en toda clase de clima,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-17a"
+          ],
+          "verseId": "proverbios17-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "17"
+    },
+    {
+      "explanation": "La contención verbal es parte del entendimiento. NBLA no dice que el sabio siempre hable poco, sino que sabe retener sus palabras; MSG lo vuelve memorable. La madurez no consiste en silencio permanente, sino en no usar palabras impulsivamente para demostrar superioridad.",
+      "id": "proverbios17-joya-07",
+      "msg": {
+        "en": "\"The one who knows much says little;\"",
+        "es": "\"Quien sabe mucho dice poco;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios17-nbla-27a"
+          ],
+          "verseId": "proverbios17-nbla-27"
+        }
+      ],
+      "order": 7,
+      "range": "27"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 17,
+    "studyId": "proverbios-17"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios17-msg-01",
+      "msg": {
+        "en": "A meal of bread and water in contented peace\nis better than a banquet spiced with quarrels.",
+        "es": "Una comida de pan y agua en paz y contentamiento es mejor que un banquete sazonado con peleas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios17-msg-02",
+      "msg": {
+        "en": "A wise servant takes charge of an unruly child\nand is honored as one of the family.",
+        "es": "Un siervo sabio se hace cargo de un hijo indisciplinado y recibe honra como uno más de la familia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios17-msg-03",
+      "msg": {
+        "en": "As silver in a crucible and gold in a pan,\nso our lives are assayed by GOD.",
+        "es": "Así como la plata se prueba en el crisol y el oro en el horno, DIOS pone a prueba nuestras vidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios17-msg-04",
+      "msg": {
+        "en": "Evil people relish malicious conversation;\nthe ears of liars itch for dirty gossip.",
+        "es": "La gente mala disfruta las conversaciones maliciosas; a los mentirosos les pican los oídos por el chisme sucio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios17-msg-05",
+      "msg": {
+        "en": "Whoever mocks poor people insults their Creator;\ngloating over misfortune is a punishable crime.",
+        "es": "Quien se burla de los pobres insulta a su Creador; alegrarse de la desgracia ajena es un delito que será castigado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios17-msg-06",
+      "msg": {
+        "en": "Old people are distinguished by grandchildren;\nchildren take pride in their parents.",
+        "es": "Los nietos distinguen a los ancianos; los hijos se sienten orgullosos de sus padres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios17-msg-07",
+      "msg": {
+        "en": "We don’t expect eloquence from fools,\nnor do we expect lies from our leaders.",
+        "es": "No esperamos elocuencia de los necios, ni esperamos mentiras de nuestros líderes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios17-msg-08",
+      "msg": {
+        "en": "Receiving a gift is like getting a rare gemstone;\nany way you look at it, you see beauty refracted.",
+        "es": "Recibir un regalo es como recibir una piedra preciosa excepcional; la mires por donde la mires, refleja belleza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios17-msg-09",
+      "msg": {
+        "en": "Overlook an offense and bond a friendship;\nfasten on to a slight and—good-bye, friend!",
+        "es": "Pasa por alto una ofensa y afianzas una amistad; aférrate al agravio y ¡adiós, amigo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios17-msg-10",
+      "msg": {
+        "en": "A quiet rebuke to a person of good sense\ndoes more than a whack on the head of a fool.",
+        "es": "Una reprensión tranquila a una persona sensata logra más que un golpe en la cabeza de un necio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios17-msg-11",
+      "msg": {
+        "en": "Criminals out looking for nothing but trouble\nwon’t have to wait long—they’ll meet it coming and going!",
+        "es": "Los delincuentes que solo buscan problemas no tendrán que esperar mucho: ¡los encontrarán por todas partes!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios17-msg-12",
+      "msg": {
+        "en": "Better to meet a grizzly robbed of her cubs\nthan a fool hellbent on folly.",
+        "es": "Mejor encontrarte con una osa privada de sus cachorros que con un necio empeñado en su necedad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios17-msg-13",
+      "msg": {
+        "en": "Those who return evil for good\nwill meet their own evil returning.",
+        "es": "Quienes devuelven mal por bien verán que el mal vuelve sobre ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios17-msg-14",
+      "msg": {
+        "en": "The start of a quarrel is like a leak in a dam,\nso stop it before it bursts.",
+        "es": "Comenzar una pelea es como abrir una fuga en una represa; detente antes de que reviente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios17-msg-15",
+      "msg": {
+        "en": "Whitewashing bad people and throwing mud on good people\nare equally abhorrent to GOD.",
+        "es": "Blanquear a la gente mala y ensuciar a la gente buena son cosas igualmente aborrecibles para DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios17-msg-16",
+      "msg": {
+        "en": "What’s this? Fools out shopping for wisdom!\nThey wouldn’t recognize it if they saw it!",
+        "es": "¿Qué es esto? ¡Necios saliendo a comprar sabiduría! ¡No la reconocerían aunque la tuvieran delante!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios17-msg-17",
+      "msg": {
+        "en": "Friends love through all kinds of weather,\nand families stick together in all kinds of trouble.",
+        "es": "Los amigos aman en toda clase de clima, y la familia permanece unida en toda clase de dificultad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios17-msg-18",
+      "msg": {
+        "en": "It’s stupid to try to get something for nothing,\nor run up huge bills you can never pay.",
+        "es": "Es una estupidez intentar obtener algo a cambio de nada o acumular enormes deudas que nunca podrás pagar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios17-msg-19",
+      "msg": {
+        "en": "The person who courts sin marries trouble;\nbuild a wall, invite a burglar.",
+        "es": "Quien corteja el pecado se casa con los problemas; levanta un muro e invita a un ladrón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios17-msg-20",
+      "msg": {
+        "en": "A bad motive can’t achieve a good end;\ndouble-talk brings you double trouble.",
+        "es": "Un mal motivo no puede producir un buen final; el doble discurso trae doble problema."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios17-msg-21",
+      "msg": {
+        "en": "Having a fool for a child is misery;\nit’s no fun being the parent of a dolt.",
+        "es": "Tener un hijo necio es una miseria; no hay alegría en ser padre de un insensato."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios17-msg-22",
+      "msg": {
+        "en": "A cheerful disposition is good for your health;\ngloom and doom leave you bone-tired.",
+        "es": "Una disposición alegre es buena para la salud; la tristeza constante te deja agotado hasta los huesos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios17-msg-23",
+      "msg": {
+        "en": "The wicked take bribes under the table;\nthey show nothing but contempt for justice.",
+        "es": "Los malvados aceptan sobornos por debajo de la mesa; no muestran más que desprecio por la justicia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios17-msg-24",
+      "msg": {
+        "en": "The perceptive find wisdom in their own front yard;\nfools look for it everywhere but right here.",
+        "es": "Los perceptivos encuentran la sabiduría en su propio patio; los necios la buscan en todas partes menos justo aquí."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios17-msg-25",
+      "msg": {
+        "en": "A surly, stupid child is sheer pain to a father,\na bitter pill for a mother to swallow.",
+        "es": "Un hijo hosco y necio es puro dolor para un padre, una píldora amarga de tragar para una madre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios17-msg-26",
+      "msg": {
+        "en": "It’s wrong to penalize good behavior,\nor make good citizens pay for the crimes of others.",
+        "es": "Está mal castigar la buena conducta o hacer que buenos ciudadanos paguen por los delitos de otros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios17-msg-27",
+      "msg": {
+        "en": "The one who knows much says little;\nan understanding person remains calm.",
+        "es": "Quien sabe mucho dice poco; una persona entendida conserva la calma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios17-msg-28",
+      "msg": {
+        "en": "Even dunces who keep quiet are thought to be wise;\nas long as they keep their mouths shut, they’re smart.",
+        "es": "Hasta los torpes que guardan silencio pasan por sabios; mientras mantengan la boca cerrada, parecen inteligentes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios17-nbla-28"
+        }
+      ],
+      "order": 28
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-01a",
+          "order": 1,
+          "text": "Mejor es un bocado seco y con él tranquilidad,"
+        },
+        {
+          "id": "proverbios17-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que una casa llena de banquetes con discordia."
+        }
+      ],
+      "id": "proverbios17-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "proverbios17-nbla-02",
+      "number": 2,
+      "text": "El siervo prudente prevalecerá sobre el hijo sin honra,\nY con los hermanos participará de la herencia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-03a",
+          "order": 1,
+          "text": "El crisol es para la plata y el horno para el oro,"
+        },
+        {
+          "id": "proverbios17-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el SEÑOR prueba los corazones."
+        }
+      ],
+      "id": "proverbios17-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios17-nbla-04",
+      "number": 4,
+      "text": "El malhechor escucha a los labios perversos;\nEl mentiroso presta atención a la lengua detractora."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-05a",
+          "order": 1,
+          "text": "El que se burla del pobre afrenta a su Hacedor;"
+        },
+        {
+          "id": "proverbios17-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El que se regocija de la desgracia no quedará sin castigo."
+        }
+      ],
+      "id": "proverbios17-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "proverbios17-nbla-06",
+      "number": 6,
+      "text": "Corona de los ancianos son los nietos,\nY la gloria de los hijos son sus padres."
+    },
+    {
+      "id": "proverbios17-nbla-07",
+      "number": 7,
+      "text": "No convienen al necio las palabras elocuentes,\nMucho menos al príncipe los labios mentirosos."
+    },
+    {
+      "id": "proverbios17-nbla-08",
+      "number": 8,
+      "text": "Talismán es el soborno a los ojos de su dueño;\nDondequiera que se vuelva, prospera."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-09a",
+          "order": 1,
+          "text": "El que cubre una falta busca afecto,"
+        },
+        {
+          "id": "proverbios17-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que repite el asunto separa a los mejores amigos."
+        }
+      ],
+      "id": "proverbios17-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "proverbios17-nbla-10",
+      "number": 10,
+      "text": "La reprensión penetra más en el que tiene entendimiento\nQue cien azotes en el necio."
+    },
+    {
+      "id": "proverbios17-nbla-11",
+      "number": 11,
+      "text": "El rebelde solo busca el mal,\nY un cruel mensajero se enviará contra él."
+    },
+    {
+      "id": "proverbios17-nbla-12",
+      "number": 12,
+      "text": "Mejor es encontrarse con una osa privada de sus cachorros,\nQue con un necio en su necedad."
+    },
+    {
+      "id": "proverbios17-nbla-13",
+      "number": 13,
+      "text": "Al que devuelve mal por bien,\nEl mal no se apartará de su casa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-14a",
+          "order": 1,
+          "text": "El comienzo del pleito es como el soltar de las aguas;"
+        },
+        {
+          "id": "proverbios17-nbla-14b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Deja, pues, la riña antes de que empiece."
+        }
+      ],
+      "id": "proverbios17-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "proverbios17-nbla-15",
+      "number": 15,
+      "text": "El que justifica al impío y el que condena al justo,\nAmbos son igualmente abominación al SEÑOR."
+    },
+    {
+      "id": "proverbios17-nbla-16",
+      "number": 16,
+      "text": "¿De qué sirve el precio en la mano del necio para comprar sabiduría\nCuando no tiene entendimiento?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-17a",
+          "order": 1,
+          "text": "En todo tiempo ama el amigo,"
+        },
+        {
+          "id": "proverbios17-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el hermano nace para tiempo de angustia."
+        }
+      ],
+      "id": "proverbios17-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios17-nbla-18",
+      "number": 18,
+      "text": "El hombre falto de entendimiento se compromete,\nY sale fiador a favor de su prójimo."
+    },
+    {
+      "id": "proverbios17-nbla-19",
+      "number": 19,
+      "text": "El que ama la transgresión, ama el pleito;\nEl que alza su puerta, busca la destrucción."
+    },
+    {
+      "id": "proverbios17-nbla-20",
+      "number": 20,
+      "text": "El de corazón perverso nunca encuentra el bien,\nY el de lengua pervertida cae en el mal."
+    },
+    {
+      "id": "proverbios17-nbla-21",
+      "number": 21,
+      "text": "El que engendra un necio, para su tristeza lo engendra,\nY el padre del necio no tiene alegría."
+    },
+    {
+      "id": "proverbios17-nbla-22",
+      "number": 22,
+      "text": "El corazón alegre es buena medicina,\nPero el espíritu quebrantado seca los huesos."
+    },
+    {
+      "id": "proverbios17-nbla-23",
+      "number": 23,
+      "text": "El impío recibe soborno bajo el manto\nPara pervertir las sendas del derecho."
+    },
+    {
+      "id": "proverbios17-nbla-24",
+      "number": 24,
+      "text": "En presencia del que tiene entendimiento está la sabiduría,\nPero los ojos del necio están en los extremos de la tierra."
+    },
+    {
+      "id": "proverbios17-nbla-25",
+      "number": 25,
+      "text": "El hijo necio es pesadumbre de su padre\nY amargura para la que lo dio a luz."
+    },
+    {
+      "id": "proverbios17-nbla-26",
+      "number": 26,
+      "text": "Ciertamente no es bueno multar al justo,\nNi golpear a los nobles por su rectitud."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios17-nbla-27a",
+          "order": 1,
+          "text": "El que retiene sus palabras tiene conocimiento,"
+        },
+        {
+          "id": "proverbios17-nbla-27b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el de espíritu sereno es hombre entendido."
+        }
+      ],
+      "id": "proverbios17-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "proverbios17-nbla-28",
+      "number": 28,
+      "text": "Aun el necio, cuando calla, es tenido por sabio,\nCuando cierra los labios, por prudente."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

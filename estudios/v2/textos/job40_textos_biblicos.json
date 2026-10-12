@@ -1,0 +1,385 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El debate cambia de escenario. Job ya no formula su caso delante de amigos; responde al Dios al que había querido interrogar. NBLA centra la cuestión en censurar y reprender a Dios.",
+      "id": "job40-joya-01",
+      "msg": {
+        "en": "\"Now what do you have to say for yourself?\"",
+        "es": "\"Ahora, ¿qué tienes que decir en tu defensa?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "El silencio de Job nace de haber visto la diferencia entre su perspectiva y la de Dios. No es una confesión de que los amigos tuvieran razón, sino reconocimiento de límite delante del SEÑOR.",
+      "id": "job40-joya-02",
+      "msg": {
+        "en": "\"I’m speechless, in awe—words fail me.\"",
+        "es": "\"Estoy sin palabras, sobrecogido; me faltan las palabras.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-5"
+    },
+    {
+      "explanation": "NBLA ofrece el límite teológico decisivo. El problema no es que Job defienda su causa, sino que llegue a justificarla anulando el juicio de Dios. La integridad humana no necesita construirse a costa del carácter divino.",
+      "id": "job40-joya-03",
+      "msg": {
+        "en": "\"Do you presume to tell me what I’m doing wrong?\"",
+        "es": "\"¿Pretendes decirme qué estoy haciendo mal?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "La ironía expone el límite de Job. Para ocupar el lugar del Juez universal tendría que poder también salvar por su propia mano. La criatura no posee esa autosuficiencia.",
+      "id": "job40-joya-04",
+      "msg": {
+        "en": "\"I’ll gladly step aside and hand things over to you—\nyou can surely save yourself with no help from me!\"",
+        "es": "\"Entonces con gusto me haré a un lado y te entregaré todo:\n¡seguro podrás salvarte por ti mismo, sin ayuda Mía!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-14"
+        }
+      ],
+      "order": 4,
+      "range": "13-14"
+    },
+    {
+      "explanation": "Job y Behemot comparten la condición de criaturas. MSG añade «land beast», pero NBLA gobierna la identificación. El punto no es decidir la especie, sino recordar que una realidad formidable para Job sigue siendo obra de Dios.",
+      "id": "job40-joya-05",
+      "msg": {
+        "en": "\"Look at the land beast, Behemoth. I created him as well as you.\"",
+        "es": "\"Mira a la bestia terrestre, Behemot. Yo lo creé igual que a ti.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15-16"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 40,
+    "studyId": "job-40"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "job40-msg-01",
+      "msg": {
+        "en": "GOD then confronted Job directly:\n“Now what do you have to say for yourself?\nAre you going to haul me, the Mighty One, into court and press\ncharges?”",
+        "es": "Entonces DIOS confrontó directamente a Job:\n«Ahora, ¿qué tienes que decir en tu defensa?\n¿Vas a llevarme a Mí, el Poderoso, ante un tribunal\ny presentar cargos contra Mí?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "job40-msg-02",
+      "msg": {
+        "en": "Job answered:\n“I’m speechless, in awe—words fail me.\nI should never have opened my mouth!\nI’ve talked too much, way too much.\nI’m ready to shut up and listen.”",
+        "es": "Job respondió:\n«Estoy sin palabras, sobrecogido; me faltan las palabras.\n¡Nunca debí haber abierto la boca!\nHe hablado demasiado, muchísimo.\nEstoy listo para callar y escuchar.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "job40-msg-03",
+      "msg": {
+        "en": "GOD addressed Job next from the eye of the storm, and this is what he said:\n“I have some more questions for you,\nand I want straight answers.",
+        "es": "DIOS volvió a dirigirse a Job desde el ojo de la tormenta, y esto fue lo que dijo:\n«Tengo algunas preguntas más para ti,\ny quiero respuestas claras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-14",
+      "id": "job40-msg-04",
+      "msg": {
+        "en": "“Do you presume to tell me what I’m doing wrong?\nAre you calling me a sinner so you can be a saint?\nDo you have an arm like my arm?\nCan you shout in thunder the way I can?\nGo ahead, show your stuff.\nLet’s see what you’re made of, what you can do.\nUnleash your outrage.\nTarget the arrogant and lay them flat.\nTarget the arrogant and bring them to their knees.\nStop the wicked in their tracks—make mincemeat of them!\nDig a mass grave and dump them in it—\nfaceless corpses in an unmarked grave.\nI’ll gladly step aside and hand things over to you—\nyou can surely save yourself with no help from me!",
+        "es": "«¿Pretendes decirme qué estoy haciendo mal?\n¿Me llamas pecador para poder presentarte como santo?\n¿Tienes un brazo como Mi brazo?\n¿Puedes tronar con tu voz como Yo?\nAdelante, muestra de qué eres capaz.\nVeamos de qué estás hecho y qué puedes hacer.\nDesata tu indignación.\nApunta contra los arrogantes y derríbalos.\nApunta contra los arrogantes y hazlos caer de rodillas.\nDetén a los malvados en seco: ¡acaba con ellos!\nCava una fosa común y échalos allí:\ncadáveres sin rostro en una tumba sin nombre.\nEntonces con gusto me haré a un lado y te entregaré todo:\n¡seguro podrás salvarte por ti mismo, sin ayuda Mía!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15-24",
+      "id": "job40-msg-05",
+      "msg": {
+        "en": "“Look at the land beast, Behemoth. I created him as well as you.\nGrazing on grass, docile as a cow—\nJust look at the strength of his back,\nthe powerful muscles of his belly.\nHis tail sways like a cedar in the wind;\nhis huge legs are like beech trees.\nHis skeleton is made of steel,\nevery bone in his body hard as steel.\nMost magnificent of all my creatures,\nbut I still lead him around like a lamb!\nThe grass-covered hills serve him meals,\nwhile field mice frolic in his shadow.\nHe takes afternoon naps under shade trees,\ncools himself in the reedy swamps,\nLazily cool in the leafy shadows\nas the breeze moves through the willows.\nAnd when the river rages he doesn’t budge,\nstolid and unperturbed even when the Jordan goes wild.\nBut you’d never want him for a pet—\nyou’d never be able to housebreak him!”",
+        "es": "«Mira a la bestia terrestre, Behemot. Yo lo creé igual que a ti.\nCome hierba, dócil como una vaca.\nMira la fuerza de su lomo,\nlos poderosos músculos de su vientre.\nSu cola se balancea como un cedro al viento;\nsus enormes patas parecen hayas.\nSu esqueleto es de acero,\ncada hueso de su cuerpo duro como acero.\nLa más magnífica de todas Mis criaturas,\n¡y aun así Yo lo conduzco como a un cordero!\nLas colinas cubiertas de hierba le sirven alimento,\nmientras los ratones del campo juegan a su sombra.\nDuerme por la tarde bajo árboles de sombra,\nse refresca en pantanos llenos de juncos,\ndescansando tranquilamente bajo sombras frondosas\nmientras la brisa mueve los sauces.\nY cuando el río ruge, no se mueve,\npermanece firme y tranquilo aun cuando el Jordán se desborda.\nPero jamás querrías tenerlo como mascota:\n¡nunca lograrías domesticarlo dentro de casa!»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job40-nbla-24"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job40-nbla-01",
+      "number": 1,
+      "text": "Entonces continuó el SEÑOR y dijo a Job:"
+    },
+    {
+      "id": "job40-nbla-02",
+      "number": 2,
+      "text": "«¿Podrá el que censura discutir con el Todopoderoso?\nEl que reprende a Dios, responda a esto»."
+    },
+    {
+      "id": "job40-nbla-03",
+      "number": 3,
+      "text": "Entonces Job respondió al SEÑOR:"
+    },
+    {
+      "id": "job40-nbla-04",
+      "number": 4,
+      "text": "«Yo soy insignificante; ¿qué puedo yo responderte?\nMi mano pongo sobre la boca."
+    },
+    {
+      "id": "job40-nbla-05",
+      "number": 5,
+      "text": "Una vez he hablado, y no responderé;\nAun dos veces, y no añadiré más»."
+    },
+    {
+      "id": "job40-nbla-06",
+      "number": 6,
+      "text": "Entonces el SEÑOR respondió a Job desde la tormenta:"
+    },
+    {
+      "id": "job40-nbla-07",
+      "number": 7,
+      "text": "«Ciñe ahora tus lomos como un hombre;\nYo te preguntaré, y tú me instruirás."
+    },
+    {
+      "id": "job40-nbla-08",
+      "number": 8,
+      "text": "¿Anularás realmente Mi juicio?\n¿Me condenarás para justificarte tú?"
+    },
+    {
+      "id": "job40-nbla-09",
+      "number": 9,
+      "text": "¿Acaso tienes tú un brazo como el de Dios,\nY truenas con una voz como la suya?"
+    },
+    {
+      "id": "job40-nbla-10",
+      "number": 10,
+      "text": "»Adórnate ahora de majestad y dignidad,\nY vístete de gloria y de esplendor."
+    },
+    {
+      "id": "job40-nbla-11",
+      "number": 11,
+      "text": "Derrama los torrentes de tu ira,\nMira a todo soberbio y abátelo,"
+    },
+    {
+      "id": "job40-nbla-12",
+      "number": 12,
+      "text": "Mira a todo soberbio y humíllalo,\nY pisotea a los impíos donde están."
+    },
+    {
+      "id": "job40-nbla-13",
+      "number": 13,
+      "text": "Escóndelos juntos en el polvo;\nátalos en el lugar oculto."
+    },
+    {
+      "id": "job40-nbla-14",
+      "number": 14,
+      "text": "Entonces Yo también te confesaré\nQue tu mano derecha te puede salvar."
+    },
+    {
+      "id": "job40-nbla-15",
+      "number": 15,
+      "text": "»Mira a Behemot, al cual hice como a ti,\nQue come hierba como el buey."
+    },
+    {
+      "id": "job40-nbla-16",
+      "number": 16,
+      "text": "Su fuerza está en sus lomos,\nY su vigor en los músculos de su vientre."
+    },
+    {
+      "id": "job40-nbla-17",
+      "number": 17,
+      "text": "Mueve su cola como un cedro;\nEntretejidos están los tendones de sus muslos."
+    },
+    {
+      "id": "job40-nbla-18",
+      "number": 18,
+      "text": "Sus huesos son tubos de bronce;\nSus miembros como barras de hierro."
+    },
+    {
+      "id": "job40-nbla-19",
+      "number": 19,
+      "text": "»Es la primera de las obras de Dios;\nQue solo su hacedor le acerque su espada."
+    },
+    {
+      "id": "job40-nbla-20",
+      "number": 20,
+      "text": "Ciertamente alimento le traen los montes,\nY todas las bestias del campo retozan allí."
+    },
+    {
+      "id": "job40-nbla-21",
+      "number": 21,
+      "text": "Bajo los lotos se echa,\nEn lo oculto de las cañas y del pantano."
+    },
+    {
+      "id": "job40-nbla-22",
+      "number": 22,
+      "text": "Lo cubren los lotos con su sombra;\nLos sauces del arroyo lo rodean."
+    },
+    {
+      "id": "job40-nbla-23",
+      "number": 23,
+      "text": "Si el río ruge, él no se alarma;\nTranquilo está, aunque el Jordán se lance hacia su boca."
+    },
+    {
+      "id": "job40-nbla-24",
+      "number": 24,
+      "text": "¿Lo capturará alguien cuando está vigilando?\n¿Perforará alguien su nariz con garfios?"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

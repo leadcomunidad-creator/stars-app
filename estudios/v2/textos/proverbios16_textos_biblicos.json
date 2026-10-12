@@ -1,0 +1,904 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios no evalúa como nosotros. NBLA afirma que Él sondea los espíritus; MSG comunica esa búsqueda penetrante preguntando por lo que realmente es bueno. El texto corrige la tendencia a declarar puro nuestro propio camino sin permitir que Dios examine motivaciones.",
+      "id": "proverbios16-joya-01",
+      "msg": {
+        "en": "\"GOD probes for what is good.\"",
+        "es": "\"DIOS examina lo que realmente es bueno.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-02b"
+          ],
+          "verseId": "proverbios16-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "La sabiduría coloca el trabajo bajo la autoridad de Dios. NBLA habla de encomendar las obras al SEÑOR; MSG lo vuelve concreto como ponerlo a cargo. Esto no significa que Dios ejecutará cualquier plan que le presentemos, sino que nuestros propósitos deben quedar sometidos a Su gobierno.",
+      "id": "proverbios16-joya-02",
+      "msg": {
+        "en": "\"Put GOD in charge of your work,\"",
+        "es": "\"Pon a DIOS a cargo de tu trabajo,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-03a"
+          ],
+          "verseId": "proverbios16-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "Planear es parte de la responsabilidad humana. NBLA afirma que la mente planea y que el SEÑOR dirige los pasos; MSG conserva esa tensión. La fe madura no abandona planificación, pero tampoco confunde planificación con control.",
+      "id": "proverbios16-joya-03",
+      "msg": {
+        "en": "\"We plan the way we want to live,\"",
+        "es": "\"Planeamos la manera en que queremos vivir,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-09a"
+          ],
+          "verseId": "proverbios16-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9"
+    },
+    {
+      "explanation": "La sabiduría tiene un valor que no puede reducirse a utilidad económica. NBLA la coloca por encima del oro y la plata; MSG lo expresa en el lenguaje cotidiano del dinero e ingreso. El texto no condena recursos materiales: redefine qué riqueza debe gobernar nuestras prioridades.",
+      "id": "proverbios16-joya-04",
+      "msg": {
+        "en": "\"Get wisdom—it’s worth more than money;\"",
+        "es": "\"Obtén sabiduría: vale más que el dinero;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-16a"
+          ],
+          "verseId": "proverbios16-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16"
+    },
+    {
+      "explanation": "El orgullo prepara condiciones para la caída. NBLA establece la secuencia entre orgullo y destrucción; MSG la vuelve abrupta y memorable. No toda dificultad demuestra orgullo previo, pero el proverbio sí advierte que una autoexaltación sin corrección hace a la persona vulnerable a una caída profunda.",
+      "id": "proverbios16-joya-05",
+      "msg": {
+        "en": "\"First pride, then the crash—\"",
+        "es": "\"Primero el orgullo, luego el desastre;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-18a"
+          ],
+          "verseId": "proverbios16-nbla-18"
+        }
+      ],
+      "order": 5,
+      "range": "18"
+    },
+    {
+      "explanation": "El poder más difícil de ejercer es sobre uno mismo. NBLA define la comparación en términos de lentitud para la ira y dominio del espíritu; MSG la traduce a moderación frente a fuerza física y poder. La doctrina debe quedar anclada en NBLA: el dominio propio vale más que la conquista externa.",
+      "id": "proverbios16-joya-06",
+      "msg": {
+        "en": "\"Moderation is better than muscle,\"",
+        "es": "\"La moderación es mejor que los músculos;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-32a"
+          ],
+          "verseId": "proverbios16-nbla-32"
+        }
+      ],
+      "order": 6,
+      "range": "32"
+    },
+    {
+      "explanation": "La última palabra pertenece a Dios. NBLA sitúa aun la suerte bajo Su decisión; MSG lo expresa en lenguaje político de mociones y votos. Esa imagen contemporánea no debe convertirse en enseñanza sobre procesos electorales: el principio es la soberanía de Dios sobre resultados que el ser humano no controla plenamente.",
+      "id": "proverbios16-joya-07",
+      "msg": {
+        "en": "\"but GOD has the final say.\"",
+        "es": "\"pero DIOS tiene la decisión final.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios16-nbla-33b"
+          ],
+          "verseId": "proverbios16-nbla-33"
+        }
+      ],
+      "order": 7,
+      "range": "33"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 16,
+    "studyId": "proverbios-16"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios16-msg-01",
+      "msg": {
+        "en": "Mortals make elaborate plans,\nbut GOD has the last word.",
+        "es": "Los mortales hacen planes elaborados, pero DIOS tiene la última palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios16-msg-02",
+      "msg": {
+        "en": "Humans are satisfied with whatever looks good;\nGOD probes for what is good.",
+        "es": "Los seres humanos quedan satisfechos con lo que parece bueno; DIOS examina lo que realmente es bueno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios16-msg-03",
+      "msg": {
+        "en": "Put GOD in charge of your work,\nthen what you’ve planned will take place.",
+        "es": "Pon a DIOS a cargo de tu trabajo, y entonces lo que has planeado se realizará."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios16-msg-04",
+      "msg": {
+        "en": "GOD made everything with a place and purpose;\neven the wicked are included—but for judgment.",
+        "es": "DIOS hizo todo con un lugar y un propósito; incluso los malvados están incluidos, pero para juicio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios16-msg-05",
+      "msg": {
+        "en": "GOD can’t stomach arrogance or pretense;\nbelieve me, he’ll put those upstarts in their place.",
+        "es": "DIOS no soporta la arrogancia ni la pretensión; créeme, pondrá a esos engreídos en su lugar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios16-msg-06",
+      "msg": {
+        "en": "Guilt is banished through love and truth;\nFear-of-GOD deflects evil.",
+        "es": "La culpa es desterrada mediante el amor y la verdad; el temor de DIOS desvía del mal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios16-msg-07",
+      "msg": {
+        "en": "When GOD approves of your life,\neven your enemies will end up shaking your hand.",
+        "es": "Cuando DIOS aprueba tu vida, hasta tus enemigos terminarán estrechándote la mano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios16-msg-08",
+      "msg": {
+        "en": "Far better to be right and poor\nthan to be wrong and rich.",
+        "es": "Mucho mejor ser justo y pobre que injusto y rico."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios16-msg-09",
+      "msg": {
+        "en": "We plan the way we want to live,\nbut only GOD makes us able to live it.",
+        "es": "Planeamos la manera en que queremos vivir, pero solo DIOS nos hace capaces de vivirla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios16-msg-10",
+      "msg": {
+        "en": "A good leader motivates,\ndoesn’t mislead, doesn’t exploit.",
+        "es": "Un buen líder motiva; no engaña ni explota."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios16-msg-11",
+      "msg": {
+        "en": "GOD cares about honesty in the workplace;\nyour business is his business.",
+        "es": "A DIOS le importa la honestidad en el trabajo; tus negocios también son asunto Suyo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios16-msg-12",
+      "msg": {
+        "en": "Good leaders abhor wrongdoing of all kinds;\nsound leadership has a moral foundation.",
+        "es": "Los buenos líderes aborrecen toda clase de maldad; un liderazgo sólido tiene fundamento moral."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios16-msg-13",
+      "msg": {
+        "en": "Good leaders cultivate honest speech;\nthey love advisors who tell them the truth.",
+        "es": "Los buenos líderes cultivan palabras honestas; aman a los consejeros que les dicen la verdad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios16-msg-14",
+      "msg": {
+        "en": "An intemperate leader wreaks havoc in lives;\nyou’re smart to stay clear of someone like that.",
+        "es": "Un líder sin dominio propio causa estragos en muchas vidas; haces bien en mantenerte lejos de alguien así."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios16-msg-15",
+      "msg": {
+        "en": "Good-tempered leaders invigorate lives;\nthey’re like spring rain and sunshine.",
+        "es": "Los líderes de buen temperamento reaniman vidas; son como lluvia de primavera y sol."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios16-msg-16",
+      "msg": {
+        "en": "Get wisdom—it’s worth more than money;\nchoose insight over income every time.",
+        "es": "Obtén sabiduría: vale más que el dinero; elige entendimiento por encima de los ingresos cada vez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios16-msg-17",
+      "msg": {
+        "en": "The road of right living bypasses evil;\nwatch your step and save your life.",
+        "es": "El camino de una vida recta evita el mal; cuida tus pasos y salva tu vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios16-msg-18",
+      "msg": {
+        "en": "First pride, then the crash—\nthe bigger the ego, the harder the fall.",
+        "es": "Primero el orgullo, luego el desastre; cuanto más grande el ego, más dura la caída."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios16-msg-19",
+      "msg": {
+        "en": "It’s better to live humbly among the poor\nthan to live it up among the rich and famous.",
+        "es": "Es mejor vivir humildemente entre los pobres que darse la gran vida entre ricos y famosos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios16-msg-20",
+      "msg": {
+        "en": "It pays to take life seriously;\nthings work out when you trust in GOD.",
+        "es": "Vale la pena tomarse la vida en serio; las cosas salen bien cuando confías en DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios16-msg-21",
+      "msg": {
+        "en": "A wise person gets known for insight;\ngracious words add to one’s reputation.",
+        "es": "A una persona sabia se la reconoce por su discernimiento; las palabras llenas de gracia aumentan su buena reputación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios16-msg-22",
+      "msg": {
+        "en": "True intelligence is a spring of fresh water,\nwhile fools sweat it out the hard way.",
+        "es": "La verdadera inteligencia es un manantial de agua fresca, mientras los necios se las ven a duras penas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios16-msg-23",
+      "msg": {
+        "en": "They make a lot of sense, these wise folks;\nwhenever they speak, their reputation increases.",
+        "es": "Esta gente sabia tiene mucho sentido; cada vez que habla, aumenta su buena reputación."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios16-msg-24",
+      "msg": {
+        "en": "Gracious speech is like clover honey—\ngood taste to the soul, quick energy for the body.",
+        "es": "Las palabras llenas de gracia son como miel de trébol: buen sabor para el alma y energía inmediata para el cuerpo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios16-msg-25",
+      "msg": {
+        "en": "There’s a way that looks harmless enough;\nlook again—it leads straight to hell.",
+        "es": "Hay un camino que parece bastante inofensivo; míralo otra vez: conduce directo al infierno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios16-msg-26",
+      "msg": {
+        "en": "Appetite is an incentive to work;\nhunger makes you work all the harder.",
+        "es": "El apetito incentiva a trabajar; el hambre te hace trabajar todavía más."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios16-msg-27",
+      "msg": {
+        "en": "Mean people spread mean gossip;\ntheir words smart and burn.",
+        "es": "La gente mezquina difunde chismes mezquinos; sus palabras arden y lastiman."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios16-msg-28",
+      "msg": {
+        "en": "Troublemakers start fights;\ngossips break up friendships.",
+        "es": "Los alborotadores comienzan peleas; los chismosos rompen amistades."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios16-msg-29",
+      "msg": {
+        "en": "Calloused climbers betray their very own friends;\nthey’d stab their own grandmothers in the back.",
+        "es": "Los ambiciosos sin escrúpulos traicionan incluso a sus propios amigos; apuñalarían por la espalda hasta a sus propias abuelas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-29"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios16-msg-30",
+      "msg": {
+        "en": "A shifty eye betrays an evil intention;\na clenched jaw signals trouble ahead.",
+        "es": "Una mirada furtiva delata una mala intención; una mandíbula apretada anuncia problemas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-30"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios16-msg-31",
+      "msg": {
+        "en": "Gray hair is a mark of distinction,\nthe award for a God-loyal life.",
+        "es": "Las canas son una señal de distinción, el premio de una vida leal a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-31"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "editorialRange": "32",
+      "id": "proverbios16-msg-32",
+      "msg": {
+        "en": "Moderation is better than muscle,\nself-control better than political power.",
+        "es": "La moderación es mejor que los músculos; el dominio propio, mejor que el poder político."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-32"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "editorialRange": "33",
+      "id": "proverbios16-msg-33",
+      "msg": {
+        "en": "Make your motions and cast your votes,\nbut GOD has the final say.",
+        "es": "Haz tus propuestas y emite tus votos, pero DIOS tiene la decisión final."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios16-nbla-33"
+        }
+      ],
+      "order": 33
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios16-nbla-01",
+      "number": 1,
+      "text": "Los propósitos del corazón son del hombre,\nPero la respuesta de la lengua es del SEÑOR."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-02a",
+          "order": 1,
+          "text": "Todos los caminos del hombre son limpios ante sus propios ojos,"
+        },
+        {
+          "id": "proverbios16-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el SEÑOR sondea los espíritus."
+        }
+      ],
+      "id": "proverbios16-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-03a",
+          "order": 1,
+          "text": "Encomienda tus obras al SEÑOR,"
+        },
+        {
+          "id": "proverbios16-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y tus propósitos se afianzarán."
+        }
+      ],
+      "id": "proverbios16-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios16-nbla-04",
+      "number": 4,
+      "text": "Todas las cosas hechas por el SEÑOR tienen su propio fin,\nHasta el impío, para el día del mal."
+    },
+    {
+      "id": "proverbios16-nbla-05",
+      "number": 5,
+      "text": "Abominación al SEÑOR es todo el que es altivo de corazón;\nCiertamente no quedará sin castigo."
+    },
+    {
+      "id": "proverbios16-nbla-06",
+      "number": 6,
+      "text": "Con misericordia y verdad se expía la culpa,\nY con el temor del SEÑOR el hombre se aparta del mal."
+    },
+    {
+      "id": "proverbios16-nbla-07",
+      "number": 7,
+      "text": "Cuando los caminos del hombre son agradables al SEÑOR,\nAun a sus enemigos hace que estén en paz con él."
+    },
+    {
+      "id": "proverbios16-nbla-08",
+      "number": 8,
+      "text": "Mejor es poco con justicia,\nQue gran ganancia con injusticia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-09a",
+          "order": 1,
+          "text": "La mente del hombre planea su camino,"
+        },
+        {
+          "id": "proverbios16-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el SEÑOR dirige sus pasos."
+        }
+      ],
+      "id": "proverbios16-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "proverbios16-nbla-10",
+      "number": 10,
+      "text": "Decisión divina hay en los labios del rey;\nEn el juicio no debe errar su boca."
+    },
+    {
+      "id": "proverbios16-nbla-11",
+      "number": 11,
+      "text": "El peso y las balanzas justas son del SEÑOR;\nTodas las pesas de la bolsa son obra Suya."
+    },
+    {
+      "id": "proverbios16-nbla-12",
+      "number": 12,
+      "text": "Es abominación para los reyes cometer iniquidad,\nPorque el trono se afianza en la justicia."
+    },
+    {
+      "id": "proverbios16-nbla-13",
+      "number": 13,
+      "text": "El agrado de los reyes son los labios justos,\nY amado será el que hable lo recto."
+    },
+    {
+      "id": "proverbios16-nbla-14",
+      "number": 14,
+      "text": "El furor del rey es como mensajero de muerte,\nPero el hombre sabio lo aplacará."
+    },
+    {
+      "id": "proverbios16-nbla-15",
+      "number": 15,
+      "text": "En el resplandor del rostro del rey hay vida,\nY su favor es como nube de lluvia tardía."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-16a",
+          "order": 1,
+          "text": "Adquirir sabiduría, cuánto mejor que el oro,"
+        },
+        {
+          "id": "proverbios16-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y adquirir inteligencia es preferible a la plata."
+        }
+      ],
+      "id": "proverbios16-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "proverbios16-nbla-17",
+      "number": 17,
+      "text": "La senda de los rectos es apartarse del mal;\nEl que guarda su camino preserva su alma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-18a",
+          "order": 1,
+          "text": "Delante de la destrucción va el orgullo,"
+        },
+        {
+          "id": "proverbios16-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y delante de la caída, la arrogancia de espíritu."
+        }
+      ],
+      "id": "proverbios16-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "proverbios16-nbla-19",
+      "number": 19,
+      "text": "Mejor es ser de espíritu humilde con los pobres\nQue dividir el botín con los soberbios."
+    },
+    {
+      "id": "proverbios16-nbla-20",
+      "number": 20,
+      "text": "El que pone atención a la palabra hallará el bien,\nY el que confía en el SEÑOR es bienaventurado."
+    },
+    {
+      "id": "proverbios16-nbla-21",
+      "number": 21,
+      "text": "El sabio de corazón será llamado prudente,\nY la dulzura de palabras aumenta la persuasión."
+    },
+    {
+      "id": "proverbios16-nbla-22",
+      "number": 22,
+      "text": "El entendimiento es fuente de vida para el que lo posee,\nPero la instrucción de los necios es necedad."
+    },
+    {
+      "id": "proverbios16-nbla-23",
+      "number": 23,
+      "text": "El corazón del sabio enseña a su boca\nY añade persuasión a sus labios."
+    },
+    {
+      "id": "proverbios16-nbla-24",
+      "number": 24,
+      "text": "Panal de miel son las palabras agradables,\nDulces al alma y salud para los huesos."
+    },
+    {
+      "id": "proverbios16-nbla-25",
+      "number": 25,
+      "text": "Hay camino que al hombre le parece derecho,\nPero al final es camino de muerte."
+    },
+    {
+      "id": "proverbios16-nbla-26",
+      "number": 26,
+      "text": "El apetito del trabajador para él trabaja,\nPorque su boca lo impulsa."
+    },
+    {
+      "id": "proverbios16-nbla-27",
+      "number": 27,
+      "text": "El hombre indigno planea el mal,\nY sus palabras son como fuego abrasador."
+    },
+    {
+      "id": "proverbios16-nbla-28",
+      "number": 28,
+      "text": "El hombre perverso provoca pleitos,\nY el chismoso separa a los mejores amigos."
+    },
+    {
+      "id": "proverbios16-nbla-29",
+      "number": 29,
+      "text": "El hombre violento provoca a su prójimo\nY lo guía por camino que no es bueno."
+    },
+    {
+      "id": "proverbios16-nbla-30",
+      "number": 30,
+      "text": "El que guiña los ojos lo hace para tramar perversidades;\nEl que aprieta los labios ya hizo el mal."
+    },
+    {
+      "id": "proverbios16-nbla-31",
+      "number": 31,
+      "text": "La cabeza canosa es corona de gloria,\nY se encuentra en el camino de la justicia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-32a",
+          "order": 1,
+          "text": "Mejor es el lento para la ira que el poderoso,"
+        },
+        {
+          "id": "proverbios16-nbla-32b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el que domina su espíritu que el que toma una ciudad."
+        }
+      ],
+      "id": "proverbios16-nbla-32",
+      "number": 32
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios16-nbla-33a",
+          "order": 1,
+          "text": "La suerte se echa en el regazo,"
+        },
+        {
+          "id": "proverbios16-nbla-33b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero del SEÑOR viene toda decisión."
+        }
+      ],
+      "id": "proverbios16-nbla-33",
+      "number": 33
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

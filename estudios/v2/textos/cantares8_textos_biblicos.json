@@ -1,0 +1,415 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El estribillo aparece por última vez antes del clímax sobre la fuerza del amor. NBLA fija la advertencia; MSG la vuelve directa y conversacional. El libro no opone pasión y prudencia: la intensidad necesita un tiempo que no puede ser forzado.",
+      "id": "cantares8-joya-01",
+      "msg": {
+        "en": "\"Don’t excite love, don’t stir it up,\"",
+        "es": "\"no exciten el amor, no lo despierten,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares8-nbla-04b"
+          ],
+          "verseId": "cantares8-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "NBLA ofrece la comparación precisa: el amor es fuerte como la muerte. MSG la expande como invencibilidad frente al peligro y la muerte. La conclusión teológica debe permanecer dentro del ancla NBLA; el poema magnifica la fuerza del amor, no promete que toda relación humana vencerá cualquier circunstancia.",
+      "id": "cantares8-joya-02",
+      "msg": {
+        "en": "\"Love is invincible facing danger and death.\"",
+        "es": "\"El amor es invencible frente al peligro y la muerte.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares8-nbla-06b"
+          ],
+          "verseId": "cantares8-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-8"
+    },
+    {
+      "explanation": "Ambas versiones presentan una fuerza que las aguas no consiguen apagar. La imagen habla de resistencia del amor, no de permiso para permanecer en situaciones destructivas. Persistencia y abuso no deben confundirse.",
+      "id": "cantares8-joya-03",
+      "msg": {
+        "en": "\"Flood waters can’t drown love,\"",
+        "es": "\"Las aguas desbordadas no pueden ahogar el amor,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares8-nbla-07a"
+          ],
+          "verseId": "cantares8-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "6-8"
+    },
+    {
+      "explanation": "El amor queda fuera de la lógica de mercado. NBLA lo expresa mediante el fracaso de ofrecer todos los bienes de una casa; MSG lo condensa en una línea memorable. La persona amada nunca debe convertirse en premio, deuda o propiedad adquirida.",
+      "id": "cantares8-joya-04",
+      "msg": {
+        "en": "\"Love can’t be bought, love can’t be sold—\"",
+        "es": "\"El amor no se puede comprar, el amor no se puede vender:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares8-nbla-07c"
+          ],
+          "verseId": "cantares8-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "6-8"
+    },
+    {
+      "explanation": "Las dos versiones preservan una afirmación fuerte de responsabilidad sobre «mi viña». La imagen admite más de una lectura en el poema, por lo que no conviene convertirla en una teoría completa sobre sexualidad o economía. Sí puede observarse que la voz hablante no queda borrada frente a Salomón ni frente a quienes administran otras viñas.",
+      "id": "cantares8-joya-05",
+      "msg": {
+        "en": "\"But my vineyard is all mine,\"",
+        "es": "\"Pero mi viña es completamente mía,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares8-nbla-12a"
+          ],
+          "verseId": "cantares8-nbla-12"
+        }
+      ],
+      "order": 5,
+      "range": "11-12"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 8,
+    "studyId": "cantares-8"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "cantares8-msg-01",
+      "msg": {
+        "en": "I wish you’d been my twin brother,\nsharing with me the breasts of my mother,\nPlaying outside in the street,\nkissing in plain view of everyone,\nand no one thinking anything of it.\nI’d take you by the hand and bring you home\nwhere I was raised by my mother.\nYou’d drink my wine\nand kiss my cheeks.",
+        "es": "Ojalá hubieras sido mi hermano gemelo,\namamantado en los mismos pechos de mi madre,\njugando afuera en la calle,\nbesándonos a la vista de todos,\ny nadie pensaría nada malo.\nTe tomaría de la mano y te llevaría a casa,\ndonde mi madre me crió.\nBeberías mi vino\ny besarías mis mejillas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "cantares8-msg-02",
+      "msg": {
+        "en": "Imagine! His left hand cradling my head,\nhis right arm around my waist!\nOh, let me warn you, sisters in Jerusalem:\nDon’t excite love, don’t stir it up,\nuntil the time is ripe—and you’re ready.",
+        "es": "¡Imagínalo! Su mano izquierda sosteniendo mi cabeza,\nsu brazo derecho rodeando mi cintura.\nOh, déjenme advertirles, hermanas de Jerusalén:\nno exciten el amor, no lo despierten,\nhasta que el tiempo esté maduro y ustedes estén listas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "cantares8-msg-03",
+      "msg": {
+        "en": "Who is this I see coming up from the country,\narm in arm with her lover?\nI found you under the apricot tree,\nand woke you up to love.\nYour mother went into labor under that tree,\nand under that very tree she bore you.",
+        "es": "¿Quién es esta que veo venir del campo,\nbrazo a brazo con su amado?\n\nTe encontré bajo el albaricoquero\ny te desperté al amor.\nTu madre entró en trabajo de parto bajo ese árbol,\ny bajo ese mismo árbol te dio a luz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "cantares8-msg-04",
+      "msg": {
+        "en": "Hang my locket around your neck,\nwear my ring on your finger.\nLove is invincible facing danger and death.\nPassion laughs at the terrors of hell.\nThe fire of love stops at nothing—\nit sweeps everything before it.\nFlood waters can’t drown love,\ntorrents of rain can’t put it out.\nLove can’t be bought, love can’t be sold—\nit’s not to be found in the marketplace.\nMy brothers used to worry about me:",
+        "es": "Lleva mi medallón colgado de tu cuello,\nlleva mi anillo en tu dedo.\nEl amor es invencible frente al peligro y la muerte.\nLa pasión se ríe de los terrores del infierno.\nEl fuego del amor no se detiene ante nada:\narrastra todo a su paso.\nLas aguas desbordadas no pueden ahogar el amor,\nlos torrentes de lluvia no pueden apagarlo.\nEl amor no se puede comprar, el amor no se puede vender:\nno se encuentra en el mercado.\nMis hermanos solían preocuparse por mí:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "cantares8-msg-05",
+      "msg": {
+        "en": "“Our little sister has no breasts.\nWhat shall we do with our little sister\nwhen men come asking for her?\nShe’s a virgin and vulnerable,\nand we’ll protect her.\nIf they think she’s a wall, we’ll top it with barbed wire.\nIf they think she’s a door, we’ll barricade it.”",
+        "es": "«Nuestra hermanita todavía no tiene pechos.\n¿Qué haremos con nuestra hermanita\ncuando vengan hombres a pedirla?\nEs virgen y vulnerable,\ny nosotros la protegeremos.\nSi piensan que es una muralla, la coronaremos con alambre de púas.\nSi piensan que es una puerta, la atrancaremos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "cantares8-msg-06",
+      "msg": {
+        "en": "Dear brothers, I’m a walled-in virgin still,\nbut my breasts are full—\nAnd when my lover sees me,\nhe knows he’ll soon be satisfied.",
+        "es": "Queridos hermanos, sigo siendo una virgen amurallada,\npero mis pechos están llenos;\ny cuando mi amado me ve,\nsabe que pronto encontrará satisfacción."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "cantares8-msg-07",
+      "msg": {
+        "en": "King Solomon may have vast vineyards\nin lush, fertile country,\nWhere he hires others to work the ground.\nPeople pay anything to get in on that bounty.\nBut my vineyard is all mine,\nand I’m keeping it to myself.\nYou can have your vast vineyards, Solomon,\nyou and your greedy guests!",
+        "es": "El rey Salomón puede tener vastos viñedos\nen una tierra exuberante y fértil,\ndonde contrata a otros para trabajar la tierra.\nLa gente paga cualquier precio por participar de esa abundancia.\nPero mi viña es completamente mía,\ny la conservaré para mí.\nPuedes quedarte con tus vastos viñedos, Salomón,\n¡tú y tus invitados codiciosos!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "cantares8-msg-08",
+      "msg": {
+        "en": "Oh, lady of the gardens,\nmy friends are with me listening.\nLet me hear your voice!",
+        "es": "Oh, señora de los jardines,\nmis amigos están conmigo, escuchando.\n¡Déjame oír tu voz!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14",
+      "id": "cantares8-msg-09",
+      "msg": {
+        "en": "Run to me, dear lover.\nCome like a gazelle.\nLeap like a wild stag\non the spice mountains.",
+        "es": "Corre hacia mí, querido amado.\nVen como una gacela.\nSalta como un ciervo salvaje\nsobre los montes de especias."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares8-nbla-14"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares8-nbla-01",
+      "number": 1,
+      "text": "¡Ah, si tú fueras como mi hermano,\nAmamantado a los pechos de mi madre!\nSi te encontrara afuera, te besaría,\nY no me despreciarían."
+    },
+    {
+      "id": "cantares8-nbla-02",
+      "number": 2,
+      "text": "Te llevaría y te introduciría\nEn la casa de mi madre, que me enseñaba;\nTe daría a beber vino sazonado del zumo de mis granadas."
+    },
+    {
+      "id": "cantares8-nbla-03",
+      "number": 3,
+      "text": "Que esté su izquierda bajo mi cabeza\nY su derecha me abrace»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares8-nbla-04a",
+          "order": 1,
+          "text": "«Quiero que juren, oh hijas de Jerusalén;"
+        },
+        {
+          "id": "cantares8-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que no despertarán ni levantarán a mi amor,"
+        },
+        {
+          "id": "cantares8-nbla-04c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta que quiera»."
+        }
+      ],
+      "id": "cantares8-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "cantares8-nbla-05",
+      "number": 5,
+      "text": "«¿Quién es esta que sube del desierto,\nRecostada sobre su amado?».\n«Debajo del manzano te desperté;\nAllí tu madre tuvo dolores de parto por ti,\nAllí tuvo dolores de parto, y te dio a luz»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares8-nbla-06a",
+          "order": 1,
+          "text": "«Ponme como un sello sobre tu corazón,\nComo un sello sobre tu brazo,"
+        },
+        {
+          "id": "cantares8-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque fuerte como la muerte es el amor,"
+        },
+        {
+          "id": "cantares8-nbla-06c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Inexorables como el Seol, los celos;\nSus destellos, son destellos de fuego,\nLa llama misma del SEÑOR."
+        }
+      ],
+      "id": "cantares8-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares8-nbla-07a",
+          "order": 1,
+          "text": "Las muchas aguas no podrán extinguir el amor,"
+        },
+        {
+          "id": "cantares8-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ni los ríos lo apagarán."
+        },
+        {
+          "id": "cantares8-nbla-07c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Si el hombre diera todos los bienes de su casa por amor,\nSolo lograría desprecio»."
+        }
+      ],
+      "id": "cantares8-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "cantares8-nbla-08",
+      "number": 8,
+      "text": "«Tenemos una hermana pequeña,\nY todavía no tiene pechos;\n¿Qué haremos por nuestra hermana\nEl día en que sea pedida?"
+    },
+    {
+      "id": "cantares8-nbla-09",
+      "number": 9,
+      "text": "Si ella es una muralla,\nEdificaremos sobre ella un baluarte de plata;\nPero si es una puerta,\nLa reforzaremos con tablas de cedro»."
+    },
+    {
+      "id": "cantares8-nbla-10",
+      "number": 10,
+      "text": "«Yo soy una muralla, y mis pechos como torres,\nEntonces fui a sus ojos como quien halla la paz."
+    },
+    {
+      "id": "cantares8-nbla-11",
+      "number": 11,
+      "text": "Salomón tenía una viña en Baal Hamón,\nConfió la viña a los guardas;\nCada uno debía traer por su fruto mil siclos (11.4 kilos) de plata."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares8-nbla-12a",
+          "order": 1,
+          "text": "Mi viña, que es mía, está a mi disposición;"
+        },
+        {
+          "id": "cantares8-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Los mil siclos son para ti, Salomón,\nY doscientos, para los que guardan su fruto»."
+        }
+      ],
+      "id": "cantares8-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "cantares8-nbla-13",
+      "number": 13,
+      "text": "«Oh tú, que moras en los huertos,\nMis compañeros están atentos a tu voz;\nDéjame que la oiga»."
+    },
+    {
+      "id": "cantares8-nbla-14",
+      "number": 14,
+      "text": "«Apresúrate, amado mío,\nY sé como una gacela o un cervatillo\nSobre los montes de los aromas»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,903 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría exige discernir destino, no solo apariencia. NBLA fija el principio: un camino puede parecer derecho y terminar en muerte; MSG vuelve visible el peligro de aquello que parece inofensivo. El texto no enseña a desconfiar de toda intuición, sino a someter nuestro criterio a Dios y a las consecuencias reales del camino elegido.",
+      "id": "proverbios14-joya-01",
+      "msg": {
+        "en": "\"There’s a way of life that looks harmless enough;\"",
+        "es": "\"Hay una manera de vivir que parece bastante inofensiva;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-12a"
+          ],
+          "verseId": "proverbios14-nbla-12"
+        }
+      ],
+      "order": 1,
+      "range": "12"
+    },
+    {
+      "explanation": "La credulidad no es una virtud espiritual. NBLA identifica al simple que cree todo; MSG resalta el acto de aceptar sin examinar lo que otros dicen. La fe bíblica no elimina el discernimiento: aprende a escuchar, comprobar, pesar y caminar con prudencia.",
+      "id": "proverbios14-joya-02",
+      "msg": {
+        "en": "\"The gullible believe anything they’re told;\"",
+        "es": "\"El crédulo cree todo lo que le dicen;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-15a"
+          ],
+          "verseId": "proverbios14-nbla-15"
+        }
+      ],
+      "order": 2,
+      "range": "15"
+    },
+    {
+      "explanation": "El temor del SEÑOR produce una seguridad que no depende de controlar todas las circunstancias. NBLA habla de confianza segura; MSG lo comunica como una confianza que se fortalece. El punto no es que nunca habrá peligro, sino que reverenciar a Dios da un centro estable desde el cual enfrentarlo.",
+      "id": "proverbios14-joya-03",
+      "msg": {
+        "en": "\"The Fear-of-GOD builds up confidence,\"",
+        "es": "\"El temor de DIOS fortalece la confianza\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-26a"
+          ],
+          "verseId": "proverbios14-nbla-26"
+        }
+      ],
+      "order": 3,
+      "range": "26"
+    },
+    {
+      "explanation": "Dios mismo orienta al sabio lejos de fuentes destructivas. NBLA llama al temor del SEÑOR fuente de vida; MSG intensifica la imagen como agua viva frente a pozos envenenados. La doctrina no está en la metáfora añadida del pozo, sino en la verdad textual de que reverenciar a Dios conduce lejos de los lazos de muerte.",
+      "id": "proverbios14-joya-04",
+      "msg": {
+        "en": "\"The Fear-of-GOD is a spring of living water\"",
+        "es": "\"El temor de DIOS es un manantial de agua viva\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-27a"
+          ],
+          "verseId": "proverbios14-nbla-27"
+        }
+      ],
+      "order": 4,
+      "range": "27"
+    },
+    {
+      "explanation": "El dominio de la ira es una expresión de sabiduría. NBLA relaciona lentitud para la ira con prudencia; MSG muestra cómo esa paciencia abre espacio para comprender. No se trata de negar emociones legítimas, sino de impedir que la reacción inmediata gobierne el juicio.",
+      "id": "proverbios14-joya-05",
+      "msg": {
+        "en": "\"Slowness to anger makes for deep understanding;\"",
+        "es": "\"Ser lento para la ira produce comprensión profunda;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-29a"
+          ],
+          "verseId": "proverbios14-nbla-29"
+        }
+      ],
+      "order": 5,
+      "range": "29"
+    },
+    {
+      "explanation": "El trato al vulnerable es un asunto teológico. NBLA establece que oprimir al pobre afrenta a su Hacedor; MSG hace visible esa afrenta como un insulto dirigido al Creador. La aplicación debe conservar el centro: honrar a Dios incluye negarse a explotar a quien tiene menos poder.",
+      "id": "proverbios14-joya-06",
+      "msg": {
+        "en": "\"You insult your Maker when you exploit the powerless;\"",
+        "es": "\"Insultas a tu Hacedor cuando explotas a quienes no tienen poder;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios14-nbla-31a"
+          ],
+          "verseId": "proverbios14-nbla-31"
+        }
+      ],
+      "order": 6,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 14,
+    "studyId": "proverbios-14"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios14-msg-01",
+      "msg": {
+        "en": "Lady Wisdom builds a lovely home;\nSir Fool comes along and tears it down brick by brick.",
+        "es": "Doña Sabiduría construye un hogar hermoso; el señor Necio llega y lo derriba ladrillo por ladrillo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios14-msg-02",
+      "msg": {
+        "en": "An honest life shows respect for GOD;\na degenerate life is a slap in his face.",
+        "es": "Una vida honesta muestra respeto por DIOS; una vida degenerada es una bofetada en Su rostro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios14-msg-03",
+      "msg": {
+        "en": "Frivolous talk provokes a derisive smile;\nwise speech evokes nothing but respect.",
+        "es": "La charla frívola provoca una sonrisa burlona; las palabras sabias despiertan respeto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios14-msg-04",
+      "msg": {
+        "en": "No cattle, no crops;\na good harvest requires a strong ox for the plow.",
+        "es": "Sin ganado no hay cosecha; una buena cosecha requiere un buey fuerte para el arado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios14-msg-05",
+      "msg": {
+        "en": "A true witness never lies;\na false witness makes a business of it.",
+        "es": "Un testigo verdadero nunca miente; un testigo falso hace de la mentira su negocio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios14-msg-06",
+      "msg": {
+        "en": "Cynics look high and low for wisdom—and never find it;\nthe open-minded find it right on their doorstep!",
+        "es": "Los cínicos buscan sabiduría por todas partes y nunca la encuentran; los de mente abierta la encuentran justo a la puerta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios14-msg-07",
+      "msg": {
+        "en": "Escape quickly from the company of fools;\nthey’re a waste of your time, a waste of your words.",
+        "es": "Aléjate pronto de la compañía de los necios; son una pérdida de tu tiempo y de tus palabras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios14-msg-08",
+      "msg": {
+        "en": "The wisdom of the wise keeps life on track;\nthe foolishness of fools lands them in the ditch.",
+        "es": "La sabiduría de los sabios mantiene la vida en rumbo; la necedad de los necios los lleva a la zanja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios14-msg-09",
+      "msg": {
+        "en": "The stupid ridicule right and wrong,\nbut a moral life is a favored life.",
+        "es": "Los insensatos se burlan de lo que está bien y de lo que está mal, pero una vida moral es una vida favorecida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios14-msg-10",
+      "msg": {
+        "en": "The person who shuns the bitter moments of friends\nwill be an outsider at their celebrations.",
+        "es": "Quien evita los momentos amargos de sus amigos también quedará fuera de sus celebraciones."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios14-msg-11",
+      "msg": {
+        "en": "Lives of careless wrongdoing are tumbledown shacks;\nholy living builds soaring cathedrals.",
+        "es": "Las vidas de quienes hacen el mal sin cuidado son chozas que se caen; una vida santa levanta catedrales imponentes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "proverbios14-msg-12",
+      "msg": {
+        "en": "There’s a way of life that looks harmless enough;\nlook again—it leads straight to hell.\nSure, those people appear to be having a good time,\nbut all that laughter will end in heartbreak.",
+        "es": "Hay una manera de vivir que parece bastante inofensiva; mírala otra vez: conduce directo al infierno. Claro, esa gente parece estar pasándola bien, pero toda esa risa terminará en dolor de corazón."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-13"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios14-msg-13",
+      "msg": {
+        "en": "A mean person gets paid back in meanness,\na gracious person in grace.",
+        "es": "Una persona mezquina recibe mezquindad a cambio; una persona llena de gracia recibe gracia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-14"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios14-msg-14",
+      "msg": {
+        "en": "The gullible believe anything they’re told;\nthe prudent sift and weigh every word.",
+        "es": "El crédulo cree todo lo que le dicen; el prudente filtra y sopesa cada palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-15"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios14-msg-15",
+      "msg": {
+        "en": "The wise watch their steps and avoid evil;\nfools are headstrong and reckless.",
+        "es": "Los sabios cuidan sus pasos y evitan el mal; los necios son obstinados y temerarios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-16"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios14-msg-16",
+      "msg": {
+        "en": "The hotheaded do things they’ll later regret;\nthe coldhearted get the cold shoulder.",
+        "es": "Los impulsivos hacen cosas de las que después se arrepentirán; a los de corazón frío les responden con frialdad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-17"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios14-msg-17",
+      "msg": {
+        "en": "Foolish dreamers live in a world of illusion;\nwise realists plant their feet on the ground.",
+        "es": "Los soñadores necios viven en un mundo de ilusiones; los realistas sabios mantienen los pies sobre la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-18"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios14-msg-18",
+      "msg": {
+        "en": "Eventually, evil will pay tribute to good;\nthe wicked will respect God-loyal people.",
+        "es": "Al final, el mal rendirá tributo al bien; los malvados respetarán a quienes son leales a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-19"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios14-msg-19",
+      "msg": {
+        "en": "An unlucky loser is shunned by all,\nbut everyone loves a winner.",
+        "es": "Al desdichado que pierde todos lo evitan, pero todo el mundo ama al ganador."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-20"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios14-msg-20",
+      "msg": {
+        "en": "It’s criminal to ignore a neighbor in need,\nbut compassion for the poor—what a blessing!",
+        "es": "Es un crimen ignorar al vecino que está en necesidad; pero tener compasión de los pobres, ¡qué bendición!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-21"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios14-msg-21",
+      "msg": {
+        "en": "Isn’t it obvious that conspirators lose out,\nwhile the thoughtful win love and trust?",
+        "es": "¿No es evidente que quienes conspiran terminan perdiendo, mientras que los considerados ganan amor y confianza?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-22"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios14-msg-22",
+      "msg": {
+        "en": "Hard work always pays off;\nmere talk puts no bread on the table.",
+        "es": "El trabajo duro siempre produce fruto; hablar por hablar no pone pan sobre la mesa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-23"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios14-msg-23",
+      "msg": {
+        "en": "The wise accumulate wisdom;\nfools get stupider by the day.",
+        "es": "Los sabios acumulan sabiduría; los necios se vuelven más necios cada día."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-24"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios14-msg-24",
+      "msg": {
+        "en": "Souls are saved by truthful witness\nand betrayed by the spread of lies.",
+        "es": "El testimonio verdadero salva vidas; la propagación de mentiras las traiciona."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-25"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios14-msg-25",
+      "msg": {
+        "en": "The Fear-of-GOD builds up confidence,\nand makes a world safe for your children.",
+        "es": "El temor de DIOS fortalece la confianza y hace del mundo un lugar seguro para tus hijos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-26"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios14-msg-26",
+      "msg": {
+        "en": "The Fear-of-GOD is a spring of living water\nso you won’t go off drinking from poisoned wells.",
+        "es": "El temor de DIOS es un manantial de agua viva para que no termines bebiendo de pozos envenenados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-27"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios14-msg-27",
+      "msg": {
+        "en": "The mark of a good leader is loyal followers;\nleadership is nothing without a following.",
+        "es": "La señal de un buen líder son seguidores leales; no hay liderazgo sin personas que sigan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-28"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios14-msg-28",
+      "msg": {
+        "en": "Slowness to anger makes for deep understanding;\na quick-tempered person stockpiles stupidity.",
+        "es": "Ser lento para la ira produce comprensión profunda; una persona irascible acumula estupidez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-29"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios14-msg-29",
+      "msg": {
+        "en": "A sound mind makes for a robust body,\nbut runaway emotions corrode the bones.",
+        "es": "Una mente sana contribuye a un cuerpo robusto, pero las emociones descontroladas corroen los huesos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-30"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios14-msg-30",
+      "msg": {
+        "en": "You insult your Maker when you exploit the powerless;\nwhen you’re kind to the poor, you honor God.",
+        "es": "Insultas a tu Hacedor cuando explotas a quienes no tienen poder; cuando eres bondadoso con los pobres, honras a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-31"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "32",
+      "id": "proverbios14-msg-31",
+      "msg": {
+        "en": "The evil of bad people leaves them out in the cold;\nthe integrity of good people creates a safe place for living.",
+        "es": "El mal de la gente mala la deja a la intemperie; la integridad de la gente buena crea un lugar seguro para vivir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-32"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "editorialRange": "33",
+      "id": "proverbios14-msg-32",
+      "msg": {
+        "en": "Lady Wisdom is at home in an understanding heart—\nfools never even get to say hello.",
+        "es": "Doña Sabiduría se siente en casa en un corazón con entendimiento; los necios ni siquiera llegan a saludarla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-33"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "editorialRange": "34",
+      "id": "proverbios14-msg-33",
+      "msg": {
+        "en": "God-devotion makes a country strong;\nGod-avoidance leaves people weak.",
+        "es": "La devoción a Dios fortalece a una nación; darle la espalda a Dios debilita a un pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-34"
+        }
+      ],
+      "order": 33
+    },
+    {
+      "editorialRange": "35",
+      "id": "proverbios14-msg-34",
+      "msg": {
+        "en": "Diligent work gets a warm commendation;\nshiftless work earns an angry rebuke.",
+        "es": "El trabajo diligente recibe una cálida aprobación; el trabajo negligente se gana una reprensión airada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios14-nbla-35"
+        }
+      ],
+      "order": 34
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios14-nbla-01",
+      "number": 1,
+      "text": "La mujer sabia edifica su casa,\nPero la necia la derriba con sus manos."
+    },
+    {
+      "id": "proverbios14-nbla-02",
+      "number": 2,
+      "text": "El que anda en rectitud teme al SEÑOR,\nPero el de perversos caminos lo desprecia."
+    },
+    {
+      "id": "proverbios14-nbla-03",
+      "number": 3,
+      "text": "En la boca del necio hay una vara para su espalda,\nPero los labios de los sabios los protegerán."
+    },
+    {
+      "id": "proverbios14-nbla-04",
+      "number": 4,
+      "text": "Donde no hay bueyes, el pesebre está limpio,\nPero mucho rendimiento se obtiene por la fuerza del buey."
+    },
+    {
+      "id": "proverbios14-nbla-05",
+      "number": 5,
+      "text": "El testigo veraz no mentirá,\nPero el testigo falso habla mentiras."
+    },
+    {
+      "id": "proverbios14-nbla-06",
+      "number": 6,
+      "text": "El insolente busca sabiduría y no la halla,\nPero para el hombre entendido el conocimiento es fácil."
+    },
+    {
+      "id": "proverbios14-nbla-07",
+      "number": 7,
+      "text": "Apártate de la presencia del necio,\nPorque en él no discernirás palabras de conocimiento."
+    },
+    {
+      "id": "proverbios14-nbla-08",
+      "number": 8,
+      "text": "La sabiduría del prudente está en entender su camino,\nPero la necedad de los necios es engaño."
+    },
+    {
+      "id": "proverbios14-nbla-09",
+      "number": 9,
+      "text": "Los necios se ríen del pecado,\nPero entre los rectos hay buena voluntad."
+    },
+    {
+      "id": "proverbios14-nbla-10",
+      "number": 10,
+      "text": "El corazón conoce su propia amargura,\nY un extraño no comparte su alegría."
+    },
+    {
+      "id": "proverbios14-nbla-11",
+      "number": 11,
+      "text": "La casa de los impíos será destruida,\nPero la tienda de los rectos florecerá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-12a",
+          "order": 1,
+          "text": "Hay camino que al hombre le parece derecho,"
+        },
+        {
+          "id": "proverbios14-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero al final, es camino de muerte."
+        }
+      ],
+      "id": "proverbios14-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "proverbios14-nbla-13",
+      "number": 13,
+      "text": "Aun en la risa, el corazón puede tener dolor,\nY el final de la alegría puede ser tristeza."
+    },
+    {
+      "id": "proverbios14-nbla-14",
+      "number": 14,
+      "text": "El de corazón descarriado se saciará de sus caminos,\nPero el hombre bueno estará satisfecho con el suyo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-15a",
+          "order": 1,
+          "text": "El simple todo lo cree,"
+        },
+        {
+          "id": "proverbios14-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el prudente mira bien sus pasos."
+        }
+      ],
+      "id": "proverbios14-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "proverbios14-nbla-16",
+      "number": 16,
+      "text": "El sabio teme y se aparta del mal,\nPero el necio es arrogante y descuidado."
+    },
+    {
+      "id": "proverbios14-nbla-17",
+      "number": 17,
+      "text": "El hombre pronto a la ira obra neciamente,\nY el hombre de malos designios es aborrecido."
+    },
+    {
+      "id": "proverbios14-nbla-18",
+      "number": 18,
+      "text": "Los simples heredan necedad,\nPero los prudentes son coronados de conocimiento."
+    },
+    {
+      "id": "proverbios14-nbla-19",
+      "number": 19,
+      "text": "Los malos se inclinarán ante los buenos,\nY los impíos, a las puertas del justo."
+    },
+    {
+      "id": "proverbios14-nbla-20",
+      "number": 20,
+      "text": "Aun por su vecino es odiado el pobre,\nPero muchos son los que aman al rico."
+    },
+    {
+      "id": "proverbios14-nbla-21",
+      "number": 21,
+      "text": "El que desprecia a su prójimo peca,\nPero es feliz el que se apiada de los pobres."
+    },
+    {
+      "id": "proverbios14-nbla-22",
+      "number": 22,
+      "text": "¿No se perderán los que traman el mal?\nPero misericordia y verdad recibirán los que planean el bien."
+    },
+    {
+      "id": "proverbios14-nbla-23",
+      "number": 23,
+      "text": "En todo trabajo hay ganancia,\nPero el vano hablar conduce solo a la pobreza."
+    },
+    {
+      "id": "proverbios14-nbla-24",
+      "number": 24,
+      "text": "La corona de los sabios es su riqueza,\nPero la necedad de los necios es insensatez."
+    },
+    {
+      "id": "proverbios14-nbla-25",
+      "number": 25,
+      "text": "El testigo veraz salva vidas,\nPero el que habla mentiras es traidor."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-26a",
+          "order": 1,
+          "text": "En el temor del SEÑOR hay confianza segura,"
+        },
+        {
+          "id": "proverbios14-nbla-26b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y a los hijos dará refugio."
+        }
+      ],
+      "id": "proverbios14-nbla-26",
+      "number": 26
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-27a",
+          "order": 1,
+          "text": "El temor del SEÑOR es fuente de vida,"
+        },
+        {
+          "id": "proverbios14-nbla-27b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para evadir los lazos de la muerte."
+        }
+      ],
+      "id": "proverbios14-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "proverbios14-nbla-28",
+      "number": 28,
+      "text": "En la multitud del pueblo está la gloria del rey,\nPero en la falta de pueblo está la ruina del príncipe."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-29a",
+          "order": 1,
+          "text": "El lento para la ira tiene gran prudencia,"
+        },
+        {
+          "id": "proverbios14-nbla-29b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que es irascible ensalza la necedad."
+        }
+      ],
+      "id": "proverbios14-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "proverbios14-nbla-30",
+      "number": 30,
+      "text": "Un corazón apacible es vida para el cuerpo,\nPero las pasiones son podredumbre de los huesos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios14-nbla-31a",
+          "order": 1,
+          "text": "El que oprime al pobre afrenta a su Hacedor,"
+        },
+        {
+          "id": "proverbios14-nbla-31b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que se apiada del necesitado lo honra."
+        }
+      ],
+      "id": "proverbios14-nbla-31",
+      "number": 31
+    },
+    {
+      "id": "proverbios14-nbla-32",
+      "number": 32,
+      "text": "El impío es derribado por su maldad,\nPero el justo tiene un refugio cuando muere."
+    },
+    {
+      "id": "proverbios14-nbla-33",
+      "number": 33,
+      "text": "En el corazón del prudente reposa la sabiduría,\nPero en medio de los necios no se da a conocer."
+    },
+    {
+      "id": "proverbios14-nbla-34",
+      "number": 34,
+      "text": "La justicia engrandece a la nación,\nPero el pecado es afrenta para los pueblos."
+    },
+    {
+      "id": "proverbios14-nbla-35",
+      "number": 35,
+      "text": "El favor del rey es para el siervo que obra sabiamente,\nPero su enojo es contra el que obra vergonzosamente."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

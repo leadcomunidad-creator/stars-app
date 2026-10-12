@@ -1,0 +1,753 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El carácter vale más que la acumulación. NBLA habla del buen nombre; MSG lo presenta como reputación intachable frente a hacerse rico. El proverbio no enseña a vivir para la aprobación pública, sino a reconocer que una vida confiable tiene un valor que el dinero no puede comprar.",
+      "id": "proverbios22-joya-01",
+      "msg": {
+        "en": "\"A sterling reputation is better than striking it rich;\"",
+        "es": "\"Una reputación intachable vale más que hacerse rico;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-01a"
+          ],
+          "verseId": "proverbios22-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La dignidad humana no se distribuye según capacidad económica. Ambas versiones anclan rico y pobre en un mismo Hacedor. Esa verdad limita cualquier lectura que trate riqueza como señal automática de mayor valor delante de Dios.",
+      "id": "proverbios22-joya-02",
+      "msg": {
+        "en": "\"GOD made them both!\"",
+        "es": "\"¡DIOS hizo a ambos!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-02b"
+          ],
+          "verseId": "proverbios22-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La formación deliberada importa. NBLA ordena instruir al niño; MSG resalta orientación de dirección. Como proverbio sapiencial, describe el peso duradero de la formación y no una garantía mecánica de que ningún hijo formado pueda tomar decisiones equivocadas.",
+      "id": "proverbios22-joya-03",
+      "msg": {
+        "en": "\"Point your kids in the right direction—\"",
+        "es": "\"Encamina a tus hijos en la dirección correcta;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-06a"
+          ],
+          "verseId": "proverbios22-nbla-06"
+        }
+      ],
+      "order": 3,
+      "range": "6"
+    },
+    {
+      "explanation": "La bendición está vinculada a una generosidad que comparte pan con el pobre. NBLA fija la acción concreta; MSG vuelve visible la imagen de manos abiertas. No es una fórmula para multiplicar dinero, sino una afirmación del camino de la generosidad delante de Dios.",
+      "id": "proverbios22-joya-04",
+      "msg": {
+        "en": "\"Generous hands are blessed hands\"",
+        "es": "\"Las manos generosas son manos bendecidas\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-09a"
+          ],
+          "verseId": "proverbios22-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "9"
+    },
+    {
+      "explanation": "La sabiduría no busca producir autosuficiencia, sino confianza correctamente orientada. NBLA declara el propósito de la instrucción; MSG lo llama fundamento. Aprender principios sabios debe llevar a depender más de Dios, no a imaginar que dominamos la vida.",
+      "id": "proverbios22-joya-05",
+      "msg": {
+        "en": "\"To make sure your foundation is trust in GOD,\"",
+        "es": "\"Para asegurar que tu fundamento sea la confianza en DIOS,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-19a"
+          ],
+          "verseId": "proverbios22-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "17-21"
+    },
+    {
+      "explanation": "Dios no trata la explotación del pobre como asunto social menor. El SEÑOR se presenta como defensor del afligido. MSG intensifica la escena, pero NBLA gobierna la conclusión: abusar de la vulnerabilidad coloca al opresor frente a la justicia de Dios.",
+      "id": "proverbios22-joya-06",
+      "msg": {
+        "en": "\"Because GOD will come to their defense;\"",
+        "es": "\"porque DIOS saldrá en su defensa;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-23a"
+          ],
+          "verseId": "proverbios22-nbla-23"
+        }
+      ],
+      "order": 6,
+      "range": "22-23"
+    },
+    {
+      "explanation": "La destreza cultivada abre espacios de responsabilidad e influencia. NBLA usa la imagen de comparecer ante reyes; MSG traduce esa excelencia al reconocimiento del trabajo hábil. El principio no garantiza fama, pero honra la competencia desarrollada con constancia.",
+      "id": "proverbios22-joya-07",
+      "msg": {
+        "en": "\"skilled workers are always in demand and admired;\"",
+        "es": "\"los trabajadores hábiles siempre tienen demanda y son admirados;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios22-nbla-29b"
+          ],
+          "verseId": "proverbios22-nbla-29"
+        }
+      ],
+      "order": 7,
+      "range": "29"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 22,
+    "studyId": "proverbios-22"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios22-msg-01",
+      "msg": {
+        "en": "A sterling reputation is better than striking it rich;\na gracious spirit is better than money in the bank.",
+        "es": "Una reputación intachable vale más que hacerse rico; un espíritu amable vale más que el dinero en el banco."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios22-msg-02",
+      "msg": {
+        "en": "The rich and the poor shake hands as equals—\nGOD made them both!",
+        "es": "Ricos y pobres se dan la mano como iguales: ¡DIOS hizo a ambos!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios22-msg-03",
+      "msg": {
+        "en": "A prudent person sees trouble coming and ducks;\na simpleton walks in blindly and is clobbered.",
+        "es": "Una persona prudente ve venir el problema y se aparta; el ingenuo sigue de frente a ciegas y recibe el golpe."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios22-msg-04",
+      "msg": {
+        "en": "The payoff for meekness and Fear-of-GOD\nis plenty and honor and a satisfying life.",
+        "es": "La recompensa de la humildad y del temor de DIOS es abundancia, honor y una vida satisfactoria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios22-msg-05",
+      "msg": {
+        "en": "The perverse travel a dangerous road, potholed and mud-slick;\nif you know what’s good for you, stay clear of it.",
+        "es": "Los perversos recorren un camino peligroso, lleno de baches y resbaloso de lodo; si sabes lo que te conviene, mantente lejos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios22-msg-06",
+      "msg": {
+        "en": "Point your kids in the right direction—\nwhen they’re old they won’t be lost.",
+        "es": "Encamina a tus hijos en la dirección correcta; cuando sean mayores no estarán perdidos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios22-msg-07",
+      "msg": {
+        "en": "The poor are always ruled over by the rich,\nso don’t borrow and put yourself under their power.",
+        "es": "Los pobres siempre están bajo el dominio de los ricos; así que no te endeudes ni te pongas bajo su poder."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios22-msg-08",
+      "msg": {
+        "en": "Whoever sows sin reaps weeds,\nand bullying anger sputters into nothing.",
+        "es": "Quien siembra pecado cosecha maleza, y la ira intimidante termina apagándose."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios22-msg-09",
+      "msg": {
+        "en": "Generous hands are blessed hands\nbecause they give bread to the poor.",
+        "es": "Las manos generosas son manos bendecidas porque dan pan al pobre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios22-msg-10",
+      "msg": {
+        "en": "Kick out the troublemakers and things will quiet down;\nyou need a break from bickering and griping!",
+        "es": "Saca a los que provocan problemas y todo se calmará; ¡necesitas un descanso de pleitos y quejas!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios22-msg-11",
+      "msg": {
+        "en": "GOD loves the pure-hearted and well-spoken;\ngood leaders also delight in their friendship.",
+        "es": "DIOS ama a los de corazón puro y palabras llenas de gracia; los buenos líderes también disfrutan de su amistad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios22-msg-12",
+      "msg": {
+        "en": "GOD guards knowledge with a passion,\nbut he’ll have nothing to do with deception.",
+        "es": "DIOS protege el conocimiento con pasión, pero no tendrá nada que ver con el engaño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios22-msg-13",
+      "msg": {
+        "en": "The loafer says, “There’s a lion on the loose!\nIf I go out I’ll be eaten alive!”",
+        "es": "El holgazán dice: «¡Hay un león suelto! ¡Si salgo, me comerá vivo!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios22-msg-14",
+      "msg": {
+        "en": "The mouth of a whore is a bottomless pit;\nyou’ll fall in that pit if you’re on the outs with GOD.",
+        "es": "La boca de una prostituta es un pozo sin fondo; caerás en él si estás enemistado con DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios22-msg-15",
+      "msg": {
+        "en": "Young people are prone to foolishness and fads;\nthe cure comes through tough-minded discipline.",
+        "es": "Los jóvenes son propensos a la necedad y a seguir modas; la cura llega mediante una disciplina firme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios22-msg-16",
+      "msg": {
+        "en": "Exploit the poor or glad-hand the rich—whichever,\nyou’ll end up the poorer for it.",
+        "es": "Explota al pobre o adula al rico; hagas lo que hagas, terminarás más pobre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17-21",
+      "id": "proverbios22-msg-17",
+      "msg": {
+        "en": "Listen carefully to my wisdom;\ntake to heart what I can teach you.\nYou’ll treasure its sweetness deep within;\nyou’ll give it bold expression in your speech.\nTo make sure your foundation is trust in GOD,\nI’m laying it all out right now just for you.\nI’m giving you thirty sterling principles—\ntested guidelines to live by.\nBelieve me—these are truths that work,\nand will keep you accountable\nto those who sent you.",
+        "es": "Escucha con atención mi sabiduría; toma en serio lo que puedo enseñarte. Atesorarás su dulzura en lo profundo; le darás una expresión valiente en tus palabras. Para asegurar que tu fundamento sea la confianza en DIOS, te lo expongo todo ahora mismo, especialmente para ti. Te doy treinta principios de primera calidad: pautas probadas para vivir. Créeme: son verdades que funcionan y te mantendrán responsable ante quienes te enviaron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-21"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "proverbios22-msg-18",
+      "msg": {
+        "en": "Don’t walk on the poor just because they’re poor,\nand don’t use your position to crush the weak,\nBecause GOD will come to their defense;\nthe life you took, he’ll take from you and give back to them.",
+        "es": "No atropelles al pobre solo porque es pobre, ni uses tu posición para aplastar al débil, porque DIOS saldrá en su defensa; la vida que les arrebataste, Él te la quitará a ti y se la devolverá a ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-23"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "proverbios22-msg-19",
+      "msg": {
+        "en": "Don’t hang out with angry people;\ndon’t keep company with hotheads.\nBad temper is contagious—\ndon’t get infected.",
+        "es": "No te juntes con personas iracundas; no andes con gente de mal genio. El mal carácter es contagioso: no te infectes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-25"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "proverbios22-msg-20",
+      "msg": {
+        "en": "Don’t gamble on the pot of gold at the end of the rainbow,\nhocking your house against a lucky chance.\nThe time will come when you have to pay up;\nyou’ll be left with nothing but the shirt on your back.",
+        "es": "No apuestes por la olla de oro al final del arcoíris, hipotecando tu casa por una posibilidad afortunada. Llegará el momento en que tendrás que pagar; te quedarás sin nada salvo la camisa que llevas puesta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-27"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios22-msg-21",
+      "msg": {
+        "en": "Don’t stealthily move back the boundary lines\nstaked out long ago by your ancestors.",
+        "es": "No muevas a escondidas los linderos establecidos hace mucho por tus antepasados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-28"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios22-msg-22",
+      "msg": {
+        "en": "Observe people who are good at their work—\nskilled workers are always in demand and admired;\nthey don’t take a backseat to anyone.",
+        "es": "Observa a las personas que son buenas en su trabajo: los trabajadores hábiles siempre tienen demanda y son admirados; no ocupan un lugar secundario ante nadie."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios22-nbla-29"
+        }
+      ],
+      "order": 22
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-01a",
+          "order": 1,
+          "text": "Más vale el buen nombre que las muchas riquezas,"
+        },
+        {
+          "id": "proverbios22-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el favor que la plata y el oro."
+        }
+      ],
+      "id": "proverbios22-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-02a",
+          "order": 1,
+          "text": "El rico y el pobre tienen un lazo común:"
+        },
+        {
+          "id": "proverbios22-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A ambos los hizo el SEÑOR."
+        }
+      ],
+      "id": "proverbios22-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "proverbios22-nbla-03",
+      "number": 3,
+      "text": "El prudente ve el mal y se esconde,\nPero los simples siguen adelante y son castigados."
+    },
+    {
+      "id": "proverbios22-nbla-04",
+      "number": 4,
+      "text": "La recompensa de la humildad y el temor del SEÑOR\nSon la riqueza, el honor y la vida."
+    },
+    {
+      "id": "proverbios22-nbla-05",
+      "number": 5,
+      "text": "Espinos y lazos hay en el camino del perverso;\nEl que cuida su alma se alejará de ellos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-06a",
+          "order": 1,
+          "text": "Instruye al niño en el camino que debe andar,"
+        },
+        {
+          "id": "proverbios22-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y aun cuando sea viejo no se apartará de él."
+        }
+      ],
+      "id": "proverbios22-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "proverbios22-nbla-07",
+      "number": 7,
+      "text": "El rico domina a los pobres,\nY el deudor es esclavo del acreedor."
+    },
+    {
+      "id": "proverbios22-nbla-08",
+      "number": 8,
+      "text": "El que siembra iniquidad segará vanidad,\nY la vara de su furor perecerá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-09a",
+          "order": 1,
+          "text": "El generoso será bendito,"
+        },
+        {
+          "id": "proverbios22-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque da de su pan al pobre."
+        }
+      ],
+      "id": "proverbios22-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "proverbios22-nbla-10",
+      "number": 10,
+      "text": "Echa fuera al insolente y saldrá la discordia,\nY cesarán también los pleitos y la ignominia."
+    },
+    {
+      "id": "proverbios22-nbla-11",
+      "number": 11,
+      "text": "El que ama la pureza de corazón\nTiene gracia en sus labios, y el rey es su amigo."
+    },
+    {
+      "id": "proverbios22-nbla-12",
+      "number": 12,
+      "text": "Los ojos del SEÑOR guardan el conocimiento,\nPero Él confunde las palabras del engañador."
+    },
+    {
+      "id": "proverbios22-nbla-13",
+      "number": 13,
+      "text": "El perezoso dice: «Hay un león afuera;\nSeré muerto en las calles»."
+    },
+    {
+      "id": "proverbios22-nbla-14",
+      "number": 14,
+      "text": "Fosa profunda es la boca de las mujeres extrañas;\nEl que es maldito del SEÑOR caerá en ella."
+    },
+    {
+      "id": "proverbios22-nbla-15",
+      "number": 15,
+      "text": "La necedad está ligada al corazón del niño,\nPero la vara de la disciplina lo alejará de ella."
+    },
+    {
+      "id": "proverbios22-nbla-16",
+      "number": 16,
+      "text": "El que oprime al pobre para engrandecerse,\nO da al rico, solo llegará a la pobreza."
+    },
+    {
+      "id": "proverbios22-nbla-17",
+      "number": 17,
+      "text": "Inclina tu oído y oye las palabras de los sabios,\nY aplica tu corazón a mi conocimiento;"
+    },
+    {
+      "id": "proverbios22-nbla-18",
+      "number": 18,
+      "text": "Porque te será agradable si las guardas dentro de ti,\nPara que estén listas en tus labios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-19a",
+          "order": 1,
+          "text": "Para que tu confianza esté en el SEÑOR,"
+        },
+        {
+          "id": "proverbios22-nbla-19b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Te he instruido hoy a ti también."
+        }
+      ],
+      "id": "proverbios22-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "proverbios22-nbla-20",
+      "number": 20,
+      "text": "¿No te he escrito cosas excelentes\nDe consejo y conocimiento,"
+    },
+    {
+      "id": "proverbios22-nbla-21",
+      "number": 21,
+      "text": "Para hacerte saber la certeza de las palabras de verdad\nA fin de que respondas correctamente al que te ha enviado?"
+    },
+    {
+      "id": "proverbios22-nbla-22",
+      "number": 22,
+      "text": "No robes al pobre, porque es pobre,\nNi aplastes al afligido en la puerta;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-23a",
+          "order": 1,
+          "text": "Porque el SEÑOR defenderá su causa"
+        },
+        {
+          "id": "proverbios22-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y quitará la vida de los que los despojan."
+        }
+      ],
+      "id": "proverbios22-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "proverbios22-nbla-24",
+      "number": 24,
+      "text": "No te asocies con el hombre iracundo,\nNi andes con el hombre violento,"
+    },
+    {
+      "id": "proverbios22-nbla-25",
+      "number": 25,
+      "text": "No sea que aprendas sus maneras\nY tiendas lazo para ti mismo."
+    },
+    {
+      "id": "proverbios22-nbla-26",
+      "number": 26,
+      "text": "No estés entre los que dan fianzas,\nEntre los que salen de fiadores de préstamos."
+    },
+    {
+      "id": "proverbios22-nbla-27",
+      "number": 27,
+      "text": "Si no tienes con qué pagar,\n¿Por qué han de quitarte la cama de debajo de ti?"
+    },
+    {
+      "id": "proverbios22-nbla-28",
+      "number": 28,
+      "text": "No muevas el lindero antiguo\nQue pusieron tus padres."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios22-nbla-29a",
+          "order": 1,
+          "text": "¿Has visto un hombre diestro en su trabajo?"
+        },
+        {
+          "id": "proverbios22-nbla-29b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Estará delante de los reyes;"
+        },
+        {
+          "id": "proverbios22-nbla-29c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "No estará delante de hombres sin importancia."
+        }
+      ],
+      "id": "proverbios22-nbla-29",
+      "number": 29
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

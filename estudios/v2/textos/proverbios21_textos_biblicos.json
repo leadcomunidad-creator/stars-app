@@ -1,0 +1,864 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios ve más allá de la autodefensa con la que explicamos nuestras decisiones. NBLA habla de sondear el corazón; MSG lo expresa como examen de motivos. La sabiduría no se conforma con preguntar si una acción puede justificarse, sino qué amor, temor o ambición la está impulsando.",
+      "id": "proverbios21-joya-01",
+      "msg": {
+        "en": "\"GOD examines our motives.\"",
+        "es": "\"DIOS examina nuestros motivos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-02b"
+          ],
+          "verseId": "proverbios21-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "La obediencia ética no puede ser reemplazada por actividad religiosa. NBLA fija el contraste entre justicia y sacrificio; MSG lo hace pastoralmente visible como diferencia entre vida limpia y desempeño religioso. El punto no es abolir adoración, sino impedir que se use para ocultar injusticia.",
+      "id": "proverbios21-joya-02",
+      "msg": {
+        "en": "\"mean far more to GOD than religious performance.\"",
+        "es": "\"significan mucho más para DIOS que el desempeño religioso.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-03b"
+          ],
+          "verseId": "proverbios21-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "La diligencia piensa más allá del impulso inmediato. NBLA conecta proyectos y ventaja; MSG resalta el horizonte largo. No es una promesa de éxito económico automático, sino un patrón sapiencial que contrasta trabajo paciente con prisa desordenada.",
+      "id": "proverbios21-joya-03",
+      "msg": {
+        "en": "\"Careful planning puts you ahead in the long run;\"",
+        "es": "\"La planificación cuidadosa te pone en ventaja a largo plazo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-05a"
+          ],
+          "verseId": "proverbios21-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5"
+    },
+    {
+      "explanation": "Dios vincula nuestra capacidad de escuchar con el trato al vulnerable. Ambas versiones sostienen el mismo principio: quien se vuelve deliberadamente sordo al pobre no puede separar esa dureza de su propia relación con la misericordia.",
+      "id": "proverbios21-joya-04",
+      "msg": {
+        "en": "\"If you stop your ears to the cries of the poor,\"",
+        "es": "\"Si cierras tus oídos al clamor de los pobres,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-13a"
+          ],
+          "verseId": "proverbios21-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "13"
+    },
+    {
+      "explanation": "Buscar justicia y lealtad orienta hacia vida verdadera. NBLA nombra vida, justicia y honor; MSG intensifica la imagen como vida gloriosa. No debe convertirse en garantía de comodidad, sino en una descripción del fruto moral de perseguir lo que Dios llama bueno.",
+      "id": "proverbios21-joya-05",
+      "msg": {
+        "en": "\"finds life itself—glorious life!\"",
+        "es": "\"encuentra la vida misma: ¡una vida gloriosa!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-21b"
+          ],
+          "verseId": "proverbios21-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "21"
+    },
+    {
+      "explanation": "Ninguna estrategia humana puede colocarse por encima del SEÑOR. NBLA niega que sabiduría, entendimiento o consejo prevalezcan ante Él; MSG lo resume con fuerza. El texto no desprecia inteligencia: la ubica bajo autoridad divina.",
+      "id": "proverbios21-joya-06",
+      "msg": {
+        "en": "\"can get the better of GOD.\"",
+        "es": "\"puede superar a DIOS.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-30a"
+          ],
+          "verseId": "proverbios21-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "30"
+    },
+    {
+      "explanation": "Preparación y confianza no son enemigas. NBLA afirma que la victoria pertenece al SEÑOR mientras el caballo sí es preparado; MSG conserva ambas acciones. La fe sabia trabaja sin atribuirse el control del resultado final.",
+      "id": "proverbios21-joya-07",
+      "msg": {
+        "en": "\"then trust GOD to bring victory.\"",
+        "es": "\"luego confía en DIOS para dar la victoria.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios21-nbla-31b"
+          ],
+          "verseId": "proverbios21-nbla-31"
+        }
+      ],
+      "order": 7,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 21,
+    "studyId": "proverbios-21"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios21-msg-01",
+      "msg": {
+        "en": "Good leadership is a channel of water controlled by GOD;\nhe directs it to whatever ends he chooses.",
+        "es": "El buen liderazgo es como un canal de agua controlado por DIOS; Él lo dirige hacia el fin que elige."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios21-msg-02",
+      "msg": {
+        "en": "We justify our actions by appearances;\nGOD examines our motives.",
+        "es": "Justificamos nuestras acciones por las apariencias; DIOS examina nuestros motivos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios21-msg-03",
+      "msg": {
+        "en": "Clean living before God and justice with our neighbors\nmean far more to GOD than religious performance.",
+        "es": "Vivir limpiamente delante de Dios y practicar justicia con nuestros vecinos significan mucho más para DIOS que el desempeño religioso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios21-msg-04",
+      "msg": {
+        "en": "Arrogance and pride—distinguishing marks in the wicked—\nare just plain sin.",
+        "es": "La arrogancia y el orgullo —marcas distintivas de los malvados— son, sencillamente, pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios21-msg-05",
+      "msg": {
+        "en": "Careful planning puts you ahead in the long run;\nhurry and scurry puts you further behind.",
+        "es": "La planificación cuidadosa te pone en ventaja a largo plazo; correr de un lado a otro con prisa te deja cada vez más atrás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios21-msg-06",
+      "msg": {
+        "en": "Make it to the top by lying and cheating;\nget paid with smoke and a promotion—to death!",
+        "es": "Llega a la cima mintiendo y haciendo trampas; tu paga será humo y un ascenso... ¡hacia la muerte!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios21-msg-07",
+      "msg": {
+        "en": "The wicked get buried alive by their loot\nbecause they refuse to use it to help others.",
+        "es": "Los malvados quedan sepultados vivos por su botín porque se niegan a usarlo para ayudar a otros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios21-msg-08",
+      "msg": {
+        "en": "Mixed motives twist life into tangles;\npure motives take you straight down the road.",
+        "es": "Los motivos mezclados enredan la vida; los motivos puros te llevan derecho por el camino."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios21-msg-09",
+      "msg": {
+        "en": "Better to live alone in a tumbledown shack\nthan share a mansion with a nagging spouse.",
+        "es": "Mejor vivir solo en una choza medio derruida que compartir una mansión con un cónyuge que no deja de pelear."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios21-msg-10",
+      "msg": {
+        "en": "Wicked souls love to make trouble;\nthey feel nothing for friends and neighbors.",
+        "es": "Las almas malvadas disfrutan causando problemas; no sienten compasión por amigos ni vecinos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios21-msg-11",
+      "msg": {
+        "en": "Simpletons only learn the hard way,\nbut the wise learn by listening.",
+        "es": "Los ingenuos solo aprenden por las malas, pero los sabios aprenden escuchando."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios21-msg-12",
+      "msg": {
+        "en": "A God-loyal person will see right through the wicked\nand undo the evil they’ve planned.",
+        "es": "Una persona leal a Dios ve con claridad a los malvados y desbarata el mal que han planeado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios21-msg-13",
+      "msg": {
+        "en": "If you stop your ears to the cries of the poor,\nyour cries will go unheard, unanswered.",
+        "es": "Si cierras tus oídos al clamor de los pobres, tus propios clamores quedarán sin ser escuchados ni respondidos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios21-msg-14",
+      "msg": {
+        "en": "A quietly given gift soothes an irritable person;\na heartfelt present cools a hot temper.",
+        "es": "Un regalo dado discretamente calma a una persona irritable; un obsequio sincero enfría un temperamento encendido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios21-msg-15",
+      "msg": {
+        "en": "Good people celebrate when justice triumphs,\nbut for the workers of evil it’s a bad day.",
+        "es": "La gente buena celebra cuando triunfa la justicia, pero para quienes hacen el mal es un mal día."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios21-msg-16",
+      "msg": {
+        "en": "Whoever wanders off the straight and narrow\nends up in a congregation of ghosts.",
+        "es": "Quien se aparta del camino recto y estrecho termina en una congregación de fantasmas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios21-msg-17",
+      "msg": {
+        "en": "You’re addicted to thrills? What an empty life!\nThe pursuit of pleasure is never satisfied.",
+        "es": "¿Eres adicto a las emociones fuertes? ¡Qué vida tan vacía! La búsqueda del placer nunca queda satisfecha."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios21-msg-18",
+      "msg": {
+        "en": "What a bad person plots against the good, boomerangs;\nthe plotter gets it in the end.",
+        "es": "Lo que una mala persona trama contra la buena se le devuelve como un búmeran; al final, el mal le cae encima al que lo tramó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios21-msg-19",
+      "msg": {
+        "en": "Better to live in a tent in the wild\nthan with a cross and petulant spouse.",
+        "es": "Mejor vivir en una tienda en medio del desierto que con un cónyuge malhumorado y caprichoso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios21-msg-20",
+      "msg": {
+        "en": "Valuables are safe in a wise person’s home;\nfools put it all out for yard sales.",
+        "es": "Las cosas valiosas están seguras en la casa de una persona sabia; los necios lo sacan todo a una venta de garaje."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios21-msg-21",
+      "msg": {
+        "en": "Whoever goes hunting for what is right and kind\nfinds life itself—glorious life!",
+        "es": "Quien sale en busca de lo correcto y lo bondadoso encuentra la vida misma: ¡una vida gloriosa!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios21-msg-22",
+      "msg": {
+        "en": "One sage entered a whole city of armed soldiers—\ntheir trusted defenses fell to pieces!",
+        "es": "Un solo sabio entró en una ciudad llena de soldados armados y sus defensas de confianza se hicieron pedazos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios21-msg-23",
+      "msg": {
+        "en": "Watch your words and hold your tongue;\nyou’ll save yourself a lot of grief.",
+        "es": "Cuida tus palabras y controla tu lengua; te ahorrarás muchos problemas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios21-msg-24",
+      "msg": {
+        "en": "You know their names—Brash, Impudent, Blasphemer—\nintemperate hotheads, every one.",
+        "es": "Ya conoces sus nombres: Descarado, Insolente, Blasfemo; todos ellos, impulsivos y de mal genio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios21-msg-25",
+      "msg": {
+        "en": "Lazy people finally die of hunger\nbecause they won’t get up and go to work.",
+        "es": "Los perezosos terminan muriendo de hambre porque se niegan a levantarse y trabajar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios21-msg-26",
+      "msg": {
+        "en": "Sinners are always wanting what they don’t have;\nthe God-loyal are always giving what they do have.",
+        "es": "Los pecadores siempre quieren lo que no tienen; los leales a Dios siempre dan de lo que sí tienen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios21-msg-27",
+      "msg": {
+        "en": "Religious performance by the wicked stinks;\nit’s even worse when they use it to get ahead.",
+        "es": "La práctica religiosa de los malvados apesta; peor aún cuando la usan para sacar ventaja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios21-msg-28",
+      "msg": {
+        "en": "A lying witness is unconvincing;\na person who speaks truth is respected.",
+        "es": "Un testigo mentiroso no convence; una persona que dice la verdad se gana respeto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios21-msg-29",
+      "msg": {
+        "en": "Unscrupulous people fake it a lot;\nhonest people are sure of their steps.",
+        "es": "La gente sin escrúpulos finge mucho; la gente honesta está segura de sus pasos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-29"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios21-msg-30",
+      "msg": {
+        "en": "Nothing clever, nothing conceived, nothing contrived,\ncan get the better of GOD.",
+        "es": "Nada ingenioso, nada ideado, nada tramado puede superar a DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-30"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios21-msg-31",
+      "msg": {
+        "en": "Do your best, prepare for the worst—\nthen trust GOD to bring victory.",
+        "es": "Haz lo mejor que puedas, prepárate para lo peor; luego confía en DIOS para dar la victoria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios21-nbla-31"
+        }
+      ],
+      "order": 31
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios21-nbla-01",
+      "number": 1,
+      "text": "Como canales de agua es el corazón del rey en la mano del SEÑOR;\nÉl lo dirige donde le place."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-02a",
+          "order": 1,
+          "text": "Todo camino del hombre es recto ante sus ojos,"
+        },
+        {
+          "id": "proverbios21-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el SEÑOR sondea los corazones."
+        }
+      ],
+      "id": "proverbios21-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-03a",
+          "order": 1,
+          "text": "El hacer justicia y derecho"
+        },
+        {
+          "id": "proverbios21-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Es más deseado por el SEÑOR que el sacrificio."
+        }
+      ],
+      "id": "proverbios21-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios21-nbla-04",
+      "number": 4,
+      "text": "Los ojos altivos y el corazón arrogante,\nY la lámpara de los impíos son pecado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-05a",
+          "order": 1,
+          "text": "Los proyectos del diligente ciertamente son ventaja,"
+        },
+        {
+          "id": "proverbios21-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero todo el que se apresura, ciertamente llega a la pobreza."
+        }
+      ],
+      "id": "proverbios21-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "proverbios21-nbla-06",
+      "number": 6,
+      "text": "Conseguir tesoros con lengua mentirosa\nEs un vapor fugaz, es buscar la muerte."
+    },
+    {
+      "id": "proverbios21-nbla-07",
+      "number": 7,
+      "text": "La violencia de los impíos los arrastrará,\nPorque se niegan a obrar con justicia."
+    },
+    {
+      "id": "proverbios21-nbla-08",
+      "number": 8,
+      "text": "Torcido es el camino del pecador\nMas el proceder del limpio es recto."
+    },
+    {
+      "id": "proverbios21-nbla-09",
+      "number": 9,
+      "text": "Mejor es vivir en un rincón del terrado\nQue en una casa con mujer rencillosa."
+    },
+    {
+      "id": "proverbios21-nbla-10",
+      "number": 10,
+      "text": "El alma del impío desea el mal;\nSu prójimo no halla favor a sus ojos."
+    },
+    {
+      "id": "proverbios21-nbla-11",
+      "number": 11,
+      "text": "Cuando el insolente es castigado, el simple se hace sabio;\nPero cuando se instruye al sabio, adquiere conocimiento."
+    },
+    {
+      "id": "proverbios21-nbla-12",
+      "number": 12,
+      "text": "El justo observa la casa del impío,\nLlevando al impío a la ruina."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-13a",
+          "order": 1,
+          "text": "El que cierra su oído al clamor del pobre,"
+        },
+        {
+          "id": "proverbios21-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "También él clamará y no recibirá respuesta."
+        }
+      ],
+      "id": "proverbios21-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "proverbios21-nbla-14",
+      "number": 14,
+      "text": "Una dádiva en secreto aplaca la ira,\nY el soborno bajo el manto, el furor violento."
+    },
+    {
+      "id": "proverbios21-nbla-15",
+      "number": 15,
+      "text": "El cumplimiento de la justicia es gozo para el justo,\nPero terror para los que obran iniquidad."
+    },
+    {
+      "id": "proverbios21-nbla-16",
+      "number": 16,
+      "text": "El hombre que se aparta del camino del saber\nReposará en la asamblea de los muertos."
+    },
+    {
+      "id": "proverbios21-nbla-17",
+      "number": 17,
+      "text": "El que ama el placer será pobre;\nEl que ama el vino y los ungüentos no se enriquecerá."
+    },
+    {
+      "id": "proverbios21-nbla-18",
+      "number": 18,
+      "text": "El impío es rescate para el justo,\nY el malvado está en lugar de los rectos."
+    },
+    {
+      "id": "proverbios21-nbla-19",
+      "number": 19,
+      "text": "Mejor es habitar en tierra desierta\nQue con mujer rencillosa y molesta."
+    },
+    {
+      "id": "proverbios21-nbla-20",
+      "number": 20,
+      "text": "Tesoro precioso y aceite hay en la casa del sabio,\nPero el necio todo lo disipa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-21a",
+          "order": 1,
+          "text": "El que sigue la justicia y la lealtad"
+        },
+        {
+          "id": "proverbios21-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Halla vida, justicia y honor."
+        }
+      ],
+      "id": "proverbios21-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "proverbios21-nbla-22",
+      "number": 22,
+      "text": "El sabio escala la ciudad de los poderosos\nY derriba la fortaleza en que confiaban."
+    },
+    {
+      "id": "proverbios21-nbla-23",
+      "number": 23,
+      "text": "El que guarda su boca y su lengua,\nGuarda su alma de angustias."
+    },
+    {
+      "id": "proverbios21-nbla-24",
+      "number": 24,
+      "text": "«Altivo», «arrogante» y «escarnecedor», son los nombres\nDel que obra con orgullo insolente."
+    },
+    {
+      "id": "proverbios21-nbla-25",
+      "number": 25,
+      "text": "El deseo del perezoso lo mata,\nPorque sus manos rehúsan trabajar;"
+    },
+    {
+      "id": "proverbios21-nbla-26",
+      "number": 26,
+      "text": "Todo el día codicia,\nMientras el justo da y nada retiene."
+    },
+    {
+      "id": "proverbios21-nbla-27",
+      "number": 27,
+      "text": "El sacrificio de los impíos es abominación,\nCuánto más trayéndolo con mala intención."
+    },
+    {
+      "id": "proverbios21-nbla-28",
+      "number": 28,
+      "text": "El testigo falso perecerá,\nPero el hombre que escucha la verdad, hablará siempre."
+    },
+    {
+      "id": "proverbios21-nbla-29",
+      "number": 29,
+      "text": "El hombre impío muestra audacia en su rostro,\nPero el recto asegura su camino."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-30a",
+          "order": 1,
+          "text": "No vale sabiduría, ni entendimiento,"
+        },
+        {
+          "id": "proverbios21-nbla-30b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ni consejo, ante el SEÑOR."
+        }
+      ],
+      "id": "proverbios21-nbla-30",
+      "number": 30
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios21-nbla-31a",
+          "order": 1,
+          "text": "Se prepara al caballo para el día de la batalla,"
+        },
+        {
+          "id": "proverbios21-nbla-31b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la victoria es del SEÑOR."
+        }
+      ],
+      "id": "proverbios21-nbla-31",
+      "number": 31
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

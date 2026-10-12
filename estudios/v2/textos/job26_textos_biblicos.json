@@ -1,0 +1,276 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job usa ironía para denunciar un consejo que no ayudó. NBLA conserva la pregunta sobre ayuda y salvación del débil; MSG vuelve evidente el sarcasmo. La verdad pastoral es que una intervención puede hablar mucho de Dios y aun así no servir al sufriente.",
+      "id": "job26-joya-01",
+      "msg": {
+        "en": "\"Well, you’ve certainly been a great help to a helpless man!\"",
+        "es": "\"Bueno, ¡sin duda has sido de gran ayuda para un hombre indefenso!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La creación depende del poder de Dios y no de una base visible al ser humano. NBLA habla del norte extendido sobre el vacío y la tierra sobre la nada; MSG amplía «norte» como cielos. La conclusión segura es dependencia cósmica, no una teoría científica derivada de la paráfrasis.",
+      "id": "job26-joya-02",
+      "msg": {
+        "en": "\"He spreads the skies over unformed space,\nhangs the earth out in empty space.\"",
+        "es": "\"Él extiende los cielos sobre el espacio sin forma,\ncuelga la tierra en el espacio vacío.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Dios pone límites donde el ser humano percibe transición y vastedad. NBLA fija círculo, aguas y frontera entre luz y tinieblas; MSG lo expresa como horizonte. La imagen comunica orden bajo el gobierno divino.",
+      "id": "job26-joya-03",
+      "msg": {
+        "en": "\"He draws the horizon out over the ocean,\nsets a boundary between light and darkness.\"",
+        "es": "\"Traza el horizonte sobre el océano,\nestablece una frontera entre la luz y las tinieblas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10"
+    },
+    {
+      "explanation": "El poder y la sabiduría de Dios superan aquello que simboliza amenaza y caos. NBLA habla de mar agitado y Rahab quebrantado; MSG transforma esas imágenes en tormentas y monstruos marinos. La expansión no autoriza a construir una doctrina zoológica o demonológica a partir de ella.",
+      "id": "job26-joya-04",
+      "msg": {
+        "en": "\"By his power he stills sea storms,\nby his wisdom he tames sea monsters.\"",
+        "es": "\"Con Su poder calma las tormentas del mar,\ncon Su sabiduría domina los monstruos marinos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "12-13"
+    },
+    {
+      "explanation": "Toda descripción humana de la grandeza divina sigue siendo parcial. NBLA habla de bordes de Sus caminos y palabra leve; MSG lo resume como comienzo y susurro. La humildad teológica nace no de ignorancia absoluta, sino de reconocer que lo verdadero que conocemos no agota a Dios.",
+      "id": "job26-joya-05",
+      "msg": {
+        "en": "\"And this is only the beginning,\na mere whisper of his rule.\"",
+        "es": "\"Y esto es apenas el comienzo,\nun mero susurro de Su gobierno.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job26-nbla-14a"
+          ],
+          "verseId": "job26-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 26,
+    "studyId": "job-26"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job26-msg-01",
+      "msg": {
+        "en": "Job answered:\n“Well, you’ve certainly been a great help to a helpless man!\nYou came to the rescue just in the nick of time!\nWhat wonderful advice you’ve given to a mixed-up man!\nWhat amazing insights you’ve provided!\nWhere in the world did you learn all this?\nHow did you become so inspired?",
+        "es": "Job respondió:\n«Bueno, ¡sin duda has sido de gran ayuda para un hombre indefenso!\n¡Llegaste al rescate justo a tiempo!\n¡Qué consejo tan maravilloso le has dado a un hombre confundido!\n¡Qué conocimientos tan extraordinarios has compartido!\n¿De dónde sacaste todo esto?\n¿Cómo llegaste a estar tan inspirado?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-14",
+      "id": "job26-msg-02",
+      "msg": {
+        "en": "“All the buried dead are in torment,\nand all who’ve been drowned in the deep, deep sea.\nHell is ripped open before God,\ngraveyards dug up and exposed.\nHe spreads the skies over unformed space,\nhangs the earth out in empty space.\nHe pours water into cumulus cloud-bags\nand the bags don’t burst.\nHe makes the moon wax and wane,\nputting it through its phases.\nHe draws the horizon out over the ocean,\nsets a boundary between light and darkness.\nThunder crashes and rumbles in the skies.\nListen! It’s God raising his voice!\nBy his power he stills sea storms,\nby his wisdom he tames sea monsters.\nWith one breath he clears the sky,\nwith one finger he crushes the sea serpent.\nAnd this is only the beginning,\na mere whisper of his rule.\nWhatever would we do if he really raised his voice!”",
+        "es": "«Todos los muertos enterrados tiemblan,\ny también quienes se han hundido en las profundidades del mar.\nEl infierno queda completamente abierto delante de Dios,\nlos cementerios quedan desenterrados y expuestos.\nÉl extiende los cielos sobre el espacio sin forma,\ncuelga la tierra en el espacio vacío.\nVierte agua dentro de bolsas de nubes cúmulo\ny las bolsas no se revientan.\nHace crecer y menguar la luna,\nhaciéndola pasar por sus fases.\nTraza el horizonte sobre el océano,\nestablece una frontera entre la luz y las tinieblas.\nEl trueno estalla y retumba en los cielos.\n¡Escuchen! ¡Es Dios levantando Su voz!\nCon Su poder calma las tormentas del mar,\ncon Su sabiduría domina los monstruos marinos.\nCon un solo soplo despeja el cielo,\ncon un solo dedo aplasta a la serpiente marina.\nY esto es apenas el comienzo,\nun mero susurro de Su gobierno.\n¿Qué haríamos si realmente levantara Su voz?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job26-nbla-14"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job26-nbla-01",
+      "number": 1,
+      "text": "Entonces respondió Job:"
+    },
+    {
+      "id": "job26-nbla-02",
+      "number": 2,
+      "text": "«¡Qué ayuda eres para el débil!\n¡Cómo has salvado al brazo sin fuerza!"
+    },
+    {
+      "id": "job26-nbla-03",
+      "number": 3,
+      "text": "¡Qué consejos has dado al que no tiene sabiduría,\nY qué útil conocimiento has dado en abundancia!"
+    },
+    {
+      "id": "job26-nbla-04",
+      "number": 4,
+      "text": "¿A quién has proferido tus palabras,\nY de quién es el espíritu que habló en ti?"
+    },
+    {
+      "id": "job26-nbla-05",
+      "number": 5,
+      "text": "»Las sombras tiemblan\nBajo las aguas y sus habitantes."
+    },
+    {
+      "id": "job26-nbla-06",
+      "number": 6,
+      "text": "Desnudo está el Seol ante Él,\nY el Abadón no tiene cobertura."
+    },
+    {
+      "id": "job26-nbla-07",
+      "number": 7,
+      "text": "Él extiende el norte sobre el vacío,\nY cuelga la tierra sobre la nada."
+    },
+    {
+      "id": "job26-nbla-08",
+      "number": 8,
+      "text": "Envuelve las aguas en Sus nubes,\nY la nube no se rompe bajo ellas."
+    },
+    {
+      "id": "job26-nbla-09",
+      "number": 9,
+      "text": "Oscurece la superficie de la luna llena,\nY extiende sobre ella Su nube."
+    },
+    {
+      "id": "job26-nbla-10",
+      "number": 10,
+      "text": "Ha trazado un círculo sobre la superficie de las aguas\nEn el límite de la luz y las tinieblas."
+    },
+    {
+      "id": "job26-nbla-11",
+      "number": 11,
+      "text": "Las columnas del cielo tiemblan\nY se espantan ante Su reprensión."
+    },
+    {
+      "id": "job26-nbla-12",
+      "number": 12,
+      "text": "Al mar agitó con Su poder,\nY al monstruo Rahab quebrantó con Su entendimiento."
+    },
+    {
+      "id": "job26-nbla-13",
+      "number": 13,
+      "text": "Con Su soplo se limpian los cielos;\nSu mano ha traspasado la serpiente huidiza."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job26-nbla-14a",
+          "order": 1,
+          "text": "Estos son los bordes de Sus caminos;\n¡Y cuán leve es la palabra que de Él oímos!"
+        },
+        {
+          "id": "job26-nbla-14b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero Su potente trueno, ¿quién lo puede comprender?»."
+        }
+      ],
+      "id": "job26-nbla-14",
+      "number": 14
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

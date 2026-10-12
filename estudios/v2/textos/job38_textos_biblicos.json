@@ -1,0 +1,607 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El cambio de voz es definitivo. NBLA identifica al SEÑOR como quien responde. A partir de aquí no estamos evaluando una opinión humana más, sino escuchando la respuesta divina dentro del libro.",
+      "id": "job38-joya-01",
+      "msg": {
+        "en": "\"And now, finally, GOD answered Job from the eye of a violent\nstorm.\"",
+        "es": "\"Y ahora, finalmente, DIOS respondió a Job desde el ojo de una tormenta violenta.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios no niega el dolor de Job; confronta la escala de su conocimiento. Job no estuvo presente en el comienzo y, por tanto, no puede hablar como administrador exhaustivo del orden creado.",
+      "id": "job38-joya-02",
+      "msg": {
+        "en": "\"Where were you when I created the earth?\nTell me, since you know so much!\"",
+        "es": "\"¿Dónde estabas cuando creé la tierra?\nDímelo, ya que sabes tanto.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4-7"
+    },
+    {
+      "explanation": "Dios sostiene lugares que no producen beneficio humano visible. La providencia es más amplia que nuestro punto de vista. El mundo no existe únicamente para ser observado o explotado por nosotros.",
+      "id": "job38-joya-03",
+      "msg": {
+        "en": "\"That bring water to unvisited fields,\ndeserts no one ever lays eyes on,\"",
+        "es": "\"que llevan agua a campos deshabitados,\ndesiertos que nadie llega a ver,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-26"
+        }
+      ],
+      "order": 3,
+      "range": "25-27"
+    },
+    {
+      "explanation": "MSG moderniza y hace más causal la formulación. NBLA habla de ordenanzas y dominio. La enseñanza segura es que Job no gobierna el orden celeste; no debe derivarse astrología ni determinismo astral de la paráfrasis.",
+      "id": "job38-joya-04",
+      "msg": {
+        "en": "\"Do you know the first thing about the sky’s constellations\nand how they affect things on Earth?\"",
+        "es": "\"¿Sabes algo acerca de las constelaciones del cielo\ny cómo afectan lo que ocurre en la Tierra?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-33"
+        }
+      ],
+      "order": 4,
+      "range": "31-33"
+    },
+    {
+      "explanation": "El capítulo termina con cuidado providencial. El Dios que pregunta por cimientos y constelaciones también atiende el hambre de criaturas pequeñas. Grandeza y cuidado conviven en la misma administración divina.",
+      "id": "job38-joya-05",
+      "msg": {
+        "en": "\"And who sets out food for the ravens\nwhen their young cry to God,\"",
+        "es": "\"¿Y quién pone alimento para los cuervos\ncuando sus crías claman a Dios,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job38-nbla-41a"
+          ],
+          "verseId": "job38-nbla-41"
+        }
+      ],
+      "order": 5,
+      "range": "39-41"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 38,
+    "studyId": "job-38"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "job38-msg-01",
+      "msg": {
+        "en": "And now, finally, GOD answered Job from the eye of a violent\nstorm. He said:",
+        "es": "Y ahora, finalmente, DIOS respondió a Job desde el ojo de una tormenta violenta. Dijo:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-11",
+      "id": "job38-msg-02",
+      "msg": {
+        "en": "“Why do you confuse the issue?\nWhy do you talk without knowing what you’re talking about?\nPull yourself together, Job!\nUp on your feet! Stand tall!\nI have some questions for you,\nand I want some straight answers.\nWhere were you when I created the earth?\nTell me, since you know so much!\nWho decided on its size? Certainly you’ll know that!\nWho came up with the blueprints and measurements?\nHow was its foundation poured,\nand who set the cornerstone,\nWhile the morning stars sang in chorus\nand all the angels shouted praise?\nAnd who took charge of the ocean\nwhen it gushed forth like a baby from the womb?\nThat was me! I wrapped it in soft clouds,\nand tucked it in safely at night.\nThen I made a playpen for it,\na strong playpen so it couldn’t run loose,\nAnd said, ‘Stay here, this is your place.\nYour wild tantrums are confined to this place.’",
+        "es": "«¿Por qué confundes el asunto?\n¿Por qué hablas sin saber de qué estás hablando?\n¡Prepárate, Job!\n¡Ponte de pie! ¡Mantente firme!\nTengo algunas preguntas para ti\ny quiero respuestas claras.\n¿Dónde estabas cuando creé la tierra?\nDímelo, ya que sabes tanto.\n¿Quién decidió sus dimensiones? Seguro que lo sabes.\n¿Quién trazó los planos y las medidas?\n¿Cómo se vertieron sus cimientos\ny quién puso la piedra angular,\nmientras las estrellas de la mañana cantaban a coro\ny todos los ángeles gritaban de alegría?\n¿Y quién tomó a cargo el océano\ncuando brotó como un bebé desde el vientre?\n¡Fui Yo! Lo envolví en suaves nubes\ny lo arropé de noche.\nEntonces le hice un corral,\nun corral fuerte para que no se desbordara,\ny dije: “Quédate aquí, este es tu lugar.\nTus olas furiosas quedan limitadas a este sitio”.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-11"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "12-15",
+      "id": "job38-msg-03",
+      "msg": {
+        "en": "“And have you ever ordered Morning, ‘Get up!’\ntold Dawn, ‘Get to work!’\nSo you could seize Earth like a blanket\nand shake out the wicked like cockroaches?\nAs the sun brings everything to light,\nbrings out all the colors and shapes,\nThe cover of darkness is snatched from the wicked—\nthey’re caught in the very act!",
+        "es": "«¿Alguna vez le ordenaste a la Mañana: “¡Levántate!”,\no le dijiste al Alba: “¡A trabajar!”,\npara que tomara la Tierra como una manta\ny sacudiera a los malvados como cucarachas?\nCuando el sol ilumina todo,\nhace visibles todos los colores y formas,\nla cubierta de oscuridad les es arrancada a los malvados:\n¡son sorprendidos en plena acción!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "job38-msg-04",
+      "msg": {
+        "en": "“Have you ever gotten to the true bottom of things,\nexplored the labyrinthine caves of deep ocean?\nDo you know the first thing about death?\nDo you have one clue regarding death’s dark mysteries?\nAnd do you have any idea how large this earth is?\nSpeak up if you have even the beginning of an answer.",
+        "es": "«¿Has llegado alguna vez al verdadero fondo de las cosas,\nexplorando las cuevas laberínticas del océano profundo?\n¿Sabes algo acerca de la muerte?\n¿Tienes siquiera una pista sobre los oscuros misterios de la muerte?\n¿Y tienes alguna idea de cuán grande es esta tierra?\nHabla, si tienes siquiera el comienzo de una respuesta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-18"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "19-21",
+      "id": "job38-msg-05",
+      "msg": {
+        "en": "“Do you know where Light comes from\nand where Darkness lives\nSo you can take them by the hand\nand lead them home when they get lost?\nWhy, of course you know that.\nYou’ve known them all your life,\ngrown up in the same neighborhood with them!",
+        "es": "«¿Sabes de dónde viene la Luz\ny dónde vive la Oscuridad,\npara que puedas tomarlas de la mano\ny llevarlas a casa cuando se pierdan?\nClaro que lo sabes.\nHas vivido con ellas toda tu vida,\n¡creciste en el mismo vecindario!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-21"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "22-30",
+      "id": "job38-msg-06",
+      "msg": {
+        "en": "“Have you ever traveled to where snow is made,\nseen the vault where hail is stockpiled,\nThe arsenals of hail and snow that I keep in readiness\nfor times of trouble and battle and war?\nCan you find your way to where lightning is launched,\nor to the place from which the wind blows?\nWho do you suppose carves canyons\nfor the downpours of rain, and charts\nthe route of thunderstorms\nThat bring water to unvisited fields,\ndeserts no one ever lays eyes on,\nDrenching the useless wastelands\nso they’re carpeted with wildflowers and grass?\nAnd who do you think is the father of rain and dew,\nthe mother of ice and frost?\nYou don’t for a minute imagine\nthese marvels of weather just happen, do you?",
+        "es": "«¿Has viajado alguna vez al lugar donde se fabrica la nieve,\no visto el depósito donde se almacena el granizo,\nlos arsenales de granizo y nieve que mantengo listos\npara tiempos de angustia, batalla y guerra?\n¿Puedes encontrar el camino hasta donde se lanza el relámpago,\no hasta el lugar de donde sopla el viento?\n¿Quién crees que abre canales\npara los aguaceros y traza\nla ruta de las tormentas\nque llevan agua a campos deshabitados,\ndesiertos que nadie llega a ver,\nempapando tierras inútiles\nhasta cubrirlas de flores silvestres y pasto?\n¿Y quién crees que es el padre de la lluvia y del rocío,\nla madre del hielo y la escarcha?\nNo imaginarás ni por un minuto\nque estas maravillas del clima simplemente ocurren, ¿verdad?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-30"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "31-33",
+      "id": "job38-msg-07",
+      "msg": {
+        "en": "“Can you catch the eye of the beautiful Pleiades sisters,\nor distract Orion from his hunt?\nCan you get Venus to look your way,\nor get the Great Bear and her cubs to come out and play?\nDo you know the first thing about the sky’s constellations\nand how they affect things on Earth?",
+        "es": "«¿Puedes atraer la mirada de las hermosas hermanas Pléyades,\no distraer a Orión de su cacería?\n¿Puedes hacer que Venus te mire,\no lograr que la Osa Mayor y sus crías salgan a jugar?\n¿Sabes algo acerca de las constelaciones del cielo\ny cómo afectan lo que ocurre en la Tierra?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-33"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "34-35",
+      "id": "job38-msg-08",
+      "msg": {
+        "en": "“Can you get the attention of the clouds,\nand commission a shower of rain?\nCan you take charge of the lightning bolts\nand have them report to you for orders?",
+        "es": "«¿Puedes llamar la atención de las nubes\ny ordenarles una lluvia abundante?\n¿Puedes hacerte cargo de los relámpagos\ny hacer que se presenten ante ti para recibir órdenes?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-35"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "36-38",
+      "id": "job38-msg-09",
+      "msg": {
+        "en": "“Who do you think gave weather-wisdom to the ibis,\nand storm-savvy to the rooster?\nDoes anyone know enough to number all the clouds\nor tip over the rain barrels of heaven\nWhen the earth is cracked and dry,\nthe ground baked hard as a brick?",
+        "es": "«¿Quién crees que dio sabiduría meteorológica al ibis\ny conocimiento de tormentas al gallo?\n¿Alguien sabe lo suficiente como para contar todas las nubes\no volcar los barriles de lluvia del cielo\ncuando la tierra está agrietada y seca,\ny el suelo cocido y duro como ladrillo?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-38"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "39-41",
+      "id": "job38-msg-10",
+      "msg": {
+        "en": "“Can you teach the lioness to stalk her prey\nand satisfy the appetite of her cubs\nAs they crouch in their den,\nwaiting hungrily in their cave?\nAnd who sets out food for the ravens\nwhen their young cry to God,\nfluttering about because they have no food?”",
+        "es": "«¿Puedes enseñar a la leona a acechar su presa\ny saciar el hambre de sus cachorros\nmientras se agazapan en su guarida,\nesperando hambrientos en su cueva?\n¿Y quién pone alimento para los cuervos\ncuando sus crías claman a Dios,\nrevoloteando porque no tienen qué comer?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job38-nbla-41"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job38-nbla-01",
+      "number": 1,
+      "text": "El SEÑOR respondió a Job desde el torbellino y dijo:"
+    },
+    {
+      "id": "job38-nbla-02",
+      "number": 2,
+      "text": "«¿Quién es este que oscurece el consejo\nCon palabras sin conocimiento?"
+    },
+    {
+      "id": "job38-nbla-03",
+      "number": 3,
+      "text": "Ciñe ahora tus lomos como un hombre,\nY Yo te preguntaré, y tú me instruirás."
+    },
+    {
+      "id": "job38-nbla-04",
+      "number": 4,
+      "text": "¿Dónde estabas tú cuando Yo echaba los cimientos de la tierra?\nDímelo, si tienes inteligencia."
+    },
+    {
+      "id": "job38-nbla-05",
+      "number": 5,
+      "text": "¿Quién puso sus medidas? Ya que sabes.\n¿O quién extendió sobre ella cordel?"
+    },
+    {
+      "id": "job38-nbla-06",
+      "number": 6,
+      "text": "¿Sobre qué se asientan sus basas,\nO quién puso su piedra angular"
+    },
+    {
+      "id": "job38-nbla-07",
+      "number": 7,
+      "text": "Cuando cantaban juntas las estrellas del alba,\nY todos los hijos de Dios gritaban de gozo?"
+    },
+    {
+      "id": "job38-nbla-08",
+      "number": 8,
+      "text": "»¿O quién encerró con puertas el mar,\nCuando, irrumpiendo, se salió de su seno;"
+    },
+    {
+      "id": "job38-nbla-09",
+      "number": 9,
+      "text": "Cuando hice de una nube su vestidura,\nY de espesa oscuridad sus pañales;"
+    },
+    {
+      "id": "job38-nbla-10",
+      "number": 10,
+      "text": "Cuando sobre él establecí límites,\nPuse puertas y cerrojos,"
+    },
+    {
+      "id": "job38-nbla-11",
+      "number": 11,
+      "text": "Y dije: “Hasta aquí llegarás, pero no más allá;\nAquí se detendrá el orgullo de tus olas?”."
+    },
+    {
+      "id": "job38-nbla-12",
+      "number": 12,
+      "text": "»¿Alguna vez en tu vida has mandado a la mañana,\nO le has hecho conocer al alba su lugar,"
+    },
+    {
+      "id": "job38-nbla-13",
+      "number": 13,
+      "text": "Para que ella eche mano a los confines de la tierra,\nY de ella sean sacudidos los impíos?"
+    },
+    {
+      "id": "job38-nbla-14",
+      "number": 14,
+      "text": "Ella cambia como barro bajo el sello;\nY como con vestidura se presenta."
+    },
+    {
+      "id": "job38-nbla-15",
+      "number": 15,
+      "text": "Pero es quitada la luz a los impíos,\nY es quebrado el brazo rebelde."
+    },
+    {
+      "id": "job38-nbla-16",
+      "number": 16,
+      "text": "»¿Has entrado hasta las fuentes del mar,\nO andado en las profundidades del abismo?"
+    },
+    {
+      "id": "job38-nbla-17",
+      "number": 17,
+      "text": "¿Te han sido reveladas las puertas de la muerte,\nO has visto las puertas de la densa oscuridad?"
+    },
+    {
+      "id": "job38-nbla-18",
+      "number": 18,
+      "text": "¿Has comprendido la extensión de la tierra?\nDímelo, si tú sabes todo esto."
+    },
+    {
+      "id": "job38-nbla-19",
+      "number": 19,
+      "text": "»¿Dónde está el camino a la morada de la luz?\nY la oscuridad, ¿dónde está su lugar,"
+    },
+    {
+      "id": "job38-nbla-20",
+      "number": 20,
+      "text": "Para que la lleves a su territorio,\nY para que entiendas los senderos de su casa?"
+    },
+    {
+      "id": "job38-nbla-21",
+      "number": 21,
+      "text": "¡Tú lo sabes, porque entonces ya habías nacido,\nY grande es el número de tus días!"
+    },
+    {
+      "id": "job38-nbla-22",
+      "number": 22,
+      "text": "¿Has entrado en los depósitos de la nieve,\nO has visto los depósitos del granizo,"
+    },
+    {
+      "id": "job38-nbla-23",
+      "number": 23,
+      "text": "Que he reservado para el tiempo de angustia,\nPara el día de guerra y de batalla?"
+    },
+    {
+      "id": "job38-nbla-24",
+      "number": 24,
+      "text": "¿Dónde está el camino en que se divide la luz,\nO el viento del este esparcido sobre la tierra?"
+    },
+    {
+      "id": "job38-nbla-25",
+      "number": 25,
+      "text": "»¿Quién ha abierto un canal para el turbión,\nO un camino para el rayo,"
+    },
+    {
+      "id": "job38-nbla-26",
+      "number": 26,
+      "text": "Para traer lluvia sobre tierra despoblada,\nSobre un desierto sin hombre alguno,"
+    },
+    {
+      "id": "job38-nbla-27",
+      "number": 27,
+      "text": "Para saciar la tierra desierta y desolada,\nY hacer brotar las semillas de la hierba?"
+    },
+    {
+      "id": "job38-nbla-28",
+      "number": 28,
+      "text": "¿Tiene padre la lluvia?\n¿Quién ha engendrado las gotas de rocío?"
+    },
+    {
+      "id": "job38-nbla-29",
+      "number": 29,
+      "text": "¿Del vientre de quién ha salido el hielo?\nY la escarcha del cielo, ¿quién la ha dado a luz?"
+    },
+    {
+      "id": "job38-nbla-30",
+      "number": 30,
+      "text": "El agua se endurece como la piedra,\nY aprisionada está la superficie del abismo."
+    },
+    {
+      "id": "job38-nbla-31",
+      "number": 31,
+      "text": "»¿Puedes tú atar las cadenas de estrellas de las Pléyades,\nO desatar las cuerdas de la constelación Orión?"
+    },
+    {
+      "id": "job38-nbla-32",
+      "number": 32,
+      "text": "¿Haces aparecer una constelación a su tiempo,\nY conduces la Osa con sus hijos?"
+    },
+    {
+      "id": "job38-nbla-33",
+      "number": 33,
+      "text": "¿Conoces tú las ordenanzas de los cielos,\nO fijas su dominio en la tierra?"
+    },
+    {
+      "id": "job38-nbla-34",
+      "number": 34,
+      "text": "»¿Puedes levantar tu voz a las nubes,\nPara que abundancia de agua te cubra?"
+    },
+    {
+      "id": "job38-nbla-35",
+      "number": 35,
+      "text": "¿Envías los relámpagos para que vayan\nY te digan: “Aquí estamos”?"
+    },
+    {
+      "id": "job38-nbla-36",
+      "number": 36,
+      "text": "¿Quién ha puesto sabiduría en lo más íntimo del ser,\nO ha dado a la mente inteligencia?"
+    },
+    {
+      "id": "job38-nbla-37",
+      "number": 37,
+      "text": "¿Quién puede contar las nubes con sabiduría,\nO inclinar los cántaros de los cielos,"
+    },
+    {
+      "id": "job38-nbla-38",
+      "number": 38,
+      "text": "Cuando el polvo en masa se endurece,\nY los terrones se pegan entre sí?"
+    },
+    {
+      "id": "job38-nbla-39",
+      "number": 39,
+      "text": "»¿Puedes cazar la presa para la leona,\nO saciar el apetito de los leoncillos"
+    },
+    {
+      "id": "job38-nbla-40",
+      "number": 40,
+      "text": "Cuando se agachan en sus madrigueras,\nO están al acecho en sus guaridas?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job38-nbla-41a",
+          "order": 1,
+          "text": "¿Quién prepara para el cuervo su alimento\nCuando sus crías claman a Dios"
+        },
+        {
+          "id": "job38-nbla-41b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y vagan sin comida?"
+        }
+      ],
+      "id": "job38-nbla-41",
+      "number": 41
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

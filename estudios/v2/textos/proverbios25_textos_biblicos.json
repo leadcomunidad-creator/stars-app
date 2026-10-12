@@ -1,0 +1,738 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios no está limitado por nuestra capacidad de investigar. NBLA habla de Su gloria al encubrir y de la gloria de los reyes al investigar; MSG usa una imagen contemporánea para el descubrimiento. La conclusión teológica debe permanecer en NBLA: misterio divino e investigación humana tienen lugares distintos, y la palabra “científicos” no crea por sí sola una doctrina sobre ciencia.",
+      "id": "proverbios25-joya-01",
+      "msg": {
+        "en": "\"God delights in concealing things;\"",
+        "es": "\"A Dios le agrada ocultar las cosas;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-02a"
+          ],
+          "verseId": "proverbios25-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "La autoridad necesita purificación. NBLA conecta quitar escoria con apartar al malo para que el trono se afiance en justicia; MSG vuelve la escena artesanal y gubernamental muy visible. La estabilidad que el texto celebra es moral, no simplemente eficiencia política.",
+      "id": "proverbios25-joya-02",
+      "msg": {
+        "en": "\"Remove impurities from the silver\"",
+        "es": "\"Quita las impurezas de la plata\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-04a"
+          ],
+          "verseId": "proverbios25-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "La humildad deja que el honor sea recibido en vez de arrebatado. NBLA contrasta ser invitado a subir con ser humillado; MSG traduce la escena como promoción y degradación. No es una fórmula para ascenso profesional, sino una advertencia contra autopromoción y presunción.",
+      "id": "proverbios25-joya-03",
+      "msg": {
+        "en": "\"It’s better to be promoted to a place of honor\"",
+        "es": "\"Es mejor que te promuevan a un lugar de honor\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-07a"
+          ],
+          "verseId": "proverbios25-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "6-7"
+    },
+    {
+      "explanation": "La sabiduría incluye oportunidad. NBLA compara la palabra a tiempo con una pieza preciosa y añade la reprensión sabia al oído atento; MSG conserva el valor de una palabra ajustada al momento. Decir algo verdadero fuera de tiempo o sin sabiduría puede perder la belleza que el proverbio celebra.",
+      "id": "proverbios25-joya-04",
+      "msg": {
+        "en": "\"The right word at the right time\"",
+        "es": "\"La palabra correcta en el momento correcto\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-11b"
+          ],
+          "verseId": "proverbios25-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11-12"
+    },
+    {
+      "explanation": "La mansedumbre puede ejercer una fuerza que la agresividad no logra. NBLA usa la sorprendente imagen de una lengua suave que quebranta huesos; MSG la interpreta como derribar defensas rígidas. El proverbio no promete que toda persona cederá, sino que paciencia y gentileza poseen una potencia real.",
+      "id": "proverbios25-joya-05",
+      "msg": {
+        "en": "\"gentle speech breaks down rigid defenses.\"",
+        "es": "\"el habla amable derriba defensas rígidas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-15b"
+          ],
+          "verseId": "proverbios25-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15"
+    },
+    {
+      "explanation": "La bondad hacia el enemigo es una decisión moral concreta. NBLA manda darle comida y agua y deja la recompensa en manos del SEÑOR; MSG vuelve cotidiana la escena. El texto no exige exponerse a abuso ni eliminar límites, pero sí rechaza usar la necesidad del enemigo como oportunidad de venganza.",
+      "id": "proverbios25-joya-06",
+      "msg": {
+        "en": "\"If you see your enemy hungry, go buy him lunch;\"",
+        "es": "\"Si ves a tu enemigo con hambre, ve y cómprale el almuerzo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-21a"
+          ],
+          "verseId": "proverbios25-nbla-21"
+        }
+      ],
+      "order": 6,
+      "range": "21-22"
+    },
+    {
+      "explanation": "El dominio propio protege la vida interior. NBLA compara a quien no domina su espíritu con una ciudad sin murallas; MSG traslada la imagen a una casa abierta y vulnerable. La forma de la metáfora cambia, pero el punto permanece: sin límites internos, la persona queda expuesta a fuerzas que no sabe gobernar.",
+      "id": "proverbios25-joya-07",
+      "msg": {
+        "en": "\"A person without self-control\"",
+        "es": "\"Una persona sin dominio propio\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios25-nbla-28b"
+          ],
+          "verseId": "proverbios25-nbla-28"
+        }
+      ],
+      "order": 7,
+      "range": "28"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 25,
+    "studyId": "proverbios-25"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios25-msg-01",
+      "msg": {
+        "en": "There are also these proverbs of Solomon,\ncollected by scribes of Hezekiah, king of Judah.",
+        "es": "También estos son proverbios de Salomón, recopilados por escribas de Ezequías, rey de Judá."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios25-msg-02",
+      "msg": {
+        "en": "God delights in concealing things;\nscientists delight in discovering things.",
+        "es": "A Dios le agrada ocultar las cosas; a los científicos les agrada descubrirlas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios25-msg-03",
+      "msg": {
+        "en": "Like the horizons for breadth and the ocean for depth,\nthe understanding of a good leader is broad and deep.",
+        "es": "Como los horizontes en amplitud y el océano en profundidad, así de amplia y profunda es la comprensión de un buen líder."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "proverbios25-msg-04",
+      "msg": {
+        "en": "Remove impurities from the silver\nand the silversmith can craft a fine chalice;\nRemove the wicked from leadership\nand authority will be credible and God-honoring.",
+        "es": "Quita las impurezas de la plata y el platero podrá fabricar una copa fina; quita a los malvados del liderazgo y la autoridad será confiable y honrará a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "proverbios25-msg-05",
+      "msg": {
+        "en": "Don’t work yourself into the spotlight;\ndon’t push your way into the place of prominence.\nIt’s better to be promoted to a place of honor\nthan face humiliation by being demoted.",
+        "es": "No te abras paso hasta quedar bajo los reflectores; no empujes para ocupar el lugar de prominencia. Es mejor que te promuevan a un lugar de honor que enfrentar la humillación de ser degradado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios25-msg-06",
+      "msg": {
+        "en": "Don’t jump to conclusions—there may be\na perfectly good explanation for what you just saw.",
+        "es": "No saques conclusiones apresuradas; puede haber una explicación perfectamente razonable para lo que acabas de ver."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "proverbios25-msg-07",
+      "msg": {
+        "en": "In the heat of an argument,\ndon’t betray confidences;\nWord is sure to get around,\nand no one will trust you.",
+        "es": "En medio de una discusión acalorada, no traiciones confidencias; la noticia correrá, y nadie volverá a confiar en ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-10"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "proverbios25-msg-08",
+      "msg": {
+        "en": "The right word at the right time\nis like a custom-made piece of jewelry,\nAnd a wise friend’s timely reprimand\nis like a gold ring slipped on your finger.",
+        "es": "La palabra correcta en el momento correcto es como una joya hecha a la medida; y la reprensión oportuna de un amigo sabio es como un anillo de oro puesto en tu dedo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-12"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios25-msg-09",
+      "msg": {
+        "en": "Reliable friends who do what they say\nare like cool drinks in sweltering heat—refreshing!",
+        "es": "Los amigos confiables que hacen lo que dicen son como bebidas frías bajo un calor sofocante: ¡refrescantes!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-13"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios25-msg-10",
+      "msg": {
+        "en": "Like billowing clouds that bring no rain\nis the person who talks big but never produces.",
+        "es": "Como nubes abultadas que no traen lluvia es la persona que presume mucho pero nunca cumple."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-14"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios25-msg-11",
+      "msg": {
+        "en": "Patient persistence pierces through indifference;\ngentle speech breaks down rigid defenses.",
+        "es": "La persistencia paciente atraviesa la indiferencia; el habla amable derriba defensas rígidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-15"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "proverbios25-msg-12",
+      "msg": {
+        "en": "When you’re given a box of candy, don’t gulp it all down;\neat too much chocolate and you’ll make yourself sick;\nAnd when you find a friend, don’t outwear your welcome;\nshow up at all hours and he’ll soon get fed up.",
+        "es": "Cuando te den una caja de dulces, no te la comas de una sola vez; demasiado chocolate te enfermará. Y cuando encuentres un amigo, no abuses de la bienvenida; si apareces a toda hora, pronto se cansará de ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-17"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios25-msg-13",
+      "msg": {
+        "en": "Anyone who tells lies against the neighbors\nin court or on the street is a loose cannon.",
+        "es": "Cualquiera que diga mentiras contra sus vecinos, en el tribunal o en la calle, es un peligro fuera de control."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-18"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios25-msg-14",
+      "msg": {
+        "en": "Trusting a double-crosser when you’re in trouble\nis like biting down on an abscessed tooth.",
+        "es": "Confiar en un traidor cuando estás en problemas es como morder con un diente infectado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-19"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios25-msg-15",
+      "msg": {
+        "en": "Singing light songs to the heavyhearted\nis like pouring salt in their wounds.",
+        "es": "Cantar canciones alegres a quien tiene el corazón abatido es como echar sal en sus heridas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-20"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "proverbios25-msg-16",
+      "msg": {
+        "en": "If you see your enemy hungry, go buy him lunch;\nif he’s thirsty, bring him a drink.\nYour generosity will surprise him with goodness,\nand GOD will look after you.",
+        "es": "Si ves a tu enemigo con hambre, ve y cómprale el almuerzo; si tiene sed, llévale algo de beber. Tu generosidad lo sorprenderá con bondad, y DIOS cuidará de ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-22"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios25-msg-17",
+      "msg": {
+        "en": "A north wind brings stormy weather,\nand a gossipy tongue stormy looks.",
+        "es": "El viento del norte trae tiempo tormentoso, y la lengua chismosa, miradas tormentosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-23"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios25-msg-18",
+      "msg": {
+        "en": "Better to live alone in a tumbledown shack\nthan share a mansion with a nagging spouse.",
+        "es": "Mejor vivir solo en una choza destartalada que compartir una mansión con un cónyuge que no deja de reclamar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-24"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios25-msg-19",
+      "msg": {
+        "en": "Like a cool drink of water when you’re worn out and weary\nis a letter from a long-lost friend.",
+        "es": "Como un trago de agua fresca cuando estás agotado y cansado es una carta de un amigo del que no sabías hace mucho tiempo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-25"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios25-msg-20",
+      "msg": {
+        "en": "A good person who gives in to a bad person\nis a muddied spring, a polluted well.",
+        "es": "Una persona buena que cede ante una mala es un manantial enturbiado, un pozo contaminado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-26"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios25-msg-21",
+      "msg": {
+        "en": "It’s not smart to stuff yourself with sweets,\nnor is glory piled on glory good for you.",
+        "es": "No es inteligente atiborrarse de dulces, ni tampoco es bueno acumular gloria sobre gloria para uno mismo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-27"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios25-msg-22",
+      "msg": {
+        "en": "A person without self-control\nis like a house with its doors and windows knocked out.",
+        "es": "Una persona sin dominio propio es como una casa con las puertas y ventanas arrancadas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios25-nbla-28"
+        }
+      ],
+      "order": 22
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios25-nbla-01",
+      "number": 1,
+      "text": "También estos son proverbios de Salomón, que transcribieron los hombres de Ezequías, rey de Judá:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-02a",
+          "order": 1,
+          "text": "Es gloria de Dios encubrir una cosa,"
+        },
+        {
+          "id": "proverbios25-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la gloria de los reyes es investigar un asunto."
+        }
+      ],
+      "id": "proverbios25-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "proverbios25-nbla-03",
+      "number": 3,
+      "text": "Como la altura de los cielos y la profundidad de la tierra,\nAsí es el corazón de los reyes, inescrutable."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-04a",
+          "order": 1,
+          "text": "Quita la escoria de la plata,"
+        },
+        {
+          "id": "proverbios25-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y saldrá un vaso para el orfebre;"
+        }
+      ],
+      "id": "proverbios25-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "proverbios25-nbla-05",
+      "number": 5,
+      "text": "Quita al malo de delante del rey,\nY su trono se afianzará en la justicia."
+    },
+    {
+      "id": "proverbios25-nbla-06",
+      "number": 6,
+      "text": "No hagas ostentación ante el rey,\nY no te pongas en el lugar de los grandes;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-07a",
+          "order": 1,
+          "text": "Porque es mejor que te digan: «Sube acá»,"
+        },
+        {
+          "id": "proverbios25-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A que te humillen delante del príncipe\nA quien tus ojos han visto."
+        }
+      ],
+      "id": "proverbios25-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "proverbios25-nbla-08",
+      "number": 8,
+      "text": "No te apresures a presentar pleito;\nPues ¿qué harás al final,\nCuando tu prójimo te avergüence?"
+    },
+    {
+      "id": "proverbios25-nbla-09",
+      "number": 9,
+      "text": "Discute tu caso con tu prójimo\nY no descubras el secreto de otro,"
+    },
+    {
+      "id": "proverbios25-nbla-10",
+      "number": 10,
+      "text": "No sea que te reproche el que lo oiga\nY tu mala fama no se acabe."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-11a",
+          "order": 1,
+          "text": "Como manzanas de oro en engastes de plata"
+        },
+        {
+          "id": "proverbios25-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Es la palabra dicha a su tiempo."
+        }
+      ],
+      "id": "proverbios25-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "proverbios25-nbla-12",
+      "number": 12,
+      "text": "Como pendiente de oro y adorno de oro fino\nEs el sabio que reprende al oído atento."
+    },
+    {
+      "id": "proverbios25-nbla-13",
+      "number": 13,
+      "text": "Como frescura de nieve en tiempo de la siega\nEs el mensajero fiel para los que lo envían,\nPorque refresca el alma de sus señores."
+    },
+    {
+      "id": "proverbios25-nbla-14",
+      "number": 14,
+      "text": "Como las nubes y el viento sin lluvia\nEs el hombre que se jacta falsamente de sus dones."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-15a",
+          "order": 1,
+          "text": "Con la mucha paciencia se persuade al príncipe,"
+        },
+        {
+          "id": "proverbios25-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y la lengua suave quebranta los huesos."
+        }
+      ],
+      "id": "proverbios25-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "proverbios25-nbla-16",
+      "number": 16,
+      "text": "¿Has hallado miel? Come solo lo que necesites,\nNo sea que te hartes y la vomites."
+    },
+    {
+      "id": "proverbios25-nbla-17",
+      "number": 17,
+      "text": "No frecuente tu pie la casa de tu vecino,\nNo sea que él se hastíe de ti y te aborrezca."
+    },
+    {
+      "id": "proverbios25-nbla-18",
+      "number": 18,
+      "text": "Como mazo y espada y flecha aguda\nEs el hombre que levanta falso testimonio contra su prójimo."
+    },
+    {
+      "id": "proverbios25-nbla-19",
+      "number": 19,
+      "text": "Como diente malo y pie que resbala\nEs la confianza en el hombre engañador en tiempo de angustia."
+    },
+    {
+      "id": "proverbios25-nbla-20",
+      "number": 20,
+      "text": "Como el que se quita la ropa en día de frío, o como el vinagre sobre la lejía,\nEs el que canta canciones a un corazón afligido."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-21a",
+          "order": 1,
+          "text": "Si tu enemigo tiene hambre, dale de comer pan,"
+        },
+        {
+          "id": "proverbios25-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y si tiene sed, dale a beber agua;"
+        }
+      ],
+      "id": "proverbios25-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "proverbios25-nbla-22",
+      "number": 22,
+      "text": "Porque así amontonarás brasas sobre su cabeza,\nY el SEÑOR te recompensará."
+    },
+    {
+      "id": "proverbios25-nbla-23",
+      "number": 23,
+      "text": "El viento del norte trae la lluvia,\nY la lengua murmuradora, el semblante lleno de ira."
+    },
+    {
+      "id": "proverbios25-nbla-24",
+      "number": 24,
+      "text": "Mejor es vivir en un rincón del terrado\nQue en una casa con mujer rencillosa."
+    },
+    {
+      "id": "proverbios25-nbla-25",
+      "number": 25,
+      "text": "Como agua fría para el alma sedienta,\nAsí son las buenas nuevas de una tierra lejana."
+    },
+    {
+      "id": "proverbios25-nbla-26",
+      "number": 26,
+      "text": "Como manantial turbio y pozo contaminado\nEs el justo que cede ante el impío."
+    },
+    {
+      "id": "proverbios25-nbla-27",
+      "number": 27,
+      "text": "No es bueno comer mucha miel,\nNi el buscar la propia gloria es gloria."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios25-nbla-28a",
+          "order": 1,
+          "text": "Como ciudad invadida y sin murallas"
+        },
+        {
+          "id": "proverbios25-nbla-28b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Es el hombre que no domina su espíritu."
+        }
+      ],
+      "id": "proverbios25-nbla-28",
+      "number": 28
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

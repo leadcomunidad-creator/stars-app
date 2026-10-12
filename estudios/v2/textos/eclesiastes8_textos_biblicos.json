@@ -1,0 +1,494 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría bíblica transforma la presencia de una persona, no solo su discurso. NBLA fija la imagen del rostro iluminado; MSG la vuelve cercana al hablar de luz en los ojos. La verdad central es que discernir bien debería producir una forma de relación menos endurecida y más humana.",
+      "id": "eclesiastes8-joya-01",
+      "msg": {
+        "en": "\"Wisdom puts light in the eyes,\"",
+        "es": "\"La sabiduría pone luz en los ojos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-01b"
+          ],
+          "verseId": "eclesiastes8-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La sabiduría incluye discernir no solo qué hacer, sino cuándo y cómo hacerlo. NBLA establece explícitamente «tiempo y modo»; MSG conserva esa combinación como tiempo y manera. El principio no justifica cobardía ni manipulación: enseña que una acción correcta puede requerir un momento y una forma responsables.",
+      "id": "eclesiastes8-joya-02",
+      "msg": {
+        "en": "\"there’s a right time and way for everything\"",
+        "es": "\"hay un tiempo y una manera correctos para todo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-05b"
+          ],
+          "verseId": "eclesiastes8-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "2-7"
+    },
+    {
+      "explanation": "La muerte expone el límite del poder humano. NBLA habla de falta de potestad; MSG lo expresa como no tener «voz ni voto». Ningún cargo, riqueza o estrategia concede soberanía final sobre la duración de la vida.",
+      "id": "eclesiastes8-joya-03",
+      "msg": {
+        "en": "\"No one has any say-so regarding the day of death.\"",
+        "es": "\"Nadie tiene voz ni voto sobre el día de su muerte.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-08b"
+          ],
+          "verseId": "eclesiastes8-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8"
+    },
+    {
+      "explanation": "El poder humano puede convertirse en daño. NBLA nombra dominio para mal; MSG amplía pastoralmente la experiencia de personas que usan poder para herirse. El texto no demoniza toda autoridad, pero obliga a evaluar su fruto: el poder que destruye al prójimo revela una corrupción que la sabiduría debe denunciar.",
+      "id": "eclesiastes8-joya-04",
+      "msg": {
+        "en": "\"men and women have the power to hurt each other\"",
+        "es": "\"hombres y mujeres tengan poder para hacerse daño unos a otros\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-09b"
+          ],
+          "verseId": "eclesiastes8-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "9"
+    },
+    {
+      "explanation": "La demora de la justicia puede alimentar la ilusión de impunidad. Ambas versiones expresan la misma verdad: cuando las consecuencias no llegan pronto, el corazón humano puede interpretar el silencio como permiso. El texto llama a temer a Dios incluso cuando la justicia visible se demora.",
+      "id": "eclesiastes8-joya-05",
+      "msg": {
+        "en": "\"the sentence against evil deeds is so long in coming\"",
+        "es": "\"la sentencia por las malas acciones tarda tanto en llegar\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-11b"
+          ],
+          "verseId": "eclesiastes8-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11"
+    },
+    {
+      "explanation": "La criatura no puede convertir la providencia en un sistema completamente explicado. NBLA limita incluso al sabio; MSG hace palpable esa frontera con la imagen de no llegar al fondo. La humildad intelectual no es pereza: es reconocer que una investigación seria sigue siendo humana.",
+      "id": "eclesiastes8-joya-06",
+      "msg": {
+        "en": "\"No matter how smart you are, you won’t get to the bottom of it.\"",
+        "es": "\"Por más inteligente que seas, no llegarás al fondo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes8-nbla-17b"
+          ],
+          "verseId": "eclesiastes8-nbla-17"
+        }
+      ],
+      "order": 6,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "ECLESIASTÉS",
+    "bookId": "eclesiastes",
+    "chapter": 8,
+    "studyId": "eclesiastes-8"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "eclesiastes8-msg-01",
+      "msg": {
+        "en": "There’s nothing better than being wise,\nKnowing how to interpret the meaning of life.\nWisdom puts light in the eyes,\nAnd gives gentleness to words and manners.",
+        "es": "Nada mejor que ser sabio,\nque saber interpretar el significado de la vida.\nLa sabiduría pone luz en los ojos\ny da gentileza a las palabras y a los modales."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-7",
+      "id": "eclesiastes8-msg-02",
+      "msg": {
+        "en": "Do what your king commands; you gave a sacred oath of obedience. Don’t worryingly second-guess your orders or try to back out when the task is unpleasant. You’re serving his pleasure, not yours. The king has the last word. Who dares say to him, “What are you doing?” Carrying out orders won’t hurt you a bit; the wise person obeys promptly and accurately. Yes, there’s a right time and way for everything, even though, unfortunately, we miss it for the most part. It’s true that no one knows what’s going to happen, or when. Who’s around to tell us?",
+        "es": "Haz lo que manda tu rey; hiciste un juramento sagrado de obediencia. No estés dudando nerviosamente de las órdenes ni intentes echarte atrás cuando la tarea sea desagradable. Estás para servir lo que le agrada a él, no lo que te agrada a ti. El rey tiene la última palabra. ¿Quién se atreve a decirle: «¿Qué estás haciendo?» Cumplir las órdenes no te hará daño; la persona sabia obedece con prontitud y precisión. Sí, hay un tiempo y una manera correctos para todo, aunque, por desgracia, casi siempre se nos escapan. Es verdad que nadie sabe qué va a suceder ni cuándo. ¿Quién está ahí para decírnoslo?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8",
+      "id": "eclesiastes8-msg-03",
+      "msg": {
+        "en": "No one can control the wind or lock it in a box.\nNo one has any say-so regarding the day of death.\nNo one can stop a battle in its tracks.\nNo one who does evil can be saved by evil.",
+        "es": "Nadie puede controlar el viento ni encerrarlo en una caja.\nNadie tiene voz ni voto sobre el día de su muerte.\nNadie puede detener una batalla en seco.\nA nadie que hace el mal puede salvarlo su maldad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9",
+      "id": "eclesiastes8-msg-04",
+      "msg": {
+        "en": "All this I observed as I tried my best to understand all that’s going on in this world. As long as men and women have the power to hurt each other, this is the way it is.",
+        "es": "Todo esto lo observé mientras hacía mi mejor esfuerzo por entender lo que ocurre en este mundo. Mientras hombres y mujeres tengan poder para hacerse daño unos a otros, así son las cosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10",
+      "id": "eclesiastes8-msg-05",
+      "msg": {
+        "en": "One time I saw wicked men given a solemn burial in holy ground. When the people returned to the city, they delivered flowery eulogies—and in the very place where wicked acts were done by those very men! More smoke. Indeed.",
+        "es": "Una vez vi a hombres malvados recibir un entierro solemne en terreno santo. Cuando la gente volvió a la ciudad, pronunció elogios floridos —¡en el mismo lugar donde esos mismos hombres habían hecho sus maldades!—. Más humo. De veras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "eclesiastes8-msg-06",
+      "msg": {
+        "en": "Because the sentence against evil deeds is so long in coming, people in general think they can get by with murder.",
+        "es": "Como la sentencia por las malas acciones tarda tanto en llegar, la gente en general piensa que puede salirse con la suya incluso con un asesinato."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "eclesiastes8-msg-07",
+      "msg": {
+        "en": "Even though a person sins and gets by with it hundreds of times throughout a long life, I’m still convinced that the good life is reserved for the person who fears God, who lives reverently in his presence, and that the evil person will not experience a “good” life. No matter how many days he lives, they’ll all be as flat and colorless as a shadow—because he doesn’t fear God.",
+        "es": "Aunque una persona peque y se salga con la suya cientos de veces a lo largo de una vida extensa, sigo convencido de que la vida buena está reservada para quien teme a Dios, para quien vive reverentemente en su presencia, y de que la persona malvada no experimentará una «buena» vida. No importa cuántos días viva, todos serán tan planos y descoloridos como una sombra, porque no teme a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14",
+      "id": "eclesiastes8-msg-08",
+      "msg": {
+        "en": "Here’s something that happens all the time and makes no sense at all: Good people get what’s coming to the wicked, and bad people get what’s coming to the good. I tell you, this makes no sense. It’s smoke.",
+        "es": "Esto sucede todo el tiempo y no tiene ningún sentido: personas buenas reciben lo que les correspondería a los malvados, y personas malas reciben lo que les correspondería a los buenos. Te digo que esto no tiene sentido. Es humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-14"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "15",
+      "id": "eclesiastes8-msg-09",
+      "msg": {
+        "en": "So, I’m all for just going ahead and having a good time—the best possible. The only earthly good men and women can look forward to is to eat and drink well and have a good time—compensation for the struggle for survival these few years God gives us on earth.",
+        "es": "Así que estoy a favor de seguir adelante y pasarla lo mejor posible. El único bien terrenal que hombres y mujeres pueden esperar es comer bien, beber bien y disfrutar: compensación por la lucha de sobrevivir durante estos pocos años que Dios nos da en la tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "eclesiastes8-msg-10",
+      "msg": {
+        "en": "When I determined to load up on wisdom and examine everything taking place on earth, I realized that if you keep your eyes open day and night without even blinking, you’ll still never figure out the meaning of what God is doing on this earth. Search as hard as you like, you’re not going to make sense of it. No matter how smart you are, you won’t get to the bottom of it.",
+        "es": "Cuando decidí llenarme de sabiduría y examinar todo lo que ocurre en la tierra, me di cuenta de que aunque mantengas los ojos abiertos día y noche sin siquiera parpadear, nunca llegarás a descifrar el significado de lo que Dios está haciendo en esta tierra. Busca todo lo que quieras: no vas a lograr explicarlo. Por más inteligente que seas, no llegarás al fondo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes8-nbla-17"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-01a",
+          "order": 1,
+          "text": "¿Quién es como el sabio?\n¿Y quién otro sabe la explicación de un asunto?"
+        },
+        {
+          "id": "eclesiastes8-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "La sabiduría del hombre ilumina su rostro"
+        },
+        {
+          "id": "eclesiastes8-nbla-01c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y hace que la dureza de su rostro cambie."
+        }
+      ],
+      "id": "eclesiastes8-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "eclesiastes8-nbla-02",
+      "number": 2,
+      "text": "Yo digo: «Guarda el mandato del rey por causa del juramento de Dios."
+    },
+    {
+      "id": "eclesiastes8-nbla-03",
+      "number": 3,
+      "text": "No te apresures a irte de su presencia. No te unas a una causa impía, porque él hará todo lo que le plazca»."
+    },
+    {
+      "id": "eclesiastes8-nbla-04",
+      "number": 4,
+      "text": "Puesto que la palabra del rey es soberana, ¿quién le dirá: «¿Qué haces?»?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-05a",
+          "order": 1,
+          "text": "El que guarda el mandato real no experimenta ningún mal;\nPorque"
+        },
+        {
+          "id": "eclesiastes8-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el corazón del sabio conoce el tiempo y el modo de hacerlo."
+        }
+      ],
+      "id": "eclesiastes8-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "eclesiastes8-nbla-06",
+      "number": 6,
+      "text": "Porque para cada deleite hay un tiempo y un modo,\nAunque la aflicción del hombre sea mucha sobre él."
+    },
+    {
+      "id": "eclesiastes8-nbla-07",
+      "number": 7,
+      "text": "Si nadie sabe qué sucederá,\n¿Quién le anunciará cómo ha de suceder?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-08a",
+          "order": 1,
+          "text": "No hay hombre que tenga potestad para refrenar el viento con el viento,"
+        },
+        {
+          "id": "eclesiastes8-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ni potestad sobre el día de la muerte."
+        },
+        {
+          "id": "eclesiastes8-nbla-08c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "No se da licencia en tiempo de guerra,\nNi la impiedad salvará a los que la practican."
+        }
+      ],
+      "id": "eclesiastes8-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-09a",
+          "order": 1,
+          "text": "Todo esto he visto, y he puesto mi corazón en toda obra que se hace bajo el sol,"
+        },
+        {
+          "id": "eclesiastes8-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "cuando el hombre domina a otro hombre para su mal."
+        }
+      ],
+      "id": "eclesiastes8-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "eclesiastes8-nbla-10",
+      "number": 10,
+      "text": "También he visto a los impíos ser sepultados, los que entraban y salían del lugar santo, y que fueron pronto olvidados en la ciudad en que así habían actuado. También esto es vanidad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-11a",
+          "order": 1,
+          "text": "Porque"
+        },
+        {
+          "id": "eclesiastes8-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la sentencia contra una mala obra no se ejecuta enseguida"
+        },
+        {
+          "id": "eclesiastes8-nbla-11c",
+          "order": 3,
+          "text": ", el corazón de los hijos de los hombres está en ellos entregado enteramente a hacer el mal."
+        }
+      ],
+      "id": "eclesiastes8-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "eclesiastes8-nbla-12",
+      "number": 12,
+      "text": "Aunque el pecador haga el mal cien veces y alargue su vida, con todo, yo sé que les irá bien a los que temen a Dios, a los que temen ante Su presencia."
+    },
+    {
+      "id": "eclesiastes8-nbla-13",
+      "number": 13,
+      "text": "Pero no le irá bien al impío, ni alargará sus días como una sombra, porque no teme ante la presencia de Dios."
+    },
+    {
+      "id": "eclesiastes8-nbla-14",
+      "number": 14,
+      "text": "Hay una vanidad que se hace sobre la tierra: hay justos a quienes les sucede conforme a las obras de los impíos, y hay impíos a quienes les sucede conforme a las obras de los justos. Digo que también esto es vanidad."
+    },
+    {
+      "id": "eclesiastes8-nbla-15",
+      "number": 15,
+      "text": "Por tanto yo alabé el placer, porque no hay nada bueno para el hombre bajo el sol sino comer, beber y divertirse, y esto le acompañará en sus afanes en los días de su vida que Dios le haya dado bajo el sol."
+    },
+    {
+      "id": "eclesiastes8-nbla-16",
+      "number": 16,
+      "text": "Cuando apliqué mi corazón a conocer la sabiduría y a ver la tarea que ha sido hecha sobre la tierra (aunque uno no durmiera ni de día ni de noche),"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes8-nbla-17a",
+          "order": 1,
+          "text": "y vi toda la obra de Dios, decidí que el hombre no puede descubrir la obra que se ha hecho bajo el sol. Aunque el hombre busque con afán, no la descubrirá; y"
+        },
+        {
+          "id": "eclesiastes8-nbla-17b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "aunque el sabio diga que la conoce, no puede descubrirla."
+        }
+      ],
+      "id": "eclesiastes8-nbla-17",
+      "number": 17
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

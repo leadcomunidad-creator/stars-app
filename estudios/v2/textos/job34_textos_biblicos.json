@@ -1,0 +1,549 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Eliú afirma correctamente que el mal no pertenece al carácter de Dios. NBLA fija la verdad con sobriedad; MSG la vuelve enfática. Esta afirmación debe sostenerse sin convertir cada interpretación posterior de Eliú en igualmente correcta.",
+      "id": "job34-joya-01",
+      "msg": {
+        "en": "\"It’s impossible for God to do anything evil;\nno way can the Mighty One do wrong.\"",
+        "es": "\"Es imposible que Dios haga algo malo;\nde ninguna manera puede el Poderoso actuar injustamente.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job34-nbla-10b"
+          ],
+          "verseId": "job34-nbla-10"
+        }
+      ],
+      "order": 1,
+      "range": "10-12"
+    },
+    {
+      "explanation": "NBLA afirma retribución moral bajo el juicio de Dios. MSG la convierte en una fórmula de correspondencia inmediata y exacta. El libro completo obliga a no usar esta expansión como herramienta para explicar mecánicamente cada sufrimiento presente.",
+      "id": "job34-joya-02",
+      "msg": {
+        "en": "\"He makes us pay for exactly what we’ve done—no more, no less.\nOur chickens always come home to roost.\"",
+        "es": "\"Nos hace pagar exactamente por lo que hemos hecho: ni más ni menos.\nLo que sembramos siempre termina regresando a nosotros.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "11-12"
+    },
+    {
+      "explanation": "Dios no clasifica el valor humano según rango o riqueza. NBLA ancla la imparcialidad en el hecho de que todos son obra de Sus manos. Esa verdad limita cualquier sistema religioso que dé trato preferencial al poderoso.",
+      "id": "job34-joya-03",
+      "msg": {
+        "en": "\"Does he play favorites with the rich and famous and slight the poor?\"",
+        "es": "\"¿Favorece a ricos y famosos y desprecia al pobre?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "18-19"
+    },
+    {
+      "explanation": "Ninguna oscuridad impide el conocimiento de Dios. La justicia divina no depende de información incompleta; por eso Su juicio no funciona como un tribunal humano que puede perder evidencia.",
+      "id": "job34-joya-04",
+      "msg": {
+        "en": "\"There is no night dark enough, no shadow deep enough,\nto hide those who do evil.\"",
+        "es": "\"No existe una noche suficientemente oscura ni una sombra suficientemente profunda\npara esconder a quienes hacen el mal.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-22"
+        }
+      ],
+      "order": 4,
+      "range": "21-22"
+    },
+    {
+      "explanation": "El sufrimiento de los vulnerables no es invisible para Dios. MSG interpreta ese clamor como evidencia de apostasía; NBLA se limita a afirmar que el clamor llega a Dios y es oído. Esa formulación más contenida gobierna la conclusión.",
+      "id": "job34-joya-05",
+      "msg": {
+        "en": "\"Their apostasy was announced by the cry of the poor;\nthe cry of the afflicted got God’s attention.\"",
+        "es": "\"Su rebelión quedó expuesta por el clamor del pobre;\nel clamor de los afligidos llamó la atención de Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "27-28"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 34,
+    "studyId": "job-34"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job34-msg-01",
+      "msg": {
+        "en": "Elihu continued:\n“So, my fine friends—listen to me,\nand see what you think of this.\nIsn’t it just common sense—\nas common as the sense of taste—\nTo put our heads together\nand figure out what’s going on here?",
+        "es": "Eliú continuó:\n«Así que, amigos míos, escúchenme\ny díganme qué piensan de esto.\n¿No es simplemente sentido común,\ntan común como el sentido del gusto,\nque pensemos juntos\ny descubramos qué está pasando aquí?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-9",
+      "id": "job34-msg-02",
+      "msg": {
+        "en": "“We’ve all heard Job say, ‘I’m in the right,\nbut God won’t give me a fair trial.\nWhen I defend myself, I’m called a liar to my face.\nI’ve done nothing wrong, and I get punished anyway.’\nHave you ever heard anything to beat this?\nDoes nothing faze this man Job?\nDo you think he’s spent too much time in bad company,\nhanging out with the wrong crowd,\nSo that now he’s parroting their line:\n‘It doesn’t pay to try to please God’?",
+        "es": "«Todos hemos oído a Job decir: “Yo tengo la razón,\npero Dios no me concede un juicio justo.\nCuando me defiendo, me llaman mentiroso en mi propia cara.\nNo he hecho nada malo y, aun así, me castigan”.\n¿Han oído alguna vez algo semejante?\n¿Hay algo que haga reaccionar a este hombre, Job?\n¿Creen que ha pasado demasiado tiempo en mala compañía,\nandando con la gente equivocada,\nhasta terminar repitiendo su mismo discurso:\n“No vale la pena intentar agradar a Dios”?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-15",
+      "id": "job34-msg-03",
+      "msg": {
+        "en": "“You’re veterans in dealing with these matters;\ncertainly we’re of one mind on this.\nIt’s impossible for God to do anything evil;\nno way can the Mighty One do wrong.\nHe makes us pay for exactly what we’ve done—no more, no less.\nOur chickens always come home to roost.\nIt’s impossible for God to do anything wicked,\nfor the Mighty One to subvert justice.\nHe’s the one who runs the earth!\nHe cradles the whole world in his hand!\nIf he decided to hold his breath,\nevery man, woman, and child would die for lack of air.",
+        "es": "«Ustedes tienen experiencia en estas cosas;\nseguro estamos de acuerdo en esto.\nEs imposible que Dios haga algo malo;\nde ninguna manera puede el Poderoso actuar injustamente.\nNos hace pagar exactamente por lo que hemos hecho: ni más ni menos.\nLo que sembramos siempre termina regresando a nosotros.\nEs imposible que Dios haga algo perverso;\nel Poderoso jamás pervierte la justicia.\n¡Él es quien gobierna la tierra!\n¡Sostiene el mundo entero en Su mano!\nSi decidiera retener Su aliento,\ntodo hombre, mujer y niño moriría por falta de aire."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16-20",
+      "id": "job34-msg-04",
+      "msg": {
+        "en": "“So, Job, use your head;\nthis is all pretty obvious.\nCan someone who hates order, keep order?\nDo you dare condemn the righteous, mighty God?\nDoesn’t God always tell it like it is,\nexposing corrupt rulers as scoundrels and criminals?\nDoes he play favorites with the rich and famous and slight the poor?\nIsn’t he equally responsible to everybody?\nDon’t people who deserve it die without notice?\nDon’t wicked rulers tumble to their doom?\nWhen the so-called great ones are wiped out,\nwe know God is working behind the scenes.",
+        "es": "«Así que, Job, piensa bien;\nesto debería ser bastante evidente.\n¿Puede alguien que odia el orden mantener el orden?\n¿Te atreves a condenar al Dios justo y poderoso?\n¿No llama Dios las cosas por su nombre,\nexponiendo a gobernantes corruptos como canallas y criminales?\n¿Favorece a ricos y famosos y desprecia al pobre?\n¿No es responsable por igual de todos?\n¿No mueren de repente quienes lo merecen?\n¿No caen los gobernantes malvados?\nCuando los llamados grandes son eliminados,\nsabemos que Dios está obrando detrás de escena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-20"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "21-28",
+      "id": "job34-msg-05",
+      "msg": {
+        "en": "“He has his eyes on every man and woman.\nHe doesn’t miss a trick.\nThere is no night dark enough, no shadow deep enough,\nto hide those who do evil.\nGod doesn’t need to gather any more evidence;\ntheir sin is an open-and-shut case.\nHe deposes the so-called high and mighty without asking questions,\nand replaces them at once with others.\nNobody gets by with anything; overnight,\njudgment is signed, sealed, and delivered.\nHe punishes the wicked for their wickedness\nout in the open where everyone can see it,\nBecause they quit following him,\nno longer even thought about him or his ways.\nTheir apostasy was announced by the cry of the poor;\nthe cry of the afflicted got God’s attention.",
+        "es": "«Sus ojos están sobre cada hombre y cada mujer.\nNo se le escapa nada.\nNo existe una noche suficientemente oscura ni una sombra suficientemente profunda\npara esconder a quienes hacen el mal.\nDios no necesita reunir más evidencia;\nsu pecado es un caso completamente claro.\nDerriba a los llamados poderosos sin pedir permiso\ny pone inmediatamente a otros en su lugar.\nNadie se sale con la suya; de la noche a la mañana,\nel juicio queda firmado, sellado y ejecutado.\nCastiga a los malvados por su maldad\na plena vista, donde todos pueden verlo,\nporque dejaron de seguirlo\ny ya ni siquiera pensaron en Él ni en Sus caminos.\nSu rebelión quedó expuesta por el clamor del pobre;\nel clamor de los afligidos llamó la atención de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-28"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "job34-msg-06",
+      "msg": {
+        "en": "“If God is silent, what’s that to you?\nIf he turns his face away, what can you do about it?\nBut whether silent or hidden, he’s there, ruling,\nso that those who hate God won’t take over\nand ruin people’s lives.",
+        "es": "«Si Dios guarda silencio, ¿qué puedes hacer tú?\nSi esconde Su rostro, ¿qué puedes hacer al respecto?\nPero, esté silencioso o escondido, Él sigue gobernando,\npara que quienes odian a Dios no tomen el control\nni arruinen la vida de la gente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-30"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "31-33",
+      "id": "job34-msg-07",
+      "msg": {
+        "en": "“So why don’t you simply confess to God?\nSay, ‘I sinned, but I’ll sin no more.\nTeach me to see what I still don’t see.\nWhatever evil I’ve done, I’ll do it no more.’\nJust because you refuse to live on God’s terms,\ndo you think he should start living on yours?\nYou choose. I can’t do it for you.\nTell me what you decide.",
+        "es": "«Entonces, ¿por qué no confiesas simplemente a Dios?\nDi: “He pecado, pero no volveré a pecar.\nEnséñame a ver lo que todavía no veo.\nCualquier mal que haya hecho, no lo repetiré”.\nSolo porque te niegas a vivir bajo las condiciones de Dios,\n¿crees que Él debería empezar a vivir bajo las tuyas?\nTú decides. Yo no puedo hacerlo por ti.\nDime qué decides."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-33"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "34-37",
+      "id": "job34-msg-08",
+      "msg": {
+        "en": "“All right-thinking people say—\nand the wise who have listened to me concur—\n‘Job is an ignoramus.\nHe talks utter nonsense.’\nJob, you need to be pushed to the wall and called to account\nfor wickedly talking back to God the way you have.\nYou’ve compounded your original sin\nby rebelling against God’s discipline,\nDefiantly shaking your fist at God,\npiling up indictments against the Almighty One.”",
+        "es": "«Toda persona sensata dirá,\ny los sabios que me han escuchado estarán de acuerdo:\n“Job es un ignorante.\nHabla puras tonterías”.\nJob, necesitas ser llevado hasta el límite y llamado a cuentas\npor responderle a Dios de una manera tan malvada.\nHas añadido rebelión a tu pecado original\nal resistirte a la disciplina de Dios,\ndesafiando a Dios con el puño levantado\ny acumulando acusaciones contra el Todopoderoso.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job34-nbla-37"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job34-nbla-01",
+      "number": 1,
+      "text": "Entonces prosiguió Eliú, y dijo:"
+    },
+    {
+      "id": "job34-nbla-02",
+      "number": 2,
+      "text": "«Oigan, sabios, mis palabras,\nY ustedes los que saben, préstenme atención."
+    },
+    {
+      "id": "job34-nbla-03",
+      "number": 3,
+      "text": "Porque el oído distingue las palabras,\nComo el paladar prueba la comida."
+    },
+    {
+      "id": "job34-nbla-04",
+      "number": 4,
+      "text": "Escojamos para nosotros lo que es justo;\nConozcamos entre nosotros lo que es bueno."
+    },
+    {
+      "id": "job34-nbla-05",
+      "number": 5,
+      "text": "Porque Job ha dicho: “Yo soy justo,\nPero Dios me ha quitado mi derecho."
+    },
+    {
+      "id": "job34-nbla-06",
+      "number": 6,
+      "text": "¿He de mentir respecto a mi derecho?\nMi herida es incurable, sin haber yo cometido transgresión”."
+    },
+    {
+      "id": "job34-nbla-07",
+      "number": 7,
+      "text": "¿Qué hombre es como Job,\nQue bebe el escarnio como agua,"
+    },
+    {
+      "id": "job34-nbla-08",
+      "number": 8,
+      "text": "Que va en compañía de los que hacen iniquidad,\nY anda con hombres perversos?"
+    },
+    {
+      "id": "job34-nbla-09",
+      "number": 9,
+      "text": "Porque ha dicho: “Nada gana el hombre\nCuando se complace en Dios”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job34-nbla-10a",
+          "order": 1,
+          "text": "»Por tanto, escúchenme, hombres de entendimiento."
+        },
+        {
+          "id": "job34-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Lejos esté de Dios la iniquidad,\nY del Todopoderoso la maldad."
+        }
+      ],
+      "id": "job34-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "job34-nbla-11",
+      "number": 11,
+      "text": "Porque Él paga al hombre conforme a su trabajo,\nY retribuye a cada uno conforme a su conducta."
+    },
+    {
+      "id": "job34-nbla-12",
+      "number": 12,
+      "text": "Ciertamente, Dios no obrará perversamente,\nY el Todopoderoso no pervertirá el juicio."
+    },
+    {
+      "id": "job34-nbla-13",
+      "number": 13,
+      "text": "¿Quién le dio autoridad sobre la tierra?\n¿Y quién ha puesto a Su cargo el mundo entero?"
+    },
+    {
+      "id": "job34-nbla-14",
+      "number": 14,
+      "text": "Si Él determinara hacerlo así,\nSi hiciera volver a sí mismo Su espíritu y Su aliento,"
+    },
+    {
+      "id": "job34-nbla-15",
+      "number": 15,
+      "text": "Toda carne a una perecería,\nY el hombre volvería al polvo."
+    },
+    {
+      "id": "job34-nbla-16",
+      "number": 16,
+      "text": "»Pero si tienes inteligencia, oye esto,\nEscucha la voz de mis palabras."
+    },
+    {
+      "id": "job34-nbla-17",
+      "number": 17,
+      "text": "¿Gobernará el que aborrece la justicia?\n¿Y condenarás al Justo poderoso,"
+    },
+    {
+      "id": "job34-nbla-18",
+      "number": 18,
+      "text": "Que dice a un rey: “Indigno”,\nA los nobles: “Perversos”;"
+    },
+    {
+      "id": "job34-nbla-19",
+      "number": 19,
+      "text": "Que no hace acepción de príncipes,\nNi considera al rico sobre el pobre,\nYa que todos son obra de Sus manos?"
+    },
+    {
+      "id": "job34-nbla-20",
+      "number": 20,
+      "text": "En un momento mueren, y a medianoche\nSe estremecen los pueblos y pasan,\nY los poderosos son quitados sin esfuerzo."
+    },
+    {
+      "id": "job34-nbla-21",
+      "number": 21,
+      "text": "»Porque Sus ojos observan los caminos del hombre,\nY Él ve todos sus pasos."
+    },
+    {
+      "id": "job34-nbla-22",
+      "number": 22,
+      "text": "No hay tinieblas ni densa oscuridad\nDonde puedan esconderse los que hacen iniquidad."
+    },
+    {
+      "id": "job34-nbla-23",
+      "number": 23,
+      "text": "Porque Él no necesita considerar más al hombre,\nPara que vaya ante Dios en juicio."
+    },
+    {
+      "id": "job34-nbla-24",
+      "number": 24,
+      "text": "Él quebranta a los poderosos sin indagar,\nY pone a otros en su lugar."
+    },
+    {
+      "id": "job34-nbla-25",
+      "number": 25,
+      "text": "Pues Él conoce sus obras,\nDe noche los derriba\nY son aplastados."
+    },
+    {
+      "id": "job34-nbla-26",
+      "number": 26,
+      "text": "Como a malvados los azota\nEn un lugar público,"
+    },
+    {
+      "id": "job34-nbla-27",
+      "number": 27,
+      "text": "Porque se apartaron de seguirle,\nY no consideraron ninguno de Sus caminos,"
+    },
+    {
+      "id": "job34-nbla-28",
+      "number": 28,
+      "text": "Haciendo que el clamor del pobre llegara a Él,\nY que oyera el clamor de los afligidos."
+    },
+    {
+      "id": "job34-nbla-29",
+      "number": 29,
+      "text": "Cuando está quieto, ¿quién puede condenarlo?;\nY cuando esconde Su rostro, ¿quién puede contemplarlo?;\nEsto es, tanto nación como hombre,"
+    },
+    {
+      "id": "job34-nbla-30",
+      "number": 30,
+      "text": "Para que no gobiernen hombres impíos,\nNi sean trampas para el pueblo."
+    },
+    {
+      "id": "job34-nbla-31",
+      "number": 31,
+      "text": "»Porque ¿ha dicho alguien a Dios:\n“He sufrido castigo,\nYa no ofenderé más;"
+    },
+    {
+      "id": "job34-nbla-32",
+      "number": 32,
+      "text": "Enséñame lo que no veo;\nSi he obrado mal,\nNo lo volveré a hacer?”."
+    },
+    {
+      "id": "job34-nbla-33",
+      "number": 33,
+      "text": "¿Ha de retribuir Él según tus condiciones, porque tú has rehusado?\nPorque tú tienes que escoger y no yo,\nPor tanto, declara lo que sabes."
+    },
+    {
+      "id": "job34-nbla-34",
+      "number": 34,
+      "text": "Los hombres entendidos me dirán,\nY también el sabio que me oiga:"
+    },
+    {
+      "id": "job34-nbla-35",
+      "number": 35,
+      "text": "“Job habla sin conocimiento,\nY sus palabras no tienen sabiduría."
+    },
+    {
+      "id": "job34-nbla-36",
+      "number": 36,
+      "text": "Job debe ser juzgado hasta el límite,\nPorque responde como los hombres perversos."
+    },
+    {
+      "id": "job34-nbla-37",
+      "number": 37,
+      "text": "Porque a su pecado añade rebelión;\nBate palmas entre nosotros,\nY multiplica sus palabras contra Dios”»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

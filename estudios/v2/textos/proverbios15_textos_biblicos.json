@@ -1,0 +1,904 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría reconoce que la forma de responder puede cambiar la temperatura de un conflicto. NBLA afirma que la respuesta suave aparta el furor; MSG lo vuelve visible como desactivar una carga. El proverbio no exige pasividad frente al abuso: enseña dominio de la propia respuesta para no alimentar innecesariamente la escalada.",
+      "id": "proverbios15-joya-01",
+      "msg": {
+        "en": "\"A gentle response defuses anger,\"",
+        "es": "\"Una respuesta amable desactiva la ira;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-01a"
+          ],
+          "verseId": "proverbios15-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Nada de la vida queda fuera de la mirada de Dios. NBLA declara Su presencia observadora en todo lugar; MSG lo expresa con cercanía: Dios no se pierde nada. La aplicación sana no es vivir bajo vigilancia ansiosa, sino abandonar la ficción de que existen rincones morales donde nuestras decisiones no importan.",
+      "id": "proverbios15-joya-02",
+      "msg": {
+        "en": "\"GOD doesn’t miss a thing—\"",
+        "es": "\"DIOS no se pierde nada:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-03a"
+          ],
+          "verseId": "proverbios15-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "Las palabras pueden participar en procesos de vida. NBLA usa la imagen de árbol de vida; MSG hace explícitos los efectos de sanar y ayudar. No toda herida emocional se resuelve con una frase amable, pero el texto sí responsabiliza al hablante por usar la lengua para sostener vida en lugar de quebrantar.",
+      "id": "proverbios15-joya-03",
+      "msg": {
+        "en": "\"Kind words heal and help;\"",
+        "es": "\"Las palabras bondadosas sanan y ayudan;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-04a"
+          ],
+          "verseId": "proverbios15-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4"
+    },
+    {
+      "explanation": "El valor de una vida no se mide por cantidad de posesiones. NBLA contrasta poco con temor del SEÑOR frente a gran tesoro con turbación; MSG lo presenta como una vida sencilla. La sabiduría no glorifica pobreza forzada, pero sí rechaza la idea de que abundancia material compensa desorden espiritual.",
+      "id": "proverbios15-joya-04",
+      "msg": {
+        "en": "\"A simple life in the Fear-of-GOD\"",
+        "es": "\"Una vida sencilla en el temor de DIOS\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-16a"
+          ],
+          "verseId": "proverbios15-nbla-16"
+        }
+      ],
+      "order": 4,
+      "range": "16"
+    },
+    {
+      "explanation": "La sabiduría reconoce los límites del juicio individual. NBLA afirma que la falta de consulta frustra planes; MSG convierte esa verdad en una invitación directa a observar las consecuencias de rechazar consejo. No es una promesa de éxito automático, sino una denuncia de la autosuficiencia.",
+      "id": "proverbios15-joya-05",
+      "msg": {
+        "en": "\"Refuse good advice and watch your plans fail;\"",
+        "es": "\"Rechaza el buen consejo y mira fracasar tus planes;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-22a"
+          ],
+          "verseId": "proverbios15-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22"
+    },
+    {
+      "explanation": "Responder sabiamente requiere un corazón que no actúa en automático. NBLA afirma que el justo medita cómo responder; MSG añade el matiz pastoral de una respuesta considerada en oración. La oración puede acompañar legítimamente esa meditación, pero el ancla doctrinal del versículo es la deliberación del corazón justo.",
+      "id": "proverbios15-joya-06",
+      "msg": {
+        "en": "\"Prayerful answers come from God-loyal people;\"",
+        "es": "\"Las respuestas consideradas en oración vienen de quienes son leales a Dios;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-28a"
+          ],
+          "verseId": "proverbios15-nbla-28"
+        }
+      ],
+      "order": 6,
+      "range": "28"
+    },
+    {
+      "explanation": "El temor del SEÑOR forma; no solo informa. NBLA lo llama instrucción de sabiduría y MSG lo retrata como una escuela de vida diestra. El final del versículo une esa formación con humildad: crecer en sabiduría no produce superioridad, sino una disposición más enseñable.",
+      "id": "proverbios15-joya-07",
+      "msg": {
+        "en": "\"Fear-of-GOD is a school in skilled living—\"",
+        "es": "\"El temor de DIOS es una escuela para vivir con destreza:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios15-nbla-33a"
+          ],
+          "verseId": "proverbios15-nbla-33"
+        }
+      ],
+      "order": 7,
+      "range": "33"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 15,
+    "studyId": "proverbios-15"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios15-msg-01",
+      "msg": {
+        "en": "A gentle response defuses anger,\nbut a sharp tongue kindles a temper-fire.",
+        "es": "Una respuesta amable desactiva la ira; una lengua cortante enciende el fuego del enojo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios15-msg-02",
+      "msg": {
+        "en": "Knowledge flows like spring water from the wise;\nfools are leaky faucets, dripping nonsense.",
+        "es": "El conocimiento fluye como agua de manantial de los sabios; los necios son grifos con fugas que gotean tonterías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios15-msg-03",
+      "msg": {
+        "en": "GOD doesn’t miss a thing—\nhe’s alert to good and evil alike.",
+        "es": "DIOS no se pierde nada: está atento por igual al bien y al mal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios15-msg-04",
+      "msg": {
+        "en": "Kind words heal and help;\ncutting words wound and maim.",
+        "es": "Las palabras bondadosas sanan y ayudan; las palabras hirientes lastiman y mutilan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios15-msg-05",
+      "msg": {
+        "en": "Moral dropouts won’t listen to their elders;\nwelcoming correction is a mark of good sense.",
+        "es": "Quienes abandonan el camino moral no escuchan a sus mayores; recibir bien la corrección es señal de buen juicio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios15-msg-06",
+      "msg": {
+        "en": "The lives of God-loyal people flourish;\na misspent life is soon bankrupt.",
+        "es": "La vida de quienes son leales a Dios florece; una vida malgastada pronto queda en bancarrota."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios15-msg-07",
+      "msg": {
+        "en": "Perceptive words spread knowledge;\nfools are hollow—there’s nothing to them.",
+        "es": "Las palabras perspicaces esparcen conocimiento; los necios están huecos, no hay nada en ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios15-msg-08",
+      "msg": {
+        "en": "GOD can’t stand pious poses,\nbut he delights in genuine prayers.",
+        "es": "DIOS no soporta las apariencias piadosas, pero se deleita en las oraciones sinceras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios15-msg-09",
+      "msg": {
+        "en": "A life frittered away disgusts GOD;\nhe loves those who run straight for the finish line.",
+        "es": "Una vida desperdiciada disgusta a DIOS; Él ama a quienes corren derecho hacia la meta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios15-msg-10",
+      "msg": {
+        "en": "It’s a school of hard knocks for those who leave God’s path,\na dead-end street for those who hate God’s rules.",
+        "es": "Quienes abandonan el camino de Dios entran en una escuela de golpes duros; quienes odian Sus reglas terminan en una calle sin salida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios15-msg-11",
+      "msg": {
+        "en": "Even hell holds no secrets from GOD—\ndo you think he can’t read human hearts?",
+        "es": "Ni siquiera el infierno guarda secretos para DIOS; ¿crees que Él no puede leer los corazones humanos?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios15-msg-12",
+      "msg": {
+        "en": "Know-it-alls don’t like being told what to do;\nthey avoid the company of wise men and women.",
+        "es": "Los sabelotodo no soportan que les digan qué hacer; evitan la compañía de hombres y mujeres sabios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios15-msg-13",
+      "msg": {
+        "en": "A cheerful heart brings a smile to your face;\na sad heart makes it hard to get through the day.",
+        "es": "Un corazón alegre dibuja una sonrisa en tu rostro; un corazón triste hace difícil atravesar el día."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios15-msg-14",
+      "msg": {
+        "en": "An intelligent person is always eager to take in more truth;\nfools feed on fast-food fads and fancies.",
+        "es": "Una persona inteligente siempre desea recibir más verdad; los necios se alimentan de modas y fantasías de comida rápida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios15-msg-15",
+      "msg": {
+        "en": "A miserable heart means a miserable life;\na cheerful heart fills the day with song.",
+        "es": "Un corazón miserable produce una vida miserable; un corazón alegre llena el día de canción."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios15-msg-16",
+      "msg": {
+        "en": "A simple life in the Fear-of-GOD\nis better than a rich life with a ton of headaches.",
+        "es": "Una vida sencilla en el temor de DIOS es mejor que una vida rica cargada de dolores de cabeza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios15-msg-17",
+      "msg": {
+        "en": "Better a bread crust shared in love\nthan a slab of prime rib served in hate.",
+        "es": "Mejor una corteza de pan compartida con amor que un grueso corte de carne servido con odio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios15-msg-18",
+      "msg": {
+        "en": "Hot tempers start fights;\na calm, cool spirit keeps the peace.",
+        "es": "Los temperamentos explosivos comienzan peleas; un espíritu sereno y tranquilo mantiene la paz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios15-msg-19",
+      "msg": {
+        "en": "The path of lazy people is overgrown with briers;\nthe diligent walk down a smooth road.",
+        "es": "El camino de los perezosos está cubierto de zarzas; los diligentes caminan por una vía despejada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios15-msg-20",
+      "msg": {
+        "en": "Intelligent children make their parents proud;\nlazy students embarrass their parents.",
+        "es": "Los hijos inteligentes hacen sentir orgullosos a sus padres; los estudiantes perezosos los avergüenzan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios15-msg-21",
+      "msg": {
+        "en": "The empty-headed treat life as a plaything;\nthe perceptive grasp its meaning and make a go of it.",
+        "es": "Los de cabeza vacía tratan la vida como un juguete; los perceptivos captan su sentido y saben qué hacer con ella."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios15-msg-22",
+      "msg": {
+        "en": "Refuse good advice and watch your plans fail;\ntake good counsel and watch them succeed.",
+        "es": "Rechaza el buen consejo y mira fracasar tus planes; recibe buen consejo y mira cómo prosperan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios15-msg-23",
+      "msg": {
+        "en": "Congenial conversation—what a pleasure!\nThe right word at the right time—beautiful!",
+        "es": "Una conversación cordial, ¡qué placer! Una palabra adecuada en el momento adecuado, ¡qué hermosa!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios15-msg-24",
+      "msg": {
+        "en": "Life ascends to the heights for the thoughtful—\nit’s a clean about-face from descent into hell.",
+        "es": "La vida asciende hacia las alturas para quien piensa con sabiduría; es un cambio completo de dirección frente al descenso al infierno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios15-msg-25",
+      "msg": {
+        "en": "GOD smashes the pretensions of the arrogant;\nhe stands with those who have no standing.",
+        "es": "DIOS derriba las pretensiones de los arrogantes; Él respalda a quienes no tienen posición social."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios15-msg-26",
+      "msg": {
+        "en": "GOD can’t stand evil scheming,\nbut he puts words of grace and beauty on display.",
+        "es": "DIOS no soporta las intrigas malvadas, pero exhibe palabras llenas de gracia y belleza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios15-msg-27",
+      "msg": {
+        "en": "A greedy and grasping person destroys community;\nthose who refuse to exploit live and let live.",
+        "es": "Una persona codiciosa y acaparadora destruye la comunidad; quienes se niegan a explotar a otros viven y dejan vivir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios15-msg-28",
+      "msg": {
+        "en": "Prayerful answers come from God-loyal people;\nthe wicked are sewers of abuse.",
+        "es": "Las respuestas consideradas en oración vienen de quienes son leales a Dios; los malvados son cloacas de abuso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios15-msg-29",
+      "msg": {
+        "en": "GOD keeps his distance from the wicked;\nhe closely attends to the prayers of God-loyal people.",
+        "es": "DIOS mantiene Su distancia de los malvados; presta mucha atención a las oraciones de quienes son leales a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-29"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios15-msg-30",
+      "msg": {
+        "en": "A twinkle in the eye means joy in the heart,\nand good news makes you feel fit as a fiddle.",
+        "es": "Un brillo en los ojos significa alegría en el corazón, y las buenas noticias te hacen sentir lleno de vigor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-30"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios15-msg-31",
+      "msg": {
+        "en": "Listen to good advice if you want to live well,\nan honored guest among wise men and women.",
+        "es": "Escucha los buenos consejos si quieres vivir bien: serás un invitado de honor entre hombres y mujeres sabios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-31"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "editorialRange": "32",
+      "id": "proverbios15-msg-32",
+      "msg": {
+        "en": "An undisciplined, self-willed life is puny;\nan obedient, God-willed life is spacious.",
+        "es": "Una vida indisciplinada y obstinada se encoge; una vida obediente y guiada por la voluntad de Dios se ensancha."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-32"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "editorialRange": "33",
+      "id": "proverbios15-msg-33",
+      "msg": {
+        "en": "Fear-of-GOD is a school in skilled living—\nfirst you learn humility, then you experience glory.",
+        "es": "El temor de DIOS es una escuela para vivir con destreza: primero aprendes humildad y luego experimentas gloria."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios15-nbla-33"
+        }
+      ],
+      "order": 33
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-01a",
+          "order": 1,
+          "text": "La suave respuesta aparta el furor,"
+        },
+        {
+          "id": "proverbios15-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la palabra hiriente hace subir la ira."
+        }
+      ],
+      "id": "proverbios15-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "proverbios15-nbla-02",
+      "number": 2,
+      "text": "La lengua del sabio hace grato el conocimiento,\nPero la boca de los necios habla necedades."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-03a",
+          "order": 1,
+          "text": "En todo lugar están los ojos del SEÑOR,"
+        },
+        {
+          "id": "proverbios15-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Observando a los malos y a los buenos."
+        }
+      ],
+      "id": "proverbios15-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-04a",
+          "order": 1,
+          "text": "La lengua apacible es árbol de vida,"
+        },
+        {
+          "id": "proverbios15-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la perversidad en ella quebranta el espíritu."
+        }
+      ],
+      "id": "proverbios15-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "proverbios15-nbla-05",
+      "number": 5,
+      "text": "El necio rechaza la disciplina de su padre,\nPero es prudente el que acepta la reprensión."
+    },
+    {
+      "id": "proverbios15-nbla-06",
+      "number": 6,
+      "text": "En la casa del justo hay mucha riqueza,\nPero en las ganancias del impío hay turbación."
+    },
+    {
+      "id": "proverbios15-nbla-07",
+      "number": 7,
+      "text": "Los labios de los sabios esparcen conocimiento,\nPero no así el corazón de los necios."
+    },
+    {
+      "id": "proverbios15-nbla-08",
+      "number": 8,
+      "text": "El sacrificio de los impíos es abominación al SEÑOR,\nPero la oración de los rectos es Su deleite."
+    },
+    {
+      "id": "proverbios15-nbla-09",
+      "number": 9,
+      "text": "Abominación al SEÑOR es el camino del impío,\nPero Él ama al que sigue la justicia."
+    },
+    {
+      "id": "proverbios15-nbla-10",
+      "number": 10,
+      "text": "La disciplina severa es para el que abandona el camino;\nEl que aborrece la reprensión morirá."
+    },
+    {
+      "id": "proverbios15-nbla-11",
+      "number": 11,
+      "text": "El Seol y el Abadón están delante del SEÑOR,\n¡Cuánto más los corazones de los hombres!"
+    },
+    {
+      "id": "proverbios15-nbla-12",
+      "number": 12,
+      "text": "El insolente no ama al que lo reprende,\nNi se allegará a los sabios."
+    },
+    {
+      "id": "proverbios15-nbla-13",
+      "number": 13,
+      "text": "El corazón gozoso alegra el rostro,\nPero en la tristeza del corazón se quebranta el espíritu."
+    },
+    {
+      "id": "proverbios15-nbla-14",
+      "number": 14,
+      "text": "El corazón inteligente busca conocimiento,\nPero la boca de los necios se alimenta de necedades."
+    },
+    {
+      "id": "proverbios15-nbla-15",
+      "number": 15,
+      "text": "Todos los días del afligido son malos,\nPero el de corazón alegre tiene un banquete continuo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-16a",
+          "order": 1,
+          "text": "Mejor es poco con temor del SEÑOR,"
+        },
+        {
+          "id": "proverbios15-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que gran tesoro con turbación."
+        }
+      ],
+      "id": "proverbios15-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "proverbios15-nbla-17",
+      "number": 17,
+      "text": "Mejor es un plato de legumbres donde hay amor,\nQue buey engordado con odio."
+    },
+    {
+      "id": "proverbios15-nbla-18",
+      "number": 18,
+      "text": "El hombre irascible provoca riñas,\nPero el lento para la ira apacigua pleitos."
+    },
+    {
+      "id": "proverbios15-nbla-19",
+      "number": 19,
+      "text": "El camino del perezoso es como un seto de espinos,\nPero la senda de los rectos es una calzada."
+    },
+    {
+      "id": "proverbios15-nbla-20",
+      "number": 20,
+      "text": "El hijo sabio alegra al padre,\nPero el hombre necio desprecia a su madre."
+    },
+    {
+      "id": "proverbios15-nbla-21",
+      "number": 21,
+      "text": "La necedad es alegría para el insensato,\nPero el hombre inteligente anda rectamente."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-22a",
+          "order": 1,
+          "text": "Sin consulta, los planes se frustran,"
+        },
+        {
+          "id": "proverbios15-nbla-22b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero con muchos consejeros, triunfan."
+        }
+      ],
+      "id": "proverbios15-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "proverbios15-nbla-23",
+      "number": 23,
+      "text": "El hombre se alegra con la respuesta adecuada,\nY una palabra a tiempo, ¡cuán agradable es!"
+    },
+    {
+      "id": "proverbios15-nbla-24",
+      "number": 24,
+      "text": "La senda de la vida para el sabio es hacia arriba\nPara que se aparte del Seol que está abajo."
+    },
+    {
+      "id": "proverbios15-nbla-25",
+      "number": 25,
+      "text": "El SEÑOR derribará la casa de los soberbios,\nPero afianzará los linderos de la viuda."
+    },
+    {
+      "id": "proverbios15-nbla-26",
+      "number": 26,
+      "text": "Abominación al SEÑOR son los planes perversos,\nPero son puras las palabras agradables."
+    },
+    {
+      "id": "proverbios15-nbla-27",
+      "number": 27,
+      "text": "Perturba su casa el que tiene ganancias ilícitas,\nPero el que aborrece el soborno, vivirá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-28a",
+          "order": 1,
+          "text": "El corazón del justo medita cómo responder,"
+        },
+        {
+          "id": "proverbios15-nbla-28b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la boca de los impíos habla lo malo."
+        }
+      ],
+      "id": "proverbios15-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "proverbios15-nbla-29",
+      "number": 29,
+      "text": "El SEÑOR está lejos de los impíos,\nPero escucha la oración de los justos."
+    },
+    {
+      "id": "proverbios15-nbla-30",
+      "number": 30,
+      "text": "La luz de los ojos alegra el corazón,\nY las buenas noticias fortalecen los huesos."
+    },
+    {
+      "id": "proverbios15-nbla-31",
+      "number": 31,
+      "text": "Aquel cuyo oído escucha las reprensiones de la vida\nMorará entre los sabios."
+    },
+    {
+      "id": "proverbios15-nbla-32",
+      "number": 32,
+      "text": "El que tiene en poco la disciplina se desprecia a sí mismo,\nPero el que escucha las reprensiones adquiere entendimiento."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios15-nbla-33a",
+          "order": 1,
+          "text": "El temor del SEÑOR es instrucción de sabiduría,"
+        },
+        {
+          "id": "proverbios15-nbla-33b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y antes de la gloria está la humildad."
+        }
+      ],
+      "id": "proverbios15-nbla-33",
+      "number": 33
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job pide una evaluación proporcional. NBLA conserva la imagen de la balanza y el peso de la calamidad; MSG vuelve palpable la carga amarga. El punto no es que el dolor vuelva correctas todas las palabras, sino que una respuesta justa debe tomar en serio el peso que las produjo.",
+      "id": "job6-joya-01",
+      "msg": {
+        "en": "\"If my misery could be weighed,\nif you could pile the whole bitter load on the scales,\nIt would be heavier than all the sand of the sea!\"",
+        "es": "\"¡Si pudiera pesarse mi sufrimiento,\nsi pudieran poner toda esta carga amarga sobre una balanza!\n¡Pesaría más que toda la arena del mar!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-02"
+        },
+        {
+          "clauseIds": [
+            "job6-nbla-03a"
+          ],
+          "verseId": "job6-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "Incluso dentro de su desesperación, Job apela a una fidelidad que todavía considera intacta. NBLA dice específicamente que no ha negado las palabras del Santo; MSG lo expresa como no haber blasfemado contra Dios. La NBLA limita la conclusión: no debemos ampliar la frase para afirmar más de lo que el texto literal sostiene.",
+      "id": "job6-joya-02",
+      "msg": {
+        "en": "\"I’d at least have the satisfaction\nof not having blasphemed the Holy God,\"",
+        "es": "\"Al menos tendría la satisfacción\nde no haber blasfemado contra el Dios Santo\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "10"
+    },
+    {
+      "explanation": "La obligación central es la compasión. NBLA es más precisa que MSG: la misericordia del amigo puede impedir que el abatido abandone el temor del Todopoderoso. MSG vuelve visible la lealtad que se necesita en la crisis. Por eso no debe enseñarse que Job ya ha abandonado a Dios; la NBLA muestra el peligro que la amistad compasiva debería ayudar a contener.",
+      "id": "job6-joya-03",
+      "msg": {
+        "en": "\"When desperate people give up on God Almighty,\ntheir friends, at least, should stick with them.\"",
+        "es": "\"Cuando las personas desesperadas abandonan al Dios Todopoderoso,\nsus amigos, por lo menos, deberían permanecer a su lado.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "Job no rechaza la corrección. Pide evidencia y está dispuesto a callar si le muestran su error. NBLA fija esa apertura; MSG la convierte en una confrontación directa con la verdad. Esto desmonta la caricatura de un Job que solo quiere justificarse y no escuchar a nadie.",
+      "id": "job6-joya-04",
+      "msg": {
+        "en": "\"Confront me with the truth and I’ll shut up,\nshow me where I’ve gone off the track.\"",
+        "es": "\"Enfréntenme con la verdad y me quedaré callado;\nmuéstrenme dónde me desvié.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24-25"
+    },
+    {
+      "explanation": "Aquí MSG y NBLA no pueden tratarse como si dijeran lo mismo literalmente. NBLA afirma que las palabras sinceras pueden ser dolorosas; MSG formula una expansión pastoral que subraya que la verdad honesta no es el problema de Job. La doctrina debe quedar gobernada por NBLA y el contexto: la verdad puede doler, pero un argumento piadoso que no demuestra nada no debe confundirse con corrección verdadera.",
+      "id": "job6-joya-05",
+      "msg": {
+        "en": "\"Honest words never hurt anyone,\"",
+        "es": "\"Las palabras sinceras nunca le hacen daño a nadie,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job6-nbla-25a"
+          ],
+          "verseId": "job6-nbla-25"
+        }
+      ],
+      "order": 5,
+      "range": "25"
+    },
+    {
+      "explanation": "Job entiende que el debate ya no trata solo de ideas, sino de su integridad. NBLA enmarca su petición como una cuestión de justicia; MSG hace visible lo que está en juego para él. El sufrimiento no le quita el derecho a ser evaluado justamente ni convierte las sospechas de sus amigos en hechos.",
+      "id": "job6-joya-06",
+      "msg": {
+        "en": "\"Think carefully—my integrity is on the line!\"",
+        "es": "\"Piénsenlo con cuidado: ¡mi integridad está en juego!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-29"
+        }
+      ],
+      "order": 6,
+      "range": "28-30"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 6,
+    "studyId": "job-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-7",
+      "id": "job6-msg-01",
+      "msg": {
+        "en": "Job answered:\n“If my misery could be weighed,\nif you could pile the whole bitter load on the scales,\nIt would be heavier than all the sand of the sea!\nIs it any wonder that I’m screaming like a caged cat?\nThe arrows of God Almighty are in me,\npoison arrows—and I’m poisoned all through!\nGod has dumped the whole works on me.\nDonkeys bray and cows moo when they run out of pasture—\nso don’t expect me to keep quiet in this.\nDo you see what God has dished out for me?\nIt’s enough to turn anyone’s stomach!\nEverything in me is repulsed by it—\nit makes me sick.",
+        "es": "Job respondió:\n«¡Si pudiera pesarse mi sufrimiento,\nsi pudieran poner toda esta carga amarga sobre una balanza!\n¡Pesaría más que toda la arena del mar!\n¿Es de extrañar que grite como un gato enjaulado?\nLas flechas del Dios Todopoderoso están clavadas en mí,\nflechas envenenadas, ¡y el veneno me atraviesa por completo!\nDios me ha descargado encima todo el peso.\nLos asnos rebuznan y las vacas mugen cuando se quedan sin pasto;\nasí que no esperen que yo permanezca callado en esto.\n¿Ven lo que Dios me ha servido?\n¡Es suficiente para revolverle el estómago a cualquiera!\nTodo dentro de mí lo rechaza:\nme enferma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-07"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "8-13",
+      "id": "job6-msg-02",
+      "msg": {
+        "en": "All I want is an answer to one prayer,\na last request to be honored:\nLet God step on me—squash me like a bug,\nand be done with me for good.\nI’d at least have the satisfaction\nof not having blasphemed the Holy God,\nbefore being pressed past the limits.\nWhere’s the strength to keep my hopes up?\nWhat future do I have to keep me going?\nDo you think I have nerves of steel?\nDo you think I’m made of iron?\nDo you think I can pull myself up by my bootstraps?\nWhy, I don’t even have any boots!",
+        "es": "Todo lo que quiero es que una oración sea respondida,\nque se me conceda una última petición:\nque Dios me aplaste, me triture como a un insecto,\ny termine conmigo de una vez.\nAl menos tendría la satisfacción\nde no haber blasfemado contra el Dios Santo\nantes de ser llevado más allá de mis límites.\n¿Dónde está la fuerza para seguir alimentando mis esperanzas?\n¿Qué futuro tengo para seguir adelante?\n¿Creen que tengo nervios de acero?\n¿Creen que estoy hecho de hierro?\n¿Creen que puedo sacarme adelante yo solo?\n¡Si ni siquiera tengo botas!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-13"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "14-23",
+      "id": "job6-msg-03",
+      "msg": {
+        "en": "“When desperate people give up on God Almighty,\ntheir friends, at least, should stick with them.\nBut my brothers are fickle as a gulch in the desert—\none day they’re gushing with water\nFrom melting ice and snow\ncascading out of the mountains,\nBut by midsummer they’re dry,\ngullies baked dry in the sun.\nTravelers who spot them and go out of their way for a drink\nend up in a waterless gulch and die of thirst.\nMerchant caravans from Tema see them and expect water,\ntourists from Sheba hope for a cool drink.\nThey arrive so confident—but what a disappointment!\nThey get there, and their faces fall!\nAnd you, my so-called friends, are no better—there’s nothing to you!\nOne look at a hard scene and you shrink in fear.\nIt’s not as though I asked you for anything—\nI didn’t ask you for one red cent—\nNor did I beg you to go out on a limb for me.\nSo why all this dodging and shuffling?",
+        "es": "«Cuando las personas desesperadas abandonan al Dios Todopoderoso,\nsus amigos, por lo menos, deberían permanecer a su lado.\nPero mis hermanos son inconstantes como un arroyo en el desierto:\nun día baja desbordado de agua\npor el hielo y la nieve derretidos\nque caen desde las montañas,\npero a mediados del verano queda seco,\ncon sus cauces cocidos por el sol.\nLos viajeros que los ven se desvían buscando agua\ny terminan en un cauce seco, muriendo de sed.\nLas caravanas de mercaderes de Temán los ven y esperan encontrar agua;\nlos viajeros de Sabá esperan una bebida fresca.\nLlegan llenos de confianza, ¡pero qué decepción!\nLlegan hasta allí y se les cae el rostro.\nY ustedes, mis supuestos amigos, no son mejores: ¡no hay nada en ustedes!\nBasta con que vean una escena difícil y retroceden asustados.\nNo es como si yo les hubiera pedido algo;\nno les pedí ni un centavo,\nni les rogué que se arriesgaran por mí.\nEntonces, ¿por qué tantas evasivas y maniobras?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-23"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "job6-msg-04",
+      "msg": {
+        "en": "“Confront me with the truth and I’ll shut up,\nshow me where I’ve gone off the track.\nHonest words never hurt anyone,\nbut what’s the point of all this pious bluster?\nYou pretend to tell me what’s wrong with my life,\nbut treat my words of anguish as so much hot air.\nAre people mere things to you?\nAre friends just items of profit and loss?",
+        "es": "«Enfréntenme con la verdad y me quedaré callado;\nmuéstrenme dónde me desvié.\nLas palabras sinceras nunca le hacen daño a nadie,\npero ¿qué sentido tiene toda esta palabrería piadosa?\nPretenden decirme qué está mal en mi vida,\npero tratan mis palabras de angustia como si fueran puro viento.\n¿Las personas son simples cosas para ustedes?\n¿Los amigos son apenas cifras en una cuenta de pérdidas y ganancias?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-27"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "job6-msg-05",
+      "msg": {
+        "en": "“Look me in the eyes!\nDo you think I’d lie to your face?\nThink it over—no double-talk!\nThink carefully—my integrity is on the line!\nCan you detect anything false in what I say?\nDon’t you trust me to discern good from evil?”",
+        "es": "«¡Mírenme a los ojos!\n¿Creen que les mentiría en la cara?\nPiénsenlo de nuevo: ¡sin evasivas!\nPiénsenlo con cuidado: ¡mi integridad está en juego!\n¿Pueden detectar algo falso en lo que digo?\n¿No confían en que puedo discernir el bien del mal?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job6-nbla-30"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job6-nbla-01",
+      "number": 1,
+      "text": "Entonces Job respondió:"
+    },
+    {
+      "id": "job6-nbla-02",
+      "number": 2,
+      "text": "«¡Oh, si pudiera pesarse mi sufrimiento,\nY ponerse en la balanza junto con mi calamidad!"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job6-nbla-03a",
+          "order": 1,
+          "text": "Porque pesarían ahora más que la arena de los mares;"
+        },
+        {
+          "id": "job6-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Por eso mis palabras han sido precipitadas."
+        }
+      ],
+      "id": "job6-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "job6-nbla-04",
+      "number": 4,
+      "text": "Porque las flechas del Todopoderoso están clavadas en mí,\nCuyo veneno bebe mi espíritu;\nContra mí se juntan los terrores de Dios."
+    },
+    {
+      "id": "job6-nbla-05",
+      "number": 5,
+      "text": "¿Acaso rebuzna el asno montés junto a su hierba,\nO muge el buey junto a su forraje?"
+    },
+    {
+      "id": "job6-nbla-06",
+      "number": 6,
+      "text": "¿Se come sin sal lo insípido,\nO hay gusto en la clara del huevo?"
+    },
+    {
+      "id": "job6-nbla-07",
+      "number": 7,
+      "text": "Mi alma se niega a tocar estas cosas;\nSon alimento repugnante para mí."
+    },
+    {
+      "id": "job6-nbla-08",
+      "number": 8,
+      "text": "»¡Quién me diera que mi petición se cumpliera,\nQue Dios me concediera mi anhelo,"
+    },
+    {
+      "id": "job6-nbla-09",
+      "number": 9,
+      "text": "Que Dios consintiera en aplastarme,\nQue soltara Su mano y acabara conmigo!"
+    },
+    {
+      "id": "job6-nbla-10",
+      "number": 10,
+      "text": "Pero aún tengo consuelo,\nY me regocijo en el dolor sin tregua,\nQue no he negado las palabras del Santo."
+    },
+    {
+      "id": "job6-nbla-11",
+      "number": 11,
+      "text": "¿Cuál es mi fuerza, para que yo espere,\nY cuál es mi fin, para que yo resista?"
+    },
+    {
+      "id": "job6-nbla-12",
+      "number": 12,
+      "text": "¿Es mi fuerza la fuerza de las piedras,\nO es mi carne de bronce?"
+    },
+    {
+      "id": "job6-nbla-13",
+      "number": 13,
+      "text": "¿Es que mi ayuda no está dentro de mí,\nY está alejado de mí todo auxilio?"
+    },
+    {
+      "id": "job6-nbla-14",
+      "number": 14,
+      "text": "»Para el abatido, debe haber compasión de parte de su amigo;\nNo sea que abandone el temor del Todopoderoso."
+    },
+    {
+      "id": "job6-nbla-15",
+      "number": 15,
+      "text": "Mis hermanos han obrado engañosamente como un torrente,\nComo las corrientes de los arroyos que se desvanecen,"
+    },
+    {
+      "id": "job6-nbla-16",
+      "number": 16,
+      "text": "Que a causa del hielo están turbios\nY en los que la nieve se derrite."
+    },
+    {
+      "id": "job6-nbla-17",
+      "number": 17,
+      "text": "Cuando se quedan sin agua, están silenciosos,\nCuando hace calor, desaparecen de su lugar."
+    },
+    {
+      "id": "job6-nbla-18",
+      "number": 18,
+      "text": "Serpentean las sendas de su curso,\nSe evaporan en la nada y perecen."
+    },
+    {
+      "id": "job6-nbla-19",
+      "number": 19,
+      "text": "Las caravanas de Temán los buscaron,\nLos viajeros de Sabá contaban con ellos."
+    },
+    {
+      "id": "job6-nbla-20",
+      "number": 20,
+      "text": "Quedaron frustrados porque habían confiado,\nLlegaron allí y fueron confundidos."
+    },
+    {
+      "id": "job6-nbla-21",
+      "number": 21,
+      "text": "Ciertamente, así son ustedes ahora,\nVen algo aterrador y se espantan."
+    },
+    {
+      "id": "job6-nbla-22",
+      "number": 22,
+      "text": "¿Acaso he dicho: “Denme algo,\nDe su riqueza ofrézcanme un soborno,"
+    },
+    {
+      "id": "job6-nbla-23",
+      "number": 23,
+      "text": "Líbrenme de la mano del adversario”,\nO: “Rescátenme de la mano de los tiranos”?"
+    },
+    {
+      "id": "job6-nbla-24",
+      "number": 24,
+      "text": "»Instrúyanme, y yo me callaré;\nMuéstrenme en qué he errado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job6-nbla-25a",
+          "order": 1,
+          "text": "¡Cuán dolorosas son las palabras sinceras!"
+        },
+        {
+          "id": "job6-nbla-25b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero ¿qué prueba el argumento de ustedes?"
+        }
+      ],
+      "id": "job6-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "job6-nbla-26",
+      "number": 26,
+      "text": "¿Piensan censurar mis palabras,\nCuando las palabras del desesperado se las lleva el viento?"
+    },
+    {
+      "id": "job6-nbla-27",
+      "number": 27,
+      "text": "Aun echarían suerte sobre los huérfanos,\nY especularían con su amigo."
+    },
+    {
+      "id": "job6-nbla-28",
+      "number": 28,
+      "text": "Y ahora, traten de mirarme,\nY vean si miento en sus propias caras."
+    },
+    {
+      "id": "job6-nbla-29",
+      "number": 29,
+      "text": "Desistan, por favor; que no haya injusticia;\nSí, desistan; en ello está aún mi justicia."
+    },
+    {
+      "id": "job6-nbla-30",
+      "number": 30,
+      "text": "¿Acaso hay injusticia en mi lengua?\n¿No puede mi paladar discernir calamidades?"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

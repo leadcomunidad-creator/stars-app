@@ -1,0 +1,413 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El lamento bíblico puede expresar la amargura sin disfrazarla. NBLA fija el acto de dar rienda suelta a la queja; MSG lo vuelve visible como ponerlo todo sobre la mesa. El texto no enseña que toda acusación pronunciada en el dolor sea correcta, sino que Job lleva su angustia a Dios en lugar de fingir.",
+      "id": "job10-joya-01",
+      "msg": {
+        "en": "\"I’m putting it all out on the table,\nall the bitterness of my life—I’m holding back nothing.\"",
+        "es": "\"Voy a ponerlo todo sobre la mesa,\ntoda la amargura de mi vida; no voy a guardarme nada».\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job10-nbla-01b"
+          ],
+          "verseId": "job10-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Job desea una relación en la que pueda conocer de qué se le acusa. NBLA conserva esa petición judicial; MSG intensifica la escena con el lenguaje del veredicto y los cargos. El límite es decisivo: el capítulo expresa lo que Job siente, no demuestra que Dios realmente lo haya declarado culpable.",
+      "id": "job10-joya-02",
+      "msg": {
+        "en": "\"Don’t, God, bring in a verdict of guilty\nwithout letting me know the charges you’re bringing.\"",
+        "es": "\"No, Dios, no dictes un veredicto de culpable\nsin dejarme saber cuáles son los cargos que presentas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2-3"
+    },
+    {
+      "explanation": "Job apela al hecho de haber sido formado por Dios. NBLA ancla la imagen en las manos que formaron y en la pregunta por la destrucción; MSG vuelve tangible esa tensión mediante la pieza de cerámica. La imagen expresa la protesta de Job y no autoriza a concluir que el Creador disfruta destruyendo lo que formó.",
+      "id": "job10-joya-03",
+      "msg": {
+        "en": "\"You made me like a handcrafted piece of pottery—\nand now are you going to smash me to pieces?\"",
+        "es": "\"Me hiciste como una pieza de cerámica hecha a mano:\n¿y ahora vas a hacerme pedazos?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "En el centro del lamento permanece una confesión del cuidado de Dios. NBLA habla de vida, misericordia y cuidado; MSG lo expresa como amor y vigilancia de cada aliento. Aquí la expansión pastoral está firmemente limitada por la afirmación literal: Job recuerda que su vida fue recibida bajo el cuidado divino.",
+      "id": "job10-joya-04",
+      "msg": {
+        "en": "\"You gave me life itself, and incredible love.\nYou watched and guarded every breath I took.\"",
+        "es": "\"Me diste la vida misma y un amor increíble.\nVigilaste y guardaste cada aliento que di.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "12"
+    },
+    {
+      "explanation": "Job pide un breve alivio dentro de un sufrimiento que percibe como interminable. NBLA fija la petición de consuelo antes de morir; MSG la expresa como poder sonreír una vez. El texto debe acompañar la desesperación con seriedad, no presentar la muerte como respuesta pastoral ni convertir la percepción de Job sobre el más allá en la totalidad de la revelación bíblica.",
+      "id": "job10-joya-05",
+      "msg": {
+        "en": "\"Can’t you let up, and let me smile just once\nBefore I die and am buried,\"",
+        "es": "\"¿No puedes aflojar y dejarme sonreír una sola vez\nantes de que muera y sea enterrado,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job10-nbla-20b"
+          ],
+          "verseId": "job10-nbla-20"
+        },
+        {
+          "clauseIds": [
+            "job10-nbla-21a"
+          ],
+          "verseId": "job10-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "20-21"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 10,
+    "studyId": "job-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "job10-msg-01",
+      "msg": {
+        "en": "“I can’t stand my life—I hate it!\nI’m putting it all out on the table,\nall the bitterness of my life—I’m holding back nothing.”",
+        "es": "«No soporto mi vida: ¡la odio!\nVoy a ponerlo todo sobre la mesa,\ntoda la amargura de mi vida; no voy a guardarme nada»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-7",
+      "id": "job10-msg-02",
+      "msg": {
+        "en": "Job prayed;\n“Here’s what I want to say:\nDon’t, God, bring in a verdict of guilty\nwithout letting me know the charges you’re bringing.\nHow does this fit into what you once called ‘good’—\ngiving me a hard time, spurning me,\na life you shaped by your very own hands,\nand then blessing the plots of the wicked?\nYou don’t look at things the way we mortals do.\nYou’re not taken in by appearances, are you?\nUnlike us, you’re not working against a deadline.\nYou have all eternity to work things out.\nSo what’s this all about, anyway—this compulsion\nto dig up some dirt, to find some skeleton in my closet?\nYou know good and well I’m not guilty.\nYou also know no one can help me.",
+        "es": "Job oró:\n«Esto es lo que quiero decir:\nNo, Dios, no dictes un veredicto de culpable\nsin dejarme saber cuáles son los cargos que presentas.\n¿Cómo encaja esto con aquello que una vez llamaste “bueno”:\nhacerme la vida difícil, rechazarme —a mí, a quien moldeaste con Tus propias manos—,\ny luego favorecer los planes de los malvados?\nTú no miras las cosas como nosotros los mortales.\nNo te dejas engañar por las apariencias, ¿verdad?\nA diferencia de nosotros, Tú no trabajas contra reloj.\nTienes toda la eternidad para resolver las cosas.\nEntonces, ¿de qué se trata todo esto, en realidad:\nesta obsesión por desenterrar algo sucio,\npor encontrar algún esqueleto en mi armario?\nTú sabes perfectamente bien que no soy culpable.\nTambién sabes que nadie puede ayudarme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-12",
+      "id": "job10-msg-03",
+      "msg": {
+        "en": "“You made me like a handcrafted piece of pottery—\nand now are you going to smash me to pieces?\nDon’t you remember how beautifully you worked my clay?\nWill you reduce me now to a mud pie?\nOh, that marvel of conception as you stirred together\nsemen and ovum—\nWhat a miracle of skin and bone,\nmuscle and brain!\nYou gave me life itself, and incredible love.\nYou watched and guarded every breath I took.",
+        "es": "«Me hiciste como una pieza de cerámica hecha a mano:\n¿y ahora vas a hacerme pedazos?\n¿No recuerdas lo hermosamente que trabajaste mi barro?\n¿Vas a reducirme ahora a un montón de lodo?\nAh, aquella maravilla de la concepción cuando mezclaste\nsemen y óvulo...\n¡Qué milagro de piel y hueso,\nmúsculo y cerebro!\nMe diste la vida misma y un amor increíble.\nVigilaste y guardaste cada aliento que di."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-17",
+      "id": "job10-msg-04",
+      "msg": {
+        "en": "“But you never told me about this part.\nI should have known that there was more to it—\nThat if I so much as missed a step, you’d notice and pounce,\nwouldn’t let me get by with a thing.\nIf I’m truly guilty, I’m doomed.\nBut if I’m innocent, it’s no better—I’m still doomed.\nMy belly is full of bitterness.\nI’m up to my ears in a swamp of affliction.\nI try to make the best of it, try to brave it out,\nbut you’re too much for me,\nrelentless, like a lion on the prowl.\nYou line up fresh witnesses against me.\nYou compound your anger\nand pile on the grief and pain!",
+        "es": "«Pero nunca me contaste esta parte.\nDebí haber sabido que había algo más:\nque si daba un solo paso en falso, lo notarías y te abalanzarías,\nsin dejarme pasar ni una.\nSi de verdad soy culpable, estoy condenado.\nPero si soy inocente, no es mejor: sigo condenado.\nTengo el vientre lleno de amargura.\nEstoy hundido hasta las orejas en un pantano de aflicción.\nTrato de sacar lo mejor de esto, trato de mantenerme firme,\npero eres demasiado para mí,\nimplacable como un león al acecho.\nPones en fila nuevos testigos contra mí.\nMultiplicas Tu ira\ny amontonas sobre mí el dolor y la pena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-17"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "18-22",
+      "id": "job10-msg-05",
+      "msg": {
+        "en": "“So why did you have me born?\nI wish no one had ever laid eyes on me!\nI wish I’d never lived—a stillborn,\nburied without ever having breathed.\nIsn’t it time to call it quits on my life?\nCan’t you let up, and let me smile just once\nBefore I die and am buried,\nbefore I’m nailed into my coffin, sealed in the ground,\nAnd banished for good to the land of the dead,\nblind in the final dark?”",
+        "es": "«Entonces, ¿para qué hiciste que naciera?\n¡Ojalá nadie me hubiera visto jamás!\nOjalá nunca hubiera vivido: un niño nacido muerto,\nenterrado sin haber respirado.\n¿No es hora ya de poner fin a mi vida?\n¿No puedes aflojar y dejarme sonreír una sola vez\nantes de que muera y sea enterrado,\nantes de que me claven en mi ataúd, sellado bajo tierra,\ny sea desterrado para siempre a la tierra de los muertos,\nciego en la oscuridad final?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job10-nbla-22"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "job10-nbla-01a",
+          "order": 1,
+          "text": "»Hastiado estoy de mi vida:"
+        },
+        {
+          "id": "job10-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Daré rienda suelta a mi queja,\nHablaré en la amargura de mi alma."
+        }
+      ],
+      "id": "job10-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "job10-nbla-02",
+      "number": 2,
+      "text": "Le diré a Dios: “No me condenes,\nHazme saber qué tienes contra mí."
+    },
+    {
+      "id": "job10-nbla-03",
+      "number": 3,
+      "text": "¿Es justo para Ti oprimir,\nRechazar la obra de Tus manos,\nY mirar con favor los designios de los malos?"
+    },
+    {
+      "id": "job10-nbla-04",
+      "number": 4,
+      "text": "¿Acaso tienes Tú ojos de carne,\nO ves como el hombre ve?"
+    },
+    {
+      "id": "job10-nbla-05",
+      "number": 5,
+      "text": "¿Son Tus días como los días de un mortal,\nO Tus años como los años del hombre,"
+    },
+    {
+      "id": "job10-nbla-06",
+      "number": 6,
+      "text": "Para que andes averiguando mi culpa,\nY buscando mi pecado?"
+    },
+    {
+      "id": "job10-nbla-07",
+      "number": 7,
+      "text": "Según Tu conocimiento ciertamente no soy culpable;\nSin embargo, no hay salvación de Tu mano."
+    },
+    {
+      "id": "job10-nbla-08",
+      "number": 8,
+      "text": "”Tus manos me formaron y me hicieron,\n¿Y me destruirás?"
+    },
+    {
+      "id": "job10-nbla-09",
+      "number": 9,
+      "text": "Acuérdate ahora que me has modelado como a barro,\n¿Y me harás volver al polvo?"
+    },
+    {
+      "id": "job10-nbla-10",
+      "number": 10,
+      "text": "¿No me derramaste como leche,\nY como queso me cuajaste?"
+    },
+    {
+      "id": "job10-nbla-11",
+      "number": 11,
+      "text": "¿No me vestiste de piel y de carne,\nY me entretejiste con huesos y tendones?"
+    },
+    {
+      "id": "job10-nbla-12",
+      "number": 12,
+      "text": "Vida y misericordia me has concedido,\nY Tu cuidado ha guardado mi espíritu."
+    },
+    {
+      "id": "job10-nbla-13",
+      "number": 13,
+      "text": "Sin embargo, tienes escondidas estas cosas en Tu corazón,\nYo sé que esto está dentro de Ti:"
+    },
+    {
+      "id": "job10-nbla-14",
+      "number": 14,
+      "text": "Si pecara, me lo tomarías en cuenta,\nY no me absolverías de mi culpa."
+    },
+    {
+      "id": "job10-nbla-15",
+      "number": 15,
+      "text": "Si soy malvado, ¡ay de mí!,\nY si soy justo, no me atrevo a levantar la cabeza.\nEstoy lleno de deshonra y consciente de mi aflicción."
+    },
+    {
+      "id": "job10-nbla-16",
+      "number": 16,
+      "text": "Si mi cabeza se levantara, como león me cazarías,\nY mostrarías Tu poder contra mí."
+    },
+    {
+      "id": "job10-nbla-17",
+      "number": 17,
+      "text": "Renuevas Tus pruebas contra mí,\nY te ensañas conmigo;\nTropas de relevo vienen contra mí."
+    },
+    {
+      "id": "job10-nbla-18",
+      "number": 18,
+      "text": "”¿Por qué, pues, me sacaste de la matriz?\n¡Ojalá que hubiera muerto y nadie me hubiera visto!"
+    },
+    {
+      "id": "job10-nbla-19",
+      "number": 19,
+      "text": "Sería como si no hubiera existido,\nLlevado del vientre a la sepultura”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job10-nbla-20a",
+          "order": 1,
+          "text": "¿No dejará Él en paz mis breves días?"
+        },
+        {
+          "id": "job10-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Apártate de mí para que me consuele un poco"
+        }
+      ],
+      "id": "job10-nbla-20",
+      "number": 20
+    },
+    {
+      "clauses": [
+        {
+          "id": "job10-nbla-21a",
+          "order": 1,
+          "text": "Antes que me vaya, para no volver,"
+        },
+        {
+          "id": "job10-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A la tierra de tinieblas y de sombras profundas;"
+        }
+      ],
+      "id": "job10-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "job10-nbla-22",
+      "number": 22,
+      "text": "Tierra tan lóbrega como las mismas tinieblas,\nDe sombras profundas, sin orden,\nY donde la luz es como las tinieblas»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

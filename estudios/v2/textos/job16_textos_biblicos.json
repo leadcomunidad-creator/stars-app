@@ -1,0 +1,388 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La presencia de palabras religiosas no garantiza verdadero consuelo. NBLA nombra directamente a los amigos como «consoladores molestos»; MSG intensifica la acusación. El punto no es que todo consejo duela, sino que el acompañamiento que acusa sin comprender puede aumentar la aflicción.",
+      "id": "job16-joya-01",
+      "msg": {
+        "en": "\"What a bunch of miserable comforters!\"",
+        "es": "\"¡Qué grupo de consoladores miserables!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job16-nbla-02b"
+          ],
+          "verseId": "job16-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Job articula un criterio pastoral positivo: las palabras pueden aliviar. NBLA fija el propósito como alentar y disminuir el dolor; MSG vuelve explícito el contraste entre mejorar y empeorar. El texto llama a evaluar no solo si hablamos, sino qué produce nuestra manera de hablar en quien está herido.",
+      "id": "job16-joya-02",
+      "msg": {
+        "en": "\"But I’d never do that. I’d console and comfort,\nmake things better, not worse!\"",
+        "es": "\"Pero jamás haría eso. Yo los alentaría y consolaría,\nharía que las cosas mejoraran, no que empeoraran.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "Job niega la clase de violencia y doblez que sus amigos suponen detrás de su calamidad. NBLA sostiene esa defensa específica; MSG la expresa de manera conversacional. No debe transformarse en afirmación de perfección absoluta, sino leerse dentro del expediente concreto del libro.",
+      "id": "job16-joya-03",
+      "msg": {
+        "en": "\"Even though I’ve never hurt a soul\nand my prayers are sincere!\"",
+        "es": "\"aunque nunca he hecho violencia a nadie\ny mis oraciones son sinceras.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-17"
+        }
+      ],
+      "order": 3,
+      "range": "17"
+    },
+    {
+      "explanation": "Job apela más allá de sus amigos hacia un testigo celestial que conozca su causa. NBLA fija las categorías «testigo» y «defensor»; MSG las vuelve personales mediante «Alguien». El texto no identifica explícitamente a esa figura con Jesús, por lo que la cristología debe construirse desde el desarrollo canónico posterior.",
+      "id": "job16-joya-04",
+      "msg": {
+        "en": "\"There must be Someone in heaven who knows the truth about me,\"",
+        "es": "\"Tiene que haber Alguien en el cielo que conozca la verdad acerca de mí,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-19"
+        }
+      ],
+      "order": 4,
+      "range": "19"
+    },
+    {
+      "explanation": "Job desea representación y diálogo delante de Dios. NBLA expresa el anhelo de que un hombre pudiera discutir con Dios como con su vecino; MSG interpreta esa escena como representación. La expansión es pastoralmente sugerente, pero no debe convertirse en prueba textual de un mediador identificado dentro del capítulo.",
+      "id": "job16-joya-05",
+      "msg": {
+        "en": "\"I appeal to the One who represents mortals before God\nas a neighbor stands up for a neighbor.\"",
+        "es": "\"Apelo a Aquel que representa a los mortales delante de Dios\ncomo un vecino defiende a otro vecino.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job16-nbla-20b"
+          ],
+          "verseId": "job16-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "20-21"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 16,
+    "studyId": "job-16"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "job16-msg-01",
+      "msg": {
+        "en": "Then Job defended himself:\n“I’ve had all I can take of your talk.\nWhat a bunch of miserable comforters!\nIs there no end to your windbag speeches?\nWhat’s your problem that you go on and on like this?\nIf you were in my shoes,\nI could talk just like you.\nI could put together a terrific harangue\nand really let you have it.\nBut I’d never do that. I’d console and comfort,\nmake things better, not worse!",
+        "es": "Entonces Job se defendió:\n«Ya he soportado todo lo que puedo de sus discursos.\n¡Qué grupo de consoladores miserables!\n¿Es que nunca se acaban sus discursos llenos de aire?\n¿Qué les pasa, que siguen y siguen así?\nSi ustedes estuvieran en mi lugar,\nyo podría hablar exactamente como ustedes.\nPodría preparar un tremendo sermón contra ustedes\ny descargarlo con toda fuerza.\nPero jamás haría eso. Yo los alentaría y consolaría,\nharía que las cosas mejoraran, no que empeoraran."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-14",
+      "id": "job16-msg-02",
+      "msg": {
+        "en": "“When I speak up, I feel no better;\nif I say nothing, that doesn’t help either.\nI feel worn down.\nGod, you have wasted me totally—me and my family!\nYou’ve shriveled me like a dried prune,\nshowing the world that you’re against me.\nMy gaunt face stares back at me from the mirror,\na mute witness to your treatment of me.\nYour anger tears at me,\nyour teeth rip me to shreds,\nyour eyes burn holes in me—God, my enemy!\nPeople take one look at me and gasp.\nContemptuous, they slap me around\nand gang up against me.\nAnd God just stands there and lets them do it,\nlets wicked people do what they want with me.\nI was contentedly minding my business when God beat me up.\nHe grabbed me by the neck and threw me around.\nHe set me up as his target,\nthen rounded up archers to shoot at me.\nMerciless, they shot me full of arrows;\nbitter bile poured from my gut to the ground.\nHe burst in on me, onslaught after onslaught,\ncharging me like a mad bull.",
+        "es": "«Cuando hablo, no me siento mejor;\nsi me quedo callado, tampoco ayuda.\nMe siento agotado.\nDios, me has dejado completamente devastado: ¡a mí y a mi familia!\nMe has encogido como una ciruela seca,\nmostrándole al mundo que estás contra mí.\nMi rostro demacrado me devuelve la mirada desde el espejo,\ntestigo silencioso de cómo me has tratado.\nTu ira me desgarra,\nTus dientes me hacen pedazos,\nTus ojos me atraviesan: ¡Dios, mi enemigo!\nLa gente me mira y queda boquiabierta.\nCon desprecio me golpean\ny se amontonan contra mí.\nY Dios simplemente está allí y deja que lo hagan,\ndeja que los malvados hagan conmigo lo que quieren.\nYo estaba tranquilo, ocupado en mis asuntos, cuando Dios me golpeó.\nMe agarró por el cuello y me zarandeó.\nMe puso como Su blanco,\ny luego reunió arqueros para que dispararan contra mí.\nSin misericordia, me llenaron de flechas;\nmi amarga hiel se derramó por tierra.\nSe lanzó contra mí, ataque tras ataque,\ncargando como un toro enfurecido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-14"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "15-17",
+      "id": "job16-msg-03",
+      "msg": {
+        "en": "“I sewed myself a shroud and wore it like a shirt;\nI lay facedown in the dirt.\nNow my face is blotched red from weeping;\nlook at the dark shadows under my eyes,\nEven though I’ve never hurt a soul\nand my prayers are sincere!",
+        "es": "«Me cosí una mortaja y me la puse como camisa;\nme tendí boca abajo sobre el polvo.\nAhora tengo el rostro manchado de rojo por tanto llorar;\nmiren las sombras oscuras bajo mis ojos,\naunque nunca he hecho violencia a nadie\ny mis oraciones son sinceras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-17"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "18-22",
+      "id": "job16-msg-04",
+      "msg": {
+        "en": "“O Earth, don’t cover up the wrong done to me!\nDon’t muffle my cry!\nThere must be Someone in heaven who knows the truth about me,\nin highest heaven, some Attorney who can clear my name—\nMy Champion, my Friend,\nwhile I’m weeping my eyes out before God.\nI appeal to the One who represents mortals before God\nas a neighbor stands up for a neighbor.\n“Only a few years are left\nbefore I set out on the road of no return.”",
+        "es": "«¡Oh tierra, no cubras el mal que me han hecho!\n¡No ahogues mi clamor!\nTiene que haber Alguien en el cielo que conozca la verdad acerca de mí,\nen lo más alto del cielo, algún Abogado que pueda limpiar mi nombre:\nmi Defensor, mi Amigo,\nmientras lloro hasta quedarme sin lágrimas delante de Dios.\nApelo a Aquel que representa a los mortales delante de Dios\ncomo un vecino defiende a otro vecino.\n»Solo me quedan unos pocos años\nantes de emprender el camino del que no se vuelve»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job16-nbla-22"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job16-nbla-01",
+      "number": 1,
+      "text": "Respondió entonces Job:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job16-nbla-02a",
+          "order": 1,
+          "text": "«He oído muchas cosas como estas;"
+        },
+        {
+          "id": "job16-nbla-02b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Consoladores molestos son todos ustedes."
+        }
+      ],
+      "id": "job16-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "job16-nbla-03",
+      "number": 3,
+      "text": "¿No hay fin a las palabras vacías?\n¿O qué te provoca para que así respondas?"
+    },
+    {
+      "id": "job16-nbla-04",
+      "number": 4,
+      "text": "Yo también hablaría como ustedes,\nSi yo estuviera en su lugar.\nPodría recopilar palabras contra ustedes,\nY mover ante ustedes la cabeza."
+    },
+    {
+      "id": "job16-nbla-05",
+      "number": 5,
+      "text": "Les podría alentar con mi boca,\nY el consuelo de mis labios podría aliviar su dolor."
+    },
+    {
+      "id": "job16-nbla-06",
+      "number": 6,
+      "text": "»Si hablo, mi dolor no disminuye,\nY si callo, no se aparta de mí."
+    },
+    {
+      "id": "job16-nbla-07",
+      "number": 7,
+      "text": "Pero ahora Él me ha agobiado;\nTú has asolado toda mi compañía,"
+    },
+    {
+      "id": "job16-nbla-08",
+      "number": 8,
+      "text": "Y me has llenado de arrugas\nQue en testigo se han convertido;\nMi flacura se levanta contra mí,\nTestifica en mi cara."
+    },
+    {
+      "id": "job16-nbla-09",
+      "number": 9,
+      "text": "Su ira me ha despedazado y me ha perseguido,\nContra mí Él ha rechinado los dientes;\nMi adversario aguza los ojos contra mí."
+    },
+    {
+      "id": "job16-nbla-10",
+      "number": 10,
+      "text": "Han abierto contra mí su boca,\nCon injurias me han abofeteado;\nA una se han juntado contra mí."
+    },
+    {
+      "id": "job16-nbla-11",
+      "number": 11,
+      "text": "Dios me entrega a los impíos,\nY me echa en manos de los malvados."
+    },
+    {
+      "id": "job16-nbla-12",
+      "number": 12,
+      "text": "Estaba yo tranquilo, y Él me sacudió,\nMe agarró por la nuca y me hizo pedazos;\nTambién me hizo Su blanco."
+    },
+    {
+      "id": "job16-nbla-13",
+      "number": 13,
+      "text": "Me rodean Sus flechas,\nParte mis riñones sin compasión,\nDerrama por tierra mi hiel."
+    },
+    {
+      "id": "job16-nbla-14",
+      "number": 14,
+      "text": "Abre en mí brecha tras brecha;\nMe ataca como un guerrero."
+    },
+    {
+      "id": "job16-nbla-15",
+      "number": 15,
+      "text": "Sobre mi piel he cosido cilicio,\nY he hundido en el polvo mi poder."
+    },
+    {
+      "id": "job16-nbla-16",
+      "number": 16,
+      "text": "Mi rostro está enrojecido por el llanto,\nY cubren mis párpados densa oscuridad,"
+    },
+    {
+      "id": "job16-nbla-17",
+      "number": 17,
+      "text": "Aunque no hay violencia en mis manos,\nY es pura mi oración."
+    },
+    {
+      "id": "job16-nbla-18",
+      "number": 18,
+      "text": "»¡Oh tierra, no cubras mi sangre,\nY no deje de haber lugar para mi clamor!"
+    },
+    {
+      "id": "job16-nbla-19",
+      "number": 19,
+      "text": "Aun ahora mi testigo está en el cielo,\nY mi defensor está en las alturas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job16-nbla-20a",
+          "order": 1,
+          "text": "Mis amigos son mis escarnecedores;"
+        },
+        {
+          "id": "job16-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Mis ojos lloran a Dios."
+        }
+      ],
+      "id": "job16-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "job16-nbla-21",
+      "number": 21,
+      "text": "¡Ah, si un hombre pudiera discutir con Dios\nComo un hombre con su vecino!"
+    },
+    {
+      "id": "job16-nbla-22",
+      "number": 22,
+      "text": "Pues cuando hayan pasado unos pocos años\nMe iré por el camino sin regreso."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

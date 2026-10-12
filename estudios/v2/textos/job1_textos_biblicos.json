@@ -1,0 +1,521 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La integridad de Job es un dato narrativo, no una suposición optimista. NBLA fija cuatro rasgos: intachable, recto, temeroso de Dios y apartado del mal. MSG vuelve esa integridad visible como coherencia «por dentro y por fuera». Esa imagen ayuda pastoralmente, pero no debe convertirse en una afirmación de impecabilidad absoluta; el punto es que el sufrimiento que viene no puede explicarse como castigo evidente por una vida impía.",
+      "id": "job1-joya-01",
+      "msg": {
+        "en": "\"He was honest inside and out, a man of his word, who was totally devoted to God and hated evil with a passion.\"",
+        "es": "\"Era íntegro por dentro y por fuera, un hombre de palabra, totalmente entregado a Dios y que odiaba el mal con pasión.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job1-nbla-01b"
+          ],
+          "verseId": "job1-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Dios mismo confirma el carácter de Job antes de la prueba. NBLA impide que los futuros discursos de los amigos reescriban retroactivamente su historia como si la calamidad demostrara culpa secreta. MSG hace sentir el reconocimiento personal de Dios. El límite es importante: la aprobación divina de Job dentro del relato no significa que cada palabra posterior de Job sea infalible.",
+      "id": "job1-joya-02",
+      "msg": {
+        "en": "\"There’s no one quite like him—honest and true to his word, totally devoted to God and hating evil.\"",
+        "es": "\"No hay nadie como él: íntegro y fiel a su palabra, totalmente entregado a Dios y enemigo del mal\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job1-nbla-08b"
+          ],
+          "verseId": "job1-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "8"
+    },
+    {
+      "explanation": "El centro de la acusación es la motivación de la fe. NBLA formula la pregunta con precisión: si Job teme a Dios gratuitamente o porque la bendición le resulta rentable. MSG despliega esa sospecha en lenguaje cotidiano. La prueba no enseña que la bendición sea sospechosa; pregunta si Dios sigue siendo digno cuando Sus dones no están disponibles.",
+      "id": "job1-joya-03",
+      "msg": {
+        "en": "\"So do you think Job does all that out of the sheer goodness of his heart?\"",
+        "es": "\"¿Y crees que Job hace todo eso solo por la bondad de su corazón?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job1-nbla-09b"
+          ],
+          "verseId": "job1-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La adoración de Job no borra su duelo; ocurre dentro de él. NBLA conserva en la misma oración los gestos de aflicción y la postración adoradora. MSG acentúa la secuencia corporal. Teológicamente, el texto permite llorar de forma visible sin tratar el dolor como falta de fe.",
+      "id": "job1-joya-04",
+      "msg": {
+        "en": "\"Job got to his feet, ripped his robe, shaved his head, then fell to the ground\nand worshiped:\"",
+        "es": "\"Job se puso de pie, rasgó su manto, se afeitó la cabeza, luego cayó al suelo\ny adoró:\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "20"
+    },
+    {
+      "explanation": "Job reconoce que la vida y los bienes nunca fueron posesión autónoma. NBLA fija la confesión de soberanía y bendición; MSG la vuelve abrupta y memorable. Esta frase debe enseñarse con cuidado: es la confesión de un hombre en duelo, no una licencia para atribuir de manera simplista toda violencia humana directamente a Dios ni para silenciar preguntas posteriores del mismo libro.",
+      "id": "job1-joya-05",
+      "msg": {
+        "en": "\"GOD gives, GOD takes.\nGod’s name be ever blessed.\"",
+        "es": "\"DIOS da, DIOS quita.\nBendito sea siempre el nombre de Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job1-nbla-21b"
+          ],
+          "verseId": "job1-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "21"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 1,
+    "studyId": "job-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "job1-msg-01",
+      "msg": {
+        "en": "Job was a man who lived in Uz. He was honest inside and out, a man of his word, who was totally devoted to God and hated evil with a passion. He had seven sons and three daughters. He was also very wealthy—seven thousand head of sheep, three thousand camels, five hundred teams of oxen, five hundred donkeys, and a huge staff of servants—the most influential man in all the East!",
+        "es": "Job era un hombre que vivía en Uz. Era íntegro por dentro y por fuera, un hombre de palabra, totalmente entregado a Dios y que odiaba el mal con pasión. Tenía siete hijos y tres hijas. También era muy rico: siete mil ovejas, tres mil camellos, quinientas yuntas de bueyes, quinientas asnas y una enorme cantidad de siervos. ¡Era el hombre más influyente de todo Oriente!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "job1-msg-02",
+      "msg": {
+        "en": "His sons used to take turns hosting parties in their homes, always inviting their three sisters to join them in their merrymaking. When the parties were over, Job would get up early in the morning and sacrifice a burnt offering for each of his children, thinking, “Maybe one of them sinned by defying God inwardly.” Job made a habit of this sacrificial atonement, just in case they’d sinned.",
+        "es": "Sus hijos acostumbraban turnarse para hacer fiestas en sus casas, e invitaban siempre a sus tres hermanas a compartir la celebración. Cuando terminaban las fiestas, Job se levantaba temprano y ofrecía un holocausto por cada uno de sus hijos, pensando: «Quizá alguno de ellos haya pecado desafiando a Dios por dentro». Job hacía esto habitualmente: ofrecía sacrificios de expiación, por si acaso habían pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "job1-msg-03",
+      "msg": {
+        "en": "One day when the angels came to report to GOD, Satan, who was the Designated Accuser, came along with them. GOD singled out Satan and said, “What have you been up to?”\nSatan answered GOD, “Going here and there, checking things out on earth.”",
+        "es": "Un día, cuando los ángeles fueron a presentarse ante DIOS, Satanás, el Acusador designado, llegó con ellos. DIOS señaló a Satanás y le preguntó: «¿En qué has estado?». Satanás respondió a DIOS: «He estado yendo de un lado a otro, revisando lo que pasa en la tierra»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8",
+      "id": "job1-msg-04",
+      "msg": {
+        "en": "GOD said to Satan, “Have you noticed my friend Job? There’s no one quite like him—honest and true to his word, totally devoted to God and hating evil.”",
+        "es": "DIOS le dijo a Satanás: «¿Te has fijado en mi amigo Job? No hay nadie como él: íntegro y fiel a su palabra, totalmente entregado a Dios y enemigo del mal»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "job1-msg-05",
+      "msg": {
+        "en": "Satan retorted, “So do you think Job does all that out of the sheer goodness of his heart? Why, no one ever had it so good! You pamper him like a pet, make sure nothing bad ever happens to him or his family or his possessions, bless everything he does—he can’t lose!",
+        "es": "Satanás replicó: «¿Y crees que Job hace todo eso solo por la bondad de su corazón? ¡Nadie ha tenido una vida tan protegida! Lo tienes mimado como a una mascota; te aseguras de que nada malo le ocurra ni a él, ni a su familia, ni a sus bienes; bendices todo lo que hace. ¡No puede perder!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "job1-msg-06",
+      "msg": {
+        "en": "“But what do you think would happen if you reached down and took away everything that is his? He’d curse you right to your face, that’s what.”",
+        "es": "«Pero ¿qué crees que pasaría si extendieras Tu mano y le quitaras todo lo que tiene? Te maldeciría en Tu propia cara, eso es lo que haría»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12",
+      "id": "job1-msg-07",
+      "msg": {
+        "en": "GOD replied, “We’ll see. Go ahead—do what you want with all that is his. Just don’t hurt him.” Then Satan left the presence of GOD.",
+        "es": "DIOS respondió: «Ya veremos. Adelante: haz lo que quieras con todo lo que tiene. Solo no le hagas daño a él». Entonces Satanás salió de la presencia de DIOS."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "job1-msg-08",
+      "msg": {
+        "en": "Sometime later, while Job’s children were having one of their parties at the home of the oldest son, a messenger came to Job and said, “The oxen were plowing and the donkeys grazing in the field next to us when Sabeans attacked. They stole the animals and killed the field hands. I’m the only one to get out alive and tell you what happened.”",
+        "es": "Algún tiempo después, mientras los hijos de Job celebraban una de sus fiestas en la casa del hermano mayor, llegó un mensajero y le dijo a Job: «Los bueyes estaban arando y las asnas pastaban en el campo cercano cuando atacaron los sabeos. Se llevaron los animales y mataron a los trabajadores. Yo soy el único que logró escapar con vida para contarte lo sucedido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16",
+      "id": "job1-msg-09",
+      "msg": {
+        "en": "While he was still talking, another messenger arrived and said, “Bolts of lightning struck the sheep and the shepherds and fried them—burned them to a crisp. I’m the only one to get out alive and tell you what happened.”",
+        "es": "Mientras todavía estaba hablando, llegó otro mensajero y dijo: «Rayos cayeron sobre las ovejas y los pastores y los abrasaron: los quemaron hasta dejarlos carbonizados. Yo soy el único que logró escapar con vida para contarte lo sucedido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17",
+      "id": "job1-msg-10",
+      "msg": {
+        "en": "While he was still talking, another messenger arrived and said, “Chaldeans coming from three directions raided the camels and massacred the camel drivers. I’m the only one to get out alive and tell you what happened.”",
+        "es": "Mientras todavía estaba hablando, llegó otro mensajero y dijo: «Unos caldeos que venían desde tres direcciones atacaron los camellos y masacraron a quienes los cuidaban. Yo soy el único que logró escapar con vida para contarte lo sucedido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "job1-msg-11",
+      "msg": {
+        "en": "While he was still talking, another messenger arrived and said, “Your children were having a party at the home of the oldest brother when a tornado swept in off the desert and struck the house. It collapsed on the young people and they died. I’m the only one to get out alive and tell you what happened.”",
+        "es": "Mientras todavía estaba hablando, llegó otro mensajero y dijo: «Tus hijos estaban celebrando una fiesta en la casa del hermano mayor cuando un tornado llegó desde el desierto y golpeó la casa. La casa cayó sobre los jóvenes y murieron. Yo soy el único que logró escapar con vida para contarte lo sucedido»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20",
+      "id": "job1-msg-12",
+      "msg": {
+        "en": "Job got to his feet, ripped his robe, shaved his head, then fell to the ground\nand worshiped:",
+        "es": "Job se puso de pie, rasgó su manto, se afeitó la cabeza, luego cayó al suelo\ny adoró:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-20"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "21",
+      "id": "job1-msg-13",
+      "msg": {
+        "en": "Naked I came from my mother’s womb,\nnaked I’ll return to the womb of the earth.\nGOD gives, GOD takes.\nGod’s name be ever blessed.",
+        "es": "Desnudo salí del vientre de mi madre,\ndesnudo volveré al vientre de la tierra.\nDIOS da, DIOS quita.\nBendito sea siempre el nombre de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-21"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "22",
+      "id": "job1-msg-14",
+      "msg": {
+        "en": "Not once through all this did Job sin; not once did he blame God.",
+        "es": "Ni una sola vez, en medio de todo esto, pecó Job; ni una sola vez culpó a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job1-nbla-22"
+        }
+      ],
+      "order": 14
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "job1-nbla-01a",
+          "order": 1,
+          "text": "Hubo un hombre en la tierra de Uz llamado Job."
+        },
+        {
+          "id": "job1-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Aquel hombre era intachable, recto, temeroso de Dios y apartado del mal."
+        }
+      ],
+      "id": "job1-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "job1-nbla-02",
+      "number": 2,
+      "text": "Le nacieron siete hijos y tres hijas."
+    },
+    {
+      "id": "job1-nbla-03",
+      "number": 3,
+      "text": "Su hacienda era de 7,000 ovejas, 3,000 camellos, 500 yuntas de bueyes, 500 asnas y muchísima servidumbre. Aquel hombre era el más grande de todos los hijos del oriente."
+    },
+    {
+      "id": "job1-nbla-04",
+      "number": 4,
+      "text": "Sus hijos acostumbraban ir y hacer un banquete en la casa de cada uno por turno, e invitaban a sus tres hermanas para comer y beber con ellos."
+    },
+    {
+      "id": "job1-nbla-05",
+      "number": 5,
+      "text": "Cuando los días del banquete habían pasado, Job enviaba a buscarlos y los santificaba, y levantándose temprano, ofrecía holocaustos conforme al número de todos ellos. Porque Job decía: «Quizá mis hijos hayan pecado y maldecido a Dios en sus corazones». Job siempre hacía así."
+    },
+    {
+      "id": "job1-nbla-06",
+      "number": 6,
+      "text": "Un día, cuando los hijos de Dios vinieron a presentarse delante del SEÑOR, Satanás vino también entre ellos."
+    },
+    {
+      "id": "job1-nbla-07",
+      "number": 7,
+      "text": "Y el SEÑOR preguntó a Satanás: «¿De dónde vienes?». Entonces Satanás respondió al SEÑOR: «De recorrer la tierra y de andar por ella»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job1-nbla-08a",
+          "order": 1,
+          "text": "Y el SEÑOR dijo a Satanás: «¿Te has fijado en Mi siervo Job?"
+        },
+        {
+          "id": "job1-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Porque no hay ninguno como él sobre la tierra; es un hombre intachable y recto, temeroso de Dios y apartado del mal»."
+        }
+      ],
+      "id": "job1-nbla-08",
+      "number": 8
+    },
+    {
+      "clauses": [
+        {
+          "id": "job1-nbla-09a",
+          "order": 1,
+          "text": "Satanás respondió al SEÑOR: «"
+        },
+        {
+          "id": "job1-nbla-09b",
+          "order": 2,
+          "text": "¿Acaso teme Job a Dios de balde?"
+        }
+      ],
+      "id": "job1-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "job1-nbla-10",
+      "number": 10,
+      "text": "¿No has hecho Tú una valla alrededor de él, de su casa y de todo lo que tiene, por todos lados? Has bendecido el trabajo de sus manos y sus posesiones han aumentado en la tierra."
+    },
+    {
+      "id": "job1-nbla-11",
+      "number": 11,
+      "text": "Pero extiende ahora Tu mano y toca todo lo que tiene, y verás si no te maldice en Tu misma cara»."
+    },
+    {
+      "id": "job1-nbla-12",
+      "number": 12,
+      "text": "Entonces el SEÑOR dijo a Satanás: «Todo lo que él tiene está en tu poder; pero no extiendas tu mano sobre él». Y Satanás salió de la presencia del SEÑOR."
+    },
+    {
+      "id": "job1-nbla-13",
+      "number": 13,
+      "text": "Y aconteció que un día en que los hijos y las hijas de Job estaban comiendo y bebiendo en la casa del hermano mayor,"
+    },
+    {
+      "id": "job1-nbla-14",
+      "number": 14,
+      "text": "vino un mensajero a Job y le dijo: «Los bueyes estaban arando y las asnas paciendo junto a ellos,"
+    },
+    {
+      "id": "job1-nbla-15",
+      "number": 15,
+      "text": "y los sabeos atacaron y se los llevaron. También mataron a los criados a filo de espada. Solo yo escapé para contárselo a usted»."
+    },
+    {
+      "id": "job1-nbla-16",
+      "number": 16,
+      "text": "Mientras estaba este hablando, vino otro y dijo: «Fuego de Dios cayó del cielo y quemó las ovejas y a los criados y los consumió; solo yo escapé para contárselo a usted»."
+    },
+    {
+      "id": "job1-nbla-17",
+      "number": 17,
+      "text": "Mientras este estaba hablando, vino otro y dijo: «Los caldeos formaron tres cuadrillas, se lanzaron sobre los camellos y se los llevaron, y mataron a los criados a filo de espada. Solo yo escapé para contárselo a usted»."
+    },
+    {
+      "id": "job1-nbla-18",
+      "number": 18,
+      "text": "Mientras este estaba hablando, vino otro y dijo: «Sus hijos y sus hijas estaban comiendo y bebiendo vino en la casa del hermano mayor,"
+    },
+    {
+      "id": "job1-nbla-19",
+      "number": 19,
+      "text": "y entonces vino un gran viento del otro lado del desierto y azotó las cuatro esquinas de la casa, y esta cayó sobre los jóvenes y murieron; solo yo escapé para contárselo a usted»."
+    },
+    {
+      "id": "job1-nbla-20",
+      "number": 20,
+      "text": "Entonces Job se levantó, rasgó su manto, se rasuró la cabeza, y postrándose en tierra, adoró,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job1-nbla-21a",
+          "order": 1,
+          "text": "y dijo:\n«Desnudo salí del vientre de mi madre\nY desnudo volveré allá."
+        },
+        {
+          "id": "job1-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "El SEÑOR dio y el SEÑOR quitó;\nBendito sea el nombre del SEÑOR»."
+        }
+      ],
+      "id": "job1-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "job1-nbla-22",
+      "number": 22,
+      "text": "En todo esto Job no pecó ni culpó a Dios."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

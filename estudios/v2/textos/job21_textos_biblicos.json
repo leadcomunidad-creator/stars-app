@@ -1,0 +1,534 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Escuchar forma parte del consuelo. NBLA incluso llama «consuelo» a esa atención; MSG lo convierte en una súplica directa. El versículo confronta el acompañamiento que se apresura a responder antes de comprender.",
+      "id": "job21-joya-01",
+      "msg": {
+        "en": "\"Now listen to me carefully, please listen,\nat least do me the favor of listening.\"",
+        "es": "\"Ahora escúchenme con atención, por favor escuchen;\nháganme por lo menos el favor de escuchar.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "Job enfrenta una realidad que el sistema de sus amigos no explica: el impío puede vivir, envejecer y prosperar. NBLA fija la observación; MSG la expresa como «tenerla tan bien». El punto no es celebrar esa prosperidad, sino demostrar que bienestar presente no equivale automáticamente a rectitud.",
+      "id": "job21-joya-02",
+      "msg": {
+        "en": "\"Why do the wicked have it so good,\nlive to a ripe old age and get rich?\"",
+        "es": "\"¿Por qué a los malvados les va tan bien,\nviven hasta muy viejos y se hacen ricos?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "7"
+    },
+    {
+      "explanation": "La prosperidad descrita no demuestra comunión con Dios; estas personas rechazan conscientemente Sus caminos. NBLA fija ese rechazo y, en 21:16, Job aclara que el consejo de los impíos está lejos de él. La observación de su prosperidad no es admiración moral.",
+      "id": "job21-joya-03",
+      "msg": {
+        "en": "\"They say to God, ‘Get lost!\nWe’ve no interest in you or your ways.\"",
+        "es": "\"Le dicen a Dios: “¡Piérdete!\nNo tenemos ningún interés en Ti ni en Tus caminos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "La muerte alcanza historias muy distintas y no siempre funciona como resumen moral visible de la vida. NBLA contrasta a quien muere tranquilo con quien muere amargado; MSG preserva ese contraste. El texto socava cualquier intento de leer el cadáver, la prosperidad o la calamidad como expediente moral completo.",
+      "id": "job21-joya-04",
+      "msg": {
+        "en": "\"Some people die in the prime of life,\nwith everything going for them—\"",
+        "es": "\"Algunas personas mueren en la plenitud de la vida,\ncon todo a su favor:\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-23"
+        }
+      ],
+      "order": 4,
+      "range": "23"
+    },
+    {
+      "explanation": "Job apela a observación más amplia que la teoría de sus amigos. NBLA agrega el límite decisivo: el impío puede ser preservado para un día posterior de destrucción. La experiencia confirma demora del juicio visible, no inexistencia de justicia final.",
+      "id": "job21-joya-05",
+      "msg": {
+        "en": "\"Have you ever asked world travelers how they see it?\nHave you not listened to their stories\"",
+        "es": "\"¿Alguna vez les han preguntado a los viajeros cómo lo ven?\n¿No han escuchado sus historias\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-29"
+        },
+        {
+          "clauseIds": [
+            "job21-nbla-30a"
+          ],
+          "verseId": "job21-nbla-30"
+        }
+      ],
+      "order": 5,
+      "range": "29-30"
+    },
+    {
+      "explanation": "Un consuelo basado en una descripción falsa de la realidad no puede sanar. NBLA identifica falsedad en las respuestas; MSG la llama un tejido completo. La teología pastoral debe ser verdadera no solo en sus principios generales, sino también en su aplicación concreta.",
+      "id": "job21-joya-06",
+      "msg": {
+        "en": "\"Your so-called comfort is a tissue of lies.\"",
+        "es": "\"Su supuesto consuelo es un tejido de mentiras».\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job21-nbla-34b"
+          ],
+          "verseId": "job21-nbla-34"
+        }
+      ],
+      "order": 6,
+      "range": "34"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 21,
+    "studyId": "job-21"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "job21-msg-01",
+      "msg": {
+        "en": "Job replied:\n“Now listen to me carefully, please listen,\nat least do me the favor of listening.\nPut up with me while I have my say—\nthen you can mock me later to your heart’s content.",
+        "es": "Job respondió:\n«Ahora escúchenme con atención, por favor escuchen;\nháganme por lo menos el favor de escuchar.\nTénganme paciencia mientras digo lo que tengo que decir;\ndespués podrán burlarse de mí todo lo que quieran."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-16",
+      "id": "job21-msg-02",
+      "msg": {
+        "en": "”It’s not you I’m complaining to—it’s God.\nIs it any wonder I’m getting fed up with his silence?\nTake a good look at me. Aren’t you appalled by what’s happened?\nNo! Don’t say anything. I can do without your comments.\nWhen I look back, I go into shock,\nmy body is racked with spasms.\nWhy do the wicked have it so good,\nlive to a ripe old age and get rich?\nThey get to see their children succeed,\nget to watch and enjoy their grandchildren.\nTheir homes are peaceful and free from fear;\nthey never experience God’s disciplining rod.\nTheir bulls breed with great vigor\nand their cows calve without fail.\nThey send their children out to play\nand watch them frolic like spring lambs.\nThey make music with fiddles and flutes,\nhave good times singing and dancing.\nThey have a long life on easy street,\nand die painlessly in their sleep.\nThey say to God, ‘Get lost!\nWe’ve no interest in you or your ways.\nWhy should we have dealings with God Almighty?\nWhat’s there in it for us?’\nBut they’re wrong, dead wrong—they’re not gods.\nIt’s beyond me how they can carry on like this!",
+        "es": "«No es con ustedes con quienes me estoy quejando: es con Dios.\n¿Es extraño que esté cansándome de Su silencio?\nMírenme bien. ¿No los espanta lo que me ha ocurrido?\n¡No! No digan nada. Puedo vivir sin sus comentarios.\nCuando miro hacia atrás, entro en shock,\nmi cuerpo se sacude con espasmos.\n¿Por qué a los malvados les va tan bien,\nviven hasta muy viejos y se hacen ricos?\nLlegan a ver triunfar a sus hijos,\nobservan y disfrutan a sus nietos.\nSus casas están en paz y libres de temor;\nnunca sienten la vara disciplinaria de Dios.\nSus toros se reproducen con gran vigor\ny sus vacas paren sin fallar.\nDejan salir a sus hijos a jugar\ny los ven brincar como corderos en primavera.\nHacen música con violines y flautas,\nse divierten cantando y bailando.\nViven una larga vida por la calle fácil\ny mueren sin dolor mientras duermen.\nLe dicen a Dios: “¡Piérdete!\nNo tenemos ningún interés en Ti ni en Tus caminos.\n¿Por qué tendríamos que tratar con el Dios Todopoderoso?\n¿Qué ganamos nosotros con eso?”.\nPero están equivocados, completamente equivocados: ellos no son dioses.\n¡No logro entender cómo pueden seguir así!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-16"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "17-21",
+      "id": "job21-msg-03",
+      "msg": {
+        "en": "“Still, how often does it happen that the wicked fail,\nor disaster strikes,\nor they get their just deserts?\nHow often are they blown away by bad luck?\nNot very often.\nYou might say, ‘God is saving up the punishment for their children.’\nI say, ‘Give it to them right now so they’ll know what\nthey’ve done!’\nThey deserve to experience the effects of their evil,\nfeel the full force of God’s wrath firsthand.\nWhat do they care what happens to their families\nafter they’re safely tucked away in the grave?",
+        "es": "«Aun así, ¿con qué frecuencia ocurre que los malvados fracasan,\no que llega el desastre,\no que reciben lo que justamente merecen?\n¿Con qué frecuencia son arrastrados por la mala suerte?\nNo muy a menudo.\nUstedes podrían decir: “Dios está guardando el castigo para sus hijos”.\nYo digo: “Que se lo dé a ellos ahora mismo para que sepan lo que\nhicieron”.\nMerecen experimentar los efectos de su maldad,\nsentir en carne propia toda la fuerza de la ira de Dios.\n¿Qué les importa lo que les suceda a sus familias\ndespués de que estén tranquilamente metidos en la tumba?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-21"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "22-26",
+      "id": "job21-msg-04",
+      "msg": {
+        "en": "“But who are we to tell God how to run his affairs?\nHe’s dealing with matters that are way over our heads.\nSome people die in the prime of life,\nwith everything going for them—\nfat and sassy.\nOthers die bitter and bereft,\nnever getting a taste of happiness.\nThey’re laid out side by side in the cemetery,\nwhere the worms can’t tell one from the other.",
+        "es": "«Pero ¿quiénes somos nosotros para decirle a Dios cómo debe manejar Sus asuntos?\nÉl está tratando con cuestiones que nos quedan demasiado grandes.\nAlgunas personas mueren en la plenitud de la vida,\ncon todo a su favor:\ngordas y satisfechas.\nOtras mueren amargadas y despojadas,\nsin haber probado jamás la felicidad.\nQuedan acostadas una al lado de la otra en el cementerio,\ndonde los gusanos no distinguen a una de la otra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-26"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "27-33",
+      "id": "job21-msg-05",
+      "msg": {
+        "en": "“I’m not deceived. I know what you’re up to,\nthe plans you’re cooking up to bring me down.\nNaively you claim that the castles of tyrants fall to pieces,\nthat the achievements of the wicked collapse.\nHave you ever asked world travelers how they see it?\nHave you not listened to their stories\nOf evil men and women who got off scot-free,\nwho never had to pay for their wickedness?\nDid anyone ever confront them with their crimes?\nDid they ever have to face the music?\nNot likely—they’re given fancy funerals\nwith all the trimmings,\nGently lowered into expensive graves,\nwith everyone telling lies about how wonderful they were.",
+        "es": "«No estoy engañado. Sé lo que están tramando,\nlos planes que preparan para derribarme.\nIngenuamente afirman que los castillos de los tiranos se vienen abajo,\nque los logros de los malvados colapsan.\n¿Alguna vez les han preguntado a los viajeros cómo lo ven?\n¿No han escuchado sus historias\nde hombres y mujeres malvados que salieron sin pagar,\nque nunca tuvieron que responder por su maldad?\n¿Alguien los enfrentó alguna vez con sus crímenes?\n¿Tuvieron alguna vez que afrontar las consecuencias?\nNo parece: les hacen funerales lujosos\ncon todos los adornos,\nlos bajan suavemente a tumbas costosas,\nmientras todos mienten diciendo lo maravillosos que fueron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-33"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "34",
+      "id": "job21-msg-06",
+      "msg": {
+        "en": "“So how do you expect me to get any comfort from your nonsense?\nYour so-called comfort is a tissue of lies.”",
+        "es": "«Entonces, ¿cómo esperan consolarme con sus tonterías?\nSu supuesto consuelo es un tejido de mentiras»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job21-nbla-34"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job21-nbla-01",
+      "number": 1,
+      "text": "Entonces Job respondió:"
+    },
+    {
+      "id": "job21-nbla-02",
+      "number": 2,
+      "text": "«Escuchen atentamente mis palabras,\nY que sea este su consuelo para mí."
+    },
+    {
+      "id": "job21-nbla-03",
+      "number": 3,
+      "text": "Tengan paciencia y hablaré;\nY después que haya hablado, se podrán burlar."
+    },
+    {
+      "id": "job21-nbla-04",
+      "number": 4,
+      "text": "En cuanto a mí, ¿me quejo yo al hombre?\n¿Y por qué no he de ser impaciente?"
+    },
+    {
+      "id": "job21-nbla-05",
+      "number": 5,
+      "text": "Mírenme, y quédense atónitos,\nY pongan la mano sobre su boca."
+    },
+    {
+      "id": "job21-nbla-06",
+      "number": 6,
+      "text": "Aun cuando me acuerdo, me perturbo,\nY el horror se apodera de mi carne."
+    },
+    {
+      "id": "job21-nbla-07",
+      "number": 7,
+      "text": "¿Por qué siguen viviendo los impíos,\nY al envejecer, también se hacen muy poderosos?"
+    },
+    {
+      "id": "job21-nbla-08",
+      "number": 8,
+      "text": "En su presencia se afirman con ellos sus descendientes,\nY sus vástagos delante de sus ojos;"
+    },
+    {
+      "id": "job21-nbla-09",
+      "number": 9,
+      "text": "Sus casas están libres de temor,\nY no está la vara de Dios sobre ellos."
+    },
+    {
+      "id": "job21-nbla-10",
+      "number": 10,
+      "text": "Su toro engendra sin fallar,\nSu vaca pare y no aborta."
+    },
+    {
+      "id": "job21-nbla-11",
+      "number": 11,
+      "text": "Envían fuera a sus niños cual rebaño,\nY sus hijos andan saltando."
+    },
+    {
+      "id": "job21-nbla-12",
+      "number": 12,
+      "text": "Cantan con pandero y arpa,\nY al son de la flauta se regocijan."
+    },
+    {
+      "id": "job21-nbla-13",
+      "number": 13,
+      "text": "Pasan sus días en prosperidad,\nPero de repente descienden al Seol."
+    },
+    {
+      "id": "job21-nbla-14",
+      "number": 14,
+      "text": "Y dicen a Dios: “¡Apártate de nosotros!\nNo deseamos el conocimiento de Tus caminos."
+    },
+    {
+      "id": "job21-nbla-15",
+      "number": 15,
+      "text": "¿Quién es el Todopoderoso, para que le sirvamos,\nY qué ganaríamos con rogarle?”."
+    },
+    {
+      "id": "job21-nbla-16",
+      "number": 16,
+      "text": "No está en mano de ellos su prosperidad;\nEl consejo de los impíos lejos está de mí."
+    },
+    {
+      "id": "job21-nbla-17",
+      "number": 17,
+      "text": "»¿Cuántas veces es apagada la lámpara de los impíos,\nO cae sobre ellos su calamidad?\n¿Reparte Dios dolores en Su ira?"
+    },
+    {
+      "id": "job21-nbla-18",
+      "number": 18,
+      "text": "¿Son como paja delante del viento,\nY como tamo que arrebata el torbellino?"
+    },
+    {
+      "id": "job21-nbla-19",
+      "number": 19,
+      "text": "Ustedes dicen: “Dios guarda la iniquidad de un hombre para sus hijos”.\nQue Dios le pague para que aprenda."
+    },
+    {
+      "id": "job21-nbla-20",
+      "number": 20,
+      "text": "Vean sus ojos su ruina,\nY beba de la furia del Todopoderoso."
+    },
+    {
+      "id": "job21-nbla-21",
+      "number": 21,
+      "text": "Pues ¿qué le importa la suerte de su casa después de él\nCuando el número de sus meses haya sido cortado?"
+    },
+    {
+      "id": "job21-nbla-22",
+      "number": 22,
+      "text": "¿Puede enseñarse a Dios sabiduría,\nSiendo que Él juzga a los encumbrados?"
+    },
+    {
+      "id": "job21-nbla-23",
+      "number": 23,
+      "text": "Uno muere en pleno vigor,\nEstando completamente tranquilo y satisfecho;"
+    },
+    {
+      "id": "job21-nbla-24",
+      "number": 24,
+      "text": "Sus costados están repletos de grasa,\nHúmeda está la médula de sus huesos,"
+    },
+    {
+      "id": "job21-nbla-25",
+      "number": 25,
+      "text": "Mientras otro muere con alma amargada,\nY sin haber probado nada bueno."
+    },
+    {
+      "id": "job21-nbla-26",
+      "number": 26,
+      "text": "Juntos yacen en el polvo,\nY los gusanos los cubren."
+    },
+    {
+      "id": "job21-nbla-27",
+      "number": 27,
+      "text": "»Yo conozco los pensamientos de ustedes,\nY los designios con los cuales me dañarían."
+    },
+    {
+      "id": "job21-nbla-28",
+      "number": 28,
+      "text": "Porque dicen: “¿Dónde está la casa del noble,\nY dónde la tienda donde moraban los impíos?”."
+    },
+    {
+      "id": "job21-nbla-29",
+      "number": 29,
+      "text": "¿No han preguntado a los caminantes,\nY no reconocen su testimonio?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job21-nbla-30a",
+          "order": 1,
+          "text": "Porque el impío es preservado para el día de la destrucción;"
+        },
+        {
+          "id": "job21-nbla-30b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Ellos serán conducidos en el día de la ira."
+        }
+      ],
+      "id": "job21-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "job21-nbla-31",
+      "number": 31,
+      "text": "¿Quién le declarará en su cara sus acciones,\nY quién le pagará por lo que ha hecho?"
+    },
+    {
+      "id": "job21-nbla-32",
+      "number": 32,
+      "text": "Mientras es llevado al sepulcro,\nVelarán sobre su tumba."
+    },
+    {
+      "id": "job21-nbla-33",
+      "number": 33,
+      "text": "Los terrones del valle suavemente lo cubrirán,\nY le seguirán todos los hombres,\nE innumerables otros irán delante de él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job21-nbla-34a",
+          "order": 1,
+          "text": "¿Cómo, pues, me consuelan en vano?"
+        },
+        {
+          "id": "job21-nbla-34b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Sus respuestas están llenas de falsedad»."
+        }
+      ],
+      "id": "job21-nbla-34",
+      "number": 34
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

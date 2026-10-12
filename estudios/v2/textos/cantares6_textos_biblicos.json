@@ -1,0 +1,390 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La pertenencia reaparece como afirmación bilateral. NBLA y MSG coinciden casi literalmente. El peso teológico está en la reciprocidad: el vínculo ofrece seguridad porque ambos están implicados, no porque uno posea unilateralmente al otro.",
+      "id": "cantares6-joya-01",
+      "msg": {
+        "en": "\"I am my lover’s and my lover is mine.\"",
+        "es": "\"Yo soy de mi amado y mi amado es mío.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares6-nbla-03a"
+          ],
+          "verseId": "cantares6-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "El amado reconoce que la mirada de ella lo desarma. NBLA fija el efecto con «me han confundido»; MSG lo expresa como quedar sobrepasado. La verdad segura es la fuerza relacional de su presencia, no una doctrina acerca de poderes especiales de la mirada o de la belleza.",
+      "id": "cantares6-joya-02",
+      "msg": {
+        "en": "\"Your beauty is too much for me—I’m in over my head.\"",
+        "es": "\"Tu belleza es demasiado para mí; estoy sobrepasado.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares6-nbla-05a"
+          ],
+          "verseId": "cantares6-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-7"
+    },
+    {
+      "explanation": "El poema comunica singularidad. NBLA establece «sin igual»; MSG lo desarrolla con lenguaje superlativo. La aplicación debe permanecer relacional: la persona amada es recibida como no intercambiable, pero el texto no crea una escala objetiva en la que las demás mujeres pierdan dignidad.",
+      "id": "cantares6-joya-03",
+      "msg": {
+        "en": "\"She’s a woman beyond compare.\"",
+        "es": "\"Es una mujer sin comparación.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares6-nbla-09a"
+          ],
+          "verseId": "cantares6-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La admiración se expande hasta imágenes cósmicas. NBLA fija luna y sol como comparaciones poéticas; MSG añade el lenguaje del amanecer y desarrolla la escena. La poesía pretende magnificar el deleite, no establecer una definición literal de belleza ni un estándar que otras personas deban alcanzar.",
+      "id": "cantares6-joya-04",
+      "msg": {
+        "en": "\"dawn-fresh, moon-lovely, sun-radiant,\"",
+        "es": "\"fresca como el amanecer, hermosa como la luna, radiante como el sol,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares6-nbla-10b"
+          ],
+          "verseId": "cantares6-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "10"
+    },
+    {
+      "explanation": "El jardín vuelve a ser un espacio donde se observan señales de crecimiento. NBLA concreta la mirada en la vid que retoña y los granados que florecen; MSG resume el movimiento como búsqueda de primavera. La imagen puede hablar pastoralmente de maduración, siempre que no se convierta cada planta en símbolo doctrinal fijo.",
+      "id": "cantares6-joya-05",
+      "msg": {
+        "en": "\"looking for signs of spring,\"",
+        "es": "\"buscando señales de primavera,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares6-nbla-11b"
+          ],
+          "verseId": "cantares6-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11-12"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 6,
+    "studyId": "cantares-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "cantares6-msg-01",
+      "msg": {
+        "en": "So where has this love of yours gone, fair one?\nWhere on earth can he be?\nCan we help you look for him?",
+        "es": "Así que, ¿adónde se ha ido ese amado tuyo, hermosa?\n¿Dónde puede estar?\n¿Podemos ayudarte a buscarlo?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "cantares6-msg-02",
+      "msg": {
+        "en": "Never mind. My lover is already on his way to his garden,\nto browse among the flowers, touching the colors and forms.\nI am my lover’s and my lover is mine.\nHe caresses the sweet-smelling flowers.",
+        "es": "No importa. Mi amado ya va camino a su jardín,\na pasear entre las flores, tocando sus colores y formas.\nYo soy de mi amado y mi amado es mío.\nÉl acaricia las flores perfumadas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-7",
+      "id": "cantares6-msg-03",
+      "msg": {
+        "en": "Dear, dear friend and lover,\nyou’re as beautiful as Tirzah, city of delights,\nLovely as Jerusalem, city of dreams,\nthe ravishing visions of my ecstasy.\nYour beauty is too much for me—I’m in over my head.\nI’m not used to this! I can’t take it in.\nYour hair flows and shimmers\nlike a flock of goats in the distance\nstreaming down a hillside in the sunshine.\nYour smile is generous and full—\nexpressive and strong and clean.\nYour veiled cheeks\nare soft and radiant.",
+        "es": "Querida, queridísima amiga y amada,\neres tan hermosa como Tirsa, ciudad de deleites,\nencantadora como Jerusalén, ciudad de sueños,\nlas deslumbrantes visiones de mi éxtasis.\nTu belleza es demasiado para mí; estoy sobrepasado.\n¡No estoy acostumbrado a esto! No logro abarcarlo.\nTu cabello cae y resplandece\ncomo un rebaño de cabras a lo lejos\nque desciende por una ladera bajo el sol.\nTu sonrisa es generosa y plena:\nexpresiva, fuerte y limpia.\nTus mejillas veladas\nson suaves y radiantes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "cantares6-msg-04",
+      "msg": {
+        "en": "There’s no one like her on earth,\nnever has been, never will be.\nShe’s a woman beyond compare.\nMy dove is perfection,\nPure and innocent as the day she was born,\nand cradled in joy by her mother.\nEveryone who came by to see her\nexclaimed and admired her—\nAll the fathers and mothers, the neighbors and friends,\nblessed and praised her:",
+        "es": "No hay nadie como ella en la tierra,\nnunca la hubo ni la habrá.\nEs una mujer sin comparación.\nMi paloma es perfecta,\npura e inocente como el día en que nació,\nacunada con alegría por su madre.\nTodos los que pasaban a verla\nexclamaban y la admiraban:\ntodos los padres y madres, vecinos y amigos,\nla bendecían y la elogiaban:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10",
+      "id": "cantares6-msg-05",
+      "msg": {
+        "en": "“Has anyone ever seen anything like this—\ndawn-fresh, moon-lovely, sun-radiant,\nravishing as the night sky with its galaxies of stars?”",
+        "es": "«¿Alguien ha visto algo semejante:\nfresca como el amanecer, hermosa como la luna, radiante como el sol,\ndeslumbrante como el cielo nocturno con sus galaxias de estrellas?»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "cantares6-msg-06",
+      "msg": {
+        "en": "One day I went strolling through the orchard,\nlooking for signs of spring,\nLooking for buds about to burst into flower,\nanticipating readiness, ripeness.\nBefore I knew it my heart was raptured,\ncarried away by lofty thoughts!",
+        "es": "Un día salí a pasear por el huerto,\nbuscando señales de primavera,\nbuscando brotes a punto de abrirse en flor,\nanticipando preparación, madurez.\nAntes de darme cuenta, mi corazón quedó arrebatado,\n¡elevado por pensamientos sublimes!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13",
+      "id": "cantares6-msg-07",
+      "msg": {
+        "en": "Dance, dance, dear Shulammite, Angel-Princess!\nDance, and we’ll feast our eyes on your grace!\nEveryone wants to see the Shulammite dance\nher victory dances of love and peace.",
+        "es": "¡Baila, baila, querida Sulamita, princesa angelical!\n¡Baila, y nos deleitaremos contemplando tu gracia!\nTodos quieren ver bailar a la Sulamita,\nsus danzas de victoria del amor y la paz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares6-nbla-13"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares6-nbla-01",
+      "number": 1,
+      "text": "«¿Adónde se ha ido tu amado,\nOh la más hermosa de las mujeres?\n¿Adónde se ha dirigido tu amado,\nPara que lo busquemos contigo?»."
+    },
+    {
+      "id": "cantares6-nbla-02",
+      "number": 2,
+      "text": "«Mi amado ha descendido a su huerto,\nA las eras de bálsamo,\nA apacentar su rebaño en los huertos\nY recoger lirios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares6-nbla-03a",
+          "order": 1,
+          "text": "Yo soy de mi amado y mi amado es mío,"
+        },
+        {
+          "id": "cantares6-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Él apacienta su rebaño entre los lirios»."
+        }
+      ],
+      "id": "cantares6-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "cantares6-nbla-04",
+      "number": 4,
+      "text": "«Eres hermosa como Tirsa, amada mía,\nEncantadora como Jerusalén,\nImponente como un ejército con estandartes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares6-nbla-05a",
+          "order": 1,
+          "text": "Aparta de mí tus ojos,\nPorque ellos me han confundido;"
+        },
+        {
+          "id": "cantares6-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tu cabellera es como un rebaño de cabras\nQue descienden de Galaad."
+        }
+      ],
+      "id": "cantares6-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "cantares6-nbla-06",
+      "number": 6,
+      "text": "Tus dientes son como rebaño de ovejas\nQue suben del lavadero,\nTodas tienen mellizas,\nY ninguna de ellas ha perdido su cría."
+    },
+    {
+      "id": "cantares6-nbla-07",
+      "number": 7,
+      "text": "Tus mejillas son como mitades de granada\nDetrás de tu velo."
+    },
+    {
+      "id": "cantares6-nbla-08",
+      "number": 8,
+      "text": "Sesenta son las reinas y ochenta las concubinas,\nY las doncellas, sin número;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares6-nbla-09a",
+          "order": 1,
+          "text": "Pero sin igual es mi paloma, mi perfecta,"
+        },
+        {
+          "id": "cantares6-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Es la hija única de su madre,\nLa preferida de la que la dio a luz.\nLas doncellas la vieron y la llamaron bienaventurada,\nTambién las reinas y las concubinas, y la alabaron, diciendo:"
+        }
+      ],
+      "id": "cantares6-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares6-nbla-10a",
+          "order": 1,
+          "text": "“¿Quién es esta que se asoma como el alba,"
+        },
+        {
+          "id": "cantares6-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Hermosa como la luna llena,\nRefulgente como el sol,"
+        },
+        {
+          "id": "cantares6-nbla-10c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Imponente como escuadrones abanderados?”."
+        }
+      ],
+      "id": "cantares6-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares6-nbla-11a",
+          "order": 1,
+          "text": "Descendí al huerto de los nogales\nPara ver el verdor del valle,"
+        },
+        {
+          "id": "cantares6-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Para ver si la vid había retoñado,"
+        },
+        {
+          "id": "cantares6-nbla-11c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Si los granados habían florecido."
+        }
+      ],
+      "id": "cantares6-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "cantares6-nbla-12",
+      "number": 12,
+      "text": "Sin que me diera cuenta, mi alma me colocó\nSobre los carros de mi noble pueblo»."
+    },
+    {
+      "id": "cantares6-nbla-13",
+      "number": 13,
+      "text": "«¡Regresa, regresa, oh Sulamita;\nRegresa, regresa, para que te contemplemos!».\n«¿Por qué han de contemplar a la Sulamita,\nComo en la danza de los dos coros?"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job rechaza la superioridad intelectual con la que sus amigos lo tratan. NBLA fija la afirmación de que él también posee inteligencia y no es inferior; MSG la vuelve concreta mediante la imagen de no tocar el segundo violín. La aplicación no es orgullo intelectual, sino una llamada a no confundir autoridad espiritual con desprecio por el interlocutor.",
+      "id": "job12-joya-01",
+      "msg": {
+        "en": "\"But don’t forget that I also have a brain—\nI don’t intend to play second fiddle to you.\"",
+        "es": "\"Pero no olviden que yo también tengo cerebro:\nno pienso tocar el segundo violín para ustedes.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job12-nbla-03a"
+          ],
+          "verseId": "job12-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3"
+    },
+    {
+      "explanation": "La comodidad puede producir una lectura cruel del dolor ajeno. NBLA identifica al que está en holgura despreciando la calamidad; MSG hace visible esa postura como señalar y culpar. El texto confronta la facilidad con que quienes están seguros convierten la dificultad de otros en evidencia contra ellos.",
+      "id": "job12-joya-02",
+      "msg": {
+        "en": "\"It’s easy for the well-to-do to point their fingers in blame,\nfor the well-fixed to pour scorn on the strugglers.\"",
+        "es": "\"Para quienes viven cómodamente es fácil señalar con el dedo y culpar;\npara quienes tienen todo resuelto es fácil despreciar a los que luchan.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "4-5"
+    },
+    {
+      "explanation": "Toda vida depende de la mano de Dios. NBLA fija la afirmación en Su obra creadora y en la vida y el aliento que están en Su mano; MSG resume pastoralmente esa realidad con la palabra «soberano». La doctrina debe quedar anclada en el contenido literal de NBLA y no en una expansión aislada.",
+      "id": "job12-joya-03",
+      "msg": {
+        "en": "\"that GOD is sovereign, that he holds all things in his hand—\nEvery living soul, yes,\nevery breathing creature?\"",
+        "es": "\"en que DIOS es soberano, que sostiene todas las cosas en Su mano:\ncada alma viviente, sí,\ncada criatura que respira?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job12-nbla-09b"
+          ],
+          "verseId": "job12-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La sabiduría y el poder no pertenecen finalmente a los expertos, ancianos o gobernantes, sino a Dios. NBLA añade consejo y entendimiento; MSG concentra la afirmación en sabiduría y poder. Este versículo reorienta toda la disputa: los amigos no son la medida última de la realidad.",
+      "id": "job12-joya-04",
+      "msg": {
+        "en": "\"True wisdom and real power belong to God;\"",
+        "es": "\"La verdadera sabiduría y el poder real pertenecen a Dios;\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "13"
+    },
+    {
+      "explanation": "Las naciones no son realidades autónomas frente a Dios. NBLA habla de engrandecer, destruir, ensanchar y dispersar; MSG vuelve ese movimiento visible como ascenso y caída. El texto afirma la supremacía divina sobre la historia, pero no autoriza a interpretar cada éxito político como aprobación moral ni cada caída como diagnóstico simple de una causa específica.",
+      "id": "job12-joya-05",
+      "msg": {
+        "en": "\"He makes nations rise and then fall,\nbuilds up some and abandons others.\"",
+        "es": "\"Hace que las naciones se levanten y luego caigan,\nedifica a unas y abandona a otras.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "23-24"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 12,
+    "studyId": "job-12"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "job12-msg-01",
+      "msg": {
+        "en": "Job answered:\n“I’m sure you speak for all the experts,\nand when you die there’ll be no one left to tell us how to live.\nBut don’t forget that I also have a brain—\nI don’t intend to play second fiddle to you.\nIt doesn’t take an expert to know these things.",
+        "es": "Job respondió:\n«Estoy seguro de que ustedes hablan en nombre de todos los expertos,\ny cuando mueran no quedará nadie que pueda decirnos cómo vivir.\nPero no olviden que yo también tengo cerebro:\nno pienso tocar el segundo violín para ustedes.\nNo hace falta ser experto para saber estas cosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "job12-msg-02",
+      "msg": {
+        "en": "“I’m ridiculed by my friends:\n‘So that’s the man who had conversations with God!’\nRidiculed without mercy:\n‘Look at the man who never did wrong!’\nIt’s easy for the well-to-do to point their fingers in blame,\nfor the well-fixed to pour scorn on the strugglers.\nCrooks reside safely in high-security houses,\ninsolent blasphemers live in luxury;\nthey’ve bought and paid for a god who’ll protect them.",
+        "es": "«Mis amigos se burlan de mí:\n“¡Así que este es el hombre que conversaba con Dios!”.\nSe burlan sin misericordia:\n“¡Miren al hombre que nunca hizo nada malo!”.\nPara quienes viven cómodamente es fácil señalar con el dedo y culpar;\npara quienes tienen todo resuelto es fácil despreciar a los que luchan.\nLos delincuentes viven seguros en casas de alta seguridad,\nlos blasfemos insolentes viven rodeados de lujo;\nhan comprado y pagado por un dios que los proteja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "7-12",
+      "id": "job12-msg-03",
+      "msg": {
+        "en": "“But ask the animals what they think—let them teach you;\nlet the birds tell you what’s going on.\nPut your ear to the earth—learn the basics.\nListen—the fish in the ocean will tell you their stories.\nIsn’t it clear that they all know and agree\nthat GOD is sovereign, that he holds all things in his hand—\nEvery living soul, yes,\nevery breathing creature?\nIsn’t this all just common sense,\nas common as the sense of taste?\nDo you think the elderly have a corner on wisdom,\nthat you have to grow old before you understand life?",
+        "es": "«Pero pregúntenles a los animales qué piensan: dejen que les enseñen;\ndejen que las aves les cuenten lo que está ocurriendo.\nPongan el oído en la tierra: aprendan lo básico.\nEscuchen: los peces del océano les contarán sus historias.\n¿No está claro que todos saben y están de acuerdo\nen que DIOS es soberano, que sostiene todas las cosas en Su mano:\ncada alma viviente, sí,\ncada criatura que respira?\n¿No es todo esto puro sentido común,\ntan común como el sentido del gusto?\n¿Creen que los ancianos tienen el monopolio de la sabiduría,\nque hay que envejecer antes de comprender la vida?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-25",
+      "id": "job12-msg-04",
+      "msg": {
+        "en": "“True wisdom and real power belong to God;\nfrom him we learn how to live,\nand also what to live for.\nIf he tears something down, it’s down for good;\nif he locks people up, they’re locked up for good.\nIf he holds back the rain, there’s a drought;\nif he lets it loose, there’s a flood.\nStrength and success belong to God;\nboth deceived and deceiver must answer to him.\nHe strips experts of their vaunted credentials,\nexposes judges as witless fools.\nHe divests kings of their royal garments,\nthen ties a rag around their waists.\nHe strips priests of their robes,\nand fires high officials from their jobs.\nHe forces trusted sages to keep silence,\ndeprives elders of their good sense and wisdom.\nHe dumps contempt on famous people,\ndisarms the strong and mighty.\nHe shines a spotlight into caves of darkness,\nhauls deepest darkness into the noonday sun.\nHe makes nations rise and then fall,\nbuilds up some and abandons others.\nHe robs world leaders of their reason,\nand sends them off into no-man’s-land.\nThey grope in the dark without a clue,\nlurching and staggering like drunks.”",
+        "es": "«La verdadera sabiduría y el poder real pertenecen a Dios;\nde Él aprendemos cómo vivir,\ny también para qué vivir.\nSi Él derriba algo, queda derribado definitivamente;\nsi encierra a alguien, queda encerrado.\nSi retiene la lluvia, hay sequía;\nsi la suelta, hay inundación.\nLa fuerza y el éxito pertenecen a Dios;\ntanto el engañado como el engañador tendrán que responder ante Él.\nDespoja a los expertos de sus credenciales tan celebradas,\nexpone a los jueces como necios sin entendimiento.\nDespoja a los reyes de sus vestidos reales\ny luego les ata un trapo alrededor de la cintura.\nDespoja a los sacerdotes de sus vestiduras\ny despide de sus cargos a los altos funcionarios.\nObliga a callar a sabios de confianza,\npriva a los ancianos de su buen juicio y sabiduría.\nDerrama desprecio sobre personas famosas,\ndesarma a los fuertes y poderosos.\nIlumina con un reflector las cavernas de oscuridad,\narrastra la oscuridad más profunda hasta la luz del mediodía.\nHace que las naciones se levanten y luego caigan,\nedifica a unas y abandona a otras.\nLes quita la razón a los gobernantes del mundo\ny los envía a tierra de nadie.\nAndan a tientas en la oscuridad sin saber adónde van,\ntambaleándose como borrachos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job12-nbla-25"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job12-nbla-01",
+      "number": 1,
+      "text": "Entonces respondió Job:"
+    },
+    {
+      "id": "job12-nbla-02",
+      "number": 2,
+      "text": "«En verdad que ustedes son el pueblo,\nY con ustedes morirá la sabiduría."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job12-nbla-03a",
+          "order": 1,
+          "text": "Pero yo también tengo inteligencia como ustedes;\nNo soy inferior a ustedes."
+        },
+        {
+          "id": "job12-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Y quién no sabe esto?"
+        }
+      ],
+      "id": "job12-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "job12-nbla-04",
+      "number": 4,
+      "text": "Soy motivo de burla para mis amigos,\nYo, el que clamaba a Dios, y Él le respondía.\nMotivo de burla es el justo e intachable."
+    },
+    {
+      "id": "job12-nbla-05",
+      "number": 5,
+      "text": "El que está en holgura desprecia la calamidad,\nComo cosa preparada para aquellos cuyos pies resbalan."
+    },
+    {
+      "id": "job12-nbla-06",
+      "number": 6,
+      "text": "Las tiendas de los destructores prosperan,\nY los que provocan a Dios están seguros,\nA quienes Dios ha dado el poder que tienen."
+    },
+    {
+      "id": "job12-nbla-07",
+      "number": 7,
+      "text": "»Ahora pregunta a los animales, y que ellos te instruyan,\nY a las aves de los cielos, y que ellas te informen."
+    },
+    {
+      "id": "job12-nbla-08",
+      "number": 8,
+      "text": "O habla a la tierra, y que ella te instruya,\nY que los peces del mar te lo declaren."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job12-nbla-09a",
+          "order": 1,
+          "text": "¿Quién entre todos ellos no sabe"
+        },
+        {
+          "id": "job12-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que la mano del SEÑOR ha hecho esto,"
+        }
+      ],
+      "id": "job12-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "job12-nbla-10",
+      "number": 10,
+      "text": "Que en Su mano está la vida de todo ser viviente,\nY el aliento de todo ser humano?"
+    },
+    {
+      "id": "job12-nbla-11",
+      "number": 11,
+      "text": "¿No distingue el oído las palabras\nComo el paladar prueba la comida?"
+    },
+    {
+      "id": "job12-nbla-12",
+      "number": 12,
+      "text": "En los ancianos está la sabiduría,\nY en largura de días el entendimiento."
+    },
+    {
+      "id": "job12-nbla-13",
+      "number": 13,
+      "text": "»En Él están la sabiduría y el poder,\nY el consejo y el entendimiento son Suyos."
+    },
+    {
+      "id": "job12-nbla-14",
+      "number": 14,
+      "text": "Él derriba, y no se puede reedificar;\nAprisiona a un hombre, y no puede ser liberado."
+    },
+    {
+      "id": "job12-nbla-15",
+      "number": 15,
+      "text": "Él retiene las aguas, y todo se seca,\nY las envía, e inundan la tierra."
+    },
+    {
+      "id": "job12-nbla-16",
+      "number": 16,
+      "text": "En Él están la fuerza y la prudencia,\nSuyos son el engañado y el engañador."
+    },
+    {
+      "id": "job12-nbla-17",
+      "number": 17,
+      "text": "Él hace que los consejeros anden descalzos,\nY hace necios a los jueces."
+    },
+    {
+      "id": "job12-nbla-18",
+      "number": 18,
+      "text": "Rompe las cadenas de los reyes\nY ata sus cinturas con cuerda."
+    },
+    {
+      "id": "job12-nbla-19",
+      "number": 19,
+      "text": "Hace que los sacerdotes anden descalzos\nY derriba a los que están seguros."
+    },
+    {
+      "id": "job12-nbla-20",
+      "number": 20,
+      "text": "Priva del habla a los hombres de confianza\nY quita a los ancianos el discernimiento."
+    },
+    {
+      "id": "job12-nbla-21",
+      "number": 21,
+      "text": "Vierte desprecio sobre los nobles\nY afloja el cinto de los fuertes."
+    },
+    {
+      "id": "job12-nbla-22",
+      "number": 22,
+      "text": "Él revela los misterios de las tinieblas\nY saca a la luz la densa oscuridad."
+    },
+    {
+      "id": "job12-nbla-23",
+      "number": 23,
+      "text": "Engrandece las naciones, y las destruye;\nEnsancha las naciones, y las dispersa."
+    },
+    {
+      "id": "job12-nbla-24",
+      "number": 24,
+      "text": "Priva de inteligencia a los jefes de la gente de la tierra\nY los hace vagar por un desierto sin camino;"
+    },
+    {
+      "id": "job12-nbla-25",
+      "number": 25,
+      "text": "Andan a tientas en tinieblas, sin luz,\nY los hace tambalearse como borrachos."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

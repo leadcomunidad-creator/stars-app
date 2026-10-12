@@ -1,0 +1,379 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Bildad afirma el destino de la maldad con lenguaje de luz extinguida. NBLA sostiene esa imagen; MSG la introduce como «la regla». El juicio de la maldad es un tema bíblico real, pero el contexto no permite asumir que esta regla identifica automáticamente a Job como impío.",
+      "id": "job18-joya-01",
+      "msg": {
+        "en": "\"Here’s the rule: The light of the wicked is put out.\"",
+        "es": "\"Esta es la regla: la luz de los malvados se apaga.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5"
+    },
+    {
+      "explanation": "El mal puede volverse contra quien lo practica. NBLA habla del propio designio que hace caer y de pies que entran en la red; MSG concentra la imagen en tropezar con trampas propias. El principio no debe invertirse: estar atrapado no demuestra por sí mismo que la persona haya diseñado moralmente su propia caída.",
+      "id": "job18-joya-02",
+      "msg": {
+        "en": "\"Their strong strides weaken, falter;\nthey stumble into their own traps.\"",
+        "es": "\"Sus pasos fuertes se debilitan y tambalean;\ntropiezan en sus propias trampas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-07"
+        },
+        {
+          "clauseIds": [
+            "job18-nbla-08a"
+          ],
+          "verseId": "job18-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-8"
+    },
+    {
+      "explanation": "Bildad describe la muerte y la enfermedad como fuerzas que consumen la seguridad del impío. NBLA gobierna las imágenes literales de enfermedad, primogénito de la muerte y rey de los terrores; MSG crea una escena más extensa de una tumba hambrienta. Esa expansión comunica terror, pero no debe convertirse en ontología de la muerte.",
+      "id": "job18-joya-03",
+      "msg": {
+        "en": "\"The hungry grave is ready\nto gobble them up for supper,\"",
+        "es": "\"La tumba hambrienta está preparada\npara devorarlos en la cena,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "13-14"
+    },
+    {
+      "explanation": "El juicio descrito incluye pérdida de memoria y paso de luz a oscuridad. NBLA fija esos elementos; MSG añade «tumbas sin marcar». El punto teológico seguro es la ruina de una vida apartada de Dios, no cada detalle añadido por la expansión pastoral.",
+      "id": "job18-joya-04",
+      "msg": {
+        "en": "\"They’ll never again be remembered—\nnameless in unmarked graves.\nThey are plunged from light into darkness,\"",
+        "es": "\"Nunca más serán recordados:\nsin nombre, en tumbas sin marcar.\nSon arrojados de la luz a las tinieblas,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-17"
+        },
+        {
+          "clauseIds": [
+            "job18-nbla-18a"
+          ],
+          "verseId": "job18-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "17-18"
+    },
+    {
+      "explanation": "Bildad culmina identificando su retrato con quien no conoce a Dios. NBLA fija esa conclusión y MSG la hace exclamativa. El lector debe mantener la distancia narrativa: esta es la clasificación de Bildad y no la declaración de Dios de que Job sea un hombre que no lo conoce.",
+      "id": "job18-joya-05",
+      "msg": {
+        "en": "\"This is how the God-ignorant end up\"",
+        "es": "\"Así terminan quienes no conocen a Dios\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job18-nbla-21b"
+          ],
+          "verseId": "job18-nbla-21"
+        }
+      ],
+      "order": 5,
+      "range": "21"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 18,
+    "studyId": "job-18"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job18-msg-01",
+      "msg": {
+        "en": "Bildad from Shuhah chimed in:\n“How monotonous these word games are getting!\nGet serious! We need to get down to business.\nWhy do you treat your friends like slow-witted animals?\nYou look down on us as if we don’t know anything.\nWhy are you working yourself up like this?\nDo you want the world redesigned to suit you?\nShould reality be suspended to accommodate you?",
+        "es": "Bildad de Súah intervino:\n«¡Qué monótonos se están volviendo estos juegos de palabras!\n¡Pónganse serios! Tenemos que ir al asunto.\n¿Por qué tratas a tus amigos como animales torpes?\nNos miras por encima del hombro como si no supiéramos nada.\n¿Por qué te alteras de esta manera?\n¿Quieres que el mundo sea rediseñado para complacerte?\n¿Debe suspenderse la realidad para acomodarse a ti?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-21",
+      "id": "job18-msg-02",
+      "msg": {
+        "en": "“Here’s the rule: The light of the wicked is put out.\nTheir flame dies down and is extinguished.\nTheir house goes dark—\nevery lamp in the place goes out.\nTheir strong strides weaken, falter;\nthey stumble into their own traps.\nThey get all tangled up\nin their own red tape,\nTheir feet are grabbed and caught,\ntheir necks in a noose.\nThey trip on ropes they’ve hidden,\nand fall into pits they’ve dug themselves.\nTerrors come at them from all sides.\nThey run helter-skelter.\nThe hungry grave is ready\nto gobble them up for supper,\nTo lay them out for a gourmet meal,\na treat for ravenous Death.\nThey are snatched from their home sweet home\nand marched straight to the death house.\nTheir lives go up in smoke;\nacid rain soaks their ruins.\nTheir roots rot\nand their branches wither.\nThey’ll never again be remembered—\nnameless in unmarked graves.\nThey are plunged from light into darkness,\nbanished from the world.\nAnd they leave empty-handed—not one single child—\nnothing to show for their life on this earth.\nWesterners are aghast at their fate,\neasterners are horrified:\n‘Oh no! So this is what happens to perverse people.\nThis is how the God-ignorant end up!’”",
+        "es": "«Esta es la regla: la luz de los malvados se apaga.\nSu llama disminuye y termina extinguida.\nSu casa queda a oscuras:\ntodas las lámparas del lugar se apagan.\nSus pasos fuertes se debilitan y tambalean;\ntropiezan en sus propias trampas.\nQuedan completamente enredados\nen su propia maraña,\nsus pies son atrapados,\nsus cuellos quedan en un lazo.\nTropiezan con cuerdas que ellos mismos escondieron\ny caen en fosos que ellos mismos cavaron.\nLos terrores les llegan por todos lados.\nCorren de un lado para otro sin rumbo.\nLa tumba hambrienta está preparada\npara devorarlos en la cena,\npara servirlos como un banquete exquisito,\nun plato para la Muerte voraz.\nSon arrancados de la seguridad de su hogar\ny llevados directamente a la casa de la muerte.\nSus vidas se convierten en humo;\nlluvia ácida empapa sus ruinas.\nSus raíces se pudren\ny sus ramas se marchitan.\nNunca más serán recordados:\nsin nombre, en tumbas sin marcar.\nSon arrojados de la luz a las tinieblas,\ndesterrados del mundo.\nY se van con las manos vacías: ni un solo hijo,\nnada que muestre que vivieron en esta tierra.\nLos del occidente quedan horrorizados ante su destino;\nlos del oriente se estremecen:\n“¡Oh, no! Así termina la gente perversa.\n¡Así terminan quienes no conocen a Dios!”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job18-nbla-21"
+        }
+      ],
+      "order": 2
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job18-nbla-01",
+      "number": 1,
+      "text": "Entonces Bildad, el suhita respondió:"
+    },
+    {
+      "id": "job18-nbla-02",
+      "number": 2,
+      "text": "«¿Hasta cuándo estarán rebuscando palabras?\nMuestren entendimiento y entonces hablaremos."
+    },
+    {
+      "id": "job18-nbla-03",
+      "number": 3,
+      "text": "¿Por qué somos considerados como bestias,\nY torpes a sus ojos?"
+    },
+    {
+      "id": "job18-nbla-04",
+      "number": 4,
+      "text": "¡Oh tú, que te desgarras en tu ira!\n¿Ha de ser abandonada la tierra por tu causa,\nO removida la roca de su lugar?"
+    },
+    {
+      "id": "job18-nbla-05",
+      "number": 5,
+      "text": "»Ciertamente la luz de los impíos se apaga,\nY no brillará la llama de su fuego."
+    },
+    {
+      "id": "job18-nbla-06",
+      "number": 6,
+      "text": "La luz en su tienda se oscurece,\nY su lámpara sobre él se apaga."
+    },
+    {
+      "id": "job18-nbla-07",
+      "number": 7,
+      "text": "Su vigoroso paso es acortado,\nY su propio designio lo hace caer."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job18-nbla-08a",
+          "order": 1,
+          "text": "Porque es arrojado en la red por sus propios pies,"
+        },
+        {
+          "id": "job18-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y sobre mallas camina."
+        }
+      ],
+      "id": "job18-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "job18-nbla-09",
+      "number": 9,
+      "text": "Por el talón lo aprisiona un lazo,\nY una trampa se cierra sobre él."
+    },
+    {
+      "id": "job18-nbla-10",
+      "number": 10,
+      "text": "Escondido está en la tierra un lazo para él,\nY una trampa lo aguarda en la senda."
+    },
+    {
+      "id": "job18-nbla-11",
+      "number": 11,
+      "text": "Por todas partes lo atemorizan terrores,\nY lo hostigan a cada paso."
+    },
+    {
+      "id": "job18-nbla-12",
+      "number": 12,
+      "text": "Se agota por el hambre su vigor,\nY la desgracia está presta a su lado."
+    },
+    {
+      "id": "job18-nbla-13",
+      "number": 13,
+      "text": "Devora su piel la enfermedad,\nDevora sus miembros el primogénito de la muerte."
+    },
+    {
+      "id": "job18-nbla-14",
+      "number": 14,
+      "text": "Es arrancado de la seguridad de su tienda,\nEs conducido al rey de los terrores."
+    },
+    {
+      "id": "job18-nbla-15",
+      "number": 15,
+      "text": "Nada suyo mora en su tienda;\nAzufre es esparcido sobre su morada."
+    },
+    {
+      "id": "job18-nbla-16",
+      "number": 16,
+      "text": "Por abajo se secan sus raíces,\nY por arriba se marchita su ramaje."
+    },
+    {
+      "id": "job18-nbla-17",
+      "number": 17,
+      "text": "Su memoria perece de la tierra,\nY no tiene nombre en toda la región."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job18-nbla-18a",
+          "order": 1,
+          "text": "Es lanzado de la luz a las tinieblas,"
+        },
+        {
+          "id": "job18-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y de la tierra habitada lo echan."
+        }
+      ],
+      "id": "job18-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "job18-nbla-19",
+      "number": 19,
+      "text": "No tiene descendencia ni posteridad entre su pueblo,\nNi sobreviviente alguno donde él peregrinó."
+    },
+    {
+      "id": "job18-nbla-20",
+      "number": 20,
+      "text": "De su destino se asombran los del occidente,\nY los del oriente se sobrecogen de terror."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job18-nbla-21a",
+          "order": 1,
+          "text": "Ciertamente tales son las moradas del impío,"
+        },
+        {
+          "id": "job18-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Este es el lugar del que no conoce a Dios»."
+        }
+      ],
+      "id": "job18-nbla-21",
+      "number": 21
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios no necesita nuestras obras como si Su plenitud dependiera de ellas. NBLA formula la pregunta en términos de lo que podemos darle; MSG la traduce como dependencia de nuestros logros. La conclusión correcta es trascendencia, no indiferencia moral.",
+      "id": "job35-joya-01",
+      "msg": {
+        "en": "\"Even if you’re good, what would God get out of that?\nDo you think he’s dependent on your accomplishments?\"",
+        "es": "\"Incluso si eres bueno, ¿qué obtiene Dios de ello?\n¿Crees que depende de tus logros?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "5-7"
+    },
+    {
+      "explanation": "NBLA afirma que nuestras acciones tienen efecto humano real. MSG amplía con familia, amigos y vecinos. La enseñanza segura es que la moralidad no es abstracta: lo que hacemos hiere o bendice a personas concretas.",
+      "id": "job35-joya-02",
+      "msg": {
+        "en": "\"The only ones who care whether you’re good or bad\nare your family and friends and neighbors.\"",
+        "es": "\"Los únicos afectados por si eres bueno o malo\nson tu familia, tus amigos y tus vecinos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-8"
+    },
+    {
+      "explanation": "La opresión produce un clamor real. NBLA nombra el brazo de los poderosos; MSG vuelve visible el maltrato. Eliú usará esta escena para hablar de motivación espiritual, pero no debemos perder de vista que el sufrimiento descrito es concreto.",
+      "id": "job35-joya-03",
+      "msg": {
+        "en": "\"When times get bad, people cry out for help.\nThey cry for relief from being kicked around,\"",
+        "es": "\"Cuando los tiempos se ponen difíciles, la gente clama pidiendo ayuda.\nPiden alivio porque otros los maltratan,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Eliú presenta a Dios como quien da cánticos y enseñanza. MSG moderniza la creación como «science classroom»; NBLA gobierna con la imagen de Dios que enseña y hace sabio. No es una afirmación literal de que la creación sea una clase científica, sino una expansión pastoral.",
+      "id": "job35-joya-04",
+      "msg": {
+        "en": "\"when God puts spontaneous songs in their hearts,\nWhen God sets out the entire creation as a science classroom,\"",
+        "es": "\"cuando Dios pone canciones espontáneas en sus corazones,\ncuando Dios convierte toda la creación en un salón de ciencias\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job35-nbla-10b"
+          ],
+          "verseId": "job35-nbla-10"
+        },
+        {
+          "clauseIds": [
+            "job35-nbla-11a"
+          ],
+          "verseId": "job35-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "10-11"
+    },
+    {
+      "explanation": "NBLA habla de «clamor vano», una categoría moral más precisa que asumir que todo clamor en crisis es pánico. La aplicación debe dirigirse a la vaciedad del clamor, no a deslegitimar automáticamente la oración desesperada.",
+      "id": "job35-joya-05",
+      "msg": {
+        "en": "\"There’s nothing behind such prayers except panic;\nthe Almighty pays them no mind.\"",
+        "es": "\"Detrás de esas oraciones no hay nada más que pánico;\nel Todopoderoso no les presta atención.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-13"
+        }
+      ],
+      "order": 5,
+      "range": "13-14"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 35,
+    "studyId": "job-35"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "job35-msg-01",
+      "msg": {
+        "en": "Elihu lit into Job again:\n“Does this kind of thing make any sense?\nFirst you say, ‘I’m perfectly innocent before God.’\nAnd then you say, ‘It doesn’t make a bit of difference\nwhether I’ve sinned or not.’",
+        "es": "Eliú volvió a arremeter contra Job:\n«¿Tiene sentido algo así?\nPrimero dices: “Soy perfectamente inocente delante de Dios”.\nY después dices: “No hace ninguna diferencia\nsi he pecado o no”.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-8",
+      "id": "job35-msg-02",
+      "msg": {
+        "en": "“Well, I’m going to show you\nthat you don’t know what you’re talking about,\nneither you nor your friends.\nLook up at the sky. Take a long hard look.\nSee those clouds towering above you?\nIf you sin, what difference could that make to God?\nNo matter how much you sin, will it matter to him?\nEven if you’re good, what would God get out of that?\nDo you think he’s dependent on your accomplishments?\nThe only ones who care whether you’re good or bad\nare your family and friends and neighbors.\nGod’s not dependent on your behavior.",
+        "es": "«Pues voy a mostrarte\nque no sabes de qué estás hablando,\nni tú ni tus amigos.\nMira al cielo. Obsérvalo con atención.\n¿Ves esas nubes elevándose muy por encima de ti?\nSi pecas, ¿qué diferencia puede hacer eso para Dios?\nPor mucho que peques, ¿qué le haces?\nIncluso si eres bueno, ¿qué obtiene Dios de ello?\n¿Crees que depende de tus logros?\nLos únicos afectados por si eres bueno o malo\nson tu familia, tus amigos y tus vecinos.\nDios no depende de tu conducta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-15",
+      "id": "job35-msg-03",
+      "msg": {
+        "en": "“When times get bad, people cry out for help.\nThey cry for relief from being kicked around,\nBut never give God a thought when things go well,\nwhen God puts spontaneous songs in their hearts,\nWhen God sets out the entire creation as a science classroom,\nusing birds and beasts to teach wisdom.\nPeople are arrogantly indifferent to God—\nuntil, of course, they’re in trouble,\nand then God is indifferent to them.\nThere’s nothing behind such prayers except panic;\nthe Almighty pays them no mind.\nSo why would he notice you\njust because you say you’re tired of waiting to be heard,\nOr waiting for him to get good and angry\nand do something about the world’s problems?",
+        "es": "«Cuando los tiempos se ponen difíciles, la gente clama pidiendo ayuda.\nPiden alivio porque otros los maltratan,\npero nunca piensan en Dios cuando todo va bien,\ncuando Dios pone canciones espontáneas en sus corazones,\ncuando Dios convierte toda la creación en un salón de ciencias\ny usa aves y animales para enseñar sabiduría.\nLa gente es arrogantemente indiferente hacia Dios,\nhasta que, por supuesto, llegan los problemas,\ny entonces Dios es indiferente hacia ellos.\nDetrás de esas oraciones no hay nada más que pánico;\nel Todopoderoso no les presta atención.\nAsí que ¿por qué habría de notarte a ti\nsolo porque dices que estás cansado de esperar que te escuche,\no de esperar que finalmente se enoje\ny haga algo respecto de los problemas del mundo?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16",
+      "id": "job35-msg-04",
+      "msg": {
+        "en": "“Job, you talk sheer nonsense—\nnonstop nonsense!”",
+        "es": "«Job, dices puras tonterías:\n¡tonterías sin parar!»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job35-nbla-16"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job35-nbla-01",
+      "number": 1,
+      "text": "Continuó Eliú, y dijo:"
+    },
+    {
+      "id": "job35-nbla-02",
+      "number": 2,
+      "text": "«¿Piensas que esto es justo?\nDices: “Mi justicia es más que la de Dios”."
+    },
+    {
+      "id": "job35-nbla-03",
+      "number": 3,
+      "text": "Porque dices: “¿Qué ventaja será para Ti?\n¿Qué ganaré yo por no haber pecado?”."
+    },
+    {
+      "id": "job35-nbla-04",
+      "number": 4,
+      "text": "Yo te daré razones,\nY a tus amigos contigo."
+    },
+    {
+      "id": "job35-nbla-05",
+      "number": 5,
+      "text": "Mira a los cielos y ve,\nContempla las nubes, son más altas que tú."
+    },
+    {
+      "id": "job35-nbla-06",
+      "number": 6,
+      "text": "Si has pecado, ¿qué logras tú contra Él?\nY si tus transgresiones son muchas, ¿qué le haces?"
+    },
+    {
+      "id": "job35-nbla-07",
+      "number": 7,
+      "text": "Si eres justo, ¿qué le das,\nO qué recibe Él de tu mano?"
+    },
+    {
+      "id": "job35-nbla-08",
+      "number": 8,
+      "text": "Tu maldad es para un hombre como tú,\nY tu justicia para un hijo de hombre."
+    },
+    {
+      "id": "job35-nbla-09",
+      "number": 9,
+      "text": "»A causa de la multitud de opresiones claman los hombres;\nGritan a causa del brazo de los poderosos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job35-nbla-10a",
+          "order": 1,
+          "text": "Pero ninguno dice: “"
+        },
+        {
+          "id": "job35-nbla-10b",
+          "order": 2,
+          "text": "¿Dónde está Dios mi Hacedor,\nQue inspira cánticos en la noche,"
+        }
+      ],
+      "id": "job35-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "job35-nbla-11a",
+          "order": 1,
+          "text": "Que nos enseña más que a las bestias de la tierra,"
+        },
+        {
+          "id": "job35-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y nos hace más sabios que las aves de los cielos?”."
+        }
+      ],
+      "id": "job35-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "job35-nbla-12",
+      "number": 12,
+      "text": "Allí claman, pero Él no responde\nA causa del orgullo de los malos."
+    },
+    {
+      "id": "job35-nbla-13",
+      "number": 13,
+      "text": "Ciertamente el clamor vano no escuchará Dios,\nEl Todopoderoso no lo tomará en cuenta."
+    },
+    {
+      "id": "job35-nbla-14",
+      "number": 14,
+      "text": "Cuánto menos cuando dices que no lo contemplas,\nQue la causa está delante de Él, y tienes que esperarlo."
+    },
+    {
+      "id": "job35-nbla-15",
+      "number": 15,
+      "text": "Y ahora, porque Él no ha castigado con Su ira,\nNi se ha fijado bien en la transgresión,"
+    },
+    {
+      "id": "job35-nbla-16",
+      "number": 16,
+      "text": "Job abre vanamente su boca,\nMultiplica palabras sin sabiduría»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El lamento nace después de una semana de silencio. NBLA precisa el objeto de la maldición: el día de su nacimiento; MSG resume el gesto como maldecir su destino. Por eso no debe enseñarse que Job ya maldijo a Dios, que era exactamente lo que el acusador había predicho. El texto conserva una diferencia importante.",
+      "id": "job3-joya-01",
+      "msg": {
+        "en": "\"Then Job broke the silence. He spoke up and cursed his fate:\"",
+        "es": "\"Entonces Job rompió el silencio. Levantó la voz y maldijo su destino:\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "Job usa imágenes de oscuridad para desear que su día de nacimiento sea deshecho. NBLA conserva la poesía de tinieblas y nube; MSG intensifica la imagen como un día tragado por la noche. La verdad pastoral es la profundidad del lamento, no una doctrina según la cual el nacimiento de Job fuera realmente un mal cósmico.",
+      "id": "job3-joya-02",
+      "msg": {
+        "en": "\"May the day of my birth be buried in deep darkness,\nshrouded by the fog,\nswallowed by the night.\"",
+        "es": "\"Que el día de mi nacimiento quede sepultado en profunda oscuridad,\ncubierto por la niebla,\ntragado por la noche.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "3-10"
+    },
+    {
+      "explanation": "Desde su agotamiento, Job imagina la muerte como el fin de jerarquías y opresiones. NBLA fija la imagen de pequeños, grandes y esclavo libre; MSG hace explícita la igualdad. El pasaje denuncia indirectamente cuánto pesa la opresión en la vida humana, pero no ofrece aquí una doctrina completa de la vida después de la muerte.",
+      "id": "job3-joya-03",
+      "msg": {
+        "en": "\"The small and the great are equals in that place,\nand slaves are free from their masters.\"",
+        "es": "\"Allí pequeños y grandes son iguales,\ny los esclavos quedan libres de sus amos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "11-19"
+    },
+    {
+      "explanation": "Job experimenta su existencia como un camino cerrado. NBLA gobierna la interpretación con la imagen de un camino escondido y un hombre cercado por Dios. MSG traduce esa experiencia en lenguaje de significado. No debe extraerse de esa expansión la doctrina de que Dios bloquea toda posibilidad objetiva de sentido; es la percepción de Job dentro del lamento.",
+      "id": "job3-joya-04",
+      "msg": {
+        "en": "\"What’s the point of life when it doesn’t make sense,\nwhen God blocks all the roads to meaning?\"",
+        "es": "\"¿Qué sentido tiene la vida cuando nada tiene sentido,\ncuando Dios bloquea todos los caminos hacia el significado?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-23"
+        }
+      ],
+      "order": 4,
+      "range": "20-23"
+    },
+    {
+      "explanation": "El cierre resume la experiencia corporal y emocional de Job: no hay reposo. NBLA mantiene la triple negación de reposo, tranquilidad y descanso; MSG vuelve visible la invasión del sufrimiento sobre la vida. La expansión «la muerte ha invadido la vida» comunica el peso del texto, pero la doctrina debe permanecer anclada en la descripción NBLA de una turbación persistente.",
+      "id": "job3-joya-05",
+      "msg": {
+        "en": "\"My repose is shattered, my peace destroyed.\nNo rest for me, ever—death has invaded life.\"",
+        "es": "\"Mi calma quedó hecha pedazos, mi paz fue destruida.\nNo hay descanso para mí, nunca: la muerte ha invadido la vida\"."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "24-26"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 3,
+    "studyId": "job-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "job3-msg-01",
+      "msg": {
+        "en": "Then Job broke the silence. He spoke up and cursed his fate:",
+        "es": "Entonces Job rompió el silencio. Levantó la voz y maldijo su destino:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-10",
+      "id": "job3-msg-02",
+      "msg": {
+        "en": "“Obliterate the day I was born.\nBlank out the night I was conceived!\nLet it be a black hole in space.\nMay God above forget it ever happened.\nErase it from the books!\nMay the day of my birth be buried in deep darkness,\nshrouded by the fog,\nswallowed by the night.\nAnd the night of my conception—the devil take it!\nRip the date off the calendar,\ndelete it from the almanac.\nOh, turn that night into pure nothingness—\nno sounds of pleasure from that night, ever!\nMay those who are good at cursing curse that day.\nUnleash the sea beast, Leviathan, on it.\nMay its morning stars turn to black cinders,\nwaiting for a daylight that never comes,\nnever once seeing the first light of dawn.\nAnd why? Because it released me from my mother’s womb\ninto a life with so much trouble.",
+        "es": "«Borra el día en que nací.\n¡Haz desaparecer la noche en que fui concebido!\nQue sea un agujero negro en el espacio.\nQue Dios allá arriba olvide que alguna vez ocurrió.\n¡Bórralo de los registros!\nQue el día de mi nacimiento quede sepultado en profunda oscuridad,\ncubierto por la niebla,\ntragado por la noche.\nY la noche de mi concepción, ¡al diablo con ella!\nArranca esa fecha del calendario,\nbórrala del almanaque.\nOh, convierte esa noche en pura nada:\n¡que nunca vuelva a oírse en ella un solo sonido de alegría!\nQue quienes saben maldecir maldigan ese día.\nQue suelten contra ese día al monstruo marino, Leviatán.\nQue sus estrellas de la mañana se vuelvan cenizas negras,\nesperando una luz del día que jamás llegue,\nsin ver una sola vez el primer resplandor del amanecer.\n¿Y por qué? Porque me dejó salir del vientre de mi madre\nhacia una vida cargada de tanto dolor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-10"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "11-19",
+      "id": "job3-msg-03",
+      "msg": {
+        "en": "“Why didn’t I die at birth,\nmy first breath out of the womb my last?\nWhy were there arms to rock me,\nand breasts for me to drink from?\nI could be resting in peace right now,\nasleep forever, feeling no pain,\nIn the company of kings and statesmen\nin their royal ruins,\nOr with princes resplendent\nin their gold and silver tombs.\nWhy wasn’t I stillborn and buried\nwith all the babies who never saw light,\nWhere the wicked no longer trouble anyone\nand bone-weary people get a long-deserved rest?\nPrisoners sleep undisturbed,\nnever again to wake up to the bark of the guards.\nThe small and the great are equals in that place,\nand slaves are free from their masters.",
+        "es": "«¿Por qué no morí al nacer,\npor qué mi primer aliento fuera del vientre no fue también el último?\n¿Por qué hubo brazos que me recibieran\ny pechos de los que pudiera alimentarme?\nAhora mismo podría estar descansando en paz,\ndormido para siempre, sin sentir dolor,\nen compañía de reyes y gobernantes\nen sus ruinas reales,\no con príncipes deslumbrantes\nen sus tumbas llenas de oro y plata.\n¿Por qué no nací muerto y fui sepultado\ncon todos los bebés que nunca vieron la luz,\ndonde los malvados ya no molestan a nadie\ny los agotados reciben un descanso largamente esperado?\nLos prisioneros duermen sin que nadie los perturbe,\nsin volver a despertar por los gritos de los guardias.\nAllí pequeños y grandes son iguales,\ny los esclavos quedan libres de sus amos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-19"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "job3-msg-04",
+      "msg": {
+        "en": "“Why does God bother giving light to the miserable,\nwhy bother keeping bitter people alive,\nThose who want in the worst way to die, and can’t,\nwho can’t imagine anything better than death,\nWho count the day of their death and burial\nthe happiest day of their life?\nWhat’s the point of life when it doesn’t make sense,\nwhen God blocks all the roads to meaning?",
+        "es": "«¿Por qué se molesta Dios en dar luz a los miserables,\npor qué mantener con vida a quienes tienen el alma amarga,\na quienes desean desesperadamente morir y no pueden,\na quienes no imaginan nada mejor que la muerte,\na quienes cuentan el día de su muerte y su entierro\ncomo el día más feliz de su vida?\n¿Qué sentido tiene la vida cuando nada tiene sentido,\ncuando Dios bloquea todos los caminos hacia el significado?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-23"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "24-26",
+      "id": "job3-msg-05",
+      "msg": {
+        "en": "“Instead of bread I get groans for my supper,\nthen leave the table and vomit my anguish.\nThe worst of my fears has come true,\nwhat I’ve dreaded most has happened.\nMy repose is shattered, my peace destroyed.\nNo rest for me, ever—death has invaded life.”",
+        "es": "«En vez de pan, me sirven gemidos para la cena;\nluego dejo la mesa y vomito mi angustia.\nLo peor que temía se ha vuelto realidad;\nlo que más me aterraba ha sucedido.\nMi calma quedó hecha pedazos, mi paz fue destruida.\nNo hay descanso para mí, nunca: la muerte ha invadido la vida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job3-nbla-26"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job3-nbla-01",
+      "number": 1,
+      "text": "Después de esto, Job abrió su boca y maldijo el día de su nacimiento."
+    },
+    {
+      "id": "job3-nbla-02",
+      "number": 2,
+      "text": "Y dijo Job:"
+    },
+    {
+      "id": "job3-nbla-03",
+      "number": 3,
+      "text": "«Perezca el día en que yo nací,\nY la noche que dijo: “Un varón ha sido concebido”."
+    },
+    {
+      "id": "job3-nbla-04",
+      "number": 4,
+      "text": "Sea ese día tinieblas,\nNo lo tome en cuenta Dios desde lo alto,\nNi resplandezca sobre él la luz."
+    },
+    {
+      "id": "job3-nbla-05",
+      "number": 5,
+      "text": "Apodérense de él tinieblas y densa oscuridad,\nPósese sobre él una nube,\nLlénelo de terror la negrura del día."
+    },
+    {
+      "id": "job3-nbla-06",
+      "number": 6,
+      "text": "Y en cuanto a aquella noche, apodérense de ella las tinieblas;\nQue no se alegre entre los días del año,\nNi se cuente en el número de los meses."
+    },
+    {
+      "id": "job3-nbla-07",
+      "number": 7,
+      "text": "Que sea estéril aquella noche,\nNo entren en ella gritos de júbilo."
+    },
+    {
+      "id": "job3-nbla-08",
+      "number": 8,
+      "text": "Maldíganla los que maldicen el día,\nLos que están listos para despertar a Leviatán."
+    },
+    {
+      "id": "job3-nbla-09",
+      "number": 9,
+      "text": "Oscurézcanse las estrellas de su alba;\nQue espere la luz pero no la tenga,\nQue tampoco vea el rayar de la aurora;"
+    },
+    {
+      "id": "job3-nbla-10",
+      "number": 10,
+      "text": "Porque no cerró las puertas del vientre de mi madre,\nNi escondió la aflicción de mis ojos."
+    },
+    {
+      "id": "job3-nbla-11",
+      "number": 11,
+      "text": "»¿Por qué no morí yo al nacer,\nO expiré al salir del vientre?"
+    },
+    {
+      "id": "job3-nbla-12",
+      "number": 12,
+      "text": "¿Por qué me recibieron las rodillas,\nY para qué los pechos que me dieron de mamar?"
+    },
+    {
+      "id": "job3-nbla-13",
+      "number": 13,
+      "text": "Porque ahora yo reposaría tranquilo;\nDormiría, y entonces tendría descanso"
+    },
+    {
+      "id": "job3-nbla-14",
+      "number": 14,
+      "text": "Con los reyes y los consejeros de la tierra,\nQue reedificaron ruinas para sí;"
+    },
+    {
+      "id": "job3-nbla-15",
+      "number": 15,
+      "text": "O con príncipes que tenían oro,\nQue llenaban sus casas de plata."
+    },
+    {
+      "id": "job3-nbla-16",
+      "number": 16,
+      "text": "O como aborto desechado, yo no existiría,\nComo los niños que nunca vieron la luz."
+    },
+    {
+      "id": "job3-nbla-17",
+      "number": 17,
+      "text": "Allí los impíos dejan de sentir ira,\nY allí reposan los cansados."
+    },
+    {
+      "id": "job3-nbla-18",
+      "number": 18,
+      "text": "Juntos reposan los prisioneros;\nNo oyen la voz del capataz."
+    },
+    {
+      "id": "job3-nbla-19",
+      "number": 19,
+      "text": "Allí están los pequeños y los grandes,\nY el esclavo es libre de su señor."
+    },
+    {
+      "id": "job3-nbla-20",
+      "number": 20,
+      "text": "»¿Por qué se da luz al que sufre,\nY vida al amargado de alma;"
+    },
+    {
+      "id": "job3-nbla-21",
+      "number": 21,
+      "text": "A los que ansían la muerte, pero no llega,\nY cavan por ella más que por tesoros;"
+    },
+    {
+      "id": "job3-nbla-22",
+      "number": 22,
+      "text": "Que se alegran sobremanera,\nY se regocijan cuando encuentran el sepulcro?"
+    },
+    {
+      "id": "job3-nbla-23",
+      "number": 23,
+      "text": "¿Por qué dar luz al hombre cuyo camino está escondido,\nY a quien Dios ha cercado?"
+    },
+    {
+      "id": "job3-nbla-24",
+      "number": 24,
+      "text": "Porque al ver mi alimento salen mis gemidos,\nY mis clamores se derraman como agua."
+    },
+    {
+      "id": "job3-nbla-25",
+      "number": 25,
+      "text": "Pues lo que temo viene sobre mí,\nY lo que me aterroriza me sucede."
+    },
+    {
+      "id": "job3-nbla-26",
+      "number": 26,
+      "text": "No tengo reposo ni estoy tranquilo,\nNo descanso, sino que me viene turbación»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

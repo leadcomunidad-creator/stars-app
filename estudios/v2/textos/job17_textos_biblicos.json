@@ -1,0 +1,313 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Job no disfraza su agotamiento. NBLA fija el espíritu quebrantado, los días extinguidos y el sepulcro preparado; MSG vuelve la escena todavía más visual. La honestidad del texto permite reconocer desesperanza severa sin convertir la muerte en solución espiritual.",
+      "id": "job17-joya-01",
+      "msg": {
+        "en": "\"My spirit is broken,\nmy days used up,\nmy grave dug and waiting.\"",
+        "es": "\"Mi espíritu está quebrantado,\nmis días se han acabado,\nmi tumba está cavada y esperando.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "Job necesita una garantía que venga de Dios. NBLA aporta las categorías jurídicas de fianza y fiador; MSG las traduce como respaldo firmado. La expansión no debe desplazar el sentido: Job pide seguridad para su causa, no está describiendo todavía el pacto nuevo de Hebreos.",
+      "id": "job17-joya-02",
+      "msg": {
+        "en": "\"O God, pledge your support for me.\nGive it to me in writing, with your signature.\"",
+        "es": "\"Oh Dios, comprométete a respaldarme.\nDámelo por escrito, con Tu firma.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "En medio del quebranto, Job puede afirmar perseverancia. NBLA gobierna el sentido: el justo se mantiene en su camino y se fortalece. MSG añade la imagen de aferrarse a la vida, que comunica resistencia pastoralmente pero no debe sustituir la formulación literal.",
+      "id": "job17-joya-03",
+      "msg": {
+        "en": "\"But principled people hold tight, keep a firm grip on life,\"",
+        "es": "\"Pero las personas de principios se mantienen firmes, se aferran con fuerza a la vida,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "9"
+    },
+    {
+      "explanation": "Job distingue entre tener planes y poder realizarlos. NBLA habla de días pasados, planes deshechos y deseos del corazón; MSG convierte esas pérdidas en imágenes de destrucción y apagamiento. El texto valida el duelo por futuros que ya no parecen posibles.",
+      "id": "job17-joya-04",
+      "msg": {
+        "en": "\"My life’s about over. All my plans are smashed,\nall my hopes are snuffed out—\"",
+        "es": "\"Mi vida está por terminar. Todos mis planes quedaron destrozados,\ntodas mis esperanzas se apagaron:\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11"
+    },
+    {
+      "explanation": "Job se niega a llamar esperanza a una expectativa que solo termina en el polvo. NBLA formula la pregunta por dónde está su esperanza; MSG la convierte en desafío directo. El capítulo todavía no responde plenamente, pero preserva el espacio para una esperanza más grande que la tumba.",
+      "id": "job17-joya-05",
+      "msg": {
+        "en": "\"Do you call that hope?\nWho on earth could find any hope in that?\"",
+        "es": "\"¿a eso le llaman esperanza?\n¿Quién en la tierra podría encontrar esperanza en eso?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-15"
+        }
+      ],
+      "order": 5,
+      "range": "15-16"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 17,
+    "studyId": "job-17"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "job17-msg-01",
+      "msg": {
+        "en": "“My spirit is broken,\nmy days used up,\nmy grave dug and waiting.\nSee how these mockers close in on me?\nHow long do I have to put up with their insolence?",
+        "es": "«Mi espíritu está quebrantado,\nmis días se han acabado,\nmi tumba está cavada y esperando.\nMiren cómo estos burladores se me cierran alrededor.\n¿Cuánto tiempo más tendré que soportar su insolencia?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "job17-msg-02",
+      "msg": {
+        "en": "“O God, pledge your support for me.\nGive it to me in writing, with your signature.\nYou’re the only one who can do it!\nThese people are so useless!\nYou know firsthand how stupid they can be.\nYou wouldn’t let them have the last word, would you?\nThose who betray their own friends\nleave a legacy of abuse to their children.",
+        "es": "«Oh Dios, comprométete a respaldarme.\nDámelo por escrito, con Tu firma.\n¡Tú eres el único que puede hacerlo!\nEsta gente es completamente inútil.\nTú sabes de primera mano lo necios que pueden ser.\nNo dejarías que ellos tuvieran la última palabra, ¿verdad?\nQuienes traicionan a sus propios amigos\ndejan a sus hijos una herencia de abuso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "job17-msg-03",
+      "msg": {
+        "en": "“God, you’ve made me the talk of the town—\npeople spit in my face;\nI can hardly see from crying so much;\nI’m nothing but skin and bones.\nDecent people can’t believe what they’re seeing;\nthe good-hearted wake up and insist I’ve given up on God.",
+        "es": "«Dios, me has convertido en la conversación de todo el pueblo:\nla gente me escupe en la cara.\nCasi no puedo ver de tanto llorar;\nno soy más que piel y huesos.\nLas personas rectas no pueden creer lo que están viendo;\nlos de buen corazón se levantan indignados porque creen que he abandonado a Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9",
+      "id": "job17-msg-04",
+      "msg": {
+        "en": "“But principled people hold tight, keep a firm grip on life,\nsure that their clean, pure hands will get stronger and stronger!",
+        "es": "«Pero las personas de principios se mantienen firmes, se aferran con fuerza a la vida,\nseguras de que sus manos limpias y puras se harán cada vez más fuertes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-09"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "10-16",
+      "id": "job17-msg-05",
+      "msg": {
+        "en": "“Maybe you’d all like to start over,\nto try it again, the bunch of you.\nSo far I haven’t come across one scrap\nof wisdom in anything you’ve said.\nMy life’s about over. All my plans are smashed,\nall my hopes are snuffed out—\nMy hope that night would turn into day,\nmy hope that dawn was about to break.\nIf all I have to look forward to is a home in the graveyard,\nif my only hope for comfort is a well-built coffin,\nIf a family reunion means going six feet under,\nand the only family that shows up is worms,\nDo you call that hope?\nWho on earth could find any hope in that?\nNo. If hope and I are to be buried together,\nI suppose you’ll all come to the double funeral!”",
+        "es": "«Tal vez quieran todos empezar de nuevo,\nintentar otra vez, el grupo entero.\nHasta ahora no he encontrado ni una sola pizca\nde sabiduría en nada de lo que han dicho.\nMi vida está por terminar. Todos mis planes quedaron destrozados,\ntodas mis esperanzas se apagaron:\nmi esperanza de que la noche se convirtiera en día,\nmi esperanza de que el amanecer estuviera a punto de romper.\nSi lo único que puedo esperar es una casa en el cementerio,\nsi mi única esperanza de consuelo es un ataúd bien construido,\nsi una reunión familiar significa quedar bajo tierra,\ny la única familia que llega son los gusanos,\n¿a eso le llaman esperanza?\n¿Quién en la tierra podría encontrar esperanza en eso?\nNo. Si la esperanza y yo vamos a ser enterrados juntos,\nsupongo que todos ustedes vendrán al doble funeral»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job17-nbla-16"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job17-nbla-01",
+      "number": 1,
+      "text": "»Mi espíritu está quebrantado, mis días extinguidos,\nEl sepulcro está preparado para mí."
+    },
+    {
+      "id": "job17-nbla-02",
+      "number": 2,
+      "text": "No hay sino escarnecedores conmigo,\nY mis ojos ven su provocación."
+    },
+    {
+      "id": "job17-nbla-03",
+      "number": 3,
+      "text": "»Coloca, pues, junto a Ti una fianza para mí;\n¿Quién hay que quiera ser mi fiador?"
+    },
+    {
+      "id": "job17-nbla-04",
+      "number": 4,
+      "text": "Porque has escondido su corazón del entendimiento,\nPor tanto no los exaltarás."
+    },
+    {
+      "id": "job17-nbla-05",
+      "number": 5,
+      "text": "Al que denuncie a sus amigos por una parte del botín,\nA sus hijos se les debilitarán los ojos."
+    },
+    {
+      "id": "job17-nbla-06",
+      "number": 6,
+      "text": "»Porque Él me ha hecho burla del pueblo,\nY soy uno a quien los hombres escupen."
+    },
+    {
+      "id": "job17-nbla-07",
+      "number": 7,
+      "text": "Mis ojos se oscurecen también por el sufrimiento,\nY todos mis miembros son como una sombra."
+    },
+    {
+      "id": "job17-nbla-08",
+      "number": 8,
+      "text": "Los hombres rectos se quedarán pasmados de esto,\nY el inocente se indignará contra el impío."
+    },
+    {
+      "id": "job17-nbla-09",
+      "number": 9,
+      "text": "Sin embargo, el justo se mantendrá en su camino,\nY el de manos limpias se fortalecerá más y más."
+    },
+    {
+      "id": "job17-nbla-10",
+      "number": 10,
+      "text": "Pero vuélvanse todos ustedes, y vengan ahora,\nPues no hallo entre ustedes a ningún sabio."
+    },
+    {
+      "id": "job17-nbla-11",
+      "number": 11,
+      "text": "Mis días han pasado, se deshicieron mis planes,\nLos deseos de mi corazón."
+    },
+    {
+      "id": "job17-nbla-12",
+      "number": 12,
+      "text": "Algunos convierten la noche en día, diciendo:\n“La luz está cerca”, en presencia de las tinieblas."
+    },
+    {
+      "id": "job17-nbla-13",
+      "number": 13,
+      "text": "Si espero que el Seol sea mi casa,\nHago mi lecho en las tinieblas;"
+    },
+    {
+      "id": "job17-nbla-14",
+      "number": 14,
+      "text": "Si digo al hoyo: “Mi padre eres tú”,\nY al gusano: “Mi madre y mi hermana”."
+    },
+    {
+      "id": "job17-nbla-15",
+      "number": 15,
+      "text": "¿Dónde está, pues, mi esperanza?\nY mi esperanza ¿quién la verá?"
+    },
+    {
+      "id": "job17-nbla-16",
+      "number": 16,
+      "text": "¿Descenderá conmigo al Seol?\n¿Nos hundiremos juntos en el polvo?»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

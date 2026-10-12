@@ -1,0 +1,191 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Bildad comienza con una verdad central: Dios posee autoridad y majestad. NBLA fija el dominio y el pavor; MSG resume esa grandeza con «soberano» y «fearsome». La afirmación debe recibirse sin asumir que valida automáticamente la aplicación de Bildad al caso de Job.",
+      "id": "job25-joya-01",
+      "msg": {
+        "en": "\"God is sovereign, God is fearsome—\"",
+        "es": "\"Dios es soberano, Dios inspira temor:\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La luz de Dios expresa un alcance que supera toda frontera humana. NBLA formula la pregunta sobre quién queda fuera de ella; MSG la convierte en una pregunta espacial. El texto engrandece a Dios, pero no autoriza a usar Su luz como argumento para declarar culpable a Job.",
+      "id": "job25-joya-02",
+      "msg": {
+        "en": "\"Is there any place where his light doesn’t shine?\"",
+        "es": "\"¿Existe algún lugar donde no brille Su luz?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job25-nbla-03b"
+          ],
+          "verseId": "job25-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3"
+    },
+    {
+      "explanation": "Ninguna persona puede colocarse delante de Dios como si fuera moralmente autosuficiente. NBLA habla de ser justo con Dios; MSG lo expresa como pretender plantarse delante de Él. La universalidad de esa dependencia no prueba una culpa particular en Job.",
+      "id": "job25-joya-03",
+      "msg": {
+        "en": "\"How can a mere mortal presume to stand up to God?\"",
+        "es": "\"¿Cómo puede un simple mortal pretender ponerse delante de Dios?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job25-nbla-04a"
+          ],
+          "verseId": "job25-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4"
+    },
+    {
+      "explanation": "Bildad lleva la comparación hasta un lenguaje de extrema pequeñez. NBLA conserva larva y gusano; MSG añade una imagen igualmente degradante. La conclusión segura es la desproporción entre criatura y Creador, no que el ser humano carezca de dignidad o valor delante de Dios.",
+      "id": "job25-joya-04",
+      "msg": {
+        "en": "\"So how much less, plain men and women—\nslugs and maggots by comparison!\"",
+        "es": "\"¡cuánto menos los hombres y las mujeres comunes:\nbabosas y gusanos en comparación!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-06"
+        }
+      ],
+      "order": 4,
+      "range": "5-6"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 25,
+    "studyId": "job-25"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "job25-msg-01",
+      "msg": {
+        "en": "Bildad the Shuhite again attacked Job:\n“God is sovereign, God is fearsome—\neverything in the cosmos fits and works in his plan.\nCan anyone count his angel armies?\nIs there any place where his light doesn’t shine?\nHow can a mere mortal presume to stand up to God?\nHow can an ordinary person pretend to be guiltless?\nWhy, even the moon has its flaws,\neven the stars aren’t perfect in God’s eyes,\nSo how much less, plain men and women—\nslugs and maggots by comparison!”",
+        "es": "Bildad el suhita volvió a atacar a Job:\n«Dios es soberano, Dios inspira temor:\ntodo en el cosmos encaja y funciona dentro de Su plan.\n¿Puede alguien contar Sus ejércitos de ángeles?\n¿Existe algún lugar donde no brille Su luz?\n¿Cómo puede un simple mortal pretender ponerse delante de Dios?\n¿Cómo puede una persona común fingir que no tiene culpa?\nHasta la luna tiene imperfecciones,\nhasta las estrellas dejan de ser perfectas ante los ojos de Dios;\n¡cuánto menos los hombres y las mujeres comunes:\nbabosas y gusanos en comparación!»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job25-nbla-06"
+        }
+      ],
+      "order": 1
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job25-nbla-01",
+      "number": 1,
+      "text": "Entonces Bildad, el suhita, respondió:"
+    },
+    {
+      "id": "job25-nbla-02",
+      "number": 2,
+      "text": "«Dominio y pavor pertenecen\nAl que establece la paz en Sus alturas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job25-nbla-03a",
+          "order": 1,
+          "text": "¿Tienen número Sus ejércitos?"
+        },
+        {
+          "id": "job25-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿Y sobre quién no se levanta Su luz?"
+        }
+      ],
+      "id": "job25-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "job25-nbla-04a",
+          "order": 1,
+          "text": "¿Cómo puede un hombre, pues, ser justo con Dios?"
+        },
+        {
+          "id": "job25-nbla-04b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¿O cómo puede ser limpio el que nace de mujer?"
+        }
+      ],
+      "id": "job25-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "job25-nbla-05",
+      "number": 5,
+      "text": "Si aun la luna no tiene brillo\nY las estrellas no son puras a Sus ojos,"
+    },
+    {
+      "id": "job25-nbla-06",
+      "number": 6,
+      "text": "¡Cuánto menos el hombre, esa larva,\nY el hijo del hombre, ese gusano!»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

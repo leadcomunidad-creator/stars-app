@@ -1,0 +1,583 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "El texto presenta deliberadamente el placer como un experimento de significado. La NBLA confirma que el Predicador se somete a una prueba; MSG hace palpable el tono de esa búsqueda. La verdad teológica no es que disfrutar sea pecado, sino que el placer fracasa cuando se le asigna la tarea de responder por el sentido total de la vida.",
+      "id": "eclesiastes2-joya-01",
+      "msg": {
+        "en": "\"experiment with pleasure, have a good time!\"",
+        "es": "\"probemos el placer; pasémosla bien\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-01b"
+          ],
+          "verseId": "eclesiastes2-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La autonomía sin límites queda expuesta como un camino incapaz de producir plenitud final. La NBLA fija la amplitud del deseo satisfecho; MSG lo condensa en una confesión penetrante. El problema teológico no es la existencia del deseo, sino un yo convertido en autoridad última, sin una voluntad superior a la cual rendirse.",
+      "id": "eclesiastes2-joya-02",
+      "msg": {
+        "en": "\"I never said no to myself.\"",
+        "es": "\"nunca me dije que no\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-10b"
+          ],
+          "verseId": "eclesiastes2-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "9-10"
+    },
+    {
+      "explanation": "La evaluación posterior al éxito revela que la abundancia no produce por sí misma provecho definitivo. La NBLA mantiene la categoría de vanidad y ausencia de provecho; MSG hace sentir el contraste entre grandes obras y un resultado que se disipa. La conclusión no invalida las obras, sino su incapacidad para salvar a quien las hizo.",
+      "id": "eclesiastes2-joya-03",
+      "msg": {
+        "en": "\"I saw nothing but smoke.\"",
+        "es": "\"no vi más que humo\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-11b"
+          ],
+          "verseId": "eclesiastes2-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "11"
+    },
+    {
+      "explanation": "Eclesiastés no cae en nihilismo: reconoce diferencias morales y prácticas reales. La NBLA afirma la superioridad de la sabiduría; MSG la expresa con claridad cotidiana. La muerte limita esa ventaja, pero no la borra. La sabiduría bíblica puede ser verdaderamente mejor sin convertirse en una promesa de inmortalidad.",
+      "id": "eclesiastes2-joya-04",
+      "msg": {
+        "en": "\"it’s better to be smart than stupid\"",
+        "es": "\"ser sabio es mejor que ser necio\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-13b"
+          ],
+          "verseId": "eclesiastes2-nbla-13"
+        }
+      ],
+      "order": 4,
+      "range": "12-14"
+    },
+    {
+      "explanation": "El trabajo convertido en fuente de seguridad puede invadir incluso el descanso. La NBLA ubica el problema en el corazón que no logra reposar; MSG lo vuelve una experiencia cotidiana y reconocible. La verdad teológica es que la productividad no puede dar la paz que promete cuando se transforma en fundamento de identidad y control.",
+      "id": "eclesiastes2-joya-05",
+      "msg": {
+        "en": "\"Never a decent night’s rest.\"",
+        "es": "\"Ni siquiera una noche decente de descanso.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-23b"
+          ],
+          "verseId": "eclesiastes2-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "20-23"
+    },
+    {
+      "explanation": "El capítulo gira del control al don. La NBLA afirma directamente que el bien disfrutado procede de la mano de Dios; MSG subraya que el disfrute no es totalmente autogenerado. La aplicación correcta no es pasividad, sino gratitud: trabajar y disfrutar sin reclamar soberanía sobre la fuente, el resultado o la duración del regalo.",
+      "id": "eclesiastes2-joya-06",
+      "msg": {
+        "en": "\"it’s up to God.\"",
+        "es": "\"no está finalmente en nuestras manos, sino en las de Dios\"."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes2-nbla-24b"
+          ],
+          "verseId": "eclesiastes2-nbla-24"
+        }
+      ],
+      "order": 6,
+      "range": "24-26"
+    }
+  ],
+  "meta": {
+    "book": "ECLESIASTÉS",
+    "bookId": "eclesiastes",
+    "chapter": 2,
+    "studyId": "eclesiastes-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "eclesiastes2-msg-01",
+      "msg": {
+        "en": "I said to myself, “Let’s go for it—experiment with pleasure, have a good time!” But there was nothing to it, nothing but smoke.\nWhat do I think of the fun-filled life? Insane! Inane!\nMy verdict on the pursuit of happiness? Who needs it?\nWith the help of a bottle of wine\nand all the wisdom I could muster,\nI tried my level best\nto penetrate the absurdity of life.\nI wanted to get a handle on anything useful we mortals might do\nduring the years we spend on this earth.",
+        "es": "Me dije: «Vamos, probemos el placer; pasémosla bien». Pero no había nada sólido allí: nada más que humo.\n¿Qué pienso de una vida dedicada a divertirse? ¡Una locura! ¡Un absurdo!\n¿Mi veredicto sobre perseguir la felicidad? ¿Para qué?\nCon la ayuda de una botella de vino\ny toda la sabiduría que pude reunir,\nhice cuanto estuvo a mi alcance\npara penetrar en lo absurdo de la vida.\nQuería descubrir si había algo realmente útil que nosotros, los mortales, pudiéramos hacer\ndurante los años que pasamos en esta tierra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4-8",
+      "id": "eclesiastes2-msg-02",
+      "msg": {
+        "en": "Oh, I did great things:\nbuilt houses,\nplanted vineyards,\ndesigned gardens and parks\nand planted a variety of fruit trees in them,\nmade pools of water\nto irrigate the groves of trees.\nI bought slaves, male and female,\nwho had children, giving me even more slaves;\nthen I acquired large herds and flocks,\nlarger than any before me in Jerusalem.\nI piled up silver and gold,\nloot from kings and kingdoms.\nI gathered a chorus of singers to entertain me with song,\nand—most exquisite of all pleasures—\nvoluptuous maidens for my bed.",
+        "es": "Ah, sí que hice grandes cosas:\nconstruí casas,\nplanté viñedos,\ndiseñé jardines y parques\ny sembré en ellos toda clase de árboles frutales;\nconstruí estanques de agua\npara regar arboledas enteras.\nCompré esclavos y esclavas,\ny ellos tuvieron hijos, de modo que tuve todavía más esclavos;\nluego adquirí enormes rebaños y manadas,\nmás que cualquiera que hubiera vivido antes que yo en Jerusalén.\nAmontoné plata y oro,\ntesoros de reyes y reinos.\nReuní un coro de cantores para entretenerme con música\ny —entre los placeres más exquisitos—\nmujeres hermosas para mi cama."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "eclesiastes2-msg-03",
+      "msg": {
+        "en": "Oh, how I prospered! I left all my predecessors in Jerusalem far behind, left them behind in the dust. What’s more, I kept a clear head through it all. Everything I wanted I took—I never said no to myself. I gave in to every impulse, held back nothing. I sucked the marrow of pleasure out of every task—my reward to myself for a hard day’s work!",
+        "es": "¡Cómo prosperé! Dejé muy atrás a todos mis predecesores en Jerusalén; los dejé comiendo polvo. Y, además, mantuve la cabeza fría durante todo el proceso. Todo lo que quise, lo tomé: nunca me dije que no. Cedí a cada impulso, no me privé de nada. Le exprimí hasta la última gota de placer a cada tarea: esa era mi recompensa por un día de trabajo duro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-10"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "11",
+      "id": "eclesiastes2-msg-04",
+      "msg": {
+        "en": "Then I took a good look at everything I’d done, looked at all the sweat and hard work. But when I looked, I saw nothing but smoke. Smoke and spitting into the wind. There was nothing to any of it. Nothing.",
+        "es": "Entonces miré con atención todo lo que había hecho, todo el sudor y el trabajo duro. Pero cuando lo observé de verdad, no vi más que humo. Humo y escupir contra el viento. No había nada sólido en todo aquello. Nada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-11"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "12-14",
+      "id": "eclesiastes2-msg-05",
+      "msg": {
+        "en": "And then I took a hard look at what’s smart and what’s stupid. What’s left to do after you’ve been king? That’s a hard act to follow. You just do what you can, and that’s it. But I did see that it’s better to be smart than stupid, just as light is better than darkness. Even so, though the smart ones see where they’re going and the stupid ones grope in the dark, they’re all the same in the end. One fate for all — and that’s it.",
+        "es": "Después examiné con seriedad lo que es sabio y lo que es necio. ¿Qué queda por hacer después de haber sido rey? Difícil superar eso. Uno hace lo que puede, y punto. Pero sí vi que ser sabio es mejor que ser necio, así como la luz es mejor que la oscuridad. Aun así, aunque los sabios ven por dónde van y los necios avanzan a tientas en la oscuridad, al final a todos les espera lo mismo. Un mismo destino para todos, y eso es todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-16",
+      "id": "eclesiastes2-msg-06",
+      "msg": {
+        "en": "When I realized that my fate’s the same as the fool’s, I had to ask myself, “So why bother being wise?” It’s all smoke, nothing but smoke. The smart and the stupid both disappear out of sight. In a day or two they’re both forgotten. Yes, both the smart and the stupid die, and that’s it.",
+        "es": "Cuando comprendí que mi destino era el mismo que el del necio, tuve que preguntarme: «Entonces, ¿para qué molestarse en ser sabio?». Todo es humo, nada más que humo. El sabio y el necio terminan desapareciendo de la vista. En poco tiempo ambos son olvidados. Sí, tanto el sabio como el necio mueren, y ahí termina todo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-16"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "17",
+      "id": "eclesiastes2-msg-07",
+      "msg": {
+        "en": "I hate life. As far as I can see, what happens on earth is a bad business. It’s smoke—and spitting into the wind.",
+        "es": "Llegué a odiar la vida. Hasta donde alcanzo a ver, lo que sucede en la tierra es un mal negocio. Es humo y escupir contra el viento."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "eclesiastes2-msg-08",
+      "msg": {
+        "en": "And I hated everything I’d accomplished and accumulated on this earth. I can’t take it with me—no, I have to leave it to whoever comes after me. Whether they’re worthy or worthless—and who’s to tell?—they’ll take over the earthly results of my intense thinking and hard work. Smoke.",
+        "es": "También llegué a odiar todo lo que había logrado y acumulado en esta tierra. No puedo llevármelo conmigo; tengo que dejárselo a quien venga después de mí. Sea digno o indigno —¿y quién puede saberlo?—, se adueñará de los resultados terrenales de todo mi pensamiento intenso y mi trabajo duro. Humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-19"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "eclesiastes2-msg-09",
+      "msg": {
+        "en": "That’s when I called it quits, gave up on anything that could be hoped for on this earth. What’s the point of working your fingers to the bone if you hand over what you worked for to someone who never lifted a finger for it? Smoke, that’s what it is. A bad business from start to finish. So what do you get from a life of hard labor? Pain and grief from dawn to dusk. Never a decent night’s rest. Nothing but smoke.",
+        "es": "Entonces tiré la toalla y renuncié a esperar que algo de esta tierra pudiera darme la respuesta final. ¿Qué sentido tiene dejarse la piel trabajando si terminas entregando lo que conseguiste a alguien que no movió un dedo para obtenerlo? Humo, eso es. Un mal negocio de principio a fin. ¿Qué te queda de una vida de trabajo agotador? Dolor y aflicción desde que amanece hasta que anochece. Ni siquiera una noche decente de descanso. Nada más que humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-23"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "24-26",
+      "id": "eclesiastes2-msg-10",
+      "msg": {
+        "en": "The best you can do with your life is have a good time and get by the best you can. The way I see it, that’s it—divine fate. Whether we feast or fast, it’s up to God. God may give wisdom and knowledge and joy to his favorites, but sinners are assigned a life of hard labor, and end up turning their wages over to God’s favorites. Nothing but smoke—and spitting into the wind.",
+        "es": "Lo mejor que puedes hacer con tu vida es disfrutar lo bueno y vivir de la mejor manera que puedas. Así lo veo: esto viene de Dios. Que podamos comer y disfrutar no está finalmente en nuestras manos, sino en las de Dios. Dios puede dar sabiduría, conocimiento y alegría a quien le agrada, mientras al pecador le toca acumular y amontonar para terminar entregándolo a quien agrada a Dios. Nada más que humo y escupir contra el viento."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes2-nbla-26"
+        }
+      ],
+      "order": 10
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-01a",
+          "order": 1,
+          "text": "Entonces me dije: «Ven ahora,"
+        },
+        {
+          "id": "eclesiastes2-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "te probaré con el placer; diviértete"
+        },
+        {
+          "id": "eclesiastes2-nbla-01c",
+          "order": 3,
+          "text": "». Y resultó que también esto era vanidad."
+        }
+      ],
+      "id": "eclesiastes2-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "eclesiastes2-nbla-02",
+      "number": 2,
+      "text": "Dije de la risa: «Es locura»; y del placer: «¿Qué logra esto?»."
+    },
+    {
+      "id": "eclesiastes2-nbla-03",
+      "number": 3,
+      "text": "Consideré en mi corazón estimular mi cuerpo con el vino, mientras mi corazón me guiaba con sabiduría, y echar mano de la insensatez, hasta que pudiera ver qué hay de bueno bajo el cielo que los hijos de los hombres hacen en los contados días de su vida."
+    },
+    {
+      "id": "eclesiastes2-nbla-04",
+      "number": 4,
+      "text": "Engrandecí mis obras, me edifiqué casas, me planté viñas;"
+    },
+    {
+      "id": "eclesiastes2-nbla-05",
+      "number": 5,
+      "text": "me hice jardines y huertos, y planté en ellos toda clase de árboles frutales;"
+    },
+    {
+      "id": "eclesiastes2-nbla-06",
+      "number": 6,
+      "text": "me hice estanques de aguas para regar el bosque con árboles en pleno crecimiento."
+    },
+    {
+      "id": "eclesiastes2-nbla-07",
+      "number": 7,
+      "text": "Compré esclavos y esclavas, y tuve esclavos nacidos en casa. Tuve también ganados, vacas y ovejas, más que todos los que me precedieron en Jerusalén."
+    },
+    {
+      "id": "eclesiastes2-nbla-08",
+      "number": 8,
+      "text": "Reuní también plata y oro para mí y el tesoro de los reyes y de las provincias. Me proveí de cantores y cantoras, y de los placeres de los hombres, de muchas concubinas."
+    },
+    {
+      "id": "eclesiastes2-nbla-09",
+      "number": 9,
+      "text": "Me engrandecí y superé a todos los que me precedieron en Jerusalén; también la sabiduría permaneció conmigo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-10a",
+          "order": 1,
+          "text": "Y de todo cuanto mis ojos deseaban,"
+        },
+        {
+          "id": "eclesiastes2-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "nada les negué, ni privé a mi corazón de ningún placer"
+        },
+        {
+          "id": "eclesiastes2-nbla-10c",
+          "order": 3,
+          "text": ", porque mi corazón gozaba de todo mi trabajo. Esta fue la recompensa de toda mi labor."
+        }
+      ],
+      "id": "eclesiastes2-nbla-10",
+      "number": 10
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-11a",
+          "order": 1,
+          "text": "Consideré luego todas las obras que mis manos habían hecho y el trabajo en que me había empeñado, y resultó que"
+        },
+        {
+          "id": "eclesiastes2-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "todo era vanidad y correr tras el viento"
+        },
+        {
+          "id": "eclesiastes2-nbla-11c",
+          "order": 3,
+          "text": ", y sin provecho bajo el sol."
+        }
+      ],
+      "id": "eclesiastes2-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "eclesiastes2-nbla-12",
+      "number": 12,
+      "text": "Yo volví, pues, a considerar la sabiduría, la locura y la insensatez. Porque ¿qué hará el hombre que venga después del rey sino lo que ya ha sido hecho?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-13a",
+          "order": 1,
+          "text": "Y yo vi que"
+        },
+        {
+          "id": "eclesiastes2-nbla-13b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la sabiduría sobrepasa a la insensatez"
+        },
+        {
+          "id": "eclesiastes2-nbla-13c",
+          "order": 3,
+          "text": ", como la luz a las tinieblas."
+        }
+      ],
+      "id": "eclesiastes2-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "eclesiastes2-nbla-14",
+      "number": 14,
+      "text": "El sabio tiene ojos en su cabeza,\nPero el necio anda en tinieblas.\nAunque yo sé también que ambos corren la misma suerte."
+    },
+    {
+      "id": "eclesiastes2-nbla-15",
+      "number": 15,
+      "text": "Entonces me dije: «Como la suerte del necio, así también será la mía. ¿Para qué, pues, me aprovecha haber sido tan sabio?». Y me dije: «También esto es vanidad."
+    },
+    {
+      "id": "eclesiastes2-nbla-16",
+      "number": 16,
+      "text": "Porque no hay memoria duradera del sabio ni del necio, ya que todos serán olvidados en los días venideros. ¡Cómo mueren tanto el sabio como el necio!»."
+    },
+    {
+      "id": "eclesiastes2-nbla-17",
+      "number": 17,
+      "text": "Y aborrecí la vida, porque me era penosa la obra que se hace bajo el sol, pues todo es vanidad y correr tras el viento."
+    },
+    {
+      "id": "eclesiastes2-nbla-18",
+      "number": 18,
+      "text": "Asimismo aborrecí todo el fruto de mi trabajo con que me había afanado bajo el sol, el cual tendré que dejar al hombre que vendrá después de mí."
+    },
+    {
+      "id": "eclesiastes2-nbla-19",
+      "number": 19,
+      "text": "¿Y quién sabe si será sabio o necio? Sin embargo, él tendrá dominio sobre todo el fruto de mi trabajo con que me afané obrando sabiamente bajo el sol. También esto es vanidad."
+    },
+    {
+      "id": "eclesiastes2-nbla-20",
+      "number": 20,
+      "text": "Por tanto me desesperé en gran manera por todo el fruto de mi trabajo con que me había afanado bajo el sol."
+    },
+    {
+      "id": "eclesiastes2-nbla-21",
+      "number": 21,
+      "text": "Cuando hay un hombre que ha trabajado con sabiduría, con conocimiento y con destreza, y da su hacienda al que no ha trabajado en ella, esto también es vanidad y un mal muy grande."
+    },
+    {
+      "id": "eclesiastes2-nbla-22",
+      "number": 22,
+      "text": "Pues, ¿qué recibe el hombre de todo su trabajo y del esfuerzo de su corazón con que se afana bajo el sol?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-23a",
+          "order": 1,
+          "text": "Porque durante todos sus días su tarea es dolorosa y penosa;"
+        },
+        {
+          "id": "eclesiastes2-nbla-23b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "ni aun de noche descansa su corazón"
+        },
+        {
+          "id": "eclesiastes2-nbla-23c",
+          "order": 3,
+          "text": ". También esto es vanidad."
+        }
+      ],
+      "id": "eclesiastes2-nbla-23",
+      "number": 23
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes2-nbla-24a",
+          "order": 1,
+          "text": "No hay nada mejor para el hombre que comer y beber y decirse que su trabajo es bueno. Yo he visto que también"
+        },
+        {
+          "id": "eclesiastes2-nbla-24b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "esto es de la mano de Dios."
+        }
+      ],
+      "id": "eclesiastes2-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "eclesiastes2-nbla-25",
+      "number": 25,
+      "text": "Porque ¿quién comerá y quién se alegrará sin Él?"
+    },
+    {
+      "id": "eclesiastes2-nbla-26",
+      "number": 26,
+      "text": "Porque a la persona que le agrada, Él le ha dado sabiduría, conocimiento y gozo; pero al pecador le ha dado la tarea de recoger y amontonar para dárselo al que agrada a Dios. Esto también es vanidad y correr tras el viento."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

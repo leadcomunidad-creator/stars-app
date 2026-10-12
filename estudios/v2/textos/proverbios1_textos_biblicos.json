@@ -1,0 +1,560 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría empieza con una orientación reverente hacia Dios. NBLA fija la afirmación con el «temor del SEÑOR» como principio; MSG vuelve visible esa postura al describir el primer paso como inclinarse ante Dios. La imagen no redefine el temor del SEÑOR como un gesto físico obligatorio: comunica pastoralmente rendición, reverencia y disposición a aprender.",
+      "id": "proverbios1-joya-01",
+      "msg": {
+        "en": "\"Start with GOD—the first step in learning is bowing down to GOD;\"",
+        "es": "\"Empieza con DIOS: el primer paso para aprender es inclinarse ante DIOS;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios1-nbla-07a"
+          ],
+          "verseId": "proverbios1-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "7"
+    },
+    {
+      "explanation": "La ganancia injusta puede empobrecer a la persona que parece enriquecerse. NBLA establece la consecuencia: la violencia termina quitando la vida de quienes se benefician de ella. MSG condensa esa verdad en una imagen penetrante sobre la pérdida interior. No enseña que toda posesión material disminuya a una persona; denuncia la codicia que obtiene más mientras destruye carácter, relaciones y vida.",
+      "id": "proverbios1-joya-02",
+      "msg": {
+        "en": "\"the more you get, the less you are.\"",
+        "es": "\"cuanto más consigues, menos eres.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-19"
+        }
+      ],
+      "order": 2,
+      "range": "8-19"
+    },
+    {
+      "explanation": "La sabiduría divina reclama la vida pública y cotidiana. NBLA presenta a la sabiduría clamando en la calle; MSG desarrolla la escena con la figura de Dama Sabiduría saliendo a hacerse oír. La personificación no convierte a la Sabiduría en una segunda deidad. Es un recurso poético que hace audible el llamado de Dios a vivir con discernimiento en medio de la ciudad.",
+      "id": "proverbios1-joya-03",
+      "msg": {
+        "en": "\"Lady Wisdom goes out in the street and shouts.\"",
+        "es": "\"La Sabiduría sale a la calle y grita.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios1-nbla-20a"
+          ],
+          "verseId": "proverbios1-nbla-20"
+        }
+      ],
+      "order": 3,
+      "range": "20-21"
+    },
+    {
+      "explanation": "La corrección bíblica no busca únicamente señalar el error; llama a cambiar de dirección. NBLA conserva la invitación concreta a volverse ante la reprensión. MSG expresa ese giro como una vida que puede ser revisada. La expansión es pastoral: el texto promete acceso a las palabras de la sabiduría, no una transformación automática sin arrepentimiento ni respuesta.",
+      "id": "proverbios1-joya-04",
+      "msg": {
+        "en": "\"About face! I can revise your life.\"",
+        "es": "\"¡Den media vuelta! Puedo rehacer su vida.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios1-nbla-23a"
+          ],
+          "verseId": "proverbios1-nbla-23"
+        }
+      ],
+      "order": 4,
+      "range": "22-24"
+    },
+    {
+      "explanation": "La necedad también puede expresarse como pasividad. NBLA une desvío y complacencia con destrucción; MSG convierte esa advertencia en una frase frontal. El punto no es que cada descuido cotidiano sea literalmente homicida, sino que una vida que se acostumbra a no escuchar, no corregirse y no responder termina entrando en una trayectoria destructiva.",
+      "id": "proverbios1-joya-05",
+      "msg": {
+        "en": "\"Carelessness kills; complacency is murder.\"",
+        "es": "\"El descuido mata; la complacencia asesina.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-32"
+        }
+      ],
+      "order": 5,
+      "range": "29-33"
+    },
+    {
+      "explanation": "El descanso del cierre está unido a escuchar. NBLA promete seguridad al que atiende a la sabiduría, y MSG hace visible el orden: primero escuchar, después descansar. No es una garantía de vida sin amenazas externas; es la estabilidad de no estar fabricando nuestra propia ruina mediante decisiones que rechazan la instrucción de Dios.",
+      "id": "proverbios1-joya-06",
+      "msg": {
+        "en": "\"First pay attention to me, and then relax.\"",
+        "es": "\"Primero préstenme atención y entonces podrán descansar.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios1-nbla-33a"
+          ],
+          "verseId": "proverbios1-nbla-33"
+        }
+      ],
+      "order": 6,
+      "range": "29-33"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 1,
+    "studyId": "proverbios-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "proverbios1-msg-01",
+      "msg": {
+        "en": "These are the wise sayings of Solomon,\nDavid’s son, Israel’s king—\nWritten down so we’ll know how to live well and right,\nto understand what life means and where it’s going;\nA manual for living,\nfor learning what’s right and just and fair;\nTo teach the inexperienced the ropes\nand give our young people a grasp on reality.\nThere’s something here also for seasoned men and women,\nstill a thing or two for the experienced to learn—\nFresh wisdom to probe and penetrate,\nthe rhymes and reasons of wise men and women.",
+        "es": "Estos son los dichos sabios de Salomón,\nhijo de David, rey de Israel—\nescritos para que sepamos vivir bien y rectamente,\npara entender qué significa la vida y hacia dónde va;\nun manual para vivir,\npara aprender lo que es recto, justo y equitativo;\npara enseñarles a los inexpertos cómo desenvolverse\ny dar a nuestros jóvenes una comprensión de la realidad.\nAquí también hay algo para hombres y mujeres experimentados,\naun los que tienen experiencia tienen una o dos cosas por aprender—\nsabiduría fresca para sondear y llegar al fondo,\nlos dichos y razonamientos de hombres y mujeres sabios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios1-msg-02",
+      "msg": {
+        "en": "Start with GOD—the first step in learning is bowing down to GOD;\nonly fools thumb their noses at such wisdom and learning.",
+        "es": "Empieza con DIOS: el primer paso para aprender es inclinarse ante DIOS;\nsolo los necios se burlan de semejante sabiduría y aprendizaje."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-19",
+      "id": "proverbios1-msg-03",
+      "msg": {
+        "en": "Pay close attention, friend, to what your father tells you;\nnever forget what you learned at your mother’s knee.\nWear their counsel like flowers in your hair,\nlike rings on your fingers.\nDear friend, if bad companions tempt you,\ndon’t go along with them.\nIf they say—” Let’s go out and raise some hell.\nLet’s beat up some old man, mug some old woman.\nLet’s pick them clean\nand get them ready for their funerals.\nWe’ll load up on top-quality loot.\nWe’ll haul it home by the truckload.\nJoin us for the time of your life!\nWith us, it’s share and share alike!”—\nOh, friend, don’t give them a second look;\ndon’t listen to them for a minute.\nThey’re racing to a very bad end,\nhurrying to ruin everything they lay hands on.\nNobody robs a bank\nwith everyone watching,\nYet that’s what these people are doing—\nthey’re doing themselves in.\nWhen you grab all you can get, that’s what happens:\nthe more you get, the less you are.",
+        "es": "Presta mucha atención, amigo, a lo que te dice tu padre;\nnunca olvides lo que aprendiste junto a tu madre.\nLleva sus consejos como flores en el cabello,\ncomo anillos en los dedos.\nQuerido amigo, si malas compañías te tientan,\nno les sigas la corriente.\nSi dicen: «Vamos a salir y armar un desastre.\nDémosle una paliza a un anciano, atraquemos a una anciana.\nDejémoslos sin nada\ny listos para su funeral.\nNos llenaremos de botín de primera.\nLo llevaremos a casa por montones.\n¡Únete a nosotros para pasarla como nunca!\nCon nosotros, todo se reparte por igual»—\nOh, amigo, ni siquiera les des una segunda mirada;\nno los escuches ni por un minuto.\nCorren hacia un final desastroso,\nse apresuran a destruir todo lo que tocan.\nNadie roba un banco\ncon todo el mundo mirando;\nsin embargo, eso es exactamente lo que hacen estas personas:\nse están destruyendo a sí mismas.\nCuando te empeñas en agarrar todo lo que puedas, eso es lo que ocurre:\ncuanto más consigues, menos eres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-19"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "proverbios1-msg-04",
+      "msg": {
+        "en": "Lady Wisdom goes out in the street and shouts.\nAt the town center she makes her speech.\nIn the middle of the traffic she takes her stand.\nAt the busiest corner she calls out:",
+        "es": "La Sabiduría sale a la calle y grita.\nEn el centro de la ciudad pronuncia su discurso.\nEn medio del tráfico toma su lugar.\nEn la esquina más concurrida levanta la voz:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-21"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "22-24",
+      "id": "proverbios1-msg-05",
+      "msg": {
+        "en": "“Simpletons! How long will you wallow in ignorance?\nCynics! How long will you feed your cynicism?\nIdiots! How long will you refuse to learn?\nAbout face! I can revise your life.\nLook, I’m ready to pour out my spirit on you;\nI’m ready to tell you all I know.\nAs it is, I’ve called, but you’ve turned a deaf ear;\nI’ve reached out to you, but you’ve ignored me.",
+        "es": "«¡Ingenuos! ¿Hasta cuándo van a revolcarse en la ignorancia?\n¡Cínicos! ¿Hasta cuándo van a alimentar su cinismo?\n¡Necios! ¿Hasta cuándo se negarán a aprender?\n¡Den media vuelta! Puedo rehacer su vida.\nMiren, estoy lista para derramar mi espíritu sobre ustedes;\nestoy lista para contarles todo lo que sé.\nPero así están las cosas: he llamado y ustedes se han hecho los sordos;\nhe extendido mi mano y me han ignorado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-24"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "25-28",
+      "id": "proverbios1-msg-06",
+      "msg": {
+        "en": "“Since you laugh at my counsel\nand make a joke of my advice,\nHow can I take you seriously?\nI’ll turn the tables and joke about your troubles!\nWhat if the roof falls in,\nand your whole life goes to pieces?\nWhat if catastrophe strikes and there’s nothing\nto show for your life but rubble and ashes?\nYou’ll need me then. You’ll call for me, but don’t expect an answer.\nNo matter how hard you look, you won’t find me.",
+        "es": "»Ya que se ríen de mi consejo\ny toman mi orientación como un chiste,\n¿cómo esperan que los tome en serio?\n¡Cambiaré los papeles y me reiré de sus problemas!\n¿Qué pasará si el techo se les viene encima\ny toda su vida queda hecha pedazos?\n¿Qué pasará si golpea la catástrofe y no queda nada\nmás que escombros y cenizas para mostrar por su vida?\nEntonces me necesitarán. Me llamarán, pero no esperen respuesta.\nPor más que me busquen, no me encontrarán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-28"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "29-33",
+      "id": "proverbios1-msg-07",
+      "msg": {
+        "en": "“Because you hated Knowledge\nand had nothing to do with the Fear-of-GOD,\nBecause you wouldn’t take my advice\nand brushed aside all my offers to train you,\nWell, you’ve made your bed—now lie in it;\nyou wanted your own way—now, how do you like it?\nDon’t you see what happens, you simpletons, you idiots?\nCarelessness kills; complacency is murder.\nFirst pay attention to me, and then relax.\nNow you can take it easy—you’re in good hands.”",
+        "es": "»Porque odiaron el Conocimiento\ny no quisieron saber nada del Temor-de-DIOS,\nporque no aceptaron mi consejo\ny desecharon todas mis ofertas de formación,\npues bien, hicieron su cama: ahora acuéstense en ella;\nquisieron vivir a su manera: ¿qué les parece ahora?\n¿No ven lo que ocurre, ingenuos y necios?\nEl descuido mata; la complacencia asesina.\nPrimero préstenme atención y entonces podrán descansar.\nAhora sí pueden vivir tranquilos: están en buenas manos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios1-nbla-33"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios1-nbla-01",
+      "number": 1,
+      "text": "Los proverbios de Salomón, hijo de David, rey de Israel:"
+    },
+    {
+      "id": "proverbios1-nbla-02",
+      "number": 2,
+      "text": "Para aprender sabiduría e instrucción,\nPara discernir dichos profundos,"
+    },
+    {
+      "id": "proverbios1-nbla-03",
+      "number": 3,
+      "text": "Para recibir instrucción en sabia conducta,\nJusticia, juicio y equidad;"
+    },
+    {
+      "id": "proverbios1-nbla-04",
+      "number": 4,
+      "text": "Para dar a los simples prudencia,\nY a los jóvenes conocimiento y discreción."
+    },
+    {
+      "id": "proverbios1-nbla-05",
+      "number": 5,
+      "text": "El sabio oirá y crecerá en conocimiento,\nY el inteligente adquirirá habilidad,"
+    },
+    {
+      "id": "proverbios1-nbla-06",
+      "number": 6,
+      "text": "Para entender proverbio y metáfora,\nLas palabras de los sabios y sus enigmas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios1-nbla-07a",
+          "order": 1,
+          "text": "El temor del SEÑOR es el principio de la sabiduría;"
+        },
+        {
+          "id": "proverbios1-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Los necios desprecian la sabiduría y la instrucción."
+        }
+      ],
+      "id": "proverbios1-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "proverbios1-nbla-08",
+      "number": 8,
+      "text": "Oye, hijo mío, la instrucción de tu padre\nY no abandones la enseñanza de tu madre;"
+    },
+    {
+      "id": "proverbios1-nbla-09",
+      "number": 9,
+      "text": "Porque son guirnalda de gracia para tu cabeza,\nY collares para tu cuello."
+    },
+    {
+      "id": "proverbios1-nbla-10",
+      "number": 10,
+      "text": "Hijo mío, si los pecadores te quieren seducir,\nNo consientas."
+    },
+    {
+      "id": "proverbios1-nbla-11",
+      "number": 11,
+      "text": "Si dicen: «Ven con nosotros,\nPongámonos al acecho para derramar sangre,\nSin causa asechemos al inocente,"
+    },
+    {
+      "id": "proverbios1-nbla-12",
+      "number": 12,
+      "text": "Devorémoslos vivos como el Seol,\nEnteros, como los que descienden al abismo;"
+    },
+    {
+      "id": "proverbios1-nbla-13",
+      "number": 13,
+      "text": "Hallaremos toda clase de preciadas riquezas,\nLlenaremos nuestras casas de botín;"
+    },
+    {
+      "id": "proverbios1-nbla-14",
+      "number": 14,
+      "text": "Echa tu suerte con nosotros,\nTodos tendremos una bolsa»,"
+    },
+    {
+      "id": "proverbios1-nbla-15",
+      "number": 15,
+      "text": "Hijo mío, no andes en el camino con ellos.\nAparta tu pie de su senda,"
+    },
+    {
+      "id": "proverbios1-nbla-16",
+      "number": 16,
+      "text": "Porque sus pies corren hacia el mal,\nY se apresuran a derramar sangre."
+    },
+    {
+      "id": "proverbios1-nbla-17",
+      "number": 17,
+      "text": "Porque es en vano tender la red\nAnte los ojos de cualquier ave;"
+    },
+    {
+      "id": "proverbios1-nbla-18",
+      "number": 18,
+      "text": "Pero ellos a su propia sangre asechan,\nTienden lazo a sus propias vidas."
+    },
+    {
+      "id": "proverbios1-nbla-19",
+      "number": 19,
+      "text": "Tales son los caminos de todo el que se beneficia por la violencia:\nQue quita la vida de sus poseedores."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios1-nbla-20a",
+          "order": 1,
+          "text": "La sabiduría clama en la calle,"
+        },
+        {
+          "id": "proverbios1-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "En las plazas alza su voz;"
+        }
+      ],
+      "id": "proverbios1-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "proverbios1-nbla-21",
+      "number": 21,
+      "text": "Clama en las esquinas de las calles concurridas;\nA la entrada de las puertas de la ciudad pronuncia sus discursos:"
+    },
+    {
+      "id": "proverbios1-nbla-22",
+      "number": 22,
+      "text": "«¿Hasta cuándo, oh simples, amarán la simpleza,\nY los burladores se deleitarán en hacer burla,\nY los necios aborrecerán el conocimiento?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios1-nbla-23a",
+          "order": 1,
+          "text": "Vuélvanse a mi reprensión,"
+        },
+        {
+          "id": "proverbios1-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y derramaré mi espíritu sobre ustedes;\nLes haré conocer mis palabras."
+        }
+      ],
+      "id": "proverbios1-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "proverbios1-nbla-24",
+      "number": 24,
+      "text": "Porque he llamado y han rehusado oír,\nHe extendido mi mano y nadie ha hecho caso."
+    },
+    {
+      "id": "proverbios1-nbla-25",
+      "number": 25,
+      "text": "Han desatendido todo consejo mío\nY no han deseado mi reprensión."
+    },
+    {
+      "id": "proverbios1-nbla-26",
+      "number": 26,
+      "text": "También yo me reiré de la calamidad de ustedes,\nMe burlaré cuando sobrevenga lo que temen,"
+    },
+    {
+      "id": "proverbios1-nbla-27",
+      "number": 27,
+      "text": "Cuando venga como tormenta lo que temen\nY su calamidad sobrevenga como torbellino,\nCuando vengan sobre ustedes tribulación y angustia."
+    },
+    {
+      "id": "proverbios1-nbla-28",
+      "number": 28,
+      "text": "Entonces me invocarán, pero no responderé;\nMe buscarán con diligencia, pero no me hallarán,"
+    },
+    {
+      "id": "proverbios1-nbla-29",
+      "number": 29,
+      "text": "Porque odiaron el conocimiento,\nY no escogieron el temor del SEÑOR,"
+    },
+    {
+      "id": "proverbios1-nbla-30",
+      "number": 30,
+      "text": "Ni quisieron aceptar mi consejo,\nY despreciaron toda mi reprensión."
+    },
+    {
+      "id": "proverbios1-nbla-31",
+      "number": 31,
+      "text": "Comerán del fruto de su conducta,\nY de sus propias artimañas se hartarán."
+    },
+    {
+      "id": "proverbios1-nbla-32",
+      "number": 32,
+      "text": "Porque el desvío de los simples los matará,\nY la complacencia de los necios los destruirá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios1-nbla-33a",
+          "order": 1,
+          "text": "Pero el que me escucha vivirá seguro,"
+        },
+        {
+          "id": "proverbios1-nbla-33b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y descansará, sin temor al mal»."
+        }
+      ],
+      "id": "proverbios1-nbla-33",
+      "number": 33
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

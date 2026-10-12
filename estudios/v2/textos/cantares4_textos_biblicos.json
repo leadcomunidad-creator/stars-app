@@ -1,0 +1,378 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La admiración se dirige a la persona como un todo. NBLA fija la afirmación «Toda tú eres hermosa»; MSG la vuelve corporalmente inmediata con «de pies a cabeza». El punto teológico no es que una pareja deba declarar perfección física objetiva, sino que el amor puede mirar al otro con deleite y honor sin reducir su valor a defectos o comparaciones.",
+      "id": "cantares4-joya-01",
+      "msg": {
+        "en": "\"You’re beautiful from head to toe, my dear love,\"",
+        "es": "\"Eres hermosa de pies a cabeza, mi querido amor,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares4-nbla-07a"
+          ],
+          "verseId": "cantares4-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "6-7"
+    },
+    {
+      "explanation": "El amor afecta el interior, no solo la mirada. NBLA ancla la imagen del corazón cautivado dentro del vínculo; MSG resalta la cercanía llamándola «querida amiga». Esa palabra amistosa pertenece a la paráfrasis y no debe convertirse en argumento léxico, pero pastoralmente ayuda a recordar que el deseo del poema convive con vínculo y conocimiento.",
+      "id": "cantares4-joya-02",
+      "msg": {
+        "en": "\"You’ve captured my heart, dear friend.\"",
+        "es": "\"Has cautivado mi corazón, querida amiga.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares4-nbla-09a"
+          ],
+          "verseId": "cantares4-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "8-15"
+    },
+    {
+      "explanation": "Lo celebrado no es únicamente el aspecto de la mujer, sino su amor. NBLA fija precisamente ese objeto de admiración: «tus amores». MSG lo acerca con una exclamación afectiva. La belleza relacional incluye la manera de amar, no solo la apariencia que puede observarse.",
+      "id": "cantares4-joya-03",
+      "msg": {
+        "en": "\"How beautiful your love, dear, dear friend—\"",
+        "es": "\"Qué hermoso es tu amor, querida, queridísima amiga:\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares4-nbla-10a"
+          ],
+          "verseId": "cantares4-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "8-15"
+    },
+    {
+      "explanation": "La intimidad aparece como un espacio valioso y protegido. NBLA establece la imagen de huerto cerrado y fuente sellada; MSG la vuelve cercana con «jardín secreto». El límite es importante: la metáfora habla de reserva y particularidad, pero no define una prueba física de pureza ni autoriza a controlar el cuerpo de otra persona.",
+      "id": "cantares4-joya-04",
+      "msg": {
+        "en": "\"Dear lover and friend, you’re a secret garden,\"",
+        "es": "\"Querida amada y amiga, eres un jardín secreto,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares4-nbla-12a"
+          ],
+          "verseId": "cantares4-nbla-12"
+        }
+      ],
+      "order": 4,
+      "range": "8-15"
+    },
+    {
+      "explanation": "La mujer responde con deseo e iniciativa. NBLA y MSG coinciden en que la invitación sale de su propia voz. Esa respuesta completa la imagen anterior del jardín protegido: la intimidad no se toma porque alguien la desea; se comparte dentro de una relación donde la persona puede abrirse y decir que sí.",
+      "id": "cantares4-joya-05",
+      "msg": {
+        "en": "\"Oh, let my lover enter his garden!\"",
+        "es": "\"¡Oh, que mi amado entre en su jardín!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares4-nbla-16b"
+          ],
+          "verseId": "cantares4-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 4,
+    "studyId": "cantares-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "cantares4-msg-01",
+      "msg": {
+        "en": "You’re so beautiful, my darling,\nso beautiful, and your dove eyes are veiled\nBy your hair as it flows and shimmers,\nlike a flock of goats in the distance\nstreaming down a hillside in the sunshine.\nYour smile is generous and full—\nexpressive and strong and clean.\nYour lips are jewel red,\nyour mouth elegant and inviting,\nyour veiled cheeks soft and radiant.\nThe smooth, lithe lines of your neck\ncommand notice—all heads turn in awe and admiration!\nYour breasts are like fawns,\ntwins of a gazelle, grazing among the first spring flowers.",
+        "es": "Eres tan hermosa, querida mía,\ntan hermosa, y tus ojos de paloma asoman tras el velo\nde tu cabello mientras cae y resplandece,\ncomo un rebaño de cabras a lo lejos\nque desciende por una ladera bajo el sol.\nTu sonrisa es generosa y plena:\nexpresiva, fuerte y limpia.\nTus labios son rojos como joyas,\ntu boca elegante y atractiva,\ntus mejillas veladas, suaves y radiantes.\nLas líneas suaves y esbeltas de tu cuello\nllaman la atención: ¡todas las miradas se vuelven con asombro y admiración!\nTus pechos son como cervatillos,\ngemelos de una gacela, que pacen entre las primeras flores de primavera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-7",
+      "id": "cantares4-msg-02",
+      "msg": {
+        "en": "The sweet, fragrant curves of your body,\nthe soft, spiced contours of your flesh\nInvite me, and I come. I stay\nuntil dawn breathes its light and night slips away.\nYou’re beautiful from head to toe, my dear love,\nbeautiful beyond compare, absolutely flawless.",
+        "es": "Las dulces y fragantes curvas de tu cuerpo,\nlos suaves contornos especiados de tu carne\nme invitan, y yo voy. Me quedo\nhasta que el amanecer respire su luz y la noche se retire.\nEres hermosa de pies a cabeza, mi querido amor,\nhermosa sin comparación, absolutamente sin defecto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-07"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-15",
+      "id": "cantares4-msg-03",
+      "msg": {
+        "en": "Come with me from Lebanon, my bride.\nLeave Lebanon behind, and come.\nLeave your high mountain hideaway.\nAbandon your wilderness seclusion,\nWhere you keep company with lions\nand panthers guard your safety.\nYou’ve captured my heart, dear friend.\nYou looked at me, and I fell in love.\nOne look my way and I was hopelessly in love!\nHow beautiful your love, dear, dear friend—\nfar more pleasing than a fine, rare wine,\nyour fragrance more exotic than select spices.\nThe kisses of your lips are honey, my love,\nevery syllable you speak a delicacy to savor.\nYour clothes smell like the wild outdoors,\nthe ozone scent of high mountains.\nDear lover and friend, you’re a secret garden,\na private and pure fountain.\nBody and soul, you are paradise,\na whole orchard of succulent fruits—\nRipe apricots and peaches,\noranges and pears;\nNut trees and cinnamon,\nand all scented woods;\nMint and lavender,\nand all herbs aromatic;\nA garden fountain, sparkling and splashing,\nfed by spring waters from the Lebanon mountains.",
+        "es": "Ven conmigo desde el Líbano, esposa mía.\nDeja atrás el Líbano y ven.\nDeja tu escondite en las altas montañas.\nAbandona tu retiro en el desierto,\ndonde tienes por compañía a los leones\ny las panteras guardan tu seguridad.\nHas cautivado mi corazón, querida amiga.\nMe miraste y me enamoré.\n¡Una sola mirada tuya y quedé perdidamente enamorado!\nQué hermoso es tu amor, querida, queridísima amiga:\nmucho más placentero que un vino fino y excepcional,\ntu fragancia más exótica que las especias selectas.\nLos besos de tus labios son miel, amor mío,\ncada sílaba que pronuncias es un manjar para saborear.\nTu ropa huele al aire libre,\nal aroma de ozono de las altas montañas.\nQuerida amada y amiga, eres un jardín secreto,\nuna fuente privada y pura.\nEn cuerpo y alma eres un paraíso,\nun huerto entero de frutos suculentos:\nalbaricoques maduros y duraznos,\nnaranjas y peras;\nnogales y canela,\ny toda madera fragante;\nmenta y lavanda,\ny toda hierba aromática;\nuna fuente de jardín, brillante y salpicante,\nalimentada por aguas de manantial de las montañas del Líbano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16",
+      "id": "cantares4-msg-04",
+      "msg": {
+        "en": "Wake up, North Wind,\nget moving, South Wind!\nBreathe on my garden,\nfill the air with spice fragrance.\nOh, let my lover enter his garden!\nYes, let him eat the fine, ripe fruits.",
+        "es": "¡Despierta, viento del norte,\nponte en movimiento, viento del sur!\nSoplen sobre mi jardín,\nllenen el aire con fragancia de especias.\n¡Oh, que mi amado entre en su jardín!\nSí, que coma sus frutos finos y maduros."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares4-nbla-16"
+        }
+      ],
+      "order": 4
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares4-nbla-01",
+      "number": 1,
+      "text": "«¡Cuán hermosa eres, amada mía.\nCuán hermosa eres!\nTus ojos son como palomas detrás de tu velo;\nTu cabellera, como rebaño de cabras\nQue descienden del monte Galaad."
+    },
+    {
+      "id": "cantares4-nbla-02",
+      "number": 2,
+      "text": "Tus dientes son como rebaño de ovejas trasquiladas\nQue suben del lavadero,\nTodas tienen mellizas,\nY ninguna de ellas ha perdido su cría."
+    },
+    {
+      "id": "cantares4-nbla-03",
+      "number": 3,
+      "text": "Tus labios son como hilo de escarlata,\nY tu boca, encantadora.\nTus mejillas, como mitades de granada\nDetrás de tu velo."
+    },
+    {
+      "id": "cantares4-nbla-04",
+      "number": 4,
+      "text": "Tu cuello, como la torre de David\nEdificada con hileras de piedras;\nMiles de escudos cuelgan de ella,\nTodos escudos de los valientes."
+    },
+    {
+      "id": "cantares4-nbla-05",
+      "number": 5,
+      "text": "Tus dos pechos, como dos crías,\nMellizas de una gacela\nQue pacen entre los lirios."
+    },
+    {
+      "id": "cantares4-nbla-06",
+      "number": 6,
+      "text": "Antes de que sople la brisa del día\nY huyan las sombras,\nMe iré al monte de la mirra\nY al collado del incienso."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares4-nbla-07a",
+          "order": 1,
+          "text": "»Toda tú eres hermosa, amada mía,"
+        },
+        {
+          "id": "cantares4-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y no hay defecto en ti."
+        }
+      ],
+      "id": "cantares4-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "cantares4-nbla-08",
+      "number": 8,
+      "text": "Ven conmigo desde el Líbano, esposa mía,\nVen conmigo desde el Líbano.\nBaja desde la cumbre del Amaná,\nDesde la cumbre del Senir y del Hermón,\nDesde las guaridas de los leones,\nDesde los montes de los leopardos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares4-nbla-09a",
+          "order": 1,
+          "text": "Has cautivado mi corazón, hermana mía, esposa mía;"
+        },
+        {
+          "id": "cantares4-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Has cautivado mi corazón con una sola mirada de tus ojos,\nCon una sola hebra de tu collar."
+        }
+      ],
+      "id": "cantares4-nbla-09",
+      "number": 9
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares4-nbla-10a",
+          "order": 1,
+          "text": "¡Cuán hermosos son tus amores, hermana mía, esposa mía!"
+        },
+        {
+          "id": "cantares4-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¡Cuánto mejores son tus amores que el vino,\nY la fragancia de tus ungüentos\nQue todos los bálsamos!"
+        }
+      ],
+      "id": "cantares4-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "cantares4-nbla-11",
+      "number": 11,
+      "text": "Miel virgen destilan tus labios, esposa mía,\nMiel y leche hay debajo de tu lengua,\nY la fragancia de tus vestidos es como la fragancia del Líbano."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares4-nbla-12a",
+          "order": 1,
+          "text": "Huerto cerrado eres, hermana mía, esposa mía,"
+        },
+        {
+          "id": "cantares4-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Huerto cerrado, fuente sellada."
+        }
+      ],
+      "id": "cantares4-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "cantares4-nbla-13",
+      "number": 13,
+      "text": "Tus renuevos son paraíso de granados,\nCon frutas escogidas, alheña y nardos,"
+    },
+    {
+      "id": "cantares4-nbla-14",
+      "number": 14,
+      "text": "Nardo y azafrán, cálamo aromático y canela,\nCon todos los árboles de incienso,\nMirra y áloes, con todos los mejores bálsamos."
+    },
+    {
+      "id": "cantares4-nbla-15",
+      "number": 15,
+      "text": "Tú eres fuente de huertos,\nPozo de aguas vivas,\nY corrientes que fluyen del Líbano»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares4-nbla-16a",
+          "order": 1,
+          "text": "«Despierta, viento del norte,\nY ven, viento del sur;\nHagan que mi huerto exhale fragancia,\nQue se esparzan sus aromas."
+        },
+        {
+          "id": "cantares4-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Entre mi amado en su huerto"
+        },
+        {
+          "id": "cantares4-nbla-16c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y coma sus mejores frutas»."
+        }
+      ],
+      "id": "cantares4-nbla-16",
+      "number": 16
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

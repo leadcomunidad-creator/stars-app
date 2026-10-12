@@ -1,0 +1,553 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La diligencia aprende a prepararse antes de que llegue la necesidad. NBLA manda observar los caminos de la hormiga; MSG hace visible su iniciativa sin supervisión. El punto no es idealizar productividad, sino aprender responsabilidad y previsión.",
+      "id": "proverbios6-joya-01",
+      "msg": {
+        "en": "\"You lazy fool, look at an ant.\"",
+        "es": "\"Perezoso insensato, mira a la hormiga.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios6-nbla-06a"
+          ],
+          "verseId": "proverbios6-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "6-11"
+    },
+    {
+      "explanation": "El carácter de Dios establece límites morales reales. NBLA habla de abominaciones para el SEÑOR y MSG conserva la intensidad del rechazo divino. La lista impide trivializar orgullo, mentira, violencia y discordia.",
+      "id": "proverbios6-joya-02",
+      "msg": {
+        "en": "\"Here are six things GOD hates,\"",
+        "es": "\"Estas son seis cosas que DIOS odia,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios6-nbla-16a"
+          ],
+          "verseId": "proverbios6-nbla-16"
+        }
+      ],
+      "order": 2,
+      "range": "16-19"
+    },
+    {
+      "explanation": "La instrucción fiel no es una carga decorativa: guía, guarda y alumbra. NBLA fija la imagen de lámpara y luz; MSG la acerca al lenguaje de un faro y de un camino de vida.",
+      "id": "proverbios6-joya-03",
+      "msg": {
+        "en": "\"Good friend, follow your father’s good advice;\"",
+        "es": "\"Buen amigo, sigue el buen consejo de tu padre;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios6-nbla-20a"
+          ],
+          "verseId": "proverbios6-nbla-20"
+        }
+      ],
+      "order": 3,
+      "range": "20-23"
+    },
+    {
+      "explanation": "La infidelidad no puede separarse de sus consecuencias. La imagen del fuego subraya que acercarse deliberadamente a una relación prohibida no deja intacta a la persona.",
+      "id": "proverbios6-joya-04",
+      "msg": {
+        "en": "\"They’ll protect you from wanton women,\"",
+        "es": "\"Te protegerán de mujeres desenfrenadas,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios6-nbla-24a"
+          ],
+          "verseId": "proverbios6-nbla-24"
+        }
+      ],
+      "order": 4,
+      "range": "24-35"
+    },
+    {
+      "explanation": "El adulterio es presentado como falta de entendimiento y autodestrucción. La sabiduría llama a dejar de romantizar aquello que termina destruyendo al que lo practica.",
+      "id": "proverbios6-joya-05",
+      "msg": {
+        "en": "\"They’ll protect you from wanton women,\"",
+        "es": "\"Te protegerán de mujeres desenfrenadas,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios6-nbla-24a"
+          ],
+          "verseId": "proverbios6-nbla-24"
+        }
+      ],
+      "order": 5,
+      "range": "24-35"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 6,
+    "studyId": "proverbios-6"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "proverbios6-msg-01",
+      "msg": {
+        "en": "Dear friend, if you’ve gone into hock with your neighbor\nor locked yourself into a deal with a stranger,\nIf you’ve impulsively promised the shirt off your back\nand now find yourself shivering out in the cold,\nFriend, don’t waste a minute, get yourself out of that mess.\nYou’re in that man’s clutches!\nGo, put on a long face; act desperate.\nDon’t procrastinate—\nthere’s no time to lose.\nRun like a deer from the hunter,\nfly like a bird from the trapper!",
+        "es": "Querido amigo, si te has endeudado por tu vecino\no te has amarrado a un trato con un extraño,\nsi impulsivamente prometiste hasta la camisa que llevas puesta\ny ahora te encuentras temblando de frío,\namigo, no pierdas ni un minuto: sal de ese lío.\n¡Estás en las garras de ese hombre!\nVe, pon cara de necesidad; muéstrate desesperado.\nNo lo dejes para después:\nno hay tiempo que perder.\nCorre como un venado que escapa del cazador,\n¡vuela como un ave que huye de la trampa!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-11",
+      "id": "proverbios6-msg-02",
+      "msg": {
+        "en": "You lazy fool, look at an ant.\nWatch it closely; let it teach you a thing or two.\nNobody has to tell it what to do.\nAll summer it stores up food;\nat harvest it stockpiles provisions.\nSo how long are you going to laze around doing nothing?\nHow long before you get out of bed?\nA nap here, a nap there, a day off here, a day off there,\nsit back, take it easy—do you know what comes next?\nJust this: You can look forward to a dirt-poor life,\npoverty your permanent houseguest!",
+        "es": "Perezoso insensato, mira a la hormiga.\nObsérvala de cerca; deja que te enseñe una cosa o dos.\nNadie tiene que decirle qué hacer.\nDurante todo el verano almacena alimento;\nen la cosecha acumula provisiones.\nEntonces, ¿cuánto tiempo vas a seguir tirado sin hacer nada?\n¿Cuánto falta para que salgas de la cama?\nUna siesta aquí, otra allá, un día libre aquí, otro allá,\nte recuestas, te lo tomas con calma… ¿sabes qué viene después?\nEsto: puedes esperar una vida de pobreza extrema,\n¡la pobreza instalada como huésped permanente!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-11"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "12-15",
+      "id": "proverbios6-msg-03",
+      "msg": {
+        "en": "Riffraff and rascals\ntalk out of both sides of their mouths.\nThey wink at each other, they shuffle their feet,\nthey cross their fingers behind their backs.\nTheir perverse minds are always cooking up something nasty,\nalways stirring up trouble.\nCatastrophe is just around the corner for them,\na total smashup, their lives ruined beyond repair.",
+        "es": "Canallas y sinvergüenzas\nhablan por los dos lados de la boca.\nSe guiñan el ojo, arrastran los pies,\ncruzan los dedos a espaldas de los demás.\nSus mentes torcidas siempre están cocinando algo malo,\nsiempre provocando problemas.\nLa catástrofe está a la vuelta de la esquina para ellos:\nun choque total, sus vidas arruinadas sin remedio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "proverbios6-msg-04",
+      "msg": {
+        "en": "Here are six things GOD hates,\nand one more that he loathes with a passion:\neyes that are arrogant,\na tongue that lies,\nhands that murder the innocent,\na heart that hatches evil plots,\nfeet that race down a wicked track,\na mouth that lies under oath,\na troublemaker in the family.",
+        "es": "Estas son seis cosas que DIOS odia,\ny una más que detesta con pasión:\nojos arrogantes,\nuna lengua mentirosa,\nmanos que asesinan al inocente,\nun corazón que trama planes malvados,\npies que corren por una senda perversa,\nuna boca que miente bajo juramento,\ny alguien que siembra problemas en la familia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-19"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "proverbios6-msg-05",
+      "msg": {
+        "en": "Good friend, follow your father’s good advice;\ndon’t wander off from your mother’s teachings.\nWrap yourself in them from head to foot;\nwear them like a scarf around your neck.\nWherever you walk, they’ll guide you;\nwhenever you rest, they’ll guard you;\nwhen you wake up, they’ll tell you what’s next.\nFor sound advice is a beacon,\ngood teaching is a light,\nmoral discipline is a life path.",
+        "es": "Buen amigo, sigue el buen consejo de tu padre;\nno te apartes de las enseñanzas de tu madre.\nEnvuélvete en ellas de la cabeza a los pies;\nllévalas como una bufanda alrededor del cuello.\nDondequiera que camines, te guiarán;\ncuando descanses, te protegerán;\ncuando despiertes, te dirán qué sigue.\nPorque el buen consejo es un faro,\nla buena enseñanza es una luz,\ny la disciplina moral es un camino de vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-23"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "24-35",
+      "id": "proverbios6-msg-06",
+      "msg": {
+        "en": "They’ll protect you from wanton women,\nfrom the seductive talk of some temptress.\nDon’t lustfully fantasize on her beauty,\nnor be taken in by her bedroom eyes.\nYou can buy an hour with a whore for a loaf of bread,\nbut a wanton woman may well eat you alive.\nCan you build a fire in your lap\nand not burn your pants?\nCan you walk barefoot on hot coals\nand not get blisters?\nIt’s the same when you have sex with your neighbor’s wife:\nTouch her and you’ll pay for it. No excuses.\nHunger is no excuse\nfor a thief to steal;\nWhen he’s caught he has to pay it back,\neven if he has to put his whole house in hock.\nAdultery is a brainless act,\nsoul-destroying, self-destructive;\nExpect a bloody nose, a black eye,\nand a reputation ruined for good.\nFor jealousy detonates rage in a cheated husband;\nwild for revenge, he won’t make allowances.\nNothing you say or pay will make it all right;\nneither bribes nor reason will satisfy him.",
+        "es": "Te protegerán de mujeres desenfrenadas,\ndel habla seductora de alguna tentadora.\nNo fantasees con lujuria sobre su belleza,\nni te dejes atrapar por sus ojos de alcoba.\nPuedes comprar una hora con una prostituta por el precio de un pan,\npero una mujer adúltera bien puede devorarte vivo.\n¿Puedes encender fuego sobre tu regazo\ny no quemarte la ropa?\n¿Puedes caminar descalzo sobre carbones encendidos\ny no llenarte de ampollas?\nLo mismo ocurre cuando tienes relaciones con la esposa de tu vecino:\ntócala y pagarás por ello. No hay excusas.\nEl hambre no es excusa\npara que un ladrón robe;\ncuando lo atrapan, tiene que devolverlo,\naunque deba hipotecar toda su casa.\nEl adulterio es un acto sin juicio,\ndestructivo para el alma, autodestructivo;\nespera un golpe en la nariz, un ojo morado\ny una reputación arruinada por mucho tiempo.\nPorque los celos detonan la furia de un esposo traicionado;\nencendido por la venganza, no hará concesiones.\nNada de lo que digas o pagues arreglará las cosas;\nni sobornos ni argumentos lo dejarán satisfecho."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios6-nbla-35"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios6-nbla-01",
+      "number": 1,
+      "text": "Hijo mío, si has salido fiador por tu prójimo,\nSi has dado promesa a un extraño,"
+    },
+    {
+      "id": "proverbios6-nbla-02",
+      "number": 2,
+      "text": "Si te has enredado con las palabras de tu boca,\nSi con las palabras de tu boca has sido atrapado,"
+    },
+    {
+      "id": "proverbios6-nbla-03",
+      "number": 3,
+      "text": "Haz esto ahora, hijo mío, y líbrate,\nYa que has caído en la mano de tu prójimo:\nVe, humíllate e importuna a tu prójimo."
+    },
+    {
+      "id": "proverbios6-nbla-04",
+      "number": 4,
+      "text": "No des sueño a tus ojos\nNi adormecimiento a tus párpados;"
+    },
+    {
+      "id": "proverbios6-nbla-05",
+      "number": 5,
+      "text": "Líbrate como la gacela de la mano del cazador\nY como ave de la mano del que caza."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios6-nbla-06a",
+          "order": 1,
+          "text": "Ve, mira la hormiga, perezoso,"
+        },
+        {
+          "id": "proverbios6-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Observa sus caminos, y sé sabio."
+        }
+      ],
+      "id": "proverbios6-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "proverbios6-nbla-07",
+      "number": 7,
+      "text": "La cual sin tener jefe,\nNi oficial ni señor,"
+    },
+    {
+      "id": "proverbios6-nbla-08",
+      "number": 8,
+      "text": "Prepara en el verano su alimento\nY recoge en la cosecha su sustento."
+    },
+    {
+      "id": "proverbios6-nbla-09",
+      "number": 9,
+      "text": "¿Hasta cuándo, perezoso, estarás acostado?\n¿Cuándo te levantarás de tu sueño?"
+    },
+    {
+      "id": "proverbios6-nbla-10",
+      "number": 10,
+      "text": "«Un poco de dormir, un poco de dormitar,\nUn poco de cruzar las manos para descansar»,"
+    },
+    {
+      "id": "proverbios6-nbla-11",
+      "number": 11,
+      "text": "Y vendrá tu pobreza como vagabundo,\nY tu necesidad como un hombre armado."
+    },
+    {
+      "id": "proverbios6-nbla-12",
+      "number": 12,
+      "text": "La persona indigna, el hombre malvado,\nEs el que anda con boca perversa,"
+    },
+    {
+      "id": "proverbios6-nbla-13",
+      "number": 13,
+      "text": "El que guiña los ojos, el que hace señas con los pies,\nEl que señala con los dedos,"
+    },
+    {
+      "id": "proverbios6-nbla-14",
+      "number": 14,
+      "text": "El que con perversidad en su corazón, continuamente trama el mal,\nEl que siembra discordia."
+    },
+    {
+      "id": "proverbios6-nbla-15",
+      "number": 15,
+      "text": "Por tanto, su desgracia vendrá de repente;\nAl instante será quebrantado, y no habrá remedio."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios6-nbla-16a",
+          "order": 1,
+          "text": "Seis cosas hay que el SEÑOR odia,"
+        },
+        {
+          "id": "proverbios6-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y siete son abominación para Él:"
+        }
+      ],
+      "id": "proverbios6-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "proverbios6-nbla-17",
+      "number": 17,
+      "text": "Ojos soberbios, lengua mentirosa,\nManos que derraman sangre inocente,"
+    },
+    {
+      "id": "proverbios6-nbla-18",
+      "number": 18,
+      "text": "Un corazón que trama planes perversos,\nPies que corren rápidamente hacia el mal,"
+    },
+    {
+      "id": "proverbios6-nbla-19",
+      "number": 19,
+      "text": "Un testigo falso que dice mentiras,\nY el que siembra discordia entre hermanos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios6-nbla-20a",
+          "order": 1,
+          "text": "Hijo mío, guarda el mandamiento de tu padre"
+        },
+        {
+          "id": "proverbios6-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y no abandones la enseñanza de tu madre;"
+        }
+      ],
+      "id": "proverbios6-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "proverbios6-nbla-21",
+      "number": 21,
+      "text": "Átalos de continuo en tu corazón,\nEnlázalos a tu cuello."
+    },
+    {
+      "id": "proverbios6-nbla-22",
+      "number": 22,
+      "text": "Cuando andes, te guiarán;\nCuando duermas, velarán por ti;\nAl despertarte, hablarán contigo."
+    },
+    {
+      "id": "proverbios6-nbla-23",
+      "number": 23,
+      "text": "Porque el mandamiento es lámpara, y la enseñanza luz,\nY camino de vida las reprensiones de la instrucción,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios6-nbla-24a",
+          "order": 1,
+          "text": "Para librarte de la mujer mala,"
+        },
+        {
+          "id": "proverbios6-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "De la lengua suave de la desconocida."
+        }
+      ],
+      "id": "proverbios6-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "proverbios6-nbla-25",
+      "number": 25,
+      "text": "No codicies su hermosura en tu corazón,\nNi dejes que te cautive con sus párpados."
+    },
+    {
+      "id": "proverbios6-nbla-26",
+      "number": 26,
+      "text": "Porque por causa de una ramera uno es reducido a un pedazo de pan,\nPero la adúltera anda a la caza de la vida preciosa."
+    },
+    {
+      "id": "proverbios6-nbla-27",
+      "number": 27,
+      "text": "¿Puede un hombre poner fuego en su seno\nSin que arda su ropa?"
+    },
+    {
+      "id": "proverbios6-nbla-28",
+      "number": 28,
+      "text": "¿O puede caminar un hombre sobre carbones encendidos\nSin que se quemen sus pies?"
+    },
+    {
+      "id": "proverbios6-nbla-29",
+      "number": 29,
+      "text": "Así es el que se llega a la mujer de su prójimo;\nCualquiera que la toque no quedará sin castigo."
+    },
+    {
+      "id": "proverbios6-nbla-30",
+      "number": 30,
+      "text": "No se desprecia al ladrón si roba\nPara saciarse cuando tiene hambre;"
+    },
+    {
+      "id": "proverbios6-nbla-31",
+      "number": 31,
+      "text": "Pero cuando es sorprendido, debe pagar siete veces;\nTiene que dar todos los bienes de su casa."
+    },
+    {
+      "id": "proverbios6-nbla-32",
+      "number": 32,
+      "text": "El que comete adulterio no tiene entendimiento;\nEl que lo hace destruye su alma."
+    },
+    {
+      "id": "proverbios6-nbla-33",
+      "number": 33,
+      "text": "Heridas y vergüenza hallará,\nY su afrenta no se borrará."
+    },
+    {
+      "id": "proverbios6-nbla-34",
+      "number": 34,
+      "text": "Porque los celos enfurecen al hombre,\nY no perdonará en el día de la venganza."
+    },
+    {
+      "id": "proverbios6-nbla-35",
+      "number": 35,
+      "text": "No aceptará ningún rescate,\nNi se dará por satisfecho aunque le des muchos presentes."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

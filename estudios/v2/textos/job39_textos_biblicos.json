@@ -1,0 +1,454 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Dios dirige la atención hacia una vida que ocurre lejos de la administración humana. Lo que Job no observa sigue siendo conocido por Dios.",
+      "id": "job39-joya-01",
+      "msg": {
+        "en": "\"Do you know the month when mountain goats give birth?\nHave you ever watched a doe bear her fawn?\"",
+        "es": "\"¿Sabes en qué mes dan a luz las cabras monteses?\n¿Has visto alguna vez a una cierva parir?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-4"
+    },
+    {
+      "explanation": "La libertad de esta criatura no es accidente fuera del gobierno divino. Dios mismo se atribuye haberla dejado libre y haberle dado un hogar en el desierto.",
+      "id": "job39-joya-02",
+      "msg": {
+        "en": "\"Who do you think set the wild donkey free,\nopened the corral gates and let him go?\"",
+        "es": "\"¿Quién crees que dejó libre al asno montés,\nabrió las puertas del corral y lo dejó salir?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-6"
+    },
+    {
+      "explanation": "Fuerza y domesticabilidad no son lo mismo. El capítulo muestra un mundo cuyas capacidades no existen automáticamente para entrar en nuestros sistemas de productividad.",
+      "id": "job39-joya-03",
+      "msg": {
+        "en": "\"He’s hugely strong, yes, but could you trust him,\nwould you dare turn the job over to him?\"",
+        "es": "\"Es inmensamente fuerte, sí, pero ¿podrías confiar en él?\n¿Te atreverías a encargarle el trabajo?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-11"
+        }
+      ],
+      "order": 3,
+      "range": "9-11"
+    },
+    {
+      "explanation": "El avestruz desarma nuestras expectativas: limitación en un área y excelencia en otra. Dios no pide que Job convierta la criatura en un sistema perfectamente optimizado según criterios humanos.",
+      "id": "job39-joya-04",
+      "msg": {
+        "en": "\"She wasn’t created very smart, that’s for sure,\nwasn’t given her share of good sense.\nBut when she runs, oh, how she runs,\"",
+        "es": "\"No fue creada muy inteligente, eso es seguro;\nno recibió su porción de buen juicio.\nPero cuando corre, ¡cómo corre!,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "17-18"
+    },
+    {
+      "explanation": "MSG introduce «thermal updrafts», una explicación moderna del vuelo; NBLA habla del gavilán extendiendo alas hacia el sur. La verdad teológica no depende del mecanismo moderno: Job no es la fuente de esa capacidad.",
+      "id": "job39-joya-05",
+      "msg": {
+        "en": "\"Was it through your know-how that the hawk learned to fly,\nsoaring effortlessly on thermal updrafts?\"",
+        "es": "\"¿Fue por tu conocimiento que el halcón aprendió a volar,\nelevándose sin esfuerzo sobre las corrientes térmicas?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-26"
+        }
+      ],
+      "order": 5,
+      "range": "26-27"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 39,
+    "studyId": "job-39"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job39-msg-01",
+      "msg": {
+        "en": "Do you know the month when mountain goats give birth?\nHave you ever watched a doe bear her fawn?\nDo you know how many months she is pregnant?\nDo you know the season of her delivery,\nwhen she crouches down and drops her offspring?\nHer young ones flourish and are soon on their own;\nthey leave and don’t come back.",
+        "es": "«¿Sabes en qué mes dan a luz las cabras monteses?\n¿Has visto alguna vez a una cierva parir?\n¿Sabes cuántos meses dura su embarazo?\n¿Conoces la estación en que da a luz,\ncuando se agacha y deja caer a su cría?\nSus pequeños crecen fuertes y pronto se valen por sí mismos;\nse van y no regresan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-8",
+      "id": "job39-msg-02",
+      "msg": {
+        "en": "“Who do you think set the wild donkey free,\nopened the corral gates and let him go?\nI gave him the whole wilderness to roam in,\nthe rolling plains and wide-open places.\nHe laughs at his city cousins, who are harnessed and harried.\nHe’s oblivious to the cries of teamsters.\nHe grazes freely through the hills,\nnibbling anything that’s green.",
+        "es": "«¿Quién crees que dejó libre al asno montés,\nabrió las puertas del corral y lo dejó salir?\nYo le di todo el desierto para recorrerlo,\nlas llanuras ondulantes y los espacios abiertos.\nSe ríe de sus primos de ciudad, sujetos y agotados.\nNo presta atención a los gritos de los arrieros.\nPasta libremente por las colinas,\nmordisqueando todo lo que está verde."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-12",
+      "id": "job39-msg-03",
+      "msg": {
+        "en": "“Will the wild buffalo condescend to serve you,\nvolunteer to spend the night in your barn?\nCan you imagine hitching your plow to a buffalo\nand getting him to till your fields?\nHe’s hugely strong, yes, but could you trust him,\nwould you dare turn the job over to him?\nYou wouldn’t for a minute depend on him, would you,\nto do what you said when you said it?",
+        "es": "«¿Aceptará el búfalo salvaje servirte\ny pasar la noche voluntariamente en tu establo?\n¿Puedes imaginar atar tu arado a un búfalo\ny hacer que labre tus campos?\nEs inmensamente fuerte, sí, pero ¿podrías confiar en él?\n¿Te atreverías a encargarle el trabajo?\nNi por un minuto dependerías de él, ¿verdad,\npara hacer lo que dijiste justo cuando se lo dijiste?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "job39-msg-04",
+      "msg": {
+        "en": "“The ostrich flaps her wings futilely—\nall those beautiful feathers, but useless!\nShe lays her eggs on the hard ground,\nleaves them there in the dirt, exposed to the weather,\nNot caring that they might get stepped on and cracked\nor trampled by some wild animal.\nShe’s negligent with her young, as if they weren’t even hers.\nShe cares nothing about anything.\nShe wasn’t created very smart, that’s for sure,\nwasn’t given her share of good sense.\nBut when she runs, oh, how she runs,\nlaughing, leaving horse and rider in the dust.",
+        "es": "«El avestruz bate inútilmente sus alas:\n¡todas esas hermosas plumas, pero inútiles!\nPone sus huevos sobre el suelo duro\ny los deja allí, en la tierra, expuestos al clima,\nsin preocuparse de que alguien los pise y los rompa\no de que algún animal salvaje los aplaste.\nEs negligente con sus crías, como si no fueran suyas.\nNada parece importarle.\nNo fue creada muy inteligente, eso es seguro;\nno recibió su porción de buen juicio.\nPero cuando corre, ¡cómo corre!,\nriendo mientras deja al caballo y al jinete atrás."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-18"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "19-25",
+      "id": "job39-msg-05",
+      "msg": {
+        "en": "“Are you the one who gave the horse his prowess\nand adorned him with a shimmering mane?\nDid you create him to prance proudly\nand strike terror with his royal snorts?\nHe paws the ground fiercely, eager and spirited,\nthen charges into the fray.\nHe laughs at danger, fearless,\ndoesn’t shy away from the sword.\nThe banging and clanging\nof quiver and lance don’t faze him.\nHe quivers with excitement, and at the trumpet blast\nraces off at a gallop.\nAt the sound of the trumpet he neighs mightily,\nsmelling the excitement of battle from a long way off,\ncatching the rolling thunder of the war cries.",
+        "es": "«¿Eres tú quien dio al caballo su fuerza\ny adornó su cuello con una crin resplandeciente?\n¿Lo creaste para saltar con orgullo\ny sembrar terror con sus resoplidos reales?\nGolpea el suelo con fuerza, ansioso y lleno de energía,\ny luego se lanza a la batalla.\nSe ríe del peligro, sin miedo,\ny no retrocede ante la espada.\nEl golpeteo y estrépito\nde aljaba y lanza no lo intimidan.\nTiembla de emoción y, al sonar la trompeta,\nsale disparado al galope.\nAl sonido de la trompeta relincha con fuerza,\npercibiendo desde lejos la excitación de la batalla,\nescuchando el trueno de los gritos de guerra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-25"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "26-30",
+      "id": "job39-msg-06",
+      "msg": {
+        "en": "“Was it through your know-how that the hawk learned to fly,\nsoaring effortlessly on thermal updrafts?\nDid you command the eagle’s flight,\nand teach her to build her nest in the heights,\nPerfectly at home on the high cliff face,\ninvulnerable on pinnacle and crag?\nFrom her perch she searches for prey,\nspies it at a great distance.\nHer young gorge themselves on carrion;\nwherever there’s a roadkill, you’ll see her circling.”",
+        "es": "«¿Fue por tu conocimiento que el halcón aprendió a volar,\nelevándose sin esfuerzo sobre las corrientes térmicas?\n¿Le ordenaste al águila volar\ny le enseñaste a construir su nido en las alturas,\nperfectamente instalada sobre el alto acantilado,\nsegura en la cima y la roca escarpada?\nDesde allí busca su presa\ny la divisa desde gran distancia.\nSus crías se alimentan de carroña;\ndondequiera que haya un animal muerto junto al camino, allí la verás dando vueltas.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job39-nbla-30"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job39-nbla-01",
+      "number": 1,
+      "text": "»¿Conoces tú el tiempo en que paren las cabras monteses?\n¿Has observado el parto de las ciervas?"
+    },
+    {
+      "id": "job39-nbla-02",
+      "number": 2,
+      "text": "¿Puedes contar los meses de su gestación,\nO conoces el tiempo en que han de parir?"
+    },
+    {
+      "id": "job39-nbla-03",
+      "number": 3,
+      "text": "Se encorvan, paren sus crías,\nY se libran de sus dolores de parto."
+    },
+    {
+      "id": "job39-nbla-04",
+      "number": 4,
+      "text": "Sus crías se fortalecen, crecen en campo abierto;\nSe van y no vuelven a ellas."
+    },
+    {
+      "id": "job39-nbla-05",
+      "number": 5,
+      "text": "»¿Quién dejó en libertad al asno montés?\n¿Y quién soltó las ataduras del asno veloz,"
+    },
+    {
+      "id": "job39-nbla-06",
+      "number": 6,
+      "text": "Al cual di por hogar el desierto,\nY por morada la tierra salada?"
+    },
+    {
+      "id": "job39-nbla-07",
+      "number": 7,
+      "text": "Se burla del tumulto de la ciudad,\nNo escucha los gritos del arriero."
+    },
+    {
+      "id": "job39-nbla-08",
+      "number": 8,
+      "text": "Explora los montes buscando su pasto,\nY anda tras toda hierba verde."
+    },
+    {
+      "id": "job39-nbla-09",
+      "number": 9,
+      "text": "¿Consentirá en servirte el búfalo,\nO pasará la noche en tu pesebre?"
+    },
+    {
+      "id": "job39-nbla-10",
+      "number": 10,
+      "text": "¿Puedes atar al búfalo con coyundas para el surco,\nO rastrillará los valles en pos de ti?"
+    },
+    {
+      "id": "job39-nbla-11",
+      "number": 11,
+      "text": "¿Confiarás en él por ser grande su fuerza\nY le confiarás tu labor?"
+    },
+    {
+      "id": "job39-nbla-12",
+      "number": 12,
+      "text": "¿Tendrás fe en él de que te devolverá tu grano,\nY de que lo recogerá de tu era?"
+    },
+    {
+      "id": "job39-nbla-13",
+      "number": 13,
+      "text": "»Baten alegres las alas del avestruz,\n¿Acaso con el ala y plumaje del amor?"
+    },
+    {
+      "id": "job39-nbla-14",
+      "number": 14,
+      "text": "Porque abandona sus huevos en la tierra,\nY sobre el polvo los calienta;"
+    },
+    {
+      "id": "job39-nbla-15",
+      "number": 15,
+      "text": "Se olvida de que algún pie los puede aplastar,\nO una bestia salvaje los puede pisotear."
+    },
+    {
+      "id": "job39-nbla-16",
+      "number": 16,
+      "text": "Trata a sus hijos con crueldad, como si no fueran suyos;\nAunque su trabajo sea en vano, le es indiferente;"
+    },
+    {
+      "id": "job39-nbla-17",
+      "number": 17,
+      "text": "Porque Dios le ha hecho olvidar la sabiduría,\nY no le ha dado su porción de inteligencia."
+    },
+    {
+      "id": "job39-nbla-18",
+      "number": 18,
+      "text": "Pero cuando se levanta en alto,\nSe burla del caballo y de su jinete."
+    },
+    {
+      "id": "job39-nbla-19",
+      "number": 19,
+      "text": "»¿Das tú al caballo su fuerza?\n¿Revistes su cuello de crines?"
+    },
+    {
+      "id": "job39-nbla-20",
+      "number": 20,
+      "text": "¿Le haces saltar como la langosta?\nTerrible es su formidable resoplido;"
+    },
+    {
+      "id": "job39-nbla-21",
+      "number": 21,
+      "text": "Escarba en el valle, y se regocija en su fuerza;\nSale al encuentro de las armas."
+    },
+    {
+      "id": "job39-nbla-22",
+      "number": 22,
+      "text": "Se burla del temor y no se acobarda,\nNi retrocede ante la espada."
+    },
+    {
+      "id": "job39-nbla-23",
+      "number": 23,
+      "text": "Resuena contra él la aljaba,\nLa lanza reluciente y la jabalina."
+    },
+    {
+      "id": "job39-nbla-24",
+      "number": 24,
+      "text": "Con ímpetu y furor corre sobre la tierra;\nY no se está quieto al sonido de la trompeta."
+    },
+    {
+      "id": "job39-nbla-25",
+      "number": 25,
+      "text": "Cada vez que la trompeta suena, como que dice: “¡Ea!”.\nY desde lejos olfatea la batalla,\nLas voces atronadoras de los capitanes y el grito de guerra."
+    },
+    {
+      "id": "job39-nbla-26",
+      "number": 26,
+      "text": "»¿Acaso por tu sabiduría se eleva el gavilán,\nExtendiendo sus alas hacia el sur?"
+    },
+    {
+      "id": "job39-nbla-27",
+      "number": 27,
+      "text": "¿Acaso a tu mandato se remonta el águila\nY hace en las alturas su nido?"
+    },
+    {
+      "id": "job39-nbla-28",
+      "number": 28,
+      "text": "En la peña mora y se aloja,\nSobre la cima del despeñadero, lugar inaccesible."
+    },
+    {
+      "id": "job39-nbla-29",
+      "number": 29,
+      "text": "Desde allí acecha la presa;\nDesde muy lejos sus ojos la divisan."
+    },
+    {
+      "id": "job39-nbla-30",
+      "number": 30,
+      "text": "Sus polluelos chupan la sangre;\nY donde hay muertos, allí está ella»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

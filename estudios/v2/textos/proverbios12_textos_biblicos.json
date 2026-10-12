@@ -1,0 +1,774 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría comienza con una postura enseñable. NBLA dice que amar instrucción es amar conocimiento; MSG muestra que disciplina y aprendizaje llegan juntos. Rechazar toda corrección limita el crecimiento.",
+      "id": "proverbios12-joya-01",
+      "msg": {
+        "en": "\"If you love learning, you love the discipline that goes with it—\"",
+        "es": "\"Si amas aprender, amas también la disciplina que viene con ello;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-01a"
+          ],
+          "verseId": "proverbios12-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La justicia alcanza el modo de tratar a los seres vulnerables. NBLA afirma que el justo se preocupa por la vida de su ganado; MSG hace visible el contraste con una supuesta bondad que en realidad maltrata.",
+      "id": "proverbios12-joya-02",
+      "msg": {
+        "en": "\"Good people are good to their animals;\"",
+        "es": "\"La gente buena trata bien a sus animales;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-10a"
+          ],
+          "verseId": "proverbios12-nbla-10"
+        }
+      ],
+      "order": 2,
+      "range": "10"
+    },
+    {
+      "explanation": "La sabiduría escucha consejo porque reconoce que la propia perspectiva puede fallar. NBLA contrasta el camino que parece recto a los propios ojos con quien escucha; MSG retrata la terquedad que hace solo lo que quiere.",
+      "id": "proverbios12-joya-03",
+      "msg": {
+        "en": "\"Fools are headstrong and do what they like;\"",
+        "es": "\"Los necios son tercos y hacen lo que les da la gana;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-15a"
+          ],
+          "verseId": "proverbios12-nbla-15"
+        }
+      ],
+      "order": 3,
+      "range": "15"
+    },
+    {
+      "explanation": "Las palabras tienen capacidad real de dañar o sanar. NBLA utiliza la imagen de golpes de espada; MSG la vuelve corporal al hablar de cortar y mutilar. La sabiduría no minimiza el daño verbal.",
+      "id": "proverbios12-joya-04",
+      "msg": {
+        "en": "\"Rash language cuts and maims,\"",
+        "es": "\"Las palabras impulsivas cortan y mutilan, pero hay sanidad en las palabras de los sabios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-18a"
+          ],
+          "verseId": "proverbios12-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "18"
+    },
+    {
+      "explanation": "La verdad no es solo una herramienta social; pertenece a aquello en lo que Dios se deleita. NBLA habla de labios mentirosos y de quienes obran fielmente; MSG acerca la escena a la compañía que Dios disfruta.",
+      "id": "proverbios12-joya-05",
+      "msg": {
+        "en": "\"God can’t stomach liars;\"",
+        "es": "\"Dios no soporta a los mentirosos;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-22a"
+          ],
+          "verseId": "proverbios12-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22"
+    },
+    {
+      "explanation": "La sabiduría reconoce el peso emocional de la ansiedad y el poder de una palabra buena. NBLA afirma que la ansiedad deprime; MSG lo expresa como una carga que aplasta. El texto invita a hablar de manera que levante sin trivializar el dolor.",
+      "id": "proverbios12-joya-06",
+      "msg": {
+        "en": "\"Worry weighs us down;\"",
+        "es": "\"La preocupación nos aplasta; una palabra alegre nos levanta.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios12-nbla-25a"
+          ],
+          "verseId": "proverbios12-nbla-25"
+        }
+      ],
+      "order": 6,
+      "range": "25"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 12,
+    "studyId": "proverbios-12"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios12-msg-01",
+      "msg": {
+        "en": "If you love learning, you love the discipline that goes with it—\nhow shortsighted to refuse correction!",
+        "es": "Si amas aprender, amas también la disciplina que viene con ello; ¡qué poca visión hay en rechazar la corrección!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios12-msg-02",
+      "msg": {
+        "en": "A good person basks in the delight of GOD,\nand he wants nothing to do with devious schemers.",
+        "es": "Una buena persona se deleita en el favor de DIOS, y Él no quiere saber nada de quienes traman engaños."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios12-msg-03",
+      "msg": {
+        "en": "You can’t find firm footing in a swamp,\nbut life rooted in God stands firm.",
+        "es": "No puedes encontrar terreno firme en un pantano, pero una vida arraigada en Dios permanece firme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios12-msg-04",
+      "msg": {
+        "en": "A hearty wife invigorates her husband,\nbut a frigid woman is cancer in the bones.",
+        "es": "Una esposa llena de vida fortalece a su marido, pero una mujer fría le carcome los huesos como un cáncer."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios12-msg-05",
+      "msg": {
+        "en": "The thinking of principled people makes for justice;\nthe plots of degenerates corrupt.",
+        "es": "El pensamiento de la gente íntegra conduce a la justicia; los planes de los depravados corrompen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios12-msg-06",
+      "msg": {
+        "en": "The words of the wicked kill;\nthe speech of the upright saves.",
+        "es": "Las palabras de los malvados matan; las palabras de los rectos salvan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios12-msg-07",
+      "msg": {
+        "en": "Wicked people fall to pieces—there’s nothing to them;\nthe homes of good people hold together.",
+        "es": "Los malvados se desmoronan, no queda nada de ellos; los hogares de la gente buena permanecen unidos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios12-msg-08",
+      "msg": {
+        "en": "A person who talks sense is honored;\nairheads are held in contempt.",
+        "es": "A quien habla con sensatez se le honra; los de cabeza hueca son despreciados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios12-msg-09",
+      "msg": {
+        "en": "Better to be ordinary and work for a living\nthan act important and starve in the process.",
+        "es": "Mejor ser una persona común que trabaja para vivir que aparentar importancia y pasar hambre en el proceso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios12-msg-10",
+      "msg": {
+        "en": "Good people are good to their animals;\nthe “good-hearted” bad people kick and abuse them.",
+        "es": "La gente buena trata bien a sus animales; los malvados que se creen «de buen corazón» los patean y maltratan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios12-msg-11",
+      "msg": {
+        "en": "The one who stays on the job has food on the table;\nthe witless chase whims and fancies.",
+        "es": "Quien se mantiene en su trabajo tiene comida en la mesa; el insensato persigue caprichos y fantasías."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios12-msg-12",
+      "msg": {
+        "en": "What the wicked construct finally falls into ruin,\nwhile the roots of the righteous give life, and more life.",
+        "es": "Lo que construyen los malvados finalmente se derrumba, mientras las raíces de los justos dan vida y más vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios12-msg-13",
+      "msg": {
+        "en": "The gossip of bad people gets them in trouble;\nthe conversation of good people keeps them out of it.",
+        "es": "El chisme de la gente mala la mete en problemas; la conversación de la gente buena la mantiene fuera de problemas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios12-msg-14",
+      "msg": {
+        "en": "Well-spoken words bring satisfaction;\nwell-done work has its own reward.",
+        "es": "Las palabras bien dichas traen satisfacción; el trabajo bien hecho trae su propia recompensa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios12-msg-15",
+      "msg": {
+        "en": "Fools are headstrong and do what they like;\nwise people take advice.",
+        "es": "Los necios son tercos y hacen lo que les da la gana; los sabios reciben consejo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios12-msg-16",
+      "msg": {
+        "en": "Fools have short fuses and explode all too quickly;\nthe prudent quietly shrug off insults.",
+        "es": "Los necios tienen la mecha corta y explotan demasiado rápido; los prudentes dejan pasar los insultos sin hacer ruido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios12-msg-17",
+      "msg": {
+        "en": "Truthful witness by a good person clears the air,\nbut liars lay down a smoke screen of deceit.",
+        "es": "El testimonio verdadero de una buena persona aclara las cosas, pero los mentirosos levantan una cortina de humo de engaño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios12-msg-18",
+      "msg": {
+        "en": "Rash language cuts and maims,\nbut there is healing in the words of the wise.",
+        "es": "Las palabras impulsivas cortan y mutilan, pero hay sanidad en las palabras de los sabios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios12-msg-19",
+      "msg": {
+        "en": "Truth lasts;\nlies are here today, gone tomorrow.",
+        "es": "La verdad permanece; las mentiras están hoy y mañana desaparecen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios12-msg-20",
+      "msg": {
+        "en": "Evil scheming distorts the schemer;\npeace-planning brings joy to the planner.",
+        "es": "Las maquinaciones perversas deforman al que las trama; planear la paz trae alegría al que la promueve."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios12-msg-21",
+      "msg": {
+        "en": "No evil can overwhelm a good person,\nbut the wicked have their hands full of it.",
+        "es": "Ningún mal puede aplastar a una buena persona, pero los malvados tienen las manos llenas de él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios12-msg-22",
+      "msg": {
+        "en": "God can’t stomach liars;\nhe loves the company of those who keep their word.",
+        "es": "Dios no soporta a los mentirosos; le encanta la compañía de quienes cumplen su palabra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios12-msg-23",
+      "msg": {
+        "en": "Prudent people don’t flaunt their knowledge;\ntalkative fools broadcast their silliness.",
+        "es": "La gente prudente no presume de lo que sabe; los necios habladores transmiten su tontería a todo el mundo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios12-msg-24",
+      "msg": {
+        "en": "The diligent find freedom in their work;\nthe lazy are oppressed by work.",
+        "es": "Los diligentes encuentran libertad en su trabajo; los perezosos terminan oprimidos por él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios12-msg-25",
+      "msg": {
+        "en": "Worry weighs us down;\na cheerful word picks us up.",
+        "es": "La preocupación nos aplasta; una palabra alegre nos levanta."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios12-msg-26",
+      "msg": {
+        "en": "A good person survives misfortune,\nbut a wicked life invites disaster.",
+        "es": "Una buena persona sobrevive a la desgracia, pero una vida malvada invita al desastre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios12-msg-27",
+      "msg": {
+        "en": "A lazy life is an empty life,\nbut “early to rise” gets the job done.",
+        "es": "Una vida perezosa es una vida vacía, pero levantarse temprano hace que el trabajo se haga."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios12-msg-28",
+      "msg": {
+        "en": "Good men and women travel right into life;\nsin’s detours take you straight to hell.",
+        "es": "La gente buena camina directo hacia la vida; los desvíos del pecado te llevan directo al infierno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios12-nbla-28"
+        }
+      ],
+      "order": 28
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-01a",
+          "order": 1,
+          "text": "El que ama la instrucción ama el conocimiento,"
+        },
+        {
+          "id": "proverbios12-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que odia la reprensión es torpe."
+        }
+      ],
+      "id": "proverbios12-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "proverbios12-nbla-02",
+      "number": 2,
+      "text": "El bueno alcanzará el favor del SEÑOR,\nPero Él condenará al hombre de malos designios."
+    },
+    {
+      "id": "proverbios12-nbla-03",
+      "number": 3,
+      "text": "El hombre no se afianzará por medio de la impiedad,\nY la raíz de los justos no será removida."
+    },
+    {
+      "id": "proverbios12-nbla-04",
+      "number": 4,
+      "text": "La mujer virtuosa es corona de su marido,\nPero la que lo avergüenza es como podredumbre en sus huesos."
+    },
+    {
+      "id": "proverbios12-nbla-05",
+      "number": 5,
+      "text": "Los pensamientos de los justos son rectos,\nLos consejos de los impíos, engañosos."
+    },
+    {
+      "id": "proverbios12-nbla-06",
+      "number": 6,
+      "text": "Las palabras de los impíos son asechanzas sangrientas,\nPero a los rectos su boca los librará."
+    },
+    {
+      "id": "proverbios12-nbla-07",
+      "number": 7,
+      "text": "Los impíos son derribados y ya no existen,\nPero la casa de los justos permanecerá."
+    },
+    {
+      "id": "proverbios12-nbla-08",
+      "number": 8,
+      "text": "El hombre será alabado conforme a su discernimiento,\nPero el perverso de corazón será despreciado."
+    },
+    {
+      "id": "proverbios12-nbla-09",
+      "number": 9,
+      "text": "Más vale el poco estimado que tiene siervo,\nQue el que se alaba y carece de pan."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-10a",
+          "order": 1,
+          "text": "El justo se preocupa de la vida de su ganado,"
+        },
+        {
+          "id": "proverbios12-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero las entrañas de los impíos son crueles."
+        }
+      ],
+      "id": "proverbios12-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "proverbios12-nbla-11",
+      "number": 11,
+      "text": "El que labra su tierra se saciará de pan,\nPero el que persigue lo vano carece de entendimiento."
+    },
+    {
+      "id": "proverbios12-nbla-12",
+      "number": 12,
+      "text": "El impío codicia el botín de los malos,\nPero la raíz de los justos da fruto."
+    },
+    {
+      "id": "proverbios12-nbla-13",
+      "number": 13,
+      "text": "En la transgresión de sus labios se enreda el malvado,\nPero el justo escapará del apuro."
+    },
+    {
+      "id": "proverbios12-nbla-14",
+      "number": 14,
+      "text": "Por el fruto de su boca cada uno se saciará de bien,\nY las obras de las manos del hombre volverán a él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-15a",
+          "order": 1,
+          "text": "El camino del necio es recto a sus propios ojos,"
+        },
+        {
+          "id": "proverbios12-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que escucha consejos es sabio."
+        }
+      ],
+      "id": "proverbios12-nbla-15",
+      "number": 15
+    },
+    {
+      "id": "proverbios12-nbla-16",
+      "number": 16,
+      "text": "El enojo del necio se conoce al instante,\nPero el prudente oculta la deshonra."
+    },
+    {
+      "id": "proverbios12-nbla-17",
+      "number": 17,
+      "text": "El que habla verdad declara lo que es justo,\nPero el testigo falso, falsedad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-18a",
+          "order": 1,
+          "text": "Hay quien habla sin tino como golpes de espada,"
+        },
+        {
+          "id": "proverbios12-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la lengua de los sabios sana."
+        }
+      ],
+      "id": "proverbios12-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "proverbios12-nbla-19",
+      "number": 19,
+      "text": "Los labios veraces permanecerán para siempre,\nPero la lengua mentirosa, solo por un momento."
+    },
+    {
+      "id": "proverbios12-nbla-20",
+      "number": 20,
+      "text": "Hay engaño en el corazón de los que traman el mal,\nPero gozo en los consejeros de paz."
+    },
+    {
+      "id": "proverbios12-nbla-21",
+      "number": 21,
+      "text": "Ningún daño sobreviene al justo,\nPero los impíos están llenos de pesares."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-22a",
+          "order": 1,
+          "text": "Los labios mentirosos son abominación al SEÑOR,"
+        },
+        {
+          "id": "proverbios12-nbla-22b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero los que obran fielmente son Su deleite."
+        }
+      ],
+      "id": "proverbios12-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "proverbios12-nbla-23",
+      "number": 23,
+      "text": "El hombre prudente oculta su conocimiento,\nPero el corazón de los necios proclama su necedad."
+    },
+    {
+      "id": "proverbios12-nbla-24",
+      "number": 24,
+      "text": "La mano de los diligentes gobernará,\nPero la indolencia será sujeta a trabajos forzados."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios12-nbla-25a",
+          "order": 1,
+          "text": "La ansiedad en el corazón del hombre lo deprime,"
+        },
+        {
+          "id": "proverbios12-nbla-25b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la buena palabra lo alegra."
+        }
+      ],
+      "id": "proverbios12-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "proverbios12-nbla-26",
+      "number": 26,
+      "text": "El justo es guía para su prójimo,\nPero el camino de los impíos los extravía."
+    },
+    {
+      "id": "proverbios12-nbla-27",
+      "number": 27,
+      "text": "El indolente no asa su presa,\nPero la posesión más preciosa del hombre es la diligencia."
+    },
+    {
+      "id": "proverbios12-nbla-28",
+      "number": 28,
+      "text": "En la senda de la justicia está la vida,\nY en su camino no hay muerte."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

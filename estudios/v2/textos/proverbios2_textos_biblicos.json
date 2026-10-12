@@ -1,0 +1,439 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría merece una búsqueda intencional. NBLA establece la comparación con plata y tesoros escondidos; MSG la vuelve visual con la imagen de un buscador de oro. La metáfora no enseña que la sabiduría se compra mediante esfuerzo, porque el mismo capítulo dirá que el SEÑOR la da. Enseña a valorar y perseguir el don de Dios con seriedad.",
+      "id": "proverbios2-joya-01",
+      "msg": {
+        "en": "\"Searching for it like a prospector panning for gold,\"",
+        "es": "\"si lo buscas como un buscador que rastrea oro,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-04"
+        }
+      ],
+      "order": 1,
+      "range": "1-5"
+    },
+    {
+      "explanation": "Dios es la fuente, no solo el tema, de la sabiduría. NBLA afirma directamente que el SEÑOR la da. MSG añade «gratuitamente», haciendo visible que la sabiduría no es una mercancía ganada por superioridad humana. Esa palabra es una expansión expresiva y debe leerse dentro del punto confirmado por NBLA: el origen del don está en Dios.",
+      "id": "proverbios2-joya-02",
+      "msg": {
+        "en": "\"GOD gives out Wisdom free,\"",
+        "es": "\"DIOS da Sabiduría gratuitamente,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios2-nbla-06a"
+          ],
+          "verseId": "proverbios2-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-8"
+    },
+    {
+      "explanation": "La sabiduría bíblica está destinada a volverse cercana e interior. NBLA fija la imagen decisiva: entra en el corazón. MSG personifica esa cercanía como una amistad. No se está presentando una entidad divina independiente, sino usando lenguaje poético para comunicar que la sabiduría deja de ser información externa y comienza a acompañar la vida desde dentro.",
+      "id": "proverbios2-joya-03",
+      "msg": {
+        "en": "\"Lady Wisdom will be your close friend,\"",
+        "es": "\"Dama Sabiduría será tu amiga cercana,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios2-nbla-10a"
+          ],
+          "verseId": "proverbios2-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-15"
+    },
+    {
+      "explanation": "La sabiduría protege enseñando a anticipar el peligro moral. NBLA habla de discreción que vela y entendimiento que protege. MSG vuelve esa función dinámica: el buen juicio explora el camino y el discernimiento vigila. No promete que una persona sabia nunca encuentre peligro; afirma que Dios forma criterio para reconocerlo y no entregarse ciegamente a él.",
+      "id": "proverbios2-joya-04",
+      "msg": {
+        "en": "\"Good Sense will scout ahead for danger, Insight will keep an eye out for you.\"",
+        "es": "\"El Buen Juicio irá delante de ti explorando el peligro; el Discernimiento estará pendiente de ti.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "9-15"
+    },
+    {
+      "explanation": "La seducción del pasaje es grave porque está unida a infidelidad de pacto. NBLA usa la palabra más fuerte y precisa: «pacto». MSG lo expresa pastoralmente como promesas hechas delante de Dios. La conclusión teológica debe seguir a NBLA: el problema no es simplemente una relación inconveniente, sino olvidar compromisos que se habían asumido ante Dios.",
+      "id": "proverbios2-joya-05",
+      "msg": {
+        "en": "\"never gave a second thought to her promises before God.\"",
+        "es": "\"y ni siquiera volvió a pensar en sus promesas delante de Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios2-nbla-17b"
+          ],
+          "verseId": "proverbios2-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-19"
+    },
+    {
+      "explanation": "La sabiduría culmina en caminar. NBLA llama a guardar las sendas de los justos; MSG las describe como caminos probados y verdaderos. Esa expresión ayuda a sentir la estabilidad de una senda que ha demostrado su fidelidad, pero no autoriza tradicionalismo ciego. El criterio sigue siendo la justicia y la integridad que el capítulo ha definido delante de Dios.",
+      "id": "proverbios2-joya-06",
+      "msg": {
+        "en": "\"keep your feet on the tried-and-true paths.\"",
+        "es": "\"mantén tus pies en los caminos probados y verdaderos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios2-nbla-20b"
+          ],
+          "verseId": "proverbios2-nbla-20"
+        }
+      ],
+      "order": 6,
+      "range": "20-22"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 2,
+    "studyId": "proverbios-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "proverbios2-msg-01",
+      "msg": {
+        "en": "Good friend, take to heart what I’m telling you;\ncollect my counsels and guard them with your life.\nTune your ears to the world of Wisdom;\nset your heart on a life of Understanding.\nThat’s right—if you make Insight your priority,\nand won’t take no for an answer,\nSearching for it like a prospector panning for gold,\nlike an adventurer on a treasure hunt,\nBelieve me, before you know it Fear-of-GOD will be yours;\nyou’ll have come upon the Knowledge of God.",
+        "es": "Buen amigo, toma en serio lo que te digo;\natesora mis consejos y guárdalos con tu vida.\nAfina tus oídos al mundo de la Sabiduría;\norienta tu corazón hacia una vida de Entendimiento.\nAsí es: si haces del Discernimiento tu prioridad\ny no aceptas un no por respuesta,\nsi lo buscas como un buscador que rastrea oro,\ncomo un aventurero en busca de un tesoro,\ncréeme: antes de que te des cuenta, el Temor-de-DIOS será tuyo;\nhabrás encontrado el Conocimiento de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "proverbios2-msg-02",
+      "msg": {
+        "en": "And here’s why: GOD gives out Wisdom free,\nis plainspoken in Knowledge and Understanding.\nHe’s a rich mine of Common Sense for those who live well,\na personal bodyguard to the candid and sincere.\nHe keeps his eye on all who live honestly,\nand pays special attention to his loyally committed ones.",
+        "es": "Y esta es la razón: DIOS da Sabiduría gratuitamente,\nhabla con claridad de Conocimiento y Entendimiento.\nEs una mina rica de Buen Juicio para quienes viven rectamente,\nun guardaespaldas personal para los francos y sinceros.\nMantiene sus ojos sobre todos los que viven con honestidad\ny presta atención especial a quienes le permanecen fieles."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "9-15",
+      "id": "proverbios2-msg-03",
+      "msg": {
+        "en": "So now you can pick out what’s true and fair,\nfind all the good trails!\nLady Wisdom will be your close friend,\nand Brother Knowledge your pleasant companion.\nGood Sense will scout ahead for danger,\nInsight will keep an eye out for you.\nThey’ll keep you from making wrong turns,\nor following the bad directions\nOf those who are lost themselves\nand can’t tell a trail from a tumbleweed,\nThese losers who make a game of evil\nand throw parties to celebrate perversity,\nTraveling paths that go nowhere,\nwandering in a maze of detours and dead ends.",
+        "es": "Entonces sabrás distinguir lo verdadero y lo justo,\n¡encontrar todos los buenos caminos!\nDama Sabiduría será tu amiga cercana,\ny Hermano Conocimiento, tu agradable compañero.\nEl Buen Juicio irá delante de ti explorando el peligro;\nel Discernimiento estará pendiente de ti.\nTe impedirán tomar caminos equivocados\no seguir las malas indicaciones\nde quienes ellos mismos están perdidos\ny no distinguen un sendero de un cardo que rueda con el viento,\nesos perdedores que hacen del mal un juego\ny montan fiestas para celebrar la perversidad,\nrecorriendo caminos que no llevan a ninguna parte,\nvagando por un laberinto de desvíos y callejones sin salida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-15"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "16-19",
+      "id": "proverbios2-msg-04",
+      "msg": {
+        "en": "Wise friends will rescue you from the Temptress—\nthat smooth-talking Seductress\nWho’s faithless to the husband she married years ago,\nnever gave a second thought to her promises before God.\nHer whole way of life is doomed;\nevery step she takes brings her closer to hell.\nNo one who joins her company ever comes back,\never sets foot on the path to real living.",
+        "es": "Los amigos sabios te rescatarán de la Tentadora—\nesa Seductora de palabras suaves,\nque ha sido infiel al esposo con quien se casó hace años\ny ni siquiera volvió a pensar en sus promesas delante de Dios.\nToda su manera de vivir está condenada;\ncada paso que da la acerca más al infierno.\nNadie que se una a su compañía regresa,\nnadie vuelve a pisar el camino de la vida verdadera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-19"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "20-22",
+      "id": "proverbios2-msg-05",
+      "msg": {
+        "en": "So—join the company of good men and women,\nkeep your feet on the tried-and-true paths.\nIt’s the men who walk straight who will settle this land,\nthe women with integrity who will last here.\nThe corrupt will lose their lives;\nthe dishonest will be gone for good.",
+        "es": "Así que únete a la compañía de hombres y mujeres buenos;\nmantén tus pies en los caminos probados y verdaderos.\nLos hombres que caminan rectamente son los que habitarán esta tierra;\nlas mujeres íntegras son las que permanecerán aquí.\nLos corruptos perderán la vida;\nlos deshonestos desaparecerán para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios2-nbla-22"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios2-nbla-01",
+      "number": 1,
+      "text": "Hijo mío, si recibes mis palabras\nY atesoras mis mandamientos dentro de ti,"
+    },
+    {
+      "id": "proverbios2-nbla-02",
+      "number": 2,
+      "text": "Da oído a la sabiduría,\nInclina tu corazón al entendimiento."
+    },
+    {
+      "id": "proverbios2-nbla-03",
+      "number": 3,
+      "text": "Porque si clamas a la inteligencia,\nAlza tu voz por entendimiento;"
+    },
+    {
+      "id": "proverbios2-nbla-04",
+      "number": 4,
+      "text": "Si la buscas como a la plata,\nY la procuras como a tesoros escondidos,"
+    },
+    {
+      "id": "proverbios2-nbla-05",
+      "number": 5,
+      "text": "Entonces entenderás el temor del SEÑOR\nY descubrirás el conocimiento de Dios."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios2-nbla-06a",
+          "order": 1,
+          "text": "Porque el SEÑOR da sabiduría,"
+        },
+        {
+          "id": "proverbios2-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "De Su boca vienen el conocimiento y la inteligencia."
+        }
+      ],
+      "id": "proverbios2-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "proverbios2-nbla-07",
+      "number": 7,
+      "text": "Él reserva la prosperidad para los rectos\nY es escudo para los que andan en integridad,"
+    },
+    {
+      "id": "proverbios2-nbla-08",
+      "number": 8,
+      "text": "Guarda las sendas del juicio,\nY preserva el camino de Sus santos."
+    },
+    {
+      "id": "proverbios2-nbla-09",
+      "number": 9,
+      "text": "Entonces discernirás justicia y juicio,\nEquidad y todo buen sendero."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios2-nbla-10a",
+          "order": 1,
+          "text": "Porque la sabiduría entrará en tu corazón,"
+        },
+        {
+          "id": "proverbios2-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el conocimiento será grato a tu alma;"
+        }
+      ],
+      "id": "proverbios2-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "proverbios2-nbla-11",
+      "number": 11,
+      "text": "La discreción velará sobre ti,\nEl entendimiento te protegerá,"
+    },
+    {
+      "id": "proverbios2-nbla-12",
+      "number": 12,
+      "text": "Para librarte de la senda del mal,\nDel hombre que habla cosas perversas;"
+    },
+    {
+      "id": "proverbios2-nbla-13",
+      "number": 13,
+      "text": "De los que dejan las sendas de rectitud,\nPara andar por los caminos tenebrosos;"
+    },
+    {
+      "id": "proverbios2-nbla-14",
+      "number": 14,
+      "text": "De los que se deleitan en hacer el mal\nY se regocijan en las perversidades del mal;"
+    },
+    {
+      "id": "proverbios2-nbla-15",
+      "number": 15,
+      "text": "Cuyas sendas son torcidas,\nY se extravían en sus senderos."
+    },
+    {
+      "id": "proverbios2-nbla-16",
+      "number": 16,
+      "text": "La discreción te librará de la mujer extraña,\nDe la desconocida que lisonjea con sus palabras,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios2-nbla-17a",
+          "order": 1,
+          "text": "La cual deja al compañero de su juventud,"
+        },
+        {
+          "id": "proverbios2-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y olvida el pacto de su Dios;"
+        }
+      ],
+      "id": "proverbios2-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios2-nbla-18",
+      "number": 18,
+      "text": "Porque su casa se inclina hacia la muerte,\nY sus senderos hacia los muertos."
+    },
+    {
+      "id": "proverbios2-nbla-19",
+      "number": 19,
+      "text": "Todos los que van a ella, no vuelven,\nNi alcanzan las sendas de la vida."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios2-nbla-20a",
+          "order": 1,
+          "text": "Por tanto, andarás en el camino de los buenos"
+        },
+        {
+          "id": "proverbios2-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y guardarás las sendas de los justos."
+        }
+      ],
+      "id": "proverbios2-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "proverbios2-nbla-21",
+      "number": 21,
+      "text": "Porque los rectos morarán en la tierra,\nY los íntegros permanecerán en ella;"
+    },
+    {
+      "id": "proverbios2-nbla-22",
+      "number": 22,
+      "text": "Pero los impíos serán cortados de la tierra,\nY los malvados serán desarraigados de ella."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

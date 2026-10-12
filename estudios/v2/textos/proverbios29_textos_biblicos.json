@@ -1,0 +1,754 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La justicia incluye atención concreta a la causa del pobre. NBLA fija el punto en la preocupación del justo por su causa; MSG lo vuelve empático al hablar de comprender qué significa ser pobre. La conclusión no es que solo quien haya vivido pobreza puede ser justo, sino que un corazón formado por sabiduría no permanece indiferente a la vulnerabilidad.",
+      "id": "proverbios29-joya-01",
+      "msg": {
+        "en": "\"The good-hearted understand what it’s like to be poor;\"",
+        "es": "\"Los de buen corazón entienden lo que significa ser pobre;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-07a"
+          ],
+          "verseId": "proverbios29-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "7"
+    },
+    {
+      "explanation": "El dominio propio distingue sabiduría de necedad. NBLA especifica la ira; MSG presenta la descarga sin filtro. El texto no manda reprimir toda emoción, sino rechazar la idea de que autenticidad significa expresar cada impulso sin gobierno interior.",
+      "id": "proverbios29-joya-02",
+      "msg": {
+        "en": "\"A fool lets it all hang out;\"",
+        "es": "\"Un necio lo deja salir todo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-11a"
+          ],
+          "verseId": "proverbios29-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "11"
+    },
+    {
+      "explanation": "La autoridad se fortalece mediante justicia para quienes tienen menos voz. NBLA habla de juzgar con verdad a los pobres; MSG hace visible la vulnerabilidad social de quienes no pueden imponerse. El versículo no promete estabilidad política automática, pero sí presenta la justicia como fundamento moral del liderazgo.",
+      "id": "proverbios29-joya-03",
+      "msg": {
+        "en": "\"when the voiceless poor are treated fairly.\"",
+        "es": "\"cuando los pobres sin voz reciben un trato justo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-14a"
+          ],
+          "verseId": "proverbios29-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "La bendición está ligada a responder a la revelación de Dios. MSG destaca atender lo que Él revela; NBLA precisa la respuesta como guardar la ley. Esto impide usar “visión” como simple lema de metas personales: el texto trata de vivir bajo la instrucción divina.",
+      "id": "proverbios29-joya-04",
+      "msg": {
+        "en": "\"when they attend to what he reveals,\"",
+        "es": "\"cuando presta atención a lo que Él revela,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-18b"
+          ],
+          "verseId": "proverbios29-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "18"
+    },
+    {
+      "explanation": "La humildad ocupa el camino contrario al orgullo que derriba. NBLA afirma que el humilde obtiene honor y MSG presenta la humildad como preparación. No es una técnica para conseguir prestigio, sino una descripción sapiencial de cómo Dios valora un espíritu no inflado por sí mismo.",
+      "id": "proverbios29-joya-05",
+      "msg": {
+        "en": "\"humility prepares you for honors.\"",
+        "es": "\"la humildad te prepara para recibir honores.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-23b"
+          ],
+          "verseId": "proverbios29-nbla-23"
+        }
+      ],
+      "order": 5,
+      "range": "23"
+    },
+    {
+      "explanation": "Confiar en Dios libera del lazo de vivir gobernado por opinión humana. NBLA habla de seguridad en el SEÑOR; MSG expresa la protección frente a esa esclavitud social. No promete ausencia de críticas ni consecuencias, sino una seguridad más profunda que permite obedecer a Dios sin vender la conciencia al aplauso.",
+      "id": "proverbios29-joya-06",
+      "msg": {
+        "en": "\"trusting in GOD protects you from that.\"",
+        "es": "\"confiar en DIOS te protege de eso.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios29-nbla-25b"
+          ],
+          "verseId": "proverbios29-nbla-25"
+        }
+      ],
+      "order": 6,
+      "range": "25"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 29,
+    "studyId": "proverbios-29"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios29-msg-01",
+      "msg": {
+        "en": "For people who hate discipline\nand only get more stubborn,\nThere’ll come a day when life tumbles in and they break,\nbut by then it’ll be too late to help them.",
+        "es": "La gente que odia la disciplina y solo se vuelve más obstinada verá llegar un día en que la vida se derrumbe sobre ella y quede quebrada; para entonces será demasiado tarde para ayudarla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios29-msg-02",
+      "msg": {
+        "en": "When good people run things, everyone is glad,\nbut when the ruler is bad, everyone groans.",
+        "es": "Cuando la gente buena dirige, todos se alegran; pero cuando el gobernante es malo, todos gimen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios29-msg-03",
+      "msg": {
+        "en": "If you love wisdom, you’ll delight your parents,\nbut you’ll destroy their trust if you run with whores.",
+        "es": "Si amas la sabiduría, alegrarás a tus padres; pero destruirás su confianza si andas con prostitutas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios29-msg-04",
+      "msg": {
+        "en": "A leader of good judgment gives stability;\nan exploiting leader leaves a trail of waste.",
+        "es": "Un líder de buen juicio da estabilidad; un líder explotador deja tras de sí un rastro de ruina."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios29-msg-05",
+      "msg": {
+        "en": "A flattering neighbor is up to no good;\nhe’s probably planning to take advantage of you.",
+        "es": "Un vecino adulador no trama nada bueno; probablemente planea aprovecharse de ti."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios29-msg-06",
+      "msg": {
+        "en": "Evil people fall into their own traps;\ngood people run the other way, glad to escape.",
+        "es": "La gente malvada cae en sus propias trampas; la gente buena corre en la otra dirección, feliz de haber escapado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios29-msg-07",
+      "msg": {
+        "en": "The good-hearted understand what it’s like to be poor;\nthe hardhearted haven’t the faintest idea.",
+        "es": "Los de buen corazón entienden lo que significa ser pobre; los de corazón duro no tienen la menor idea."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios29-msg-08",
+      "msg": {
+        "en": "A gang of cynics can upset a whole city;\na group of sages can calm everyone down.",
+        "es": "Una pandilla de cínicos puede alborotar toda una ciudad; un grupo de sabios puede calmar a todos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios29-msg-09",
+      "msg": {
+        "en": "A sage trying to work things out with a fool\ngets only scorn and sarcasm for his trouble.",
+        "es": "Un sabio que intenta resolver las cosas con un necio solo recibe desprecio y sarcasmo por su esfuerzo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios29-msg-10",
+      "msg": {
+        "en": "Murderers hate honest people;\nmoral folks encourage them.",
+        "es": "Los asesinos odian a la gente honesta; la gente moral anima a los honestos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios29-msg-11",
+      "msg": {
+        "en": "A fool lets it all hang out;\na sage quietly mulls it over.",
+        "es": "Un necio lo deja salir todo; un sabio lo medita en silencio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios29-msg-12",
+      "msg": {
+        "en": "When a leader listens to malicious gossip,\nall the workers get infected with evil.",
+        "es": "Cuando un líder escucha chismes maliciosos, todos sus trabajadores se contagian del mal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios29-msg-13",
+      "msg": {
+        "en": "The poor and their abusers have at least something in common:\nthey can both see— their sight, GOD ‘s gift!",
+        "es": "Los pobres y quienes abusan de ellos tienen al menos algo en común: ambos pueden ver; ¡la vista es un regalo de DIOS!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios29-msg-14",
+      "msg": {
+        "en": "Leadership gains authority and respect\nwhen the voiceless poor are treated fairly.",
+        "es": "El liderazgo gana autoridad y respeto cuando los pobres sin voz reciben un trato justo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios29-msg-15",
+      "msg": {
+        "en": "Wise discipline imparts wisdom;\nspoiled adolescents embarrass their parents.",
+        "es": "La disciplina sabia imparte sabiduría; los adolescentes consentidos avergüenzan a sus padres."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios29-msg-16",
+      "msg": {
+        "en": "When degenerates take charge, crime runs wild,\nbut the righteous will eventually observe their collapse.",
+        "es": "Cuando los degenerados toman el control, el crimen se desborda; pero los justos terminarán viendo su caída."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios29-msg-17",
+      "msg": {
+        "en": "Discipline your children; you’ll be glad you did—\nthey’ll turn out delightful to live with.",
+        "es": "Disciplina a tus hijos; te alegrarás de haberlo hecho: terminarán siendo agradables para convivir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios29-msg-18",
+      "msg": {
+        "en": "If people can’t see what God is doing,\nthey stumble all over themselves;\nBut when they attend to what he reveals,\nthey are most blessed.",
+        "es": "Si la gente no puede ver lo que Dios está haciendo, tropieza consigo misma por todas partes; pero cuando presta atención a lo que Él revela, es muy bendecida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios29-msg-19",
+      "msg": {
+        "en": "It takes more than talk to keep workers in line;\nmere words go in one ear and out the other.",
+        "es": "Hace falta más que hablar para mantener a los trabajadores en orden; las meras palabras les entran por un oído y les salen por el otro."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios29-msg-20",
+      "msg": {
+        "en": "Observe the people who always talk before they think—\neven simpletons are better off than they are.",
+        "es": "Observa a la gente que siempre habla antes de pensar: hasta los ingenuos están mejor que ella."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios29-msg-21",
+      "msg": {
+        "en": "If you let people treat you like a doormat,\nyou’ll be quite forgotten in the end.",
+        "es": "Si permites que la gente te trate como felpudo, al final quedarás completamente olvidado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios29-msg-22",
+      "msg": {
+        "en": "Angry people stir up a lot of discord;\nthe intemperate stir up trouble.",
+        "es": "La gente iracunda provoca mucha discordia; los desenfrenados provocan problemas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios29-msg-23",
+      "msg": {
+        "en": "Pride lands you flat on your face;\nhumility prepares you for honors.",
+        "es": "El orgullo te hace caer de bruces; la humildad te prepara para recibir honores."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios29-msg-24",
+      "msg": {
+        "en": "Befriend an outlaw\nand become an enemy to yourself.\nWhen the victims cry out,\nyou’ll be included in their curses\nif you’re a coward to their cause in court.",
+        "es": "Hazte amigo de un delincuente y te vuelves enemigo de ti mismo. Cuando las víctimas clamen, quedarás incluido en sus maldiciones si te acobardas y no defiendes su causa en el tribunal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios29-msg-25",
+      "msg": {
+        "en": "The fear of human opinion disables;\ntrusting in GOD protects you from that.",
+        "es": "El temor a la opinión humana incapacita; confiar en DIOS te protege de eso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios29-msg-26",
+      "msg": {
+        "en": "Everyone tries to get help from the leader,\nbut only GOD will give us justice.",
+        "es": "Todos intentan conseguir ayuda del líder, pero solo DIOS nos dará justicia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios29-msg-27",
+      "msg": {
+        "en": "Good people can’t stand the sight of deliberate evil;\nthe wicked can’t stand the sight of well-chosen goodness.",
+        "es": "La gente buena no soporta ver el mal deliberado; los malvados no soportan ver la bondad elegida deliberadamente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios29-nbla-27"
+        }
+      ],
+      "order": 27
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios29-nbla-01",
+      "number": 1,
+      "text": "El hombre que después de mucha reprensión se pone terco,\nDe repente será quebrantado sin remedio."
+    },
+    {
+      "id": "proverbios29-nbla-02",
+      "number": 2,
+      "text": "Cuando los justos aumentan, el pueblo se alegra;\nPero cuando el impío gobierna, el pueblo gime."
+    },
+    {
+      "id": "proverbios29-nbla-03",
+      "number": 3,
+      "text": "El que ama la sabiduría alegra a su padre,\nPero el que anda con rameras malgasta su fortuna."
+    },
+    {
+      "id": "proverbios29-nbla-04",
+      "number": 4,
+      "text": "El rey con la justicia afianza la tierra,\nPero el hombre que acepta soborno la destruye."
+    },
+    {
+      "id": "proverbios29-nbla-05",
+      "number": 5,
+      "text": "El hombre que adula a su prójimo\nTiende una red ante sus pasos."
+    },
+    {
+      "id": "proverbios29-nbla-06",
+      "number": 6,
+      "text": "El hombre malo es atrapado en la transgresión,\nPero el justo canta y se regocija."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-07a",
+          "order": 1,
+          "text": "El justo se preocupa por la causa de los pobres,"
+        },
+        {
+          "id": "proverbios29-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el impío no entiende tal preocupación."
+        }
+      ],
+      "id": "proverbios29-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "proverbios29-nbla-08",
+      "number": 8,
+      "text": "Los provocadores agitan la ciudad,\nPero los sabios alejan la ira."
+    },
+    {
+      "id": "proverbios29-nbla-09",
+      "number": 9,
+      "text": "Cuando un sabio tiene controversia con un necio,\nEste se enoja o se ríe, y no hay descanso."
+    },
+    {
+      "id": "proverbios29-nbla-10",
+      "number": 10,
+      "text": "Los hombres sanguinarios odian al intachable,\nPero los rectos se preocupan por su alma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-11a",
+          "order": 1,
+          "text": "El necio da rienda suelta a su ira,"
+        },
+        {
+          "id": "proverbios29-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el sabio la reprime."
+        }
+      ],
+      "id": "proverbios29-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "proverbios29-nbla-12",
+      "number": 12,
+      "text": "Si un gobernante presta atención a palabras mentirosas,\nTodos sus servidores se vuelven impíos."
+    },
+    {
+      "id": "proverbios29-nbla-13",
+      "number": 13,
+      "text": "El pobre y el opresor tienen esto en común:\nEl SEÑOR alumbra a los ojos de ambos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-14a",
+          "order": 1,
+          "text": "El rey que juzga con verdad a los pobres"
+        },
+        {
+          "id": "proverbios29-nbla-14b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Afianzará su trono para siempre."
+        }
+      ],
+      "id": "proverbios29-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "proverbios29-nbla-15",
+      "number": 15,
+      "text": "La vara y la reprensión dan sabiduría,\nPero el niño consentido avergüenza a su madre."
+    },
+    {
+      "id": "proverbios29-nbla-16",
+      "number": 16,
+      "text": "Cuando aumentan los impíos, aumenta la transgresión,\nPero los justos verán su caída."
+    },
+    {
+      "id": "proverbios29-nbla-17",
+      "number": 17,
+      "text": "Disciplina a tu hijo y te dará descanso,\nY dará alegría a tu alma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-18a",
+          "order": 1,
+          "text": "Donde no hay visión, el pueblo se desenfrena,"
+        },
+        {
+          "id": "proverbios29-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero bienaventurado es el que guarda la ley."
+        }
+      ],
+      "id": "proverbios29-nbla-18",
+      "number": 18
+    },
+    {
+      "id": "proverbios29-nbla-19",
+      "number": 19,
+      "text": "Un siervo no aprende solo con palabras;\nAunque entienda, no responderá."
+    },
+    {
+      "id": "proverbios29-nbla-20",
+      "number": 20,
+      "text": "¿Ves a un hombre precipitado en sus palabras?\nMás esperanza hay para el necio que para él."
+    },
+    {
+      "id": "proverbios29-nbla-21",
+      "number": 21,
+      "text": "El que mima a su siervo desde la niñez,\nAl final lo tendrá por hijo."
+    },
+    {
+      "id": "proverbios29-nbla-22",
+      "number": 22,
+      "text": "El hombre lleno de ira provoca rencillas,\nY el hombre violento abunda en transgresiones."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-23a",
+          "order": 1,
+          "text": "El orgullo del hombre lo humillará,"
+        },
+        {
+          "id": "proverbios29-nbla-23b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el de espíritu humilde obtendrá honores."
+        }
+      ],
+      "id": "proverbios29-nbla-23",
+      "number": 23
+    },
+    {
+      "id": "proverbios29-nbla-24",
+      "number": 24,
+      "text": "El que se asocia con un ladrón aborrece su propia vida;\nOye el juramento, pero no dice nada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios29-nbla-25a",
+          "order": 1,
+          "text": "El temor al hombre es un lazo,"
+        },
+        {
+          "id": "proverbios29-nbla-25b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que confía en el SEÑOR estará seguro."
+        }
+      ],
+      "id": "proverbios29-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "proverbios29-nbla-26",
+      "number": 26,
+      "text": "Muchos buscan el favor del gobernante,\nPero del SEÑOR viene la justicia para el hombre."
+    },
+    {
+      "id": "proverbios29-nbla-27",
+      "number": 27,
+      "text": "Abominación para los justos es el malvado,\nY abominación para el impío es el recto en su camino."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

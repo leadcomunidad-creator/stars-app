@@ -1,0 +1,394 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría abre la mano en medio de un futuro incierto. NBLA conserva la imagen sapiencial del pan enviado sobre las aguas; MSG la interpreta pastoralmente como generosidad y caridad. La expansión no debe transformarse en una fórmula de inversión espiritual que garantice ganancias, sino en una invitación a no vivir encerrado en la acumulación.",
+      "id": "eclesiastes11-joya-01",
+      "msg": {
+        "en": "\"Be generous: Invest in acts of charity.\"",
+        "es": "\"Sé generoso: invierte en actos de caridad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-01a"
+          ],
+          "verseId": "eclesiastes11-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La vida sabia distribuye en vez de concentrarlo todo en sí misma. NBLA fija el acto de repartir; MSG expresa su dirección relacional como bendición. El fundamento del consejo es la incertidumbre del futuro, no la expectativa de controlar a Dios mediante generosidad calculada.",
+      "id": "eclesiastes11-joya-02",
+      "msg": {
+        "en": "\"Be a blessing to others.\"",
+        "es": "\"Sé una bendición para otros.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-02a"
+          ],
+          "verseId": "eclesiastes11-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La prudencia puede deformarse en parálisis cuando exige condiciones perfectas. NBLA muestra al observador que nunca siembra; MSG vuelve directa la llamada a actuar. El texto no desprecia planificación, sino la espera interminable que usa la incertidumbre como excusa para evitar responsabilidad.",
+      "id": "eclesiastes11-joya-03",
+      "msg": {
+        "en": "\"Don’t sit there watching the wind. Do your own work.\"",
+        "es": "\"No te quedes sentado mirando el viento. Haz tu propio trabajo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-04a"
+          ],
+          "verseId": "eclesiastes11-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "3-4"
+    },
+    {
+      "explanation": "Dios actúa más allá de la comprensión exhaustiva humana. NBLA establece el límite del conocimiento frente a Su obra y MSG lo presenta como misterio. Esto no autoriza a llamar «misterio» a contradicciones inventadas o abusos humanos; sí obliga a reconocer que la criatura no posee una explicación total de la providencia divina.",
+      "id": "eclesiastes11-joya-04",
+      "msg": {
+        "en": "\"the mystery at work in all that God does.\"",
+        "es": "\"el misterio que obra en todo lo que Dios hace.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-05b"
+          ],
+          "verseId": "eclesiastes11-nbla-05"
+        }
+      ],
+      "order": 4,
+      "range": "5"
+    },
+    {
+      "explanation": "La fidelidad no incluye garantía de éxito visible. Ambas versiones subrayan que el trabajador no controla qué esfuerzo prosperará. La verdad libera tanto de la arrogancia de atribuirnos todo resultado favorable como de la desesperación cuando un trabajo fiel no produce inmediatamente lo esperado.",
+      "id": "eclesiastes11-joya-05",
+      "msg": {
+        "en": "\"how your work will turn out in the end.\"",
+        "es": "\"cómo terminará resultando tu trabajo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-06b"
+          ],
+          "verseId": "eclesiastes11-nbla-06"
+        }
+      ],
+      "order": 5,
+      "range": "6"
+    },
+    {
+      "explanation": "El gozo y la libertad permanecen delante de Dios. NBLA fija explícitamente el juicio; MSG expresa la responsabilidad personal que ese juicio implica. La juventud no debe vivirse bajo culpa constante, pero tampoco como territorio sin Señor: el placer es verdaderamente libre cuando puede ser recibido sin esconderse de Dios.",
+      "id": "eclesiastes11-joya-06",
+      "msg": {
+        "en": "\"You have to answer to God for every last bit of it.\"",
+        "es": "\"tendrás que responder ante Dios por cada cosa.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes11-nbla-09b"
+          ],
+          "verseId": "eclesiastes11-nbla-09"
+        }
+      ],
+      "order": 6,
+      "range": "9"
+    }
+  ],
+  "meta": {
+    "book": "ECLESIASTÉS",
+    "bookId": "eclesiastes",
+    "chapter": 11,
+    "studyId": "eclesiastes-11"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "eclesiastes11-msg-01",
+      "msg": {
+        "en": "Be generous: Invest in acts of charity.\nCharity yields high returns.",
+        "es": "Sé generoso: invierte en actos de caridad.\nLa caridad rinde mucho."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "eclesiastes11-msg-02",
+      "msg": {
+        "en": "Don’t hoard your goods; spread them around.\nBe a blessing to others. This could be your last night.",
+        "es": "No acumules tus bienes; repártelos.\nSé una bendición para otros. Esta podría ser tu última noche."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "eclesiastes11-msg-03",
+      "msg": {
+        "en": "When the clouds are full of water, it rains.\nWhen the wind blows down a tree, it lies where it falls.\nDon’t sit there watching the wind. Do your own work.\nDon’t stare at the clouds. Get on with your life.",
+        "es": "Cuando las nubes están llenas de agua, llueve.\nCuando el viento derriba un árbol, allí queda donde cayó.\nNo te quedes sentado mirando el viento. Haz tu propio trabajo.\nNo te quedes mirando las nubes. Sigue adelante con tu vida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5",
+      "id": "eclesiastes11-msg-04",
+      "msg": {
+        "en": "Just as you’ll never understand\nthe mystery of life forming in a pregnant woman,\nSo you’ll never understand\nthe mystery at work in all that God does.",
+        "es": "Así como nunca comprenderás\nel misterio de la vida formándose en una mujer embarazada,\ntampoco comprenderás\nel misterio que obra en todo lo que Dios hace."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "eclesiastes11-msg-05",
+      "msg": {
+        "en": "Go to work in the morning\nand stick to it until evening without watching the clock.\nYou never know from moment to moment\nhow your work will turn out in the end.",
+        "es": "Ponte a trabajar por la mañana\ny sigue hasta la tarde sin estar mirando el reloj.\nNunca sabes de un momento a otro\ncómo terminará resultando tu trabajo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "eclesiastes11-msg-06",
+      "msg": {
+        "en": "Oh, how sweet the light of day,\nAnd how wonderful to live in the sunshine!\nEven if you live a long time, don’t take a single day for granted.\nTake delight in each light-filled hour,\nRemembering that there will also be many dark days\nAnd that most of what comes your way is smoke.",
+        "es": "¡Qué dulce es la luz del día\ny qué maravilloso vivir bajo el sol!\nAunque vivas muchos años, no des por sentado ni un solo día.\nDisfruta cada hora llena de luz,\nrecordando que también habrá muchos días oscuros\ny que la mayor parte de lo que llegue será humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-08"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "9",
+      "id": "eclesiastes11-msg-07",
+      "msg": {
+        "en": "You who are young, make the most of your youth.\nRelish your youthful vigor.\nFollow the impulses of your heart.\nIf something looks good to you, pursue it.\nBut know also that not just anything goes;\nYou have to answer to God for every last bit of it.",
+        "es": "Tú que eres joven, aprovecha al máximo tu juventud.\nDisfruta el vigor de esos años.\nSigue los impulsos de tu corazón.\nSi algo te parece bueno, ve tras ello.\nPero recuerda que no todo está permitido:\ntendrás que responder ante Dios por cada cosa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10",
+      "id": "eclesiastes11-msg-08",
+      "msg": {
+        "en": "Live footloose and fancy-free—\nYou won’t be young forever.\nYouth lasts about as long as smoke.",
+        "es": "Vive ligero, libre de preocupaciones;\nno serás joven para siempre.\nLa juventud dura casi lo mismo que el humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes11-nbla-10"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-01a",
+          "order": 1,
+          "text": "Echa tu pan sobre las aguas"
+        },
+        {
+          "id": "eclesiastes11-nbla-01b",
+          "order": 2,
+          "text": ",\nQue después de muchos días lo hallarás."
+        }
+      ],
+      "id": "eclesiastes11-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-02a",
+          "order": 1,
+          "text": "Reparte tu porción con siete, o aun con ocho"
+        },
+        {
+          "id": "eclesiastes11-nbla-02b",
+          "order": 2,
+          "text": ",\nPorque no sabes qué mal puede venir sobre la tierra."
+        }
+      ],
+      "id": "eclesiastes11-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "eclesiastes11-nbla-03",
+      "number": 3,
+      "text": "Si las nubes están llenas,\nDerraman lluvia sobre la tierra;\nY caiga el árbol al sur o al norte,\nDonde cae el árbol allí se queda."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-04a",
+          "order": 1,
+          "text": "El que observa el viento no siembra"
+        },
+        {
+          "id": "eclesiastes11-nbla-04b",
+          "order": 2,
+          "text": ",\nY el que mira las nubes no siega."
+        }
+      ],
+      "id": "eclesiastes11-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-05a",
+          "order": 1,
+          "text": "Como no sabes cuál es el camino del viento,\nO cómo se forman los huesos en el vientre de la mujer encinta,"
+        },
+        {
+          "id": "eclesiastes11-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Tampoco conoces la obra de Dios que hace todas las cosas."
+        }
+      ],
+      "id": "eclesiastes11-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-06a",
+          "order": 1,
+          "text": "De mañana siembra tu semilla\nY a la tarde no des reposo a tu mano,"
+        },
+        {
+          "id": "eclesiastes11-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque no sabes si esto o aquello prosperará"
+        },
+        {
+          "id": "eclesiastes11-nbla-06c",
+          "order": 3,
+          "text": ",\nO si ambas cosas serán igualmente buenas."
+        }
+      ],
+      "id": "eclesiastes11-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "eclesiastes11-nbla-07",
+      "number": 7,
+      "text": "Agradable es la luz,\nY bueno para los ojos ver el sol."
+    },
+    {
+      "id": "eclesiastes11-nbla-08",
+      "number": 8,
+      "text": "Ciertamente, si un hombre vive muchos años,\nQue en todos ellos se regocije,\nPero recuerde que los días de tinieblas serán muchos.\nTodo lo por venir es vanidad."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes11-nbla-09a",
+          "order": 1,
+          "text": "Alégrate, joven, en tu juventud,\nY tome placer tu corazón en los días de tu juventud.\nSigue los impulsos de tu corazón y el gusto de tus ojos;\nPero debes saber que por todas estas cosas,"
+        },
+        {
+          "id": "eclesiastes11-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios te traerá a juicio."
+        }
+      ],
+      "id": "eclesiastes11-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "eclesiastes11-nbla-10",
+      "number": 10,
+      "text": "Por tanto, aparta de tu corazón la congoja\nY aleja el sufrimiento de tu cuerpo,\nPorque la juventud y la primavera de la vida son vanidad."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

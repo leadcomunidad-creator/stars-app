@@ -1,0 +1,463 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La cercanía es descrita como un lugar de descanso y deleite. NBLA fija la imagen de sentarse a una sombra placentera; MSG hace visible el deseo personal de permanecer allí. La metáfora comunica disfrute y seguridad, no dependencia absoluta de otra persona como fuente última de vida.",
+      "id": "cantares2-joya-01",
+      "msg": {
+        "en": "\"All I want is to sit in his shade,\"",
+        "es": "\"Todo lo que quiero es sentarme a su sombra,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-03b"
+          ],
+          "verseId": "cantares2-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El amor no debe ser manipulado para adelantarse a su tiempo. NBLA conserva la prohibición de levantar o despertar; MSG la vuelve una advertencia directa contra agitar lo que todavía no está listo. La aplicación responsable no inventa una edad, plazo o fórmula universal, pero sí confronta la presión y la prisa.",
+      "id": "cantares2-joya-02",
+      "msg": {
+        "en": "\"Don’t excite love, don’t stir it up,\"",
+        "es": "\"No exciten el amor, no lo despierten,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-07b"
+          ],
+          "verseId": "cantares2-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "7"
+    },
+    {
+      "explanation": "Después del invierno llega una invitación concreta a responder a una estación nueva. NBLA fija la llamada a levantarse y venir; MSG la integra en una escena donde toda la creación parece anunciar cambio. La teología debe quedarse con el movimiento del tiempo y la invitación, no con detalles botánicos exclusivos de la paráfrasis.",
+      "id": "cantares2-joya-03",
+      "msg": {
+        "en": "\"Get up, my dear friend,\"",
+        "es": "\"Levántate, mi querida amiga,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-10b"
+          ],
+          "verseId": "cantares2-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "10-14"
+    },
+    {
+      "explanation": "El amor que florece también necesita cuidado. NBLA conserva la orden de atrapar las zorras que dañan las viñas; MSG hace explícita la necesidad de protección. El texto no define a qué problema específico corresponde cada zorro, así que la imagen debe usarse como sabiduría de vigilancia, no como código para acusar a una persona.",
+      "id": "cantares2-joya-04",
+      "msg": {
+        "en": "\"Then you must protect me from the foxes,\"",
+        "es": "\"Entonces debes protegerme de las zorras,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-15a"
+          ],
+          "verseId": "cantares2-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "15"
+    },
+    {
+      "explanation": "La pertenencia es formulada de manera mutua. NBLA y MSG coinciden casi palabra por palabra en el núcleo. Esa reciprocidad protege el sentido: el vínculo no legitima posesión unilateral, sino una relación en la que ambos pueden hablar desde la seguridad de ser recibidos por el otro.",
+      "id": "cantares2-joya-05",
+      "msg": {
+        "en": "\"My lover is mine, and I am his.\"",
+        "es": "\"Mi amado es mío y yo soy suya.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-16a"
+          ],
+          "verseId": "cantares2-nbla-16"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "CANTARES",
+    "bookId": "cantares",
+    "chapter": 2,
+    "studyId": "cantares-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "cantares2-msg-01",
+      "msg": {
+        "en": "I’m just a wildflower picked from the plains of Sharon,\na lotus blossom from the valley pools.",
+        "es": "Solo soy una flor silvestre recogida en las llanuras de Sarón,\nuna flor de loto de los estanques del valle."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "cantares2-msg-02",
+      "msg": {
+        "en": "A lotus blossoming in a swamp of weeds—\nthat’s my dear friend among the girls in the village.",
+        "es": "Una flor de loto que florece en un pantano lleno de maleza:\nasí es mi querida amiga entre las muchachas del pueblo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "cantares2-msg-03",
+      "msg": {
+        "en": "As an apricot tree stands out in the forest,\nmy lover stands above the young men in town.\nAll I want is to sit in his shade,\nto taste and savor his delicious love.\nHe took me home with him for a festive meal,\nbut his eyes feasted on me!",
+        "es": "Como un albaricoquero se destaca en el bosque,\nmi amado sobresale entre los jóvenes del pueblo.\nTodo lo que quiero es sentarme a su sombra,\nprobar y saborear su delicioso amor.\nMe llevó a casa con él para una comida festiva,\n¡pero sus ojos se dieron un banquete conmigo!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-04"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "cantares2-msg-04",
+      "msg": {
+        "en": "Oh! Give me something refreshing to eat—and quickly!\nApricots, raisins—anything. I’m about to faint with love!\nHis left hand cradles my head,\nand his right arm encircles my waist!",
+        "es": "¡Oh! ¡Denme algo refrescante para comer, y rápido!\nAlbaricoques, pasas, lo que sea. ¡Estoy a punto de desmayarme de amor!\nSu mano izquierda acuna mi cabeza,\ny su brazo derecho rodea mi cintura."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-06"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "7",
+      "id": "cantares2-msg-05",
+      "msg": {
+        "en": "Oh, let me warn you, sisters in Jerusalem,\nby the gazelles, yes, by all the wild deer:\nDon’t excite love, don’t stir it up,\nuntil the time is ripe—and you’re ready.",
+        "es": "Oh, permítanme advertirles, hermanas de Jerusalén,\npor las gacelas, sí, por todos los ciervos salvajes:\nNo exciten el amor, no lo despierten,\nhasta que llegue el momento oportuno y estén listas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-07"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "cantares2-msg-06",
+      "msg": {
+        "en": "Look! Listen! There’s my lover!\nDo you see him coming?\nVaulting the mountains,\nleaping the hills.\nMy lover is like a gazelle, graceful;\nlike a young stag, virile.\nLook at him there, on tiptoe at the gate,\nall ears, all eyes—ready!\nMy lover has arrived\nand he’s speaking to me!",
+        "es": "¡Miren! ¡Escuchen! ¡Ahí está mi amado!\n¿Lo ven venir?\nSaltando sobre las montañas,\nbrincando por las colinas.\nMi amado es como una gacela, elegante;\ncomo un joven ciervo, vigoroso.\nMírenlo allí, de puntillas en la entrada,\ntodo oídos, todo ojos, ¡listo!\nMi amado ha llegado\ny me está hablando."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-09"
+        },
+        {
+          "clauseIds": [
+            "cantares2-nbla-10a"
+          ],
+          "verseId": "cantares2-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "10-14",
+      "id": "cantares2-msg-07",
+      "msg": {
+        "en": "Get up, my dear friend,\nfair and beautiful lover—come to me!\nLook around you: Winter is over;\nthe winter rains are over, gone!\nSpring flowers are in blossom all over.\nThe whole world’s a choir—and singing!\nSpring warblers are filling the forest\nwith sweet arpeggios.\nLilacs are exuberantly purple and perfumed,\nand cherry trees fragrant with blossoms.\nOh, get up, dear friend,\nmy fair and beautiful lover—come to me!\nCome, my shy and modest dove—\nleave your seclusion, come out in the open.\nLet me see your face,\nlet me hear your voice.\nFor your voice is soothing\nand your face is ravishing.",
+        "es": "Levántate, mi querida amiga,\namada hermosa, ¡ven conmigo!\nMira a tu alrededor: el invierno terminó;\nlas lluvias del invierno acabaron, se fueron.\nLas flores de primavera están brotando por todas partes.\nEl mundo entero es un coro, ¡y está cantando!\nLas aves de primavera llenan el bosque\ncon dulces arpegios.\nLas lilas resplandecen, intensamente violetas y perfumadas,\ny los cerezos fragantes están cubiertos de flores.\nOh, levántate, querida amiga,\nmi amada hermosa, ¡ven conmigo!\nVen, mi paloma tímida y modesta:\nsal de tu escondite, ven al descubierto.\nDéjame ver tu rostro,\ndéjame oír tu voz.\nPorque tu voz es tranquilizadora\ny tu rostro es cautivador."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "cantares2-nbla-10b",
+            "cantares2-nbla-10c"
+          ],
+          "verseId": "cantares2-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-14"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "15",
+      "id": "cantares2-msg-08",
+      "msg": {
+        "en": "Then you must protect me from the foxes,\nfoxes on the prowl,\nFoxes who would like nothing better\nthan to get into our flowering garden.",
+        "es": "Entonces debes protegerme de las zorras,\nde las zorras al acecho,\nzorras que nada desean más\nque meterse en nuestro jardín florecido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "cantares2-msg-09",
+      "msg": {
+        "en": "My lover is mine, and I am his.\nNightly he strolls in our garden,\nDelighting in the flowers\nuntil dawn breathes its light and night slips away.\nTurn to me, dear lover.\nCome like a gazelle.\nLeap like a wild stag\non delectable mountains!",
+        "es": "Mi amado es mío y yo soy suya.\nCada noche pasea por nuestro jardín,\ndeleitándose entre las flores\nhasta que el amanecer respira su luz y la noche se desvanece.\nVuélvete hacia mí, querido amado.\nVen como una gacela.\nSalta como un ciervo salvaje\nsobre montañas deleitables."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "cantares2-nbla-17"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "cantares2-nbla-01",
+      "number": 1,
+      "text": "«Yo soy la rosa de Sarón,\nEl lirio de los valles»."
+    },
+    {
+      "id": "cantares2-nbla-02",
+      "number": 2,
+      "text": "«Como el lirio entre los espinos,\nAsí es mi amada entre las doncellas»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares2-nbla-03a",
+          "order": 1,
+          "text": "«Como el manzano entre los árboles del bosque,\nAsí es mi amado entre los jóvenes."
+        },
+        {
+          "id": "cantares2-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "A su sombra placentera me he sentado,"
+        },
+        {
+          "id": "cantares2-nbla-03c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y su fruto es dulce a mi paladar."
+        }
+      ],
+      "id": "cantares2-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "cantares2-nbla-04",
+      "number": 4,
+      "text": "Él me ha traído a la sala del banquete,\nY su estandarte sobre mí es el amor."
+    },
+    {
+      "id": "cantares2-nbla-05",
+      "number": 5,
+      "text": "Susténtenme con tortas de pasas,\nReanímenme con manzanas,\nPorque estoy enferma de amor."
+    },
+    {
+      "id": "cantares2-nbla-06",
+      "number": 6,
+      "text": "Que su izquierda esté bajo mi cabeza\nY su derecha me abrace»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares2-nbla-07a",
+          "order": 1,
+          "text": "«Yo les ruego, oh hijas de Jerusalén,\nPor las gacelas o por las ciervas del campo,"
+        },
+        {
+          "id": "cantares2-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Que no levanten ni despierten a mi amor"
+        },
+        {
+          "id": "cantares2-nbla-07c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Hasta que quiera»."
+        }
+      ],
+      "id": "cantares2-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "cantares2-nbla-08",
+      "number": 8,
+      "text": "«¡Una voz! ¡Mi amado!\n¡Miren, él viene,\nSaltando por los montes,\nBrincando por los collados!"
+    },
+    {
+      "id": "cantares2-nbla-09",
+      "number": 9,
+      "text": "Mi amado es semejante a una gacela o a un cervatillo.\n¡Miren, se detiene detrás de nuestro muro,\nMirando por las ventanas,\nEspiando por las celosías!"
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares2-nbla-10a",
+          "order": 1,
+          "text": "»Mi amado habló, y me dijo:"
+        },
+        {
+          "id": "cantares2-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "“Levántate, amada mía, hermosa mía,"
+        },
+        {
+          "id": "cantares2-nbla-10c",
+          "order": 3,
+          "separatorBefore": "\n",
+          "text": "Y ven conmigo."
+        }
+      ],
+      "id": "cantares2-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "cantares2-nbla-11",
+      "number": 11,
+      "text": "Pues mira, ha pasado el invierno,\nHa cesado la lluvia y se ha ido."
+    },
+    {
+      "id": "cantares2-nbla-12",
+      "number": 12,
+      "text": "Han aparecido las flores en la tierra;\nHa llegado el tiempo de podar las vides,\nY se oye la voz de la tórtola en nuestra tierra."
+    },
+    {
+      "id": "cantares2-nbla-13",
+      "number": 13,
+      "text": "La higuera ha madurado sus higos,\nY las vides en flor han esparcido su fragancia.\n¡Levántate amada mía, hermosa mía,\nY ven conmigo!”»."
+    },
+    {
+      "id": "cantares2-nbla-14",
+      "number": 14,
+      "text": "«Paloma mía, en las grietas de la peña,\nEn lo secreto de la senda escarpada,\nDéjame ver tu semblante,\nDéjame oír tu voz;\nPorque tu voz es dulce,\nY precioso tu semblante»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares2-nbla-15a",
+          "order": 1,
+          "text": "«Agarren las zorras,"
+        },
+        {
+          "id": "cantares2-nbla-15b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Las zorras pequeñas que arruinan las viñas,\nPues nuestras viñas están en flor»."
+        }
+      ],
+      "id": "cantares2-nbla-15",
+      "number": 15
+    },
+    {
+      "clauses": [
+        {
+          "id": "cantares2-nbla-16a",
+          "order": 1,
+          "text": "«Mi amado es mío, y yo soy suya;"
+        },
+        {
+          "id": "cantares2-nbla-16b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "él apacienta su rebaño entre los lirios."
+        }
+      ],
+      "id": "cantares2-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "cantares2-nbla-17",
+      "number": 17,
+      "text": "Hasta que sople la brisa del día y huyan las sombras,\nVuelve, amado mío, y sé semejante a una gacela\nO a un cervatillo sobre los montes de Beter»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

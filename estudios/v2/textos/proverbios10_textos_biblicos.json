@@ -1,0 +1,854 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La integridad produce una forma de seguridad porque la persona no necesita sostener versiones ocultas de sí misma. NBLA habla de andar seguro; MSG hace visible la libertad de una vida transparente.",
+      "id": "proverbios10-joya-01",
+      "msg": {
+        "en": "\"Honesty lives confident and carefree,\"",
+        "es": "\"La honestidad vive confiada y sin miedo, pero el tramposo tarde o temprano queda expuesto.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-09a"
+          ],
+          "verseId": "proverbios10-nbla-09"
+        }
+      ],
+      "order": 1,
+      "range": "9"
+    },
+    {
+      "explanation": "El amor no niega el conflicto, pero se niega a alimentarlo. Esta línea reaparecerá en el NT y exige distinguir cubrir una ofensa de encubrir abuso o injusticia.",
+      "id": "proverbios10-joya-02",
+      "msg": {
+        "en": "\"Hatred starts fights,\"",
+        "es": "\"El odio inicia peleas, pero el amor extiende una manta sobre las disputas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-12a"
+          ],
+          "verseId": "proverbios10-nbla-12"
+        }
+      ],
+      "order": 2,
+      "range": "12"
+    },
+    {
+      "explanation": "La disciplina no es enemiga de la vida; es una de sus rutas. Rechazar toda corrección elimina precisamente el mecanismo que puede devolvernos al camino.",
+      "id": "proverbios10-joya-03",
+      "msg": {
+        "en": "\"The road to life is a disciplined life;\"",
+        "es": "\"El camino a la vida es una vida disciplinada; ignora la corrección y quedarás completamente perdido.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-17a"
+          ],
+          "verseId": "proverbios10-nbla-17"
+        }
+      ],
+      "order": 3,
+      "range": "17"
+    },
+    {
+      "explanation": "La bendición del SEÑOR es la fuente, no una excusa para pasividad. El capítulo ya ha afirmado diligencia; por tanto, esta frase reconoce que el fruto final no puede atribuirse solamente al esfuerzo humano.",
+      "id": "proverbios10-joya-04",
+      "msg": {
+        "en": "\"GOD’S blessing makes life rich;\"",
+        "es": "\"La bendición de DIOS hace rica la vida;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-22a"
+          ],
+          "verseId": "proverbios10-nbla-22"
+        }
+      ],
+      "order": 4,
+      "range": "22"
+    },
+    {
+      "explanation": "El temor del SEÑOR ensancha la vida en el sentido sapiencial de profundidad y dirección. No debe usarse como fórmula matemática para predecir duración exacta de cada existencia individual.",
+      "id": "proverbios10-joya-05",
+      "msg": {
+        "en": "\"The Fear-of-GOD expands your life;\"",
+        "es": "\"El Temor-de-DIOS ensancha tu vida; una vida malvada es una vida empequeñecida.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-27a"
+          ],
+          "verseId": "proverbios10-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "27"
+    },
+    {
+      "explanation": "La boca justa puede convertirse en fuente de sabiduría para otros. La vida formada por Dios termina desbordándose en palabras que orientan, alimentan y limpian el ambiente.",
+      "id": "proverbios10-joya-06",
+      "msg": {
+        "en": "\"A good person’s mouth is a clear fountain of wisdom;\"",
+        "es": "\"De la boca de una buena persona brota una fuente clara de sabiduría;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios10-nbla-31a"
+          ],
+          "verseId": "proverbios10-nbla-31"
+        }
+      ],
+      "order": 6,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 10,
+    "studyId": "proverbios-10"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios10-msg-01",
+      "msg": {
+        "en": "Wise son, glad father;\nstupid son, sad mother.",
+        "es": "Hijo sabio, padre alegre; hijo necio, madre triste."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios10-msg-02",
+      "msg": {
+        "en": "Ill-gotten gain gets you nowhere;\nan honest life is immortal.",
+        "es": "La ganancia mal obtenida no te lleva a ninguna parte; una vida honesta es inmortal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios10-msg-03",
+      "msg": {
+        "en": "GOD won’t starve an honest soul,\nbut he frustrates the appetites of the wicked.",
+        "es": "DIOS no dejará morir de hambre a un alma honesta, pero frustra los apetitos de los malvados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios10-msg-04",
+      "msg": {
+        "en": "Sloth makes you poor;\ndiligence brings wealth.",
+        "es": "La pereza te empobrece; la diligencia trae riqueza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios10-msg-05",
+      "msg": {
+        "en": "Make hay while the sun shines—that’s smart;\ngo fishing during harvest—that’s stupid.",
+        "es": "Aprovecha mientras hay oportunidad: eso es inteligente; irte de paseo en plena cosecha: eso es necedad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios10-msg-06",
+      "msg": {
+        "en": "Blessings accrue on a good and honest life,\nbut the mouth of the wicked is a dark cave of abuse.",
+        "es": "Las bendiciones se acumulan sobre una vida buena y honesta, pero la boca del malvado es una cueva oscura de abuso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios10-msg-07",
+      "msg": {
+        "en": "A good and honest life is a blessed memorial;\na wicked life leaves a rotten stench.",
+        "es": "Una vida buena y honesta deja un recuerdo bendecido; una vida malvada deja un olor podrido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios10-msg-08",
+      "msg": {
+        "en": "A wise heart takes orders;\nan empty head will come unglued.",
+        "es": "Un corazón sabio acepta órdenes; una cabeza vacía termina desarmándose."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios10-msg-09",
+      "msg": {
+        "en": "Honesty lives confident and carefree,\nbut Shifty is sure to be exposed.",
+        "es": "La honestidad vive confiada y sin miedo, pero el tramposo tarde o temprano queda expuesto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios10-msg-10",
+      "msg": {
+        "en": "An evasive eye is a sign of trouble ahead,\nbut an open, face-to-face meeting results in peace.",
+        "es": "Una mirada evasiva anuncia problemas, pero un encuentro abierto, cara a cara, conduce a la paz."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios10-msg-11",
+      "msg": {
+        "en": "The mouth of a good person is a deep, life-giving well,\nbut the mouth of the wicked is a dark cave of abuse.",
+        "es": "La boca de una buena persona es un pozo profundo que da vida, pero la boca del malvado es una cueva oscura de abuso."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios10-msg-12",
+      "msg": {
+        "en": "Hatred starts fights,\nbut love pulls a quilt over the bickering.",
+        "es": "El odio inicia peleas, pero el amor extiende una manta sobre las disputas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios10-msg-13",
+      "msg": {
+        "en": "You’ll find wisdom on the lips of a person of insight,\nbut the shortsighted needs a slap in the face.",
+        "es": "Encontrarás sabiduría en los labios de una persona con entendimiento, pero al corto de vista le hace falta una buena sacudida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios10-msg-14",
+      "msg": {
+        "en": "The wise accumulate knowledge—a true treasure;\nknow-it-alls talk too much—a sheer waste.",
+        "es": "Los sabios acumulan conocimiento, un verdadero tesoro; los sabelotodo hablan demasiado, un desperdicio completo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios10-msg-15",
+      "msg": {
+        "en": "The wealth of the rich is their bastion;\nthe poverty of the indigent is their ruin.",
+        "es": "La riqueza del rico es su fortaleza; la pobreza del indigente es su ruina."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios10-msg-16",
+      "msg": {
+        "en": "The wage of a good person is exuberant life;\nan evil person ends up with nothing but sin.",
+        "es": "La paga de una buena persona es vida exuberante; una persona malvada termina con nada más que pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios10-msg-17",
+      "msg": {
+        "en": "The road to life is a disciplined life;\nignore correction and you’re lost for good.",
+        "es": "El camino a la vida es una vida disciplinada; ignora la corrección y quedarás completamente perdido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios10-msg-18",
+      "msg": {
+        "en": "Liars secretly hoard hatred;\nfools openly spread slander.",
+        "es": "Los mentirosos guardan odio en secreto; los necios esparcen calumnias abiertamente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios10-msg-19",
+      "msg": {
+        "en": "The more talk, the less truth;\nthe wise measure their words.",
+        "es": "Cuanto más se habla, menos verdad queda; los sabios miden sus palabras."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios10-msg-20",
+      "msg": {
+        "en": "The speech of a good person is worth waiting for;\nthe blabber of the wicked is worthless.",
+        "es": "Vale la pena esperar las palabras de una buena persona; el parloteo de los malvados no vale nada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios10-msg-21",
+      "msg": {
+        "en": "The talk of a good person is rich fare for many,\nbut chatterboxes die of an empty heart.",
+        "es": "Las palabras de una buena persona son alimento abundante para muchos, pero los charlatanes mueren con el corazón vacío."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios10-msg-22",
+      "msg": {
+        "en": "GOD’S blessing makes life rich;\nnothing we do can improve on God.",
+        "es": "La bendición de DIOS hace rica la vida; nada de lo que hagamos puede mejorar lo que Dios da."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios10-msg-23",
+      "msg": {
+        "en": "An empty-head thinks mischief is fun,\nbut a mindful person relishes wisdom.",
+        "es": "Una cabeza vacía piensa que hacer maldades es divertido, pero una persona consciente se deleita en la sabiduría."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios10-msg-24",
+      "msg": {
+        "en": "The nightmares of the wicked come true;\nwhat the good people desire, they get.",
+        "es": "Las pesadillas de los malvados se hacen realidad; lo que desean las buenas personas les es concedido."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios10-msg-25",
+      "msg": {
+        "en": "When the storm is over, there’s nothing left of the wicked;\ngood people, firm on their rock foundation, aren’t even fazed.",
+        "es": "Cuando pasa la tormenta, no queda nada de los malvados; las buenas personas, firmes sobre su fundamento de roca, ni siquiera se estremecen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios10-msg-26",
+      "msg": {
+        "en": "A lazy employee will give you nothing but trouble;\nit’s vinegar in the mouth, smoke in the eyes.",
+        "es": "Un empleado perezoso no te dará más que problemas; es vinagre en la boca y humo en los ojos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios10-msg-27",
+      "msg": {
+        "en": "The Fear-of-GOD expands your life;\na wicked life is a puny life.",
+        "es": "El Temor-de-DIOS ensancha tu vida; una vida malvada es una vida empequeñecida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios10-msg-28",
+      "msg": {
+        "en": "The aspirations of good people end in celebration;\nthe ambitions of bad people crash.",
+        "es": "Las aspiraciones de las buenas personas terminan en celebración; las ambiciones de los malos se desploman."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios10-msg-29",
+      "msg": {
+        "en": "GOD is solid backing to a well-lived life,\nbut he calls into question a shabby performance.",
+        "es": "DIOS es respaldo sólido para una vida bien vivida, pero pone en cuestión una actuación descuidada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-29"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios10-msg-30",
+      "msg": {
+        "en": "Good people last— they can’t be moved;\nthe wicked are here today, gone tomorrow.",
+        "es": "Las buenas personas permanecen: no pueden ser movidas; los malvados están hoy y mañana desaparecen."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-30"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios10-msg-31",
+      "msg": {
+        "en": "A good person’s mouth is a clear fountain of wisdom;\na foul mouth is a stagnant swamp.",
+        "es": "De la boca de una buena persona brota una fuente clara de sabiduría; una boca corrupta es un pantano estancado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-31"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "editorialRange": "32",
+      "id": "proverbios10-msg-32",
+      "msg": {
+        "en": "The speech of a good person clears the air;\nthe words of the wicked pollute it.",
+        "es": "Las palabras de una buena persona limpian el ambiente; las palabras de los malvados lo contaminan."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios10-nbla-32"
+        }
+      ],
+      "order": 32
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios10-nbla-01",
+      "number": 1,
+      "text": "Los proverbios de Salomón.\nEl hijo sabio alegra al padre,\nPero el hijo necio es tristeza para su madre."
+    },
+    {
+      "id": "proverbios10-nbla-02",
+      "number": 2,
+      "text": "Tesoros mal adquiridos no aprovechan,\nPero la justicia libra de la muerte."
+    },
+    {
+      "id": "proverbios10-nbla-03",
+      "number": 3,
+      "text": "El SEÑOR no permitirá que el justo padezca hambre,\nPero rechazará la avidez de los impíos."
+    },
+    {
+      "id": "proverbios10-nbla-04",
+      "number": 4,
+      "text": "Pobre es el que trabaja con mano negligente,\nPero la mano de los diligentes enriquece."
+    },
+    {
+      "id": "proverbios10-nbla-05",
+      "number": 5,
+      "text": "El que recoge en el verano es hijo sabio,\nEl que se duerme durante la siega es hijo que avergüenza."
+    },
+    {
+      "id": "proverbios10-nbla-06",
+      "number": 6,
+      "text": "Hay bendiciones sobre la cabeza del justo,\nPero la boca de los impíos oculta violencia."
+    },
+    {
+      "id": "proverbios10-nbla-07",
+      "number": 7,
+      "text": "La memoria del justo es bendita,\nPero el nombre del impío se pudrirá."
+    },
+    {
+      "id": "proverbios10-nbla-08",
+      "number": 8,
+      "text": "El sabio de corazón aceptará mandatos,\nPero el necio charlatán será derribado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-09a",
+          "order": 1,
+          "text": "El que anda en integridad anda seguro,"
+        },
+        {
+          "id": "proverbios10-nbla-09b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que pervierte sus caminos será descubierto."
+        }
+      ],
+      "id": "proverbios10-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "proverbios10-nbla-10",
+      "number": 10,
+      "text": "El que guiña el ojo causa disgustos,\nY el necio charlatán será derribado."
+    },
+    {
+      "id": "proverbios10-nbla-11",
+      "number": 11,
+      "text": "Fuente de vida es la boca del justo,\nPero la boca de los impíos encubre violencia."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-12a",
+          "order": 1,
+          "text": "El odio crea rencillas,"
+        },
+        {
+          "id": "proverbios10-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el amor cubre todas las transgresiones."
+        }
+      ],
+      "id": "proverbios10-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "proverbios10-nbla-13",
+      "number": 13,
+      "text": "En los labios del entendido se halla sabiduría,\nPero la vara es para las espaldas del falto de entendimiento."
+    },
+    {
+      "id": "proverbios10-nbla-14",
+      "number": 14,
+      "text": "Los sabios atesoran conocimiento,\nPero la boca del necio es ruina cercana."
+    },
+    {
+      "id": "proverbios10-nbla-15",
+      "number": 15,
+      "text": "La fortuna del rico es su fortaleza,\nLa ruina de los pobres es su pobreza."
+    },
+    {
+      "id": "proverbios10-nbla-16",
+      "number": 16,
+      "text": "El salario del justo es vida,\nLa ganancia del impío, castigo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-17a",
+          "order": 1,
+          "text": "Por senda de vida va el que guarda la instrucción,"
+        },
+        {
+          "id": "proverbios10-nbla-17b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el que abandona la reprensión se extravía."
+        }
+      ],
+      "id": "proverbios10-nbla-17",
+      "number": 17
+    },
+    {
+      "id": "proverbios10-nbla-18",
+      "number": 18,
+      "text": "El que oculta el odio tiene labios mentirosos,\nY el que esparce calumnia es un necio."
+    },
+    {
+      "id": "proverbios10-nbla-19",
+      "number": 19,
+      "text": "En las muchas palabras, la transgresión es inevitable,\nPero el que refrena sus labios es prudente."
+    },
+    {
+      "id": "proverbios10-nbla-20",
+      "number": 20,
+      "text": "La lengua del justo es plata escogida,\nPero el corazón de los impíos es poca cosa."
+    },
+    {
+      "id": "proverbios10-nbla-21",
+      "number": 21,
+      "text": "Los labios del justo apacientan a muchos,\nPero los necios mueren por falta de entendimiento."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-22a",
+          "order": 1,
+          "text": "La bendición del SEÑOR es la que enriquece,"
+        },
+        {
+          "id": "proverbios10-nbla-22b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y Él no añade tristeza con ella."
+        }
+      ],
+      "id": "proverbios10-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "proverbios10-nbla-23",
+      "number": 23,
+      "text": "Como diversión es para el necio el hacer maldad,\nY la sabiduría lo es para el hombre de entendimiento."
+    },
+    {
+      "id": "proverbios10-nbla-24",
+      "number": 24,
+      "text": "Lo que el impío teme vendrá sobre él,\nY el deseo de los justos será concedido."
+    },
+    {
+      "id": "proverbios10-nbla-25",
+      "number": 25,
+      "text": "Cuando pasa el torbellino, ya no existe el impío,\nPero el justo tiene cimiento eterno."
+    },
+    {
+      "id": "proverbios10-nbla-26",
+      "number": 26,
+      "text": "Como el vinagre a los dientes y el humo a los ojos,\nAsí es el perezoso para quienes lo envían."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-27a",
+          "order": 1,
+          "text": "El temor del SEÑOR multiplica los días,"
+        },
+        {
+          "id": "proverbios10-nbla-27b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero los años de los impíos serán acortados."
+        }
+      ],
+      "id": "proverbios10-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "proverbios10-nbla-28",
+      "number": 28,
+      "text": "La esperanza de los justos es alegría,\nPero la expectación de los impíos perecerá."
+    },
+    {
+      "id": "proverbios10-nbla-29",
+      "number": 29,
+      "text": "Fortaleza para el íntegro es el camino del SEÑOR,\nPero ruina para los que obran iniquidad."
+    },
+    {
+      "id": "proverbios10-nbla-30",
+      "number": 30,
+      "text": "El justo nunca será conmovido,\nPero los impíos no habitarán en la tierra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios10-nbla-31a",
+          "order": 1,
+          "text": "De la boca del justo brota sabiduría,"
+        },
+        {
+          "id": "proverbios10-nbla-31b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero la lengua perversa será cortada."
+        }
+      ],
+      "id": "proverbios10-nbla-31",
+      "number": 31
+    },
+    {
+      "id": "proverbios10-nbla-32",
+      "number": 32,
+      "text": "Los labios del justo dan a conocer lo agradable,\nPero la boca de los impíos, lo perverso."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

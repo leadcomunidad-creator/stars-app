@@ -1,0 +1,536 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La adoración sabia comienza con receptividad. La NBLA fija la acción como escuchar; MSG expresa esa escucha en términos formativos: entrar para aprender. El punto no es oponer enseñanza y adoración, sino afirmar que delante de Dios la criatura no ocupa primero el lugar del orador, sino el del que recibe Su palabra.",
+      "id": "eclesiastes5-joya-01",
+      "msg": {
+        "en": "\"Enter to learn.\"",
+        "es": "\"Entra para aprender.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-01b"
+          ],
+          "verseId": "eclesiastes5-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La distancia Creador-criatura protege la reverencia. La NBLA expresa la trascendencia de Dios; MSG comunica su consecuencia pastoral: nosotros no estamos al mando. Esta expansión no debe convertirse en fatalismo, sino en humildad que piensa antes de hablar y no trata a Dios como alguien a quien controlar con lenguaje religioso.",
+      "id": "eclesiastes5-joya-02",
+      "msg": {
+        "en": "\"God’s in charge, not you\"",
+        "es": "\"Dios está al mando, no tú\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-02b"
+          ],
+          "verseId": "eclesiastes5-nbla-02"
+        }
+      ],
+      "order": 2,
+      "range": "2"
+    },
+    {
+      "explanation": "La integridad espiritual exige correspondencia entre palabra y acción. La NBLA formula directamente el deber de cumplir; MSG lo expresa con urgencia. El texto no recomienda multiplicar votos, sino tomar en serio lo que se promete delante de Dios.",
+      "id": "eclesiastes5-joya-03",
+      "msg": {
+        "en": "\"Vow it, then do it.\"",
+        "es": "\"Haz el voto y luego cúmplelo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-04b"
+          ],
+          "verseId": "eclesiastes5-nbla-04"
+        }
+      ],
+      "order": 3,
+      "range": "4-5"
+    },
+    {
+      "explanation": "El temor de Dios es el fundamento que atraviesa ilusión, fantasía y palabrería. Ambas versiones coinciden casi literalmente. No se trata de terror servil, sino de reconocer el peso, autoridad y santidad de Dios de una manera que ordena nuestras palabras y decisiones.",
+      "id": "eclesiastes5-joya-04",
+      "msg": {
+        "en": "\"Fear God!\"",
+        "es": "\"¡Teme a Dios!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-07b"
+          ],
+          "verseId": "eclesiastes5-nbla-07"
+        }
+      ],
+      "order": 4,
+      "range": "7"
+    },
+    {
+      "explanation": "El problema es el amor desordenado, no la existencia del dinero. La NBLA fija la insaciabilidad; MSG conserva la misma verdad en lenguaje directo. Cuando el dinero promete plenitud, siempre exige otra cifra. La sabiduría rompe ese ciclo devolviendo al dinero a su lugar de herramienta y no de señor.",
+      "id": "eclesiastes5-joya-05",
+      "msg": {
+        "en": "\"The one who loves money is never satisfied with money\"",
+        "es": "\"Quien ama el dinero nunca queda satisfecho con dinero\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-10a"
+          ],
+          "verseId": "eclesiastes5-nbla-10"
+        }
+      ],
+      "order": 5,
+      "range": "10"
+    },
+    {
+      "explanation": "El disfrute verdadero no se reduce a cantidad de posesiones. La NBLA afirma que la capacidad de recibir y regocijarse es don de Dios; MSG lo vuelve una exclamación de gratitud. Esta verdad impide dos extremos: idolatrar los bienes o despreciarlos. El don se disfruta mejor cuando no se le exige ocupar el lugar del Dador.",
+      "id": "eclesiastes5-joya-06",
+      "msg": {
+        "en": "\"It’s God’s gift!\"",
+        "es": "\"¡Es un regalo de Dios!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "eclesiastes5-nbla-19b"
+          ],
+          "verseId": "eclesiastes5-nbla-19"
+        }
+      ],
+      "order": 6,
+      "range": "18-20"
+    }
+  ],
+  "meta": {
+    "book": "ECLESIASTÉS",
+    "bookId": "eclesiastes",
+    "chapter": 5,
+    "studyId": "eclesiastes-5"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "eclesiastes5-msg-01",
+      "msg": {
+        "en": "Watch your step when you enter God’s house.\nEnter to learn. That’s far better than mindlessly offering a sacrifice,\nDoing more harm than good.",
+        "es": "Mira dónde pisas cuando entres en la casa de Dios.\nEntra para aprender. Eso es mucho mejor que ofrecer un sacrificio sin pensar,\nhaciendo más daño que bien."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "eclesiastes5-msg-02",
+      "msg": {
+        "en": "Don’t shoot off your mouth, or speak before you think.\nDon’t be too quick to tell God what you think he wants to hear.\nGod’s in charge, not you—the less you speak, the better.",
+        "es": "No sueltes lo primero que se te venga a la boca ni hables antes de pensar.\nNo te apresures a decirle a Dios lo que crees que Él quiere oír.\nDios está al mando, no tú: cuanto menos hables, mejor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "eclesiastes5-msg-03",
+      "msg": {
+        "en": "Overwork makes for restless sleep.\nOvertalk shows you up as a fool.",
+        "es": "El exceso de trabajo produce un sueño inquieto.\nHablar demasiado te deja en evidencia como necio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4-5",
+      "id": "eclesiastes5-msg-04",
+      "msg": {
+        "en": "When you tell God you’ll do something, do it—now.\nGod takes no pleasure in foolish gabble. Vow it, then do it.\nFar better not to vow in the first place than to vow and not pay up.",
+        "es": "Cuando le digas a Dios que harás algo, hazlo —ahora—.\nDios no se complace en palabrería necia. Haz el voto y luego cúmplelo.\nMucho mejor no hacer un voto que hacerlo y no cumplir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-05"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "6",
+      "id": "eclesiastes5-msg-05",
+      "msg": {
+        "en": "Don’t let your mouth make a total sinner of you.\nWhen called to account, you won’t get by with\n“Sorry, I didn’t mean it.”\nWhy risk provoking God to angry retaliation?",
+        "es": "No dejes que tu boca te haga caer por completo en pecado.\nCuando te pidan cuentas, no saldrás del paso diciendo:\n«Perdón, no era mi intención».\n¿Por qué arriesgarte a provocar a Dios hasta Su enojo?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-06"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "7",
+      "id": "eclesiastes5-msg-06",
+      "msg": {
+        "en": "But against all illusion and fantasy and empty talk\nThere’s always this rock foundation: Fear God!",
+        "es": "Pero frente a toda ilusión, fantasía y palabra vacía,\nsiempre está este fundamento de roca: ¡Teme a Dios!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-07"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "eclesiastes5-msg-07",
+      "msg": {
+        "en": "Don’t be too upset when you see the poor kicked around, and justice and right violated all over the place. Exploitation filters down from one petty official to another. There’s no end to it, and nothing can be done about it. But the good earth doesn’t cheat anyone—even a bad king is honestly served by a field.",
+        "es": "No te alteres demasiado cuando veas a los pobres maltratados y la justicia y el derecho violados por todas partes. La explotación desciende de un funcionario menor a otro. No tiene fin y no hay nada que puedas hacer al respecto. Pero la buena tierra no engaña a nadie: hasta un mal rey recibe honestamente el servicio de un campo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-09"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "10",
+      "id": "eclesiastes5-msg-08",
+      "msg": {
+        "en": "The one who loves money is never satisfied with money,\nNor the one who loves wealth with big profits. More smoke.",
+        "es": "Quien ama el dinero nunca queda satisfecho con dinero,\nni quien ama la riqueza con grandes ganancias. Más humo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-10"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "11",
+      "id": "eclesiastes5-msg-09",
+      "msg": {
+        "en": "The more loot you get, the more looters show up.\nAnd what fun is that—to be robbed in broad daylight?",
+        "es": "Cuanto más botín consigues, más saqueadores aparecen.\n¿Y qué gracia tiene eso: que te roben a plena luz del día?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-11"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "12",
+      "id": "eclesiastes5-msg-10",
+      "msg": {
+        "en": "Hard and honest work earns a good night’s sleep,\nWhether supper is beans or steak.\nBut a rich man’s belly gives him insomnia.",
+        "es": "El trabajo duro y honrado se gana una buena noche de sueño,\nya cenes frijoles o carne.\nPero el estómago del rico le produce insomnio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-12"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "13-17",
+      "id": "eclesiastes5-msg-11",
+      "msg": {
+        "en": "Here’s a piece of bad luck I’ve seen happen:\nA man hoards far more wealth than is good for him\nAnd then loses it all in a bad business deal.\nHe fathered a child but hasn’t a cent left to give him.\nHe arrived naked from the womb of his mother;\nHe’ll leave in the same condition—with nothing.\nThis is bad luck, for sure—naked he came, naked he went.\nSo what was the point of working for a salary of smoke?\nAll for a miserable life spent in the dark?",
+        "es": "Aquí tienes una mala suerte que he visto ocurrir:\nun hombre acumula mucha más riqueza de la que le hace bien\ny luego la pierde toda en un mal negocio.\nTuvo un hijo, pero no le queda ni un centavo para dejarle.\nLlegó desnudo del vientre de su madre;\nse irá en la misma condición, sin nada.\nEsto sí que es mala suerte: desnudo vino y desnudo se fue.\nEntonces, ¿qué sentido tuvo trabajar por un salario de humo?\n¿Todo para una vida miserable, pasada en la oscuridad?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-17"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "18-20",
+      "id": "eclesiastes5-msg-12",
+      "msg": {
+        "en": "After looking at the way things are on this earth, here’s what I’ve decided is the best way to live: Take care of yourself, have a good time, and make the most of whatever job you have for as long as God gives you life. And that’s about it. That’s the human lot. Yes, we should make the most of what God gives, both the bounty and the capacity to enjoy it, accepting what’s given and delighting in the work. It’s God’s gift! God deals out joy in the present, the now. It’s useless to brood over how long we might live.",
+        "es": "Después de mirar cómo son las cosas en esta tierra, esto es lo que he decidido que es la mejor manera de vivir: cuídate, disfruta y aprovecha al máximo cualquier trabajo que tengas mientras Dios te dé vida. Y eso es, más o menos, lo que nos toca como humanos. Sí, debemos aprovechar al máximo lo que Dios da, tanto la abundancia como la capacidad de disfrutarla, aceptando lo recibido y deleitándonos en el trabajo. ¡Es un regalo de Dios! Dios reparte alegría en el presente, en el ahora. No sirve de nada obsesionarse con cuánto tiempo podremos vivir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "eclesiastes5-nbla-20"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-01a",
+          "order": 1,
+          "text": "Guarda tus pasos cuando vas a la casa de Dios, y"
+        },
+        {
+          "id": "eclesiastes5-nbla-01b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "acércate a escuchar"
+        },
+        {
+          "id": "eclesiastes5-nbla-01c",
+          "order": 3,
+          "separatorBefore": " ",
+          "text": "en vez de ofrecer el sacrificio de los necios, porque estos no saben que hacen el mal."
+        }
+      ],
+      "id": "eclesiastes5-nbla-01",
+      "number": 1
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-02a",
+          "order": 1,
+          "text": "No te des prisa en hablar,\nNi se apresure tu corazón a proferir palabra delante de Dios.\nPorque"
+        },
+        {
+          "id": "eclesiastes5-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios está en el cielo y tú en la tierra"
+        },
+        {
+          "id": "eclesiastes5-nbla-02c",
+          "order": 3,
+          "text": ";\nPor tanto sean pocas tus palabras."
+        }
+      ],
+      "id": "eclesiastes5-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "eclesiastes5-nbla-03",
+      "number": 3,
+      "text": "Porque los sueños vienen de la mucha tarea,\nY la voz del necio de las muchas palabras."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-04a",
+          "order": 1,
+          "text": "Cuando haces un voto a Dios, no tardes en cumplirlo, porque Él no se deleita en los necios."
+        },
+        {
+          "id": "eclesiastes5-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "El voto que haces, cúmplelo."
+        }
+      ],
+      "id": "eclesiastes5-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "eclesiastes5-nbla-05",
+      "number": 5,
+      "text": "Es mejor que no hagas votos, a que hagas votos y no los cumplas."
+    },
+    {
+      "id": "eclesiastes5-nbla-06",
+      "number": 6,
+      "text": "No permitas que tu boca te haga pecar, y no digas delante del mensajero de Dios que fue un error. ¿Por qué ha de enojarse Dios a causa de tu voz y destruir la obra de tus manos?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-07a",
+          "order": 1,
+          "text": "Porque en los muchos sueños y en las muchas palabras hay vanidades; tú, sin embargo,"
+        },
+        {
+          "id": "eclesiastes5-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "teme a Dios."
+        }
+      ],
+      "id": "eclesiastes5-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "eclesiastes5-nbla-08",
+      "number": 8,
+      "text": "Si ves la opresión del pobre y la negación del derecho y de la justicia en la provincia, no te sorprendas del hecho, porque un oficial vigila sobre otro oficial, y hay oficiales superiores sobre ellos."
+    },
+    {
+      "id": "eclesiastes5-nbla-09",
+      "number": 9,
+      "text": "Con todo, es de beneficio para el país que el rey mantenga cultivado el campo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-10a",
+          "order": 1,
+          "text": "El que ama el dinero no se saciará de dinero"
+        },
+        {
+          "id": "eclesiastes5-nbla-10b",
+          "order": 2,
+          "text": ",\nY el que ama la abundancia no se saciará de ganancias.\nTambién esto es vanidad."
+        }
+      ],
+      "id": "eclesiastes5-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "eclesiastes5-nbla-11",
+      "number": 11,
+      "text": "Cuando aumentan los bienes,\nAumentan también los que los consumen.\nAsí, pues, ¿cuál es la ventaja para sus dueños, sino verlos con sus ojos?"
+    },
+    {
+      "id": "eclesiastes5-nbla-12",
+      "number": 12,
+      "text": "Dulce es el sueño del trabajador,\nComa mucho o coma poco;\nPero la hartura del rico no le permite dormir."
+    },
+    {
+      "id": "eclesiastes5-nbla-13",
+      "number": 13,
+      "text": "Hay un grave mal que he visto bajo el sol:\nLas riquezas guardadas por su dueño para su mal."
+    },
+    {
+      "id": "eclesiastes5-nbla-14",
+      "number": 14,
+      "text": "Cuando esas riquezas se pierden por un mal negocio,\nY él engendra un hijo,\nNo queda nada para mantenerlo."
+    },
+    {
+      "id": "eclesiastes5-nbla-15",
+      "number": 15,
+      "text": "Como salió del vientre de su madre, desnudo,\nAsí volverá, yéndose tal como vino.\nNada saca del fruto de su trabajo\nQue pueda llevarse en la mano."
+    },
+    {
+      "id": "eclesiastes5-nbla-16",
+      "number": 16,
+      "text": "También esto es un grave mal:\nQue tal como vino, así se irá.\nPor tanto, ¿qué provecho tiene el que trabaja para el viento?"
+    },
+    {
+      "id": "eclesiastes5-nbla-17",
+      "number": 17,
+      "text": "Además, todos los días de su vida come en tinieblas,\nCon mucha molestia, enfermedad y enojo."
+    },
+    {
+      "id": "eclesiastes5-nbla-18",
+      "number": 18,
+      "text": "Esto es lo que yo he visto que es bueno y conveniente: comer, beber y gozarse uno de todo el trabajo en que se afana bajo el sol en los contados días de la vida que Dios le ha dado; porque esta es su recompensa."
+    },
+    {
+      "clauses": [
+        {
+          "id": "eclesiastes5-nbla-19a",
+          "order": 1,
+          "text": "Igualmente, a todo hombre a quien Dios ha dado riquezas y bienes, lo ha capacitado también para comer de ellos, para recibir su recompensa y regocijarse en su trabajo:"
+        },
+        {
+          "id": "eclesiastes5-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "esto es don de Dios."
+        }
+      ],
+      "id": "eclesiastes5-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "eclesiastes5-nbla-20",
+      "number": 20,
+      "text": "Pues él no se acordará mucho de los días de su vida, porque Dios lo mantiene ocupado con alegría en su corazón."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

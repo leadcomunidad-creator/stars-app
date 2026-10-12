@@ -1,0 +1,543 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "MSG interpreta «no desprecia a nadie» como «no intimida a personas inocentes», una expansión considerable. NBLA gobierna: poder y entendimiento de Dios no producen desprecio. La afirmación debe recibirse sin usar la expansión como prueba de una categoría textual que NBLA no formula de ese modo.",
+      "id": "job36-joya-01",
+      "msg": {
+        "en": "\"It’s true that God is all-powerful,\nbut he doesn’t bully innocent people.\"",
+        "es": "\"Es verdad que Dios es todopoderoso,\npero no intimida a personas inocentes.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5-6"
+    },
+    {
+      "explanation": "NBLA pone el énfasis en justicia para el afligido y atención al justo. MSG traduce al afligido como víctima y convierte justicia en defensa de derechos. La verdad segura es que el sufriente no queda fuera de la atención de Dios.",
+      "id": "job36-joya-02",
+      "msg": {
+        "en": "\"but champions the rights of their victims.\nHe never takes his eyes off the righteous;\"",
+        "es": "\"sino que defiende los derechos de sus víctimas.\nNunca aparta Sus ojos de los justos;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job36-nbla-06b"
+          ],
+          "verseId": "job36-nbla-06"
+        },
+        {
+          "clauseIds": [
+            "job36-nbla-07a"
+          ],
+          "verseId": "job36-nbla-07"
+        }
+      ],
+      "order": 2,
+      "range": "6-7"
+    },
+    {
+      "explanation": "Eliú describe una función correctiva del sufrimiento. NBLA habla de transgresiones y engrandecimiento; MSG lo convierte en orgullo que causa problemas. La categoría existe, pero no debe aplicarse mecánicamente a Job ni a toda persona que sufre.",
+      "id": "job36-joya-03",
+      "msg": {
+        "en": "\"God tells them where they’ve gone wrong,\nshows them how their pride has caused their trouble.\"",
+        "es": "\"Dios les muestra dónde se equivocaron,\nles hace ver cómo su orgullo causó sus problemas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-09"
+        },
+        {
+          "clauseIds": [
+            "job36-nbla-10a"
+          ],
+          "verseId": "job36-nbla-10"
+        }
+      ],
+      "order": 3,
+      "range": "9-10"
+    },
+    {
+      "explanation": "MSG reformula la liberación «en medio de» la aflicción como liberación «de» la aflicción para quienes aprenden. NBLA es más precisa: Dios puede liberar al afligido dentro de su aflicción y abrir su oído. Esa diferencia impide prometer que aprender siempre producirá salida inmediata del dolor.",
+      "id": "job36-joya-04",
+      "msg": {
+        "en": "\"But those who learn from their suffering,\nGod delivers from their suffering.\"",
+        "es": "\"Pero a quienes aprenden de su sufrimiento,\nDios los libra de su sufrimiento.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-15"
+        }
+      ],
+      "order": 4,
+      "range": "15"
+    },
+    {
+      "explanation": "Poder y enseñanza aparecen juntos. Dios no solo gobierna; también instruye. La pregunta retórica reconoce una autoridad que ninguna criatura puede superar.",
+      "id": "job36-joya-05",
+      "msg": {
+        "en": "\"Do you have any idea how powerful God is?\nHave you ever heard of a teacher like him?\"",
+        "es": "\"¿Tienes idea de cuán poderoso es Dios?\n¿Has oído alguna vez de un maestro como Él?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "22-23"
+    },
+    {
+      "explanation": "MSG añade «infinite» y amplía la imposibilidad de imaginar o calcular a Dios. NBLA afirma Su exaltación y el límite de nuestro conocimiento. El sentido seguro es trascendencia e inescrutabilidad, no una licencia para definir filosóficamente cada atributo desde la paráfrasis.",
+      "id": "job36-joya-06",
+      "msg": {
+        "en": "\"Take a long, hard look. See how great he is—infinite,\ngreater than anything you could ever imagine or figure out!\"",
+        "es": "\"Míralo con atención. Mira cuán grande es: infinito,\nmayor que cualquier cosa que puedas imaginar o comprender.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-26"
+        }
+      ],
+      "order": 6,
+      "range": "26"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 36,
+    "studyId": "job-36"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-4",
+      "id": "job36-msg-01",
+      "msg": {
+        "en": "Here Elihu took a deep breath, but kept going:\n“Stay with me a little longer. I’ll convince you.\nThere’s still more to be said on God’s side.\nI learned all this firsthand from the Source;\neverything I know about justice I owe to my Maker himself.\nTrust me, I’m giving you undiluted truth;\nbelieve me, I know these things inside and out.",
+        "es": "Aquí Eliú respiró profundamente, pero siguió hablando:\n«Quédate conmigo un poco más. Te voy a convencer.\nTodavía hay más que decir en defensa de Dios.\nAprendí todo esto directamente de la Fuente;\ntodo lo que sé acerca de justicia se lo debo a mi Hacedor.\nConfía en mí: te estoy dando verdad sin diluir;\ncréeme, conozco estas cosas por dentro y por fuera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-04"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "5-15",
+      "id": "job36-msg-02",
+      "msg": {
+        "en": "“It’s true that God is all-powerful,\nbut he doesn’t bully innocent people.\nFor the wicked, though, it’s a different story—\nhe doesn’t give them the time of day,\nbut champions the rights of their victims.\nHe never takes his eyes off the righteous;\nhe honors them lavishly, promotes them endlessly.\nWhen things go badly,\nwhen affliction and suffering descend,\nGod tells them where they’ve gone wrong,\nshows them how their pride has caused their trouble.\nHe forces them to heed his warning,\ntells them they must repent of their bad life.\nIf they obey and serve him,\nthey’ll have a good, long life on easy street.\nBut if they disobey, they’ll be cut down in their prime\nand never know the first thing about life.\nAngry people without God pile grievance upon grievance,\nalways blaming others for their troubles.\nLiving it up in sexual excesses,\nvirility wasted, they die young.\nBut those who learn from their suffering,\nGod delivers from their suffering.",
+        "es": "«Es verdad que Dios es todopoderoso,\npero no intimida a personas inocentes.\nCon los malvados, sin embargo, la historia es distinta:\nno les concede privilegios,\nsino que defiende los derechos de sus víctimas.\nNunca aparta Sus ojos de los justos;\nlos honra generosamente y los promueve sin fin.\nCuando las cosas van mal,\ncuando llegan aflicción y sufrimiento,\nDios les muestra dónde se equivocaron,\nles hace ver cómo su orgullo causó sus problemas.\nLos obliga a escuchar Su advertencia,\nles dice que deben arrepentirse de su mala vida.\nSi obedecen y le sirven,\ntendrán una vida buena y larga, sin dificultades.\nPero si desobedecen, serán cortados en plena vida\ny morirán sin haber aprendido lo primero acerca de vivir.\nLa gente sin Dios acumula enojo sobre enojo,\nsiempre culpando a otros por sus problemas.\nViven entregados a excesos sexuales,\ndesperdician su vigor y mueren jóvenes.\nPero a quienes aprenden de su sufrimiento,\nDios los libra de su sufrimiento."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-15"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "16-21",
+      "id": "job36-msg-03",
+      "msg": {
+        "en": "“Oh, Job, don’t you see how God’s wooing you\nfrom the jaws of danger?\nHow he’s drawing you into wide-open places—\ninviting you to feast at a table laden with blessings?\nAnd here you are laden with the guilt of the wicked,\nobsessed with putting the blame on God!\nDon’t let your great riches mislead you;\ndon’t think you can bribe your way out of this.\nDid you plan to buy your way out of this?\nNot on your life!\nAnd don’t think that night,\nwhen people sleep off their troubles,\nwill bring you any relief.\nAbove all, don’t make things worse with more evil—\nthat’s what’s behind your suffering as it is!",
+        "es": "«Oh, Job, ¿no ves cómo Dios te está atrayendo\nfuera de las fauces del peligro?\n¿No ves cómo te está llevando a lugares amplios y abiertos,\ninvitándote a un banquete cargado de bendiciones?\nY aquí estás, cargado con la culpa de los malvados,\nobsesionado con culpar a Dios.\nNo dejes que tus grandes riquezas te engañen;\nno pienses que puedes sobornar tu salida de esto.\n¿Planeabas comprar tu salida?\n¡De ninguna manera!\nY no pienses que la noche,\ncuando la gente duerme sus problemas,\nte traerá alivio.\nSobre todo, no empeores las cosas con más maldad:\n¡eso es lo que está detrás de tu sufrimiento actual!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-21"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "22-25",
+      "id": "job36-msg-04",
+      "msg": {
+        "en": "“Do you have any idea how powerful God is?\nHave you ever heard of a teacher like him?\nHas anyone ever had to tell him what to do,\nor correct him, saying, ‘You did that all wrong!’?\nRemember, then, to praise his workmanship,\nwhich is so often celebrated in song.\nEverybody sees it;\nnobody is too far away to see it.",
+        "es": "«¿Tienes idea de cuán poderoso es Dios?\n¿Has oído alguna vez de un maestro como Él?\n¿Ha tenido alguien que decirle qué hacer\no corregirlo diciendo: “Eso lo hiciste mal”?\nRecuerda entonces alabar Su obra,\nque tantas veces ha sido celebrada en canciones.\nTodos la ven;\nnadie está demasiado lejos para contemplarla."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-25"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "26",
+      "id": "job36-msg-05",
+      "msg": {
+        "en": "“Take a long, hard look. See how great he is—infinite,\ngreater than anything you could ever imagine or figure out!",
+        "es": "«Míralo con atención. Mira cuán grande es: infinito,\nmayor que cualquier cosa que puedas imaginar o comprender."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-26"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "27-33",
+      "id": "job36-msg-06",
+      "msg": {
+        "en": "“He pulls water up out of the sea,\ndistills it, and fills up his rain-cloud cisterns.\nThen the skies open up\nand pour out soaking showers on everyone.\nDoes anyone have the slightest idea how this happens?\nHow he arranges the clouds, how he speaks in thunder?\nJust look at that lightning, his sky-filling light show\nillumining the dark depths of the sea!\nThese are the symbols of his sovereignty,\nhis generosity, his loving care.\nHe hurls arrows of light,\ntaking sure and accurate aim.\nThe High God roars in the thunder,\nangry against evil.”",
+        "es": "«Él levanta agua del mar,\nla destila y llena Sus cisternas de nubes de lluvia.\nEntonces los cielos se abren\ny derraman lluvias abundantes sobre todos.\n¿Tiene alguien la menor idea de cómo ocurre esto?\n¿Cómo dispone las nubes, cómo habla mediante el trueno?\nMira ese relámpago, Su espectáculo de luz llenando el cielo\ne iluminando las oscuras profundidades del mar.\nEstos son símbolos de Su soberanía,\nde Su generosidad y de Su cuidado amoroso.\nLanza flechas de luz,\napuntando con precisión.\nEl Dios Altísimo ruge en el trueno,\nairado contra el mal.»"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job36-nbla-33"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job36-nbla-01",
+      "number": 1,
+      "text": "Entonces continuó Eliú, y dijo:"
+    },
+    {
+      "id": "job36-nbla-02",
+      "number": 2,
+      "text": "«Espérame un poco, y te mostraré\nQue todavía hay más que decir en favor de Dios."
+    },
+    {
+      "id": "job36-nbla-03",
+      "number": 3,
+      "text": "Traeré mi conocimiento desde lejos,\nY atribuiré justicia a mi Hacedor."
+    },
+    {
+      "id": "job36-nbla-04",
+      "number": 4,
+      "text": "Porque en verdad no son falsas mis palabras;\nUno perfecto en conocimiento está contigo."
+    },
+    {
+      "id": "job36-nbla-05",
+      "number": 5,
+      "text": "Dios es poderoso pero no desprecia a nadie,\nEs poderoso en la fuerza del entendimiento."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job36-nbla-06a",
+          "order": 1,
+          "text": "No mantiene vivo al impío,"
+        },
+        {
+          "id": "job36-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero da justicia al afligido."
+        }
+      ],
+      "id": "job36-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "job36-nbla-07a",
+          "order": 1,
+          "text": "No aparta Sus ojos de los justos,"
+        },
+        {
+          "id": "job36-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y con los reyes sobre el trono\nLos ha sentado para siempre, y son ensalzados."
+        }
+      ],
+      "id": "job36-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "job36-nbla-08",
+      "number": 8,
+      "text": "Y si están aprisionados con cadenas,\nSi son atrapados en las cuerdas de aflicción,"
+    },
+    {
+      "id": "job36-nbla-09",
+      "number": 9,
+      "text": "Entonces les muestra su obra\nY sus transgresiones, porque ellos se han engrandecido."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job36-nbla-10a",
+          "order": 1,
+          "text": "Él abre sus oídos para la instrucción,"
+        },
+        {
+          "id": "job36-nbla-10b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y ordena que se vuelvan del mal."
+        }
+      ],
+      "id": "job36-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "job36-nbla-11",
+      "number": 11,
+      "text": "Si escuchan y le sirven,\nAcabarán sus días en prosperidad\nY sus años en delicias."
+    },
+    {
+      "id": "job36-nbla-12",
+      "number": 12,
+      "text": "Pero si no escuchan, perecerán a espada,\nY morirán sin conocimiento."
+    },
+    {
+      "id": "job36-nbla-13",
+      "number": 13,
+      "text": "Pero los impíos de corazón acumulan la ira;\nNo claman pidiendo ayuda cuando Él los ata."
+    },
+    {
+      "id": "job36-nbla-14",
+      "number": 14,
+      "text": "Mueren en su juventud,\nY su vida perece entre los sodomitas de cultos paganos."
+    },
+    {
+      "id": "job36-nbla-15",
+      "number": 15,
+      "text": "Él libra al afligido en medio de su aflicción,\nY abre su oído en tiempos de opresión."
+    },
+    {
+      "id": "job36-nbla-16",
+      "number": 16,
+      "text": "Entonces, en verdad, Él te atrajo de la boca de la angustia,\nA un lugar espacioso, sin limitaciones, en lugar de aquella;\nY lo que se puso sobre tu mesa estaba lleno de grasa."
+    },
+    {
+      "id": "job36-nbla-17",
+      "number": 17,
+      "text": "»Pero tú estabas lleno de juicio sobre el malvado;\nEl juicio y la justicia se apoderan de ti."
+    },
+    {
+      "id": "job36-nbla-18",
+      "number": 18,
+      "text": "Ten cuidado, no sea que el furor te seduzca a burlarte;\nNo dejes que la grandeza del rescate te extravíe."
+    },
+    {
+      "id": "job36-nbla-19",
+      "number": 19,
+      "text": "¿Te protegerán tus riquezas de la angustia,\nO todas las fuerzas de tu poder?"
+    },
+    {
+      "id": "job36-nbla-20",
+      "number": 20,
+      "text": "No anheles la noche,\nCuando los pueblos desaparecen de su lugar."
+    },
+    {
+      "id": "job36-nbla-21",
+      "number": 21,
+      "text": "Ten cuidado, no te inclines al mal;\nPues has preferido este a la aflicción."
+    },
+    {
+      "id": "job36-nbla-22",
+      "number": 22,
+      "text": "Dios es exaltado en Su poder,\n¿Quién es maestro como Él?"
+    },
+    {
+      "id": "job36-nbla-23",
+      "number": 23,
+      "text": "¿Quién le ha señalado Su camino,\nY quién le ha dicho: “Has hecho mal”?"
+    },
+    {
+      "id": "job36-nbla-24",
+      "number": 24,
+      "text": "»Recuerda que debes ensalzar Su obra,\nLa cual han cantado los hombres."
+    },
+    {
+      "id": "job36-nbla-25",
+      "number": 25,
+      "text": "Todos los hombres la han visto;\nEl hombre la contempla desde lejos."
+    },
+    {
+      "id": "job36-nbla-26",
+      "number": 26,
+      "text": "Dios es exaltado, y no lo conocemos;\nEl número de Sus años es inescrutable."
+    },
+    {
+      "id": "job36-nbla-27",
+      "number": 27,
+      "text": "Porque Él atrae las gotas de agua,\nY ellas, del vapor, destilan lluvia,"
+    },
+    {
+      "id": "job36-nbla-28",
+      "number": 28,
+      "text": "Que derraman las nubes,\nY en abundancia gotean sobre el hombre."
+    },
+    {
+      "id": "job36-nbla-29",
+      "number": 29,
+      "text": "¿Puede alguien comprender la extensión de las nubes,\nO el tronar de Su pabellón?"
+    },
+    {
+      "id": "job36-nbla-30",
+      "number": 30,
+      "text": "Él extiende Su relámpago en derredor suyo,\nY cubre los abismos del mar."
+    },
+    {
+      "id": "job36-nbla-31",
+      "number": 31,
+      "text": "Pues por estos medios Él juzga a los pueblos,\nY da alimento en abundancia."
+    },
+    {
+      "id": "job36-nbla-32",
+      "number": 32,
+      "text": "Él cubre Sus manos con el relámpago,\nY le ordena dar en el blanco."
+    },
+    {
+      "id": "job36-nbla-33",
+      "number": 33,
+      "text": "Su trueno anuncia Su presencia;\nTambién el ganado, respecto a lo que se levanta."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

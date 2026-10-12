@@ -1,0 +1,501 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Las palabras pueden convertirse en una forma real de opresión. NBLA fija la imagen de ser angustiado y aplastado con palabras; MSG la vuelve más corporal. El texto confronta una espiritualidad que cree ayudar mientras el modo de hablar está profundizando la herida.",
+      "id": "job19-joya-01",
+      "msg": {
+        "en": "\"How long are you going to keep battering away at me,\npounding me with these harangues?\"",
+        "es": "\"¿Hasta cuándo van a seguir golpeándome,\naplastándome con estos sermones?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "2"
+    },
+    {
+      "explanation": "Job experimenta silencio y bloqueo. NBLA conserva el clamor sin justicia y el camino amurallado; MSG lo representa como una barricada. Esta es la percepción del sufriente y no una licencia para concluir que Dios sea injusto en Su carácter.",
+      "id": "job19-joya-02",
+      "msg": {
+        "en": "\"I call for help and no one bothers to stop.\nGod threw a barricade across my path—I’m stymied;\"",
+        "es": "\"pido ayuda y nadie se molesta en intervenir.\nDios levantó una barricada en mi camino: no puedo pasar;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job19-nbla-07b"
+          ],
+          "verseId": "job19-nbla-07"
+        },
+        {
+          "clauseIds": [
+            "job19-nbla-08a"
+          ],
+          "verseId": "job19-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-8"
+    },
+    {
+      "explanation": "Job pide compasión antes que explicación. NBLA repite «tengan piedad», y MSG conserva la súplica dirigida a amigos. El versículo ofrece un principio pastoral claro: cuando no conocemos la causa del sufrimiento, todavía podemos decidir no aumentarlo.",
+      "id": "job19-joya-03",
+      "msg": {
+        "en": "\"Oh, friends, dear friends, take pity on me.\"",
+        "es": "\"Oh, amigos, queridos amigos, tengan compasión de mí.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job19-nbla-21a"
+          ],
+          "verseId": "job19-nbla-21"
+        }
+      ],
+      "order": 3,
+      "range": "21"
+    },
+    {
+      "explanation": "Job coloca su esperanza en un Redentor vivo. NBLA gobierna el término teológico «Redentor» y Su levantarse final sobre el polvo; MSG interpreta ese Redentor como Dios y dador de vida. La lectura cristiana puede conectar esta esperanza con Cristo, pero el capítulo no debe reescribirse como si nombrara explícitamente a Jesús.",
+      "id": "job19-joya-04",
+      "msg": {
+        "en": "\"Still, I know that God lives—the One who gives me back my life—\"",
+        "es": "\"Pero aun así, yo sé que Dios vive: Aquel que me devuelve la vida,\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-25"
+        }
+      ],
+      "order": 4,
+      "range": "25"
+    },
+    {
+      "explanation": "La esperanza de Job culmina en un encuentro personal con Dios. NBLA insiste en que él mismo verá; MSG añade el lenguaje del anhelo. El texto sostiene una esperanza extraordinaria, pero la mecánica de resurrección o restauración debe interpretarse desde el desarrollo posterior del canon y no desde una sola frase aislada.",
+      "id": "job19-joya-05",
+      "msg": {
+        "en": "\"see God myself, with my very own eyes.\nOh, how I long for that day!\"",
+        "es": "\"veré a Dios yo mismo, con mis propios ojos.\n¡Cómo anhelo ese día!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "job19-nbla-27a"
+          ],
+          "verseId": "job19-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "26-27"
+    }
+  ],
+  "meta": {
+    "book": "JOB",
+    "bookId": "job",
+    "chapter": 19,
+    "studyId": "job-19"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-6",
+      "id": "job19-msg-01",
+      "msg": {
+        "en": "Job answered:\n“How long are you going to keep battering away at me,\npounding me with these harangues?\nTime after time after time you jump all over me.\nDo you have no conscience, abusing me like this?\nEven if I have, somehow or other, gotten off the track,\nwhat business is that of yours?\nWhy do you insist on putting me down,\nusing my troubles as a stick to beat me?\nTell it to God—he’s the one behind all this,\nhe’s the one who dragged me into this mess.",
+        "es": "Job respondió:\n«¿Hasta cuándo van a seguir golpeándome,\naplastándome con estos sermones?\nUna y otra y otra vez se me vienen encima.\n¿No tienen conciencia de lo que hacen al maltratarme así?\nAun si de alguna manera me hubiera salido del camino,\n¿qué asunto es ese de ustedes?\n¿Por qué insisten en rebajarme,\nusando mis problemas como un palo para golpearme?\nDíganselo a Dios: Él es quien está detrás de todo esto,\nÉl es quien me arrastró a este desastre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-06"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "7-12",
+      "id": "job19-msg-02",
+      "msg": {
+        "en": "“Look at me—I shout ‘Murder!’ and I’m ignored;\nI call for help and no one bothers to stop.\nGod threw a barricade across my path—I’m stymied;\nhe turned out all the lights—I’m stuck in the dark.\nHe destroyed my reputation,\nrobbed me of all self-respect.\nHe tore me apart piece by piece—I’m ruined!\nThen he yanked out hope by the roots.\nHe’s angry with me—oh, how he’s angry!\nHe treats me like his worst enemy.\nHe has launched a major campaign against me,\nusing every weapon he can think of,\ncoming at me from all sides at once.",
+        "es": "«¡Mírenme! Grito: “¡Violencia!”, y nadie responde;\npido ayuda y nadie se molesta en intervenir.\nDios levantó una barricada en mi camino: no puedo pasar;\napagó todas las luces: estoy atrapado en la oscuridad.\nDestruyó mi reputación,\nme quitó todo respeto por mí mismo.\nMe despedazó pieza por pieza: ¡estoy arruinado!\nDespués arrancó de raíz mi esperanza.\nEstá enojado conmigo, ¡qué enojado está!\nMe trata como a Su peor enemigo.\nHa lanzado una gran campaña contra mí,\nusando todas las armas que se le ocurren,\natacándome desde todos los lados al mismo tiempo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-12"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "13-20",
+      "id": "job19-msg-03",
+      "msg": {
+        "en": "“GOD alienated my family from me;\neveryone who knows me avoids me.\nMy relatives and friends have all left;\nhouseguests forget I ever existed.\nThe servant girls treat me like a bum off the street,\nlook at me like they’ve never seen me before.\nI call my attendant and he ignores me,\nignores me even though I plead with him.\nMy wife can’t stand to be around me anymore.\nI’m repulsive to my family.\nEven street urchins despise me;\nwhen I come out, they taunt and jeer.\nEveryone I’ve ever been close to abhors me;\nmy dearest loved ones reject me.\nI’m nothing but a bag of bones;\nmy life hangs by a thread.",
+        "es": "«DIOS alejó de mí a mi familia;\ntodos los que me conocen me evitan.\nMis parientes y amigos se han ido;\nlos huéspedes de mi casa olvidan que existo.\nLas criadas me tratan como a un vagabundo de la calle,\nme miran como si jamás me hubieran visto.\nLlamo a mi sirviente y me ignora,\nme ignora aunque le suplico.\nMi esposa no soporta estar cerca de mí.\nLe resulto repulsivo a mi familia.\nHasta los muchachos de la calle me desprecian;\ncuando salgo, se burlan y se ríen de mí.\nTodos los que alguna vez fueron cercanos a mí me aborrecen;\nquienes más amo me rechazan.\nNo soy más que un saco de huesos;\nmi vida cuelga de un hilo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-20"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "job19-msg-04",
+      "msg": {
+        "en": "“Oh, friends, dear friends, take pity on me.\nGod has come down hard on me!\nDo you have to be hard on me, too?\nDon’t you ever tire of abusing me?",
+        "es": "«Oh, amigos, queridos amigos, tengan compasión de mí.\n¡Dios ha sido muy duro conmigo!\n¿También ustedes tienen que ser duros conmigo?\n¿Nunca se cansan de maltratarme?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-22"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "23-27",
+      "id": "job19-msg-05",
+      "msg": {
+        "en": "“If only my words were written in a book—\nbetter yet, chiseled in stone!\nStill, I know that God lives—the One who gives me back my life—\nand eventually he’ll take his stand on earth.\nAnd I’ll see him—even though I get skinned alive!—\nsee God myself, with my very own eyes.\nOh, how I long for that day!",
+        "es": "«¡Ojalá mis palabras quedaran escritas en un libro;\nmejor aún, grabadas en piedra!\nPero aun así, yo sé que Dios vive: Aquel que me devuelve la vida,\ny al final se levantará sobre la tierra.\nY yo lo veré, aunque me arranquen la piel en vida;\nveré a Dios yo mismo, con mis propios ojos.\n¡Cómo anhelo ese día!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-27"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "job19-msg-06",
+      "msg": {
+        "en": "“If you’re thinking, ‘How can we get through to him,\nget him to see that his trouble is all his own fault?’\nForget it. Start worrying about yourselves.\nWorry about your own sins and God’s coming judgment,\nfor judgment is most certainly on the way.”",
+        "es": "«Si están pensando: “¿Cómo podemos hacer que entienda,\nque vea que su problema es enteramente culpa suya?”,\nolvídenlo. Empiecen a preocuparse por ustedes mismos.\nPreocúpense por sus propios pecados y por el juicio de Dios que viene,\nporque el juicio ciertamente está en camino»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "job19-nbla-29"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "job19-nbla-01",
+      "number": 1,
+      "text": "Entonces Job respondió:"
+    },
+    {
+      "id": "job19-nbla-02",
+      "number": 2,
+      "text": "«¿Hasta cuándo me angustiarán\nY me aplastarán con palabras?"
+    },
+    {
+      "id": "job19-nbla-03",
+      "number": 3,
+      "text": "Estas diez veces me han insultado,\n¿No les da vergüenza perjudicarme?"
+    },
+    {
+      "id": "job19-nbla-04",
+      "number": 4,
+      "text": "Aunque en verdad yo haya errado,\nMi error queda conmigo."
+    },
+    {
+      "id": "job19-nbla-05",
+      "number": 5,
+      "text": "Si en verdad se jactan contra mí,\nY comprueban mi oprobio,"
+    },
+    {
+      "id": "job19-nbla-06",
+      "number": 6,
+      "text": "Sepan ahora que Dios me ha agraviado\nY me ha envuelto en Su red."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job19-nbla-07a",
+          "order": 1,
+          "text": "»Yo grito: “¡Violencia!”, pero no obtengo respuesta;"
+        },
+        {
+          "id": "job19-nbla-07b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Clamo pidiendo ayuda, pero no hay justicia."
+        }
+      ],
+      "id": "job19-nbla-07",
+      "number": 7
+    },
+    {
+      "clauses": [
+        {
+          "id": "job19-nbla-08a",
+          "order": 1,
+          "text": "Él ha amurallado mi camino y no puedo pasar,"
+        },
+        {
+          "id": "job19-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y ha puesto tinieblas en mis sendas."
+        }
+      ],
+      "id": "job19-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "job19-nbla-09",
+      "number": 9,
+      "text": "Me ha despojado de mi honor\nY quitado la corona de mi cabeza."
+    },
+    {
+      "id": "job19-nbla-10",
+      "number": 10,
+      "text": "Me destruye por todos lados, y perezco,\nY como a un árbol ha arrancado mi esperanza."
+    },
+    {
+      "id": "job19-nbla-11",
+      "number": 11,
+      "text": "También ha encendido Su ira contra mí\nY me ha considerado Su enemigo."
+    },
+    {
+      "id": "job19-nbla-12",
+      "number": 12,
+      "text": "Se concentran a una Sus ejércitos,\nPreparan su camino de asalto contra mí,\nY alrededor de mi tienda acampan."
+    },
+    {
+      "id": "job19-nbla-13",
+      "number": 13,
+      "text": "»Él ha alejado de mí a mis hermanos,\nY mis conocidos se han apartado completamente de mí."
+    },
+    {
+      "id": "job19-nbla-14",
+      "number": 14,
+      "text": "Mis parientes me fallaron\nY mis íntimos amigos me han olvidado."
+    },
+    {
+      "id": "job19-nbla-15",
+      "number": 15,
+      "text": "Los moradores de mi casa y mis criadas me tienen por extraño,\nExtranjero soy a sus ojos."
+    },
+    {
+      "id": "job19-nbla-16",
+      "number": 16,
+      "text": "Llamo a mi siervo, y no responde,\nCon mi propia boca tengo que rogarle."
+    },
+    {
+      "id": "job19-nbla-17",
+      "number": 17,
+      "text": "Mi aliento es odioso a mi mujer,\nY soy repugnante a mis propios hermanos."
+    },
+    {
+      "id": "job19-nbla-18",
+      "number": 18,
+      "text": "Hasta los niños me desprecian,\nMe levanto, y hablan contra mí."
+    },
+    {
+      "id": "job19-nbla-19",
+      "number": 19,
+      "text": "Todos mis compañeros me aborrecen,\nY los que amo se han vuelto contra mí."
+    },
+    {
+      "id": "job19-nbla-20",
+      "number": 20,
+      "text": "Mis huesos se pegan a mi piel y a mi carne,\nSolo he escapado con la piel de mis dientes."
+    },
+    {
+      "clauses": [
+        {
+          "id": "job19-nbla-21a",
+          "order": 1,
+          "text": "Tengan piedad, tengan piedad de mí, ustedes mis amigos,"
+        },
+        {
+          "id": "job19-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Porque la mano de Dios me ha herido."
+        }
+      ],
+      "id": "job19-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "job19-nbla-22",
+      "number": 22,
+      "text": "¿Por qué me persiguen como Dios lo hace,\nY no dejan ya de saciarse de mi carne?"
+    },
+    {
+      "id": "job19-nbla-23",
+      "number": 23,
+      "text": "»¡Oh, si mis palabras se escribieran,\nSi se grabaran en un libro!"
+    },
+    {
+      "id": "job19-nbla-24",
+      "number": 24,
+      "text": "¡Si con cincel de hierro y con plomo\nFueran esculpidas en piedra para siempre!"
+    },
+    {
+      "id": "job19-nbla-25",
+      "number": 25,
+      "text": "Yo sé que mi Redentor vive,\nY al final se levantará sobre el polvo."
+    },
+    {
+      "id": "job19-nbla-26",
+      "number": 26,
+      "text": "Y después de deshecha mi piel,\nAun en mi carne veré a Dios;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "job19-nbla-27a",
+          "order": 1,
+          "text": "Al cual yo mismo contemplaré,\nY a quien mis ojos verán y no los de otro."
+        },
+        {
+          "id": "job19-nbla-27b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "¡Desfallece mi corazón dentro de mí!"
+        }
+      ],
+      "id": "job19-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "job19-nbla-28",
+      "number": 28,
+      "text": "Si dicen: “¿Cómo lo perseguiremos?”.\nY: “¿Qué pretexto hallaremos contra él?”."
+    },
+    {
+      "id": "job19-nbla-29",
+      "number": 29,
+      "text": "Teman la espada ustedes mismos,\nPorque el furor trae el castigo de la espada\nPara que sepan que hay juicio»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

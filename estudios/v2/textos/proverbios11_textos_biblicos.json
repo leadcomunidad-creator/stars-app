@@ -1,0 +1,834 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La justicia económica importa delante de Dios. NBLA fija la imagen de la balanza y el peso cabal; MSG la traslada al lenguaje del mercado para hacer visible que fraude y espiritualidad no pueden coexistir sin contradicción.",
+      "id": "proverbios11-joya-01",
+      "msg": {
+        "en": "\"GOD hates cheating in the marketplace;\"",
+        "es": "\"DIOS detesta las trampas en el mercado;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-01a"
+          ],
+          "verseId": "proverbios11-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1"
+    },
+    {
+      "explanation": "La rectitud tiene una dimensión pública. NBLA habla de la bendición de los rectos que enaltece la ciudad; MSG hace visible una comunidad que florece cuando sus habitantes aportan vida en vez de corrosión.",
+      "id": "proverbios11-joya-02",
+      "msg": {
+        "en": "\"When right-living people bless the city, it flourishes;\"",
+        "es": "\"Cuando quienes viven rectamente bendicen la ciudad, esta florece;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-11a"
+          ],
+          "verseId": "proverbios11-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "11"
+    },
+    {
+      "explanation": "La sabiduría reconoce límites personales y busca consejo. NBLA afirma que la abundancia de consejeros protege al pueblo; MSG convierte esa verdad en una advertencia directa contra caminar sin dirección.",
+      "id": "proverbios11-joya-03",
+      "msg": {
+        "en": "\"Without good direction, people lose their way;\"",
+        "es": "\"Sin buena dirección, la gente pierde el rumbo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-14a"
+          ],
+          "verseId": "proverbios11-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "14"
+    },
+    {
+      "explanation": "La generosidad participa del movimiento de la bendición. NBLA habla de un alma generosa y de quien riega; MSG subraya que quien ayuda a otros también recibe ayuda, sin convertir esa reciprocidad en una garantía financiera mecánica.",
+      "id": "proverbios11-joya-04",
+      "msg": {
+        "en": "\"The one who blesses others is abundantly blessed;\"",
+        "es": "\"Quien bendice a otros recibe bendición abundante;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-25a"
+          ],
+          "verseId": "proverbios11-nbla-25"
+        }
+      ],
+      "order": 4,
+      "range": "25"
+    },
+    {
+      "explanation": "La riqueza es un fundamento insuficiente para la vida. NBLA advierte contra confiar en ella; MSG intensifica la imagen al contrastar una vida dedicada a las cosas con una vida formada por Dios que florece.",
+      "id": "proverbios11-joya-05",
+      "msg": {
+        "en": "\"A life devoted to things is a dead life, a stump;\"",
+        "es": "\"Una vida dedicada a las cosas es una vida muerta, un tronco;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-28a"
+          ],
+          "verseId": "proverbios11-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "28"
+    },
+    {
+      "explanation": "La justicia produce fruto que alcanza a otros. NBLA usa la imagen del árbol de vida; MSG la vuelve cotidiana al describir una buena vida como árbol que da fruto. La sabiduría madura no termina en admiración privada, sino en vida que alimenta.",
+      "id": "proverbios11-joya-06",
+      "msg": {
+        "en": "\"A good life is a fruit-bearing tree;\"",
+        "es": "\"Una buena vida es un árbol que da fruto;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios11-nbla-30a"
+          ],
+          "verseId": "proverbios11-nbla-30"
+        }
+      ],
+      "order": 6,
+      "range": "30"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 11,
+    "studyId": "proverbios-11"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "proverbios11-msg-01",
+      "msg": {
+        "en": "GOD hates cheating in the marketplace;\nhe loves it when business is aboveboard.",
+        "es": "DIOS detesta las trampas en el mercado; le encanta cuando los negocios se hacen con transparencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2",
+      "id": "proverbios11-msg-02",
+      "msg": {
+        "en": "The stuck-up fall flat on their faces,\nbut down-to-earth people stand firm.",
+        "es": "Los engreídos terminan de bruces; la gente con los pies en la tierra permanece firme."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-02"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "3",
+      "id": "proverbios11-msg-03",
+      "msg": {
+        "en": "The integrity of the honest keeps them on track;\nthe deviousness of crooks brings them to ruin.",
+        "es": "La integridad de los honestos los mantiene en rumbo; la perversidad de los tramposos los lleva a la ruina."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-03"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "4",
+      "id": "proverbios11-msg-04",
+      "msg": {
+        "en": "A thick bankroll is no help when life falls apart,\nbut a principled life can stand up to the worst.",
+        "es": "Una cuenta bancaria abultada no sirve de nada cuando la vida se viene abajo; una vida regida por principios puede resistir lo peor."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-04"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "5",
+      "id": "proverbios11-msg-05",
+      "msg": {
+        "en": "Moral character makes for smooth traveling;\nan evil life is a hard life.",
+        "es": "El carácter moral hace que el camino sea más llevadero; una vida malvada es una vida difícil."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-05"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "6",
+      "id": "proverbios11-msg-06",
+      "msg": {
+        "en": "Good character is the best insurance;\ncrooks get trapped in their sinful lust.",
+        "es": "El buen carácter es el mejor seguro; los tramposos quedan atrapados en sus deseos pecaminosos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-06"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "7",
+      "id": "proverbios11-msg-07",
+      "msg": {
+        "en": "When the wicked die, that’s it—\nthe story’s over, end of hope.",
+        "es": "Cuando los malvados mueren, se acabó: termina la historia, termina la esperanza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-07"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "8",
+      "id": "proverbios11-msg-08",
+      "msg": {
+        "en": "A good person is saved from much trouble;\na bad person runs straight into it.",
+        "es": "Una buena persona es librada de muchos problemas; una mala persona corre directo hacia ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-08"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "9",
+      "id": "proverbios11-msg-09",
+      "msg": {
+        "en": "The loose tongue of the godless spreads destruction;\nthe common sense of the godly preserves them.",
+        "es": "La lengua suelta del impío esparce destrucción; el buen juicio de quienes viven para Dios los preserva."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-09"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "10",
+      "id": "proverbios11-msg-10",
+      "msg": {
+        "en": "When it goes well for good people, the whole town cheers;\nwhen it goes badly for bad people, the town celebrates.",
+        "es": "Cuando a la gente buena le va bien, toda la ciudad celebra; cuando a la gente mala le va mal, la ciudad festeja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-10"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "11",
+      "id": "proverbios11-msg-11",
+      "msg": {
+        "en": "When right-living people bless the city, it flourishes;\nevil talk turns it into a ghost town in no time.",
+        "es": "Cuando quienes viven rectamente bendicen la ciudad, esta florece; las palabras malvadas la convierten en un pueblo fantasma en un instante."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-11"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "12",
+      "id": "proverbios11-msg-12",
+      "msg": {
+        "en": "Mean-spirited slander is heartless;\nquiet discretion accompanies good sense.",
+        "es": "La calumnia malintencionada es despiadada; la discreción silenciosa acompaña al buen juicio."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-12"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "13",
+      "id": "proverbios11-msg-13",
+      "msg": {
+        "en": "A gadabout gossip can’t be trusted with a secret,\nbut someone of integrity won’t violate a confidence.",
+        "es": "Un chismoso entrometido no sabe guardar un secreto, pero alguien íntegro no traiciona una confidencia."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-13"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "14",
+      "id": "proverbios11-msg-14",
+      "msg": {
+        "en": "Without good direction, people lose their way;\nthe more wise counsel you follow, the better your chances.",
+        "es": "Sin buena dirección, la gente pierde el rumbo; cuantos más consejos sabios sigues, mejores son tus posibilidades."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-14"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "15",
+      "id": "proverbios11-msg-15",
+      "msg": {
+        "en": "Whoever makes deals with strangers is sure to get burned;\nif you keep a cool head, you’ll avoid rash bargains.",
+        "es": "Quien hace tratos con desconocidos seguramente saldrá quemado; si mantienes la cabeza fría, evitarás acuerdos impulsivos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-15"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "16",
+      "id": "proverbios11-msg-16",
+      "msg": {
+        "en": "A woman of gentle grace gets respect,\nbut men of rough violence grab for loot.",
+        "es": "Una mujer de gracia amable recibe respeto; los hombres violentos y brutales se apoderan del botín."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-16"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "17",
+      "id": "proverbios11-msg-17",
+      "msg": {
+        "en": "When you’re kind to others, you help yourself;\nwhen you’re cruel to others, you hurt yourself.",
+        "es": "Cuando eres bondadoso con otros, te haces bien a ti mismo; cuando eres cruel con otros, te haces daño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-17"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "18",
+      "id": "proverbios11-msg-18",
+      "msg": {
+        "en": "Bad work gets paid with a bad check;\ngood work gets solid pay.",
+        "es": "El trabajo malo se paga con un cheque sin fondos; el buen trabajo recibe una paga segura."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-18"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "19",
+      "id": "proverbios11-msg-19",
+      "msg": {
+        "en": "Take your stand with God’s loyal community and live,\nor chase after phantoms of evil and die.",
+        "es": "Mantente firme con la comunidad leal a Dios y vive; persigue los fantasmas del mal y muere."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-19"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "20",
+      "id": "proverbios11-msg-20",
+      "msg": {
+        "en": "GOD can’t stand deceivers,\nbut oh how he relishes integrity.",
+        "es": "DIOS no soporta a los engañadores, pero cuánto se deleita en la integridad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-20"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "21",
+      "id": "proverbios11-msg-21",
+      "msg": {
+        "en": "Count on this: The wicked won’t get off scot-free,\nand God’s loyal people will triumph.",
+        "es": "Puedes contar con esto: los malvados no se irán sin castigo, y el pueblo leal a Dios triunfará."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-21"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "22",
+      "id": "proverbios11-msg-22",
+      "msg": {
+        "en": "Like a gold ring in a pig’s snout\nis a beautiful face on an empty head.",
+        "es": "Como un anillo de oro en el hocico de un cerdo es un rostro hermoso en una cabeza vacía."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-22"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "23",
+      "id": "proverbios11-msg-23",
+      "msg": {
+        "en": "The desires of good people lead straight to the best,\nbut wicked ambition ends in angry frustration.",
+        "es": "Los deseos de la gente buena conducen directo a lo mejor; la ambición malvada termina en una frustración llena de ira."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-23"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "24",
+      "id": "proverbios11-msg-24",
+      "msg": {
+        "en": "The world of the generous gets larger and larger;\nthe world of the stingy gets smaller and smaller.",
+        "es": "El mundo de los generosos se hace cada vez más grande; el mundo de los tacaños se hace cada vez más pequeño."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-24"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "25",
+      "id": "proverbios11-msg-25",
+      "msg": {
+        "en": "The one who blesses others is abundantly blessed;\nthose who help others are helped.",
+        "es": "Quien bendice a otros recibe bendición abundante; quienes ayudan a otros reciben ayuda."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-25"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "26",
+      "id": "proverbios11-msg-26",
+      "msg": {
+        "en": "Curses on those who drive a hard bargain!\nBlessings on all who play fair and square!",
+        "es": "¡Maldiciones para quienes fuerzan un trato abusivo! ¡Bendiciones para todos los que juegan limpio y con justicia!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-26"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "27",
+      "id": "proverbios11-msg-27",
+      "msg": {
+        "en": "The one who seeks good finds delight;\nthe student of evil becomes evil.",
+        "es": "Quien busca el bien encuentra deleite; el que estudia el mal termina volviéndose malo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-27"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "28",
+      "id": "proverbios11-msg-28",
+      "msg": {
+        "en": "A life devoted to things is a dead life, a stump;\na God-shaped life is a flourishing tree.",
+        "es": "Una vida dedicada a las cosas es una vida muerta, un tronco; una vida formada por Dios es un árbol floreciente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-28"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "29",
+      "id": "proverbios11-msg-29",
+      "msg": {
+        "en": "Exploit or abuse your family, and end up with a fistful of air;\ncommon sense tells you it’s a stupid way to live.",
+        "es": "Explota o maltrata a tu familia y terminarás con un puñado de aire; el sentido común te dice que es una manera necia de vivir."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-29"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "30",
+      "id": "proverbios11-msg-30",
+      "msg": {
+        "en": "A good life is a fruit-bearing tree;\na violent life destroys souls.",
+        "es": "Una buena vida es un árbol que da fruto; una vida violenta destruye almas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-30"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "31",
+      "id": "proverbios11-msg-31",
+      "msg": {
+        "en": "If good people barely make it,\nwhat’s in store for the bad!",
+        "es": "Si la gente buena apenas sale adelante, ¿qué les espera a los malos?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios11-nbla-31"
+        }
+      ],
+      "order": 31
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-01a",
+          "order": 1,
+          "text": "La balanza falsa es abominación al SEÑOR,"
+        },
+        {
+          "id": "proverbios11-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero el peso cabal es Su deleite."
+        }
+      ],
+      "id": "proverbios11-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "proverbios11-nbla-02",
+      "number": 2,
+      "text": "Cuando viene la soberbia, viene también la deshonra;\nPero la sabiduría está con los humildes."
+    },
+    {
+      "id": "proverbios11-nbla-03",
+      "number": 3,
+      "text": "La integridad de los rectos los guiará,\nPero la perversidad de los traidores los destruirá."
+    },
+    {
+      "id": "proverbios11-nbla-04",
+      "number": 4,
+      "text": "De nada sirven las riquezas el día de la ira,\nPero la justicia libra de la muerte."
+    },
+    {
+      "id": "proverbios11-nbla-05",
+      "number": 5,
+      "text": "La justicia del íntegro enderezará su camino,\nPero el impío caerá por su propia impiedad."
+    },
+    {
+      "id": "proverbios11-nbla-06",
+      "number": 6,
+      "text": "La justicia de los rectos los librará,\nPero los traidores en su codicia serán atrapados."
+    },
+    {
+      "id": "proverbios11-nbla-07",
+      "number": 7,
+      "text": "Cuando muere el hombre impío, su esperanza se acaba,\nY la expectación de los poderosos perece."
+    },
+    {
+      "id": "proverbios11-nbla-08",
+      "number": 8,
+      "text": "El justo es librado de tribulación,\nY el impío toma su lugar."
+    },
+    {
+      "id": "proverbios11-nbla-09",
+      "number": 9,
+      "text": "Con la boca el impío destruye a su prójimo,\nPero por el conocimiento los justos serán librados."
+    },
+    {
+      "id": "proverbios11-nbla-10",
+      "number": 10,
+      "text": "Con el bien de los justos, se regocija la ciudad,\nY cuando perecen los impíos, hay gritos de alegría."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-11a",
+          "order": 1,
+          "text": "Por la bendición de los rectos, se enaltece la ciudad,"
+        },
+        {
+          "id": "proverbios11-nbla-11b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero por la boca de los impíos, es derribada."
+        }
+      ],
+      "id": "proverbios11-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "proverbios11-nbla-12",
+      "number": 12,
+      "text": "El que desprecia a su prójimo carece de entendimiento,\nPero el hombre prudente guarda silencio."
+    },
+    {
+      "id": "proverbios11-nbla-13",
+      "number": 13,
+      "text": "El que anda en chismes revela secretos,\nPero el de espíritu leal oculta las cosas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-14a",
+          "order": 1,
+          "text": "Donde no hay buen consejo, el pueblo cae,"
+        },
+        {
+          "id": "proverbios11-nbla-14b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero en la abundancia de consejeros está la victoria."
+        }
+      ],
+      "id": "proverbios11-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "proverbios11-nbla-15",
+      "number": 15,
+      "text": "Ciertamente sufrirá el que sale fiador por un extraño,\nPero el que odia salir fiador está seguro."
+    },
+    {
+      "id": "proverbios11-nbla-16",
+      "number": 16,
+      "text": "La mujer agraciada alcanza honra,\nY los poderosos alcanzan riquezas."
+    },
+    {
+      "id": "proverbios11-nbla-17",
+      "number": 17,
+      "text": "El hombre misericordioso se hace bien a sí mismo,\nPero el cruel a sí mismo se hace daño."
+    },
+    {
+      "id": "proverbios11-nbla-18",
+      "number": 18,
+      "text": "El impío gana salario engañoso,\nPero el que siembra justicia recibe verdadera recompensa."
+    },
+    {
+      "id": "proverbios11-nbla-19",
+      "number": 19,
+      "text": "El que persiste en la justicia alcanzará la vida,\nY el que va en pos del mal, su propia muerte."
+    },
+    {
+      "id": "proverbios11-nbla-20",
+      "number": 20,
+      "text": "Los de corazón perverso son abominación al SEÑOR,\nPero los de camino intachable son Su deleite."
+    },
+    {
+      "id": "proverbios11-nbla-21",
+      "number": 21,
+      "text": "Ciertamente el malvado no quedará sin castigo,\nPero la descendencia de los justos será librada."
+    },
+    {
+      "id": "proverbios11-nbla-22",
+      "number": 22,
+      "text": "Como anillo de oro en el hocico de un cerdo\nEs la mujer hermosa que carece de discreción."
+    },
+    {
+      "id": "proverbios11-nbla-23",
+      "number": 23,
+      "text": "El deseo de los justos es solo el bien,\nPero la esperanza de los malvados es la ira."
+    },
+    {
+      "id": "proverbios11-nbla-24",
+      "number": 24,
+      "text": "Hay quien reparte, y le es añadido más,\nY hay quien retiene lo que es justo, solo para venir a menos."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-25a",
+          "order": 1,
+          "text": "El alma generosa será prosperada,"
+        },
+        {
+          "id": "proverbios11-nbla-25b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el que riega será también regado."
+        }
+      ],
+      "id": "proverbios11-nbla-25",
+      "number": 25
+    },
+    {
+      "id": "proverbios11-nbla-26",
+      "number": 26,
+      "text": "Al que retiene el grano, el pueblo lo maldecirá,\nPero habrá bendición sobre la cabeza del que lo vende."
+    },
+    {
+      "id": "proverbios11-nbla-27",
+      "number": 27,
+      "text": "El que con diligencia busca el bien, se procura favor,\nPero el que busca el mal, este le vendrá."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-28a",
+          "order": 1,
+          "text": "El que confía en sus riquezas, caerá,"
+        },
+        {
+          "id": "proverbios11-nbla-28b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Pero los justos prosperarán como la hoja verde."
+        }
+      ],
+      "id": "proverbios11-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "proverbios11-nbla-29",
+      "number": 29,
+      "text": "El que turba su casa, heredará viento,\nY el necio será siervo del sabio de corazón."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios11-nbla-30a",
+          "order": 1,
+          "text": "El fruto del justo es árbol de vida,"
+        },
+        {
+          "id": "proverbios11-nbla-30b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y el que gana almas es sabio."
+        }
+      ],
+      "id": "proverbios11-nbla-30",
+      "number": 30
+    },
+    {
+      "id": "proverbios11-nbla-31",
+      "number": 31,
+      "text": "Si el justo es recompensado en la tierra,\n¡Cuánto más el impío y el pecador!"
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

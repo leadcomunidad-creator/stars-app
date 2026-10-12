@@ -1,0 +1,628 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La sabiduría bíblica forma un carácter marcado por amor leal y verdad. NBLA nombra misericordia y verdad; MSG convierte la exhortación en una imagen de agarre: no soltarlas. La fuerza pastoral está en mostrar que estas virtudes deben permanecer adheridas a la vida, pero el contenido teológico lo fija NBLA: fidelidad y verdad delante de Dios y del prójimo.",
+      "id": "proverbios3-joya-01",
+      "msg": {
+        "en": "\"Don’t lose your grip on Love and Loyalty.\"",
+        "es": "\"No sueltes el Amor y la Lealtad.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-03a"
+          ],
+          "verseId": "proverbios3-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "El centro del pasaje es una confianza completa en el SEÑOR. NBLA establece el alcance: «con todo tu corazón». MSG lo vuelve corporal y cercano: «desde el fondo de tu corazón». La frase no manda apagar la razón; el verso siguiente limita la autosuficiencia y llama a reconocer a Dios como la referencia decisiva del camino.",
+      "id": "proverbios3-joya-02",
+      "msg": {
+        "en": "\"Trust GOD from the bottom of your heart;\"",
+        "es": "\"Confía en DIOS desde el fondo de tu corazón;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-05a"
+          ],
+          "verseId": "proverbios3-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "5-12"
+    },
+    {
+      "explanation": "La corrección divina es presentada dentro de una relación de amor, no como capricho. NBLA sostiene explícitamente que el SEÑOR ama a quien reprende; MSG lo expresa en lenguaje filial. Esto no autoriza a llamar disciplina divina a todo sufrimiento ni a usar el dolor para acusar a otros. El punto del texto es que la corrección de Dios puede formar a quienes Él ama.",
+      "id": "proverbios3-joya-03",
+      "msg": {
+        "en": "\"It’s the child he loves that GOD corrects;\"",
+        "es": "\"DIOS corrige al hijo que ama;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-12a"
+          ],
+          "verseId": "proverbios3-nbla-12"
+        }
+      ],
+      "order": 3,
+      "range": "5-12"
+    },
+    {
+      "explanation": "La sabiduría es descrita como árbol de vida porque conduce hacia la plenitud que corresponde al orden de Dios. NBLA confirma la metáfora y MSG intensifica su cercanía. La imagen conecta canónicamente con el árbol de vida de Génesis, pero aquí no convierte a la Sabiduría personificada en un ser divino separado: es poesía sapiencial que celebra el poder vivificador de vivir según Dios.",
+      "id": "proverbios3-joya-04",
+      "msg": {
+        "en": "\"She’s the very Tree of Life to those who embrace her.\"",
+        "es": "\"Ella es el verdadero Árbol de Vida para quienes la abrazan.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-18a"
+          ],
+          "verseId": "proverbios3-nbla-18"
+        }
+      ],
+      "order": 4,
+      "range": "13-18"
+    },
+    {
+      "explanation": "La sabiduría tiene peso porque el mismo Dios crea sabiamente. NBLA es la ancla: el sujeto es el SEÑOR y la sabiduría describe Su manera de fundar la tierra. MSG personifica esa sabiduría para hacerla memorable. La personificación no debe transformarse en una afirmación ontológica que el texto literal no hace.",
+      "id": "proverbios3-joya-05",
+      "msg": {
+        "en": "\"With Lady Wisdom, GOD formed Earth;\"",
+        "es": "\"Con Dama Sabiduría, DIOS formó la Tierra;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-19a"
+          ],
+          "verseId": "proverbios3-nbla-19"
+        }
+      ],
+      "order": 5,
+      "range": "19-20"
+    },
+    {
+      "explanation": "La sabiduría se verifica en la disponibilidad para hacer el bien. NBLA habla de no retener aquello que corresponde al prójimo; MSG lo presenta como no alejarse de quien necesita ayuda. La conclusión no es una obligación indiscriminada de resolver toda necesidad, sino una responsabilidad concreta: cuando el bien es debido y está en nuestra mano hacerlo, posponerlo puede convertirse en injusticia.",
+      "id": "proverbios3-joya-06",
+      "msg": {
+        "en": "\"Never walk away from someone who deserves help;\"",
+        "es": "\"Nunca te alejes de alguien que merece ayuda;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios3-nbla-27a"
+          ],
+          "verseId": "proverbios3-nbla-27"
+        }
+      ],
+      "order": 6,
+      "range": "27-29"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 3,
+    "studyId": "proverbios-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "proverbios3-msg-01",
+      "msg": {
+        "en": "Good friend, don’t forget all I’ve taught you;\ntake to heart my commands.\nThey’ll help you live a long, long time,\na long life lived full and well.",
+        "es": "Buen amigo, no olvides todo lo que te he enseñado;\ntoma en serio mis mandamientos.\nTe ayudarán a vivir mucho, mucho tiempo,\nuna vida larga, plena y bien vivida."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "proverbios3-msg-02",
+      "msg": {
+        "en": "Don’t lose your grip on Love and Loyalty.\nTie them around your neck; carve their initials on your heart.\nEarn a reputation for living well\nin God’s eyes and the eyes of the people.",
+        "es": "No sueltes el Amor y la Lealtad.\nÁtalos a tu cuello; graba sus iniciales en tu corazón.\nGánate la reputación de vivir bien\nante los ojos de Dios y de la gente."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-12",
+      "id": "proverbios3-msg-03",
+      "msg": {
+        "en": "Trust GOD from the bottom of your heart;\ndon’t try to figure out everything on your own.\nListen for GOD’S voice in everything you do, everywhere you go;\nhe’s the one who will keep you on track.\nDon’t assume that you know it all.\nRun to GOD! Run from evil!\nYour body will glow with health,\nyour very bones will vibrate with life!\nHonor GOD with everything you own;\ngive him the first and the best.\nYour barns will burst,\nyour wine vats will brim over.\nBut don’t, dear friend, resent GOD’S discipline;\ndon’t sulk under his loving correction.\nIt’s the child he loves that GOD corrects;\na father’s delight is behind all this.",
+        "es": "Confía en DIOS desde el fondo de tu corazón;\nno intentes descifrarlo todo por tu cuenta.\nEscucha la voz de DIOS en todo lo que haces, vayas donde vayas;\nÉl es quien te mantendrá en el camino.\nNo supongas que lo sabes todo.\n¡Corre hacia DIOS! ¡Huye del mal!\nTu cuerpo rebosará salud,\n¡hasta tus huesos vibrarán de vida!\nHonra a DIOS con todo lo que posees;\ndale lo primero y lo mejor.\nTus graneros rebosarán,\ntus lagares se desbordarán.\nPero, querido amigo, no te enfades con la disciplina de DIOS;\nno te encierres en el resentimiento ante su corrección amorosa.\nDIOS corrige al hijo que ama;\ndetrás de todo esto está el deleite de un padre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-18",
+      "id": "proverbios3-msg-04",
+      "msg": {
+        "en": "You’re blessed when you meet Lady Wisdom,\nwhen you make friends with Madame Insight.\nShe’s worth far more than money in the bank;\nher friendship is better than a big salary.\nHer value exceeds all the trappings of wealth;\nnothing you could wish for holds a candle to her.\nWith one hand she gives long life,\nwith the other she confers recognition.\nHer manner is beautiful,\nher life wonderfully complete.\nShe’s the very Tree of Life to those who embrace her.\nHold her tight—and be blessed!",
+        "es": "Eres bendecido cuando encuentras a Dama Sabiduría,\ncuando te haces amigo de Doña Perspicacia.\nElla vale mucho más que dinero en el banco;\nsu amistad es mejor que un gran salario.\nSu valor supera todos los adornos de la riqueza;\nnada que puedas desear se le compara.\nCon una mano da larga vida,\ncon la otra concede reconocimiento.\nSus maneras son hermosas,\nsu vida maravillosamente plena.\nElla es el verdadero Árbol de Vida para quienes la abrazan.\nAférrate a ella—¡y sé bendecido!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-18"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "proverbios3-msg-05",
+      "msg": {
+        "en": "With Lady Wisdom, GOD formed Earth;\nwith Madame Insight, he raised Heaven.\nThey knew when to signal rivers and springs to the surface,\nand dew to descend from the night skies.",
+        "es": "Con Dama Sabiduría, DIOS formó la Tierra;\ncon Doña Perspicacia, levantó el Cielo.\nEllas sabían cuándo hacer brotar ríos y manantiales a la superficie,\ny cuándo hacer descender el rocío del cielo nocturno."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-20"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "21-26",
+      "id": "proverbios3-msg-06",
+      "msg": {
+        "en": "Dear friend, guard Clear Thinking and Common Sense with your life;\ndon’t for a minute lose sight of them.\nThey’ll keep your soul alive and well,\nthey’ll keep you fit and attractive.\nYou’ll travel safely,\nyou’ll neither tire nor trip.\nYou’ll take afternoon naps without a worry,\nyou’ll enjoy a good night’s sleep.\nNo need to panic over alarms or surprises,\nor predictions that doomsday’s just around the corner,\nBecause GOD will be right there with you;\nhe’ll keep you safe and sound.",
+        "es": "Querido amigo, protege con tu vida el pensamiento claro y el sentido común;\nno los pierdas de vista ni por un minuto.\nMantendrán tu alma viva y sana,\nte mantendrán en buena forma y con buen aspecto.\nViajarás seguro,\nsin agotarte ni tropezar.\nPodrás tomar una siesta sin preocupación,\ndisfrutarás de un buen sueño por la noche.\nNo hay necesidad de entrar en pánico por alarmas o sorpresas,\nni por predicciones de que el fin del mundo está a la vuelta de la esquina,\nporque DIOS estará justo allí contigo;\nÉl te mantendrá seguro y a salvo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-26"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "27-29",
+      "id": "proverbios3-msg-07",
+      "msg": {
+        "en": "Never walk away from someone who deserves help;\nyour hand is God’s hand for that person.\nDon’t tell your neighbor “Maybe some other time”\nor “Try me tomorrow”\nwhen the money’s right there in your pocket.\nDon’t figure ways of taking advantage of your neighbor\nwhen he’s sitting there trusting and unsuspecting.",
+        "es": "Nunca te alejes de alguien que merece ayuda;\ntu mano es la mano de Dios para esa persona.\nNo le digas a tu prójimo «Quizá en otro momento»\no «Vuelve mañana»\ncuando tienes el dinero justo ahí en el bolsillo.\nNo planees cómo aprovecharte de tu prójimo\ncuando está ahí, confiando en ti y sin sospechar nada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-29"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "30-32",
+      "id": "proverbios3-msg-08",
+      "msg": {
+        "en": "Don’t walk around with a chip on your shoulder,\nalways spoiling for a fight.\nDon’t try to be like those who shoulder their way through life.\nWhy be a bully?\n“Why not?” you say. Because GOD can’t stand twisted souls.\nIt’s the straightforward who get his respect.",
+        "es": "No andes con resentimiento a cuestas,\nsiempre buscando pelea.\nNo intentes ser como quienes se abren paso por la vida a empujones.\n¿Por qué ser un abusivo?\n«¿Y por qué no?», dices. Porque DIOS no soporta a las personas torcidas.\nLos rectos son quienes reciben Su respeto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-32"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "33-35",
+      "id": "proverbios3-msg-09",
+      "msg": {
+        "en": "GOD’S curse blights the house of the wicked,\nbut he blesses the home of the righteous.\nHe gives proud skeptics a cold shoulder,\nbut if you’re down on your luck, he’s right there to help.\nWise living gets rewarded with honor;\nstupid living gets the booby prize.",
+        "es": "La maldición de DIOS marchita la casa del malvado,\npero Él bendice el hogar del justo.\nA los orgullosos y escépticos les da la espalda,\npero si estás pasando por tiempos difíciles, Él está allí para ayudarte.\nLa vida sabia recibe honra;\nla vida necia se lleva el premio de la vergüenza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios3-nbla-35"
+        }
+      ],
+      "order": 9
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "proverbios3-nbla-01",
+      "number": 1,
+      "text": "Hijo mío, no te olvides de mi enseñanza,\nY tu corazón guarde mis mandamientos,"
+    },
+    {
+      "id": "proverbios3-nbla-02",
+      "number": 2,
+      "text": "Porque largura de días y años de vida\nY paz te añadirán."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-03a",
+          "order": 1,
+          "text": "La misericordia y la verdad nunca se aparten de ti;"
+        },
+        {
+          "id": "proverbios3-nbla-03b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Átalas a tu cuello,\nEscríbelas en la tabla de tu corazón."
+        }
+      ],
+      "id": "proverbios3-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "proverbios3-nbla-04",
+      "number": 4,
+      "text": "Así hallarás favor y buena estimación\nAnte los ojos de Dios y de los hombres."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-05a",
+          "order": 1,
+          "text": "Confía en el SEÑOR con todo tu corazón,"
+        },
+        {
+          "id": "proverbios3-nbla-05b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y no te apoyes en tu propio entendimiento."
+        }
+      ],
+      "id": "proverbios3-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "proverbios3-nbla-06",
+      "number": 6,
+      "text": "Reconócelo en todos tus caminos,\nY Él enderezará tus sendas."
+    },
+    {
+      "id": "proverbios3-nbla-07",
+      "number": 7,
+      "text": "No seas sabio a tus propios ojos;\nTeme al SEÑOR y apártate del mal."
+    },
+    {
+      "id": "proverbios3-nbla-08",
+      "number": 8,
+      "text": "Será medicina para tu cuerpo\nY alivio para tus huesos."
+    },
+    {
+      "id": "proverbios3-nbla-09",
+      "number": 9,
+      "text": "Honra al SEÑOR con tus bienes\nY con las primicias de todos tus frutos;"
+    },
+    {
+      "id": "proverbios3-nbla-10",
+      "number": 10,
+      "text": "Entonces tus graneros se llenarán con abundancia\nY tus lagares rebosarán de vino nuevo."
+    },
+    {
+      "id": "proverbios3-nbla-11",
+      "number": 11,
+      "text": "Hijo mío, no rechaces la disciplina del SEÑOR\nNi aborrezcas Su reprensión,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-12a",
+          "order": 1,
+          "text": "Porque el SEÑOR ama a quien reprende,"
+        },
+        {
+          "id": "proverbios3-nbla-12b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Como un padre al hijo en quien se deleita."
+        }
+      ],
+      "id": "proverbios3-nbla-12",
+      "number": 12
+    },
+    {
+      "id": "proverbios3-nbla-13",
+      "number": 13,
+      "text": "Bienaventurado el hombre que halla sabiduría\nY el hombre que adquiere entendimiento."
+    },
+    {
+      "id": "proverbios3-nbla-14",
+      "number": 14,
+      "text": "Porque su ganancia es mejor que la ganancia de la plata,\nY sus utilidades mejor que el oro fino."
+    },
+    {
+      "id": "proverbios3-nbla-15",
+      "number": 15,
+      "text": "Es más preciosa que las joyas,\nY nada de lo que deseas se compara con ella."
+    },
+    {
+      "id": "proverbios3-nbla-16",
+      "number": 16,
+      "text": "Larga vida hay en su mano derecha,\nEn su mano izquierda, riquezas y honra."
+    },
+    {
+      "id": "proverbios3-nbla-17",
+      "number": 17,
+      "text": "Sus caminos son caminos agradables\nY todas sus sendas, paz."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-18a",
+          "order": 1,
+          "text": "Es árbol de vida para los que echan mano de ella,"
+        },
+        {
+          "id": "proverbios3-nbla-18b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y felices son los que la abrazan."
+        }
+      ],
+      "id": "proverbios3-nbla-18",
+      "number": 18
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-19a",
+          "order": 1,
+          "text": "Con sabiduría fundó el SEÑOR la tierra,"
+        },
+        {
+          "id": "proverbios3-nbla-19b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Con inteligencia estableció los cielos."
+        }
+      ],
+      "id": "proverbios3-nbla-19",
+      "number": 19
+    },
+    {
+      "id": "proverbios3-nbla-20",
+      "number": 20,
+      "text": "Con su conocimiento los abismos fueron divididos\nY los cielos destilan rocío."
+    },
+    {
+      "id": "proverbios3-nbla-21",
+      "number": 21,
+      "text": "Hijo mío, no se aparten estas cosas de tus ojos;\nGuarda la prudencia y la discreción,"
+    },
+    {
+      "id": "proverbios3-nbla-22",
+      "number": 22,
+      "text": "Y serán vida para tu alma\nY adorno para tu cuello."
+    },
+    {
+      "id": "proverbios3-nbla-23",
+      "number": 23,
+      "text": "Entonces andarás con seguridad por tu camino,\nY tu pie no tropezará."
+    },
+    {
+      "id": "proverbios3-nbla-24",
+      "number": 24,
+      "text": "Cuando te acuestes no tendrás temor,\nSí, te acostarás y será dulce tu sueño."
+    },
+    {
+      "id": "proverbios3-nbla-25",
+      "number": 25,
+      "text": "No temerás el pavor repentino,\nNi el ataque de los impíos cuando venga,"
+    },
+    {
+      "id": "proverbios3-nbla-26",
+      "number": 26,
+      "text": "Porque el SEÑOR será tu confianza,\nY guardará tu pie de ser apresado."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios3-nbla-27a",
+          "order": 1,
+          "text": "No niegues el bien a quien se le debe,"
+        },
+        {
+          "id": "proverbios3-nbla-27b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Cuando esté en tu mano el hacerlo."
+        }
+      ],
+      "id": "proverbios3-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "proverbios3-nbla-28",
+      "number": 28,
+      "text": "No digas a tu prójimo: «Ve y vuelve,\nY mañana te lo daré»,\nCuando lo tienes contigo."
+    },
+    {
+      "id": "proverbios3-nbla-29",
+      "number": 29,
+      "text": "No trames el mal contra tu prójimo,\nMientras habite seguro a tu lado."
+    },
+    {
+      "id": "proverbios3-nbla-30",
+      "number": 30,
+      "text": "No pelees con nadie sin motivo,\nSi no te ha hecho daño."
+    },
+    {
+      "id": "proverbios3-nbla-31",
+      "number": 31,
+      "text": "No envidies al hombre violento,\nY no escojas ninguno de sus caminos."
+    },
+    {
+      "id": "proverbios3-nbla-32",
+      "number": 32,
+      "text": "Porque el hombre perverso es abominación para el SEÑOR;\nPero Él es amigo íntimo de los rectos."
+    },
+    {
+      "id": "proverbios3-nbla-33",
+      "number": 33,
+      "text": "La maldición del SEÑOR está sobre la casa del impío,\nPero Él bendice la morada del justo."
+    },
+    {
+      "id": "proverbios3-nbla-34",
+      "number": 34,
+      "text": "Ciertamente Él se burla de los burladores,\nPero da gracia a los afligidos."
+    },
+    {
+      "id": "proverbios3-nbla-35",
+      "number": 35,
+      "text": "El sabio heredará honra,\nPero los necios hacen resaltar su deshonra."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

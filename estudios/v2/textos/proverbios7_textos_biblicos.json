@@ -1,0 +1,482 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La instrucción protege cuando deja de ser información distante y se vuelve parte del corazón. NBLA habla de escribirla en la tabla del corazón; MSG conserva esa interiorización con una imagen cercana.",
+      "id": "proverbios7-joya-01",
+      "msg": {
+        "en": "\"Dear friend, do what I tell you;\"",
+        "es": "\"Querido amigo, haz lo que te digo;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios7-nbla-01a"
+          ],
+          "verseId": "proverbios7-nbla-01"
+        }
+      ],
+      "order": 1,
+      "range": "1-5"
+    },
+    {
+      "explanation": "El peligro se construye mediante una ruta concreta. El joven no aparece mágicamente atrapado: camina hacia el lugar donde la tentación lo espera. La sabiduría aprende a leer trayectorias.",
+      "id": "proverbios7-joya-02",
+      "msg": {
+        "en": "\"As I stood at the window of my house\"",
+        "es": "\"Estaba junto a la ventana de mi casa,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios7-nbla-06a"
+          ],
+          "verseId": "proverbios7-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-12"
+    },
+    {
+      "explanation": "La seducción puede vestirse de normalidad e incluso de lenguaje religioso. El texto obliga a discernir la integridad completa y no la apariencia aislada de piedad.",
+      "id": "proverbios7-joya-03",
+      "msg": {
+        "en": "\"She threw her arms around him and kissed him,\"",
+        "es": "\"Ella lo abrazó y lo besó,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios7-nbla-13a"
+          ],
+          "verseId": "proverbios7-nbla-13"
+        }
+      ],
+      "order": 3,
+      "range": "13-20"
+    },
+    {
+      "explanation": "La falta de discernimiento hace que una persona interprete como libertad lo que en realidad la está conduciendo a una trampa. NBLA y MSG coinciden en revelar el costo que el joven no ve.",
+      "id": "proverbios7-joya-04",
+      "msg": {
+        "en": "\"Soon she has him eating out of her hand,\"",
+        "es": "\"Pronto lo tiene comiendo de su mano,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios7-nbla-21a"
+          ],
+          "verseId": "proverbios7-nbla-21"
+        }
+      ],
+      "order": 4,
+      "range": "21-23"
+    },
+    {
+      "explanation": "El llamado final no es curiosidad sino distancia. La sabiduría toma en serio la fuerza de ciertos caminos y decide no jugar con aquello que amenaza la vida.",
+      "id": "proverbios7-joya-05",
+      "msg": {
+        "en": "\"So, friends, listen to me,\"",
+        "es": "\"Así que, amigos, escúchenme;\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "proverbios7-nbla-24a"
+          ],
+          "verseId": "proverbios7-nbla-24"
+        }
+      ],
+      "order": 5,
+      "range": "24-27"
+    }
+  ],
+  "meta": {
+    "book": "PROVERBIOS",
+    "bookId": "proverbios",
+    "chapter": 7,
+    "studyId": "proverbios-7"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-5",
+      "id": "proverbios7-msg-01",
+      "msg": {
+        "en": "Dear friend, do what I tell you;\ntreasure my careful instructions.\nDo what I say and you’ll live well.\nMy teaching is as precious as your eyesight—guard it!\nWrite it out on the back of your hands;\netch it on the chambers of your heart.\nTalk to Wisdom as to a sister.\nTreat Insight as your companion.\nThey’ll be with you to fend off the Temptress—\nthat smooth-talking, honey-tongued Seductress.",
+        "es": "Querido amigo, haz lo que te digo;\natesora mis cuidadosas instrucciones.\nHaz lo que digo y vivirás bien.\nMi enseñanza es tan preciosa como tu vista: ¡protégela!\nEscríbela en el dorso de tus manos;\ngrábala en las habitaciones de tu corazón.\nHáblale a la Sabiduría como a una hermana.\nTrata al Entendimiento como tu compañero.\nEllos estarán contigo para mantener lejos a la Tentadora:\nesa Seductora de hablar suave y lengua de miel."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-05"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "6-12",
+      "id": "proverbios7-msg-02",
+      "msg": {
+        "en": "As I stood at the window of my house\nlooking out through the shutters,\nWatching the mindless crowd stroll by,\nI spotted a young man without any sense\nArriving at the corner of the street where she lived,\nthen turning up the path to her house.\nIt was dusk, the evening coming on,\nthe darkness thickening into night.\nJust then, a woman met him—\nshe’d been lying in wait for him, dressed to seduce him.\nBrazen and brash she was,\nrestless and roaming, never at home,\nWalking the streets, loitering in the mall,\nhanging out at every corner in town.",
+        "es": "Estaba junto a la ventana de mi casa,\nmirando hacia afuera por las persianas.\nMientras observaba pasar a la multitud sin juicio,\nvi a un joven sin ningún sentido\nllegar a la esquina de la calle donde ella vivía\ny luego tomar el camino hacia su casa.\nEra el atardecer, caía la noche,\nla oscuridad se hacía cada vez más densa.\nJusto entonces una mujer salió a su encuentro:\nhabía estado esperándolo, vestida para seducir.\nEra descarada y atrevida,\ninquieta y errante, nunca en casa,\ncaminando por las calles, rondando el centro comercial,\nmerodeando por cada esquina de la ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-12"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "13-20",
+      "id": "proverbios7-msg-03",
+      "msg": {
+        "en": "She threw her arms around him and kissed him,\nboldly took his arm and said,\n“I’ve got all the makings for a feast—\ntoday I made my offerings, my vows are all paid,\nSo now I’ve come to find you,\nhoping to catch sight of your face—and here you are!\nI’ve spread fresh, clean sheets on my bed,\ncolorful imported linens.\nMy bed is aromatic with spices\nand exotic fragrances.\nCome, let’s make love all night,\nspend the night in ecstatic lovemaking!\nMy husband’s not home; he’s away on business,\nand he won’t be back for a month.”",
+        "es": "Ella lo abrazó y lo besó,\nle tomó el brazo con descaro y dijo:\n«Tengo todo preparado para un banquete:\nhoy hice mis ofrendas, ya cumplí todos mis votos,\nasí que salí a buscarte,\nesperando encontrar tu rostro… ¡y aquí estás!\nHe tendido sobre mi cama sábanas frescas y limpias,\nlinos importados llenos de color.\nMi cama está perfumada con especias\ny fragancias exóticas.\nVen, hagamos el amor toda la noche,\npasemos la noche entregados al placer.\nMi esposo no está en casa; salió de viaje por negocios\ny no volverá en un mes»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-20"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "proverbios7-msg-04",
+      "msg": {
+        "en": "Soon she has him eating out of her hand,\nbewitched by her honeyed speech.\nBefore you know it, he’s trotting behind her,\nlike a calf led to the butcher shop,\nLike a stag lured into ambush\nand then shot with an arrow,\nLike a bird flying into a net\nnot knowing that its flying life is over.",
+        "es": "Pronto lo tiene comiendo de su mano,\nhechizado por su discurso endulzado.\nAntes de que se dé cuenta, va trotando detrás de ella,\ncomo un ternero llevado al matadero,\ncomo un ciervo atraído hacia una emboscada\ny luego atravesado por una flecha,\ncomo un ave que vuela hacia una red\nsin saber que su vida en vuelo está por terminar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-23"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "24-27",
+      "id": "proverbios7-msg-05",
+      "msg": {
+        "en": "So, friends, listen to me,\ntake these words of mine most seriously.\nDon’t fool around with a woman like that;\ndon’t even stroll through her neighborhood.\nCountless victims come under her spell;\nshe’s the death of many a poor man.\nShe runs a halfway house to hell,\nfits you out with a shroud and a coffin.",
+        "es": "Así que, amigos, escúchenme;\ntomen estas palabras mías con toda seriedad.\nNo jueguen con una mujer así;\nni siquiera paseen por su vecindario.\nInnumerables víctimas han caído bajo su hechizo;\nha sido la muerte de muchos pobres hombres.\nSu casa es una estación de paso hacia el infierno,\ndonde te preparan sudario y ataúd."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "proverbios7-nbla-27"
+        }
+      ],
+      "order": 5
+    }
+  ],
+  "nblaVerses": [
+    {
+      "clauses": [
+        {
+          "id": "proverbios7-nbla-01a",
+          "order": 1,
+          "text": "Hijo mío, guarda mis palabras"
+        },
+        {
+          "id": "proverbios7-nbla-01b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y atesora mis mandamientos contigo."
+        }
+      ],
+      "id": "proverbios7-nbla-01",
+      "number": 1
+    },
+    {
+      "id": "proverbios7-nbla-02",
+      "number": 2,
+      "text": "Guarda mis mandamientos y vivirás,\nY mi enseñanza como la niña de tus ojos."
+    },
+    {
+      "id": "proverbios7-nbla-03",
+      "number": 3,
+      "text": "Átalos a tus dedos,\nEscríbelos en la tabla de tu corazón."
+    },
+    {
+      "id": "proverbios7-nbla-04",
+      "number": 4,
+      "text": "Di a la sabiduría: «Tú eres mi hermana»,\nY llama a la inteligencia tu mejor amiga,"
+    },
+    {
+      "id": "proverbios7-nbla-05",
+      "number": 5,
+      "text": "Para que te guarden de la mujer extraña,\nDe la desconocida que lisonjea con sus palabras."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios7-nbla-06a",
+          "order": 1,
+          "text": "Porque desde la ventana de mi casa"
+        },
+        {
+          "id": "proverbios7-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Miraba por la celosía,"
+        }
+      ],
+      "id": "proverbios7-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "proverbios7-nbla-07",
+      "number": 7,
+      "text": "Y vi entre los simples,\nDistinguí entre los muchachos\nA un joven falto de juicio,"
+    },
+    {
+      "id": "proverbios7-nbla-08",
+      "number": 8,
+      "text": "Pasando por la calle, cerca de su esquina;\nIba camino de su casa,"
+    },
+    {
+      "id": "proverbios7-nbla-09",
+      "number": 9,
+      "text": "Al atardecer, al anochecer,\nEn medio de la noche y la oscuridad."
+    },
+    {
+      "id": "proverbios7-nbla-10",
+      "number": 10,
+      "text": "Entonces una mujer le sale al encuentro,\nVestida como ramera y astuta de corazón."
+    },
+    {
+      "id": "proverbios7-nbla-11",
+      "number": 11,
+      "text": "Es alborotadora y rebelde,\nSus pies no permanecen en casa;"
+    },
+    {
+      "id": "proverbios7-nbla-12",
+      "number": 12,
+      "text": "Está ya en las calles, ya en las plazas,\nY acecha por todas las esquinas."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios7-nbla-13a",
+          "order": 1,
+          "text": "Así que ella lo agarra y lo besa,"
+        },
+        {
+          "id": "proverbios7-nbla-13b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y descarada le dice:"
+        }
+      ],
+      "id": "proverbios7-nbla-13",
+      "number": 13
+    },
+    {
+      "id": "proverbios7-nbla-14",
+      "number": 14,
+      "text": "«Tenía que ofrecer ofrendas de paz,\nY hoy he cumplido mis votos;"
+    },
+    {
+      "id": "proverbios7-nbla-15",
+      "number": 15,
+      "text": "Por eso he salido a encontrarte,\nBuscando tu rostro con ansiedad, y te he hallado."
+    },
+    {
+      "id": "proverbios7-nbla-16",
+      "number": 16,
+      "text": "He tendido mi lecho con colchas,\nCon linos de Egipto en colores."
+    },
+    {
+      "id": "proverbios7-nbla-17",
+      "number": 17,
+      "text": "He rociado mi cama\nCon mirra, áloes y canela."
+    },
+    {
+      "id": "proverbios7-nbla-18",
+      "number": 18,
+      "text": "Ven, embriaguémonos de amor hasta la mañana,\nDeleitémonos con caricias."
+    },
+    {
+      "id": "proverbios7-nbla-19",
+      "number": 19,
+      "text": "Porque mi marido no está en casa,\nSe ha ido a un largo viaje;"
+    },
+    {
+      "id": "proverbios7-nbla-20",
+      "number": 20,
+      "text": "Se ha llevado en la mano la bolsa del dinero,\nVolverá a casa para la luna llena»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios7-nbla-21a",
+          "order": 1,
+          "text": "Con sus palabras persuasivas lo atrae,"
+        },
+        {
+          "id": "proverbios7-nbla-21b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Lo seduce con sus labios lisonjeros."
+        }
+      ],
+      "id": "proverbios7-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "proverbios7-nbla-22",
+      "number": 22,
+      "text": "Al instante la sigue\nComo va el buey al matadero,\nO como uno en grillos al castigo de un necio,"
+    },
+    {
+      "id": "proverbios7-nbla-23",
+      "number": 23,
+      "text": "Hasta que una flecha le traspasa el hígado;\nComo el ave que se precipita en la trampa,\nY no sabe que esto le costará la vida."
+    },
+    {
+      "clauses": [
+        {
+          "id": "proverbios7-nbla-24a",
+          "order": 1,
+          "text": "Ahora pues, hijos míos, escúchenme,"
+        },
+        {
+          "id": "proverbios7-nbla-24b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y presten atención a las palabras de mi boca."
+        }
+      ],
+      "id": "proverbios7-nbla-24",
+      "number": 24
+    },
+    {
+      "id": "proverbios7-nbla-25",
+      "number": 25,
+      "text": "No se desvíe tu corazón hacia sus caminos,\nNo te extravíes en sus sendas."
+    },
+    {
+      "id": "proverbios7-nbla-26",
+      "number": 26,
+      "text": "Porque muchas son las víctimas derribadas por ella,\nY numerosos los que ha matado."
+    },
+    {
+      "id": "proverbios7-nbla-27",
+      "number": 27,
+      "text": "Su casa es el camino al Seol,\nQue desciende a las cámaras de la muerte."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
