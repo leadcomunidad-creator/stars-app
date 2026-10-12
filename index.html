@@ -2854,10 +2854,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v6_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v7_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v6_vista = '1';
-      fbSet({novedades_contenido_v6_vista:'1'});
+      _userData.novedades_contenido_v7_vista = '1';
+      fbSet({novedades_contenido_v7_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -3988,7 +3988,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div style="padding:0 20px;display:flex;flex-direction:column;gap:12px">
 
       <!-- Word -->
-      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=wLc4lyBpFs03aLUr','_blank','noopener')"
+      <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=02ZlqoOk_IesBYq1','_blank','noopener')"
            style="background:var(--black3);border:1px solid var(--gold-border);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
            onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
            ontouchstart="this.style.background='rgba(201,168,76,0.08)'" ontouchend="this.style.background='var(--black3)'">
@@ -4002,7 +4002,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
 
       <!-- Spirit -->
-      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=49HRCf35LoPyRrDU','_blank','noopener')"
+      <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=1jHbojpNt8ASpWfm','_blank','noopener')"
            style="background:var(--black3);border:1px solid rgba(139,92,246,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
            onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
            ontouchstart="this.style.background='rgba(139,92,246,0.08)'" ontouchend="this.style.background='var(--black3)'">
@@ -4016,7 +4016,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
 
       <!-- Music -->
-      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=OwQ5PJJ40R-VPc4D','_blank','noopener')"
+      <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=nb6Kyg4BvVdezska','_blank','noopener')"
            style="background:var(--black3);border:1px solid rgba(20,184,166,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
            onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
            ontouchstart="this.style.background='rgba(20,184,166,0.08)'" ontouchend="this.style.background='var(--black3)'">
@@ -4030,7 +4030,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
 
       <!-- Work -->
-      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=CZEzvEcN8OAJht7-','_blank','noopener')"
+      <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=iSD6oExW_Jk3O65Z','_blank','noopener')"
            style="background:var(--black3);border:1px solid rgba(201,168,76,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
            onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
            ontouchstart="this.style.background='rgba(201,168,76,0.08)'" ontouchend="this.style.background='var(--black3)'">
@@ -4044,7 +4044,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
 
       <!-- Happy -->
-      <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=dUh9-FkM5NAodNlM','_blank','noopener')"
+      <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=3vGWSN461huId_-i','_blank','noopener')"
            style="background:var(--black3);border:1px solid rgba(251,146,60,0.28);border-radius:var(--radius);padding:20px 20px 18px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s"
            onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'"
            ontouchstart="this.style.background='rgba(251,146,60,0.08)'" ontouchend="this.style.background='var(--black3)'">
@@ -4401,16 +4401,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">De adentro hacia afuera</h2>
-    <p class="novedades-intro">Esta semana iniciamos un nuevo recorrido y ampliamos las formas de profundizar en la Escritura.</p>
+    <h2 class="novedades-title" id="novedades-title">¿Y si estábamos equivocados?</h2>
+    <p class="novedades-intro">¿Y si la distancia con Dios no siempre comienza al alejarnos, sino al creer que debemos merecer su amor? Esta semana volvemos a escuchar al Padre: no como un jefe que paga, sino como quien recibe a sus hijos.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Esta semana: renovar la mente desde la Verdad</div>
-        <p class="novedades-item-copy">Durante siete días recorreremos Romanos 12, Efesios 4, Colosenses 3 y 2 Corintios para descubrir que renovar la mente no es controlar los pensamientos ni exigirte una versión mejor de ti mismo. La renovación comienza con la misericordia de Dios y forma desde dentro una nueva manera de discernir y responder.</p>
+        <div class="novedades-item-title">Paso Diario: El amor no se gana</div>
+        <p class="novedades-item-copy">Esta semana seguimos el camino desde la exigencia hasta la confianza: la obediencia que se vuelve una cuenta, la gracia que nos devuelve al Padre, la libertad de acercarnos cuando fallamos y el amor que empieza en Dios. Para profundizar estarán disponibles Lucas 15, Efesios 2, Hebreos 4, Romanos 8, 1 Tesalonicenses 5 y 1 Juan 4.</p>
       </div>
     </div>
 
@@ -4419,8 +4419,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Nuevos estudios e introducciones disponibles</div>
-        <p class="novedades-item-copy">Zona Estudio ahora incluye 1 Crónicas, 2 Crónicas, Esdras, Nehemías y Ester. Cada libro cuenta con sus estudios por capítulo y una introducción visual para ayudarte a reconocer su contexto, su lugar en la historia bíblica y el hilo que lo recorre.</p>
+        <div class="novedades-item-title">Paso Profundo: Sabiduría para habitar la vida</div>
+        <p class="novedades-item-copy">Proverbios, Job, Eclesiastés y Cantares ya están disponibles con nuevas introducciones y 93 estudios. No ofrecen fórmulas rápidas: nos enseñan a temer al Señor, atravesar el sufrimiento sin respuestas fáciles, reconocer los límites de nuestro control y recibir el amor como un don.</p>
       </div>
     </div>
 
@@ -4429,8 +4429,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Estudia el capítulo de hoy desde la portada</div>
-        <p class="novedades-item-copy">En la pantalla principal encontrarás el botón «Estudiar capítulo de hoy». Te lleva directamente al estudio bíblico relacionado con el Paso Diario que estás recorriendo, para que puedas pasar de la lectura a una exploración más profunda sin tener que buscarlo manualmente.</p>
+        <div class="novedades-item-title">Mejoramos: Tu música, en su lugar</div>
+        <p class="novedades-item-copy">Actualizamos las listas Spirit, Happy, Word, Music y Work. Allí encontrarás música para orar, celebrar, acompañar la lectura bíblica, concentrarte mientras trabajas o simplemente disfrutar delante de Dios.</p>
       </div>
     </div>
 
@@ -4439,8 +4439,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Haz de S.T.A.R.S un espacio tuyo</div>
-        <p class="novedades-item-copy">Desde Configuración puedes adaptar la experiencia a tu manera de leer: ajusta el tamaño de letra, elige colores para la app y cambia el modo de visualización. Explora estas opciones para crear un espacio que te ayude a permanecer con calma y atención en la Escritura.</p>
+        <div class="novedades-item-title">¿Sabías que?: Del día al contexto</div>
+        <p class="novedades-item-copy">Cuando un pasaje del Paso Diario te abra una pregunta, usa el botón «Estudiar». Te lleva al estudio del capítulo correspondiente para ampliar el contexto y luego volver a la lectura sin perder el hilo.</p>
       </div>
     </div>
 
@@ -8443,8 +8443,8 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v6_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v6_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v7_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v7_pospuesta';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
 
@@ -11170,31 +11170,31 @@ function dskIlSec(btn, idx){
             <div style="font-size:0.875rem;font-weight:700;color:var(--white)">Playlists disponibles</div>
           </div>
           <div style="padding:0 16px;display:flex;flex-direction:column;gap:10px;padding-bottom:28px">
-            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=wLc4lyBpFs03aLUr','_blank','noopener')" style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+            <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlGKC_sDe5f-ZNAD9CN9b8OS&si=02ZlqoOk_IesBYq1','_blank','noopener')" style="background:var(--black3);border:1px solid var(--gold-border);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
               <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),transparent)"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:4px">Word</div>
               <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para escuchar la Palabra — canciones que acompañan la lectura y el estudio bíblico.</div>
             </div>
-            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=49HRCf35LoPyRrDU','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(139,92,246,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+            <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlHoq6h8EH2tiOqU4xCiS5Lk&si=1jHbojpNt8ASpWfm','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(139,92,246,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
               <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(139,92,246,0.8),transparent)"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#a78bfa;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#a78bfa;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#a78bfa;line-height:1;margin-bottom:4px">Spirit</div>
               <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para meditar y orar — música que crea atmósfera de encuentro con Dios.</div>
             </div>
-            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=OwQ5PJJ40R-VPc4D','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(20,184,166,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+            <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlF4k8iqgAbdaMMyScikbZWE&si=nb6Kyg4BvVdezska','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(20,184,166,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
               <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(20,184,166,0.8),transparent)"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#2dd4bf;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#2dd4bf;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#2dd4bf;line-height:1;margin-bottom:4px">Music</div>
               <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para disfrutar — música instrumental y vocal para cualquier momento del día.</div>
             </div>
-            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=CZEzvEcN8OAJht7-','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(201,168,76,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+            <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlE4lckbnviIr9q2ZtOD_rG5&si=iSD6oExW_Jk3O65Z','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(201,168,76,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
               <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(201,168,76,0.8),transparent)"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:var(--gold);font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold);opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:var(--gold);line-height:1;margin-bottom:4px">Work</div>
               <div style="font-size:0.625rem;color:var(--white3);line-height:1.5">Para enfocarse — lo que suena mientras se estudia, predica o trabaja.</div>
             </div>
-            <div onclick="window.open('https://music.youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=dUh9-FkM5NAodNlM','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(251,146,60,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
+            <div onclick="window.open('https://youtube.com/playlist?list=PLhpjqyFgOGlGK_Ybcy89Ek9BzVA-2SJQN&si=3vGWSN461huId_-i','_blank','noopener')" style="background:var(--black3);border:1px solid rgba(251,146,60,0.28);border-radius:10px;padding:14px 16px;cursor:pointer;position:relative;overflow:hidden;transition:background 0.18s" onmouseenter="this.style.background='var(--black4)'" onmouseleave="this.style.background='var(--black3)'">
               <div style="position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,rgba(251,146,60,0.8),transparent)"></div>
               <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px"><div style="font-size:0.4375rem;letter-spacing:0.18em;text-transform:uppercase;color:#fb923c;font-weight:700;opacity:0.75">Playlist · YouTube Music</div><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:#fb923c;opacity:0.6"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></div>
               <div style="font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600;color:#fb923c;line-height:1;margin-bottom:4px">Happy</div>
