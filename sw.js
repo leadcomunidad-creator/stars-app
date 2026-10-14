@@ -1,9 +1,9 @@
 /* ══════════════════════════════════════════════
-   S · T · A · R · S · Service Worker v46
+   S · T · A · R · S · Service Worker v47
    Activación inmediata y actualización al abrir o retomar la PWA
    JSON dinámicos: Network-first sin caché agresivo
 ══════════════════════════════════════════════ */
-const SW_VERSION = 'stars-v46';
+const SW_VERSION = 'stars-v47';
 const CACHE_NAME = SW_VERSION;
 const SHELL_FILES = [
   '/',
@@ -11,6 +11,8 @@ const SHELL_FILES = [
   '/manifest.json',
   '/logo-v2.png',
   '/logo-stars-lockup-crop.png',
+  '/icons/favicon.ico',
+  '/icons/favicon-32.png',
   '/icons/stars-favicon-v2.png',
   '/icons/apple-touch-icon-v2.png',
   '/icons/icon-192-v2.png',
