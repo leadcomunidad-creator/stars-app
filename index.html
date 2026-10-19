@@ -2856,10 +2856,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v7_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v8_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v7_vista = '1';
-      fbSet({novedades_contenido_v7_vista:'1'});
+      _userData.novedades_contenido_v8_vista = '1';
+      fbSet({novedades_contenido_v8_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4403,16 +4403,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">¿Y si estábamos equivocados?</h2>
-    <p class="novedades-intro">¿Y si la distancia con Dios no siempre comienza al alejarnos, sino al creer que debemos merecer su amor? Esta semana volvemos a escuchar al Padre: no como un jefe que paga, sino como quien recibe a sus hijos.</p>
+    <h2 class="novedades-title" id="novedades-title">La verdad que vuelve a ordenar</h2>
+    <p class="novedades-intro">Hay ideas que repetimos tanto que terminan pareciendo realidad: sobre nosotros, sobre Dios y sobre lo que es posible. Esta semana no vamos a negar lo que duele; vamos a aprender a mirarlo bajo la luz de la Verdad que Cristo ha dicho.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Paso Diario: El amor no se gana</div>
-        <p class="novedades-item-copy">Esta semana seguimos el camino desde la exigencia hasta la confianza: la obediencia que se vuelve una cuenta, la gracia que nos devuelve al Padre, la libertad de acercarnos cuando fallamos y el amor que empieza en Dios. Para profundizar estarán disponibles Lucas 15, Efesios 2, Hebreos 4, Romanos 8, 1 Tesalonicenses 5 y 1 Juan 4.</p>
+        <div class="novedades-item-title">Paso Diario: Reemplazar con la Verdad</div>
+        <p class="novedades-item-copy">Esta semana recorremos el camino desde las fortalezas que levantan nuestros pensamientos hasta la libertad que nace de permanecer en la palabra de Jesús.</p>
       </div>
     </div>
 
@@ -4421,8 +4421,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Paso Profundo: Sabiduría para habitar la vida</div>
-        <p class="novedades-item-copy">Proverbios, Job, Eclesiastés y Cantares ya están disponibles con nuevas introducciones y 93 estudios. No ofrecen fórmulas rápidas: nos enseñan a temer al Señor, atravesar el sufrimiento sin respuestas fáciles, reconocer los límites de nuestro control y recibir el amor como un don.</p>
+        <div class="novedades-item-title">Paso Profundo: Nuevas puertas para profundizar</div>
+        <p class="novedades-item-copy">Filipenses y 2 Pedro ya están completos en Paso Profundo. En sus capítulos encontrarás una invitación a reconocer la gracia que sostiene, la nueva vida que Cristo forma y una esperanza que no depende de nuestras fuerzas.</p>
       </div>
     </div>
 
@@ -4431,8 +4431,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Mejoramos: Tu música, en su lugar</div>
-        <p class="novedades-item-copy">Actualizamos las listas Spirit, Happy, Word, Music y Work. Allí encontrarás música para orar, celebrar, acompañar la lectura bíblica, concentrarte mientras trabajas o simplemente disfrutar delante de Dios.</p>
+        <div class="novedades-item-title">Mejoramos: Llegar al estudio sin interrupciones</div>
+        <p class="novedades-item-copy">Ajustamos la apertura de los estudios para que puedas pasar de una referencia al capítulo correspondiente y continuar profundizando sin perder el hilo de tu lectura.</p>
       </div>
     </div>
 
@@ -4441,8 +4441,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">¿Sabías que?: Del día al contexto</div>
-        <p class="novedades-item-copy">Cuando un pasaje del Paso Diario te abra una pregunta, usa el botón «Estudiar». Te lleva al estudio del capítulo correspondiente para ampliar el contexto y luego volver a la lectura sin perder el hilo.</p>
+        <div class="novedades-item-title">¿Sabías que?: Tu recorrido permanece</div>
+        <p class="novedades-item-copy">Cada estudio está organizado en diez estaciones. Puedes detenerte, volver después y continuar donde ibas; al terminar el recorrido, el capítulo queda marcado como leído.</p>
       </div>
     </div>
 
@@ -8445,8 +8445,8 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v7_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v7_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v8_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v8_pospuesta';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
 
@@ -9583,9 +9583,26 @@ function estudioV2RangoJoya(range){
   return String(range == null ? '' : range);
 }
 
+// La fuente editorial puede conservar el nombre del libro en mayúsculas para
+// control interno. En la cabecera del lector se muestra siempre con la misma
+// capitalización editorial de Lucas y Juan, sin modificar los JSON publicados.
+function estudioV2TituloLibro(libro){
+  const conectores = new Set(['de','del','la','las','los','y','e']);
+  return String(libro || '')
+    .trim()
+    .toLocaleLowerCase('es-CO')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((palabra, indice) => {
+      if(/^\d+$/.test(palabra) || (indice > 0 && conectores.has(palabra))) return palabra;
+      return palabra.charAt(0).toLocaleUpperCase('es-CO') + palabra.slice(1);
+    })
+    .join(' ');
+}
+
 function estudioV2Titulo(estudio){
   const meta = estudio && estudio.meta ? estudio.meta : {};
-  return (meta.book || '') + (meta.chapter ? ' ' + meta.chapter : '');
+  return estudioV2TituloLibro(meta.book) + (meta.chapter ? ' ' + meta.chapter : '');
 }
 
 function estudioV2SlugEstudio(estudio){
