@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>S.T.A.R.S. Landing</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;family=Outfit:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0a0a0a}
+a{text-decoration:none}
+a.btn-gold:hover{background:#e8c97a}
+a.btn-ghost:hover{border-color:#c9a84c;color:#e8c97a}
+a.nav-link:hover{color:#e8c97a}
+html{scroll-behavior:smooth}
+@keyframes starsGlow{0%,100%{text-shadow:0 0 10px rgba(201,168,76,0.30),0 0 30px rgba(201,168,76,0.18)}50%{text-shadow:0 0 18px rgba(232,201,122,0.85),0 0 54px rgba(201,168,76,0.55),0 0 110px rgba(201,168,76,0.35)}}
+@keyframes starsHalo{0%,100%{opacity:0.45;transform:scale(0.9)}50%{opacity:1;transform:scale(1.08)}}
+.stars-glow{animation:starsGlow 4.2s ease-in-out infinite}
+.stars-halo{animation:starsHalo 4.2s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.stars-glow,.stars-halo{animation:none}}
+.hdr{position:sticky;top:0;z-index:60;background:rgba(10,10,10,0.92);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(201,168,76,0.25)}
+.hbar{max-width:1180px;margin:0 auto;padding:8px 24px;min-height:62px;display:flex;align-items:center;justify-content:space-between;gap:12px 28px;box-sizing:border-box}
+.hbrand{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.hnav{display:flex;gap:6px 30px;font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase}
+.hnav a{color:#c8c0b0;padding:6px 0;transition:color .2s}
+.hnav a:hover{color:#e8c97a}
+.hnav a.cur{color:#e8c97a;text-decoration:underline;text-decoration-color:#c9a84c;text-decoration-thickness:2px;text-underline-offset:8px}
+.pb-m,.hburger,.hnav a.hcta-m,.hnav a.pb-extra{display:none}
+.hright{display:flex;align-items:center;gap:0.6rem}
+.hcta{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 22px;border-radius:999px;background:#c9a84c;color:#0a0a0a;font-size:14px;font-weight:600;letter-spacing:0;text-transform:none;white-space:nowrap;transition:background .2s}
+.hcta:hover{background:#e8c97a}
+.hburger{width:44px;height:44px;border:0;background:none;color:#f5f0e8;align-items:center;justify-content:center;cursor:pointer;padding:0;margin-right:-8px}
+@media(max-width:1099px){.hnav{gap:6px 20px;font-size:11.5px}}
+@media(max-width:899px){
+.hbar{flex-wrap:wrap;gap:0 10px;min-height:58px}
+.hcta-d{display:none}
+.hburger{display:inline-flex}
+.hnav{display:none;order:3;flex-basis:100%;flex-direction:column;gap:0;padding:6px 0 18px;font-size:13px;letter-spacing:0.08em}
+.hnav.open{display:flex}
+.hnav a{display:flex;align-items:center;justify-content:space-between;padding:16px 4px;border-bottom:1px solid rgba(201,168,76,0.25)}
+.hnav a::after{content:'\2192';color:#c9a84c;font-weight:400}
+.pb-d{display:none}.pb-m{display:inline}
+.hnav a.pb-extra{display:flex}
+.hnav a.cur{text-decoration:none;box-shadow:inset 3px 0 0 #c9a84c;padding-left:14px}
+.hnav a.hcta-m{display:inline-flex;justify-content:center;margin-top:18px;width:100%;border-bottom:0;padding:0 22px;color:#0a0a0a;letter-spacing:0;text-transform:none;font-size:14px}
+.hnav a.hcta-m::after{content:none}
+}
+.pf-wrap{max-width:1180px;margin:0 auto;padding:48px 24px 52px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:30px 48px;box-sizing:border-box}
+.pf-col{flex:1 1 300px;min-width:0}
+.pf-brand{display:flex;align-items:center;gap:14px}
+.pf-nav{flex:2 1 440px;min-width:0;display:flex;flex-wrap:wrap;gap:12px 28px;align-content:flex-start;font-size:12px;font-weight:700;letter-spacing:0.12em;text-transform:uppercase}
+.pf-nav a{color:#c8c0b0;transition:color .2s}
+.pf-nav a:hover{color:#e8c97a}
+.pf-nav a.cur{color:#e8c97a}
+</style>
+</helmet>
+<div style="background:#0a0a0a;color:#f5f0e8;font-family:'Outfit',system-ui,sans-serif;font-weight:300;line-height:1.7;width:100%;overflow-x:hidden">
+
+<!-- HEADER · barra El College -->
+<header class="hdr">
+<div class="hbar">
+<a class="hbrand" href="#top" aria-label="· S · T · A · R · S ·, inicio">
+<span aria-hidden="true" style="width:38px;height:38px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;line-height:1;color:#c9a84c">S</span>
+<span style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:19px;letter-spacing:0.14em;color:#e8c97a;white-space:nowrap">· S · T · A · R · S ·</span>
+</a>
+<nav class="hnav {{navCls}}" id="pbMenu" aria-label="Entradas del College">
+<a href="https://mayorquemirealidad.netlify.app/"><span class="pb-d">Temporada 2026</span><span class="pb-m">Mayor que mi realidad</span></a>
+<a class="cur" href="#top" aria-current="page">· S · T · A · R · S ·</a>
+<a href="https://thewaylhscol.netlify.app/">The Way</a>
+<a href="https://collegelhscol.netlify.app/#staff">Staff</a>
+<a href="https://bookclublhscol.netlify.app/">Bookclub</a>
+<a class="pb-extra" href="https://lhscolweb.netlify.app/">Volver a LHSCOL</a>
+<a class="hcta hcta-m" href="{{appUrl}}">Mis Pasos</a>
+</nav>
+<div class="hright">
+<a class="hcta hcta-d" href="{{appUrl}}">Mis Pasos</a>
+<button class="hburger" type="button" aria-label="Abrir o cerrar menú" aria-controls="pbMenu" onClick="{{toggleMenu}}">
+<sc-if value="{{menuOpen}}" hint-placeholder-val="{{ false }}"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></sc-if>
+<sc-if value="{{menuClosed}}" hint-placeholder-val="{{ true }}"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16M4 16h16"></path></svg></sc-if>
+</button>
+</div>
+</div>
+</header>
+<span id="top"></span>
+
+<!-- 1. PORTADA -->
+<div style="position:relative">
+<div style="max-width:960px;margin:0 auto;padding:clamp(48px,8vw,110px) 24px clamp(64px,10vw,130px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:28px">
+<div style="position:relative;display:flex;align-items:center;justify-content:center;width:100%;padding:clamp(24px,4vw,56px) 0 0">
+<div class="stars-halo" aria-hidden="true" style="position:absolute;left:50%;top:50%;width:min(900px,110%);height:clamp(140px,21vw,260px);margin-left:calc(min(900px,110%) / -2);margin-top:calc(clamp(140px,21vw,260px) / -2);background:radial-gradient(ellipse 50% 50% at 50% 50%,rgba(201,168,76,0.28),rgba(201,168,76,0.08) 55%,rgba(10,10,10,0) 75%);pointer-events:none"></div>
+<div class="stars-glow" style="position:relative;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(34px,7.6vw,108px);line-height:1;letter-spacing:0.12em;color:#e8c97a;white-space:nowrap;padding-left:0.12em">· S · T · A · R · S ·</div>
+</div>
+<p style="margin:0 0 clamp(48px,8vw,112px);font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:400;font-size:clamp(26px,3vw,40px);color:#e8c97a;line-height:1.25">Mayor que mi realidad es Su Verdad.</p>
+<h1 style="margin:0 0 -6px;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(24px,2.4vw,32px);line-height:1.25;letter-spacing:-0.01em;color:#f5f0e8">La Escritura puede ser más que algo que lees.</h1>
+<p style="margin:0;max-width:600px;font-size:clamp(15px,1.3vw,17px);line-height:1.7;color:#c8c0b0">· S · T · A · R · S · te acompaña a encontrarte con la Biblia de una manera clara, profunda y posible para tu vida real. No se trata solo de recibir información, sino de detenerte, escuchar, comprender y permitir que la verdad de Dios forme tu manera de vivir.</p>
+<div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:2px">
+<a class="btn-gold" href="{{appUrl}}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 30px;background:#c9a84c;color:#0a0a0a;border-radius:9px;font-weight:500;font-size:14px;letter-spacing:0.06em">Entrar a · S · T · A · R · S ·</a>
+<a class="btn-ghost" href="#metodo" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 30px;border:1px solid rgba(201,168,76,0.25);color:#f5f0e8;border-radius:9px;font-weight:400;font-size:14px;letter-spacing:0.06em">Conocer el método</a>
+</div>
+</div>
+</div>
+
+<!-- 2. QUÉ ES -->
+<div style="border-top:1px solid rgba(201,168,76,0.25)">
+<div style="max-width:1160px;margin:0 auto;padding:clamp(64px,9vw,120px) 24px clamp(56px,8vw,96px)">
+<div style="display:flex;flex-wrap:wrap;gap:clamp(36px,6vw,88px)">
+<div style="flex:1 1 440px;min-width:0">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#c9a84c;font-weight:500;margin-bottom:20px">Qué es · S · T · A · R · S ·</div>
+<h2 style="margin:0 0 24px;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(32px,4.4vw,52px);line-height:1.1">No es contenido para consumir. Es una forma de encontrarte con la Escritura.</h2>
+<p style="margin:0;font-size:17px;color:#c8c0b0">Muchas veces leemos rápido, escuchamos mucho y, aun así, no sabemos cómo llevar la verdad de Dios a lo que vivimos. · S · T · A · R · S · crea un espacio para volver al texto con atención, comprenderlo en su contexto y responder a él con honestidad.</p>
+</div>
+<div style="flex:1 1 380px;min-width:0;display:flex;flex-direction:column">
+<div style="padding-bottom:28px;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,3.4vw,40px);font-weight:500;color:#e8c97a;line-height:1.15">La Escritura está en el centro.</div>
+</div>
+<div style="padding:22px 0;border-bottom:1px solid rgba(201,168,76,0.25);font-size:17px;color:#c8c0b0">Aquí no buscamos producir culpa, religiosidad ni apariencia espiritual.</div>
+<div style="padding:22px 0;border-bottom:1px solid rgba(201,168,76,0.25);font-size:17px;color:#c8c0b0">La meta no es leer más por obligación, sino aprender a escuchar, comprender y vivir la verdad.</div>
+<div style="padding:22px 0 0;font-size:17px;color:#c8c0b0">Es para quien ya tiene recorrido cristiano, para quien está comenzando y para quien ha sido herido por la religión.</div>
+</div>
+</div>
+<figure style="margin:clamp(48px,7vw,88px) auto 0;max-width:820px;text-align:center">
+<blockquote style="margin:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:400;font-size:clamp(24px,3.2vw,36px);line-height:1.35;color:#f5f0e8">«Si permanecen en esto y viven lo que les digo, serán verdaderamente mis discípulos. Entonces experimentarán por ustedes mismos la verdad, y la verdad los hará libres».</blockquote>
+<figcaption style="margin-top:22px;font-size:13px;letter-spacing:0.24em;text-transform:uppercase;color:#c9a84c;font-weight:500">Juan 8:31-32 · MSG</figcaption>
+</figure>
+</div>
+</div>
+
+<!-- 3. MÉTODO -->
+<div id="metodo" style="background:#101010;border-top:1px solid rgba(201,168,76,0.25);border-bottom:1px solid rgba(201,168,76,0.25)">
+<div style="max-width:880px;margin:0 auto;padding:clamp(64px,9vw,120px) 24px">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#c9a84c;font-weight:500;margin-bottom:20px;text-align:center">El método · S · T · A · R · S ·</div>
+<h2 style="margin:0 auto 56px;max-width:720px;text-align:center;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(32px,4.4vw,52px);line-height:1.1">Cinco movimientos para pasar de la lectura a una respuesta real.</h2>
+
+<div style="border-top:1px solid rgba(201,168,76,0.25);display:grid;grid-auto-rows:1fr">
+<div style="display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:clamp(20px,4vw,40px);align-items:start;padding:36px 0;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div aria-hidden="true" style="width:72px;height:72px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1;color:#c9a84c">S</div>
+<div style="min-width:0">
+<h3 style="margin:0 0 10px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.1;color:#f5f0e8">Silencio</h3>
+<p style="margin:0 0 10px;font-size:17px;color:#c8c0b0">El paso S no es para calmarte — es para orientar tu atención antes de entrar al texto.</p>
+<p style="margin:0;font-size:17px;color:#c8c0b0">El silencio no es el relleno del método — es la puerta. Sin él, el texto entra al cerebro pero no al corazón.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:clamp(20px,4vw,40px);align-items:start;padding:36px 0;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div aria-hidden="true" style="width:72px;height:72px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1;color:#c9a84c">T</div>
+<div style="min-width:0">
+<h3 style="margin:0 0 10px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.1;color:#f5f0e8">Texto</h3>
+<p style="margin:0 0 10px;font-size:17px;color:#c8c0b0">Lees y contemplas la palabra.</p>
+<p style="margin:0;font-size:17px;color:#c8c0b0">El objetivo de las dos lecturas es simple: NBLA te da la precisión, MSG una experiencia.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:clamp(20px,4vw,40px);align-items:start;padding:36px 0;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div aria-hidden="true" style="width:72px;height:72px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1;color:#c9a84c">A</div>
+<div style="min-width:0">
+<h3 style="margin:0 0 10px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.1;color:#f5f0e8">Análisis</h3>
+<p style="margin:0 0 10px;font-size:17px;color:#c8c0b0">Meditas y comprendes la palabra como nunca antes.</p>
+<p style="margin:0;font-size:17px;color:#c8c0b0">Qué comunica el pasaje: su contexto, su movimiento y lo que revela acerca de Dios, de nosotros y de la vida.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:clamp(20px,4vw,40px);align-items:start;padding:36px 0;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div aria-hidden="true" style="width:72px;height:72px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1;color:#c9a84c">R</div>
+<div style="min-width:0">
+<h3 style="margin:0 0 10px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.1;color:#f5f0e8">Reflexión</h3>
+<p style="margin:0;font-size:17px;color:#c8c0b0">Permitir que la verdad confronte, ilumine y reordene lo que estás viviendo.</p>
+</div>
+</div>
+<div style="display:grid;grid-template-columns:72px minmax(0,1fr);column-gap:clamp(20px,4vw,40px);align-items:start;padding:36px 0;border-bottom:1px solid rgba(201,168,76,0.25)">
+<div aria-hidden="true" style="width:72px;height:72px;box-sizing:border-box;border:1px solid rgba(201,168,76,0.25);background:rgba(201,168,76,0.12);border-radius:9px;display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:600;line-height:1;color:#c9a84c">S</div>
+<div style="min-width:0">
+<h3 style="margin:0 0 10px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:34px;line-height:1.1;color:#f5f0e8">Siembra</h3>
+<p style="margin:0 0 10px;font-size:17px;color:#c8c0b0">Traducir lo comprendido en una práctica concreta, posible y coherente.</p>
+<p style="margin:0;font-size:17px;color:#c8c0b0">No predicas de lo que estudiaste ayer — predicas de lo que llevas años sembrando.</p>
+</div>
+</div>
+</div>
+
+<figure style="margin:clamp(48px,7vw,80px) auto 0;max-width:720px;text-align:center">
+<blockquote style="margin:0;font-family:'Cormorant Garamond',serif;font-style:italic;font-weight:400;font-size:clamp(22px,3vw,32px);line-height:1.4;color:#f5f0e8">«Cuando tus palabras aparecieron, las comí — me las tragué enteras. ¡Qué banquete! ¡Qué delicia sentí al ser tuyo, oh Dios, Dios-de-los-Ejércitos-Celestiales!»</blockquote>
+<figcaption style="margin-top:22px;font-size:13px;letter-spacing:0.24em;text-transform:uppercase;color:#c9a84c;font-weight:500">Jeremías 15:16 · MSG</figcaption>
+</figure>
+</div>
+</div>
+
+<!-- 4. DOS FORMAS -->
+<div style="max-width:1160px;margin:0 auto;padding:clamp(64px,9vw,120px) 24px">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#c9a84c;font-weight:500;margin-bottom:20px;text-align:center">Dos formas de avanzar</div>
+<h2 style="margin:0 auto 56px;max-width:720px;text-align:center;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(32px,4.4vw,52px);line-height:1.1">Un paso para hoy. Un camino para profundizar.</h2>
+<div style="display:flex;flex-wrap:wrap;gap:20px">
+<div style="flex:1 1 340px;min-width:0;padding:clamp(28px,4vw,44px);background:#141414;border:1px solid rgba(201,168,76,0.25);border-radius:14px">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#9a9183;margin-bottom:14px">Hoy</div>
+<h3 style="margin:0 0 16px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:38px;color:#e8c97a;line-height:1.1">Paso Diario</h3>
+<p style="margin:0;font-size:17px;color:#c8c0b0">Un encuentro cotidiano, breve pero sustancioso, para acompañar el ritmo real de la vida. Integra los movimientos de · S · T · A · R · S · y termina con una respuesta práctica.</p>
+</div>
+<div style="flex:1 1 340px;min-width:0;padding:clamp(28px,4vw,44px);background:#141414;border:1px solid rgba(201,168,76,0.25);border-radius:14px">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#9a9183;margin-bottom:14px">A fondo</div>
+<h3 style="margin:0 0 16px;font-family:'Cormorant Garamond',serif;font-weight:600;font-size:38px;color:#e8c97a;line-height:1.1">Paso Profundo</h3>
+<p style="margin:0;font-size:17px;color:#c8c0b0">Estudios bíblicos por capítulo para ir más a fondo. Ayudan a comprender el contexto, la estructura, el movimiento teológico del texto, su conexión con Jesús y una manera concreta de responder.</p>
+</div>
+</div>
+</div>
+
+<!-- 5. PARA QUÉ EXISTE -->
+<div style="border-top:1px solid rgba(201,168,76,0.25);background:radial-gradient(ellipse 55% 70% at 50% 50%,rgba(201,168,76,0.09),rgba(10,10,10,0) 70%)">
+<div style="max-width:800px;margin:0 auto;padding:clamp(72px,10vw,140px) 24px;text-align:center">
+<div style="font-size:12px;letter-spacing:0.28em;text-transform:uppercase;color:#c9a84c;font-weight:500;margin-bottom:20px">Para qué existe</div>
+<h2 style="margin:0 0 28px;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(34px,5vw,60px);line-height:1.08">Para que la verdad sea mayor que tu realidad.</h2>
+<p style="margin:0;font-size:18px;color:#c8c0b0">Todos interpretamos la vida desde algo: lo que sentimos, lo que tememos, lo que hemos vivido o lo que otros dijeron de nosotros. · S · T · A · R · S · existe para ayudarte a volver a la Escritura y permitir que la verdad de Dios ordene tu manera de ver, pensar y responder.</p>
+</div>
+</div>
+
+<!-- 6. CIERRE -->
+<div style="background:#101010;border-top:1px solid rgba(201,168,76,0.25)">
+<div style="max-width:760px;margin:0 auto;padding:clamp(64px,9vw,120px) 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:24px">
+<h2 style="margin:0;font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(34px,5vw,60px);line-height:1.08">Empieza con un momento de atención.</h2>
+<p style="margin:0;font-size:18px;color:#c8c0b0">No necesitas tener todas las respuestas ni conocer toda la Biblia para comenzar. Entra, toma un paso diario o profundiza en un texto, y permite que la Escritura te acompañe desde donde estás.</p>
+<a class="btn-gold" href="{{appUrl}}" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 38px;background:#c9a84c;color:#0a0a0a;border-radius:9px;font-weight:500;font-size:15px;letter-spacing:0.06em;margin-top:8px">Entrar a · S · T · A · R · S ·</a>
+</div>
+</div>
+
+<!-- FOOTER · barra inferior El College -->
+<footer style="background:#101010;border-top:1px solid rgba(201,168,76,0.25)">
+<div class="pf-wrap">
+<div class="pf-col">
+<div class="pf-brand">
+<svg width="52" height="52" viewBox="0 0 56 56" aria-hidden="true" focusable="false" style="display:block;flex-shrink:0"><rect width="56" height="56" rx="12" fill="#D9923B"></rect><rect x="4" y="4" width="48" height="48" rx="9" fill="#62686F"></rect><rect x="7" y="7" width="42" height="42" rx="7" fill="#1F3A5F"></rect><rect x="12.5" y="12.5" width="31" height="31" rx="4.5" fill="#9DB69A"></rect><rect x="18" y="18" width="20" height="20" rx="2.5" fill="#1E2420"></rect></svg>
+<span aria-hidden="true" style="width:1px;height:16px;background:#f5f0e8;opacity:0.35;flex-shrink:0"></span>
+<span style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;line-height:1;color:#f5f0e8;white-space:nowrap">El College</span>
+</div>
+<p style="margin:16px 0 0;max-width:340px;font-size:15px;line-height:1.55;color:#c8c0b0">Todo lo que necesitas para ir más profundo.</p>
+</div>
+<nav class="pf-nav" aria-label="Pie de página">
+<a href="https://lhscolweb.netlify.app/">LHSCOL</a>
+<a href="https://mayorquemirealidad.netlify.app/">Mayor que mi realidad</a>
+<a class="cur" href="#top" aria-current="page">· S · T · A · R · S ·</a>
+<a href="https://thewaylhscol.netlify.app/">The Way</a>
+<a href="https://collegelhscol.netlify.app/#staff">Staff</a>
+<a href="https://bookclublhscol.netlify.app/">Bookclub</a>
+<a href="https://www.instagram.com/lhscol/">Instagram</a>
+<a href="https://www.youtube.com/@lhscol?sub_confirmation=1">Youtube</a>
+<a href="https://linktr.ee/lhscol">Linktree</a>
+</nav>
+<div style="flex-basis:100%;font-size:13px;line-height:1.7;color:#9a9183">© 2026 LHSCOL · Manizales, Colombia. Hecho con ♥ en el Eje Cafetero.</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"appUrl":{"editor":"text","default":"#","section":"Enlaces"},"$preview":{"width":1440,"height":4900}}'>
+class Component extends DCLogic {
+renderVals() {
+const open = !!(this.state && this.state.menuOpen);
+return {
+appUrl: this.props.appUrl ?? '#',
+menuOpen: open,
+menuClosed: !open,
+navCls: open ? 'open' : '',
+toggleMenu: () => this.setState({ menuOpen: !open })
+};
+}
+}
+</script>
+</body>
+</html>
