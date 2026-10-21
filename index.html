@@ -1233,7 +1233,7 @@ body.modo-dia .pt-root--profundizar .pt-foot{border-color:var(--pt-line)!importa
 }
 .frase-texto{
   font-family:'Cormorant Garamond',serif;
-  font-size:1.0625rem;
+  font-size:22px;
   color:var(--white);opacity:.82;
   line-height:1.7;
   font-style:italic;
@@ -2084,7 +2084,7 @@ body.modo-dia .pd2-music-card:hover{background:rgba(139,92,246,.24);border-color
     cursor:pointer;
   }
   .dsk-frase-mini-tag{ font-size:0.5rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--gold); opacity:0.6; margin-bottom:8px; }
-  .dsk-frase-mini-txt{ font-family:'Cormorant Garamond',serif; font-size:0.875rem; color:var(--white); line-height:1.55; font-style:italic; }
+  .dsk-frase-mini-txt{ font-family:'Cormorant Garamond',serif; font-size:22px; color:var(--white); line-height:1.55; font-style:italic; }
   .dsk-frase-mini-ref{ font-size:0.5625rem; color:var(--white3); margin-top:8px; }
   .dsk-frase-mini-btns{ display:flex; gap:6px; margin-top:10px; }
   .dsk-frase-mini-btn{
@@ -2712,6 +2712,29 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   padding-top:14px;
 }
 
+
+/* Ajustes solicitados · NBLA primero y lectura MSG ES +2px · 2026-10-21 */
+/* Frase principal (móvil y escritorio): 22px se conserva del ajuste previo. */
+/* Paso Diario: solo MSG en español, NBLA queda con tamaño original. */
+.pd2-root #texto-msg .texto-italic,
+.pd2-root #pd2-dsk-texto-msg .texto-italic{font-size:calc(1.1875rem + 2px)}
+/* Solo Idea central y la Frase para hoy de Siembra. */
+.pd2-root .pd2-idea-text{font-size:24px}
+.pd2-root .pd2-siembra-frase .est-v2-quote{font-size:24px}
+/* Paso Profundo: MSG en español (+2px), inglés y NBLA sin cambios. */
+.est-v2-root .est-v2-msg-es,
+.est-v2-root .est-v2-lex-msg-es{font-size:calc(var(--est-v2-reading-size) + 2px)}
+.chapter-reader[data-reader-version="MSG"] .chapter-reader-text{font-size:calc(1.25rem + 2px)}
+.dsk-ws-inner--reader .chapter-reader[data-reader-version="MSG"] .chapter-reader-text{font-size:calc(1.4rem + 2px)}
+@media (min-width:620px) and (max-width:1023px){
+  .chapter-reader[data-reader-version="MSG"] .chapter-reader-text{font-size:calc(1.35rem + 2px)}
+}
+@media (max-width:420px){
+  .chapter-reader[data-reader-version="MSG"] .chapter-reader-text{font-size:calc(1.16rem + 2px)}
+}
+/* Profundizar texto: solamente MSG en español (+2px). */
+.pt-root .pt-msg-es-wrap .pt-reading,
+.pt-root .pt-layer-es{font-size:calc(1.1875rem + 2px)}
 </style>
 
 <!-- Firebase -->
@@ -4084,11 +4107,11 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <nav class="bottom-nav" id="main-nav">
     <div class="nav-item active" id="nav-hoy" onclick="navTo('hoy')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><line x1="12" y1="2" x2="12" y2="4"/><line x1="12" y1="20" x2="12" y2="22"/><line x1="2" y1="12" x2="4" y2="12"/><line x1="20" y1="12" x2="22" y2="12"/><line x1="4.93" y1="4.93" x2="6.34" y2="6.34"/><line x1="17.66" y1="17.66" x2="19.07" y2="19.07"/><line x1="4.93" y1="19.07" x2="6.34" y2="17.66"/><line x1="17.66" y1="6.34" x2="19.07" y2="4.93"/></svg></div>
-      <span class="nav-label">Hoy</span>
+      <span class="nav-label">Diario</span>
     </div>
     <div class="nav-item" id="nav-estudiar" onclick="navTo('estudiar')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="9" y1="7" x2="15" y2="7"/><line x1="9" y1="11" x2="15" y2="11"/></svg></div>
-      <span class="nav-label">Estudio</span>
+      <span class="nav-label">Profundo</span>
     </div>
     <div class="nav-item" id="nav-lhscol" onclick="window.open('https://lhscolweb.netlify.app/','_blank')">
       <div class="nav-svg"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5z"/><path d="M9 21V12h6v9"/></svg></div>
@@ -4162,12 +4185,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
     <div class="pd2-track-wrap"><div class="pd2-track" id="pd2-mobile-track-1"></div></div>
     <div class="modal-body"><div class="pd2-content">
       <div class="pd2-version-row"><div class="texto-version-tabs">
-        <div class="version-tab active" onclick="switchTexto('msg',this)">MSG</div>
-        <div class="version-tab" onclick="switchTexto('ntv',this)">NBLA</div>
+        <div class="version-tab active" onclick="switchTexto('ntv',this)">NBLA</div>
+        <div class="version-tab" onclick="switchTexto('msg',this)">MSG</div>
       </div></div>
       <div class="pd2-sec pd2-text-content">
-        <div class="texto-content active" id="texto-msg"><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
-        <div class="texto-content" id="texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
+        <div class="texto-content active" id="texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
+        <div class="texto-content" id="texto-msg"><div class="texto-versiculo"></div><div class="texto-italic"></div></div>
       </div>
       <button class="done-btn show pd2-complete-btn" onclick="cerrarModalConMarca(1)">✓ Leí el pasaje</button>
     </div></div>
@@ -4805,7 +4828,7 @@ const PASO_DIARIO_META = Object.freeze([
   {letra:'R',nombre:'Reflexión',detalle:'2 min · Pregunta personal'},
   {letra:'S',nombre:'Sembrar',detalle:'2 min · Práctica concreta'}
 ]);
-let _pd2TextoDesktop = 'msg';
+let _pd2TextoDesktop = 'ntv';
 const _pd2FraseEstado = {mobile:{estilo:'clasico',formato:'9:16',fuente:'actual'},desktop:{estilo:'clasico',formato:'9:16',fuente:'actual'}};
 let _pd2ImagenOverflowAnterior = '';
 
@@ -4866,7 +4889,7 @@ function pasoDiarioFraseHTML(contexto,devo){
   if(!devo?.frase) return '';
   const fraseLimpia = String(devo.frase).replace(/^[\s"'«“”]+|[\s"'»“”]+$/g,'').trim();
   const referenciaLimpia = pasoDiarioReferenciaFrase(devo.versiculo);
-  return `<section class="est-v2-closing">
+  return `<section class="est-v2-closing pd2-siembra-frase">
     <div class="est-v2-closing-eyebrow">Frase para hoy</div>
     <div class="est-v2-quote">&ldquo;${escaparHTML(fraseLimpia)}&rdquo;</div>
     <div class="est-v2-ref">${escaparHTML(referenciaLimpia)}</div>
@@ -5674,8 +5697,8 @@ function dskWsPaso(idx){
       ${devo.musica_url?`<button type="button" class="pd2-music-card" onclick="abrirMusicaSilencio()" aria-label="Ir a la sección de música"><span class="pd2-music-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/></svg></span><span class="pd2-music-info"><span class="pd2-music-title">Música para meditar</span><span class="pd2-music-sub">Ir a la sección de música</span></span><svg class="pd2-music-go" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg></button>`:''}</div>
       <div class="pd2-sec pd2-center"><div class="pd2-timer-wrap"><div class="timer-ring" id="dsk-timer-ring-tap" onclick="dskIniciarTimer()" style="cursor:${timerTerminado||_dskTimerRunning?'default':'pointer'}" title="Tocar para iniciar"><svg width="100" height="100" viewBox="0 0 100 100"><circle class="timer-ring-bg" cx="50" cy="50" r="42" fill="none" stroke-width="4"/><circle class="timer-ring-fill" id="dsk-timer-fill" cx="50" cy="50" r="42" fill="none" stroke="${timerStroke}" stroke-width="4" stroke-dasharray="264" stroke-dashoffset="${timerOffset}"/></svg><div class="timer-label" id="dsk-timer-label">${timerLabel}</div></div><div id="dsk-timer-hint" class="pd2-timer-hint" style="${timerHint?'':'display:none'}">${timerHint}</div></div></div>${dskBtnConfirmar(0)}`;
   }else if(idx===1){
-    contenido=`<div class="pd2-version-row"><div class="texto-version-tabs"><button class="version-tab ${_pd2TextoDesktop==='msg'?'active':''}" data-pd2-dsk-version="msg" onclick="pasoDiarioTextoDesktop('msg')">MSG</button><button class="version-tab ${_pd2TextoDesktop==='ntv'?'active':''}" data-pd2-dsk-version="ntv" onclick="pasoDiarioTextoDesktop('ntv')">NBLA</button></div></div>
-      <div class="pd2-sec pd2-text-content"><div class="texto-content ${_pd2TextoDesktop==='msg'?'active':''}" id="pd2-dsk-texto-msg"><div class="texto-versiculo">${escaparHTML(devo.texto_msg.ref)}</div><div class="texto-italic">${escaparHTML(devo.texto_msg.cuerpo)}</div></div><div class="texto-content ${_pd2TextoDesktop==='ntv'?'active':''}" id="pd2-dsk-texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo">${escaparHTML(devo.texto_ntv.ref)}</div><div class="texto-italic pd2-nbla-reading">${escaparHTML(devo.texto_ntv.cuerpo)}</div></div></div>${dskBtnConfirmar(1)}`;
+    contenido=`<div class="pd2-version-row"><div class="texto-version-tabs"><button class="version-tab ${_pd2TextoDesktop==='ntv'?'active':''}" data-pd2-dsk-version="ntv" onclick="pasoDiarioTextoDesktop('ntv')">NBLA</button><button class="version-tab ${_pd2TextoDesktop==='msg'?'active':''}" data-pd2-dsk-version="msg" onclick="pasoDiarioTextoDesktop('msg')">MSG</button></div></div>
+      <div class="pd2-sec pd2-text-content"><div class="texto-content ${_pd2TextoDesktop==='ntv'?'active':''}" id="pd2-dsk-texto-ntv"><div class="pd2-layer-label">NBLA · Versión de referencia</div><div class="texto-versiculo">${escaparHTML(devo.texto_ntv.ref)}</div><div class="texto-italic pd2-nbla-reading">${escaparHTML(devo.texto_ntv.cuerpo)}</div></div><div class="texto-content ${_pd2TextoDesktop==='msg'?'active':''}" id="pd2-dsk-texto-msg"><div class="texto-versiculo">${escaparHTML(devo.texto_msg.ref)}</div><div class="texto-italic">${escaparHTML(devo.texto_msg.cuerpo)}</div></div></div>${dskBtnConfirmar(1)}`;
   }else if(idx===2){
     const idea=devo.idea_central&&String(devo.idea_central).trim()?`<div class="pd2-idea is-visible"><div class="pd2-idea-rule"></div><div class="pd2-idea-label">Idea central</div><div class="pd2-idea-text">${escaparHTML(devo.idea_central)}</div><div class="pd2-idea-rule"></div></div>`:'';
     const bienvenida=devo.bienvenida&&String(devo.bienvenida).trim()?`<p class="pd2-welcome is-visible">${sanearHTMLPermitido(devo.bienvenida)}</p>`:'';
@@ -7447,9 +7470,9 @@ function formatearAnalisisFichaHTML(text, opts){
       }
       notasHtml += '<div class="pt-card">'
         + '<div class="pt-card-ref">'+escaparHTML(refNota)+'</div>'
+        + (nbla?'<div class="pt-layer"><div class="pt-layer-label">NBLA</div><div class="pt-layer-nbla">'+arInlineFmt(nbla)+'</div></div>':'')
         + (en?'<div class="pt-layer"><div class="pt-layer-label">MSG · English</div><div class="pt-layer-en">'+arInlineFmt(en)+'</div></div>':'')
         + (es?'<div class="pt-layer"><div class="pt-layer-label">MSG · Español</div><div class="pt-layer-es">'+arInlineFmt(es)+'</div></div>':'')
-        + (nbla?'<div class="pt-layer"><div class="pt-layer-label">NBLA</div><div class="pt-layer-nbla">'+arInlineFmt(nbla)+'</div></div>':'')
         + '<div class="pt-layer"><div class="pt-layer-label">Explicación</div><div class="pt-layer-exp">'+arInlineFmt(analisis)+'</div></div>'
         + '</div>';
     });
@@ -7463,13 +7486,13 @@ function formatearAnalisisFichaHTML(text, opts){
     + '<div class="pt-sub">Estudio breve · conecta el detalle con el sentido completo del texto</div>'
     + '</div>';
   html += '<div class="pt-content">';
-  html += '<section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Texto</div>'
+  if(textoNbla){
+    html += '<section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Texto</div><div class="pt-label">NBLA · Versión de referencia</div><div class="pt-reading">'+arInlineFmt(textoNbla.cuerpo)+'</div></section>';
+  }
+  html += '<section class="pt-sec">' + (!textoNbla?'<div class="pt-eyebrow" style="margin-bottom:14px">Texto</div>':'')
     + (textoEn?'<div class="pt-label">MSG · English</div><div class="pt-msg-en">'+arInlineFmt(textoEn.cuerpo)+'</div>':'')
     + (textoEs?'<div class="pt-msg-es-wrap"><div class="pt-label">MSG · Español</div><div class="pt-reading">'+arInlineFmt(textoEs.cuerpo)+'</div></div>':'')
     + '</section>';
-  if(textoNbla){
-    html += '<section class="pt-sec"><div class="pt-label">NBLA · Versión de referencia</div><div class="pt-reading">'+arInlineFmt(textoNbla.cuerpo)+'</div></section>';
-  }
   if(explicaciones.length){
     html += '<section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Explicación</div>';
     explicaciones.forEach((sec,index) => {
@@ -8784,17 +8807,17 @@ function construirHTMLExegetico(d){
     const nblaNota=n.texto_nbla||'';
     return `<div class="pt-card">
       <div class="pt-card-ref">${escaparHTML(ref)}</div>
+      ${nblaNota?`<div class="pt-layer"><div class="pt-layer-label">NBLA</div><div class="pt-layer-nbla">${escaparHTML(nblaNota)}</div></div>`:''}
       <div class="pt-layer"><div class="pt-layer-label">MSG · English</div><div class="pt-layer-en">${escaparHTML(n.texto_en||n.frase_en||n.frase||'')}</div></div>
       <div class="pt-layer"><div class="pt-layer-label">MSG · Español</div><div class="pt-layer-es">${escaparHTML(n.texto_es||n.traduccion||'')}</div></div>
-      ${nblaNota?`<div class="pt-layer"><div class="pt-layer-label">NBLA</div><div class="pt-layer-nbla">${escaparHTML(nblaNota)}</div></div>`:''}
       <div class="pt-layer"><div class="pt-layer-label">Explicación</div><div class="pt-layer-exp">${sanearHTMLPermitido(cuerpo)}${cierre}</div></div>
     </div>`;
   }).join('');
   return `<div class="pt-root pt-root--profundizar">
     <div class="pt-hero"><div class="pt-hero-badge"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><line x1="16" y1="8" x2="2" y2="22"/><line x1="17.5" y1="15" x2="9" y2="15"/></svg></div><div class="pt-eyebrow">Profundizar texto</div><div class="pt-title">${escaparHTML(d.titulo||'')}</div><div class="pt-sub">Estudio opcional · no cuenta para tu racha diaria</div></div>
     <div class="pt-content">
-      <section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Texto</div><div class="pt-label">MSG · English</div><div class="pt-msg-en">${escaparHTML(d.texto_en||'')}</div><div class="pt-msg-es-wrap"><div class="pt-label">MSG · Español</div><div class="pt-reading">${escaparHTML(d.texto_es||'')}</div></div></section>
-      ${d.texto_nbla?`<section class="pt-sec"><div class="pt-label">NBLA · Versión de referencia</div><div class="pt-reading">${escaparHTML(d.texto_nbla)}</div></section>`:''}
+      ${d.texto_nbla?`<section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Texto</div><div class="pt-label">NBLA · Versión de referencia</div><div class="pt-reading">${escaparHTML(d.texto_nbla)}</div></section>`:''}
+      <section class="pt-sec">${d.texto_nbla?'':'<div class="pt-eyebrow" style="margin-bottom:14px">Texto</div>'}<div class="pt-label">MSG · English</div><div class="pt-msg-en">${escaparHTML(d.texto_en||'')}</div><div class="pt-msg-es-wrap"><div class="pt-label">MSG · Español</div><div class="pt-reading">${escaparHTML(d.texto_es||'')}</div></div></section>
       ${d.explicacion_breve?`<section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Explicación</div><div class="pt-explanation">${sanearHTMLPermitido(d.explicacion_breve)}</div></section>`:''}
       <section class="pt-sec"><div class="pt-eyebrow" style="margin-bottom:14px">Notas de la versión · Eugene Peterson</div><div class="pt-notes">${notas}</div></section>
       <div class="pt-foot">Este módulo es opcional y no cuenta para la racha diaria — es para quien quiere ir más profundo en el texto.</div>
@@ -9329,8 +9352,8 @@ async function cargarEstudioV2Complemento(key, estudio){
 }
 
 const lectorCapituloEstado = {
-  mobile: { key:'', version:'MSG', estudio:null, complemento:null },
-  desktop: { key:'', version:'MSG', estudio:null, complemento:null }
+  mobile: { key:'', version:'NBLA', estudio:null, complemento:null },
+  desktop: { key:'', version:'NBLA', estudio:null, complemento:null }
 };
 
 function lectorCapituloVecino(key, direccion){
@@ -9388,13 +9411,13 @@ function lectorCapituloHTML(contexto){
   const creditos = Array.isArray(estado.complemento.credits)
     ? estado.complemento.credits.map(estudioV2Esc).join('<br>')
     : '';
-  return '<article class="chapter-reader" data-reader-context="' + contexto + '">' +
+  return '<article class="chapter-reader" data-reader-version="' + version + '" data-reader-context="' + contexto + '">' +
     '<header class="chapter-reader-hero"><div class="chapter-reader-kicker">Lectura por capítulo</div>' +
     '<h2 class="chapter-reader-title">' + estudioV2Esc(datos.title) + '</h2>' +
     '<div class="chapter-reader-sub">Lee primero el texto. Profundiza cuando estés listo.</div></header>' +
     '<div class="chapter-reader-versions" role="tablist" aria-label="Versión bíblica">' +
-    '<button class="chapter-reader-version ' + (version === 'MSG' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'MSG\')">MSG</button>' +
-    '<button class="chapter-reader-version ' + (version === 'NBLA' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'NBLA\')">NBLA</button></div>' +
+    '<button class="chapter-reader-version ' + (version === 'NBLA' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'NBLA\')">NBLA</button>' +
+    '<button class="chapter-reader-version ' + (version === 'MSG' ? 'active' : '') + '" onclick="lectorCambiarVersion(' + jsStringAttr(contexto) + ',\'MSG\')">MSG</button></div>' +
     '<section class="chapter-reader-text" aria-live="polite">' + lectura + '</section>' +
     '<footer class="chapter-reader-actions">' +
     '<button class="chapter-reader-primary" onclick="lectorAbrirEstudio(' + jsStringAttr(contexto) + ',' + jsStringAttr(estado.key) + ')">Hacer estudio completo →</button>' +
@@ -9434,7 +9457,7 @@ async function abrirLectorCapitulo(contexto, key){
   const complemento = await cargarEstudioV2Complemento(key, estudio);
   if(!complemento) throw new Error('El texto bíblico todavía no está disponible.');
   marcarCapituloActual(key);
-  lectorCapituloEstado[contexto] = { key, version:'MSG', estudio, complemento };
+  lectorCapituloEstado[contexto] = { key, version:'NBLA', estudio, complemento };
   lectorPintar(contexto);
 }
 
@@ -9515,7 +9538,7 @@ async function abrirEstudioV2SiAplica(key, contexto){
     if(!estudio) return false;
     marcarCapituloActual(key);
     const estado = estudioV2Estado(contexto, key);
-    estado.textoVista = 'MSG';
+    estado.textoVista = 'NBLA';
     await cargarEstudioV2Complemento(key, estudio);
     renderEstudioV2(estudio, { key, contexto });
     return true;
@@ -9537,7 +9560,7 @@ function estudioV2Estado(contexto, key){
       abiertos:{},
       preguntas:{},
       imagen:{ estilo:'clasico', formato:'9:16', fuente:'actual' },
-      textoVista:'MSG'
+      textoVista:'NBLA'
     };
   }
   return estudioV2Memoria.estados[id];
@@ -9618,7 +9641,7 @@ function estudioV2SlugEstudio(estudio){
 function estudioV2RenderTextoComplementario(sec, estado, estudio, complemento){
   const vista = estado.textoVista === 'NBLA' ? 'NBLA' : 'MSG';
   const selector = '<div class="est-v2-version-row"><div class="est-v2-version-selector" role="group" aria-label="Versi&oacute;n b&iacute;blica">' +
-    ['MSG','NBLA'].map(opcion => '<button type="button" class="est-v2-version-btn ' + (vista === opcion ? 'is-active' : '') + '" data-est-v2-text-view="' + opcion + '" aria-pressed="' + (vista === opcion ? 'true' : 'false') + '">' + opcion + '</button>').join('') + '</div></div>';
+    ['NBLA','MSG'].map(opcion => '<button type="button" class="est-v2-version-btn ' + (vista === opcion ? 'is-active' : '') + '" data-est-v2-text-view="' + opcion + '" aria-pressed="' + (vista === opcion ? 'true' : 'false') + '">' + opcion + '</button>').join('') + '</div></div>';
   let contenido = '';
   if(vista === 'NBLA'){
     contenido = '<div class="est-v2-layer-label est-v2-nbla-label">NBLA &middot; Versi&oacute;n de referencia</div><div class="est-v2-nbla-reading">' +
@@ -9630,7 +9653,7 @@ function estudioV2RenderTextoComplementario(sec, estado, estudio, complemento){
 }
 
 function estudioV2RenderJoyasComplementarias(complemento){
-  return '<section class="est-v2-lexical"><div class="est-v2-lex-grid">' + complemento.jewels.map(jewel => '<article class="est-v2-lex-card"><div class="est-v2-lex-range">' + estudioV2Esc(estudioV2RangoJoya(jewel.range)) + '</div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">MSG &middot; ENGLISH</div><div class="est-v2-lex-msg-en">' + estudioV2Esc(jewel.msg.en) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">MSG &middot; ESPA&Ntilde;OL</div><div class="est-v2-lex-msg-es">' + estudioV2Esc(jewel.msg.es) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">NBLA</div><div class="est-v2-lex-nbla">' + estudioV2Esc(estudioV2ResolverReferencias(jewel.nblaRefs, complemento)) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">Explicaci&oacute;n</div><div class="est-v2-lex-explanation">' + estudioV2Esc(jewel.explanation) + '</div></div></article>').join('') + '</div></section>';
+  return '<section class="est-v2-lexical"><div class="est-v2-lex-grid">' + complemento.jewels.map(jewel => '<article class="est-v2-lex-card"><div class="est-v2-lex-range">' + estudioV2Esc(estudioV2RangoJoya(jewel.range)) + '</div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">NBLA</div><div class="est-v2-lex-nbla">' + estudioV2Esc(estudioV2ResolverReferencias(jewel.nblaRefs, complemento)) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">MSG &middot; ENGLISH</div><div class="est-v2-lex-msg-en">' + estudioV2Esc(jewel.msg.en) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">MSG &middot; ESPA&Ntilde;OL</div><div class="est-v2-lex-msg-es">' + estudioV2Esc(jewel.msg.es) + '</div></div><div class="est-v2-lex-layer"><div class="est-v2-layer-label">Explicaci&oacute;n</div><div class="est-v2-lex-explanation">' + estudioV2Esc(jewel.explanation) + '</div></div></article>').join('') + '</div></section>';
 }
 
 function estudioV2RenderSeccion(sec, estado, estudio, complemento){
