@@ -931,8 +931,8 @@ body.modo-dia .bottom-nav .nav-item.active .nav-label{stroke:var(--bottom-nav-ac
 .cal-day.week-green{background:rgba(45,122,79,0.18);border-color:rgba(45,122,79,0.45);color:#3a9962}
 .cal-day.month-purple{background:rgba(139,92,246,0.2);border-color:rgba(139,92,246,0.4);color:#a78bfa}
 .cal-day.restorable{border-color:var(--gold);box-shadow:inset 0 0 0 1px rgba(201,168,76,0.3);color:var(--gold2)}
-.cal-day.restorable::after{content:'★';position:absolute;right:3px;top:1px;font-size:0.4375rem;color:var(--gold)}
-.cal-day.restored::after{content:'★';position:absolute;right:3px;top:1px;font-size:0.4375rem;color:var(--gold)}
+.cal-day.restorable::after{content:'+';position:absolute;right:4px;top:0;font-size:0.625rem;font-weight:700;color:var(--gold)}
+.cal-day.restored::after{content:'✓';position:absolute;right:4px;top:1px;font-size:0.5rem;font-weight:700;color:var(--green2)}
 .cal-day.future{opacity:0.3;cursor:default}
 .cal-day:not(.empty):not(.future):hover{transform:scale(1.08)}
 .wday-dot.selected{box-shadow:inset 0 0 0 1px var(--gold);transform:none}
@@ -2746,7 +2746,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
   import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
-  import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField }
+  import { getFirestore, doc, getDoc, setDoc, updateDoc, onSnapshot, deleteField, runTransaction, waitForPendingWrites }
     from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
 
   const firebaseConfig = {
@@ -2853,19 +2853,72 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     },
     getCurrentChapter: () => String(fbGet('estudio_current_chapter', '') || ''),
     // Estrellas de restauración, días restaurados y Banco S.T.A.R.S.
-    getRachaStars: () => Math.max(0, Math.min(3, parseInt(fbGet('racha_estrellas', 1), 10) || 0)),
+    // El saldo no tiene tope: cada mes completo puede sumar una estrella nueva.
+    getRachaStars: () => Math.max(0, parseInt(fbGet('racha_estrellas', 1), 10) || 0),
     setRachaStars: (cantidad) => {
-      const value = Math.max(0, Math.min(3, parseInt(cantidad, 10) || 0));
+      const value = Math.max(0, parseInt(cantidad, 10) || 0);
       _userData.racha_estrellas = value;
       fbSet({racha_estrellas:value});
       return value;
     },
-    getRachaStarCapacity: () => Math.max(1, Math.min(3, parseInt(fbGet('racha_capacidad_estrellas', 1), 10) || 1)),
-    setRachaStarCapacity: (cantidad) => {
-      const value = Math.max(1, Math.min(3, parseInt(cantidad, 10) || 1));
-      _userData.racha_capacidad_estrellas = value;
-      fbSet({racha_capacidad_estrellas:value});
-      return value;
+    // La capacidad histórica queda en los datos antiguos por compatibilidad,
+    // pero ya no gobierna el saldo ni las recompensas.
+    waitForPendingWrites: () => waitForPendingWrites(db),
+    canjearEstrellaRacha: async (fecha) => {
+      if(!_uid || _uid==='local-test-uid') return {ok:false,error:'sin_sesion'};
+      const resultado = await runTransaction(db, async transaction => {
+        const snapshot = await transaction.get(userRef());
+        const data = snapshot.exists() ? snapshot.data() || {} : {};
+        const pasos = data['pasos_' + fecha] || {};
+        if(![0,1,2,3,4].every(step => pasos[step] === '1')) return {ok:false,error:'pasos_incompletos'};
+        const restaurados = {...(data.racha_restaurados || {})};
+        if(restaurados[fecha]) return {ok:true,yaRestaurado:true,estrellas:Math.max(0,parseInt(data.racha_estrellas,10)||0)};
+        const estrellas = Math.max(0,parseInt(data.racha_estrellas,10)||0);
+        if(estrellas < 1) return {ok:false,error:'sin_estrellas'};
+        const invalidos = {...(data.racha_invalidos || {})};
+        delete invalidos[fecha];
+        restaurados[fecha] = Date.now();
+        transaction.set(userRef(), {
+          racha_estrellas: estrellas - 1,
+          racha_invalidos: invalidos,
+          racha_restaurados: restaurados
+        }, {merge:true});
+        return {ok:true,yaRestaurado:false,estrellas:estrellas-1};
+      });
+      if(resultado.ok){
+        _userData.racha_estrellas = resultado.estrellas;
+        const invalidos = {...(_userData.racha_invalidos || {})};
+        delete invalidos[fecha];
+        _userData.racha_invalidos = invalidos;
+        _userData.racha_restaurados = {...(_userData.racha_restaurados || {}), [fecha]:Date.now()};
+      }
+      return resultado;
+    },
+    otorgarEstrellaRacha: async (recompensa) => {
+      if(!_uid || _uid==='local-test-uid') return {ok:false,error:'sin_sesion'};
+      const resultado = await runTransaction(db, async transaction => {
+        const snapshot = await transaction.get(userRef());
+        const data = snapshot.exists() ? snapshot.data() || {} : {};
+        const recompensas = {...(data.racha_recompensas || {})};
+        let migroLegado = false;
+        const primerMes = String(recompensas.primer_mes || '');
+        if(/^\d{4}-\d{2}-\d{2}$/.test(primerMes)){
+          const claveLegada = 'mes_' + primerMes.slice(0,7);
+          if(!recompensas[claveLegada]){ recompensas[claveLegada] = recompensas.primer_mes; migroLegado = true; }
+        }
+        if(recompensas[recompensa]){
+          if(migroLegado) transaction.set(userRef(), {racha_recompensas:recompensas}, {merge:true});
+          return {ok:true,otorgada:false,estrellas:Math.max(0,parseInt(data.racha_estrellas,10)||0)};
+        }
+        const estrellas = Math.max(0,parseInt(data.racha_estrellas,10)||0) + 1;
+        recompensas[recompensa] = Date.now();
+        transaction.set(userRef(), {racha_estrellas:estrellas,racha_recompensas:recompensas}, {merge:true});
+        return {ok:true,otorgada:true,estrellas};
+      });
+      if(resultado.ok){
+        _userData.racha_estrellas = resultado.estrellas;
+      }
+      return resultado;
     },
     getRachaMap: (campo) => ({...(fbGet(campo, {}) || {})}),
     setRachaMap: (campo, value) => {
@@ -2895,13 +2948,14 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         return yyyy+'-'+mm+'-'+dd;
       };
       const invalidos = fbGet('racha_invalidos', {}) || {};
+      const restaurados = fbGet('racha_restaurados', {}) || {};
       const keyHoy = toKey(hoy);
       const pasosHoy = fbGet('pasos_' + keyHoy, {});
       let hoyCompleto = true;
       for(let s=0; s<5; s++){
         if(pasosHoy[s] !== '1'){ hoyCompleto = false; break; }
       }
-      const inicio = hoyCompleto && !invalidos[keyHoy] ? 0 : 1;
+      const inicio = hoyCompleto && (!invalidos[keyHoy] || restaurados[keyHoy]) ? 0 : 1;
       let racha = 0;
       for(let i=inicio; i<365; i++){
         const d = new Date(hoy);
@@ -2912,7 +2966,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         for(let s=0; s<5; s++){
           if(pasos[s] !== '1'){ completo = false; break; }
         }
-        if(completo && !invalidos[key]) racha++;
+        if(completo && (!invalidos[key] || restaurados[key])) racha++;
         else break;
       }
       return racha;
@@ -2928,7 +2982,8 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       await signInWithPopup(auth, provider);
     } catch(e){
       console.error('Login error', e);
-      document.getElementById('login-error').textContent = 'Error al iniciar sesión. Intenta de nuevo.';
+      const errorEl=document.getElementById('login-error');
+      if(errorEl) errorEl.textContent = 'Error al iniciar sesión. Intenta de nuevo.';
     }
   };
 
@@ -2976,10 +3031,6 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       if(_userData.racha_estrellas === undefined){
         _userData.racha_estrellas = 1;
         fbSet({racha_estrellas:1});
-      }
-      if(_userData.racha_capacidad_estrellas === undefined){
-        _userData.racha_capacidad_estrellas = 1;
-        fbSet({racha_capacidad_estrellas:1});
       }
       // Escuchar cambios en tiempo real (sync entre dispositivos)
       _unsubscribe = onSnapshot(userRef(), (snap) => {
@@ -3594,7 +3645,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="12 19 5 12 12 5"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
               Volver a Hoy
             </button>
-            <button class="paso-star-status" id="racha-stars-mobile" onclick="mostrarInfoEstrellas()"><span>★ 1 de 3</span><small>para restaurar</small></button>
+            <button class="paso-star-status" id="racha-stars-mobile" onclick="mostrarInfoEstrellas()"><span>★ 1 disponible</span><small>para restaurar</small></button>
           </div>
           <div class="paso-actions-end">
             <button class="paso-save-btn" id="devo-save-mobile" onclick="toggleBancoDiaActivo()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span></button>
@@ -3703,8 +3754,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
 
     <div class="estudiar-tabs">
       <div class="etab active" onclick="switchEtab('capitulos',this)">Por Método</div>
-      <div class="etab" onclick="switchEtab('hoy-estudio',this)">Por Versículo</div>
       <div class="etab" onclick="switchEtab('por-capitulo',this)">Por Capítulo</div>
+      <div class="etab" onclick="switchEtab('hoy-estudio',this)">Por Versículo</div>
       <div class="etab" onclick="switchEtab('por-tema-proximo',this)">Por Tema</div>
       <div class="etab" onclick="switchEtab('tracker-tab',this)">Tracker</div>
     </div>
@@ -4295,7 +4346,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     </div>
     <div style="display:flex;gap:8px;padding:0 16px 10px">
       <button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button>
-      <div class="devo-context-btn" style="cursor:default"><span id="cal-stars-balance">★ 1 de 3</span></div>
+      <div class="devo-context-btn" style="cursor:default"><span id="cal-stars-balance">★ 1 disponible</span></div>
     </div>
     <div class="cal-nav">
       <button class="cal-nav-btn" onclick="cambiarMes(-1)">‹</button>
@@ -5129,7 +5180,7 @@ function calcularRacha(){
   }
 
   // Si hoy no está completo, empezar desde ayer para no romper la racha
-  const inicio = hoyCompleto && !esDiaInvalidoParaRacha(keyHoy) ? 0 : 1;
+  const inicio = hoyCompleto && (!esDiaInvalidoParaRacha(keyHoy) || esDiaRestaurado(keyHoy)) ? 0 : 1;
   let racha = 0;
 
   for(let i=inicio; i<365; i++){
@@ -5140,7 +5191,7 @@ function calcularRacha(){
     for(let s=0; s<5; s++){
       if(localStorage.getItem('stars_paso_'+key+'_'+s) !== '1'){ completado = false; break; }
     }
-    if(completado && !esDiaInvalidoParaRacha(key)) racha++;
+    if(completado && (!esDiaInvalidoParaRacha(key) || esDiaRestaurado(key))) racha++;
     else break;
   }
   return racha;
@@ -5367,6 +5418,7 @@ window._initApp = function(){
   renderTrackerEstudio();
   updateRachaUI();
   programarRevisionRacha();
+  setTimeout(() => { reconciliarRecompensasMensuales().catch(error => console.error('recompensas mensuales', error)); }, 0);
   Promise.resolve(initContenido()).finally(() => {
     setTimeout(() => {
       restaurarEstadoDespuesDeActualizar();
@@ -5639,7 +5691,7 @@ function dskMarcarPaso(idx){
     return;
   }
 
-  const completadoAhora = marcarPaso(idx, {notificarDia:false});
+  marcarPaso(idx, {notificarDia:false});
   initWeek();
   updateRachaUI();
   dskActualizarBadgesPasos();
@@ -5654,7 +5706,6 @@ function dskMarcarPaso(idx){
     btn.style.cursor = 'default';
     btn.style.opacity = '0.75';
   }
-  if(completadoAhora) dskShowPasoCompletado();
 }
 
 function dskBtnConfirmar(idx){
@@ -6423,29 +6474,18 @@ function getRachaStars(){
   if(window.FB) return window.FB.getRachaStars();
   const raw=localStorage.getItem('stars_racha_estrellas');
   if(raw===null){localStorage.setItem('stars_racha_estrellas','1');return 1;}
-  return Math.max(0,Math.min(3,parseInt(raw,10)||0));
+  return Math.max(0,parseInt(raw,10)||0);
 }
 function setRachaStars(cantidad){
-  const value=Math.max(0,Math.min(3,parseInt(cantidad,10)||0));
+  const value=Math.max(0,parseInt(cantidad,10)||0);
   if(window.FB) window.FB.setRachaStars(value);
   else localStorage.setItem('stars_racha_estrellas',String(value));
   actualizarDevoContextoUI();
   return value;
 }
-function getRachaStarCapacity(){
-  if(window.FB) return window.FB.getRachaStarCapacity();
-  const raw=localStorage.getItem('stars_racha_capacidad_estrellas');
-  if(raw===null){localStorage.setItem('stars_racha_capacidad_estrellas','1');return 1;}
-  return Math.max(1,Math.min(3,parseInt(raw,10)||1));
-}
-function setRachaStarCapacity(cantidad){
-  const value=Math.max(1,Math.min(3,parseInt(cantidad,10)||1));
-  if(window.FB) window.FB.setRachaStarCapacity(value);
-  else localStorage.setItem('stars_racha_capacidad_estrellas',String(value));
-  return value;
-}
 function esDiaRestaurado(key){return Boolean(leerMapaRacha('racha_restaurados')[key]);}
 function esDiaInvalidoParaRacha(key){return Boolean(leerMapaRacha('racha_invalidos')[key]);}
+function diaCuentaParaRacha(key){return isDayComplete(key)&&(!esDiaInvalidoParaRacha(key)||esDiaRestaurado(key));}
 function quitarDiaInvalidoParaRacha(key,motivo='correccion'){
   const invalidos=leerMapaRacha('racha_invalidos');
   if(!invalidos[key]) return false;
@@ -6576,11 +6616,11 @@ function descripcionFechaDevocional(key){return fechaDesdeKey(key).toLocaleDateS
 function actualizarDevoContextoUI(){
   const key=getTodayKey();const esHoy=key===getActualTodayKey();const guardado=estaEnBancoStars(key);const stars=getRachaStars();
   ['mobile','desktop'].forEach(ctx=>{
-    const saldo=document.getElementById('racha-stars-'+ctx);if(saldo) saldo.innerHTML=`<span>★ ${stars} de 3</span><small>para restaurar</small>`;
+    const saldo=document.getElementById('racha-stars-'+ctx);if(saldo) saldo.innerHTML=`<span>★ ${stars} ${stars===1?'disponible':'disponibles'}</span><small>para restaurar</small>`;
     const save=document.getElementById('devo-save-'+ctx);if(save){save.innerHTML=guardado?'<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Día guardado</span>':'<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span>';save.classList.toggle('is-saved',guardado);}
     const hoy=document.getElementById('devo-today-'+ctx);if(hoy) hoy.style.display=esHoy?'none':'inline-block';
   });
-  const cal=document.getElementById('cal-stars-balance');if(cal) cal.textContent='★ '+stars+' de 3';
+  const cal=document.getElementById('cal-stars-balance');if(cal) cal.textContent='★ '+stars+' '+(stars===1?'disponible':'disponibles');
 }
 function mostrarInfoEstrellas(){
   const key=getTodayKey();
@@ -6592,7 +6632,7 @@ function mostrarInfoEstrellas(){
     showToast('Complete los cinco pasos de este día para usar una estrella');
     return;
   }
-  showToast('Estas estrellas sirven para restaurar un día pendiente. Tiene '+getRachaStars()+' de 3.');
+  showToast('Estas estrellas sirven para restaurar un día pendiente. Tiene '+getRachaStars()+' disponibles.');
 }
 
 function toggleBancoDiaActivo(){
@@ -6659,60 +6699,107 @@ function fechasSemanaDe(key){
   const base=fechaDesdeKey(key);const idx=getDayOfWeek(base);const lunes=new Date(base);lunes.setDate(base.getDate()-idx);
   return Array.from({length:7},(_,i)=>{const d=new Date(lunes);d.setDate(lunes.getDate()+i);return dateToKey(d);});
 }
-function premiarConstanciaSiCorresponde(key){
-  const recompensas=leerMapaRacha('racha_recompensas');let saldo=getRachaStars();let capacidad=getRachaStarCapacity();let cambio=false;
-  const semana=fechasSemanaDe(key);const info=semanaISOConAnio(fechaDesdeKey(key));const premioSemana='semana_'+info.year+'_'+String(info.week).padStart(2,'0');
-  const semanaPerfecta=semana.every(isDayComplete)&&semana.every(d=>!esDiaRestaurado(d)&&!esDiaInvalidoParaRacha(d));
-  if(semanaPerfecta&&!recompensas[premioSemana]){
-    recompensas[premioSemana]=Date.now();
-    if(capacidad<2){capacidad=setRachaStarCapacity(2);saldo=Math.min(capacidad,saldo+1);}
-    else if(saldo<capacidad){saldo++;}
-    cambio=true;
-  }
-
-  if(!recompensas.primer_mes){
-    const fecha=fechaDesdeKey(key);const y=fecha.getFullYear();const m=fecha.getMonth();const total=new Date(y,m+1,0).getDate();
-    const mesCompleto=Array.from({length:total},(_,i)=>dateToKey(new Date(y,m,i+1,12))).every(isDayComplete);
-    if(mesCompleto){recompensas.primer_mes=key;capacidad=setRachaStarCapacity(3);saldo=Math.min(capacidad,saldo+1);cambio=true;}
-  }
-  if(cambio){
-    guardarMapaRacha('racha_recompensas',recompensas);
-    const antes=getRachaStars();const despues=setRachaStars(saldo);
-    if(despues>antes) showToast(despues===3?'★ Tienes tus 3 estrellas de restauración':'★ Ganaste una estrella de restauración');
-  }
+function fechasMesDe(key){
+  const fecha=fechaDesdeKey(key);const y=fecha.getFullYear();const m=fecha.getMonth();const total=new Date(y,m+1,0).getDate();
+  return Array.from({length:total},(_,i)=>dateToKey(new Date(y,m,i+1,12)));
 }
-function intentarCanjearEstrella(key){
+function claveMesDe(key){return String(key).slice(0,7);}
+async function otorgarEstrellaPorRacha(recompensa){
+  if(window.FB){
+    const resultado=await window.FB.otorgarEstrellaRacha(recompensa);
+    if(resultado.ok) return resultado.otorgada;
+    return false;
+  }
+  const recompensas=leerMapaRacha('racha_recompensas');
+  const primerMes=String(recompensas.primer_mes||'');
+  if(/^\d{4}-\d{2}-\d{2}$/.test(primerMes)&&!recompensas['mes_'+primerMes.slice(0,7)]) recompensas['mes_'+primerMes.slice(0,7)]=recompensas.primer_mes;
+  if(recompensas[recompensa]){guardarMapaRacha('racha_recompensas',recompensas);return false;}
+  recompensas[recompensa]=Date.now();guardarMapaRacha('racha_recompensas',recompensas);setRachaStars(getRachaStars()+1);return true;
+}
+async function premiarConstanciaSiCorresponde(key,{notificar=true}={}){
+  const premios=[];
+  const semana=fechasSemanaDe(key);const info=semanaISOConAnio(fechaDesdeKey(key));
+  if(semana.every(diaCuentaParaRacha)) premios.push('semana_'+info.year+'_'+String(info.week).padStart(2,'0'));
+  const mes=fechasMesDe(key);
+  if(mes.every(diaCuentaParaRacha)) premios.push('mes_'+claveMesDe(key));
+  let otorgadas=0;
+  for(const premio of premios){ if(await otorgarEstrellaPorRacha(premio)) otorgadas++; }
+  if(otorgadas&&notificar) showToast(otorgadas===1?'★ Ganaste una estrella de restauración':'★ Ganaste '+otorgadas+' estrellas de restauración');
+  return otorgadas;
+}
+function mesesCerradosConDatos(){
+  const datos=window.FB?.datos?.()||{};
+  const claves=window.FB?Object.keys(datos):Object.keys(localStorage);
+  const meses=new Set();
+  claves.forEach(clave=>{
+    const match=window.FB?/^pasos_(\d{4}-\d{2})-\d{2}$/.exec(clave):/^stars_paso_(\d{4}-\d{2})-\d{2}_\d$/.exec(clave);
+    if(match) meses.add(match[1]);
+  });
+  const mesActual=claveMesDe(getActualTodayKey());
+  return [...meses].filter(mes=>mes<mesActual).sort();
+}
+let _recompensasMensualesRevisadas=false;
+async function reconciliarRecompensasMensuales(){
+  if(_recompensasMensualesRevisadas) return 0;
+  _recompensasMensualesRevisadas=true;
+  let otorgadas=0;
+  for(const mes of mesesCerradosConDatos()){
+    const referencia=mes+'-01';
+    if(fechasMesDe(referencia).every(diaCuentaParaRacha)){
+      if(await otorgarEstrellaPorRacha('mes_'+mes)) otorgadas++;
+    }
+  }
+  if(otorgadas){updateRachaUI();initWeek();actualizarDevoContextoUI();showToast(otorgadas===1?'★ Recibiste una estrella por un mes completo':'★ Recibiste '+otorgadas+' estrellas por meses completos');}
+  return otorgadas;
+}
+let _canjeRachaEnCurso=false;
+async function intentarCanjearEstrella(key){
+  if(_canjeRachaEnCurso) return false;
   if(!esDiaEnVentanaRestauracion(key)){showToast('Ya pasó la ventana de restauración');return false;}
   if(esDiaRestaurado(key)){showToast('Este día ya fue restaurado');return true;}
   const saldo=getRachaStars();
   if(saldo<=0){marcarDiaInvalidoParaRacha(key);showToast('No tiene estrellas disponibles');return false;}
   const usar=confirm('¿Usar 1 estrella para restaurar la racha con este día?');
   if(!usar){marcarDiaInvalidoParaRacha(key);showToast('Puede intentarlo nuevamente mientras continúe dentro del plazo');return false;}
-  setRachaStars(saldo-1);marcarDiaRestaurado(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
-  showToast('★ Racha restaurada');
-  return true;
+  _canjeRachaEnCurso=true;
+  try{
+    let resultado;
+    if(window.FB){
+      await window.FB.waitForPendingWrites();
+      resultado=await window.FB.canjearEstrellaRacha(key);
+    }else{
+      setRachaStars(saldo-1);marcarDiaRestaurado(key);resultado={ok:true,yaRestaurado:false,estrellas:getRachaStars()};
+    }
+    if(!resultado.ok){
+      if(resultado.error==='sin_estrellas') marcarDiaInvalidoParaRacha(key);
+      showToast(resultado.error==='pasos_incompletos'?'Completa los cinco pasos antes de restaurar':resultado.error==='sin_estrellas'?'No tiene estrellas disponibles':'No se pudo restaurar la racha. Inténtalo nuevamente.');
+      return false;
+    }
+    await premiarConstanciaSiCorresponde(key);
+    updateRachaUI();initWeek();actualizarDevoContextoUI();
+    showToast(resultado.yaRestaurado?'Este día ya estaba restaurado':'★ Racha restaurada · '+resultado.estrellas+' disponibles');
+    return true;
+  }catch(error){
+    console.error('canje estrella racha',error);
+    showToast('No se pudo confirmar la restauración. Revisa tu conexión e inténtalo de nuevo.');
+    return false;
+  }finally{_canjeRachaEnCurso=false;}
 }
 
-function procesarFinalizacionDia(key){
+async function procesarFinalizacionDia(key){
   const hoy=getActualTodayKey();
   registrarFinalizacionRacha(key);
   if(key===hoy&&esDiaInvalidoParaRacha(key)) quitarDiaInvalidoParaRacha(key,'completado_en_fecha');
-  if(window.ADMIN_MODE&&key<hoy){
-    validarDiaAdminParaRacha(key);
-    premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
-    showToast('Día completado · ajuste de administrador');
-    return;
-  }
   if(key<hoy&&!esDiaRestaurado(key)&&!esDiaInvalidoParaRacha(key)){
     const diferencia=diasEntreClaves(key,hoy);const saldo=getRachaStars();
     if(diferencia<=2&&saldo>0){
-      intentarCanjearEstrella(key);
+      await intentarCanjearEstrella(key);
     }else{
       marcarDiaInvalidoParaRacha(key);
       showToast(diferencia>2?'Día completado; ya pasó la ventana de restauración':'Día completado; no tiene estrellas disponibles');
     }
   }
-  premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
+  await premiarConstanciaSiCorresponde(key);updateRachaUI();initWeek();actualizarDevoContextoUI();
 }
 
 function getWeekDates(){
@@ -8598,9 +8685,10 @@ function calendarioHTML(prefix){
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:var(--gold)"></div>Día completado</div>
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#3a9962"></div>Semana completa</div>
         <div class="cal-leg-item"><div class="cal-leg-dot" style="background:#8b5cf6"></div>Mes completo</div>
-        <div class="cal-leg-item"><div class="cal-leg-dot" style="border:1px solid var(--gold)"></div>Se puede restaurar</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="border:1px solid var(--gold)">+</div>Se puede restaurar</div>
+        <div class="cal-leg-item"><div class="cal-leg-dot" style="color:var(--green2)">✓</div>Restaurado</div>
       </div>
-      <div style="display:flex;gap:8px;margin-bottom:12px"><button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button><div class="devo-context-btn" style="cursor:default">★ ${getRachaStars()} de 3</div></div>
+      <div style="display:flex;gap:8px;margin-bottom:12px"><button class="devo-context-btn" style="flex:1" onclick="abrirBancoStars()">Ver días guardados</button><div class="devo-context-btn" style="cursor:default">★ ${getRachaStars()} ${getRachaStars()===1?'disponible':'disponibles'}</div></div>
       <div class="cal-nav" style="padding:0 0 12px">
         <button class="cal-nav-btn" onclick="cambiarMes(-1)">‹</button>
         <div class="cal-month-label" id="${prefix}-month-label"></div>
@@ -8690,8 +8778,11 @@ function renderCalendario(prefix='cal'){
 
   // Verificar semana y mes completos
   const diasCompletos = [];
+  const diasValidosParaRacha = [];
   for(let d=1;d<=diasEnMes;d++){
+    const fechaKey=calAnio+'-'+String(calMes+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');
     diasCompletos.push(diaCompletado(calAnio,calMes,d));
+    diasValidosParaRacha.push(diaCuentaParaRacha(fechaKey));
   }
 
   // Semanas completas (L-D), respetando los bordes del mes:
@@ -8707,7 +8798,7 @@ function renderCalendario(prefix='cal'){
       if(finSegmento > diasEnMes) finSegmento = diasEnMes;
       let segmentoOk = true;
       for(let dd=d; dd<=finSegmento; dd++){
-        if(!diasCompletos[dd-1]){ segmentoOk = false; break; }
+        if(!diasValidosParaRacha[dd-1]){ segmentoOk = false; break; }
       }
       if(segmentoOk) for(let dd=d; dd<=finSegmento; dd++) semanasCompletas.add(dd);
       d = finSegmento + 1;
@@ -8715,7 +8806,7 @@ function renderCalendario(prefix='cal'){
   }
 
   // Mes completo
-  const mesCompleto = diasCompletos.slice(0, diasEnMes).every(Boolean);
+  const mesCompleto = diasValidosParaRacha.slice(0, diasEnMes).every(Boolean);
 
   // Renderizar días
   for(let d=1;d<=diasEnMes;d++){
@@ -11015,7 +11106,7 @@ function dskIlSec(btn, idx){
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="12 19 5 12 12 5"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
                   Volver a Hoy
                 </button>
-                <button class="paso-star-status" id="racha-stars-desktop" onclick="mostrarInfoEstrellas()"><span>★ 1 de 3</span><small>para restaurar</small></button>
+                <button class="paso-star-status" id="racha-stars-desktop" onclick="mostrarInfoEstrellas()"><span>★ 1 disponible</span><small>para restaurar</small></button>
               </div>
               <div class="paso-actions-end">
                 <button class="paso-save-btn" id="devo-save-desktop" onclick="toggleBancoDiaActivo()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 4.5A1.5 1.5 0 0 1 7.5 3h9A1.5 1.5 0 0 1 18 4.5V21l-6-4-6 4V4.5z"/></svg><span>Guardar este día</span></button>
@@ -11113,8 +11204,8 @@ function dskIlSec(btn, idx){
           </div>
           <div class="dsk-study-tabs">
             <div class="dsk-study-tab active" onclick="dskStudyTab('por-metodo',this)">Por Método</div>
-            <div class="dsk-study-tab" onclick="dskStudyTab('por-versiculo',this)">Por Versículo</div>
             <div class="dsk-study-tab" onclick="dskStudyTab('por-capitulo',this)">Por Capítulo</div>
+            <div class="dsk-study-tab" onclick="dskStudyTab('por-versiculo',this)">Por Versículo</div>
             <div class="dsk-study-tab" onclick="dskStudyTab('por-tema',this)">Por Tema</div>
             <div class="dsk-study-tab" onclick="dskStudyTab('tracker',this)">Tracker</div>
           </div>

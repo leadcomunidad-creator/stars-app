@@ -82,7 +82,7 @@ function allStepsComplete(data, date) {
 }
 
 function completeMonth(data, dates) {
-  return dates.every(date => allStepsComplete(data, date) && !data.racha_invalidos?.[date]);
+  return dates.every(date => allStepsComplete(data, date) && (!data.racha_invalidos?.[date] || data.racha_restaurados?.[date]));
 }
 
 function administrativeDates(data, dates) {
