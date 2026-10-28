@@ -2607,6 +2607,7 @@ body.modo-dia .frase-estudio-dl{
 .novedades-icon svg{width:18px;height:18px}
 .novedades-item-title{font-size:.875rem;font-weight:600;color:var(--white);margin:1px 0 3px}
 .novedades-item-copy{font-size:.75rem;line-height:1.5;color:var(--white3)}
+.novedades-support-link{display:inline-flex;align-items:center;justify-content:center;min-height:36px;margin-top:8px;padding:0 12px;border-radius:10px;border:1px solid var(--gold-border);background:var(--gold-dim);color:var(--gold2);font-size:.75rem;font-weight:600;text-decoration:none}
 .novedades-colors{display:flex;gap:10px;flex-wrap:wrap;margin-top:7px}
 .novedades-color{display:inline-flex;align-items:center;gap:5px;font-size:.6875rem;color:var(--white3)}
 .novedades-color-dot{width:8px;height:8px;border-radius:3px}
@@ -2933,10 +2934,10 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v8_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet('novedades_contenido_v9_vista', '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v8_vista = '1';
-      fbSet({novedades_contenido_v8_vista:'1'});
+      _userData.novedades_contenido_v9_vista = '1';
+      fbSet({novedades_contenido_v9_vista:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4482,16 +4483,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">La verdad que vuelve a ordenar</h2>
-    <p class="novedades-intro">Hay ideas que repetimos tanto que terminan pareciendo realidad: sobre nosotros, sobre Dios y sobre lo que es posible. Esta semana no vamos a negar lo que duele; vamos a aprender a mirarlo bajo la luz de la Verdad que Cristo ha dicho.</p>
+    <h2 class="novedades-title" id="novedades-title">Antes de la caída</h2>
+    <p class="novedades-intro">Esta semana caminamos con David frente a Goliat. No para negar lo difícil, sino para recordar que una voz repetida no tiene la última palabra sobre nosotros.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Paso Diario: Reemplazar con la Verdad</div>
-        <p class="novedades-item-copy">Esta semana recorremos el camino desde las fortalezas que levantan nuestros pensamientos hasta la libertad que nace de permanecer en la palabra de Jesús.</p>
+        <div class="novedades-item-title">Paso Diario: Antes de la caída</div>
+        <p class="novedades-item-copy">Durante esta semana veremos cómo David aprende a mirar el temor, recordar quién es Dios y dar el siguiente paso con fe.</p>
       </div>
     </div>
 
@@ -4500,8 +4501,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Paso Profundo: Nuevas puertas para profundizar</div>
-        <p class="novedades-item-copy">Filipenses y 2 Pedro ya están completos en Paso Profundo. En sus capítulos encontrarás una invitación a reconocer la gracia que sostiene, la nueva vida que Cristo forma y una esperanza que no depende de nuestras fuerzas.</p>
+        <div class="novedades-item-title">Profundiza en 1 Samuel</div>
+        <p class="novedades-item-copy">Puedes abrir la introducción de 1 Samuel y estudiar el capítulo 17 para seguir el relato de David con más calma, contexto y preguntas para conversar con Dios.</p>
       </div>
     </div>
 
@@ -4510,8 +4511,9 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Mejoramos: Llegar al estudio sin interrupciones</div>
-        <p class="novedades-item-copy">Ajustamos la apertura de los estudios para que puedas pasar de una referencia al capítulo correspondiente y continuar profundizando sin perder el hilo de tu lectura.</p>
+        <div class="novedades-item-title">¿Tienes problemas con la app?</div>
+        <p class="novedades-item-copy">Si algo no funciona como esperas, escríbenos. Cuéntanos qué ocurrió y, si puedes, envíanos una captura de pantalla para ayudarte más rápido.</p>
+        <a class="novedades-support-link" href="https://wa.me/573173708570?text=Hola%2C%20necesito%20ayuda%20con%20S.T.A.R.S.%20Me%20ocurri%C3%B3%20lo%20siguiente%3A" target="_blank" rel="noopener">Escribir por WhatsApp</a>
       </div>
     </div>
 
@@ -4520,8 +4522,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">¿Sabías que?: Tu recorrido permanece</div>
-        <p class="novedades-item-copy">Cada estudio está organizado en diez estaciones. Puedes detenerte, volver después y continuar donde ibas; al terminar el recorrido, el capítulo queda marcado como leído.</p>
+        <div class="novedades-item-title">¿Sabías que?: Puedes leer a tu manera</div>
+        <p class="novedades-item-copy">Desde Configuración puedes aumentar el tamaño de la letra y elegir el ambiente de color que te ayude a leer con más comodidad.</p>
       </div>
     </div>
 
@@ -4616,6 +4618,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
           <div>
             <div class="config-row-label">Novedades</div>
             <div class="config-row-sub">Conoce los contenidos recién incorporados</div>
+          </div>
+        </div>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="config-row" onclick="abrirSoporteWhatsApp()">
+        <div class="config-row-left">
+          <div class="config-row-icon" aria-hidden="true">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-9 8.5 9.1 9.1 0 0 1-4-.9L3 21l1.7-4.7A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 9.5c.3 2.1 1.9 3.7 4 4"/></svg>
+          </div>
+          <div>
+            <div class="config-row-label">Soporte por WhatsApp</div>
+            <div class="config-row-sub">Cuéntanos si necesitas ayuda con la app</div>
           </div>
         </div>
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
@@ -8560,10 +8574,15 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v8_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v8_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v9_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v9_pospuesta';
+const SOPORTE_WHATSAPP_URL = 'https://wa.me/573173708570?text=Hola%2C%20necesito%20ayuda%20con%20S.T.A.R.S.%20Me%20ocurri%C3%B3%20lo%20siguiente%3A';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
+
+function abrirSoporteWhatsApp(){
+  window.open(SOPORTE_WHATSAPP_URL, '_blank', 'noopener');
+}
 
 function novedadesRachaYaVistas(){
   if(window.FB && typeof window.FB.getNovedadesRachaVista === 'function') return window.FB.getNovedadesRachaVista();
@@ -11433,6 +11452,19 @@ function dskIlSec(btn, idx){
                 <div>
                   <div class="config-row-label">Novedades</div>
                   <div class="config-row-sub">Conoce los contenidos recién incorporados</div>
+                </div>
+              </div>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+
+            <div class="config-row" onclick="abrirSoporteWhatsApp()">
+              <div class="config-row-left">
+                <div class="config-row-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-9 8.5 9.1 9.1 0 0 1-4-.9L3 21l1.7-4.7A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 9.5c.3 2.1 1.9 3.7 4 4"/></svg>
+                </div>
+                <div>
+                  <div class="config-row-label">Soporte por WhatsApp</div>
+                  <div class="config-row-sub">Cuéntanos si necesitas ayuda con la app</div>
                 </div>
               </div>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="color:var(--white3);opacity:0.4" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
