@@ -2587,6 +2587,12 @@ body.modo-dia .frase-estudio-dl{
 .config-row-icon.red{background:rgba(239,68,68,0.1);border-color:rgba(239,68,68,0.25)}
 .config-row-label{font-size:0.875rem;font-weight:500;color:var(--white)}
 .config-row-sub{font-size:0.6875rem;color:var(--white3);margin-top:2px}
+.config-disclosure-chevron{color:var(--white3);opacity:.4;transition:transform .2s,color .2s}
+.config-row.is-open .config-disclosure-chevron{transform:rotate(90deg);color:var(--gold);opacity:1}
+.config-disclosure-panel{display:none;padding:12px 18px 16px;border-top:1px solid rgba(255,255,255,.06)}
+.config-disclosure-panel.open{display:block}
+.config-disclosure-panel .cfg-font-row{width:100%;margin:0}
+.config-disclosure-panel .cfg-theme-lhscol{margin-top:0}
 
 /* ── AVISO DE NOVEDADES ── */
 .novedades-modal{position:fixed;inset:0;z-index:950;display:none;align-items:flex-end;justify-content:center;padding:10px}
@@ -4559,17 +4565,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </label>
       </div>
       <!-- Tamaño de letra -->
-      <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
-        <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
-          <div style="display:flex;align-items:center;gap:12px">
-            <div class="config-row-icon">Aa</div>
-            <div>
-              <div class="config-row-label">Tamaño de letra</div>
-              <div class="config-row-sub">Afecta toda la app</div>
-            </div>
+      <div class="config-row" onclick="toggleConfigPanel('config-panel-font',this)" aria-expanded="false">
+        <div class="config-row-left">
+          <div class="config-row-icon">Aa</div>
+          <div>
+            <div class="config-row-label">Tamaño de letra</div>
+            <div class="config-row-sub">Afecta toda la app</div>
           </div>
         </div>
-        <div class="cfg-font-row" style="width:100%;margin-top:12px">
+        <svg class="config-disclosure-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="config-disclosure-panel" id="config-panel-font">
+        <div class="cfg-font-row">
           <button id="cfg-font-xs" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(0)">A</button>
           <button id="cfg-font-sm" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(1)">A</button>
           <button id="cfg-font-md" class="cfg-font-btn active" onclick="event.stopPropagation();_aplicarFontSize(2)">A</button>
@@ -4578,16 +4585,17 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </div>
       </div>
       <!-- Tema de la App -->
-      <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
-        <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
-          <div style="display:flex;align-items:center;gap:12px">
-            <div class="config-row-icon">🎨</div>
-            <div>
-              <div class="config-row-label">Tema de la App</div>
-              <div class="config-row-sub">Identidades visuales de LHSCOL</div>
-            </div>
+      <div class="config-row" onclick="toggleConfigPanel('config-panel-theme',this)" aria-expanded="false">
+        <div class="config-row-left">
+          <div class="config-row-icon">🎨</div>
+          <div>
+            <div class="config-row-label">Tema de la App</div>
+            <div class="config-row-sub">Identidades visuales de LHSCOL</div>
           </div>
         </div>
+        <svg class="config-disclosure-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+      </div>
+      <div class="config-disclosure-panel" id="config-panel-theme">
         <div class="cfg-theme-lhscol">
           <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')"><span class="cfg-tema-dot" style="background:#c9a84c"></span>LHSCOL</button>
           <div class="cfg-night-control"><span>Modo nocturno</span>
@@ -8574,6 +8582,21 @@ function cerrarConfig(){
   document.body.style.overflow='';
 }
 
+function toggleConfigPanel(panelId, trigger){
+  const panel=document.getElementById(panelId);
+  if(!panel) return;
+  const abrir=!panel.classList.contains('open');
+  document.querySelectorAll('.config-disclosure-panel.open').forEach(other=>{
+    if(other===panel) return;
+    other.classList.remove('open');
+    other.previousElementSibling?.classList.remove('is-open');
+    other.previousElementSibling?.setAttribute('aria-expanded','false');
+  });
+  panel.classList.toggle('open',abrir);
+  trigger.classList.toggle('is-open',abrir);
+  trigger.setAttribute('aria-expanded',String(abrir));
+}
+
 const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v9_vista';
 const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v9_pospuesta';
 const SOPORTE_WHATSAPP_URL = 'https://wa.me/573173708570?text=Hola%2C%20necesito%20ayuda%20con%20S.T.A.R.S.%20Me%20ocurri%C3%B3%20lo%20siguiente%3A';
@@ -11391,17 +11414,18 @@ function dskIlSec(btn, idx){
               </label>
             </div>
 
-            <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
-              <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
-                <div style="display:flex;align-items:center;gap:12px">
-                  <div class="config-row-icon">Aa</div>
-                  <div>
-                    <div class="config-row-label">Tamaño de letra</div>
-                    <div class="config-row-sub">Afecta toda la app</div>
-                  </div>
+            <div class="config-row" onclick="toggleConfigPanel('dsk-config-panel-font',this)" aria-expanded="false">
+              <div class="config-row-left">
+                <div class="config-row-icon">Aa</div>
+                <div>
+                  <div class="config-row-label">Tamaño de letra</div>
+                  <div class="config-row-sub">Afecta toda la app</div>
                 </div>
               </div>
-              <div class="cfg-font-row" style="width:100%;margin-top:12px">
+              <svg class="config-disclosure-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+            <div class="config-disclosure-panel" id="dsk-config-panel-font">
+              <div class="cfg-font-row">
                 <button id="dsk-cfg-font-xs" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(0)">A</button>
                 <button id="dsk-cfg-font-sm" class="cfg-font-btn" onclick="event.stopPropagation();_aplicarFontSize(1)">A</button>
                 <button id="dsk-cfg-font-md" class="cfg-font-btn active" onclick="event.stopPropagation();_aplicarFontSize(2)">A</button>
@@ -11410,16 +11434,17 @@ function dskIlSec(btn, idx){
               </div>
             </div>
 
-            <div class="config-row" style="flex-direction:column;align-items:flex-start;gap:0;cursor:default" onclick="void(0)">
-              <div class="config-row-left" style="width:100%;justify-content:space-between;pointer-events:none">
-                <div style="display:flex;align-items:center;gap:12px">
-                  <div class="config-row-icon">🎨</div>
-                  <div>
-                    <div class="config-row-label">Tema de la App</div>
-                    <div class="config-row-sub">Identidades visuales de LHSCOL</div>
-                  </div>
+            <div class="config-row" onclick="toggleConfigPanel('dsk-config-panel-theme',this)" aria-expanded="false">
+              <div class="config-row-left">
+                <div class="config-row-icon">🎨</div>
+                <div>
+                  <div class="config-row-label">Tema de la App</div>
+                  <div class="config-row-sub">Identidades visuales de LHSCOL</div>
                 </div>
               </div>
+              <svg class="config-disclosure-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="9 18 15 12 9 6"/></svg>
+            </div>
+            <div class="config-disclosure-panel" id="dsk-config-panel-theme">
               <div class="cfg-theme-lhscol">
                 <button class="cfg-tema-btn active" data-tema="dorado" onclick="event.stopPropagation();_aplicarTema('dorado')">
                   <span class="cfg-tema-dot" style="background:#c9a84c"></span>LHSCOL
