@@ -2794,10 +2794,12 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     // Pasos
     setPaso: (fecha, idx) => {
       const key = 'pasos_' + fecha;
-      const pasos = fbGet(key, {});
-      pasos[idx] = '1';
+      // Nunca volver a enviar el mapa completo: otro dispositivo puede tener
+      // una copia anterior y borrar pasos ya completados en la nube.
+      const pasos = {...(fbGet(key, {}) || {}), [idx]: '1'};
       _userData[key] = pasos;
-      fbSet({[key]: pasos});
+      // setDoc con merge combina esta única clave del mapa con las demás.
+      fbSet({[key]: {[idx]: '1'}});
     },
     getPaso: (fecha, idx) => {
       const pasos = fbGet('pasos_' + fecha, {});
@@ -3079,16 +3081,25 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   <script>
     (function(){
       const frame = document.getElementById('stars-landing-frame');
-      frame.addEventListener('load', function(){
+      const conectarAcceso = function(){
         const landing = frame.contentDocument;
         if(!landing) return;
-        landing.querySelectorAll('a').forEach(function(link){
+        if(landing.documentElement.dataset.starsAccesoConectado === '1') return;
+        landing.documentElement.dataset.starsAccesoConectado = '1';
+        landing.addEventListener('click', function(event){
+          const link = event.target.closest?.('a');
+          if(!link) return;
           const text = (link.textContent || '').replace(/\s+/g,' ').trim();
           if(text === 'Mis Pasos' || text.indexOf('Entrar a') === 0){
-            link.addEventListener('click', function(event){ event.preventDefault(); window.loginConGoogle(); });
+            event.preventDefault();
+            window.loginConGoogle();
           }
         });
-      });
+      };
+      frame.addEventListener('load', conectarAcceso);
+      // Si la landing salió de caché antes de registrar el evento load,
+      // conectarla igualmente para que “Mis pasos” nunca quede inactivo.
+      if(frame.contentDocument?.readyState === 'complete') conectarAcceso();
     })();
   </script>
 </div>
@@ -3772,7 +3783,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
       <div class="chapter-finder" style="padding-bottom:0">
         <div class="chapter-finder-head chapter-finder-head--method-align">
           <div class="chapter-finder-title">Estudio por Método</div>
-          <div class="chapter-finder-copy">Lee cómo funciona el método S.T.A.R.S. en la parte de abajo.</div>
+          <div class="chapter-finder-copy">Elige un libro para iniciar tu recorrido de estudio.</div>
         </div>
         <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
         <div class="chapter-finder-form">
@@ -3861,8 +3872,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
       </div>
     </div>
 
-    <!-- Contenido original del Método: se comparte entre móvil y escritorio -->
-    <div id="metodo-contenido-compartido" style="padding-bottom:20px">
+    <!-- El método se presenta en la landing; se retira de Zona de Estudio. -->
+    <div id="metodo-contenido-compartido" hidden aria-hidden="true" style="padding-bottom:20px">
 
       <!-- ─ STARS ─ -->
       <div style="margin:0 0 0">
@@ -11316,7 +11327,7 @@ function dskIlSec(btn, idx){
           <div class="chapter-finder" style="padding:20px 16px 0">
             <div class="chapter-finder-head">
               <div class="chapter-finder-title">Estudio por Método</div>
-              <div class="chapter-finder-copy">Lee cómo funciona el método S.T.A.R.S. en la parte de abajo.</div>
+              <div class="chapter-finder-copy">Elige un libro para iniciar tu recorrido de estudio.</div>
             </div>
             <div class="chapter-finder-label">¿Qué libro quieres estudiar?</div>
             <div class="chapter-finder-form">
