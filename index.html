@@ -3178,6 +3178,9 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     <input id="admin-racha-fecha" type="date" style="box-sizing:border-box;width:100%;margin-bottom:14px;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;">
     <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Nota administrativa <span style="color:#978563;">(opcional)</span></label>
     <textarea id="admin-racha-motivo" rows="3" maxlength="500" placeholder="Opcional: deja una nota para la auditoría." style="box-sizing:border-box;width:100%;margin-bottom:12px;resize:vertical;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;"></textarea>
+    <label style="display:flex;align-items:center;gap:8px;margin:0 0 12px;color:#d6cec0;font-size:.8125rem;cursor:pointer;">
+      <input id="admin-racha-reponer-estrella" type="checkbox" style="accent-color:#c9a84c;"> Reponer 1 estrella de restauración
+    </label>
     <div id="admin-racha-estado" role="status" style="min-height:38px;margin:2px 0 14px;color:#d6cec0;font-size:.8125rem;line-height:1.45;"></div>
     <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
       <button onclick="adminCerrarRestauracionRacha()" style="background:transparent;color:#d6cec0;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;">Cancelar</button>
@@ -3312,6 +3315,7 @@ function adminAbrirRestauracionRacha(){
   modal.hidden=false;
   modal.style.display='flex';
   modal.setAttribute('aria-hidden','false');
+  adminRachaCampo('admin-racha-reponer-estrella').checked=false;
   setTimeout(()=>adminRachaCampo('admin-racha-email')?.focus(),0);
 }
 function adminCerrarRestauracionRacha(){
@@ -3327,7 +3331,8 @@ function adminRachaDatosFormulario(){
   return {
     email:String(adminRachaCampo('admin-racha-email')?.value||'').trim(),
     fecha:String(adminRachaCampo('admin-racha-fecha')?.value||'').trim(),
-    motivo:String(adminRachaCampo('admin-racha-motivo')?.value||'').trim()
+    motivo:String(adminRachaCampo('admin-racha-motivo')?.value||'').trim(),
+    reponerEstrella:Boolean(adminRachaCampo('admin-racha-reponer-estrella')?.checked)
   };
 }
 async function adminLlamarRestauracionRacha(action, extras={}){
@@ -3351,8 +3356,9 @@ async function adminConsultarRestauracionRacha(){
     adminRachaEstado('Revisando el registro…');
     const body=await adminLlamarRestauracionRacha('revisar');
     const caso=body.caso||{};
-    adminRachaCasoVerificado={email:body.persona?.email||adminRachaDatosFormulario().email,fecha:caso.fecha};
-    adminRachaEstado(`Listo: se restaurará ${caso.fecha} para ${body.persona?.email||'la cuenta'}. Estado actual: ${caso.mensaje}. La acción quedará auditada.`);
+    const datos=adminRachaDatosFormulario();
+    adminRachaCasoVerificado={email:body.persona?.email||datos.email,fecha:caso.fecha,reponerEstrella:datos.reponerEstrella};
+    adminRachaEstado(`Listo: se restaurará ${caso.fecha} para ${body.persona?.email||'la cuenta'}${datos.reponerEstrella?' y se repondrá una estrella':''}. Estado actual: ${caso.mensaje}. La acción quedará auditada.`);
     adminRachaHabilitarConfirmacion(true);
   }catch(error){
     adminRachaEstado(error.message||'No se pudo revisar el caso.',true);
@@ -3360,17 +3366,17 @@ async function adminConsultarRestauracionRacha(){
 }
 async function adminConfirmarRestauracionRacha(){
   const datos=adminRachaDatosFormulario();
-  if(!adminRachaCasoVerificado || adminRachaCasoVerificado.email.toLowerCase()!==datos.email.toLowerCase() || adminRachaCasoVerificado.fecha!==datos.fecha){
+  if(!adminRachaCasoVerificado || adminRachaCasoVerificado.email.toLowerCase()!==datos.email.toLowerCase() || adminRachaCasoVerificado.fecha!==datos.fecha || adminRachaCasoVerificado.reponerEstrella!==datos.reponerEstrella){
     adminRachaEstado('Vuelve a revisar el caso después de cambiar los datos.',true);
     adminRachaHabilitarConfirmacion(false);
     return;
   }
-  if(!confirm(`¿Restaurar la racha de ${datos.email} para el ${datos.fecha}? Esta acción quedará registrada.`)) return;
+  if(!confirm(`¿Restaurar la racha de ${datos.email} para el ${datos.fecha}${datos.reponerEstrella?' y reponer una estrella':''}? Esta acción quedará registrada.`)) return;
   try{
     adminRachaHabilitarConfirmacion(false);
     adminRachaEstado('Aplicando corrección auditada…');
     const body=await adminLlamarRestauracionRacha('restaurar',{confirmacion:'RESTAURAR'});
-    adminRachaEstado(`✓ Racha restaurada. Auditoría: ${body.auditoriaId}.`);
+    adminRachaEstado(`✓ Racha restaurada${body.estrellaRepuesta?' y estrella repuesta':''}. Auditoría: ${body.auditoriaId}.`);
     adminRachaCasoVerificado=null;
   }catch(error){
     adminRachaEstado(error.message||'No se pudo aplicar la corrección.',true);

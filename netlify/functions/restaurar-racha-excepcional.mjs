@@ -126,10 +126,15 @@ export default async function handler(req) {
 
     const auditRef = db.collection('auditoria_racha').doc();
     const now = Date.now();
+    const reponerEstrella = body?.reponerEstrella === true;
+    let estrellasAntes = 0;
+    let estrellasDespues = 0;
     await db.runTransaction(async transaction => {
       const freshSnapshot = await transaction.get(userRef);
       if (!freshSnapshot.exists) throw requestError('La cuenta dejó de estar disponible.', 404);
       const fresh = freshSnapshot.data() || {};
+      estrellasAntes = Math.max(0, Number.parseInt(fresh.racha_estrellas, 10) || 0);
+      estrellasDespues = estrellasAntes + (reponerEstrella ? 1 : 0);
       const invalid = { ...(fresh.racha_invalidos || {}) };
       delete invalid[date];
       const restored = { ...(fresh.racha_restaurados || {}) };
@@ -150,7 +155,8 @@ export default async function handler(req) {
         racha_invalidos: invalid,
         racha_restaurados: restored,
         racha_revisiones: reviews,
-        racha_excepciones_admin: overrides
+        racha_excepciones_admin: overrides,
+        ...(reponerEstrella ? { racha_estrellas: estrellasDespues } : {})
       }, { merge: true });
       transaction.set(auditRef, {
         tipo: 'correccion_racha_excepcional',
@@ -162,13 +168,20 @@ export default async function handler(req) {
         antes: {
           invalido: Boolean(fresh.racha_invalidos?.[date]),
           restauradoConEstrella: Boolean(fresh.racha_restaurados?.[date]),
-          completado: allStepsComplete(fresh, date)
+          completado: allStepsComplete(fresh, date),
+          estrellas: estrellasAntes
         },
-        despues: { invalido: false, restauradoConEstrella: false, completado: true }
+        despues: {
+          invalido: false,
+          restauradoConEstrella: false,
+          completado: true,
+          estrellas: estrellasDespues,
+          estrellaRepuesta: reponerEstrella
+        }
       });
     });
 
-    return json({ ok: true, auditoriaId: auditRef.id, fecha: date });
+    return json({ ok: true, auditoriaId: auditRef.id, fecha: date, estrellaRepuesta: reponerEstrella, estrellasAntes, estrellasDespues });
   } catch (error) {
     console.error('restaurar-racha-excepcional', error);
     return json({ error: error?.message || 'No se pudo procesar la corrección.' }, error?.status || 500);
