@@ -6705,7 +6705,9 @@ function estaEnSemanaActual(key){return getWeekDates().some(d=>dateToKey(d)===ke
 async function activarDiaDevocional(key,{desdeBanco=false}={}){
   const actual=getActualTodayKey();if(key>actual&&!window.ADMIN_MODE){showToast('Ese día todavía no está disponible');return false;}
   const accesoRestauracion=!window.ADMIN_MODE&&puedeAbrirDiaParaRestaurar(key);
-  if(!window.ADMIN_MODE&&!estaEnSemanaActual(key)&&!desdeBanco&&!estaEnBancoStars(key)&&!accesoRestauracion){showToast('Los días anteriores permanecen disponibles si los guarda en Mis días');return false;}
+  // Los días pasados son siempre consultables desde el calendario. La racha no
+  // se recalcula por abrirlos: su restauración sigue limitada por la ventana y
+  // las estrellas existentes en procesarFinalizacionDia().
   if(!DEVOCIONALES[key]){const info=semanaISOConAnio(fechaDesdeKey(key));await cargarDevocionalSemana(info.year,info.week);}
   if(!DEVOCIONALES[key]){showToast('Sin Paso Diario disponible para ese día');return false;}
   FECHA_DEVOCIONAL_ACTIVA=key===actual?null:key;
@@ -6714,6 +6716,8 @@ async function activarDiaDevocional(key,{desdeBanco=false}={}){
   if(accesoRestauracion){
     if(isDayComplete(key)&&esDiaInvalidoParaRacha(key)) setTimeout(()=>intentarCanjearEstrella(key),0);
     else if(!isDayComplete(key)) showToast('Día pendiente: complete los cinco pasos para restaurar la racha');
+  }else if(!window.ADMIN_MODE&&key<actual){
+    showToast('Estás revisando un día anterior. Completarlo solo restaura la racha si cumple la ventana y reglas vigentes.');
   }
   return true;
 }
