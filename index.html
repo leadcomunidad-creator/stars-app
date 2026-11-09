@@ -5021,7 +5021,8 @@ function actualizarAccesoEstudioHoy(){
 }
 
 async function abrirEstudioCapituloHoy(){
-  const destino=pasoDiarioCapituloDesdeReferencia(getDevoHoy()?.versiculo);
+  const devo=getDevoHoy();
+  const destino=pasoDiarioCapituloDesdeReferencia(devo?.profundizar_texto?.estudio_principal||devo?.paso_profundo?.estudio_principal||devo?.versiculo);
   if(!destino){showToast('No se pudo identificar el capítulo de hoy');return;}
   await abrirEstudioDesdeProfundizar(destino.libro,destino.capitulo);
 }
@@ -8945,9 +8946,10 @@ function construirHTMLExegetico(d){
       <div style="font-size:0.75rem;line-height:1.6">El Paso Profundo de hoy se agregará junto con el Paso Diario de esta semana.</div>
     </div>`;
   }
-  const refMatch=String(d.titulo||'').match(/^(.+?)\s+(\d+)\s*:/);
+  const referenciaEstudio=String(d.estudio_principal||d.titulo||'');
+  const refMatch=referenciaEstudio.match(/^(.+?)\s+(\d+)(?=\s*:|$)/);
   const libroDestino=refMatch?refMatch[1].trim():'';
-  const capitulosDestino=[...new Set([...String(d.titulo||'').matchAll(/(\d+)\s*:/g)].map(m=>parseInt(m[1])))];
+  const capitulosDestino=[...new Set([...referenciaEstudio.matchAll(/(\d+)(?=\s*:|$)/g)].map(m=>parseInt(m[1])))];
   const botonesEstudio=libroDestino?`<div class="pt-study-actions">${capitulosDestino.map(cap=>`<button class="pt-study-btn" onclick="abrirEstudioDesdeProfundizar(${jsStringAttr(libroDestino)},${cap})">Estudiar ${escaparHTML(libroDestino)} ${cap} →</button>`).join('')}</div>`:'';
   const notas=(d.notas||[]).map((n,i)=>{
     const analisis=n.explicacion||n.analisis||'';
