@@ -4506,16 +4506,16 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">REENTRENAR</h2>
-    <p class="novedades-intro">Esta semana recorreremos el paso de conocer la Verdad a aprender a vivir desde ella. Filipenses 4 nos llevará a presentar las preocupaciones delante de Dios, dar atención a lo verdadero y practicar lo que hemos recibido.</p>
+    <h2 class="novedades-title" id="novedades-title">GRACIAS ANTES DEL FINAL</h2>
+    <p class="novedades-intro">Esta semana vamos a explorar una gratitud que no espera a que todo esté resuelto. Empezaremos con el hombre que regresó a darle gracias a Jesús en Lucas 17 y recorreremos Deuteronomio 8, Colosenses 3 y varios salmos para aprender a recordar lo que Dios ha hecho, agradecerle tanto cuando todo va bien como cuando algo falta, y responderle con la vida.</p>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Paso Diario: REENTRENAR</div>
-        <p class="novedades-item-copy">Cada día daremos un paso concreto: presentar la preocupación al Padre, orientar la mente a la Verdad y practicar una obediencia posible.</p>
+        <div class="novedades-item-title">Pregunta de la semana</div>
+        <p class="novedades-item-copy">¿Qué ha hecho Dios en mi vida que todavía no he vuelto a agradecerle?</p>
       </div>
     </div>
 
@@ -4524,18 +4524,18 @@ window.addEventListener('DOMContentLoaded', ()=>{
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 2.7 5.47 6.03.88-4.36 4.25 1.03 6-5.4-2.84L6.6 19.6l1.03-6-4.36-4.25 6.03-.88L12 3Z"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Profundiza en Filipenses 4</div>
-        <p class="novedades-item-copy">Esta semana el botón «Estudio» abre Filipenses 4 todos los días. Es el capítulo central para profundizar el recorrido completo de REENTRENAR.</p>
+        <div class="novedades-item-title">Profundiza en Lucas 17</div>
+        <p class="novedades-item-copy">Esta semana el botón «Estudio» abre Lucas 17 todos los días. Es el capítulo central del recorrido. Al final de cada devocional también encontrarás una invitación a estudiar el capítulo del día.</p>
       </div>
     </div>
 
     <div class="novedades-item">
       <div class="novedades-icon" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 15-6.7L21 8"/><path d="M21 3v5h-5"/><path d="M8 12h8"/></svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
       </div>
       <div>
-        <div class="novedades-item-title">Una Verdad para llevar a la práctica</div>
-        <p class="novedades-item-copy">Pregunta de la semana: ¿Qué Verdad de Dios ya conozco, pero necesito llevar a una respuesta concreta en mi vida?</p>
+        <div class="novedades-item-title">¿Sabías que…? Convierte la Frase para hoy en una imagen</div>
+        <p class="novedades-item-copy">En la tarjeta «Frase para hoy» toca «Descargar imagen PNG». Puedes elegir el estilo, la tipografía y el formato de historia o cuadrado. Esta semana, compártela con alguien a quien quieras darle gracias.</p>
       </div>
     </div>
 
@@ -5010,7 +5010,7 @@ function pasoDiarioCapituloDesdeReferencia(referencia){
 
 function actualizarAccesoEstudioHoy(){
   const devo=getDevoHoy();
-  const destino=pasoDiarioCapituloDesdeReferencia(devo?.versiculo);
+  const destino=pasoDiarioCapituloDesdeReferencia(devo?.profundizar_texto?.estudio_principal||devo?.paso_profundo?.estudio_principal||devo?.versiculo);
   const mobile=document.getElementById('estudio-hoy-access');
   const desktop=document.getElementById('dsk-estudio-hoy-access');
   [mobile,desktop].forEach(el=>{if(el) el.style.display=destino?'flex':'none';});
@@ -8619,8 +8619,8 @@ function toggleConfigPanel(panelId, trigger){
   trigger.setAttribute('aria-expanded',String(abrir));
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v10_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v10_pospuesta';
+const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v11_vista';
+const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v11_pospuesta';
 const SOPORTE_WHATSAPP_URL = 'https://wa.me/573173708570?text=Hola%2C%20necesito%20ayuda%20con%20S.T.A.R.S.%20Me%20ocurri%C3%B3%20lo%20siguiente%3A';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
