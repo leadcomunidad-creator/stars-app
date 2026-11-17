@@ -2783,6 +2783,12 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
     try { await setDoc(userRef(), data, {merge:true}); } catch(e){ console.error('fbSet',e); }
   }
 
+  // Clave de Firebase para «Novedades vistas»: se deriva de NOVEDADES_VERSION
+  // (definida junto a las claves locales). Nunca escribir aquí una versión fija.
+  function novedadesFbKey(){
+    return `novedades_contenido_${window.STARS_NOVEDADES_VERSION || 'sin_version'}_vista`;
+  }
+
   // ── Leer un campo del cache local ──
   function fbGet(campo, defVal=''){
     if(_userData[campo] !== undefined) return _userData[campo];
@@ -2942,10 +2948,11 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       fbSet({banco_stars:safe});
     },
     // Aviso de novedades visto por el usuario
-    getNovedadesRachaVista: () => fbGet('novedades_contenido_v10_vista', '') === '1',
+    getNovedadesRachaVista: () => fbGet(novedadesFbKey(), '') === '1',
     setNovedadesRachaVista: () => {
-      _userData.novedades_contenido_v10_vista = '1';
-      fbSet({novedades_contenido_v10_vista:'1'});
+      const clave = novedadesFbKey();
+      _userData[clave] = '1';
+      fbSet({[clave]:'1'});
     },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
@@ -4506,7 +4513,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
     <div class="novedades-handle" aria-hidden="true"></div>
     <div class="novedades-kicker">Novedades en S.T.A.R.S</div>
-    <h2 class="novedades-title" id="novedades-title">GRACIAS ANTES DEL FINAL</h2>
+    <h2 class="novedades-title" id="novedades-title">Gracias antes del final</h2>
     <p class="novedades-intro">Esta semana vamos a explorar una gratitud que no espera a que todo esté resuelto. Empezaremos con el hombre que regresó a darle gracias a Jesús en Lucas 17 y recorreremos Deuteronomio 8, Colosenses 3 y varios salmos para aprender a recordar lo que Dios ha hecho, agradecerle tanto cuando todo va bien como cuando algo falta, y responderle con la vida.</p>
 
     <div class="novedades-item">
@@ -8619,8 +8626,13 @@ function toggleConfigPanel(panelId, trigger){
   trigger.setAttribute('aria-expanded',String(abrir));
 }
 
-const NOVEDADES_RACHA_LOCAL_KEY = 'stars_novedades_contenido_v11_vista';
-const NOVEDADES_RACHA_SESSION_KEY = 'stars_novedades_contenido_v11_pospuesta';
+// ÚNICO lugar para cambiar la versión semanal de Novedades. Al subirla (v11 → v12)
+// cambian a la vez la clave local, la de sesión y la de Firebase, y el aviso
+// vuelve a mostrarse a todos al abrir la app.
+const NOVEDADES_VERSION = 'v11';
+window.STARS_NOVEDADES_VERSION = NOVEDADES_VERSION;
+const NOVEDADES_RACHA_LOCAL_KEY = `stars_novedades_contenido_${NOVEDADES_VERSION}_vista`;
+const NOVEDADES_RACHA_SESSION_KEY = `stars_novedades_contenido_${NOVEDADES_VERSION}_pospuesta`;
 const SOPORTE_WHATSAPP_URL = 'https://wa.me/573173708570?text=Hola%2C%20necesito%20ayuda%20con%20S.T.A.R.S.%20Me%20ocurri%C3%B3%20lo%20siguiente%3A';
 let _novedadesFocusAnterior = null;
 let _novedadesOverflowAnterior = '';
