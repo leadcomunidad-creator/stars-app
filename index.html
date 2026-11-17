@@ -1401,6 +1401,12 @@ body.modo-dia .pt-root--profundizar .pt-foot{border-color:var(--pt-line)!importa
 .pd2-modal .modal-sheet{max-width:620px;background:var(--black);border-top-color:var(--gold-border)}
 .pd2-modal .modal-handle{position:absolute;top:8px;left:50%;transform:translateX(-50%);z-index:4;margin:0;background:color-mix(in srgb,var(--white) 18%,transparent)}
 .pd2-modal .modal-body{padding:0;overflow-y:auto;background:var(--black)}
+/* Pasos diarios: el encabezado (insignia, título y pistas S·T·A·R·S) se desplaza
+   junto con el texto en lugar de quedar fijo y ocupar media pantalla. */
+.pd2-modal .modal-sheet{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.pd2-modal .modal-sheet::-webkit-scrollbar{display:none}
+.pd2-modal .modal-sheet>*{flex-shrink:0}
+.pd2-modal .modal-sheet>.modal-body{flex:none;overflow:visible}
 .pd2-hero{position:relative;text-align:center;padding:2.75rem 1.75rem 1.875rem;background:radial-gradient(ellipse 72% 100% at 50% 0%,var(--gold-dim) 0%,transparent 66%),linear-gradient(180deg,var(--black2) 0%,var(--black) 100%);border-bottom:1px solid var(--est-v2-line)}
 .pd2-modal .pd2-hero{padding:2.25rem 1.25rem 1.5rem}
 .pd2-hero .modal-close{position:absolute;top:1rem;right:1rem;color:var(--white3);z-index:3}
@@ -2954,6 +2960,20 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       _userData[clave] = '1';
       fbSet({[clave]:'1'});
     },
+    // Avisos de rifa: los escribe el servidor en avisos_rifa; la app marca los vistos.
+    getAvisosRifa: () => {
+      const avisos = fbGet('avisos_rifa', null);
+      return avisos && typeof avisos === 'object' ? avisos : {};
+    },
+    getAvisosRifaVistos: () => {
+      const vistos = fbGet('avisos_rifa_vistos', null);
+      return vistos && typeof vistos === 'object' ? vistos : {};
+    },
+    setAvisoRifaVisto: (id) => {
+      if(!id) return;
+      _userData.avisos_rifa_vistos = {...(_userData.avisos_rifa_vistos || {}), [id]: true};
+      fbSet({avisos_rifa_vistos:{[id]:true}});
+    },
     // Racha (calcula desde los datos en cache)
     calcularRacha: () => {
       const hoy = window.ADMIN_DATE || new Date();
@@ -3156,7 +3176,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   <button onclick="adminAbrirInformeRacha()" style="
     background:transparent;color:#f5f0e8;border:1px solid #c9a84c88;border-radius:8px;
     padding:5px 12px;font-weight:700;font-family:inherit;font-size:0.75rem;cursor:pointer;
-  ">Informe mensual</button>
+  ">Rifas de racha</button>
   <span id="admin-status" style="color:#c9a84c;font-size:0.6875rem;opacity:0.8;"></span>
   <button onclick="toggleAdminBar(false)" style="
     margin-left:auto;background:transparent;color:#c9a84c;border:1px solid #c9a84c55;border-radius:8px;
@@ -3202,19 +3222,42 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
   align-items:center;justify-content:center;font-family:'Outfit',sans-serif;
 ">
   <section role="dialog" aria-modal="true" aria-labelledby="admin-informe-racha-titulo" style="
-    width:min(100%,760px);max-height:calc(100vh - 40px);overflow:auto;background:#16110a;
+    width:min(100%,780px);max-height:calc(100vh - 40px);overflow:auto;background:#16110a;
     border:1px solid #c9a84c88;border-radius:16px;padding:22px;color:#f5f0e8;box-shadow:0 20px 60px #000;
   ">
     <div style="font-size:.6875rem;letter-spacing:.14em;color:#c9a84c;font-weight:700;">ADMINISTRACIÓN</div>
-    <h2 id="admin-informe-racha-titulo" style="margin:7px 0 8px;font-family:'Cormorant Garamond',serif;font-size:1.75rem;">Informe mensual de rachas</h2>
-    <p style="margin:0 0 16px;color:#d6cec0;font-size:.875rem;line-height:1.5;">Consulta quién mantuvo la racha completa durante todos los días de un mes cerrado. El sorteo se realiza una sola vez por mes entre las personas elegibles y queda auditado.</p>
-    <label style="display:block;font-size:.75rem;color:#c9a84c;margin-bottom:6px;">Mes cerrado</label>
-    <input id="admin-informe-mes" type="month" style="box-sizing:border-box;width:190px;margin-bottom:12px;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;">
+    <h2 id="admin-informe-racha-titulo" style="margin:7px 0 8px;font-family:'Cormorant Garamond',serif;font-size:1.75rem;">Rifas de racha</h2>
+    <p style="margin:0 0 16px;color:#d6cec0;font-size:.875rem;line-height:1.5;">Consulta quién mantuvo la racha completa, elige quién participa, avísales y realiza el sorteo. Quien ya ganó una rifa del mismo tipo queda fuera automáticamente. Cada rifa se sortea una sola vez y queda auditada.</p>
+    <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;margin-bottom:12px;">
+      <label style="display:block;font-size:.75rem;color:#c9a84c;">Rifa<br>
+        <select id="admin-informe-tipo" onchange="adminInformeReiniciar()" style="box-sizing:border-box;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;margin-top:6px;width:190px;">
+          <option value="mensual">Mensual (1 mes)</option>
+          <option value="semestral">6 meses seguidos</option>
+          <option value="anual">1 año (12 meses seguidos)</option>
+        </select>
+      </label>
+      <label style="display:block;font-size:.75rem;color:#c9a84c;">Último mes del periodo (cerrado)<br>
+        <input id="admin-informe-mes" type="month" onchange="adminInformeReiniciar()" style="box-sizing:border-box;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;margin-top:6px;width:190px;">
+      </label>
+    </div>
     <div id="admin-informe-estado" role="status" style="min-height:26px;margin:2px 0 12px;color:#d6cec0;font-size:.8125rem;line-height:1.45;"></div>
     <div id="admin-informe-resultados" style="display:none;margin:0 0 14px;"></div>
+    <div id="admin-informe-evento" style="display:none;margin:0 0 14px;padding:12px;border:1px solid #80662977;border-radius:10px;">
+      <div style="font-size:.75rem;color:#c9a84c;font-weight:700;margin-bottom:8px;">Aviso a participantes</div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;">
+        <label style="display:block;font-size:.75rem;color:#d6cec0;">Fecha y hora de la rifa<br>
+          <input id="admin-informe-fecha" type="datetime-local" style="box-sizing:border-box;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;margin-top:6px;width:220px;">
+        </label>
+        <label style="display:block;font-size:.75rem;color:#d6cec0;flex:1;min-width:220px;">Lugar<br>
+          <input id="admin-informe-lugar" type="text" maxlength="120" value="la experiencia del domingo" style="box-sizing:border-box;background:#231a10;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:10px;font:inherit;margin-top:6px;width:100%;">
+        </label>
+      </div>
+      <div id="admin-informe-aviso-info" style="margin-top:8px;color:#d6cec0;font-size:.75rem;line-height:1.45;"></div>
+    </div>
     <div style="display:flex;justify-content:flex-end;gap:8px;flex-wrap:wrap;">
       <button onclick="adminCerrarInformeRacha()" style="background:transparent;color:#d6cec0;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:pointer;">Cerrar</button>
       <button id="admin-informe-exportar" onclick="adminExportarInformeRacha()" disabled style="background:transparent;color:#f5f0e8;border:1px solid #806629;border-radius:8px;padding:9px 12px;font:inherit;cursor:not-allowed;">Exportar CSV</button>
+      <button id="admin-informe-avisar" onclick="adminAvisarInformeRacha()" disabled style="background:transparent;color:#cbb77b;border:1px solid #806629;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:not-allowed;">Avisar a participantes</button>
       <button id="admin-informe-sortear" onclick="adminSortearInformeRacha()" disabled style="background:#60451c;color:#cbb77b;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:not-allowed;">Sortear 1 ganador</button>
       <button onclick="adminConsultarInformeRacha()" style="background:#c9a84c;color:#16110a;border:0;border-radius:8px;padding:9px 12px;font-weight:700;font:inherit;cursor:pointer;">Consultar</button>
     </div>
@@ -3402,8 +3445,9 @@ function adminInformeBoton(id, habilitar){
   const btn=adminInformeCampo(id);
   if(!btn) return;
   btn.disabled=!habilitar;
-  btn.style.background=habilitar && id==='admin-informe-sortear' ? '#c9a84c' : (id==='admin-informe-sortear' ? '#60451c' : 'transparent');
-  btn.style.color=habilitar && id==='admin-informe-sortear' ? '#16110a' : (habilitar ? '#f5f0e8' : '#cbb77b');
+  const principal=id==='admin-informe-sortear';
+  btn.style.background=principal ? (habilitar ? '#c9a84c' : '#60451c') : 'transparent';
+  btn.style.color=principal ? (habilitar ? '#16110a' : '#cbb77b') : (habilitar ? '#f5f0e8' : '#cbb77b');
   btn.style.cursor=habilitar ? 'pointer' : 'not-allowed';
 }
 function adminMesCerradoPredeterminado(){
@@ -3412,21 +3456,25 @@ function adminMesCerradoPredeterminado(){
   hoy.setMonth(hoy.getMonth()-1);
   return `${hoy.getFullYear()}-${String(hoy.getMonth()+1).padStart(2,'0')}`;
 }
+function adminInformeReiniciar(){
+  adminInformeRachaActual=null;
+  const res=adminInformeCampo('admin-informe-resultados');
+  if(res){ res.style.display='none'; res.innerHTML=''; }
+  const ev=adminInformeCampo('admin-informe-evento');
+  if(ev) ev.style.display='none';
+  ['admin-informe-exportar','admin-informe-avisar','admin-informe-sortear'].forEach(id=>adminInformeBoton(id,false));
+  adminInformeEstado('Elige la rifa y el último mes del periodo, y consulta.');
+}
 function adminAbrirInformeRacha(){
   if(!window.ADMIN_MODE) return;
   const modal=adminInformeCampo('admin-informe-racha-modal');
   if(!modal) return;
-  adminInformeRachaActual=null;
   adminInformeCampo('admin-informe-mes').value=adminMesCerradoPredeterminado();
-  adminInformeCampo('admin-informe-resultados').style.display='none';
-  adminInformeCampo('admin-informe-resultados').innerHTML='';
-  adminInformeBoton('admin-informe-exportar',false);
-  adminInformeBoton('admin-informe-sortear',false);
-  adminInformeEstado('Elige un mes cerrado y consulta las rachas completas.');
+  adminInformeReiniciar();
   modal.hidden=false;
   modal.style.display='flex';
   modal.setAttribute('aria-hidden','false');
-  setTimeout(()=>adminInformeCampo('admin-informe-mes')?.focus(),0);
+  setTimeout(()=>adminInformeCampo('admin-informe-tipo')?.focus(),0);
 }
 function adminCerrarInformeRacha(){
   const modal=adminInformeCampo('admin-informe-racha-modal');
@@ -3440,45 +3488,91 @@ function adminEscaparHtml(valor){
 }
 async function adminLlamarInformeRacha(action, extras={}){
   const mes=String(adminInformeCampo('admin-informe-mes')?.value||'').trim();
+  const tipo=String(adminInformeCampo('admin-informe-tipo')?.value||'mensual');
   if(!/^\d{4}-(0[1-9]|1[0-2])$/.test(mes)) throw new Error('Elige un mes válido.');
   const token=await window.FB?.getIdToken?.();
   if(!token) throw new Error('Inicia sesión con la cuenta administradora autorizada.');
   const res=await fetch('/.netlify/functions/reporte-racha-mensual',{
     method:'POST',
     headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},
-    body:JSON.stringify({action,mes,...extras})
+    body:JSON.stringify({action,tipo,mes,...extras})
   });
   const body=await res.json().catch(()=>({}));
   if(!res.ok) throw new Error(body.error||'No se pudo consultar el informe.');
   return body;
+}
+function adminFechaRifaTexto(iso){
+  const fecha=new Date(iso);
+  if(isNaN(fecha)) return '';
+  const dia=new Intl.DateTimeFormat('es-CO',{timeZone:'America/Bogota',weekday:'long',day:'numeric',month:'long'}).format(fecha);
+  const hora=new Intl.DateTimeFormat('es-CO',{timeZone:'America/Bogota',hour:'numeric',minute:'2-digit'}).format(fecha);
+  return dia+' · '+hora;
+}
+// Casillas: participa = marcada. Quien ya ganó este tipo de rifa no puede marcarse.
+function adminInformeExcluidos(){
+  return [...document.querySelectorAll('#admin-informe-resultados input[data-uid]')]
+    .filter(chk=>!chk.checked && chk.dataset.gano!=='1')
+    .map(chk=>chk.dataset.uid);
+}
+function adminInformeContar(){
+  const reporte=adminInformeRachaActual;
+  if(!reporte) return;
+  const marcadas=[...document.querySelectorAll('#admin-informe-resultados input[data-uid]')].filter(chk=>chk.checked).length;
+  const el=adminInformeCampo('admin-informe-conteo');
+  if(el) el.textContent=marcadas+' persona(s) participarán';
+  const abierta=!reporte.sorteo;
+  adminInformeBoton('admin-informe-avisar',abierta && marcadas>0);
+  adminInformeBoton('admin-informe-sortear',abierta && marcadas>0);
 }
 function adminRenderInformeRacha(reporte){
   const host=adminInformeCampo('admin-informe-resultados');
   if(!host) return;
   const personas=Array.isArray(reporte?.participantes) ? reporte.participantes : [];
   const sorteo=reporte?.sorteo;
+  const aviso=reporte?.aviso;
+  const avisados=aviso ? new Set(aviso.participantes||[]) : null;
+  const celda='padding:8px;border-top:1px solid #80662955';
   const filas=personas.length
-    ? personas.map((persona,index)=>`<tr><td style="padding:8px;border-top:1px solid #80662955">${index+1}</td><td style="padding:8px;border-top:1px solid #80662955">${adminEscaparHtml(persona.nombre||'—')}</td><td style="padding:8px;border-top:1px solid #80662955">${adminEscaparHtml(persona.email||'Sin correo')}</td><td style="padding:8px;border-top:1px solid #80662955">${persona.diasAdministrados?.length||0}</td></tr>`).join('')
-    : '<tr><td colspan="4" style="padding:10px;border-top:1px solid #80662955;color:#d6cec0">Ninguna cuenta completó todos los días de este mes.</td></tr>';
+    ? personas.map((persona,index)=>{
+        const gano=!!persona.ganoAntes;
+        let marcado=!gano && !persona.esAdmin;
+        if(!gano && avisados) marcado=avisados.has(persona.uid);
+        if(sorteo){
+          const excl=new Set((sorteo.excluidos||[]).map(p=>p.uid));
+          marcado=!gano && !excl.has(persona.uid);
+        }
+        const nota=gano ? `<div style="color:#ee9a86;font-size:.6875rem">Ya ganó (${adminEscaparHtml(persona.ganoAntes)})</div>` : (persona.esAdmin ? '<div style="color:#c9a84c;font-size:.6875rem">Tu cuenta</div>' : '');
+        return `<tr style="${gano?'opacity:.55':''}"><td style="${celda}"><input type="checkbox" data-uid="${adminEscaparHtml(persona.uid)}" data-gano="${gano?'1':'0'}" ${marcado?'checked':''} ${gano||sorteo?'disabled':''} onchange="adminInformeContar()" style="accent-color:#c9a84c;width:17px;height:17px"></td><td style="${celda}">${index+1}</td><td style="${celda}">${adminEscaparHtml(persona.nombre||'—')}${nota}</td><td style="${celda}">${adminEscaparHtml(persona.email||'Sin correo')}</td><td style="${celda}">${persona.diasAdministrados?.length||0}</td></tr>`;
+      }).join('')
+    : '<tr><td colspan="5" style="padding:10px;border-top:1px solid #80662955;color:#d6cec0">Ninguna cuenta completó la racha en este periodo.</td></tr>';
   const ganadores=sorteo?.ganadores?.length
-    ? `<div style="margin:12px 0 0;padding:10px 12px;background:#2c2310;border:1px solid #c9a84c77;border-radius:8px"><strong style="color:#e6c86b">Sorteo cerrado</strong><div style="margin-top:4px">${sorteo.ganadores.map(ganador=>adminEscaparHtml(ganador.nombre||ganador.email||'Cuenta sin correo')).join(', ')}</div></div>`
+    ? `<div style="margin:12px 0 0;padding:10px 12px;background:#2c2310;border:1px solid #c9a84c77;border-radius:8px"><strong style="color:#e6c86b">Sorteo cerrado</strong><div style="margin-top:4px">${sorteo.ganadores.map(ganador=>adminEscaparHtml(ganador.nombre||ganador.email||'Cuenta sin correo')).join(', ')}</div><div style="margin-top:4px;color:#d6cec0;font-size:.75rem">Participaron ${sorteo.participantes} de ${sorteo.elegibles ?? sorteo.participantes} persona(s) con racha completa.</div></div>`
     : '';
-  host.innerHTML=`<div style="display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 10px;color:#d6cec0;font-size:.8125rem"><span><strong style="color:#f5f0e8">${reporte.cuentasConDatos}</strong> cuentas con datos</span><span><strong style="color:#f5f0e8">${reporte.completaronMes}</strong> rachas completas de ${reporte.diasMes} días</span></div><div style="overflow:auto;border:1px solid #80662977;border-radius:8px"><table style="border-collapse:collapse;width:100%;min-width:540px;font-size:.8125rem"><thead style="color:#c9a84c;text-align:left"><tr><th style="padding:8px">#</th><th style="padding:8px">Nombre</th><th style="padding:8px">Correo</th><th style="padding:8px">Días admin.</th></tr></thead><tbody>${filas}</tbody></table></div>${ganadores}`;
+  host.innerHTML=`<div style="display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 10px;color:#d6cec0;font-size:.8125rem"><span><strong style="color:#f5f0e8">${adminEscaparHtml(reporte.tipoNombre||'Rifa')}</strong> · ${adminEscaparHtml(reporte.periodo||reporte.mes)}</span><span><strong style="color:#f5f0e8">${reporte.completaronMes}</strong> rachas completas de ${reporte.diasMes} días</span><span id="admin-informe-conteo" style="color:#e6c86b"></span></div><div style="overflow:auto;border:1px solid #80662977;border-radius:8px"><table style="border-collapse:collapse;width:100%;min-width:600px;font-size:.8125rem"><thead style="color:#c9a84c;text-align:left"><tr><th style="padding:8px">Participa</th><th style="padding:8px">#</th><th style="padding:8px">Nombre</th><th style="padding:8px">Correo</th><th style="padding:8px">Días admin.</th></tr></thead><tbody>${filas}</tbody></table></div>${ganadores}`;
   host.style.display='block';
+
+  const ev=adminInformeCampo('admin-informe-evento');
+  const info=adminInformeCampo('admin-informe-aviso-info');
+  if(ev) ev.style.display=personas.length && !sorteo ? 'block' : 'none';
+  if(aviso){
+    adminInformeCampo('admin-informe-fecha').value=String(aviso.fecha||'').slice(0,16);
+    adminInformeCampo('admin-informe-lugar').value=aviso.lugar||'';
+    if(info) info.textContent=`Aviso enviado a ${(aviso.participantes||[]).length} persona(s) para el ${adminFechaRifaTexto(aviso.fecha)} en ${aviso.lugar}. Si cambias la lista, la fecha o el lugar, vuelve a avisar y se actualizará para todos.`;
+  }else if(info){
+    info.textContent='Todavía no se ha enviado el aviso de esta rifa.';
+  }
+  adminInformeContar();
 }
 async function adminConsultarInformeRacha(){
   try{
-    adminInformeRachaActual=null;
-    adminInformeBoton('admin-informe-exportar',false);
-    adminInformeBoton('admin-informe-sortear',false);
+    adminInformeReiniciar();
     adminInformeEstado('Consultando rachas completas…');
     const body=await adminLlamarInformeRacha('reporte');
     adminInformeRachaActual=body.reporte;
     adminRenderInformeRacha(body.reporte);
     const participantes=body.reporte?.completaronMes||0;
     adminInformeBoton('admin-informe-exportar',participantes>0);
-    adminInformeBoton('admin-informe-sortear',participantes>0 && !body.reporte?.sorteo);
-    adminInformeEstado(body.reporte?.sorteo ? 'El sorteo de este mes ya está cerrado y no puede repetirse.' : `Informe listo: ${participantes} persona(s) elegible(s).`);
+    adminInformeEstado(body.reporte?.sorteo ? 'Esta rifa ya está sorteada y no puede repetirse.' : `Informe listo: ${participantes} persona(s) con racha completa. Desmarca a quien no deba participar.`);
   }catch(error){
     adminInformeEstado(error.message||'No se pudo consultar el informe.',true);
   }
@@ -3487,30 +3581,58 @@ function adminCsvCampo(valor){ return '"'+String(valor??'').replace(/"/g,'""')+'
 function adminExportarInformeRacha(){
   const reporte=adminInformeRachaActual;
   if(!reporte?.participantes?.length) return;
-  const filas=[['Nombre','Correo','Mes','Días del mes','Días restaurados por administración']];
-  reporte.participantes.forEach(persona=>filas.push([persona.nombre||'',persona.email||'',reporte.mes,reporte.diasMes,(persona.diasAdministrados||[]).join(', ')]));
-  const csv='\ufeff'+filas.map(fila=>fila.map(adminCsvCampo).join(';')).join('\r\n');
+  const excluidos=new Set(adminInformeExcluidos());
+  const filas=[['Nombre','Correo','Rifa','Periodo','Días del periodo','Participa','Días restaurados por administración']];
+  reporte.participantes.forEach(persona=>filas.push([persona.nombre||'',persona.email||'',reporte.tipoNombre||'',reporte.periodo||reporte.mes,reporte.diasMes,persona.ganoAntes?'No (ya ganó)':(excluidos.has(persona.uid)?'No (excluido)':'Sí'),(persona.diasAdministrados||[]).join(', ')]));
+  const csv='﻿'+filas.map(fila=>fila.map(adminCsvCampo).join(';')).join('\r\n');
   const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
   const enlace=document.createElement('a');
   enlace.href=url;
-  enlace.download=`stars-racha-completa-${reporte.mes}.csv`;
+  enlace.download=`stars-rifa-${reporte.tipo||'mensual'}-${reporte.mes}.csv`;
   enlace.click();
   URL.revokeObjectURL(url);
+}
+async function adminAvisarInformeRacha(){
+  const reporte=adminInformeRachaActual;
+  if(!reporte) return;
+  const fecha=String(adminInformeCampo('admin-informe-fecha')?.value||'');
+  const lugar=String(adminInformeCampo('admin-informe-lugar')?.value||'').trim();
+  if(!fecha){ adminInformeEstado('Indica la fecha y la hora de la rifa.',true); return; }
+  if(lugar.length<3){ adminInformeEstado('Indica el lugar de la rifa.',true); return; }
+  const excluidos=adminInformeExcluidos();
+  const total=document.querySelectorAll('#admin-informe-resultados input[data-uid]:checked').length;
+  if(!confirm(`¿Enviar el aviso de felicitaciones a ${total} persona(s)?\n\n${adminFechaRifaTexto(fecha+':00-05:00')}\n${lugar}`)) return;
+  try{
+    adminInformeBoton('admin-informe-avisar',false);
+    adminInformeEstado('Enviando avisos…');
+    const body=await adminLlamarInformeRacha('avisar',{excluidos,evento:{fecha,lugar}});
+    adminInformeRachaActual=body.reporte;
+    adminRenderInformeRacha(body.reporte);
+    adminInformeEstado(`✓ Aviso enviado a ${body.avisados} persona(s). Lo verán al abrir la app.`);
+  }catch(error){
+    adminInformeEstado(error.message||'No se pudo enviar el aviso.',true);
+    adminInformeContar();
+  }
 }
 async function adminSortearInformeRacha(){
   const reporte=adminInformeRachaActual;
   if(!reporte?.participantes?.length) return;
-  if(!confirm(`¿Cerrar el sorteo de ${reporte.mes} entre ${reporte.participantes.length} persona(s)? El resultado no podrá repetirse.`)) return;
+  const excluidos=adminInformeExcluidos();
+  const total=document.querySelectorAll('#admin-informe-resultados input[data-uid]:checked').length;
+  if(!total) return;
+  if(!confirm(`¿Cerrar el sorteo de la ${String(reporte.tipoNombre||'rifa').toLowerCase()} (${reporte.periodo||reporte.mes}) entre ${total} persona(s)? El resultado no podrá repetirse.`)) return;
   try{
     adminInformeBoton('admin-informe-sortear',false);
+    adminInformeBoton('admin-informe-avisar',false);
     adminInformeEstado('Cerrando sorteo auditado…');
-    const body=await adminLlamarInformeRacha('sortear',{cantidad:1,confirmacion:'SORTEAR'});
+    const body=await adminLlamarInformeRacha('sortear',{cantidad:1,confirmacion:'SORTEAR',excluidos});
     adminInformeRachaActual=body.reporte;
     adminRenderInformeRacha(body.reporte);
     adminInformeBoton('admin-informe-exportar',true);
-    adminInformeEstado(body.creado ? '✓ Sorteo cerrado y auditado.' : 'Este mes ya tenía un sorteo cerrado; se muestra el resultado existente.');
+    adminInformeEstado(body.creado ? '✓ Sorteo cerrado y auditado.' : 'Esta rifa ya tenía un sorteo cerrado; se muestra el resultado existente.');
   }catch(error){
     adminInformeEstado(error.message||'No se pudo cerrar el sorteo.',true);
+    adminInformeContar();
   }
 }
 
@@ -4508,6 +4630,22 @@ window.addEventListener('DOMContentLoaded', ()=>{
 <div class="toast" id="toast"></div>
 
 <!-- ══ AVISO DE NOVEDADES ══ -->
+<div class="novedades-modal rifa-aviso-modal" id="rifa-aviso-modal" aria-hidden="true">
+  <div class="novedades-modal-bg"></div>
+  <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="rifa-aviso-title">
+    <div class="novedades-handle" aria-hidden="true"></div>
+    <div class="novedades-kicker" id="rifa-aviso-kicker">Rifa de racha</div>
+    <h2 class="novedades-title" id="rifa-aviso-title">¡Felicitaciones!</h2>
+    <p class="novedades-intro" id="rifa-aviso-intro"></p>
+    <img id="rifa-aviso-img" alt="Tarjeta de participación en la rifa" style="display:block;width:100%;max-width:340px;margin:0 auto 12px;border-radius:14px;border:1px solid var(--gold-border)">
+    <div class="novedades-actions">
+      <button class="novedades-primary" id="rifa-aviso-entendido" type="button" onclick="cerrarAvisoRifa('entendido')">¡Allí estaré!</button>
+      <button class="novedades-secondary" type="button" onclick="descargarImagenAvisoRifa()">Descargar imagen</button>
+    </div>
+    <p class="novedades-note"><a href="#" onclick="cerrarAvisoRifa('mas-tarde');return false" style="color:inherit">Recordármelo después</a></p>
+  </section>
+</div>
+
 <div class="novedades-modal" id="novedades-modal" aria-hidden="true">
   <div class="novedades-modal-bg"></div>
   <section class="novedades-sheet" role="dialog" aria-modal="true" aria-labelledby="novedades-title">
@@ -5474,11 +5612,11 @@ window._initApp = function(){
         if(sessionStorage.getItem(STARS_SW_UPDATED_KEY)){
           sessionStorage.removeItem(STARS_SW_UPDATED_KEY);
           showToast('App actualizada');
-          setTimeout(mostrarNovedadesSiCorresponde, 3000);
+          setTimeout(mostrarAvisosAlIniciar, 3000);
         }else{
-          setTimeout(mostrarNovedadesSiCorresponde, 700);
+          setTimeout(mostrarAvisosAlIniciar, 700);
         }
-      }catch(_){ setTimeout(mostrarNovedadesSiCorresponde, 700); }
+      }catch(_){ setTimeout(mostrarAvisosAlIniciar, 700); }
     }, 120);
   });
 };
@@ -6243,7 +6381,12 @@ function dskAnalizarVer(){
 
 async function dskGenerarVersiculo(ref){
   try{
-    const text = await pedirAnalisisVersiculo(ref);
+    const avance = document.querySelector('#dsk-ver-result div');
+    const text = await pedirAnalisisVersiculo(ref, info => {
+      if(!avance) return;
+      if(info.reintento) avance.lastChild.textContent = ' La respuesta llegó incompleta. Reintentando…';
+      else if(info.escribiendo) avance.lastChild.textContent = ' Redactando el análisis…';
+    });
     const inner = document.getElementById('dsk-ws-inner');
     if(inner && text){
       inner.classList.remove('dsk-ws-inner--wide');
@@ -6253,7 +6396,7 @@ async function dskGenerarVersiculo(ref){
   }catch(e){
     const inner = document.getElementById('dsk-ws-inner');
     if(inner){
-      inner.innerHTML = '<div class="ar-ficha ar-ficha--wide"><div class="ar-block ar-full" style="text-align:center;color:var(--white3)">'+escaparHTML(e.message || 'Error de conexión. Intenta de nuevo.')+'</div></div>';
+      inner.innerHTML = '<div class="ar-ficha ar-ficha--wide"><div class="ar-block ar-full">'+htmlErrorAnalisisVersiculo(e, 'dskAnalizarVer()')+'</div></div>';
     }
   }
 }
@@ -6977,6 +7120,8 @@ function abrirPaso(i){
     return;
   }
   pasoDiarioActualizarModal(i);
+  const pasoSheet = document.querySelector('#modal-'+i+' .modal-sheet');
+  if(pasoSheet) pasoSheet.scrollTop = 0;
   document.getElementById('modal-'+i).classList.add('open');
   document.body.style.overflow='hidden';
   // En modo admin: mostrar botón completar inmediatamente sin esperar timer
@@ -7337,44 +7482,138 @@ async function generarAnalisis(){
 
   if(result) result.style.display = 'block';
   if(spinner) spinner.style.display = 'block';
-  if(status) status.textContent = 'Analizando versículo…';
+  if(status) status.textContent = 'Analizando versículo… puede tardar hasta un minuto.';
   if(content) content.innerHTML = '';
 
   try{
-    const text = await pedirAnalisisVersiculo(ref);
+    const text = await pedirAnalisisVersiculo(ref, estadoAnalisisVersiculo(status));
     if(content) content.innerHTML = formatearAnalisisFichaHTML(text);
     if(status) status.textContent = 'Análisis listo';
   }catch(e){
-    if(content) content.innerHTML = '<div style="color:var(--white3)">'+escaparHTML(e.message || 'No se pudo generar el análisis.')+'</div>';
+    if(content) content.innerHTML = htmlErrorAnalisisVersiculo(e, 'generarAnalisis()');
     if(status) status.textContent = 'No se pudo generar';
   }finally{
     if(spinner) spinner.style.display = 'none';
   }
 }
 
-async function pedirAnalisisVersiculo(ref){
+/* ── Estudio por Versículo: petición fiable ──
+   1) Usa la Edge Function con streaming (/api/analizar-versiculo), que no se
+      corta por tiempo como la función clásica.
+   2) Comprueba que lleguen las seis secciones; si no, reintenta una vez.
+   3) Si todo falla, muestra el motivo y un botón «Reintentar» (nunca un vacío). */
+const ANALISIS_SECCIONES = ['VERSICULO','TEXTO EN INGLES','TEXTO EN ESPANOL','NBLA','EXPLICACION','NOTAS DE LA VERSION'];
+const ANALISIS_ERROR_MARK = '[[STARS_ERROR]]';
+
+function estadoAnalisisVersiculo(statusEl){
+  return info => {
+    if(!statusEl) return;
+    if(info.reintento) statusEl.textContent = 'La respuesta llegó incompleta. Reintentando…';
+    else if(info.escribiendo) statusEl.textContent = 'Redactando el análisis…';
+  };
+}
+
+function htmlErrorAnalisisVersiculo(e, accion){
+  const msg = escaparHTML((e && e.message) || 'No se pudo generar el análisis.');
+  return '<div style="text-align:center;color:var(--white3);line-height:1.6;padding:8px 0">'
+    + '<div>'+msg+'</div>'
+    + '<button class="chapter-finder-btn" style="margin-top:12px" onclick="'+accion+'">Reintentar</button>'
+    + '</div>';
+}
+
+function validarAnalisisVersiculo(text){
+  const norm = s => String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').trim().toUpperCase();
+  const re = /\*\*([^*]+)\*\*/g;
+  const encontradas = [];
+  let m;
+  while((m = re.exec(text)) !== null){
+    const titulo = norm(m[1]);
+    if(ANALISIS_SECCIONES.includes(titulo)) encontradas.push({titulo, ini:re.lastIndex, enc:m.index});
+  }
+  const faltan = ANALISIS_SECCIONES.filter(s => !encontradas.some(e => e.titulo === s));
+  if(faltan.length) return 'El análisis llegó incompleto.';
+  for(let i=0;i<encontradas.length;i++){
+    const fin = encontradas[i+1] ? encontradas[i+1].enc : text.length;
+    if(!text.slice(encontradas[i].ini, fin).trim()) return 'El análisis llegó incompleto.';
+  }
+  return null;
+}
+
+async function solicitarAnalisisStream(ref, headers, onProgreso){
+  const ctrl = new AbortController();
+  const limite = setTimeout(() => ctrl.abort(), 150000);
+  try{
+    let res;
+    try{
+      res = await fetch('/api/analizar-versiculo', {method:'POST', headers, body:JSON.stringify({ref}), signal:ctrl.signal});
+    }catch(err){
+      throw new Error(err && err.name === 'AbortError' ? 'El análisis tardó demasiado. Intenta de nuevo.' : 'Sin conexión. Revisa tu internet e intenta de nuevo.');
+    }
+    // Respaldo: si la Edge Function aún no está desplegada, usar la función clásica.
+    if(res.status === 404) return await solicitarAnalisisClasico(ref, headers);
+    const tipo = res.headers.get('content-type') || '';
+    if(!res.ok || tipo.includes('application/json')){
+      const data = await res.json().catch(() => ({}));
+      const e = new Error(data.error || 'No se pudo generar el análisis.');
+      if(res.status === 400) e.noReintentar = true;
+      throw e;
+    }
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let text = '';
+    let avisado = false;
+    for(;;){
+      let paso;
+      try{ paso = await reader.read(); }
+      catch(err){ throw new Error(err && err.name === 'AbortError' ? 'El análisis tardó demasiado. Intenta de nuevo.' : 'Se interrumpió la conexión. Intenta de nuevo.'); }
+      if(paso.done) break;
+      text += decoder.decode(paso.value, {stream:true});
+      if(!avisado && text.trim()){ avisado = true; onProgreso && onProgreso({escribiendo:true}); }
+    }
+    text += decoder.decode();
+    const idx = text.indexOf(ANALISIS_ERROR_MARK);
+    if(idx !== -1){
+      throw new Error(text.slice(idx + ANALISIS_ERROR_MARK.length).trim() || 'No se pudo generar el análisis.');
+    }
+    return text.trim();
+  }finally{
+    clearTimeout(limite);
+  }
+}
+
+async function solicitarAnalisisClasico(ref, headers){
+  const res = await fetch('/.netlify/functions/analizar-versiculo', {method:'POST', headers, body:JSON.stringify({ref})});
+  const data = await res.json().catch(() => ({}));
+  if(!res.ok) throw new Error(data.error || 'No se pudo generar el análisis.');
+  if(!data.text) throw new Error('La respuesta llegó vacía.');
+  return data.text;
+}
+
+async function pedirAnalisisVersiculo(ref, onProgreso){
   _starsGenerationCount += 1;
   notificarActividadStars();
   const headers = {'Content-Type': 'application/json'};
   try{
     if(window.FB && typeof window.FB.getIdToken === 'function'){
-      const token = await window.FB.getIdToken();
-      if(token) headers.Authorization = 'Bearer ' + token;
+      try{
+        const token = await window.FB.getIdToken();
+        if(token) headers.Authorization = 'Bearer ' + token;
+      }catch(_){}
     }
-
-    const res = await fetch('/.netlify/functions/analizar-versiculo', {
-      method: 'POST',
-      headers,
-      body: JSON.stringify({ref})
-    });
-    const data = await res.json().catch(() => ({}));
-    if(!res.ok){
-      throw new Error(data.error || 'No se pudo generar el análisis.');
+    let ultimoError = null;
+    for(let intento = 1; intento <= 2; intento++){
+      if(intento > 1 && onProgreso) onProgreso({reintento:true});
+      try{
+        const text = await solicitarAnalisisStream(ref, headers, onProgreso);
+        const problema = text ? validarAnalisisVersiculo(text) : 'La respuesta llegó vacía.';
+        if(!problema) return text;
+        ultimoError = new Error(problema + ' Intenta de nuevo.');
+      }catch(e){
+        ultimoError = e;
+        if(e && e.noReintentar) break;
+      }
     }
-    if(!data.text){
-      throw new Error('La respuesta llegó vacía.');
-    }
-    return data.text;
+    throw ultimoError || new Error('No se pudo generar el análisis.');
   }finally{
     _starsGenerationCount = Math.max(0, _starsGenerationCount - 1);
     notificarActividadStars();
@@ -8673,11 +8912,189 @@ function cerrarNovedades(accion='mas-tarde'){
   if(_novedadesFocusAnterior?.isConnected) _novedadesFocusAnterior.focus();
 }
 
+/* ══════════ AVISO DE RIFA DE RACHA ══════════
+   El servidor escribe usuarios/{uid}.avisos_rifa cuando la administración
+   envía el aviso. Se muestra al abrir la app hasta que la persona lo confirma
+   o hasta pocas horas después de la rifa. Va antes que Novedades. */
+const RIFA_AVISO_SESSION_KEY = 'stars_rifa_aviso_pospuesto';
+let _rifaAvisoActual = null;
+let _rifaAvisoImagenUrl = '';
+
+function mostrarAvisosAlIniciar(){
+  if(!mostrarAvisoRifaSiCorresponde()) mostrarNovedadesSiCorresponde();
+}
+
+function avisoRifaPendiente(){
+  if(!window.FB || typeof window.FB.getAvisosRifa !== 'function') return null;
+  let pospuestos = {};
+  try{ pospuestos = JSON.parse(sessionStorage.getItem(RIFA_AVISO_SESSION_KEY) || '{}') || {}; }catch(_){}
+  const vistos = window.FB.getAvisosRifaVistos();
+  const ahora = Date.now();
+  return Object.values(window.FB.getAvisosRifa())
+    .filter(aviso => aviso && aviso.id && aviso.fecha && !vistos[aviso.id] && !pospuestos[aviso.id])
+    .filter(aviso => new Date(aviso.fecha).getTime() + 3 * 3600 * 1000 > ahora)
+    .sort((a, b) => new Date(a.fecha) - new Date(b.fecha))[0] || null;
+}
+
+// «la experiencia del domingo» → «en la experiencia del domingo» (sin duplicar «en»).
+function lugarRifaConEn(lugar){
+  const texto = String(lugar || '').trim();
+  return /^en\s/i.test(texto) ? texto : 'en ' + texto;
+}
+
+function fechaRifaPartes(iso){
+  const fecha = new Date(iso);
+  const tz = {timeZone:'America/Bogota'};
+  const dia = new Intl.DateTimeFormat('es-CO',{...tz,weekday:'long',day:'numeric',month:'long'}).format(fecha);
+  const hora = new Intl.DateTimeFormat('es-CO',{...tz,hour:'numeric',minute:'2-digit'}).format(fecha);
+  return { dia: dia.charAt(0).toUpperCase() + dia.slice(1), hora };
+}
+
+function mostrarAvisoRifaSiCorresponde(){
+  const modal = document.getElementById('rifa-aviso-modal');
+  if(!modal || modal.classList.contains('open')) return false;
+  if(document.getElementById('novedades-modal')?.classList.contains('open')) return false;
+  const aviso = avisoRifaPendiente();
+  if(!aviso) return false;
+  _rifaAvisoActual = aviso;
+  const {dia, hora} = fechaRifaPartes(aviso.fecha);
+  const lugar = String(aviso.lugar || '');
+  document.getElementById('rifa-aviso-kicker').textContent = aviso.tipoNombre || 'Rifa de racha';
+  document.getElementById('rifa-aviso-title').textContent = aviso.nombre ? `¡Felicitaciones, ${aviso.nombre}!` : '¡Felicitaciones!';
+  document.getElementById('rifa-aviso-intro').textContent =
+    `Completaste tu racha de ${aviso.periodo} y estás participando en la ${String(aviso.tipoNombre || 'rifa').toLowerCase()}. `
+    + `La rifa será el ${dia.toLowerCase()} a las ${hora} ${lugarRifaConEn(lugar)}. ¡Te esperamos!`;
+  const img = document.getElementById('rifa-aviso-img');
+  img.removeAttribute('src');
+  generarImagenAvisoRifa(aviso).then(url => { _rifaAvisoImagenUrl = url; if(_rifaAvisoActual === aviso) img.src = url; }).catch(e => console.error('imagen rifa', e));
+  modal.classList.add('open');
+  modal.setAttribute('aria-hidden','false');
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => document.getElementById('rifa-aviso-entendido')?.focus({preventScroll:true}), 0);
+  return true;
+}
+
+function cerrarAvisoRifa(accion){
+  const modal = document.getElementById('rifa-aviso-modal');
+  if(!modal?.classList.contains('open')) return;
+  const aviso = _rifaAvisoActual;
+  if(aviso){
+    if(accion === 'entendido') window.FB?.setAvisoRifaVisto?.(aviso.id);
+    else{
+      try{
+        const pospuestos = JSON.parse(sessionStorage.getItem(RIFA_AVISO_SESSION_KEY) || '{}') || {};
+        pospuestos[aviso.id] = true;
+        sessionStorage.setItem(RIFA_AVISO_SESSION_KEY, JSON.stringify(pospuestos));
+      }catch(_){}
+    }
+  }
+  modal.classList.remove('open');
+  modal.setAttribute('aria-hidden','true');
+  document.body.style.overflow = '';
+  _rifaAvisoActual = null;
+  setTimeout(mostrarAvisosAlIniciar, 500);
+}
+
+function rifaEnvolverTexto(ctx, texto, maxAncho){
+  const palabras = String(texto).split(/\s+/);
+  const lineas = [];
+  let linea = '';
+  palabras.forEach(palabra => {
+    const prueba = linea ? linea + ' ' + palabra : palabra;
+    if(ctx.measureText(prueba).width > maxAncho && linea){ lineas.push(linea); linea = palabra; }
+    else linea = prueba;
+  });
+  if(linea) lineas.push(linea);
+  return lineas;
+}
+
+async function generarImagenAvisoRifa(aviso, conLogo = true){
+  try{ await document.fonts?.ready; }catch(_){}
+  const W = 1080, H = 1350;
+  const c = document.createElement('canvas');
+  c.width = W; c.height = H;
+  const ctx = c.getContext('2d');
+  const oro = '#c9a84c', oro2 = '#e8c97a', tinta = '#f2ead9', suave = '#cabf9f';
+  const fondo = ctx.createRadialGradient(W/2, 0, 60, W/2, 0, H);
+  fondo.addColorStop(0, '#3a2c10'); fondo.addColorStop(.55, '#120e07'); fondo.addColorStop(1, '#0a0906');
+  ctx.fillStyle = fondo; ctx.fillRect(0, 0, W, H);
+  ctx.strokeStyle = 'rgba(201,168,76,.55)'; ctx.lineWidth = 3;
+  ctx.strokeRect(48, 48, W - 96, H - 96);
+  ctx.strokeStyle = 'rgba(201,168,76,.22)'; ctx.lineWidth = 1.5;
+  ctx.strokeRect(66, 66, W - 132, H - 132);
+
+  // Logo oficial de S·T·A·R·S (estrella + nombre)
+  const logo = !conLogo ? null : await new Promise(resolve => {
+    const img = new Image();
+    img.onload = () => resolve(img);
+    img.onerror = () => resolve(null);
+    img.src = '/logo-stars-lockup-crop.png';
+  });
+  if(logo){
+    const lw = 500, lh = lw * logo.naturalHeight / logo.naturalWidth;
+    ctx.drawImage(logo, (W - lw) / 2, 120, lw, lh);
+  }
+  ctx.textAlign = 'center';
+
+  ctx.fillStyle = tinta;
+  ctx.font = "600 92px 'Cormorant Garamond', Georgia, serif";
+  if(aviso.nombre){
+    ctx.fillText('¡Felicitaciones,', W/2, 560);
+    ctx.fillText(aviso.nombre + '!', W/2, 660);
+  }else{
+    ctx.fillText('¡Felicitaciones!', W/2, 610);
+  }
+
+  ctx.fillStyle = suave;
+  ctx.font = "400 40px 'Outfit', sans-serif";
+  let y = 760;
+  rifaEnvolverTexto(ctx, `Completaste tu racha de ${aviso.periodo} y participas en la ${String(aviso.tipoNombre || 'rifa').toLowerCase()}.`, W - 220)
+    .forEach(l => { ctx.fillText(l, W/2, y); y += 54; });
+
+  const {dia, hora} = fechaRifaPartes(aviso.fecha);
+  y += 40;
+  ctx.strokeStyle = 'rgba(201,168,76,.4)'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.moveTo(W/2 - 160, y); ctx.lineTo(W/2 + 160, y); ctx.stroke();
+  y += 80;
+  ctx.fillStyle = oro2;
+  ctx.font = "600 54px 'Cormorant Garamond', Georgia, serif";
+  ctx.fillText(dia, W/2, y);
+  y += 66;
+  ctx.fillStyle = tinta;
+  ctx.font = "500 44px 'Outfit', sans-serif";
+  ctx.fillText(hora, W/2, y);
+  y += 64;
+  ctx.fillStyle = suave;
+  ctx.font = "400 38px 'Outfit', sans-serif";
+  rifaEnvolverTexto(ctx, lugarRifaConEn(aviso.lugar), W - 240).forEach(l => { ctx.fillText(l, W/2, y); y += 50; });
+
+  ctx.fillStyle = oro;
+  ctx.font = "500 30px 'Outfit', sans-serif";
+  ctx.fillText('¡Te esperamos!', W/2, H - 120);
+  try{
+    return c.toDataURL('image/png');
+  }catch(error){
+    // Si el navegador no permite exportar con el logo, generar la tarjeta sin él.
+    if(conLogo) return generarImagenAvisoRifa(aviso, false);
+    throw error;
+  }
+}
+
+function descargarImagenAvisoRifa(){
+  if(!_rifaAvisoImagenUrl) return;
+  const enlace = document.createElement('a');
+  enlace.href = _rifaAvisoImagenUrl;
+  enlace.download = 'stars-rifa-de-racha.png';
+  document.body.appendChild(enlace);
+  enlace.click();
+  enlace.remove();
+}
+
 function mostrarNovedadesSiCorresponde(){
   const modal = document.getElementById('novedades-modal');
   if(!modal || modal.classList.contains('open') || novedadesRachaYaVistas()) return;
   if(sessionStorage.getItem(NOVEDADES_RACHA_SESSION_KEY) === '1') return;
-  const otroDialogo = document.querySelector('.modal.open,.cal-modal.open,.bank-modal.open,.exeg-modal.open,.frase-modal.open,.frase-estudio-modal.open,.estudio-cap-modal.open,.chapter-reader-modal.open,.intro-libro-modal.open,#blog-modal.open,.config-modal.open');
+  const otroDialogo = document.querySelector('.modal.open,.cal-modal.open,.bank-modal.open,.exeg-modal.open,.frase-modal.open,.frase-estudio-modal.open,.estudio-cap-modal.open,.chapter-reader-modal.open,.intro-libro-modal.open,#blog-modal.open,.config-modal.open,#rifa-aviso-modal.open');
   if(otroDialogo) return;
   abrirNovedades(false);
 }
