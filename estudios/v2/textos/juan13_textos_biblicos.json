@@ -5,11 +5,11 @@
   ],
   "jewels": [
     {
-      "explanation": "El amor de Jesús permanece fiel cuando la hora de la cruz ha llegado. La NBLA fija la plenitud temporal y cualitativa de ese amor: llega «hasta el fin». MSG vuelve visible su continuidad: Jesús siguió amando en medio de la traición, la incomprensión y el abandono que se acercaban. La frase no idealiza la respuesta de los discípulos; revela la constancia del Hijo.",
+      "explanation": "La NBLA dice «los Suyos», con un sentido de pertenencia. Peterson dice «sus queridos compañeros», con un sentido de amistad. Las dos coinciden en lo esencial: el amor no se acabó cuando las cosas se pusieron difíciles. Siguió hasta el último minuto y hasta el extremo.",
       "id": "juan13-joya-01",
       "msg": {
-        "en": "\"he continued to love them right to the end.\"",
-        "es": "\"siguió amándolos hasta el final.\""
+        "en": "\"Having loved his dear companions, he continued to love them right to the end.\"",
+        "es": "\"Habiendo amado a sus queridos compañeros, siguió amándolos hasta el final.\""
       },
       "nblaRefs": [
         {
@@ -20,97 +20,63 @@
         }
       ],
       "order": 1,
-      "range": "1"
+      "range": "1-2"
     },
     {
-      "explanation": "La autoridad del Hijo adopta voluntariamente la postura del servidor. La NBLA conserva la secuencia física de levantarse, quitarse el manto y ceñirse la toalla; MSG hace sentir el contraste doméstico mediante la imagen del delantal. La teología no depende de esa palabra particular, sino de la acción inequívoca del Señor que desciende para atender a los suyos.",
+      "explanation": "Es una frase para muchas situaciones de la vida, no solo para el lavatorio. La NBLA y Peterson coinciden casi exactamente. Jesús no le pide a Pedro que entienda primero para después dejarse lavar. Le pide que confíe ahora, porque la comprensión llegará después.",
       "id": "juan13-joya-02",
       "msg": {
-        "en": "\"So he got up from the supper table, set aside his robe, and put on an apron.\"",
-        "es": "\"Así que se levantó de la mesa, se quitó el manto y se puso un delantal.\""
+        "en": "\"You don’t understand now what I’m doing, but it will be clear enough to you later.\"",
+        "es": "\"Ahora no entiendes lo que estoy haciendo, pero más adelante lo entenderás con claridad.\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "juan13-nbla-04"
+          "clauseIds": [
+            "juan13-nbla-07b"
+          ],
+          "verseId": "juan13-nbla-07"
         }
       ],
       "order": 2,
-      "range": "4"
+      "range": "7"
     },
     {
-      "explanation": "La comunión con Jesús comienza recibiendo la limpieza que él realiza. La NBLA establece la afirmación relacional: sin ser lavado, Pedro no tiene parte con Cristo. MSG expresa esa participación como entrar en lo que Jesús está haciendo. No enseña que el lavado ritual de pies salve por sí mismo; el gesto apunta hacia la necesidad de la obra purificadora del Señor.",
+      "explanation": "La NBLA dice «felices»; Peterson dice «una vida bendecida». La bendición no está en saber, sino en hacer. Muchos entienden perfectamente el lavatorio de pies y nunca le han lavado los pies a nadie. Jesús promete felicidad al que practica, no al que entiende.",
       "id": "juan13-joya-03",
       "msg": {
-        "en": "\"If I don’t wash you, you can’t be part of what I’m doing.\"",
-        "es": "\"Si no te lavo, no puedes ser parte de lo que estoy haciendo\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan13-nbla-08b"
-          ],
-          "verseId": "juan13-nbla-08"
-        }
-      ],
-      "order": 3,
-      "range": "8"
-    },
-    {
-      "explanation": "El servicio de Jesús establece el patrón del liderazgo y de la vida comunitaria. La NBLA fija que el ejemplo debe ser imitado; MSG lo presenta como un modelo trazado delante de los discípulos. La aplicación incluye actos humildes y concretos de servicio, sin reducir necesariamente todo el mandato a repetir una ceremonia idéntica en cada contexto.",
-      "id": "juan13-joya-04",
-      "msg": {
-        "en": "\"I’ve laid down a pattern for you. What I’ve done, you do.\"",
-        "es": "\"Les he dejado un modelo. Lo que yo hice, háganlo ustedes.\""
+        "en": "\"If you understand what I’m telling you, act like it—and live a blessed life.\"",
+        "es": "\"Si entienden lo que les digo, pónganlo en práctica y vivirán una vida bendecida.\""
       },
       "nblaRefs": [
         {
           "fullVerse": true,
-          "verseId": "juan13-nbla-15"
+          "verseId": "juan13-nbla-17"
+        }
+      ],
+      "order": 3,
+      "range": "12-17"
+    },
+    {
+      "explanation": "La NBLA y Peterson cierran la escena con la misma frase corta. Juan no explica más. No hace falta. Judas sale de la luz de esa habitación hacia la oscuridad de afuera, con el pan que Jesús le dio todavía en la mano. Es una de las frases más tristes de la Biblia.",
+      "id": "juan13-joya-04",
+      "msg": {
+        "en": "\"Judas, with the piece of bread, left. It was night.\"",
+        "es": "\"Judas salió con el pedazo de pan. Era de noche.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan13-nbla-30b"
+          ],
+          "verseId": "juan13-nbla-30"
         }
       ],
       "order": 4,
-      "range": "15"
+      "range": "30"
     },
     {
-      "explanation": "Jesús dignifica la misión porque el enviado representa al Hijo y, por medio de él, al Padre. La NBLA conserva la cadena de recepción y autoridad; MSG comunica su equivalencia relacional. Esta promesa no hace infalible a todo mensajero ni protege el abuso espiritual: el enviado permanece bajo la palabra, el carácter y la misión de quien lo envió.",
+      "explanation": "Lo nuevo del mandamiento está en el «como». La NBLA y Peterson lo conservan casi igual. El amor de Jesús, que acaba de lavar pies sucios, se convierte en el modelo. No nos pide amar como podamos, sino como Él amó. Por eso necesitamos primero que Él nos lave.",
       "id": "juan13-joya-05",
-      "msg": {
-        "en": "\"Receiving someone I send is the same as receiving me\"",
-        "es": "\"recibir a alguien que yo envío es lo mismo que recibirme a mí\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan13-nbla-20b"
-          ],
-          "verseId": "juan13-nbla-20"
-        }
-      ],
-      "order": 5,
-      "range": "20"
-    },
-    {
-      "explanation": "La cruz revelará simultáneamente la identidad del Hijo y la gloria de Dios. La NBLA fija el lenguaje de glorificación; MSG lo vuelve visible como una revelación de quiénes son el Hijo y el Padre. No significa que la gloria sea solo percepción humana: el contexto afirma una acción divina real que se manifiesta en la entrega, exaltación y posterior resurrección de Jesús.",
-      "id": "juan13-joya-06",
-      "msg": {
-        "en": "\"Now the Son of Man is seen for who he is, and God seen for who he is in him.\"",
-        "es": "\"Ahora se ve al Hijo del Hombre tal como es, y en él se ve a Dios tal como es.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan13-nbla-31b"
-          ],
-          "verseId": "juan13-nbla-31"
-        }
-      ],
-      "order": 6,
-      "range": "31"
-    },
-    {
-      "explanation": "El amor de Jesús es la medida y la fuente del amor cristiano. La NBLA conserva la comparación directa entre el amor recibido y el amor practicado; MSG mantiene el mandato en un lenguaje inmediato. Esta verdad no convierte el amor en tolerancia de todo comportamiento. El modelo es Jesús, cuyo amor sirve, limpia, confronta, permanece fiel y entrega la vida.",
-      "id": "juan13-joya-07",
       "msg": {
         "en": "\"In the same way I loved you, you love one another.\"",
         "es": "\"Así como yo los he amado, ámense ustedes unos a otros.\""
@@ -123,8 +89,8 @@
           "verseId": "juan13-nbla-34"
         }
       ],
-      "order": 7,
-      "range": "34"
+      "order": 5,
+      "range": "34-35"
     }
   ],
   "meta": {
@@ -510,13 +476,13 @@
         {
           "id": "juan13-nbla-01a",
           "order": 1,
-          "text": "Antes de la fiesta de la Pascua, sabiendo Jesús que Su hora había llegado para pasar de este mundo al Padre, habiendo amado a los Suyos que estaban en el mundo,"
+          "text": "Antes de la fiesta de la Pascua, sabiendo Jesús que Su hora había llegado para pasar de este mundo al Padre,"
         },
         {
           "id": "juan13-nbla-01b",
           "order": 2,
           "separatorBefore": " ",
-          "text": "los amó hasta el fin."
+          "text": "habiendo amado a los Suyos que estaban en el mundo, los amó hasta el fin."
         }
       ],
       "id": "juan13-nbla-01",
@@ -548,30 +514,25 @@
       "text": "Cuando llegó* a Simón Pedro, este le dijo*: «Señor, ¿Tú me vas a lavar a mí los pies?»."
     },
     {
-      "id": "juan13-nbla-07",
-      "number": 7,
-      "text": "Jesús le respondió: «Ahora tú no comprendes lo que Yo hago, pero lo entenderás después»."
-    },
-    {
       "clauses": [
         {
-          "id": "juan13-nbla-08a",
+          "id": "juan13-nbla-07a",
           "order": 1,
-          "text": "«¡Jamás me lavarás los pies!», le dijo* Pedro. «"
+          "text": "Jesús le respondió: «"
         },
         {
-          "id": "juan13-nbla-08b",
+          "id": "juan13-nbla-07b",
           "order": 2,
-          "text": "Si no te lavo, no tienes parte conmigo"
-        },
-        {
-          "id": "juan13-nbla-08c",
-          "order": 3,
-          "text": "», le respondió Jesús."
+          "text": "Ahora tú no comprendes lo que Yo hago, pero lo entenderás después»."
         }
       ],
+      "id": "juan13-nbla-07",
+      "number": 7
+    },
+    {
       "id": "juan13-nbla-08",
-      "number": 8
+      "number": 8,
+      "text": "«¡Jamás me lavarás los pies!», le dijo* Pedro. «Si no te lavo, no tienes parte conmigo», le respondió Jesús."
     },
     {
       "id": "juan13-nbla-09",
@@ -641,26 +602,9 @@
       "text": "Se lo digo desde ahora, antes de que pase, para que cuando suceda, crean que Yo soy."
     },
     {
-      "clauses": [
-        {
-          "id": "juan13-nbla-20a",
-          "order": 1,
-          "text": "En verdad les digo, que"
-        },
-        {
-          "id": "juan13-nbla-20b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "el que recibe al que Yo envíe, me recibe a Mí"
-        },
-        {
-          "id": "juan13-nbla-20c",
-          "order": 3,
-          "text": "; y el que me recibe a Mí, recibe a Aquel que me envió»."
-        }
-      ],
       "id": "juan13-nbla-20",
-      "number": 20
+      "number": 20,
+      "text": "En verdad les digo, que el que recibe al que Yo envíe, me recibe a Mí; y el que me recibe a Mí, recibe a Aquel que me envió»."
     },
     {
       "id": "juan13-nbla-21",
@@ -708,25 +652,26 @@
       "text": "Porque algunos pensaban que como Judas tenía la bolsa del dinero, Jesús le decía: «Compra lo que necesitamos para la fiesta», o que diera algo a los pobres."
     },
     {
-      "id": "juan13-nbla-30",
-      "number": 30,
-      "text": "Y Judas, después de recibir el bocado, salió inmediatamente; y ya era de noche."
-    },
-    {
       "clauses": [
         {
-          "id": "juan13-nbla-31a",
+          "id": "juan13-nbla-30a",
           "order": 1,
-          "text": "Entonces, cuando salió, Jesús dijo*: «"
+          "text": "Y Judas, después de recibir el bocado, salió inmediatamente;"
         },
         {
-          "id": "juan13-nbla-31b",
+          "id": "juan13-nbla-30b",
           "order": 2,
-          "text": "Ahora es glorificado el Hijo del Hombre, y Dios es glorificado en Él."
+          "separatorBefore": " ",
+          "text": "y ya era de noche."
         }
       ],
+      "id": "juan13-nbla-30",
+      "number": 30
+    },
+    {
       "id": "juan13-nbla-31",
-      "number": 31
+      "number": 31,
+      "text": "Entonces, cuando salió, Jesús dijo*: «Ahora es glorificado el Hijo del Hombre, y Dios es glorificado en Él."
     },
     {
       "id": "juan13-nbla-32",

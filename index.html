@@ -3542,13 +3542,13 @@ function adminRenderInformeRacha(reporte){
           marcado=!gano && !excl.has(persona.uid);
         }
         const nota=gano ? `<div style="color:#ee9a86;font-size:.6875rem">Ya ganó (${adminEscaparHtml(persona.ganoAntes)})</div>` : (persona.esAdmin ? '<div style="color:#c9a84c;font-size:.6875rem">Tu cuenta</div>' : '');
-        return `<tr style="${gano?'opacity:.55':''}"><td style="${celda}"><input type="checkbox" data-uid="${adminEscaparHtml(persona.uid)}" data-gano="${gano?'1':'0'}" ${marcado?'checked':''} ${gano||sorteo?'disabled':''} onchange="adminInformeContar()" style="accent-color:#c9a84c;width:17px;height:17px"></td><td style="${celda}">${index+1}</td><td style="${celda}">${adminEscaparHtml(persona.nombre||'—')}${nota}</td><td style="${celda}">${adminEscaparHtml(persona.email||'Sin correo')}</td><td style="${celda}">${persona.diasAdministrados?.length||0}</td></tr>`;
+        return `<tr style="${gano?'opacity:.55':''}"><td style="${celda}"><input type="checkbox" data-uid="${adminEscaparHtml(persona.uid)}" data-gano="${gano?'1':'0'}" ${marcado?'checked':''} ${gano||sorteo?'disabled':''} onchange="adminInformeContar()" style="accent-color:#c9a84c;width:17px;height:17px"></td><td style="${celda}">${index+1}</td><td style="${celda}">${adminEscaparHtml(persona.nombre||'—')}${nota}</td><td style="${celda}">${adminEscaparHtml(persona.email||'Sin correo')}</td><td style="${celda}">${persona.diasAdministrados?.length||0}</td><td style="${celda};white-space:nowrap">${persona.avisoConfirmado?'<span style="color:#7fc98f">✓ Confirmó</span>':(persona.avisoEnviado?'<span style="color:#d6cec0">Enviado</span>':'<span style="color:#80765f">—</span>')}</td></tr>`;
       }).join('')
-    : '<tr><td colspan="5" style="padding:10px;border-top:1px solid #80662955;color:#d6cec0">Ninguna cuenta completó la racha en este periodo.</td></tr>';
+    : '<tr><td colspan="6" style="padding:10px;border-top:1px solid #80662955;color:#d6cec0">Ninguna cuenta completó la racha en este periodo.</td></tr>';
   const ganadores=sorteo?.ganadores?.length
     ? `<div style="margin:12px 0 0;padding:10px 12px;background:#2c2310;border:1px solid #c9a84c77;border-radius:8px"><strong style="color:#e6c86b">Sorteo cerrado</strong><div style="margin-top:4px">${sorteo.ganadores.map(ganador=>adminEscaparHtml(ganador.nombre||ganador.email||'Cuenta sin correo')).join(', ')}</div><div style="margin-top:4px;color:#d6cec0;font-size:.75rem">Participaron ${sorteo.participantes} de ${sorteo.elegibles ?? sorteo.participantes} persona(s) con racha completa.</div></div>`
     : '';
-  host.innerHTML=`<div style="display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 10px;color:#d6cec0;font-size:.8125rem"><span><strong style="color:#f5f0e8">${adminEscaparHtml(reporte.tipoNombre||'Rifa')}</strong> · ${adminEscaparHtml(reporte.periodo||reporte.mes)}</span><span><strong style="color:#f5f0e8">${reporte.completaronMes}</strong> rachas completas de ${reporte.diasMes} días</span><span id="admin-informe-conteo" style="color:#e6c86b"></span></div><div style="overflow:auto;border:1px solid #80662977;border-radius:8px"><table style="border-collapse:collapse;width:100%;min-width:600px;font-size:.8125rem"><thead style="color:#c9a84c;text-align:left"><tr><th style="padding:8px">Participa</th><th style="padding:8px">#</th><th style="padding:8px">Nombre</th><th style="padding:8px">Correo</th><th style="padding:8px">Días admin.</th></tr></thead><tbody>${filas}</tbody></table></div>${ganadores}`;
+  host.innerHTML=`<div style="display:flex;gap:14px;flex-wrap:wrap;margin:4px 0 10px;color:#d6cec0;font-size:.8125rem"><span><strong style="color:#f5f0e8">${adminEscaparHtml(reporte.tipoNombre||'Rifa')}</strong> · ${adminEscaparHtml(reporte.periodo||reporte.mes)}</span><span><strong style="color:#f5f0e8">${reporte.completaronMes}</strong> rachas completas de ${reporte.diasMes} días</span>${aviso?`<span><strong style="color:#7fc98f">${personas.filter(p=>p.avisoConfirmado).length}</strong> confirmaron el aviso</span>`:''}<span id="admin-informe-conteo" style="color:#e6c86b"></span></div><div style="overflow:auto;border:1px solid #80662977;border-radius:8px"><table style="border-collapse:collapse;width:100%;min-width:680px;font-size:.8125rem"><thead style="color:#c9a84c;text-align:left"><tr><th style="padding:8px">Participa</th><th style="padding:8px">#</th><th style="padding:8px">Nombre</th><th style="padding:8px">Correo</th><th style="padding:8px">Días admin.</th><th style="padding:8px">Aviso</th></tr></thead><tbody>${filas}</tbody></table></div>${ganadores}`;
   host.style.display='block';
 
   const ev=adminInformeCampo('admin-informe-evento');
@@ -3557,7 +3557,8 @@ function adminRenderInformeRacha(reporte){
   if(aviso){
     adminInformeCampo('admin-informe-fecha').value=String(aviso.fecha||'').slice(0,16);
     adminInformeCampo('admin-informe-lugar').value=aviso.lugar||'';
-    if(info) info.textContent=`Aviso enviado a ${(aviso.participantes||[]).length} persona(s) para el ${adminFechaRifaTexto(aviso.fecha)} en ${aviso.lugar}. Si cambias la lista, la fecha o el lugar, vuelve a avisar y se actualizará para todos.`;
+    const confirmaron=personas.filter(p=>p.avisoConfirmado).length;
+    if(info) info.textContent=`Aviso enviado a ${(aviso.participantes||[]).length} persona(s) para el ${adminFechaRifaTexto(aviso.fecha)} ${typeof lugarRifaConEn==='function'?lugarRifaConEn(aviso.lugar):'en '+aviso.lugar}. Confirmaron ${confirmaron}; quien aún no aparece con ✓ no ha abierto la app o no ha tocado «¡Allí estaré!». Si cambias la lista, la fecha o el lugar, vuelve a avisar y se actualizará para todos.`;
   }else if(info){
     info.textContent='Todavía no se ha enviado el aviso de esta rifa.';
   }
@@ -7539,13 +7540,53 @@ function validarAnalisisVersiculo(text){
   return null;
 }
 
-async function solicitarAnalisisStream(ref, headers, onProgreso){
+/* Textos verificados del complemento V2 (NBLA por versículo y MSG por bloque).
+   Si el capítulo tiene complemento, Gemini ya no transcribe los textos bíblicos:
+   la app los pone y Gemini solo escribe EXPLICACION y NOTAS. Así se evita el
+   filtro de citas de Gemini (RECITATION), que cortaba pasajes muy citados. */
+async function textosVerificadosVersiculo(ref){
+  const m = String(ref || '').trim().match(/^(.+?)\s+(\d+)\s*:\s*(\d+)(?:\s*[-–]\s*(\d+))?$/);
+  if(!m) return null;
+  let libroTxt = m[1].trim();
+  if(estudioV2SlugLibro(libroTxt) === 'salmo') libroTxt = 'Salmos';
+  const libro = LIBROS_CAPS.flatMap(b => b.libros).find(item => estudioV2SlugLibro(item.n) === estudioV2SlugLibro(libroTxt));
+  if(!libro) return null;
+  const cap = parseInt(m[2], 10), desde = parseInt(m[3], 10), hasta = parseInt(m[4] || m[3], 10);
+  if(!(hasta >= desde)) return null;
+  const datos = estudioV2DatosKey(libro.n.replace(/ /g, '_') + '_' + cap);
+  if(!datos) return null;
+  const res = await fetch(datos.complementoUrl, { cache: 'no-store' });
+  if(!res.ok) return null;
+  const comp = await res.json();
+  const versos = (comp.nblaVerses || []).filter(v => v.number >= desde && v.number <= hasta).sort((a, b) => a.number - b.number);
+  if(versos.length !== hasta - desde + 1) return null;
+  const rango = r => { const p = String(r || '').split('-').map(n => parseInt(n, 10)); return [p[0], p[1] || p[0]]; };
+  const bloques = (comp.msgBlocks || []).filter(b => { const [a, z] = rango(b.editorialRange); return a <= hasta && z >= desde; }).sort((a, b) => a.order - b.order);
+  if(!bloques.length) return null;
+  const etiqueta = r => { const [a, z] = rango(r); return a === z ? `(v. ${a})` : `(vv. ${a}-${z})`; };
+  const referencia = `${libro.n} ${cap}:${desde}${hasta > desde ? '-' + hasta : ''}`;
+  return {
+    referencia,
+    msgEn: bloques.map(b => `${etiqueta(b.editorialRange)} ${b.msg?.en || ''}`).join('\n'),
+    msgEs: bloques.map(b => `${etiqueta(b.editorialRange)} ${b.msg?.es || ''}`).join('\n'),
+    nbla: versos.map(v => `(v. ${v.number}) ${(v.clauses || []).map(c => c.text).join(' ').replace(/\s+([,.;:!?])/g, '$1')}`).join('\n')
+  };
+}
+
+function ensamblarAnalisisConTextos(textos, salida){
+  const s = String(salida || '');
+  const i = s.search(/\*\*\s*EXPLICACI[OÓ]N\s*\*\*/i);
+  const cuerpo = i >= 0 ? s.slice(i) : s;
+  return `**VERSICULO**\n${textos.referencia}\n\n**TEXTO EN INGLES**\n${textos.msgEn}\n\n**TEXTO EN ESPAÑOL**\n${textos.msgEs}\n\n**NBLA**\n${textos.nbla}\n\n${cuerpo.trim()}`;
+}
+
+async function solicitarAnalisisStream(ref, headers, onProgreso, textos){
   const ctrl = new AbortController();
   const limite = setTimeout(() => ctrl.abort(), 150000);
   try{
     let res;
     try{
-      res = await fetch('/api/analizar-versiculo', {method:'POST', headers, body:JSON.stringify({ref}), signal:ctrl.signal});
+      res = await fetch('/api/analizar-versiculo', {method:'POST', headers, body:JSON.stringify(textos ? {ref, textos} : {ref}), signal:ctrl.signal});
     }catch(err){
       throw new Error(err && err.name === 'AbortError' ? 'El análisis tardó demasiado. Intenta de nuevo.' : 'Sin conexión. Revisa tu internet e intenta de nuevo.');
     }
@@ -7600,11 +7641,14 @@ async function pedirAnalisisVersiculo(ref, onProgreso){
         if(token) headers.Authorization = 'Bearer ' + token;
       }catch(_){}
     }
+    let textos = null;
+    try{ textos = await textosVerificadosVersiculo(ref); }catch(_){ textos = null; }
     let ultimoError = null;
     for(let intento = 1; intento <= 2; intento++){
       if(intento > 1 && onProgreso) onProgreso({reintento:true});
       try{
-        const text = await solicitarAnalisisStream(ref, headers, onProgreso);
+        const salida = await solicitarAnalisisStream(ref, headers, onProgreso, textos);
+        const text = textos && salida ? ensamblarAnalisisConTextos(textos, salida) : salida;
         const problema = text ? validarAnalisisVersiculo(text) : 'La respuesta llegó vacía.';
         if(!problema) return text;
         ultimoError = new Error(problema + ' Intenta de nuevo.');

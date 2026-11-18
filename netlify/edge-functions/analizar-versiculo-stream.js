@@ -12,6 +12,45 @@ import { PROMPT_VERSICULO } from '../shared/prompt-versiculo.mjs';
 
 const ERROR_MARK = '\n[[STARS_ERROR]]';
 
+// Motivos por los que Gemini corta una respuesta (finishReason).
+const FINISH_MESSAGES = {
+  MAX_TOKENS: 'El análisis quedó incompleto por extensión. Intenta de nuevo.',
+  RECITATION: 'Gemini detuvo la respuesta porque estaba reproduciendo un texto protegido por derechos de autor.',
+  SAFETY: 'Gemini detuvo la respuesta por su filtro de seguridad.',
+  PROHIBITED_CONTENT: 'Gemini detuvo la respuesta por su filtro de contenido.',
+  BLOCKLIST: 'Gemini detuvo la respuesta por su lista de términos bloqueados.',
+  SPII: 'Gemini detuvo la respuesta por su filtro de datos personales.',
+  OTHER: 'Gemini detuvo la respuesta sin indicar el motivo.'
+};
+
+function cleanTextos(value) {
+  if (!value || typeof value !== 'object') return null;
+  const s = v => String(v || '').slice(0, 12000).trim();
+  const textos = { referencia: s(value.referencia), msgEn: s(value.msgEn), msgEs: s(value.msgEs), nbla: s(value.nbla) };
+  return textos.msgEn && textos.nbla ? textos : null;
+}
+
+function userMessageWithTextos(ref, textos) {
+  return `${ref}
+
+INSTRUCCIÓN PARA ESTA SOLICITUD (tiene prioridad sobre la estructura general):
+La app ya muestra VERSICULO, TEXTO EN INGLES, TEXTO EN ESPAÑOL y NBLA desde sus fuentes verificadas. No los reproduzcas ni los transcribas.
+Entrega ÚNICAMENTE estas dos secciones, con estos encabezados exactos:
+**EXPLICACION**
+**NOTAS DE LA VERSION**
+En las notas cita solo frases breves (menos de 15 palabras) tomadas de los textos de abajo. No copies versículos completos.
+
+TEXTOS VERIFICADOS DE REFERENCIA (${textos.referencia || ref}):
+The Message (inglés):
+${textos.msgEn}
+
+The Message (español):
+${textos.msgEs}
+
+NBLA:
+${textos.nbla}`;
+}
+
 function json(body, status) {
   return new Response(JSON.stringify(body), {
     status,
@@ -31,6 +70,13 @@ export default async (req) => {
   const ref = String(body?.ref || '').replace(/\s+/g, ' ').trim();
   if (!ref || ref.length > 80) return json({ error: 'Escribe una referencia bíblica válida.' }, 400);
 
+  // Textos verificados que la app ya tiene (NBLA y MSG de sus complementos).
+  // Cuando llegan, Gemini NO reproduce los textos bíblicos: solo escribe la
+  // explicación y las notas. Reproducir textos protegidos completos activa el
+  // filtro de citas de Gemini (finishReason RECITATION) y corta la respuesta.
+  const textos = cleanTextos(body?.textos);
+  const userText = textos ? userMessageWithTextos(ref, textos) : ref;
+
   const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:streamGenerateContent?alt=sse`;
   const encoder = new TextEncoder();
 
@@ -44,7 +90,7 @@ export default async (req) => {
           headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
           body: JSON.stringify({
             systemInstruction: { parts: [{ text: PROMPT_VERSICULO }] },
-            contents: [{ role: 'user', parts: [{ text: ref }] }],
+            contents: [{ role: 'user', parts: [{ text: userText }] }],
             generationConfig: {
               temperature: 0.25,
               // El razonamiento interno también consume este límite: con un
@@ -79,6 +125,7 @@ export default async (req) => {
             if (!payload || payload === '[DONE]') continue;
             let chunk;
             try { chunk = JSON.parse(payload); } catch { continue; }
+            if (chunk?.promptFeedback?.blockReason) finishReason = 'BLOCK:' + chunk.promptFeedback.blockReason;
             const cand = chunk?.candidates?.[0];
             if (cand?.finishReason) finishReason = cand.finishReason;
             for (const part of cand?.content?.parts || []) {
@@ -88,10 +135,11 @@ export default async (req) => {
           }
         }
 
-        if (!wrote) {
+        const corte = FINISH_MESSAGES[finishReason] || (finishReason.startsWith('BLOCK:') ? FINISH_MESSAGES.SAFETY : '');
+        if (corte) {
+          send(ERROR_MARK + corte + ` [${finishReason}]`);
+        } else if (!wrote) {
           send(ERROR_MARK + 'Gemini respondió sin texto. Intenta de nuevo.');
-        } else if (finishReason === 'MAX_TOKENS') {
-          send(ERROR_MARK + 'El análisis quedó incompleto. Intenta de nuevo.');
         }
       } catch {
         send(ERROR_MARK + (wrote ? 'Se interrumpió la conexión con Gemini.' : 'No se pudo conectar con Gemini.'));

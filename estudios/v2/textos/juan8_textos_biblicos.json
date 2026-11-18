@@ -5,11 +5,29 @@
   ],
   "jewels": [
     {
-      "explanation": "La gracia de Jesús libera de la condenación sin llamar bueno al pecado. La NBLA conserva explícitamente ambas acciones: no condenar y mandar abandonar el pecado. MSG comunica el movimiento pastoral de permitir que la mujer siga su camino, pero el contexto impide convertir esa apertura en indiferencia moral. La vida nueva comienza donde la misericordia y la santidad permanecen unidas.",
+      "explanation": "Las dos versiones coinciden porque la frase no necesita adorno. Jesús no discute la ley; la aplica a todos. Y la escena que sigue es casi silenciosa: piedras que se sueltan, pasos que se alejan, empezando por los mayores, que tenían más memoria de sus propios pecados.",
       "id": "juan8-joya-01",
       "msg": {
-        "en": "\"Go on your way. From now on, don’t sin.\"",
-        "es": "\"Sigue tu camino. Desde ahora, no peques\""
+        "en": "\"The sinless one among you, go first: Throw the stone.\"",
+        "es": "\"El que esté libre de pecado entre ustedes, que sea el primero: que lance la piedra.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan8-nbla-07b"
+          ],
+          "verseId": "juan8-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "6-8"
+    },
+    {
+      "explanation": "La NBLA deja clara la palabra «condeno». Peterson la deja implícita y abre el futuro: sigue tu camino. El orden es esencial. Primero la absolución, después el llamado. Jesús no le dice que deje de pecar para que no la condene; le dice que no la condena y que, desde ahí, viva distinto.",
+      "id": "juan8-joya-02",
+      "msg": {
+        "en": "\"Neither do I,” said Jesus. “Go on your way. From now on, don’t sin.\"",
+        "es": "\"Yo tampoco», dijo Jesús. «Sigue tu camino. Desde ahora, no peques.\""
       },
       "nblaRefs": [
         {
@@ -19,15 +37,15 @@
           "verseId": "juan8-nbla-11"
         }
       ],
-      "order": 1,
+      "order": 2,
       "range": "11"
     },
     {
-      "explanation": "Jesús es la revelación que permite caminar fuera de las tinieblas. La NBLA fija la promesa: quien lo sigue tendrá la Luz de la vida. MSG vuelve visible la experiencia cotidiana de dejar de tropezar en oscuridad y recibir luz abundante para vivir. La imagen no enseña que seguir a Cristo elimina toda incertidumbre inmediata, sino que él se convierte en la orientación decisiva de la existencia.",
-      "id": "juan8-joya-02",
+      "explanation": "La NBLA habla de tinieblas; Peterson imagina a alguien tropezando, chocando con los muebles en un cuarto oscuro. Así se vive sin Jesús: no siempre en una oscuridad dramática, a veces simplemente dando tumbos. Seguirlo es tener luz para el paso siguiente.",
+      "id": "juan8-joya-03",
       "msg": {
-        "en": "\"I am the world’s Light.\"",
-        "es": "\"Yo soy la Luz del mundo.\""
+        "en": "\"No one who follows me stumbles around in the darkness.\"",
+        "es": "\"Quien me sigue no anda tropezando en la oscuridad.\""
       },
       "nblaRefs": [
         {
@@ -37,87 +55,31 @@
           "verseId": "juan8-nbla-12"
         }
       ],
-      "order": 2,
+      "order": 3,
       "range": "12"
     },
     {
-      "explanation": "El discipulado verdadero se reconoce por la permanencia en la palabra de Jesús. La NBLA establece el punto de partida que conduce a conocer la verdad y ser liberado; MSG hace explícita la dimensión práctica de vivir lo recibido. Esa expansión debe mantenerse bajo el texto: la obediencia no compra la libertad, sino que manifiesta una relación real con el Hijo y su palabra.",
-      "id": "juan8-joya-03",
-      "msg": {
-        "en": "\"living out what I tell you, you are my disciples for sure.\"",
-        "es": "\"viven lo que les digo, serán verdaderamente mis discípulos.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan8-nbla-31b"
-          ],
-          "verseId": "juan8-nbla-31"
-        }
-      ],
-      "order": 3,
-      "range": "31-32"
-    },
-    {
-      "explanation": "Solo el Hijo posee autoridad para romper la esclavitud del pecado. La NBLA ancla la libertad en la acción del Hijo y no en la autosuperación del esclavo. MSG comunica la totalidad de esa liberación con «completamente libres». Esto no significa ausencia instantánea de toda lucha, sino un cambio real de señorío, pertenencia y destino dentro de la casa del Padre.",
+      "explanation": "La NBLA dice «realmente»; Peterson dice «completamente», de lado a lado. Hay libertades a medias: cambiar de amo, cambiar de hábito, cambiar de culpa. Jesús ofrece otra cosa. Un esclavo puede ser vendido; un hijo tiene su lugar en la casa para siempre.",
       "id": "juan8-joya-04",
       "msg": {
-        "en": "\"if the Son sets you free, you are free through and through.\"",
-        "es": "\"si el Hijo los libera, serán completamente libres.\""
+        "en": "\"So if the Son sets you free, you are free through and through.\"",
+        "es": "\"Así que, si el Hijo los libera, serán completamente libres.\""
       },
       "nblaRefs": [
         {
-          "clauseIds": [
-            "juan8-nbla-36b"
-          ],
+          "fullVerse": true,
           "verseId": "juan8-nbla-36"
         }
       ],
       "order": 4,
-      "range": "34-36"
+      "range": "34-38"
     },
     {
-      "explanation": "La relación con Dios se revela en la disposición a escuchar al Hijo enviado por él. La NBLA fija la afirmación sin permitir que se reduzca a afinidad cultural o política. MSG la vuelve directa y confrontadora: estar del lado de Dios no puede separarse de recibir su palabra. El texto no autoriza a líderes humanos a identificar automáticamente sus opiniones con la voz de Dios; la prueba aquí es la palabra de Jesús.",
+      "explanation": "Peterson hace explícito el eco de la zarza ardiente: «Yo soy quien soy». La NBLA lo deja en su forma breve y deliberadamente rara, con un verbo en presente después de un pasado. Jesús no está diciendo que es muy viejo. Está diciendo que es eterno.",
       "id": "juan8-joya-05",
       "msg": {
-        "en": "\"Anyone on God’s side listens to God’s words.\"",
-        "es": "\"Quien está del lado de Dios escucha las palabras de Dios.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan8-nbla-47a"
-          ],
-          "verseId": "juan8-nbla-47"
-        }
-      ],
-      "order": 5,
-      "range": "42-47"
-    },
-    {
-      "explanation": "Guardar la palabra de Jesús une al creyente con una vida que la muerte no puede destruir. La NBLA expresa la promesa en términos absolutos, pero el contexto bíblico muestra que no niega la muerte física de los creyentes; niega que la muerte tenga la palabra final. MSG hace visible esa esperanza como no tener que enfrentar la muerte como poder definitivo. La resurrección de Cristo gobierna el sentido completo de la promesa.",
-      "id": "juan8-joya-06",
-      "msg": {
-        "en": "\"If you practice what I’m telling you, you’ll never have to look death in the face.\"",
-        "es": "\"si ponen en práctica lo que les digo, nunca tendrán que mirar a la muerte cara a cara\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan8-nbla-51b"
-          ],
-          "verseId": "juan8-nbla-51"
-        }
-      ],
-      "order": 6,
-      "range": "49-51"
-    },
-    {
-      "explanation": "Jesús afirma una identidad y existencia que preceden a Abraham. La NBLA conserva el sorprendente presente «Yo soy», decisivo para no reducir la frase a simple antigüedad. MSG hace audible la resonancia del nombre divino mediante «yo soy quien soy». La conclusión teológica debe descansar en el conjunto del Evangelio: el Hijo eterno procede del Padre, entra en la historia y revela en su persona la presencia de Dios.",
-      "id": "juan8-joya-07",
-      "msg": {
         "en": "\"I am who I am long before Abraham was anything.\"",
-        "es": "\"yo soy quien soy desde mucho antes de que Abraham siquiera existiera\""
+        "es": "\"yo soy quien soy desde mucho antes de que Abraham siquiera existiera.\""
       },
       "nblaRefs": [
         {
@@ -127,7 +89,7 @@
           "verseId": "juan8-nbla-58"
         }
       ],
-      "order": 7,
+      "order": 5,
       "range": "58"
     }
   ],
@@ -735,9 +697,20 @@
       "number": 6
     },
     {
+      "clauses": [
+        {
+          "id": "juan8-nbla-07a",
+          "order": 1,
+          "text": "Pero como insistían en preguntar, Jesús se enderezó y les dijo: «"
+        },
+        {
+          "id": "juan8-nbla-07b",
+          "order": 2,
+          "text": "El que de ustedes esté sin pecado, sea el primero en tirarle una piedra»."
+        }
+      ],
       "id": "juan8-nbla-07",
-      "number": 7,
-      "text": "Pero como insistían en preguntar, Jesús se enderezó y les dijo: «El que de ustedes esté sin pecado, sea el primero en tirarle una piedra»."
+      "number": 7
     },
     {
       "id": "juan8-nbla-08",
@@ -764,12 +737,7 @@
         {
           "id": "juan8-nbla-11b",
           "order": 2,
-          "text": "Yo tampoco te condeno. Vete; y desde ahora no peques más"
-        },
-        {
-          "id": "juan8-nbla-11c",
-          "order": 3,
-          "text": "»."
+          "text": "Yo tampoco te condeno. Vete; y desde ahora no peques más»."
         }
       ],
       "id": "juan8-nbla-11",
@@ -780,17 +748,13 @@
         {
           "id": "juan8-nbla-12a",
           "order": 1,
-          "text": "Jesús les habló otra vez, diciendo: «"
+          "text": "Jesús les habló otra vez, diciendo: «Yo soy la Luz del mundo;"
         },
         {
           "id": "juan8-nbla-12b",
           "order": 2,
-          "text": "Yo soy la Luz del mundo"
-        },
-        {
-          "id": "juan8-nbla-12c",
-          "order": 3,
-          "text": "; el que me sigue no andará en tinieblas, sino que tendrá la Luz de la vida»."
+          "separatorBefore": " ",
+          "text": "el que me sigue no andará en tinieblas, sino que tendrá la Luz de la vida»."
         }
       ],
       "id": "juan8-nbla-12",
@@ -887,20 +851,9 @@
       "text": "Al hablar estas cosas, muchos creyeron en Él."
     },
     {
-      "clauses": [
-        {
-          "id": "juan8-nbla-31a",
-          "order": 1,
-          "text": "Entonces Jesús decía a los judíos que habían creído en Él: «"
-        },
-        {
-          "id": "juan8-nbla-31b",
-          "order": 2,
-          "text": "Si ustedes permanecen en Mi palabra, verdaderamente son Mis discípulos;"
-        }
-      ],
       "id": "juan8-nbla-31",
-      "number": 31
+      "number": 31,
+      "text": "Entonces Jesús decía a los judíos que habían creído en Él: «Si ustedes permanecen en Mi palabra, verdaderamente son Mis discípulos;"
     },
     {
       "id": "juan8-nbla-32",
@@ -923,21 +876,9 @@
       "text": "y el esclavo no queda en la casa para siempre; el hijo sí permanece para siempre."
     },
     {
-      "clauses": [
-        {
-          "id": "juan8-nbla-36a",
-          "order": 1,
-          "text": "Así que,"
-        },
-        {
-          "id": "juan8-nbla-36b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "si el Hijo los hace libres, ustedes serán realmente libres."
-        }
-      ],
       "id": "juan8-nbla-36",
-      "number": 36
+      "number": 36,
+      "text": "Así que, si el Hijo los hace libres, ustedes serán realmente libres."
     },
     {
       "id": "juan8-nbla-37",
@@ -990,21 +931,9 @@
       "text": "¿Quién de ustedes me prueba que tengo pecado? Y si digo verdad, ¿por qué ustedes no me creen?"
     },
     {
-      "clauses": [
-        {
-          "id": "juan8-nbla-47a",
-          "order": 1,
-          "text": "El que es de Dios escucha las palabras de Dios;"
-        },
-        {
-          "id": "juan8-nbla-47b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "por eso ustedes no escuchan, porque no son de Dios»."
-        }
-      ],
       "id": "juan8-nbla-47",
-      "number": 47
+      "number": 47,
+      "text": "El que es de Dios escucha las palabras de Dios; por eso ustedes no escuchan, porque no son de Dios»."
     },
     {
       "id": "juan8-nbla-48",
@@ -1022,26 +951,9 @@
       "text": "Pero Yo no busco Mi gloria; hay Uno que la busca, y juzga."
     },
     {
-      "clauses": [
-        {
-          "id": "juan8-nbla-51a",
-          "order": 1,
-          "text": "En verdad les digo que"
-        },
-        {
-          "id": "juan8-nbla-51b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "si alguien guarda Mi palabra, no verá jamás la muerte"
-        },
-        {
-          "id": "juan8-nbla-51c",
-          "order": 3,
-          "text": "»."
-        }
-      ],
       "id": "juan8-nbla-51",
-      "number": 51
+      "number": 51,
+      "text": "En verdad les digo que si alguien guarda Mi palabra, no verá jamás la muerte»."
     },
     {
       "id": "juan8-nbla-52",
@@ -1084,12 +996,7 @@
           "id": "juan8-nbla-58b",
           "order": 2,
           "separatorBefore": " ",
-          "text": "antes que Abraham naciera, Yo soy"
-        },
-        {
-          "id": "juan8-nbla-58c",
-          "order": 3,
-          "text": "»."
+          "text": "antes que Abraham naciera, Yo soy»."
         }
       ],
       "id": "juan8-nbla-58",

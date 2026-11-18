@@ -5,7 +5,7 @@
   ],
   "jewels": [
     {
-      "explanation": "Jesús rechaza la atribución automática de una discapacidad a un pecado personal específico. La NBLA fija la respuesta directa y orienta la escena hacia la manifestación de las obras de Dios. MSG hace visible la dinámica pastoral equivocada de los discípulos: antes de ver a la persona, buscan un culpable. La frase no autoriza a afirmar que Dios causa cada sufrimiento para producir una lección; obliga a abandonar la condena simplista y participar en la obra restauradora de Dios.",
+      "explanation": "La NBLA conserva la respuesta exacta de Jesús. Peterson nombra lo que hay detrás de la pregunta de los discípulos: buscar culpables. Es una tentación muy humana frente al sufrimiento ajeno. Jesús no participa en ese juego y dirige la atención hacia lo que Dios va a hacer.",
       "id": "juan9-joya-01",
       "msg": {
         "en": "\"You’re asking the wrong question. You’re looking for someone to blame.\"",
@@ -23,47 +23,29 @@
       "range": "3-5"
     },
     {
-      "explanation": "La obediencia del hombre responde a la palabra de Jesús antes de poseer una explicación completa. La NBLA conserva la secuencia concreta: ir, lavarse y regresar viendo. MSG concentra esa sencillez en el resultado inmediato: obedeció y pudo ver. La sanidad procede de Jesús, no del agua ni de una técnica reproducible; el acto del hombre es respuesta confiada al Enviado.",
+      "explanation": "En griego, el hombre dice exactamente lo que Jesús ha estado diciendo de sí mismo: «Yo soy». No es una afirmación divina en su boca, es simplemente «soy yo». Peterson lo explica: el mismo de siempre. Es la misma persona y, a la vez, ya no es la misma. Así es la gracia: no borra quién eres, te transforma.",
       "id": "juan9-joya-02",
       "msg": {
-        "en": "\"The man went and washed—and saw.\"",
-        "es": "\"El hombre fue, se lavó… y pudo ver.\""
+        "en": "\"It’s me, the very one.\"",
+        "es": "\"Soy yo, el mismo de siempre.\""
       },
       "nblaRefs": [
         {
           "clauseIds": [
-            "juan9-nbla-07b"
+            "juan9-nbla-09b"
           ],
-          "verseId": "juan9-nbla-07"
+          "verseId": "juan9-nbla-09"
         }
       ],
       "order": 2,
-      "range": "6-7"
+      "range": "9"
     },
     {
-      "explanation": "La señal exige discernir qué revela acerca de la procedencia de Jesús. La NBLA conserva la pregunta que divide a los fariseos; MSG explicita pastoralmente que el milagro apunta hacia Dios. Esa ampliación no significa que todo acto sorprendente pruebe automáticamente aprobación divina. En Juan, la señal debe interpretarse dentro de la identidad, las palabras y la misión del Hijo.",
+      "explanation": "Es uno de los testimonios más citados de la historia cristiana, y está en boca de un mendigo. La NBLA es sobria; Peterson añade una pausa con los puntos suspensivos, como si el hombre todavía no lo pudiera creer. No sabe responder todas las preguntas de los expertos. Sabe lo que le pasó.",
       "id": "juan9-joya-03",
       "msg": {
-        "en": "\"How can a bad man do miraculous, God-revealing things like this?\"",
-        "es": "\"¿Cómo podría un hombre malo hacer milagros como estos, que revelan a Dios?\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan9-nbla-16b"
-          ],
-          "verseId": "juan9-nbla-16"
-        }
-      ],
-      "order": 3,
-      "range": "16"
-    },
-    {
-      "explanation": "El testimonio cristiano puede sostener una certeza concreta sin pretender conocimiento ilimitado. La NBLA muestra que el hombre distingue entre lo que no sabe y lo que sí conoce por experiencia. MSG conserva la contundencia de la transformación. La frase no convierte la experiencia personal en autoridad superior a la verdad bíblica; muestra que una obra real de Cristo no puede ser anulada por la presión de quienes prefieren otra conclusión.",
-      "id": "juan9-joya-04",
-      "msg": {
-        "en": "\"I was blind… I now see.\"",
-        "es": "\"yo era ciego… ahora veo\""
+        "en": "\"But I know one thing for sure: I was blind… I now see.\"",
+        "es": "\"Pero una cosa sé con certeza: yo era ciego… ahora veo.\""
       },
       "nblaRefs": [
         {
@@ -73,51 +55,33 @@
           "verseId": "juan9-nbla-25"
         }
       ],
-      "order": 4,
+      "order": 3,
       "range": "25"
     },
     {
-      "explanation": "La resistencia de los dirigentes queda expuesta por un hecho que su sistema no logra explicar. La NBLA mantiene el contraste entre su afirmación de ignorancia y la evidencia de la sanidad. MSG vuelve más frontal la observación del hombre. Su argumento no ofrece una teoría completa sobre cómo Dios escucha cada oración, pero sí concluye correctamente dentro del relato que la obra de Jesús no puede descartarse como si nada hubiera ocurrido.",
+      "explanation": "El hombre nunca había visto a Jesús. Cuando se lavó en Siloé, Jesús no estaba. Solo había oído su voz. Peterson lo hace explícito: ¿no reconoces mi voz? La NBLA lo une con la vista: tú lo has visto. Lo que oyó estando ciego, ahora lo ve con los ojos abiertos.",
+      "id": "juan9-joya-04",
+      "msg": {
+        "en": "\"You’re looking right at him. Don’t you recognize my voice?\"",
+        "es": "\"Lo tienes justo delante de ti. ¿No reconoces mi voz?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan9-nbla-37b"
+          ],
+          "verseId": "juan9-nbla-37"
+        }
+      ],
+      "order": 4,
+      "range": "37"
+    },
+    {
+      "explanation": "La NBLA conserva la simetría seca de la frase. Peterson explica la segunda parte: no habla de gente que ve, sino de gente que montó una fachada de que ve. Jesús no ciega a nadie que realmente vea. Revela lo que ya estaba ahí detrás de la apariencia.",
       "id": "juan9-joya-05",
       "msg": {
-        "en": "\"the fact is, he opened my eyes!\"",
-        "es": "\"el hecho es que me abrió los ojos.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan9-nbla-30b"
-          ],
-          "verseId": "juan9-nbla-30"
-        }
-      ],
-      "order": 5,
-      "range": "30-33"
-    },
-    {
-      "explanation": "Jesús no abandona a quien paga un costo por dar testimonio de la verdad. La NBLA presenta al Señor encontrando al hombre después de la expulsión; MSG subraya la iniciativa deliberada de ir y encontrarlo. El texto no promete que toda exclusión humana será revertida de inmediato, pero revela el carácter pastoral de Cristo: cuando una estructura desecha a una persona, el Buen Pastor la encuentra y la conduce a una revelación más plena.",
-      "id": "juan9-joya-06",
-      "msg": {
-        "en": "\"Jesus heard that they had thrown him out, and went and found him.\"",
-        "es": "\"Jesús se enteró de que lo habían expulsado, fue y lo encontró.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan9-nbla-35a"
-          ],
-          "verseId": "juan9-nbla-35"
-        }
-      ],
-      "order": 6,
-      "range": "35"
-    },
-    {
-      "explanation": "La venida de Jesús produce juicio porque revela quién recibe la luz y quién se resiste a ella. La NBLA fija la paradoja: los que no ven reciben vista y los que afirman ver quedan ciegos. MSG hace visible la pretensión que sostiene esa ceguera. El punto no es despreciar a quienes poseen conocimiento, sino advertir que el conocimiento sin humildad puede convertirse en una defensa contra la verdad.",
-      "id": "juan9-joya-07",
-      "msg": {
-        "en": "\"those who have made a great pretense of seeing will be exposed as blind.\"",
-        "es": "\"quienes han montado toda una fachada de que ven quedarán al descubierto como ciegos\""
+        "en": "\"so that those who have never seen will see, and those who have made a great pretense of seeing will be exposed as blind.\"",
+        "es": "\"quienes nunca han visto podrán ver, y quienes han montado toda una fachada de que ven quedarán al descubierto como ciegos.\""
       },
       "nblaRefs": [
         {
@@ -127,7 +91,7 @@
           "verseId": "juan9-nbla-39"
         }
       ],
-      "order": 7,
+      "order": 5,
       "range": "39"
     }
   ],
@@ -643,21 +607,9 @@
       "text": "Habiendo dicho esto, escupió en tierra, e hizo barro con la saliva y le untó el barro en los ojos al ciego,"
     },
     {
-      "clauses": [
-        {
-          "id": "juan9-nbla-07a",
-          "order": 1,
-          "text": "y le dijo: «Ve y lávate en el estanque de Siloé» (que quiere decir Enviado)."
-        },
-        {
-          "id": "juan9-nbla-07b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "El ciego fue, pues, y se lavó y regresó viendo."
-        }
-      ],
       "id": "juan9-nbla-07",
-      "number": 7
+      "number": 7,
+      "text": "y le dijo: «Ve y lávate en el estanque de Siloé» (que quiere decir Enviado). El ciego fue, pues, y se lavó y regresó viendo."
     },
     {
       "id": "juan9-nbla-08",
@@ -665,9 +617,21 @@
       "text": "Entonces los vecinos y los que antes lo habían visto que era mendigo, decían: «¿No es este el que se sentaba y mendigaba?»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan9-nbla-09a",
+          "order": 1,
+          "text": "«Él es», decían unos. «No, pero se parece a él», decían otros."
+        },
+        {
+          "id": "juan9-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Él decía: «Yo soy»."
+        }
+      ],
       "id": "juan9-nbla-09",
-      "number": 9,
-      "text": "«Él es», decían unos. «No, pero se parece a él», decían otros. Él decía: «Yo soy»."
+      "number": 9
     },
     {
       "id": "juan9-nbla-10",
@@ -700,25 +664,9 @@
       "text": "Por eso los fariseos volvieron también a preguntarle cómo había recibido la vista. Y él les dijo: «Me puso barro sobre los ojos, y me lavé y veo»."
     },
     {
-      "clauses": [
-        {
-          "id": "juan9-nbla-16a",
-          "order": 1,
-          "text": "Por eso algunos de los fariseos decían: «Este hombre no viene de Dios, porque no guarda el día de reposo». Pero otros decían: «"
-        },
-        {
-          "id": "juan9-nbla-16b",
-          "order": 2,
-          "text": "¿Cómo puede un hombre pecador hacer tales señales?"
-        },
-        {
-          "id": "juan9-nbla-16c",
-          "order": 3,
-          "text": "». Y había división entre ellos."
-        }
-      ],
       "id": "juan9-nbla-16",
-      "number": 16
+      "number": 16,
+      "text": "Por eso algunos de los fariseos decían: «Este hombre no viene de Dios, porque no guarda el día de reposo». Pero otros decían: «¿Cómo puede un hombre pecador hacer tales señales?». Y había división entre ellos."
     },
     {
       "id": "juan9-nbla-17",
@@ -771,12 +719,7 @@
           "id": "juan9-nbla-25b",
           "order": 2,
           "separatorBefore": " ",
-          "text": "una cosa sé: que yo era ciego y ahora veo"
-        },
-        {
-          "id": "juan9-nbla-25c",
-          "order": 3,
-          "text": "»."
+          "text": "una cosa sé: que yo era ciego y ahora veo»."
         }
       ],
       "id": "juan9-nbla-25",
@@ -803,21 +746,9 @@
       "text": "Nosotros sabemos que Dios habló a Moisés, pero en cuanto a Este, no sabemos de dónde es»."
     },
     {
-      "clauses": [
-        {
-          "id": "juan9-nbla-30a",
-          "order": 1,
-          "text": "El hombre les respondió: «Pues en esto hay algo asombroso,"
-        },
-        {
-          "id": "juan9-nbla-30b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "que ustedes no sepan de dónde es, y sin embargo, a mí me abrió los ojos."
-        }
-      ],
       "id": "juan9-nbla-30",
-      "number": 30
+      "number": 30,
+      "text": "El hombre les respondió: «Pues en esto hay algo asombroso, que ustedes no sepan de dónde es, y sin embargo, a mí me abrió los ojos."
     },
     {
       "id": "juan9-nbla-31",
@@ -840,20 +771,9 @@
       "text": "Ellos le respondieron: «Tú naciste enteramente en pecados, ¿y tú nos enseñas a nosotros?». Y lo echaron fuera."
     },
     {
-      "clauses": [
-        {
-          "id": "juan9-nbla-35a",
-          "order": 1,
-          "text": "Jesús oyó decir que lo habían echado fuera, y cuando lo encontró"
-        },
-        {
-          "id": "juan9-nbla-35b",
-          "order": 2,
-          "text": ", le dijo: «¿Crees tú en el Hijo del Hombre?»."
-        }
-      ],
       "id": "juan9-nbla-35",
-      "number": 35
+      "number": 35,
+      "text": "Jesús oyó decir que lo habían echado fuera, y cuando lo encontró, le dijo: «¿Crees tú en el Hijo del Hombre?»."
     },
     {
       "id": "juan9-nbla-36",
@@ -861,9 +781,20 @@
       "text": "Él le respondió: «¿Y quién es, Señor, para que yo crea en Él?»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan9-nbla-37a",
+          "order": 1,
+          "text": "Jesús le dijo: «"
+        },
+        {
+          "id": "juan9-nbla-37b",
+          "order": 2,
+          "text": "Pues tú lo has visto, y el que está hablando contigo, Ese es»."
+        }
+      ],
       "id": "juan9-nbla-37",
-      "number": 37,
-      "text": "Jesús le dijo: «Pues tú lo has visto, y el que está hablando contigo, Ese es»."
+      "number": 37
     },
     {
       "id": "juan9-nbla-38",
@@ -881,12 +812,7 @@
           "id": "juan9-nbla-39b",
           "order": 2,
           "separatorBefore": " ",
-          "text": "para que los que no ven, vean, y para que los que ven se vuelvan ciegos"
-        },
-        {
-          "id": "juan9-nbla-39c",
-          "order": 3,
-          "text": "»."
+          "text": "para que los que no ven, vean, y para que los que ven se vuelvan ciegos»."
         }
       ],
       "id": "juan9-nbla-39",

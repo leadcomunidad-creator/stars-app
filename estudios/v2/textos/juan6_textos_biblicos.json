@@ -5,11 +5,29 @@
   ],
   "jewels": [
     {
-      "explanation": "La presencia de Jesús es la respuesta divina frente al caos y el temor. La NBLA conserva la afirmación directa «Soy Yo», que puede resonar con el lenguaje de revelación propio del Evangelio, mientras MSG hace audible la tranquilidad que esa presencia produce. La explicación no debe convertir cada uso de la expresión en una identificación técnica aislada, pero el contexto sí presenta a Jesús ejerciendo autoridad divina sobre el mar.",
+      "explanation": "Andrés hace bien en traer al muchacho, y hace bien en dudar. La NBLA lo deja como pregunta; Peterson lo vuelve un dicho de todos los días. Lo que tenemos siempre parece una gota frente a la necesidad. Jesús no pide que la gota sea más grande, pide que se la entreguemos.",
       "id": "juan6-joya-01",
       "msg": {
+        "en": "\"But that’s a drop in the bucket for a crowd like this.\"",
+        "es": "\"Pero eso es una gota en el océano para una multitud como esta.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan6-nbla-09b"
+          ],
+          "verseId": "juan6-nbla-09"
+        }
+      ],
+      "order": 1,
+      "range": "8-9"
+    },
+    {
+      "explanation": "En griego, Jesús dice «Yo soy», la misma expresión que Dios usa para presentarse a Moisés. La NBLA la deja corta, como un nombre. Peterson añade una frase de consuelo en medio de la tormenta: todo está bien. Las dos cosas son verdad. El que camina sobre el mar es Dios, y viene a calmar el miedo.",
+      "id": "juan6-joya-02",
+      "msg": {
         "en": "\"It’s me. It’s all right. Don’t be afraid.\"",
-        "es": "\"Soy yo. Todo está bien. No tengan miedo\""
+        "es": "\"Soy yo. Todo está bien. No tengan miedo.\""
       },
       "nblaRefs": [
         {
@@ -19,105 +37,51 @@
           "verseId": "juan6-nbla-20"
         }
       ],
-      "order": 1,
-      "range": "20"
-    },
-    {
-      "explanation": "Jesús orienta el trabajo humano hacia aquello que permanece delante de Dios. La NBLA fija el destino de ese alimento como «vida eterna» y evita reducirlo a bienestar emocional prolongado. MSG vuelve visible el contraste entre lo que se consume y desaparece, y el don del Hijo que sostiene una vida que atraviesa la muerte.",
-      "id": "juan6-joya-02",
-      "msg": {
-        "en": "\"food that sticks with you, food that nourishes your lasting life\"",
-        "es": "\"el alimento que permanece, el que nutre una vida duradera\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan6-nbla-27b"
-          ],
-          "verseId": "juan6-nbla-27"
-        }
-      ],
       "order": 2,
-      "range": "27"
+      "range": "16-21"
     },
     {
-      "explanation": "La obra fundamental que Dios demanda es creer en su Enviado. La NBLA establece con precisión que esa es la obra de Dios; MSG presenta esa fe como una entrega comprometida que introduce a la persona en la obra divina. Esta ampliación pastoral debe permanecer bajo el sentido fijado por la NBLA: la fe involucra a la persona completa, pero no convierte la salvación en mérito humano.",
+      "explanation": "La NBLA lo dice en negativo: no lo echaré fuera. Peterson lo dice en positivo: lo sostengo y no lo suelto. Son dos caras de la misma promesa. Quien viene a Jesús no tiene que demostrar que merece quedarse. Él se encarga de sostenerlo.",
       "id": "juan6-joya-03",
       "msg": {
-        "en": "\"Throw your lot in with the One that God has sent.\"",
-        "es": "\"Entréguense por completo al que Dios ha enviado.\""
+        "en": "\"And once that person is with me, I hold on and don’t let go.\"",
+        "es": "\"Y cuando está conmigo, la sostengo y no la suelto.\""
       },
       "nblaRefs": [
         {
           "clauseIds": [
-            "juan6-nbla-29b"
+            "juan6-nbla-37b"
           ],
-          "verseId": "juan6-nbla-29"
+          "verseId": "juan6-nbla-37"
         }
       ],
       "order": 3,
-      "range": "29"
-    },
-    {
-      "explanation": "Jesús se presenta como la fuente personal de la vida que satisface definitivamente. Ambas versiones coinciden en el centro teológico: el Pan no es una enseñanza separada ni una provisión que puede tomarse dejando a Jesús atrás. MSG desarrolla pastoralmente el movimiento de unirse, venir y ser sostenido; la NBLA mantiene el vínculo explícito entre venir a Cristo, creer en él y cumplir la voluntad del Padre.",
-      "id": "juan6-joya-04",
-      "msg": {
-        "en": "\"I am the Bread of Life.\"",
-        "es": "\"Yo soy el Pan de Vida.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan6-nbla-35b"
-          ],
-          "verseId": "juan6-nbla-35"
-        }
-      ],
-      "order": 4,
       "range": "35-38"
     },
     {
-      "explanation": "La salvación está sostenida por la fidelidad del Hijo a la voluntad del Padre. La NBLA afirma que Jesús no perderá nada de lo que le fue dado y lo resucitará en el día final. MSG hace sentir la integridad de esa obra, pero no debe usarse para prometer que cada expectativa temporal del creyente será preservada; la promesa se refiere a la obra salvadora que culmina en la resurrección.",
+      "explanation": "La NBLA conserva la palabra «carne», que en Juan significa lo meramente humano. Peterson la traduce como músculo y fuerza de voluntad. Es una frase que desarma a quien quiere ganarse la vida eterna a pulso. La vida la da el Espíritu, a través de las palabras de Jesús.",
+      "id": "juan6-joya-04",
+      "msg": {
+        "en": "\"Sheer muscle and willpower don’t make anything happen.\"",
+        "es": "\"La pura fuerza física y la voluntad humana no logran nada.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan6-nbla-63b"
+          ],
+          "verseId": "juan6-nbla-63"
+        }
+      ],
+      "order": 4,
+      "range": "61-65"
+    },
+    {
+      "explanation": "Pedro no dice que entendió todo. Dice que no tiene otra opción. La NBLA conserva la confesión completa: palabras de vida eterna. Peterson la deja en la pregunta, que es donde está el peso. A veces la fe no suena a seguridad, sino a alguien que ya probó los otros caminos y sabe que no llevan a ninguna parte.",
       "id": "juan6-joya-05",
       "msg": {
-        "en": "\"not a single detail missed\"",
-        "es": "\"sin perder un solo detalle\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan6-nbla-39b"
-          ],
-          "verseId": "juan6-nbla-39"
-        }
-      ],
-      "order": 5,
-      "range": "39-40"
-    },
-    {
-      "explanation": "La vida del mundo depende de la entrega real del Hijo encarnado. La NBLA fija el lenguaje sacrificial: Jesús dará su carne por la vida del mundo. MSG subraya que no ofrece algo distinto de sí mismo. Esta imagen no autoriza canibalismo ni una doctrina basada solo en la paráfrasis; conduce hacia la entrega corporal de Cristo en la cruz y hacia la recepción creyente de su persona.",
-      "id": "juan6-joya-06",
-      "msg": {
-        "en": "\"The Bread that I present to the world so that it can eat and live is myself, this flesh-and-blood self.\"",
-        "es": "\"El Pan que entrego al mundo para que coma y viva soy yo mismo, este ser de carne y sangre\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan6-nbla-51b"
-          ],
-          "verseId": "juan6-nbla-51"
-        }
-      ],
-      "order": 6,
-      "range": "47-51"
-    },
-    {
-      "explanation": "La perseverancia cristiana descansa en reconocer que la vida está únicamente en Jesús. La NBLA expresa la confesión esencial de Pedro sin sugerir que todas las dificultades hayan desaparecido. MSG hace visible la crisis existencial de la pregunta: marcharse de Jesús no conduce hacia otra fuente equivalente. La fe permanece porque ha reconocido al Santo de Dios, no porque toda enseñanza resulte fácil.",
-      "id": "juan6-joya-07",
-      "msg": {
-        "en": "\"Master, to whom would we go? You have the words of real life, eternal life.\"",
-        "es": "\"Maestro, ¿a quién iríamos? Tú tienes las palabras de la vida verdadera, la vida eterna.\""
+        "en": "\"Master, to whom would we go?\"",
+        "es": "\"Maestro, ¿a quién iríamos?\""
       },
       "nblaRefs": [
         {
@@ -127,7 +91,7 @@
           "verseId": "juan6-nbla-68"
         }
       ],
-      "order": 7,
+      "order": 5,
       "range": "68-69"
     }
   ],
@@ -795,9 +759,21 @@
       "text": "Uno de Sus discípulos, Andrés, hermano de Simón Pedro, dijo* a Jesús:"
     },
     {
+      "clauses": [
+        {
+          "id": "juan6-nbla-09a",
+          "order": 1,
+          "text": "«Aquí hay un muchacho que tiene cinco panes de cebada y dos pescados;"
+        },
+        {
+          "id": "juan6-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pero ¿qué es esto para tantos?»."
+        }
+      ],
       "id": "juan6-nbla-09",
-      "number": 9,
-      "text": "«Aquí hay un muchacho que tiene cinco panes de cebada y dos pescados; pero ¿qué es esto para tantos?»."
+      "number": 9
     },
     {
       "id": "juan6-nbla-10",
@@ -859,12 +835,7 @@
         {
           "id": "juan6-nbla-20b",
           "order": 2,
-          "text": "Soy Yo; no teman"
-        },
-        {
-          "id": "juan6-nbla-20c",
-          "order": 3,
-          "text": "»."
+          "text": "Soy Yo; no teman»."
         }
       ],
       "id": "juan6-nbla-20",
@@ -901,26 +872,9 @@
       "text": "Jesús les respondió: «En verdad les digo, que me buscan, no porque hayan visto señales, sino porque han comido de los panes y se han saciado."
     },
     {
-      "clauses": [
-        {
-          "id": "juan6-nbla-27a",
-          "order": 1,
-          "text": "Trabajen, no por el alimento que perece, sino por"
-        },
-        {
-          "id": "juan6-nbla-27b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "el alimento que permanece para vida eterna"
-        },
-        {
-          "id": "juan6-nbla-27c",
-          "order": 3,
-          "text": ", el cual el Hijo del Hombre les dará, porque a Él es a quien el Padre, Dios, ha marcado con Su sello»."
-        }
-      ],
       "id": "juan6-nbla-27",
-      "number": 27
+      "number": 27,
+      "text": "Trabajen, no por el alimento que perece, sino por el alimento que permanece para vida eterna, el cual el Hijo del Hombre les dará, porque a Él es a quien el Padre, Dios, ha marcado con Su sello»."
     },
     {
       "id": "juan6-nbla-28",
@@ -928,25 +882,9 @@
       "text": "Entonces le preguntaron: «¿Qué debemos hacer para poner en práctica las obras de Dios?»."
     },
     {
-      "clauses": [
-        {
-          "id": "juan6-nbla-29a",
-          "order": 1,
-          "text": "Jesús les respondió: «"
-        },
-        {
-          "id": "juan6-nbla-29b",
-          "order": 2,
-          "text": "Esta es la obra de Dios: que crean en el que Él ha enviado"
-        },
-        {
-          "id": "juan6-nbla-29c",
-          "order": 3,
-          "text": "»."
-        }
-      ],
       "id": "juan6-nbla-29",
-      "number": 29
+      "number": 29,
+      "text": "Jesús les respondió: «Esta es la obra de Dios: que crean en el que Él ha enviado»."
     },
     {
       "id": "juan6-nbla-30",
@@ -974,26 +912,9 @@
       "text": "«Señor, danos siempre este pan», le dijeron."
     },
     {
-      "clauses": [
-        {
-          "id": "juan6-nbla-35a",
-          "order": 1,
-          "text": "Jesús les dijo: «"
-        },
-        {
-          "id": "juan6-nbla-35b",
-          "order": 2,
-          "text": "Yo soy el pan de la vida;"
-        },
-        {
-          "id": "juan6-nbla-35c",
-          "order": 3,
-          "separatorBefore": " ",
-          "text": "el que viene a Mí no tendrá hambre, y el que cree en Mí nunca tendrá sed."
-        }
-      ],
       "id": "juan6-nbla-35",
-      "number": 35
+      "number": 35,
+      "text": "Jesús les dijo: «Yo soy el pan de la vida; el que viene a Mí no tendrá hambre, y el que cree en Mí nunca tendrá sed."
     },
     {
       "id": "juan6-nbla-36",
@@ -1001,9 +922,21 @@
       "text": "Pero ya les dije que aunque me han visto, no creen."
     },
     {
+      "clauses": [
+        {
+          "id": "juan6-nbla-37a",
+          "order": 1,
+          "text": "Todo lo que el Padre me da, vendrá a Mí;"
+        },
+        {
+          "id": "juan6-nbla-37b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y al que viene a Mí, de ningún modo lo echaré fuera."
+        }
+      ],
       "id": "juan6-nbla-37",
-      "number": 37,
-      "text": "Todo lo que el Padre me da, vendrá a Mí; y al que viene a Mí, de ningún modo lo echaré fuera."
+      "number": 37
     },
     {
       "id": "juan6-nbla-38",
@@ -1011,26 +944,9 @@
       "text": "Porque he descendido del cielo, no para hacer Mi voluntad, sino la voluntad del que me envió."
     },
     {
-      "clauses": [
-        {
-          "id": "juan6-nbla-39a",
-          "order": 1,
-          "text": "Y esta es la voluntad del que me envió:"
-        },
-        {
-          "id": "juan6-nbla-39b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "que de todo lo que Él me ha dado Yo no pierda nada"
-        },
-        {
-          "id": "juan6-nbla-39c",
-          "order": 3,
-          "text": ", sino que lo resucite en el día final."
-        }
-      ],
       "id": "juan6-nbla-39",
-      "number": 39
+      "number": 39,
+      "text": "Y esta es la voluntad del que me envió: que de todo lo que Él me ha dado Yo no pierda nada, sino que lo resucite en el día final."
     },
     {
       "id": "juan6-nbla-40",
@@ -1088,26 +1004,9 @@
       "text": "Este es el pan que desciende del cielo, para que el que coma de él, no muera."
     },
     {
-      "clauses": [
-        {
-          "id": "juan6-nbla-51a",
-          "order": 1,
-          "text": "Yo soy el pan vivo que descendió del cielo; si alguien come de este pan, vivirá para siempre; y"
-        },
-        {
-          "id": "juan6-nbla-51b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "el pan que Yo también daré por la vida del mundo es Mi carne"
-        },
-        {
-          "id": "juan6-nbla-51c",
-          "order": 3,
-          "text": "»."
-        }
-      ],
       "id": "juan6-nbla-51",
-      "number": 51
+      "number": 51,
+      "text": "Yo soy el pan vivo que descendió del cielo; si alguien come de este pan, vivirá para siempre; y el pan que Yo también daré por la vida del mundo es Mi carne»."
     },
     {
       "id": "juan6-nbla-52",
@@ -1165,9 +1064,26 @@
       "text": "¿Pues qué si vieran al Hijo del Hombre ascender adonde estaba antes?"
     },
     {
+      "clauses": [
+        {
+          "id": "juan6-nbla-63a",
+          "order": 1,
+          "text": "»El Espíritu es el que da vida;"
+        },
+        {
+          "id": "juan6-nbla-63b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "la carne para nada aprovecha"
+        },
+        {
+          "id": "juan6-nbla-63c",
+          "order": 3,
+          "text": "; las palabras que Yo les he hablado son espíritu y son vida."
+        }
+      ],
       "id": "juan6-nbla-63",
-      "number": 63,
-      "text": "»El Espíritu es el que da vida; la carne para nada aprovecha; las palabras que Yo les he hablado son espíritu y son vida."
+      "number": 63
     },
     {
       "id": "juan6-nbla-64",

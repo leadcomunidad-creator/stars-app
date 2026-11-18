@@ -5,33 +5,31 @@
   ],
   "jewels": [
     {
-      "explanation": "La Palabra comparte plenamente la identidad divina y vive en comunión personal con Dios. La NBLA fija sin ambigüedad que el Verbo estaba con Dios y era Dios; MSG vuelve visible esa comunión con la expresión relacional «Dios presente en la Palabra». Esa intensidad pastoral no introduce otra relación distinta de la afirmada por el texto ni diluye la plena divinidad del Hijo.",
+      "explanation": "Es quizá la frase más citada de toda la paráfrasis de Peterson, y con razón. La NBLA dice «habitó», que evoca la tienda del tabernáculo. Peterson la traduce a la vida de hoy: Dios no se quedó en un lugar sagrado lejano, se vino a vivir a la cuadra. La encarnación es una mudanza.",
       "id": "juan1-joya-01",
       "msg": {
-        "en": "\"The Word was first, the Word present to God, God present to the Word.\"",
-        "es": "\"La Palabra existía primero, la Palabra presente ante Dios, Dios presente en la Palabra.\""
+        "en": "\"The Word became flesh and blood, and moved into the neighborhood.\"",
+        "es": "\"La Palabra se hizo carne y sangre y se mudó al barrio.\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-01"
+          "clauseIds": [
+            "juan1-nbla-14a"
+          ],
+          "verseId": "juan1-nbla-14"
         }
       ],
       "order": 1,
-      "range": "1-2"
+      "range": "14"
     },
     {
-      "explanation": "La vida que está en la Palabra se manifiesta como luz en medio de las tinieblas. La NBLA fija la relación entre vida y Luz y conserva el matiz de que las tinieblas no la comprendieron; MSG hace visible la resistencia impotente de la oscuridad al decir que no pudo apagarla. Esa expansión comunica victoria, pero no elimina el matiz de incomprensión presente en la formulación más literal.",
+      "explanation": "La palabra griega puede significar «comprender» y también «vencer» o «atrapar». La NBLA escoge una; Peterson escoge la otra. Juntas dicen mucho: la oscuridad no entendió la luz y tampoco pudo con ella. Lo que viene en el Evangelio, incluida la cruz, no la apaga.",
       "id": "juan1-joya-02",
       "msg": {
         "en": "\"The Life-Light blazed out of the darkness; the darkness couldn’t put it out.\"",
         "es": "\"La Luz-Vida resplandeció en la oscuridad; la oscuridad no pudo apagarla.\""
       },
       "nblaRefs": [
-        {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-04"
-        },
         {
           "fullVerse": true,
           "verseId": "juan1-nbla-05"
@@ -41,31 +39,35 @@
       "range": "3-5"
     },
     {
-      "explanation": "La encarnación significa que el Verbo eterno asumió humanidad real y habitó entre nosotros. La NBLA fija la afirmación doctrinal y conserva el eco de la presencia divina que «habitó» en medio del pueblo; MSG vuelve concreta esa cercanía al decir que «se mudó al barrio». La imagen pastoral no describe un barrio específico ni reemplaza el trasfondo bíblico del tabernáculo.",
+      "explanation": "La NBLA habla de un derecho, como quien recibe un documento de adopción. Peterson añade otra capa: ser hijo de Dios no es convertirse en otra persona, sino llegar a ser quien uno fue creado para ser. Recibir a Jesús no borra a la persona; la devuelve a su verdadero yo.",
       "id": "juan1-joya-03",
       "msg": {
-        "en": "\"The Word became flesh and blood, and moved into the neighborhood.\"",
-        "es": "\"La Palabra se hizo carne y sangre y se mudó al barrio.\""
+        "en": "\"He made to be their true selves, their child-of-God selves.\"",
+        "es": "\"los hizo ser su verdadero yo, su yo-hijo-de-Dios.\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
-          "verseId": "juan1-nbla-14"
+          "clauseIds": [
+            "juan1-nbla-12b"
+          ],
+          "verseId": "juan1-nbla-12"
         }
       ],
       "order": 3,
-      "range": "14"
+      "range": "9-13"
     },
     {
-      "explanation": "La plenitud de Cristo es la fuente de la gracia que recibe su pueblo. La NBLA fija el sentido con «de Su plenitud» y «gracia sobre gracia»; MSG hace palpable esa generosidad mediante el ritmo «regalo tras regalo tras regalo». Esa imagen no autoriza a despreciar la ley dada por medio de Moisés, sino que resalta la plenitud de la revelación llegada en Jesucristo.",
+      "explanation": "La NBLA lo dice con dos palabras repetidas; Peterson lo alarga a tres, como quien no termina de abrir paquetes. La gracia no llega una sola vez para salvarnos y luego se retira. Llega como las olas: una sobre otra, sin que se agote la fuente.",
       "id": "juan1-joya-04",
       "msg": {
-        "en": "\"We all live off his generous bounty, gift after gift after gift.\"",
-        "es": "\"Todos vivimos de su abundancia generosa, regalo tras regalo tras regalo.\""
+        "en": "\"gift after gift after gift.\"",
+        "es": "\"regalo tras regalo tras regalo.\""
       },
       "nblaRefs": [
         {
-          "fullVerse": true,
+          "clauseIds": [
+            "juan1-nbla-16b"
+          ],
           "verseId": "juan1-nbla-16"
         }
       ],
@@ -73,58 +75,22 @@
       "range": "16-18"
     },
     {
-      "explanation": "La misión de Juan consiste en preparar el camino del Señor y dirigir la atención hacia otro. La NBLA fija su identidad como «la voz del que clama» y conserva la cita de Isaías; MSG vuelve audible la urgencia del testimonio con la imagen de un trueno. «Trueno» es una intensificación expresiva y no una equivalencia léxica independiente sobre la cual construir doctrina.",
+      "explanation": "Jesús no les da un argumento a los dos curiosos; les da una invitación. La NBLA conserva la promesa: si vienen, van a ver. Peterson subraya que nadie puede ver por ellos. Felipe repetirá casi lo mismo a Natanael. Así empezó la iglesia: alguien que vio invitando a otro a ver.",
       "id": "juan1-joya-05",
       "msg": {
-        "en": "\"I’m thunder in the desert:\"",
-        "es": "\"Soy trueno en el desierto:\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan1-nbla-23b"
-          ],
-          "verseId": "juan1-nbla-23"
-        }
-      ],
-      "order": 5,
-      "range": "23"
-    },
-    {
-      "explanation": "Jesús es el Cordero de Dios cuya obra responde al pecado del mundo. La NBLA fija la afirmación central: Él «quita el pecado»; MSG hace explícita la resonancia pascual y expresa el efecto de su obra en lenguaje directo. La conexión con la Pascua es legítima, pero no debe reducir toda la riqueza bíblica del Cordero a un único trasfondo sacrificial.",
-      "id": "juan1-joya-06",
-      "msg": {
-        "en": "\"Here he is, God’s Passover Lamb! He forgives the sins of the world!\"",
-        "es": "\"¡Aquí está, el Cordero de la Pascua de Dios! ¡Él perdona los pecados del mundo!\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan1-nbla-29b"
-          ],
-          "verseId": "juan1-nbla-29"
-        }
-      ],
-      "order": 6,
-      "range": "29-31"
-    },
-    {
-      "explanation": "El discipulado comienza respondiendo a la invitación de Jesús a acercarse, permanecer y ver. La NBLA fija la sencillez de la invitación: «Vengan y verán»; MSG hace más visible la experiencia personal del encuentro con «vean por ustedes mismos». Esa cercanía no opone la experiencia al testimonio ni a la enseñanza, porque todo el capítulo muestra que las personas llegan a Jesús mediante testigos fieles.",
-      "id": "juan1-joya-07",
-      "msg": {
         "en": "\"Come along and see for yourself.\"",
-        "es": "\"Vengan y vean por ustedes mismos\""
+        "es": "\"Vengan y vean por ustedes mismos.\""
       },
       "nblaRefs": [
         {
           "clauseIds": [
-            "juan1-nbla-39b"
+            "juan1-nbla-39a"
           ],
           "verseId": "juan1-nbla-39"
         }
       ],
-      "order": 7,
-      "range": "39"
+      "order": 5,
+      "range": "37-39"
     }
   ],
   "meta": {
@@ -682,9 +648,26 @@
       "text": "A lo Suyo vino, y los Suyos no lo recibieron."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-12a",
+          "order": 1,
+          "text": "Pero a todos los que lo recibieron,"
+        },
+        {
+          "id": "juan1-nbla-12b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "les dio el derecho de llegar a ser hijos de Dios"
+        },
+        {
+          "id": "juan1-nbla-12c",
+          "order": 3,
+          "text": ", es decir, a los que creen en Su nombre,"
+        }
+      ],
       "id": "juan1-nbla-12",
-      "number": 12,
-      "text": "Pero a todos los que lo recibieron, les dio el derecho de llegar a ser hijos de Dios, es decir, a los que creen en Su nombre,"
+      "number": 12
     },
     {
       "id": "juan1-nbla-13",
@@ -692,9 +675,20 @@
       "text": "que no nacieron de sangre, ni de la voluntad de la carne, ni de la voluntad del hombre, sino de Dios."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-14a",
+          "order": 1,
+          "text": "El Verbo se hizo carne, y habitó entre nosotros"
+        },
+        {
+          "id": "juan1-nbla-14b",
+          "order": 2,
+          "text": ", y vimos Su gloria, gloria como del unigénito del Padre, lleno de gracia y de verdad."
+        }
+      ],
       "id": "juan1-nbla-14",
-      "number": 14,
-      "text": "El Verbo se hizo carne, y habitó entre nosotros, y vimos Su gloria, gloria como del unigénito del Padre, lleno de gracia y de verdad."
+      "number": 14
     },
     {
       "id": "juan1-nbla-15",
@@ -702,9 +696,21 @@
       "text": "Juan dio* testimonio de Él y clamó: «Este era del que yo decía: “El que viene después de mí, es antes de mí, porque era primero que yo”»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan1-nbla-16a",
+          "order": 1,
+          "text": "Pues de Su plenitud todos hemos recibido,"
+        },
+        {
+          "id": "juan1-nbla-16b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y gracia sobre gracia."
+        }
+      ],
       "id": "juan1-nbla-16",
-      "number": 16,
-      "text": "Pues de Su plenitud todos hemos recibido, y gracia sobre gracia."
+      "number": 16
     },
     {
       "id": "juan1-nbla-17",
@@ -737,25 +743,9 @@
       "text": "Entonces le preguntaron: «¿Quién eres? Ya que tenemos que dar respuesta a los que nos enviaron. ¿Qué dices de ti mismo?»."
     },
     {
-      "clauses": [
-        {
-          "id": "juan1-nbla-23a",
-          "order": 1,
-          "text": "Juan les respondió: «"
-        },
-        {
-          "id": "juan1-nbla-23b",
-          "order": 2,
-          "text": "Yo soy LA VOZ DEL QUE CLAMA EN EL DESIERTO: “ENDERECEN EL CAMINO DEL SEÑOR”, como dijo el profeta Isaías"
-        },
-        {
-          "id": "juan1-nbla-23c",
-          "order": 3,
-          "text": "»."
-        }
-      ],
       "id": "juan1-nbla-23",
-      "number": 23
+      "number": 23,
+      "text": "Juan les respondió: «Yo soy LA VOZ DEL QUE CLAMA EN EL DESIERTO: “ENDERECEN EL CAMINO DEL SEÑOR”, como dijo el profeta Isaías»."
     },
     {
       "id": "juan1-nbla-24",
@@ -783,20 +773,9 @@
       "text": "Estas cosas sucedieron en Betania, al otro lado del Jordán, donde Juan estaba bautizando."
     },
     {
-      "clauses": [
-        {
-          "id": "juan1-nbla-29a",
-          "order": 1,
-          "text": "Al día siguiente Juan vio* a Jesús que venía hacia él, y dijo*: «"
-        },
-        {
-          "id": "juan1-nbla-29b",
-          "order": 2,
-          "text": "Ahí está el Cordero de Dios que quita el pecado del mundo."
-        }
-      ],
       "id": "juan1-nbla-29",
-      "number": 29
+      "number": 29,
+      "text": "Al día siguiente Juan vio* a Jesús que venía hacia él, y dijo*: «Ahí está el Cordero de Dios que quita el pecado del mundo."
     },
     {
       "id": "juan1-nbla-30",
@@ -848,16 +827,11 @@
         {
           "id": "juan1-nbla-39a",
           "order": 1,
-          "text": "«"
+          "text": "«Vengan y verán"
         },
         {
           "id": "juan1-nbla-39b",
           "order": 2,
-          "text": "Vengan y verán"
-        },
-        {
-          "id": "juan1-nbla-39c",
-          "order": 3,
           "text": "», les dijo* Jesús. Entonces fueron y vieron dónde se hospedaba; y se quedaron con Él aquel día, porque eran como las cuatro de la tarde."
         }
       ],

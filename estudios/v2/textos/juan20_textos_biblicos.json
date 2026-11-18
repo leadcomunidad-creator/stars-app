@@ -5,44 +5,8 @@
   ],
   "jewels": [
     {
-      "explanation": "La resurrección comienza mientras la percepción humana continúa dominada por la oscuridad. NBLA fija el dato temporal concreto; MSG conserva su fuerza narrativa y permite percibir también la tensión teológica del Evangelio entre luz y tinieblas. El texto no autoriza a convertir toda oscuridad en una alegoría, pero sí muestra que Dios ya está actuando antes de que María pueda comprender lo sucedido.",
+      "explanation": "Una sola palabra. La NBLA le pone signos de exclamación; Peterson la deja sencilla. Lo que no lograron los ángeles, ni la tumba vacía, ni ver a Jesús de frente, lo logró oír su nombre en su voz. La resurrección se reconoce cuando Jesús te llama.",
       "id": "juan20-joya-01",
-      "msg": {
-        "en": "\"while it was still dark\"",
-        "es": "\"cuando todavía estaba oscuro\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan20-nbla-01b"
-          ],
-          "verseId": "juan20-nbla-01"
-        }
-      ],
-      "order": 1,
-      "range": "1-2"
-    },
-    {
-      "explanation": "La fe del discípulo amado responde a una realidad observada. NBLA expresa sobriamente que vio y creyó; MSG hace visible que los lienzos funcionaron como evidencia que exigía una explicación. La frase no significa que el discípulo ya comprendiera toda la doctrina de la resurrección, porque el versículo siguiente reconoce que todavía no entendían la Escritura. Su fe es real, aunque todavía está madurando.",
-      "id": "juan20-joya-02",
-      "msg": {
-        "en": "\"took one look at the evidence, and believed.\"",
-        "es": "\"Bastó una mirada a la evidencia para que creyera.\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan20-nbla-08b"
-          ],
-          "verseId": "juan20-nbla-08"
-        }
-      ],
-      "order": 2,
-      "range": "3-10"
-    },
-    {
-      "explanation": "El Resucitado conoce y llama personalmente a los suyos. NBLA conserva la exclamación directa que provoca el reconocimiento; MSG mantiene la sencillez de una sola palabra capaz de atravesar el duelo y la confusión. La teología no debe reducirse a que cada creyente recibirá una experiencia idéntica, pero el encuentro muestra que la resurrección restaura una relación viva con Jesús.",
-      "id": "juan20-joya-03",
       "msg": {
         "en": "\"Jesus said, “Mary.”\"",
         "es": "\"Jesús dijo: «María».\""
@@ -55,80 +19,78 @@
           "verseId": "juan20-nbla-16"
         }
       ],
-      "order": 3,
+      "order": 1,
       "range": "16"
     },
     {
-      "explanation": "La paz y la misión pertenecen al mismo movimiento. NBLA fija la relación entre el envío del Hijo y el envío de los discípulos; MSG conserva el paralelismo de manera directa y pastoral. La iglesia no es enviada para reproducir toda característica irrepetible de la encarnación, sino para continuar dando testimonio de Jesús bajo la autoridad del Resucitado y en dependencia del Espíritu.",
-      "id": "juan20-joya-04",
+      "explanation": "María es la primera persona en anunciar la resurrección. En una época en que el testimonio de una mujer valía poco en un tribunal, Juan la pone como primera testigo. La NBLA dice «Señor»; Peterson, «Maestro». Las dos coinciden en lo que importa: lo vi.",
+      "id": "juan20-joya-02",
       "msg": {
-        "en": "\"Peace to you. Just as the Father sent me, I send you.\"",
-        "es": "\"Paz a ustedes. Así como el Padre me envió, yo los envío a ustedes\""
+        "en": "\"I saw the Master!\"",
+        "es": "\"¡Vi al Maestro!\""
       },
       "nblaRefs": [
         {
           "clauseIds": [
-            "juan20-nbla-21b"
+            "juan20-nbla-18b"
           ],
-          "verseId": "juan20-nbla-21"
+          "verseId": "juan20-nbla-18"
         }
       ],
-      "order": 4,
-      "range": "20-21"
+      "order": 2,
+      "range": "18"
     },
     {
-      "explanation": "La misión cristiana nace de la vida comunicada por Dios. NBLA y MSG coinciden en la orden central, mientras la imagen del soplo conecta el envío con el aliento creador. El texto no convierte al Espíritu en una energía impersonal ni autoriza a la comunidad a controlar el perdón. El Espíritu capacita a los discípulos para anunciar fielmente la reconciliación realizada por Cristo.",
-      "id": "juan20-joya-05",
+      "explanation": "Las puertas estaban cerradas con llave por miedo. Jesús no toca la puerta; simplemente está ahí. Y lo primero que dice no es un reproche por haberlo abandonado. Es paz. Las dos versiones coinciden porque el saludo no necesita explicación. Es el regalo que Jesús prometió en el capítulo 14.",
+      "id": "juan20-joya-03",
       "msg": {
-        "en": "\"Receive the Holy Spirit\"",
-        "es": "\"Reciban el Espíritu Santo\""
+        "en": "\"Jesus entered, stood among them, and said, “Peace to you.”\"",
+        "es": "\"Jesús entró, se puso en medio de ellos y dijo: «Paz a ustedes».\""
       },
       "nblaRefs": [
         {
           "clauseIds": [
-            "juan20-nbla-22b"
+            "juan20-nbla-19b"
+          ],
+          "verseId": "juan20-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "19-20"
+    },
+    {
+      "explanation": "La NBLA dice que sopló. Peterson añade que respiró hondo antes, como quien toma aire para dar vida. El mismo verbo aparece en Génesis 2:7, cuando Dios sopla en Adán aliento de vida. El Resucitado inaugura una nueva humanidad con su propio aliento.",
+      "id": "juan20-joya-04",
+      "msg": {
+        "en": "\"Then he took a deep breath and breathed into them.\"",
+        "es": "\"Después respiró hondo y sopló su aliento en ellos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "juan20-nbla-22a"
           ],
           "verseId": "juan20-nbla-22"
         }
       ],
-      "order": 5,
+      "order": 4,
       "range": "22-23"
     },
     {
-      "explanation": "Jesús confronta la incredulidad de Tomás, pero lo hace acercándose y respondiendo a su lucha. NBLA fija el contraste entre incredulidad y fe; MSG lo convierte en una exhortación breve y urgente. La duda no es celebrada como destino permanente, pero tampoco es tratada con desprecio. El propósito del encuentro es llevar a Tomás desde la condición defensiva hasta la confianza y la adoración.",
-      "id": "juan20-joya-06",
+      "explanation": "El Evangelio empezó diciendo que el Verbo era Dios. Termina con un discípulo que lo confiesa cara a cara. La NBLA conserva la fórmula clásica; Peterson la parte en dos exclamaciones. Las dos son personales: mi Señor, mi Dios. La duda de Tomás terminó en la confesión más alta del libro.",
+      "id": "juan20-joya-05",
       "msg": {
-        "en": "\"Don’t be unbelieving. Believe.\"",
-        "es": "\"No seas incrédulo. Cree\""
+        "en": "\"Thomas said, “My Master! My God!”\"",
+        "es": "\"Tomás respondió: «¡Mi Maestro! ¡Mi Dios!».\""
       },
       "nblaRefs": [
         {
-          "clauseIds": [
-            "juan20-nbla-27b"
-          ],
-          "verseId": "juan20-nbla-27"
+          "fullVerse": true,
+          "verseId": "juan20-nbla-28"
         }
       ],
-      "order": 6,
-      "range": "27"
-    },
-    {
-      "explanation": "El Evangelio fue escrito para producir una fe que comunica vida. NBLA ancla esa vida en el nombre de Jesús; MSG hace explícita su realidad presente y su dimensión eterna. La expansión pastoral no debe separarse del texto: la vida no nace de creer cualquier cosa con intensidad, sino de confiar en Jesús como el Cristo y el Hijo de Dios revelado por las señales y el testimonio apostólico.",
-      "id": "juan20-joya-07",
-      "msg": {
-        "en": "\"in the act of believing, have real and eternal life\"",
-        "es": "\"para que, al creer, tengan vida real y eterna\""
-      },
-      "nblaRefs": [
-        {
-          "clauseIds": [
-            "juan20-nbla-31b"
-          ],
-          "verseId": "juan20-nbla-31"
-        }
-      ],
-      "order": 7,
-      "range": "30-31"
+      "order": 5,
+      "range": "28"
     }
   ],
   "meta": {
@@ -468,26 +430,9 @@
   ],
   "nblaVerses": [
     {
-      "clauses": [
-        {
-          "id": "juan20-nbla-01a",
-          "order": 1,
-          "text": "El primer día de la semana María Magdalena fue* temprano al sepulcro,"
-        },
-        {
-          "id": "juan20-nbla-01b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "cuando todavía estaba* oscuro"
-        },
-        {
-          "id": "juan20-nbla-01c",
-          "order": 3,
-          "text": ", y vio* que la piedra ya había sido quitada del sepulcro."
-        }
-      ],
       "id": "juan20-nbla-01",
-      "number": 1
+      "number": 1,
+      "text": "El primer día de la semana María Magdalena fue* temprano al sepulcro, cuando todavía estaba* oscuro, y vio* que la piedra ya había sido quitada del sepulcro."
     },
     {
       "id": "juan20-nbla-02",
@@ -520,21 +465,9 @@
       "text": "y el sudario que había estado sobre la cabeza de Jesús, no puesto con las envolturas de lino, sino enrollado en un lugar aparte."
     },
     {
-      "clauses": [
-        {
-          "id": "juan20-nbla-08a",
-          "order": 1,
-          "text": "También entró el otro discípulo, el que había llegado primero al sepulcro,"
-        },
-        {
-          "id": "juan20-nbla-08b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "y vio y creyó."
-        }
-      ],
       "id": "juan20-nbla-08",
-      "number": 8
+      "number": 8,
+      "text": "También entró el otro discípulo, el que había llegado primero al sepulcro, y vio y creyó."
     },
     {
       "id": "juan20-nbla-09",
@@ -606,14 +539,42 @@
       "text": "Jesús le dijo*: «Suéltame porque todavía no he subido al Padre; pero ve a Mis hermanos, y diles: “Subo a Mi Padre y Padre de ustedes, a Mi Dios y Dios de ustedes”»."
     },
     {
+      "clauses": [
+        {
+          "id": "juan20-nbla-18a",
+          "order": 1,
+          "text": "María Magdalena fue* y anunció a los discípulos: «"
+        },
+        {
+          "id": "juan20-nbla-18b",
+          "order": 2,
+          "text": "¡He visto al Señor!"
+        },
+        {
+          "id": "juan20-nbla-18c",
+          "order": 3,
+          "text": "», y que Él le había dicho estas cosas."
+        }
+      ],
       "id": "juan20-nbla-18",
-      "number": 18,
-      "text": "María Magdalena fue* y anunció a los discípulos: «¡He visto al Señor!», y que Él le había dicho estas cosas."
+      "number": 18
     },
     {
+      "clauses": [
+        {
+          "id": "juan20-nbla-19a",
+          "order": 1,
+          "text": "Al atardecer de aquel día, el primero de la semana, y estando cerradas las puertas del lugar donde los discípulos se encontraban por miedo a los judíos,"
+        },
+        {
+          "id": "juan20-nbla-19b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Jesús vino y se puso en medio de ellos, y les dijo*: «Paz a ustedes»."
+        }
+      ],
       "id": "juan20-nbla-19",
-      "number": 19,
-      "text": "Al atardecer de aquel día, el primero de la semana, y estando cerradas las puertas del lugar donde los discípulos se encontraban por miedo a los judíos, Jesús vino y se puso en medio de ellos, y les dijo*: «Paz a ustedes»."
+      "number": 19
     },
     {
       "clauses": [
@@ -633,32 +594,22 @@
       "number": 20
     },
     {
-      "clauses": [
-        {
-          "id": "juan20-nbla-21a",
-          "order": 1,
-          "text": "Jesús les dijo otra vez: «"
-        },
-        {
-          "id": "juan20-nbla-21b",
-          "order": 2,
-          "text": "Paz a ustedes; como el Padre me ha enviado, así también Yo los envío»."
-        }
-      ],
       "id": "juan20-nbla-21",
-      "number": 21
+      "number": 21,
+      "text": "Jesús les dijo otra vez: «Paz a ustedes; como el Padre me ha enviado, así también Yo los envío»."
     },
     {
       "clauses": [
         {
           "id": "juan20-nbla-22a",
           "order": 1,
-          "text": "Después de decir esto, sopló sobre ellos y les dijo*: «"
+          "text": "Después de decir esto, sopló sobre ellos"
         },
         {
           "id": "juan20-nbla-22b",
           "order": 2,
-          "text": "Reciban el Espíritu Santo."
+          "separatorBefore": " ",
+          "text": "y les dijo*: «Reciban el Espíritu Santo."
         }
       ],
       "id": "juan20-nbla-22",
@@ -685,21 +636,9 @@
       "text": "Ocho días después, Sus discípulos estaban otra vez dentro, y Tomás con ellos. Estando las puertas cerradas, Jesús vino* y se puso en medio de ellos, y dijo: «Paz a ustedes»."
     },
     {
-      "clauses": [
-        {
-          "id": "juan20-nbla-27a",
-          "order": 1,
-          "text": "Luego dijo* a Tomás: «Acerca aquí tu dedo, y mira Mis manos; extiende aquí tu mano y métela en Mi costado; y"
-        },
-        {
-          "id": "juan20-nbla-27b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "no seas incrédulo, sino creyente»."
-        }
-      ],
       "id": "juan20-nbla-27",
-      "number": 27
+      "number": 27,
+      "text": "Luego dijo* a Tomás: «Acerca aquí tu dedo, y mira Mis manos; extiende aquí tu mano y métela en Mi costado; y no seas incrédulo, sino creyente»."
     },
     {
       "id": "juan20-nbla-28",
@@ -717,21 +656,9 @@
       "text": "Y muchas otras señales hizo también Jesús en presencia de Sus discípulos, que no están escritas en este libro;"
     },
     {
-      "clauses": [
-        {
-          "id": "juan20-nbla-31a",
-          "order": 1,
-          "text": "pero estas se han escrito para que ustedes crean que Jesús es el Cristo, el Hijo de Dios; y"
-        },
-        {
-          "id": "juan20-nbla-31b",
-          "order": 2,
-          "separatorBefore": " ",
-          "text": "para que al creer, tengan vida en Su nombre."
-        }
-      ],
       "id": "juan20-nbla-31",
-      "number": 31
+      "number": 31,
+      "text": "pero estas se han escrito para que ustedes crean que Jesús es el Cristo, el Hijo de Dios; y para que al creer, tengan vida en Su nombre."
     }
   ],
   "schemaVersion": "1.0.0",

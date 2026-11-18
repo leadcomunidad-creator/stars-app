@@ -170,6 +170,12 @@ async function buildReport(app, tipo, month, adminUid) {
     .filter(person => completePeriod(person.data, dates));
   const authUsers = await usersByUid(getAuth(app), qualifying.map(person => person.uid));
   const winners = await previousWinners(db, tipo, month);
+  const [draw, notice] = await Promise.all([
+    db.collection(TIPOS[tipo].coleccion).doc(month).get(),
+    db.collection('avisos_rifa').doc(`${tipo}_${month}`).get()
+  ]);
+  const noticeData = notice.exists ? notice.data() : null;
+  const noticeKey = `${tipo}_${month}`;
   const participants = qualifying.map(person => {
     const authUser = authUsers.get(person.uid);
     return {
@@ -178,13 +184,12 @@ async function buildReport(app, tipo, month, adminUid) {
       email: authUser?.email || String(person.data.email || '').trim() || '',
       diasAdministrados: administrativeDates(person.data, dates),
       ganoAntes: winners.get(person.uid) || null,
-      esAdmin: person.uid === adminUid
+      esAdmin: person.uid === adminUid,
+      // Estado del aviso vigente: enviado a esta cuenta y si tocó «¡Allí estaré!».
+      avisoEnviado: Boolean(noticeData && person.data.avisos_rifa?.[noticeKey]?.id === noticeData.id),
+      avisoConfirmado: Boolean(noticeData && person.data.avisos_rifa_vistos?.[noticeData.id])
     };
   }).sort((a, b) => (a.email || a.uid).localeCompare(b.email || b.uid, 'es'));
-  const [draw, notice] = await Promise.all([
-    db.collection(TIPOS[tipo].coleccion).doc(month).get(),
-    db.collection('avisos_rifa').doc(`${tipo}_${month}`).get()
-  ]);
   return {
     tipo,
     tipoNombre: TIPOS[tipo].nombre,
@@ -196,7 +201,7 @@ async function buildReport(app, tipo, month, adminUid) {
     completaronMes: participants.length,
     participantes: participants,
     sorteo: draw.exists ? draw.data() : null,
-    aviso: notice.exists ? notice.data() : null
+    aviso: noticeData
   };
 }
 
