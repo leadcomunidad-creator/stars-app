@@ -1,0 +1,386 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA explica el motivo: piden para sus placeres. Peterson pone una imagen que cualquier padre reconoce: niños malcriados. La oración egoísta no es una oración más débil, es una oración equivocada. Le pide a Dios que sirva a nuestros caprichos.",
+      "id": "santiago4-joya-01",
+      "msg": {
+        "en": "\"You’re spoiled children, each wanting your own way.\"",
+        "es": "\"Son niños malcriados, cada uno queriendo salirse con la suya.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "2-3"
+    },
+    {
+      "explanation": "La NBLA conserva una frase corta que vale oro: Él da mayor gracia. Peterson desarrolla la cita de Proverbios con un juego de palabras: los orgullosos que hacen lo que quieren frente a los humildes que están dispuestos. La diferencia entre unos y otros no es moral sino de actitud: quién se deja ayudar.",
+      "id": "santiago4-joya-02",
+      "msg": {
+        "en": "\"God goes against the willful proud; God gives grace to the willing humble.\"",
+        "es": "\"Dios se opone a los orgullosos que hacen lo que quieren; Dios da gracia a los humildes que están dispuestos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "santiago4-nbla-06a"
+          ],
+          "verseId": "santiago4-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "4-6"
+    },
+    {
+      "explanation": "La NBLA lo dice con sobriedad: resistan y huirá. Peterson lo vuelve una escena casi cómica: un no a gritos y el diablo que sale corriendo. El enemigo no es invencible para quien está sometido a Dios. La resistencia no es una batalla de horas; es un no firme dicho desde el lado correcto.",
+      "id": "santiago4-joya-03",
+      "msg": {
+        "en": "\"Yell a loud no to the Devil and watch him scamper. Say a quiet yes to God and he’ll be there in no time.\"",
+        "es": "\"Díganle que no al diablo con todas sus fuerzas, y mírelo salir corriendo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "santiago4-nbla-07b"
+          ],
+          "verseId": "santiago4-nbla-07"
+        }
+      ],
+      "order": 3,
+      "range": "7-10"
+    },
+    {
+      "explanation": "La NBLA habla de humillarse y ser exaltado. Peterson lo traduce a dos posturas del cuerpo: de rodillas y de pie. Es una paradoja que atraviesa toda la Biblia. El que se arrodilla delante de Dios no termina pisoteado; termina levantado por Él.",
+      "id": "santiago4-joya-04",
+      "msg": {
+        "en": "\"Get down on your knees before the Master; it’s the only way you’ll get on your feet.\"",
+        "es": "\"Arrodíllense ante el Señor; es la única forma de ponerse de pie.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "7-10"
+    },
+    {
+      "explanation": "Las dos versiones usan la imagen del vapor. Peterson le añade un detalle hermoso y triste: brilla un momento al sol. La vida no es despreciable; tiene su brillo. Pero es breve. Eso no es motivo para la angustia, sino para la humildad y para no aplazar el bien que podemos hacer hoy.",
+      "id": "santiago4-joya-05",
+      "msg": {
+        "en": "\"You’re nothing but a wisp of fog, catching a brief bit of sun before disappearing.\"",
+        "es": "\"No son más que una nube de vapor que brilla un momento al sol y desaparece.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "santiago4-nbla-14b"
+          ],
+          "verseId": "santiago4-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "13-15"
+    }
+  ],
+  "meta": {
+    "book": "Santiago",
+    "bookId": "santiago",
+    "chapter": 4,
+    "studyId": "santiago-4"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "santiago4-msg-01",
+      "msg": {
+        "en": "Where do you think all these appalling wars and quarrels come from? Do you think they just happen? Think again. They come about because you want your own way, and fight for it deep inside yourselves. You lust for what you don’t have and are willing to kill to get it. You want what isn’t yours and will risk violence to get your hands on it.",
+        "es": "¿De dónde vienen todas estas peleas y conflictos entre ustedes? ¿Creen que simplemente aparecen? Piénsenlo bien. Nacen de querer siempre lo suyo, de pelear por eso en lo más profundo de su interior.\nCodician lo que no tienen y están dispuestos a matar para conseguirlo. Quieren lo que no les pertenece y están listos para usar la violencia con tal de agarrarlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-3",
+      "id": "santiago4-msg-02",
+      "msg": {
+        "en": "You wouldn’t think of just asking God for it, would you? And why not? Because you know you’d be asking for what you have no right to. You’re spoiled children, each wanting your own way.",
+        "es": "¿Y por qué no le piden a Dios? Porque saben que estarían pidiendo lo que no les corresponde. Son niños malcriados, cada uno queriendo salirse con la suya."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "santiago4-msg-03",
+      "msg": {
+        "en": "You’re cheating on God. If all you want is your own way, flirting with the world every chance you get, you end up enemies of God and his way. And do you suppose God doesn’t care? The proverb has it that “he’s a fiercely jealous lover.” And what he gives in love is far better than anything else you’ll find. It’s common knowledge that “God goes against the willful proud; God gives grace to the willing humble.”",
+        "es": "Le están siendo infieles a Dios. Si lo único que quieren es hacer su voluntad propia, coqueteando con el mundo a cada oportunidad, terminan siendo enemigos de Dios y de su camino.\n¿Y piensan que a Dios eso le da igual? El proverbio lo dice claro: \"Él es un amante ferozmente celoso.\"\nY lo que da en amor supera con creces cualquier otra cosa que puedan encontrar. Es de conocimiento general que \"Dios se opone a los orgullosos que hacen lo que quieren; Dios da gracia a los humildes que están dispuestos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-10",
+      "id": "santiago4-msg-04",
+      "msg": {
+        "en": "So let God work his will in you. Yell a loud no to the Devil and watch him scamper. Say a quiet yes to God and he’ll be there in no time. Quit dabbling in sin. Purify your inner life. Quit playing the field. Hit bottom, and cry your eyes out. The fun and games are over. Get serious, really serious. Get down on your knees before the Master; it’s the only way you’ll get on your feet.",
+        "es": "Entonces dejen que Dios haga su voluntad en ustedes. Díganle que no al diablo con todas sus fuerzas, y mírelo salir corriendo.\nDíganle que sí a Dios en voz baja, y Él estará ahí en un instante. Dejen de jugar con el pecado. Purifiquen su vida interior. Dejen de andar entre dos aguas.\nToquen fondo y lloren de verdad. Se acabó el juego. Pónganse serios, de verdad serios.\nArrodíllense ante el Señor; es la única forma de ponerse de pie."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "santiago4-msg-05",
+      "msg": {
+        "en": "Don’t bad-mouth each other, friends. It’s God’s Word, his Message, his Royal Rule, that takes a beating in that kind of talk. You’re supposed to be honoring the Message, not writing graffiti all over it. God is in charge of deciding human destiny. Who do you think you are to meddle in the destiny of others?",
+        "es": "No se hablen mal los unos a los otros, amigos. La Palabra de Dios, su Mensaje, su Regla Real, es la que recibe los golpes cuando hablan así. Se supone que deben honrar el Mensaje, no pintarle grafitis encima.\nDios es quien tiene a su cargo decidir el destino de cada persona. ¿Quiénes se creen ustedes para meterse en el destino ajeno?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "santiago4-msg-06",
+      "msg": {
+        "en": "And now I have a word for you who brashly announce, “Today—at the latest, tomorrow—we’re off to such and such a city for the year. We’re going to start a business and make a lot of money.” You don’t know the first thing about tomorrow. You’re nothing but a wisp of fog, catching a brief bit of sun before disappearing. Instead, make it a habit to say, “If the Master wills it and we’re still alive, we’ll do this or that.”",
+        "es": "Y ahora tengo algo que decirles a los que anuncian con tanta seguridad: \"Hoy, o a más tardar mañana, partimos a tal ciudad por un año. Vamos a montar un negocio y a ganar mucho dinero.\"\nNo saben nada de lo que pasará mañana. No son más que una nube de vapor que brilla un momento al sol y desaparece.\nMás bien, acostúmbrense a decir: \"Si el Señor quiere y seguimos vivos, haremos esto o aquello.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "santiago4-msg-07",
+      "msg": {
+        "en": "As it is, you are full of your grandiose selves. All such vaunting self-importance is evil. In fact, if you know the right thing to do and don’t do it, that, for you, is evil.",
+        "es": "Pero como están, están llenos de ustedes mismos y de sus grandes planes. Toda esa prepotencia y arrogancia es puro mal.\nDe hecho, si saben lo que hay que hacer y no lo hacen, eso, para ustedes, es pecado."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "santiago4-nbla-17"
+        }
+      ],
+      "order": 7
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "santiago4-nbla-01",
+      "number": 1,
+      "text": "¿De dónde vienen las guerras y los conflictos entre ustedes? ¿No vienen de las pasiones que combaten en sus miembros?"
+    },
+    {
+      "id": "santiago4-nbla-02",
+      "number": 2,
+      "text": "Ustedes codician y no tienen, por eso cometen homicidio. Son envidiosos y no pueden obtener, por eso combaten y hacen guerra. No tienen, porque no piden."
+    },
+    {
+      "id": "santiago4-nbla-03",
+      "number": 3,
+      "text": "Piden y no reciben, porque piden con malos propósitos, para gastarlo en sus placeres."
+    },
+    {
+      "id": "santiago4-nbla-04",
+      "number": 4,
+      "text": "¡Oh almas adúlteras! ¿No saben ustedes que la amistad del mundo es enemistad hacia Dios? Por tanto, el que quiere ser amigo del mundo, se constituye enemigo de Dios."
+    },
+    {
+      "id": "santiago4-nbla-05",
+      "number": 5,
+      "text": "¿O piensan que la Escritura dice en vano: «Dios celosamente anhela el Espíritu que ha hecho morar en nosotros?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "santiago4-nbla-06a",
+          "order": 1,
+          "text": "Pero Él da mayor gracia."
+        },
+        {
+          "id": "santiago4-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Por eso dice: «DIOS RESISTE A LOS SOBERBIOS, PERO DA GRACIA A LOS HUMILDES»."
+        }
+      ],
+      "id": "santiago4-nbla-06",
+      "number": 6
+    },
+    {
+      "clauses": [
+        {
+          "id": "santiago4-nbla-07a",
+          "order": 1,
+          "text": "Por tanto, sométanse a Dios."
+        },
+        {
+          "id": "santiago4-nbla-07b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Resistan, pues, al diablo y huirá de ustedes."
+        }
+      ],
+      "id": "santiago4-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "santiago4-nbla-08",
+      "number": 8,
+      "text": "Acérquense a Dios, y Él se acercará a ustedes. Limpien sus manos, pecadores; y ustedes de doble ánimo, purifiquen sus corazones."
+    },
+    {
+      "id": "santiago4-nbla-09",
+      "number": 9,
+      "text": "Aflíjanse, laméntense y lloren. Que su risa se convierta en lamento y su gozo en tristeza."
+    },
+    {
+      "id": "santiago4-nbla-10",
+      "number": 10,
+      "text": "Humíllense en la presencia del Señor y Él los exaltará."
+    },
+    {
+      "id": "santiago4-nbla-11",
+      "number": 11,
+      "text": "Hermanos, no hablen mal los unos de los otros. El que habla mal de un hermano o juzga a su hermano, habla mal de la ley y juzga a la ley. Pero si tú juzgas a la ley, no eres cumplidor de la ley, sino juez de ella."
+    },
+    {
+      "id": "santiago4-nbla-12",
+      "number": 12,
+      "text": "Solo hay un Legislador y Juez, que es poderoso para salvar y para destruir. Pero tú, ¿quién eres que juzgas a tu prójimo?"
+    },
+    {
+      "id": "santiago4-nbla-13",
+      "number": 13,
+      "text": "Oigan ahora, ustedes que dicen: «Hoy o mañana iremos a tal o cual ciudad y pasaremos allá un año, haremos negocio y tendremos ganancia»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "santiago4-nbla-14a",
+          "order": 1,
+          "text": "Sin embargo, ustedes no saben cómo será su vida mañana."
+        },
+        {
+          "id": "santiago4-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Solo son un vapor que aparece por un poco de tiempo y luego se desvanece."
+        }
+      ],
+      "id": "santiago4-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "santiago4-nbla-15",
+      "number": 15,
+      "text": "Más bien, debieran decir: Si el Señor quiere, viviremos y haremos esto o aquello."
+    },
+    {
+      "id": "santiago4-nbla-16",
+      "number": 16,
+      "text": "Pero ahora se jactan en su arrogancia. Toda jactancia semejante es mala."
+    },
+    {
+      "id": "santiago4-nbla-17",
+      "number": 17,
+      "text": "A aquel, pues, que sabe hacer lo bueno y no lo hace, le es pecado."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

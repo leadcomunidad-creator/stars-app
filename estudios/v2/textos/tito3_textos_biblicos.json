@@ -1,0 +1,375 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Peterson lo reduce a cuatro palabras, como una regla escrita en la pared de una casa. La NBLA usa un lenguaje más formal: no injuriar, no ser contenciosos. En una isla con fama de gente conflictiva, la forma más clara de mostrar el evangelio era no sumarse a la pelea.",
+      "id": "tito3-joya-01",
+      "msg": {
+        "en": "\"No insults, no fights.\"",
+        "es": "\"Nada de insultos ni peleas.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "tito3-nbla-02a"
+          ],
+          "verseId": "tito3-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La NBLA conserva el contraste teológico: no por obras, sino por misericordia. Peterson lo dice como lo diría alguien que acaba de ser rescatado de un accidente: todo lo hizo él, yo no hice nada. Esa es la honestidad que el evangelio produce.",
+      "id": "tito3-joya-02",
+      "msg": {
+        "en": "\"It was all his doing; we had nothing to do with it.\"",
+        "es": "\"Todo fue obra suya; nosotros no tuvimos nada que ver con lograrlo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "tito3-nbla-05b"
+          ],
+          "verseId": "tito3-nbla-05"
+        }
+      ],
+      "order": 2,
+      "range": "3-8"
+    },
+    {
+      "explanation": "La NBLA usa términos precisos: lavamiento, regeneración, renovación. Peterson los baja a una imagen de la casa: un buen baño. Uno entra sucio y sale distinto. La salvación no es un maquillaje, es un lavado profundo que hace personas nuevas.",
+      "id": "tito3-joya-03",
+      "msg": {
+        "en": "\"He gave us a good bath, and we came out of it new people\"",
+        "es": "\"Nos dio un buen baño y salimos convertidos en personas nuevas\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "tito3-nbla-05c"
+          ],
+          "verseId": "tito3-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "3-8"
+    },
+    {
+      "explanation": "Peterson usa una expresión que todos conocemos: la letra pequeña. La NBLA habla de controversias necias. Hay gente que se pierde en los detalles mientras ignora lo esencial. Pablo le pide a Tito que no le dé energía a ese tipo de conversaciones.",
+      "id": "tito3-joya-04",
+      "msg": {
+        "en": "\"Stay away from mindless, pointless quarreling over genealogies and fine print in the law code.\"",
+        "es": "\"Manténganse alejados de discusiones sin sentido e inútiles sobre genealogías y la letra pequeña del código de la ley.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "tito3-nbla-09a"
+          ],
+          "verseId": "tito3-nbla-09"
+        }
+      ],
+      "order": 4,
+      "range": "8-11"
+    },
+    {
+      "explanation": "La NBLA habla de buenas obras y necesidades apremiantes; Peterson lo traduce al trabajo diario. Las dos lecturas se complementan. El creyente trabaja con diligencia no solo para sostenerse, sino para tener con qué ayudar a otros. La fe se nota en la billetera y en el horario. Para unos creyentes que vivían en una cultura con fama de perezosa, aprender a trabajar bien era parte del testimonio.",
+      "id": "tito3-joya-05",
+      "msg": {
+        "en": "\"Our people have to learn to be diligent in their work so that all necessities are met (especially among the needy)\"",
+        "es": "\"Nuestra gente tiene que aprender a trabajar con diligencia para que todas las necesidades sean atendidas —especialmente entre quienes están en necesidad—\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "tito3-nbla-14a"
+          ],
+          "verseId": "tito3-nbla-14"
+        }
+      ],
+      "order": 5,
+      "range": "14"
+    }
+  ],
+  "meta": {
+    "book": "Tito",
+    "bookId": "tito",
+    "chapter": 3,
+    "studyId": "tito-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "tito3-msg-01",
+      "msg": {
+        "en": "Remind the people to respect the government and be law-abiding, always ready to lend a helping hand. No insults, no fights. God’s people should be bighearted and courteous.",
+        "es": "Recuérdales que respeten al gobierno y cumplan las leyes, siempre dispuestos a tender una mano cuando exista una oportunidad de hacer el bien.\n\nNada de insultos ni peleas.\n\nEl pueblo de Dios debe ser reconocido por un corazón amplio y una manera respetuosa de tratar a todas las personas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-8",
+      "id": "tito3-msg-02",
+      "msg": {
+        "en": "It wasn’t so long ago that we ourselves were stupid and stubborn, dupes of sin, ordered every which way by our glands, going around with a chip on our shoulder, hated and hating back. But when God, our kind and loving Savior God, stepped in, he saved us from all that. It was all his doing; we had nothing to do with it. He gave us a good bath, and we came out of it new people, washed inside and out by the Holy Spirit. Our Savior Jesus poured out new life so generously. God’s gift has restored our relationship with him and given us back our lives. And there’s more life to come—an eternity of life! You can count on this.",
+        "es": "No hace mucho nosotros también vivíamos confundidos y obstinados. Éramos presa fácil del pecado y nuestros impulsos nos llevaban en todas direcciones.\n\nCaminábamos con resentimiento, éramos rechazados y devolvíamos odio por odio.\n\nPero entonces Dios, nuestro Salvador bondadoso y lleno de amor, intervino.\n\nNos rescató de toda aquella vida.\n\nTodo fue obra suya; nosotros no tuvimos nada que ver con lograrlo.\n\nNos dio un buen baño y salimos convertidos en personas nuevas, lavados por dentro y por fuera por el Espíritu Santo.\n\nJesús, nuestro Salvador, derramó generosamente sobre nosotros esta vida nueva.\n\nEl regalo de Dios restauró nuestra relación con Él y nos devolvió la vida. Y todavía hay más vida por venir: ¡una eternidad de vida!\n\nPueden confiar plenamente en esto."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-08"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "8-11",
+      "id": "tito3-msg-03",
+      "msg": {
+        "en": "I want you to put your foot down. Take a firm stand on these matters so that those who have put their trust in God will concentrate on the essentials that are good for everyone. Stay away from mindless, pointless quarreling over genealogies and fine print in the law code. That gets you nowhere. Warn a quarrelsome person once or twice, but then be done with him. It’s obvious that such a person is out of line, rebellious against God. By persisting in divisiveness he cuts himself off.",
+        "es": "Quiero que mantengas una posición firme acerca de estas verdades.\n\nQuienes han puesto su confianza en Dios deben concentrar su energía en las cosas esenciales que son buenas para todos.\n\nManténganse alejados de discusiones sin sentido e inútiles sobre genealogías y la letra pequeña del código de la ley. Eso no los lleva a ninguna parte.\n\nAdvierte una o dos veces a la persona empeñada en discutir y dividir; después, no sigas alimentando ese conflicto.\n\nEs evidente que esa persona está fuera de lugar y en rebelión contra Dios. Al persistir en la división, se excluye a sí misma."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12-13",
+      "id": "tito3-msg-04",
+      "msg": {
+        "en": "As soon as I send either Artemas or Tychicus to you, come immediately and meet me in Nicopolis. I’ve decided to spend the winter there. Give Zenas the lawyer and Apollos a hearty send-off. Take good care of them.",
+        "es": "En cuanto te envíe a Artemas o a Tíquico, ven de inmediato a encontrarte conmigo en Nicópolis. He decidido pasar allí el invierno.\n\nDespide a Zenas, el abogado, y a Apolos con generosidad. Cuídalos bien y asegúrate de que tengan todo lo necesario."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "14",
+      "id": "tito3-msg-05",
+      "msg": {
+        "en": "Our people have to learn to be diligent in their work so that all necessities are met (especially among the needy) and they don’t end up with nothing to show for their lives.",
+        "es": "Nuestra gente tiene que aprender a trabajar con diligencia para que todas las necesidades sean atendidas —especialmente entre quienes están en necesidad— y no terminen sin nada que mostrar como fruto de sus vidas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15",
+      "id": "tito3-msg-06",
+      "msg": {
+        "en": "All here want to be remembered to you. Say hello to our friends in the faith. Grace to all of you.",
+        "es": "Todos los que están conmigo quieren ser recordados por ti.\n\nSaluda a nuestros amigos unidos a nosotros por la fe.\n\nQue la gracia permanezca con todos ustedes."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "tito3-nbla-15"
+        }
+      ],
+      "order": 6
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "tito3-nbla-01",
+      "number": 1,
+      "text": "Recuérdales que estén sujetos a los gobernantes, a las autoridades; que sean obedientes, que estén preparados para toda buena obra."
+    },
+    {
+      "clauses": [
+        {
+          "id": "tito3-nbla-02a",
+          "order": 1,
+          "text": "Que no injurien a nadie, que no sean contenciosos"
+        },
+        {
+          "id": "tito3-nbla-02b",
+          "order": 2,
+          "text": ", sino amables, mostrando toda consideración para con todos los hombres."
+        }
+      ],
+      "id": "tito3-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "tito3-nbla-03",
+      "number": 3,
+      "text": "Porque nosotros también en otro tiempo éramos necios, desobedientes, extraviados, esclavos de deleites y placeres diversos, viviendo en malicia y envidia, aborrecibles y odiándonos unos a otros."
+    },
+    {
+      "id": "tito3-nbla-04",
+      "number": 4,
+      "text": "Pero cuando se manifestó la bondad de Dios nuestro Salvador, y Su amor hacia la humanidad,"
+    },
+    {
+      "clauses": [
+        {
+          "id": "tito3-nbla-05a",
+          "order": 1,
+          "text": "Él nos salvó,"
+        },
+        {
+          "id": "tito3-nbla-05b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "no por las obras de justicia que nosotros hubiéramos hecho, sino conforme a Su misericordia"
+        },
+        {
+          "id": "tito3-nbla-05c",
+          "order": 3,
+          "text": ", por medio del lavamiento de la regeneración y la renovación por el Espíritu Santo,"
+        }
+      ],
+      "id": "tito3-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "tito3-nbla-06",
+      "number": 6,
+      "text": "que Él derramó sobre nosotros abundantemente por medio de Jesucristo nuestro Salvador,"
+    },
+    {
+      "id": "tito3-nbla-07",
+      "number": 7,
+      "text": "para que justificados por Su gracia fuéramos hechos herederos según la esperanza de la vida eterna."
+    },
+    {
+      "id": "tito3-nbla-08",
+      "number": 8,
+      "text": "Palabra fiel es esta; y en cuanto a estas cosas quiero que hables con firmeza, para que los que han creído en Dios procuren ocuparse en buenas obras. Estas cosas son buenas y útiles para los hombres."
+    },
+    {
+      "clauses": [
+        {
+          "id": "tito3-nbla-09a",
+          "order": 1,
+          "text": "Pero evita controversias necias, genealogías, contiendas y discusiones acerca de la ley"
+        },
+        {
+          "id": "tito3-nbla-09b",
+          "order": 2,
+          "text": ", porque son sin provecho y sin valor."
+        }
+      ],
+      "id": "tito3-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "tito3-nbla-10",
+      "number": 10,
+      "text": "Al hombre que cause divisiones, después de la primera y segunda amonestación, recházalo,"
+    },
+    {
+      "id": "tito3-nbla-11",
+      "number": 11,
+      "text": "sabiendo que el tal es perverso y está pecando, habiéndose condenado a sí mismo."
+    },
+    {
+      "id": "tito3-nbla-12",
+      "number": 12,
+      "text": "Cuando te envíe a Artemas o a Tíquico, procura venir a verme en Nicópolis, porque he decidido pasar allí el invierno."
+    },
+    {
+      "id": "tito3-nbla-13",
+      "number": 13,
+      "text": "Encamina con diligencia a Zenas, intérprete de la ley, y a Apolos, para que nada les falte."
+    },
+    {
+      "clauses": [
+        {
+          "id": "tito3-nbla-14a",
+          "order": 1,
+          "text": "Y que los nuestros aprendan a ocuparse en buenas obras, atendiendo a las necesidades apremiantes"
+        },
+        {
+          "id": "tito3-nbla-14b",
+          "order": 2,
+          "text": ", para que no estén sin fruto."
+        }
+      ],
+      "id": "tito3-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "tito3-nbla-15",
+      "number": 15,
+      "text": "Todos los que están conmigo te saludan. Saluda a los que nos aman en la fe.\nLa gracia sea con todos ustedes."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
