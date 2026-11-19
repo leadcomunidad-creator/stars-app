@@ -1,0 +1,489 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Peterson resume toda la genealogía con un verbo sencillo, «tuvo», y deja que los paréntesis hagan el trabajo. El paréntesis dice más que la frase principal. Rahab, la prostituta de Jericó que escondió a los espías, aparece en el árbol familiar del Mesías. La NBLA dice lo mismo con más formalidad, pero el efecto es idéntico: la gracia tiene nombres de mujer y de extranjera.",
+      "id": "mateo1-joya-01",
+      "msg": {
+        "en": "\"Salmon had Boaz (his mother was Rahab),\"",
+        "es": "\"Salmón tuvo a Booz (su madre fue Rahab),\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo1-nbla-05a"
+          ],
+          "verseId": "mateo1-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "2-6"
+    },
+    {
+      "explanation": "La NBLA añade el nombre de Betsabé; Peterson, como el texto griego, la deja como «la esposa de Urías». Esa omisión es intencional. Mateo quiere que recordemos el pecado del rey más grande de Israel. El linaje del Salvador pasa por la peor noche de David. Nadie en esta lista llegó por mérito.",
+      "id": "mateo1-joya-02",
+      "msg": {
+        "en": "\"David had Solomon (Uriah’s wife was the mother),\"",
+        "es": "\"David tuvo a Salomón (la madre fue la esposa de Urías),\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo1-nbla-06b"
+          ],
+          "verseId": "mateo1-nbla-06"
+        }
+      ],
+      "order": 2,
+      "range": "6-11"
+    },
+    {
+      "explanation": "La NBLA lo llama «hombre justo». Peterson lo describe por dentro: dolido, pero noble. Las dos lecturas juntas muestran una justicia que no es dura. José tenía la ley de su lado para exponer a María. Escogió protegerla aun cuando creía que lo había traicionado. Esa es una justicia con corazón.",
+      "id": "mateo1-joya-03",
+      "msg": {
+        "en": "\"Joseph, chagrined but noble, determined to take care of things quietly so Mary would not be disgraced.\"",
+        "es": "\"José, dolido pero noble, decidió resolver las cosas en silencio para que María no quedara en vergüenza.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-19"
+        }
+      ],
+      "order": 3,
+      "range": "18-19"
+    },
+    {
+      "explanation": "Peterson inserta el significado del nombre entre guiones para que el lector de hoy entienda lo que un judío oía de inmediato. Jesús quiere decir «Dios salva». Y le da a José una tarea concreta: tú le pondrás el nombre. Al nombrarlo, José lo adopta como hijo y lo hace heredero legal de David.",
+      "id": "mateo1-joya-04",
+      "msg": {
+        "en": "\"you, Joseph, will name him Jesus—‘God saves’—because he will save his people from their sins.\"",
+        "es": "\"tú, José, le pondrás por nombre Jesús —“Dios salva”—, porque él salvará a su pueblo de sus pecados\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo1-nbla-21b"
+          ],
+          "verseId": "mateo1-nbla-21"
+        }
+      ],
+      "order": 4,
+      "range": "20-23"
+    },
+    {
+      "explanation": "La NBLA usa el lenguaje clásico del cumplimiento. Peterson elige una imagen de embarazo, justo en una historia de embarazo: la profecía de Isaías era un sermón en gestación que ahora llega a término. Las promesas de Dios no se pierden; maduran, y nacen cuando él dispone.",
+      "id": "mateo1-joya-05",
+      "msg": {
+        "en": "\"This would bring the prophet’s embryonic sermon to full term\"",
+        "es": "\"Así llegaría a término el sermón embrionario del profeta\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo1-nbla-22a"
+          ],
+          "verseId": "mateo1-nbla-22"
+        }
+      ],
+      "order": 5,
+      "range": "20-23"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 1,
+    "studyId": "mateo-1"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1",
+      "id": "mateo1-msg-01",
+      "msg": {
+        "en": "The family tree of Jesus Christ, David’s son, Abraham’s son,",
+        "es": "El árbol familiar de Jesucristo, hijo de David, hijo de Abraham:"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-01"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "2-6",
+      "id": "mateo1-msg-02",
+      "msg": {
+        "en": "Abraham had Isaac,\nIsaac had Jacob,\nJacob had Judah and his brothers,\nJudah had Perez and Zerah (the mother was Tamar),\nPerez had Hezron,\nHezron had Aram,\nAram had Amminadab,\nAmminadab had Nahshon,\nNahshon had Salmon,\nSalmon had Boaz (his mother was Rahab),\nBoaz had Obed (Ruth was the mother),\nObed had Jesse,\nJesse had David,\nand David became king.",
+        "es": "Abraham tuvo a Isaac,\nIsaac tuvo a Jacob,\nJacob tuvo a Judá y a sus hermanos,\nJudá tuvo a Fares y a Zara (la madre fue Tamar),\nFares tuvo a Esrom,\nEsrom tuvo a Aram,\nAram tuvo a Aminadab,\nAminadab tuvo a Naasón,\nNaasón tuvo a Salmón,\nSalmón tuvo a Booz (su madre fue Rahab),\nBooz tuvo a Obed (Rut fue la madre),\nObed tuvo a Isaí,\nIsaí tuvo a David,\ny David llegó a ser rey."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-05"
+        },
+        {
+          "clauseIds": [
+            "mateo1-nbla-06a"
+          ],
+          "verseId": "mateo1-nbla-06"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-11",
+      "id": "mateo1-msg-03",
+      "msg": {
+        "en": "David had Solomon (Uriah’s wife was the mother),\nSolomon had Rehoboam,\nRehoboam had Abijah,\nAbijah had Asa,\nAsa had Jehoshaphat,\nJehoshaphat had Joram,\nJoram had Uzziah,\nUzziah had Jotham,\nJotham had Ahaz,\nAhaz had Hezekiah,\nHezekiah had Manasseh,\nManasseh had Amon,\nAmon had Josiah,\nJosiah had Jehoiachin and his brothers,\nand then the people were taken into the Babylonian exile.",
+        "es": "David tuvo a Salomón (la madre fue la esposa de Urías),\nSalomón tuvo a Roboam,\nRoboam tuvo a Abías,\nAbías tuvo a Asa,\nAsa tuvo a Josafat,\nJosafat tuvo a Joram,\nJoram tuvo a Uzías,\nUzías tuvo a Jotam,\nJotam tuvo a Acaz,\nAcaz tuvo a Ezequías,\nEzequías tuvo a Manasés,\nManasés tuvo a Amón,\nAmón tuvo a Josías,\nJosías tuvo a Jeconías y a sus hermanos,\ny entonces el pueblo fue llevado al exilio en Babilonia."
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo1-nbla-06b"
+          ],
+          "verseId": "mateo1-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12-16",
+      "id": "mateo1-msg-04",
+      "msg": {
+        "en": "When the Babylonian exile ended,\nJeconiah had Shealtiel,\nShealtiel had Zerubbabel,\nZerubbabel had Abiud,\nAbiud had Eliakim,\nEliakim had Azor,\nAzor had Zadok,\nZadok had Achim,\nAchim had Eliud,\nEliud had Eleazar,\nEleazar had Matthan,\nMatthan had Jacob,\nJacob had Joseph, Mary’s husband,\nthe Mary who gave birth to Jesus,\nthe Jesus who was called Christ.",
+        "es": "Cuando terminó el exilio en Babilonia,\nJeconías tuvo a Salatiel,\nSalatiel tuvo a Zorobabel,\nZorobabel tuvo a Abiud,\nAbiud tuvo a Eliaquim,\nEliaquim tuvo a Azor,\nAzor tuvo a Sadoc,\nSadoc tuvo a Aquim,\nAquim tuvo a Eliud,\nEliud tuvo a Eleazar,\nEleazar tuvo a Matán,\nMatán tuvo a Jacob,\nJacob tuvo a José, el esposo de María,\nla María que dio a luz a Jesús,\nel Jesús a quien llamaron Cristo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-16"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "17",
+      "id": "mateo1-msg-05",
+      "msg": {
+        "en": "There were fourteen generations from Abraham to David,\nanother fourteen from David to the Babylonian exile, and yet\nanother fourteen from the Babylonian exile to Christ.",
+        "es": "Fueron catorce generaciones de Abraham a David,\notras catorce de David al exilio en Babilonia, y todavía\notras catorce del exilio en Babilonia a Cristo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-17"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "mateo1-msg-06",
+      "msg": {
+        "en": "The birth of Jesus took place like this. His mother, Mary, was engaged to be married to Joseph. Before they came to the marriage bed, Joseph discovered she was pregnant. (It was by the Holy Spirit, but he didn’t know that.) Joseph, chagrined but noble, determined to take care of things quietly so Mary would not be disgraced.",
+        "es": "El nacimiento de Jesús ocurrió así. Su madre, María, estaba comprometida para casarse con José. Antes de que llegaran al lecho matrimonial, José descubrió que ella estaba embarazada. (Era obra del Espíritu Santo, pero él no lo sabía). José, dolido pero noble, decidió resolver las cosas en silencio para que María no quedara en vergüenza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-19"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "20-23",
+      "id": "mateo1-msg-07",
+      "msg": {
+        "en": "While he was trying to figure a way out, he had a dream. God’s angel spoke in the dream: “Joseph, son of David, don’t hesitate to get married. Mary’s pregnancy is Spirit-conceived. God’s Holy Spirit has made her pregnant. She will bring a son to birth, and when she does, you, Joseph, will name him Jesus—‘God saves’—because he will save his people from their sins.” This would bring the prophet’s embryonic sermon to full term:\nWatch for this—a virgin will get pregnant and bear a son;\nThey will name him Immanuel (Hebrew for “God is with us”).",
+        "es": "Mientras buscaba una salida, tuvo un sueño. El ángel de Dios le habló en el sueño: «José, hijo de David, no dudes en casarte. El embarazo de María fue concebido por el Espíritu. El Espíritu Santo de Dios la ha dejado embarazada. Dará a luz un hijo, y cuando nazca, tú, José, le pondrás por nombre Jesús —“Dios salva”—, porque él salvará a su pueblo de sus pecados». Así llegaría a término el sermón embrionario del profeta:\nMiren esto: una virgen quedará embarazada y dará a luz un hijo;\nle pondrán por nombre Emanuel (que en hebreo significa “Dios con nosotros”)."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-23"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "24-25",
+      "id": "mateo1-msg-08",
+      "msg": {
+        "en": "Then Joseph woke up. He did exactly what God’s angel commanded in the dream: He married Mary. But he did not consummate the marriage until she had the baby. He named the baby Jesus.",
+        "es": "Entonces José despertó. Hizo exactamente lo que el ángel de Dios le había ordenado en el sueño: se casó con María. Pero no consumó el matrimonio hasta que ella tuvo al bebé. Le puso por nombre Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo1-nbla-25"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo1-nbla-01",
+      "number": 1,
+      "text": "Libro de la genealogía de Jesucristo, hijo de David, hijo de Abraham."
+    },
+    {
+      "id": "mateo1-nbla-02",
+      "number": 2,
+      "text": "Abraham fue padre de Isaac, Isaac de Jacob, y Jacob de Judá y de sus hermanos;"
+    },
+    {
+      "id": "mateo1-nbla-03",
+      "number": 3,
+      "text": "Judá fue padre de Fares y de Zara, cuya madre fue Tamar; Fares fue padre de Esrom, y Esrom de Aram;"
+    },
+    {
+      "id": "mateo1-nbla-04",
+      "number": 4,
+      "text": "Aram fue padre de Aminadab, Aminadab de Naasón, y Naasón de Salmón;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo1-nbla-05a",
+          "order": 1,
+          "text": "Salmón fue padre de Booz, cuya madre fue Rahab"
+        },
+        {
+          "id": "mateo1-nbla-05b",
+          "order": 2,
+          "text": "; Booz fue padre de Obed, cuya madre fue Rut; y Obed fue padre de Isaí;"
+        }
+      ],
+      "id": "mateo1-nbla-05",
+      "number": 5
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo1-nbla-06a",
+          "order": 1,
+          "text": "Isaí fue padre del rey David."
+        },
+        {
+          "id": "mateo1-nbla-06b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "Y David fue padre de Salomón, cuya madre Betsabé había sido mujer de Urías."
+        }
+      ],
+      "id": "mateo1-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "mateo1-nbla-07",
+      "number": 7,
+      "text": "Salomón fue padre de Roboam, Roboam de Abías, y Abías de Asa;"
+    },
+    {
+      "id": "mateo1-nbla-08",
+      "number": 8,
+      "text": "Asa fue padre de Josafat, Josafat de Joram, y Joram de Uzías;"
+    },
+    {
+      "id": "mateo1-nbla-09",
+      "number": 9,
+      "text": "Uzías fue padre de Jotam, Jotam de Acaz, y Acaz de Ezequías;"
+    },
+    {
+      "id": "mateo1-nbla-10",
+      "number": 10,
+      "text": "Ezequías fue padre de Manasés, Manasés de Amón, y Amón de Josías;"
+    },
+    {
+      "id": "mateo1-nbla-11",
+      "number": 11,
+      "text": "Josías fue padre de Jeconías y de sus hermanos durante la deportación a Babilonia."
+    },
+    {
+      "id": "mateo1-nbla-12",
+      "number": 12,
+      "text": "Después de la deportación a Babilonia, Jeconías fue padre de Salatiel, y Salatiel de Zorobabel;"
+    },
+    {
+      "id": "mateo1-nbla-13",
+      "number": 13,
+      "text": "Zorobabel fue padre de Abiud, Abiud de Eliaquim, y Eliaquim de Azor;"
+    },
+    {
+      "id": "mateo1-nbla-14",
+      "number": 14,
+      "text": "Azor fue padre de Sadoc, Sadoc de Aquim, y Aquim de Eliud;"
+    },
+    {
+      "id": "mateo1-nbla-15",
+      "number": 15,
+      "text": "Eliud fue padre de Eleazar, Eleazar de Matán, y Matán de Jacob;"
+    },
+    {
+      "id": "mateo1-nbla-16",
+      "number": 16,
+      "text": "Jacob fue padre de José, el marido de María, de la cual nació Jesús, llamado el Cristo."
+    },
+    {
+      "id": "mateo1-nbla-17",
+      "number": 17,
+      "text": "De manera que todas las generaciones desde Abraham hasta David son catorce generaciones; y desde David hasta la deportación a Babilonia, catorce generaciones; y desde la deportación a Babilonia hasta Cristo, catorce generaciones."
+    },
+    {
+      "id": "mateo1-nbla-18",
+      "number": 18,
+      "text": "El nacimiento de Jesucristo fue como sigue: estando Su madre María comprometida para casarse con José, antes de que se llevara a cabo el matrimonio, se halló que había concebido por obra del Espíritu Santo."
+    },
+    {
+      "id": "mateo1-nbla-19",
+      "number": 19,
+      "text": "Entonces José su marido, siendo un hombre justo y no queriendo denunciarla públicamente, quiso abandonarla en secreto."
+    },
+    {
+      "id": "mateo1-nbla-20",
+      "number": 20,
+      "text": "Pero mientras pensaba en esto, se le apareció en sueños un ángel del Señor, diciéndole: «José, hijo de David, no temas recibir a María tu mujer, porque el Niño que se ha engendrado en ella es del Espíritu Santo."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo1-nbla-21a",
+          "order": 1,
+          "text": "Y dará a luz un Hijo,"
+        },
+        {
+          "id": "mateo1-nbla-21b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y le pondrás por nombre Jesús, porque Él salvará a Su pueblo de sus pecados»."
+        }
+      ],
+      "id": "mateo1-nbla-21",
+      "number": 21
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo1-nbla-22a",
+          "order": 1,
+          "text": "Todo esto sucedió para que se cumpliera lo que el Señor había hablado por medio del profeta"
+        },
+        {
+          "id": "mateo1-nbla-22b",
+          "order": 2,
+          "text": ", diciendo:"
+        }
+      ],
+      "id": "mateo1-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "mateo1-nbla-23",
+      "number": 23,
+      "text": "«HE AQUÍ, LA VIRGEN CONCEBIRÁ Y DARÁ A LUZ UN HIJO, Y LE PONDRÁN POR NOMBRE EMMANUEL», que traducido significa: «DIOS CON NOSOTROS»."
+    },
+    {
+      "id": "mateo1-nbla-24",
+      "number": 24,
+      "text": "Cuando José despertó del sueño, hizo como el ángel del Señor le había mandado, y tomó consigo a María como su mujer;"
+    },
+    {
+      "id": "mateo1-nbla-25",
+      "number": 25,
+      "text": "y la conservó virgen hasta que dio a luz un Hijo; y le puso por nombre Jesús."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

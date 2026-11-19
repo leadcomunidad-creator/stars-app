@@ -1,0 +1,401 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA da el mensaje tal cual; Peterson antes describe su estilo. Un mensaje sin adornos, como el paisaje de donde venía. No hay rodeos ni anécdotas para suavizar. A veces lo que más necesita una generación saturada de palabras es una frase corta y verdadera.",
+      "id": "mateo3-joya-01",
+      "msg": {
+        "en": "\"His message was simple and austere, like his desert surroundings\"",
+        "es": "\"Su mensaje era sencillo y austero, como el desierto que lo rodeaba\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La NBLA habla de frutos dignos de arrepentimiento. Peterson sigue con la imagen de las víboras: un poco de agua sobre la piel de serpiente no cambia a la serpiente. La religión externa lava la superficie. El arrepentimiento cambia lo que hay debajo.",
+      "id": "mateo3-joya-02",
+      "msg": {
+        "en": "\"It’s your life that must change, not your skin!\"",
+        "es": "\"¡Lo que tiene que cambiar es su vida, no su piel!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-08"
+        }
+      ],
+      "order": 2,
+      "range": "7-10"
+    },
+    {
+      "explanation": "La imagen de la NBLA, hijos sacados de las piedras, es la original y es poderosa en su contexto. Peterson la traduce al lenguaje del mercado: hay a montones, no valen nada por sí solos. Lo que Dios busca no es un apellido, sino una vida que dé fruto.",
+      "id": "mateo3-joya-03",
+      "msg": {
+        "en": "\"Descendants of Abraham are a dime a dozen.\"",
+        "es": "\"Descendientes de Abraham hay a montones.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo3-nbla-09b"
+          ],
+          "verseId": "mateo3-nbla-09"
+        }
+      ],
+      "order": 3,
+      "range": "7-10"
+    },
+    {
+      "explanation": "Quitar las sandalias era tarea de esclavos, y la NBLA conserva esa imagen de humildad. Peterson usa el teatro: Juan es el que mueve la escenografía detrás del telón, nunca el actor principal. Su grandeza estaba en saber que no era el centro.",
+      "id": "mateo3-joya-04",
+      "msg": {
+        "en": "\"compared to him I’m a mere stagehand\"",
+        "es": "\"a su lado yo soy apenas un tramoyista\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo3-nbla-11b"
+          ],
+          "verseId": "mateo3-nbla-11"
+        }
+      ],
+      "order": 4,
+      "range": "11-12"
+    },
+    {
+      "explanation": "La NBLA conserva la fórmula clásica: Hijo amado, en quien me he complacido. Peterson la despliega como la diría un padre: escogido, marcado por mi amor, la alegría de mi vida. Jesús todavía no ha predicado ni sanado a nadie. El Padre lo ama antes de que haga nada.",
+      "id": "mateo3-joya-05",
+      "msg": {
+        "en": "\"This is my Son, chosen and marked by my love, delight of my life.\"",
+        "es": "\"Este es mi Hijo, escogido y marcado por mi amor, la alegría de mi vida\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo3-nbla-17b"
+          ],
+          "verseId": "mateo3-nbla-17"
+        }
+      ],
+      "order": 5,
+      "range": "16-17"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 3,
+    "studyId": "mateo-3"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo3-msg-01",
+      "msg": {
+        "en": "While Jesus was living in the Galilean hills, John, called “the Baptizer,” was preaching in the desert country of Judea. His message was simple and austere, like his desert surroundings: “Change your life. God’s kingdom is here.”",
+        "es": "Mientras Jesús vivía en las colinas de Galilea, Juan, al que llamaban «el Bautista», predicaba en el desierto de Judea. Su mensaje era sencillo y austero, como el desierto que lo rodeaba: «Cambia tu vida. El reino de Dios está aquí»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "mateo3-msg-02",
+      "msg": {
+        "en": "John and his message were authorized by Isaiah’s prophecy:\nThunder in the desert!\nPrepare for God’s arrival!\nMake the road smooth and straight!",
+        "es": "Juan y su mensaje estaban respaldados por la profecía de Isaías:\n¡Trueno en el desierto!\n¡Prepárense para la llegada de Dios!\n¡Hagan el camino llano y derecho!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "mateo3-msg-03",
+      "msg": {
+        "en": "John dressed in a camel-hair habit tied at the waist by a leather strap. He lived on a diet of locusts and wild field honey. People poured out of Jerusalem, Judea, and the Jordanian countryside to hear and see him in action. There at the Jordan River those who came to confess their sins were baptized into a changed life.",
+        "es": "Juan vestía un hábito de pelo de camello atado a la cintura con una correa de cuero. Se alimentaba de langostas y miel silvestre. La gente salía en masa de Jerusalén, de Judea y de los campos del Jordán para oírlo y verlo en acción. Allí, en el río Jordán, los que venían a confesar sus pecados eran bautizados para una vida cambiada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-10",
+      "id": "mateo3-msg-04",
+      "msg": {
+        "en": "When John realized that a lot of Pharisees and Sadducees were showing up for a baptismal experience because it was becoming the popular thing to do, he exploded: “Brood of snakes! What do you think you’re doing slithering down here to the river? Do you think a little water on your snakeskins is going to make any difference? It’s your life that must change, not your skin! And don’t think you can pull rank by claiming Abraham as father. Being a descendant of Abraham is neither here nor there. Descendants of Abraham are a dime a dozen. What counts is your life. Is it green and blossoming? Because if it’s deadwood, it goes on the fire.",
+        "es": "Cuando Juan se dio cuenta de que muchos fariseos y saduceos venían a vivir la experiencia del bautismo porque se estaba poniendo de moda, explotó: «¡Camada de víboras! ¿Qué creen que hacen deslizándose hasta el río? ¿Creen que un poco de agua sobre su piel de serpiente va a cambiar algo? ¡Lo que tiene que cambiar es su vida, no su piel! Y no piensen que pueden darse aires diciendo que Abraham es su padre. Ser descendiente de Abraham no importa ni aquí ni allá. Descendientes de Abraham hay a montones. Lo que cuenta es su vida. ¿Está verde y en flor? Porque si es leña muerta, va al fuego."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "mateo3-msg-05",
+      "msg": {
+        "en": "“I’m baptizing you here in the river, turning your old life in for a kingdom life. The real action comes next: The main character in this drama—compared to him I’m a mere stagehand—will ignite the kingdom life within you, a fire within you, the Holy Spirit within you, changing you from the inside out. He’s going to clean house—make a clean sweep of your lives. He’ll place everything true in its proper place before God; everything false he’ll put out with the trash to be burned.”",
+        "es": "»Yo los bautizo aquí en el río, para que cambien su vida vieja por una vida del reino. Lo de verdad viene después: el protagonista de este drama —a su lado yo soy apenas un tramoyista— encenderá en ustedes la vida del reino, un fuego dentro de ustedes, el Espíritu Santo dentro de ustedes, que los cambiará de adentro hacia afuera. Él va a limpiar la casa, va a barrer a fondo su vida. Pondrá todo lo verdadero en su lugar delante de Dios; todo lo falso lo sacará con la basura para quemarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-12"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "mateo3-msg-06",
+      "msg": {
+        "en": "Jesus then appeared, arriving at the Jordan River from Galilee. He wanted John to baptize him. John objected, “I’m the one who needs to be baptized, not you!”",
+        "es": "Entonces apareció Jesús, que llegaba de Galilea al río Jordán. Quería que Juan lo bautizara. Juan se opuso: «¡El que necesita ser bautizado soy yo, no tú!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-14"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "15",
+      "id": "mateo3-msg-07",
+      "msg": {
+        "en": "But Jesus insisted. “Do it. God’s work, putting things right all these centuries, is coming together right now in this baptism.” So John did it.",
+        "es": "Pero Jesús insistió: «Hazlo. La obra de Dios, que ha venido enderezando las cosas durante todos estos siglos, se está juntando ahora mismo en este bautismo». Y Juan lo hizo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-15"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "mateo3-msg-08",
+      "msg": {
+        "en": "The moment Jesus came up out of the baptismal waters, the skies opened up and he saw God’s Spirit—it looked like a dove—descending and landing on him. And along with the Spirit, a voice: “This is my Son, chosen and marked by my love, delight of my life.”",
+        "es": "En el momento en que Jesús salió de las aguas del bautismo, los cielos se abrieron y vio al Espíritu de Dios —parecía una paloma— que descendía y se posaba sobre él. Y junto con el Espíritu, una voz: «Este es mi Hijo, escogido y marcado por mi amor, la alegría de mi vida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo3-nbla-17"
+        }
+      ],
+      "order": 8
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo3-nbla-01",
+      "number": 1,
+      "text": "En aquellos días llegó* Juan el Bautista predicando en el desierto de Judea, diciendo:"
+    },
+    {
+      "id": "mateo3-nbla-02",
+      "number": 2,
+      "text": "«Arrepiéntanse, porque el reino de los cielos se ha acercado»."
+    },
+    {
+      "id": "mateo3-nbla-03",
+      "number": 3,
+      "text": "Porque este Juan es aquel a quien se refirió el profeta Isaías, cuando dijo:\n«VOZ DEL QUE CLAMA EN EL DESIERTO:\n“PREPAREN EL CAMINO DEL SEÑOR,\nHAGAN DERECHAS SUS SENDAS”»."
+    },
+    {
+      "id": "mateo3-nbla-04",
+      "number": 4,
+      "text": "Y él, Juan, tenía un vestido de pelo de camello y un cinto de cuero a la cintura; y su comida era de langostas y miel silvestre."
+    },
+    {
+      "id": "mateo3-nbla-05",
+      "number": 5,
+      "text": "Entonces Jerusalén, toda Judea y toda la región alrededor del Jordán, acudían a él,"
+    },
+    {
+      "id": "mateo3-nbla-06",
+      "number": 6,
+      "text": "y confesando sus pecados, eran bautizados por Juan en el río Jordán."
+    },
+    {
+      "id": "mateo3-nbla-07",
+      "number": 7,
+      "text": "Pero cuando vio que muchos de los fariseos y saduceos venían para el bautismo, les dijo: «¡Camada de víboras! ¿Quién les enseñó a huir de la ira que está al venir?"
+    },
+    {
+      "id": "mateo3-nbla-08",
+      "number": 8,
+      "text": "Por tanto, den frutos dignos de arrepentimiento;"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo3-nbla-09a",
+          "order": 1,
+          "text": "y no piensen que pueden decirse a sí mismos: “Tenemos a Abraham por padre”, porque les digo que"
+        },
+        {
+          "id": "mateo3-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Dios puede levantar hijos a Abraham de estas piedras."
+        }
+      ],
+      "id": "mateo3-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "mateo3-nbla-10",
+      "number": 10,
+      "text": "El hacha ya está puesta a la raíz de los árboles; por tanto, todo árbol que no da buen fruto es cortado y echado al fuego."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo3-nbla-11a",
+          "order": 1,
+          "text": "Yo, en verdad, los bautizo a ustedes con agua para arrepentimiento, pero Aquel que viene detrás de mí es más poderoso que yo,"
+        },
+        {
+          "id": "mateo3-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "a quien no soy digno de quitar las sandalias"
+        },
+        {
+          "id": "mateo3-nbla-11c",
+          "order": 3,
+          "text": "; Él los bautizará con el Espíritu Santo y con fuego."
+        }
+      ],
+      "id": "mateo3-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "mateo3-nbla-12",
+      "number": 12,
+      "text": "El bieldo está en Su mano y limpiará completamente Su era; y recogerá Su trigo en el granero, pero quemará la paja en un fuego que no se apaga»."
+    },
+    {
+      "id": "mateo3-nbla-13",
+      "number": 13,
+      "text": "Entonces Jesús llegó* de Galilea al Jordán, a donde estaba Juan, para ser bautizado por él."
+    },
+    {
+      "id": "mateo3-nbla-14",
+      "number": 14,
+      "text": "Pero Juan trató de impedirlo, diciendo: «Yo necesito ser bautizado por Ti, ¿y Tú vienes a mí?»."
+    },
+    {
+      "id": "mateo3-nbla-15",
+      "number": 15,
+      "text": "Jesús le respondió: «Permítelo ahora; porque es conveniente que así cumplamos toda justicia». Entonces Juan consintió*."
+    },
+    {
+      "id": "mateo3-nbla-16",
+      "number": 16,
+      "text": "Después de ser bautizado, Jesús salió del agua inmediatamente; y los cielos se abrieron en ese momento y él vio al Espíritu de Dios que descendía como una paloma y venía sobre Él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo3-nbla-17a",
+          "order": 1,
+          "text": "Y se oyó una voz de los cielos que decía: «"
+        },
+        {
+          "id": "mateo3-nbla-17b",
+          "order": 2,
+          "text": "Este es Mi Hijo amado en quien me he complacido»."
+        }
+      ],
+      "id": "mateo3-nbla-17",
+      "number": 17
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

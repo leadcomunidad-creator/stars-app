@@ -1,0 +1,687 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Aquí las dos versiones casi no se separan, y no hace falta. Las palabras de Jesús son tan cortas que no admiten paráfrasis. El leproso había preguntado «si quieres». Jesús responde primero con la mano y después con dos palabras: quiero. Ninguna duda queda sobre la voluntad de Dios hacia el que se acerca con humildad.",
+      "id": "mateo8-joya-01",
+      "msg": {
+        "en": "\"Jesus reached out and touched him, saying, “I want to. Be clean.”\"",
+        "es": "\"Jesús extendió la mano y lo tocó, diciendo: «Quiero. Queda limpio».\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo8-nbla-03a"
+          ],
+          "verseId": "mateo8-nbla-03"
+        }
+      ],
+      "order": 1,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La NBLA habla de la ofrenda que ordenó Moisés, el rito que certificaba la sanidad del leproso. Peterson saca de ahí un principio: el mejor testimonio no es el discurso, sino la vida cambiada. El hombre no necesitaba contarlo en cada esquina. Bastaba con que lo vieran entrar sano al templo.",
+      "id": "mateo8-joya-02",
+      "msg": {
+        "en": "\"Your cleansed and grateful life, not your words, will bear witness to what I have done.\"",
+        "es": "\"Tu vida limpia y agradecida, no tus palabras, dará testimonio de lo que he hecho.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo8-nbla-04b"
+          ],
+          "verseId": "mateo8-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La NBLA dice «di la palabra»; Peterson usa el lenguaje militar del centurión: «dé la orden». El soldado entiende la autoridad porque la vive todos los días. Sabe que una orden dada desde arriba se cumple sin que el comandante esté presente. Y reconoce en Jesús una autoridad así sobre la enfermedad.",
+      "id": "mateo8-joya-03",
+      "msg": {
+        "en": "\"Just give the order and my servant will be fine.\"",
+        "es": "\"Solo dé la orden y mi siervo estará bien.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo8-nbla-08b"
+          ],
+          "verseId": "mateo8-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "8-9"
+    },
+    {
+      "explanation": "La NBLA conserva la imagen de las zorras y las aves, que tienen dónde dormir, mientras el Hijo del Hombre no. Peterson la convierte en una pregunta directa al voluntario entusiasta. Seguir a Jesús no es un plan turístico. Antes de prometer ir a todas partes, conviene saber que el camino no tiene cinco estrellas.",
+      "id": "mateo8-joya-04",
+      "msg": {
+        "en": "\"Are you ready to rough it? We’re not staying in the best inns, you know.\"",
+        "es": "\"¿Estás listo para pasarla mal? No vamos a quedarnos en los mejores hoteles, ¿sabes?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo8-nbla-20b"
+          ],
+          "verseId": "mateo8-nbla-20"
+        }
+      ],
+      "order": 4,
+      "range": "20"
+    },
+    {
+      "explanation": "La NBLA conserva la pregunta clave: ¿quién es este? Peterson la convierte en asombro puro, con una expresión que en inglés se usa para un perro que obedece a su dueño. El mar, que para los judíos simbolizaba el caos, se echa a los pies de Jesús. Los discípulos todavía no tienen la respuesta, pero ya tienen la pregunta correcta.",
+      "id": "mateo8-joya-05",
+      "msg": {
+        "en": "\"What’s going on here? Wind and sea come to heel at his command!\"",
+        "es": "\"¿Qué está pasando aquí? ¡El viento y el mar se le someten cuando él lo ordena!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo8-nbla-27b"
+          ],
+          "verseId": "mateo8-nbla-27"
+        }
+      ],
+      "order": 5,
+      "range": "27"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 8,
+    "studyId": "mateo-8"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo8-msg-01",
+      "msg": {
+        "en": "Jesus came down the mountain with the cheers of the crowd still ringing in his ears. Then a leper appeared and went to his knees before Jesus, praying, “Master, if you want to, you can heal my body.”",
+        "es": "Jesús bajó de la montaña con las aclamaciones de la multitud todavía resonando en sus oídos. Entonces apareció un leproso, se arrodilló delante de Jesús y le rogó: «Maestro, si quieres, puedes sanar mi cuerpo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "mateo8-msg-02",
+      "msg": {
+        "en": "Jesus reached out and touched him, saying, “I want to. Be clean.” Then and there, all signs of the leprosy were gone. Jesus said, “Don’t talk about this all over town. Just quietly present your healed body to the priest, along with the appropriate expressions of thanks to God. Your cleansed and grateful life, not your words, will bear witness to what I have done.”",
+        "es": "Jesús extendió la mano y lo tocó, diciendo: «Quiero. Queda limpio». Allí mismo desapareció todo rastro de la lepra. Jesús le dijo: «No andes contando esto por todo el pueblo. Solo preséntale en silencio tu cuerpo sano al sacerdote, junto con las expresiones de gratitud a Dios que corresponden. Tu vida limpia y agradecida, no tus palabras, dará testimonio de lo que he hecho»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "mateo8-msg-03",
+      "msg": {
+        "en": "As Jesus entered the village of Capernaum, a Roman captain came up in a panic and said, “Master, my servant is sick. He can’t walk. He’s in terrible pain.”",
+        "es": "Cuando Jesús entraba en la aldea de Capernaúm, un capitán romano se le acercó angustiado y le dijo: «Maestro, mi siervo está enfermo. No puede caminar. Tiene dolores terribles»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "mateo8-msg-04",
+      "msg": {
+        "en": "Jesus said, “I’ll come and heal him.”",
+        "es": "Jesús le dijo: «Iré a sanarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "mateo8-msg-05",
+      "msg": {
+        "en": "“Oh, no,” said the captain. “I don’t want to put you to all that trouble. Just give the order and my servant will be fine. I’m a man who takes orders and gives orders. I tell one soldier, ‘Go,’ and he goes; to another, ‘Come,’ and he comes; to my slave, ‘Do this,’ and he does it.”",
+        "es": "«Ay, no», dijo el capitán. «No quiero causarle tanta molestia. Solo dé la orden y mi siervo estará bien. Soy un hombre que recibe órdenes y da órdenes. Le digo a un soldado: “Ve”, y va; a otro: “Ven”, y viene; a mi esclavo: “Haz esto”, y lo hace»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10-12",
+      "id": "mateo8-msg-06",
+      "msg": {
+        "en": "Taken aback, Jesus said, “I’ve yet to come across this kind of simple trust in Israel, the very people who are supposed to know all about God and how he works. This man is the vanguard of many outsiders who will soon be coming from all directions—streaming in from the east, pouring in from the west, sitting down at God’s kingdom banquet alongside Abraham, Isaac, and Jacob. Then those who grew up ‘in the faith’ but had no faith will find themselves out in the cold, outsiders to grace and wondering what happened.”",
+        "es": "Sorprendido, Jesús dijo: «Todavía no he encontrado esta clase de confianza sencilla en Israel, el mismo pueblo que se supone que lo sabe todo acerca de Dios y de cómo obra. Este hombre es la avanzada de muchos de afuera que pronto vendrán de todas direcciones: entrando a raudales desde el oriente, llegando en masa desde el occidente, sentándose en el banquete del reino de Dios junto a Abraham, Isaac y Jacob. Entonces los que crecieron “en la fe” pero no tenían fe se encontrarán afuera en el frío, ajenos a la gracia y preguntándose qué pasó»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13",
+      "id": "mateo8-msg-07",
+      "msg": {
+        "en": "Then Jesus turned to the captain and said, “Go. What you believed could happen has happened.” At that moment his servant became well.",
+        "es": "Entonces Jesús se volvió hacia el capitán y le dijo: «Ve. Lo que creíste que podía pasar, ha pasado». En ese momento su siervo quedó sano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "mateo8-msg-08",
+      "msg": {
+        "en": "By this time they were in front of Peter’s house. On entering, Jesus found Peter’s mother-in-law sick in bed, burning up with fever. He touched her hand and the fever was gone. No sooner was she up on her feet than she was fixing dinner for him.",
+        "es": "Para entonces estaban frente a la casa de Pedro. Al entrar, Jesús encontró a la suegra de Pedro enferma en cama, ardiendo de fiebre. Le tocó la mano y la fiebre se fue. Apenas se puso de pie, ya le estaba preparando la cena."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16-17",
+      "id": "mateo8-msg-09",
+      "msg": {
+        "en": "That evening a lot of demon-afflicted people were brought to him. He relieved the inwardly tormented. He cured the bodily ill. He fulfilled Isaiah’s well-known sermon:\nHe took our illnesses,\nHe carried our diseases.",
+        "es": "Esa noche le trajeron a mucha gente afligida por demonios. Aliviaba a los atormentados por dentro. Curaba a los enfermos del cuerpo. Cumplió el conocido sermón de Isaías:\nÉl tomó nuestras enfermedades,\nél cargó nuestras dolencias."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-17"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "mateo8-msg-10",
+      "msg": {
+        "en": "When Jesus saw that a curious crowd was growing by the minute, he told his disciples to get him out of there to the other side of the lake. As they left, a religion scholar asked if he could go along. “I’ll go with you, wherever,” he said.",
+        "es": "Cuando Jesús vio que una multitud curiosa crecía minuto a minuto, les dijo a sus discípulos que lo sacaran de allí hacia el otro lado del lago. Mientras se iban, un estudioso de la religión le preguntó si podía ir con ellos. «Iré contigo a donde sea», le dijo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-19"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "20",
+      "id": "mateo8-msg-11",
+      "msg": {
+        "en": "Jesus was curt: “Are you ready to rough it? We’re not staying in the best inns, you know.”",
+        "es": "Jesús fue cortante: «¿Estás listo para pasarla mal? No vamos a quedarnos en los mejores hoteles, ¿sabes?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21",
+      "id": "mateo8-msg-12",
+      "msg": {
+        "en": "Another follower said, “Master, excuse me for a couple of days, please. I have my father’s funeral to take care of.”",
+        "es": "Otro seguidor le dijo: «Maestro, discúlpeme un par de días, por favor. Tengo que encargarme del funeral de mi padre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-21"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "22",
+      "id": "mateo8-msg-13",
+      "msg": {
+        "en": "Jesus refused. “First things first. Your business is life, not death. Follow me. Pursue life.”",
+        "es": "Jesús se negó. «Lo primero es lo primero. Tu asunto es la vida, no la muerte. Sígueme. Busca la vida»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-22"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "23-25",
+      "id": "mateo8-msg-14",
+      "msg": {
+        "en": "Then he got in the boat, his disciples with him. The next thing they knew, they were in a severe storm. Waves were crashing into the boat—and he was sound asleep! They roused him, pleading, “Master, save us! We’re going down!”",
+        "es": "Entonces subió a la barca, y sus discípulos con él. Cuando menos lo pensaron, estaban en medio de una tormenta violenta. Las olas se estrellaban contra la barca, ¡y él estaba profundamente dormido! Lo despertaron suplicando: «¡Maestro, sálvanos! ¡Nos hundimos!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26",
+      "id": "mateo8-msg-15",
+      "msg": {
+        "en": "Jesus reprimanded them. “Why are you such cowards, such faint-hearts?” Then he stood up and told the wind to be silent, the sea to quiet down: “Silence!” The sea became smooth as glass.",
+        "es": "Jesús los reprendió: «¿Por qué son tan cobardes, tan pusilánimes?». Luego se puso de pie y le ordenó al viento que callara y al mar que se calmara: «¡Silencio!». El mar quedó liso como un espejo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-26"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "27",
+      "id": "mateo8-msg-16",
+      "msg": {
+        "en": "The men rubbed their eyes, astonished. “What’s going on here? Wind and sea come to heel at his command!”",
+        "es": "Los hombres se frotaban los ojos, asombrados. «¿Qué está pasando aquí? ¡El viento y el mar se le someten cuando él lo ordena!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-27"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "28-31",
+      "id": "mateo8-msg-17",
+      "msg": {
+        "en": "They landed in the country of the Gadarenes and were met by two madmen, victims of demons, coming out of the cemetery. The men had terrorized the region for so long that no one considered it safe to walk down that stretch of road anymore. Seeing Jesus, the madmen screamed out, “What business do you have giving us a hard time? You’re the Son of God! You weren’t supposed to show up here yet!” Off in the distance a herd of pigs was browsing and rooting. The evil spirits begged Jesus, “If you kick us out of these men, let us live in the pigs.”",
+        "es": "Desembarcaron en la región de los gadarenos y les salieron al encuentro dos locos, víctimas de demonios, que venían del cementerio. Esos hombres habían aterrorizado la región durante tanto tiempo que nadie consideraba seguro pasar ya por ese tramo del camino. Al ver a Jesús, los locos gritaron: «¿Qué tienes tú que venir a molestarnos? ¡Tú eres el Hijo de Dios! ¡Se suponía que todavía no ibas a aparecer por aquí!». A lo lejos, una manada de cerdos pastaba y hozaba. Los espíritus malignos le rogaron a Jesús: «Si nos echas de estos hombres, déjanos vivir en los cerdos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-31"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "32-34",
+      "id": "mateo8-msg-18",
+      "msg": {
+        "en": "Jesus said, “Go ahead, but get out of here!” Crazed, the pigs stampeded over a cliff into the sea and drowned. Scared to death, the swineherds bolted. They told everyone back in town what had happened to the madmen and the pigs. Those who heard about it were angry about the drowned pigs. A mob formed and demanded that Jesus get out and not come back.",
+        "es": "Jesús dijo: «Adelante, ¡pero lárguense de aquí!». Enloquecidos, los cerdos salieron en estampida por un precipicio hacia el mar y se ahogaron. Muertos de miedo, los porqueros huyeron. Contaron en el pueblo a todo el mundo lo que les había pasado a los locos y a los cerdos. Los que se enteraron se enojaron por los cerdos ahogados. Se formó una turba que exigió que Jesús se fuera y no volviera."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-33"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo8-nbla-34"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo8-nbla-01",
+      "number": 1,
+      "text": "Cuando Jesús bajó del monte, grandes multitudes lo seguían."
+    },
+    {
+      "id": "mateo8-nbla-02",
+      "number": 2,
+      "text": "Y se acercó un leproso y se postró ante Él, diciendo: «Señor, si quieres, puedes limpiarme»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo8-nbla-03a",
+          "order": 1,
+          "text": "Extendiendo Jesús la mano, lo tocó, diciendo: «Quiero; sé limpio»."
+        },
+        {
+          "id": "mateo8-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y al instante quedó limpio de su lepra."
+        }
+      ],
+      "id": "mateo8-nbla-03",
+      "number": 3
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo8-nbla-04a",
+          "order": 1,
+          "text": "Entonces Jesús le dijo*: «Mira, no se lo digas a nadie, sino ve, muéstrate al sacerdote"
+        },
+        {
+          "id": "mateo8-nbla-04b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y presenta la ofrenda que ordenó Moisés, para que les sirva de testimonio a ellos»."
+        }
+      ],
+      "id": "mateo8-nbla-04",
+      "number": 4
+    },
+    {
+      "id": "mateo8-nbla-05",
+      "number": 5,
+      "text": "Al entrar Jesús en Capernaúm, se acercó un centurión y le suplicó:"
+    },
+    {
+      "id": "mateo8-nbla-06",
+      "number": 6,
+      "text": "«Señor, mi criado está postrado en casa, paralítico, sufriendo mucho»."
+    },
+    {
+      "id": "mateo8-nbla-07",
+      "number": 7,
+      "text": "Y Jesús le dijo*: «Yo iré y lo sanaré»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo8-nbla-08a",
+          "order": 1,
+          "text": "Pero el centurión respondió: «Señor, no soy digno de que Tú entres bajo mi techo;"
+        },
+        {
+          "id": "mateo8-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "solamente di la palabra y mi criado quedará sano."
+        }
+      ],
+      "id": "mateo8-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "mateo8-nbla-09",
+      "number": 9,
+      "text": "Porque yo también soy hombre bajo autoridad, con soldados a mis órdenes; y digo a este: “Ve”, y va; y al otro: “Ven”, y viene; y a mi siervo: “Haz esto”, y lo hace»."
+    },
+    {
+      "id": "mateo8-nbla-10",
+      "number": 10,
+      "text": "Al oírlo Jesús, se maravilló y dijo a los que lo seguían: «En verdad les digo que en Israel no he hallado en nadie una fe tan grande."
+    },
+    {
+      "id": "mateo8-nbla-11",
+      "number": 11,
+      "text": "Y les digo que vendrán muchos del oriente y del occidente, y se sentarán a la mesa con Abraham, Isaac y Jacob en el reino de los cielos."
+    },
+    {
+      "id": "mateo8-nbla-12",
+      "number": 12,
+      "text": "Pero los hijos del reino serán arrojados a las tinieblas de afuera; allí será el llanto y el crujir de dientes»."
+    },
+    {
+      "id": "mateo8-nbla-13",
+      "number": 13,
+      "text": "Entonces Jesús dijo al centurión: «Vete; así como has creído, te sea hecho». Y el criado fue sanado en esa misma hora."
+    },
+    {
+      "id": "mateo8-nbla-14",
+      "number": 14,
+      "text": "Cuando Jesús llegó a casa de Pedro, vio a la suegra de este que estaba en cama con fiebre."
+    },
+    {
+      "id": "mateo8-nbla-15",
+      "number": 15,
+      "text": "Le tocó la mano, y la fiebre la dejó; y ella se levantó y le servía."
+    },
+    {
+      "id": "mateo8-nbla-16",
+      "number": 16,
+      "text": "Y al atardecer, le trajeron muchos endemoniados; y expulsó a los espíritus con Su palabra, y sanó a todos los que estaban enfermos,"
+    },
+    {
+      "id": "mateo8-nbla-17",
+      "number": 17,
+      "text": "para que se cumpliera lo que fue dicho por medio del profeta Isaías cuando dijo: «ÉL TOMÓ NUESTRAS FLAQUEZAS Y LLEVÓ NUESTRAS ENFERMEDADES»."
+    },
+    {
+      "id": "mateo8-nbla-18",
+      "number": 18,
+      "text": "Viendo Jesús una multitud a Su alrededor, dio orden de pasar al otro lado del mar."
+    },
+    {
+      "id": "mateo8-nbla-19",
+      "number": 19,
+      "text": "Y un escriba se acercó y le dijo: «Maestro, te seguiré adondequiera que vayas»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo8-nbla-20a",
+          "order": 1,
+          "text": "Jesús le respondió*: «Las zorras tienen madrigueras y las aves del cielo nidos,"
+        },
+        {
+          "id": "mateo8-nbla-20b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pero el Hijo del Hombre no tiene dónde recostar la cabeza»."
+        }
+      ],
+      "id": "mateo8-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "mateo8-nbla-21",
+      "number": 21,
+      "text": "Otro de los discípulos le dijo: «Señor, permíteme que vaya primero y entierre a mi padre»."
+    },
+    {
+      "id": "mateo8-nbla-22",
+      "number": 22,
+      "text": "Pero Jesús le contestó*: «Ven tras Mí, y deja que los muertos entierren a sus muertos»."
+    },
+    {
+      "id": "mateo8-nbla-23",
+      "number": 23,
+      "text": "Cuando entró Jesús en la barca, Sus discípulos lo siguieron."
+    },
+    {
+      "id": "mateo8-nbla-24",
+      "number": 24,
+      "text": "Y de pronto se desató una gran tormenta en el mar de Galilea, de modo que las olas cubrían la barca; pero Jesús estaba dormido."
+    },
+    {
+      "id": "mateo8-nbla-25",
+      "number": 25,
+      "text": "Llegándose a Él, lo despertaron, diciendo: «¡Señor, sálvanos, que perecemos!»."
+    },
+    {
+      "id": "mateo8-nbla-26",
+      "number": 26,
+      "text": "Y Él les contestó*: «¿Por qué tienen miedo, hombres de poca fe?». Entonces Jesús se levantó, reprendió a los vientos y al mar, y sobrevino una gran calma."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo8-nbla-27a",
+          "order": 1,
+          "text": "Los hombres se maravillaron, y decían: «"
+        },
+        {
+          "id": "mateo8-nbla-27b",
+          "order": 2,
+          "text": "¿Quién es Este, que aun los vientos y el mar lo obedecen?»."
+        }
+      ],
+      "id": "mateo8-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "mateo8-nbla-28",
+      "number": 28,
+      "text": "Al llegar Jesús al otro lado, a la tierra de los gadarenos, fueron a Su encuentro dos endemoniados que salían de los sepulcros, violentos en extremo, de manera que nadie podía pasar por aquel camino."
+    },
+    {
+      "id": "mateo8-nbla-29",
+      "number": 29,
+      "text": "Y gritaron: «¿Qué hay entre Tú y nosotros, Hijo de Dios? ¿Has venido aquí para atormentarnos antes del tiempo?»."
+    },
+    {
+      "id": "mateo8-nbla-30",
+      "number": 30,
+      "text": "A cierta distancia de ellos estaba paciendo una manada de muchos cerdos;"
+    },
+    {
+      "id": "mateo8-nbla-31",
+      "number": 31,
+      "text": "y los demonios le rogaban: «Si vas a echarnos fuera, mándanos a la manada de cerdos»."
+    },
+    {
+      "id": "mateo8-nbla-32",
+      "number": 32,
+      "text": "«¡Vayan!», les dijo Jesús. Y ellos salieron y entraron en los cerdos; y la manada entera se precipitó por un despeñadero al mar, y perecieron en las aguas."
+    },
+    {
+      "id": "mateo8-nbla-33",
+      "number": 33,
+      "text": "Los que cuidaban la manada huyeron; y fueron a la ciudad y lo contaron todo, incluso lo de los endemoniados."
+    },
+    {
+      "id": "mateo8-nbla-34",
+      "number": 34,
+      "text": "Y toda la ciudad salió al encuentro de Jesús; y cuando lo vieron, le rogaron que se fuera de su región."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

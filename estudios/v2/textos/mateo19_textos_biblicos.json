@@ -1,0 +1,634 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA lo dice con la fórmula que se repite en las bodas. Peterson añade una imagen: el matrimonio como obra de arte de Dios. Separar lo que Dios unió no es solo romper un contrato, es dañar algo que él hizo con cuidado. Esa imagen da dignidad a cada matrimonio, incluso a los que están luchando.",
+      "id": "mateo19-joya-01",
+      "msg": {
+        "en": "\"Because God created this organic union of the two sexes, no one should desecrate his art by cutting them apart.\"",
+        "es": "\"Como Dios creó esta unión orgánica de los dos sexos, nadie debería profanar su obra de arte separándolos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo19-nbla-06b"
+          ],
+          "verseId": "mateo19-nbla-06"
+        }
+      ],
+      "order": 1,
+      "range": "4-6"
+    },
+    {
+      "explanation": "La NBLA dice que el reino es de ellos; Peterson, que está hecho de ellos. Los niños no son una distracción para el ministerio serio de Jesús. Son el modelo de quienes entran al reino. Los discípulos los veían como estorbo. Jesús los veía como ejemplo.",
+      "id": "mateo19-joya-02",
+      "msg": {
+        "en": "\"God’s kingdom is made up of people like these.\"",
+        "es": "\"El reino de Dios está hecho de gente como ellos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo19-nbla-14b"
+          ],
+          "verseId": "mateo19-nbla-14"
+        }
+      ],
+      "order": 2,
+      "range": "13-15"
+    },
+    {
+      "explanation": "La NBLA dice que era dueño de muchos bienes. Peterson muestra lo que pasaba por dentro: se aferraba y no podía soltar. En el fondo, sus bienes eran sus dueños. El joven se fue triste. No se fue enojado ni burlándose; se fue triste. Sabía lo que estaba dejando, y aun así no pudo.",
+      "id": "mateo19-joya-03",
+      "msg": {
+        "en": "\"He was holding on tight to a lot of things, and he couldn’t bear to let go.\"",
+        "es": "\"Se aferraba con fuerza a muchas cosas y no soportaba soltarlas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-22"
+        }
+      ],
+      "order": 3,
+      "range": "22"
+    },
+    {
+      "explanation": "La NBLA conserva la frase clásica, breve y redonda. Peterson la traduce en términos de oportunidad: ninguna por cuenta propia, todas si confiamos en Dios. La salvación no está fuera del alcance de nadie, pero tampoco al alcance del esfuerzo de nadie. Está en las manos de Dios, y por eso hay esperanza.",
+      "id": "mateo19-joya-04",
+      "msg": {
+        "en": "\"No chance at all if you think you can pull it off yourself. Every chance in the world if you trust God to do it.\"",
+        "es": "\"Ninguna oportunidad si creen que pueden lograrlo por su cuenta. Todas las oportunidades del mundo si confían en que Dios lo haga.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo19-nbla-26b"
+          ],
+          "verseId": "mateo19-nbla-26"
+        }
+      ],
+      "order": 4,
+      "range": "26"
+    },
+    {
+      "explanation": "Peterson le pone nombre a la frase: el Gran Vuelco. La NBLA la deja sin título, pero con el mismo peso. En el reino, el orden se invierte. El rico que lo tenía todo queda afuera; los pescadores que dejaron sus redes se sientan en tronos. Los niños que nadie tomaba en cuenta son el modelo. Dios no reparte los lugares como lo hace el mundo.",
+      "id": "mateo19-joya-05",
+      "msg": {
+        "en": "\"This is the Great Reversal: many of the first ending up last, and the last first.\"",
+        "es": "\"Este es el Gran Vuelco: muchos de los primeros terminarán siendo los últimos, y los últimos, los primeros.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-30"
+        }
+      ],
+      "order": 5,
+      "range": "28-30"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 19,
+    "studyId": "mateo-19"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo19-msg-01",
+      "msg": {
+        "en": "When Jesus had completed these teachings, he left Galilee and crossed the region of Judea on the other side of the Jordan. Great crowds followed him there, and he healed them.",
+        "es": "Cuando Jesús terminó estas enseñanzas, salió de Galilea y cruzó la región de Judea al otro lado del Jordán. Grandes multitudes lo siguieron hasta allá, y él los sanó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3",
+      "id": "mateo19-msg-02",
+      "msg": {
+        "en": "One day the Pharisees were badgering him: “Is it legal for a man to divorce his wife for any reason?”",
+        "es": "Un día los fariseos lo estaban acosando: «¿Es legal que un hombre se divorcie de su esposa por cualquier motivo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-03"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "4-6",
+      "id": "mateo19-msg-03",
+      "msg": {
+        "en": "He answered, “Haven’t you read in your Bible that the Creator originally made man and woman for each other, male and female? And because of this, a man leaves father and mother and is firmly bonded to his wife, becoming one flesh—no longer two bodies but one. Because God created this organic union of the two sexes, no one should desecrate his art by cutting them apart.”",
+        "es": "Él respondió: «¿No han leído en su Biblia que el Creador, en el principio, hizo al hombre y a la mujer el uno para el otro, varón y hembra? Y por eso el hombre deja a su padre y a su madre y se une firmemente a su esposa, y llegan a ser una sola carne: ya no dos cuerpos, sino uno. Como Dios creó esta unión orgánica de los dos sexos, nadie debería profanar su obra de arte separándolos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "mateo19-msg-04",
+      "msg": {
+        "en": "They shot back in rebuttal, “If that’s so, why did Moses give instructions for divorce papers and divorce procedures?”",
+        "es": "Ellos le respondieron para refutarlo: «Si es así, ¿por qué Moisés dio instrucciones sobre los papeles y los trámites de divorcio?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8-9",
+      "id": "mateo19-msg-05",
+      "msg": {
+        "en": "Jesus said, “Moses provided for divorce as a concession to your hard heartedness, but it is not part of God’s original plan. I’m holding you to the original plan, and holding you liable for adultery if you divorce your faithful wife and then marry someone else. I make an exception in cases where the spouse has committed adultery.”",
+        "es": "Jesús dijo: «Moisés permitió el divorcio como una concesión a la dureza de su corazón, pero no es parte del plan original de Dios. Yo los hago responsables ante el plan original, y los hago responsables de adulterio si se divorcian de su esposa fiel y luego se casan con otra. Hago una excepción en los casos en que el cónyuge ha cometido adulterio»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "mateo19-msg-06",
+      "msg": {
+        "en": "Jesus’ disciples objected, “If those are the terms of marriage, we’re stuck. Why get married?”",
+        "es": "Los discípulos de Jesús objetaron: «Si esas son las condiciones del matrimonio, estamos atrapados. ¿Para qué casarse?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-12",
+      "id": "mateo19-msg-07",
+      "msg": {
+        "en": "But Jesus said, “Not everyone is mature enough to live a married life. It requires a certain aptitude and grace. Marriage isn’t for everyone. Some, from birth seemingly, never give marriage a thought. Others never get asked—or accepted. And some decide not to get married for kingdom reasons. But if you’re capable of growing into the largeness of marriage, do it.”",
+        "es": "Pero Jesús dijo: «No todos tienen la madurez para vivir una vida de casados. Requiere cierta aptitud y gracia. El matrimonio no es para todos. Algunos, al parecer desde que nacen, nunca piensan en casarse. A otros nunca se lo proponen, o nunca los aceptan. Y algunos deciden no casarse por causa del reino. Pero si tienes la capacidad de crecer hacia la grandeza del matrimonio, hazlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "mateo19-msg-08",
+      "msg": {
+        "en": "One day children were brought to Jesus in the hope that he would lay hands on them and pray over them. The disciples shooed them off. But Jesus intervened: “Let the children alone, don’t prevent them from coming to me. God’s kingdom is made up of people like these.” After laying hands on them, he left.",
+        "es": "Un día le trajeron unos niños a Jesús con la esperanza de que les impusiera las manos y orara por ellos. Los discípulos los espantaron. Pero Jesús intervino: «Dejen a los niños en paz, no les impidan venir a mí. El reino de Dios está hecho de gente como ellos». Después de imponerles las manos, se fue."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-15"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "16",
+      "id": "mateo19-msg-09",
+      "msg": {
+        "en": "Another day, a man stopped Jesus and asked, “Teacher, what good thing must I do to get eternal life?”",
+        "es": "Otro día, un hombre detuvo a Jesús y le preguntó: «Maestro, ¿qué cosa buena tengo que hacer para obtener la vida eterna?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-16"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "17",
+      "id": "mateo19-msg-10",
+      "msg": {
+        "en": "Jesus said, “Why do you question me about what’s good? God is the One who is good. If you want to enter the life of God, just do what he tells you.”",
+        "es": "Jesús le dijo: «¿Por qué me preguntas qué es bueno? Dios es el único que es bueno. Si quieres entrar en la vida de Dios, simplemente haz lo que él te dice»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-17"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "mateo19-msg-11",
+      "msg": {
+        "en": "The man asked, “What in particular?”\nJesus said, “Don’t murder, don’t commit adultery, don’t steal, don’t lie, honor your father and mother, and love your neighbor as you do yourself.”",
+        "es": "El hombre preguntó: «¿Qué en particular?».\nJesús dijo: «No mates, no cometas adulterio, no robes, no mientas, honra a tu padre y a tu madre, y ama a tu prójimo como te amas a ti mismo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-19"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "20",
+      "id": "mateo19-msg-12",
+      "msg": {
+        "en": "The young man said, “I’ve done all that. What’s left?”",
+        "es": "El joven dijo: «Todo eso lo he hecho. ¿Qué me falta?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-20"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "21",
+      "id": "mateo19-msg-13",
+      "msg": {
+        "en": "“If you want to give it all you’ve got,” Jesus replied, “go sell your possessions; give everything to the poor. All your wealth will then be in heaven. Then come follow me.”",
+        "es": "«Si quieres darlo todo», respondió Jesús, «ve, vende tus posesiones y dale todo a los pobres. Entonces toda tu riqueza estará en el cielo. Luego ven y sígueme»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-21"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "22",
+      "id": "mateo19-msg-14",
+      "msg": {
+        "en": "That was the last thing the young man expected to hear. And so, crestfallen, he walked away. He was holding on tight to a lot of things, and he couldn’t bear to let go.",
+        "es": "Eso era lo último que el joven esperaba oír. Y así, desanimado, se fue. Se aferraba con fuerza a muchas cosas y no soportaba soltarlas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-22"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "mateo19-msg-15",
+      "msg": {
+        "en": "As he watched him go, Jesus told his disciples, “Do you have any idea how difficult it is for the rich to enter God’s kingdom? Let me tell you, it’s easier to gallop a camel through a needle’s eye than for the rich to enter God’s kingdom.”",
+        "es": "Mientras lo veía irse, Jesús les dijo a sus discípulos: «¿Tienen idea de lo difícil que es para los ricos entrar en el reino de Dios? Les digo que es más fácil hacer pasar un camello al galope por el ojo de una aguja que hacer entrar a los ricos en el reino de Dios»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-24"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "25",
+      "id": "mateo19-msg-16",
+      "msg": {
+        "en": "The disciples were staggered. “Then who has any chance at all?”",
+        "es": "Los discípulos quedaron atónitos. «Entonces, ¿quién tiene alguna oportunidad?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-25"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "26",
+      "id": "mateo19-msg-17",
+      "msg": {
+        "en": "Jesus looked hard at them and said, “No chance at all if you think you can pull it off yourself. Every chance in the world if you trust God to do it.”",
+        "es": "Jesús los miró fijamente y les dijo: «Ninguna oportunidad si creen que pueden lograrlo por su cuenta. Todas las oportunidades del mundo si confían en que Dios lo haga»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-26"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "27",
+      "id": "mateo19-msg-18",
+      "msg": {
+        "en": "Then Peter chimed in, “We left everything and followed you. What do we get out of it?”",
+        "es": "Entonces Pedro intervino: «Nosotros lo dejamos todo y te seguimos. ¿Qué vamos a recibir a cambio?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-27"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "28-30",
+      "id": "mateo19-msg-19",
+      "msg": {
+        "en": "Jesus replied, “Yes, you have followed me. In the re-creation of the world, when the Son of Man will rule gloriously, you who have followed me will also rule, starting with the twelve tribes of Israel. And not only you, but anyone who sacrifices home, family, fields—whatever—because of me will get it all back a hundred times over, not to mention the considerable bonus of eternal life. This is the Great Reversal: many of the first ending up last, and the last first.”",
+        "es": "Jesús respondió: «Sí, ustedes me han seguido. En la recreación del mundo, cuando el Hijo del Hombre gobierne con gloria, ustedes que me han seguido también gobernarán, comenzando con las doce tribus de Israel. Y no solo ustedes, sino cualquiera que sacrifique casa, familia, campos, lo que sea, por causa mía, lo recibirá todo de vuelta cien veces más, sin mencionar la considerable bonificación de la vida eterna. Este es el Gran Vuelco: muchos de los primeros terminarán siendo los últimos, y los últimos, los primeros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo19-nbla-30"
+        }
+      ],
+      "order": 19
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo19-nbla-01",
+      "number": 1,
+      "text": "Cuando Jesús terminó estas palabras, partió de Galilea y se fue a la región de Judea, al otro lado del Jordán;"
+    },
+    {
+      "id": "mateo19-nbla-02",
+      "number": 2,
+      "text": "y grandes multitudes siguieron a Jesús, y los sanó allí."
+    },
+    {
+      "id": "mateo19-nbla-03",
+      "number": 3,
+      "text": "Y se acercaron a Él algunos fariseos para ponerlo a prueba, diciendo: «¿Le está permitido a un hombre divorciarse de su mujer por cualquier motivo?»."
+    },
+    {
+      "id": "mateo19-nbla-04",
+      "number": 4,
+      "text": "Jesús les respondió: «¿No han leído que Aquel que los creó, desde el principio LOS HIZO VARÓN Y HEMBRA,"
+    },
+    {
+      "id": "mateo19-nbla-05",
+      "number": 5,
+      "text": "y dijo: “POR ESTA RAZÓN EL HOMBRE DEJARÁ A su PADRE Y A su MADRE Y SE UNIRÁ A SU MUJER, Y LOS DOS SERÁN UNA SOLA CARNE”?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo19-nbla-06a",
+          "order": 1,
+          "text": "Así que ya no son dos, sino una sola carne."
+        },
+        {
+          "id": "mateo19-nbla-06b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Por tanto, lo que Dios ha unido, ningún hombre lo separe»."
+        }
+      ],
+      "id": "mateo19-nbla-06",
+      "number": 6
+    },
+    {
+      "id": "mateo19-nbla-07",
+      "number": 7,
+      "text": "Ellos le dijeron*: «Entonces, ¿por qué mandó Moisés DARLE CARTA DE DIVORCIO Y REPUDIARLA?»."
+    },
+    {
+      "id": "mateo19-nbla-08",
+      "number": 8,
+      "text": "Él les contestó*: «Por la dureza de su corazón Moisés les permitió a ustedes divorciarse de sus mujeres; pero no ha sido así desde el principio."
+    },
+    {
+      "id": "mateo19-nbla-09",
+      "number": 9,
+      "text": "Pero Yo les digo que cualquiera que se divorcie de su mujer, salvo por infidelidad, y se case con otra, comete adulterio»."
+    },
+    {
+      "id": "mateo19-nbla-10",
+      "number": 10,
+      "text": "Los discípulos le dijeron*: «Si así es la relación del hombre con su mujer, no conviene casarse»."
+    },
+    {
+      "id": "mateo19-nbla-11",
+      "number": 11,
+      "text": "Jesús les dijo: «No todos pueden aceptar este precepto, sino solo aquellos a quienes les ha sido dado."
+    },
+    {
+      "id": "mateo19-nbla-12",
+      "number": 12,
+      "text": "Porque hay eunucos que nacieron así desde el seno de su madre, y hay eunucos que fueron hechos eunucos por los hombres, y también hay eunucos que a sí mismos se hicieron eunucos por causa del reino de los cielos. El que pueda aceptar esto, que lo acepte»."
+    },
+    {
+      "id": "mateo19-nbla-13",
+      "number": 13,
+      "text": "Entonces trajeron algunos niños a Jesús para que pusiera las manos sobre ellos y orara; y los discípulos los reprendieron."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo19-nbla-14a",
+          "order": 1,
+          "text": "Pero Jesús dijo: «Dejen a los niños, y no les impidan que vengan a Mí,"
+        },
+        {
+          "id": "mateo19-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "porque de los que son como estos es el reino de los cielos»."
+        }
+      ],
+      "id": "mateo19-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "mateo19-nbla-15",
+      "number": 15,
+      "text": "Y después de poner Él las manos sobre ellos, se fue de allí."
+    },
+    {
+      "id": "mateo19-nbla-16",
+      "number": 16,
+      "text": "Y un hombre se acercó a Jesús y le dijo: «Maestro, ¿qué cosa buena haré para obtener la vida eterna?»."
+    },
+    {
+      "id": "mateo19-nbla-17",
+      "number": 17,
+      "text": "Jesús le respondió: «¿Por qué me preguntas acerca de lo que es bueno? Solo Uno es bueno; pero si deseas entrar en la vida, guarda los mandamientos»."
+    },
+    {
+      "id": "mateo19-nbla-18",
+      "number": 18,
+      "text": "«¿Cuáles?», preguntó* el hombre. Y Jesús respondió: «NO MATARÁS; NO COMETERÁS ADULTERIO; NO HURTARÁS; NO DARÁS FALSO TESTIMONIO;"
+    },
+    {
+      "id": "mateo19-nbla-19",
+      "number": 19,
+      "text": "HONRA A tu PADRE Y A tu MADRE; y AMARÁS A TU PRÓJIMO COMO A TI MISMO»."
+    },
+    {
+      "id": "mateo19-nbla-20",
+      "number": 20,
+      "text": "El joven dijo*: «Todo esto lo he guardado; ¿qué me falta todavía?»."
+    },
+    {
+      "id": "mateo19-nbla-21",
+      "number": 21,
+      "text": "Jesús le respondió: «Si quieres ser perfecto, ve y vende lo que posees y da a los pobres, y tendrás tesoro en los cielos; y ven, sé Mi discípulo»."
+    },
+    {
+      "id": "mateo19-nbla-22",
+      "number": 22,
+      "text": "Pero al oír el joven estas palabras, se fue triste, porque era dueño de muchos bienes."
+    },
+    {
+      "id": "mateo19-nbla-23",
+      "number": 23,
+      "text": "Jesús dijo entonces a Sus discípulos: «En verdad les digo que es difícil que un rico entre en el reino de los cielos."
+    },
+    {
+      "id": "mateo19-nbla-24",
+      "number": 24,
+      "text": "Otra vez les digo que es más fácil para un camello pasar por el ojo de una aguja, que para un rico entrar en el reino de Dios»."
+    },
+    {
+      "id": "mateo19-nbla-25",
+      "number": 25,
+      "text": "Al oír esto, los discípulos estaban llenos de asombro, y decían: «Entonces, ¿quién podrá salvarse?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo19-nbla-26a",
+          "order": 1,
+          "text": "Jesús, mirándolos, les dijo: «"
+        },
+        {
+          "id": "mateo19-nbla-26b",
+          "order": 2,
+          "text": "Para los hombres eso es imposible, pero para Dios todo es posible»."
+        }
+      ],
+      "id": "mateo19-nbla-26",
+      "number": 26
+    },
+    {
+      "id": "mateo19-nbla-27",
+      "number": 27,
+      "text": "Entonces Pedro le respondió: «Mira, nosotros lo hemos dejado todo y te hemos seguido; ¿qué, pues, recibiremos?»."
+    },
+    {
+      "id": "mateo19-nbla-28",
+      "number": 28,
+      "text": "Jesús les dijo: «En verdad les digo que ustedes que me han seguido, en la regeneración, cuando el Hijo del Hombre se siente en el trono de Su gloria, ustedes se sentarán también sobre doce tronos para juzgar a las doce tribus de Israel."
+    },
+    {
+      "id": "mateo19-nbla-29",
+      "number": 29,
+      "text": "Y todo el que haya dejado casas, o hermanos, o hermanas, o padre, o madre, o hijos o tierras por Mi nombre, recibirá cien veces más, y heredará la vida eterna."
+    },
+    {
+      "id": "mateo19-nbla-30",
+      "number": 30,
+      "text": "Pero muchos primeros serán últimos, y los últimos, primeros."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

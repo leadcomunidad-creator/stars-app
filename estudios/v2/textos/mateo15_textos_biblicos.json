@@ -1,0 +1,727 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA conserva la cita de Isaías: honran con los labios. Peterson la convierte en un espectáculo de palabras correctas. Se puede tener el vocabulario perfecto de la fe, orar con frases aprendidas, cantar con entusiasmo, y tener el corazón en otra parte. Dios escucha la letra, pero mira el corazón.",
+      "id": "mateo15-joya-01",
+      "msg": {
+        "en": "\"These people make a big show of saying the right thing,\"",
+        "es": "\"Esta gente hace un gran espectáculo diciendo lo correcto,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo15-nbla-08a"
+          ],
+          "verseId": "mateo15-nbla-08"
+        }
+      ],
+      "order": 1,
+      "range": "3-9"
+    },
+    {
+      "explanation": "La NBLA dice «lo que sale de la boca». Peterson elige un verbo crudo: vomitar. Es una imagen fuerte a propósito. Las palabras malas no salen por accidente; son lo que el corazón ya no puede contener. Lo que soltamos cuando estamos enojados o cansados revela lo que llevábamos adentro.",
+      "id": "mateo15-joya-02",
+      "msg": {
+        "en": "\"It’s not what you swallow that pollutes your life, but what you vomit up.\"",
+        "es": "\"No es lo que tragan lo que contamina su vida, sino lo que vomitan.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-11"
+        }
+      ],
+      "order": 2,
+      "range": "10-11"
+    },
+    {
+      "explanation": "Las dos versiones coinciden, porque la imagen no necesita traducción. Un ciego que guía a otro termina con los dos en el hoyo. El peligro de los líderes religiosos que no ven es que arrastran a otros. Jesús les dice a sus discípulos que no se preocupen por la ofensa de los fariseos. Es más grave seguirlos que ofenderlos.",
+      "id": "mateo15-joya-03",
+      "msg": {
+        "en": "\"They are blind men leading blind men.\"",
+        "es": "\"Son ciegos que guían a ciegos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo15-nbla-14b"
+          ],
+          "verseId": "mateo15-nbla-14"
+        }
+      ],
+      "order": 3,
+      "range": "13-14"
+    },
+    {
+      "explanation": "La mujer no discute la imagen de Jesús; la usa a su favor. La NBLA conserva el diminutivo, perrillos, que suaviza la palabra. Peterson los describe como perros que piden. Ella acepta su lugar, pero cree que hasta las migajas de esa mesa tienen poder. Esa mezcla de humildad e insistencia es lo que Jesús llama gran fe.",
+      "id": "mateo15-joya-04",
+      "msg": {
+        "en": "\"You’re right, Master, but beggar dogs do get scraps from the master’s table.\"",
+        "es": "\"Tienes razón, Maestro, pero los perros que piden sí reciben las sobras de la mesa del amo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo15-nbla-27b"
+          ],
+          "verseId": "mateo15-nbla-27"
+        }
+      ],
+      "order": 4,
+      "range": "27"
+    },
+    {
+      "explanation": "La NBLA conserva la solemnidad: grande es tu fe. Peterson pone en boca de Jesús una exclamación casi de admiración. Es uno de los pocos elogios que Jesús hace a la fe de alguien en este evangelio, y los dos casos son de extranjeros: el centurión romano y esta mujer cananea. La fe que asombra a Jesús viene muchas veces de donde menos se espera.",
+      "id": "mateo15-joya-05",
+      "msg": {
+        "en": "\"Oh, woman, your faith is something else. What you want is what you get!\"",
+        "es": "\"¡Ay, mujer, tu fe es algo extraordinario! ¡Lo que quieres es lo que recibes!\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo15-nbla-28b"
+          ],
+          "verseId": "mateo15-nbla-28"
+        }
+      ],
+      "order": 5,
+      "range": "28"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 15,
+    "studyId": "mateo-15"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo15-msg-01",
+      "msg": {
+        "en": "After that, Pharisees and religion scholars came to Jesus all the way from Jerusalem, criticizing, “Why do your disciples play fast and loose with the rules?”",
+        "es": "Después de eso, unos fariseos y estudiosos de la religión vinieron a Jesús desde Jerusalén, criticándolo: «¿Por qué tus discípulos hacen lo que les da la gana con las reglas?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-9",
+      "id": "mateo15-msg-02",
+      "msg": {
+        "en": "But Jesus put it right back on them. “Why do you use your rules to play fast and loose with God’s commands? God clearly says, ‘Respect your father and mother,’ and, ‘Anyone denouncing father or mother should be killed.’ But you weasel around that by saying, ‘Whoever wants to, can say to father and mother, What I owed to you I’ve given to God.’ That can hardly be called respecting a parent. You cancel God’s command by your rules. Frauds! Isaiah’s prophecy of you hit the bull’s-eye:\nThese people make a big show of saying the right thing,\nbut their heart isn’t in it.\nThey act like they’re worshiping me,\nbut they don’t mean it.\nThey just use me as a cover\nfor teaching whatever suits their fancy.”",
+        "es": "Pero Jesús les devolvió la pregunta. «¿Por qué ustedes usan sus reglas para hacer lo que les da la gana con los mandamientos de Dios? Dios dice claramente: “Respeta a tu padre y a tu madre”, y: “El que maldiga a su padre o a su madre debe morir”. Pero ustedes se escabullen de eso diciendo: “Cualquiera que quiera puede decirle a su padre o a su madre: Lo que te debía se lo di a Dios”. Eso difícilmente puede llamarse respetar a los padres. Ustedes anulan el mandamiento de Dios con sus reglas. ¡Farsantes! La profecía de Isaías sobre ustedes dio en el blanco:\nEsta gente hace un gran espectáculo diciendo lo correcto,\npero su corazón no está en ello.\nActúan como si me adoraran,\npero no lo sienten.\nSolo me usan como fachada\npara enseñar lo que se les antoja»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-09"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "10-11",
+      "id": "mateo15-msg-03",
+      "msg": {
+        "en": "He then called the crowd together and said, “Listen, and take this to heart.\nIt’s not what you swallow that pollutes your life, but what you vomit up.”",
+        "es": "Luego reunió a la multitud y dijo: «Escuchen, y guárdenlo en el corazón.\nNo es lo que tragan lo que contamina su vida, sino lo que vomitan»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-11"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "12",
+      "id": "mateo15-msg-04",
+      "msg": {
+        "en": "Later his disciples came and told him, “Did you know how upset the\nPharisees were when they heard what you said?”",
+        "es": "Más tarde sus discípulos vinieron y le dijeron: «¿Sabes lo molestos que quedaron los fariseos cuando oyeron lo que dijiste?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-12"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "mateo15-msg-05",
+      "msg": {
+        "en": "Jesus shrugged it off. “Every tree that wasn’t planted by my Father in heaven will be pulled up by its roots. Forget them. They are blind men leading blind men. When a blind man leads a blind man, they both end up in the ditch.”",
+        "es": "Jesús no le dio importancia. «Toda planta que mi Padre del cielo no sembró será arrancada de raíz. Olvídense de ellos. Son ciegos que guían a ciegos. Cuando un ciego guía a otro ciego, los dos terminan en la zanja»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15",
+      "id": "mateo15-msg-06",
+      "msg": {
+        "en": "Peter said, “I don’t get it. Put it in plain language.”",
+        "es": "Pedro dijo: «No lo entiendo. Dilo en palabras sencillas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-15"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "16-20",
+      "id": "mateo15-msg-07",
+      "msg": {
+        "en": "Jesus replied, “You, too? Are you being willfully stupid? Don’t you know that anything that is swallowed works its way through the intestines and is finally defecated? But what comes out of the mouth gets its start in the heart. It’s from the heart that we vomit up evil arguments, murders, adulteries, fornications, thefts, lies, and cussing. That’s what pollutes. Eating or not eating certain foods, washing or not washing your hands—that’s neither here nor there.”",
+        "es": "Jesús respondió: «¿Tú también? ¿Te estás haciendo el tonto a propósito? ¿No sabes que todo lo que se traga pasa por los intestinos y al final se expulsa? Pero lo que sale de la boca empieza en el corazón. Es del corazón de donde vomitamos argumentos malvados, asesinatos, adulterios, inmoralidades sexuales, robos, mentiras e insultos. Eso es lo que contamina. Comer o no comer ciertos alimentos, lavarse o no lavarse las manos, eso no tiene nada que ver»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-20"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "21-22",
+      "id": "mateo15-msg-08",
+      "msg": {
+        "en": "From there Jesus took a trip to Tyre and Sidon. They had hardly arrived when a Canaanite woman came down from the hills and pleaded, “Mercy, Master, Son of David! My daughter is cruelly afflicted by an evil spirit.”",
+        "es": "De allí Jesús hizo un viaje a Tiro y Sidón. Apenas habían llegado cuando una mujer cananea bajó de las colinas y le suplicó: «¡Misericordia, Maestro, Hijo de David! Mi hija está cruelmente atormentada por un espíritu maligno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-22"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "23",
+      "id": "mateo15-msg-09",
+      "msg": {
+        "en": "Jesus ignored her. The disciples came and complained, “Now she’s bothering us. Would you please take care of her? She’s driving us crazy.”",
+        "es": "Jesús no le hizo caso. Los discípulos vinieron a quejarse: «Ahora nos está molestando a nosotros. ¿Podrías encargarte de ella? Nos está volviendo locos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-23"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "24",
+      "id": "mateo15-msg-10",
+      "msg": {
+        "en": "Jesus refused, telling them, “I’ve got my hands full dealing with the lost sheep of Israel.”",
+        "es": "Jesús se negó y les dijo: «Tengo las manos llenas atendiendo a las ovejas perdidas de Israel»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "25",
+      "id": "mateo15-msg-11",
+      "msg": {
+        "en": "Then the woman came back to Jesus, went to her knees, and begged. “Master, help me.”",
+        "es": "Entonces la mujer volvió donde Jesús, se arrodilló y le rogó: «Maestro, ayúdame»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-25"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "26",
+      "id": "mateo15-msg-12",
+      "msg": {
+        "en": "He said, “It’s not right to take bread out of children’s mouths and throw it to dogs.”",
+        "es": "Él dijo: «No está bien quitarles el pan de la boca a los hijos y echárselo a los perros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-26"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "27",
+      "id": "mateo15-msg-13",
+      "msg": {
+        "en": "She was quick: “You’re right, Master, but beggar dogs do get scraps from the master’s table.”",
+        "es": "Ella respondió rápido: «Tienes razón, Maestro, pero los perros que piden sí reciben las sobras de la mesa del amo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-27"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "28",
+      "id": "mateo15-msg-14",
+      "msg": {
+        "en": "Jesus gave in. “Oh, woman, your faith is something else. What you want is what you get!” Right then her daughter became well.",
+        "es": "Jesús cedió. «¡Ay, mujer, tu fe es algo extraordinario! ¡Lo que quieres es lo que recibes!». En ese mismo momento su hija quedó sana."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-28"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "mateo15-msg-15",
+      "msg": {
+        "en": "After Jesus returned, he walked along Lake Galilee and then climbed a mountain and took his place, ready to receive visitors. They came, tons of them, bringing along the paraplegic, the blind, the maimed, the mute—all sorts of people in need—and more or less threw them down at Jesus’ feet to see what he would do with them. He healed them. When the people saw the mutes speaking, the maimed healthy, the paraplegics walking around, the blind looking around, they were astonished and let everyone know that God was blazingly alive among them.",
+        "es": "Después de que Jesús regresó, caminó a lo largo del lago de Galilea y luego subió a una montaña y se sentó, listo para recibir visitas. Llegaron montones de personas, trayendo paralíticos, ciegos, lisiados, mudos, toda clase de gente necesitada, y más o menos los tiraron a los pies de Jesús para ver qué hacía con ellos. Él los sanó. Cuando la gente vio a los mudos hablando, a los lisiados sanos, a los paralíticos caminando y a los ciegos mirando a su alrededor, quedaron asombrados y le hicieron saber a todo el mundo que Dios estaba ardientemente vivo entre ellos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-31"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "32",
+      "id": "mateo15-msg-16",
+      "msg": {
+        "en": "But Jesus wasn’t finished with them. He called his disciples and said, “I hurt for these people. For three days now they’ve been with me, and now they have nothing to eat. I can’t send them away without a meal—they’d probably collapse on the road.”",
+        "es": "Pero Jesús todavía no había terminado con ellos. Llamó a sus discípulos y les dijo: «Me duele esta gente. Ya llevan tres días conmigo, y ahora no tienen nada que comer. No puedo despedirlos sin una comida; probablemente se desmayarían en el camino»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-32"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "33",
+      "id": "mateo15-msg-17",
+      "msg": {
+        "en": "His disciples said, “But where in this deserted place are you going to dig up enough food for a meal?”",
+        "es": "Sus discípulos le dijeron: «Pero ¿de dónde vas a sacar, en este lugar desierto, comida suficiente para todos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-33"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "34-39",
+      "id": "mateo15-msg-18",
+      "msg": {
+        "en": "Jesus asked, “How much bread do you have?”\n“Seven loaves,” they said, “plus a few fish.” At that, Jesus directed the people to sit down. He took the seven loaves and the fish. After giving thanks, he divided it up and gave it to the people. Everyone ate. They had all they wanted. It took seven large baskets to collect the leftovers. Over four thousand people ate their fill at that meal. After Jesus sent them away, he climbed in the boat and crossed over to the Magadan hills.",
+        "es": "Jesús les preguntó: «¿Cuánto pan tienen?».\n«Siete panes», dijeron, «y unos pocos pescados». Entonces Jesús le indicó a la gente que se sentara. Tomó los siete panes y los pescados. Después de dar gracias, los repartió y se los dio a la gente. Todos comieron. Comieron todo lo que quisieron. Se necesitaron siete canastas grandes para recoger las sobras. Más de cuatro mil personas comieron hasta quedar satisfechas en esa comida. Después de despedirlos, Jesús subió a la barca y cruzó hacia las colinas de Magadán."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo15-nbla-39"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo15-nbla-01",
+      "number": 1,
+      "text": "Entonces se acercaron* a Jesús algunos escribas y fariseos de Jerusalén, diciendo:"
+    },
+    {
+      "id": "mateo15-nbla-02",
+      "number": 2,
+      "text": "«¿Por qué Tus discípulos quebrantan la tradición de los ancianos? Pues no se lavan las manos cuando comen pan»."
+    },
+    {
+      "id": "mateo15-nbla-03",
+      "number": 3,
+      "text": "Jesús les preguntó: «¿Por qué también quebrantan ustedes el mandamiento de Dios a causa de su tradición?"
+    },
+    {
+      "id": "mateo15-nbla-04",
+      "number": 4,
+      "text": "Porque Dios dijo: “HONRA A tu PADRE Y A tu MADRE”, y: “QUIEN HABLE MAL DE su PADRE O DE su MADRE, QUE MUERA”."
+    },
+    {
+      "id": "mateo15-nbla-05",
+      "number": 5,
+      "text": "Pero ustedes dicen: “Cualquiera que diga a su padre o a su madre: ‘Es ofrenda a Dios todo lo mío con que pudieras ser ayudado’,"
+    },
+    {
+      "id": "mateo15-nbla-06",
+      "number": 6,
+      "text": "no necesitará más honrar a su padre o a su madre”. Y así ustedes invalidaron la palabra de Dios por causa de su tradición."
+    },
+    {
+      "id": "mateo15-nbla-07",
+      "number": 7,
+      "text": "¡Hipócritas! Bien profetizó Isaías de ustedes cuando dijo:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo15-nbla-08a",
+          "order": 1,
+          "text": "“ESTE PUEBLO CON LOS LABIOS ME HONRA,"
+        },
+        {
+          "id": "mateo15-nbla-08b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "PERO SU CORAZÓN ESTÁ MUY LEJOS DE MÍ."
+        }
+      ],
+      "id": "mateo15-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "mateo15-nbla-09",
+      "number": 9,
+      "text": "PUES EN VANO ME RINDEN CULTO,\nENSEÑANDO COMO DOCTRINAS PRECEPTOS DE HOMBRES”»."
+    },
+    {
+      "id": "mateo15-nbla-10",
+      "number": 10,
+      "text": "Llamando junto a Él a la multitud, Jesús les dijo: «Oigan y entiendan:"
+    },
+    {
+      "id": "mateo15-nbla-11",
+      "number": 11,
+      "text": "no es lo que entra en la boca lo que contamina al hombre; sino lo que sale de la boca, eso es lo que contamina al hombre»."
+    },
+    {
+      "id": "mateo15-nbla-12",
+      "number": 12,
+      "text": "Entonces, acercándose los discípulos, le dijeron*: «¿Sabes que los fariseos se escandalizaron cuando oyeron Tus palabras?»."
+    },
+    {
+      "id": "mateo15-nbla-13",
+      "number": 13,
+      "text": "Pero Él contestó: «Toda planta que Mi Padre celestial no haya plantado, será desarraigada."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo15-nbla-14a",
+          "order": 1,
+          "text": "Déjenlos;"
+        },
+        {
+          "id": "mateo15-nbla-14b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "son ciegos guías de ciegos"
+        },
+        {
+          "id": "mateo15-nbla-14c",
+          "order": 3,
+          "text": ". Y si un ciego guía a otro ciego, ambos caerán en el hoyo»."
+        }
+      ],
+      "id": "mateo15-nbla-14",
+      "number": 14
+    },
+    {
+      "id": "mateo15-nbla-15",
+      "number": 15,
+      "text": "Entonces Pedro dijo a Jesús: «Explícanos la parábola»."
+    },
+    {
+      "id": "mateo15-nbla-16",
+      "number": 16,
+      "text": "Jesús les dijo: «¿También están ustedes aún faltos de entendimiento?"
+    },
+    {
+      "id": "mateo15-nbla-17",
+      "number": 17,
+      "text": "¿No entienden que todo lo que entra en la boca va al estómago y luego se elimina?"
+    },
+    {
+      "id": "mateo15-nbla-18",
+      "number": 18,
+      "text": "Pero lo que sale de la boca proviene del corazón, y eso es lo que contamina al hombre."
+    },
+    {
+      "id": "mateo15-nbla-19",
+      "number": 19,
+      "text": "Porque del corazón provienen malos pensamientos, homicidios, adulterios, fornicaciones, robos, falsos testimonios y calumnias."
+    },
+    {
+      "id": "mateo15-nbla-20",
+      "number": 20,
+      "text": "Estas cosas son las que contaminan al hombre; pero comer sin lavarse las manos no contamina al hombre»."
+    },
+    {
+      "id": "mateo15-nbla-21",
+      "number": 21,
+      "text": "Saliendo Jesús de allí, se retiró a la región de Tiro y de Sidón."
+    },
+    {
+      "id": "mateo15-nbla-22",
+      "number": 22,
+      "text": "Entonces una mujer cananea que había salido de aquella región, comenzó a gritar: «Señor, Hijo de David, ten misericordia de mí; mi hija está terriblemente endemoniada»."
+    },
+    {
+      "id": "mateo15-nbla-23",
+      "number": 23,
+      "text": "Pero Él no le contestó nada. Y acercándose Sus discípulos, le rogaban: «Atiéndela, pues viene gritando tras nosotros»."
+    },
+    {
+      "id": "mateo15-nbla-24",
+      "number": 24,
+      "text": "Y Jesús respondió: «No he sido enviado sino a las ovejas perdidas de la casa de Israel»."
+    },
+    {
+      "id": "mateo15-nbla-25",
+      "number": 25,
+      "text": "Pero acercándose ella, se postró ante Él, diciendo: «¡Señor, ayúdame!»."
+    },
+    {
+      "id": "mateo15-nbla-26",
+      "number": 26,
+      "text": "Y Él le dijo: «No está bien tomar el pan de los hijos, y echárselo a los perrillos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo15-nbla-27a",
+          "order": 1,
+          "text": "Ella respondió: «"
+        },
+        {
+          "id": "mateo15-nbla-27b",
+          "order": 2,
+          "text": "Sí, Señor; pero también los perrillos comen de las migajas que caen de la mesa de sus amos»."
+        }
+      ],
+      "id": "mateo15-nbla-27",
+      "number": 27
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo15-nbla-28a",
+          "order": 1,
+          "text": "Entonces Jesús le dijo: «"
+        },
+        {
+          "id": "mateo15-nbla-28b",
+          "order": 2,
+          "text": "Oh mujer, grande es tu fe; que te suceda como deseas"
+        },
+        {
+          "id": "mateo15-nbla-28c",
+          "order": 3,
+          "text": "». Y su hija quedó sana desde aquel momento."
+        }
+      ],
+      "id": "mateo15-nbla-28",
+      "number": 28
+    },
+    {
+      "id": "mateo15-nbla-29",
+      "number": 29,
+      "text": "Pasando Jesús de allí, vino junto al mar de Galilea, y subiendo al monte, se sentó allí."
+    },
+    {
+      "id": "mateo15-nbla-30",
+      "number": 30,
+      "text": "Y vinieron a Él grandes multitudes trayendo consigo cojos, lisiados, ciegos, mudos y muchos otros enfermos y los pusieron a Sus pies y Él los sanó;"
+    },
+    {
+      "id": "mateo15-nbla-31",
+      "number": 31,
+      "text": "de modo que la muchedumbre se maravilló al ver que los mudos hablaban, los lisiados quedaban restaurados, los cojos caminaban y los ciegos veían; y glorificaron al Dios de Israel."
+    },
+    {
+      "id": "mateo15-nbla-32",
+      "number": 32,
+      "text": "Entonces Jesús, llamando junto a Él a Sus discípulos, les dijo: «Tengo compasión de la multitud, porque ya hace tres días que están aquí y no tienen qué comer; y no quiero despedirlos sin comer, no sea que desfallezcan en el camino»."
+    },
+    {
+      "id": "mateo15-nbla-33",
+      "number": 33,
+      "text": "Y los discípulos le dijeron*: «¿Dónde podríamos conseguir en el desierto tantos panes para saciar a una multitud tan grande?»."
+    },
+    {
+      "id": "mateo15-nbla-34",
+      "number": 34,
+      "text": "«¿Cuántos panes tienen?», les preguntó* Jesús. Ellos respondieron: «Siete, y unos pocos pececillos»."
+    },
+    {
+      "id": "mateo15-nbla-35",
+      "number": 35,
+      "text": "Y Él mandó a la multitud que se sentara en el suelo;"
+    },
+    {
+      "id": "mateo15-nbla-36",
+      "number": 36,
+      "text": "tomó los siete panes y los peces, y después de dar gracias, los partió y empezó a darlos a los discípulos, y los discípulos a las multitudes."
+    },
+    {
+      "id": "mateo15-nbla-37",
+      "number": 37,
+      "text": "Comieron todos y se saciaron; y recogieron de lo que sobró de los pedazos, siete canastas llenas."
+    },
+    {
+      "id": "mateo15-nbla-38",
+      "number": 38,
+      "text": "Los que comieron fueron 4,000 hombres, sin contar las mujeres y los niños."
+    },
+    {
+      "id": "mateo15-nbla-39",
+      "number": 39,
+      "text": "Después de despedir a la muchedumbre, subió a la barca y se fue a la región de Magadán."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA menciona dos razones: los juramentos y los invitados. Peterson va al fondo: no quería quedar mal. Un profeta murió por la vanidad de un rey que temía más la opinión de sus invitados que a Dios. Cuántas decisiones malas se toman todavía por no quedar mal delante de otros.",
+      "id": "mateo14-joya-01",
+      "msg": {
+        "en": "\"Unwilling to lose face with his guests, he did it\"",
+        "es": "\"Como no quería quedar mal delante de sus invitados, lo hizo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo14-nbla-09b"
+          ],
+          "verseId": "mateo14-nbla-09"
+        }
+      ],
+      "order": 1,
+      "range": "6-12"
+    },
+    {
+      "explanation": "Jesús acababa de perder a Juan y buscaba estar solo. La multitud interrumpió su duelo. Las dos versiones dicen lo mismo: tuvo compasión. No los despidió para atender su propio dolor. Su tristeza no lo volvió indiferente. Al contrario, parece que lo hizo más sensible al sufrimiento de los demás.",
+      "id": "mateo14-joya-02",
+      "msg": {
+        "en": "\"When he saw them coming, he was overcome with pity and healed their sick.\"",
+        "es": "\"Cuando los vio venir, se le llenó el corazón de compasión y sanó a sus enfermos.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-14"
+        }
+      ],
+      "order": 2,
+      "range": "13-14"
+    },
+    {
+      "explanation": "Las dos versiones conservan el énfasis en «ustedes». Los discípulos querían delegar el problema en las aldeas. Jesús se los devuelve. La necesidad que tenemos delante muchas veces es justo la que Dios quiere atender a través de nosotros, aunque sintamos que no tenemos casi nada.",
+      "id": "mateo14-joya-03",
+      "msg": {
+        "en": "\"There is no need to dismiss them. You give them supper.\"",
+        "es": "\"No hay necesidad de despedirlos. Denles ustedes de cenar.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo14-nbla-16b"
+          ],
+          "verseId": "mateo14-nbla-16"
+        }
+      ],
+      "order": 3,
+      "range": "16"
+    },
+    {
+      "explanation": "Tres frases cortas que las dos versiones traducen casi igual. Ánimo, soy yo, no teman. La NBLA escribe «Yo» con mayúscula, señalando el eco del nombre divino. Jesús no explica cómo camina sobre el agua. Solo dice quién es. Para el miedo, la mejor respuesta no es una explicación, sino una presencia.",
+      "id": "mateo14-joya-04",
+      "msg": {
+        "en": "\"Courage, it’s me. Don’t be afraid.\"",
+        "es": "\"Ánimo, soy yo. No tengan miedo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo14-nbla-27b"
+          ],
+          "verseId": "mateo14-nbla-27"
+        }
+      ],
+      "order": 4,
+      "range": "27"
+    },
+    {
+      "explanation": "La NBLA dice «al instante»; Peterson, «no lo dudó». Pedro dudó, pero Jesús no. Esa es la diferencia que salva. Nuestra fe puede vacilar en medio de las olas, pero la mano de Jesús no vacila. Él rescata primero, y después conversa.",
+      "id": "mateo14-joya-05",
+      "msg": {
+        "en": "\"Jesus didn’t hesitate. He reached down and grabbed his hand.\"",
+        "es": "\"Jesús no lo dudó. Extendió la mano y lo agarró.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo14-nbla-31a"
+          ],
+          "verseId": "mateo14-nbla-31"
+        }
+      ],
+      "order": 5,
+      "range": "31"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 14,
+    "studyId": "mateo-14"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo14-msg-01",
+      "msg": {
+        "en": "At about this time, Herod, the regional ruler, heard what was being said about Jesus. He said to his servants, “This has to be John the Baptizer come back from the dead. That’s why he’s able to work miracles!”",
+        "es": "Por ese tiempo, Herodes, el gobernante de la región, oyó lo que se decía de Jesús. Les dijo a sus sirvientes: «Este tiene que ser Juan el Bautista, que volvió de entre los muertos. ¡Por eso puede hacer milagros!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "mateo14-msg-02",
+      "msg": {
+        "en": "Herod had arrested John, put him in chains, and sent him to prison to placate Herodias, his brother Philip’s wife. John had provoked Herod by naming his relationship with Herodias “adultery.” Herod wanted to kill him, but he was afraid because so many people revered John as a prophet of God.",
+        "es": "Herodes había arrestado a Juan, lo había encadenado y lo había mandado a la cárcel para complacer a Herodías, la esposa de su hermano Felipe. Juan había provocado a Herodes al llamar «adulterio» su relación con Herodías. Herodes quería matarlo, pero tenía miedo porque mucha gente veneraba a Juan como profeta de Dios."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-12",
+      "id": "mateo14-msg-03",
+      "msg": {
+        "en": "But at his birthday celebration, he got his chance. Herodias’s daughter provided the entertainment, dancing for the guests. She swept Herod away. In his drunken enthusiasm, he promised her on oath anything she wanted. Already coached by her mother, she was ready: “Give me, served up on a platter, the head of John the Baptizer.” That sobered the king up fast. Unwilling to lose face with his guests, he did it—ordered John’s head cut off and presented to the girl on a platter. She in turn gave it to her mother. Later, John’s disciples got the body, gave it a reverent burial, and reported to Jesus.",
+        "es": "Pero en la celebración de su cumpleaños tuvo su oportunidad. La hija de Herodías se encargó del entretenimiento y bailó para los invitados. Dejó a Herodes deslumbrado. En su entusiasmo de borracho, le prometió bajo juramento cualquier cosa que quisiera. Como su madre ya la había instruido, ella estaba lista: «Dame, servida en una bandeja, la cabeza de Juan el Bautista». Eso le quitó la borrachera al rey enseguida. Como no quería quedar mal delante de sus invitados, lo hizo: ordenó que le cortaran la cabeza a Juan y se la presentaran a la muchacha en una bandeja. Ella, a su vez, se la dio a su madre. Más tarde, los discípulos de Juan recogieron el cuerpo, lo sepultaron con respeto y fueron a contárselo a Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-12"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "13-14",
+      "id": "mateo14-msg-04",
+      "msg": {
+        "en": "When Jesus got the news, he slipped away by boat to an out-of-the-way place by himself. But unsuccessfully—someone saw him and the word got around. Soon a lot of people from the nearby villages walked around the lake to where he was. When he saw them coming, he was overcome with pity and healed their sick.",
+        "es": "Cuando Jesús recibió la noticia, se escabulló en una barca hacia un lugar apartado para estar solo. Pero no lo logró: alguien lo vio y la noticia corrió. Pronto mucha gente de las aldeas cercanas rodeó el lago caminando hasta donde él estaba. Cuando los vio venir, se le llenó el corazón de compasión y sanó a sus enfermos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-14"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "15",
+      "id": "mateo14-msg-05",
+      "msg": {
+        "en": "Toward evening the disciples approached him. “We’re out in the country and it’s getting late. Dismiss the people so they can go to the villages and get some supper.”",
+        "es": "Al caer la tarde, los discípulos se le acercaron. «Estamos en pleno campo y se está haciendo tarde. Despide a la gente para que vaya a las aldeas y consiga algo de cenar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-15"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "16",
+      "id": "mateo14-msg-06",
+      "msg": {
+        "en": "But Jesus said, “There is no need to dismiss them. You give them supper.”",
+        "es": "Pero Jesús dijo: «No hay necesidad de despedirlos. Denles ustedes de cenar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-16"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "17",
+      "id": "mateo14-msg-07",
+      "msg": {
+        "en": "“All we have are five loaves of bread and two fish,” they said.",
+        "es": "«Lo único que tenemos son cinco panes y dos pescados», dijeron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-21",
+      "id": "mateo14-msg-08",
+      "msg": {
+        "en": "Jesus said, “Bring them here.” Then he had the people sit on the grass. He took the five loaves and two fish, lifted his face to heaven in prayer, blessed, broke, and gave the bread to the disciples. The disciples then gave the food to the congregation. They all ate their fill. They gathered twelve baskets of leftovers. About five thousand were fed.",
+        "es": "Jesús dijo: «Tráiganmelos». Luego hizo que la gente se sentara en la hierba. Tomó los cinco panes y los dos pescados, levantó el rostro al cielo en oración, bendijo, partió y les dio el pan a los discípulos. Los discípulos, a su vez, le dieron la comida a la congregación. Todos comieron hasta quedar satisfechos. Recogieron doce canastas de sobras. Comieron unos cinco mil."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "mateo14-msg-09",
+      "msg": {
+        "en": "As soon as the meal was finished, he insisted that the disciples get in the boat and go on ahead to the other side while he dismissed the people. With the crowd dispersed, he climbed the mountain so he could be by himself and pray. He stayed there alone, late into the night.",
+        "es": "En cuanto terminó la comida, insistió en que los discípulos subieran a la barca y se adelantaran al otro lado mientras él despedía a la gente. Cuando la multitud se dispersó, subió a la montaña para estar solo y orar. Se quedó allí solo hasta muy tarde en la noche."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-23"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "24-26",
+      "id": "mateo14-msg-10",
+      "msg": {
+        "en": "Meanwhile, the boat was far out to sea when the wind came up against them and they were battered by the waves. At about four o’clock in the morning, Jesus came toward them walking on the water. They were scared out of their wits. “A ghost!” they said, crying out in terror.",
+        "es": "Mientras tanto, la barca estaba lejos en el mar cuando se levantó un viento en contra y las olas la golpeaban. Como a las cuatro de la madrugada, Jesús fue hacia ellos caminando sobre el agua. Se asustaron hasta perder el juicio. «¡Un fantasma!», dijeron, gritando de terror."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-26"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "27",
+      "id": "mateo14-msg-11",
+      "msg": {
+        "en": "But Jesus was quick to comfort them. “Courage, it’s me. Don’t be afraid.”",
+        "es": "Pero Jesús se apresuró a consolarlos. «Ánimo, soy yo. No tengan miedo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-27"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "28",
+      "id": "mateo14-msg-12",
+      "msg": {
+        "en": "Peter, suddenly bold, said, “Master, if it’s really you, call me to come to you on the water.”",
+        "es": "Pedro, de repente lleno de valor, dijo: «Maestro, si de verdad eres tú, llámame para que vaya hacia ti sobre el agua»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-28"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "29-30",
+      "id": "mateo14-msg-13",
+      "msg": {
+        "en": "He said, “Come ahead.”\nJumping out of the boat, Peter walked on the water to Jesus. But when he looked down at the waves churning beneath his feet, he lost his nerve and started to sink. He cried, “Master, save me!”",
+        "es": "Él dijo: «Ven».\nPedro saltó de la barca y caminó sobre el agua hacia Jesús. Pero cuando miró hacia abajo, a las olas que se agitaban bajo sus pies, perdió el valor y empezó a hundirse. Gritó: «¡Maestro, sálvame!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-30"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "31",
+      "id": "mateo14-msg-14",
+      "msg": {
+        "en": "Jesus didn’t hesitate. He reached down and grabbed his hand. Then he said, “Faint-heart, what got into you?”",
+        "es": "Jesús no lo dudó. Extendió la mano y lo agarró. Luego le dijo: «Corazón débil, ¿qué te pasó?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-31"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "32-33",
+      "id": "mateo14-msg-15",
+      "msg": {
+        "en": "The two of them climbed into the boat, and the wind died down. The disciples in the boat, having watched the whole thing, worshiped Jesus, saying, “This is it! You are God’s Son for sure!”",
+        "es": "Los dos subieron a la barca, y el viento se calmó. Los discípulos en la barca, que habían visto todo, adoraron a Jesús diciendo: «¡Esto es! ¡De verdad eres el Hijo de Dios!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-33"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "34-36",
+      "id": "mateo14-msg-16",
+      "msg": {
+        "en": "On return, they beached the boat at Gennesaret. When the people got wind that he was back, they sent out word through the neighborhood and rounded up all the sick, who asked for permission to touch the edge of his coat. And whoever touched him was healed.",
+        "es": "Al regresar, atracaron la barca en Genesaret. Cuando la gente se enteró de que había vuelto, corrieron la voz por todo el vecindario y reunieron a todos los enfermos, que le pedían permiso para tocar el borde de su manto. Y todo el que lo tocaba quedaba sano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo14-nbla-36"
+        }
+      ],
+      "order": 16
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo14-nbla-01",
+      "number": 1,
+      "text": "Por aquel tiempo, Herodes el tetrarca oyó la fama de Jesús,"
+    },
+    {
+      "id": "mateo14-nbla-02",
+      "number": 2,
+      "text": "y dijo a sus sirvientes: «Este es Juan el Bautista. Él ha resucitado de entre los muertos, y por eso es que poderes milagrosos actúan en él»."
+    },
+    {
+      "id": "mateo14-nbla-03",
+      "number": 3,
+      "text": "Porque antes Herodes había prendido a Juan, y lo había atado y puesto en la cárcel por causa de Herodías, mujer de su hermano Felipe;"
+    },
+    {
+      "id": "mateo14-nbla-04",
+      "number": 4,
+      "text": "porque Juan le decía: «No te es lícito tenerla»."
+    },
+    {
+      "id": "mateo14-nbla-05",
+      "number": 5,
+      "text": "Y aunque Herodes quería matarlo, tenía miedo al pueblo, porque consideraban a Juan como un profeta."
+    },
+    {
+      "id": "mateo14-nbla-06",
+      "number": 6,
+      "text": "Pero cuando llegó el cumpleaños de Herodes, la hija de Herodías danzó ante ellos y agradó a Herodes."
+    },
+    {
+      "id": "mateo14-nbla-07",
+      "number": 7,
+      "text": "Por lo cual le prometió con juramento darle lo que ella pidiera."
+    },
+    {
+      "id": "mateo14-nbla-08",
+      "number": 8,
+      "text": "Ella, instigada por su madre, dijo*: «Dame aquí, en una bandeja la cabeza de Juan el Bautista»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo14-nbla-09a",
+          "order": 1,
+          "text": "Y aunque el rey se entristeció,"
+        },
+        {
+          "id": "mateo14-nbla-09b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "a causa de sus juramentos y de sus invitados, ordenó que se la dieran;"
+        }
+      ],
+      "id": "mateo14-nbla-09",
+      "number": 9
+    },
+    {
+      "id": "mateo14-nbla-10",
+      "number": 10,
+      "text": "y mandó decapitar a Juan en la cárcel."
+    },
+    {
+      "id": "mateo14-nbla-11",
+      "number": 11,
+      "text": "Trajeron su cabeza en una bandeja y se la dieron a la muchacha, y ella se la llevó a su madre."
+    },
+    {
+      "id": "mateo14-nbla-12",
+      "number": 12,
+      "text": "Los discípulos de Juan llegaron y recogieron el cuerpo y lo sepultaron; y fueron y se lo comunicaron a Jesús."
+    },
+    {
+      "id": "mateo14-nbla-13",
+      "number": 13,
+      "text": "Al oír esto, Jesús se fue de allí en una barca, solo, a un lugar desierto; y cuando las multitudes lo supieron, lo siguieron a pie desde las ciudades."
+    },
+    {
+      "id": "mateo14-nbla-14",
+      "number": 14,
+      "text": "Cuando Jesús desembarcó, vio una gran multitud, y tuvo compasión de ellos y sanó a sus enfermos."
+    },
+    {
+      "id": "mateo14-nbla-15",
+      "number": 15,
+      "text": "Al atardecer se acercaron los discípulos, diciendo: «El lugar está desierto y la hora ya es avanzada; despide, pues, a las multitudes para que vayan a las aldeas y se compren alimentos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo14-nbla-16a",
+          "order": 1,
+          "text": "Pero Jesús les dijo: «"
+        },
+        {
+          "id": "mateo14-nbla-16b",
+          "order": 2,
+          "text": "No hay necesidad de que se vayan; denles ustedes de comer»."
+        }
+      ],
+      "id": "mateo14-nbla-16",
+      "number": 16
+    },
+    {
+      "id": "mateo14-nbla-17",
+      "number": 17,
+      "text": "Entonces ellos dijeron*: «No tenemos aquí más que cinco panes y dos peces»."
+    },
+    {
+      "id": "mateo14-nbla-18",
+      "number": 18,
+      "text": "«Traigan acá los panes y los peces», les dijo."
+    },
+    {
+      "id": "mateo14-nbla-19",
+      "number": 19,
+      "text": "Y ordenando a la muchedumbre que se sentara sobre la hierba, Jesús tomó los cinco panes y los dos peces, y levantando los ojos al cielo, bendijo los alimentos. Después partió los panes y se los dio a los discípulos y los discípulos a la multitud."
+    },
+    {
+      "id": "mateo14-nbla-20",
+      "number": 20,
+      "text": "Todos comieron y se saciaron; y recogieron lo que sobró de los pedazos: doce cestas llenas."
+    },
+    {
+      "id": "mateo14-nbla-21",
+      "number": 21,
+      "text": "Y los que comieron fueron unos 5,000 hombres, sin contar las mujeres y los niños."
+    },
+    {
+      "id": "mateo14-nbla-22",
+      "number": 22,
+      "text": "Enseguida Jesús hizo que los discípulos subieran a la barca y fueran delante de Él a la otra orilla, mientras Él despedía a la multitud."
+    },
+    {
+      "id": "mateo14-nbla-23",
+      "number": 23,
+      "text": "Después de despedir a la multitud, subió al monte a solas para orar; y al anochecer, estaba allí solo."
+    },
+    {
+      "id": "mateo14-nbla-24",
+      "number": 24,
+      "text": "Pero la barca ya estaba muy lejos de tierra, y era azotada por las olas, porque el viento era contrario."
+    },
+    {
+      "id": "mateo14-nbla-25",
+      "number": 25,
+      "text": "A la cuarta vigilia de la noche (3 a 6 a.m.), Jesús vino a ellos andando sobre el mar."
+    },
+    {
+      "id": "mateo14-nbla-26",
+      "number": 26,
+      "text": "Y los discípulos, al ver a Jesús andar sobre el mar, se turbaron, y decían: «¡Es un fantasma!». Y de miedo, se pusieron a gritar."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo14-nbla-27a",
+          "order": 1,
+          "text": "Pero enseguida Jesús les dijo: «"
+        },
+        {
+          "id": "mateo14-nbla-27b",
+          "order": 2,
+          "text": "Tengan ánimo, soy Yo; no teman»."
+        }
+      ],
+      "id": "mateo14-nbla-27",
+      "number": 27
+    },
+    {
+      "id": "mateo14-nbla-28",
+      "number": 28,
+      "text": "Y Pedro le respondió: «Señor, si eres Tú, mándame que vaya a Ti sobre las aguas»."
+    },
+    {
+      "id": "mateo14-nbla-29",
+      "number": 29,
+      "text": "«Ven», le dijo Jesús. Y descendiendo Pedro de la barca, caminó sobre las aguas, y fue hacia Jesús."
+    },
+    {
+      "id": "mateo14-nbla-30",
+      "number": 30,
+      "text": "Pero viendo la fuerza del viento tuvo miedo, y empezando a hundirse gritó: «¡Señor, sálvame!»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo14-nbla-31a",
+          "order": 1,
+          "text": "Al instante Jesús, extendiendo la mano, lo sostuvo"
+        },
+        {
+          "id": "mateo14-nbla-31b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y le dijo*: «Hombre de poca fe, ¿por qué dudaste?»."
+        }
+      ],
+      "id": "mateo14-nbla-31",
+      "number": 31
+    },
+    {
+      "id": "mateo14-nbla-32",
+      "number": 32,
+      "text": "Cuando ellos subieron a la barca, el viento se calmó."
+    },
+    {
+      "id": "mateo14-nbla-33",
+      "number": 33,
+      "text": "Entonces los que estaban en la barca lo adoraron, diciendo: «En verdad eres Hijo de Dios»."
+    },
+    {
+      "id": "mateo14-nbla-34",
+      "number": 34,
+      "text": "Terminada la travesía, bajaron a tierra en Genesaret."
+    },
+    {
+      "id": "mateo14-nbla-35",
+      "number": 35,
+      "text": "Y cuando los hombres de aquel lugar reconocieron a Jesús, enviaron a decirlo por toda aquella región de alrededor y le trajeron todos los que tenían algún mal."
+    },
+    {
+      "id": "mateo14-nbla-36",
+      "number": 36,
+      "text": "Y le rogaban que les dejara tocar siquiera el borde de Su manto; y todos los que lo tocaban quedaban curados."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

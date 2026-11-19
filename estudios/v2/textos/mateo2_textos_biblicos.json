@@ -1,0 +1,514 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Peterson convierte el viaje de los magos en una peregrinación, una palabra que en la Biblia se usa para los judíos que subían a Jerusalén en las fiestas. Aquí los peregrinos son extranjeros, y el destino no es el templo sino un niño. La NBLA es más escueta, pero el verbo es el mismo: vinieron a adorar.",
+      "id": "mateo2-joya-01",
+      "msg": {
+        "en": "\"We’re on pilgrimage to worship him.\"",
+        "es": "\"Venimos en peregrinación para adorarlo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo2-nbla-02b"
+          ],
+          "verseId": "mateo2-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-2"
+    },
+    {
+      "explanation": "La NBLA dice que se turbó; Peterson sube el tono a «aterrado». La noticia que llenó de alegría a los extranjeros llenó de miedo a la capital religiosa. Jerusalén prefería un rey cruel conocido a la incertidumbre de un rey nuevo. El evangelio siempre divide así: a unos los alegra y a otros los asusta.",
+      "id": "mateo2-joya-02",
+      "msg": {
+        "en": "\"he was terrified—and not Herod alone, but most of Jerusalem as well.\"",
+        "es": "\"quedó aterrado, y no solo Herodes, sino casi toda Jerusalén\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo2-nbla-03b"
+          ],
+          "verseId": "mateo2-nbla-03"
+        }
+      ],
+      "order": 2,
+      "range": "3-4"
+    },
+    {
+      "explanation": "La NBLA deja que las palabras de Herodes hablen solas, y el lector descubre la mentira después. Peterson la nombra de entrada: fingía devoción. Es la forma más peligrosa de oposición a Dios, la que usa el lenguaje de la adoración para esconder un plan de muerte.",
+      "id": "mateo2-joya-03",
+      "msg": {
+        "en": "\"Pretending to be as devout as they were\"",
+        "es": "\"Fingiendo ser tan devoto como ellos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo2-nbla-08b"
+          ],
+          "verseId": "mateo2-nbla-08"
+        }
+      ],
+      "order": 3,
+      "range": "7-8"
+    },
+    {
+      "explanation": "El griego acumula palabras de gozo, y la NBLA lo conserva: se regocijaron mucho con gran alegría. Peterson pone esa alegría en la voz de los viajeros, como quien grita al ver por fin la casa después de un viaje largo. No es la alegría de un sentimiento religioso, sino la de quien busca y encuentra.",
+      "id": "mateo2-joya-04",
+      "msg": {
+        "en": "\"They could hardly contain themselves: They were in the right place! They had arrived at the right time!\"",
+        "es": "\"Casi no podían contenerse: ¡estaban en el lugar correcto! ¡Habían llegado en el momento correcto!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-10"
+        }
+      ],
+      "order": 4,
+      "range": "9-10"
+    },
+    {
+      "explanation": "Hombres importantes, con tesoros y séquito, se arrodillan ante un niño en una casa común. La NBLA dice que se postraron, el gesto ante un rey. Peterson añade que estaban conmovidos. La adoración verdadera empieza cuando algo nos desarma por dentro y termina con las rodillas en el suelo.",
+      "id": "mateo2-joya-05",
+      "msg": {
+        "en": "\"Overcome, they kneeled and worshiped him.\"",
+        "es": "\"Conmovidos, se arrodillaron y lo adoraron.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo2-nbla-11b"
+          ],
+          "verseId": "mateo2-nbla-11"
+        }
+      ],
+      "order": 5,
+      "range": "11"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 2,
+    "studyId": "mateo-2"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo2-msg-01",
+      "msg": {
+        "en": "After Jesus was born in Bethlehem village, Judah territory—this was during Herod’s kingship—a band of scholars arrived in Jerusalem from the East. They asked around, “Where can we find and pay homage to the newborn King of the Jews? We observed a star in the eastern sky that signaled his birth. We’re on pilgrimage to worship him.”",
+        "es": "Después de que Jesús nació en la aldea de Belén, territorio de Judá —esto fue durante el reinado de Herodes—, una comitiva de sabios llegó a Jerusalén desde el Oriente. Iban preguntando por todas partes: «¿Dónde podemos encontrar y rendir homenaje al Rey de los judíos que acaba de nacer? Vimos en el cielo del oriente una estrella que anunciaba su nacimiento. Venimos en peregrinación para adorarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-4",
+      "id": "mateo2-msg-02",
+      "msg": {
+        "en": "When word of their inquiry got to Herod, he was terrified—and not Herod alone, but most of Jerusalem as well. Herod lost no time. He gathered all the high priests and religion scholars in the city together and asked, “Where is the Messiah supposed to be born?”",
+        "es": "Cuando la noticia de su búsqueda llegó a Herodes, quedó aterrado, y no solo Herodes, sino casi toda Jerusalén. Herodes no perdió tiempo. Reunió a todos los sumos sacerdotes y a los estudiosos de la religión de la ciudad y les preguntó: «¿Dónde se supone que va a nacer el Mesías?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "mateo2-msg-03",
+      "msg": {
+        "en": "They told him, “Bethlehem, Judah territory. The prophet Micah wrote it plainly:\nIt’s you, Bethlehem, in Judah’s land,\nno longer bringing up the rear.\nFrom you will come the leader\nwho will shepherd-rule my people, my Israel.”",
+        "es": "Le dijeron: «En Belén, territorio de Judá. El profeta Miqueas lo escribió claramente:\nTú, Belén, en la tierra de Judá,\nya no vas a la cola de nadie.\nDe ti saldrá el líder\nque pastoreará y gobernará a mi pueblo, a mi Israel»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7-8",
+      "id": "mateo2-msg-04",
+      "msg": {
+        "en": "Herod then arranged a secret meeting with the scholars from the East. Pretending to be as devout as they were, he got them to tell him exactly when the birth-announcement star appeared. Then he told them the prophecy about Bethlehem, and said, “Go find this child. Leave no stone unturned. As soon as you find him, send word and I’ll join you at once in your worship.”",
+        "es": "Entonces Herodes organizó una reunión secreta con los sabios del Oriente. Fingiendo ser tan devoto como ellos, consiguió que le dijeran exactamente cuándo había aparecido la estrella que anunciaba el nacimiento. Luego les contó la profecía sobre Belén y les dijo: «Vayan a buscar a ese niño. No dejen piedra sin mover. En cuanto lo encuentren, avísenme y yo iré enseguida a unirme a su adoración»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "mateo2-msg-05",
+      "msg": {
+        "en": "Instructed by the king, they set off. Then the star appeared again, the same star they had seen in the eastern skies. It led them on until it hovered over the place of the child. They could hardly contain themselves: They were in the right place! They had arrived at the right time!",
+        "es": "Con las instrucciones del rey, se pusieron en camino. Entonces la estrella volvió a aparecer, la misma estrella que habían visto en los cielos del oriente. Los fue guiando hasta que se detuvo sobre el lugar donde estaba el niño. Casi no podían contenerse: ¡estaban en el lugar correcto! ¡Habían llegado en el momento correcto!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-10"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "11",
+      "id": "mateo2-msg-06",
+      "msg": {
+        "en": "They entered the house and saw the child in the arms of Mary, his mother. Overcome, they kneeled and worshiped him. Then they opened their luggage and presented gifts: gold, frankincense, myrrh.",
+        "es": "Entraron en la casa y vieron al niño en los brazos de María, su madre. Conmovidos, se arrodillaron y lo adoraron. Luego abrieron su equipaje y le presentaron regalos: oro, incienso y mirra."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-11"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "12",
+      "id": "mateo2-msg-07",
+      "msg": {
+        "en": "In a dream, they were warned not to report back to Herod. So they worked out another route, left the territory without being seen, and returned to their own country.",
+        "es": "En un sueño se les advirtió que no volvieran a informar a Herodes. Así que buscaron otra ruta, salieron del territorio sin ser vistos y regresaron a su propio país."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-12"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "13",
+      "id": "mateo2-msg-08",
+      "msg": {
+        "en": "After the scholars were gone, God’s angel showed up again in Joseph’s dream and commanded, “Get up. Take the child and his mother and flee to Egypt. Stay until further notice. Herod is on the hunt for this child, and wants to kill him.”",
+        "es": "Después de que los sabios se fueron, el ángel de Dios se presentó otra vez en un sueño de José y le ordenó: «Levántate. Toma al niño y a su madre y huye a Egipto. Quédate allí hasta nuevo aviso. Herodes anda a la caza de este niño y quiere matarlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-13"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "14-15",
+      "id": "mateo2-msg-09",
+      "msg": {
+        "en": "Joseph obeyed. He got up, took the child and his mother under cover of darkness. They were out of town and well on their way by daylight. They lived in Egypt until Herod’s death. This Egyptian exile fulfilled what Hosea had preached: “I called my son out of Egypt.”",
+        "es": "José obedeció. Se levantó y tomó al niño y a su madre al amparo de la oscuridad. Cuando amaneció ya estaban fuera del pueblo y muy adelantados en el camino. Vivieron en Egipto hasta la muerte de Herodes. Este exilio en Egipto cumplió lo que Oseas había predicado: «De Egipto llamé a mi hijo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-15"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "16-18",
+      "id": "mateo2-msg-10",
+      "msg": {
+        "en": "Herod, when he realized that the scholars had tricked him, flew into a rage. He commanded the murder of every little boy two years old and under who lived in Bethlehem and its surrounding hills. (He determined that age from information he’d gotten from the scholars.) That’s when Jeremiah’s sermon was fulfilled:\nA sound was heard in Ramah,\nweeping and much lament.\nRachel weeping for her children,\nRachel refusing all solace,\nHer children gone,\ndead and buried.",
+        "es": "Herodes, cuando se dio cuenta de que los sabios lo habían engañado, se enfureció. Ordenó matar a todos los niños varones de dos años para abajo que vivían en Belén y en las colinas de alrededor. (Calculó esa edad con la información que les había sacado a los sabios). Fue entonces cuando se cumplió el sermón de Jeremías:\nSe oyó un sonido en Ramá,\nllanto y mucho lamento.\nRaquel llora por sus hijos,\nRaquel rechaza todo consuelo;\nsus hijos ya no están,\nmuertos y sepultados."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-18"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "19-20",
+      "id": "mateo2-msg-11",
+      "msg": {
+        "en": "Later, when Herod died, God’s angel appeared in a dream to Joseph in Egypt: “Up, take the child and his mother and return to Israel. All those out to murder the child are dead.”",
+        "es": "Más tarde, cuando Herodes murió, el ángel de Dios se le apareció en un sueño a José en Egipto: «Arriba, toma al niño y a su madre y vuelve a Israel. Todos los que querían matar al niño están muertos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-20"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "21-23",
+      "id": "mateo2-msg-12",
+      "msg": {
+        "en": "Joseph obeyed. He got up, took the child and his mother, and reentered Israel. When he heard, though, that Archelaus had succeeded his father, Herod, as king in Judea, he was afraid to go there. But then Joseph was directed in a dream to go to the hills of Galilee. On arrival, he settled in the village of Nazareth. This move was a fulfillment of the prophetic words, “He shall be called a Nazarene.”",
+        "es": "José obedeció. Se levantó, tomó al niño y a su madre y volvió a entrar en Israel. Pero cuando supo que Arquelao había sucedido a su padre, Herodes, como rey en Judea, tuvo miedo de ir allá. Entonces, en un sueño, José recibió la indicación de ir a las colinas de Galilea. Al llegar, se estableció en la aldea de Nazaret. Este traslado cumplió las palabras proféticas: «Lo llamarán nazareno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-21"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo2-nbla-23"
+        }
+      ],
+      "order": 12
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo2-nbla-01",
+      "number": 1,
+      "text": "Después de nacer Jesús en Belén de Judea, en tiempos del rey Herodes, unos sabios del oriente llegaron a Jerusalén, preguntando:"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo2-nbla-02a",
+          "order": 1,
+          "text": "«¿Dónde está el Rey de los judíos que ha nacido? Porque vimos Su estrella en el oriente"
+        },
+        {
+          "id": "mateo2-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y lo hemos venido a adorar»."
+        }
+      ],
+      "id": "mateo2-nbla-02",
+      "number": 2
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo2-nbla-03a",
+          "order": 1,
+          "text": "Cuando lo oyó el rey Herodes,"
+        },
+        {
+          "id": "mateo2-nbla-03b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "se turbó, y toda Jerusalén con él."
+        }
+      ],
+      "id": "mateo2-nbla-03",
+      "number": 3
+    },
+    {
+      "id": "mateo2-nbla-04",
+      "number": 4,
+      "text": "Entonces, el rey reunió a todos los principales sacerdotes y escribas del pueblo, y averiguó de ellos dónde había de nacer el Cristo."
+    },
+    {
+      "id": "mateo2-nbla-05",
+      "number": 5,
+      "text": "Y ellos le dijeron: «En Belén de Judea, porque así está escrito por el profeta:"
+    },
+    {
+      "id": "mateo2-nbla-06",
+      "number": 6,
+      "text": "“Y TÚ, BELÉN, TIERRA DE JUDÁ,\nDE NINGÚN MODO ERES LA MÁS PEQUEÑA ENTRE LOS PRÍNCIPES DE JUDÁ;\nPORQUE DE TI SALDRÁ UN GOBERNANTE\nQUE PASTOREARÁ A MI PUEBLO ISRAEL”»."
+    },
+    {
+      "id": "mateo2-nbla-07",
+      "number": 7,
+      "text": "Entonces Herodes llamó a los sabios en secreto y de ellos determinó el tiempo exacto en que había aparecido la estrella."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo2-nbla-08a",
+          "order": 1,
+          "text": "Y enviándolos a Belén, dijo: «Vayan y busquen con diligencia al Niño; y cuando lo encuentren,"
+        },
+        {
+          "id": "mateo2-nbla-08b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "avísenme para que yo también vaya y lo adore»."
+        }
+      ],
+      "id": "mateo2-nbla-08",
+      "number": 8
+    },
+    {
+      "id": "mateo2-nbla-09",
+      "number": 9,
+      "text": "Después de oír al rey, los sabios se fueron; y la estrella que habían visto en el oriente iba delante de ellos, hasta que llegó y se detuvo sobre el lugar donde estaba el Niño."
+    },
+    {
+      "id": "mateo2-nbla-10",
+      "number": 10,
+      "text": "Cuando vieron la estrella, se regocijaron mucho con gran alegría."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo2-nbla-11a",
+          "order": 1,
+          "text": "Entrando en la casa, vieron al Niño con Su madre María, y"
+        },
+        {
+          "id": "mateo2-nbla-11b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "postrándose lo adoraron"
+        },
+        {
+          "id": "mateo2-nbla-11c",
+          "order": 3,
+          "text": "; y abriendo sus tesoros le presentaron obsequios de oro, incienso y mirra."
+        }
+      ],
+      "id": "mateo2-nbla-11",
+      "number": 11
+    },
+    {
+      "id": "mateo2-nbla-12",
+      "number": 12,
+      "text": "Y habiendo sido advertidos por Dios en sueños que no volvieran a Herodes, se fueron para su tierra por otro camino."
+    },
+    {
+      "id": "mateo2-nbla-13",
+      "number": 13,
+      "text": "Después de haberse marchado ellos, un ángel del Señor se apareció* a José en sueños, diciendo: «Levántate, toma al Niño y a Su madre y huye a Egipto, y quédate allí hasta que yo te diga; porque Herodes quiere buscar y matar al Niño»."
+    },
+    {
+      "id": "mateo2-nbla-14",
+      "number": 14,
+      "text": "Y levantándose José, tomó de noche al Niño y a Su madre, y se trasladó a Egipto;"
+    },
+    {
+      "id": "mateo2-nbla-15",
+      "number": 15,
+      "text": "estuvo allá hasta la muerte de Herodes, para que se cumpliera lo que el Señor habló por medio del profeta, diciendo: «DE EGIPTO LLAMÉ A MI HIJO»."
+    },
+    {
+      "id": "mateo2-nbla-16",
+      "number": 16,
+      "text": "Herodes, al verse burlado por los sabios, se enfureció en gran manera, y mandó matar a todos los niños que había en Belén y en todos sus alrededores, de dos años para abajo, según el tiempo que había averiguado de los sabios."
+    },
+    {
+      "id": "mateo2-nbla-17",
+      "number": 17,
+      "text": "Entonces se cumplió lo que fue dicho por medio del profeta Jeremías, cuando dijo:"
+    },
+    {
+      "id": "mateo2-nbla-18",
+      "number": 18,
+      "text": "«SE OYÓ UNA VOZ EN RAMÁ,\nLLANTO Y GRAN LAMENTACIÓN;\nRAQUEL QUE LLORA A SUS HIJOS,\nY QUE NO QUISO SER CONSOLADA\nPORQUE ya NO EXISTEN»."
+    },
+    {
+      "id": "mateo2-nbla-19",
+      "number": 19,
+      "text": "Pero cuando murió Herodes, un ángel del Señor se apareció* en sueños a José en Egipto, diciéndole:"
+    },
+    {
+      "id": "mateo2-nbla-20",
+      "number": 20,
+      "text": "«Levántate, toma al Niño y a Su madre y vete a la tierra de Israel, porque los que atentaban contra la vida del Niño han muerto»."
+    },
+    {
+      "id": "mateo2-nbla-21",
+      "number": 21,
+      "text": "Y levantándose, José tomó al Niño y a Su madre, y vino a la tierra de Israel."
+    },
+    {
+      "id": "mateo2-nbla-22",
+      "number": 22,
+      "text": "Pero cuando oyó que Arquelao reinaba sobre Judea en lugar de su padre Herodes, tuvo miedo de ir allá; y advertido por Dios en sueños, se fue para la región de Galilea."
+    },
+    {
+      "id": "mateo2-nbla-23",
+      "number": 23,
+      "text": "Cuando llegó, vivió en una ciudad llamada Nazaret, para que se cumpliera lo que fue dicho por medio de los profetas: «Él será llamado Nazareno»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

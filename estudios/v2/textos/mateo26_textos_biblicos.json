@@ -1,0 +1,1296 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA dice «buena obra»; Peterson la llama hermosa y muy significativa. Los discípulos vieron un desperdicio. Jesús vio una ofrenda que entendía lo que ellos no: que él iba a morir. El amor que parece exagerado a los ojos de los calculadores puede ser el más lúcido. Esa mujer será recordada dondequiera que se predique el evangelio.",
+      "id": "mateo26-joya-01",
+      "msg": {
+        "en": "\"She has just done something wonderfully significant for me.\"",
+        "es": "\"Acaba de hacer algo hermoso y muy significativo por mí.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo26-nbla-10b"
+          ],
+          "verseId": "mateo26-nbla-10"
+        }
+      ],
+      "order": 1,
+      "range": "10-13"
+    },
+    {
+      "explanation": "La NBLA conserva la fórmula que la iglesia repite en cada Cena del Señor. Peterson subraya que el pacto es de Dios: no es un acuerdo que nosotros firmamos, sino una promesa que él establece. Y se sella con sangre derramada. El perdón de los pecados no es barato. Cuesta la vida del Hijo.",
+      "id": "mateo26-joya-02",
+      "msg": {
+        "en": "\"God’s new covenant poured out for many people\"",
+        "es": "\"el nuevo pacto de Dios derramado por mucha gente\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-28"
+        }
+      ],
+      "order": 2,
+      "range": "26-29"
+    },
+    {
+      "explanation": "La NBLA conserva la fórmula de entrega. Peterson la convierte en una pregunta al Padre: tú, ¿qué quieres? Es una manera hermosa de entender la oración más difícil de Jesús. No es resignación fría, sino conversación de un Hijo que, en medio de la angustia, sigue buscando la voluntad de su Padre.",
+      "id": "mateo26-joya-03",
+      "msg": {
+        "en": "\"But please, not what I want. You, what do you want?\"",
+        "es": "\"Pero, por favor, no lo que yo quiero. Tú, ¿qué quieres?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo26-nbla-39b"
+          ],
+          "verseId": "mateo26-nbla-39"
+        }
+      ],
+      "order": 3,
+      "range": "39"
+    },
+    {
+      "explanation": "La NBLA conserva la frase clásica: el espíritu está dispuesto, pero la carne es débil. Peterson la vuelve casi tierna con la imagen del perro viejo. Jesús no desprecia a sus discípulos dormidos. Reconoce que quieren, pero no pueden. Y les da un remedio: velen y oren. La debilidad no se vence con fuerza de voluntad, sino con oración.",
+      "id": "mateo26-joya-04",
+      "msg": {
+        "en": "\"There is a part of you that is eager, ready for anything in God. But there’s another part that’s as lazy as an old dog sleeping by the fire.\"",
+        "es": "\"Hay una parte de ustedes que está entusiasmada, lista para cualquier cosa en Dios. Pero hay otra parte que es tan perezosa como un perro viejo dormido junto al fuego.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo26-nbla-41b"
+          ],
+          "verseId": "mateo26-nbla-41"
+        }
+      ],
+      "order": 4,
+      "range": "40-41"
+    },
+    {
+      "explanation": "La NBLA dice «amargamente». Peterson repite el verbo tres veces, una por cada negación. Es la imagen de un hombre roto. Pero esas lágrimas fueron el comienzo de su restauración. El llanto de Pedro no fue el final de su historia; fue la puerta por la que volvió. Hay lágrimas que destruyen y lágrimas que sanan.",
+      "id": "mateo26-joya-05",
+      "msg": {
+        "en": "\"He went out and cried and cried and cried.\"",
+        "es": "\"Salió y lloró, y lloró, y lloró.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo26-nbla-75b"
+          ],
+          "verseId": "mateo26-nbla-75"
+        }
+      ],
+      "order": 5,
+      "range": "74-75"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 26,
+    "studyId": "mateo-26"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo26-msg-01",
+      "msg": {
+        "en": "When Jesus finished saying these things, he told his disciples, “You know that Passover comes in two days. That’s when the Son of Man will be betrayed and handed over for crucifixion.”",
+        "es": "Cuando Jesús terminó de decir estas cosas, les dijo a sus discípulos: «Ustedes saben que la Pascua es dentro de dos días. Ese es el momento en que el Hijo del Hombre será traicionado y entregado para ser crucificado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "mateo26-msg-02",
+      "msg": {
+        "en": "At that very moment, the party of high priests and religious leaders was meeting in the chambers of the Chief Priest named Caiaphas, conspiring to seize Jesus by stealth and kill him. They agreed that it should not be done during Passover Week. “We don’t want a riot on our hands,” they said.",
+        "es": "En ese mismo momento, el grupo de los sumos sacerdotes y los líderes religiosos estaba reunido en el palacio del sumo sacerdote, llamado Caifás, conspirando para apresar a Jesús a escondidas y matarlo. Acordaron que no debía hacerse durante la semana de la Pascua. «No queremos un motín entre manos», dijeron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-9",
+      "id": "mateo26-msg-03",
+      "msg": {
+        "en": "When Jesus was at Bethany, a guest of Simon the Leper, a woman came up to him as he was eating dinner and anointed him with a bottle of very expensive perfume. When the disciples saw what was happening, they were furious. “That’s criminal! This could have been sold for a lot and the money handed out to the poor.”",
+        "es": "Cuando Jesús estaba en Betania, de visita en casa de Simón el leproso, una mujer se le acercó mientras cenaba y lo ungió con un frasco de perfume muy caro. Cuando los discípulos vieron lo que estaba pasando, se pusieron furiosos. «¡Eso es un crimen! Esto se pudo haber vendido por mucho dinero y repartírselo a los pobres»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-09"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "10-13",
+      "id": "mateo26-msg-04",
+      "msg": {
+        "en": "When Jesus realized what was going on, he intervened. “Why are you giving this woman a hard time? She has just done something wonderfully significant for me. You will have the poor with you every day for the rest of your lives, but not me. When she poured this perfume on my body, what she really did was anoint me for burial. You can be sure that wherever in the whole world the Message is preached, what she has just done is going to be remembered and admired.”",
+        "es": "Cuando Jesús se dio cuenta de lo que pasaba, intervino. «¿Por qué molestan a esta mujer? Acaba de hacer algo hermoso y muy significativo por mí. A los pobres los tendrán con ustedes todos los días por el resto de su vida, pero a mí no. Cuando derramó este perfume sobre mi cuerpo, lo que en realidad hizo fue ungirme para la sepultura. Pueden estar seguros de que en cualquier lugar del mundo donde se predique el Mensaje, se recordará y se admirará lo que ella acaba de hacer»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-13"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "mateo26-msg-05",
+      "msg": {
+        "en": "That is when one of the Twelve, the one named Judas Iscariot, went to the cabal of high priests and said, “What will you give me if I hand him over to you?” They settled on thirty silver pieces. He began looking for just the right moment to hand him over.",
+        "es": "Fue entonces cuando uno de los Doce, el llamado Judas Iscariote, fue a la camarilla de los sumos sacerdotes y les dijo: «¿Qué me dan si se lo entrego?». Acordaron treinta monedas de plata. Desde entonces empezó a buscar el momento justo para entregarlo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-16"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "17",
+      "id": "mateo26-msg-06",
+      "msg": {
+        "en": "On the first of the Days of Unleavened Bread, the disciples came to Jesus and said, “Where do you want us to prepare your Passover meal?”",
+        "es": "El primero de los días de los Panes sin Levadura, los discípulos vinieron a Jesús y le dijeron: «¿Dónde quieres que preparemos tu cena de Pascua?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-17"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "mateo26-msg-07",
+      "msg": {
+        "en": "He said, “Enter the city. Go up to a certain man and say, ‘The Teacher says, My time is near. I and my disciples plan to celebrate the Passover meal at your house.’” The disciples followed Jesus’ instructions to the letter, and prepared the Passover meal.",
+        "es": "Él dijo: «Entren en la ciudad. Busquen a cierto hombre y díganle: “El Maestro dice: Mi tiempo está cerca. Mis discípulos y yo pensamos celebrar la cena de Pascua en tu casa”». Los discípulos siguieron al pie de la letra las instrucciones de Jesús y prepararon la cena de Pascua."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-19"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "20-21",
+      "id": "mateo26-msg-08",
+      "msg": {
+        "en": "After sunset, he and the Twelve were sitting around the table. During the meal, he said, “I have something hard but important to say to you: One of you is going to hand me over to the conspirators.”",
+        "es": "Después de la puesta del sol, él y los Doce estaban sentados alrededor de la mesa. Durante la cena, dijo: «Tengo algo difícil pero importante que decirles: uno de ustedes me va a entregar a los conspiradores»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-21"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "22",
+      "id": "mateo26-msg-09",
+      "msg": {
+        "en": "They were stunned, and then began to ask, one after another, “It isn’t me, is it, Master?”",
+        "es": "Quedaron atónitos, y empezaron a preguntar uno tras otro: «No soy yo, ¿verdad, Maestro?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-22"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "23-24",
+      "id": "mateo26-msg-10",
+      "msg": {
+        "en": "Jesus answered, “The one who hands me over is someone I eat with daily, one who passes me food at the table. In one sense the Son of Man is entering into a way of treachery well-marked by the Scriptures—no surprises here. In another sense that man who turns him in, turns traitor to the Son of Man—better never to have been born than do this!”",
+        "es": "Jesús respondió: «El que me entrega es alguien con quien como todos los días, uno que me pasa la comida en la mesa. En un sentido, el Hijo del Hombre está entrando en un camino de traición bien señalado por las Escrituras; aquí no hay sorpresas. En otro sentido, el hombre que lo entrega se vuelve traidor del Hijo del Hombre. ¡Más le valdría no haber nacido que hacer esto!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-24"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "25",
+      "id": "mateo26-msg-11",
+      "msg": {
+        "en": "Then Judas, already turned traitor, said, “It isn’t me, is it, Rabbi?”\nJesus said, “Don’t play games with me, Judas.”",
+        "es": "Entonces Judas, que ya se había vuelto traidor, dijo: «No soy yo, ¿verdad, Rabí?».\nJesús le dijo: «No juegues conmigo, Judas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-25"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "26-29",
+      "id": "mateo26-msg-12",
+      "msg": {
+        "en": "During the meal, Jesus took and blessed the bread, broke it, and gave it to his disciples:\nTake, eat.\nThis is my body.\nTaking the cup and thanking God, he gave it to them:\nDrink this, all of you.\nThis is my blood,\nGod’s new covenant poured out for many people\nfor the forgiveness of sins.\n“I’ll not be drinking wine from this cup again until that new day when I’ll drink with you in the kingdom of my Father.”",
+        "es": "Durante la cena, Jesús tomó el pan y lo bendijo, lo partió y se lo dio a sus discípulos:\nTomen, coman.\nEsto es mi cuerpo.\nTomando la copa y dando gracias a Dios, se la dio a ellos:\nBeban de esto, todos ustedes.\nEsta es mi sangre,\nel nuevo pacto de Dios derramado por mucha gente\npara el perdón de los pecados.\n«No volveré a beber vino de esta copa hasta ese nuevo día en que lo beba con ustedes en el reino de mi Padre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-29"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "30",
+      "id": "mateo26-msg-13",
+      "msg": {
+        "en": "They sang a hymn and went directly to Mount Olives.",
+        "es": "Cantaron un himno y se fueron directamente al monte de los Olivos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-30"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "mateo26-msg-14",
+      "msg": {
+        "en": "Then Jesus told them, “Before the night’s over, you’re going to fall to pieces because of what happens to me. There is a Scripture that says,\nI’ll strike the shepherd;\nhelter-skelter the sheep will be scattered.\nBut after I am raised up, I, your Shepherd, will go ahead of you, leading the way to Galilee.”",
+        "es": "Entonces Jesús les dijo: «Antes de que termine la noche, ustedes se van a derrumbar por lo que me va a pasar. Hay una Escritura que dice:\nHeriré al pastor;\nen desbandada se dispersarán las ovejas.\nPero después de que yo resucite, yo, su Pastor, iré delante de ustedes, abriendo el camino a Galilea»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-32"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "33",
+      "id": "mateo26-msg-15",
+      "msg": {
+        "en": "Peter broke in, “Even if everyone else falls to pieces on account of you, I won’t.”",
+        "es": "Pedro interrumpió: «Aunque todos los demás se derrumben por causa tuya, yo no»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-33"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "34",
+      "id": "mateo26-msg-16",
+      "msg": {
+        "en": "“Don’t be so sure,” Jesus said. “This very night, before the rooster crows up the dawn, you will deny me three times.”",
+        "es": "«No estés tan seguro», dijo Jesús. «Esta misma noche, antes de que el gallo cante al amanecer, me negarás tres veces»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-34"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "35",
+      "id": "mateo26-msg-17",
+      "msg": {
+        "en": "Peter protested, “Even if I had to die with you, I would never deny you.” All the others said the same thing.",
+        "es": "Pedro protestó: «Aunque tuviera que morir contigo, nunca te negaría». Todos los demás dijeron lo mismo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-35"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "36-38",
+      "id": "mateo26-msg-18",
+      "msg": {
+        "en": "Then Jesus went with them to a garden called Gethsemane and told his disciples, “Stay here while I go over there and pray.” Taking along Peter and the two sons of Zebedee, he plunged into an agonizing sorrow. Then he said, “This sorrow is crushing my life out. Stay here and keep vigil with me.”",
+        "es": "Luego Jesús fue con ellos a un huerto llamado Getsemaní y les dijo a sus discípulos: «Quédense aquí mientras yo voy allá a orar». Llevando consigo a Pedro y a los dos hijos de Zebedeo, se hundió en una tristeza angustiosa. Luego dijo: «Esta tristeza me está aplastando la vida. Quédense aquí y velen conmigo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-38"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "39",
+      "id": "mateo26-msg-19",
+      "msg": {
+        "en": "Going a little ahead, he fell on his face, praying, “My Father, if there is any way, get me out of this. But please, not what I want. You, what do you want?”",
+        "es": "Adelantándose un poco, cayó rostro en tierra y oró: «Padre mío, si hay alguna manera, sácame de esto. Pero, por favor, no lo que yo quiero. Tú, ¿qué quieres?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-39"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "40-41",
+      "id": "mateo26-msg-20",
+      "msg": {
+        "en": "When he came back to his disciples, he found them sound asleep. He said to Peter, “Can’t you stick it out with me a single hour? Stay alert; be in prayer so you don’t wander into temptation without even knowing you’re in danger. There is a part of you that is eager, ready for anything in God. But there’s another part that’s as lazy as an old dog sleeping by the fire.”",
+        "es": "Cuando volvió donde sus discípulos, los encontró profundamente dormidos. Le dijo a Pedro: «¿No pueden aguantar conmigo ni una hora? Manténganse alerta; estén en oración para que no caigan en la tentación sin darse cuenta siquiera de que están en peligro. Hay una parte de ustedes que está entusiasmada, lista para cualquier cosa en Dios. Pero hay otra parte que es tan perezosa como un perro viejo dormido junto al fuego»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-40"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-41"
+        }
+      ],
+      "order": 20
+    },
+    {
+      "editorialRange": "42",
+      "id": "mateo26-msg-21",
+      "msg": {
+        "en": "He then left them a second time. Again he prayed, “My Father, if there is no other way than this, drinking this cup to the dregs, I’m ready. Do it your way.”",
+        "es": "Luego los dejó por segunda vez. Otra vez oró: «Padre mío, si no hay otra manera que esta, beber esta copa hasta el fondo, estoy listo. Hazlo a tu manera»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-42"
+        }
+      ],
+      "order": 21
+    },
+    {
+      "editorialRange": "43-44",
+      "id": "mateo26-msg-22",
+      "msg": {
+        "en": "When he came back, he again found them sound asleep. They simply couldn’t keep their eyes open. This time he let them sleep on, and went back a third time to pray, going over the same ground one last time.",
+        "es": "Cuando volvió, otra vez los encontró profundamente dormidos. Simplemente no podían mantener los ojos abiertos. Esta vez los dejó dormir y volvió por tercera vez a orar, repasando lo mismo una última vez."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-44"
+        }
+      ],
+      "order": 22
+    },
+    {
+      "editorialRange": "45-46",
+      "id": "mateo26-msg-23",
+      "msg": {
+        "en": "When he came back the next time, he said, “Are you going to sleep on and make a night of it? My time is up, the Son of Man is about to be handed over to the hands of sinners. Get up! Let’s get going! My betrayer is here.”",
+        "es": "Cuando volvió la siguiente vez, les dijo: «¿Van a seguir durmiendo toda la noche? Se me acabó el tiempo; el Hijo del Hombre está a punto de ser entregado en manos de pecadores. ¡Levántense! ¡Vámonos! Ya está aquí el que me traiciona»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-45"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-46"
+        }
+      ],
+      "order": 23
+    },
+    {
+      "editorialRange": "47-49",
+      "id": "mateo26-msg-24",
+      "msg": {
+        "en": "The words were barely out of his mouth when Judas (the one from the Twelve) showed up, and with him a gang from the high priests and religious leaders brandishing swords and clubs. The betrayer had worked out a sign with them: “The one I kiss, that’s the one—seize him.” He went straight to Jesus, greeted him, “How are you, Rabbi?” and kissed him.",
+        "es": "Apenas había terminado de hablar cuando apareció Judas (el que era de los Doce), y con él una banda enviada por los sumos sacerdotes y los líderes religiosos, blandiendo espadas y garrotes. El traidor había acordado una señal con ellos: «Al que yo bese, ese es; agárrenlo». Fue directo a Jesús, lo saludó: «¿Cómo estás, Rabí?», y lo besó."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-47"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-49"
+        }
+      ],
+      "order": 24
+    },
+    {
+      "editorialRange": "50-51",
+      "id": "mateo26-msg-25",
+      "msg": {
+        "en": "Jesus said, “Friend, why this charade?”\nThen they came on him—grabbed him and roughed him up. One of those with Jesus pulled his sword and, taking a swing at the Chief Priest’s servant, cut off his ear.",
+        "es": "Jesús dijo: «Amigo, ¿para qué esta farsa?».\nEntonces se le echaron encima, lo agarraron y lo maltrataron. Uno de los que estaban con Jesús sacó su espada y, lanzando un golpe contra el siervo del sumo sacerdote, le cortó una oreja."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-50"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-51"
+        }
+      ],
+      "order": 25
+    },
+    {
+      "editorialRange": "52-54",
+      "id": "mateo26-msg-26",
+      "msg": {
+        "en": "Jesus said, “Put your sword back where it belongs. All who use swords are destroyed by swords. Don’t you realize that I am able right now to call to my Father, and twelve companies—more, if I want them—of fighting angels would be here, battle-ready? But if I did that, how would the Scriptures come true that say this is the way it has to be?”",
+        "es": "Jesús dijo: «Vuelve a poner tu espada en su lugar. Todos los que usan la espada son destruidos por la espada. ¿No te das cuenta de que ahora mismo puedo llamar a mi Padre, y estarían aquí doce compañías de ángeles guerreros —más, si quisiera—, listos para la batalla? Pero si hiciera eso, ¿cómo se cumplirían las Escrituras que dicen que así tiene que ser?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-52"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-53"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-54"
+        }
+      ],
+      "order": 26
+    },
+    {
+      "editorialRange": "55-56",
+      "id": "mateo26-msg-27",
+      "msg": {
+        "en": "Then Jesus addressed the mob: “What is this—coming out after me with swords and clubs as if I were a dangerous criminal? Day after day I have been sitting in the Temple teaching, and you never so much as lifted a hand against me. You’ve done it this way to confirm and fulfill the prophetic writings.”\nThen all the disciples cut and ran.",
+        "es": "Entonces Jesús le habló a la turba: «¿Qué es esto, venir a buscarme con espadas y garrotes como si fuera un criminal peligroso? Día tras día he estado sentado en el Templo enseñando, y ustedes nunca levantaron ni una mano contra mí. Lo han hecho de esta manera para confirmar y cumplir los escritos proféticos».\nEntonces todos los discípulos salieron corriendo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-55"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-56"
+        }
+      ],
+      "order": 27
+    },
+    {
+      "editorialRange": "57-58",
+      "id": "mateo26-msg-28",
+      "msg": {
+        "en": "The gang that had seized Jesus led him before Caiaphas the Chief Priest, where the religion scholars and leaders had assembled. Peter followed at a safe distance until they got to the Chief Priest’s courtyard. Then he slipped in and mingled with the servants, watching to see how things would turn out.",
+        "es": "La banda que había apresado a Jesús lo llevó ante Caifás, el sumo sacerdote, donde se habían reunido los estudiosos de la religión y los líderes. Pedro lo siguió a una distancia prudente hasta que llegaron al patio del sumo sacerdote. Luego se metió y se mezcló con los sirvientes, mirando para ver cómo terminaban las cosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-57"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-58"
+        }
+      ],
+      "order": 28
+    },
+    {
+      "editorialRange": "59-60",
+      "id": "mateo26-msg-29",
+      "msg": {
+        "en": "The high priests, conspiring with the Jewish Council, tried to cook up charges against Jesus in order to sentence him to death. But even though many stepped up, making up one false accusation after another, nothing was believable.",
+        "es": "Los sumos sacerdotes, conspirando con el Concilio judío, intentaron fabricar cargos contra Jesús para condenarlo a muerte. Pero aunque muchos se presentaron, inventando una acusación falsa tras otra, nada era creíble."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-59"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-60"
+        }
+      ],
+      "order": 29
+    },
+    {
+      "editorialRange": "60-61",
+      "id": "mateo26-msg-30",
+      "msg": {
+        "en": "Finally two men came forward with this: “He said, ‘I can tear down this Temple of God and after three days rebuild it.’”",
+        "es": "Finalmente se presentaron dos hombres con esto: «Él dijo: “Puedo derribar este Templo de Dios y reconstruirlo en tres días”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-61"
+        }
+      ],
+      "order": 30
+    },
+    {
+      "editorialRange": "62",
+      "id": "mateo26-msg-31",
+      "msg": {
+        "en": "The Chief Priest stood up and said, “What do you have to say to the accusation?”",
+        "es": "El sumo sacerdote se puso de pie y dijo: «¿Qué tienes que decir a la acusación?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-62"
+        }
+      ],
+      "order": 31
+    },
+    {
+      "editorialRange": "63",
+      "id": "mateo26-msg-32",
+      "msg": {
+        "en": "Jesus kept silent.\nThen the Chief Priest said, “I command you by the authority of the living God to say if you are the Messiah, the Son of God.”",
+        "es": "Jesús guardó silencio.\nEntonces el sumo sacerdote dijo: «Te ordeno, por la autoridad del Dios vivo, que digas si eres el Mesías, el Hijo de Dios»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-63"
+        }
+      ],
+      "order": 32
+    },
+    {
+      "editorialRange": "64",
+      "id": "mateo26-msg-33",
+      "msg": {
+        "en": "Jesus was curt: “You yourself said it. And that’s not all. Soon you’ll see it for yourself:\nThe Son of Man seated at the right hand of the Mighty One,\nArriving on the clouds of heaven.”",
+        "es": "Jesús fue breve: «Tú mismo lo dijiste. Y eso no es todo. Pronto lo verás con tus propios ojos:\nEl Hijo del Hombre sentado a la derecha del Poderoso,\nllegando sobre las nubes del cielo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-64"
+        }
+      ],
+      "order": 33
+    },
+    {
+      "editorialRange": "65-66",
+      "id": "mateo26-msg-34",
+      "msg": {
+        "en": "At that, the Chief Priest lost his temper, ripping his robes, yelling, “He blasphemed! Why do we need witnesses to accuse him? You all heard him blaspheme! Are you going to stand for such blasphemy?”\nThey all said, “Death! That seals his death sentence.”",
+        "es": "Al oír eso, el sumo sacerdote perdió los estribos, se rasgó las vestiduras y gritó: «¡Blasfemó! ¿Para qué necesitamos testigos que lo acusen? ¡Todos lo oyeron blasfemar! ¿Van a tolerar semejante blasfemia?».\nTodos dijeron: «¡Muerte! Eso sella su sentencia de muerte»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-65"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-66"
+        }
+      ],
+      "order": 34
+    },
+    {
+      "editorialRange": "67-68",
+      "id": "mateo26-msg-35",
+      "msg": {
+        "en": "Then they were spitting in his face and banging him around. They jeered as they slapped him: “Prophesy, Messiah: Who hit you that time?”",
+        "es": "Entonces le escupían en la cara y lo golpeaban. Se burlaban mientras lo abofeteaban: «Profetiza, Mesías: ¿quién te pegó esta vez?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-67"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-68"
+        }
+      ],
+      "order": 35
+    },
+    {
+      "editorialRange": "69",
+      "id": "mateo26-msg-36",
+      "msg": {
+        "en": "All this time, Peter was sitting out in the courtyard. One servant girl came up to him and said, “You were with Jesus the Galilean.”",
+        "es": "Todo este tiempo, Pedro estaba sentado afuera, en el patio. Una sirvienta se le acercó y le dijo: «Tú estabas con Jesús el galileo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-69"
+        }
+      ],
+      "order": 36
+    },
+    {
+      "editorialRange": "70",
+      "id": "mateo26-msg-37",
+      "msg": {
+        "en": "In front of everybody there, he denied it. “I don’t know what you’re talking about.”",
+        "es": "Delante de todos los que estaban allí, él lo negó: «No sé de qué estás hablando»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-70"
+        }
+      ],
+      "order": 37
+    },
+    {
+      "editorialRange": "71",
+      "id": "mateo26-msg-38",
+      "msg": {
+        "en": "As he moved over toward the gate, someone else said to the people there, “This man was with Jesus the Nazarene.”",
+        "es": "Cuando se movía hacia la puerta, otra persona les dijo a los que estaban allí: «Este hombre estaba con Jesús el nazareno»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-71"
+        }
+      ],
+      "order": 38
+    },
+    {
+      "editorialRange": "72",
+      "id": "mateo26-msg-39",
+      "msg": {
+        "en": "Again he denied it, salting his denial with an oath: “I swear, I never laid eyes on the man.”",
+        "es": "Otra vez lo negó, sazonando su negación con un juramento: «Lo juro, nunca he visto a ese hombre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-72"
+        }
+      ],
+      "order": 39
+    },
+    {
+      "editorialRange": "73",
+      "id": "mateo26-msg-40",
+      "msg": {
+        "en": "Shortly after that, some bystanders approached Peter. “You’ve got to be one of them. Your accent gives you away.”",
+        "es": "Poco después, algunos de los que estaban por ahí se acercaron a Pedro. «Tienes que ser uno de ellos. Tu acento te delata»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-73"
+        }
+      ],
+      "order": 40
+    },
+    {
+      "editorialRange": "74-75",
+      "id": "mateo26-msg-41",
+      "msg": {
+        "en": "Then he got really nervous and swore. “I don’t know the man!”\nJust then a rooster crowed. Peter remembered what Jesus had said: “Before the rooster crows, you will deny me three times.” He went out and cried and cried and cried.",
+        "es": "Entonces se puso muy nervioso y juró: «¡No conozco a ese hombre!».\nEn ese momento cantó un gallo. Pedro se acordó de lo que Jesús había dicho: «Antes de que cante el gallo, me negarás tres veces». Salió y lloró, y lloró, y lloró."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-74"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo26-nbla-75"
+        }
+      ],
+      "order": 41
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo26-nbla-01",
+      "number": 1,
+      "text": "Cuando Jesús terminó todas estas palabras, dijo a Sus discípulos:"
+    },
+    {
+      "id": "mateo26-nbla-02",
+      "number": 2,
+      "text": "«Ustedes saben que dentro de dos días se celebra la Pascua, y el Hijo del Hombre será entregado para ser crucificado»."
+    },
+    {
+      "id": "mateo26-nbla-03",
+      "number": 3,
+      "text": "Entonces los principales sacerdotes y los ancianos del pueblo se reunieron en el patio del sumo sacerdote llamado Caifás,"
+    },
+    {
+      "id": "mateo26-nbla-04",
+      "number": 4,
+      "text": "y con engaño, tramaron entre ellos prender y matar a Jesús."
+    },
+    {
+      "id": "mateo26-nbla-05",
+      "number": 5,
+      "text": "Pero decían: «No durante la fiesta, para que no haya un tumulto en el pueblo»."
+    },
+    {
+      "id": "mateo26-nbla-06",
+      "number": 6,
+      "text": "Estando Jesús en Betania, en casa de Simón el leproso,"
+    },
+    {
+      "id": "mateo26-nbla-07",
+      "number": 7,
+      "text": "se acercó a Él una mujer con un frasco de alabastro de perfume muy costoso, y lo derramó sobre Su cabeza cuando estaba sentado a la mesa."
+    },
+    {
+      "id": "mateo26-nbla-08",
+      "number": 8,
+      "text": "Pero al ver esto, los discípulos se indignaron, y decían: «¿Para qué este desperdicio?"
+    },
+    {
+      "id": "mateo26-nbla-09",
+      "number": 9,
+      "text": "Porque este perfume podía haberse vendido a gran precio, y el dinero habérselo dado a los pobres»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo26-nbla-10a",
+          "order": 1,
+          "text": "Pero Jesús, dándose cuenta, les dijo: «¿Por qué molestan a la mujer?"
+        },
+        {
+          "id": "mateo26-nbla-10b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Pues buena es la obra que me ha hecho."
+        }
+      ],
+      "id": "mateo26-nbla-10",
+      "number": 10
+    },
+    {
+      "id": "mateo26-nbla-11",
+      "number": 11,
+      "text": "Porque a los pobres siempre los tendrán con ustedes, pero a Mí no siempre me tendrán."
+    },
+    {
+      "id": "mateo26-nbla-12",
+      "number": 12,
+      "text": "Pues al derramar ella este perfume sobre Mi cuerpo, lo ha hecho a fin de prepararme para la sepultura."
+    },
+    {
+      "id": "mateo26-nbla-13",
+      "number": 13,
+      "text": "En verdad les digo, que dondequiera que este evangelio se predique, en el mundo entero, se hablará también de lo que esta ha hecho, en memoria de ella»."
+    },
+    {
+      "id": "mateo26-nbla-14",
+      "number": 14,
+      "text": "Entonces uno de los doce, llamado Judas Iscariote, fue a los principales sacerdotes,"
+    },
+    {
+      "id": "mateo26-nbla-15",
+      "number": 15,
+      "text": "y les dijo: «¿Qué están dispuestos a darme para que yo les entregue a Jesús?». Y ellos le pesaron treinta monedas de plata (30 siclos: 432 gramos)."
+    },
+    {
+      "id": "mateo26-nbla-16",
+      "number": 16,
+      "text": "Y desde entonces Judas buscaba una oportunidad para entregar a Jesús."
+    },
+    {
+      "id": "mateo26-nbla-17",
+      "number": 17,
+      "text": "El primer día de la fiesta de los panes sin levadura, se acercaron los discípulos a Jesús, diciendo: «¿Dónde quieres que hagamos los preparativos para que comas la Pascua?»."
+    },
+    {
+      "id": "mateo26-nbla-18",
+      "number": 18,
+      "text": "Y Él respondió: «Vayan a la ciudad, a cierto hombre, y díganle: “El Maestro dice: ‘Mi tiempo está cerca; quiero celebrar la Pascua en tu casa con Mis discípulos’”»."
+    },
+    {
+      "id": "mateo26-nbla-19",
+      "number": 19,
+      "text": "Entonces los discípulos hicieron como Jesús les había mandado, y prepararon la Pascua."
+    },
+    {
+      "id": "mateo26-nbla-20",
+      "number": 20,
+      "text": "Al atardecer, estaba Jesús sentado a la mesa con los doce discípulos."
+    },
+    {
+      "id": "mateo26-nbla-21",
+      "number": 21,
+      "text": "Y mientras comían, dijo: «En verdad les digo que uno de ustedes me entregará»."
+    },
+    {
+      "id": "mateo26-nbla-22",
+      "number": 22,
+      "text": "Ellos, profundamente entristecidos, comenzaron a decir uno por uno: «¿Acaso soy yo, Señor?»."
+    },
+    {
+      "id": "mateo26-nbla-23",
+      "number": 23,
+      "text": "Él respondió: «El que metió la mano al mismo tiempo que Yo en el plato, ese me entregará."
+    },
+    {
+      "id": "mateo26-nbla-24",
+      "number": 24,
+      "text": "El Hijo del Hombre se va, según está escrito de Él; pero ¡ay de aquel hombre por quien el Hijo del Hombre es entregado! Mejor le fuera a ese hombre no haber nacido»."
+    },
+    {
+      "id": "mateo26-nbla-25",
+      "number": 25,
+      "text": "Judas, el que lo iba a entregar, dijo: «¿Acaso soy yo, Rabí?». «Tú lo has dicho», le contestó Jesús."
+    },
+    {
+      "id": "mateo26-nbla-26",
+      "number": 26,
+      "text": "Mientras comían, Jesús tomó pan, y habiéndolo bendecido, lo partió, y dándoselo a los discípulos, dijo: «Tomen, coman; esto es Mi cuerpo»."
+    },
+    {
+      "id": "mateo26-nbla-27",
+      "number": 27,
+      "text": "Y tomando una copa, y habiendo dado gracias, se la dio, diciendo: «Beban todos de ella;"
+    },
+    {
+      "id": "mateo26-nbla-28",
+      "number": 28,
+      "text": "porque esto es Mi sangre del nuevo pacto, que es derramada por muchos para el perdón de los pecados."
+    },
+    {
+      "id": "mateo26-nbla-29",
+      "number": 29,
+      "text": "Les digo que desde ahora no beberé más de este fruto de la vid, hasta aquel día cuando lo beba nuevo con ustedes en el reino de Mi Padre»."
+    },
+    {
+      "id": "mateo26-nbla-30",
+      "number": 30,
+      "text": "Y después de cantar un himno, salieron hacia el monte de los Olivos."
+    },
+    {
+      "id": "mateo26-nbla-31",
+      "number": 31,
+      "text": "Entonces Jesús les dijo*: «Esta noche todos ustedes se apartarán por causa de Mí, pues escrito está: “HERIRÉ AL PASTOR, Y LAS OVEJAS DEL REBAÑO SE DISPERSARÁN”."
+    },
+    {
+      "id": "mateo26-nbla-32",
+      "number": 32,
+      "text": "Pero después de que Yo haya resucitado, iré delante de ustedes a Galilea»."
+    },
+    {
+      "id": "mateo26-nbla-33",
+      "number": 33,
+      "text": "Pedro le respondió: «Aunque todos se aparten por causa de Ti, yo nunca me apartaré»."
+    },
+    {
+      "id": "mateo26-nbla-34",
+      "number": 34,
+      "text": "Jesús le dijo: «En verdad te digo que esta misma noche, antes que el gallo cante, me negarás tres veces»."
+    },
+    {
+      "id": "mateo26-nbla-35",
+      "number": 35,
+      "text": "Pedro le dijo*: «Aunque tenga que morir junto a Ti, jamás te negaré». Todos los discípulos dijeron también lo mismo."
+    },
+    {
+      "id": "mateo26-nbla-36",
+      "number": 36,
+      "text": "Entonces Jesús llegó* con ellos a un lugar que se llama Getsemaní, y dijo* a Sus discípulos: «Siéntense aquí mientras Yo voy allá y oro»."
+    },
+    {
+      "id": "mateo26-nbla-37",
+      "number": 37,
+      "text": "Y tomando con Él a Pedro y a los dos hijos de Zebedeo, comenzó a entristecerse y a angustiarse."
+    },
+    {
+      "id": "mateo26-nbla-38",
+      "number": 38,
+      "text": "Entonces les dijo*: «Mi alma está muy afligida, hasta el punto de la muerte; quédense aquí y velen junto a Mí»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo26-nbla-39a",
+          "order": 1,
+          "text": "Y adelantándose un poco, cayó sobre Su rostro, orando y diciendo: «Padre Mío, si es posible, que pase de Mí esta copa;"
+        },
+        {
+          "id": "mateo26-nbla-39b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "pero no sea como Yo quiero, sino como Tú quieras»."
+        }
+      ],
+      "id": "mateo26-nbla-39",
+      "number": 39
+    },
+    {
+      "id": "mateo26-nbla-40",
+      "number": 40,
+      "text": "Entonces vino* Jesús a los discípulos y los halló* durmiendo, y dijo* a Pedro: «¿Conque no pudieron velar una hora junto a Mí?"
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo26-nbla-41a",
+          "order": 1,
+          "text": "Velen y oren para que no entren en tentación;"
+        },
+        {
+          "id": "mateo26-nbla-41b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "el espíritu está dispuesto, pero la carne es débil»."
+        }
+      ],
+      "id": "mateo26-nbla-41",
+      "number": 41
+    },
+    {
+      "id": "mateo26-nbla-42",
+      "number": 42,
+      "text": "Apartándose de nuevo, oró por segunda vez, diciendo: «Padre Mío, si esta copa no puede pasar sin que Yo la beba, hágase Tu voluntad»."
+    },
+    {
+      "id": "mateo26-nbla-43",
+      "number": 43,
+      "text": "Vino otra vez Jesús y los halló durmiendo, porque sus ojos estaban cargados de sueño."
+    },
+    {
+      "id": "mateo26-nbla-44",
+      "number": 44,
+      "text": "Dejándolos de nuevo, se fue y oró por tercera vez, y dijo otra vez las mismas palabras."
+    },
+    {
+      "id": "mateo26-nbla-45",
+      "number": 45,
+      "text": "Entonces vino* a los discípulos y les dijo*: «¿Todavía están durmiendo y descansando? Vean, ha llegado la hora, y el Hijo del Hombre es entregado en manos de pecadores."
+    },
+    {
+      "id": "mateo26-nbla-46",
+      "number": 46,
+      "text": "¡Levántense! ¡Vamos! Miren, está cerca el que me entrega»."
+    },
+    {
+      "id": "mateo26-nbla-47",
+      "number": 47,
+      "text": "Mientras Jesús estaba todavía hablando, Judas, uno de los doce, llegó acompañado de una gran multitud con espadas y palos, de parte de los principales sacerdotes y de los ancianos del pueblo."
+    },
+    {
+      "id": "mateo26-nbla-48",
+      "number": 48,
+      "text": "El que lo entregaba les había dado una señal, diciendo: «Al que yo bese, Él es; lo pueden prender»."
+    },
+    {
+      "id": "mateo26-nbla-49",
+      "number": 49,
+      "text": "Enseguida se acercó a Jesús y dijo: «¡Salve, Rabí!». Y lo besó."
+    },
+    {
+      "id": "mateo26-nbla-50",
+      "number": 50,
+      "text": "«Amigo, haz lo que viniste a hacer», le dijo Jesús. Entonces ellos se acercaron, echaron mano a Jesús y lo arrestaron."
+    },
+    {
+      "id": "mateo26-nbla-51",
+      "number": 51,
+      "text": "Y uno de los que estaban con Jesús, extendiendo la mano, sacó su espada, e hiriendo al siervo del sumo sacerdote, le cortó la oreja."
+    },
+    {
+      "id": "mateo26-nbla-52",
+      "number": 52,
+      "text": "Entonces Jesús le dijo*: «Vuelve tu espada a su sitio, porque todos los que tomen la espada, a espada perecerán."
+    },
+    {
+      "id": "mateo26-nbla-53",
+      "number": 53,
+      "text": "¿O piensas que no puedo rogar a Mi Padre, y Él pondría a Mi disposición ahora mismo más de doce legiones de ángeles?"
+    },
+    {
+      "id": "mateo26-nbla-54",
+      "number": 54,
+      "text": "Pero, ¿cómo se cumplirían entonces las Escrituras que dicen que así debe suceder?»."
+    },
+    {
+      "id": "mateo26-nbla-55",
+      "number": 55,
+      "text": "En aquel momento Jesús dijo a la muchedumbre: «¿Cómo contra un ladrón han salido con espadas y palos para asegurarse que me arrestaban? Cada día me sentaba en el templo para enseñar, y no me prendieron."
+    },
+    {
+      "id": "mateo26-nbla-56",
+      "number": 56,
+      "text": "Pero todo esto ha sucedido para que se cumplan las Escrituras de los profetas». Entonces todos los discípulos lo abandonaron y huyeron."
+    },
+    {
+      "id": "mateo26-nbla-57",
+      "number": 57,
+      "text": "Los que prendieron a Jesús lo llevaron ante el sumo sacerdote Caifás, donde estaban reunidos los escribas y los ancianos."
+    },
+    {
+      "id": "mateo26-nbla-58",
+      "number": 58,
+      "text": "Pedro fue siguiendo de lejos a Jesús hasta el patio del sumo sacerdote, y entrando, se sentó con los guardias para ver el fin de todo aquello."
+    },
+    {
+      "id": "mateo26-nbla-59",
+      "number": 59,
+      "text": "Y los principales sacerdotes y todo el Concilio procuraban obtener falso testimonio contra Él, con el fin de dar muerte a Jesús,"
+    },
+    {
+      "id": "mateo26-nbla-60",
+      "number": 60,
+      "text": "y no lo hallaron a pesar de que se presentaron muchos falsos testigos. Pero más tarde se presentaron dos,"
+    },
+    {
+      "id": "mateo26-nbla-61",
+      "number": 61,
+      "text": "que dijeron: «Este declaró: “Yo puedo destruir el templo de Dios y en tres días reedificarlo”»."
+    },
+    {
+      "id": "mateo26-nbla-62",
+      "number": 62,
+      "text": "Entonces el sumo sacerdote, levantándose, le dijo: «¿No respondes nada? ¿Qué testifican estos contra Ti?»."
+    },
+    {
+      "id": "mateo26-nbla-63",
+      "number": 63,
+      "text": "Pero Jesús se quedó callado. Y el sumo sacerdote le dijo: «Te ordeno por el Dios viviente que nos digas si Tú eres el Cristo, el Hijo de Dios»."
+    },
+    {
+      "id": "mateo26-nbla-64",
+      "number": 64,
+      "text": "Jesús le contestó*: «Tú mismo lo has dicho; sin embargo, a ustedes les digo que desde ahora verán AL HIJO DEL HOMBRE SENTADO A LA DIESTRA DEL PODER, y VINIENDO SOBRE LAS NUBES DEL CIELO»."
+    },
+    {
+      "id": "mateo26-nbla-65",
+      "number": 65,
+      "text": "Entonces el sumo sacerdote rasgó sus vestiduras, diciendo: «¡Ha blasfemado! ¿Qué necesidad tenemos de más testigos? Ahora mismo ustedes han oído la blasfemia."
+    },
+    {
+      "id": "mateo26-nbla-66",
+      "number": 66,
+      "text": "¿Qué les parece?». «¡Él es digno de muerte!», le contestaron."
+    },
+    {
+      "id": "mateo26-nbla-67",
+      "number": 67,
+      "text": "Entonces le escupieron en el rostro y le dieron puñetazos; y otros lo abofeteaban,"
+    },
+    {
+      "id": "mateo26-nbla-68",
+      "number": 68,
+      "text": "y le decían: «Adivina, Cristo, ¿quién es el que te ha golpeado?»."
+    },
+    {
+      "id": "mateo26-nbla-69",
+      "number": 69,
+      "text": "Pedro estaba sentado afuera en el patio, y una sirvienta se le acercó y dijo: «Tú también estabas con Jesús el galileo»."
+    },
+    {
+      "id": "mateo26-nbla-70",
+      "number": 70,
+      "text": "Pero él lo negó delante de todos ellos, diciendo: «No sé de qué hablas»."
+    },
+    {
+      "id": "mateo26-nbla-71",
+      "number": 71,
+      "text": "Cuando salió al portal, lo vio otra sirvienta y dijo* a los que estaban allí: «Este estaba con Jesús el Nazareno»."
+    },
+    {
+      "id": "mateo26-nbla-72",
+      "number": 72,
+      "text": "Y otra vez él lo negó con juramento: «¡Yo no conozco a ese hombre!»."
+    },
+    {
+      "id": "mateo26-nbla-73",
+      "number": 73,
+      "text": "Un poco después se acercaron los que estaban allí y dijeron a Pedro: «Seguro que tú también eres uno de ellos, porque aun tu manera de hablar te descubre»."
+    },
+    {
+      "id": "mateo26-nbla-74",
+      "number": 74,
+      "text": "Entonces él comenzó a maldecir y a jurar: «¡Yo no conozco al hombre!». Y al instante un gallo cantó."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo26-nbla-75a",
+          "order": 1,
+          "text": "Pedro se acordó de lo que Jesús había dicho: «Antes que el gallo cante, me negarás tres veces»."
+        },
+        {
+          "id": "mateo26-nbla-75b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Y saliendo afuera, lloró amargamente."
+        }
+      ],
+      "id": "mateo26-nbla-75",
+      "number": 75
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

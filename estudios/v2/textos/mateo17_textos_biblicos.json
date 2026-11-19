@@ -1,0 +1,585 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA usa la palabra técnica «se transfiguró». Peterson explica qué tipo de cambio fue: de adentro hacia afuera. No fue un reflector que lo iluminó desde afuera. Fue la gloria propia de Jesús que se dejó ver. Lo que los discípulos vieron por un momento era lo que Jesús siempre había sido.",
+      "id": "mateo17-joya-01",
+      "msg": {
+        "en": "\"His appearance changed from the inside out, right before their eyes.\"",
+        "es": "\"Su apariencia cambió de adentro hacia afuera, delante de sus propios ojos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo17-nbla-02a"
+          ],
+          "verseId": "mateo17-nbla-02"
+        }
+      ],
+      "order": 1,
+      "range": "1-3"
+    },
+    {
+      "explanation": "La NBLA habla de enramadas, las chozas de la fiesta de los Tabernáculos. Peterson las convierte en monumentos, y deja ver la tentación de Pedro: congelar el momento. Cuando vivimos una experiencia espiritual fuerte, queremos quedarnos ahí. Pero la gloria del monte no es para instalarse, sino para fortalecer el camino que sigue.",
+      "id": "mateo17-joya-02",
+      "msg": {
+        "en": "\"Master, this is a great moment! What would you think if I built three memorials here on the mountain\"",
+        "es": "\"Maestro, ¡este es un gran momento! ¿Qué te parecería si construyo aquí en la montaña tres monumentos\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo17-nbla-04b"
+          ],
+          "verseId": "mateo17-nbla-04"
+        }
+      ],
+      "order": 2,
+      "range": "4"
+    },
+    {
+      "explanation": "Las palabras repiten las del bautismo, pero con un añadido: escúchenlo. En el Jordán, el Padre habló de su amor. En el monte, da una orden. Peterson subraya el afecto: el centro de mi alegría. La NBLA subraya la instrucción: óiganlo a él. El amor del Padre por el Hijo se convierte en un mandato para nosotros.",
+      "id": "mateo17-joya-03",
+      "msg": {
+        "en": "\"This is my Son, marked by my love, focus of my delight. Listen to him.\"",
+        "es": "\"Este es mi Hijo, marcado por mi amor, el centro de mi alegría. Escúchenlo.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo17-nbla-05b"
+          ],
+          "verseId": "mateo17-nbla-05"
+        }
+      ],
+      "order": 3,
+      "range": "5"
+    },
+    {
+      "explanation": "Peterson repite el nombre: Jesús, solo Jesús. La NBLA lo dice con la misma economía: a Jesús solo. Después de la nube, la voz y los grandes profetas, lo que queda es él. Es una buena descripción de la madurez espiritual: cuando se va el asombro de las experiencias, lo que permanece es Jesús.",
+      "id": "mateo17-joya-04",
+      "msg": {
+        "en": "\"When they opened their eyes and looked around all they saw was Jesus, only Jesus.\"",
+        "es": "\"Cuando abrieron los ojos y miraron alrededor, lo único que vieron fue a Jesús, solo a Jesús.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-08"
+        }
+      ],
+      "order": 4,
+      "range": "6-8"
+    },
+    {
+      "explanation": "La NBLA dice «poca fe». Peterson lo traduce como no tomar a Dios en serio. Es una lectura que ayuda. La poca fe no siempre es falta de emoción religiosa; a veces es tratar a Dios como algo secundario, un recurso más. La fe que mueve montañas empieza cuando Dios deja de ser un plan B.",
+      "id": "mateo17-joya-05",
+      "msg": {
+        "en": "\"Because you’re not yet taking God seriously\"",
+        "es": "\"Porque todavía no toman a Dios en serio\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo17-nbla-20b"
+          ],
+          "verseId": "mateo17-nbla-20"
+        }
+      ],
+      "order": 5,
+      "range": "20"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 17,
+    "studyId": "mateo-17"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "mateo17-msg-01",
+      "msg": {
+        "en": "Six days later, three of them saw that glory. Jesus took Peter and the brothers, James and John, and led them up a high mountain. His appearance changed from the inside out, right before their eyes. Sunlight poured from his face. His clothes were filled with light. Then they realized that Moses and Elijah were also there in deep conversation with him.",
+        "es": "Seis días después, tres de ellos vieron esa gloria. Jesús tomó a Pedro y a los hermanos Jacobo y Juan, y los llevó a una montaña alta. Su apariencia cambió de adentro hacia afuera, delante de sus propios ojos. La luz del sol brotaba de su rostro. Su ropa estaba llena de luz. Entonces se dieron cuenta de que Moisés y Elías también estaban allí, conversando a fondo con él."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "mateo17-msg-02",
+      "msg": {
+        "en": "Peter broke in, “Master, this is a great moment! What would you think if I built three memorials here on the mountain—one for you, one for Moses, one for Elijah?”",
+        "es": "Pedro interrumpió: «Maestro, ¡este es un gran momento! ¿Qué te parecería si construyo aquí en la montaña tres monumentos: uno para ti, uno para Moisés y uno para Elías?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5",
+      "id": "mateo17-msg-03",
+      "msg": {
+        "en": "While he was going on like this, babbling, a light-radiant cloud enveloped them, and sounding from deep in the cloud a voice: “This is my Son, marked by my love, focus of my delight. Listen to him.”",
+        "es": "Mientras seguía hablando así, sin parar, una nube radiante de luz los envolvió, y desde lo profundo de la nube se oyó una voz: «Este es mi Hijo, marcado por mi amor, el centro de mi alegría. Escúchenlo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-05"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "mateo17-msg-04",
+      "msg": {
+        "en": "When the disciples heard it, they fell flat on their faces, scared to death. But Jesus came over and touched them. “Don’t be afraid.” When they opened their eyes and looked around all they saw was Jesus, only Jesus.",
+        "es": "Cuando los discípulos la oyeron, cayeron de bruces, muertos de miedo. Pero Jesús se acercó y los tocó. «No tengan miedo». Cuando abrieron los ojos y miraron alrededor, lo único que vieron fue a Jesús, solo a Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-08"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "9",
+      "id": "mateo17-msg-05",
+      "msg": {
+        "en": "Coming down the mountain, Jesus swore them to secrecy. “Don’t breathe a word of what you’ve seen. After the Son of Man is raised from the dead, you are free to talk.”",
+        "es": "Mientras bajaban de la montaña, Jesús les hizo jurar que guardarían el secreto. «No digan ni una palabra de lo que han visto. Después de que el Hijo del Hombre resucite de entre los muertos, pueden hablar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-09"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "10",
+      "id": "mateo17-msg-06",
+      "msg": {
+        "en": "The disciples, meanwhile, were asking questions. “Why do the religion scholars say that Elijah has to come first?”",
+        "es": "Mientras tanto, los discípulos hacían preguntas. «¿Por qué dicen los estudiosos de la religión que Elías tiene que venir primero?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-10"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "mateo17-msg-07",
+      "msg": {
+        "en": "Jesus answered, “Elijah does come and get everything ready. I’m telling you, Elijah has already come but they didn’t know him when they saw him. They treated him like dirt, the same way they are about to treat the Son of Man.” That’s when the disciples realized that all along he had been talking about John the Baptizer.",
+        "es": "Jesús respondió: «Elías sí viene y prepara todo. Les digo que Elías ya vino, pero no lo reconocieron cuando lo vieron. Lo trataron como basura, de la misma manera que están por tratar al Hijo del Hombre». Fue entonces cuando los discípulos se dieron cuenta de que todo el tiempo había estado hablando de Juan el Bautista."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-13"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "14-16",
+      "id": "mateo17-msg-08",
+      "msg": {
+        "en": "At the bottom of the mountain, they were met by a crowd of waiting people. As they approached, a man came out of the crowd and fell to his knees begging, “Master, have mercy on my son. He goes out of his mind and suffers terribly, falling into seizures. Frequently he is pitched into the fire, other times into the river. I brought him to your disciples, but they could do nothing for him.”",
+        "es": "Al pie de la montaña los recibió una multitud que estaba esperando. Cuando se acercaban, un hombre salió de entre la gente y cayó de rodillas suplicando: «Maestro, ten misericordia de mi hijo. Pierde el juicio y sufre terriblemente con convulsiones. Muchas veces se cae al fuego, y otras veces al río. Se lo traje a tus discípulos, pero no pudieron hacer nada por él»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-16"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "17-18",
+      "id": "mateo17-msg-09",
+      "msg": {
+        "en": "Jesus said, “What a generation! No sense of God! No focus to your lives! How many times do I have to go over these things? How much longer do I have to put up with this? Bring the boy here.” He ordered the afflicting demon out—and it was out, gone. From that moment on the boy was well.",
+        "es": "Jesús dijo: «¡Qué generación! ¡Sin sentido de Dios! ¡Sin rumbo en la vida! ¿Cuántas veces tengo que repasar estas cosas? ¿Hasta cuándo tengo que aguantar esto? Tráiganme al muchacho». Le ordenó al demonio que lo atormentaba que saliera, y salió, se fue. Desde ese momento el muchacho quedó sano."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-18"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "19",
+      "id": "mateo17-msg-10",
+      "msg": {
+        "en": "When the disciples had Jesus off to themselves, they asked, “Why couldn’t we throw it out?”",
+        "es": "Cuando los discípulos tuvieron a Jesús a solas, le preguntaron: «¿Por qué nosotros no pudimos echarlo fuera?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-19"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "20",
+      "id": "mateo17-msg-11",
+      "msg": {
+        "en": "“Because you’re not yet taking God seriously,” said Jesus. “The simple truth is that if you had a mere kernel of faith, a poppy seed, say, you would tell this mountain, ‘Move!’ and it would move. There is nothing you wouldn’t be able to tackle.”",
+        "es": "«Porque todavía no toman a Dios en serio», dijo Jesús. «La simple verdad es que si tuvieran apenas un granito de fe, una semilla de amapola, digamos, le dirían a esta montaña: “¡Muévete!”, y se movería. No habría nada que no pudieran enfrentar»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "mateo17-msg-12",
+      "msg": {
+        "en": "As they were regrouping in Galilee, Jesus told them, “The Son of Man is about to be betrayed to some people who want nothing to do with God. They will murder him—and three days later he will be raised alive.” The disciples felt terrible.",
+        "es": "Mientras se reagrupaban en Galilea, Jesús les dijo: «El Hijo del Hombre está a punto de ser entregado a gente que no quiere tener nada que ver con Dios. Lo van a asesinar, y tres días después será resucitado». Los discípulos se sintieron muy mal."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-23"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "24",
+      "id": "mateo17-msg-13",
+      "msg": {
+        "en": "When they arrived at Capernaum, the tax men came to Peter and asked, “Does your teacher pay taxes?”",
+        "es": "Cuando llegaron a Capernaúm, los cobradores de impuestos se acercaron a Pedro y le preguntaron: «¿Tu maestro paga impuestos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-24"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "25",
+      "id": "mateo17-msg-14",
+      "msg": {
+        "en": "Peter said, “Of course.”\nBut as soon as they were in the house, Jesus confronted him. “Simon, what do you think? When a king levies taxes, who pays—his children or his subjects?”",
+        "es": "Pedro dijo: «Por supuesto».\nPero apenas entraron en la casa, Jesús lo confrontó. «Simón, ¿qué piensas? Cuando un rey cobra impuestos, ¿quién paga: sus hijos o sus súbditos?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-25"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "26-27",
+      "id": "mateo17-msg-15",
+      "msg": {
+        "en": "He answered, “His subjects.”\nJesus said, “Then the children get off free, right? But so we don’t upset them needlessly, go down to the lake, cast a hook, and pull in the first fish that bites. Open its mouth and you’ll find a coin. Take it and give it to the tax men. It will be enough for both of us.”",
+        "es": "Él respondió: «Sus súbditos».\nJesús dijo: «Entonces los hijos quedan libres, ¿verdad? Pero para no molestarlos sin necesidad, ve al lago, echa un anzuelo y saca el primer pez que pique. Ábrele la boca y encontrarás una moneda. Tómala y dásela a los cobradores de impuestos. Alcanzará para los dos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo17-nbla-27"
+        }
+      ],
+      "order": 15
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo17-nbla-01",
+      "number": 1,
+      "text": "Seis días después, Jesús tomó* con Él a Pedro, a Jacobo y a Juan su hermano, y los llevó* aparte a un monte alto."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo17-nbla-02a",
+          "order": 1,
+          "text": "Delante de ellos se transfiguró; y Su rostro resplandeció como el sol"
+        },
+        {
+          "id": "mateo17-nbla-02b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "y Sus vestiduras se volvieron blancas como la luz."
+        }
+      ],
+      "id": "mateo17-nbla-02",
+      "number": 2
+    },
+    {
+      "id": "mateo17-nbla-03",
+      "number": 3,
+      "text": "En esto, se les aparecieron Moisés y Elías hablando con Él."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo17-nbla-04a",
+          "order": 1,
+          "text": "Entonces Pedro dijo a Jesús: «"
+        },
+        {
+          "id": "mateo17-nbla-04b",
+          "order": 2,
+          "text": "Señor, bueno es que estemos aquí; si quieres, haré aquí tres enramadas"
+        },
+        {
+          "id": "mateo17-nbla-04c",
+          "order": 3,
+          "text": ", una para Ti, otra para Moisés y otra para Elías»."
+        }
+      ],
+      "id": "mateo17-nbla-04",
+      "number": 4
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo17-nbla-05a",
+          "order": 1,
+          "text": "Mientras estaba aún hablando, una nube luminosa los cubrió; y una voz salió de la nube, diciendo: «"
+        },
+        {
+          "id": "mateo17-nbla-05b",
+          "order": 2,
+          "text": "Este es Mi Hijo amado en quien Yo estoy complacido; óiganlo a Él»."
+        }
+      ],
+      "id": "mateo17-nbla-05",
+      "number": 5
+    },
+    {
+      "id": "mateo17-nbla-06",
+      "number": 6,
+      "text": "Cuando los discípulos oyeron esto, cayeron sobre sus rostros y tuvieron gran temor."
+    },
+    {
+      "id": "mateo17-nbla-07",
+      "number": 7,
+      "text": "Entonces Jesús se les acercó, y tocándolos, dijo: «Levántense y no teman»."
+    },
+    {
+      "id": "mateo17-nbla-08",
+      "number": 8,
+      "text": "Y cuando alzaron sus ojos no vieron a nadie, sino a Jesús solo."
+    },
+    {
+      "id": "mateo17-nbla-09",
+      "number": 9,
+      "text": "Mientras descendían del monte, Jesús les ordenó: «No cuenten a nadie la visión hasta que el Hijo del Hombre haya resucitado de entre los muertos»."
+    },
+    {
+      "id": "mateo17-nbla-10",
+      "number": 10,
+      "text": "Los discípulos entonces le preguntaron: «¿Por qué, pues, dicen los escribas que Elías debe venir primero?»."
+    },
+    {
+      "id": "mateo17-nbla-11",
+      "number": 11,
+      "text": "Respondió Jesús: «Elías ciertamente viene, y restaurará todas las cosas;"
+    },
+    {
+      "id": "mateo17-nbla-12",
+      "number": 12,
+      "text": "pero Yo les digo que Elías ya vino y no lo reconocieron, sino que le hicieron todo lo que quisieron. Así también el Hijo del Hombre va a padecer a manos de ellos»."
+    },
+    {
+      "id": "mateo17-nbla-13",
+      "number": 13,
+      "text": "Entonces los discípulos entendieron que Él les había hablado de Juan el Bautista."
+    },
+    {
+      "id": "mateo17-nbla-14",
+      "number": 14,
+      "text": "Cuando llegaron a la multitud, se acercó a Jesús un hombre, que arrodillándose delante de Él, dijo:"
+    },
+    {
+      "id": "mateo17-nbla-15",
+      "number": 15,
+      "text": "«Señor, ten misericordia de mi hijo, porque es epiléptico y sufre terriblemente, porque muchas veces cae en el fuego y muchas en el agua."
+    },
+    {
+      "id": "mateo17-nbla-16",
+      "number": 16,
+      "text": "Lo traje a Tus discípulos y ellos no pudieron curarlo»."
+    },
+    {
+      "id": "mateo17-nbla-17",
+      "number": 17,
+      "text": "Jesús respondió: «¡Oh generación incrédula y perversa! ¿Hasta cuándo estaré con ustedes? ¿Hasta cuándo tendré que soportarlos? Tráiganmelo acá»."
+    },
+    {
+      "id": "mateo17-nbla-18",
+      "number": 18,
+      "text": "Jesús lo reprendió y el demonio salió de él, y el muchacho quedó curado desde aquel momento."
+    },
+    {
+      "id": "mateo17-nbla-19",
+      "number": 19,
+      "text": "Entonces los discípulos, llegándose a Jesús en privado, dijeron: «¿Por qué nosotros no pudimos expulsarlo?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo17-nbla-20a",
+          "order": 1,
+          "text": "Y Él les dijo*: «"
+        },
+        {
+          "id": "mateo17-nbla-20b",
+          "order": 2,
+          "text": "Por la poca fe de ustedes"
+        },
+        {
+          "id": "mateo17-nbla-20c",
+          "order": 3,
+          "text": "; porque en verdad les digo que si tienen fe como un grano de mostaza, dirán a este monte: “Pásate de aquí allá”, y se pasará; y nada les será imposible."
+        }
+      ],
+      "id": "mateo17-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "mateo17-nbla-21",
+      "number": 21,
+      "text": "Pero esta clase no sale sino con oración y ayuno»."
+    },
+    {
+      "id": "mateo17-nbla-22",
+      "number": 22,
+      "text": "Mientras andaban juntos por Galilea, Jesús les dijo: «El Hijo del Hombre va a ser entregado en manos de los hombres."
+    },
+    {
+      "id": "mateo17-nbla-23",
+      "number": 23,
+      "text": "Lo matarán, y al tercer día resucitará». Y ellos se entristecieron mucho."
+    },
+    {
+      "id": "mateo17-nbla-24",
+      "number": 24,
+      "text": "Cuando llegaron a Capernaúm, se acercaron a Pedro los que cobraban las dos dracmas del impuesto del templo y dijeron: «¿No paga su maestro el impuesto del templo?»."
+    },
+    {
+      "id": "mateo17-nbla-25",
+      "number": 25,
+      "text": "«Sí», contestó* Pedro. Y cuando él llegó a casa, Jesús se le anticipó, diciendo: «¿Qué te parece, Simón? ¿De quiénes cobran tributos o impuestos los reyes de la tierra, de sus hijos o de los extraños?»."
+    },
+    {
+      "id": "mateo17-nbla-26",
+      "number": 26,
+      "text": "«De los extraños», respondió Pedro. «Entonces los hijos están exentos», le dijo Jesús."
+    },
+    {
+      "id": "mateo17-nbla-27",
+      "number": 27,
+      "text": "«Sin embargo, para que no los escandalicemos, ve al mar, echa el anzuelo, y toma el primer pez que salga; y cuando le abras la boca hallarás un siclo; tómalo y dáselo por ti y por Mí»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

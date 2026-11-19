@@ -1,0 +1,668 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "Las dos versiones dicen casi lo mismo, y no necesitan más. Los últimos no estaban ahí por pereza, sino porque nadie los quiso. Tal vez eran los mayores, los más débiles o los que nadie conocía. El dueño los contrata a la hora en que ya nadie contrata. La gracia de Dios llega a los que el mercado de este mundo descarta.",
+      "id": "mateo20-joya-01",
+      "msg": {
+        "en": "\"Because no one hired us.\"",
+        "es": "\"Porque nadie nos contrató\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo20-nbla-07b"
+          ],
+          "verseId": "mateo20-nbla-07"
+        }
+      ],
+      "order": 1,
+      "range": "7"
+    },
+    {
+      "explanation": "La NBLA conserva la expresión «ojo malo», que en el mundo bíblico significaba envidia o mezquindad. Peterson la traduce como ponerse tacaño. Las dos lecturas juntas muestran el fondo del problema. El trabajador no se queja de injusticia, sino de generosidad. Nos cuesta alegrarnos cuando Dios es bueno con otros.",
+      "id": "mateo20-joya-02",
+      "msg": {
+        "en": "\"Can’t I do what I want with my own money? Are you going to get stingy because I am generous?\"",
+        "es": "\"¿No puedo hacer lo que quiera con mi propio dinero? ¿Te vas a poner tacaño porque yo soy generoso?\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-15"
+        }
+      ],
+      "order": 2,
+      "range": "13-15"
+    },
+    {
+      "explanation": "Las dos versiones mantienen la imagen de la copa, que en los profetas era símbolo del sufrimiento y del juicio. Los hermanos responden sin pensar: podemos. No sabían lo que decían. Pero Jesús les dice que sí la beberán. Jacobo fue el primer apóstol martirizado, según Hechos 12. El camino a la gloria pasa por la copa.",
+      "id": "mateo20-joya-03",
+      "msg": {
+        "en": "\"Are you capable of drinking the cup that I’m about to drink?\"",
+        "es": "\"¿Son capaces de beber la copa que yo estoy a punto de beber?\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo20-nbla-22b"
+          ],
+          "verseId": "mateo20-nbla-22"
+        }
+      ],
+      "order": 3,
+      "range": "20-23"
+    },
+    {
+      "explanation": "La NBLA conserva la palabra «rescate», el precio para liberar a un cautivo. Peterson explica el cuadro: muchos están cautivos, y Jesús entrega su vida a cambio. Es una de las frases más importantes del evangelio sobre el sentido de la cruz. Jesús no solo sirvió en vida; su muerte fue el servicio supremo.",
+      "id": "mateo20-joya-04",
+      "msg": {
+        "en": "\"He came to serve, not be served—and then to give away his life in exchange for the many who are held hostage.\"",
+        "es": "\"vino a servir, no a que lo sirvieran, y luego a entregar su vida a cambio de los muchos que están cautivos\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-28"
+        }
+      ],
+      "order": 4,
+      "range": "24-28"
+    },
+    {
+      "explanation": "Jesús va camino a Jerusalén, sabiendo lo que le espera. Tiene todas las razones para no detenerse. Pero los gritos de dos ciegos lo detienen. Las dos versiones subrayan la compasión que lo mueve. Mientras los discípulos pedían tronos, dos mendigos pedían ver. Y fueron ellos los que terminaron siguiéndolo.",
+      "id": "mateo20-joya-05",
+      "msg": {
+        "en": "\"Deeply moved, Jesus touched their eyes.\"",
+        "es": "\"Conmovido hasta lo más hondo, Jesús les tocó los ojos.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo20-nbla-34a"
+          ],
+          "verseId": "mateo20-nbla-34"
+        }
+      ],
+      "order": 5,
+      "range": "34"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 20,
+    "studyId": "mateo-20"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo20-msg-01",
+      "msg": {
+        "en": "“God’s kingdom is like an estate manager who went out early in the morning to hire workers for his vineyard. They agreed on a wage of a dollar a day, and went to work.",
+        "es": "«El reino de Dios es como un administrador de fincas que salió muy de mañana a contratar trabajadores para su viña. Se pusieron de acuerdo en un pago de un dólar por el día, y se fueron a trabajar."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "mateo20-msg-02",
+      "msg": {
+        "en": "“Later, about nine o’clock, the manager saw some other men hanging around the town square unemployed. He told them to go to work in his vineyard and he would pay them a fair wage. They went.",
+        "es": "»Más tarde, como a las nueve, el administrador vio a otros hombres parados en la plaza del pueblo, sin trabajo. Les dijo que fueran a trabajar a su viña y que él les pagaría un salario justo. Y se fueron."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-6",
+      "id": "mateo20-msg-03",
+      "msg": {
+        "en": "“He did the same thing at noon, and again at three o’clock. At five o’clock he went back and found still others standing around. He said, ‘Why are you standing around all day doing nothing?’",
+        "es": "»Hizo lo mismo al mediodía, y otra vez a las tres de la tarde. A las cinco volvió a salir y encontró a otros más, parados por ahí. Les dijo: “¿Por qué se quedan aquí parados todo el día sin hacer nada?”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-06"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "7",
+      "id": "mateo20-msg-04",
+      "msg": {
+        "en": "“They said, ‘Because no one hired us.’\n“He told them to go to work in his vineyard.",
+        "es": "»Ellos dijeron: “Porque nadie nos contrató”.\n»Él les dijo que fueran a trabajar a su viña."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-07"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "8",
+      "id": "mateo20-msg-05",
+      "msg": {
+        "en": "“When the day’s work was over, the owner of the vineyard instructed his foreman, ‘Call the workers in and pay them their wages. Start with the last hired and go on to the first.’",
+        "es": "»Cuando terminó la jornada, el dueño de la viña le dio instrucciones a su capataz: “Llama a los trabajadores y págales su salario. Empieza por los últimos que contraté y sigue hasta los primeros”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-08"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "9-12",
+      "id": "mateo20-msg-06",
+      "msg": {
+        "en": "“Those hired at five o’clock came up and were each given a dollar. When those who were hired first saw that, they assumed they would get far more. But they got the same, each of them one dollar. Taking the dollar, they groused angrily to the manager, ‘These last workers put in only one easy hour, and you just made them equal to us, who slaved all day under a scorching sun.’",
+        "es": "»Los que fueron contratados a las cinco pasaron y cada uno recibió un dólar. Cuando los que habían sido contratados primero vieron eso, dieron por hecho que recibirían mucho más. Pero recibieron lo mismo, cada uno un dólar. Al recibir su dólar, se pusieron a rezongar con rabia contra el administrador: “Estos últimos trabajaron solo una hora fácil, y usted los hizo iguales a nosotros, que nos matamos trabajando todo el día bajo un sol abrasador”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-10"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-12"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "13-15",
+      "id": "mateo20-msg-07",
+      "msg": {
+        "en": "“He replied to the one speaking for the rest, ‘Friend, I haven’t been unfair. We agreed on the wage of a dollar, didn’t we? So take it and go. I decided to give to the one who came last the same as you. Can’t I do what I want with my own money? Are you going to get stingy because I am generous?’",
+        "es": "»Él le respondió al que hablaba por los demás: “Amigo, no he sido injusto. Quedamos en un salario de un dólar, ¿no es cierto? Así que tómalo y vete. Yo decidí darle al que llegó de último lo mismo que a ti. ¿No puedo hacer lo que quiera con mi propio dinero? ¿Te vas a poner tacaño porque yo soy generoso?”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-14"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-15"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "16",
+      "id": "mateo20-msg-08",
+      "msg": {
+        "en": "“Here it is again, the Great Reversal: many of the first ending up last, and the last first.”",
+        "es": "»Aquí está otra vez el Gran Vuelco: muchos de los primeros terminarán siendo los últimos, y los últimos, los primeros»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-16"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "17-19",
+      "id": "mateo20-msg-09",
+      "msg": {
+        "en": "Jesus, now well on the way up to Jerusalem, took the Twelve off to the side of the road and said, “Listen to me carefully. We are on our way up to Jerusalem. When we get there, the Son of Man will be betrayed to the religious leaders and scholars. They will sentence him to death. They will then hand him over to the Romans for mockery and torture and crucifixion. On the third day he will be raised up alive.”",
+        "es": "Jesús, ya bien encaminado hacia Jerusalén, llevó a los Doce a un lado del camino y les dijo: «Escúchenme con atención. Vamos subiendo a Jerusalén. Cuando lleguemos, el Hijo del Hombre será entregado a los líderes religiosos y a los estudiosos de la ley. Lo condenarán a muerte. Luego lo entregarán a los romanos para que se burlen de él, lo torturen y lo crucifiquen. Al tercer día será resucitado»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-19"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "20",
+      "id": "mateo20-msg-10",
+      "msg": {
+        "en": "It was about that time that the mother of the Zebedee brothers came with her two sons and knelt before Jesus with a request.",
+        "es": "Fue por ese tiempo que la madre de los hermanos Zebedeo vino con sus dos hijos y se arrodilló delante de Jesús para pedirle algo."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-20"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "21",
+      "id": "mateo20-msg-11",
+      "msg": {
+        "en": "“What do you want?” Jesus asked.\nShe said, “Give your word that these two sons of mine will be awarded the highest places of honor in your kingdom, one at your right hand, one at your left hand.”",
+        "es": "«¿Qué quieres?», le preguntó Jesús.\nElla dijo: «Dame tu palabra de que estos dos hijos míos recibirán los lugares de más honor en tu reino, uno a tu mano derecha y otro a tu mano izquierda»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-21"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "22",
+      "id": "mateo20-msg-12",
+      "msg": {
+        "en": "Jesus responded, “You have no idea what you’re asking.” And he said to James and John, “Are you capable of drinking the cup that I’m about to drink?”\nThey said, “Sure, why not?”",
+        "es": "Jesús respondió: «No tienes idea de lo que estás pidiendo». Y les dijo a Jacobo y a Juan: «¿Son capaces de beber la copa que yo estoy a punto de beber?».\nEllos dijeron: «Claro, ¿por qué no?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-22"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "23",
+      "id": "mateo20-msg-13",
+      "msg": {
+        "en": "Jesus said, “Come to think of it, you are going to drink my cup. But as to awarding places of honor, that’s not my business. My Father is taking care of that.”",
+        "es": "Jesús dijo: «Ahora que lo pienso, sí van a beber mi copa. Pero en cuanto a otorgar lugares de honor, eso no me corresponde a mí. De eso se encarga mi Padre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-23"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "24-28",
+      "id": "mateo20-msg-14",
+      "msg": {
+        "en": "When the ten others heard about this, they lost their tempers, thoroughly disgusted with the two brothers. So Jesus got them together to settle things down. He said, “You’ve observed how godless rulers throw their weight around, how quickly a little power goes to their heads. It’s not going to be that way with you. Whoever wants to be great must become a servant. Whoever wants to be first among you must be your slave. That is what the Son of Man has done: He came to serve, not be served—and then to give away his life in exchange for the many who are held hostage.”",
+        "es": "Cuando los otros diez se enteraron de esto, perdieron la paciencia, completamente disgustados con los dos hermanos. Así que Jesús los reunió para calmar las cosas. Les dijo: «Ustedes han visto cómo los gobernantes sin Dios se imponen a la fuerza, qué rápido un poco de poder se les sube a la cabeza. Con ustedes no va a ser así. El que quiera ser grande tiene que hacerse servidor. El que quiera ser el primero entre ustedes tiene que ser su esclavo. Eso es lo que ha hecho el Hijo del Hombre: vino a servir, no a que lo sirvieran, y luego a entregar su vida a cambio de los muchos que están cautivos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-28"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "29-31",
+      "id": "mateo20-msg-15",
+      "msg": {
+        "en": "As they were leaving Jericho, a huge crowd followed. Suddenly they came upon two blind men sitting alongside the road. When they heard it was Jesus passing, they cried out, “Master, have mercy on us! Mercy, Son of David!” The crowd tried to hush them up, but they got all the louder, crying, “Master, have mercy on us! Mercy, Son of David!”",
+        "es": "Cuando salían de Jericó, los siguió una multitud enorme. De pronto se encontraron con dos ciegos sentados al lado del camino. Cuando oyeron que era Jesús quien pasaba, gritaron: «¡Maestro, ten misericordia de nosotros! ¡Misericordia, Hijo de David!». La multitud trató de callarlos, pero ellos gritaron todavía más fuerte: «¡Maestro, ten misericordia de nosotros! ¡Misericordia, Hijo de David!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-31"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "32",
+      "id": "mateo20-msg-16",
+      "msg": {
+        "en": "Jesus stopped and called over, “What do you want from me?”",
+        "es": "Jesús se detuvo y los llamó: «¿Qué quieren de mí?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-32"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "33",
+      "id": "mateo20-msg-17",
+      "msg": {
+        "en": "They said, “Master, we want our eyes opened. We want to see!”",
+        "es": "Ellos dijeron: «Maestro, queremos que se nos abran los ojos. ¡Queremos ver!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-33"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "34",
+      "id": "mateo20-msg-18",
+      "msg": {
+        "en": "Deeply moved, Jesus touched their eyes. They had their sight back that very instant, and joined the procession.",
+        "es": "Conmovido hasta lo más hondo, Jesús les tocó los ojos. En ese mismo instante recuperaron la vista y se unieron a la procesión."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo20-nbla-34"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo20-nbla-01",
+      "number": 1,
+      "text": "»Porque el reino de los cielos es semejante a un hacendado que salió muy de mañana para contratar obreros para su viña."
+    },
+    {
+      "id": "mateo20-nbla-02",
+      "number": 2,
+      "text": "Y habiendo convenido con los obreros en un denario al día, los envió a su viña."
+    },
+    {
+      "id": "mateo20-nbla-03",
+      "number": 3,
+      "text": "Salió después como a la hora tercera, y vio parados en la plaza a otros que estaban sin trabajo;"
+    },
+    {
+      "id": "mateo20-nbla-04",
+      "number": 4,
+      "text": "y a estos les dijo: “Vayan también ustedes a la viña, y les daré lo que sea justo”. Y ellos fueron."
+    },
+    {
+      "id": "mateo20-nbla-05",
+      "number": 5,
+      "text": "Volvió a salir como a la hora sexta y a la novena, e hizo lo mismo."
+    },
+    {
+      "id": "mateo20-nbla-06",
+      "number": 6,
+      "text": "Y saliendo como a la hora undécima, encontró a otros parados, y les dijo*: “¿Por qué han estado aquí parados todo el día sin trabajar?”."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo20-nbla-07a",
+          "order": 1,
+          "text": "Ellos le dijeron*: “"
+        },
+        {
+          "id": "mateo20-nbla-07b",
+          "order": 2,
+          "text": "Porque nadie nos ha contratado"
+        },
+        {
+          "id": "mateo20-nbla-07c",
+          "order": 3,
+          "text": "”. Él les dijo*: “Vayan también ustedes a la viña”."
+        }
+      ],
+      "id": "mateo20-nbla-07",
+      "number": 7
+    },
+    {
+      "id": "mateo20-nbla-08",
+      "number": 8,
+      "text": "»Al atardecer, el señor de la viña dijo* a su mayordomo: “Llama a los obreros y págales su jornal, comenzando por los últimos y terminando con los primeros”."
+    },
+    {
+      "id": "mateo20-nbla-09",
+      "number": 9,
+      "text": "Cuando llegaron los que habían sido contratados como a la hora undécima, cada uno recibió un denario."
+    },
+    {
+      "id": "mateo20-nbla-10",
+      "number": 10,
+      "text": "Cuando llegaron los que fueron contratados primero, pensaban que recibirían más; pero ellos también recibieron un denario cada uno."
+    },
+    {
+      "id": "mateo20-nbla-11",
+      "number": 11,
+      "text": "Y al recibirlo, murmuraban contra el hacendado,"
+    },
+    {
+      "id": "mateo20-nbla-12",
+      "number": 12,
+      "text": "diciendo: “Estos últimos han trabajado solo una hora, pero usted los ha hecho iguales a nosotros que hemos soportado el peso y el calor abrasador del día”."
+    },
+    {
+      "id": "mateo20-nbla-13",
+      "number": 13,
+      "text": "»Pero respondiendo el hacendado, dijo a uno de ellos: “Amigo, no te hago ninguna injusticia; ¿no conviniste conmigo en un denario?"
+    },
+    {
+      "id": "mateo20-nbla-14",
+      "number": 14,
+      "text": "Toma lo que es tuyo, y vete; pero yo quiero darle a este último lo mismo que a ti."
+    },
+    {
+      "id": "mateo20-nbla-15",
+      "number": 15,
+      "text": "¿No me es lícito hacer lo que quiero con lo que es mío? ¿O es tu ojo malo porque yo soy bueno?”."
+    },
+    {
+      "id": "mateo20-nbla-16",
+      "number": 16,
+      "text": "Así, los últimos serán primeros, y los primeros, últimos»."
+    },
+    {
+      "id": "mateo20-nbla-17",
+      "number": 17,
+      "text": "Cuando Jesús iba subiendo a Jerusalén, tomó aparte a los doce discípulos, y por el camino les dijo:"
+    },
+    {
+      "id": "mateo20-nbla-18",
+      "number": 18,
+      "text": "«Ahora subimos a Jerusalén, y el Hijo del Hombre será entregado a los principales sacerdotes y escribas, y lo condenarán a muerte;"
+    },
+    {
+      "id": "mateo20-nbla-19",
+      "number": 19,
+      "text": "y lo entregarán a los gentiles para burlarse de Él, lo azotarán y crucificarán, pero al tercer día resucitará»."
+    },
+    {
+      "id": "mateo20-nbla-20",
+      "number": 20,
+      "text": "Entonces se acercó a Jesús la madre de los hijos de Zebedeo con sus hijos, y postrándose ante Él, le pidió algo."
+    },
+    {
+      "id": "mateo20-nbla-21",
+      "number": 21,
+      "text": "Jesús le preguntó: «¿Qué deseas?». Ella le dijo*: «Ordena que en Tu reino estos dos hijos míos se sienten uno a Tu derecha y el otro a Tu izquierda»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo20-nbla-22a",
+          "order": 1,
+          "text": "Pero Jesús dijo: «No saben lo que piden."
+        },
+        {
+          "id": "mateo20-nbla-22b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "¿Pueden beber la copa que Yo voy a beber?"
+        },
+        {
+          "id": "mateo20-nbla-22c",
+          "order": 3,
+          "text": "». Ellos respondieron*: «Podemos»."
+        }
+      ],
+      "id": "mateo20-nbla-22",
+      "number": 22
+    },
+    {
+      "id": "mateo20-nbla-23",
+      "number": 23,
+      "text": "Él les dijo*: «Mi copa ciertamente beberán, pero el sentarse a Mi derecha y a Mi izquierda no es Mío el concederlo, sino que es para quienes ha sido preparado por Mi Padre»."
+    },
+    {
+      "id": "mateo20-nbla-24",
+      "number": 24,
+      "text": "Al oír esto, los otros diez se indignaron contra los dos hermanos."
+    },
+    {
+      "id": "mateo20-nbla-25",
+      "number": 25,
+      "text": "Pero Jesús, llamándolos junto a Él, dijo: «Ustedes saben que los gobernantes de los gentiles se enseñorean de ellos, y que los grandes ejercen autoridad sobre ellos."
+    },
+    {
+      "id": "mateo20-nbla-26",
+      "number": 26,
+      "text": "No ha de ser así entre ustedes, sino que el que entre ustedes quiera llegar a ser grande, será su servidor,"
+    },
+    {
+      "id": "mateo20-nbla-27",
+      "number": 27,
+      "text": "y el que entre ustedes quiera ser el primero, será su siervo;"
+    },
+    {
+      "id": "mateo20-nbla-28",
+      "number": 28,
+      "text": "así como el Hijo del Hombre no vino para ser servido, sino para servir y para dar Su vida en rescate por muchos»."
+    },
+    {
+      "id": "mateo20-nbla-29",
+      "number": 29,
+      "text": "Al salir de Jericó, una gran multitud siguió a Jesús."
+    },
+    {
+      "id": "mateo20-nbla-30",
+      "number": 30,
+      "text": "Y dos ciegos que estaban sentados junto al camino, al oír que Jesús pasaba, gritaron: «¡Señor, Hijo de David, ten misericordia de nosotros!»."
+    },
+    {
+      "id": "mateo20-nbla-31",
+      "number": 31,
+      "text": "La gente los reprendía para que se callaran, pero ellos gritaban más aún: «¡Señor, Hijo de David, ten misericordia de nosotros!»."
+    },
+    {
+      "id": "mateo20-nbla-32",
+      "number": 32,
+      "text": "Y deteniéndose Jesús, los llamó y les dijo: «¿Qué quieren que Yo haga por ustedes?»."
+    },
+    {
+      "id": "mateo20-nbla-33",
+      "number": 33,
+      "text": "Ellos le respondieron*: «Señor, deseamos que nuestros ojos sean abiertos»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo20-nbla-34a",
+          "order": 1,
+          "text": "Entonces Jesús, movido a compasión, tocó los ojos de ellos"
+        },
+        {
+          "id": "mateo20-nbla-34b",
+          "order": 2,
+          "text": ", y al instante recobraron la vista, y lo siguieron."
+        }
+      ],
+      "id": "mateo20-nbla-34",
+      "number": 34
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,752 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA dice que no hicieron caso. Peterson añade un gesto: se encogieron de hombros. No es odio, es indiferencia. Muchos rechazan a Dios no con violencia, sino con una agenda llena. La huerta y el taller no son malos; el problema es preferirlos al banquete del rey.",
+      "id": "mateo22-joya-01",
+      "msg": {
+        "en": "\"They only shrugged their shoulders and went off, one to weed his garden, another to work in his shop.\"",
+        "es": "\"Ellos solo se encogieron de hombros y se fueron, uno a desyerbar su huerta, otro a trabajar en su taller.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-05"
+        }
+      ],
+      "order": 1,
+      "range": "5-7"
+    },
+    {
+      "explanation": "La NBLA habla de las salidas de los caminos; Peterson, de los cruces más concurridos. Las dos imágenes muestran la misma estrategia: ir donde está la gente. El banquete no espera a que los invitados lleguen al palacio. Los siervos salen a la calle. Así funciona la misión de la iglesia.",
+      "id": "mateo22-joya-02",
+      "msg": {
+        "en": "\"Go out into the busiest intersections in town and invite anyone you find to the banquet.\"",
+        "es": "\"Vayan a los cruces más concurridos de la ciudad e inviten al banquete a cualquiera que encuentren\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-09"
+        }
+      ],
+      "order": 2,
+      "range": "8-10"
+    },
+    {
+      "explanation": "Las dos versiones conservan la simetría perfecta de la frase. Lo que la hace tan poderosa es lo que no dice explícitamente: ¿qué es de Dios? Si la moneda es del César porque lleva su imagen, nosotros somos de Dios porque llevamos la suya. La frase que parece evadir la política termina reclamando la vida entera.",
+      "id": "mateo22-joya-03",
+      "msg": {
+        "en": "\"Then give Caesar what is his, and give God what is his.\"",
+        "es": "\"Entonces denle al César lo que es suyo, y denle a Dios lo que es suyo\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo22-nbla-21b"
+          ],
+          "verseId": "mateo22-nbla-21"
+        }
+      ],
+      "order": 3,
+      "range": "21"
+    },
+    {
+      "explanation": "La NBLA dice que no comprenden ni las Escrituras ni el poder de Dios. Peterson lo traduce como dos fallas: no conocen la Biblia y no saben cómo obra Dios. Los saduceos eran expertos religiosos, pero tenían un Dios demasiado pequeño. Imaginaban la resurrección como una copia de esta vida. Dios es capaz de algo mucho más grande.",
+      "id": "mateo22-joya-04",
+      "msg": {
+        "en": "\"You’re off base on two counts: You don’t know your Bibles, and you don’t know how God works.\"",
+        "es": "\"Están equivocados en dos cosas: no conocen su Biblia y no saben cómo obra Dios.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo22-nbla-29b"
+          ],
+          "verseId": "mateo22-nbla-29"
+        }
+      ],
+      "order": 4,
+      "range": "29-33"
+    },
+    {
+      "explanation": "La NBLA usa el verbo «dependen», que en griego significa literalmente «cuelgan». Peterson recupera esa imagen: clavos en la pared. Si se quitan los clavos, todo se cae al piso. Los mandamientos, los ritos y las profecías tienen sentido solo cuando cuelgan del amor a Dios y al prójimo.",
+      "id": "mateo22-joya-05",
+      "msg": {
+        "en": "\"These two commands are pegs; everything in God’s Law and the Prophets hangs from them.\"",
+        "es": "\"Estos dos mandamientos son como clavos en la pared; de ellos cuelga todo lo que hay en la Ley de Dios y en los Profetas.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-40"
+        }
+      ],
+      "order": 5,
+      "range": "37-40"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 22,
+    "studyId": "mateo-22"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-3",
+      "id": "mateo22-msg-01",
+      "msg": {
+        "en": "Jesus responded by telling still more stories. “God’s kingdom,” he said, “is like a king who threw a wedding banquet for his son. He sent out servants to call in all the invited guests. And they wouldn’t come!",
+        "es": "Jesús respondió contando más historias todavía. «El reino de Dios», dijo, «es como un rey que hizo un banquete de bodas para su hijo. Envió a sus siervos a llamar a todos los invitados. ¡Y no quisieron venir!"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-02"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-03"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "4",
+      "id": "mateo22-msg-02",
+      "msg": {
+        "en": "“He sent out another round of servants, instructing them to tell the guests, ‘Look, everything is on the table, the prime rib is ready for carving. Come to the feast!’",
+        "es": "»Envió otra tanda de siervos, con instrucciones de decirles a los invitados: “Miren, todo está servido en la mesa, la mejor carne está lista para cortar. ¡Vengan a la fiesta!”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-04"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "5-7",
+      "id": "mateo22-msg-03",
+      "msg": {
+        "en": "“They only shrugged their shoulders and went off, one to weed his garden, another to work in his shop. The rest, with nothing better to do, beat up on the messengers and then killed them. The king was outraged and sent his soldiers to destroy those thugs and level their city.",
+        "es": "»Ellos solo se encogieron de hombros y se fueron, uno a desyerbar su huerta, otro a trabajar en su taller. Los demás, sin nada mejor que hacer, golpearon a los mensajeros y luego los mataron. El rey se indignó y envió a sus soldados a destruir a esos matones y arrasar su ciudad."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-05"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-07"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "8-10",
+      "id": "mateo22-msg-04",
+      "msg": {
+        "en": "“Then he told his servants, ‘We have a wedding banquet all prepared but no guests. The ones I invited weren’t up to it. Go out into the busiest intersections in town and invite anyone you find to the banquet.’ The servants went out on the streets and rounded up everyone they laid eyes on, good and bad, regardless. And so the banquet was on—every place filled.",
+        "es": "»Luego les dijo a sus siervos: “Tenemos un banquete de bodas listo, pero no hay invitados. Los que invité no estuvieron a la altura. Vayan a los cruces más concurridos de la ciudad e inviten al banquete a cualquiera que encuentren”. Los siervos salieron a las calles y reunieron a todos los que vieron, buenos y malos, sin distinción. Y así se hizo el banquete, con todos los puestos llenos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-08"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-13",
+      "id": "mateo22-msg-05",
+      "msg": {
+        "en": "“When the king entered and looked over the scene, he spotted a man who wasn’t properly dressed. He said to him, ‘Friend, how dare you come in here looking like that!’ The man was speechless. Then the king told his servants, ‘Get him out of here—fast. Tie him up and ship him to hell. And make sure he doesn’t get back in.’",
+        "es": "»Cuando el rey entró y miró la escena, vio a un hombre que no estaba vestido como correspondía. Le dijo: “Amigo, ¿cómo te atreves a entrar aquí con esa facha?”. El hombre se quedó sin palabras. Entonces el rey les dijo a sus siervos: “Sáquenlo de aquí, rápido. Amárrenlo y mándenlo al infierno. Y asegúrense de que no vuelva a entrar”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-13"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "14",
+      "id": "mateo22-msg-06",
+      "msg": {
+        "en": "“That’s what I mean when I say, ‘Many get invited; only a few make it.’”",
+        "es": "»Eso es lo que quiero decir cuando digo: “Muchos son invitados; solo unos pocos llegan”»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-14"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "15-17",
+      "id": "mateo22-msg-07",
+      "msg": {
+        "en": "That’s when the Pharisees plotted a way to trap him into saying something damaging. They sent their disciples, with a few of Herod’s followers mixed in, to ask, “Teacher, we know you have integrity, teach the way of God accurately, are indifferent to popular opinion, and don’t pander to your students. So tell us honestly: Is it right to pay taxes to Caesar or not?”",
+        "es": "Fue entonces cuando los fariseos tramaron una manera de tenderle una trampa para que dijera algo comprometedor. Enviaron a sus discípulos, mezclados con algunos seguidores de Herodes, a preguntarle: «Maestro, sabemos que eres íntegro, que enseñas el camino de Dios con exactitud, que no te importa la opinión popular y que no les das gusto a tus alumnos. Así que dinos con honestidad: ¿está bien pagar impuestos al César o no?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-17"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "18-19",
+      "id": "mateo22-msg-08",
+      "msg": {
+        "en": "Jesus knew they were up to no good. He said, “Why are you playing these games with me? Why are you trying to trap me? Do you have a coin? Let me see it.” They handed him a silver piece.",
+        "es": "Jesús sabía que tramaban algo malo. Dijo: «¿Por qué juegan conmigo a estas cosas? ¿Por qué intentan atraparme? ¿Tienen una moneda? Déjenmela ver». Le pasaron una moneda de plata."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-19"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "20",
+      "id": "mateo22-msg-09",
+      "msg": {
+        "en": "“This engraving—who does it look like? And whose name is on it?”",
+        "es": "«Este grabado, ¿a quién se parece? ¿Y de quién es el nombre que tiene?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-20"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "21",
+      "id": "mateo22-msg-10",
+      "msg": {
+        "en": "They said, “Caesar.”\n“Then give Caesar what is his, and give God what is his.”",
+        "es": "Ellos dijeron: «Del César».\n«Entonces denle al César lo que es suyo, y denle a Dios lo que es suyo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-21"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "22",
+      "id": "mateo22-msg-11",
+      "msg": {
+        "en": "The Pharisees were speechless. They went off shaking their heads.",
+        "es": "Los fariseos se quedaron sin palabras. Se fueron moviendo la cabeza."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-22"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "23-28",
+      "id": "mateo22-msg-12",
+      "msg": {
+        "en": "That same day, Sadducees approached him. This is the party that denies any possibility of resurrection. They asked, “Teacher, Moses said that if a man dies childless, his brother is obligated to marry his widow and get her with child. Here’s a case where there were seven brothers. The first brother married and died, leaving no child, and his wife passed to his brother. The second brother also left her childless, then the third—and on and on, all seven. Eventually the wife died. Now here’s our question: At the resurrection, whose wife is she? She was a wife to each of them.”",
+        "es": "Ese mismo día se le acercaron los saduceos, el partido que niega toda posibilidad de resurrección. Le preguntaron: «Maestro, Moisés dijo que si un hombre muere sin hijos, su hermano está obligado a casarse con la viuda y darle descendencia. Aquí hay un caso de siete hermanos. El primero se casó y murió sin dejar hijos, y su esposa pasó a su hermano. El segundo hermano también la dejó sin hijos, luego el tercero, y así sucesivamente, los siete. Al final murió la mujer. Ahora, esta es nuestra pregunta: en la resurrección, ¿de quién es esposa? Fue esposa de todos ellos»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-23"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-24"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-27"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-28"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "29-33",
+      "id": "mateo22-msg-13",
+      "msg": {
+        "en": "Jesus answered, “You’re off base on two counts: You don’t know your Bibles, and you don’t know how God works. At the resurrection we’re beyond marriage. As with the angels, all our ecstasies and intimacies then will be with God. And regarding your speculation on whether the dead are raised or not, don’t you read your Bibles? The grammar is clear: God says, ‘I am—not was— the God of Abraham, the God of Isaac, the God of Jacob.’ The living God defines himself not as the God of dead men, but of the living.” Hearing this exchange the crowd was much impressed.",
+        "es": "Jesús respondió: «Están equivocados en dos cosas: no conocen su Biblia y no saben cómo obra Dios. En la resurrección estaremos más allá del matrimonio. Como los ángeles, todos nuestros éxtasis e intimidades serán entonces con Dios. Y en cuanto a sus especulaciones sobre si los muertos resucitan o no, ¿no leen su Biblia? La gramática es clara: Dios dice: “Yo soy —no “yo era”— el Dios de Abraham, el Dios de Isaac, el Dios de Jacob”. El Dios vivo no se define como Dios de muertos, sino de vivos». Al oír esta conversación, la multitud quedó muy impresionada."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-29"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-30"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-32"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-33"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "34-36",
+      "id": "mateo22-msg-14",
+      "msg": {
+        "en": "When the Pharisees heard how he had bested the Sadducees, they gathered their forces for an assault. One of their religion scholars spoke for them, posing a question they hoped would show him up: “Teacher, which command in God’s Law is the most important?”",
+        "es": "Cuando los fariseos oyeron cómo había derrotado a los saduceos, reunieron sus fuerzas para un ataque. Uno de sus estudiosos de la religión habló por ellos y le planteó una pregunta con la que esperaban dejarlo en evidencia: «Maestro, ¿cuál mandamiento de la Ley de Dios es el más importante?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-36"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "37-40",
+      "id": "mateo22-msg-15",
+      "msg": {
+        "en": "Jesus said, ” ‘Love the Lord your God with all your passion and prayer and intelligence.’ This is the most important, the first on any list. But there is a second to set alongside it: ‘Love others as well as you love yourself.’ These two commands are pegs; everything in God’s Law and the Prophets hangs from them.”",
+        "es": "Jesús dijo: «“Ama al Señor tu Dios con toda tu pasión, tu oración y tu inteligencia”. Este es el más importante, el primero de cualquier lista. Pero hay un segundo que va a su lado: “Ama a los demás tanto como te amas a ti mismo”. Estos dos mandamientos son como clavos en la pared; de ellos cuelga todo lo que hay en la Ley de Dios y en los Profetas»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-37"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-38"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-40"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "41-42",
+      "id": "mateo22-msg-16",
+      "msg": {
+        "en": "As the Pharisees were regrouping, Jesus caught them off balance with his own test question: “What do you think about the Christ? Whose son is he?” They said, “David’s son.”",
+        "es": "Mientras los fariseos se reagrupaban, Jesús los tomó desprevenidos con su propia pregunta de examen: «¿Qué piensan ustedes del Cristo? ¿De quién es hijo?». Ellos dijeron: «Hijo de David»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-42"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "43-45",
+      "id": "mateo22-msg-17",
+      "msg": {
+        "en": "Jesus replied, “Well, if the Christ is David’s son, how do you explain that David, under inspiration, named Christ his ‘Master’?\nGod said to my Master,\n“Sit here at my right hand\nuntil I make your enemies your footstool.”\n“Now if David calls him ‘Master,’ how can he at the same time be his son?”",
+        "es": "Jesús respondió: «Pues bien, si el Cristo es hijo de David, ¿cómo explican que David, inspirado, llame al Cristo su “Señor”?\nDios le dijo a mi Señor:\n“Siéntate aquí a mi derecha\nhasta que ponga a tus enemigos por estrado de tus pies”.\n»Ahora, si David lo llama “Señor”, ¿cómo puede ser al mismo tiempo su hijo?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-45"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "46",
+      "id": "mateo22-msg-18",
+      "msg": {
+        "en": "That stumped them, literalists that they were. Unwilling to risk losing face again in one of these public verbal exchanges, they quit asking questions for good.",
+        "es": "Eso los dejó perplejos, literalistas como eran. Como no querían arriesgarse a quedar mal otra vez en uno de estos debates públicos, dejaron de hacerle preguntas para siempre."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo22-nbla-46"
+        }
+      ],
+      "order": 18
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo22-nbla-01",
+      "number": 1,
+      "text": "Jesús comenzó a hablarles otra vez en parábolas, diciendo:"
+    },
+    {
+      "id": "mateo22-nbla-02",
+      "number": 2,
+      "text": "«El reino de los cielos puede compararse a un rey que hizo un banquete de bodas para su hijo."
+    },
+    {
+      "id": "mateo22-nbla-03",
+      "number": 3,
+      "text": "Y envió a sus siervos a llamar a los que habían sido invitados a las bodas, pero no quisieron venir."
+    },
+    {
+      "id": "mateo22-nbla-04",
+      "number": 4,
+      "text": "De nuevo envió otros siervos, diciéndoles: “Digan a los que han sido invitados: ‘Ya he preparado mi banquete; he matado mis novillos y animales cebados, y todo está preparado; vengan a las bodas’”."
+    },
+    {
+      "id": "mateo22-nbla-05",
+      "number": 5,
+      "text": "Pero ellos no hicieron caso y se fueron: uno a su campo, otro a sus negocios,"
+    },
+    {
+      "id": "mateo22-nbla-06",
+      "number": 6,
+      "text": "y los demás, echando mano a los siervos, los maltrataron y los mataron."
+    },
+    {
+      "id": "mateo22-nbla-07",
+      "number": 7,
+      "text": "»Entonces el rey se enfureció, y enviando sus ejércitos, destruyó a aquellos asesinos e incendió su ciudad."
+    },
+    {
+      "id": "mateo22-nbla-08",
+      "number": 8,
+      "text": "Luego dijo* a sus siervos: “La boda está preparada, pero los que fueron invitados no eran dignos."
+    },
+    {
+      "id": "mateo22-nbla-09",
+      "number": 9,
+      "text": "Vayan, por tanto, a las salidas de los caminos, e inviten a las bodas a cuantos encuentren”."
+    },
+    {
+      "id": "mateo22-nbla-10",
+      "number": 10,
+      "text": "Aquellos siervos salieron por los caminos, y reunieron a todos los que encontraron, tanto malos como buenos; y el salón de bodas se llenó de invitados."
+    },
+    {
+      "id": "mateo22-nbla-11",
+      "number": 11,
+      "text": "»Pero cuando el rey entró a ver a los invitados, vio allí a uno que no estaba vestido con traje de boda,"
+    },
+    {
+      "id": "mateo22-nbla-12",
+      "number": 12,
+      "text": "y le dijo*: “Amigo, ¿cómo entraste aquí sin traje de boda?”. Pero el hombre se quedó callado."
+    },
+    {
+      "id": "mateo22-nbla-13",
+      "number": 13,
+      "text": "El rey entonces dijo a los sirvientes: “Atenle las manos y los pies, y échenlo a las tinieblas de afuera; allí será el llanto y el crujir de dientes”."
+    },
+    {
+      "id": "mateo22-nbla-14",
+      "number": 14,
+      "text": "Porque muchos son llamados, pero pocos son escogidos»."
+    },
+    {
+      "id": "mateo22-nbla-15",
+      "number": 15,
+      "text": "Entonces los fariseos se fueron y deliberaron entre sí cómo atrapar a Jesús en alguna palabra que Él dijera."
+    },
+    {
+      "id": "mateo22-nbla-16",
+      "number": 16,
+      "text": "Y los fariseos enviaron* algunos de sus discípulos junto con los partidarios de Herodes, diciendo: «Maestro, sabemos que eres veraz y que enseñas el camino de Dios con verdad, y no buscas el favor de nadie, porque eres imparcial."
+    },
+    {
+      "id": "mateo22-nbla-17",
+      "number": 17,
+      "text": "Dinos, pues, cuál es Tu opinión: ¿Está permitido pagar impuesto a César, o no?»."
+    },
+    {
+      "id": "mateo22-nbla-18",
+      "number": 18,
+      "text": "Pero Jesús, conociendo su malicia, dijo: «¿Por qué me ponen a prueba, hipócritas?"
+    },
+    {
+      "id": "mateo22-nbla-19",
+      "number": 19,
+      "text": "Traigan la moneda que se usa para pagar ese impuesto». Y le trajeron un denario."
+    },
+    {
+      "id": "mateo22-nbla-20",
+      "number": 20,
+      "text": "Y Él les preguntó*: «¿De quién es esta imagen y esta inscripción?»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo22-nbla-21a",
+          "order": 1,
+          "text": "Ellos le dijeron*: «De César». Entonces Él les dijo*: «"
+        },
+        {
+          "id": "mateo22-nbla-21b",
+          "order": 2,
+          "text": "Pues den a César lo que es de César, y a Dios lo que es de Dios»."
+        }
+      ],
+      "id": "mateo22-nbla-21",
+      "number": 21
+    },
+    {
+      "id": "mateo22-nbla-22",
+      "number": 22,
+      "text": "Al oír esto, se maravillaron; lo dejaron y se fueron."
+    },
+    {
+      "id": "mateo22-nbla-23",
+      "number": 23,
+      "text": "Ese día se acercaron a Jesús algunos saduceos, los que dicen que no hay resurrección,"
+    },
+    {
+      "id": "mateo22-nbla-24",
+      "number": 24,
+      "text": "y le dijeron: «Maestro, Moisés dijo: “SI ALGUIEN MUERE SIN TENER HIJOS, SU HERMANO, COMO PARIENTE MÁS CERCANO, SE CASARÁ CON SU MUJER Y LEVANTARÁ DESCENDENCIA A SU HERMANO”."
+    },
+    {
+      "id": "mateo22-nbla-25",
+      "number": 25,
+      "text": "Ahora bien, había entre nosotros siete hermanos; el primero se casó, y murió; pero no teniendo descendencia, le dejó la mujer a su hermano."
+    },
+    {
+      "id": "mateo22-nbla-26",
+      "number": 26,
+      "text": "De igual manera también el segundo, y el tercero, hasta el séptimo."
+    },
+    {
+      "id": "mateo22-nbla-27",
+      "number": 27,
+      "text": "Y después de todos, murió la mujer."
+    },
+    {
+      "id": "mateo22-nbla-28",
+      "number": 28,
+      "text": "Por tanto, en la resurrección, ¿de cuál de los siete será mujer? Porque todos ellos la tuvieron»."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo22-nbla-29a",
+          "order": 1,
+          "text": "Pero Jesús les respondió: «"
+        },
+        {
+          "id": "mateo22-nbla-29b",
+          "order": 2,
+          "text": "Están equivocados por no comprender las Escrituras ni el poder de Dios."
+        }
+      ],
+      "id": "mateo22-nbla-29",
+      "number": 29
+    },
+    {
+      "id": "mateo22-nbla-30",
+      "number": 30,
+      "text": "Porque en la resurrección, ni se casan ni son dados en matrimonio, sino que son como los ángeles de Dios en el cielo."
+    },
+    {
+      "id": "mateo22-nbla-31",
+      "number": 31,
+      "text": "Y en cuanto a la resurrección de los muertos, ¿no han leído lo que les fue dicho por Dios, cuando dijo:"
+    },
+    {
+      "id": "mateo22-nbla-32",
+      "number": 32,
+      "text": "“YO SOY EL DIOS DE ABRAHAM, Y EL DIOS DE ISAAC, Y EL DIOS DE JACOB”? Él no es Dios de muertos, sino de vivos»."
+    },
+    {
+      "id": "mateo22-nbla-33",
+      "number": 33,
+      "text": "Al oír esto, las multitudes se admiraban de Su enseñanza."
+    },
+    {
+      "id": "mateo22-nbla-34",
+      "number": 34,
+      "text": "Los fariseos se agruparon al oír que Jesús había dejado callados a los saduceos."
+    },
+    {
+      "id": "mateo22-nbla-35",
+      "number": 35,
+      "text": "Uno de ellos, intérprete de la ley, para poner a prueba a Jesús, le preguntó:"
+    },
+    {
+      "id": "mateo22-nbla-36",
+      "number": 36,
+      "text": "«Maestro, ¿cuál es el gran mandamiento de la ley?»."
+    },
+    {
+      "id": "mateo22-nbla-37",
+      "number": 37,
+      "text": "Y Él le contestó: «AMARÁS AL SEÑOR TU DIOS CON TODO TU CORAZÓN, Y CON TODA TU ALMA, Y CON TODA TU MENTE."
+    },
+    {
+      "id": "mateo22-nbla-38",
+      "number": 38,
+      "text": "Este es el grande y primer mandamiento."
+    },
+    {
+      "id": "mateo22-nbla-39",
+      "number": 39,
+      "text": "Y el segundo es semejante a este: AMARÁS A TU PRÓJIMO COMO A TI MISMO."
+    },
+    {
+      "id": "mateo22-nbla-40",
+      "number": 40,
+      "text": "De estos dos mandamientos dependen toda la ley y los profetas»."
+    },
+    {
+      "id": "mateo22-nbla-41",
+      "number": 41,
+      "text": "Estando reunidos los fariseos, Jesús les hizo una pregunta:"
+    },
+    {
+      "id": "mateo22-nbla-42",
+      "number": 42,
+      "text": "«¿Cuál es la opinión de ustedes sobre el Cristo? ¿De quién es hijo?». «De David», le contestaron* ellos."
+    },
+    {
+      "id": "mateo22-nbla-43",
+      "number": 43,
+      "text": "Jesús les dijo*: «Entonces, ¿cómo es que David en el Espíritu lo llama “Señor”, diciendo:"
+    },
+    {
+      "id": "mateo22-nbla-44",
+      "number": 44,
+      "text": "“DIJO EL SEÑOR A MI SEÑOR:\n‘SIÉNTATE A MI DIESTRA,\nHASTA QUE PONGA A TUS ENEMIGOS DEBAJO DE TUS PIES’”?"
+    },
+    {
+      "id": "mateo22-nbla-45",
+      "number": 45,
+      "text": "Pues si David lo llama “Señor”, ¿cómo es Él su hijo?»."
+    },
+    {
+      "id": "mateo22-nbla-46",
+      "number": 46,
+      "text": "Y nadie le pudo contestar ni una palabra, ni ninguno desde ese día se atrevió a hacer más preguntas a Jesús."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}

@@ -1,0 +1,812 @@
+{
+  "credits": [
+    "Copyright © 1993, 2002, 2018 by Eugene H. Peterson",
+    "Nueva Biblia de las Américas™ NBLA™ Copyright © 2005 por The Lockman Foundation"
+  ],
+  "jewels": [
+    {
+      "explanation": "La NBLA usa el título de Señor. Peterson lo pone en contraste con su opuesto: no es sirviente del sábado, está a cargo. Los fariseos trataban al sábado como un amo al que había que obedecer a toda costa. Jesús se presenta como el dueño del descanso, que decide cómo se usa para el bien.",
+      "id": "mateo12-joya-01",
+      "msg": {
+        "en": "\"The Son of Man is no lackey to the Sabbath; he’s in charge.\"",
+        "es": "\"El Hijo del Hombre no es un sirviente del sábado; él está a cargo.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-08"
+        }
+      ],
+      "order": 1,
+      "range": "6-8"
+    },
+    {
+      "explanation": "La NBLA conserva el argumento de lo menor a lo mayor: si sacas a una oveja del hoyo, cuánto más a un hombre. Peterson lo convierte en una frase casi irónica sobre la legalidad de la bondad. La religión que permite rescatar animales pero prohíbe sanar personas ha perdido el sentido común y la misericordia.",
+      "id": "mateo12-joya-02",
+      "msg": {
+        "en": "\"Surely kindness to people is as legal as kindness to animals!\"",
+        "es": "\"¡Seguramente la bondad con las personas es tan legal como la bondad con los animales!\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-12"
+        }
+      ],
+      "order": 2,
+      "range": "11-14"
+    },
+    {
+      "explanation": "La NBLA conserva las imágenes originales de Isaías: la caña cascada y la mecha que humea. Peterson las traduce al lenguaje de las relaciones: no pisotea los sentimientos de nadie. Las dos versiones describen a un Mesías que trata con delicadeza a los que están a punto de romperse.",
+      "id": "mateo12-joya-03",
+      "msg": {
+        "en": "\"He won’t walk over anyone’s feelings,\"",
+        "es": "\"No pisoteará los sentimientos de nadie,\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo12-nbla-20a"
+          ],
+          "verseId": "mateo12-nbla-20"
+        }
+      ],
+      "order": 3,
+      "range": "15-21"
+    },
+    {
+      "explanation": "La NBLA lo dice con la frase que muchos conocemos: de la abundancia del corazón habla la boca. Peterson añade una comparación inesperada con el diccionario. Las palabras no valen por su definición, sino por el corazón que las pronuncia. La misma frase puede ser bendición o veneno, según lo que haya adentro.",
+      "id": "mateo12-joya-04",
+      "msg": {
+        "en": "\"It’s your heart, not the dictionary, that gives meaning to your words.\"",
+        "es": "\"Es su corazón, no el diccionario, lo que les da significado a sus palabras.\""
+      },
+      "nblaRefs": [
+        {
+          "clauseIds": [
+            "mateo12-nbla-34b"
+          ],
+          "verseId": "mateo12-nbla-34"
+        }
+      ],
+      "order": 4,
+      "range": "34-37"
+    },
+    {
+      "explanation": "La NBLA da la definición completa de la familia de Jesús. Peterson la resume jugando con el refrán inglés «la sangre es más espesa que el agua». Para Jesús, el lazo más fuerte no es el genético sino la obediencia al Padre. Eso no desprecia a su familia; abre la puerta a una familia mucho más grande.",
+      "id": "mateo12-joya-05",
+      "msg": {
+        "en": "\"Obedience is thicker than blood.\"",
+        "es": "\"La obediencia es más fuerte que la sangre.\""
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-50"
+        }
+      ],
+      "order": 5,
+      "range": "48-50"
+    }
+  ],
+  "meta": {
+    "book": "Mateo",
+    "bookId": "mateo",
+    "chapter": 12,
+    "studyId": "mateo-12"
+  },
+  "msgBlocks": [
+    {
+      "editorialRange": "1-2",
+      "id": "mateo12-msg-01",
+      "msg": {
+        "en": "One Sabbath, Jesus was strolling with his disciples through a field of ripe grain. Hungry, the disciples were pulling off the heads of grain and munching on them. Some Pharisees reported them to Jesus: “Your disciples are breaking the Sabbath rules!”",
+        "es": "Un sábado, Jesús paseaba con sus discípulos por un campo de trigo maduro. Como tenían hambre, los discípulos arrancaban espigas y se las comían. Unos fariseos se lo reportaron a Jesús: «¡Tus discípulos están violando las reglas del sábado!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-01"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-02"
+        }
+      ],
+      "order": 1
+    },
+    {
+      "editorialRange": "3-5",
+      "id": "mateo12-msg-02",
+      "msg": {
+        "en": "Jesus said, “Really? Didn’t you ever read what David and his companions did when they were hungry, how they entered the sanctuary and ate fresh bread off the altar, bread that no one but priests were allowed to eat? And didn’t you ever read in God’s Law that priests carrying out their Temple duties break Sabbath rules all the time and it’s not held against them?",
+        "es": "Jesús les dijo: «¿De veras? ¿Nunca leyeron lo que hicieron David y sus compañeros cuando tuvieron hambre, cómo entraron al santuario y comieron el pan fresco del altar, un pan que solo los sacerdotes podían comer? ¿Y nunca leyeron en la Ley de Dios que los sacerdotes, al cumplir sus deberes en el Templo, quebrantan las reglas del sábado todo el tiempo y no se les toma en cuenta?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-03"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-04"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-05"
+        }
+      ],
+      "order": 2
+    },
+    {
+      "editorialRange": "6-8",
+      "id": "mateo12-msg-03",
+      "msg": {
+        "en": "“There is far more at stake here than religion. If you had any idea what this Scripture meant—‘I prefer a flexible heart to an inflexible ritual’—you wouldn’t be nitpicking like this. The Son of Man is no lackey to the Sabbath; he’s in charge.”",
+        "es": "»Aquí está en juego mucho más que la religión. Si tuvieran alguna idea de lo que significa esta Escritura —“Prefiero un corazón flexible a un ritual inflexible”—, no estarían buscándole cinco patas al gato de esta manera. El Hijo del Hombre no es un sirviente del sábado; él está a cargo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-06"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-07"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-08"
+        }
+      ],
+      "order": 3
+    },
+    {
+      "editorialRange": "9-10",
+      "id": "mateo12-msg-04",
+      "msg": {
+        "en": "When Jesus left the field, he entered their meeting place. There was a man there with a crippled hand. They said to Jesus, “Is it legal to heal on the Sabbath?” They were baiting him.",
+        "es": "Cuando Jesús salió del campo, entró en el lugar de reunión de ellos. Había allí un hombre con una mano lisiada. Le preguntaron a Jesús: «¿Es legal sanar en sábado?». Le estaban tendiendo una trampa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-09"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-10"
+        }
+      ],
+      "order": 4
+    },
+    {
+      "editorialRange": "11-14",
+      "id": "mateo12-msg-05",
+      "msg": {
+        "en": "He replied, “Is there a person here who, finding one of your lambs fallen into a ravine, wouldn’t, even though it was a Sabbath, pull it out? Surely kindness to people is as legal as kindness to animals!” Then he said to the man, “Hold out your hand.” He held it out and it was healed. The Pharisees walked out furious, sputtering about how they were going to ruin Jesus.",
+        "es": "Él respondió: «¿Hay alguien aquí que, si encuentra a uno de sus corderos caído en un barranco, no lo sacaría aunque fuera sábado? ¡Seguramente la bondad con las personas es tan legal como la bondad con los animales!». Luego le dijo al hombre: «Extiende la mano». Él la extendió y quedó sana. Los fariseos salieron furiosos, farfullando sobre cómo iban a arruinar a Jesús."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-11"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-12"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-13"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-14"
+        }
+      ],
+      "order": 5
+    },
+    {
+      "editorialRange": "15-21",
+      "id": "mateo12-msg-06",
+      "msg": {
+        "en": "Jesus, knowing they were out to get him, moved on. A lot of people followed him, and he healed them all. He also cautioned them to keep it quiet, following guidelines set down by Isaiah:\nLook well at my handpicked servant;\nI love him so much, take such delight in him.\nI’ve placed my Spirit on him;\nhe’ll decree justice to the nations.\nBut he won’t yell, won’t raise his voice;\nthere’ll be no commotion in the streets.\nHe won’t walk over anyone’s feelings,\nwon’t push you into a corner.\nBefore you know it, his justice will triumph;\nthe mere sound of his name will signal hope, even\namong far-off unbelievers.",
+        "es": "Jesús, sabiendo que andaban tras él, se fue de allí. Mucha gente lo siguió, y él los sanó a todos. También les advirtió que no lo divulgaran, siguiendo las pautas que había dejado Isaías:\nMiren bien a mi siervo escogido;\nlo amo tanto, me deleito tanto en él.\nHe puesto mi Espíritu sobre él;\ndecretará justicia a las naciones.\nPero no gritará, no levantará la voz;\nno habrá alboroto en las calles.\nNo pisoteará los sentimientos de nadie,\nno arrinconará a nadie.\nAntes de que te des cuenta, su justicia triunfará;\nel solo sonido de su nombre será señal de esperanza,\naun entre los incrédulos lejanos."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-15"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-16"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-17"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-18"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-19"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-20"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-21"
+        }
+      ],
+      "order": 6
+    },
+    {
+      "editorialRange": "22-23",
+      "id": "mateo12-msg-07",
+      "msg": {
+        "en": "Next a poor demon-afflicted wretch, both blind and deaf, was set down before him. Jesus healed him, gave him his sight and hearing. The people who saw it were impressed—“This has to be the Son of David!”",
+        "es": "Luego le trajeron a un pobre infeliz atormentado por un demonio, ciego y sordo a la vez. Jesús lo sanó, le devolvió la vista y el oído. La gente que lo vio quedó impresionada: «¡Este tiene que ser el Hijo de David!»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-22"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-23"
+        }
+      ],
+      "order": 7
+    },
+    {
+      "editorialRange": "24",
+      "id": "mateo12-msg-08",
+      "msg": {
+        "en": "But the Pharisees, when they heard the report, were cynical. “Black magic,” they said. “Some devil trick he’s pulled from his sleeve.”",
+        "es": "Pero los fariseos, cuando oyeron lo que pasó, se pusieron cínicos. «Magia negra», dijeron. «Algún truco del diablo que se sacó de la manga»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-24"
+        }
+      ],
+      "order": 8
+    },
+    {
+      "editorialRange": "25-27",
+      "id": "mateo12-msg-09",
+      "msg": {
+        "en": "Jesus confronted their slander. “A judge who gives opposite verdicts on the same person cancels himself out; a family that’s in a constant squabble disintegrates; if Satan banishes Satan, is there any Satan left? If you’re slinging devil mud at me, calling me a devil kicking out devils, doesn’t the same mud stick to your own exorcists?",
+        "es": "Jesús confrontó su calumnia. «Un juez que da veredictos opuestos sobre la misma persona se anula a sí mismo; una familia que vive peleando se desintegra; si Satanás echa fuera a Satanás, ¿queda algún Satanás? Si me están lanzando barro del diablo, llamándome un diablo que echa fuera diablos, ¿no se les pega el mismo barro a sus propios exorcistas?"
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-25"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-26"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-27"
+        }
+      ],
+      "order": 9
+    },
+    {
+      "editorialRange": "28-29",
+      "id": "mateo12-msg-10",
+      "msg": {
+        "en": "“But if it’s by God’s power that I am sending the evil spirits packing, then God’s kingdom is here for sure. How in the world do you think it’s possible in broad daylight to enter the house of an awake, able-bodied man and walk off with his possessions unless you tie him up first? Tie him up, though, and you can clean him out.",
+        "es": "»Pero si es por el poder de Dios que estoy despachando a los espíritus malignos, entonces el reino de Dios está aquí, sin duda. ¿Cómo creen que es posible, a plena luz del día, entrar en la casa de un hombre despierto y fuerte y llevarse sus pertenencias sin amarrarlo primero? Pero si lo amarras, puedes vaciarle la casa."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-28"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-29"
+        }
+      ],
+      "order": 10
+    },
+    {
+      "editorialRange": "30",
+      "id": "mateo12-msg-11",
+      "msg": {
+        "en": "“This is war, and there is no neutral ground. If you’re not on my side, you’re the enemy; if you’re not helping, you’re making things worse.",
+        "es": "»Esto es una guerra, y no hay terreno neutral. Si no estás de mi lado, eres el enemigo; si no estás ayudando, estás empeorando las cosas."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-30"
+        }
+      ],
+      "order": 11
+    },
+    {
+      "editorialRange": "31-32",
+      "id": "mateo12-msg-12",
+      "msg": {
+        "en": "“There’s nothing done or said that can’t be forgiven. But if you deliberately persist in your slanders against God’s Spirit, you are repudiating the very One who forgives. If you reject the Son of Man out of some misunderstanding, the Holy Spirit can forgive you, but when you reject the Holy Spirit, you’re sawing off the branch on which you’re sitting, severing by your own perversity all connection with the One who forgives.",
+        "es": "»No hay nada hecho o dicho que no pueda perdonarse. Pero si persisten deliberadamente en sus calumnias contra el Espíritu de Dios, están rechazando a Aquel mismo que perdona. Si rechazan al Hijo del Hombre por algún malentendido, el Espíritu Santo puede perdonarlos; pero cuando rechazan al Espíritu Santo, están cortando la rama en la que están sentados, rompiendo por su propia terquedad toda conexión con Aquel que perdona."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-31"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-32"
+        }
+      ],
+      "order": 12
+    },
+    {
+      "editorialRange": "33",
+      "id": "mateo12-msg-13",
+      "msg": {
+        "en": "“If you grow a healthy tree, you’ll pick healthy fruit. If you grow a diseased tree, you’ll pick worm-eaten fruit. The fruit tells you about the tree.",
+        "es": "»Si cultivas un árbol sano, recogerás fruta sana. Si cultivas un árbol enfermo, recogerás fruta agusanada. La fruta te dice cómo es el árbol."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-33"
+        }
+      ],
+      "order": 13
+    },
+    {
+      "editorialRange": "34-37",
+      "id": "mateo12-msg-14",
+      "msg": {
+        "en": "“You have minds like a snake pit! How do you suppose what you say is worth anything when you are so foul-minded? It’s your heart, not the dictionary, that gives meaning to your words. A good person produces good deeds and words season after season. An evil person is a blight on the orchard. Let me tell you something: Every one of these careless words is going to come back to haunt you. There will be a time of Reckoning. Words are powerful; take them seriously. Words can be your salvation. Words can also be your damnation.”",
+        "es": "»¡Tienen la mente como un nido de serpientes! ¿Cómo creen que lo que dicen vale algo cuando tienen una mente tan podrida? Es su corazón, no el diccionario, lo que les da significado a sus palabras. Una persona buena produce buenas obras y buenas palabras temporada tras temporada. Una persona mala es una plaga en el huerto. Déjenme decirles algo: cada una de esas palabras descuidadas va a volver para perseguirlos. Habrá un tiempo de rendir cuentas. Las palabras tienen poder; tómenlas en serio. Las palabras pueden ser su salvación. Las palabras también pueden ser su condenación»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-34"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-35"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-36"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-37"
+        }
+      ],
+      "order": 14
+    },
+    {
+      "editorialRange": "38",
+      "id": "mateo12-msg-15",
+      "msg": {
+        "en": "Later a few religion scholars and Pharisees got on him. “Teacher, we want to see your credentials. Give us some hard evidence that God is in this. How about a miracle?”",
+        "es": "Más tarde, unos estudiosos de la religión y unos fariseos lo acosaron: «Maestro, queremos ver tus credenciales. Danos alguna prueba contundente de que Dios está en esto. ¿Qué tal un milagro?»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-38"
+        }
+      ],
+      "order": 15
+    },
+    {
+      "editorialRange": "39-40",
+      "id": "mateo12-msg-16",
+      "msg": {
+        "en": "Jesus said, “You’re looking for proof, but you’re looking for the wrong kind. All you want is something to titillate your curiosity, satisfy your lust for miracles. The only proof you’re going to get is what looks like the absence of proof: Jonah-evidence. Like Jonah, three days and nights in the fish’s belly, the Son of Man will be gone three days and nights in a deep grave.",
+        "es": "Jesús les dijo: «Ustedes buscan una prueba, pero buscan la clase equivocada. Lo único que quieren es algo que excite su curiosidad, que satisfaga su antojo de milagros. La única prueba que van a recibir es lo que parece la ausencia de prueba: la evidencia de Jonás. Como Jonás, tres días y tres noches en el vientre del pez, el Hijo del Hombre estará ausente tres días y tres noches en una tumba profunda."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-39"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-40"
+        }
+      ],
+      "order": 16
+    },
+    {
+      "editorialRange": "41-42",
+      "id": "mateo12-msg-17",
+      "msg": {
+        "en": "“On Judgment Day, the Ninevites will stand up and give evidence that will condemn this generation, because when Jonah preached to them they changed their lives. A far greater preacher than Jonah is here, and you squabble about ‘proofs.’ On Judgment Day, the Queen of Sheba will come forward and bring evidence that will condemn this generation, because she traveled from a far corner of the earth to listen to wise Solomon. Wisdom far greater than Solomon’s is right in front of you, and you quibble over ‘evidence.’",
+        "es": "»En el Día del Juicio, los ninivitas se pondrán de pie y presentarán pruebas que condenarán a esta generación, porque cuando Jonás les predicó, cambiaron su vida. Aquí hay un predicador mucho más grande que Jonás, y ustedes discuten sobre “pruebas”. En el Día del Juicio, la reina de Sabá se presentará y aportará pruebas que condenarán a esta generación, porque ella viajó desde un rincón lejano de la tierra para escuchar al sabio Salomón. Una sabiduría mucho más grande que la de Salomón está justo delante de ustedes, y ustedes pelean por “evidencias”."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-41"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-42"
+        }
+      ],
+      "order": 17
+    },
+    {
+      "editorialRange": "43-45",
+      "id": "mateo12-msg-18",
+      "msg": {
+        "en": "“When a defiling evil spirit is expelled from someone, it drifts along through the desert looking for an oasis, some unsuspecting soul it can bedevil. When it doesn’t find anyone, it says, ‘I’ll go back to my old haunt.’ On return it finds the person spotlessly clean, but vacant. It then runs out and rounds up seven other spirits more evil than itself and they all move in, whooping it up. That person ends up far worse off than if he’d never gotten cleaned up in the first place.\n“That’s what this generation is like: You may think you have cleaned out the junk from your lives and gotten ready for God, but you weren’t hospitable to my kingdom message, and now all the devils are moving back in.”",
+        "es": "»Cuando un espíritu maligno que contamina es expulsado de alguien, vaga por el desierto buscando un oasis, algún alma desprevenida a la que pueda atormentar. Cuando no encuentra a nadie, dice: “Volveré a mi antigua guarida”. Al regresar, encuentra a la persona impecablemente limpia, pero vacía. Entonces sale corriendo, reúne a otros siete espíritus peores que él, y todos se mudan allí armando una fiesta. Esa persona termina mucho peor que si nunca se hubiera limpiado.\n»Así es esta generación: tal vez piensen que han sacado la basura de su vida y se han preparado para Dios, pero no recibieron con hospitalidad mi mensaje del reino, y ahora todos los demonios se están mudando de vuelta»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-43"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-44"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-45"
+        }
+      ],
+      "order": 18
+    },
+    {
+      "editorialRange": "46-47",
+      "id": "mateo12-msg-19",
+      "msg": {
+        "en": "While he was still talking to the crowd, his mother and brothers showed up. They were outside trying to get a message to him. Someone told Jesus, “Your mother and brothers are out here, wanting to speak with you.”",
+        "es": "Mientras todavía le hablaba a la multitud, llegaron su madre y sus hermanos. Estaban afuera tratando de hacerle llegar un mensaje. Alguien le dijo a Jesús: «Tu madre y tus hermanos están aquí afuera y quieren hablar contigo»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-46"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-47"
+        }
+      ],
+      "order": 19
+    },
+    {
+      "editorialRange": "48-50",
+      "id": "mateo12-msg-20",
+      "msg": {
+        "en": "Jesus didn’t respond directly, but said, “Who do you think my mother and brothers are?” He then stretched out his hand toward his disciples. “Look closely. These are my mother and brothers. Obedience is thicker than blood. The person who obeys my heavenly Father’s will is my brother and sister and mother.”",
+        "es": "Jesús no respondió directamente, sino que dijo: «¿Quiénes creen que son mi madre y mis hermanos?». Luego extendió la mano hacia sus discípulos. «Miren bien. Estos son mi madre y mis hermanos. La obediencia es más fuerte que la sangre. La persona que obedece la voluntad de mi Padre celestial es mi hermano, mi hermana y mi madre»."
+      },
+      "nblaRefs": [
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-48"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-49"
+        },
+        {
+          "fullVerse": true,
+          "verseId": "mateo12-nbla-50"
+        }
+      ],
+      "order": 20
+    }
+  ],
+  "nblaVerses": [
+    {
+      "id": "mateo12-nbla-01",
+      "number": 1,
+      "text": "Por aquel tiempo Jesús pasó por entre los sembrados en el día de reposo; Sus discípulos tuvieron hambre, y empezaron a arrancar espigas y a comer."
+    },
+    {
+      "id": "mateo12-nbla-02",
+      "number": 2,
+      "text": "Cuando los fariseos lo vieron, dijeron: «Mira, Tus discípulos hacen lo que no es lícito hacer en el día de reposo»."
+    },
+    {
+      "id": "mateo12-nbla-03",
+      "number": 3,
+      "text": "Pero Él les contestó: «¿No han leído lo que hizo David cuando él y sus compañeros tuvieron hambre,"
+    },
+    {
+      "id": "mateo12-nbla-04",
+      "number": 4,
+      "text": "cómo entró en la casa de Dios y comieron los panes consagrados, que no les era lícito comer, ni a él ni a los que estaban con él, sino solo a los sacerdotes?"
+    },
+    {
+      "id": "mateo12-nbla-05",
+      "number": 5,
+      "text": "¿O no han leído en la ley, que en los días de reposo los sacerdotes en el templo profanan el día de reposo y están sin culpa?"
+    },
+    {
+      "id": "mateo12-nbla-06",
+      "number": 6,
+      "text": "Pues les digo que algo mayor que el templo está aquí."
+    },
+    {
+      "id": "mateo12-nbla-07",
+      "number": 7,
+      "text": "Pero si ustedes hubieran sabido lo que esto significa: “MISERICORDIA QUIERO Y NO SACRIFICIO”, no hubieran condenado a los inocentes."
+    },
+    {
+      "id": "mateo12-nbla-08",
+      "number": 8,
+      "text": "Porque el Hijo del Hombre es Señor del día de reposo»."
+    },
+    {
+      "id": "mateo12-nbla-09",
+      "number": 9,
+      "text": "Pasando de allí, entró en la sinagoga de ellos."
+    },
+    {
+      "id": "mateo12-nbla-10",
+      "number": 10,
+      "text": "Y allí estaba un hombre que tenía una mano seca. Y para poder acusar a Jesús, le preguntaron: «¿Es lícito sanar en el día de reposo?»."
+    },
+    {
+      "id": "mateo12-nbla-11",
+      "number": 11,
+      "text": "Y Él les respondió: «¿Qué hombre habrá de ustedes que tenga una sola oveja, si esta se le cae en un hoyo en el día de reposo, no le echa mano y la saca?"
+    },
+    {
+      "id": "mateo12-nbla-12",
+      "number": 12,
+      "text": "Pues, ¡cuánto más vale un hombre que una oveja! Por tanto, es lícito hacer bien en el día de reposo»."
+    },
+    {
+      "id": "mateo12-nbla-13",
+      "number": 13,
+      "text": "Entonces Jesús dijo* al hombre: «Extiende tu mano». Y él la extendió, y le fue restaurada, sana como la otra."
+    },
+    {
+      "id": "mateo12-nbla-14",
+      "number": 14,
+      "text": "Pero cuando los fariseos salieron, hicieron planes contra Él, para ver cómo lo podrían destruir."
+    },
+    {
+      "id": "mateo12-nbla-15",
+      "number": 15,
+      "text": "Pero Jesús, sabiéndolo, se retiró de allí. Y muchos lo siguieron, y los sanó a todos."
+    },
+    {
+      "id": "mateo12-nbla-16",
+      "number": 16,
+      "text": "Y les advirtió que no revelaran quién era Él;"
+    },
+    {
+      "id": "mateo12-nbla-17",
+      "number": 17,
+      "text": "para que se cumpliera lo que fue dicho por medio del profeta Isaías, cuando dijo:"
+    },
+    {
+      "id": "mateo12-nbla-18",
+      "number": 18,
+      "text": "«ESTE ES MI SIERVO, A QUIEN HE ESCOGIDO;\nMI AMADO EN QUIEN SE AGRADA MI ALMA;\nSOBRE ÉL PONDRÉ MI ESPÍRITU,\nY A LAS NACIONES PROCLAMARÁ JUSTICIA."
+    },
+    {
+      "id": "mateo12-nbla-19",
+      "number": 19,
+      "text": "NO CONTENDERÁ, NI GRITARÁ,\nNI HABRÁ QUIEN EN LAS CALLES OIGA SU VOZ."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo12-nbla-20a",
+          "order": 1,
+          "text": "NO QUEBRARÁ LA CAÑA CASCADA,"
+        },
+        {
+          "id": "mateo12-nbla-20b",
+          "order": 2,
+          "separatorBefore": "\n",
+          "text": "NI APAGARÁ LA MECHA QUE HUMEA,\nHASTA QUE LLEVE A LA VICTORIA LA JUSTICIA."
+        }
+      ],
+      "id": "mateo12-nbla-20",
+      "number": 20
+    },
+    {
+      "id": "mateo12-nbla-21",
+      "number": 21,
+      "text": "Y EN SU NOMBRE LAS NACIONES PONDRÁN SU ESPERANZA»."
+    },
+    {
+      "id": "mateo12-nbla-22",
+      "number": 22,
+      "text": "Entonces trajeron a Jesús un endemoniado ciego y mudo, y lo sanó, de manera que el mudo hablaba y veía."
+    },
+    {
+      "id": "mateo12-nbla-23",
+      "number": 23,
+      "text": "Todas las multitudes estaban asombradas, y decían: «¿Acaso no es este el Hijo de David?»."
+    },
+    {
+      "id": "mateo12-nbla-24",
+      "number": 24,
+      "text": "Pero cuando los fariseos lo oyeron, dijeron: «Este no expulsa los demonios sino por Beelzebú, el príncipe de los demonios»."
+    },
+    {
+      "id": "mateo12-nbla-25",
+      "number": 25,
+      "text": "Conociendo Jesús sus pensamientos, les dijo: «Todo reino dividido contra sí mismo es asolado, y toda ciudad o casa dividida contra sí misma no se mantendrá en pie."
+    },
+    {
+      "id": "mateo12-nbla-26",
+      "number": 26,
+      "text": "Si Satanás expulsa a Satanás, está dividido contra sí mismo; ¿cómo puede entonces mantenerse en pie su reino?"
+    },
+    {
+      "id": "mateo12-nbla-27",
+      "number": 27,
+      "text": "Y si Yo expulso los demonios por Beelzebú, ¿por quién los expulsan los hijos de ustedes? Por tanto, ellos serán sus jueces."
+    },
+    {
+      "id": "mateo12-nbla-28",
+      "number": 28,
+      "text": "Pero si Yo expulso los demonios por el Espíritu de Dios, entonces el reino de Dios ha llegado a ustedes."
+    },
+    {
+      "id": "mateo12-nbla-29",
+      "number": 29,
+      "text": "¿O cómo puede alguien entrar en la casa de un hombre fuerte y saquear sus bienes, si primero no lo ata? Y entonces saqueará su casa."
+    },
+    {
+      "id": "mateo12-nbla-30",
+      "number": 30,
+      "text": "El que no está a favor Mío, está contra Mí; y el que no recoge a Mi lado, desparrama."
+    },
+    {
+      "id": "mateo12-nbla-31",
+      "number": 31,
+      "text": "»Por eso les digo, que todo pecado y blasfemia será perdonado a los hombres, pero la blasfemia contra el Espíritu no será perdonada."
+    },
+    {
+      "id": "mateo12-nbla-32",
+      "number": 32,
+      "text": "Y a cualquiera que diga una palabra contra el Hijo del Hombre, se le perdonará; pero al que hable contra el Espíritu Santo, no se le perdonará ni en este siglo ni en el venidero."
+    },
+    {
+      "id": "mateo12-nbla-33",
+      "number": 33,
+      "text": "»O hagan ustedes bueno el árbol y bueno su fruto, o hagan malo el árbol y malo su fruto; porque por el fruto se conoce el árbol."
+    },
+    {
+      "clauses": [
+        {
+          "id": "mateo12-nbla-34a",
+          "order": 1,
+          "text": "¡Camada de víboras! ¿Cómo pueden hablar cosas buenas siendo malos?"
+        },
+        {
+          "id": "mateo12-nbla-34b",
+          "order": 2,
+          "separatorBefore": " ",
+          "text": "Porque de la abundancia del corazón habla la boca."
+        }
+      ],
+      "id": "mateo12-nbla-34",
+      "number": 34
+    },
+    {
+      "id": "mateo12-nbla-35",
+      "number": 35,
+      "text": "El hombre bueno de su buen tesoro saca cosas buenas; y el hombre malo de su mal tesoro saca cosas malas."
+    },
+    {
+      "id": "mateo12-nbla-36",
+      "number": 36,
+      "text": "Pero Yo les digo que de toda palabra vana que hablen los hombres, darán cuenta de ella en el día del juicio."
+    },
+    {
+      "id": "mateo12-nbla-37",
+      "number": 37,
+      "text": "Porque por tus palabras serás justificado, y por tus palabras serás condenado»."
+    },
+    {
+      "id": "mateo12-nbla-38",
+      "number": 38,
+      "text": "Entonces algunos de los escribas y fariseos dijeron a Jesús: «Maestro, queremos ver una señal de parte Tuya»."
+    },
+    {
+      "id": "mateo12-nbla-39",
+      "number": 39,
+      "text": "Pero Él respondió: «Una generación perversa y adúltera demanda señal, y ninguna señal se le dará, sino la señal de Jonás el profeta;"
+    },
+    {
+      "id": "mateo12-nbla-40",
+      "number": 40,
+      "text": "porque como ESTUVO JONÁS EN EL VIENTRE DEL MONSTRUO MARINO TRES DÍAS Y TRES NOCHES, así estará el Hijo del Hombre tres días y tres noches en el corazón de la tierra."
+    },
+    {
+      "id": "mateo12-nbla-41",
+      "number": 41,
+      "text": "Los hombres de Nínive se levantarán con esta generación en el juicio y la condenarán, porque ellos se arrepintieron con la predicación de Jonás; y miren, algo más grande que Jonás está aquí."
+    },
+    {
+      "id": "mateo12-nbla-42",
+      "number": 42,
+      "text": "La Reina del Sur se levantará con esta generación en el juicio y la condenará, porque ella vino desde los confines de la tierra para oír la sabiduría de Salomón; y miren, algo más grande que Salomón está aquí."
+    },
+    {
+      "id": "mateo12-nbla-43",
+      "number": 43,
+      "text": "»Cuando el espíritu inmundo sale del hombre, pasa por lugares áridos buscando descanso y no lo halla."
+    },
+    {
+      "id": "mateo12-nbla-44",
+      "number": 44,
+      "text": "Entonces dice: “Volveré a mi casa de donde salí”; y cuando llega, la encuentra desocupada, barrida y arreglada."
+    },
+    {
+      "id": "mateo12-nbla-45",
+      "number": 45,
+      "text": "Entonces va, y toma consigo otros siete espíritus más depravados que él, y entrando, moran allí; y el estado final de aquel hombre resulta peor que el primero. Así será también con esta generación perversa»."
+    },
+    {
+      "id": "mateo12-nbla-46",
+      "number": 46,
+      "text": "Mientras Jesús aún estaba hablando a la multitud, Su madre y Sus hermanos estaban afuera, deseando hablar con Él."
+    },
+    {
+      "id": "mateo12-nbla-47",
+      "number": 47,
+      "text": "Y alguien le dijo: «Tu madre y Tus hermanos están afuera y te quieren hablar»."
+    },
+    {
+      "id": "mateo12-nbla-48",
+      "number": 48,
+      "text": "Pero Jesús respondió al que le informó: «¿Quién es Mi madre, y quiénes son Mis hermanos?»."
+    },
+    {
+      "id": "mateo12-nbla-49",
+      "number": 49,
+      "text": "Y extendiendo la mano hacia Sus discípulos, dijo: «¡Miren, aquí están Mi madre y Mis hermanos!"
+    },
+    {
+      "id": "mateo12-nbla-50",
+      "number": 50,
+      "text": "Porque cualquiera que hace la voluntad de Mi Padre que está en los cielos, ese es Mi hermano y Mi hermana y Mi madre»."
+    }
+  ],
+  "schemaVersion": "1.0.0",
+  "sources": {
+    "msg": {
+      "id": "msg",
+      "name": "The Message",
+      "originalLanguage": "en",
+      "role": "editorial",
+      "translatedLanguage": "es"
+    },
+    "nbla": {
+      "id": "nbla",
+      "language": "es",
+      "name": "Nueva Biblia de las Américas",
+      "role": "canonical-reference"
+    }
+  }
+}
