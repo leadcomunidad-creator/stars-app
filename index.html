@@ -3052,6 +3052,13 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
       if(user.email === 'juaneduardomejia@gmail.com'){
         if(typeof window.activarAdminMode === 'function') window.activarAdminMode();
         else window.ADMIN_MODE = true;
+        // Vista previa del rediseño: solo esta cuenta la descarga. ?app=actual vuelve a la app de siempre.
+        if(!window.__STARS_REDISENO && new URLSearchParams(location.search).get('app') !== 'actual'){
+          window.__STARS_REDISENO = true;
+          const rd = document.createElement('script');
+          rd.src = '/rediseno/rediseno.js?v=2';
+          document.head.appendChild(rd);
+        }
       }
       // Mostrar nombre/foto
       const nameEl = document.getElementById('user-name');
@@ -3102,6 +3109,21 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
 </script>
 </head>
 <body>
+<script>
+/* Vista previa del rediseño: solo en aparatos donde ya entró la cuenta del administrador (marca stars_rd).
+   En cualquier otro aparato esto no hace nada y no se descarga ningún archivo del rediseño. */
+try{
+  if(localStorage.getItem('stars_rd')==='1' && new URLSearchParams(location.search).get('app')!=='actual'){
+    window.__STARS_REDISENO=true;
+    var rdCss=document.createElement('style');rdCss.id='rd-pre-css';
+    rdCss.textContent='html.rd-on #app-root,html.rd-on #login-screen{display:none!important}html.rd-on,html.rd-on body{background:#12110f}';
+    document.head.appendChild(rdCss);document.documentElement.classList.add('rd-on');
+    var rdS=document.createElement('script');rdS.src='/rediseno/rediseno.js?v=2';
+    rdS.onerror=function(){document.documentElement.classList.remove('rd-on');};
+    document.head.appendChild(rdS);
+  }
+}catch(e){}
+</script>
 <!-- PANTALLA LOGIN -->
 <div id="login-screen" style="display:none">
   <iframe id="stars-landing-frame" title="Landing de S.T.A.R.S." src="landing-original/Main.dc.html?v=landing-final-2"></iframe>

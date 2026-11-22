@@ -1,0 +1,790 @@
+<div class="{{ frameCls }}" data-theme="{{ theme }}" data-tema="{{ tema }}">
+
+<sc-if value="{{ v.landing }}" hint-placeholder-val="{{ false }}">
+<div class="content ld">
+ <header class="ld-nav"><div class="ld-brand"><img src="{{ star }}" alt=""><span>S · T · A · R · S</span></div><nav class="hub wide-only"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></nav><button class="pill solid" onClick="{{ go.splash }}">Mis pasos</button></header>
+ <section class="ld-hero"><div class="wrap w">
+  <div class="ld-hero-in">
+   <div class="ld-hero-tx"><span class="ld-tag">Mayor que mi realidad es Su Verdad.</span><h1 class="ld-h1">La Escritura puede ser más que algo que lees.</h1><p class="ld-p">S · T · A · R · S te acompaña a encontrarte con la Biblia de una manera clara, profunda y posible para tu vida real. No se trata solo de recibir información, sino de detenerte, escuchar, comprender y permitir que la verdad de Dios forme tu manera de vivir.</p><div class="ld-ctas"><button class="pill solid big" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button><button class="pill line big" onClick="{{ verMetodo }}">Conocer el método</button></div></div>
+   <div class="ld-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ star }}" alt=""></div>
+  </div>
+  <div class="ld-band"><i class="c-silencio"></i><i class="c-texto"></i><i class="c-analisis"></i><i class="c-reflexion"></i><i class="c-siembra"></i></div>
+ </div></section>
+ <section class="ld-sec"><div class="wrap w ld-two">
+  <div><span class="ld-k">Qué es S · T · A · R · S</span><h2 class="ld-h2">No es contenido para consumir. Es una forma de encontrarte con la Escritura.</h2></div>
+  <div class="ld-col"><p class="ld-p">Muchas veces leemos rápido, escuchamos mucho y, aun así, no sabemos cómo llevar la verdad de Dios a lo que vivimos. S · T · A · R · S crea un espacio para volver al texto con atención, comprenderlo en su contexto y responder a él con honestidad.</p><p class="ld-p">La Escritura está en el centro. Aquí no buscamos producir culpa, religiosidad ni apariencia espiritual. Es para quien ya tiene recorrido cristiano, para quien está comenzando y para quien ha sido herido por la religión.</p><blockquote class="ld-quote c-texto"><p>«Si permanecen en esto y viven lo que les digo, serán verdaderamente mis discípulos. Entonces experimentarán por ustedes mismos la verdad, y la verdad los hará libres».</p><span>Juan 8:31-32 · MSG</span></blockquote></div>
+ </div></section>
+ <section class="ld-sec"><div class="wrap w">
+  <span class="ld-k">El método S · T · A · R · S</span><h2 class="ld-h2">Cinco movimientos para pasar de la lectura a una respuesta real.</h2><p class="ld-p" style="max-width: 720px; margin-top: 10px">Un Sistema Total de Absorción y Reflexión de la Escritura, con un orden pedagógico que permite comprender la Biblia como un todo. Un mismo método, dos formas de recorrerlo.</p>
+  <div class="ld-seg"><button class="{{ lmode.diario }}" onClick="{{ setLmode.diario }}">Paso Diario · 15 min</button><button class="{{ lmode.profundo }}" onClick="{{ setLmode.profundo }}">Paso Profundo · 1 h</button></div>
+  <div class="ld-steps"><sc-for list="{{ lsteps }}" as="s" hint-placeholder-count="5"><div class="ld-step {{ s.cc }}"><b>{{ s.L }}</b><strong>{{ s.n }}</strong><em>{{ s.min }}</em><p>{{ s.d }}</p></div></sc-for></div>
+ </div></section>
+ <section class="ld-sec"><div class="wrap w">
+  <span class="ld-k">Dos formas de avanzar</span><h2 class="ld-h2">Un paso para hoy. Un camino para profundizar.</h2>
+  <div class="ld-ways"><div class="ld-way c-silencio"><span class="ld-wk">Un encuentro cada día · 15 min</span><h3>Paso Diario</h3><p>Cada día encuentras un pasaje y una guía breve por los cinco movimientos: una oración para preparar el corazón, lectura en The Message y NBLA, una explicación del texto, una pregunta personal y una práctica concreta para hoy.</p></div><div class="ld-way c-texto"><span class="ld-wk">Una inmersión en la Escritura · 1 hora</span><h3>Paso Profundo</h3><p>Un estudio guiado de un capítulo bíblico en 10 estaciones: el texto en The Message y NBLA, su contexto, el desarrollo de sus ideas, palabras importantes, conexiones con otras Escrituras y preguntas para tu vida. Elige Por Método o Por Capítulo; Por Tema llega pronto.</p></div></div>
+ </div></section>
+ <section class="ld-sec"><div class="wrap w">
+  <span class="ld-k">Y hay mucho más</span><h2 class="ld-h2">Más maneras de encontrarte con la verdad.</h2>
+  <div class="ld-more"><div class="ld-m c-siembra"><span class="n">01</span><strong>Música para cada momento</strong><p>Playlists para aquietarte, meditar, orar o acompañar tu día.</p></div><div class="ld-m c-analisis"><span class="n">02</span><strong>Estudia versículos con IA</strong><p>En «Estudio por Versículo» profundizas en un pasaje: su contexto, sus palabras y su significado.</p></div><div class="ld-m c-reflexion"><span class="n">03</span><strong>Todo un College por descubrir</strong><p>S · T · A · R · S es parte de El College, un ecosistema que conecta otras experiencias como The Way y Bookclub.</p></div></div>
+ </div></section>
+ <section class="ld-sec ld-end"><div class="wrap w"><div class="ld-final c-silencio">
+  <span class="ld-k" style="color: inherit; opacity: .7">Para qué existe</span><h2 class="ld-h1">Para que la verdad sea mayor que tu realidad.</h2><p class="ld-p" style="color: inherit">No necesitas tener todas las respuestas ni conocer toda la Biblia para comenzar. Entra, toma un paso diario o profundiza en un texto, y permite que la Escritura te acompañe desde donde estás.</p><button class="pill dark big" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button>
+ </div>
+ <p class="ld-peter">«Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.» <span>Eugene Peterson · The Message</span></p></div></section>
+ <footer class="wrap w ld-foot"><div class="ld-k">El College</div><div class="ld-h3">Todo lo que necesitas para ir más profundo.</div><div class="hub" style="flex-wrap: wrap"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></div><div class="meta">Instagram · YouTube · Linktree</div><div class="meta">© 2026 LHSCOL · Manizales, Colombia. Hecho con ♥ en el Eje Cafetero.</div></footer>
+</div>
+</sc-if>
+
+<sc-if value="{{ v.splash }}" hint-placeholder-val="{{ false }}">
+<button class="spl" onClick="{{ go.hoy }}" aria-label="Entrar a la app">
+ <span class="spl-glow" aria-hidden="true"></span>
+ <span class="spl-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ starSplash }}" alt=""></span>
+ <span class="spl-q">{{ d.frase }}</span>
+ <span class="spl-m">{{ splMeta }}</span>
+ <span class="spl-bar" aria-hidden="true"><i></i></span>
+ <span class="spl-tap">Toca para entrar</span>
+</button>
+</sc-if>
+
+<sc-if value="{{ v.elegir }}" hint-placeholder-val="{{ false }}">
+<div class="content"><div class="wrap w el">
+ <header class="el-head"><span class="ld-k">Bienvenido · primer uso</span><h1 class="ld-h1">¿Cómo quieres vivir S · T · A · R · S?</h1><p class="ld-p">Puedes cambiarlo cuando quieras en Configuración. Tu progreso y tu racha no cambian.</p></header>
+ <div class="el-opts">
+  <button class="el-opt {{ optBc }}" onClick="{{ setExp.moderna }}">
+   <span class="el-prev pv-b" data-theme="b-noche"><span class="pvb-block"><span class="pvb-k">Paso diario</span><span class="pvb-t">{{ d.titulo }}</span><span class="pvb-segs"><i></i><i></i><i></i><i></i><i></i></span></span><span class="pvb-bento"><i></i><i></i><i></i></span></span>
+   <span class="el-tx"><span class="el-row"><strong>Modelo 2027</strong><span class="el-badge">Predeterminado</span></span><span class="el-d">Papel y color. Cada paso con su color, letra grande y cajones.</span></span><span class="el-ck">✓</span>
+  </button>
+  <button class="el-opt {{ optAc }}" onClick="{{ setExp.clasica }}">
+   <span class="el-prev pv-a" data-theme="a-noche"><span class="pva-card"><span class="pva-k">{{ fechaLarga }}</span><span class="pva-t">{{ d.titulo }}</span><span class="pva-pills"><i>S</i><i>T</i><i class="now">A</i><i>R</i><i>S</i></span></span></span>
+   <span class="el-tx"><span class="el-row"><strong>Modelo 2026</strong></span><span class="el-d">Negro y dorado. Tu día en una lista, paso a paso.</span></span><span class="el-ck">✓</span>
+  </button>
+ </div>
+ <button class="pill solid big el-go" onClick="{{ go.hoy }}">{{ elGo }}</button>
+</div></div>
+</sc-if>
+
+<sc-if value="{{ v.inApp }}" hint-placeholder-val="{{ true }}">
+<div class="app">
+ <header class="topbar only-a wide-only"><div class="brand"><span class="lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></div><nav class="tnav"><button class="{{ nav.diario }}" onClick="{{ go.hoy }}">Paso Diario</button><button class="{{ nav.profundo }}" onClick="{{ go.estudio }}">Paso Profundo</button><button class="{{ nav.musica }}" onClick="{{ go.musica }}">Música</button></nav><div class="btnrow" style="align-items: center"><button class="chip" onClick="{{ go.racha }}"><b>{{ racha }}</b> días</button><button class="avatar" onClick="{{ go.config }}" aria-label="Configuración">{{ inicial }}</button></div></header>
+ <div class="app-row">
+  <nav class="rail only-b wide-only"><span class="lgo rl" role="img" aria-label="S · T · A · R · S"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ railStar }}" alt=""></span><button class="{{ nav.diario }}" onClick="{{ go.hoy }}">Paso Diario</button><button class="{{ nav.profundo }}" onClick="{{ go.estudio }}">Paso Profundo</button><button class="{{ nav.musica }}" onClick="{{ go.musica }}">Música</button><button class="avatar" onClick="{{ go.config }}" aria-label="Ajustes">{{ inicial }}</button></nav>
+  <main class="content">
+<div class="ws {{ wsCls }}">
+<aside class="ws-left">
+<sc-if value="{{ L.diario }}" hint-placeholder-val="{{ true }}">
+<div class="screen">
+ <header class="mtop narrow-only"><div class="brand only-a"><span class="lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></div><span class="lgo only-b" role="img" aria-label="S · T · A · R · S"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ star }}" alt=""></span><div class="btnrow" style="align-items: center"><button class="chip" onClick="{{ go.racha }}"><b>{{ racha }}</b> días</button><button class="avatar" onClick="{{ go.config }}" aria-label="Configuración">{{ inicial }}</button></div></header>
+ <div class="wrap w hoy">
+  <div class="hoya only-a">
+   <section class="dia">
+    <div class="label mut">{{ fechaLarga }}</div>
+    <h1 class="ttl">{{ d.titulo }}</h1>
+    <div class="ref">{{ d.ref }}</div>
+    <div class="pills5"><sc-for list="{{ steps }}" as="s" hint-placeholder-count="5"><button class="pl5 {{ s.cls }}" onClick="{{ s.go }}"><span class="ck">✓</span><b>{{ s.L }}</b><strong>{{ s.n }}</strong><em>{{ s.min }}</em></button></sc-for></div>
+    <button class="btn block" onClick="{{ nextGo }}">{{ nextTxt }}</button>
+   </section>
+   <section class="narrow-only">
+    <div class="label mut">Ir más profundo</div>
+    <div class="hondo">
+     <button onClick="{{ go.profundizar }}"><span class="ic">A+</span><strong>Profundizar</strong><span class="meta">{{ d.ref }}</span></button>
+     <button onClick="{{ openFil }}"><span class="ic">10</span><strong>Estudiar</strong><span class="meta">{{ capSemana }}</span></button>
+     <button onClick="{{ go.frase }}"><span class="ic">“</span><strong>Frase</strong><span class="meta">para hoy</span></button>
+    </div>
+   </section>
+   <button class="card rachacard" onClick="{{ go.racha }}">
+    <span class="rtop"><span class="h3">Tu racha</span><span class="meta"><b>{{ racha }}</b> días · ★ {{ estrellas }} para restaurar</span></span>
+    <span class="week"><sc-for list="{{ weekA }}" as="w" hint-placeholder-count="7"><span class="day {{ w.cls }}">{{ w.d }}<i>{{ w.n }}</i></span></sc-for></span>
+    <span class="meta">Calendario y días guardados ›</span>
+   </button>
+   <button class="card blogline" onClick="{{ abrirBlog }}"><span><span class="meta" style="display: block">Último mensaje · {{ d.temporada }}</span><strong class="h3">{{ d.serie }}</strong></span><span class="chev">↗</span></button>
+  </div>
+  <div class="hoyb only-b">
+   <div><div class="label mut">{{ fechaLarga }}</div><h1 class="h1" style="margin-top: 6px">{{ saludo }}</h1></div>
+   <section class="todaycard">
+    <span class="mk"><span class="{{ markCls }}" style="width: 92px; height: 92px"><img class="base" src="{{ star }}" alt=""><img class="lit" src="{{ star }}" alt=""></span></span>
+    <div class="label">Paso diario · S · T · A · R · S</div><div class="ttl">{{ d.titulo }}</div><div class="ref">{{ d.ref }}</div>
+    <div class="mpills"><sc-for list="{{ steps }}" as="s" hint-placeholder-count="5"><button class="mp {{ s.cls }} {{ s.cc }}" onClick="{{ s.go }}"><span class="ck">✓</span><b>{{ s.L }}</b><strong>{{ s.n }}</strong><em>{{ s.min }}</em></button></sc-for></div>
+    <div class="meta">{{ progTxt }}</div>
+    <button class="btn block" style="margin-top: 16px" onClick="{{ nextGo }}">{{ nextLbl }}</button>
+   </section>
+   <section class="narrow-only">
+    <div class="label mut">Ir más profundo</div>
+    <div class="hondo">
+     <button onClick="{{ go.profundizar }}"><span class="ic">A+</span><strong>Profundizar</strong><span class="meta">{{ d.ref }}</span></button>
+     <button onClick="{{ openFil }}"><span class="ic">10</span><strong>Estudiar</strong><span class="meta">{{ capSemana }}</span></button>
+     <button onClick="{{ go.frase }}"><span class="ic">“</span><strong>Frase</strong><span class="meta">para hoy</span></button>
+    </div>
+   </section>
+   <button class="card rachacard" onClick="{{ go.racha }}">
+    <span class="rtop"><span class="h3">Tu racha</span><span class="meta"><b>{{ racha }}</b> días · ★ {{ estrellas }} para restaurar</span></span>
+    <span class="week"><sc-for list="{{ weekA }}" as="w" hint-placeholder-count="7"><span class="day {{ w.cls }}">{{ w.d }}<i>{{ w.n }}</i></span></sc-for></span>
+    <span class="meta">Calendario y días guardados ›</span>
+   </button>
+   <button class="card blogline" onClick="{{ abrirBlog }}"><span><span class="meta" style="display: block">Último mensaje · {{ d.temporada }}</span><strong class="h3">{{ d.serie }}</strong></span><span class="chev">↗</span></button>
+  </div>
+ </div>
+</div>
+</sc-if>
+
+<sc-if value="{{ L.profundo }}" hint-placeholder-val="{{ false }}">
+<div class="sec-profundo">
+ <sc-if value="{{ ppEntry }}" hint-placeholder-val="{{ true }}">
+ <header class="mtop narrow-only"><div class="brand only-a"><span class="lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></div><span class="lgo only-b" role="img" aria-label="S · T · A · R · S"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ star }}" alt=""></span><div class="btnrow" style="align-items: center"><button class="chip" onClick="{{ go.racha }}"><b>{{ racha }}</b> días</button><button class="avatar" onClick="{{ go.config }}" aria-label="Configuración">{{ inicial }}</button></div></header>
+ <div class="wrap w hoy pphoy">
+  <div class="hoya only-a">
+   <section class="dia">
+    <div class="label mut">Sigue donde quedaste</div>
+    <h1 class="ttl">{{ sigue.t }}</h1>
+    <div class="ref">{{ sigue.sub }}</div>
+    <div class="segs s10"><sc-for list="{{ stSegs }}" as="g" hint-placeholder-count="10"><span class="{{ g }}"></span></sc-for></div>
+    <div class="meta">{{ sigue.meta }}</div>
+    <button class="btn block" style="margin-top: 14px" onClick="{{ openJuan }}">{{ sigue.btn }}</button>
+   </section>
+   <section>
+    <div class="label mut">¿Cómo quieres estudiar?</div>
+    <div class="hondo">
+     <button onClick="{{ go.metodo }}"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18h4v-4h4v-4h4V6h4"></path></svg></span><strong>Por Método</strong><span class="meta">10 etapas</span></button>
+     <button onClick="{{ go.capitulo }}"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.5C10 5 7 4.5 4 5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5V5c-3-.5-6 0-8 1.5z"></path><path d="M12 6.5V19"></path></svg></span><strong>Por Capítulo</strong><span class="meta">De Génesis a Apocalipsis</span></button>
+     <button onClick="{{ go.versiculo }}"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14M5 12h9M5 17h6"></path><circle cx="17.5" cy="16.5" r="2.5"></circle><path d="M19.3 18.3L21 20"></path></svg></span><strong>Por Versículo</strong><span class="meta">Con IA</span></button>
+    </div>
+   </section>
+   <button class="card rachacard" onClick="{{ go.trackerFull }}">
+    <span class="rtop"><span class="h3">Capítulos estudiados</span><span class="meta"><b>{{ leidos }}</b> de 1.189</span></span>
+    <span class="bar"><i style="{{ pctW }}"></i></span>
+    <span class="meta">Tracker completo ›</span>
+   </button>
+   <button class="card blogline" onClick="{{ openFil }}"><span><span class="meta" style="display: block">Capítulo de la semana</span><strong class="h3">{{ capSemana }}</strong></span><span class="chev">›</span></button>
+  </div>
+  <div class="mdx only-b">
+   <header class="mdx-head"><h1 class="mdx-t">Paso Profundo</h1><span class="mdx-sub">{{ leidos }} de 1.189 capítulos estudiados</span></header>
+   <button class="mdx-block c-texto" onClick="{{ openJuan }}">
+    <span class="mdx-k">Sigue donde quedaste</span>
+    <span class="mdx-big">{{ sigue.t }}</span>
+    <span class="mdx-ref">{{ sigue.sub }}</span>
+    <span class="mdx-foot"><span class="mdx-fl"><span class="mdx-lines"><sc-for list="{{ stLines }}" as="g" hint-placeholder-count="10"><i class="{{ g }}"></i></sc-for></span><span class="mdx-meta">{{ sigue.meta }}</span></span><span class="mdx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></span>
+   </button>
+   <section class="mdx-list">
+    <h2 class="mdx-h">¿Cómo quieres estudiar?</h2>
+    <div class="mdx-bento">
+     <button class="bx c-silencio tall" onClick="{{ go.metodo }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><strong>Por Método</strong><span>10 etapas, en orden pedagógico</span></button>
+     <button class="bx c-reflexion" onClick="{{ go.capitulo }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><strong>Por Capítulo</strong><span>De Génesis a Apocalipsis</span></button>
+     <button class="bx c-analisis" onClick="{{ go.versiculo }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><strong>Por Versículo</strong><span>Explicación con IA</span></button>
+    </div>
+   </section>
+   <button class="mdx-stat" onClick="{{ go.trackerFull }}"><span class="mdx-h">Capítulos estudiados</span><span class="num"><b>{{ leidos }}</b><span>de 1.189</span></span><span class="mdx-bar"><i style="{{ pctW }}"></i></span></button>
+   <button class="bx wide c-siembra" onClick="{{ openFil }}"><span class="tx"><span class="k">Capítulo de la semana</span><strong>{{ capSemana }}</strong></span><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></button>
+  </div>
+ </div>
+</sc-if>
+<sc-if value="{{ ppMode }}" hint-placeholder-val="{{ false }}">
+ <div class="wrap w ppback"><button class="label" onClick="{{ go.estudio }}">‹ Paso Profundo</button></div>
+</sc-if>
+
+ <sc-if value="{{ lmo.metodo }}" hint-placeholder-val="{{ true }}">
+<div class="only-a">
+ <div class="wrap w stack" style="padding-top: 22px; padding-bottom: 32px">
+  <div><h2 class="h2">Estudio por Método</h2><p class="body">Elige un libro para iniciar tu recorrido de estudio.</p></div>
+  <label class="label mut" for="buscaLibro">¿Qué libro quieres estudiar?</label><div class="searchbtn"><input id="buscaLibro" class="search" placeholder="Ej: Josué"><button class="btn" onClick="{{ buscarLibro }}">Buscar</button></div>
+  <div class="divtag">Conectando con las Verdades del Padre</div>
+  <div><div class="label">Lectura en orden pedagógico S · T · A · R · S</div><p class="body" style="margin-top: 4px">Un recorrido formativo por etapas, diseñado para comprender la Biblia como un todo.</p></div>
+  <div><sc-for list="{{ bloques }}" as="b" hint-placeholder-count="10"><div class="blq {{ b.cls }}"><button onClick="{{ b.pick }}"><span class="num">{{ b.num }}</span><span style="flex: 1"><span class="h3" style="display: block">{{ b.name }}</span><span class="meta">{{ b.desc }}</span></span><span class="meta">{{ b.count }} ›</span></button>
+   <sc-if value="{{ b.open }}" hint-placeholder-val="{{ false }}"><div class="books"><sc-for list="{{ b.books }}" as="l" hint-placeholder-count="6"><div class="lib"><button onClick="{{ l.pick }}"><span>{{ l.n }}</span><span class="meta">{{ l.c }} caps ›</span></button>
+    <sc-if value="{{ l.open }}" hint-placeholder-val="{{ false }}"><div class="capgrid"><sc-for list="{{ l.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div><div class="legend"><span><i class="d"></i>Estudio disponible</span><span><i class="l"></i>Leído</span><span><i></i>Próximamente</span></div></sc-if>
+   </div></sc-for></div></sc-if>
+  </div></sc-for></div>
+ </div>
+ </div>
+<div class="only-b mx">
+<div class="wrap w mx-in mxs">
+ <header class="mx-head"><h1 class="mx-t">Por Método</h1><p class="mx-sub">Lectura en orden pedagógico S · T · A · R · S: un recorrido formativo por etapas, diseñado para comprender la Biblia como un todo. Elige un libro para iniciar tu recorrido de estudio.</p></header>
+ <label class="mx-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg><input id="buscaLibroB" placeholder="¿Qué libro quieres estudiar? Ej: Josué" aria-label="Buscar libro"></label>
+ <div class="et2"><sc-for list="{{ bloquesB }}" as="b" hint-placeholder-count="10"><div class="et2-i {{ b.cc }} {{ b.cls }}"><button class="et2-h" onClick="{{ b.pick }}"><span class="n">{{ b.num }}</span><strong>{{ b.name }}</strong><span class="d">{{ b.desc }}</span><span class="c">{{ b.count }}</span></button>
+  <sc-if value="{{ b.open }}" hint-placeholder-val="{{ false }}"><div class="et2-books"><sc-for list="{{ b.books }}" as="l" hint-placeholder-count="6"><button class="bk2 {{ l.oc }}" onClick="{{ l.pick }}">{{ l.n }}<span>{{ l.c }}</span></button></sc-for></div>
+   <sc-for list="{{ b.books }}" as="l" hint-placeholder-count="6"><sc-if value="{{ l.open }}" hint-placeholder-val="{{ false }}"><div class="cap2"><sc-for list="{{ l.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div><div class="cap2-lg"><span><i class="d"></i>Estudio disponible</span><span><i class="l"></i>Leído</span><span><i></i>Próximamente</span></div></sc-if></sc-for></sc-if>
+ </div></sc-for></div>
+ <p class="mx-note mx-center">Conectando con las Verdades del Padre</p>
+</div>
+</div>
+</sc-if>
+
+ <sc-if value="{{ lmo.capitulo }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+ <div class="wrap w stack" style="padding-top: 22px; padding-bottom: 32px">
+  <div><h2 class="h2">Estudio por Capítulo</h2><p class="body">Busca un capítulo y lee el texto completo en MSG y NBLA.</p></div>
+  <label class="label mut" for="buscaCap">¿Qué capítulo quieres estudiar?</label><div class="searchbtn"><input id="buscaCap" class="search" placeholder="Ej: Números 13"><button class="btn" onClick="{{ buscarCap }}">Buscar</button></div>
+  <div class="divtag">Conectando con las Verdades del Padre</div>
+  <div><div class="label">Lectura en orden canónico</div><p class="body" style="margin-top: 4px">De Génesis a Apocalipsis.</p></div>
+  <sc-for list="{{ canon }}" as="g" hint-placeholder-count="8"><div><div class="canon">{{ g.n }}</div><div class="stack" style="gap: 6px"><sc-for list="{{ g.books }}" as="l" hint-placeholder-count="5"><div class="lib"><button onClick="{{ l.pick }}"><span>{{ l.n }}</span><span class="meta">{{ l.c }} capítulos ›</span></button><sc-if value="{{ l.open }}" hint-placeholder-val="{{ false }}"><div class="capgrid"><sc-for list="{{ l.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div></sc-if></div></sc-for></div></div></sc-for>
+ </div>
+ </div>
+<div class="only-b mx">
+<div class="wrap w mx-in mxs">
+ <header class="mx-head"><h1 class="mx-t">Por Capítulo</h1><p class="mx-sub">Lectura en orden canónico, de Génesis a Apocalipsis. Busca un capítulo y lee el texto completo en MSG y NBLA.</p></header>
+ <label class="mx-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="M16 16l4.5 4.5"></path></svg><input id="buscaCapB" placeholder="¿Qué capítulo quieres estudiar? Ej: Números 13" aria-label="Buscar capítulo"></label>
+ <sc-for list="{{ canonB }}" as="g" hint-placeholder-count="8"><section class="cg {{ g.cc }}"><h3 class="cg-h"><i></i>{{ g.n }}</h3><div class="cg-books"><sc-for list="{{ g.books }}" as="l" hint-placeholder-count="5"><button class="bk2 {{ l.oc }}" onClick="{{ l.pick }}">{{ l.n }}<span>{{ l.c }}</span></button></sc-for></div>
+  <sc-for list="{{ g.books }}" as="l" hint-placeholder-count="5"><sc-if value="{{ l.open }}" hint-placeholder-val="{{ false }}"><div class="cap2"><sc-for list="{{ l.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div></sc-if></sc-for></section></sc-for>
+ <p class="mx-note mx-center">Conectando con las Verdades del Padre</p>
+</div>
+</div>
+</sc-if>
+
+ <sc-if value="{{ lmo.versiculo }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+ <div class="wrap w stack" style="padding-top: 22px; padding-bottom: 32px">
+  <div><h2 class="h2">Estudio por Versículo</h2><p class="body">Escribe un versículo o un rango y desarrolla su explicación bíblica.</p></div>
+  <label class="label mut" for="buscaVer">¿Qué versículo quieres estudiar?</label><div class="searchbtn"><input id="buscaVer" class="search" placeholder="Ej: {{ d.ref }}"><button class="btn" onClick="{{ analizar }}">Analizar</button></div>
+  <div class="divtag">Conectando con las Verdades del Padre</div>
+  <sc-if value="{{ verHay }}"><button class="btn ghost narrow-only" onClick="{{ go.verRes }}">Ver el último resultado</button></sc-if>
+ </div>
+ </div>
+<div class="only-b mx">
+<div class="wrap w mx-in mxs">
+ <section class="mx-block c-analisis vb"><span class="mx-k">Estudio por Versículo · con IA</span><strong class="mx-big">¿Qué versículo quieres estudiar?</strong><p class="mx-p">Escribe un versículo o un rango y desarrolla su explicación bíblica.</p>
+  <span class="vb-f"><input id="buscaVerB" placeholder="Ej: {{ d.ref }}" aria-label="Versículo"><button class="pill dark" onClick="{{ analizar }}">Analizar</button></span></section>
+ <div class="vb-ej"><span>Por ejemplo</span><sc-for list="{{ ejemplos }}" as="x"><button onClick="{{ x.pick }}">{{ x.t }}</button></sc-for></div>
+ <p class="mx-note mx-center">Conectando con las Verdades del Padre</p>
+</div>
+</div>
+</sc-if>
+
+ <sc-if value="{{ lmo.tema }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+ <div class="wrap w stack" style="padding-top: 22px; padding-bottom: 32px"><div class="card tint stack" style="text-align: center; padding: 40px 20px"><div class="label">Disponible pronto</div><div class="h2">Estudio por Tema</div></div></div>
+ </div>
+<div class="only-b mx">
+<div class="wrap w mx-in mxs"><section class="mx-block c-reflexion"><span class="mx-k">Disponible pronto</span><strong class="mx-big">Estudio por Tema</strong></section></div>
+</div>
+</sc-if>
+
+ <sc-if value="{{ lmo.tracker }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+ <div class="wrap w stack" style="padding-top: 22px; padding-bottom: 32px">
+  <div class="card stack"><div class="label">Tracker de lectura</div><div class="h2">Tu recorrido por la Biblia</div><p class="body">Consulta lo leído, lo pendiente y continúa desde cualquier libro.</p><div style="display: flex; align-items: baseline; gap: 10px"><span class="h1">{{ pct }}</span><span class="meta">completado</span></div><span class="bar"><i style="{{ pctW }}"></i></span><div class="grid"><div class="stat"><b>{{ leidos }}</b><span class="meta">Leídos</span></div><div class="stat"><b>1.189</b><span class="meta">Total</span></div><div class="stat"><b>{{ pendientes }}</b><span class="meta">Pendientes</span></div></div><button class="btn" onClick="{{ go.trackerFull }}">Abrir tracker completo</button></div>
+ </div>
+ </div>
+<div class="only-b mx">
+<div class="wrap w mx-in mxs">
+ <section class="mx-block c-siembra"><span class="mx-k">Tracker de lectura · Tu recorrido por la Biblia</span><span class="mx-num"><b>{{ pct }}</b><span>completado</span></span><p class="mx-p">Consulta lo leído, lo pendiente y continúa desde cualquier libro.</p></section>
+ <div class="tk3"><div class="c-silencio"><b>{{ leidos }}</b><span>Leídos</span></div><div class="c-texto"><b>1.189</b><span>Total</span></div><div class="c-analisis"><b>{{ pendientes }}</b><span>Pendientes</span></div></div>
+ <button class="pill solid big" onClick="{{ go.trackerFull }}">Abrir tracker completo</button>
+</div>
+</div>
+</sc-if>
+</div>
+</sc-if>
+
+<sc-if value="{{ L.musica }}" hint-placeholder-val="{{ false }}">
+<div class="sec-musica mus">
+ <header class="mtop narrow-only"><div class="brand only-a"><span class="lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></div><span class="lgo only-b" role="img" aria-label="S · T · A · R · S"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ star }}" alt=""></span><div class="btnrow" style="align-items: center"><button class="chip" onClick="{{ go.racha }}"><b>{{ racha }}</b> días</button><button class="avatar" onClick="{{ go.config }}" aria-label="Configuración">{{ inicial }}</button></div></header>
+ <div class="only-a">
+ <div class="wrap w mus-in">
+  <h1 class="mus-t">Música</h1>
+  <section class="mplayer narrow-only {{ plSel.cc }}">
+   <span class="mp-k">{{ plSel.mom }}</span>
+   <strong class="mp-n">{{ plSel.n }}</strong>
+   <span class="mp-d">{{ plSel.d }}</span>
+   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.open }}" aria-label="Escuchar en YouTube Music"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button></span>
+  </section>
+  <ol class="tracks"><sc-for list="{{ plTracks }}" as="l" hint-placeholder-count="5"><li><button class="trk {{ l.cls }} {{ l.cc }}" onClick="{{ l.pick }}"><span class="no">{{ l.no }}</span><span class="tx"><strong>{{ l.n }}</strong><span>{{ l.k }}</span></span><span class="now">♪</span></button></li></sc-for></ol>
+  <p class="mus-note">Las listas se abren en YouTube Music.</p>
+ </div>
+</div>
+ <div class="only-b mx"><div class="wrap w mx-in mz2">
+  <header class="mx-head"><h1 class="mx-t">Música</h1><p class="mx-sub">Cinco listas para cada momento.</p></header>
+  <div class="mz2-g"><sc-for list="{{ plTracks }}" as="l" hint-placeholder-count="5"><button class="mzt {{ l.cc }} {{ l.cls }} {{ l.sz }}" onClick="{{ l.pick }}"><span class="top"><span class="no">{{ l.no }}</span><span class="eqm" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span><span class="tx"><span class="k">{{ l.mom }}</span><strong>{{ l.n }}</strong></span><span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></span></button></sc-for></div>
+  <div class="mz2-now narrow-only {{ plSel.cc }}"><span class="tx"><span class="k">Sonando · {{ plSel.n }}</span><span class="d">{{ plSel.d }}</span></span><button class="pill dark" onClick="{{ plSel.open }}">Abrir ↗</button></div>
+  <p class="mx-note">Las listas se abren en YouTube Music.</p>
+ </div></div>
+</div>
+</sc-if>
+
+</aside>
+<section class="ws-main">
+<div class="wsbar wide-only"><span class="label mut">Espacio de trabajo</span><span class="h3">{{ wsTitle }}</span><span class="btnrow"><button class="iconbtn" onClick="{{ fontMenos }}" aria-label="Reducir letra">A−</button><button class="iconbtn" onClick="{{ fontMas }}" aria-label="Aumentar letra">A+</button></span></div>
+<sc-if value="{{ m.hoyMain }}" hint-placeholder-val="{{ false }}">
+<div class="wrap stack" style="padding-top: 32px; padding-bottom: 40px; gap: 22px">
+ <section class="hoyhero">
+  <img class="glowstar only-a" src="{{ logoA }}" alt="">
+  <span class="glowmark only-b"><span class="{{ markCls }}" style="width: 150px; height: 150px"><img class="base" src="{{ star }}" alt=""><img class="lit" src="{{ star }}" alt=""></span></span>
+  <div class="label">{{ fechaLarga }} · Paso diario · {{ d.temporada }}</div>
+  <h1 class="h1 herott">{{ d.titulo }}</h1>
+  <div class="todaycard-ref">{{ d.ref }} · Serie {{ d.serie }}</div>
+  <p class="quote heroverse">{{ d.frase }}</p>
+  <button class="btn hm-go" style="margin-top: 22px" onClick="{{ nextGo }}">{{ nextTxt }}</button>
+ </section>
+ <section class="card" style="padding: 26px 24px; display: none">
+  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap"><div class="h3">Tu camino de hoy</div><span class="meta">{{ progTxt }} · 15 min en total</span></div>
+  <div class="path {{ pathCls }}"><sc-for list="{{ steps }}" as="s" hint-placeholder-count="5"><button class="node {{ s.cls }}" onClick="{{ s.go }}"><span class="medal">{{ s.L }}</span><strong>{{ s.n }}</strong><span class="meta">{{ s.nodeMeta }}</span></button></sc-for></div>
+  <button class="btn hm-go" style="margin-top: 20px" onClick="{{ nextGo }}">{{ nextTxt }}</button>
+ </section>
+ <div class="label mut">Ir más profundo</div>
+ <div class="trio">
+  <button class="card extra stack" style="align-items: flex-start; gap: 10px" onClick="{{ go.profundizar }}"><span class="ic c3">A+</span><strong class="h3">Profundizar texto</strong><span class="meta">Versículo del día · notas exegéticas de {{ d.ref }}</span></button>
+  <button class="card extra stack" style="align-items: flex-start; gap: 10px" onClick="{{ openFil }}"><span class="ic c2">10</span><strong class="h3">Estudiar {{ capSemana }}</strong><span class="meta">El capítulo de la semana en 10 estaciones</span></button>
+  <button class="card extra stack" style="align-items: flex-start; gap: 10px" onClick="{{ go.frase }}"><span class="ic c4">“</span><strong class="h3">Frase para hoy</strong><span class="quote" style="font-size: 17px; line-height: 24px">{{ d.frase }}</span></button>
+ </div>
+ <button class="card seriebar" hidden style="text-align: left" onClick="{{ go.novedades }}"><span class="label">{{ d.temporada }} · serie de la semana</span><span class="h2" style="display: block; margin: 4px 0">Reentrenar</span><span class="body">De conocer la Verdad a vivirla. Lee el último mensaje de la serie.</span></button>
+ <p class="quote" hidden style="font-size: 18px; line-height: 26px; color: var(--ink-soft)">«Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.» <span class="meta">Eugene Peterson</span></p>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.step }}" hint-placeholder-val="{{ false }}">
+ <section class="stepmain {{ stepCls }}">
+  <div class="stepgrid">
+   <header class="stephero">
+    <div class="steptop"><button class="iconbtn narrow-only" onClick="{{ go.hoy }}" aria-label="Volver al Paso Diario">‹</button><div class="segs only-a"><sc-for list="{{ segs }}" as="g" hint-placeholder-count="5"><span class="{{ g.cls }}"></span></sc-for></div><div class="stories only-b"><sc-for list="{{ stories }}" as="s" hint-placeholder-count="5"><i class="{{ s }}"></i></sc-for></div></div>
+    <div class="herorow"><sc-if value="{{ hayLeer }}" hint-placeholder-val="{{ false }}"><button class="speak herospeak {{ leerPasoOn }} {{ leerPasoSt }}" onClick="{{ leerPaso }}" aria-label="{{ leerPasoLbl }}" title="{{ leerPasoLbl }}">{{ leerPasoIco }}</button></sc-if><div class="numeral">{{ stepL }}</div><div class="herotx"><div class="label stepn">Paso {{ stepNum }} de 5 · {{ stepMin }}</div><div class="stepname">{{ stepName }}</div><div class="stepsub">{{ stepSub }}</div></div></div>
+   </header>
+   <div class="stepcontent">
+
+    <sc-if value="{{ m.silencio }}" hint-placeholder-val="{{ false }}"><div class="silencio">
+     <button class="breathring {{ timerCls }}" onClick="{{ timer }}" aria-label="Iniciar el temporizador de 5 minutos"><span class="br1"></span><span class="br2"></span><span class="brt"><b>{{ timerTxt }}</b><span class="meta">{{ timerSub }}</span></span></button>
+     <div class="label mut" style="text-align: center">Oración de apertura</div>
+     <p class="quote prayer">{{ d.oracion }}</p>
+     <button class="player" onClick="{{ go.musica }}"><span class="pplay">▶</span><span style="flex: 1; text-align: left"><span class="label" style="display: block">Música para meditar</span><strong>Spirit · YouTube Music</strong></span><span class="eq"><i></i><i></i><i></i><i></i></span></button>
+    </div></sc-if>
+
+    <sc-if value="{{ m.texto }}" hint-placeholder-val="{{ false }}"><div class="textostep">
+     <div class="texthead"><h2 class="passref">{{ d.ref }}</h2><div class="seg partoggle"><button class="{{ ver.nbla }}" onClick="{{ setVer.nbla }}">NBLA</button><button class="{{ ver.msg }}" onClick="{{ setVer.msg }}">MSG</button></div></div>
+     <div class="par {{ parCls }}">
+      <article class="pcol col-nbla"><div class="label">{{ d.nblaRef }}</div><sc-for list="{{ d.nblaV }}" as="x"><p class="vv"><b>{{ x.n }}</b><span>{{ x.t }}</span></p></sc-for></article>
+      <article class="pcol col-msg"><div class="label">{{ d.msgRef }}</div><sc-for list="{{ d.msgV }}" as="x"><p class="vv"><b>{{ x.n }}</b><span>{{ x.t }}</span></p></sc-for></article>
+     </div>
+    </div></sc-if>
+
+    <sc-if value="{{ m.analisis }}" hint-placeholder-val="{{ false }}"><div class="analisisstep">
+     <figure class="pull"><div class="label">Idea central</div><blockquote class="quote">{{ d.idea }}</blockquote></figure>
+     <div class="read drop"><sc-for list="{{ d.ana }}" as="p" hint-placeholder-count="3"><p>{{ p }}</p></sc-for></div>
+     <button class="card extra" onClick="{{ go.profundizar }}"><span class="ic c3">A+</span><span style="flex: 1; text-align: left"><strong class="h3" style="display: block">¿Quieres ir más profundo?</strong><span class="meta">Profundizar texto · notas exegéticas de {{ d.ref }}</span></span><span class="chev">›</span></button>
+    </div></sc-if>
+
+    <sc-if value="{{ m.reflexion }}" hint-placeholder-val="{{ false }}"><div class="reflexionstep">
+     <div class="notebook"><div class="label">Pregunta de reflexión</div><p class="bigq">{{ d.reflex }}</p><div class="lines"></div></div>
+     <div class="diarybox"><label class="label mut" for="refA">Tu respuesta</label><textarea id="refA" class="field" placeholder="Escribe con honestidad. Nadie más lo lee.">{{ refTexto }}</textarea><div class="diaryfoot"><span class="badge">Solo tú · se guarda en tu diario</span><button class="meta" style="min-height: 44px" onClick="{{ cuaderno }}">Prefiero mi cuaderno</button></div></div>
+    </div></sc-if>
+
+    <sc-if value="{{ m.siembra }}" hint-placeholder-val="{{ false }}"><div class="siembrastep">
+     <div class="label">Práctica del día</div>
+     <div class="practice"><p class="ptext">{{ d.sembrarA }}</p><p class="pray">«{{ d.sembrarOra }}»</p><p class="ptext">{{ d.sembrarB }}</p></div>
+     <div class="diarybox"><label class="label mut" for="semA">Mi paso de hoy</label><textarea id="semA" class="field" style="min-height: 90px" placeholder="Un paso concreto y posible para hoy.">{{ semTexto }}</textarea><div class="diaryfoot"><span class="badge">Solo tú · se guarda en tu diario</span><button class="meta" style="min-height: 44px" onClick="{{ cuaderno }}">Prefiero mi cuaderno</button></div></div>
+    </div></sc-if>
+    <div class="stepcta endcta"><button class="btn block" onClick="{{ stepNext }}">✓ {{ stepBtn }}</button><span class="meta">{{ stepMeta }}</span></div>
+   </div>
+  </div>
+ </section>
+</sc-if>
+
+<sc-if value="{{ m.completo }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap dca">
+ <div class="pills5 done5"><sc-for list="{{ stepsDone }}" as="s" hint-placeholder-count="5"><span class="pl5 done"><span class="ck">✓</span><b>{{ s.L }}</b><strong>{{ s.n }}</strong></span></sc-for></div>
+ <div class="dca-head"><span class="label">{{ fechaLarga }} · día {{ racha }} de tu racha</span><h1 class="dca-t">Paso diario completo</h1></div>
+ <div class="cierreMin dca-cierre"><div class="label">Oración de cierre</div><p class="quote">{{ d.cierre }}</p></div>
+ <div class="dca-acts">
+  <button class="dca-frase" onClick="{{ go.frase }}"><span class="label">Frase para hoy</span><span class="quote">{{ d.frase }}</span><span class="dca-dl"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span>Descargar imagen</span></button>
+  <button class="dca-row" onClick="{{ guardarDia }}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></span><span class="tx"><strong>{{ guardarTxt }}</strong><span>Para volver a estudiarlo cuando quieras</span></span><span class="chev">›</span></button>
+ </div>
+ <button class="dca-back" onClick="{{ go.hoy }}">Volver al Paso Diario</button>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in dcb">
+ <section class="mx-block c-siembra dcb-hero"><span class="dcb-segs"><i class="c-silencio"></i><i class="c-texto"></i><i class="c-analisis"></i><i class="c-reflexion"></i><i class="c-siembra"></i></span><span class="mx-k">{{ fechaLarga }} · 5 de 5 pasos</span><strong class="mx-big">Día sembrado.</strong><span class="mx-num"><b>{{ racha }}</b><span>{{ rachaDias }} de racha</span></span></section>
+ <div class="dcb-cierre"><span class="mx-k2">Oración de cierre</span><p>{{ d.cierre }}</p></div>
+ <div class="mdx-bento dcb-acts">
+  <button class="bx tall c-reflexion" onClick="{{ go.frase }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><strong>Frase para hoy</strong><span>{{ d.frase }}</span></button>
+  <button class="bx c-texto" onClick="{{ guardarDia }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></span><strong>{{ guardarTxt }}</strong><span>Para volver a estudiarlo</span></button>
+  <button class="bx c-analisis" onClick="{{ go.hoy }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><strong>Volver</strong><span>Al Paso Diario</span></button>
+ </div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.profundizar }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <div class="label mut">Profundizar texto · Estudio exegético</div><h1 class="h1">{{ d.ref }}</h1>
+ <p class="read" style="font: 400 18px/30px var(--f-r)">{{ d.breve }}</p>
+ <sc-for list="{{ notas }}" as="n" hint-placeholder-count="3"><div class="card stack"><div class="label">{{ n.ref }}</div><p class="meta" style="font-style: italic">{{ n.en }}</p><p class="quote" style="font-size: 21px; line-height: 29px">«{{ n.es }}»</p><div class="meta">NBLA: «{{ n.nbla }}»</div><p style="font: 400 16px/27px var(--f-r); color: var(--ink-soft)">{{ n.exp }}</p></div></sc-for>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <section class="mx-block {{ profC }}"><span class="mx-k">Profundizar texto · Estudio exegético</span><strong class="mx-big">{{ d.ref }}</strong><p class="mx-p">{{ d.breve }}</p></section>
+ <ol class="mx-notas {{ profC }}"><sc-for list="{{ notas }}" as="n" hint-placeholder-count="3"><li class="mx-nota"><span class="vtag">{{ n.ref }}</span><div class="nt"><p class="es">«{{ n.es }}»</p><p class="en">{{ n.en }}</p><p class="nb">NBLA · «{{ n.nbla }}»</p><p class="ex">{{ n.exp }}</p></div></li></sc-for></ol>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.frase }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
+ <div class="story"><span class="meta">S · T · A · R · S</span><p class="quote" style="font-size: 25px; line-height: 33px">{{ d.frase }}</p><span class="meta">{{ d.ref }} · @lhscol</span></div>
+ <div class="btnrow" style="justify-content: center"><button class="btn" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost" onClick="{{ frasePNG }}">Descargar imagen PNG</button></div>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
+ <div class="mx-story {{ fraseC }}"><span class="sq">“</span><p class="ft">{{ d.frase }}</p><span class="fm">{{ d.ref }}</span><span class="fb">S · T · A · R · S · @lhscol</span></div>
+ <div class="mx-dl"><button class="mx-dlb" onClick="{{ fraseIG }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><span><strong>Para Instagram</strong><span>Historia 9:16</span></span></button><button class="mx-dlb" onClick="{{ frasePNG }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><span><strong>Imagen PNG</strong><span>Para compartir</span></span></button></div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.racha }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Racha de estudio</button>
+ <div style="display: flex; align-items: baseline; gap: 10px"><span class="h1">{{ racha }}</span><span class="h3">días consecutivos</span></div>
+ <div class="card"><div style="display: flex; justify-content: space-between; align-items: center"><button class="iconbtn" onClick="{{ calPrev }}" aria-label="Mes anterior">‹</button><span class="h3">{{ calMes }}</span><button class="iconbtn" onClick="{{ calNext }}" aria-label="Mes siguiente">›</button></div>
+  <div class="week" style="margin-top: 16px"><sc-for list="{{ dow }}" as="x" hint-placeholder-count="7"><span class="day">{{ x }}</span></sc-for></div>
+  <sc-for list="{{ cal }}" as="r" hint-placeholder-count="5"><div class="week {{ r.cls }}" style="margin-top: 8px"><sc-for list="{{ r.days }}" as="c" hint-placeholder-count="7"><span class="day {{ c.cls }}" onClick="{{ c.pick }}"><i>{{ c.n }}</i></span></sc-for></div></sc-for></div>
+ <div class="callegend meta"><span><i class="lg done"></i>Día completado</span><span><i class="lg week"></i>Semana completa</span><span><i class="lg month"></i>Mes completo</span><span><i class="lg rest">✓</i>Restaurado</span><span><i class="lg can">+</i>Se puede restaurar</span></div>
+ <div class="card"><div class="h3">★ {{ estrellasTxt }}</div><p class="meta" style="margin-top: 4px">Ganas una por cada semana o mes completo. Sirve para recuperar ayer o anteayer, después de completar sus cinco pasos.</p></div>
+ <button class="btn ghost" onClick="{{ go.guardados }}">Ver días guardados</button>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario · Racha de estudio</button>
+ <section class="mx-block c-siembra mx-rhead"><span class="mx-k">Racha de estudio</span><span class="mx-num"><b>{{ racha }}</b><span>días consecutivos</span></span><span class="mx-chip">★ {{ estrellasTxt }}</span></section>
+ <section class="mx-cal"><div class="mh"><button class="rb" onClick="{{ calPrev }}" aria-label="Mes anterior">‹</button><strong>{{ calMes }}</strong><button class="rb" onClick="{{ calNext }}" aria-label="Mes siguiente">›</button></div>
+  <div class="g dow"><sc-for list="{{ dow }}" as="x" hint-placeholder-count="7"><span>{{ x }}</span></sc-for></div>
+  <sc-for list="{{ cal }}" as="r" hint-placeholder-count="5"><div class="g {{ r.cls }}"><sc-for list="{{ r.days }}" as="c" hint-placeholder-count="7"><span class="d {{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</span></sc-for></div></sc-for>
+  <div class="mlg"><span><i class="done"></i>Completado</span><span><i class="wk"></i>Semana completa</span><span><i class="mo"></i>Mes completo</span><span><i class="rest">✓</i>Restaurado</span><span><i class="can">+</i>Se puede restaurar</span></div>
+ </section>
+ <p class="mx-note">Ganas una estrella por cada semana o mes completo. Sirve para recuperar ayer o anteayer, después de completar sus cinco pasos.</p>
+ <button class="bx wide c-texto" onClick="{{ go.guardados }}"><span class="tx"><span class="k">Para volver a estudiar</span><strong>Ver días guardados</strong></span><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></button>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.guardados }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap gda">
+ <button class="label" style="text-align: left; min-height: 32px" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <header><h1 class="h1">Mis días guardados</h1><p class="body" style="margin-top: 6px">Pasos Diarios para volver a estudiar cuando quieras.</p></header>
+ <div class="gda-mes"><span class="label">{{ guardTitulo }}</span><span class="meta">{{ guardN }}</span></div>
+ <div class="gda-list"><sc-for list="{{ saved }}" as="x" hint-placeholder-count="3"><button class="gda-day" onClick="{{ x.pick }}"><span class="gd-date"><b>{{ x.n }}</b><span>{{ x.wd }}</span></span><span class="gd-tx"><strong>{{ x.t }}</strong><span class="ref">{{ x.ref }}</span><span class="rep">Volver a estudiar ›</span></span></button></sc-for></div>
+ <p class="meta">{{ guardNota }}</p>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <header class="mx-head"><h1 class="mx-t">Mis días guardados</h1><p class="mx-sub">Pasos Diarios para volver a estudiar cuando quieras.</p></header>
+ <div class="mx-days"><sc-for list="{{ saved }}" as="x" hint-placeholder-count="3"><button class="mx-day {{ x.cc }}" onClick="{{ x.pick }}"><span class="dn">{{ x.n }}</span><span class="dw">{{ x.wd }}</span><strong>{{ x.t }}</strong><span class="dr">{{ x.ref }}</span></button></sc-for></div>
+ <p class="mx-note">{{ guardNota }}</p>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.novedades }}">
+<div class="only-a">
+<div class="wrap stack novs" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Novedades en S · T · A · R · S</button>
+ <h1 class="h1">{{ nov.t }}</h1>
+ <p class="body">{{ nov.intro }}</p>
+ <sc-for list="{{ nov.items }}" as="x"><button class="card {{ x.na }}" style="text-align: left; display: block; width: 100%" onClick="{{ x.pick }}"><span class="h3" style="display: block">{{ x.t }}</span><span class="body" style="display: block; margin-top: 4px">{{ x.p }}</span></button></sc-for>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario · Novedades en S · T · A · R · S</button>
+ <header class="mx-head"><span class="mx-k2">Esta semana</span><h1 class="mx-t">{{ nov.t }}</h1><p class="mx-sub">{{ nov.intro }}</p></header>
+ <div class="mx-nov"><sc-for list="{{ nov.items }}" as="x"><button class="nv {{ x.cc }} {{ x.sz }}" onClick="{{ x.pick }}"><span class="n">{{ x.n }}</span><strong>{{ x.t }}</strong><p>{{ x.p }}</p></button></sc-for></div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.rifa }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="wrap stack" style="padding-top: 70px; padding-bottom: 32px; text-align: center; align-items: center">
+ <span class="mark d5" style="width: 120px; height: 120px"><img class="base" src="{{ starDone }}" alt=""><img class="lit" src="{{ starDone }}" alt=""></span>
+ <div class="label">{{ rifa.k }}</div><h1 class="h1">{{ rifa.t }}</h1>
+ <p class="body">{{ rifa.p }}</p>
+ <div class="btnrow" style="justify-content: center"><button class="btn" onClick="{{ rifa.ok }}">¡Allí estaré!</button><button class="btn ghost" onClick="{{ rifa.img }}">Descargar imagen</button></div>
+ <button class="meta" style="min-height: 44px" onClick="{{ rifa.luego }}">Recordármelo después</button>
+</div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in mx-rifa">
+ <section class="mx-block c-analisis rf"><span class="dots"><i class="c-silencio"></i><i class="c-texto"></i><i class="c-analisis"></i><i class="c-reflexion"></i><i class="c-siembra"></i></span><span class="mk"><img src="{{ star }}" alt=""></span><span class="mx-k">{{ rifa.k }}</span><strong class="mx-big">{{ rifa.t }}</strong><p class="mx-p">{{ rifa.p }}</p>
+  <span class="rfb"><button class="pill dark" onClick="{{ rifa.ok }}">¡Allí estaré!</button><button class="pill line" onClick="{{ rifa.img }}">Descargar imagen</button></span></section>
+ <button class="mx-later" onClick="{{ rifa.luego }}">Recordármelo después</button>
+</div>
+</div>
+</sc-if>
+
+
+<sc-if value="{{ m.trackerFull }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="sec-profundo"><div class="wrap w stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.tracker }}">‹ Paso Profundo</button>
+ <h1 class="h1">Tracker de lectura</h1><p class="body">Tu recorrido completo por la Biblia.</p>
+ <div class="grid"><div class="card stat"><b>1.189</b><span class="meta">Total capítulos</span></div><div class="card stat"><b>{{ leidos }}</b><span class="meta">Leídos</span></div><div class="card stat"><b>{{ pendientes }}</b><span class="meta">Pendientes</span></div><div class="card stat"><b>{{ pct }}</b><span class="meta">Progreso</span></div></div>
+ <p class="meta">El progreso se marca automáticamente al completar las 10 estaciones del estudio de cada capítulo.</p>
+ <sc-for list="{{ trackBlq }}" as="b" hint-placeholder-count="10"><div class="blq"><button><span class="num">{{ b.num }}</span><span style="flex: 1"><span class="h3" style="display: block">{{ b.name }}</span><span class="meta">{{ b.prog }}</span><span class="bar"><i style="{{ b.w }}"></i></span></span><span class="chev">›</span></button></div></sc-for>
+</div></div>
+</div>
+<div class="only-b mx">
+<div class="wrap w mx-in">
+ <button class="mx-back" onClick="{{ go.tracker }}">‹ Paso Profundo</button>
+ <header class="mx-head"><h1 class="mx-t">Tracker de lectura</h1><p class="mx-sub">Tu recorrido completo por la Biblia.</p></header>
+ <div class="tkf"><div class="mx-num"><b>{{ leidos }}</b><span>de 1.189 capítulos · {{ pct }}</span></div><div class="tk3"><div class="c-silencio"><b>1.189</b><span>Total capítulos</span></div><div class="c-texto"><b>{{ leidos }}</b><span>Leídos</span></div><div class="c-analisis"><b>{{ pendientes }}</b><span>Pendientes</span></div></div></div>
+ <p class="mx-note">El progreso se marca automáticamente al completar las 10 estaciones del estudio de cada capítulo.</p>
+ <div class="tkb"><sc-for list="{{ trackB }}" as="b" hint-placeholder-count="10"><div class="tkb-r {{ b.cc }}"><span class="n">{{ b.num }}</span><span class="tx"><strong>{{ b.name }}</strong><span class="br"><i style="{{ b.w }}"></i></span><span class="pr">{{ b.prog }}</span></span></div></sc-for></div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.libro }}" hint-placeholder-val="{{ false }}">
+<div class="sec-profundo">
+<div class="only-a"><div class="wrap stack" style="padding-top: 40px; padding-bottom: 32px">
+ <div class="label mut">{{ libroGrupo }}</div><h1 class="h1">{{ libroAb.n }}</h1><p class="body">{{ libroAb.c }} capítulos. Elige uno para leerlo en MSG y NBLA.</p>
+ <div class="btnrow"><button class="btn ghost" onClick="{{ go.intro }}">{{ introLbl }}</button></div>
+ <div class="capgrid libgrid"><sc-for list="{{ libroAb.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div>
+</div></div>
+<div class="only-b mx"><div class="wrap mx-in">
+ <section class="mx-block c-silencio lb wsx"><span class="mx-k">{{ libroGrupo }}</span><strong class="mx-big">{{ libroAb.n }}</strong><p class="mx-p">{{ libroAb.c }} capítulos. Elige uno para leerlo en MSG y NBLA.</p><button class="pill dark" style="align-self: flex-start; margin-top: 6px" onClick="{{ go.intro }}">{{ introLbl }}</button></section>
+ <div class="lbg"><sc-for list="{{ libroAb.caps }}" as="c" hint-placeholder-count="21"><button class="{{ c.cls }}" onClick="{{ c.pick }}">{{ c.n }}</button></sc-for></div>
+</div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.lector }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="sec-profundo"><div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.capitulo }}">‹ Por Capítulo</button>
+ <div class="label mut">Lectura por capítulo</div><h1 class="h1">{{ lect.t }}</h1><p class="body">Lee primero el texto. Profundiza cuando estés listo.</p>
+ <div class="seg" style="max-width: 280px"><button class="{{ ver.nbla }}" onClick="{{ setVer.nbla }}">NBLA</button><button class="{{ ver.msg }}" onClick="{{ setVer.msg }}">MSG</button></div>
+ <div class="read"><sc-for list="{{ lect.v }}" as="b" hint-placeholder-count="5"><p><span class="vnum">{{ b.r }}</span>{{ b.t }}</p></sc-for></div>
+ <div class="btnrow"><button class="btn" onClick="{{ lect.estudiar }}">Estudiar {{ lect.t }}</button><button class="btn ghost" onClick="{{ lect.prev }}">‹ {{ lect.prevT }}</button><button class="btn ghost" onClick="{{ lect.next }}">{{ lect.nextT }} ›</button></div>
+</div></div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in">
+ <button class="mx-back" onClick="{{ go.capitulo }}">‹ Por Capítulo</button>
+ <section class="mx-block c-texto wsx"><span class="mx-k">Lectura por capítulo</span><strong class="mx-big">{{ lect.t }}</strong><p class="mx-p">Lee primero el texto. Profundiza cuando estés listo.</p><span class="vtog"><button class="{{ ver.nbla }}" onClick="{{ setVer.nbla }}">NBLA</button><button class="{{ ver.msg }}" onClick="{{ setVer.msg }}">MSG</button></span></section>
+ <div class="lx"><sc-for list="{{ lect.v }}" as="b" hint-placeholder-count="5"><p><span class="vn">{{ b.r }}</span>{{ b.t }}</p></sc-for></div>
+ <div class="lx-nav"><button class="rnd" onClick="{{ lect.prev }}" aria-label="{{ lect.prevT }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button><button class="pill solid big" onClick="{{ lect.estudiar }}">Estudiar {{ lect.t }}</button><button class="rnd" onClick="{{ lect.next }}" aria-label="{{ lect.nextT }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></button></div>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.intro }}" hint-placeholder-val="{{ false }}">
+<div class="sec-profundo">
+<div class="poster"><img src="{{ intro.poster }}" alt="{{ intro.posterAlt }}"></div>
+<div class="only-a">
+<div class="wrap stack" style="margin-top: -46px; position: relative; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.metodo }}">‹ {{ introLbl }}</button>
+ <div class="studyhero stack" style="gap: 8px"><div class="label">S · T · A · R · S</div><h1 class="h1">{{ intro.t }}</h1><p class="quote" style="font-size: 20px">{{ intro.sub }}</p><p class="body">{{ intro.cita }}</p><span class="label">Juan 20:31</span><span class="meta">{{ intro.caps }}</span></div>
+ <sc-for list="{{ introBlocks }}" as="x" hint-placeholder-count="6"><div class="acc"><button onClick="{{ x.pick }}"><span><span class="h3" style="display: block">{{ x.t }}</span><span class="meta">{{ x.d }}</span></span><span class="chev">{{ x.sign }}</span></button><sc-if value="{{ x.open }}" hint-placeholder-val="{{ false }}"><div><p style="font: 400 17px/29px var(--f-r)">{{ x.body }}</p></div></sc-if></div></sc-for>
+ <div class="card tint stack"><div class="label">Ya conoces el contexto</div><div class="h2">Ahora entra al texto</div><p class="body">La introducción orienta. La Escritura permanece en el centro.</p><button class="btn" onClick="{{ go.lector }}">Leer {{ intro.t }}</button></div>
+</div></div>
+</div>
+<div class="only-b mx">
+<div class="wrap mx-in ix">
+ <button class="mx-back" onClick="{{ go.metodo }}">‹ {{ introLbl }}</button>
+ <section class="mx-block c-silencio wsx"><span class="mx-k">S · T · A · R · S · Introducción · {{ intro.caps }}</span><strong class="mx-big">{{ intro.t }}</strong><p class="ix-sub">{{ intro.sub }}</p><p class="mx-p">{{ intro.cita }}</p><span class="mx-k">Juan 20:31</span></section>
+ <div class="ixl"><sc-for list="{{ introB }}" as="x" hint-placeholder-count="6"><div class="ixr {{ x.cc }}"><button onClick="{{ x.pick }}"><span class="n">{{ x.n }}</span><span class="tx"><strong>{{ x.t }}</strong><span>{{ x.d }}</span></span><span class="sg">{{ x.sign }}</span></button><sc-if value="{{ x.open }}" hint-placeholder-val="{{ false }}"><p class="bd">{{ x.body }}</p></sc-if></div></sc-for></div>
+ <section class="mx-block c-texto"><span class="mx-k">Ya conoces el contexto</span><strong class="mx-big sm">Ahora entra al texto</strong><p class="mx-p">La introducción orienta. La Escritura permanece en el centro.</p><button class="pill dark big" style="align-self: flex-start; margin-top: 8px" onClick="{{ go.lector }}">Leer {{ intro.t }}</button></section>
+</div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.estaciones }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="sec-profundo"><div class="wrap w stack" style="padding-top: 52px; padding-bottom: 32px">
+ <button class="label" style="text-align: left" onClick="{{ go.metodo }}">‹ {{ cap.titulo }}</button>
+ <div class="studyhero stack" style="gap: 8px; align-items: center"><div class="label">S · T · A · R · S</div><h1 class="h1">{{ cap.titulo }}</h1><span class="meta">Estudio profundo · 10 estaciones</span><button class="btn ghost" onClick="{{ compartir }}">Compartir estudio</button></div>
+ <div class="card"><div style="display: flex; justify-content: space-between; align-items: center; gap: 10px"><span class="body"><b style="color: var(--ink)">Estás aquí</b> · Estación {{ st.n }} de 10</span><span class="badge">{{ stBadge }}</span></div><div class="trail"><sc-for list="{{ trail }}" as="t" hint-placeholder-count="10"><i class="{{ t.cls }}" style="{{ t.pos }}"></i></sc-for></div></div>
+ <div class="chips"><sc-for list="{{ stations }}" as="x" hint-placeholder-count="10"><button class="{{ x.cls }}" onClick="{{ x.pick }}">{{ x.n }} · {{ x.l }}</button></sc-for></div>
+ <div class="card stack"><div class="label">{{ cap.titulo }} · {{ st.l }}</div>
+  <sc-if value="{{ st.isTexto }}" hint-placeholder-val="{{ false }}"><div class="seg" style="max-width: 240px"><button class="{{ ver.nbla }}" onClick="{{ setVer.nbla }}">NBLA</button><button class="{{ ver.msg }}" onClick="{{ setVer.msg }}">MSG</button></div><div class="label mut">{{ verName }}</div></sc-if>
+  <sc-for list="{{ st.items }}" as="it" hint-placeholder-count="3"><div class="{{ it.cls }}"><sc-if value="{{ it.h }}" hint-placeholder-val="{{ false }}"><b class="label" style="display: block; margin-bottom: 4px">{{ it.h }}</b></sc-if><p style="font: 400 17px/29px var(--f-r); color: var(--ink)">{{ it.p }}</p></div></sc-for>
+  <sc-if value="{{ st.isResp }}" hint-placeholder-val="{{ false }}"><div class="qbox">Escribe tus respuestas en tu cuaderno o app de notas: tu espacio personal, sin límites.</div></sc-if>
+  <sc-if value="{{ st.isLlevar }}" hint-placeholder-val="{{ false }}"><button class="btn" onClick="{{ go.frase }}">↓ Descargar 9:16</button></sc-if>
+ </div>
+ <div class="btnrow" style="justify-content: space-between"><button class="btn ghost" onClick="{{ stPrev }}">‹ Anterior</button><button class="btn" onClick="{{ stNext }}">Siguiente estación ›</button></div>
+</div></div>
+</div>
+<div class="only-b mx">
+<div class="wrap w mx-in">
+ <button class="mx-back" onClick="{{ go.metodo }}">‹ {{ cap.titulo }}</button>
+ <section class="mx-block c-texto es-h wsx"><span class="mx-k">Estudio profundo · 10 estaciones</span><strong class="mx-big">{{ cap.titulo }}</strong><span class="mx-k es-pr">Estación {{ st.n }} de 10 · {{ stBadge }}</span><button class="pill line" style="align-self: flex-start" onClick="{{ compartir }}">Compartir estudio</button></section>
+ <nav class="es-step" aria-label="Estaciones"><sc-for list="{{ stationsB }}" as="x" hint-placeholder-count="10"><button class="es-d {{ x.st }}" onClick="{{ x.pick }}" aria-label="{{ x.l }}">{{ x.n2 }}</button></sc-for></nav>
+ <article class="es-c k-{{ st.kind }}"><span class="mx-k2">{{ cap.titulo }} · Estación {{ st.n }} de 10</span><h2 class="es-t">{{ st.l }}</h2><p class="es-lead">{{ st.lead }}</p>
+  <sc-if value="{{ st.isTexto }}" hint-placeholder-val="{{ false }}"><span class="vtog in"><button class="{{ ver.nbla }}" onClick="{{ setVer.nbla }}">NBLA</button><button class="{{ ver.msg }}" onClick="{{ setVer.msg }}">MSG</button></span><span class="mx-note">{{ verName }}</span></sc-if>
+  <div class="es-items"><sc-for list="{{ st.itemsB }}" as="it" hint-placeholder-count="3"><section class="es-it {{ it.cc }} {{ it.cls }}"><sc-if value="{{ it.h }}" hint-placeholder-val="{{ false }}"><b class="eh">{{ it.h }}</b></sc-if><p class="ep">{{ it.p }}</p></section></sc-for></div>
+  <sc-if value="{{ st.isResp }}" hint-placeholder-val="{{ false }}"><div class="es-q">Escribe tus respuestas en tu cuaderno o app de notas: tu espacio personal, sin límites.</div></sc-if>
+  <sc-if value="{{ st.isLlevar }}" hint-placeholder-val="{{ false }}"><button class="pill solid big" style="align-self: flex-start" onClick="{{ go.frase }}">↓ Descargar 9:16</button></sc-if>
+ </article>
+ <div class="lx-nav"><button class="rnd" onClick="{{ stPrev }}" aria-label="Estación anterior"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></button><button class="pill solid big" onClick="{{ stNext }}">{{ stNextL }}</button></div>
+</div>
+</div>
+</sc-if>
+
+
+<sc-if value="{{ m.pin }}" hint-placeholder-val="{{ false }}">
+<div class="sec-diario">
+<div class="only-a"><div class="wrap pna">
+ <button class="label narrow-only pna-back" onClick="{{ go.config }}">‹ Configuración</button>
+ <span class="lgo pna-lg" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ starDone }}" alt=""></span>
+ <h1 class="pna-h">Mi diario</h1>
+ <p class="pna-s">{{ pinMsg }}</p>
+ <div class="pin"><sc-for list="{{ pinDots }}" as="p"><i class="{{ p }}"></i></sc-for></div>
+ <div class="keys pna-k"><sc-for list="{{ keys }}" as="k" hint-placeholder-count="12"><button class="{{ k.cls }}" onClick="{{ k.pick }}">{{ k.k }}</button></sc-for></div>
+ <div class="pna-alt"><button onClick="{{ pinOlvido }}">¿Olvidaste tu PIN?</button></div>
+ <p class="pna-n">Si lo olvidas, entras con tu cuenta, creas otro y no pierdes nada.</p>
+</div></div>
+<div class="only-b mx"><div class="wrap mx-in pnb">
+ <button class="mx-back narrow-only" onClick="{{ go.config }}">‹ Ajustes</button>
+ <div class="pnb-g">
+  <section class="mx-block c-reflexion pnb-h"><span class="pnb-ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg></span><strong class="mx-big">Mi diario</strong><p class="mx-p">{{ pinMsg }}</p><span class="pnb-pin"><sc-for list="{{ pinDots }}" as="p"><i class="{{ p }}"></i></sc-for></span></section>
+  <div class="pnb-k"><sc-for list="{{ keysB }}" as="k" hint-placeholder-count="12"><button class="{{ k.cls }}" onClick="{{ k.pick }}">{{ k.k }}</button></sc-for></div>
+ </div>
+ <p class="pnb-n" onClick="{{ pinOlvido }}"><b>¿Olvidaste tu PIN?</b> Entra con tu cuenta, crea otro y no pierdes nada.</p>
+</div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.diario }}" hint-placeholder-val="{{ false }}">
+<div class="sec-diario">
+<div class="only-a"><div class="wrap dra">
+ <div class="dra-top"><button class="label narrow-only" onClick="{{ go.config }}">‹ Configuración</button><span class="badge dra-solo"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Solo tú</span></div>
+ <header class="dra-h"><h1 class="dra-t">Mi diario</h1><p class="dra-s">Lo que escribes en Reflexión y Sembrar queda guardado en tu cuenta. Solo tú lo ves.</p></header>
+ <nav class="dra-tabs"><sc-for list="{{ drTabs }}" as="t"><button class="{{ t.cls }}" onClick="{{ t.pick }}">{{ t.l }}</button></sc-for></nav>
+ <input class="dra-q" id="drBusca" placeholder="Buscar en lo que escribiste" aria-label="Buscar en tu diario">
+ <div class="dra-list"><sc-for list="{{ entries }}" as="e" hint-placeholder-count="3"><article class="dra-e"><div class="dra-d"><b class="n">{{ e.dt }}</b><span>{{ e.mo }}</span></div><div class="dra-b"><div class="label">{{ e.f }}</div><p class="dra-p">{{ e.t }}</p></div></article></sc-for></div>
+ <button class="btn ghost" style="align-self: flex-start" onClick="{{ cerrarDiario }}">Cerrar mi diario</button>
+</div></div>
+<div class="only-b mx"><div class="wrap mx-in drb">
+ <button class="mx-back narrow-only" onClick="{{ go.config }}">‹ Ajustes</button>
+ <header class="drb-h"><div class="drb-ht"><strong class="mx-big">Mi diario</strong><span class="drb-solo"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg>Solo tú</span></div><p class="drb-s">Lo que escribes en Reflexión y Sembrar queda guardado en tu cuenta. Solo tú lo ves.</p></header>
+ <div class="drb-f"><sc-for list="{{ drTabs }}" as="t"><span class="{{ t.cls }}" onClick="{{ t.pick }}">{{ t.l }}</span></sc-for></div>
+ <input class="drb-q" id="drBuscaB" placeholder="Buscar en lo que escribiste" aria-label="Buscar en tu diario">
+ <div class="drb-g"><sc-for list="{{ entries }}" as="e" hint-placeholder-count="3"><article class="drb-c {{ e.cc }}"><span class="drb-d"><b>{{ e.dt }}</b>{{ e.mo }}</span><span class="t">{{ e.f }}</span><p>{{ e.t }}</p></article></sc-for></div>
+ <button class="pill line big" style="align-self: flex-start" onClick="{{ cerrarDiario }}">Cerrar mi diario</button>
+</div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.config }}" hint-placeholder-val="{{ false }}">
+<div class="only-a"><div class="wrap cfc">
+ <button class="label narrow-only" style="align-self: flex-start" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <header class="cfc-h">
+  <span class="lgo cfc-lg" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span>
+  <span class="label">{{ cfgTitle }}</span>
+  <h1 class="cfc-n">{{ nombre }}</h1>
+  <p class="cfc-st"><span><b>{{ racha }}</b> días de racha</span><i aria-hidden="true"></i><span><b>{{ estrellas }}</b> estrellas para restaurar</span><i aria-hidden="true"></i><span><b>{{ leidos }}</b> capítulos estudiados</span></p>
+ </header>
+ <div class="cfc-cols">
+  <section class="cfc-c">
+   <h2 class="cfc-t">Experiencia <span class="newtag">Nuevo</span></h2>
+   <div class="cfc-exp">
+    <button class="cfc-m {{ expOn.clasica }}" onClick="{{ setExp.clasica }}"><span class="cfc-pv a"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>Modelo 2026</strong><span class="d">Clásico · negro y dorado</span><span class="ck" aria-hidden="true"></span></button>
+    <button class="cfc-m {{ expOn.moderna }}" onClick="{{ setExp.moderna }}"><span class="cfc-pv b"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>Modelo 2027</strong><span class="d">Moderno · los colores de cada paso</span><span class="ck" aria-hidden="true"></span></button>
+   </div>
+   <p class="cfc-note">Tu progreso y tu racha se mantienen al cambiar.</p>
+  </section>
+  <section class="cfc-c">
+   <h2 class="cfc-t">Lectura</h2>
+   <div class="cfc-row"><span class="t"><strong>Luz</strong><span>Cómo se ve la app</span></span><span class="cfc-luz"><button class="{{ luzN }}" onClick="{{ toggleLuz }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"></path></svg>Noche</button><button class="{{ diaOn }}" onClick="{{ toggleLuz }}"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>Día</button></span></div>
+   <div class="cfc-row col"><span class="t"><strong>Tamaño de letra</strong><span>Afecta toda la app</span></span><span class="cfc-fs"><b class="s" onClick="{{ fontMenos }}" role="button" aria-label="Letra más pequeña">A</b><span class="tr"><sc-for list="{{ fontBtns }}" as="f"><i class="{{ f.cls }}" onClick="{{ f.pick }}" role="button" aria-label="{{ f.l }}"></i></sc-for></span><b class="l" onClick="{{ fontMas }}" role="button" aria-label="Letra más grande">A</b></span></div>
+  </section>
+  <section class="cfc-c">
+   <h2 class="cfc-t">Tema de la app</h2>
+   <p class="cfc-note" style="margin-top: 0">Cambia el dorado por el color de una identidad de LHSCOL. Solo en el modelo 2026.</p>
+   <div class="cfc-tm"><button class="cfc-sw {{ temaOn.lhscol }}" onClick="{{ setTema.lhscol }}"><i style="background: #c9a84c"></i><span>LHSCOL</span></button><button class="cfc-sw {{ temaOn.oxigeno }}" onClick="{{ setTema.oxigeno }}"><i style="background: #00f5ff"></i><span>Oxígeno</span></button><button class="cfc-sw {{ temaOn.mesa }}" onClick="{{ setTema.mesa }}"><i style="background: #ff6b6b"></i><span>La Mesa</span></button><button class="cfc-sw {{ temaOn.sala }}" onClick="{{ setTema.sala }}"><i style="background: #a8ff3e"></i><span>La Sala</span></button></div>
+  </section>
+  <button class="cfc-c cfc-dia" onClick="{{ go.pin }}"><span class="cfc-lk"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg></span><span class="t"><strong>Mi diario</strong><span>Protegido con PIN · solo tú lo ves</span></span><span class="chev">›</span></button>
+  <section class="cfc-c cfc-list">
+   <button onClick="{{ go.novedades }}"><strong>Novedades</strong><span>Conoce los contenidos recién incorporados</span><i>›</i></button>
+   <button onClick="{{ soporte }}"><strong>Soporte por WhatsApp</strong><span>Cuéntanos si necesitas ayuda con la app</span><i>↗</i></button>
+   <button onClick="{{ lhscol }}"><strong>LHSCOL</strong><span>Abre el sitio de la iglesia</span><i>↗</i></button>
+  </section>
+ </div>
+ <button class="cfc-out" onClick="{{ go.landing }}">Cerrar sesión</button>
+ <sc-if value="{{ esAdmin }}"><button class="cfc-adm" onClick="{{ adminBar }}">Administración: cambiar la fecha, restaurar rachas e informe de la rifa ›</button></sc-if>
+</div></div>
+<div class="only-b mx"><div class="wrap mx-in cfb">
+ <button class="mx-back narrow-only" onClick="{{ go.hoy }}">‹ Paso Diario</button>
+ <header class="cfb-h"><strong class="mx-big">{{ cfgTitle }}</strong><span class="cfb-me"><span class="avatar">{{ inicial }}</span>{{ nombre }}</span></header>
+ <section class="mx-block c-tinta cfb-exp"><span class="mx-k">Experiencia · nuevo</span><strong class="cfb-big">¿Cómo quieres vivir S · T · A · R · S?</strong><span class="cfb-seg"><button class="{{ expOn.moderna }}" onClick="{{ setExp.moderna }}">Modelo 2027</button><button class="{{ expOn.clasica }}" onClick="{{ setExp.clasica }}">Modelo 2026</button></span><span class="mx-k">Tu progreso y tu racha se mantienen al cambiar.</span></section>
+ <div class="cfb-g">
+  <button class="cb c-texto" onClick="{{ toggleLuz }}"><span class="k">Luz</span><strong>Modo día</strong><span class="s">{{ luzTxt }}</span><span class="toggle cb-tg {{ diaOn }}"></span></button>
+  <div class="cb c-analisis"><span class="k">Lectura</span><strong>Tamaño de letra</strong><span class="s">Afecta toda la app</span><span class="cb-fs"><sc-for list="{{ fontBtns }}" as="f"><button class="{{ f.cls }}" onClick="{{ f.pick }}" aria-label="{{ f.l }}">A</button></sc-for></span></div>
+  <button class="cb c-reflexion wide" onClick="{{ go.pin }}"><span class="cb-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><span class="cb-lk"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg></span><span class="k">Solo tú</span><strong>Mi diario</strong><span class="s">Protegido con PIN · solo tú lo ves</span></button>
+  <button class="cb c-siembra" onClick="{{ go.novedades }}"><span class="cb-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><span class="k">Esta semana</span><strong>Novedades</strong><span class="s">Contenidos recién incorporados</span></button>
+ </div>
+ <div class="cfb-list">
+  <button class="cfb-r" onClick="{{ soporte }}"><strong>Soporte por WhatsApp</strong><span>Cuéntanos si necesitas ayuda con la app</span><i>↗</i></button>
+  <button class="cfb-r" onClick="{{ lhscol }}"><strong>LHSCOL</strong><span>Abre el sitio de la iglesia</span><i>↗</i></button>
+  <button class="cfb-r out" onClick="{{ go.landing }}"><strong>Cerrar sesión</strong><span>Salir de la cuenta</span></button>
+ </div>
+ <sc-if value="{{ esAdmin }}"><button class="cfb-adm" onClick="{{ adminBar }}">Administración: cambiar la fecha, restaurar rachas e informe de la rifa ›</button></sc-if>
+</div></div>
+</sc-if>
+
+<sc-if value="{{ m.verRes }}">
+<div class="sec-profundo">
+<div class="only-a"><div class="wrap vra">
+ <button class="label narrow-only" style="text-align: left; min-height: 32px" onClick="{{ go.versiculo }}">‹ Por Versículo</button>
+ <header class="vra-h"><span class="label">Estudio por Versículo · con IA</span><h1 class="vra-ref">{{ vr.ref }}</h1><sc-if value="{{ vr.listo }}"><p class="vra-v">{{ vr.nbla }}</p><span class="label mut">NBLA</span></sc-if><sc-if value="{{ vr.estado }}"><p class="vra-v">{{ vr.estado }}</p></sc-if></header>
+ <sc-if value="{{ vr.listo }}">
+ <section class="vra-vers"><div class="label">Cómo lo dicen otras versiones</div>
+  <div class="vra-row"><span class="vk">The Message<br><small>español</small></span><p>{{ vr.es }}</p></div>
+  <div class="vra-row"><span class="vk">The Message<br><small>inglés</small></span><p class="en">{{ vr.en }}</p></div>
+ </section>
+ <section class="vra-exp"><div class="label">Explicación</div><div class="read drop"><sc-for list="{{ vr.exp }}" as="x"><p>{{ x.t }}</p></sc-for></div></section>
+ <sc-if value="{{ vr.notas }}"><aside class="vra-nota"><div class="label">Notas de la versión</div><sc-for list="{{ vr.notas }}" as="x"><p>{{ x }}</p></sc-for></aside></sc-if>
+ </sc-if>
+ <button class="btn ghost" style="align-self: flex-start" onClick="{{ vr.otra }}">{{ vr.otraL }}</button>
+</div></div>
+<div class="only-b mx"><div class="wrap mx-in vrb">
+ <button class="mx-back narrow-only" onClick="{{ go.versiculo }}">‹ Por Versículo</button>
+ <section class="mx-block c-siembra vrb-h"><span class="mx-k">Estudio por Versículo · con IA</span><strong class="mx-big">{{ vr.ref }}</strong><sc-if value="{{ vr.listo }}"><p class="vrb-v">{{ vr.nbla }}</p><span class="mx-k">NBLA</span></sc-if><sc-if value="{{ vr.estado }}"><p class="vrb-v">{{ vr.estado }}</p></sc-if></section>
+ <sc-if value="{{ vr.listo }}">
+ <section class="vrb-vers"><h2 class="mx-h2">Otras versiones</h2>
+  <div class="vrb-g"><div class="vrb-c c-texto"><span class="t">The Message · español</span><p>{{ vr.es }}</p></div><div class="vrb-c c-silencio"><span class="t">The Message · inglés</span><p class="en">{{ vr.en }}</p></div></div>
+ </section>
+ <section class="vrb-exp"><h2 class="mx-h2">Explicación</h2><sc-for list="{{ vr.exp }}" as="x"><p class="{{ x.cb }}">{{ x.t }}</p></sc-for></section>
+ <sc-if value="{{ vr.notas }}"><aside class="vrb-nota"><span class="t">Notas de la versión</span><sc-for list="{{ vr.notas }}" as="x"><p>{{ x }}</p></sc-for></aside></sc-if>
+ </sc-if>
+ <button class="pill solid big" style="align-self: flex-start" onClick="{{ vr.otra }}">{{ vr.otraL }}</button>
+</div></div>
+</div>
+</sc-if>
+
+<sc-if value="{{ m.musicaMain }}" hint-placeholder-val="{{ false }}">
+<div class="only-a">
+<div class="sec-musica mus"><div class="wrap mus-ws">
+ <section class="mplayer big {{ plSel.cc }}">
+   <span class="mp-k">{{ plSel.mom }}</span>
+   <strong class="mp-n">{{ plSel.n }}</strong>
+   <span class="mp-d">{{ plSel.d }}</span>
+   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.open }}" aria-label="Escuchar en YouTube Music"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button></span>
+  </section>
+ <sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="meta">Es la lista que se abre desde el paso Silencio.</p></sc-if>
+ <p class="mus-note">Se abre en YouTube Music.</p>
+</div></div>
+</div>
+<div class="only-b mx"><div class="mzw2 {{ plSel.cc }}"><span class="k">{{ plSel.mom }} · lista {{ plSel.no }} de 05</span><strong class="n">{{ plSel.n }}</strong><p class="d">{{ plSel.d }}</p><sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="d sm">Es la lista que se abre desde el paso Silencio.</p></sc-if><span class="eqb" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="act"><button class="big-play" onClick="{{ plSel.open }}" aria-label="Escuchar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button><button class="pill line big" onClick="{{ plSel.open }}">Abrir en YouTube Music ↗</button></span></div></div>
+</sc-if>
+
+</section>
+</div>
+  </main>
+ </div>
+ <sc-if value="{{ v.showBot }}" hint-placeholder-val="{{ true }}">
+ <nav class="botnav narrow-only"><button class="{{ nav.diario }}" onClick="{{ go.hoy }}"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4L7 17M17 7l1.4-1.4"></path></svg>Paso Diario</button><button class="{{ nav.profundo }}" onClick="{{ go.estudio }}"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"></path><path d="M5 17a3 3 0 0 1 3-3h10"></path></svg>Paso Profundo</button><button class="{{ nav.musica }}" onClick="{{ go.musica }}"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18V6l11-2v12"></path><circle cx="6.5" cy="18" r="2.5"></circle><circle cx="17.5" cy="16" r="2.5"></circle></svg>Música</button></nav>
+ </sc-if>
+</div>
+</sc-if>
+
+</div>
