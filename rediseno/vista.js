@@ -896,7 +896,7 @@
       fraseC: CC[diaN % 5], profC: CC[(diaN + 2) % 5],
       fraseIG: isA ? () => descargarFraseA('9:16', fv, d, logoA) : () => descargarFrase('9:16'),
       frasePNG: isA ? () => descargarFraseA('1:1', fv, d, logoA) : () => descargarFrase('1:1'),
-      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.quedan + ' s · no salgas de la app' : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
+      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.txt : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
       fraseSt: fv.css, fraseCls: 'story fv-' + fv.id, fraseQ: '«' + limpiarFrase(d.frase) + '»', fraseNota: fv.nota,
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
@@ -1298,7 +1298,8 @@
   /* Video de 15 segundos (historia 9:16): el logo entra girando, aparecen los cinco círculos,
      luego la frase y la referencia. Se graba en el mismo teléfono; nada sale a internet. */
   const VIDEO_SEG = 15;
-  async function videoFraseA(e, d, logoSrc) {
+  // Respaldo (teléfonos sin WebCodecs): grabación en vivo. Su MP4 puede no gustarle a Instagram.
+  async function videoFraseGrabado(e, d, logoSrc) {
     if (st.video) return;
     const tipos = ['video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=avc1', 'video/mp4', 'video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
     const tipo = typeof MediaRecorder !== 'undefined' ? tipos.find((x) => { try { return MediaRecorder.isTypeSupported(x); } catch (_) { return false; } }) : null;
@@ -1316,7 +1317,7 @@
     const trozosVideo = [];
     rec.ondataavailable = (ev) => { if (ev.data && ev.data.size) trozosVideo.push(ev.data); };
     const fin = new Promise((ok) => { rec.onstop = ok; });
-    st.video = { quedan: VIDEO_SEG };
+    st.video = { txt: VIDEO_SEG + ' s · no salgas de la app' };
     pintar();
     rec.start(500);
     const t0 = performance.now();
@@ -1326,7 +1327,7 @@
         const t = (performance.now() - t0) / 1000;
         dibujarFrase(cx, P, Math.min(t, VIDEO_SEG));
         const quedan = Math.max(0, Math.ceil(VIDEO_SEG - t));
-        if (quedan !== ultimo) { ultimo = quedan; st.video = { quedan: quedan }; pintar(); }
+        if (quedan !== ultimo) { ultimo = quedan; st.video = { txt: quedan + ' s · no salgas de la app' }; pintar(); }
         if (t >= VIDEO_SEG) ok(); else requestAnimationFrame(cuadro);
       })();
     });
@@ -1339,6 +1340,97 @@
     if (!blob.size) { aviso('No se pudo crear el video'); return; }
     const ext = tipo.indexOf('mp4') >= 0 ? 'mp4' : 'webm';
     await guardarArchivo(blob, 'frase-stars-' + getTodayKey() + '-video.' + ext, 'Video guardado en Descargas');
+  }
+
+  /* Video armado cuadro por cuadro (WebCodecs + mp4-muxer): MP4 estándar H.264, 30 cuadros
+     por segundo parejos, índice al inicio y pista de audio en silencio, como lo espera Instagram.
+     Si el teléfono no lo permite, se usa la grabación en vivo. */
+  function cargarMuxer() {
+    if (window.Mp4Muxer) return Promise.resolve(true);
+    return new Promise((ok) => {
+      const s = document.createElement('script');
+      s.src = '/rediseno/mp4-muxer.js?v=1';
+      s.onload = () => ok(Boolean(window.Mp4Muxer));
+      s.onerror = () => ok(false);
+      document.head.appendChild(s);
+    });
+  }
+  async function configVideo(W, H) {
+    if (typeof VideoEncoder === 'undefined' || typeof VideoFrame === 'undefined') return null;
+    for (const codec of ['avc1.640028', 'avc1.4d0028', 'avc1.42e028', 'avc1.42002a']) {
+      const cfg = { codec: codec, width: W, height: H, bitrate: 6000000, framerate: 30, avc: { format: 'avc' } };
+      try { const r = await VideoEncoder.isConfigSupported(cfg); if (r && r.supported) return cfg; } catch (_) { /* siguiente */ }
+    }
+    return null;
+  }
+  async function configAudio() {
+    if (typeof AudioEncoder === 'undefined' || typeof AudioData === 'undefined') return null;
+    const cfg = { codec: 'mp4a.40.2', sampleRate: 48000, numberOfChannels: 1, bitrate: 64000 };
+    try { const r = await AudioEncoder.isConfigSupported(cfg); return r && r.supported ? cfg : null; } catch (_) { return null; }
+  }
+  async function videoFraseA(e, d, logoSrc) {
+    if (st.video) return;
+    st.video = { txt: '0 %' };
+    pintar();
+    const listo = await cargarMuxer();
+    const vcfg = listo ? await configVideo(1080, 1920) : null;
+    if (!vcfg) { st.video = null; pintar(); await videoFraseGrabado(e, d, logoSrc); return; }
+    const acfg = await configAudio();
+    const P = await prepararFrase('9:16', e, d, logoSrc);
+    if (!P) { st.video = null; pintar(); aviso('Hoy no hay frase'); return; }
+    const FPS = 30;
+    const total = VIDEO_SEG * FPS;
+    try {
+      const destino = new Mp4Muxer.ArrayBufferTarget();
+      const opciones = { target: destino, video: { codec: 'avc', width: P.W, height: P.H, frameRate: FPS }, fastStart: 'in-memory', firstTimestampBehavior: 'offset' };
+      if (acfg) opciones.audio = { codec: 'aac', numberOfChannels: 1, sampleRate: 48000 };
+      const muxer = new Mp4Muxer.Muxer(opciones);
+      let fallo = null;
+      const venc = new VideoEncoder({ output: (chunk, meta) => muxer.addVideoChunk(chunk, meta), error: (err) => { fallo = err; } });
+      venc.configure(vcfg);
+      let aenc = null;
+      if (acfg) {
+        aenc = new AudioEncoder({ output: (chunk, meta) => muxer.addAudioChunk(chunk, meta), error: () => { /* sin audio */ } });
+        aenc.configure(acfg);
+        // 15 s de silencio, en bloques de 1024 muestras
+        const N = 1024;
+        const silencio = new Float32Array(N);
+        for (let i = 0; i * N < VIDEO_SEG * 48000; i += 1) {
+          const ad = new AudioData({ format: 'f32', sampleRate: 48000, numberOfFrames: N, numberOfChannels: 1, timestamp: Math.round(i * N * 1e6 / 48000), data: silencio });
+          aenc.encode(ad);
+          ad.close();
+        }
+      }
+      const cv = document.createElement('canvas');
+      cv.width = P.W; cv.height = P.H;
+      const cx = cv.getContext('2d');
+      let ultimo = -1;
+      for (let i = 0; i < total; i += 1) {
+        if (fallo) throw fallo;
+        dibujarFrase(cx, P, i / FPS);
+        const frame = new VideoFrame(cv, { timestamp: Math.round(i * 1e6 / FPS), duration: Math.round(1e6 / FPS) });
+        venc.encode(frame, { keyFrame: i % (FPS * 2) === 0 });
+        frame.close();
+        while (venc.encodeQueueSize > 6) await new Promise((r) => setTimeout(r, 5));
+        const pct = Math.floor((i + 1) / total * 100);
+        if (pct !== ultimo && pct % 5 === 0) { ultimo = pct; st.video = { txt: pct + ' %' }; pintar(); await new Promise((r) => setTimeout(r, 0)); }
+      }
+      await venc.flush();
+      if (aenc) { try { await aenc.flush(); } catch (_) { /* sin audio */ } }
+      if (fallo) throw fallo;
+      muxer.finalize();
+      venc.close();
+      if (aenc) { try { aenc.close(); } catch (_) { /* nada */ } }
+      st.video = null;
+      pintar();
+      const blob = new Blob([destino.buffer], { type: 'video/mp4' });
+      await guardarArchivo(blob, 'frase-stars-' + getTodayKey() + '-video.mp4', 'Video guardado en Descargas');
+    } catch (err) {
+      console.warn('[rediseño] video cuadro por cuadro', err);
+      st.video = null;
+      pintar();
+      await videoFraseGrabado(e, d, logoSrc);
+    }
   }
 
   async function descargarFrase(formato) {
