@@ -83,6 +83,87 @@
       return m ? { n: m[1], t: m[2] } : { n: '', t: t };
     });
   }
+  // Sembrar: la práctica se muestra en pasos numerados (una frase por paso). Las frases
+  // entre «» van destacadas; si menciona «Profundizar el texto», ese nombre va en negrilla
+  // y al final de la tarjeta sale el botón para abrirlo.
+  function segmentosSembrar(txt) {
+    const out = [];
+    const re = /«([^»]+)»/g;
+    let ultimo = 0;
+    let m;
+    while ((m = re.exec(txt)) !== null) {
+      if (m.index > ultimo) out.push({ t: txt.slice(ultimo, m.index), plain: true });
+      if (/^\s*profundizar (el )?texto\s*$/i.test(m[1])) out.push({ t: 'Profundizar el texto', b: true, link: true });
+      else out.push({ t: m[1], q: true });
+      ultimo = re.lastIndex;
+    }
+    if (ultimo < txt.length) out.push({ t: txt.slice(ultimo), plain: true });
+    return out;
+  }
+  function pasosSembrar(txt) {
+    // Se corta en frases sin partir lo que está entre «».
+    const frases = [];
+    let actual = '';
+    let dentro = false;
+    const s = String(txt || '').trim();
+    for (let i = 0; i < s.length; i += 1) {
+      const c = s.charAt(i);
+      actual += c;
+      if (c === '«') dentro = true;
+      else if (c === '»') dentro = false;
+      else if (!dentro && /[.!?]/.test(c) && /\s/.test(s.charAt(i + 1) || ' ') && /[A-ZÁÉÍÓÚÑ¿¡«]/.test(s.slice(i + 1).trim().charAt(0) || 'A')) {
+        frases.push(actual.trim()); actual = '';
+      }
+    }
+    if (actual.trim()) frases.push(actual.trim());
+    // Frases muy cortas se unen a la anterior para no hacer pasos de tres palabras.
+    const pasos = [];
+    frases.forEach((f) => { if (pasos.length && f.length < 40) pasos[pasos.length - 1] += ' ' + f; else pasos.push(f); });
+    return pasos.map((p, i) => ({ n: String(i + 1), segs: segmentosSembrar(p) }));
+  }
+  // Un versículo NBLA puede venir entero (text) o por partes (clauses).
+  function textoVersiculo(v) {
+    if (!v) return '';
+    if (typeof v.text === 'string') return v.text;
+    return (v.clauses || []).map((c, i) => (i ? (c.separatorBefore || '') : '') + (c.text || '')).join('');
+  }
+  // Párrafo → trozos, con las citas «…» marcadas y, si se pide, la primera frase en negrilla.
+  function trozos(p, primeraFuerte) {
+    const txt = String(p || '');
+    let cabeza = '';
+    let resto = txt;
+    if (primeraFuerte) {
+      const m = /^(.{25,220}?[.!?])(\s+)(?=\S)/.exec(txt);
+      if (m && m[1].indexOf('«') < 0) { cabeza = m[1]; resto = txt.slice(m[0].length); }
+    }
+    const out = cabeza ? [{ t: cabeza + ' ', c: 'fs' }] : [];
+    resto.split(/(«[^»]+»)/).filter(Boolean).forEach((x) => out.push({ t: x, c: x.charAt(0) === '«' ? 'cq' : '' }));
+    return out;
+  }
+  // Nota del análisis por versículo: «1. (v. 2) | inglés | español | NBLA | explicación».
+  function notaVersion(x) {
+    const crudo = String(x || '').trim();
+    const partes = crudo.split('|').map((s) => s.trim()).filter(Boolean);
+    if (partes.length < 3) return { exp: crudo.replace(/^\d+\.\s*/, ''), ref: '', en: '', nbla: '', es: '' };
+    const ref = partes[0].replace(/^\d+\.\s*/, '').replace(/^\(\s*|\s*\)$/g, '');
+    const exp = partes[partes.length - 1];
+    const medio = partes.slice(1, -1);
+    const en = medio[0] || '';
+    let es = medio[1] || '';
+    let nbla = medio[2] || '';
+    const n = (s) => s.toLowerCase().replace(/[«»"“”.,;:]/g, '').trim();
+    if (es && nbla && (n(nbla).indexOf(n(es)) >= 0 || n(es).indexOf(n(nbla)) >= 0)) { if (!nbla) nbla = es; es = ''; }
+    if (!nbla && es) { nbla = es; es = ''; }
+    return { ref: ref, en: en, es: es, nbla: nbla, exp: exp };
+  }
+  // Explicación breve de Profundizar: primera frase destacada y el resto en párrafos cortos.
+  function partirBreve(txt) {
+    const frases = String(txt || '').split(/(?<=[.!?])\s+(?=[«¿¡A-ZÁÉÍÓÚÑ0-9])/).map((s) => s.trim()).filter(Boolean);
+    const rest = [];
+    for (let i = 1; i < frases.length; i += 2) rest.push(frases.slice(i, i + 2).join(' '));
+    return { lead: frases[0] || '', rest: rest };
+  }
+
   function fechaLarga(key) {
     const f = fechaDesdeKey(key);
     return DIAS[f.getDay()] + ' ' + f.getDate() + ' de ' + MESES[f.getMonth()];
@@ -91,13 +172,13 @@
     const devo = g(() => getDevoHoy(), null) || {};
     const serie = (window.SERIE_DATA && window.SERIE_DATA.serie_titulo) || '';
     const sembrar = String(devo.sembrar || '');
-    const ms = /^(.*?)«([^»]+)»\s*(.*)$/.exec(sembrar);
     const pt = devo.profundizar_texto || {};
     const ref = String(devo.versiculo || '').replace(/\s*\((NBLA|MSG)\)\s*$/i, '');
     return {
       hay: Boolean(devo.titulo),
       temporada: (window.SERIE_DATA && window.SERIE_DATA.temporada) || 'Mayor que mi realidad',
       serie: serie,
+      serieSub: (window.SERIE_DATA && window.SERIE_DATA.serie_subtitulo) || '',
       titulo: devo.titulo || 'Sin Paso Diario para este día',
       ref: ref,
       frase: devo.frase || pref('stars_rd_frase', '') || '«Mayor que mi realidad es Su Verdad.»',
@@ -105,9 +186,8 @@
       idea: devo.idea_central || '',
       ana: Array.isArray(devo.analisis) ? devo.analisis : (devo.analisis ? [devo.analisis] : []),
       reflex: devo.reflexion || '',
-      sembrarA: ms ? ms[1].trim() : sembrar,
-      sembrarOra: ms ? ms[2] : '',
-      sembrarB: ms ? ms[3] : '',
+      sembrarPasos: pasosSembrar(sembrar),
+      sembrarLink: /«\s*profundizar (el )?texto\s*»/i.test(sembrar),
       cierre: devo.oracion_cierre || '',
       breve: pt.explicacion_breve || '',
       nblaRef: (devo.texto_ntv && devo.texto_ntv.ref) || 'NBLA',
@@ -335,7 +415,7 @@
     const c = (sec && sec.content) || {};
     switch (sec && sec.type) {
       case 'verseBlocks':
-        if (st.ver === 'nbla' && textos && Array.isArray(textos.nblaVerses)) return textos.nblaVerses.map((v) => ({ h: 'v. ' + v.number, p: v.text }));
+        if (st.ver === 'nbla' && textos && Array.isArray(textos.nblaVerses)) return textos.nblaVerses.map((v) => ({ h: 'v. ' + v.number, p: textoVersiculo(v) }));
         return (c.blocks || []).map((b) => ({ h: (String(b.range).indexOf('-') >= 0 ? 'vv. ' : 'v. ') + b.range, p: b.text }));
       case 'editorialParagraphs': return (c.paragraphs || []).map((x) => ({ h: '', p: x.text || x }));
       case 'timeline': return (c.stops || []).map((x) => ({ h: x.range, p: x.title + (x.text ? ' — ' + x.text : ''), cls: 'stop' })).concat((c.closing || []).map((x) => ({ h: '', p: x })));
@@ -432,6 +512,11 @@
     else aviso('Escribe un libro y un capítulo, por ejemplo: Números 13');
   }
 
+  function moverChips(dir) {
+    const el = document.querySelector('#rd-root .est-chips');
+    if (el) el.scrollBy({ left: dir * el.clientWidth * 0.7, behavior: 'smooth' });
+  }
+
   function datosProfundo(screen, d) {
     const CCx = CC;
     /* Sigue donde quedaste */
@@ -475,8 +560,43 @@
       kind: (sec && KINDS[sec.type]) || 'prosa', lead: LEADS[sIdx], n: String(sIdx + 1), l: stations[sIdx].l,
       items: items.map((it) => ({ h: it.h, p: it.p, cls: it.cls || '' })),
       itemsB: items.map((it, i) => ({ h: it.h, p: it.p, cls: '', cc: CCx[i % 5] })),
-      isTexto: sIdx === 0, isResp: sIdx === 8, isLlevar: sIdx === 9
+      isTexto: sIdx === 0, noTexto: sIdx !== 0, isResp: sIdx === 8, isLlevar: sIdx === 9
     };
+    /* Modelo 2026: el texto bíblico corrido, como en una Biblia impresa (número pequeño dentro
+       del párrafo), y el resto agrupado en bloques con su título y las citas «…» destacadas. */
+    const porParrafo = st.ver === 'nbla' ? 4 : 1;
+    const versos = items.map((it) => ({ n: String(it.h || '').replace(/^vv?\.\s*/, ''), t: it.p }));
+    stObj.bib = [];
+    for (let i = 0; i < versos.length; i += porParrafo) stObj.bib.push(versos.slice(i, i + porParrafo));
+    const kindA = stObj.kind;
+    const gruposE = [];
+    // En Conexiones, cada párrafo que empieza con una cita bíblica es su propia tarjeta.
+    const REF_INICIO = /^((?:[1-3]\s)?[A-ZÁÉÍÓÚ][a-záéíóúñ]+(?:\s(?:de\s)?[A-ZÁÉÍÓÚ]?[a-záéíóúñ]+)?\s\d+(?::\d+(?:\s?[-–]\s?\d+)?)?)\b/;
+    items.forEach((it0) => {
+      let it = it0;
+      if (sIdx === 5 && !it.h) {
+        const rm = REF_INICIO.exec(String(it.p || ''));
+        if (rm && /\d/.test(rm[1])) it = Object.assign({}, it, { h: rm[1] });
+      }
+      // En «Para llevar», solo la frase va en el póster; la reflexión sigue fuera.
+      const trasFrase = kindA === 'llevar' && gruposE.length === 1 && gruposE[0].ps.length >= 1;
+      if (it.h || trasFrase || !gruposE.length || (it.cls || '') !== gruposE[gruposE.length - 1].cls) gruposE.push({ h: it.h || '', ps: [], cls: it.cls || '' });
+      gruposE[gruposE.length - 1].ps.push(it.p);
+    });
+    stObj.grupos = gruposE.map((gr, gi) => {
+      const ancla = gr.h === 'Ancla';
+      const llevarFrase = kindA === 'llevar' && gi === 0;
+      const resp = kindA === 'responder';
+      return {
+        h: ancla ? 'Para no olvidar' : gr.h,
+        num: resp ? String(gi + 1) : '',
+        cls: [gr.h ? 'con-h' : 'sin-h', ancla ? 'ancla' : '', llevarFrase ? 'frase' : '', gr.cls].join(' '),
+        // Primera frase en negrilla para leer por encima; el primer párrafo lleva letra capital.
+        ps: kindA === 'recorrido' && /stop/.test(gr.cls)
+          ? gr.ps.flatMap((p) => { const i = String(p).indexOf(' — '); return i > 0 ? [[{ t: p.slice(0, i), c: 'tt' }], trozos(p.slice(i + 3), false)] : [trozos(p, false)]; })
+          : gr.ps.map((p, pi) => trozos(p, kindA === 'prosa' && !gr.h && !llevarFrase && !(gi === 0 && pi === 0)))
+      };
+    });
 
     /* Leer el capítulo */
     const lr = st.lectRef || (d.destino ? { libro: d.destino.libro, cap: d.destino.capitulo } : null);
@@ -486,7 +606,7 @@
     if (ldat && ldat.textos) {
       lv = st.ver === 'msg'
         ? (ldat.textos.msgBlocks || []).map((b) => ({ r: b.editorialRange || '', t: (b.msg && b.msg.es) || '' }))
-        : (ldat.textos.nblaVerses || []).map((x) => ({ r: String(x.number), t: x.text }));
+        : (ldat.textos.nblaVerses || []).map((x) => ({ r: String(x.number), t: textoVersiculo(x) }));
     } else if (ldat) {
       lv = [{ r: '', t: 'Este capítulo todavía no tiene el texto cargado en S · T · A · R · S.' }];
     } else if (lr) {
@@ -539,6 +659,27 @@
       trail: stations.map((x, i) => ({ cls: (i < sIdx ? 'done' : (i === sIdx ? 'now' : '')) + ' ' + CCx[i % 5], pos: 'left: ' + (4 + i * 10.2) + '%' })),
       st: stObj, stBadge: avance >= 10 || g(() => ref && isCapLeido(ref.libro, ref.cap), false) ? 'Completado · 100%' : 'En curso · ' + (avance * 10) + '%',
       stPrev: () => { if (!st.capRef && ref) { st.capRef = ref; st.station = sIdx; } avanzarEstacion(-1)(); }, stNext: () => { if (!st.capRef && ref) { st.capRef = ref; st.station = sIdx; } avanzarEstacion(1)(); }, stNextL: sIdx < 9 ? 'Sigue: ' + stations[sIdx + 1].l : 'Terminar el estudio',
+      // Fila deslizable de estaciones: la actual queda a la vista al cambiar de estación.
+      // En PC: flechas a los lados y la rueda del mouse mueven la fila.
+      chipsMove: { prev: () => moverChips(-1), next: () => moverChips(1) },
+      chipsRef: (el) => {
+        if (!el.__rueda) {
+          el.__rueda = true;
+          el.addEventListener('wheel', (ev) => {
+            if (Math.abs(ev.deltaY) <= Math.abs(ev.deltaX)) return;
+            const max = el.scrollWidth - el.clientWidth;
+            if (max <= 0 || (ev.deltaY < 0 && el.scrollLeft <= 0) || (ev.deltaY > 0 && el.scrollLeft >= max - 1)) return;
+            el.scrollLeft += ev.deltaY;
+            ev.preventDefault();
+          }, { passive: false });
+        }
+        const marca = (ref ? ref.libro + ref.cap : '') + '|' + sIdx;
+        if (el.__marca === marca) return;
+        const primera = !el.__marca;
+        el.__marca = marca;
+        const on = el.querySelector('.on');
+        if (on) el.scrollTo({ left: Math.max(0, on.offsetLeft - (el.clientWidth - on.offsetWidth) / 2), behavior: primera ? 'auto' : 'smooth' });
+      },
       compartir: () => { if (ref) g(() => compartirStars('study', claveCap(ref.libro, ref.cap))); },
       openJuan: sigue.abrir,
       analizar: () => analizar(), verHay: Boolean(st.verRef),
@@ -550,6 +691,7 @@
           nbla: pa ? '«' + pa.nbla.replace(/^«|»$/g, '') + '»' : '', es: pa ? pa.es : '', en: pa ? pa.en : '',
           exp: pa ? pa.exp.map((t, i) => ({ t: t, cb: i === 0 ? 'ep' : 'ep ep2' })) : [],
           notas: pa && pa.notas.length ? pa.notas : null,
+          notasA: pa && pa.notas.length ? pa.notas.map(notaVersion) : null,
           otra: st.verError ? () => analizar(st.verRef) : () => ir('versiculo', { lastMode: 'versiculo' }),
           otraL: st.verError ? 'Reintentar' : 'Analizar otro versículo'
         };
@@ -672,6 +814,30 @@
       return { num: String(b.num), name: b.name, prog: hechosB + ' de ' + total + ' caps · ' + p + '%', w: 'width: ' + p + '%', cc: CC[i % 5] };
     });
 
+    /* Modelo 2026 · Capítulos estudiados: la Biblia en miniatura (66 libros, cada uno se llena
+       según lo estudiado) y el capítulo de la semana con su avance. */
+    let mapa = { at: [], nt: [], libros: 0, completos: 0 };
+    if (isA && sec === 'profundo' && typeof BIBLIA_CANON_GRUPOS !== 'undefined') {
+      const todos = [];
+      BIBLIA_CANON_GRUPOS.forEach((gr) => gr.libros.forEach((l) => todos.push(l)));
+      const barras = todos.map((l) => {
+        const h = g(() => _capsLeidosLibro(l.n, l.caps), 0) || 0;
+        const p = l.caps ? h / l.caps : 0;
+        return { cls: h ? (p >= 1 ? 'full' : 'some') : '', fill: 'height: ' + (h ? Math.max(14, Math.round(p * 100)) : 0) + '%', n: l.n, h: h };
+      });
+      mapa = { at: barras.slice(0, 39), nt: barras.slice(39), libros: barras.filter((b) => b.h).length, completos: barras.filter((b) => b.cls === 'full').length };
+    }
+    let capSemMeta = 'Estudio profundo · 10 estaciones';
+    if (d.destino) {
+      const kS = claveCap(d.destino.libro, d.destino.capitulo);
+      const avS = g(() => getEstudioMaxSec(kS), 0) || 0;
+      if (g(() => isCapLeido(d.destino.libro, d.destino.capitulo), false)) capSemMeta = 'Ya lo estudiaste · vuelve cuando quieras';
+      else if (avS > 0) capSemMeta = 'Vas en la estación ' + Math.min(avS + 1, 10) + ' de 10';
+      else capSemMeta = 'El estudio que acompaña tu Paso Diario';
+    }
+    /* Modelo 2026 · Frase para hoy: cambia de estilo cada día con el color del tema. */
+    const fv = estiloFrase(tema, key);
+
     /* Música */
     const plAll = PLAYLISTS.map((l, i) => ({
       sz: l.n === 'Spirit' ? 'tall' : '', no: '0' + (i + 1), mom: PL_MOM[l.n], n: l.n, d: l.d, k: PL_KEY[l.n], cc: PL_CC[l.n],
@@ -728,9 +894,15 @@
       timerSub: (hechos[0] || st.timer.done) ? 'Silencio completo' : (timerActivo ? 'Respira y ora' : 'Toca para iniciar'),
       notas: notas, nota5: notas.length ? notas[notas.length - 1].exp : '',
       fraseC: CC[diaN % 5], profC: CC[(diaN + 2) % 5],
-      fraseIG: () => descargarFrase('9:16'), frasePNG: () => descargarFrase('1:1'),
+      fraseIG: isA ? () => descargarFraseA('9:16', fv, d, logoA) : () => descargarFrase('9:16'),
+      frasePNG: isA ? () => descargarFraseA('1:1', fv, d, logoA) : () => descargarFrase('1:1'),
+      fraseSt: fv.css, fraseCls: 'story fv-' + fv.id, fraseQ: '«' + limpiarFrase(d.frase) + '»', fraseNota: fv.nota,
+      semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
+      brv: partirBreve(d.breve),
+      mapa: mapa, mapaTxt: mapa.libros + (mapa.libros === 1 ? ' libro empezado' : ' libros empezados') + (mapa.completos ? ' · ' + mapa.completos + (mapa.completos === 1 ? ' completo' : ' completos') : ''),
+      capSemMeta: capSemMeta,
       guardarDia: () => { g(() => toggleBancoDiaActivo()); pintar(); },
-      guardarTxt: guardado ? 'Día guardado' : 'Guardar este día',
+      guardarTxt: guardado ? 'Día guardado' : 'Guardar este día', guardOn: guardado ? 'on' : '', guardIco: guardado ? '✓' : '',
       dow: ['L', 'M', 'M', 'J', 'V', 'S', 'D'], cal: cal.filas, calMes: cal.nombre, calPrev: moverMes(-1), calNext: moverMes(1),
       saved: saved, guardTitulo: 'Todos tus días', guardN: saved.length + (saved.length === 1 ? ' día' : ' días'),
       guardNota: saved.length ? '' : 'Aún no tienes días guardados. Guarda uno desde Día completo.',
@@ -907,6 +1079,128 @@
 
   function cambiarExp(e) { st.exp = e; setPref('stars_rd_exp', e); pintar(); }
   function cambiarTema(t) { st.tema = t; setPref('stars_tema', t); pintar(); }
+
+  /* ── Frase para hoy · modelo 2026 ──
+     Tres estilos que se turnan día a día, con el color del tema elegido
+     (LHSCOL dorado, Oxígeno turquesa, La Mesa coral, La Sala verde). */
+  const TEMA_COLOR = {
+    lhscol: { c: '#c9a84c', osc: '#7a5e18' }, oxigeno: { c: '#00d8e0', osc: '#00686d' },
+    mesa: { c: '#ff6b6b', osc: '#a3302c' }, sala: { c: '#a8ff3e', osc: '#3f6e0c' }
+  };
+  function estiloFrase(tema, key) {
+    const col = TEMA_COLOR[tema] || TEMA_COLOR.lhscol;
+    const f = fechaDesdeKey(key);
+    const n = Math.floor(Date.UTC(f.getFullYear(), f.getMonth(), f.getDate()) / 86400000);
+    const estilos = [
+      { id: 'noche', nota: 'Hoy: fondo oscuro con letras de color', bg: '#0d0b08', ink: '#f3ede2', acc: col.c, mut: '#a0957f', logo: col.c },
+      { id: 'color', nota: 'Hoy: fondo de color', bg: col.c, ink: '#12100b', acc: '#12100b', mut: 'rgba(18,16,11,.66)', logo: '#12100b' },
+      { id: 'papel', nota: 'Hoy: fondo claro', bg: '#f4eee1', ink: '#1c160d', acc: col.osc, mut: '#6b5d47', logo: '#1c160d' }
+    ];
+    const e = estilos[((n % 3) + 3) % 3];
+    e.css = '--fbg:' + e.bg + ';--fink:' + e.ink + ';--facc:' + e.acc + ';--fmut:' + e.mut;
+    return e;
+  }
+  function limpiarFrase(t) { return String(t || '').replace(/^[\s"'«“”]+|[\s"'»“”]+$/g, '').trim(); }
+  function cargarImagen(src) {
+    return new Promise((ok) => { const im = new Image(); im.onload = () => ok(im); im.onerror = () => ok(null); im.src = src; });
+  }
+  async function descargarFraseA(formato, e, d, logoSrc) {
+    const frase = limpiarFrase(d.frase);
+    if (!frase) { aviso('Hoy no hay frase'); return; }
+    const W = 1080;
+    const H = formato === '9:16' ? 1920 : 1080;
+    const cv = document.createElement('canvas');
+    cv.width = W; cv.height = H;
+    const cx = cv.getContext('2d');
+    try {
+      await Promise.all([
+        document.fonts.load('italic 400 80px "Cormorant Garamond"'),
+        document.fonts.load('300 30px "Outfit"'), document.fonts.load('400 30px "Outfit"')
+      ]);
+    } catch (_) { /* se usa la letra de respaldo */ }
+    // Fondo
+    cx.fillStyle = e.bg; cx.fillRect(0, 0, W, H);
+    if (e.id === 'noche') {
+      const gr = cx.createRadialGradient(W / 2, H * 0.42, 40, W / 2, H * 0.42, W * 0.9);
+      gr.addColorStop(0, e.acc + '33'); gr.addColorStop(1, e.acc + '00');
+      cx.fillStyle = gr; cx.fillRect(0, 0, W, H);
+    }
+    // Logo vigente: la estrella con los cinco círculos alrededor (como en el encabezado).
+    const top = formato === '9:16' ? 190 : 100;
+    const C = 150;
+    const x0 = (W - C) / 2;
+    const y0 = top - 15;
+    const img = await cargarImagen(logoSrc);
+    if (img) {
+      const s = Math.round(C * 30 / 48);
+      const tmp = document.createElement('canvas');
+      tmp.width = s; tmp.height = s;
+      const tc = tmp.getContext('2d');
+      tc.drawImage(img, 0, 0, s, s);
+      tc.globalCompositeOperation = 'source-in';
+      tc.fillStyle = e.logo; tc.fillRect(0, 0, s, s);
+      cx.drawImage(tmp, x0 + (C - s) / 2, y0 + (C - s) / 2);
+    }
+    const r = C * 3 / 48;
+    cx.fillStyle = e.acc;
+    [[0.5, r], [C - r, C * 0.3 + r], [C * 0.84 - r, C * 0.96 - r], [C * 0.16 + r, C * 0.96 - r], [r, C * 0.3 + r]].forEach((p, i) => {
+      cx.beginPath(); cx.arc(x0 + (i === 0 ? C / 2 : p[0]), y0 + p[1], r, 0, Math.PI * 2); cx.fill();
+    });
+    cx.textAlign = 'center';
+    cx.textBaseline = 'alphabetic';
+    cx.fillStyle = e.acc;
+    cx.font = '300 30px Outfit, sans-serif';
+    cx.fillText('S  ·  T  ·  A  ·  R  ·  S', W / 2, top + 175);
+    // Frase: el tamaño se ajusta para que quepa
+    const maxW = W - 200;
+    const zonaAlto = formato === '9:16' ? 900 : 500;
+    let size = formato === '9:16' ? 108 : 84;
+    let lineas = [];
+    const partir = (fs) => {
+      cx.font = 'italic 400 ' + fs + 'px "Cormorant Garamond", Georgia, serif';
+      const palabras = ('«' + frase + '»').split(/\s+/);
+      const out = [];
+      let linea = '';
+      palabras.forEach((p) => {
+        const prueba = linea ? linea + ' ' + p : p;
+        if (cx.measureText(prueba).width > maxW && linea) { out.push(linea); linea = p; } else linea = prueba;
+      });
+      if (linea) out.push(linea);
+      return out;
+    };
+    for (;;) {
+      lineas = partir(size);
+      if (lineas.length * size * 1.22 <= zonaAlto || size <= 44) break;
+      size -= 4;
+    }
+    const lh = size * 1.22;
+    const centro = formato === '9:16' ? H * 0.5 : H * 0.54;
+    let y = centro - (lineas.length * lh) / 2 + size * 0.8;
+    cx.fillStyle = e.ink;
+    lineas.forEach((l) => { cx.fillText(l, W / 2, y); y += lh; });
+    // Filete y referencia
+    cx.fillStyle = e.acc;
+    cx.fillRect(W / 2 - 40, y + 10, 80, 3);
+    cx.fillStyle = e.mut;
+    cx.font = '400 32px Outfit, sans-serif';
+    cx.fillText((d.ref ? d.ref + '  ·  ' : '') + '@lhscol', W / 2, H - (formato === '9:16' ? 190 : 105));
+    // Guardar
+    const nombre = 'frase-stars-' + getTodayKey() + '-' + (formato === '9:16' ? 'historia' : 'imagen') + '.png';
+    cv.toBlob(async (blob) => {
+      if (!blob) { aviso('No se pudo preparar la imagen'); return; }
+      const archivo = typeof File === 'function' ? new File([blob], nombre, { type: 'image/png' }) : null;
+      const ios = /iP(hone|ad|od)/.test(navigator.userAgent);
+      if (ios && archivo && navigator.canShare && navigator.canShare({ files: [archivo] })) {
+        try { await navigator.share({ files: [archivo] }); return; } catch (_) { /* sigue a la descarga */ }
+      }
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.download = nombre; a.href = url;
+      document.body.appendChild(a); a.click(); a.remove();
+      aviso('Imagen guardada en Descargas');
+      setTimeout(() => URL.revokeObjectURL(url), 30000);
+    }, 'image/png');
+  }
 
   async function descargarFrase(formato) {
     if (typeof pasoDiarioDescargarFrase !== 'function' || typeof _pd2FraseEstado === 'undefined') { aviso('No se pudo preparar la imagen'); return; }
