@@ -10,7 +10,7 @@
   if (window.__STARS_REDISENO_MONTADO) return;
   window.__STARS_REDISENO_MONTADO = true;
 
-  const V = '5';
+  const V = '6';
   const BASE = '/rediseno/';
   const apagados = [];
 

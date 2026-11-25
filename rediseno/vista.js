@@ -896,7 +896,7 @@
       fraseC: CC[diaN % 5], profC: CC[(diaN + 2) % 5],
       fraseIG: isA ? () => descargarFraseA('9:16', fv, d, logoA) : () => descargarFrase('9:16'),
       frasePNG: isA ? () => descargarFraseA('1:1', fv, d, logoA) : () => descargarFrase('1:1'),
-      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.quedan + ' s' : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
+      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.quedan + ' s · no salgas de la app' : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
       fraseSt: fv.css, fraseCls: 'story fv-' + fv.id, fraseQ: '«' + limpiarFrase(d.frase) + '»', fraseNota: fv.nota,
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
@@ -932,7 +932,7 @@
       setLmode: { diario: set({ lmode: 'diario' }), profundo: set({ lmode: 'profundo' }) },
       lsteps: (st.lmode === 'profundo' ? LANDING_PROFUNDO : LANDING_DIARIO).map((x, i) => ({ L: x[0], n: x[1], min: x[2], d: x[3], cc: CC[i] })),
       verMetodo: () => { const el = document.querySelector('#rd-root .ld-seg'); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' }); },
-      splMeta: fechaLarga(key) + (d.ref ? ' · ' + d.ref : ''),
+      splMeta: fechaLarga(key),
       pinDots: [0, 1, 2, 3].map((i) => (i < pin.buf.length ? 'on' : '')),
       pinMsg: pin.modo === 'crear' ? 'Crea un PIN de 4 dígitos para tu diario.' : (pin.modo === 'confirmar' ? 'Escríbelo otra vez para confirmarlo.' : 'Solo tú puedes verlo. Ingresa tu PIN.'),
       keys: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'].map((k) => ({ k: k, cls: k === '' ? 'blank' : '', pick: () => tecla(k) })),
@@ -1173,6 +1173,16 @@
       gr.addColorStop(0, e.acc + '33'); gr.addColorStop(1, e.acc + '00');
       cx.fillStyle = gr; cx.fillRect(0, 0, W, H);
     }
+    // En el video, un resplandor que respira despacio detrás del logo (en los tres estilos)
+    if (!fijo) {
+      const resp = suave(tt / 2) * (0.75 + 0.25 * Math.sin(tt * 1.1));
+      const cy = top - 15 + C / 2;
+      const rg = cx.createRadialGradient(W / 2, cy, 10, W / 2, cy, 260 + 60 * resp);
+      const base = e.id === 'color' ? '#ffffff' : e.acc;
+      const alfa = Math.round((e.id === 'color' ? 70 : 60) * resp).toString(16).padStart(2, '0');
+      rg.addColorStop(0, base + alfa); rg.addColorStop(1, base + '00');
+      cx.fillStyle = rg; cx.fillRect(0, 0, W, H * 0.45);
+    }
     // Logo: entra girando, aparecen los cinco círculos uno a uno y luego gira despacio
     const lx = W / 2;
     const ly = top - 15 + C / 2;
@@ -1203,24 +1213,39 @@
     cx.fillStyle = e.acc;
     cx.font = '300 30px Outfit, sans-serif';
     cx.fillText('S  ·  T  ·  A  ·  R  ·  S', W / 2, top + 175);
-    // Frase: aparece nítida desde un desenfoque, línea por línea
+    // Frase: en la imagen, completa; en el video, palabra por palabra, nítida desde un desenfoque
     const lh = size * 1.22;
     const centro = P.formato === '9:16' ? H * 0.5 : H * 0.54;
     let y = centro - (lineas.length * lh) / 2 + size * 0.8;
     cx.font = 'italic 400 ' + size + 'px "Cormorant Garamond", Georgia, serif';
     cx.fillStyle = e.ink;
-    lineas.forEach((l, i) => {
-      const a = fijo ? 1 : suave((tt - 3.2 - i * 0.35) / 1.2);
-      if (a > 0) {
-        cx.globalAlpha = a;
-        cx.filter = a < 1 ? 'blur(' + ((1 - a) * 10).toFixed(1) + 'px)' : 'none';
-        cx.fillText(l, W / 2, y + (1 - a) * 18);
-        cx.filter = 'none';
-      }
+    let k = 0;
+    const T0 = 3.2;
+    const PASO = 0.16;
+    lineas.forEach((l) => {
+      if (fijo) { cx.globalAlpha = 1; cx.fillText(l, W / 2, y); y += lh; return; }
+      const palabras = l.split(' ');
+      const esp = cx.measureText(' ').width;
+      let x = W / 2 - cx.measureText(l).width / 2;
+      cx.textAlign = 'left';
+      palabras.forEach((w) => {
+        const a = suave((tt - T0 - k * PASO) / 0.9);
+        const ancho = cx.measureText(w).width;
+        if (a > 0) {
+          cx.globalAlpha = a;
+          cx.filter = a < 1 ? 'blur(' + ((1 - a) * 8).toFixed(1) + 'px)' : 'none';
+          cx.fillText(w, x, y + (1 - a) * 14);
+          cx.filter = 'none';
+        }
+        x += ancho + esp;
+        k += 1;
+      });
+      cx.textAlign = 'center';
       y += lh;
     });
+    P.finFrase = T0 + k * PASO + 0.6;
     // Filete y referencia
-    const af = fijo ? 1 : suave((tt - 3.6 - lineas.length * 0.35) / 1);
+    const af = fijo ? 1 : suave((tt - (P.finFrase || 6)) / 1);
     cx.globalAlpha = af;
     cx.fillStyle = e.acc;
     const ancho = 80 * af;
@@ -1228,6 +1253,17 @@
     cx.fillStyle = e.mut;
     cx.font = '400 32px Outfit, sans-serif';
     cx.fillText((P.d.ref ? P.d.ref + '  ·  ' : '') + '@lhscol', W / 2, H - (P.formato === '9:16' ? 190 : 105));
+    // En el video, una línea fina abajo que se llena en los 15 segundos (como en la bienvenida)
+    if (!fijo) {
+      const bx = 140;
+      const bw = W - bx * 2;
+      const by = H - 110;
+      cx.globalAlpha = 1;
+      cx.fillStyle = e.id === 'color' ? 'rgba(18,16,11,.18)' : (e.id === 'papel' ? 'rgba(28,22,13,.14)' : 'rgba(243,237,226,.14)');
+      cx.fillRect(bx, by, bw, 3);
+      cx.fillStyle = e.acc;
+      cx.fillRect(bx, by, bw * Math.min(1, tt / VIDEO_SEG), 3);
+    }
     cx.globalAlpha = 1;
   }
 

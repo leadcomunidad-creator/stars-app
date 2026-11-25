@@ -1915,3 +1915,7 @@
 .fs-acts .vid{width:100%;border-color:var(--accent) !important;color:var(--accent-ink) !important;gap:10px}
 .fs-acts .vid.on{background:var(--accent-tint) !important;pointer-events:none}
 .fs-vnota{text-align:center;max-width:320px}
+.fs-acts{gap:12px !important}
+.fs-acts > .btn{width:100% !important}
+.fs-acts .vid{border-color:var(--line-strong) !important;color:var(--ink) !important}
+.fs-acts .vid.on{border-color:var(--accent) !important;color:var(--accent-ink) !important}

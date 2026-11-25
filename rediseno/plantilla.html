@@ -39,7 +39,7 @@
 <button class="spl" onClick="{{ go.hoy }}" aria-label="Entrar a la app">
  <span class="spl-glow" aria-hidden="true"></span>
  <span class="spl-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ starSplash }}" alt=""></span>
- <span class="spl-q">{{ d.frase }}</span>
+ <span class="spl-q">«Mayor que mi realidad es Su Verdad.»</span>
  <span class="spl-m">{{ splMeta }}</span>
  <span class="spl-bar" aria-hidden="true"><i></i></span>
  <span class="spl-tap">Toca para entrar</span>
@@ -425,8 +425,7 @@
 <div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
  <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
  <div class="{{ fraseCls }}" style="{{ fraseSt }}"><span class="fs-top"><span class="lgo fs-lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></span><p class="quote fs-q">{{ fraseQ }}</p><span class="fs-ref">{{ d.ref }} · @lhscol</span></div>
- <p class="meta" style="text-align: center">{{ fraseNota }} · mañana cambia</p>
- <div class="fs-acts"><button class="{{ fraseVideoCls }}" onClick="{{ fraseVideo }}"><span aria-hidden="true">▶</span> {{ fraseVideoTxt }}</button><p class="meta fs-vnota">Video de 15 segundos para tu historia. Se prepara en el teléfono: no salgas de la app mientras tanto.</p><div class="btnrow" style="justify-content: center"><button class="btn" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost" onClick="{{ frasePNG }}">Descargar imagen PNG</button></div></div>
+ <div class="fs-acts"><button class="btn block" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost block" onClick="{{ frasePNG }}">Descargar imagen PNG</button><button class="{{ fraseVideoCls }}" onClick="{{ fraseVideo }}"><span aria-hidden="true">▶</span> {{ fraseVideoTxt }}</button></div>
 </div>
 </div>
 <div class="only-b mx">
