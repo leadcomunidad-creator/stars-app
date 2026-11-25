@@ -1910,3 +1910,8 @@
 .sem-steps .pb,.sem-steps .pq{display:inline !important;margin:0 !important;padding:0 !important;font-size:inherit;line-height:inherit;font-family:inherit}
 .sem-steps .pq{font-family:var(--f-q);font-style:italic;font-size:1.12em;color:var(--accent-ink)}
 .dca-btn.solid{background:var(--accent);border-color:var(--accent) !important;color:var(--on-accent)}
+.frame.a .spl-glow{background:radial-gradient(circle at 50% 42%,color-mix(in srgb,var(--accent) 34%,transparent),transparent 45%)}
+.fs-acts{display:flex;flex-direction:column;align-items:center;gap:10px;width:100%;max-width:420px;margin:0 auto}
+.fs-acts .vid{width:100%;border-color:var(--accent) !important;color:var(--accent-ink) !important;gap:10px}
+.fs-acts .vid.on{background:var(--accent-tint) !important;pointer-events:none}
+.fs-vnota{text-align:center;max-width:320px}

@@ -426,7 +426,7 @@
  <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
  <div class="{{ fraseCls }}" style="{{ fraseSt }}"><span class="fs-top"><span class="lgo fs-lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></span><p class="quote fs-q">{{ fraseQ }}</p><span class="fs-ref">{{ d.ref }} · @lhscol</span></div>
  <p class="meta" style="text-align: center">{{ fraseNota }} · mañana cambia</p>
- <div class="btnrow" style="justify-content: center"><button class="btn" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost" onClick="{{ frasePNG }}">Descargar imagen PNG</button></div>
+ <div class="fs-acts"><button class="{{ fraseVideoCls }}" onClick="{{ fraseVideo }}"><span aria-hidden="true">▶</span> {{ fraseVideoTxt }}</button><p class="meta fs-vnota">Video de 15 segundos para tu historia. Se prepara en el teléfono: no salgas de la app mientras tanto.</p><div class="btnrow" style="justify-content: center"><button class="btn" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost" onClick="{{ frasePNG }}">Descargar imagen PNG</button></div></div>
 </div>
 </div>
 <div class="only-b mx">

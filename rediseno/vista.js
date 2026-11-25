@@ -896,6 +896,7 @@
       fraseC: CC[diaN % 5], profC: CC[(diaN + 2) % 5],
       fraseIG: isA ? () => descargarFraseA('9:16', fv, d, logoA) : () => descargarFrase('9:16'),
       frasePNG: isA ? () => descargarFraseA('1:1', fv, d, logoA) : () => descargarFrase('1:1'),
+      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.quedan + ' s' : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
       fraseSt: fv.css, fraseCls: 'story fv-' + fv.id, fraseQ: '«' + limpiarFrase(d.frase) + '»', fraseNota: fv.nota,
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
@@ -1104,66 +1105,45 @@
   function cargarImagen(src) {
     return new Promise((ok) => { const im = new Image(); im.onload = () => ok(im); im.onerror = () => ok(null); im.src = src; });
   }
-  async function descargarFraseA(formato, e, d, logoSrc) {
+  // Prepara todo lo que se dibuja (letras, logo teñido, líneas de la frase) una sola vez.
+  async function prepararFrase(formato, e, d, logoSrc) {
     const frase = limpiarFrase(d.frase);
-    if (!frase) { aviso('Hoy no hay frase'); return; }
+    if (!frase) return null;
     const W = 1080;
     const H = formato === '9:16' ? 1920 : 1080;
-    const cv = document.createElement('canvas');
-    cv.width = W; cv.height = H;
-    const cx = cv.getContext('2d');
     try {
       await Promise.all([
         document.fonts.load('italic 400 80px "Cormorant Garamond"'),
         document.fonts.load('300 30px "Outfit"'), document.fonts.load('400 30px "Outfit"')
       ]);
     } catch (_) { /* se usa la letra de respaldo */ }
-    // Fondo
-    cx.fillStyle = e.bg; cx.fillRect(0, 0, W, H);
-    if (e.id === 'noche') {
-      const gr = cx.createRadialGradient(W / 2, H * 0.42, 40, W / 2, H * 0.42, W * 0.9);
-      gr.addColorStop(0, e.acc + '33'); gr.addColorStop(1, e.acc + '00');
-      cx.fillStyle = gr; cx.fillRect(0, 0, W, H);
-    }
-    // Logo vigente: la estrella con los cinco círculos alrededor (como en el encabezado).
-    const top = formato === '9:16' ? 190 : 100;
     const C = 150;
-    const x0 = (W - C) / 2;
-    const y0 = top - 15;
+    const top = formato === '9:16' ? 190 : 100;
     const img = await cargarImagen(logoSrc);
+    let estrella = null;
     if (img) {
       const s = Math.round(C * 30 / 48);
-      const tmp = document.createElement('canvas');
-      tmp.width = s; tmp.height = s;
-      const tc = tmp.getContext('2d');
+      estrella = document.createElement('canvas');
+      estrella.width = s; estrella.height = s;
+      const tc = estrella.getContext('2d');
       tc.drawImage(img, 0, 0, s, s);
       tc.globalCompositeOperation = 'source-in';
       tc.fillStyle = e.logo; tc.fillRect(0, 0, s, s);
-      cx.drawImage(tmp, x0 + (C - s) / 2, y0 + (C - s) / 2);
     }
-    const r = C * 3 / 48;
-    cx.fillStyle = e.acc;
-    [[0.5, r], [C - r, C * 0.3 + r], [C * 0.84 - r, C * 0.96 - r], [C * 0.16 + r, C * 0.96 - r], [r, C * 0.3 + r]].forEach((p, i) => {
-      cx.beginPath(); cx.arc(x0 + (i === 0 ? C / 2 : p[0]), y0 + p[1], r, 0, Math.PI * 2); cx.fill();
-    });
-    cx.textAlign = 'center';
-    cx.textBaseline = 'alphabetic';
-    cx.fillStyle = e.acc;
-    cx.font = '300 30px Outfit, sans-serif';
-    cx.fillText('S  ·  T  ·  A  ·  R  ·  S', W / 2, top + 175);
     // Frase: el tamaño se ajusta para que quepa
+    const medir = document.createElement('canvas').getContext('2d');
     const maxW = W - 200;
     const zonaAlto = formato === '9:16' ? 900 : 500;
     let size = formato === '9:16' ? 108 : 84;
     let lineas = [];
     const partir = (fs) => {
-      cx.font = 'italic 400 ' + fs + 'px "Cormorant Garamond", Georgia, serif';
+      medir.font = 'italic 400 ' + fs + 'px "Cormorant Garamond", Georgia, serif';
       const palabras = ('«' + frase + '»').split(/\s+/);
       const out = [];
       let linea = '';
       palabras.forEach((p) => {
         const prueba = linea ? linea + ' ' + p : p;
-        if (cx.measureText(prueba).width > maxW && linea) { out.push(linea); linea = p; } else linea = prueba;
+        if (medir.measureText(prueba).width > maxW && linea) { out.push(linea); linea = p; } else linea = prueba;
       });
       if (linea) out.push(linea);
       return out;
@@ -1173,33 +1153,156 @@
       if (lineas.length * size * 1.22 <= zonaAlto || size <= 44) break;
       size -= 4;
     }
-    const lh = size * 1.22;
-    const centro = formato === '9:16' ? H * 0.5 : H * 0.54;
-    let y = centro - (lineas.length * lh) / 2 + size * 0.8;
-    cx.fillStyle = e.ink;
-    lineas.forEach((l) => { cx.fillText(l, W / 2, y); y += lh; });
-    // Filete y referencia
+    return { W: W, H: H, e: e, d: d, formato: formato, C: C, top: top, estrella: estrella, lineas: lineas, size: size };
+  }
+
+  const suave = (x) => { const v = Math.max(0, Math.min(1, x)); return v * v * (3 - 2 * v); };
+
+  // Dibuja la frase. t = segundos del video; sin t, la imagen final (todo visible y quieto).
+  function dibujarFrase(cx, P, t) {
+    const { W, H, e, C, top, estrella, lineas, size } = P;
+    const fijo = t === undefined;
+    const tt = fijo ? 99 : t;
+    // Fondo y resplandor
+    cx.globalAlpha = 1;
+    cx.filter = 'none';
+    cx.fillStyle = e.bg; cx.fillRect(0, 0, W, H);
+    if (e.id === 'noche') {
+      const k = fijo ? 1 : 0.55 + 0.45 * suave(tt / 3) + 0.08 * Math.sin(tt * 0.9);
+      const gr = cx.createRadialGradient(W / 2, H * 0.42, 40, W / 2, H * 0.42, W * 0.9 * k);
+      gr.addColorStop(0, e.acc + '33'); gr.addColorStop(1, e.acc + '00');
+      cx.fillStyle = gr; cx.fillRect(0, 0, W, H);
+    }
+    // Logo: entra girando, aparecen los cinco círculos uno a uno y luego gira despacio
+    const lx = W / 2;
+    const ly = top - 15 + C / 2;
+    const entra = fijo ? 1 : suave((tt - 0.2) / 1.4);
+    const giro = fijo ? 0 : (1 - entra) * -Math.PI * 1.2 + tt * (Math.PI * 2 / 24);
+    cx.save();
+    cx.translate(lx, ly);
+    cx.rotate(giro);
+    cx.globalAlpha = entra;
+    if (estrella) {
+      const s = estrella.width * (0.7 + 0.3 * entra);
+      cx.drawImage(estrella, -s / 2, -s / 2, s, s);
+    }
+    const r = C * 3 / 48;
+    const pos = [[C / 2, r], [C - r, C * 0.3 + r], [C * 0.84 - r, C * 0.96 - r], [C * 0.16 + r, C * 0.96 - r], [r, C * 0.3 + r]];
     cx.fillStyle = e.acc;
-    cx.fillRect(W / 2 - 40, y + 10, 80, 3);
+    pos.forEach((p, i) => {
+      const a = fijo ? 1 : suave((tt - 0.9 - i * 0.3) / 0.5);
+      if (a <= 0) return;
+      cx.globalAlpha = a;
+      cx.beginPath(); cx.arc(p[0] - C / 2, p[1] - C / 2, r * (0.4 + 0.6 * a), 0, Math.PI * 2); cx.fill();
+    });
+    cx.restore();
+    // Nombre
+    cx.textAlign = 'center';
+    cx.textBaseline = 'alphabetic';
+    cx.globalAlpha = fijo ? 1 : suave((tt - 2.4) / 0.8);
+    cx.fillStyle = e.acc;
+    cx.font = '300 30px Outfit, sans-serif';
+    cx.fillText('S  ·  T  ·  A  ·  R  ·  S', W / 2, top + 175);
+    // Frase: aparece nítida desde un desenfoque, línea por línea
+    const lh = size * 1.22;
+    const centro = P.formato === '9:16' ? H * 0.5 : H * 0.54;
+    let y = centro - (lineas.length * lh) / 2 + size * 0.8;
+    cx.font = 'italic 400 ' + size + 'px "Cormorant Garamond", Georgia, serif';
+    cx.fillStyle = e.ink;
+    lineas.forEach((l, i) => {
+      const a = fijo ? 1 : suave((tt - 3.2 - i * 0.35) / 1.2);
+      if (a > 0) {
+        cx.globalAlpha = a;
+        cx.filter = a < 1 ? 'blur(' + ((1 - a) * 10).toFixed(1) + 'px)' : 'none';
+        cx.fillText(l, W / 2, y + (1 - a) * 18);
+        cx.filter = 'none';
+      }
+      y += lh;
+    });
+    // Filete y referencia
+    const af = fijo ? 1 : suave((tt - 3.6 - lineas.length * 0.35) / 1);
+    cx.globalAlpha = af;
+    cx.fillStyle = e.acc;
+    const ancho = 80 * af;
+    cx.fillRect(W / 2 - ancho / 2, y + 10, ancho, 3);
     cx.fillStyle = e.mut;
     cx.font = '400 32px Outfit, sans-serif';
-    cx.fillText((d.ref ? d.ref + '  ·  ' : '') + '@lhscol', W / 2, H - (formato === '9:16' ? 190 : 105));
-    // Guardar
+    cx.fillText((P.d.ref ? P.d.ref + '  ·  ' : '') + '@lhscol', W / 2, H - (P.formato === '9:16' ? 190 : 105));
+    cx.globalAlpha = 1;
+  }
+
+  // Guarda un archivo en el teléfono (en iPhone, con el menú de compartir).
+  async function guardarArchivo(blob, nombre, msg) {
+    const archivo = typeof File === 'function' ? new File([blob], nombre, { type: blob.type }) : null;
+    const ios = /iP(hone|ad|od)/.test(navigator.userAgent);
+    if (ios && archivo && navigator.canShare && navigator.canShare({ files: [archivo] })) {
+      try { await navigator.share({ files: [archivo] }); return; } catch (_) { /* sigue a la descarga */ }
+    }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.download = nombre; a.href = url;
+    document.body.appendChild(a); a.click(); a.remove();
+    aviso(msg);
+    setTimeout(() => URL.revokeObjectURL(url), 60000);
+  }
+
+  async function descargarFraseA(formato, e, d, logoSrc) {
+    const P = await prepararFrase(formato, e, d, logoSrc);
+    if (!P) { aviso('Hoy no hay frase'); return; }
+    const cv = document.createElement('canvas');
+    cv.width = P.W; cv.height = P.H;
+    dibujarFrase(cv.getContext('2d'), P);
     const nombre = 'frase-stars-' + getTodayKey() + '-' + (formato === '9:16' ? 'historia' : 'imagen') + '.png';
-    cv.toBlob(async (blob) => {
+    cv.toBlob((blob) => {
       if (!blob) { aviso('No se pudo preparar la imagen'); return; }
-      const archivo = typeof File === 'function' ? new File([blob], nombre, { type: 'image/png' }) : null;
-      const ios = /iP(hone|ad|od)/.test(navigator.userAgent);
-      if (ios && archivo && navigator.canShare && navigator.canShare({ files: [archivo] })) {
-        try { await navigator.share({ files: [archivo] }); return; } catch (_) { /* sigue a la descarga */ }
-      }
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement('a');
-      a.download = nombre; a.href = url;
-      document.body.appendChild(a); a.click(); a.remove();
-      aviso('Imagen guardada en Descargas');
-      setTimeout(() => URL.revokeObjectURL(url), 30000);
+      guardarArchivo(blob, nombre, 'Imagen guardada en Descargas');
     }, 'image/png');
+  }
+
+  /* Video de 15 segundos (historia 9:16): el logo entra girando, aparecen los cinco círculos,
+     luego la frase y la referencia. Se graba en el mismo teléfono; nada sale a internet. */
+  const VIDEO_SEG = 15;
+  async function videoFraseA(e, d, logoSrc) {
+    if (st.video) return;
+    const tipos = ['video/mp4;codecs=avc1.42E01E', 'video/mp4;codecs=avc1', 'video/mp4', 'video/webm;codecs=vp9', 'video/webm;codecs=vp8', 'video/webm'];
+    const tipo = typeof MediaRecorder !== 'undefined' ? tipos.find((x) => { try { return MediaRecorder.isTypeSupported(x); } catch (_) { return false; } }) : null;
+    const cvProbe = document.createElement('canvas');
+    if (!tipo || typeof cvProbe.captureStream !== 'function') { aviso('Este teléfono no puede crear el video. Descarga la imagen.'); return; }
+    const P = await prepararFrase('9:16', e, d, logoSrc);
+    if (!P) { aviso('Hoy no hay frase'); return; }
+    const cv = document.createElement('canvas');
+    cv.width = P.W; cv.height = P.H;
+    const cx = cv.getContext('2d');
+    dibujarFrase(cx, P, 0);
+    const flujo = cv.captureStream(30);
+    let rec;
+    try { rec = new MediaRecorder(flujo, { mimeType: tipo, videoBitsPerSecond: 8000000 }); } catch (_) { aviso('Este teléfono no puede crear el video. Descarga la imagen.'); return; }
+    const trozosVideo = [];
+    rec.ondataavailable = (ev) => { if (ev.data && ev.data.size) trozosVideo.push(ev.data); };
+    const fin = new Promise((ok) => { rec.onstop = ok; });
+    st.video = { quedan: VIDEO_SEG };
+    pintar();
+    rec.start(500);
+    const t0 = performance.now();
+    let ultimo = -1;
+    await new Promise((ok) => {
+      (function cuadro() {
+        const t = (performance.now() - t0) / 1000;
+        dibujarFrase(cx, P, Math.min(t, VIDEO_SEG));
+        const quedan = Math.max(0, Math.ceil(VIDEO_SEG - t));
+        if (quedan !== ultimo) { ultimo = quedan; st.video = { quedan: quedan }; pintar(); }
+        if (t >= VIDEO_SEG) ok(); else requestAnimationFrame(cuadro);
+      })();
+    });
+    rec.stop();
+    await fin;
+    flujo.getTracks().forEach((x) => x.stop());
+    st.video = null;
+    pintar();
+    const blob = new Blob(trozosVideo, { type: tipo.split(';')[0] });
+    if (!blob.size) { aviso('No se pudo crear el video'); return; }
+    const ext = tipo.indexOf('mp4') >= 0 ? 'mp4' : 'webm';
+    await guardarArchivo(blob, 'frase-stars-' + getTodayKey() + '-video.' + ext, 'Video guardado en Descargas');
   }
 
   async function descargarFrase(formato) {
