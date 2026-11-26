@@ -1,16 +1,13 @@
 /* S · T · A · R · S · Rediseño — arranque
-   Se descarga solo en dos casos:
-   1. Cuando inicia sesión la cuenta del administrador (index.html, onAuthStateChanged).
-   2. Al abrir la app en un aparato donde esa cuenta ya entró antes (marca stars_rd en el
-      aparato). Así la bienvenida sale desde el primer instante y, si no hay sesión, se ve
-      la landing nueva. Si en ese aparato entra otra cuenta, el rediseño se retira solo.
-   En cualquier otro aparato este archivo no existe: no se descarga ni se guarda en caché. */
+   Desde el lanzamiento del 30 de noviembre de 2026 es la app para todas las cuentas
+   (index.html lo carga al abrir, antes de saber la sesión, para que la bienvenida salga
+   desde el primer instante). ?app=actual en la dirección vuelve a la app de siempre. */
 (function () {
   'use strict';
   if (window.__STARS_REDISENO_MONTADO) return;
   window.__STARS_REDISENO_MONTADO = true;
 
-  const V = '10';
+  const V = '11';
   const BASE = '/rediseno/';
   const apagados = [];
 
@@ -46,7 +43,7 @@
   function sesion() {
     const app = document.getElementById('app-root');
     const login = document.getElementById('login-screen');
-    if (app && app.style.display === 'block') return window.ADMIN_MODE ? 'juan' : 'otro';
+    if (app && app.style.display === 'block') return 'dentro';
     if (login && login.style.display === 'flex') return 'fuera';
     return '';
   }
@@ -117,8 +114,6 @@
       fetch(BASE + 'plantilla.html?v=' + V, { cache: 'no-store' }).then((r) => { if (!r.ok) throw new Error('plantilla'); return r.text(); }),
       cargarScript('motor.js').then(() => cargarScript('vista.js'))
     ]);
-    // Si la sesión ya se sabe y es de otra cuenta, no se muestra nada.
-    if (sesion() === 'otro') { desmontar(); return; }
     esconderAppActual();
     const raiz = document.createElement('div');
     raiz.id = 'rd-root';
@@ -126,8 +121,7 @@
     window.STARS_VISTA.montar(raiz, plantilla);   // empieza con la bienvenida
 
     const primera = await esperar(() => sesion() !== '', 15000) ? sesion() : 'fuera';
-    if (primera === 'otro') { desmontar(); return; }
-    if (primera === 'juan') {
+    if (primera === 'dentro') {
       respaldoLocal();
       try { localStorage.setItem('stars_rd', '1'); } catch (_) { /* nada */ }
       await datosListos();
@@ -136,11 +130,10 @@
       window.STARS_VISTA.sesion('fuera');
     }
 
-    // Si se inicia sesión desde la landing nueva: la cuenta de Juan entra al rediseño; otra cuenta, a la app de siempre.
+    // Si se inicia sesión desde la landing: entra al rediseño.
     const vigilar = setInterval(async () => {
       const s = sesion();
-      if (s === 'otro') { clearInterval(vigilar); desmontar(); return; }
-      if (s === 'juan' && window.STARS_VISTA.estado.sesion !== 'juan') {
+      if (s === 'dentro' && window.STARS_VISTA.estado.sesion !== 'juan') {
         clearInterval(vigilar);
         respaldoLocal();
         try { localStorage.setItem('stars_rd', '1'); } catch (_) { /* nada */ }

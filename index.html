@@ -3056,7 +3056,7 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
         if(!window.__STARS_REDISENO && new URLSearchParams(location.search).get('app') !== 'actual'){
           window.__STARS_REDISENO = true;
           const rd = document.createElement('script');
-          rd.src = '/rediseno/rediseno.js?v=2';
+          rd.src = '/rediseno/rediseno.js?v=3';
           document.head.appendChild(rd);
         }
       }
@@ -3110,15 +3110,21 @@ body.admin-mode.admin-bar-visible .tracker-full-header{
 </head>
 <body>
 <script>
-/* Vista previa del rediseño: solo en aparatos donde ya entró la cuenta del administrador (marca stars_rd).
-   En cualquier otro aparato esto no hace nada y no se descarga ningún archivo del rediseño. */
+/* Rediseño: desde el lunes 30 de noviembre de 2026 (12:00 a. m., hora del aparato) es la app para todos.
+   Antes de esa fecha solo se enciende en los aparatos de Juan (marca stars_rd) o al abrir un enlace de prueba
+   con ?rd=1 (deja la marca en ese aparato; ?rd=0 la quita). Se carga al abrir, antes de saber la sesión, para que la bienvenida
+   salga desde el primer instante. ?app=actual vuelve a la app de siempre. */
 try{
-  if(localStorage.getItem('stars_rd')==='1' && new URLSearchParams(location.search).get('app')!=='actual'){
+  var rdQ=new URLSearchParams(location.search);
+  if(rdQ.get('rd')==='1'){localStorage.setItem('stars_rd','1');}
+  if(rdQ.get('rd')==='0'){localStorage.removeItem('stars_rd');}
+  var rdLanzado=Date.now()>=new Date(2026,10,30,0,0,0).getTime();
+  if(rdQ.get('app')!=='actual' && (rdLanzado || localStorage.getItem('stars_rd')==='1')){
     window.__STARS_REDISENO=true;
     var rdCss=document.createElement('style');rdCss.id='rd-pre-css';
     rdCss.textContent='html.rd-on #app-root,html.rd-on #login-screen{display:none!important}html.rd-on,html.rd-on body{background:#12110f}';
     document.head.appendChild(rdCss);document.documentElement.classList.add('rd-on');
-    var rdS=document.createElement('script');rdS.src='/rediseno/rediseno.js?v=2';
+    var rdS=document.createElement('script');rdS.src='/rediseno/rediseno.js?v=3';
     rdS.onerror=function(){document.documentElement.classList.remove('rd-on');};
     document.head.appendChild(rdS);
   }

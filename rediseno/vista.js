@@ -56,8 +56,14 @@
     timer: { key: '', start: 0, done: false },
     lastMode: '',
     pfDesde: '',
+    vidDesde: '',
     sonando: '',
     canciones: [],
+    ytPausa: false,
+    ytT: 0,
+    ytD: 0,
+    ytLoop: false,
+    ytShuf: false,
     cancAbierta: false,
     cancionIdx: -1
   };
@@ -133,7 +139,7 @@
     });
   }
   async function conectarReproductor(iframe, n) {
-    st.canciones = []; st.cancionIdx = -1; st.cancAbierta = false; repro.lista = n; repro.player = null;
+    st.canciones = []; st.cancionIdx = -1; st.cancAbierta = false; st.ytPausa = false; st.ytT = 0; st.ytD = 0; st.ytLoop = false; st.ytShuf = false; repro.lista = n; repro.player = null;
     if (!(await apiYouTube()) || !iframe || !iframe.isConnected || repro.lista !== n) return;
     const leer = (p) => {
       const ids = g(() => p.getPlaylist(), null) || [];
@@ -142,7 +148,8 @@
         nombresCanciones(n);
       }
       const i = g(() => p.getPlaylistIndex(), -1);
-      if (i !== st.cancionIdx) { st.cancionIdx = i; pintar(); }
+      const pausa = g(() => p.getPlayerState(), 1) === 2;
+      if (i !== st.cancionIdx || pausa !== st.ytPausa) { st.cancionIdx = i; st.ytPausa = pausa; pintar(); }
     };
     repro.player = new YT.Player(iframe, { events: { onReady: (e) => leer(e.target), onStateChange: (e) => leer(e.target) } });
   }
@@ -158,6 +165,30 @@
       if (repro.lista !== n) return;
       pintar();
     }
+  }
+  function minSeg(t) { const s = Math.max(0, Math.floor(t || 0)); return Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+  // Mientras la lista está abierta, la barra de avance se actualiza cada segundo.
+  setInterval(() => {
+    const p = repro.player;
+    if (!p || !st.cancAbierta || document.visibilityState !== 'visible') return;
+    const t = g(() => p.getCurrentTime(), 0) || 0;
+    const d = g(() => p.getDuration(), 0) || 0;
+    if (Math.floor(t) !== Math.floor(st.ytT) || Math.floor(d) !== Math.floor(st.ytD)) { st.ytT = t; st.ytD = d; pintar(); }
+  }, 1000);
+  function controlMusica(q, ev) {
+    const p = repro.player;
+    if (!p) return;
+    if (q === 'prev') g(() => p.previousVideo());
+    else if (q === 'next') g(() => p.nextVideo());
+    else if (q === 'shuf') { st.ytShuf = !st.ytShuf; g(() => p.setShuffle(st.ytShuf)); }
+    else if (q === 'loop') { st.ytLoop = !st.ytLoop; g(() => p.setLoop(st.ytLoop)); }
+    else if (q === 'seek') {
+      const bar = ev && ev.target && ev.target.closest ? ev.target.closest('.rd-bar') : null;
+      if (bar && st.ytD) { const r = bar.getBoundingClientRect(); const x = Math.max(0, Math.min(1, (ev.clientX - r.left) / r.width)); st.ytT = x * st.ytD; g(() => p.seekTo(st.ytT, true)); }
+    }
+    else if (st.ytPausa) { g(() => p.playVideo()); st.ytPausa = false; }
+    else { g(() => p.pauseVideo()); st.ytPausa = true; }
+    pintar();
   }
   function elegirCancion(i) { if (repro.player && repro.player.playVideoAt) g(() => repro.player.playVideoAt(i)); st.cancionIdx = i; st.cancAbierta = false; pintar(); }
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { candado = null; montarMusica(); } });
@@ -828,7 +859,7 @@
   function valores() {
     const screen = st.screen;
     const w = st.w;
-    const isA0 = st.exp === 'clasica';
+    const isA0 = expActual() === 'clasica';
     const isA = isA0 && screen !== 'elegir';
     const dev = w < 600 ? 'movil' : (w < 1100 ? 'tablet' : 'escritorio');
     const luz = st.luz;
@@ -845,7 +876,7 @@
     go.hoy = () => {
       if (st.screen === 'splash') { salirBienvenida(); return; }
       const desdeEntrada = st.screen === 'elegir';
-      if (st.exp === '') { setPref('stars_rd_exp', 'moderna'); st.exp = 'moderna'; }
+      if (!st.exp) { st.exp = expActual(); setPref('stars_rd_exp', st.exp); }
       ir(desdeEntrada ? pantallaInicial() : 'hoy');
     };
     // En la landing, «Mis pasos» y «Entrar» abren el inicio de sesión con Google.
@@ -854,12 +885,13 @@
       ir('splash');
     };
     go.profundizar = () => ir('profundizar', { pfDesde: STEP_IDS.indexOf(st.screen) >= 0 ? st.screen : (st.screen === 'profundizar' ? st.pfDesde : 'hoy') });
+    go.video = () => ir('video', { vidDesde: st.screen });
     go.pin = abrirDiario;
     go.diario = abrirDiario;
     go.landing = () => { if (confirm('¿Cerrar sesión en este dispositivo?')) cerrarSesion(); };
 
-    const v = { landing: screen === 'landing', splash: screen === 'splash', elegir: screen === 'elegir' };
-    v.inApp = !v.landing && !v.splash && !v.elegir;
+    const v = { landing: screen === 'landing', splash: screen === 'splash', elegir: screen === 'elegir', video: screen === 'video' };
+    v.inApp = !v.landing && !v.splash && !v.elegir && !v.video;
     const isList = LIST_IDS.indexOf(screen) >= 0;
     v.showBot = isList;
 
@@ -998,7 +1030,7 @@
       /* día */
       d: d, fechaLarga: fechaLarga(key), racha: racha, rachaDias: racha === 1 ? 'día' : 'días',
       estrellas: estrellas, estrellasTxt: estrellas + (estrellas === 1 ? ' disponible para restaurar' : ' disponibles para restaurar'),
-      steps: steps, stepsDone: steps.map((x) => ({ L: x.L, n: x.n })),
+      steps: steps, stepsDone: steps.map((x) => ({ L: x.L, n: x.n, go: x.go })),
       segs: [0, 1, 2, 3, 4].map((i) => ({ cls: hechos[i] ? 'done' : (i === cur ? 'now' : '') })),
       stories: [0, 1, 2, 3, 4].map((i) => (i <= Math.min(sIdx, 4) ? 'on' : '')),
       markCls: 'mark d' + done, pathCls: 'p' + Math.min(cur, 5),
@@ -1035,7 +1067,10 @@
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
       notasA: notasA,
-      canc: { hay: st.canciones.length > 0, abierta: st.canciones.length > 0 && st.cancAbierta, txt: 'Elegir canción · ' + st.canciones.length + (st.cancAbierta ? ' ▴' : ' ▾'), toggle: () => { st.cancAbierta = !st.cancAbierta; pintar(); }, items: st.canciones.map((c, i) => ({ t: c.t || 'Cargando…', img: c.img, cls: i === st.cancionIdx ? 'on' : '', go: () => elegirCancion(i) })) },
+      canc: { hay: st.canciones.length > 0, abierta: st.canciones.length > 0 && st.cancAbierta, cls: st.cancAbierta ? 'on' : '', txt: st.cancAbierta ? 'Cerrar la lista de canciones' : 'Elegir canción',
+        prev: () => controlMusica('prev'), next: () => controlMusica('next'), pp: () => controlMusica('pp'), pausa: st.ytPausa, suena: !st.ytPausa, ppTxt: st.ytPausa ? 'Reanudar' : 'Pausar',
+        tA: minSeg(st.ytT), tT: minSeg(st.ytD), w: 'width: ' + (st.ytD ? Math.min(100, st.ytT / st.ytD * 100) : 0).toFixed(1) + '%', seek: (e) => controlMusica('seek', e),
+        shuf: () => controlMusica('shuf'), loop: () => controlMusica('loop'), shufCls: st.ytShuf ? 'on' : '', loopCls: st.ytLoop ? 'on' : '', toggle: () => { st.cancAbierta = !st.cancAbierta; pintar(); }, items: st.canciones.map((c, i) => ({ t: c.t || 'Cargando…', img: c.img, cls: i === st.cancionIdx ? 'on' : '', go: () => elegirCancion(i) })) },
       musSil: { on: silOn, cls: silOn ? 'on' : '', ico: silOn ? '❚❚' : '▶', toggle: () => tocar('Spirit') },
       pfSug: { hay: Boolean(sugOtro), t: sugCap ? sugCap.libro + ' ' + sugCap.capitulo : '', go: () => { if (sugCap) abrirCapitulo(sugCap.libro, sugCap.capitulo); } },
       pfVolver: { t: pfIdx >= 0 ? 'Volver a ' + S_NAMES[pfIdx] : 'Volver al Paso Diario', d: pfIdx >= 0 ? 'A ' + S_NAMES[pfIdx] : 'Al Paso Diario', go: pfIdx >= 0 ? () => ir(STEP_IDS[pfIdx]) : go.hoy },
@@ -1067,11 +1102,13 @@
       soporte: () => abrir(SOPORTE), lhscol: () => abrir(LHSCOL),
       adminBar: () => { if (typeof toggleAdminBar === 'function') toggleAdminBar(true); },
       esAdmin: Boolean(window.ADMIN_MODE),
+      hayElegir: modelosVisibles().length > 1,
       lmode: { diario: st.lmode === 'profundo' ? '' : 'on', profundo: st.lmode === 'profundo' ? 'on' : '' },
       setLmode: { diario: set({ lmode: 'diario' }), profundo: set({ lmode: 'profundo' }) },
       lsteps: (st.lmode === 'profundo' ? LANDING_PROFUNDO : LANDING_DIARIO).map((x, i) => ({ L: x[0], n: x[1], min: x[2], d: x[3], cc: CC[i] })),
       verMetodo: () => { const el = Array.from(document.querySelectorAll('#rd-root .ld-seg')).filter((x) => x.offsetParent)[0]; if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' }); },
       splMeta: fechaLarga(key),
+      salirVideo: salirVideo, vidBtn: st.vidDesde === 'config' ? 'Volver' : 'Empezar',
       ldTag: isA0 ? 'Disfruta el Buen Camino.' : 'Una Vida a Todo Color.',
       ldStar: isA0 ? logoA : star,
       splQ: isA0 ? '«Disfruta el Buen Camino.»' : '«Una Vida a Todo Color.»',
@@ -1195,10 +1232,19 @@
     };
   }
   // Después de la bienvenida: primero el aviso de rifa; si no hay, las Novedades nuevas.
+  /* Video de lanzamiento: la primera vez que la persona abre El Buen Camino en este aparato, después
+     de la bienvenida. Ese día no salen las Novedades; salen desde la siguiente vez que abra la app. */
+  function hoyReal() { return g(() => getActualTodayKey(), '') || ''; }
+  function salirVideo() {
+    const desde = st.vidDesde;
+    st.vidDesde = '';
+    ir(desde === 'config' ? 'config' : pantallaInicial());
+  }
   function pantallaInicial() {
     if (g(() => avisoRifaPendiente(), null)) return 'rifa';
+    if (expActual() === 'clasica' && !pref('stars_rd_video', '')) { setPref('stars_rd_video', hoyReal()); st.vidDesde = 'inicio'; return 'video'; }
     const vistas = g(() => novedadesRachaYaVistas(), true);
-    if (!vistas && sessionStorage.getItem('stars_rd_nov') !== '1') {
+    if (!vistas && pref('stars_rd_video', '') !== hoyReal() && sessionStorage.getItem('stars_rd_nov') !== '1') {
       try { sessionStorage.setItem('stars_rd_nov', '1'); } catch (_) { /* nada */ }
       g(() => window.FB.setNovedadesRachaVista());
       return 'novedades';
@@ -1219,7 +1265,13 @@
     pintar();
   }
 
-  function cambiarExp(e) { st.exp = e; setPref('stars_rd_exp', e); pintar(); }
+  /* Modelos lanzados para todos. El administrador ve todos para revisarlos antes de su fecha.
+     30 nov 2026: El Buen Camino (clasica). 20 dic 2026: se suma Una Vida a Todo Color (moderna). */
+  const LANZADOS = ['clasica'];
+  function modelosVisibles() { return window.ADMIN_MODE ? ['clasica', 'moderna'] : LANZADOS; }
+  function expActual() { const v = modelosVisibles(); return v.indexOf(st.exp) >= 0 ? st.exp : LANZADOS[LANZADOS.length - 1]; }
+  function tocaElegir() { return !st.exp && modelosVisibles().length > 1; }
+  function cambiarExp(e) { if (modelosVisibles().indexOf(e) < 0) return; st.exp = e; setPref('stars_rd_exp', e); pintar(); }
   function cambiarTema(t) { st.tema = t; setPref('stars_tema', t); pintar(); }
 
   /* ── Frase para hoy · modelo 2026 ──
@@ -1633,11 +1685,11 @@
     // Guardar la frase del día para la próxima bienvenida, por si el devocional tarda en cargar.
     const f = g(() => getDevoHoy().frase, '');
     if (f) setPref('stars_rd_frase', f);
-    ir(st.exp ? pantallaInicial() : 'elegir');
+    ir(tocaElegir() ? 'elegir' : pantallaInicial());
   }
   function sesion(s, desdeLanding) {
     st.sesion = s;
-    if (desdeLanding && st.screen !== 'splash') ir(st.exp ? pantallaInicial() : 'elegir');
+    if (desdeLanding && st.screen !== 'splash') ir(tocaElegir() ? 'elegir' : pantallaInicial());
     else pintar();
   }
   function detener() { clearInterval(tick); clearInterval(esperaSalida); render = function () {}; }

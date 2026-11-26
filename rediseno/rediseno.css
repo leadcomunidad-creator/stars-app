@@ -2080,10 +2080,47 @@
 .frame.b .rd-song.on .rd-st,.frame.b .rd-song.on .rd-now{color:inherit}
 .frame.b .mzw2 .rd-songs,.frame.b .stepmain .rd-songs{border-color:color-mix(in srgb,currentColor 25%,transparent)}
 .frame.b .mzw2 .rd-song,.frame.b .stepmain .rd-song{border-color:color-mix(in srgb,currentColor 20%,transparent) !important}
-.rd-songs-t{display:flex !important;align-items:center;justify-content:center;width:100%;max-width:460px;margin:10px auto 0;min-height:40px;font:600 13px/1 var(--f-ui);color:var(--accent-ink)}
-.frame.b .rd-songs-t{color:inherit}
-.mplayer .rd-songs-t,.mzw2 .rd-songs-t{max-width:none}
 /* Barras de sonido: el mismo ancho de siempre; en pantallas grandes aparecen más barras en vez de estirarse */
 .eqw{overflow:hidden}
 .eqw > i{flex:0 0 auto;width:10px}
 .mplayer.big .eqw > i{width:12px}
+
+/* Lista de canciones: solo una flecha; al abrirla, controles propios de la app */
+.rd-songs-t{width:44px !important;height:32px;min-height:32px;margin:8px auto 0 !important;display:grid !important;place-items:center;color:var(--ink-muted)}
+.rd-songs-t > svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:transform .2s}
+.rd-songs-t.on > svg{transform:rotate(180deg)}
+.frame.b .rd-songs-t{color:inherit;opacity:.7}
+.rd-ctrl{display:flex;align-items:center;justify-content:center;gap:22px;margin:6px auto 4px}
+.rd-ctrl > button{width:40px;height:40px;display:grid !important;place-items:center;border-radius:999px;color:var(--ink)}
+.rd-ctrl > button > svg{width:20px;height:20px;fill:currentColor}
+.rd-ctrl > .rd-pp{width:50px;height:50px;background:var(--accent) !important;color:var(--on-accent)}
+.frame.b .rd-ctrl > button{color:inherit}
+.frame.b .rd-ctrl > .rd-pp{background:#12110f !important;color:#f2ede4}
+/* Día completo: las letras y las franjas abren su paso */
+.dca .pills5 > .pl5{cursor:pointer}
+.dcb-segs > button{height:8px;border-radius:4px;background:var(--c) !important;box-shadow:0 0 0 1.5px #12110f;padding:0 !important;position:relative}
+.dcb-segs > button::after{content:"";position:absolute;inset:-14px 0}
+
+/* Controles rápidos: barra de avance, aleatorio y repetir */
+.rd-prog{display:flex;align-items:center;gap:10px;width:100%;max-width:460px;margin:8px auto 0;font:500 11px/1 var(--f-ui);color:var(--ink-muted)}
+.rd-prog > span{flex:none;min-width:34px;text-align:center;font-variant-numeric:tabular-nums}
+.rd-bar{flex:1;height:20px;padding:0 !important;position:relative;display:block !important;background:transparent !important}
+.rd-bar::before{content:"";position:absolute;left:0;right:0;top:9px;height:3px;border-radius:2px;background:var(--line-strong)}
+.rd-bar > i{position:absolute;left:0;top:9px;height:3px;border-radius:2px;background:var(--accent)}
+.rd-bar > i::after{content:"";position:absolute;right:-5px;top:-4px;width:11px;height:11px;border-radius:999px;background:var(--accent)}
+.mplayer .rd-prog,.mzw2 .rd-prog{max-width:none}
+.frame.b .rd-prog{color:inherit;opacity:.8}
+.frame.b .rd-bar::before{background:color-mix(in srgb,currentColor 25%,transparent)}
+.frame.b .rd-bar > i,.frame.b .rd-bar > i::after{background:currentColor}
+.rd-ctrl{gap:14px}
+.rd-ctrl > .rd-tg{width:36px;height:36px;color:var(--ink-muted)}
+.rd-ctrl > .rd-tg > svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rd-ctrl > .rd-tg.on{color:var(--accent-ink)}
+.frame.b .rd-ctrl > .rd-tg{color:inherit;opacity:.5}
+.frame.b .rd-ctrl > .rd-tg.on{opacity:1}
+@container app (min-width: 1000px){.rd-songs-t.narrow-only{display:none !important}}
+
+/* Video de lanzamiento a pantalla completa (primera vez y desde Ajustes) */
+.vid1{position:absolute;inset:0;z-index:5;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:16px max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:radial-gradient(circle at 50% 35%,#2a2214 0,#0d0b08 65%)}
+.vid1-v{display:block;height:calc(100% - 84px);max-height:calc(100% - 84px);max-width:100%;aspect-ratio:9/16;border-radius:18px;background:#000;object-fit:contain}
+.vid1 .vid1-go{background:#c9a84c !important;color:#16110a !important;min-width:200px}
