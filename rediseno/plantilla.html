@@ -1,12 +1,55 @@
 <div class="{{ frameCls }}" data-theme="{{ theme }}" data-tema="{{ tema }}">
 
 <sc-if value="{{ v.landing }}" hint-placeholder-val="{{ false }}">
-<div class="content ld">
- <header class="ld-nav"><div class="ld-brand"><img src="{{ star }}" alt=""><span>S · T · A · R · S</span></div><nav class="hub wide-only"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></nav><button class="pill solid" onClick="{{ go.splash }}">Mis pasos</button></header>
+<div class="content lda only-a">
+ <header class="lda-nav"><div class="lda-brand"><img src="{{ ldStar }}" alt=""><span>S · T · A · R · S</span></div><nav class="hub wide-only"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></nav><button class="lda-mis" onClick="{{ go.splash }}">Mis pasos</button></header>
+ <section class="lda-hero"><div class="wrap w lda-hero-in">
+  <div class="lda-hero-tx">
+   <span class="lda-tag">{{ ldTag }}</span>
+   <h1 class="lda-h1">La Escritura puede ser <em>más que algo que lees.</em></h1>
+   <p class="lda-p">S · T · A · R · S te acompaña a encontrarte con la Biblia de una manera clara, profunda y posible para tu vida real. No se trata solo de recibir información, sino de detenerte, escuchar, comprender y permitir que la verdad de Dios forme tu manera de vivir.</p>
+   <div class="lda-ctas"><button class="btn lda-go" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button><button class="lda-link" onClick="{{ verMetodo }}">Conocer el método ›</button></div>
+  </div>
+  <div class="lda-phone" aria-hidden="true"><span class="lda-glow"></span><div class="lda-scr">
+   <div class="lda-sbar"><span class="lda-sb"><img src="{{ ldStar }}" alt=""><span>S · T · A · R · S</span></span></div>
+   <div class="lda-card"><span class="lda-ck">{{ fechaLarga }}</span><strong class="lda-ct">{{ d.titulo }}</strong><span class="lda-cr">{{ d.ref }}</span>
+    <div class="pills5"><span class="pl5 now"><b>S</b><strong>Silencio</strong><em>5 min</em></span><span class="pl5"><b>T</b><strong>Texto</strong><em>3 min</em></span><span class="pl5"><b>A</b><strong>Análisis</strong><em>3 min</em></span><span class="pl5"><b>R</b><strong>Reflexión</strong><em>2 min</em></span><span class="pl5"><b>S</b><strong>Sembrar</strong><em>2 min</em></span></div>
+    <span class="lda-cb">Continuar con Silencio · 5 min</span></div>
+   <span class="lda-sk">Ir más profundo</span>
+   <div class="lda-rows"><span><i>A+</i><b>Profundizar</b><em>{{ d.ref }}</em></span><span><i>10</i><b>Estudiar</b><em>{{ capSemana }}</em></span><span><i>“</i><b>Frase</b><em>para hoy</em></span></div>
+  </div></div>
+ </div></section>
+ <section class="lda-sec"><div class="wrap w lda-two">
+  <div><span class="lda-k">Qué es S · T · A · R · S</span><h2 class="lda-h2">No es contenido para consumir. Es una forma de encontrarte con la Escritura.</h2></div>
+  <div class="lda-col"><p class="lda-p">Muchas veces leemos rápido, escuchamos mucho y, aun así, no sabemos cómo llevar la verdad de Dios a lo que vivimos. S · T · A · R · S crea un espacio para volver al texto con atención, comprenderlo en su contexto y responder a él con honestidad.</p><p class="lda-p">La Escritura está en el centro. Aquí no buscamos producir culpa, religiosidad ni apariencia espiritual. Es para quien ya tiene recorrido cristiano, para quien está comenzando y para quien ha sido herido por la religión.</p></div>
+ </div>
+ <div class="wrap w"><blockquote class="lda-quote"><p>«Si permanecen en esto y viven lo que les digo, serán verdaderamente mis discípulos. Entonces experimentarán por ustedes mismos la verdad, y la verdad los hará libres».</p><span>Juan 8:31-32 · MSG</span></blockquote></div></section>
+ <section class="lda-sec"><div class="wrap w">
+  <span class="lda-k">El método S · T · A · R · S</span><h2 class="lda-h2">Cinco movimientos para pasar de la lectura a una respuesta real.</h2><p class="lda-p lda-lim">Un Sistema Total de Absorción y Reflexión de la Escritura, con un orden pedagógico que permite comprender la Biblia como un todo. Un mismo método, dos formas de recorrerlo.</p>
+  <div class="ld-seg lda-seg"><button class="{{ lmode.diario }}" onClick="{{ setLmode.diario }}">Paso Diario · 15 min</button><button class="{{ lmode.profundo }}" onClick="{{ setLmode.profundo }}">Paso Profundo · 1 h</button></div>
+  <ol class="lda-steps"><sc-for list="{{ lsteps }}" as="s" hint-placeholder-count="5"><li><span class="lda-L">{{ s.L }}</span><span class="lda-st"><strong>{{ s.n }}</strong><em>{{ s.min }}</em></span><p>{{ s.d }}</p></li></sc-for></ol>
+ </div></section>
+ <section class="lda-sec"><div class="wrap w">
+  <span class="lda-k">Dos formas de avanzar</span><h2 class="lda-h2">Un paso para hoy. Un camino para profundizar.</h2>
+  <div class="lda-ways"><div class="lda-way"><span class="lda-n">01</span><span class="lda-wk">Un encuentro cada día · 15 min</span><h3>Paso Diario</h3><p>Cada día encuentras un pasaje y una guía breve por los cinco movimientos: una oración para preparar el corazón, lectura en The Message y NBLA, una explicación del texto, una pregunta personal y una práctica concreta para hoy.</p></div><div class="lda-way"><span class="lda-n">02</span><span class="lda-wk">Una inmersión en la Escritura · 1 hora</span><h3>Paso Profundo</h3><p>Un estudio guiado de un capítulo bíblico en 10 estaciones: el texto en The Message y NBLA, su contexto, el desarrollo de sus ideas, palabras importantes, conexiones con otras Escrituras y preguntas para tu vida. Elige Por Método o Por Capítulo; Por Tema llega pronto.</p></div></div>
+ </div></section>
+ <section class="lda-sec"><div class="wrap w">
+  <span class="lda-k">Y hay mucho más</span><h2 class="lda-h2">Más maneras de encontrarte con la verdad.</h2>
+  <ul class="lda-more"><li><span class="lda-n">01</span><strong>Música para cada momento</strong><p>Playlists para aquietarte, meditar, orar o acompañar tu día.</p></li><li><span class="lda-n">02</span><strong>Estudia versículos con IA</strong><p>En «Estudio por Versículo» profundizas en un pasaje: su contexto, sus palabras y su significado.</p></li><li><span class="lda-n">03</span><strong>Todo un College por descubrir</strong><p>S · T · A · R · S es parte de El College, un ecosistema que conecta otras experiencias como The Way y Bookclub.</p></li></ul>
+ </div></section>
+ <section class="lda-end"><div class="wrap w lda-end-in">
+  <img class="lda-endstar" src="{{ ldStar }}" alt="">
+  <span class="lda-k">Para qué existe</span><h2 class="lda-h1 lda-endt">Para que la verdad sea mayor que tu realidad.</h2><p class="lda-p">No necesitas tener todas las respuestas ni conocer toda la Biblia para comenzar. Entra, toma un paso diario o profundiza en un texto, y permite que la Escritura te acompañe desde donde estás.</p><button class="btn lda-go" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button>
+  <p class="lda-peter">«Yo quería que la gente experimentara la Escritura como lo que es — no como palabras religiosas para leer piadosamente, sino como palabras vivientes que nos meten en el mundo de Dios.» <span>Eugene Peterson · The Message</span></p>
+ </div></section>
+ <footer class="wrap w lda-foot"><div class="lda-k">El College</div><div class="lda-ft">Todo lo que necesitas para ir más profundo.</div><div class="hub" style="flex-wrap: wrap"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></div><div class="meta">Instagram · YouTube · Linktree</div><div class="meta">© 2026 LHSCOL · Manizales, Colombia. Hecho con ♥ en el Eje Cafetero.</div></footer>
+</div>
+<div class="content ld only-b">
+ <header class="ld-nav"><div class="ld-brand"><img src="{{ ldStar }}" alt=""><span>S · T · A · R · S</span></div><nav class="hub wide-only"><span>LHSCOL</span><span>Mayor que mi realidad</span><span class="on">S · T · A · R · S</span><span>The Way</span><span>Staff</span><span>Bookclub</span></nav><button class="pill solid" onClick="{{ go.splash }}">Mis pasos</button></header>
  <section class="ld-hero"><div class="wrap w">
   <div class="ld-hero-in">
-   <div class="ld-hero-tx"><span class="ld-tag">Mayor que mi realidad es Su Verdad.</span><h1 class="ld-h1">La Escritura puede ser más que algo que lees.</h1><p class="ld-p">S · T · A · R · S te acompaña a encontrarte con la Biblia de una manera clara, profunda y posible para tu vida real. No se trata solo de recibir información, sino de detenerte, escuchar, comprender y permitir que la verdad de Dios forme tu manera de vivir.</p><div class="ld-ctas"><button class="pill solid big" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button><button class="pill line big" onClick="{{ verMetodo }}">Conocer el método</button></div></div>
-   <div class="ld-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ star }}" alt=""></div>
+   <div class="ld-hero-tx"><span class="ld-tag">{{ ldTag }}</span><h1 class="ld-h1">La Escritura puede ser más que algo que lees.</h1><p class="ld-p">S · T · A · R · S te acompaña a encontrarte con la Biblia de una manera clara, profunda y posible para tu vida real. No se trata solo de recibir información, sino de detenerte, escuchar, comprender y permitir que la verdad de Dios forme tu manera de vivir.</p><div class="ld-ctas"><button class="pill solid big" onClick="{{ go.splash }}">Entrar a S · T · A · R · S</button><button class="pill line big" onClick="{{ verMetodo }}">Conocer el método</button></div></div>
+   <div class="ld-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ ldStar }}" alt=""></div>
   </div>
   <div class="ld-band"><i class="c-silencio"></i><i class="c-texto"></i><i class="c-analisis"></i><i class="c-reflexion"></i><i class="c-siembra"></i></div>
  </div></section>
@@ -39,7 +82,7 @@
 <button class="spl" onClick="{{ go.hoy }}" aria-label="Entrar a la app">
  <span class="spl-glow" aria-hidden="true"></span>
  <span class="spl-orb" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ starSplash }}" alt=""></span>
- <span class="spl-q">«Mayor que mi realidad es Su Verdad.»</span>
+ <span class="spl-q">{{ splQ }}</span>
  <span class="spl-m">{{ splMeta }}</span>
  <span class="spl-bar" aria-hidden="true"><i></i></span>
  <span class="spl-tap">Toca para entrar</span>
@@ -52,11 +95,11 @@
  <div class="el-opts">
   <button class="el-opt {{ optBc }}" onClick="{{ setExp.moderna }}">
    <span class="el-prev pv-b" data-theme="b-noche"><span class="pvb-block"><span class="pvb-k">Paso diario</span><span class="pvb-t">{{ d.titulo }}</span><span class="pvb-segs"><i></i><i></i><i></i><i></i><i></i></span></span><span class="pvb-bento"><i></i><i></i><i></i></span></span>
-   <span class="el-tx"><span class="el-row"><strong>Modelo 2027</strong><span class="el-badge">Predeterminado</span></span><span class="el-d">Papel y color. Cada paso con su color, letra grande y cajones.</span></span><span class="el-ck">✓</span>
+   <span class="el-tx"><span class="el-row"><strong>Una Vida a Todo Color</strong><span class="el-badge">Modelo 2027</span></span><span class="el-d">Papel y color. Cada paso con su color, letra grande y cajones.</span></span><span class="el-ck">✓</span>
   </button>
   <button class="el-opt {{ optAc }}" onClick="{{ setExp.clasica }}">
    <span class="el-prev pv-a" data-theme="a-noche"><span class="pva-card"><span class="pva-k">{{ fechaLarga }}</span><span class="pva-t">{{ d.titulo }}</span><span class="pva-pills"><i>S</i><i>T</i><i class="now">A</i><i>R</i><i>S</i></span></span></span>
-   <span class="el-tx"><span class="el-row"><strong>Modelo 2026</strong></span><span class="el-d">Negro y dorado. Tu día en una lista, paso a paso.</span></span><span class="el-ck">✓</span>
+   <span class="el-tx"><span class="el-row"><strong>El Buen Camino</strong><span class="el-badge">Modelo 2025</span></span><span class="el-d">Negro y dorado. Tu día en una lista, paso a paso.</span></span><span class="el-ck">✓</span>
   </button>
  </div>
  <button class="pill solid big el-go" onClick="{{ go.hoy }}">{{ elGo }}</button>
@@ -285,17 +328,17 @@
    <span class="mp-k">{{ plSel.mom }}</span>
    <strong class="mp-n">{{ plSel.n }}</strong>
    <span class="mp-d">{{ plSel.d }}</span>
-   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.open }}" aria-label="Escuchar en YouTube Music"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button></span>
+   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.play }}" aria-label="{{ plSel.playTxt }}"><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"></path></svg></sc-if><sc-if value="{{ plSel.quieto }}" hint-placeholder-val="{{ true }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></sc-if></button></span><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><div class="rd-yt" data-rd-yt="{{ plSel.n }}" data-rd-html="1"></div></sc-if>
   </section>
   <ol class="tracks"><sc-for list="{{ plTracks }}" as="l" hint-placeholder-count="5"><li><button class="trk {{ l.cls }} {{ l.cc }}" onClick="{{ l.pick }}"><span class="no">{{ l.no }}</span><span class="tx"><strong>{{ l.n }}</strong><span>{{ l.k }}</span></span><span class="now">♪</span></button></li></sc-for></ol>
-  <p class="mus-note">Las listas se abren en YouTube Music.</p>
+  <p class="mus-note">Las listas suenan aquí mismo, sin salir de la app.</p>
  </div>
 </div>
  <div class="only-b mx"><div class="wrap w mx-in mz2">
   <header class="mx-head"><h1 class="mx-t">Música</h1><p class="mx-sub">Cinco listas para cada momento.</p></header>
   <div class="mz2-g"><sc-for list="{{ plTracks }}" as="l" hint-placeholder-count="5"><button class="mzt {{ l.cc }} {{ l.cls }} {{ l.sz }}" onClick="{{ l.pick }}"><span class="top"><span class="no">{{ l.no }}</span><span class="eqm" aria-hidden="true"><i></i><i></i><i></i><i></i></span></span><span class="tx"><span class="k">{{ l.mom }}</span><strong>{{ l.n }}</strong></span><span class="pl"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></span></button></sc-for></div>
-  <div class="mz2-now narrow-only {{ plSel.cc }}"><span class="tx"><span class="k">Sonando · {{ plSel.n }}</span><span class="d">{{ plSel.d }}</span></span><button class="pill dark" onClick="{{ plSel.open }}">Abrir ↗</button></div>
-  <p class="mx-note">Las listas se abren en YouTube Music.</p>
+  <div class="mz2-now narrow-only {{ plSel.cc }}"><span class="tx"><span class="k">{{ plSel.estado }} · {{ plSel.n }}</span><span class="d">{{ plSel.d }}</span></span><button class="pill dark" onClick="{{ plSel.play }}">{{ plSel.playTxt }}</button></div><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><div class="rd-yt narrow-only" data-rd-yt="{{ plSel.n }}" data-rd-html="1"></div></sc-if>
+  <p class="mx-note">Las listas suenan aquí mismo, sin salir de la app.</p>
  </div></div>
 </div>
 </sc-if>
@@ -343,7 +386,7 @@
      <button class="breathring {{ timerCls }}" onClick="{{ timer }}" aria-label="Iniciar el temporizador de 5 minutos"><span class="br1"></span><span class="br2"></span><span class="brt"><b>{{ timerTxt }}</b><span class="meta">{{ timerSub }}</span></span></button>
      <div class="label mut" style="text-align: center">Oración de apertura</div>
      <p class="quote prayer">{{ d.oracion }}</p>
-     <button class="player" onClick="{{ go.musica }}"><span class="pplay">▶</span><span style="flex: 1; text-align: left"><span class="label" style="display: block">Música para meditar</span><strong>Spirit · YouTube Music</strong></span><span class="eq"><i></i><i></i><i></i><i></i></span></button>
+     <button class="player {{ musSil.cls }}" onClick="{{ musSil.toggle }}"><span class="pplay">{{ musSil.ico }}</span><span style="flex: 1; text-align: left"><span class="label" style="display: block">Música para meditar</span><strong>Spirit · YouTube Music</strong></span><span class="eq"><i></i><i></i><i></i><i></i></span></button><sc-if value="{{ musSil.on }}" hint-placeholder-val="{{ false }}"><div class="rd-yt" data-rd-yt="Spirit" data-rd-html="1"></div></sc-if>
     </div></sc-if>
 
     <sc-if value="{{ m.texto }}" hint-placeholder-val="{{ false }}"><div class="textostep">
@@ -362,14 +405,14 @@
 
     <sc-if value="{{ m.reflexion }}" hint-placeholder-val="{{ false }}"><div class="reflexionstep">
      <div class="notebook"><div class="label">Pregunta de reflexión</div><p class="bigq">{{ d.reflex }}</p><div class="lines"></div></div>
-     <div class="diarybox"><label class="label mut" for="refA">Tu respuesta</label><textarea id="refA" class="field" placeholder="Escribe con honestidad. Nadie más lo lee.">{{ refTexto }}</textarea><div class="diaryfoot"><span class="badge">Solo tú · se guarda en tu diario</span><button class="meta" style="min-height: 44px" onClick="{{ cuaderno }}">Prefiero mi cuaderno</button></div></div>
+     <div class="diarybox"><label class="label mut" for="refA">Tu respuesta</label><textarea id="refA" class="field" placeholder="Escribe con honestidad. Nadie más lo lee.">{{ refTexto }}</textarea></div>
     </div></sc-if>
 
     <sc-if value="{{ m.siembra }}" hint-placeholder-val="{{ false }}"><div class="siembrastep">
      <div class="practice semcard {{ semVarios }}"><ol class="sem-steps"><sc-for list="{{ semPasos }}" as="p"><li><span class="sn">{{ p.n }}</span><p class="ptext"><sc-for list="{{ p.segs }}" as="s"><sc-if value="{{ s.plain }}" hint-placeholder-val="{{ false }}">{{ s.t }}</sc-if><sc-if value="{{ s.q }}" hint-placeholder-val="{{ false }}"><em class="pq">«{{ s.t }}»</em></sc-if><sc-if value="{{ s.b }}" hint-placeholder-val="{{ false }}"><b class="pb">{{ s.t }}</b></sc-if></sc-for></p></li></sc-for></ol><sc-if value="{{ semLink }}" hint-placeholder-val="{{ false }}"><button class="sem-go" onClick="{{ go.profundizar }}">Abrir Profundizar el texto ›</button></sc-if></div>
-     <div class="diarybox"><label class="label mut" for="semA">Mi paso de hoy</label><textarea id="semA" class="field" style="min-height: 90px" placeholder="Un paso concreto y posible para hoy.">{{ semTexto }}</textarea><div class="diaryfoot"><span class="badge">Solo tú · se guarda en tu diario</span><button class="meta" style="min-height: 44px" onClick="{{ cuaderno }}">Prefiero mi cuaderno</button></div></div>
+     <div class="diarybox"><label class="label mut" for="semA">Mi paso de hoy</label><textarea id="semA" class="field" style="min-height: 90px" placeholder="Un paso concreto y posible para hoy.">{{ semTexto }}</textarea></div>
     </div></sc-if>
-    <div class="stepcta endcta"><button class="btn block" onClick="{{ stepNext }}">✓ {{ stepBtn }}</button><span class="meta">{{ stepMeta }}</span></div>
+    <div class="stepcta endcta"><div class="steprow"><sc-if value="{{ stepAnt.hay }}" hint-placeholder-val="{{ true }}"><button class="btn ghost stepback" onClick="{{ stepAnt.go }}" aria-label="Volver a {{ stepAnt.n }}">‹ {{ stepAnt.n }}</button></sc-if><button class="btn block" onClick="{{ stepNext }}">✓ {{ stepBtn }}</button></div><span class="meta">{{ stepMeta }}</span></div>
    </div>
   </div>
  </section>
@@ -382,7 +425,7 @@
  <div class="dca-head"><span class="label">{{ fechaLarga }} · día {{ racha }} de tu racha</span><h1 class="dca-t">Paso diario completo</h1></div>
  <div class="cierreMin dca-cierre"><div class="label">Oración de cierre</div><p class="quote">{{ d.cierre }}</p></div>
  <div class="dca-acts">
-  <div class="dca-fprev"><span class="label">Frase para hoy</span><button class="{{ fraseCls }} mini" style="{{ fraseSt }}" onClick="{{ go.frase }}"><span class="fs-top"><span class="lgo fs-lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></span><span class="quote fs-q">{{ fraseQ }}</span><span class="fs-ref">{{ d.ref }} · @lhscol</span></button><button class="dca-btn solid" onClick="{{ fraseIG }}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span>Descargar imagen</button></div>
+  <div class="dca-fprev"><span class="label">Frase para hoy</span><button class="{{ fraseCls }} mini" style="{{ fraseSt }}" onClick="{{ go.frase }}"><span class="quote fs-q">{{ fraseQ }}</span><span class="fs-ref">{{ d.ref }} · @lhscol</span></button><button class="dca-btn solid" onClick="{{ fraseIG }}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span>Descargar imagen</button><button class="{{ fraseVideoDca }}" onClick="{{ fraseVideo }}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2.5"></rect><path d="M16 10.5l5-3v9l-5-3z"></path></svg></span>{{ fraseVideoTxt }}</button></div>
   <button class="dca-btn {{ guardOn }}" onClick="{{ guardarDia }}"><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></span>{{ guardIco }} {{ guardarTxt }}</button>
   <button class="dca-btn" onClick="{{ go.hoy }}"><span aria-hidden="true">‹</span> Volver al Paso Diario</button>
  </div>
@@ -394,6 +437,8 @@
  <div class="dcb-cierre"><span class="mx-k2">Oración de cierre</span><p>{{ d.cierre }}</p></div>
  <div class="mdx-bento dcb-acts">
   <button class="bx tall c-reflexion" onClick="{{ go.frase }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><strong>Frase para hoy</strong><span>{{ d.frase }}</span></button>
+  <button class="bx c-silencio" onClick="{{ fraseIG }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><strong>Descargar imagen</strong><span>Historia 9:16</span></button>
+  <button class="bx c-siembra {{ fraseVidOn }}" onClick="{{ fraseVideo }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2.5"></rect><path d="M16 10.5l5-3v9l-5-3z"></path></svg></span><strong>Descargar video</strong><span>{{ fraseVidSub }}</span></button>
   <button class="bx c-texto" onClick="{{ guardarDia }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10v16l-5-4-5 4z"></path></svg></span><strong>{{ guardarTxt }}</strong><span>Para volver a estudiarlo</span></button>
   <button class="bx c-analisis" onClick="{{ go.hoy }}"><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span><strong>Volver</strong><span>Al Paso Diario</span></button>
  </div>
@@ -408,14 +453,17 @@
  <div class="label mut">Profundizar texto · Estudio exegético</div><h1 class="h1">{{ d.ref }}</h1>
  <div class="pf-breve"><div class="pf-lead"><span class="label">En pocas palabras</span><p>{{ brv.lead }}</p></div><sc-for list="{{ brv.rest }}" as="p"><p class="pf-p">{{ p }}</p></sc-for></div>
  <div class="label mut pf-h">Palabra por palabra</div>
- <sc-for list="{{ notas }}" as="n" hint-placeholder-count="3"><div class="card stack pfnota"><span class="pf-v">{{ n.ref }}</span><p class="pf-es">«{{ n.es }}»</p><p class="pf-en">{{ n.en }}</p><p class="pf-nb"><b>NBLA</b> «{{ n.nbla }}»</p><p class="pf-ex">{{ n.exp }}</p></div></sc-for>
+ <sc-for list="{{ notasA }}" as="n" hint-placeholder-count="3"><div class="card stack pfnota"><span class="pf-vrow"><span class="pf-v">{{ n.ref }}</span><b class="pf-tag">MSG</b></span><p class="pf-es">«{{ n.es }}»</p><p class="pf-en">{{ n.en }}</p><p class="pf-nb"><b>NBLA</b> «{{ n.nbla }}»</p><p class="pf-ex">{{ n.exp }}</p></div></sc-for>
+ <div class="pf-acts"><button class="dca-btn solid" onClick="{{ openFil }}">Capítulo de la semana · {{ capSemana }}</button><sc-if value="{{ pfSug.hay }}" hint-placeholder-val="{{ true }}"><button class="dca-btn" onClick="{{ pfSug.go }}">Estudiar {{ pfSug.t }}</button></sc-if><button class="dca-btn" onClick="{{ pfVolver.go }}"><span aria-hidden="true">‹</span> {{ pfVolver.t }}</button></div>
 </div>
 </div>
 <div class="only-b mx">
 <div class="wrap mx-in">
  <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario</button>
- <section class="mx-block {{ profC }}"><span class="mx-k">Profundizar texto · Estudio exegético</span><strong class="mx-big">{{ d.ref }}</strong><p class="mx-p">{{ d.breve }}</p></section>
- <ol class="mx-notas {{ profC }}"><sc-for list="{{ notas }}" as="n" hint-placeholder-count="3"><li class="mx-nota"><span class="vtag">{{ n.ref }}</span><div class="nt"><p class="es">«{{ n.es }}»</p><p class="en">{{ n.en }}</p><p class="nb">NBLA · «{{ n.nbla }}»</p><p class="ex">{{ n.exp }}</p></div></li></sc-for></ol>
+ <section class="mx-block {{ profC }}"><span class="mx-k">Profundizar texto · Estudio exegético</span><strong class="mx-big">{{ d.ref }}</strong><span class="mx-k">En pocas palabras</span><p class="mx-p">{{ brv.lead }}</p></section>
+ <sc-if value="{{ brv.hayRest }}" hint-placeholder-val="{{ true }}"><div class="mx-pf-rest"><sc-for list="{{ brv.rest }}" as="p"><p>{{ p }}</p></sc-for></div></sc-if>
+ <ol class="mx-notas {{ profC }}"><sc-for list="{{ notasA }}" as="n" hint-placeholder-count="3"><li class="mx-nota"><span class="vtags"><span class="vtag">{{ n.ref }}</span><b class="vtag-msg">MSG</b></span><div class="nt"><p class="es">«{{ n.es }}»</p><p class="en">{{ n.en }}</p><p class="nb">NBLA · «{{ n.nbla }}»</p><p class="ex">{{ n.exp }}</p></div></li></sc-for></ol>
+ <div class="mdx-bento pfb-acts"><button class="bx wide c-siembra" onClick="{{ openFil }}"><span class="tx"><span class="k">Capítulo de la semana</span><strong>{{ capSemana }}</strong></span><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></button><sc-if value="{{ pfSug.hay }}" hint-placeholder-val="{{ true }}"><button class="bx wide c-texto" onClick="{{ pfSug.go }}"><span class="tx"><span class="k">Capítulo sugerido</span><strong>{{ pfSug.t }}</strong></span><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></button></sc-if><button class="bx wide c-analisis" onClick="{{ pfVolver.go }}"><span class="tx"><span class="k">Volver</span><strong>{{ pfVolver.d }}</strong></span><span class="bx-go"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg></span></button></div>
 </div>
 </div>
 </sc-if>
@@ -425,14 +473,14 @@
 <div class="wrap stack" style="padding-top: 52px; padding-bottom: 32px">
  <button class="label" style="text-align: left" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
  <div class="{{ fraseCls }}" style="{{ fraseSt }}"><span class="fs-top"><span class="lgo fs-lgo" aria-hidden="true"><span class="o o1"></span><span class="o o2"></span><span class="o o3"></span><span class="o o4"></span><span class="o o5"></span><img src="{{ logoA }}" alt=""></span><span>S · T · A · R · S</span></span><p class="quote fs-q">{{ fraseQ }}</p><span class="fs-ref">{{ d.ref }} · @lhscol</span></div>
- <div class="fs-acts"><button class="btn block" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="btn ghost block" onClick="{{ frasePNG }}">Descargar imagen PNG</button><button class="{{ fraseVideoCls }}" onClick="{{ fraseVideo }}"><span aria-hidden="true">▶</span> {{ fraseVideoTxt }}</button></div>
+ <div class="fs-acts"><button class="btn block" onClick="{{ fraseIG }}">Descargar para Instagram</button><button class="{{ fraseVideoCls }}" onClick="{{ fraseVideo }}"><span aria-hidden="true">▶</span> {{ fraseVideoTxt }}</button></div>
 </div>
 </div>
 <div class="only-b mx">
 <div class="wrap mx-in">
  <button class="mx-back" onClick="{{ go.hoy }}">‹ Paso Diario · Frase para hoy</button>
  <div class="mx-story {{ fraseC }}"><span class="sq">“</span><p class="ft">{{ d.frase }}</p><span class="fm">{{ d.ref }}</span><span class="fb">S · T · A · R · S · @lhscol</span></div>
- <div class="mx-dl"><button class="mx-dlb" onClick="{{ fraseIG }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><span><strong>Para Instagram</strong><span>Historia 9:16</span></span></button><button class="mx-dlb" onClick="{{ frasePNG }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><span><strong>Imagen PNG</strong><span>Para compartir</span></span></button></div>
+ <div class="mx-dl"><button class="mx-dlb" onClick="{{ fraseIG }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M5 20h14"></path></svg></span><span><strong>Para Instagram</strong><span>Historia 9:16</span></span></button><button class="mx-dlb {{ fraseVidOn }}" onClick="{{ fraseVideo }}"><span class="rd"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="13" height="12" rx="2.5"></rect><path d="M16 10.5l5-3v9l-5-3z"></path></svg></span><span><strong>Video</strong><span>{{ fraseVidSub }}</span></span></button></div>
 </div>
 </div>
 </sc-if>
@@ -690,8 +738,8 @@
   <section class="cfc-c">
    <h2 class="cfc-t">Experiencia <span class="newtag">Nuevo</span></h2>
    <div class="cfc-exp">
-    <button class="cfc-m {{ expOn.clasica }}" onClick="{{ setExp.clasica }}"><span class="cfc-pv a"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>Modelo 2026</strong><span class="d">Clásico · negro y dorado</span><span class="ck" aria-hidden="true"></span></button>
-    <button class="cfc-m {{ expOn.moderna }}" onClick="{{ setExp.moderna }}"><span class="cfc-pv b"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>Modelo 2027</strong><span class="d">Moderno · los colores de cada paso</span><span class="ck" aria-hidden="true"></span></button>
+    <button class="cfc-m {{ expOn.clasica }}" onClick="{{ setExp.clasica }}"><span class="cfc-pv a"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>El Buen Camino</strong><span class="d">Modelo 2025 · negro y dorado</span><span class="ck" aria-hidden="true"></span></button>
+    <button class="cfc-m {{ expOn.moderna }}" onClick="{{ setExp.moderna }}"><span class="cfc-pv b"><span class="ln"></span><span class="ln s"></span><span class="pl"><i></i><i></i><i></i><i></i><i></i></span><span class="bt"></span></span><strong>Una Vida a Todo Color</strong><span class="d">Modelo 2027 · los colores de cada paso</span><span class="ck" aria-hidden="true"></span></button>
    </div>
    <p class="cfc-note">Tu progreso y tu racha se mantienen al cambiar.</p>
   </section>
@@ -702,7 +750,7 @@
   </section>
   <section class="cfc-c">
    <h2 class="cfc-t">Tema de la app</h2>
-   <p class="cfc-note" style="margin-top: 0">Cambia el dorado por el color de una identidad de LHSCOL. Solo en el modelo 2026.</p>
+   <p class="cfc-note" style="margin-top: 0">Cambia el dorado por el color de una identidad de LHSCOL. Solo en El Buen Camino.</p>
    <div class="cfc-tm"><button class="cfc-sw {{ temaOn.lhscol }}" onClick="{{ setTema.lhscol }}"><i style="background: #c9a84c"></i><span>LHSCOL</span></button><button class="cfc-sw {{ temaOn.oxigeno }}" onClick="{{ setTema.oxigeno }}"><i style="background: #00f5ff"></i><span>Oxígeno</span></button><button class="cfc-sw {{ temaOn.mesa }}" onClick="{{ setTema.mesa }}"><i style="background: #ff6b6b"></i><span>La Mesa</span></button><button class="cfc-sw {{ temaOn.sala }}" onClick="{{ setTema.sala }}"><i style="background: #a8ff3e"></i><span>La Sala</span></button></div>
   </section>
   <button class="cfc-c cfc-dia" onClick="{{ go.pin }}"><span class="cfc-lk"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2.5"></rect><path d="M8 11V8a4 4 0 0 1 8 0v3"></path></svg></span><span class="t"><strong>Mi diario</strong><span>Protegido con PIN · solo tú lo ves</span></span><span class="chev">›</span></button>
@@ -718,7 +766,7 @@
 <div class="only-b mx"><div class="wrap mx-in cfb">
  <button class="mx-back narrow-only" onClick="{{ go.hoy }}">‹ Paso Diario</button>
  <header class="cfb-h"><strong class="mx-big">{{ cfgTitle }}</strong><span class="cfb-me"><span class="avatar">{{ inicial }}</span>{{ nombre }}</span></header>
- <section class="mx-block c-tinta cfb-exp"><span class="mx-k">Experiencia · nuevo</span><strong class="cfb-big">¿Cómo quieres vivir S · T · A · R · S?</strong><span class="cfb-seg"><button class="{{ expOn.moderna }}" onClick="{{ setExp.moderna }}">Modelo 2027</button><button class="{{ expOn.clasica }}" onClick="{{ setExp.clasica }}">Modelo 2026</button></span><span class="mx-k">Tu progreso y tu racha se mantienen al cambiar.</span></section>
+ <section class="mx-block c-tinta cfb-exp"><span class="mx-k">Experiencia · nuevo</span><strong class="cfb-big">¿Cómo quieres vivir S · T · A · R · S?</strong><span class="cfb-seg"><button class="{{ expOn.moderna }}" onClick="{{ setExp.moderna }}">A Todo Color</button><button class="{{ expOn.clasica }}" onClick="{{ setExp.clasica }}">El Buen Camino</button></span><span class="mx-k">Tu progreso y tu racha se mantienen al cambiar.</span></section>
  <div class="cfb-g">
   <button class="cb c-texto" onClick="{{ toggleLuz }}"><span class="k">Luz</span><strong>Modo día</strong><span class="s">{{ luzTxt }}</span><span class="toggle cb-tg {{ diaOn }}"></span></button>
   <div class="cb c-analisis"><span class="k">Lectura</span><strong>Tamaño de letra</strong><span class="s">Afecta toda la app</span><span class="cb-fs"><sc-for list="{{ fontBtns }}" as="f"><button class="{{ f.cls }}" onClick="{{ f.pick }}" aria-label="{{ f.l }}">A</button></sc-for></span></div>
@@ -771,13 +819,13 @@
    <span class="mp-k">{{ plSel.mom }}</span>
    <strong class="mp-n">{{ plSel.n }}</strong>
    <span class="mp-d">{{ plSel.d }}</span>
-   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.open }}" aria-label="Escuchar en YouTube Music"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button></span>
+   <span class="mp-row"><span class="eqw" aria-hidden="true"><i style="--h:40%;--d:0.90s"></i><i style="--h:75%;--d:1.10s"></i><i style="--h:55%;--d:0.80s"></i><i style="--h:90%;--d:1.20s"></i><i style="--h:60%;--d:1.00s"></i><i style="--h:35%;--d:0.85s"></i><i style="--h:70%;--d:1.15s"></i><i style="--h:85%;--d:0.95s"></i><i style="--h:50%;--d:1.05s"></i><i style="--h:30%;--d:0.90s"></i><i style="--h:65%;--d:1.20s"></i><i style="--h:80%;--d:0.80s"></i><i style="--h:45%;--d:1.00s"></i><i style="--h:70%;--d:0.90s"></i><i style="--h:40%;--d:1.10s"></i><i style="--h:60%;--d:0.95s"></i><i style="--h:85%;--d:1.05s"></i><i style="--h:50%;--d:0.85s"></i><i style="--h:35%;--d:1.20s"></i><i style="--h:55%;--d:1.00s"></i></span><button class="mp-play" onClick="{{ plSel.play }}" aria-label="{{ plSel.playTxt }}"><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"></path></svg></sc-if><sc-if value="{{ plSel.quieto }}" hint-placeholder-val="{{ true }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></sc-if></button></span><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><div class="rd-yt" data-rd-yt="{{ plSel.n }}" data-rd-html="1"></div></sc-if>
   </section>
- <sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="meta">Es la lista que se abre desde el paso Silencio.</p></sc-if>
- <p class="mus-note">Se abre en YouTube Music.</p>
+ <sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="meta">Es la lista que suena en el paso Silencio.</p></sc-if>
+ <p class="mus-note">Suena aquí mismo, sin salir de la app.</p>
 </div></div>
 </div>
-<div class="only-b mx"><div class="mzw2 {{ plSel.cc }}"><span class="k">{{ plSel.mom }} · lista {{ plSel.no }} de 05</span><strong class="n">{{ plSel.n }}</strong><p class="d">{{ plSel.d }}</p><sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="d sm">Es la lista que se abre desde el paso Silencio.</p></sc-if><span class="eqb" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="act"><button class="big-play" onClick="{{ plSel.open }}" aria-label="Escuchar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></button><button class="pill line big" onClick="{{ plSel.open }}">Abrir en YouTube Music ↗</button></span></div></div>
+<div class="only-b mx"><div class="mzw2 {{ plSel.cc }}"><span class="k">{{ plSel.mom }} · lista {{ plSel.no }} de 05</span><strong class="n">{{ plSel.n }}</strong><p class="d">{{ plSel.d }}</p><sc-if value="{{ plSel.spirit }}" hint-placeholder-val="{{ true }}"><p class="d sm">Es la lista que suena en el paso Silencio.</p></sc-if><span class="eqb" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span><span class="act"><button class="big-play" onClick="{{ plSel.play }}" aria-label="{{ plSel.playTxt }}"><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"></path></svg></sc-if><sc-if value="{{ plSel.quieto }}" hint-placeholder-val="{{ true }}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z"></path></svg></sc-if></button><button class="pill line big" onClick="{{ plSel.play }}">{{ plSel.playTxt }}</button></span><sc-if value="{{ plSel.sonando }}" hint-placeholder-val="{{ false }}"><div class="rd-yt" data-rd-yt="{{ plSel.n }}" data-rd-html="1"></div></sc-if></div></div>
 </sc-if>
 
 </section>

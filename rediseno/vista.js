@@ -54,7 +54,9 @@
     calY: null, calM: null,
     ob: 1, ol: '', oc: '',
     timer: { key: '', start: 0, done: false },
-    lastMode: ''
+    lastMode: '',
+    pfDesde: '',
+    sonando: ''
   };
   if (['lhscol', 'oxigeno', 'mesa', 'sala'].indexOf(st.tema) < 0) st.tema = 'lhscol';
 
@@ -63,8 +65,52 @@
   function pintar() {
     if (pendiente) return;
     pendiente = true;
-    setTimeout(() => { pendiente = false; render(valores()); }, 0);
+    setTimeout(() => { pendiente = false; render(valores()); montarMusica(); devoParaLanding(); }, 0);
   }
+  // La landing muestra el Paso Diario de hoy en el teléfono: sin sesión también se carga el devocional.
+  let landingDevo = false;
+  function devoParaLanding() {
+    if (st.screen !== 'landing' || landingDevo || g(() => Boolean(getDevoHoy() && getDevoHoy().titulo), false)) return;
+    landingDevo = true;
+    g(() => { const i = semanaISOConAnio(new Date()); cargarDevocionalSemana(i.year, i.week).then(() => pintar()); });
+  }
+
+  /* ── Música dentro de la app ──
+     El reproductor de YouTube se arma en la misma pantalla (Silencio o Música), así la persona
+     no sale de la app: el contador de Silencio sigue y la pantalla no se apaga mientras suena. */
+  function tocar(n) { st.sonando = st.sonando === n ? '' : n; pintar(); }
+  function listaId(n) {
+    const l = PLAYLISTS.filter((x) => x.n === n)[0];
+    const m = l ? /list=([\w-]+)/.exec(l.url) : null;
+    return m ? m[1] : '';
+  }
+  let candado = null;
+  async function pantallaEncendida(si) {
+    try {
+      if (si && !candado && navigator.wakeLock && document.visibilityState === 'visible') {
+        candado = await navigator.wakeLock.request('screen');
+        candado.addEventListener('release', () => { candado = null; });
+      } else if (!si && candado) { const c = candado; candado = null; await c.release(); }
+    } catch (_) { candado = null; }
+  }
+  function montarMusica() {
+    if (['musica', 'silencio'].indexOf(st.screen) < 0 && st.sonando) { st.sonando = ''; pintar(); }
+    const cajas = Array.from(document.querySelectorAll('#rd-root .rd-yt'));
+    let usada = false;
+    cajas.forEach((c) => {
+      const n = c.getAttribute('data-rd-yt');
+      if (!usada && c.offsetParent && n === st.sonando) {
+        usada = true;
+        if (c.__lista !== n) {
+          c.__lista = n;
+          c.innerHTML = '<iframe src="https://www.youtube.com/embed/videoseries?list=' + listaId(n) + '&autoplay=1&playsinline=1&rel=0" title="' + n + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+        }
+      } else if (c.__lista) { c.__lista = ''; c.innerHTML = ''; }
+    });
+    const silencioCorre = st.screen === 'silencio' && st.timer.key === getTodayKey() && st.timer.start && !st.timer.done;
+    pantallaEncendida(Boolean(st.sonando) || Boolean(silencioCorre));
+  }
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { candado = null; montarMusica(); } });
   function set(o) { return () => { Object.assign(st, o); pintar(); if (o.screen) arriba(); }; }
   function ir(screen, extra) { Object.assign(st, extra || {}, { screen: screen }); pintar(); arriba(); }
   function arriba() {
@@ -156,12 +202,35 @@
     if (!nbla && es) { nbla = es; es = ''; }
     return { ref: ref, en: en, es: es, nbla: nbla, exp: exp };
   }
-  // Explicación breve de Profundizar: primera frase destacada y el resto en párrafos cortos.
+  // Explicación breve de Profundizar: «En pocas palabras» destacada y el resto en párrafos cortos.
+  // Si el texto trae un primer párrafo aparte (línea en blanco), ese es «En pocas palabras»; si no,
+  // se toman las primeras frases hasta unas 25 palabras (máximo tres), para que no quede tan corta.
   function partirBreve(txt) {
-    const frases = String(txt || '').split(/(?<=[.!?])\s+(?=[«¿¡A-ZÁÉÍÓÚÑ0-9])/).map((s) => s.trim()).filter(Boolean);
+    const bruto = String(txt || '').trim();
+    const partir = (t) => t.split(/(?<=[.!?»])\s+(?=[«¿¡A-ZÁÉÍÓÚÑ0-9])/).map((s) => s.trim()).filter(Boolean);
+    let lead = '';
+    let frases = [];
+    const parrafos = bruto.split(/\n\s*\n/).map((x) => x.trim()).filter(Boolean);
+    if (parrafos.length > 1) {
+      lead = parrafos[0].replace(/\s+/g, ' ');
+      frases = partir(parrafos.slice(1).join(' '));
+    } else {
+      frases = partir(bruto);
+      let n = 0;
+      const tomadas = [];
+      while (frases.length && tomadas.length < 3 && n < 25) { const f = frases.shift(); tomadas.push(f); n += f.split(/\s+/).length; }
+      lead = tomadas.join(' ');
+    }
     const rest = [];
-    for (let i = 1; i < frases.length; i += 2) rest.push(frases.slice(i, i + 2).join(' '));
-    return { lead: frases[0] || '', rest: rest };
+    for (let i = 0; i < frases.length; i += 2) rest.push(frases.slice(i, i + 2).join(' '));
+    return { lead: lead, rest: rest, hayRest: rest.length > 0 };
+  }
+  // Modelo 2026 · la invitación final a «Estudio» sale de la última nota y pasa a botones.
+  function quitarInvitacionEstudio(exp) {
+    const m = /\s*[^.!?\n]*sección «Estudio»[\s\S]*$/.exec(String(exp || ''));
+    if (!m) return { exp: exp, sug: '' };
+    const e = /estudia\s+((?:\d\s)?[^\d,;.\n]+?\s\d+)/.exec(m[0]);
+    return { exp: String(exp).slice(0, m.index).trim(), sug: e ? e[1].trim() : '' };
   }
 
   function fechaLarga(key) {
@@ -260,6 +329,10 @@
   function textoDiario(i) {
     const el = document.getElementById(i === 3 ? 'refA' : 'semA');
     return el ? el.value.trim() : '';
+  }
+  function guardarTextoDiario(i) {
+    const t = textoDiario(i);
+    if (t && window.FB) g(() => (i === 3 ? window.FB.setReflexion(getTodayKey(), t) : window.FB.setSembrar(getTodayKey(), t)));
   }
   function completarPaso(i) {
     return () => {
@@ -706,7 +779,7 @@
     const screen = st.screen;
     const w = st.w;
     const isA0 = st.exp === 'clasica';
-    const isA = isA0 && ['landing', 'elegir'].indexOf(screen) < 0;
+    const isA = isA0 && screen !== 'elegir';
     const dev = w < 600 ? 'movil' : (w < 1100 ? 'tablet' : 'escritorio');
     const luz = st.luz;
     const tema = st.tema;
@@ -730,6 +803,7 @@
       if (st.sesion === 'fuera') { if (typeof loginConGoogle === 'function') loginConGoogle(); return; }
       ir('splash');
     };
+    go.profundizar = () => ir('profundizar', { pfDesde: STEP_IDS.indexOf(st.screen) >= 0 ? st.screen : (st.screen === 'profundizar' ? st.pfDesde : 'hoy') });
     go.pin = abrirDiario;
     go.diario = abrirDiario;
     go.landing = () => { if (confirm('¿Cerrar sesión en este dispositivo?')) cerrarSesion(); };
@@ -780,6 +854,11 @@
     });
 
     const notas = d.notasRaw.map((n) => ({ ref: n.referencia || '', en: n.texto_en || '', es: n.texto_es || '', nbla: n.texto_nbla || '', exp: n.explicacion || '' }));
+    let sugRef = '';
+    const notasA = notas.map((n) => { const q = quitarInvitacionEstudio(n.exp); if (q.sug) sugRef = q.sug; return Object.assign({}, n, { exp: q.exp }); });
+    const sugCap = sugRef ? g(() => pasoDiarioCapituloDesdeReferencia(sugRef), null) : null;
+    const sugOtro = sugCap && !(d.destino && d.destino.libro === sugCap.libro && d.destino.capitulo === sugCap.capitulo);
+    const pfIdx = STEP_IDS.indexOf(st.pfDesde);
     const cal = calendario();
     const banco = Object.values(g(() => getBancoStars(), {}) || {}).sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
     const saved = banco.map((x, i) => {
@@ -842,9 +921,12 @@
     const plAll = PLAYLISTS.map((l, i) => ({
       sz: l.n === 'Spirit' ? 'tall' : '', no: '0' + (i + 1), mom: PL_MOM[l.n], n: l.n, d: l.d, k: PL_KEY[l.n], cc: PL_CC[l.n],
       cls: st.pl === l.n ? 'on' : '', spirit: l.n === 'Spirit',
-      pick: () => { if (st.pl === l.n) abrir(l.url); else { st.pl = l.n; pintar(); } },
-      open: () => abrir(l.url)
+      pick: () => { if (st.pl === l.n) tocar(l.n); else { st.pl = l.n; if (st.sonando) st.sonando = l.n; pintar(); } },
+      open: () => abrir(l.url),
+      sonando: st.sonando === l.n, quieto: st.sonando !== l.n,
+      play: () => tocar(l.n), playTxt: st.sonando === l.n ? 'Pausar' : 'Escuchar', estado: st.sonando === l.n ? 'Sonando' : 'Lista'
     }));
+    const silOn = st.sonando === 'Spirit' && mainId === 'silencio';
     const plSel = plAll.filter((l) => l.n === st.pl)[0] || plAll[1];
 
     const nombre = g(() => (document.getElementById('user-name').textContent || '').trim().split(/\s+/)[0], '') || 'Juan';
@@ -880,8 +962,9 @@
       stepSub: ['Preparar el corazón', 'Lectura del pasaje', 'Profundidad del texto', 'Pregunta personal', 'Práctica del día'][sIdx],
       stepMin: ['5 min · Oración breve', '3 min · Lectura bíblica', '3 min · Desarrollo del texto', '2 min · Pregunta personal', '2 min · Práctica concreta'][sIdx],
       stepBtn: ['He completado el silencio', 'Leí el pasaje', 'He leído el análisis', 'Listo', 'Completar el día'][sIdx],
-      stepMeta: ['Sigue: Texto', 'Sigue: Análisis', 'Sigue: Reflexión', 'Sigue: Sembrar', 'Último paso del día'][sIdx],
       stepNext: completarPaso(sIdx),
+      stepAnt: { hay: sIdx > 0, n: S_NAMES[Math.max(0, sIdx - 1)], go: () => { if (sIdx === 3 || sIdx === 4) guardarTextoDiario(sIdx); ir(STEP_IDS[Math.max(0, sIdx - 1)]); } },
+      stepMeta: ['Sigue: Texto', 'Sigue: Análisis', 'Sigue: Reflexión', 'Sigue: Sembrar', 'Último paso del día'][sIdx],
       hayLeer: esLeer, leerPaso: mainId === 'analisis' ? hablarAna : hablarTexto,
       leerPasoOn: hablando ? 'on' : '', leerPasoSt: 'st-' + mainId, leerPasoIco: hablando ? '❚❚' : '▶',
       leerPasoLbl: hablando ? 'Detener la lectura' : (mainId === 'analisis' ? 'Escuchar el análisis' : 'Escuchar el pasaje'),
@@ -896,10 +979,15 @@
       fraseC: CC[diaN % 5], profC: CC[(diaN + 2) % 5],
       fraseIG: isA ? () => descargarFraseA('9:16', fv, d, logoA) : () => descargarFrase('9:16'),
       frasePNG: isA ? () => descargarFraseA('1:1', fv, d, logoA) : () => descargarFrase('1:1'),
-      fraseVideo: () => videoFraseA(fv, d, logoA), fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.txt : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid',
+      fraseVideo: () => (isA ? videoFraseA(fv, d, logoA) : videoFraseA(estiloFrase2027(diaN % 5), d, PAPEL)),
+      fraseVidOn: st.video ? 'on' : '', fraseVidSub: st.video ? 'Preparando… ' + st.video.txt : 'En movimiento', fraseVideoTxt: st.video ? 'Preparando el video… ' + st.video.txt : 'Descargar video', fraseVideoCls: st.video ? 'btn ghost block vid on' : 'btn ghost block vid', fraseVideoDca: st.video ? 'dca-btn vid on' : 'dca-btn vid',
       fraseSt: fv.css, fraseCls: 'story fv-' + fv.id, fraseQ: '«' + limpiarFrase(d.frase) + '»', fraseNota: fv.nota,
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
+      notasA: notasA,
+      musSil: { on: silOn, cls: silOn ? 'on' : '', ico: silOn ? '❚❚' : '▶', toggle: () => tocar('Spirit') },
+      pfSug: { hay: Boolean(sugOtro), t: sugCap ? sugCap.libro + ' ' + sugCap.capitulo : '', go: () => { if (sugCap) abrirCapitulo(sugCap.libro, sugCap.capitulo); } },
+      pfVolver: { t: pfIdx >= 0 ? 'Volver a ' + S_NAMES[pfIdx] : 'Volver al Paso Diario', d: pfIdx >= 0 ? 'A ' + S_NAMES[pfIdx] : 'Al Paso Diario', go: pfIdx >= 0 ? () => ir(STEP_IDS[pfIdx]) : go.hoy },
       mapa: mapa, mapaTxt: mapa.libros + (mapa.libros === 1 ? ' libro empezado' : ' libros empezados') + (mapa.completos ? ' · ' + mapa.completos + (mapa.completos === 1 ? ' completo' : ' completos') : ''),
       capSemMeta: capSemMeta,
       guardarDia: () => { g(() => toggleBancoDiaActivo()); pintar(); },
@@ -919,7 +1007,7 @@
       cfgTitle: isA ? 'Configuración' : 'Ajustes',
       expOn: { clasica: isA0 ? 'on' : '', moderna: isA0 ? '' : 'on' },
       setExp: { clasica: () => cambiarExp('clasica'), moderna: () => cambiarExp('moderna') },
-      optAc: isA0 ? 'on' : '', optBc: isA0 ? '' : 'on', elGo: 'Continuar con el modelo ' + (isA0 ? '2026' : '2027'),
+      optAc: isA0 ? 'on' : '', optBc: isA0 ? '' : 'on', elGo: 'Continuar con ' + (isA0 ? 'El Buen Camino' : 'Una Vida a Todo Color'),
       temaOn: { lhscol: tema === 'lhscol' ? 'on' : '', oxigeno: tema === 'oxigeno' ? 'on' : '', mesa: tema === 'mesa' ? 'on' : '', sala: tema === 'sala' ? 'on' : '' },
       setTema: { lhscol: () => cambiarTema('lhscol'), oxigeno: () => cambiarTema('oxigeno'), mesa: () => cambiarTema('mesa'), sala: () => cambiarTema('sala') },
       toggleLuz: () => { st.luz = st.luz === 'noche' ? 'dia' : 'noche'; setPref('stars_modo', st.luz); pintar(); },
@@ -931,8 +1019,11 @@
       lmode: { diario: st.lmode === 'profundo' ? '' : 'on', profundo: st.lmode === 'profundo' ? 'on' : '' },
       setLmode: { diario: set({ lmode: 'diario' }), profundo: set({ lmode: 'profundo' }) },
       lsteps: (st.lmode === 'profundo' ? LANDING_PROFUNDO : LANDING_DIARIO).map((x, i) => ({ L: x[0], n: x[1], min: x[2], d: x[3], cc: CC[i] })),
-      verMetodo: () => { const el = document.querySelector('#rd-root .ld-seg'); if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' }); },
+      verMetodo: () => { const el = Array.from(document.querySelectorAll('#rd-root .ld-seg')).filter((x) => x.offsetParent)[0]; if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' }); },
       splMeta: fechaLarga(key),
+      ldTag: isA0 ? 'Disfruta el Buen Camino.' : 'Una Vida a Todo Color.',
+      ldStar: isA0 ? logoA : star,
+      splQ: isA0 ? '«Disfruta el Buen Camino.»' : '«Una Vida a Todo Color.»',
       pinDots: [0, 1, 2, 3].map((i) => (i < pin.buf.length ? 'on' : '')),
       pinMsg: pin.modo === 'crear' ? 'Crea un PIN de 4 dígitos para tu diario.' : (pin.modo === 'confirmar' ? 'Escríbelo otra vez para confirmarlo.' : 'Solo tú puedes verlo. Ingresa tu PIN.'),
       keys: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'].map((k) => ({ k: k, cls: k === '' ? 'blank' : '', pick: () => tecla(k) })),
@@ -945,8 +1036,7 @@
       fontBtns: [0, 1, 2, 3, 4].map((i) => ({ cls: i === fuenteIdx() ? 'on' : '', l: ['Muy pequeña', 'Pequeña', 'Normal', 'Grande', 'Muy grande'][i], pick: () => cambiarFuente(i) })),
       fontMenos: () => cambiarFuente(fuenteIdx() - 1), fontMas: () => cambiarFuente(fuenteIdx() + 1),
       nov: novedades(() => { if (d.destino) abrirCapitulo(d.destino.libro, d.destino.capitulo); }),
-      rifa: rifa(),
-      cuaderno: () => aviso('Escribe en tu cuaderno. El paso se marca igual al tocar el botón de abajo.')
+      rifa: rifa()
     }, pp);
   }
 
@@ -1099,6 +1189,13 @@
     ];
     const e = estilos[((n % 3) + 3) % 3];
     e.css = '--fbg:' + e.bg + ';--fink:' + e.ink + ';--facc:' + e.acc + ';--fmut:' + e.mut;
+    return e;
+  }
+  // Modelo 2027 · el video usa el color del día de la tarjeta de la frase (colores de los pasos).
+  function estiloFrase2027(i) {
+    const c = ['#97a4e6', '#6cc0c4', '#e6b24c', '#ff7f57', '#a3cc72'][i] || '#ff7f57';
+    const e = { id: 'color', bg: c, ink: '#12110f', acc: '#12110f', mut: 'rgba(18,17,15,.66)', logo: '#12110f' };
+    e.css = '';
     return e;
   }
   function limpiarFrase(t) { return String(t || '').replace(/^[\s"'«“”]+|[\s"'»“”]+$/g, '').trim(); }

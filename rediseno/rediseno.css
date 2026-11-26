@@ -531,7 +531,6 @@
 /* ═════════ v30 · espacio de diario en Reflexión y Sembrar (Clásica) ═════════ */
 .diarybox{display:flex;flex-direction:column;gap:8px}
 .diarybox .field{min-height:150px}
-.diaryfoot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
 
 
 /* ═════════ v32 · Escuchar discreto: solo un ícono junto al título ═════════ */
@@ -635,7 +634,6 @@
 .frame.a .novs > .card.n3 .h3,.frame.a .novs > .card.n3 .quote{color:inherit}
 
 /* ═════════ v56 · Moderna: «Solo tú · se guarda en tu diario» en pastilla negra ═════════ */
-.frame.b .stepmain .diaryfoot .badge{background:var(--on-accent) !important;border:0 !important;color:var(--on-accent-ink) !important}
 
 /* ═════════ v64 · Paso Profundo con el mismo panel de Paso Diario ═════════ */
 .segs.s10{grid-template-columns:repeat(10,minmax(0,1fr))}
@@ -1919,3 +1917,153 @@
 .fs-acts > .btn{width:100% !important}
 .fs-acts .vid{border-color:var(--line-strong) !important;color:var(--ink) !important}
 .fs-acts .vid.on{border-color:var(--accent) !important;color:var(--accent-ink) !important}
+
+/* ═════════ v101 · Observaciones de Juan en tablet vertical (26 nov) ═════════ */
+/* Paso Diario y Paso Profundo (2026) en tablet vertical: los bloques de abajo alineados arriba y abajo */
+@container (min-width: 600px) and (max-width: 999px){
+ .hoya > section.narrow-only,.pphoy .hoya > section:not(.dia){display:contents !important}
+ .hoya > section:not(.dia) > .label{grid-column:1 !important;grid-row:2 !important;margin-bottom:-8px}
+ .hoya > section:not(.dia) > .hondo{grid-column:1 !important;grid-row:3 / span 2 !important;grid-auto-rows:minmax(0,1fr);align-self:stretch}
+ .hoya > .rachacard{grid-column:2 !important;grid-row:3 !important}
+ .hoya > .blogcap{grid-column:2 !important;grid-row:4 !important;align-self:stretch}
+ .pphoy .hoya > section:not(.dia) > .hondo{grid-row:3 !important}
+ .pphoy .hoya > .semcap{grid-column:2 !important;grid-row:3 !important;align-self:stretch;justify-content:center}
+ .pphoy .hoya > .cest{grid-column:1 / -1 !important;grid-row:4 !important}
+ .hoya .hondo > button > strong{white-space:nowrap}
+}
+/* Texto: la línea entre NBLA y MSG solo cuando se ven las dos a la vez (el texto ya no se mueve al cambiar) */
+@container (max-width: 899px){.par .pcol + .pcol{border-top:0;padding-top:0}}
+/* Día completo: vista previa cuadrada de la frase, sin logo */
+.story.mini{aspect-ratio:1/1;width:100%;justify-content:center;gap:18px}
+/* Profundizar: etiqueta MSG junto al versículo y botones al final */
+.pf-vrow{display:flex;align-items:center;gap:10px}
+.pf-tag{font:600 11px/1 var(--f-ui);color:var(--accent-ink)}
+.pf-acts{display:flex;flex-direction:column;gap:10px;width:100%;max-width:420px;margin:14px auto 0}
+/* Pasos: anterior y siguiente */
+.steprow{display:flex;align-items:stretch;gap:10px;width:100%}
+.steprow > .btn.block{flex:1 1 auto;width:auto}
+.steprow > .stepback{flex:0 0 auto;width:auto !important;padding-left:22px !important;padding-right:22px !important;white-space:nowrap}
+/* Modelo 2027 · las mismas funciones del 2026 */
+.vtags{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.vtag-msg{font:600 11px/1 var(--f-ui);color:var(--ink-soft);padding-left:2px}
+.mx-pf-rest{display:flex;flex-direction:column;gap:12px}
+.mx-pf-rest > p{font:400 17px/28px var(--f-r);color:var(--ink-soft);max-width:62ch}
+.pfb-acts{grid-template-columns:minmax(0,1fr) !important;grid-template-rows:none !important}
+.bx.on{pointer-events:none;opacity:.8}
+.mx-dlb.on{pointer-events:none;border-color:var(--ink) !important}
+.mx-dl{max-width:420px}
+@container (min-width: 600px) and (max-width: 999px){
+ .hoyb > section.narrow-only{display:contents !important}
+ .hoyb > section.narrow-only > .label{grid-column:1 !important;grid-row:3 !important;margin-bottom:-8px}
+ .hoyb > section.narrow-only > .hondo{grid-column:1 !important;grid-row:4 / span 2 !important;grid-auto-rows:minmax(0,1fr);align-self:stretch}
+ .hoyb > .rachacard{grid-column:2 !important;grid-row:4 !important}
+ .hoyb > .blogline{grid-column:2 !important;grid-row:5 !important;align-self:stretch}
+ .hoyb .hondo > button > strong{white-space:nowrap}
+}
+.frame.b .stepmain .steprow > .stepback{background:transparent !important;border:1.5px solid currentColor !important;color:inherit !important}
+/* Los pasos: el encabezado no se estira según el largo del texto (NBLA/MSG ya no mueven nada) */
+.stepgrid{align-content:start}
+/* Música dentro de la app (todos los modelos) */
+.rd-yt{width:100%;max-width:460px;margin:12px auto 0;aspect-ratio:16/9;border-radius:var(--r-card);overflow:hidden;background:#000}
+.rd-yt > iframe{width:100%;height:100%;border:0;display:block}
+.mplayer .rd-yt,.mzw2 .rd-yt{max-width:none}
+.player.on{border-color:var(--accent) !important}
+.frame.b .stepmain .player.on{border-width:2px !important}
+
+/* ═════════ Landing del modelo 2025 · El Buen Camino ═════════
+   Muestra la app de verdad (un teléfono con el Paso Diario) y el resto con aire de libro. */
+.lda{background:var(--bg);color:var(--ink);overflow-x:hidden}
+.lda-nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:18px 20px;flex:none}
+.lda-brand{display:flex;align-items:center;gap:10px;font:300 12px/1 var(--f-ui);letter-spacing:.3em;color:var(--accent-ink)}
+.lda-brand > img{width:28px;height:28px}
+.lda-mis{min-height:40px;padding:0 18px !important;border-radius:999px;border:1px solid var(--accent) !important;color:var(--accent-ink);font:600 13px/1 var(--f-ui)}
+.lda .hub > .on{color:var(--accent-ink)}
+.lda-k{display:block;font:500 13px/18px var(--f-ui);color:var(--accent-ink)}
+.lda-h1{font:400 46px/50px var(--f-d);letter-spacing:-.01em}
+.lda-h1 > em{font-style:italic;color:var(--accent-ink)}
+.lda-h2{font:400 34px/40px var(--f-d);margin-top:10px;max-width:22ch}
+.lda-p{font:400 16px/26px var(--f-ui);color:var(--ink-soft)}
+.lda-lim{max-width:640px;margin-top:12px}
+@container (min-width: 700px){.lda-h1{font-size:72px;line-height:74px}.lda-h2{font-size:48px;line-height:54px}}
+/* Portada */
+.lda-hero{padding:28px 0 0;position:relative;overflow-x:clip}
+.lda-hero::before{content:"";position:absolute;inset:-20% -10% auto auto;width:80%;height:120%;background:radial-gradient(circle at 70% 40%,color-mix(in srgb,var(--accent) 16%,transparent),transparent 60%);pointer-events:none}
+.lda-hero-in{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:40px;align-items:center}
+@container (min-width: 1000px){.lda-hero-in{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:40px}.lda-hero{padding:56px 0 0}}
+.lda-hero-tx{display:flex;flex-direction:column;gap:20px}
+.lda-tag{font:italic 400 22px/28px var(--f-q);color:var(--accent-ink);display:flex;align-items:center;gap:12px}
+.lda-tag::before{content:"";width:36px;height:1px;background:var(--accent)}
+.lda-ctas{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:6px}
+.lda-go{width:auto !important;padding:0 28px !important}
+.lda-link{min-height:44px;font:600 15px/1 var(--f-ui);color:var(--accent-ink)}
+/* Teléfono con la pantalla real */
+.lda-phone{position:relative;justify-self:center;width:300px;height:560px;border-radius:44px;padding:10px;background:linear-gradient(160deg,#2b261d,#0f0d0a 60%);box-shadow:0 0 0 1px #3a3327,0 40px 80px rgba(0,0,0,.55);margin-bottom:-120px;z-index:1}
+.lda-glow{position:absolute;inset:-30%;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 22%,transparent),transparent 62%);z-index:-1}
+.lda-scr{height:100%;border-radius:36px;overflow:hidden;background:#0d0b08;color:#f3ede2;padding:22px 14px;display:flex;flex-direction:column;gap:12px;text-align:left}
+.lda-sbar{display:flex;align-items:center;justify-content:space-between}
+.lda-sb{display:flex;align-items:center;gap:6px;font:300 8px/1 var(--f-ui);letter-spacing:.28em;color:#d9b965}
+.lda-sb > img{width:18px;height:18px}
+.lda-card{background:#16130e;border:1px solid #2c271f;border-radius:16px;padding:14px 12px;display:flex;flex-direction:column;gap:3px}
+.lda-ck{font:600 9px/12px var(--f-ui);color:#a0957f}
+.lda-ct{font:500 22px/25px var(--f-d);color:#f3ede2}
+.lda-cr{font:italic 400 12px/16px var(--f-r);color:#d2c9b8}
+.lda-card .pills5{margin:10px 0;gap:4px}
+.lda-card .pl5{padding:8px 2px 6px !important;border-radius:9px;background:#0d0b08}
+.lda-card .pl5 > b{font-size:20px;line-height:22px}
+.lda-card .pl5 > strong{font-size:7px;line-height:9px}
+.lda-card .pl5 > em{font-size:7px;line-height:9px}
+.lda-cb{display:block;text-align:center;padding:10px;border-radius:999px;background:#c9a84c;color:#16110a;font:600 11px/1 var(--f-ui)}
+.lda-sk{font:600 9px/12px var(--f-ui);color:#a0957f;margin-top:4px}
+.lda-rows{display:flex;flex-direction:column;gap:6px}
+.lda-rows > span{display:flex;align-items:center;gap:10px;padding:9px 10px;border-radius:12px;background:#16130e;border:1px solid #2c271f}
+.lda-rows i{width:24px;height:24px;border-radius:7px;display:grid;place-items:center;background:#c9a84c1f;color:#d9b965;font:600 10px/1 var(--f-ui);font-style:normal}
+.lda-rows b{font:600 11px/1 var(--f-ui);color:#f3ede2}
+.lda-rows em{margin-left:auto;font:400 9px/1 var(--f-ui);font-style:normal;color:#a0957f}
+/* Secciones con aire de libro */
+.lda-sec{padding:64px 0;border-top:1px solid var(--line);position:relative;background:var(--bg)}
+.lda-hero + .lda-sec{padding-top:150px}
+@container (min-width: 1000px){.lda-sec{padding:96px 0}.lda-hero + .lda-sec{padding-top:170px}}
+.lda-two{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+@container (min-width: 1000px){.lda-two{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:64px}}
+.lda-col{display:flex;flex-direction:column;gap:16px}
+.lda-quote{margin:48px auto 0;max-width:860px;text-align:center}
+.lda-quote > p{font:italic 400 28px/38px var(--f-q);color:var(--ink)}
+@container (min-width: 700px){.lda-quote > p{font-size:38px;line-height:50px}}
+.lda-quote > span{display:block;margin-top:16px;font:500 13px/18px var(--f-ui);color:var(--accent-ink)}
+.lda-quote::before{content:"";display:block;width:48px;height:1px;background:var(--accent);margin:0 auto 26px}
+.lda-seg{border:1px solid var(--line);background:transparent !important}
+.lda-seg > button.on{background:var(--accent) !important;color:var(--on-accent) !important}
+.lda-steps{list-style:none;margin:8px 0 0;padding:0;display:grid;grid-template-columns:minmax(0,1fr);border-top:1px solid var(--line)}
+.lda-steps > li{display:grid;grid-template-columns:64px minmax(0,1fr);column-gap:16px;row-gap:4px;padding:20px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.lda-L{grid-row:span 2;font:400 54px/54px var(--f-d);color:var(--accent-ink)}
+.lda-st{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.lda-st > strong{font:500 26px/30px var(--f-d)}
+.lda-st > em{font:500 12px/16px var(--f-ui);font-style:normal;color:var(--accent-ink)}
+.lda-steps p{font:400 15px/23px var(--f-ui);color:var(--ink-soft)}
+@container (min-width: 1000px){.lda-steps{grid-template-columns:repeat(5,minmax(0,1fr));border-top:0}.lda-steps > li{grid-template-columns:minmax(0,1fr);border-bottom:0;border-left:1px solid var(--line);padding:6px 22px 0;align-content:start}.lda-steps > li:first-child{border-left:0;padding-left:0}.lda-L{grid-row:auto;font-size:72px;line-height:76px}}
+.lda-ways{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:30px}
+@container (min-width: 1000px){.lda-ways{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}}
+.lda-way{position:relative;padding:30px 26px;border-radius:var(--r-big);background:var(--surface);border:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.lda-way::before{content:"";position:absolute;left:26px;right:26px;top:0;height:2px;background:linear-gradient(90deg,var(--accent),transparent)}
+.lda-n{font:400 40px/40px var(--f-d);color:var(--accent-ink)}
+.lda-wk{font:500 13px/18px var(--f-ui);color:var(--ink-muted)}
+.lda-way > h3{font:400 40px/44px var(--f-d)}
+.lda-way > p{font:400 15px/24px var(--f-ui);color:var(--ink-soft)}
+.lda-more{list-style:none;margin:30px 0 0;padding:0;border-top:1px solid var(--line)}
+.lda-more > li{display:grid;grid-template-columns:56px minmax(0,1fr);column-gap:16px;padding:22px 0;border-bottom:1px solid var(--line)}
+.lda-more .lda-n{grid-row:span 2;font-size:30px;line-height:34px}
+.lda-more strong{font:500 26px/30px var(--f-d)}
+.lda-more p{font:400 15px/23px var(--f-ui);color:var(--ink-soft);margin-top:4px}
+@container (min-width: 1000px){.lda-more > li{grid-template-columns:90px minmax(0,1fr) minmax(0,1fr);align-items:baseline}.lda-more .lda-n{grid-row:auto}.lda-more p{margin-top:0}}
+/* Cierre */
+.lda-end{padding:88px 0 64px;border-top:1px solid var(--line);background:radial-gradient(circle at 50% 0,color-mix(in srgb,var(--accent) 18%,transparent),transparent 55%),var(--bg)}
+.lda-end-in{display:flex;flex-direction:column;align-items:center;text-align:center;gap:18px}
+.lda-endstar{width:92px;height:92px;filter:drop-shadow(0 0 24px color-mix(in srgb,var(--accent) 60%,transparent));margin-bottom:6px}
+.lda-endt{max-width:16ch}
+.lda-end-in > .lda-p{max-width:560px}
+.lda-peter{margin-top:40px;max-width:640px;font:italic 400 21px/31px var(--f-q);color:var(--ink-soft)}
+.lda-peter > span{display:block;margin-top:10px;font:500 12px/16px var(--f-ui);font-style:normal;color:var(--accent-ink)}
+.lda-foot{display:flex;flex-direction:column;gap:12px;padding-top:40px;padding-bottom:40px;border-top:1px solid var(--line)}
+.lda-ft{font:400 24px/30px var(--f-d)}
+@media (prefers-reduced-motion: no-preference){.lda-phone{animation:ldaUp 1s cubic-bezier(.2,.7,.2,1) both}.lda-hero-tx{animation:ldaUp .8s ease-out both}}
+@keyframes ldaUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
