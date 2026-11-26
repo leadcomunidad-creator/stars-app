@@ -2083,12 +2083,7 @@
 .rd-songs-t{display:flex !important;align-items:center;justify-content:center;width:100%;max-width:460px;margin:10px auto 0;min-height:40px;font:600 13px/1 var(--f-ui);color:var(--accent-ink)}
 .frame.b .rd-songs-t{color:inherit}
 .mplayer .rd-songs-t,.mzw2 .rd-songs-t{max-width:none}
-/* Barras de sonido: delgadas siempre y en movimiento solo mientras suena la música */
-.eqw{justify-content:flex-start;gap:4px}
-.eqw > i{flex:0 0 4px;border-radius:2px}
-.mplayer.big .eqw{gap:6px}
-.mplayer.big .eqw > i{flex-basis:6px;border-radius:3px}
-.eqw > i,.eqb > i,.eqm > i{animation-play-state:paused}
-.mplayer.suena .eqw > i,.mzw2.suena .eqb > i,.mzt.suena .eqm > i{animation-play-state:running}
-.eqb{justify-content:flex-start}
-.eqb > i{flex:0 0 8px}
+/* Barras de sonido: el mismo ancho de siempre; en pantallas grandes aparecen más barras en vez de estirarse */
+.eqw{overflow:hidden}
+.eqw > i{flex:0 0 auto;width:10px}
+.mplayer.big .eqw > i{width:12px}

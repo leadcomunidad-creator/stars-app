@@ -973,7 +973,7 @@
       cls: st.pl === l.n ? 'on' : '', spirit: l.n === 'Spirit',
       pick: () => { if (st.pl === l.n) tocar(l.n); else { st.pl = l.n; if (st.sonando) st.sonando = l.n; pintar(); } },
       open: () => abrir(l.url),
-      sonando: st.sonando === l.n, quieto: st.sonando !== l.n, suenaCls: st.sonando === l.n ? 'suena' : '',
+      sonando: st.sonando === l.n, quieto: st.sonando !== l.n,
       play: () => tocar(l.n), playTxt: st.sonando === l.n ? 'Pausar' : 'Escuchar', estado: st.sonando === l.n ? 'Sonando' : 'Lista'
     }));
     const silOn = st.sonando === 'Spirit' && mainId === 'silencio';
