@@ -56,7 +56,10 @@
     timer: { key: '', start: 0, done: false },
     lastMode: '',
     pfDesde: '',
-    sonando: ''
+    sonando: '',
+    canciones: [],
+    cancAbierta: false,
+    cancionIdx: -1
   };
   if (['lhscol', 'oxigeno', 'mesa', 'sala'].indexOf(st.tema) < 0) st.tema = 'lhscol';
 
@@ -103,13 +106,60 @@
         usada = true;
         if (c.__lista !== n) {
           c.__lista = n;
-          c.innerHTML = '<iframe src="https://www.youtube.com/embed/videoseries?list=' + listaId(n) + '&autoplay=1&playsinline=1&rel=0" title="' + n + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+          c.innerHTML = '<iframe src="https://www.youtube.com/embed/videoseries?list=' + listaId(n) + '&autoplay=1&playsinline=1&rel=0&enablejsapi=1&origin=' + encodeURIComponent(location.origin) + '" title="' + n + '" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>';
+          conectarReproductor(c.querySelector('iframe'), n);
         }
       } else if (c.__lista) { c.__lista = ''; c.innerHTML = ''; }
     });
+    if (!usada && st.canciones.length) { st.canciones = []; st.cancionIdx = -1; repro.player = null; repro.lista = ''; pintar(); }
     const silencioCorre = st.screen === 'silencio' && st.timer.key === getTodayKey() && st.timer.start && !st.timer.done;
     pantallaEncendida(Boolean(st.sonando) || Boolean(silencioCorre));
   }
+  /* Lista de canciones: el reproductor de YouTube entrega los videos de la playlist; el nombre de
+     cada canción se pide a YouTube (oEmbed, sin claves). Tocar una canción la pone a sonar. */
+  const repro = { player: null, lista: '' };
+  function apiYouTube() {
+    if (window.YT && window.YT.Player) return Promise.resolve(true);
+    return new Promise((ok) => {
+      const antes = window.onYouTubeIframeAPIReady;
+      window.onYouTubeIframeAPIReady = () => { if (typeof antes === 'function') antes(); ok(true); };
+      if (!document.getElementById('rd-yt-api')) {
+        const sc = document.createElement('script');
+        sc.id = 'rd-yt-api';
+        sc.src = 'https://www.youtube.com/iframe_api';
+        sc.onerror = () => ok(false);
+        document.head.appendChild(sc);
+      }
+    });
+  }
+  async function conectarReproductor(iframe, n) {
+    st.canciones = []; st.cancionIdx = -1; st.cancAbierta = false; repro.lista = n; repro.player = null;
+    if (!(await apiYouTube()) || !iframe || !iframe.isConnected || repro.lista !== n) return;
+    const leer = (p) => {
+      const ids = g(() => p.getPlaylist(), null) || [];
+      if (ids.length && !st.canciones.length && repro.lista === n) {
+        st.canciones = ids.slice(0, 60).map((id) => ({ id: id, t: '', img: 'https://i.ytimg.com/vi/' + id + '/mqdefault.jpg' }));
+        nombresCanciones(n);
+      }
+      const i = g(() => p.getPlaylistIndex(), -1);
+      if (i !== st.cancionIdx) { st.cancionIdx = i; pintar(); }
+    };
+    repro.player = new YT.Player(iframe, { events: { onReady: (e) => leer(e.target), onStateChange: (e) => leer(e.target) } });
+  }
+  async function nombresCanciones(n) {
+    const lista = st.canciones;
+    for (let i = 0; i < lista.length; i += 6) {
+      await Promise.all(lista.slice(i, i + 6).map(async (c) => {
+        try {
+          const r = await fetch('https://www.youtube.com/oembed?format=json&url=' + encodeURIComponent('https://www.youtube.com/watch?v=' + c.id));
+          if (r.ok) c.t = (await r.json()).title || '';
+        } catch (_) { /* sin nombre */ }
+      }));
+      if (repro.lista !== n) return;
+      pintar();
+    }
+  }
+  function elegirCancion(i) { if (repro.player && repro.player.playVideoAt) g(() => repro.player.playVideoAt(i)); st.cancionIdx = i; st.cancAbierta = false; pintar(); }
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') { candado = null; montarMusica(); } });
   function set(o) { return () => { Object.assign(st, o); pintar(); if (o.screen) arriba(); }; }
   function ir(screen, extra) { Object.assign(st, extra || {}, { screen: screen }); pintar(); arriba(); }
@@ -923,7 +973,7 @@
       cls: st.pl === l.n ? 'on' : '', spirit: l.n === 'Spirit',
       pick: () => { if (st.pl === l.n) tocar(l.n); else { st.pl = l.n; if (st.sonando) st.sonando = l.n; pintar(); } },
       open: () => abrir(l.url),
-      sonando: st.sonando === l.n, quieto: st.sonando !== l.n,
+      sonando: st.sonando === l.n, quieto: st.sonando !== l.n, suenaCls: st.sonando === l.n ? 'suena' : '',
       play: () => tocar(l.n), playTxt: st.sonando === l.n ? 'Pausar' : 'Escuchar', estado: st.sonando === l.n ? 'Sonando' : 'Lista'
     }));
     const silOn = st.sonando === 'Spirit' && mainId === 'silencio';
@@ -985,6 +1035,7 @@
       semPasos: d.sembrarPasos, semLink: d.sembrarLink, semVarios: d.sembrarPasos.length > 1 ? 'varios' : 'uno',
       brv: partirBreve(d.breve),
       notasA: notasA,
+      canc: { hay: st.canciones.length > 0, abierta: st.canciones.length > 0 && st.cancAbierta, txt: 'Elegir canción · ' + st.canciones.length + (st.cancAbierta ? ' ▴' : ' ▾'), toggle: () => { st.cancAbierta = !st.cancAbierta; pintar(); }, items: st.canciones.map((c, i) => ({ t: c.t || 'Cargando…', img: c.img, cls: i === st.cancionIdx ? 'on' : '', go: () => elegirCancion(i) })) },
       musSil: { on: silOn, cls: silOn ? 'on' : '', ico: silOn ? '❚❚' : '▶', toggle: () => tocar('Spirit') },
       pfSug: { hay: Boolean(sugOtro), t: sugCap ? sugCap.libro + ' ' + sugCap.capitulo : '', go: () => { if (sugCap) abrirCapitulo(sugCap.libro, sugCap.capitulo); } },
       pfVolver: { t: pfIdx >= 0 ? 'Volver a ' + S_NAMES[pfIdx] : 'Volver al Paso Diario', d: pfIdx >= 0 ? 'A ' + S_NAMES[pfIdx] : 'Al Paso Diario', go: pfIdx >= 0 ? () => ir(STEP_IDS[pfIdx]) : go.hoy },
